@@ -1,3 +1,7 @@
+import pysqlite3
+import sys
+sys.modules['sqlite3'] = sys.modules.pop(pysqlite3)
+
 import streamlit as st
 import os
 from glob import glob
@@ -118,7 +122,7 @@ if "retriever" not in st.session_state:
     # vectordb는 chromadb사용함
 
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-    vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
+    vectordb = chromadb(documents=chunks, embedding=embeddings)
     print("Retriever Done.")
     st.session_state.retriever = vectordb.as_retriever()
     
