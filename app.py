@@ -31,16 +31,16 @@ def stream_data(response):
         yield word + " "
         time.sleep(0.02)
 
-def pdf_load(dir):
-    input_docs = []
-    # Load all PDF files using PyPDFLoader
-    input_pdf_files = glob(os.path.join(dir, '*.pdf'))
-    for pdf_file in input_pdf_files:
-        loader = PyPDFLoader(pdf_file)
-        pdf_documents = loader.load()
-        input_docs.extend(pdf_documents)
+# def pdf_load(dir):
+#     input_docs = []
+#     # Load all PDF files using PyPDFLoader
+#     input_pdf_files = glob(os.path.join(dir, '*.pdf'))
+#     for pdf_file in input_pdf_files:
+#         loader = PyPDFLoader(pdf_file)
+#         pdf_documents = loader.load()
+#         input_docs.extend(pdf_documents)
         
-    return input_docs
+#     return input_docs
         
 
 documents = []
