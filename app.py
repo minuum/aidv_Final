@@ -45,7 +45,7 @@ def pdf_load(dir):
         
 
 documents = []
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY =st.secrets["OPENAI_API_KEY"]
 #pdf_directory = './data'
 
 if "OPENAI_API" not in st.session_state:
