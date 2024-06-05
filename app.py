@@ -2,6 +2,7 @@ import streamlit as st
 import os
 from glob import glob
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import Chroma
@@ -31,14 +32,14 @@ def stream_data(response):
         yield word + " "
         time.sleep(0.02)
 
-# def pdf_load(dir):
-#     input_docs = []
-#     # Load all PDF files using PyPDFLoader
-#     input_pdf_files = glob(os.path.join(dir, '*.pdf'))
-#     for pdf_file in input_pdf_files:
-#         loader = PyPDFLoader(pdf_file)
-#         pdf_documents = loader.load()
-#         input_docs.extend(pdf_documents)
+def pdf_load(dir):
+    input_docs = []
+    # Load all PDF files using PyPDFLoader
+    input_pdf_files = glob(os.path.join(dir, '*.pdf'))
+    for pdf_file in input_pdf_files:
+        loader = PyPDFLoader(pdf_file)
+        pdf_documents = loader.load()
+        input_docs.extend(pdf_documents)
         
 #     return input_docs
         
