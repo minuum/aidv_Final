@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011516",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011516",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 거미를 굉장히 무서워하는데, 거미가 이로운 동물이라는 얘기를 듣고 좀 놀랐어. 거미가 사람들에게 이로운 이유에 대해서 알고 있어?",
+            "turn_id": "BK22011516-1",
+            "utterance_id": "BK22011516.1"
+        },
+        {
+            "reference_date": "2018-08-11",
+            "reference_text": [
+                {
+                    "value": "실제로 거미는 주로 다른 곤충류를 섭식하는 포식자다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 과정에서 많은 해충을 제거하므로 익충으로 분류된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간이나 가축에 해를 끼치는 파리·모기·바퀴 등의 위생곤충뿐만 아니라 산림해충이나 농작물 해충을 잡아먹는 천적으로서 인간에게 많은 도움을 주고 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20180810057100054",
+            "search_query": "거미 익충",
+            "terminate": false,
+            "text": "응, 거미는 주로 다른 곤충들을 잡아먹는 포식자에 속해. 포식의 과정에서 해충들 역시 많이 잡아먹기 때문에 인간에게 많은 도움을 주는 익충으로 분류되지. 거미는 위생 곤충인 모기나 바퀴벌레뿐만 아니라 산림 해충이나 농작물 해충의 천적이기도 하거든.",
+            "turn_id": "BK22011516-1",
+            "utterance_id": "BK22011516.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거미가 주로 해충을 잡아먹어서 우리에게 도움이 되는구나. 보통 거미들은 거미줄을 이용해서 사냥을 하는 것 같던데, 어떻게 거미줄을 만드는 거야?",
+            "turn_id": "BK22011516-2",
+            "utterance_id": "BK22011516.3"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "거미는 항문 주위의 실젖 쪽을 들어올려 바람이 부는 방향으로 거미줄을 뽑아낸다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 먼저 다리실(기초실)을 만든 뒤 역삼각형으로 틀실을 만든다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이어 틀실을 기본으로 끈끈이가 없는 세로실을 친다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런 다음 가로실(씨줄)을 안에서 밖으로 친다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마지막으로 끈끈이가 있는 가로실(날줄)을 밖에서 안으로 치면서 1시간 안에 완성한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4389",
+            "search_query": "거미줄 만드는 법",
+            "terminate": false,
+            "text": "거미는 바람이 부는 쪽으로 거미줄을 뽑는데, 항문 근처의 실젖 쪽을 들어 올려서 뽑아내지. 거미줄을 만드는 과정은 먼저 기초실을 만든 후, 역삼각형으로 틀실을 만들어. 그리고 틀실을 기반으로 끈끈이가 없는 세로실을 치고, 안에서 바깥으로 씨줄을 치지. 끝으로 끈끈이가 있는 날줄을 바깥에서 안쪽으로 치면 1시간 내에 거미줄이 완성 돼.",
+            "turn_id": "BK22011516-2",
+            "utterance_id": "BK22011516.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거미는 여러 단계를 거쳐서 거미줄을 완성하는구나. 모든 거미들이 다 거미줄을 만들어?",
+            "turn_id": "BK22011516-3",
+            "utterance_id": "BK22011516.5"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "대부분의 거미는 점액을 만드는 특수한 기관을 이용하여 거미줄을 만드는 정주성(定住性) 거미이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 물거미, 게거미, 깡충거미, 농발거미처럼 거미줄을 만들지 않는 배회성(徘徊性) 거미도 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AF%B8",
+            "search_query": "정주성 거미와 배회성 거미",
+            "terminate": false,
+            "text": "그렇지는 않아. 대다수의 거미는 정주성 거미로 특수 기관에서 나오는 점액으로 거미줄을 만들지만, 그렇지 않은 거미들도 있어. 거미줄을 만들지 않는 거미를 배회성 거미라고 하는데, 물거미와 게거미, 깡충거미 등이 해당되지.",
+            "turn_id": "BK22011516-3",
+            "utterance_id": "BK22011516.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거미줄을 치지 않는 거미도 있구나. 그러면 배회성 거미는 어떻게 먹이를 잡아먹어?",
+            "turn_id": "BK22011516-4",
+            "utterance_id": "BK22011516.7"
+        },
+        {
+            "reference_date": "2016-10-15",
+            "reference_text": [
+                {
+                    "value": "깡총거미는 거미줄을 치지 않고 돌아다니며 먹이를 잡는 배회성 거미다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금까지 이런 거미는 시각과 촉각에 의존해 사냥을 하는 것으로 알려졌다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20161014000424",
+            "search_query": "배회성 거미 사냥",
+            "terminate": false,
+            "text": "깡충거미를 비롯한 배회성 거미는 거미줄을 치지 않기 때문에 돌아다니면서 사냥을 하지. 현재까지 알려진 바로는 배회성 거미의 경우 시각과 촉각에 의존하여 먹이를 사냥해.",
+            "turn_id": "BK22011516-4",
+            "utterance_id": "BK22011516.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배회성 거미는 거미줄을 치는 대신 직접 사냥을 하러 다니는구나. 우리나라에는 대개 어떤 거미들이 서식하고 있어?",
+            "turn_id": "BK22011516-5",
+            "utterance_id": "BK22011516.9"
+        },
+        {
+            "reference_date": "2021-10-14",
+            "reference_text": [
+                {
+                    "value": "그중 우리나라에 사는 거미는 730여 종에 이른다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표 선수로는 왕거미와 산왕거미, 호랑거미, 무당거미, 깡총거미 등이 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=1133",
+            "search_query": "국내 거미 종류",
+            "terminate": false,
+            "text": "국내에 서식하는 거미는 730여 종에 달하는데, 대표적인 종류로는 무당거미와 호랑거미, 왕거미 등이 있어.",
+            "turn_id": "BK22011516-5",
+            "utterance_id": "BK22011516.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 많은 종류의 거미가 우리나라에 살고 있구나. 거미는 보통 얼마나 오래 살아?",
+            "turn_id": "BK22011516-6",
+            "utterance_id": "BK22011516.11"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "거미는 대부분 짧게는 최소 1~2년, 길게는 20년 정도 살게 되며, 탈바꿈은 한번도 하지 않는다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AF%B8",
+            "search_query": "거미 수명",
+            "terminate": false,
+            "text": "거미의 수명은 짧게는 최소 1년에서 2년 정도이고, 길게는 20년 정도야. 그리고 일생 동안 탈바꿈을 하지 않고 살아가지.",
+            "turn_id": "BK22011516-6",
+            "utterance_id": "BK22011516.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거미도 수명이 천차만별이네. 예전에 거미를 애완 동물로 키운다는 얘기를 들은 적이 있는데, 주로 어떤 거미를 애완용으로 키우는 거야?",
+            "turn_id": "BK22011516-7",
+            "utterance_id": "BK22011516.13"
+        },
+        {
+            "reference_date": "2013-12-27",
+            "reference_text": [
+                {
+                    "value": "손바닥만한 크기의 초대형 거미인 타란툴라는 아름다운 색깔과 무늬를 갖고 있어 동호인 사이에서 애완용으로 인기가 있는 거미다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20131226220100004?section=search",
+            "search_query": "애완 거미",
+            "terminate": false,
+            "text": "동호인들 사이에서 애완용으로 인기를 끌고 있는 거미는 타란툴라야. 타란툴라는 아름다운 무늬와 색깔을 가진 초대형 거미로, 보통 손바닥 만하지.",
+            "turn_id": "BK22011516-7",
+            "utterance_id": "BK22011516.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "타란툴라가 애완 거미로 인기가 많구나. 거미를 애완 동물로 키우면 위험하지 않아?",
+            "turn_id": "BK22011516-8",
+            "utterance_id": "BK22011516.15"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "애완용으로 사육되는 타란툴라는 꽤 유순한 편이며 화가 나지 않는 이상 잘 물려고 하지 않지만, 종에 따라 성격과 독성은 다르다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EB%9E%80%ED%88%B4%EB%9D%BC",
+            "search_query": "타란툴라",
+            "terminate": false,
+            "text": "보통 애완용으로 키우는 타란툴라는 성격이 순한 편이야. 화가 나지 않으면 잘 물지도 않지. 그러나 타란툴라도 종에 따라 독성이나 성격이 다르기 때문에 주의해야 해.",
+            "turn_id": "BK22011516-8",
+            "utterance_id": "BK22011516.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "타란툴라가 비교적 공격성이 낮은 거미라서 애완용으로 키우는 것이 가능하구나. 거미에 대해 구체적으로 알고 나니 거미가 조금 덜 무서워졌어.",
+            "turn_id": "BK22011516-9",
+            "utterance_id": "BK22011516.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부정적인 고정관념에 비해 거미가 우리에게 이로운 동물임은 틀림없지.",
+            "turn_id": "BK22011516-9",
+            "utterance_id": "BK22011516.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 거미에 관한 유익한 정보들을 많이 알려줘서 고마워.",
+            "turn_id": "BK22011516-10",
+            "utterance_id": "BK22011516.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 궁금한 것이 있을 때는 언제든 물어봐도 좋아.",
+            "turn_id": "BK22011516-10",
+            "utterance_id": "BK22011516.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 궁금한 게 생기면 또 연락할게!",
+            "turn_id": "BK22011516-11",
+            "utterance_id": "BK22011516.21"
+        }
+    ]
+}

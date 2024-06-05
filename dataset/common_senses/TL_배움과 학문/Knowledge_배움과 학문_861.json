@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005608",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005608",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 부산 해수욕장에 해파리가 나타난다고 하던데 얘기 알고 계세요?",
+            "turn_id": "BK22005608-1",
+            "utterance_id": "BK22005608.1"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "8일 부산 기장군 임랑해수욕장수상구조대에 따르면 지난 6일 오전 8시30분 임랑해수욕장 앞 바다에 최대 3m(촉수 포함)에 달하는 노무라입깃해파리 50여 마리가 나타났다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출현한 해파리 중 20여 마리는 성체 크기였던 것으로 알려졌다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208081416527267",
+            "search_query": "부산 해수욕장 해파리",
+            "terminate": false,
+            "text": "네, 알고 있어요. 지난 8일 부산 기장군에 있는 임랑해수욕장 구조대에 따르면 6일 오전 8시30분 임랑해수욕장 앞바다에서 촉수를 포함해 최대 3미터에 달하는 노무라입깃해파리 50여마리가 나타났어요. 이 중 20여마리는 성체 크기로 알려졌죠.",
+            "turn_id": "BK22005608-1",
+            "utterance_id": "BK22005608.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해파리가 사람을 쏘기도 하나요?",
+            "turn_id": "BK22005608-2",
+            "utterance_id": "BK22005608.3"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "해수욕장에 해파리가 나타나 무더위를 피해온 피서객들 39명이 쏘이는 사고가 발생했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/08/695924/",
+            "search_query": "해운대 해수욕장 해파리 쏘이는 사고",
+            "terminate": false,
+            "text": "그럼요, 이번에 놀러온 피서객들 39명이 해파리에 쏘였는걸요.",
+            "turn_id": "BK22005608-2",
+            "utterance_id": "BK22005608.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그렇군요. 이번에 나타났다던 노무라입깃 해파리에게 쏘이면 어떻게 되나요?",
+            "turn_id": "BK22005608-3",
+            "utterance_id": "BK22005608.5"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "해파리 종류 중에 가장 큰 노무라입깃해파리는 쏘이면 발진, 통증, 가려움증이 생긴다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심할 경우에는 쇼크로 사망할 수도 있다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/08/695924/",
+            "search_query": "노무라입깃해파리 통증",
+            "terminate": false,
+            "text": "노무라입깃해파리는 해파리 종류 중에서도 가장 큰 해파리에요. 쏘인다면 발진이나 통증이 올 수 있고 가려움증도 생길 수 있어요. 혹시라도 심할 경우에는 쇼크로 죽을지도 몰라요.",
+            "turn_id": "BK22005608-3",
+            "utterance_id": "BK22005608.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 사망할 수도 있다니 가볍게 넘기면 안되겠네요. 그럼 혹시라도 쏘인다면 응급처치는 어떻게 해야 하나요?",
+            "turn_id": "BK22005608-4",
+            "utterance_id": "BK22005608.7"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "해파리에 쏘인 경우 즉시 신속한 대처를 해야 한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약하게 쏘였을 경우 물 밖으로 나와 쏘인 부위에 남아있는 촉수를 바닷물 또는 생리식염수를 통해 씻어내야 한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수돗물로 씻어낼 경우 상처에 독침이 더 퍼질 수 있어 상태가 악화될 수 있다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통증이 남아있다면 온찜질(45도 내외)도 필요하다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208081416527267",
+            "search_query": "해파리 쏘인 경우 신속한 대처",
+            "terminate": false,
+            "text": "해파리에 쏘이면 최대한 신속하게 대처를 해야 해요. 약하게 쏘였다면 물 밖으로 나와 쏘인 부분을 씻어내야 하는데 이 때 수돗물로 씻어내면 상처에 독침이 퍼질 수 있으니 쏘인 부위에 남아있는 촉수를 꼭 바닷물이나 생리식염수로 씻어내야 해요. 그러고 나서도 통증이 계속 된다면 45도 내외의 온찜질을 하는 것도 좋고요.",
+            "turn_id": "BK22005608-4",
+            "utterance_id": "BK22005608.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 약하게 쏘인 게 아니라 상태가 심각한 상황이라면요?",
+            "turn_id": "BK22005608-5",
+            "utterance_id": "BK22005608.9"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "호흡곤란 등 심각한 증상이 나타날 때는 즉시 병원으로 옮겨 의료진의 도움을 받아야 한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208081416527267",
+            "search_query": "해파리 쏘인 경우 심각한 증상",
+            "terminate": false,
+            "text": "혹시라도 호흡곤란이 오거나 심각한 증상이 보일 때에는 바로 병원으로 가서 전문의의 치료를 받아야 해요.",
+            "turn_id": "BK22005608-5",
+            "utterance_id": "BK22005608.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 심각한 문제 같아요. 그런데 해파리가 이렇게 나타나는 이유가 뭔가요?",
+            "turn_id": "BK22005608-6",
+            "utterance_id": "BK22005608.11"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "일부 언론은 노무라입깃해파리 출몰 원인으로 기후변화로 인한 해수 온도 상승을 지목했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=12749",
+            "search_query": "해파리 높은 수온",
+            "terminate": false,
+            "text": "일부 언론에서는 기후 변화로 수온이 높아진 탓에 노무라입깃해파리가 출몰했다고 얘기하고 있어요.",
+            "turn_id": "BK22005608-6",
+            "utterance_id": "BK22005608.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 부산 해수욕장을 제외한 다른 해수욕장은 괜찮은 건가요?",
+            "turn_id": "BK22005608-7",
+            "utterance_id": "BK22005608.13"
+        },
+        {
+            "reference_date": "2022-08-14",
+            "reference_text": [
+                {
+                    "value": "앞서 지난달 말까지 해양수산부와 국립수산과학원에 신고된 해파리 쏘임 신고는 모두 502건으로 제주 340건, 부산 76건, 경남 46건, 강원 17건 순이었습니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikbc.co.kr/article/view/kbc202208140011",
+            "search_query": "해파리 쏘임 신고",
+            "terminate": false,
+            "text": "그렇지 않아요. 해양수산부와 국립수산 과학원에 신고된 해파리 쏘임 신고는 지난달 말까지 모두 502건으로 제주가 340건, 부산은 76건, 경남 46건이고, 강원은 17건 순으로 부산 외의 지역에서도 계속 발생되고 있어요.",
+            "turn_id": "BK22005608-7",
+            "utterance_id": "BK22005608.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 많네요. 그럼 해파리에 쏘이지 않기 위한 예방법은 따로 없나요?",
+            "turn_id": "BK22005608-8",
+            "utterance_id": "BK22005608.15"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "해수욕할 때는 해파리가 갑자기 나타날 수 있다는 것을 염두하고 쏘이지 않도록 예방하는 것이 중요하다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 해수욕 전에는 해파리 출현 예보를 확인하고, 신체가 덜 노출되는 수영복을 입는 것이 좋다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000722851",
+            "search_query": "해파리 쏘임 예방법",
+            "terminate": false,
+            "text": "해수욕을 할 때는 언제 해파리가 나올지 모르기 때문에 항상 쏘이지 않도록 염두에 두고 있어야 하는데, 일단 물에 들어가기 전 해파리 출현 예보를 확인하고 들어가는 게 좋아요. 그리고 수영복은 신체가 덜 노출되는 걸로 입는 게 좋고요.",
+            "turn_id": "BK22005608-8",
+            "utterance_id": "BK22005608.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 혹시 또 다른 방법들도 있으면 알려 주시겠어요?",
+            "turn_id": "BK22005608-9",
+            "utterance_id": "BK22005608.17"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "물에 들어갈 때는 주변에 해파리가 없는지 잘 살피고, 부유물이나 거품이 많은 곳, 물의 흐름이 느린 곳에는 해파리가 모여 있는 경우가 많으므로 되도록 피하는 것이 좋다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 죽어있는 해파리에도 독성이 남아있을 수 있기 때문에 만지지 않도록 한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000722851",
+            "search_query": "해파리 쏘임 예방법",
+            "terminate": false,
+            "text": "네, 또 물에 들어갈 때는 해파리가 주변에 있지는 않은지 잘 살펴보고 들어가야 해요. 해파리는 주로 부유물이나 거품이 많은 곳, 또 물의 흐름이 느린 곳에 모여 있는 경우가 많기 때문에 이 부근은 피하는 게 좋고, 죽어있는 해파리를 보더라도 안심하면 안돼요. 죽어있더라도 독성이 남아있을 수 있기 때문에 절대 만지지 말아야 해요.",
+            "turn_id": "BK22005608-9",
+            "utterance_id": "BK22005608.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 혹시라도 바닷가에 가게 된다면 알려주신 내용 꼭 기억해 둬야겠어요. 좋은 정보 정말 감사드려요.",
+            "turn_id": "BK22005608-10",
+            "utterance_id": "BK22005608.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 궁금한 점 있으면 언제든지 또 물어보세요.",
+            "turn_id": "BK22005608-10",
+            "utterance_id": "BK22005608.20"
+        }
+    ]
+}

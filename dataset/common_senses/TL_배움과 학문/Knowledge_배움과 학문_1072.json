@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007042",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007042",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍 힌남노가 올라오고 있다는데 피해를 많이 주는 건 아닌지 걱정이야.",
+            "turn_id": "BK22007042-1",
+            "utterance_id": "BK22007042.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 올해도 어김없이 태풍이 찾아오는구나. 무슨 일 생기지 않도록 조심해야겠어.",
+            "turn_id": "BK22007042-1",
+            "utterance_id": "BK22007042.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 태풍이 엄청 강력하다던데 어느 정도인 거야?",
+            "turn_id": "BK22007042-2",
+            "utterance_id": "BK22007042.3"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "고수온 해역을 지나면서 중심기압 915hPa(헥토파스칼), 최대풍속 초속 55m/s의 초강력 태풍으로 성장했으며 강풍 반경도 240㎞에 이른다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/015/0004744043",
+            "search_query": "태풍 힌남노",
+            "terminate": false,
+            "text": "온도가 높은 바다를 지나오면서 중심기압이 915헥토파스칼이고 최대 풍속이 초당 55미터가 되는 초강력 태풍이 됐어. 강풍의 반경도 240킬로미터에 달하고.",
+            "turn_id": "BK22007042-2",
+            "utterance_id": "BK22007042.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초강력 태풍이라고? 초강력이나 강력 같은 태풍의 강도는 어떤 기준이 있는 거야?",
+            "turn_id": "BK22007042-3",
+            "utterance_id": "BK22007042.5"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "태풍의 강도가 가장 큰 '초강력'은 풍속인 회전력이 초당 54m 이상일 경우를 말한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'매우강'은 초당 풍속 44~53m이며, '강'은 초당 풍속 33~42m, '중'은 초당 25~32m까지를 말한다. ",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://idsn.co.kr/news/view/1065596683325662",
+            "search_query": "태풍의 강도 분류",
+            "terminate": false,
+            "text": "초강력은 태풍의 강도가 가장 큰 태풍을 말하는데 풍속인 회전력이 초당 54미터 이상인 경우가 해당이 돼. 초당 풍속이 44에서 53미터급이면 매우 강이고 33에서 42미터의 초당 풍속인 경우는 강, 초당 25에서 32미터의 풍속이라면 중의 태풍으로 분류가 돼.",
+            "turn_id": "BK22007042-3",
+            "utterance_id": "BK22007042.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇구나. 힌남노도 그렇고 태풍 이름이 매번 특이하던데, 이름은 어떻게 정해지는 거야?",
+            "turn_id": "BK22007042-4",
+            "utterance_id": "BK22007042.7"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "현재와 같은 태풍 이름은 2000년부터 지어진 것으로, 태풍위원회 14개 회원국이 10개씩 제출한 총 140개의 고유 언어를 5개조로 나누어 태풍이 발생하면 순차적으로 사용하고 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=188917",
+            "search_query": "태풍의 이름",
+            "terminate": false,
+            "text": "요즘 정해지는 태풍의 이름은 2000년부터 만들어진 건데 태풍위원회의 회원국인 14개 국가에서 각각 10개씩 제출한 140개의 고유 언어를 5개의 그룹으로 나눠서 태풍이 생길 때마다 순서대로 적용하고 있어.",
+            "turn_id": "BK22007042-4",
+            "utterance_id": "BK22007042.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 생소한 단어가 많은 거구나. 매번 궁금했는데 이제서야 알게 되었네. 아 그런데 태풍은 처음 어떻게 만들어지는 거야?",
+            "turn_id": "BK22007042-5",
+            "utterance_id": "BK22007042.9"
+        },
+        {
+            "reference_date": "2020-08-26",
+            "reference_text": [
+                {
+                    "value": "태풍(typhoon)은 태양 빛을 많이 쬐는 적도 바다가 뜨거워지며 따뜻한 수증기가 대기로 상승하는 과정에서 열을 내뿜어 더 큰 상승기류를 일으켜 생성된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0003788591?sid=105",
+            "search_query": "태풍 생성과정",
+            "terminate": false,
+            "text": "일단 적도 쪽의 바다가 태양 빛을 다량으로 받으면서 뜨거워지게 되고 그러면서 생기는 따뜻한 수증기들이 대기로 올라가게 돼. 이때 수증기들이 열을 뿜으면서 더 커다란 상승기류를 일으켜 태풍이 만들어지게 되는 거야.",
+            "turn_id": "BK22007042-5",
+            "utterance_id": "BK22007042.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 항상 태풍이 아래쪽 바다에서 올라오는구나. 근데 허리케인이랑 태풍은 어떻게 다른 거야?",
+            "turn_id": "BK22007042-6",
+            "utterance_id": "BK22007042.11"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "태풍은 열대저기압의 한 종류로 열대저기압은 지구의 여러 곳에서 발생하는데, 발생 지역에 따라 부르는 명칭이 다르다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북태평양 서부에서 발생할 경우 '태풍', 북태평양 동부·북대서양·카리브 해에서 발생할 경우 '허리케인', 벵골 만·인도양 등에서 발생할 경우는 '사이클론'이라 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news/view.php?idx=358670",
+            "search_query": "태풍과 허리케인",
+            "terminate": false,
+            "text": "열대저기압의 한 종류가 태풍인데, 이 열대저기압은 지구 곳곳에서 생기거든. 어디에서 생겼느냐에 따라 이름이 달라져서 북태평양의 서부지역에서 생긴 건 태풍이고 북태평양의 동쪽이나 북대서양, 카리브해 쪽에서 생기면 허리케인이 되지. 사이클론의 경우는 벵골만과 인도양에서 발생한 경우에 붙이는 이름이고.",
+            "turn_id": "BK22007042-6",
+            "utterance_id": "BK22007042.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 똑같은 건데 발생지역에 따라 이름이 다른 거구나. 아 그리고 태풍의 눈이라는 부분이 있어서 거기는 고요하다고 하잖아. 태풍의 눈이 정확히 뭐야?",
+            "turn_id": "BK22007042-7",
+            "utterance_id": "BK22007042.13"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "태풍의 눈(颱風의 눈)은 두꺼운 구름으로 둘러싸인 태풍, 허리케인, 사이클론 등 열대저기압의 중심부에 나타나는 맑게 갠 무풍지대를 말한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D%EC%9D%98_%EB%88%88",
+            "search_query": "태풍의 눈",
+            "terminate": false,
+            "text": "아 태풍의 눈이라는 건 두꺼운 구름으로 쌓여있는 태풍이나 허리케인 같은 열대저기압의 가운데에 나타나는 맑게 갠 바람이 없는 지대를 말해.",
+            "turn_id": "BK22007042-7",
+            "utterance_id": "BK22007042.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍의 가운데가 바람이 없다니 정말 신기해. 위성 사진을 보면 가운데가 비어 보이긴 하더라. 그러고 보니 요즘이야 위성으로 태풍을 관측한다지만 옛날엔 태풍 관측을 어떻게 한 거야?",
+            "turn_id": "BK22007042-8",
+            "utterance_id": "BK22007042.15"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "인공 위성이 등장하기 이전에는 항공기가 위험을 감수하고 폭풍의 중심에 접근하여 직접 관측해야만 했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D",
+            "search_query": "태풍",
+            "terminate": false,
+            "text": "인공위성이 없던 예전에는 위험하지만 비행기를 타고 폭풍의 중심부로 가서 직접 관찰을 했었지.",
+            "turn_id": "BK22007042-8",
+            "utterance_id": "BK22007042.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 그럴 수밖에 없었겠다. 요즘은 위성이 있으니 다양한 정보들을 관측하기 많이 쉬워졌을 것 같아. 기상청에서 알려주는 태풍 정보는 어떤 것들이 있어?",
+            "turn_id": "BK22007042-9",
+            "utterance_id": "BK22007042.17"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "태풍의 발달에서 소멸까지 전주기 예보를 시행하고, 과거 유사한 태풍의 사례와 함께 태풍특보 예상시점, 예상진로, 최다강수량 및 최대풍속 예상시점 등 위험요인별 예상정보를 상세하게 제공한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ccdailynews.com/news/articleView.html?idxno=2148070",
+            "search_query": "기성청 태풍정보",
+            "terminate": false,
+            "text": "기상청에서는 태풍의 발달부터 소멸까지 전체적인 주기에 대해 예보를 하고 있어. 또한 예전에 유사했던 태풍 사례라든지 태풍 특보 발효가 예상되는 시점이나 예상 진로, 최다강수량과 최대풍속의 예상 시점등 다양한 위험요인에 대한 상세정보도 제공하고 있어.",
+            "turn_id": "BK22007042-9",
+            "utterance_id": "BK22007042.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 정보를 제공해 주는구나. 예보 잘 지켜봐야겠다. 너도 집 구석구석 단속 잘하고 조심해.",
+            "turn_id": "BK22007042-10",
+            "utterance_id": "BK22007042.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응 그래 조심해야지. 나 이만 가봐야 해서, 날씨 좋아지면 만나서 또 얘기하자.",
+            "turn_id": "BK22007042-10",
+            "utterance_id": "BK22007042.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 가고 다음에 또 봐!",
+            "turn_id": "BK22007042-11",
+            "utterance_id": "BK22007042.21"
+        }
+    ]
+}

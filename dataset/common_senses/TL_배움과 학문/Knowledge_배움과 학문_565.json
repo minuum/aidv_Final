@@ -1,0 +1,354 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003033",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003033",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 누리호 발사를 보면서 우주에 관심이 커졌어요. 인간이 다른 행성에서 살 날이 올까요?",
+            "turn_id": "BK22003033-1",
+            "utterance_id": "BK22003033.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 언젠가는 올 거라고 생각해요.",
+            "turn_id": "BK22003033-1",
+            "utterance_id": "BK22003033.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 어떤 행성이 좋을까요? 금성이라면 인간이 살기 괜찮을까요? 금성의 대기 환경은 어때요?",
+            "turn_id": "BK22003033-2",
+            "utterance_id": "BK22003033.3"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "금성은 극도로 두꺼운 대기를 가지고 이산화탄소가 풍부한 대기에 의해서 온실효과가 발생하며, 금성 표면의 온도를 400도까지 높여 놓는다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%84%B1",
+            "search_query": "금성",
+            "terminate": false,
+            "text": "금성의 표면 온도는 400도예요. 극도로 두껍고 이산화탄소가 풍부한 대기 때문에 온실효과가 발생해서 그렇죠.",
+            "turn_id": "BK22003033-2",
+            "utterance_id": "BK22003033.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기온이 아주 높긴 하네요. 그런데 온도만 어떻게 하면 잘 살 수 있지 않을까요?",
+            "turn_id": "BK22003033-3",
+            "utterance_id": "BK22003033.5"
+        },
+        {
+            "reference_date": "2017-08-14",
+            "reference_text": [
+                {
+                    "value": "게다가 금성 표면의 압력은 90기압 정도다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 지구 바다속 3000피트 깊이의 압력과 비슷하다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.irobotnews.com/news/articleView.html?idxno=11416",
+            "search_query": "금성 압력",
+            "terminate": false,
+            "text": "금성의 표면은 지구 바닷속 3000피트 아래의 압력과 비슷해요. 대략 90기압 정도인 셈이죠. 인간이 금성에서 거주하는 건 불가능해요.",
+            "turn_id": "BK22003033-3",
+            "utterance_id": "BK22003033.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 화성은 가능하지 않을까요?",
+            "turn_id": "BK22003033-4",
+            "utterance_id": "BK22003033.7"
+        },
+        {
+            "reference_date": "2015-09-29",
+            "reference_text": [
+                {
+                    "value": "이로써 생명체의 필수 요소인 물이 발견되면서 외계 생명체가 존재할 가능성도 높아졌고, 화성이 태양계 내 행성 중 지구와 가장 유사한 것으로 판명돼 먼 미래에는 인간이 '제 2의 지구'처럼 살아갈 수 있을 것으로 전망했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2015092914035912056",
+            "search_query": "화성 지구 공통점",
+            "terminate": false,
+            "text": "화성은 태양계에서 지구와 가장 유사하기 때문에 먼 미래에는 가능하죠. 또 최근에는 화성에 생명체의 필수 요소인 물이 발견되며 외계 생명체 존재 가능성이 커졌죠. 제2의 지구가 될 가능성이 있어요.",
+            "turn_id": "BK22003033-4",
+            "utterance_id": "BK22003033.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 당장 화성 탐사를 진행해야 하겠는데요?",
+            "turn_id": "BK22003033-5",
+            "utterance_id": "BK22003033.9"
+        },
+        {
+            "reference_date": "2021-03-07",
+            "reference_text": [
+                {
+                    "value": "영어로 ‘인내’를 뜻하는 퍼시비어런스호는 지난해 7월 발사돼 204일 동안 약 4억 7000만㎞를 비행한 뒤 지난달 화성의 ‘예저로 크레이터’에 성공적으로 착륙했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20210307172603497070",
+            "search_query": "퍼시비어런스 발사",
+            "terminate": false,
+            "text": "네. 최근에는 인내라는 의미의 퍼시비어런스호가 화성에 갔는데, 지난해 7월에 발사되어 약 200일의 시간 동안 4억 7000만 킬로미터를 비행해 저번 달 화성의 예저로 크레이터에 착륙했어요.",
+            "turn_id": "BK22003033-5",
+            "utterance_id": "BK22003033.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그 탐사선의 임무는 어떤 건가요?",
+            "turn_id": "BK22003033-6",
+            "utterance_id": "BK22003033.11"
+        },
+        {
+            "reference_date": "2022-06-10",
+            "reference_text": [
+                {
+                    "value": "퍼시비어런스의 주 임무는 화성에서의 1년인 687일간 생명체의 흔적을 찾는 것이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220610/113872064/1",
+            "search_query": "퍼시비어런스 임무",
+            "terminate": false,
+            "text": "아까 외계생명체의 존재 가능성이 커졌다고 말했죠? 퍼시비어런스의 주 임무도 1년간 생명체의 흔적을 찾는 거예요. 아, 화성에서의 1년이라 687일 동안이네요.",
+            "turn_id": "BK22003033-6",
+            "utterance_id": "BK22003033.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 공전주기가 많이 차이가 나네요. 그럼 지구와 자전주기도 많이 차이 나나요?",
+            "turn_id": "BK22003033-7",
+            "utterance_id": "BK22003033.13"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "화성의 자전주기는 약 24시간 37분으로, 지구와 비슷하며, 공전주기는 약 687일로, 지구보다 약 1.88배 길다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.interview365.com/news/articleView.html?idxno=102127",
+            "search_query": "화성 자전주기",
+            "terminate": false,
+            "text": "공전주기는 지구보다 약 1.8배로 687일 정도로 많이 차이 나는 반면에, 자전주기는 24시간 37분이에요. 지구와 거의 일치하는 셈이죠.",
+            "turn_id": "BK22003033-7",
+            "utterance_id": "BK22003033.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간이 화성에 갔을 때 하루가 비슷해서 적응하기 쉽겠어요. 유인 탐사선은 아직 계획이 없는 건가요?",
+            "turn_id": "BK22003033-8",
+            "utterance_id": "BK22003033.15"
+        },
+        {
+            "reference_date": "2020-12-03",
+            "reference_text": [
+                {
+                    "value": "미국의 민간 우주기업 스페이스X를 이끄는 일론 머스크 최고경영자(CEO)가 2026년까지 화성에 인류를 보내겠다고 자신했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.digitaltoday.co.kr/news/articleView.html?idxno=255344",
+            "search_query": "화성 유인 탐사 프로젝트",
+            "terminate": false,
+            "text": "일론 머스크 아시죠? 미국 민간 우주기업 스페이스X CEO인데, 화성에 인류를 2026년까지 보내겠다고 했어요.",
+            "turn_id": "BK22003033-8",
+            "utterance_id": "BK22003033.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단하네요, 그런데 인류가 간다고 해서 거기서 살 수 있는 건 아니지 않나요?",
+            "turn_id": "BK22003033-9",
+            "utterance_id": "BK22003033.17"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "그는 화성의 환경을 지구처럼 개조해 인간이 살 수 있도록 만드는 이른바 `테라포밍(Terraforming)`을 꿈꾸는데， 화성은 골디락스 존의 바깥에(1.66AU) 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생명유지에 필수적인 액체상태의 물과 적당한 대기, 그리고 지구 해수와 구성성분이 유사한 생명의 바다를 만들 수 있을 지는 의문이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnmaeil.com/news/articleView.html?idxno=496766",
+            "search_query": "화성 테라포밍",
+            "terminate": false,
+            "text": "맞아요, 화성의 환경을 지구처럼 개조해 인간이 살 수 있도록 해야죠. 이런 작업을 테라포밍이라고 해요. 일론 머스크의 최종적인 목표죠. 그런데 화성은 골디락스 존의 바깥에 있기 때문에 생명을 유지하는 데 필수적으로 필요한 물과 적당한 대기, 그리고 지구의 바다와 비슷한 구성의 바다를 만들 수 있을지는 아직 의문이에요.",
+            "turn_id": "BK22003033-9",
+            "utterance_id": "BK22003033.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 기술적으로는 부족한 부분이 많은 것 같군요.",
+            "turn_id": "BK22003033-10",
+            "utterance_id": "BK22003033.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 아무래도 저희가 죽기 전까진 불가능할 것 같아요.",
+            "turn_id": "BK22003033-10",
+            "utterance_id": "BK22003033.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 관심을 가지고 한번 지켜봐야겠어요. 혹시 또 모르니까요.",
+            "turn_id": "BK22003033-11",
+            "utterance_id": "BK22003033.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요, 화성에서 살게 된다면 옆집에서 살아요.",
+            "turn_id": "BK22003033-11",
+            "utterance_id": "BK22003033.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아요, 그렇게 된다면 자주 놀러 갈게요.",
+            "turn_id": "BK22003033-12",
+            "utterance_id": "BK22003033.23"
+        }
+    ]
+}

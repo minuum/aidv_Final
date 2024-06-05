@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008887",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008887",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난 주말에 나비 표본 전시회에 갔었어. 굉장히 다양한 나비들이 전시되어 있더라. 혹시 나비에 대해 잘 알고 있어?",
+            "turn_id": "BK22008887-1",
+            "utterance_id": "BK22008887.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 나비에 대해서는 잘 알고 있지. 궁금한 게 있으면 물어봐!",
+            "turn_id": "BK22008887-1",
+            "utterance_id": "BK22008887.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 먼저 어떤 곤충들을 나비로 정의하는지 알려줄래?",
+            "turn_id": "BK22008887-2",
+            "utterance_id": "BK22008887.3"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "나비(영어: Butterfly)는 나비목에 속하는 날개 달린 곤충으로, 대형나방군(Macroheterocera) 중에서 미국나방나비상과와 팔랑나비상과 그리고 호랑나비상과에 속한 종들을 포함하는 단계통군을 일컫는다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EB%B9%84",
+            "search_query": "나비",
+            "terminate": false,
+            "text": "나비는 대형나방군 중 미국나방나비상과, 호랑나비상과, 팔랑나비상과에 포함되는 종들의 단계통군을 일컫는 말이야. 보통 나비목에 속하는 날개 달린 곤충들을 나비라고 하지.",
+            "turn_id": "BK22008887-2",
+            "utterance_id": "BK22008887.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나비목에 해당하는 날개 있는 곤충들을 나비라고 하는구나. 그러면 우리나라에는 어떤 나비들이 서식하고 있어?",
+            "turn_id": "BK22008887-3",
+            "utterance_id": "BK22008887.5"
+        },
+        {
+            "reference_date": "2015-05-08",
+            "reference_text": [
+                {
+                    "value": "한국에서 볼 수 있는 나비는 보통 8여개 과로 나누어지는데, 모두 호랑나비상과(上科)에 속하나 팔랑나비과만은 팔랑나비상과에 속한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://star.mbn.co.kr/view.php?no=437961&year=2015&refer=portal",
+            "search_query": "한국 나비",
+            "terminate": false,
+            "text": "국내에서 관찰되는 나비들은 크게 8여 개의 과로 나뉘는데, 대부분 호랑나비상과에 속해. 하지만 팔랑나비과는 팔랑나비상과에 해당되지.",
+            "turn_id": "BK22008887-3",
+            "utterance_id": "BK22008887.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 우리나라에서 볼 수 있는 나비들은 대부분 호랑나비상과라고 보면 되겠네. 나비는 보통 알에서 성충이 되기까지 어떤 성장 과정을 거쳐?",
+            "turn_id": "BK22008887-4",
+            "utterance_id": "BK22008887.7"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "나비의 일생은 성충·알·유충·번데기의 네 단계를 거친다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EB%B9%84",
+            "search_query": "나비의 일생",
+            "terminate": false,
+            "text": "나비는 일생 동안 네 단계를 거치게 돼. 그 네 단계는 알, 유충, 번데기, 성충이지.",
+            "turn_id": "BK22008887-4",
+            "utterance_id": "BK22008887.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나비는 알에서 유충으로 태어나고, 번데기를 거쳐 성충이 되는 거구나. 그런데 나비의 유충과 성충은 생김새가 매우 다른데, 어떻게 번데기 안에서 그렇게 변할 수 있을까?",
+            "turn_id": "BK22008887-5",
+            "utterance_id": "BK22008887.9"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "번데기(蛹)는 완전 변태의 곤충이 유충에서 성충으로 변할 때에 거치는 성장 단계이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 이 시기에는 아무것도 먹거나 이동하지 않으며, 유충 시절의 형태가 액체 상태로 녹아 형태가 바뀐다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%88%EB%8D%B0%EA%B8%B0",
+            "search_query": "완전 변태 번데기",
+            "terminate": false,
+            "text": "완전 변태의 곤충이 유충에서 성충으로 변하기 위해 거치는 번데기 단계에서는 유충의 형태가 모두 액체 상태로 녹았다가 성충으로 바뀌는 과정을 거쳐. 그래서 이 시기에는 전혀 먹지 않고 이동도 하지 않지.",
+            "turn_id": "BK22008887-5",
+            "utterance_id": "BK22008887.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "번데기 안에서 유충이 모두 녹았다가 다시 성충의 형태를 갖춘다니 놀라워. 그러면 나비들은 무엇을 먹고살아?",
+            "turn_id": "BK22008887-6",
+            "utterance_id": "BK22008887.11"
+        },
+        {
+            "reference_date": "2017-06-02",
+            "reference_text": [
+                {
+                    "value": "나비는 자란벌레(성충)와 애벌레(유충)가 먹는 먹잇감이 달라서 어미는 꽃물(nectar)이고, 애벌레는 풀 잎사귀다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2017060201033711000002",
+            "search_query": "나비 먹이",
+            "terminate": false,
+            "text": "나비의 경우, 유충일 때는 풀 잎사귀를 먹고 성충이 되면 꽃물을 먹어.",
+            "turn_id": "BK22008887-6",
+            "utterance_id": "BK22008887.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나비는 유충일 때와 성충일 때 먹는 먹이가 다르구나. 그런데 종종 나비를 보면 나방과 비슷하게 생겨서 헷갈릴 때가 있어. 나비와 나방에는 어떤 차이점이 있어?",
+            "turn_id": "BK22008887-7",
+            "utterance_id": "BK22008887.13"
+        },
+        {
+            "reference_date": "2022-05-08",
+            "reference_text": [
+                {
+                    "value": "A. 나비와 나방은 생김새로는 큰 차이가 없다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나비는 대부분 낮, 나방은 밤에 활동한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=3337",
+            "search_query": "나비와 나방",
+            "terminate": false,
+            "text": "정말 나비와 나방은 외형상 큰 차이가 없어. 그 대신 나비는 주로 낮에 활동을 하고, 나방은 밤에 활동을 한다는 차이점이 있지.",
+            "turn_id": "BK22008887-7",
+            "utterance_id": "BK22008887.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나방은 밤에 활동을 하는 반면, 나비는 낮에 활동을 하는 거네. 얼마 전 TV에서 나비가 지구온난화에 매우 취약하다는 뉴스를 봤는데, 왜 나비가 지구온난화의 영향을 많이 받는지 알고 있어?",
+            "turn_id": "BK22008887-8",
+            "utterance_id": "BK22008887.15"
+        },
+        {
+            "reference_date": "2021-03-09",
+            "reference_text": [
+                {
+                    "value": "외부 온도에 의해 체온이 변하는 동물을 변온동물이라고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대표적인 것이 나비인데 햇볕에 노출된 곳이라든지 주변 상황에 의존해 체온을 유지하고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런 만큼 지구온난화에 의해 영향을 받을 수밖에 없다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%82%98%EB%B9%84%EA%B0%80-%EB%A7%A4%EB%85%84-1-6%EC%94%A9-%EC%A4%84%EC%96%B4%EB%93%A4%EA%B3%A0-%EC%9E%88%EB%8B%A4/",
+            "search_query": "나비 지구온난화",
+            "terminate": false,
+            "text": "나비는 대표적인 변온 곤충이야. 바깥 온도에 의해 체온이 변하기 때문에 햇볕이나 주위 상황들에 의존하여 체온을 유지해. 그래서 지구온난화에 의해 받는 영향도 큰 거지.",
+            "turn_id": "BK22008887-8",
+            "utterance_id": "BK22008887.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구온난화가 계속 진행된다면 나비도 곧 멸종될 수 있겠네. 나비를 보호하기 위한 대책이 필요하겠어. 혹시 나비와 나비의 생태에 대해 직접 체험해 볼 수 있는 곳도 있어?",
+            "turn_id": "BK22008887-9",
+            "utterance_id": "BK22008887.17"
+        },
+        {
+            "reference_date": "2021-07-14",
+            "reference_text": [
+                {
+                    "value": "봉무공원의 자랑인 봉무나비생태원에는 국내 180여 종의 나비는 물론 각종 세계 희귀 곤충까지 곤충 관련 이색 콘텐츠로 가득하다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idaegu.com/newsView/idg202107140016",
+            "search_query": "봉무나비생태원",
+            "terminate": false,
+            "text": "봉무나비생태원에는 국내에 서식하는 180여 종의 나비가 살고 있어. 그리고 각종 세계 희귀 곤충들까지 있어 곤충과 관련된 볼거리가 가득하지.",
+            "turn_id": "BK22008887-9",
+            "utterance_id": "BK22008887.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간을 내어 꼭 한 번 방문해보도록 할게. 앞으로도 나비에게 많은 관심을 가지고, 나비를 보호하는 활동에도 적극적으로 동참하겠어.",
+            "turn_id": "BK22008887-10",
+            "utterance_id": "BK22008887.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 나비를 지키기 위한 지속적인 관심과 노력이 필요할 때지. 또 나비에 대해 궁금한 게 생기면 언제든 물어봐.",
+            "turn_id": "BK22008887-10",
+            "utterance_id": "BK22008887.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워, 물어볼 것이 있으면 다시 연락할게!",
+            "turn_id": "BK22008887-11",
+            "utterance_id": "BK22008887.21"
+        }
+    ]
+}

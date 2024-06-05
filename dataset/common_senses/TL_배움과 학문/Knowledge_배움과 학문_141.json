@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011804",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011804",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 천문대에서 별자리 축제한다고 해서 가보려고.",
+            "turn_id": "BK22011804-1",
+            "utterance_id": "BK22011804.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 날씨가 맑아서 별 보기 좋을 텐데 재미있겠네.",
+            "turn_id": "BK22011804-1",
+            "utterance_id": "BK22011804.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 하늘이 맑아서 딱 좋을 것 같아. 그런데 계절별로 볼 수 있는 별자리가 다르잖아. 왜 달라지는 건지 혹시 알아?",
+            "turn_id": "BK22011804-2",
+            "utterance_id": "BK22011804.3"
+        },
+        {
+            "reference_date": "2012-11-22",
+            "reference_text": [
+                {
+                    "value": "바로 지구의 공전으로 설명할 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "별들은 시간이 지남에 따라 조금씩 서쪽으로 움직여 간다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구는 태양의 둘레를 1년에 1바퀴씩 돌기 때문에 하루에 약 1도씩 태양의 둘레를 돌게 된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 어떤 별이 같은 위치에 오게 되는 시간은 하루에 4분, 한 달에 2시간씩 빨라지게 된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/088/0000267800",
+            "search_query": "별자리 계절별로 달라지는 이유",
+            "terminate": false,
+            "text": "그건 지구의 공전 때문이야. 별이 시간이 지날수록 서쪽으로 조금씩 움직이는데 지구는 태양 둘레를 1년에 한 바퀴 돌기 때문에 하루에 1도씩 태양 둘레를 도는 게 되거든, 그래서 특정한 별이 같은 위치에 오는 시간이 하루에 4분씩, 한 달에는 2시간씩 빨라지게 되기 때문이야.",
+            "turn_id": "BK22011804-2",
+            "utterance_id": "BK22011804.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇구나. 별자리를 찾을 때 길잡이 별이라는 걸 이용하면 찾기 쉽다고 하더라고. 길잡이 별이 어떤 거야?",
+            "turn_id": "BK22011804-3",
+            "utterance_id": "BK22011804.5"
+        },
+        {
+            "reference_date": "2021-08-18",
+            "reference_text": [
+                {
+                    "value": "별자리를 쉽게 찾는 데에는 길잡이 별이나 길잡이 별자리를 이용하는 것이 좋다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉, 그 계절과 그 시각에 잘 보이는 밝은 별이나 쉽게 확인되는 별자리를 먼저 찾고 이어서 다른 별자리들을 찾는 것이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=83522",
+            "search_query": "별자리 길잡이별",
+            "terminate": false,
+            "text": "길잡이 별이나 길잡이 별자리를 이용하면 별자리 찾기가 쉬운데 길잡이 별은 그 계절과 시각에 잘 보이는 밝은 별이나 쉽게 확인할 수 있는 별자리를 말하는 거야. 그래서 그것들을 먼저 찾은 다음 다른 별자리를 찾기가 쉬운 거지.",
+            "turn_id": "BK22011804-3",
+            "utterance_id": "BK22011804.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 잘 보이는 별이나 별자리를 말하는 거구나. 그럼 계절별로 길잡이별도 다 다르겠네. 계절별 길잡이별 좀 알려줄 수 있어?",
+            "turn_id": "BK22011804-4",
+            "utterance_id": "BK22011804.7"
+        },
+        {
+            "reference_date": "2018-07-19",
+            "reference_text": [
+                {
+                    "value": "북쪽 하늘 길잡이는 위에서 말한 것과 같이 북두칠성과 카시오페이아 자리, 봄철 길잡이는 목동자리의 아크투르스, 처녀자리 스피카, 사자자리의 데네볼라(봄철 대사각형), 여름철 길잡이는 백조자리 데네브, 거문고자리 베가(직녀), 독수리자리 알타이르(견우); 여름철 대삼각형, 가을철 길잡이는 페가수스 사각형(가을철 사각형), 겨울철 길잡이는 오리온자리 베텔기우스, 리겔, 큰개자리의 시리우스, 작은개자리 프로키온, 황소자리 알데바란, 마차부자리 카펠라, 쌍둥이자리 폴룩스(겨울철 다이아몬드)이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://withinnews.co.kr/news/view.html?section=1&category=161&item=&no=15853",
+            "search_query": "계절별 길잡이별",
+            "terminate": false,
+            "text": "응. 봄의 길잡이로는 목동자리 아크투르스와 처녀자리 스피카, 사자자리에 있는 데네볼라가 있고 여름은 백조자리의 데네브, 거문고자리 베가와 독수리자리 알타이르가 있어. 가을철 길잡이별로는 페가수스 사각형이 있고 겨울철은 오리온자리의 베텔기우스와 리겔, 큰개자리 시리우스, 작은개자리의 프로키온, 황소자리 알데바란, 마차부자리 카펠라와 쌍둥이자리의 폴룩스가 길잡이 별이야.",
+            "turn_id": "BK22011804-4",
+            "utterance_id": "BK22011804.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그걸 다 기억하다니 대단하다. 그럼 가을철에 볼 수 있는 별자리는 어떤 것들이 있어?",
+            "turn_id": "BK22011804-5",
+            "utterance_id": "BK22011804.9"
+        },
+        {
+            "reference_date": "2015-11-20",
+            "reference_text": [
+                {
+                    "value": "한편, 가을 별자리 종류에는 페가수스자리, 페르세우스자리, 안드로메다자리, 양자리, 물고기자리, 도마뱀자리, 삼각형자리, 고래자리 물병자리, 염소자리 등이 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20151120000214",
+            "search_query": "가을철 별자리",
+            "terminate": false,
+            "text": "가을철 별자리로는 페가수스자리와 페르세우스, 안드로메다, 양자리, 물고기자리, 도마뱀자리, 염소자리, 삼각형자리와 고래자리, 물병자리가 있어.",
+            "turn_id": "BK22011804-5",
+            "utterance_id": "BK22011804.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 별자리가 물고기자리인데 가을 별자리였구나. 아까 가을철 길잡이가 페가수스라고 했잖아. 그럼 페가수스를 기준으로 어떻게 별자리를 찾으면 되는 거야?",
+            "turn_id": "BK22011804-6",
+            "utterance_id": "BK22011804.11"
+        },
+        {
+            "reference_date": "2014-10-15",
+            "reference_text": [
+                {
+                    "value": "예를 들어 페가수스의 엉덩이로부터 이어진 별무리는 안드로메다 자리다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 아래로 연결된 별무리는 페르세우스 자리다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "페르세우스 자리 위로 거슬러올라가면 이중성단과 카시오페이아자리를 만날 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라 사람들이 가장 잘 알고 있는 북두칠성 자리는 카시오페이아 왼쪽에서 찾을 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0003327105?sid=105",
+            "search_query": "가을 별자리 페가수스로 찾기",
+            "terminate": false,
+            "text": "음 몇 가지 예를 들자면 페가수스의 엉덩이 쪽에서 이어진 별의 무리들이 안드로메다 자리이고 그 아래쪽으로 연결된 별 무리가 페르세우스 자리가 되는거야. 페르세우스에서 위로 다시 올라가면 이중 성단과 함께 카시오페이아자리를 찾을 수 있어. 그리고 우리가 잘 아는 북두칠성은 카시오페이아의 왼쪽편에 위치해 있어.",
+            "turn_id": "BK22011804-6",
+            "utterance_id": "BK22011804.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그렇게 찾는 거구나. 물고기나 양자리 같은 건 모습이 상상이 가는데 안드로메다는 어떤 모습을 하고 있는 별자리인 거야?",
+            "turn_id": "BK22011804-7",
+            "utterance_id": "BK22011804.13"
+        },
+        {
+            "reference_date": "2014-10-30",
+            "reference_text": [
+                {
+                    "value": "그래서인지 안드로메다 자리의 형태는 안드로메다 공주가 배 위에 묶여 있는 모습으로 알려져 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "안드로메다 공주가 괴물 고래의 먹이가 될 위기의 순간 페르세우스가 나타나 공주를 구하고 그들은 결혼을 하게 되고, 행복한 나날을 보내던 그들은 이런저런 계기로 하늘의 별자리가 되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/032/0002538467?sid=004",
+            "search_query": "안드로메다자리 모습",
+            "terminate": false,
+            "text": "안드로메다자리는 안드로메다 공주가 배 위에서 묶여 있는 형상을 띄고 있는 별자리야. 안드로메다 공주가 괴물 고래 먹이가 될 뻔한 순간에 페르세우스가 공주를 구하기 위해 나타나게 되고, 그들은 결국 결혼해서 행복한 날을 보내다 하늘의 별자리가 되었다는 스토리가 담겨 있지.",
+            "turn_id": "BK22011804-7",
+            "utterance_id": "BK22011804.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 정말 그런 모습인지 한번 찾아봐야겠다. 그럼 혹시 페르세우스자리도 사람 모습을 한 별자리인 거야?",
+            "turn_id": "BK22011804-8",
+            "utterance_id": "BK22011804.15"
+        },
+        {
+            "reference_date": "2021-09-24",
+            "reference_text": [
+                {
+                    "value": "북쪽 하늘에서 관찰되는 별자리로 그리스 신화의 영웅 페르세우스로부터 이름이 유래되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "별자리 형태는 알파벳 소문자 u에, 요괴 메두사의 머리를 달고 칼을 치켜든 모습이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=147466",
+            "search_query": "페르세우스 별자리 모습",
+            "terminate": false,
+            "text": "응 페르세우스라는 이름이 그리스 신화의 영웅 페르세우스에서 유래된 이름이거든. 북쪽 하늘에서 볼 수 있는 페르세우스자리는 알파벳 소문자 u에 요괴 메두사의 머리를 달고 칼을 든 모습을 하고 있어.",
+            "turn_id": "BK22011804-8",
+            "utterance_id": "BK22011804.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메두사 머리를 달고 있는 모습이라니 상상이 안 간다. 아 그럼 가을철 별자리들은 어느 쪽 하늘에서 잘 볼 수 있는 거야?",
+            "turn_id": "BK22011804-9",
+            "utterance_id": "BK22011804.17"
+        },
+        {
+            "reference_date": "2019-11-03",
+            "reference_text": [
+                {
+                    "value": "가을 별자리는 가을철 오후 8시경 동쪽 하늘에서 잘 볼 수 있는 별자리를 말한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가을이라고 해서 다른 계절 별자리를 못 보는 건 아니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 시간 서쪽 하늘에서는 여름 별자리를 관찰할 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/262/0000012591?sid=103",
+            "search_query": "가을철 별자리 잘 볼 수 있는 하늘",
+            "terminate": false,
+            "text": "가을철의 별자리는 저녁 8시쯤에 동쪽의 하늘을 보면 잘 볼 수 있어. 아 그리고 가을이라고 다른 계절 별자리를 볼 수 없는 건 아니고, 같은 시간대에 서쪽 하늘을 보면 여름의 별자리들을 볼 수가 있어.",
+            "turn_id": "BK22011804-9",
+            "utterance_id": "BK22011804.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8시에 동쪽 하늘 잘 기억해야겠다. 아무튼 오늘 너무 고마워. 내가 다녀와서 어땠든지 알려줄게.",
+            "turn_id": "BK22011804-10",
+            "utterance_id": "BK22011804.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 다녀오고 또 연락줘.",
+            "turn_id": "BK22011804-10",
+            "utterance_id": "BK22011804.20"
+        }
+    ]
+}

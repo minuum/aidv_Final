@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013049",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013049",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구가 부산에 놀러 갔다 왔는데, 해변에 같이 놀러 갔던 일행 중 하나가 해파리에 쏘였대요. 다행히 크게 다치지는 않았다는데, 부산에 해파리가 출몰하나 보죠?",
+            "turn_id": "BK22013049-1",
+            "utterance_id": "BK22013049.1"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "부산에 출몰한 노무라입깃해파리는 초대형 해파리로, 최대 크기는 2m에 무게는 무려 150kg에 이르며 독성을 가지고 있다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000722851",
+            "search_query": "부산에 출몰한 해파리",
+            "terminate": false,
+            "text": "부산 바닷가에서 쏘였다면, 노무라입깃해파리겠군요. 최대 2미터까지 자라고 무게가 150킬로그램이나 나가는 초대형 종인데, 독성이 있죠.",
+            "turn_id": "BK22013049-1",
+            "utterance_id": "BK22013049.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 정말 무시무시하게 큰 해파리군요. 노무라입깃해파리에 쏘이면 어떻게 되나요?",
+            "turn_id": "BK22013049-2",
+            "utterance_id": "BK22013049.3"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "노무라입깃해파리에 접촉할 경우 심한 통증과 함께 붉은 반점을 동반한 채찍 모양의 상처가 생길 수 있다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%AC%B4%EB%9D%BC%EC%9E%85%EA%B9%83%ED%95%B4%ED%8C%8C%EB%A6%AC",
+            "search_query": "노무라입깃해파리",
+            "terminate": false,
+            "text": "노무라입깃해파리에 쏘이면 몹시 아프고요. 채찍 모양으로 생긴 상처가 붉은 반점하고 같이 나타날 수 있답니다.",
+            "turn_id": "BK22013049-2",
+            "utterance_id": "BK22013049.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "채찍 모양의 상처가 생길 수도 있다고요? 정말 듣기만 해도 끔찍한 일이네요. 혹시 노무라입깃해파리 때문에 사람이 죽을 수도 있나요?",
+            "turn_id": "BK22013049-3",
+            "utterance_id": "BK22013049.5"
+        },
+        {
+            "reference_date": "43658.0",
+            "reference_text": [
+                {
+                    "value": "우리나라에는 해류의 흐름에 따라 유입되며 2012년 8월 인천에서 8세 여아가 노무라입깃해파리에 쏘여 사망하는 사고가 발생하기도 했다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediajeju.com/news/articleView.html?idxno=317423",
+            "search_query": "노무라입깃해파리 사망",
+            "terminate": false,
+            "text": "노무라입깃해파리가 해류의 흐름을 타고 우리나라에 들어오는데요. 2012년 8월 인천에서 여덟 살 난 여자아이가 노무라입깃해파리에 쏘여서 죽은 일이 있습니다.",
+            "turn_id": "BK22013049-3",
+            "utterance_id": "BK22013049.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 안타까운 일이군요. 그런데 이렇게 노무라입깃해파리가 위험하면 잡아서 개체를 줄이면 되지 않나요? 해파리냉채라는 요리도 있잖아요.",
+            "turn_id": "BK22013049-4",
+            "utterance_id": "BK22013049.7"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "그러나 노무라입깃 해파리는 식용은 가능하지만, 비린내가 나고 맛이 없어서 한국 사람들의 입맛에는 잘 맞지 않다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%AC%B4%EB%9D%BC%EC%9E%85%EA%B9%83%ED%95%B4%ED%8C%8C%EB%A6%AC        2022/02/14",
+            "search_query": "노무라입깃해파리 식용",
+            "terminate": false,
+            "text": "노무라입깃해파리를 먹을 수는 있는데, 비린내가 심하고 맛이 별로입니다. 그래서 한국인들에게 식용으로 인기가 없어요.",
+            "turn_id": "BK22013049-4",
+            "utterance_id": "BK22013049.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그건 그렇고 해파리는 대체 왜 사람을 공격하는 건가요?",
+            "turn_id": "BK22013049-5",
+            "utterance_id": "BK22013049.9"
+        },
+        {
+            "reference_date": "43424.0",
+            "reference_text": [
+                {
+                    "value": "그리고 해파리에 있는 신경세포는 앞에 적이 나타나거나 장애물이 나타나면 본능적으로 공격하기 때문에 사람을 장애물로 인지하고 촉수로 쏘게 되는 것이다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.daily.co.kr/life3129224855#lifeback",
+            "search_query": "해파리 공격 이유",
+            "terminate": false,
+            "text": "해파리가 가진 신경세포 때문이에요. 해파리 앞에 적이 출현하거나 장애물이 있으면, 본능적으로 공격하게끔 돼 있거든요. 그래서 사람이 해파리 근처에 나타나도 장애물로 인식해서 촉수로 쏘는 거랍니다.",
+            "turn_id": "BK22013049-5",
+            "utterance_id": "BK22013049.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딱히 사람을 먹잇감으로 생각해서 그런 건 아니었군요. 그래도 사람이 근처에 나타나면 무조건 공격한다는 뜻인데, 해파리 때문에 죽는 사람들도 많이 나타날 것 같아요.",
+            "turn_id": "BK22013049-6",
+            "utterance_id": "BK22013049.11"
+        },
+        {
+            "reference_date": "43702.0",
+            "reference_text": [
+                {
+                    "value": "전 세계적으로 상어에게 공격당해 죽는 사람보다 해파리 독에 중독돼 숨지는 사람이 훨씬 많다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/201908255433Y",
+            "search_query": "해파리 사망",
+            "terminate": false,
+            "text": "실제로 해파리 독 때문에 사망하는 사람 수가, 상어의 습격을 받아 사망하는 사람 수를 압도해요.",
+            "turn_id": "BK22013049-6",
+            "utterance_id": "BK22013049.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상어보다 사람을 더 많이 죽인다고요? 생각보다 훨씬 위험한 동물이었네요. 그러면 바다에서 해파리의 공격을 피하기 위해서는 어떻게 해야 하나요?",
+            "turn_id": "BK22013049-7",
+            "utterance_id": "BK22013049.13"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "먼저 해수욕 전에는 해파리 출현 예보를 확인하고, 신체가 덜 노출되는 수영복을 입는 것이 좋다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물에 들어갈 때는 주변에 해파리가 없는지 잘 살피고, 부유물이나 거품이 많은 곳, 물의 흐름이 느린 곳에는 해파리가 모여 있는 경우가 많으므로 되도록 피하는 것이 좋다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 죽어있는 해파리에도 독성이 남아있을 수 있기 때문에 만지지 않도록 한다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000722851",
+            "search_query": "해파리 예방법",
+            "terminate": false,
+            "text": "우선 바다에 들어가기 전에 해파리 경보가 있는지 확인하고, 피부 노출이 적은 수영복을 착용해주셔야 하고요. 물에 들어가려는 곳에 해파리가 보이는지 확인하고, 부유물이나 거품이 많은 곳이나 유속이 느린 곳에는 해파리가 다수 출몰하므로 될 수 있는 대로 들어가지 마시고요. 죽은 해파리라도 독성이 남아있는 경우가 있기 때문에 절대 손대지 마세요.",
+            "turn_id": "BK22013049-7",
+            "utterance_id": "BK22013049.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 해파리에게 쏘이면 어떻게 대처해야 하나요?",
+            "turn_id": "BK22013049-8",
+            "utterance_id": "BK22013049.15"
+        },
+        {
+            "reference_date": "44425.0",
+            "reference_text": [
+                {
+                    "value": "피하지 못하고 해파리에 쏘였다면 쏘인 부위를 바닷물이나 식염수로 헹군다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아직 해파리의 촉수가 남아있다면 절대 손으로 만지지 말고 고무장갑, 핀셋 등을 통해 제거한다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "응급처치 후 시간이 지나도 열이 나거나 통증이 지속되고, 발열 등 이상 증상이 나타나면 즉시 병원에 찾아 치료를 받아야 한다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/08/17/2021081701723.html",
+            "search_query": "해파리 응급처치",
+            "terminate": false,
+            "text": "우선 바닷물이나 식염수로 해파리에게 쏘인 부위를 씻어주셔야 합니다. 해파리의 촉수가 피부에 그대로 꽂혀 있으면, 절대 직접 손으로 만지지 말고 고무장갑을 끼거나 핀셋을 활용하여 뽑으셔야 하고요. 응급처치가 끝났는데도 계속 열이 나거나 통증이 남아있는 식으로 이상 증상이 있다면 바로 병원으로 가서 치료하셔야 해요.",
+            "turn_id": "BK22013049-8",
+            "utterance_id": "BK22013049.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 또 바닷가로 갈 텐데, 명심해둬야겠네요.",
+            "turn_id": "BK22013049-9",
+            "utterance_id": "BK22013049.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해파리는 전국 어느 바닷가에서나 볼 수 있으니까요.",
+            "turn_id": "BK22013049-9",
+            "utterance_id": "BK22013049.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘도 덕분에 똑똑해진 것 같아요. 그럼 조심해서 들어가세요!",
+            "turn_id": "BK22013049-10",
+            "utterance_id": "BK22013049.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음번에 또 뵈어요!",
+            "turn_id": "BK22013049-10",
+            "utterance_id": "BK22013049.20"
+        }
+    ]
+}

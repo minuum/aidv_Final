@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005242",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005242",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방금 햄버거를 먹었는데, 햄버거란 이름에 대해 갑자기 궁금해졌어. 햄버거 어원에 대해 알아?",
+            "turn_id": "BK22005242-1",
+            "utterance_id": "BK22005242.1"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "독일의 함부르크를 중심으로 활동하던 상인들이 지난날 몽골에서 독일로 가져온 음식이었던 타르타르 스테이크를 모방하여 그 지역 요리사가 다진 육회를 재료로 반죽하여 뭉친 것을 불에 구운 것으로 햄버그 스테이크 또는 '함부르크 스테이크'라 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "8세기 초 미국으로 이민온 독일 출신 이민자들에게서 이 스테이크가 미국에서 널리 알려지면서 함부르크에서 온 스테이크라는 이름인 햄버그 스테이크(Hamburg steak)로 불리게 된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 미국 각지에서 햄버그 스테이크를 사용하여 햄버거라는 요리가 유행하게 되었는데 시초에 대해서는 많은 주장이 있을 뿐 정확히 누가 어디서 시작했는지는 알 수 없다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B1%B0",
+            "search_query": "햄버거 기원",
+            "terminate": false,
+            "text": "햄버거는 독일 함부르크의 상인들이 몽골의 타르타르 스테이크를 따라 만들었어. 그게 함부르크 스테이크가 되었는데, 이걸 햄버그 스테이크라고도 해. 이게 8세기에 미국으로 온 독일 이민자들을 통해 미국에 퍼진 거지. 그러다가 이 햄버그 스테이크를 사용한 햄버거란 요리가 유행했는데, 햄버거에 대한 정확한 기원은 잘 알려지지 않았어.",
+            "turn_id": "BK22005242-1",
+            "utterance_id": "BK22005242.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "햄버그 스테이크가 햄버거가 된 거구나. 기원을 알 수 없다니, 조금 궁금해지는데? 햄버거가 약간 샌드위치랑 닮았는데, 두 음식 사이의 연관성은 없어?",
+            "turn_id": "BK22005242-2",
+            "utterance_id": "BK22005242.3"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "햄버거의 시초를 둘러싼 주장 중 가장 유명한 것으로는 1904년 세인트루이스 박람회 때 한 요리사가 샌드위치를 만들던 중 너무 바쁜 나머지 함부르크 스테이크를 일반 고기 대신 샌드위치 빵에 넣어 판매한 것이 오늘날 햄버거의 시초라는 설이 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B1%B0",
+            "search_query": "햄버거 샌드위치",
+            "terminate": false,
+            "text": "햄버거 기원에 대한 설 중에 샌드위치랑 관련된 것이 있어. 1904년 세인트루이스 박람회에서 어느 요리사가 샌드위치를 만들다가 일반 고기 대신 함부르크 스테이크를 넣어 판 것이 햄버거의 기원이란 설이지. 햄버거 기원설 중에 가장 유명한 설이야.",
+            "turn_id": "BK22005242-2",
+            "utterance_id": "BK22005242.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이쯤 되니까 그 함부르크, 햄버그 스테이크에 대해서도 궁금해지는데? 도대체 햄버그 스테이크가 뭐야?",
+            "turn_id": "BK22005242-3",
+            "utterance_id": "BK22005242.5"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "햄버그 스테이크(영어: Hamburg Steak)는 쇠고기를 갈은 후 뭉쳐서 만든 프리카델레르 일종의 스테이크이며, 스테이크 중에서 가장 많이 익히는 스테이크이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B7%B8_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC",
+            "search_query": "햄버그 스테이크",
+            "terminate": false,
+            "text": "햄버그 스테이크는 프리카델레르 스테이크의 일종이야. 갈은 쇠고기를 뭉쳐 만들지. 특징으론 스테이크 중 가장 많이 익혀 먹어.",
+            "turn_id": "BK22005242-3",
+            "utterance_id": "BK22005242.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고기를 갈아서 만드는 게 햄버거랑 똑같네. 어떻게 하다 먹게 된 거지? 기원이 궁금해.",
+            "turn_id": "BK22005242-4",
+            "utterance_id": "BK22005242.7"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "원래 몽골이 고기를 연하게 하기 위해 안장에 넣어 다녔다는 이야기가 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후 이동에 용이하게 고기를 갈던 것이 유라시아 전역에 퍼지게 되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 독일의 함부르크 지역에서 현재의 것과 유사한 햄버그 스테이크가 되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B7%B8_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC",
+            "search_query": "햄버그 스테이크 기원",
+            "terminate": false,
+            "text": "몽골이 고기를 연하게 하려고 안장에 넣어 다녔는데, 그 뒤 이동하기 편하게 고기를 갈았거든. 그게 유라시아 전 지역에 전파되었어. 결국 독일 함부르크까지 닿았고 그렇게 햄버그 스테이크가 되었지.",
+            "turn_id": "BK22005242-4",
+            "utterance_id": "BK22005242.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "함부르크라고 해서 완전 독일 건 줄 알았는데 기원은 몽골이었던 거구나. 햄버그 스테이크 우리나라에도 있지?",
+            "turn_id": "BK22005242-5",
+            "utterance_id": "BK22005242.9"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "대한민국에서는 함박 스테이크로 부르기도 하는데, 이는 일본식 발음인 \"한바구(ハンバーグ)\"에서 들어온 발음이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%84%EB%B2%84%EA%B7%B8_%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC",
+            "search_query": "햄버그 스테이크 한국",
+            "terminate": false,
+            "text": "한국에선 함박 스테이크라고도 불러. 이건 일본식 발음인 한바구에서 온 거야.",
+            "turn_id": "BK22005242-5",
+            "utterance_id": "BK22005242.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "함박 스테이크가 햄버그 스테이크였구나. 어쩐지 이름이 비슷하더라. 독일에는 맛있는 음식이 참 많은 것 같아.",
+            "turn_id": "BK22005242-6",
+            "utterance_id": "BK22005242.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독일 음식 중 맛있는 게 참 많지.",
+            "turn_id": "BK22005242-6",
+            "utterance_id": "BK22005242.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독일 음식 중 소시지가 제일 유명하잖아. 소시지에 대해 이야기해보자. 소시지의 어원이 뭔지 알아?",
+            "turn_id": "BK22005242-7",
+            "utterance_id": "BK22005242.13"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "영어 소시지(sausage)의 어원은 프랑스어 '소시스'(saucisse)이며 이것은 '소금에 절인다'는 라틴어 '살수스'(salsus)에서 비롯되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%8B%9C%EC%A7%80",
+            "search_query": "소시지 어원",
+            "terminate": false,
+            "text": "소시지는 영어로, 프랑스어 소시스에서 왔어. 이것도 소금에 절인다는 뜻의 라틴어 살수스에서 시작되었지.",
+            "turn_id": "BK22005242-7",
+            "utterance_id": "BK22005242.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소시지가 영어였구나, 소시지는 언제부터 먹기 시작한 거야?",
+            "turn_id": "BK22005242-8",
+            "utterance_id": "BK22005242.15"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "소시지의 역사는 매우 오래 되었는데 소시지에 관한 기록 중 가장 오래 된 것으로 기원전 9세기에 썼다고 하는 호메로스의 《오디세이아》에서 병사들이 피와 섞은 고기반죽을 만들어 창자에 채운 것을 큰 불 앞에서 돌리고 먹었다고 하는 기록이 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%8B%9C%EC%A7%80",
+            "search_query": "소시지 역사",
+            "terminate": false,
+            "text": "소시지는 엄청 오랜 역사를 갖고 있어. 가장 오랜 기록은 기원전 9세기의 호메로스의 오디세이아에서 피와 고기를 섞은 반죽을 창자에 채워 병사들이 불에 구워 먹은 기록이지.",
+            "turn_id": "BK22005242-8",
+            "utterance_id": "BK22005242.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 약간 만드는 방식이 어묵과 비슷하네. 어묵과 소시지 연관성이 있어?",
+            "turn_id": "BK22005242-9",
+            "utterance_id": "BK22005242.17"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "완전히 동일한 방법으로 만들었음에도 재료를 돼지고기로 하면 소시지이지만 생선으로 할 경우 어묵이 된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%EC%8B%9C%EC%A7%80",
+            "search_query": "소시지 어묵",
+            "terminate": false,
+            "text": "맞아, 어묵과 소시지의 만드는 방법이 같아. 돼지고기로 하면 소시지고 생선으로 하면 어묵이지.",
+            "turn_id": "BK22005242-9",
+            "utterance_id": "BK22005242.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기해, 그거는 진짜 몰랐어. 둘이 거의 형제 같은 음식이었구나. 갑자기 소시지가 먹고 싶은데, 언제 한 번 날 잡고 같이 먹을래?",
+            "turn_id": "BK22005242-10",
+            "utterance_id": "BK22005242.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나야 언제든지 환영이야, 연락만 줘.",
+            "turn_id": "BK22005242-10",
+            "utterance_id": "BK22005242.20"
+        }
+    ]
+}

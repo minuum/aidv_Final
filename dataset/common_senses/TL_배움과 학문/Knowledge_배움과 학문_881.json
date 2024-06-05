@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005668",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005668",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우연히 조지아 오키프라는 화가의 그림을 봤는데, 너무 좋았어. 조지아 오키프는 미국의 화가인가?",
+            "turn_id": "BK22005668-1",
+            "utterance_id": "BK22005668.1"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "조지아 오키프(Georgia O'Keeffe, 1887년 11월 15일 ~ 1986년 3월 6일)는 미국의 화가이며, 자연에서 그녀의 많은 생각을 찾아내기로 유명하였다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%EC%95%84_%EC%98%A4%ED%82%A4%ED%94%84",
+            "search_query": "조지아 오키프",
+            "terminate": false,
+            "text": "맞아, 조지아 오키프는 1887년 태어난 미국 화가야. 자연에서 영감을 받아 그림을 그렸던 걸로 유명한 화가지.",
+            "turn_id": "BK22005668-1",
+            "utterance_id": "BK22005668.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 내가 본 그림도 꽃 그림이었어. 오지아 오키프는 꽃과 자연을 많이 그렸나보구나?",
+            "turn_id": "BK22005668-2",
+            "utterance_id": "BK22005668.3"
+        },
+        {
+            "reference_date": "2021-05-09",
+            "reference_text": [
+                {
+                    "value": "미국 화가 조지아 오키프(Georgia O'Keeffe. 1887~1986)는 “꽃과 사막의 화가”로 불린다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한창때에는 꽃을 그렸고, 중년 이후엔 뉴멕시코 산타페이(Santa Fe)에서 사막에 뒹구는 동물의 뼈와 사막의 꽃을 그렸다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.vop.co.kr/A00001562746.html",
+            "search_query": "조지아 오키프 꽃",
+            "terminate": false,
+            "text": "맞아, 한창 땐 꽃을 그렸고 중년이 되면서는 사막에 뒹구는 동물의 뼈와 사막의 꽃을 그렸어. 그래서 꽃과 사막의 화가라고 불리기도 해.",
+            "turn_id": "BK22005668-2",
+            "utterance_id": "BK22005668.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그런데 단순한 꽃그림이라기엔 좀 묘하고 야한 느낌이 들었어.",
+            "turn_id": "BK22005668-3",
+            "utterance_id": "BK22005668.5"
+        },
+        {
+            "reference_date": "2021-05-09",
+            "reference_text": [
+                {
+                    "value": "오키프가 초창기에 그렸던 꽃들은 여성의 생식기를 닮았고, 그래서 그의 작품은 늘 농염한 성적인 암시로 가득 찼다는 평가를 받곤 했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.vop.co.kr/A00001562746.html",
+            "search_query": "조지아 오키프 여성성",
+            "terminate": false,
+            "text": "오키프의 초창기 꽃 그림들은 여성의 생식기를 닮았고 그래서 그의 작품이 성적인 암시로 가득하다는 평도 자주 있었어.",
+            "turn_id": "BK22005668-3",
+            "utterance_id": "BK22005668.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그림에 성적인 암시가 있다고 평가받았지만, 실제 화가의 의도이기도 했을까?",
+            "turn_id": "BK22005668-4",
+            "utterance_id": "BK22005668.7"
+        },
+        {
+            "reference_date": "2019-07-21",
+            "reference_text": [
+                {
+                    "value": "그러나 오키프는 꽃의 아름다움을 여성적이라고 생각해서 그리기 시작한 것이 아니었다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 우리 주변에 꽃들이 많지만 실제로 꽃을 ‘정말로 바라보는 사람은 없다’고 말하며, 친구를 만나는데 시간이 필요한 것처럼 꽃을 진정으로 보기 위해서는 시간이 필요하기 때문에, 자신의 그림을 통해 아주 바쁜 뉴요커까지도 꽃을 보는데 시간을 보내게 하기 위해 꽃그림을 그렸다고 이유를 설명했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdn.co.kr/news/articleView.html?idxno=586428#09SX",
+            "search_query": "조지아 오키프 꽃그림",
+            "terminate": false,
+            "text": "그렇진 않아. 오키프는 여성적이라고 생각해서 꽃을 그렸던게 아니었거든. 그는 우리 주변에 꽃들이 많은데 실제로 꽃을 바라보는 사람은 없다고 말했어. 그리고 자신의 그림을 통해 아주 바쁜 뉴요커까지도 꽃을 진정으로 바라볼 수 있는 시간을 갖게 하기 위해서 꽃그림을 그렸다고 설명했어.",
+            "turn_id": "BK22005668-4",
+            "utterance_id": "BK22005668.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 생전에 다작을 했다고 하던데, 혹시 조지아 오키프 그림이 있는 미술관도 있을까?",
+            "turn_id": "BK22005668-5",
+            "utterance_id": "BK22005668.9"
+        },
+        {
+            "reference_date": "2019-07-21",
+            "reference_text": [
+                {
+                    "value": "99세를 일기로 사망하기까지 수많은 작품을 남겼고, 뉴욕 현대미술관에서 회고전이 개최되었을 뿐 아니라, 뉴멕시코에는 조지아 오키프 미술관이 만들어졌다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdn.co.kr/news/articleView.html?idxno=586428#09SX",
+            "search_query": "조지아 오키프 미술관",
+            "terminate": false,
+            "text": "응, 조지아 오키프는 99세로 사망하기 전까지 정말 많은 작품을 남겼는데, 그 작품들을 모은 미술관은 뉴멕시코 쪽에 만들어졌지.",
+            "turn_id": "BK22005668-5",
+            "utterance_id": "BK22005668.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 내가 잘 몰라서 그러는데 조지아 오키프 미술관이 있다는 뉴멕시코도 미국땅인가?",
+            "turn_id": "BK22005668-6",
+            "utterance_id": "BK22005668.11"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "뉴멕시코주(영어: State of New Mexico, 스페인어: Estado de Nuevo México, 나바호어: Yootó Hahoodzo)는 미국 남서부의 주이다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%89%B4%EB%A9%95%EC%8B%9C%EC%BD%94%EC%A3%BC",
+            "search_query": "뉴멕시코",
+            "terminate": false,
+            "text": "맞아, 뉴멕시코주는 미국의 남서부에 위치한 주야.",
+            "turn_id": "BK22005668-6",
+            "utterance_id": "BK22005668.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴멕시코는 나에겐 좀 낯선 곳이다. 왜 뉴멕시코에 미술관이 지어진거야?",
+            "turn_id": "BK22005668-7",
+            "utterance_id": "BK22005668.13"
+        },
+        {
+            "reference_date": "2020-03-06",
+            "reference_text": [
+                {
+                    "value": "1929년 무렵부터 뉴욕과 뉴멕시코를 오가며 작품활동을 하던 오키프는 스티글리츠가 숨지던 46년 뉴멕시코 산타페로 완전히 이주, 외부와의 접촉을 최대한 끊고 사실상 은둔하며 작품활동에 몰두했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/202003021431746844",
+            "search_query": "조지아 오키프 뉴멕시코",
+            "terminate": false,
+            "text": "오키프가 1929년 무렵부터 뉴욕과 뉴멕시코를 오가면서 작품활동을 했거든. 그리고 1946년부터는 뉴멕시코 산타페로 완전히 이주해서 거의 은둔하며 작품활동을 했어.",
+            "turn_id": "BK22005668-7",
+            "utterance_id": "BK22005668.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나, 조지아 오키프가 몇 년도에, 몇 살에 사망했는지도 혹시 알아?",
+            "turn_id": "BK22005668-8",
+            "utterance_id": "BK22005668.15"
+        },
+        {
+            "reference_date": "2021-05-09",
+            "reference_text": [
+                {
+                    "value": "한국 최초의 아시안 게임이 열렸던 1986년, 우리 나이 100살에 오키프는 죽었다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.vop.co.kr/A00001562746.html",
+            "search_query": "조지아 오키프 사망",
+            "terminate": false,
+            "text": "1986년, 한국 최초의 아시안 게임이 열렸던 해이기도 하지. 그리고 오키프는 우리나이로 100세에 사망했어.",
+            "turn_id": "BK22005668-8",
+            "utterance_id": "BK22005668.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 장수하며 작품활동을 해서 작품을 많이 남겼구나.",
+            "turn_id": "BK22005668-9",
+            "utterance_id": "BK22005668.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그는 정말 대단하지?",
+            "turn_id": "BK22005668-9",
+            "utterance_id": "BK22005668.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나이대별로 작품을 분류해서 보면 더 재밌을 것 같다. 심리나 상태에 대한 변화도 보이고.",
+            "turn_id": "BK22005668-10",
+            "utterance_id": "BK22005668.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네가 조지아 오키프 작품이 정말 흥미로웠나보구나. 또 궁금한 게 있으면 물어봐.",
+            "turn_id": "BK22005668-10",
+            "utterance_id": "BK22005668.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 고마워. 또 궁금한 게 생기면 물어볼게. 조지아 오키프에 대해 이야기 해줘서 고마워!",
+            "turn_id": "BK22005668-11",
+            "utterance_id": "BK22005668.21"
+        }
+    ]
+}

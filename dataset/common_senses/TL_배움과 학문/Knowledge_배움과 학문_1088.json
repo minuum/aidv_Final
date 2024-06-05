@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007150",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007150",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난 정부에서는 계속 탈원전 정책을 유지했는데, 이번 정부는 탈원전 입장이 아니야?",
+            "turn_id": "BK22007150-1",
+            "utterance_id": "BK22007150.1"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "실무안은 2030년 원전 비중을 32.8%, 태양광·풍력 등 신재생에너지 비중은 21.5%로 제시했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문재인 정부는 작년 11월 ‘2030 NDC’에서 원전 비중을 23.9%, 신재생에너지는 30.2%로 확정했는데 윤석열 정부가 이를 뒤집은 것이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089361",
+            "search_query": "원전비중확대",
+            "terminate": false,
+            "text": "응, 지난 정부에서는 2030 NDC 계획에서 원전의 비중을 23.9퍼센트, 신재생 에너지를 30.2퍼센트로 정한 것과 달리 이번 정부는 원전의 비중을 32.8퍼센트까지 올렸고, 태양광이나 풍력과 같은 신재생 에너지의 경우에는 21.5퍼센트로 지난 정부보다 훨씬 감축할 것이라는 입장이야.",
+            "turn_id": "BK22007150-1",
+            "utterance_id": "BK22007150.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탈원전 정책을 뒤집는 정책인 거네. 그럼 석탄발전은 어떻게 되는 거야?",
+            "turn_id": "BK22007150-2",
+            "utterance_id": "BK22007150.3"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "석탄발전은 감축 기조를 유지했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "NDC에서 21.8%를 제시했는데, 10차 기본계획에선 21.2%로 더 낮췄다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089361",
+            "search_query": "석탄발전감축",
+            "terminate": false,
+            "text": "NDC에서는 석탄 발전의 비중을 21.8센트 제시한 것과 달리 이번 정부의 10차 기본계획에서는 그 수치보다 더 낮은 21.2퍼센트를 제시했어. 석탄 발전은 감축하겠다는 입장이지.",
+            "turn_id": "BK22007150-2",
+            "utterance_id": "BK22007150.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 우리가 전력을 소비하는 양은 점차 늘어나고 있는데, 이에 대한 대비책은 있는 거야?",
+            "turn_id": "BK22007150-3",
+            "utterance_id": "BK22007150.5"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "총괄분과위는 15년 뒤인 2036년 최대 전력 수요를 117.3GW로 예상했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해부터 연평균 전력 수요가 1.4% 늘어난다고 가정했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목표 설비는 최대 전력 수요에 예비율 22%를 반영한 143.1GW로 잡았다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089361",
+            "search_query": "최대전력수요예측",
+            "terminate": false,
+            "text": "응, 그에 대한 대비도 하고 있어. 총괄분과위에 따르면 2036년 최대 전력수요가 117.3기가와트로 예상하는데, 목표 설비를 이것보다 더 넉넉하게 유지하겠다는 입장이야. 올해부터 한 해 평균 전력 수요가 1.4퍼센트 늘어난다는 가정하에, 전력 목표 설비를 최대 전력 수요에 예비율을 22퍼센트 반영한 143.1기가와트로 잡겠다고 발표했거든.",
+            "turn_id": "BK22007150-3",
+            "utterance_id": "BK22007150.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 정부가 이렇게 원전의 비중을 높이려는 이유가 뭐야?",
+            "turn_id": "BK22007150-4",
+            "utterance_id": "BK22007150.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "이번 계획에서 원자력발전(원전) 발전량 비중을 큰 폭 상향해 온실가스감축목표(NDC)를 달성한다는 계획이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02594486632432568&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "원전발전비중 증가이유",
+            "terminate": false,
+            "text": "원자력 발전을 통한 전기발전량을 늘려서 온실가스를 감축하겠다는 것이 궁극적인 목표인 거지.",
+            "turn_id": "BK22007150-4",
+            "utterance_id": "BK22007150.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 원전의 경우 다른 발전에 비해 온실가스를 덜 배출하긴 하니까. 그럼 정부에서 원전 비중을 늘리는 계획은 어떻게 진행할 예정이야?",
+            "turn_id": "BK22007150-5",
+            "utterance_id": "BK22007150.9"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "이를 위해 2036년까지 신고리 5·6호기, 신한울 3·4호기 등 원전 6기(8.4GW)를 신규 가동하고 노후원전 12기(10.5GW)의 수명을 연장해 계속운전하는 방안이 담겼다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089091",
+            "search_query": "원전확대계획",
+            "terminate": false,
+            "text": "우선 지금 가동 중인 10.5기가와트 전력을 생산하는 오래된 원전 12기의 수명을 더 연장해서 가동하고, 2036년까지 신고리 5, 6호기와 신한울 3, 4호기 등 새로운 원전을 6기 가동할 예정이야.",
+            "turn_id": "BK22007150-5",
+            "utterance_id": "BK22007150.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 결국엔 우리나라에 원전 발전소를 늘리겠다는 거네. 그럼 지난 정부의 정책인 신재생 에너지는 왜 대폭 줄이려는 거야?",
+            "turn_id": "BK22007150-6",
+            "utterance_id": "BK22007150.11"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "신재생에너지는 지나치게 빨리 확대될 경우 전력망의 불안정성이 높아지는 데다 막대한 설비 투자비가 드는 만큼 축소 조정이 불가피하다는 입장이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089091",
+            "search_query": "신재생에너지 문제점",
+            "terminate": false,
+            "text": "신재생 에너지의 경우에는 너무 지나치게 이른 시간안에 확대할 경우 전력 수급이 불안정해질 위험도 있고, 설비하기 위해서는 자금이 많이 들어가기 때문에 이 부분은 조정이 필요했던 거지.",
+            "turn_id": "BK22007150-6",
+            "utterance_id": "BK22007150.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 이번 정부는 더 이상 신재생에너지 비중을 높이지 않겠다는 건가?",
+            "turn_id": "BK22007150-7",
+            "utterance_id": "BK22007150.13"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "또 재생에너지의 발전량 비중을 20% 이상으로 높이는 것에 대비해 유연하고 안정적인 전력망 체계를 구축할 방침이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022083014443521075",
+            "search_query": "신재생에너지 발전계획",
+            "terminate": false,
+            "text": "아니, 재생에너지의 발전 비중은 유연하고 안정적인 전력망 체계를 갖추며 20퍼센트 이상 높일 예정이야.",
+            "turn_id": "BK22007150-7",
+            "utterance_id": "BK22007150.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 너무 재생에너지의 비중을 낮추지 말고, 대책을 세워 안정적으로 구축되었으면 좋겠다. 지금 가동 중인 석탄 발전 등으로 인한 온실가스에 대한 대책도 이번에 발표된 게 있어?",
+            "turn_id": "BK22007150-8",
+            "utterance_id": "BK22007150.15"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "석탄 발전과 LNG 발전 가동에 따른 온실가스 배출은 무탄소 연료(수소, 암모니아)를 통한 발전으로 일부 상쇄할 계획이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/2022083089091",
+            "search_query": "석탄발전 온실가스 문제",
+            "terminate": false,
+            "text": "응, 우선 지금 석탄발전과 LNG 발전으로 인해 나오는 온실가스는 수소나 암모니아와 같은 무탄소 연료 발전을 통해서 상쇄할 계획이야.",
+            "turn_id": "BK22007150-8",
+            "utterance_id": "BK22007150.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 온실가스를 줄여나갈 계획인 거구나, 우리에겐 안정적 전력 수급만큼이나 환경보호도 중요하니까, 이에 대한 정부의 지속적인 관심이 필요할 것 같아.",
+            "turn_id": "BK22007150-9",
+            "utterance_id": "BK22007150.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 맞아. 온실가스배출에 대한 문제는 전 세계적으로 관심사이기도 하니까 말이야.",
+            "turn_id": "BK22007150-9",
+            "utterance_id": "BK22007150.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 원전의 비중을 늘리기만 하는 것이 아닌 안정적인 재생에너지원도 필요한 거 같아. 오늘도 유익한 얘기 나눠줘서 고마워.",
+            "turn_id": "BK22007150-10",
+            "utterance_id": "BK22007150.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나도 오늘 함께 정부의 원전 비중 확대 정책에 관해 얘기 하면서 같이 고민할 수 있어서 즐거웠어. 다음에 또 만나서 이야기하자.",
+            "turn_id": "BK22007150-10",
+            "utterance_id": "BK22007150.20"
+        }
+    ]
+}

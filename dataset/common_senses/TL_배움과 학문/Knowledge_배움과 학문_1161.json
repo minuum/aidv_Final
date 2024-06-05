@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007714",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007714",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 수많은 국보가 있다는 것을 수업 시간에 배웠어. 국보가 정확히 어떤 것들을 말하는 건지 알아?",
+            "turn_id": "BK22007714-1",
+            "utterance_id": "BK22007714.1"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "대한민국의 국보(大韓民國 國寶)는 대한민국에서, 건축물이나 유물 등의 유형 문화재 가운데에 중요한 가치를 가져 보물로 지정될 만한 문화재 가운데 인류문화적으로 가치가 크고 유례가 드문 것, 독특하고 희귀한 것 등으로 인정되어 따로 지정된 문화유산을 말한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B5%AD%EB%B3%B4",
+            "search_query": "국보",
+            "terminate": false,
+            "text": "응, 국보는 한국에서 보물로 지정될 만큼 중요한 가치를 지닌 건축물이나 유물과 같은 유형 문화재 중 특히 인류 문화적인 가치가 크고 유례가 드문 것, 또는 희귀하거나 독특한 가치가 인정된 것 등을 인정받아 별개로 지정된 문화유산을 말해.",
+            "turn_id": "BK22007714-1",
+            "utterance_id": "BK22007714.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인류 문화적인 가치가 큰 문화유산들을 국보라고 부르는구나. 국보들은 1호, 2호와 같이 번호로 구분해서 부르지?",
+            "turn_id": "BK22007714-2",
+            "utterance_id": "BK22007714.3"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "문화재청은 8일 올해 주요 업무 추진 내용을 발표하며 \"문화재 지정번호가 문화재를 서열화한다는 인식을 개선하기 위해 1962년 문화재보호법 시행으로 시작된 지정번호를 없애고 내부 관리용으로만 운영하겠다\"고 밝혔다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2021/02/09/SE4ABBDWV5COPI2WJKLMEO3CKQ/",
+            "search_query": "문화재 지정 번호",
+            "terminate": false,
+            "text": "과거에는 국보나 보물을 지정 번호로 불렀지만, 지금은 그렇지 않아. 2021년 2월 8일 문화재청은 문화재의 지정 번호가 문화재를 서열화한다는 인식을 바꾸기 위해서 1962년 문화재보호법으로부터 시작된 지정 번호를 삭제하고, 번호를 내부 관리의 용도로만 사용하겠다고 밝혔어.",
+            "turn_id": "BK22007714-2",
+            "utterance_id": "BK22007714.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 문화재의 가치에 따라 번호를 매겼다고 생각했는데, 잘못된 생각이었구나. 왜 과거에는 국보나 보물에 지정 번호를 붙였을까?",
+            "turn_id": "BK22007714-3",
+            "utterance_id": "BK22007714.5"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "당초 국보 1호는 1934년 일제강점기에 조선총독부가 편의상 보물 1·2호로 남대문과 동대문을 지정한 데에서 시작됐다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것이 1962년 문화재보호법을 시행하는 과정에서 관례대로 국보 1호 남대문, 보물 1호 동대문 등으로 지정번호를 매기면서 굳어졌다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/yeojeok/article/202102092031005",
+            "search_query": "문화재 지정 번호의 시초",
+            "terminate": false,
+            "text": "애당초 국보 1호라는 지정 번호는 일제강점기인 1934년 조선총독부가 편의상 남대문과 동대문을 보물 1호와 2호로 지정한 것에서 시작되었어. 그때부터 이어져 온 관례를 1962년 문화재보호법 시행에 그대로 적용하면서 국보 1호 남대문, 보물 1호 동대문과 같은 지정 번호로 굳어진 거지.",
+            "turn_id": "BK22007714-3",
+            "utterance_id": "BK22007714.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 이제부터는 지정 번호 없이 국보 남대문, 보물 동대문이라고 불러야겠네. 그렇다면 국보로 지정된 건축물에는 어떤 것들이 있어?",
+            "turn_id": "BK22007714-4",
+            "utterance_id": "BK22007714.7"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "안동 봉정사 극락전(安東 鳳停寺 極樂殿)은 경상북도 안동시 서후면 봉정사에 있는 고려시대의 건축물로 대한민국의 국보 제15호이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "극락전은 영주시의 부석사와 함께 한국에 남아 있는 가장 오래된 목조건축물이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%8F%99_%EB%B4%89%EC%A0%95%EC%82%AC_%EA%B7%B9%EB%9D%BD%EC%A0%84",
+            "search_query": "국보 극락전",
+            "terminate": false,
+            "text": "경상북도 안동시 서후면 봉정사에 있는 고려시대 건축물인 극락전이 한국의 국보로 지정된 바 있어. 극락전은 영주의 부석사와 함께 대한민국에서 가장 오래된 목조 건축물로 알려져 있지.",
+            "turn_id": "BK22007714-4",
+            "utterance_id": "BK22007714.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고려시대에 지어진 목조 건축물이 남아있다니, 단연 국보로 지정될 만하겠다. 또 다른 목조 건축물 중에도 국보로 지정된 문화유산이 있어?",
+            "turn_id": "BK22007714-5",
+            "utterance_id": "BK22007714.9"
+        },
+        {
+            "reference_date": "2022-03-08",
+            "reference_text": [
+                {
+                    "value": "근정전(勤政殿)은 조선의 법궁인 경복궁의 정전으로, 다포계 팔작 지붕의 중층 건물이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 근정전은 국보 223호로 지정되어 있는 현존하는 한국 최대의 목조 건축물 중 하나이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%A0%95%EC%A0%84",
+            "search_query": "국보 근정전",
+            "terminate": false,
+            "text": "조선의 법궁이었던 경복궁의 정전인 근정전이 국보로 지정되어 있어. 근정전은 다포계 팔작지붕의 중층 건축물로, 현재 남아있는 국내 최대의 목조 건축물 중 하나지.",
+            "turn_id": "BK22007714-5",
+            "utterance_id": "BK22007714.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가장 큰 목조 건축물이라니, 경복궁의 근정전을 꼭 한 번 보러 가봐야겠어. 교과서에 국보로 지정된 석탑이 있다는 내용도 나오던데, 국보로 지정된 석탑에는 어떤 것들이 있어?",
+            "turn_id": "BK22007714-6",
+            "utterance_id": "BK22007714.11"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "다보탑(多寶塔, 영어: Dabotap 또는 Dabo Pagoda)은 경주 불국사에 있는 하대 신라 시기의 석탑이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "국보 제20호이며, 불국사 대웅전 앞뜰에 석가탑과 상대하여 위치하고 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%A3%BC_%EB%B6%88%EA%B5%AD%EC%82%AC_%EB%8B%A4%EB%B3%B4%ED%83%91",
+            "search_query": "국보 다보탑",
+            "terminate": false,
+            "text": "경주 불국사에 있는 다보탑이 국보로 지정되어 있는 석탑이야. 하대 신라 시기의 석탑으로 불국사 대웅전 앞뜰에 석가탑과 함께 위치해 있지.",
+            "turn_id": "BK22007714-6",
+            "utterance_id": "BK22007714.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경주에 가게 되면 불국사에 들러 다보탑과 석가탑을 꼭 보러 가야지. 예전에 팔만대장경의 문화적 가치가 매우 높다는 기사를 본 적이 있는데, 혹시 팔만대장경도 국보로 지정되어 있어?",
+            "turn_id": "BK22007714-7",
+            "utterance_id": "BK22007714.13"
+        },
+        {
+            "reference_date": "2021-06-13",
+            "reference_text": [
+                {
+                    "value": "팔만대장경은 고려시대에 몽골이 고려를 침입하자 부처의 힘으로 몽골군을 물리치기 위해 1236∼1251년 총 16년에 걸쳐 만든 목판(나무에 글 등을 새긴 인쇄용 판) 불교 경전(종교의 교리를 적은 책)으로, 국보 제32호이자 유네스코 세계기록유산으로 지정돼 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20210613132009158",
+            "search_query": "국보 팔만대장경",
+            "terminate": false,
+            "text": "맞아, 팔만대장경은 한국의 국보이자 유네스코 세계유산에 등재되어 있어. 팔만대장경은 부처의 힘으로 적을 물리치기 위해 총 16년에 걸쳐 만들어진 고려시대의 목판 불교 경전이야.",
+            "turn_id": "BK22007714-7",
+            "utterance_id": "BK22007714.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "팔만대장경이 국보이자 유네스코 세계유산으로 등재되어 있다니 정말 대단하다. 팔만대장경은 목판으로 만든 경전인데, 어떻게 지금까지 오랜 시간 보존될 수 있었을까?",
+            "turn_id": "BK22007714-8",
+            "utterance_id": "BK22007714.15"
+        },
+        {
+            "reference_date": "2016-05-23",
+            "reference_text": [
+                {
+                    "value": "이처럼 보존에 불리한 환경임에도 수백년간 대장경판이 온전할 수 있었던 것은 바로 장경판전의 과학적인 구조 덕분이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 장경판전은 해인사 내에서도 가장 높은 지역에 위치해 있어, 가야산의 지형 특성상 아래 계곡에서 불어오는 바람을 이용해 자연 환기가 가능하다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 수다라장과 법보전은 건물 전체가 서남향으로 배치돼 해가 떠 있는 동안 모든 경판에 한 번씩 햇빛이 고루 비친다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/600%EB%85%84-%ED%8C%94%EB%A7%8C%EB%8C%80%EC%9E%A5%EA%B2%BD-%EB%B3%B4%EC%A0%84%ED%95%9C-%EB%B9%84%EA%B2%B0/",
+            "search_query": "팔만대장경 보관",
+            "terminate": false,
+            "text": "수백 년간 팔만대장경판이 온전히 보존될 수 있었던 이유는 바로 장경판전의 과학적인 구조 덕분이야. 해인사 내에서도 가장 고지대에 있는 장경판전은 지형의 특성상 아래에 있는 계곡에서 불어오는 바람을 통해 자연적인 환기가 가능해. 그리고 수다라장과 법보전의 건물이 모두 서남향으로 자리 잡고 있어 해가 떠 있는 시간 동안 각각의 경판에 모두 햇빛이 고루 비치게 돼.",
+            "turn_id": "BK22007714-8",
+            "utterance_id": "BK22007714.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "팔만대장경은 정말 조상들의 지혜가 담긴 귀중한 문화유산이네. 이렇게 다양한 형태의 국보들이 많다니 뿌듯하고 자랑스러워.",
+            "turn_id": "BK22007714-9",
+            "utterance_id": "BK22007714.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 우리나라에는 매우 다양한 형태의 국보나 보물과 같은 문화유산이 많이 있어. 소중한 문화재를 지키고 보존하는 것이 우리가 해야 할 일이지.",
+            "turn_id": "BK22007714-9",
+            "utterance_id": "BK22007714.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유익한 정보들을 알려줘서 고마워. 덕분에 대한민국의 국민인 게 조금 더 자랑스러워졌어.",
+            "turn_id": "BK22007714-10",
+            "utterance_id": "BK22007714.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "한국인인 것이 자랑스러워졌다니 나도 뿌듯하네. 또 궁금한 것이 생기면 언제든지 물어봐.",
+            "turn_id": "BK22007714-10",
+            "utterance_id": "BK22007714.20"
+        }
+    ]
+}

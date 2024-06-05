@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006989",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006989",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좀 뒤늦게 인터스텔라라는 영화를 봤는데 블랙홀에 관한 내용이 나오더라고. 그런데 블랙홀에 관해서 단편적인 지식밖에 없다 보니 영화 내용이 잘 이해가 안 돼서 공부해야겠다는 생각이 들더라. 그래서 말인데, 블랙홀이 어떤 것인지 간략하게나마 설명해 줄 수 있을까?",
+            "turn_id": "BK22006989-1",
+            "utterance_id": "BK22006989.1"
+        },
+        {
+            "reference_date": "2019-04-10",
+            "reference_text": [
+                {
+                    "value": "블랙홀은 중력의 당기는 힘이 너무 강해서 빛을 포함한 모든 전자기파가 빠져나가지 못하는 우주 공간이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모든 물질은 중력을 갖고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우주 공간에서 물질이 어떠한 이유로든 작은 공간에 압축되면 강한 중력이 발생해 주변의 물질을 당기게 되고, 점점 커진다",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 물질이 많이 압축돼 중력이 빛을 빨아들일 정도가 되면 블랙홀이 된다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=27994",
+            "search_query": "블랙홀 무엇",
+            "terminate": false,
+            "text": "중력의 인력이 너무나도 강력해서 빛을 포함한 어떤 전자기파조차 빠져나갈 수 없는 우주 공간을 블랙홀이라고 해. 물질은 모두 중력을 지니고 있고, 물질이 우주 공간에서 어떤 이유로 작은 공간에 압축되면 강력한 중력이 생겨나지. 그렇게 발생한 중력은 주위의 물질을 당기게 되고, 점점 커져. 이렇게 수많은 물질이 압축되어 중력이 빛을 빨아들일 정도로 강해지면 블랙홀이 되는 거야.",
+            "turn_id": "BK22006989-1",
+            "utterance_id": "BK22006989.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그런 블랙홀은 대체 어떻게 만들어지는 걸까? 물질이 한 곳으로 압축되어서 블랙홀이 된다면, 어떤 상황에서 압축이 일어나는지도 궁금해.",
+            "turn_id": "BK22006989-2",
+            "utterance_id": "BK22006989.3"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "중력붕괴는 어떤 천체의 내부 압력이 천체의 자체 중력을 상쇄시킬 수 없을 때 발생한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "항성의 경우, 항성 핵합성을 통해 온도를 유지하여 필요한 압력을 얻는데, 여기에 필요한 \"연료\"가 너무 적어졌을 때, 또는 핵 온도가 상승하지 않는 방식으로 추가적인 물질을 얻게 되었을 때 중력붕괴가 일어난다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "붕괴 이전의 별이 원래 무지막지하게 컸거나 또는 붕괴된 뒤 잔해 위로 추가적인 질량이 강착되어, 잔해의 질량이 3 ~ 4 M☉(즉 톨먼–오펜하이머–볼코프 한계[26])를 초과하게 되면, 중성자 축퇴압으로도 붕괴를 막을 수 없게 된다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "톨먼–오펜하이머–볼코프 한계를 넘어선 밀집성이 블랙홀로 붕괴하는 것을 멈출 수 있는 방법은 아직까지 밝혀진 바 없다(다만 쿼크의 축퇴압이 그 가능성이 있다. 쿼크별 참조).",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "search_query": "블랙홀 생성 원리",
+            "terminate": false,
+            "text": "응, 블랙홀이 생길 정도로 압축이 되는 현상으로 중력 붕괴라는 것이 있는데, 한 천체의 내부 압력이 천체 자체의 중력을 지탱할 수 없을 때 발생해. 항성을 예로 들자면, 항성은 항성 핵합성으로 온도를 유지하고 필요한 압력을 획득하는데, 이 핵합성에 필요한 연료가 너무 부족해질 경우, 혹은 핵의 온도가 올라가지 않는 방법으로 물질을 추가적으로 얻게 될 때 중력 붕괴가 일어나지. 이때, 별이 붕괴 이전에 굉장히 거대했거나 붕괴된 이후 질량이 추가로 강착되어서 붕괴된 잔해의 질량이 태양 질량의 3~4배, 즉, 톨먼-오펜하이머-볼코프 한계를 넘게 되면 중성자 축퇴압으로도 붕괴를 막을 수 없게 되고, 이 한계를 넘어선 밀집성이 블랙홀로 무너져 내리는 것을 멈추는 방법은 아직까지 밝혀진 것이 없어.",
+            "turn_id": "BK22006989-2",
+            "utterance_id": "BK22006989.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양 질량의 3~4배라니, 역시 천문학적인 규모는 언제나 상상을 넘어서네. 그나저나, 몇 년 전에 블랙홀을 처음으로 관측했다고 떠들썩했잖아. 첫 관측이라는 말은 블랙홀의 존재 자체를 예견했던 건 더 이전이었을 것 같은데, 맞아?",
+            "turn_id": "BK22006989-3",
+            "utterance_id": "BK22006989.5"
+        },
+        {
+            "reference_date": "2019-04-10",
+            "reference_text": [
+                {
+                    "value": "블랙홀의 존재가 이론적으로 예견된 것은 불과 104년 전으로 거슬러 올라간다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "천재 물리학자 알베르트 아인슈타인이 1915년 발표한 일반상대성이론이 시초다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로 이듬해 다른 독일인 물리학자 카를 슈바르츠실트가 그의 심오한 방정식을 풀어 해를 발견하면서 지금의 블랙홀에 해당하는 수학적 개념이 나타났다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 그가 푼 해에는 특정 값이 무한이 되는 ‘특이점’이 있었다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=28007",
+            "search_query": "카를 슈바르츠실트",
+            "terminate": false,
+            "text": "맞아, 블랙홀의 존재는 104년 전에 이론적으로 예견됐지. 1915년에 물리학자인 알베르트 아인슈타인이 발표한 일반상대성이론이 그 시초인데, 이듬해에 독일인 물리학자 카를 슈바르츠실트가 그 방정식을 풀어서 해를 발견했고, 그렇게 지금 우리가 말하는 블랙홀에 해당하는 수학적인 개념이 등장했어. 슈바르츠실트가 푼 해에는 특정한 값이 무한으로 발산하는 특이점이 존재했던 거야.",
+            "turn_id": "BK22006989-3",
+            "utterance_id": "BK22006989.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 이야기를 듣다가 문득 든 궁금증인데 말이야, 빛조차 빠져나올 수 없는 게 블랙홀인데, 그런 블랙홀을 대체 어떻게 관측한 거야?",
+            "turn_id": "BK22006989-4",
+            "utterance_id": "BK22006989.7"
+        },
+        {
+            "reference_date": "2019-12-13",
+            "reference_text": [
+                {
+                    "value": "블랙홀의 그림자를 통한 블랙홀 관측이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "블랙홀 중력으로부터 비교적 영향을 덜 받는 위치를 지나가는 빛과 전파는 블랙홀에 빨려 들어가지 않고 블랙홀의 강한 중력 때문에 휘어져 지나간다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 빛과 전파가 블랙홀 주위를 휘감는 모습을 보여 블랙홀의 윤곽이 드러난다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%B3%B4%EC%9D%B4%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%B8%94%EB%9E%99%ED%99%80%EC%9D%84-%EA%B4%80%EC%B8%A1%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+            "search_query": "블랙홀 관측 방법",
+            "terminate": false,
+            "text": "블랙홀의 그림자를 이용해 블랙홀을 관측하는 거야. 블랙홀의 중력으로부터 영향을 비교적 덜 받는 곳을 지나는 전파와 빛은 블랙홀에 빨려 들어가지는 않고, 그저 블랙홀의 강력한 중력에 의해 휘어져 지나가게 되거든. 이러한 전파와 빛이 블랙홀 주변부를 휘어 감는 모습을 통해 블랙홀의 윤곽을 파악하는 것이지.",
+            "turn_id": "BK22006989-4",
+            "utterance_id": "BK22006989.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 관측 아이디어를 냈다는 게 정말 대단한걸. 그런데 이 무시무시한 블랙홀은 대체 우주에 얼마나 있는 걸까? 내가 알기로 우리 은하 중심에도 블랙홀이 있다던데 말이야.",
+            "turn_id": "BK22006989-5",
+            "utterance_id": "BK22006989.9"
+        },
+        {
+            "reference_date": "2018-04-05",
+            "reference_text": [
+                {
+                    "value": "미국 컬럼비아대 천문학실험실 찰스 헤일리 교수팀은 우리 은하 중심에 위치한 거대 블랙홀 '궁수자리(Sagittarius) A*' 주위에 12개의 작은 블랙홀들이 존재하는 것을 확인해 4일(현지시각) 학술지 ‘네이처’에 발표했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "헤일리 교수는 논문에서 “공간적으로 블랙홀의 분포를 정밀 계산하면 약 1만개의 블랙홀이 있을 것으로 예측된다”고 설명했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=21999",
+            "search_query": "우리 은하 블랙홀 개수",
+            "terminate": false,
+            "text": "미국 컬럼비아대학교 천문학 실험실의 찰스 헤일리 교수팀이 2018년 4월 4일 학술지 네이처에 발표한 바에 따르면, 우리 은하 중심에 있는 거대 블랙홀인 궁수자리 A 주위에 작은 블랙홀이 12개 있는 것으로 확인됐대. 헤일리 교수는 블랙홀의 분포를 공간적으로 정밀하게 계산해 보면, 블랙홀이 약 1만 개는 있을 것이라고 예상된다고 논문에서 설명했지.",
+            "turn_id": "BK22006989-5",
+            "utterance_id": "BK22006989.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 기껏해야 한두 개를 생각했는데, 1만 개라니 놀랍네. 그 궁수자리 블랙홀도 관측할 수 있으면 좋을 텐데, 혹시 이미 관측했으려나?",
+            "turn_id": "BK22006989-6",
+            "utterance_id": "BK22006989.11"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "국제블랙홀연구협력집단인 ‘사건지평선망원경’(EHT) 연구팀은 12일(한국시각) 밤 10시에 “사건지평선망원경으로 우리은하 중심에 있는 초대질량 천체인 ‘사지-에이-스타’(Sgr A*·궁수자리 A*)를 관측했다”고 밝히며 영상을 공개했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀은 태양보다 400만배 무거운 궁수자리 A 블랙홀의 강력한 중력에 의해 휘어진 빛을 포착했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/1042687.html",
+            "search_query": "은하 중심 블랙홀",
+            "terminate": false,
+            "text": "국제블랙홀연구협력집단 사건지평선망원경 연구팀이 한국 시각으로 지난 5월 12일 밤 10시에 관측 영상을 공개했는데, 우리 은하 중심의 초대질량 천체 궁수자리 A를 사건지평선망원경으로 관측한 것이었어. 태양 질량의 400만 배에 달하는 궁수자리 A 블랙홀의 강한 중력에 의해서 빛이 휘어진 모습을 포착한 것이지.",
+            "turn_id": "BK22006989-6",
+            "utterance_id": "BK22006989.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양 질량의 400만 배라니, 대체 얼마나 무거운 건지 상상이 안 가는걸. 저렇게 무거운 블랙홀은 다른 블랙홀과 구분해야 하는 거 아니야?",
+            "turn_id": "BK22006989-7",
+            "utterance_id": "BK22006989.13"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "초대질량 블랙홀(영어: Supermassive black hole)은 질량이 태양질량의 수십만 배에서 수십억 배에 이르는 가장 큰 유형의 블랙홀이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거의 대부분의 은하의 중심에 초대질량 블랙홀이 있을 것으로 추정된다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "초대질량 블랙홀의 기원에 관한 연구 영역은 현재까지 황무지이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 형성 메커니즘과 원형 천체의 초기 질량이나 초대질량 블랙홀의 \"씨앗\"에 관해서는 몇가지 가설이 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "search_query": "초대질량 블랙홀",
+            "terminate": false,
+            "text": "응, 실제로 태양 질량의 수십만~수십억 배에 이르는 최대 유형의 블랙홀은 초대질량 블랙홀로 구분하고 있어. 은하의 중심에는 대부분 이런 초대질량 블랙홀이 있을 것이라고 예상되는데, 초대질량 블랙홀이 어떻게 기원했는지에 관한 연구는 아직 제대로 이루어지지 않았어. 다만, 원형 천체의 초기 질량이나 초대질량 블랙홀의 씨앗, 형성 메커니즘에 관해서는 가설이 몇 가지 있지.",
+            "turn_id": "BK22006989-7",
+            "utterance_id": "BK22006989.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 궁금한데, 가설 중에 유명한 것으로 하나만 소개해 줄 수 있을까?",
+            "turn_id": "BK22006989-8",
+            "utterance_id": "BK22006989.15"
+        },
+        {
+            "reference_date": "2020-06-09",
+            "reference_text": [
+                {
+                    "value": "이러한 초거대 블랙홀이 어떻게 탄생했는지는 천문학계의 오랜 난제다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그중에서 가장 인기 있는 가설은 ‘직접 붕괴 블랙홀(Direct collapse black hole, DCBH)’ 이론이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "은하 형성 초기에 원시 가스 구름이 태양 질량의 10만 배 이상인 거대 항성을 생성하고, 곧이어 중력에 의해 붕괴하면서 초거대 블랙홀로 진화한다는 것이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%B4%88%EA%B1%B0%EB%8C%80-%EB%B8%94%EB%9E%99%ED%99%80%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EC%9B%90/",
+            "search_query": "초대질량 블랙홀 생성 가설",
+            "terminate": false,
+            "text": "초거대 블랙홀 탄생을 설명하는 가장 인기 있는 가설은 직접 붕괴 블랙홀 이론이야. 은하가 형성되는 초기에 원시 가스 구름이 태양 질량의 10만 배를 넘는 거대한 항성을 만들고, 곧바로 중력 때문에 붕괴하면서 초거대 블랙홀로 진화한다는 가설이지.",
+            "turn_id": "BK22006989-8",
+            "utterance_id": "BK22006989.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 신비로우면서도 이해를 넘어서는 천체네. 게다가 제대로 공부하려면 여러 이론을 알아야겠고. 블랙홀에 관해 더 공부할 겸, 혹시 이번 주말에 만나서 상대성 이론에 관해서도 설명해 줄 수 있을까?",
+            "turn_id": "BK22006989-9",
+            "utterance_id": "BK22006989.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론이지, 최선을 다해서 설명해 줄게.",
+            "turn_id": "BK22006989-9",
+            "utterance_id": "BK22006989.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 필기할 노트랑 펜도 챙겨서 만나야겠네. 토요일 아침 10시에 만날 수 있을까?",
+            "turn_id": "BK22006989-10",
+            "utterance_id": "BK22006989.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 나도 잘 가르쳐 줄 수 있도록 준비 제대로 해서 갈게. 공부하다가 점심 먹으면 되겠다. 그럼 그때 보자.",
+            "turn_id": "BK22006989-10",
+            "utterance_id": "BK22006989.20"
+        }
+    ]
+}

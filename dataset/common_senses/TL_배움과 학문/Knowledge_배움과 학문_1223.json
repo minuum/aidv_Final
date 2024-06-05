@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008164",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008164",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 지질학 수업을 듣다가 화산활동에 대한 레포트를 써야 하거든요. 그래서 자료좀 찾아보고 있는데 최근에 통가에서 화산폭발이 있었다고 하더라고요. 자료좀 수집하려고 하는데, 우선 활화산이 보통 어떻게 분포하고 있나요?",
+            "turn_id": "BK22008164-1",
+            "utterance_id": "BK22008164.1"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "현재 800개 정도의 활화산이 알려져 있는데 대부분 좁은 띠 모양으로 분포하고 특히 일본열도를 포함한 환태평양지역이나 인도네시아에 밀집되어 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%9C%ED%99%94%EC%82%B0",
+            "search_query": "활화산",
+            "terminate": false,
+            "text": "주로 일본 열도를 포함한 환태평양 지역, 인도네시아에 대체로 좁은 띠 모양으로 분포하고 있어요. 현재 800여 개가 활화산으로 알려져 있죠.",
+            "turn_id": "BK22008164-1",
+            "utterance_id": "BK22008164.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그러면 통가 화산 폭발은 규모가 어느 정도 됐어요?",
+            "turn_id": "BK22008164-2",
+            "utterance_id": "BK22008164.3"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "최근 영국 셰필드 대학 등 공동연구팀은 올해 초 쓰나미를 촉발한 통가 화산의 폭발력이 61메가톤(Mt)에 달한다는 논문을 발표했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/081/0003295785?sid=105",
+            "search_query": "통가 화산 폭발",
+            "terminate": false,
+            "text": "근래에 영국 셰필드 대학 등 공동연구팀에서 한 논문을 발표했는데, 그에 따르면 올초에 쓰나미를 발생시킨 통가 화산 폭발력이 61메가톤에 달했을 정도의 규모였다고 발표했어요.",
+            "turn_id": "BK22008164-2",
+            "utterance_id": "BK22008164.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청난 폭발력이군요! 화산이 폭발하면 피해 범위도 굉장히 넓어서 피해 규모가 어마어마할 것 같은데, 구체적으로 어떤 문제가 생기나요?",
+            "turn_id": "BK22008164-3",
+            "utterance_id": "BK22008164.5"
+        },
+        {
+            "reference_date": "2022-01-24",
+            "reference_text": [
+                {
+                    "value": "화산폭발 땐, 1차적으로 초미세결정인 화산재로 인한 막대한 피해를 초래한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화산재로 인한 호흡기질환, 토양산성화에 따른 농작물 피해, 태양빛 가림에 따른 기후변화 유발 등이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2차적으로는 하늘길이 막혀 경제·산업에 피해를 초래한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/008/0004699505?sid=105",
+            "search_query": "백두산 분화 피해",
+            "terminate": false,
+            "text": "우선은 1차로 초미세 결정인 화산재가 쏟아지면서 그로 인한 호흡기 질환이라든지 토양 산성화로 인한 농작물 피해, 태양 빛을 가려서 생기는 기후 변화 유발 등 막대한 피해가 초래되죠. 그다음으론 2차로 하늘길이 막히게 되어 경제와 산업 분야에 피해가 발생하고 말아요.",
+            "turn_id": "BK22008164-3",
+            "utterance_id": "BK22008164.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상만 해도 소름이 돋네요. 백두산도 한때 막심한 피해를 초래한 화산이었다던데, 규모가 어느 정도였나요?",
+            "turn_id": "BK22008164-4",
+            "utterance_id": "BK22008164.7"
+        },
+        {
+            "reference_date": "2022-01-31",
+            "reference_text": [
+                {
+                    "value": "화산폭발지수(VEI)가 7에 해당하는 분화로 분석됐는데, 화산폭발지수는 0부터 8까지 나뉘며 한 등급 사이 폭발 규모는 10배 차이입니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원후 화산폭발지수가 8인 분화는 없었고, 7은 946~947년 백두산 분화를 비롯해 1812년 탐보라 화산 분화와 1257년 사말라스 화산 분화 등 세 차례였습니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/057/0001639225?sid=102",
+            "search_query": "백두산 분화 가능성",
+            "terminate": false,
+            "text": "화산폭발지수라는 게 있는데 0~8까지 등급이 나뉘고, 한 등급이 차이 날 때마다 폭발 규모는 10배가 차이 난다고 보시면 돼요. 백두산 같은 경우에는 946~947년에 터졌을 때 화산 폭발 지수가 7이었죠. 기원후 지수가 8인 경우는 없었지만, 백두산과 1812년에 터진 탐보라 화산, 1257년에 터진 사말라스 화산 등이 7등급으로 상당한 폭발 규모를 보였어요.",
+            "turn_id": "BK22008164-4",
+            "utterance_id": "BK22008164.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 등급만 봐선 굉장한 규모였던 것 같은데 뭔가 현실감이 없어요. 당시 주변국에도 영향을 미칠 정도였나요?",
+            "turn_id": "BK22008164-5",
+            "utterance_id": "BK22008164.9"
+        },
+        {
+            "reference_date": "2022-01-31",
+            "reference_text": [
+                {
+                    "value": "백두산이 가장 크게 분화했을 때는 고려 때인 946~947년이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 분화는 규모가 워낙 커서 '천년 분화'(Millennium Eruption)로 불리며 학자마다 계산이 다르지만 화산분출물량이 약 100~170㎦이고 화산재가 동해를 건너 일본 쿠릴열도까지 도달한 것으로 추정된다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/001/0012950918?sid=103",
+            "search_query": "우리나라 활화산",
+            "terminate": false,
+            "text": "그럼요, 가장 크게 분화했을 때가 바로 그때 고려 946~947년인데, 천년 분화라고 불릴 정도로 규모가 상당했어요. 학자마다 계산이 다르지만 당시 화산분출물량이 100~170세제곱킬로미터 정도에 해당하고, 화산재가 동해 건너 일본 쿠릴 열도까지 미칠 정도로 어마어마했죠.",
+            "turn_id": "BK22008164-5",
+            "utterance_id": "BK22008164.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그때 당시 일본도 어리둥절했을 것 같네요. 참, 백두산이 슈퍼화산이란 말도 있던데 맞나요?",
+            "turn_id": "BK22008164-6",
+            "utterance_id": "BK22008164.11"
+        },
+        {
+            "reference_date": "2020-06-05",
+            "reference_text": [
+                {
+                    "value": "여기서 슈퍼볼케이노란 '슈퍼화산'이라고도 합니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'백두산'도 과거 슈퍼화산이었죠.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=89008",
+            "search_query": "백두산 슈퍼화산",
+            "terminate": false,
+            "text": "네, 슈퍼볼케이노라고도 하고 슈퍼화산이라고도 하는데, 과거엔 백두산도 이에 해당했죠.",
+            "turn_id": "BK22008164-6",
+            "utterance_id": "BK22008164.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그때 백두산 정도로 분화 규모가 엄청나면 슈퍼화산이라고 부르나 보군요. 슈퍼화산의 기준이란 게 따로 있나요?",
+            "turn_id": "BK22008164-7",
+            "utterance_id": "BK22008164.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "초화산(超火山, supervolcano)은 일반적인 화산 분화의 수천 배에 달하는 부피 1,000 입방킬로미터 이상의 분출물을 분화시킬 수 있는 화산이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B4%88%ED%99%94%EC%82%B0",
+            "search_query": "슈퍼화산",
+            "terminate": false,
+            "text": "네, 일반 화산이 분화했을 때 생기는 분출물의 양보다 수천 배에 달하는 부피 1000입방킬로미터 이상의 분출물을 쏟아낼 수 있는 화산이 슈퍼볼케이노, 즉 초화산이죠.",
+            "turn_id": "BK22008164-7",
+            "utterance_id": "BK22008164.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 슈퍼화산이란 말을 이전에 들어보긴 했는데 자세히는 모르고 있었어요. 이제 들으니 좀 불안하네요. 미국 옐로스톤 국립공원에도 슈퍼화산이 있다던데, 그게 터지면 정말 엄청난 재앙이 되겠죠?",
+            "turn_id": "BK22008164-8",
+            "utterance_id": "BK22008164.15"
+        },
+        {
+            "reference_date": "2018-01-23",
+            "reference_text": [
+                {
+                    "value": "이와 관련해 미 항공우주국(NASA)도 옐로스톤 국립공원 내 화산 분출이 지구 상에서 일어난 어떤 자연 현상보다 더 큰 재앙이 될 수 있으며, 소행성 충돌과도 비견할 수 있다고 관측했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gukjenews.com/news/articleView.html?idxno=861881",
+            "search_query": "슈퍼화산 옐로스톤",
+            "terminate": false,
+            "text": "그렇죠, 미국 NASA에서도 옐로스톤 국립공원에 위치한 화산이 분출한다면 소행성 충돌과도 견줄 수 있을 정도로 역사상 가장 큰 재앙이 될 거라고 내다봤어요.",
+            "turn_id": "BK22008164-8",
+            "utterance_id": "BK22008164.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 일은 제발 없어야 할 텐데요.",
+            "turn_id": "BK22008164-9",
+            "utterance_id": "BK22008164.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 저도 그런 재앙이 생길까 봐 걱정이네요.",
+            "turn_id": "BK22008164-9",
+            "utterance_id": "BK22008164.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "슈퍼화산이란 점에서 항상 예의주시하고 있어야겠어요. 여러모로 이것저것 알려줘서 고마워요. 덕분에 이번 지질학 수업은 상위권 성적을 받을 수 있을 것 같아요.",
+            "turn_id": "BK22008164-10",
+            "utterance_id": "BK22008164.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 된 것 같아 다행이에요. 또 궁금한 거 생기면 언제든 물어봐 주세요.",
+            "turn_id": "BK22008164-10",
+            "utterance_id": "BK22008164.20"
+        }
+    ]
+}

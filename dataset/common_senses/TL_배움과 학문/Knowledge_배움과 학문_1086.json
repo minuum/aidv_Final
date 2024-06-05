@@ -1,0 +1,427 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007146",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007146",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아유~ 정말 매미 소리 때문에 귀가 아플 지경이에요. 대체 매미는 왜 이렇게 시끄럽게 우는 거죠?",
+            "turn_id": "BK22007146-1",
+            "utterance_id": "BK22007146.1"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "요란하게 우는 매미는 수컷 성충이에요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷 매미를 유혹해 짝짓기하기 위해서죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷 매미는 소리를 낼 수 있는 기관이 없어 울지 못해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "매미가 우는 이유",
+            "terminate": false,
+            "text": "이맘때 되면 정말 매미 소리가 요란하죠. 근데 매미가 우는 이유는 수컷 성충 매미가 암컷 매미랑 짝짓기를 하기 위해서예요. 유혹하는 거라고 보면 되죠. 암컷 매미는 몸 내부에 소리를 내는 기관이 없어서 울지를 못하고요.",
+            "turn_id": "BK22007146-1",
+            "utterance_id": "BK22007146.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 매미의 생존과 연결된 거였군요? 그래도 너무 시끄럽던데, 진짜 열차 지나가는 소리랑 비슷하지 않나요?",
+            "turn_id": "BK22007146-2",
+            "utterance_id": "BK22007146.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "한국에 많은 참매미와 말매미의 울음소리는 70~90데시벨(dB)에 달해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 진공청소기나 열차 소리와 비슷한 수준이에요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "매미 울음소리 데시벨",
+            "terminate": false,
+            "text": "아, 근데 진짜로, 우리나라에 많이 사는 참매미랑 말매미의 울음소리는 진공청소기 소리, 열차 소리랑 비슷한 정도예요. 한 70~90데시벨 정도 되죠.",
+            "turn_id": "BK22007146-2",
+            "utterance_id": "BK22007146.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 진짜였다니, 역시 엄청난 소음! 근데 매미는 그 작은 몸으로 어떻게 이렇게 큰 소리를 낼 수 있는 거죠?",
+            "turn_id": "BK22007146-3",
+            "utterance_id": "BK22007146.5"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "가슴과 배 사이에 갈빗대처럼 볼록 튀어나온 '진동막'이라는 얇은 막이 있는데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진동막은 배의 근육과 연결돼 있어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 근육이 수축과 이완을 반복하면서 진동막을 울려 커다란 소리를 내는 건데, 1초에 무려 300~400번이나 수축과 이완을 반복한다고 해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매미의 배 속은 비어 있기 때문에 이렇게 만들어낸 소리는 공명현상을 일으켜 20배나 커져 울려 퍼지죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "매미가 크게 울 수 있는 이유",
+            "terminate": false,
+            "text": "그건 매미 몸속 구조랑 연관이 있죠. 가슴이랑 배 사이에 갈빗대 같은 게 툭 튀어나와 있는데, 거기에 진동막이라는 얇은 막이 있거든요? 이 진동막은 배에 있는 근육이랑 연결되어 있는데, 이 근육이 늘어났다 줄어들었다 하면서 진동막을 울려서 큰 소리를 내게 하는 거예요. 무려 1초에 300~400번 정도를 늘렸다 줄였다 하는데 매미는 배 속이 텅 비어 있어서 소리가 공명현상을 일으키고 덕분에 20배나 큰 소리로 퍼지는 거죠.",
+            "turn_id": "BK22007146-3",
+            "utterance_id": "BK22007146.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배가 일종의 스피커 역할까지 하는 거군요. 그럼 매미는 여름 딱 한 철에 그렇게 열심히 살다 죽는 건가요?",
+            "turn_id": "BK22007146-4",
+            "utterance_id": "BK22007146.7"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "매미는 보통 땅속에서 애벌레(유충)로 3~17년의 세월을 살다가 세상 밖으로 나와요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 땅 위로 나온 매미의 삶은 허망할 정도로 매우 짧아요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "겨우 2~3주 산 다음 생을 마감하거든요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "매미의 수명",
+            "terminate": false,
+            "text": "그렇죠. 매미는 정말 짧은 삶을 사는데 땅 위로 올라와서 2, 3주 정도 살다가 죽어요. 보통 애벌레 상태로 땅속에서 3~17년 정도 살다 땅 위로 올라오죠.",
+            "turn_id": "BK22007146-4",
+            "utterance_id": "BK22007146.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애벌레 상태로 그렇게 오래 지내다가 땅 위에선 고작 2, 3주라니 정말 대단한 삶이네요. 그럼 땅속에 묻혀 있다가 때가 된 매미들이 매년 땅 위로 올라오는 건가요?",
+            "turn_id": "BK22007146-5",
+            "utterance_id": "BK22007146.9"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "우리나라 매미의 생애주기는 보통 5년이에요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 주기가 비교적 짧은 매미는 같은 종이라도 환경적 요인에 따라 다른 속도로 성장하면서 종종 2년·4년 등 정해진 주기가 아닐 때 땅 밖으로 나오기도 해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 우리나라에서는 매년 여름마다 비교적 일정한 수컷 매미의 울음소리를 들을 수 있지요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "우리나라 매미의 생애주기",
+            "terminate": false,
+            "text": "우리나라가 비교적 매년 여름에 수컷 매미의 울음 소리를 들을 수 있는 편이긴 하죠. 우리나라에 사는 매미는 생애주기가 5년 정도 되거든요. 주기가 상대적으로 짧은 편이라 환경적인 요인에 따라 종이 같아도 다른 속도로 성장해서 일정 주기에서 벗어난 채 2년, 4년 때쯤 땅 위로 올라오기도 하니까요.",
+            "turn_id": "BK22007146-5",
+            "utterance_id": "BK22007146.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매미에게 생애주기가 있다는 게 참 신기하네요. 근데 우리나라의 경우를 말씀하신 거 보면 외국은 또 다른가 봐요?",
+            "turn_id": "BK22007146-6",
+            "utterance_id": "BK22007146.11"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "미국 매미의 대부분은 13년이나 17년이라는 긴 주기를 가지는데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "17년 주기 매미는 총 12종으로 미국 북부 지역에서 서식해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "13년 매미는 3종으로 미국 남쪽 지역에서 볼 수 있고요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 매미들은 주기를 비교적 엄격하게 지키며 땅 위에 등장해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 이 매미들을 아예 '주기(periodical) 매미'라고 부르는데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "미국 매미의 생애주기",
+            "terminate": false,
+            "text": "차이가 있죠. 미국의 매미 같은 경우는 대부분 생애 주기가 13년이거나 17년이에요. 생애주기가 17년인 매미는 총 12종인데 미국의 북부 지역에서 살고, 13년인 매미는 3종 정도가 미국의 남쪽 지역에서 살죠. 미국의 매미들은 비교적 엄격하게 주기를 지켜서 땅 위로 올라오기 때문에 주기 매미라고 하기도 해요.",
+            "turn_id": "BK22007146-6",
+            "utterance_id": "BK22007146.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명확한 차이가 있는 것도 참 신기하네요. 근데 그렇게 주기를 정확히 따져야 하는 이유가 있나요?",
+            "turn_id": "BK22007146-7",
+            "utterance_id": "BK22007146.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "매미의 수명은 종마다 달라요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 대부분 땅속에 있는 기간까지 합해서 5년, 7년, 13년, 17년 등의 소수(素數) 주기로 살아가요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 천적으로부터 종족을 보존하기 위해서인데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "매미가 소수 생애주기로 사는 이유",
+            "terminate": false,
+            "text": "그건 바로, 천적의 위협으로부터 종족을 지키기 위해서예요. 그래서 종마다 수명이 다르지만 땅속에서 자라는 기간까지 합치면 대부분 5년, 7년, 13년, 17년식으로 소수 주기로 살죠.",
+            "turn_id": "BK22007146-7",
+            "utterance_id": "BK22007146.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일종의 생존 본능이 작용한 거네요. 근데 소수 주기로 나와야 하는 특별한 이유는 뭔가요?",
+            "turn_id": "BK22007146-8",
+            "utterance_id": "BK22007146.15"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "예를 들어 어떤 매미의 주기가 짝수인 6년이라고 가정해 볼게요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 매미의 천적들은 각각 2년, 3년, 4년마다 등장하고요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러면 주기가 2년, 3년인 천적과는 6년마다 만나게 되고, 주기가 4년인 천적과는 12년마다 만나게 돼요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심지어 12년째에는 주기가 2년, 3년, 4년인 천적을 동시에 만나요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "생애주기가 짝수일 경우 위험도",
+            "terminate": false,
+            "text": "음, 예를 들어서 주기가 짝수인 6년으로 사는 매미가 있다고 해보죠. 매미의 천적은 2년, 3년, 4년마다 각각 등장한다고 했을 때, 생애주기가 2년, 3년인 천적과 매미는 6년마다 마주치게 돼요. 천적의 생애주기가 4년이라고 치면 12년마다 마주치게 되는데, 심지어 이때는 2년, 3년, 4년 생애주기를 가진 천적을 다 같이 마주하게 되는 거죠.",
+            "turn_id": "BK22007146-8",
+            "utterance_id": "BK22007146.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 천적이랑 마주칠 횟수를 줄이기 위한 거군요?",
+            "turn_id": "BK22007146-9",
+            "utterance_id": "BK22007146.17"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "하지만 이 매미의 주기가 6년이 아닌 5년이라면 어떨까요?",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주기가 2년인 천적과는 10년마다 만나게 되고, 주기가 3년인 천적과는 15년마다 만나게 돼요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 주기가 4년인 천적과는 20년마다 만나게 되고요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천적과 만나게 되는 기간이 길어지는 거예요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/08/23/2022082300051.html",
+            "search_query": "생애주기가 소수일 때의 위험도",
+            "terminate": false,
+            "text": "그렇죠. 만약 아까 그 매미의 생애주기가 6년이 아니라 5년이라면 일단 생애주기가 2년인 천적이랑은 10년마다 마주치게 돼요. 천적의 생애주기가 3년이라면 15년마다, 생애주기가 4년이라면 20년마다 마주치는 거고요. 이렇게 천적이랑 마주치기까지의 기간이 엄청 늘어나는 거예요.",
+            "turn_id": "BK22007146-9",
+            "utterance_id": "BK22007146.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 매미들이 본능적으로 이걸 알고 땅 위로 올라온다니 너무 대단하네요. 매미들이 이렇게 고생해서 살아남는 거라면 조금 시끄러워도 제가 참아야겠어요!",
+            "turn_id": "BK22007146-10",
+            "utterance_id": "BK22007146.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 동물의 생존 본능은 정말 놀랍죠. 그러니 저희만이라도 매미의 울음소리를 좀 더 참아주자고요~ 앗, 이야기 나누다 보니 집에 갈 시간이네요. 다음에 또 봐요, 궁금이님!",
+            "turn_id": "BK22007146-10",
+            "utterance_id": "BK22007146.20"
+        }
+    ]
+}

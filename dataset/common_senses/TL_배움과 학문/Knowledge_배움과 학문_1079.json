@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007091",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007091",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "있잖아, 사촌 동생이 학교 숙제를 해야 한다면서, 나보고 아이작 뉴턴이라는 위인이 누구냐고 물어보더라. 사실 나도 이름만 들어봤지, 자세한 정보는 모르는데, 혹시 아이작 뉴턴이 누구인지 좀 설명해 줄 수 있을까?",
+            "turn_id": "BK22007091-1",
+            "utterance_id": "BK22007091.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "아이작 뉴턴 경(영어: Sir Isaac Newton, 문화어: 아이저크 뉴톤, 그레고리력 1643년 1월 4일~1727년 3월 31일, 율리우스력 1642년 12월 25일~1726년/1727년 3월 20일)은 잉글랜드의 수학자, 물리학자, 천문학자이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1687년 발간된 자연철학의 수학적 원리(프린키피아, \"Principia\")는 고전역학과 만유인력의 기본 바탕을 제시하며, 과학사에서 영향력 있는 저서 중의 하나로 꼽힌다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EC%9E%91_%EB%89%B4%ED%84%B4",
+            "search_query": "아이작 뉴턴",
+            "terminate": false,
+            "text": "아이작 뉴턴경을 말하는 거구나. 이 사람은 잉글랜드 출신인데, 수학자이면서 동시에 물리학자이자, 천문학자이기도 했어. 뉴턴은 1687년에 프린키피아라는 저서를 발간했는데, 이 책에는 고전역학 및 만유인력의 기본 바탕이 제시되어 있지. 이후에 이 책은 과학사에 있어 영향력이 있는 저서 중 하나가 되었지.",
+            "turn_id": "BK22007091-1",
+            "utterance_id": "BK22007091.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 만유인력의 법칙은 정말 유명하잖아! 이거 혹시 뉴턴이 사과를 보다가 떠올렸다는 그 법칙 아니야?",
+            "turn_id": "BK22007091-2",
+            "utterance_id": "BK22007091.3"
+        },
+        {
+            "reference_date": "2020-01-09",
+            "reference_text": [
+                {
+                    "value": "고향집 울즈소프에서 떨어지는 사과를 보고 만유인력의 법칙을 발견했다는 뉴턴의 일화는 유명하다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 일화의 진위를 놓고도 의견이 분분하다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇다고 사과와 만유인력의 법칙이 완전히 무관하다고 딱 잘라 말하기도 쉽지 않다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뉴턴과 동시대에 살면서 뉴턴으로부터 직접 그 일화를 전해 들었다는 문서도 없지 않다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=33482",
+            "search_query": "만유인력의 법칙 사과",
+            "terminate": false,
+            "text": "맞아, 고향 집인 울즈소프에서 사과가 떨어지는 것을 보고서 뉴턴이 만유인력의 법칙을 발견하게 되었다는 일화가 유명하기는 하지. 그런데 사실 이 일화가 정말로 있었던 일인지에 대해서는 사람들의 의견이 갈리는 편이야. 다만, 뉴턴과 같은 시대에 살았던 사람들이 이 일화를 전해 들었다는 문서 기록도 없지는 않아서, 만유인력의 법칙과 사과가 전혀 관련이 없다고 말하기도 좀 애매한 상황이기는 해.",
+            "turn_id": "BK22007091-2",
+            "utterance_id": "BK22007091.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 사과의 진위에는 논란이 있다는 내용도 사촌 동생에게 같이 전해줘야겠어. 그리고 혹시, 뉴턴과 관련된 재미있는 일화나 명언이 있다면 알려줄 수 있을까? 아무래도 사촌이 좀 어리다 보니까, 너무 학술적인 내용보다는 흥미를 끌 수 있는 재미있는 내용을 알려주면 좋을 거 같아.",
+            "turn_id": "BK22007091-3",
+            "utterance_id": "BK22007091.5"
+        },
+        {
+            "reference_date": "2020-01-23",
+            "reference_text": [
+                {
+                    "value": "세기의 수학천재이니 재테크도 아주 훌륭하게 성공했을 것 같은데 사실은 기대와 좀 달랐다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뉴턴은 버블 막판에 큰돈을 질렀다가 낭패를 봤다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 사건 이후 뉴턴은 “천체의 움직임은 계산할 수 있어도 사람의 광기는 계산할 수 없다”는 말을 남겼다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://dongascience.com/news.php?idx=33807",
+            "search_query": "뉴턴 일화 명언",
+            "terminate": false,
+            "text": "혹시 뉴턴이 남긴 말 중, 천체의 움직임은 계산할 수 있지만 사람의 광기는 계산할 수 없다는 명언을 들어본 적 있어? 이 말은 뉴턴이 버블 막판에 큰돈을 넣었다가 엄청난 낭패를 본 이후 남긴 말이야. 뉴턴이 세기의 수학 천재이다 보니 재태크에서도 두각을 나타냈을 거라 생각하는 사람들이 종종 있는데, 실제로는 그렇지 않았거든.",
+            "turn_id": "BK22007091-3",
+            "utterance_id": "BK22007091.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 주식 투자자 중에서 그 명언을 인용하는 사람들을 몇 번 봤던 거 같아. 그런데 이 말을 뉴턴이 했을 줄은 전혀 몰랐는데, 네 말대로라면 뉴턴도 주식 투자에 실패한 경험이 있었다는 거야?",
+            "turn_id": "BK22007091-4",
+            "utterance_id": "BK22007091.7"
+        },
+        {
+            "reference_date": "2019-11-07",
+            "reference_text": [
+                {
+                    "value": "1700년대 초반 영국 정부는 남미 지역의 무역 사업을 진행하고자 남해(South sea)회사를 설립했는데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "뉴턴은 1720년 이 회사에 투자해 큰돈을 벌게 됩니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 뉴턴은 이 회사의 주가가 계속 오르자 다시 높은 가격에 주식을 샀지만 한순간 이 회사의 주가가 폭락해 큰 손해를 입었습니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.issueedico.co.kr/news/article.html?no=8512",
+            "search_query": "뉴턴 주식 실패",
+            "terminate": false,
+            "text": "맞아, 1700년대 초반, 남미 지역에서 무역 사업을 진행하기 위해 영국 정부가 남해회사를 열게 되었는데, 뉴턴도 1720년에 이 회사에 투자했다가 큰돈을 만지게 되었어. 거기서 끝내야 했는데, 이후 남해 회사의 주식이 계속 오르자 뉴턴은 이곳의 주식을 높은 가격으로 더 매수하게 되었어. 그런데, 이 회사의 주가가 그만 한순간에 폭락하고 만 거야. 그래서 뉴턴은 막대한 손해를 보게 되었지.",
+            "turn_id": "BK22007091-4",
+            "utterance_id": "BK22007091.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 역사에 이름을 남긴 위인인데도, 일반적인 투자자들과 별다를 게 없는 행동을 했네. 그럼 남해 회사 때문에 뉴턴은 총 얼마나 손해를 본 거야?",
+            "turn_id": "BK22007091-5",
+            "utterance_id": "BK22007091.9"
+        },
+        {
+            "reference_date": "2014-03-01",
+            "reference_text": [
+                {
+                    "value": "세기의 천재인 뉴턴에게 2만파운드(약 20억원)라는 거액의 손실을 안긴 사건은 근대 3대 투기사건 중 하나로, 1720년에 발생한 ‘남해회사(South Sea Company) 버블’ 사건이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 사건은 ‘거품 경제(bubble economy)’라는 단어가 탄생하게 된 계기가 됐다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2014022823781",
+            "search_query": "남해 회사 뉴턴 손해",
+            "terminate": false,
+            "text": "남해회사 버블 사건은 뉴턴에게 무려 2만파운드, 한화로 따지자면 20억 원에 해당하는 손실을 안겼어. 참고로 1720년에 일어난 이 사건은 근대 3대 투기 사건 중 하나이기도 하고, 동시에 거품 경제라는 단어가 만들어지는 계기까지 되었으니 그 파장을 무시할 수 없지.",
+            "turn_id": "BK22007091-5",
+            "utterance_id": "BK22007091.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 20억 원이라니 정말 상상이 안 가. 그래도 맨 처음에는 남해회사 주식으로 뉴턴이 이익을 얻었다며. 수익이 어느 정도였길래, 거기서 만족을 못 하고 위험한 투자까지 하려고 한 걸까?",
+            "turn_id": "BK22007091-6",
+            "utterance_id": "BK22007091.11"
+        },
+        {
+            "reference_date": "2021-05-16",
+            "reference_text": [
+                {
+                    "value": "그는 1720년 4월 보유하고 있던 남해회사 주식을 매각해 수익률 100%를 기록하며 시세차익 7000파운드를 얻는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 재투자를 하면서 고점에 물려 손실 2만파운드를 기록했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 뉴턴은 남해라는 단어 자체를 들을 때마다 괴로워했다고 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiae.co.kr/article/2021051611520643461",
+            "search_query": "남해회사 뉴턱 수익",
+            "terminate": false,
+            "text": "처음에 뉴턴은 시세차익 7000파운드에 해당하는 금액을 벌었어. 이건 1720년 4월에 보유하고 있던 남해회사 주식을 매각해서 얻은 돈이었는데, 수익률로 따지면 무려 100퍼센트에 달하는 수치였지. 하지만 뉴턴은 여기서 만족하지 못하고 재투자 했다가, 고점에 물리는 바람에 그만 2만파운드의 손실을 내게 된 거야. 이후 뉴턴은 남해라는 단어만 들어도 치를 떨게 되었지.",
+            "turn_id": "BK22007091-6",
+            "utterance_id": "BK22007091.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시 7000파운드라면 그렇게 적은 금액도 아니었을 텐데, 너무 욕심을 냈었나 보다. 그런데 어쩌다가, 남해회사의 주식이 맨 처음에 그렇게 치솟았던 걸까?",
+            "turn_id": "BK22007091-7",
+            "utterance_id": "BK22007091.13"
+        },
+        {
+            "reference_date": "2019-05-31",
+            "reference_text": [
+                {
+                    "value": "남해회사는 투자자들 사이에서 이래저래 매출과 영업이익이 상승할 것이라는 소문만 무성할 뿐 실제 매출은 변변찮았고 주력 사업도 없는 처지였습니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만 남해회사에 대한 투자자들의 비이성적인 투자 열풍으로 주가가 하늘 모르고 계속 오른 것이죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 비성적인 투자열풍에 결국 뉴턴도 다시 동참하게 됩니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=87720",
+            "search_query": "남해회사 주식 상승 이유",
+            "terminate": false,
+            "text": "그게, 사실 남해회사의 주가는 상승해야 할 요인이 전혀 없다시피 했어. 실제 매출도 형편없는 데다가, 주력 사업도 없는 기업이었거든. 하지만, 투자자들 사이에서 남해회사의 매출과 영업이익이 상승할 거라는 소문이 돌면서, 투자자들이 비이성적으로 여기에 투자 하는 바람에 주가가 치솟게 된 거야. 그리고, 뉴턴도 이런 비이성적인 열풍에 동참해서 투자 하게 된 거지.",
+            "turn_id": "BK22007091-7",
+            "utterance_id": "BK22007091.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 들어보면 정말 전형적인 버블이네. 그런데 보통, 버블은 어떤 계기가 생기면 바로 도미노처럼 무너지게 되잖아. 남해회사 주가는 어떤 계기로 바닥을 치게 된 거야?",
+            "turn_id": "BK22007091-8",
+            "utterance_id": "BK22007091.15"
+        },
+        {
+            "reference_date": "2019-05-31",
+            "reference_text": [
+                {
+                    "value": "하지만 이런 비이성적인 광풍에 결국 영국의 관계 부처가 나서 남해회사에 대한 제재에 나섭니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "규제가 들어오자 1720년 8월에 남해회사 회장을 포함한 회사 간부들이 자신들이 보유한 자사 회사 주식을 모두 매각했다는 소식이 투자자들에게 전해졌고 주가가 떨어지기 시작해 바닥을 치게 되는데요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 많은 사람들이 파산을 한 것은 물론 이 충격으로 자살을 한 이들도 상당수였다고 해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=87720",
+            "search_query": "남해회사 주식 바닥",
+            "terminate": false,
+            "text": "그건 영국의 관계 부처가 이런 비이성적인 광풍을 그냥 주시할 수 없다고 판단해서 제재를 가했기 때문이었어. 그리고 이런 규제가 들어오자, 1720년 8월, 남해회사 회장 및 간부들이 자신들이 보유하고 있던 자사 주식을 모두 매각했다는 소식이 투자자들의 귀에 들어가고 만 거야. 이 이후로 주가가 폭락하기 시작했는데, 이 때문에 충격을 받아 자살을 한 사람들의 수도 적지 않았어. 또, 자살까지는 아니더라도, 수많은 사람이 파산한 건 더 말할 필요도 없지.",
+            "turn_id": "BK22007091-8",
+            "utterance_id": "BK22007091.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 그래도 뉴턴은 목숨을 끊지 않고 자기가 느낀 바를 명언으로 남겼구나. 아무튼 뭔가 신기하다. 엄청난 업적을 남긴 역사 속의 위인인데, 그냥 일반 대중처럼 저렇게 불합리한 재테크를 했다가 막대한 손해를 본 적도 있다는 게 왠지 굉장히 흥미로워.",
+            "turn_id": "BK22007091-9",
+            "utterance_id": "BK22007091.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐, 위인이기 전에 한 사람의 인간이니까. 한 편으로는, 돈이 눈이 멀어서 불합리한 선택을 하면 안 된다는 예시 사례를 위인으로서 몸소 보여준 걸지도 모르지.",
+            "turn_id": "BK22007091-9",
+            "utterance_id": "BK22007091.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 말이야. 아무튼 흥미롭긴 한데, 이 내용을 어떻게 좀 더 쉽게 사촌 동생한테 알려줄지는 좀 고민해봐야 할 거 같아. 자세하게 설명해줘서 고맙고, 나는 이만 네가 해준 이야기를 잠시 정리하러 가볼게.",
+            "turn_id": "BK22007091-10",
+            "utterance_id": "BK22007091.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 정리 잘하고 다음에 다시 또 이야기 나누자. 혹시 추가로 궁금한 게 생기면, 언제든지 다시 연락해 줘.",
+            "turn_id": "BK22007091-10",
+            "utterance_id": "BK22007091.20"
+        }
+    ]
+}

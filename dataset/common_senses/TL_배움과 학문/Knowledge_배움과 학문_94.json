@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011575",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011575",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 사계절 중에 눈 오는 겨울이 제일 좋더라. 겨울에도 눈 오는 날이 며칠 안 되는데 눈은 언제 내리는 거야?",
+            "turn_id": "BK22011575-1",
+            "utterance_id": "BK22011575.1"
+        },
+        {
+            "reference_date": "2021-11-11",
+            "reference_text": [
+                {
+                    "value": "눈은 일반적으로 상층 기온은 영하권이고 지상온도는 1.2도 이하일 때 내린다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20211111023002&wlog_tag3=naver",
+            "search_query": "눈 기온",
+            "terminate": false,
+            "text": "상층 기온은 영하권, 지상 온도가 1.2도 이하일 때 눈이 내리는 거야.",
+            "turn_id": "BK22011575-1",
+            "utterance_id": "BK22011575.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상층 기온이 영하권이어야 눈이 내리는구나. 육각형 모양의 눈 결정이 너무 예쁜 것 같은데 눈 결정은 어떻게 만들어지는 거야?",
+            "turn_id": "BK22011575-2",
+            "utterance_id": "BK22011575.3"
+        },
+        {
+            "reference_date": "2022-01-24",
+            "reference_text": [
+                {
+                    "value": "영하의 찬 구름 속에서 만들어진 작은 얼음 알갱이에 수증기가 달라붙어 눈 결정이 됩니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 습도가 높아야 크고 화려한 눈 결정이 만들어집니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thescoop.co.kr/news/articleView.html?idxno=53365",
+            "search_query": "눈 결정",
+            "terminate": false,
+            "text": "눈 결정은 작은 얼음 알갱이가 영하의 찬 구름 속에서 만들어진 후 수증기가 달라붙어서 생기는 거야. 그리고 크고 화려한 눈 결정이 만들어지려면 습도가 높아야 해.",
+            "turn_id": "BK22011575-2",
+            "utterance_id": "BK22011575.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크고 화려한 눈 결정을 보려면 습도가 높은 날 외출해야겠네. 근데 눈 결정은 모두 다 육각형 모양이야?",
+            "turn_id": "BK22011575-3",
+            "utterance_id": "BK22011575.5"
+        },
+        {
+            "reference_date": "2017-01-20",
+            "reference_text": [
+                {
+                    "value": "사실 눈이라고 해서 모두 육각형의 나뭇가지 모양을 띠는 건 아니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구름 속에서 생성된 결정핵이 땅으로 내려오는 동안 온도와 압력, 습도의 변화를 겪게 되고, 먼지나 오염물질처럼 물 이외의 다른 물질과 섞여 형태가 틀어지는 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002281236",
+            "search_query": "눈모양 육각형",
+            "terminate": false,
+            "text": "눈이 모두 육각형 모양을 띠는 건 아니야. 구름 속에서 만들어진 결정핵이 땅으로 떨어지면서 압력, 습도, 온도의 변화를 겪게 되는데 이때 오염물질이 섞여서 다른 모양이 나올 수도 있어.",
+            "turn_id": "BK22011575-3",
+            "utterance_id": "BK22011575.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지 눈 모양은 전부 육각형이라고 생각했는데 다른 모양이 있다니 신기하다. 그런데 눈 모양이 다양하단 건 누가 알아낸 거야?",
+            "turn_id": "BK22011575-4",
+            "utterance_id": "BK22011575.7"
+        },
+        {
+            "reference_date": "2022-01-15",
+            "reference_text": [
+                {
+                    "value": "눈 결정의 다양한 모양에 대해 알게 된 것은 눈 결정을 사진으로 찍으면서부터입니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈 결정을 처음 사진으로 찍은 사람은 미국의 윌슨 벤틀리입니다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01361206632198048&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "눈 결정 다양한 모양",
+            "terminate": false,
+            "text": "미국의 윌슨 벤틀리가 눈 결정 사진을 찍으면서부터 눈 결정의 모양이 다양하단 걸 알게 되었어.",
+            "turn_id": "BK22011575-4",
+            "utterance_id": "BK22011575.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "윌슨 벤틀리 덕분에 다양한 눈 모양이 존재한다는 것을 알게 되었구나. 난 눈 밟을 때 나는 뽀드득 소리가 참 좋던데 언제 만들어진 눈이 이런 소리를 내는 거야?",
+            "turn_id": "BK22011575-5",
+            "utterance_id": "BK22011575.9"
+        },
+        {
+            "reference_date": "2021-12-03",
+            "reference_text": [
+                {
+                    "value": "‘뽀드득’ 소리가 나는 눈은 영하 5℃ 이상일 때 만들어진 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이보다 더 낮은 온도가 되면 ‘사각사각’처럼 날카로운 소리가 난다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=1692",
+            "search_query": "눈 밟을 때 소리",
+            "terminate": false,
+            "text": "영하 5도 이상일 때 만들어진 눈을 밟으면 네가 말한 것처럼 뽀드득 소리가 나고 더 낮은 온도에서 만들어진 눈은 밟으면 날카로운 사각사각 소리가 나게 돼.",
+            "turn_id": "BK22011575-5",
+            "utterance_id": "BK22011575.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사각사각 소리 나는 눈이 뽀드득 소리 나는 눈보다 더 추울 때 만들어진 거구나. 캐나다에 여행 간 적 있는데 눈이 정말 많이 내리더라. 캐나다에는 왜 눈이 많이 내리는 거야?",
+            "turn_id": "BK22011575-6",
+            "utterance_id": "BK22011575.11"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "겨울철에 습기를 품은 바람이 높은 산지를 만나 상승하면 기온이 낮아져 눈이 내린다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 다설 지역은 편서풍이 높은 산지와 만나는 캐나다 서부와 해안 산맥 서쪽, 칠레 남부의 안데스 산맥 서쪽, 스칸디나비아 반도 등이 세계적인 다설 지역이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%88_(%EB%82%A0%EC%94%A8)",
+            "search_query": "눈 (날씨)",
+            "terminate": false,
+            "text": "대표적인 다설지역인 캐나다 서부와 해안산맥 서쪽은 편서풍이 높은 산지와 만나게 되거든. 겨울에 습기를 품은 바람이 높은 산지를 만나서 상승하면서 기온이 낮아지게 되어 눈이 내리는 거야.",
+            "turn_id": "BK22011575-6",
+            "utterance_id": "BK22011575.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산맥이 있는 지역에 눈이 많이 내리는구나. 그렇다면 우리나라에서 눈이 많이 내리는 지역은 어디야?",
+            "turn_id": "BK22011575-7",
+            "utterance_id": "BK22011575.13"
+        },
+        {
+            "reference_date": "2017-02-11",
+            "reference_text": [
+                {
+                    "value": "우리나라 대표적인 다설지역인 울릉도에 오늘(11일)까지 적설량 100cm에 가까운 폭설이 내렸다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기상청에 따르면 지난 9일 오후부터 오늘 오후 4시까지 울릉도에 98.6cm(목측)에 이르는 눈이 내렸다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?type=1&no=2017021120368015390&outlink=1",
+            "search_query": "우리나라 다설지역",
+            "terminate": false,
+            "text": "울릉도가 우리나라의 대표적인 눈이 많이 내리는 지역이지. 2017년 2월 9일 오후부터 2월 11일 오후 4시까지 98.6센티미터의 눈이 울릉도에 내린 기상청의 기록이 있을 정도야.",
+            "turn_id": "BK22011575-7",
+            "utterance_id": "BK22011575.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "울릉도에 눈이 많이 내린다니 몰랐었어. 그런데 부산에 사는 친구가 그러던데 부산에서는 눈 구경 하기가 엄청 힘들대. 부산에는 왜 눈이 잘 오지 않는 거야?",
+            "turn_id": "BK22011575-8",
+            "utterance_id": "BK22011575.15"
+        },
+        {
+            "reference_date": "2021-12-28",
+            "reference_text": [
+                {
+                    "value": "부산에 눈이 잘 오지 않는 이유는 우리나라의 지형 때문이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "차가운 공기가 따뜻한 서해를 지나며 생기는 눈구름이 충청도와 전라도에 많은 눈을 뿌리다가 소백산맥을 넘지 못하고 흩어져 사라지기 때문에 부산까지 눈구름이 도달하지 못하게 되는 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.civicnews.com/news/articleView.html?idxno=33028",
+            "search_query": "부산 눈 오지 않는 이유",
+            "terminate": false,
+            "text": "우리나라의 지형 때문에 부산에는 눈이 잘 내리지 않아. 눈구름은 차가운 공기가 따뜻한 서해를 지나면서 생기는 건데 전라도와 충청도에 눈을 많이 뿌리느라 눈구름이 소백산맥을 넘지 못하거든. 그러다 보니 눈구름이 흩어져 사라져 버리게 되어서 부산까지는 도달하지 못하는 거지.",
+            "turn_id": "BK22011575-8",
+            "utterance_id": "BK22011575.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 지형 때문에 부산에 눈이 잘 안 내리는 거구나. 덕분에 우리나라 지형과 기후에 대해 배울 수 있는 시간이었어, 고마워.",
+            "turn_id": "BK22011575-9",
+            "utterance_id": "BK22011575.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 도움이 됐다니 다행이다. 그리고 부산에 사는 친구에게 많은 눈을 보고 싶으면 울릉도에 놀러 가는 것도 좋은 방법이라고 얘기해줘.",
+            "turn_id": "BK22011575-9",
+            "utterance_id": "BK22011575.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 이번 겨울에 같이 울릉도에 놀러 가자고 얘기해 볼까?",
+            "turn_id": "BK22011575-10",
+            "utterance_id": "BK22011575.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구와 시간이 맞는다면 함께 여행 가도 좋겠네.",
+            "turn_id": "BK22011575-10",
+            "utterance_id": "BK22011575.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "난 친구한테 전화해서 물어봐야겠다. 오늘 눈에 관한 재미있는 대화 즐거웠어. 다음에 또 대화 나누자, 안녕.",
+            "turn_id": "BK22011575-11",
+            "utterance_id": "BK22011575.21"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001494",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001494",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안녕, 벌써 와 있었네? 혹시 내가 늦은 건 아니지?",
+            "turn_id": "BK22001494-1",
+            "utterance_id": "BK22001494.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아냐, 나도 조금 전에 도착해서 이제 막 커피 시켰어.",
+            "turn_id": "BK22001494-1",
+            "utterance_id": "BK22001494.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 다행이네. 아, 어제 누리호 발사하는 날 아니었나? 발사 어떻게 됐는지 궁금하다.",
+            "turn_id": "BK22001494-2",
+            "utterance_id": "BK22001494.3"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "순수 우리 기술로 만든 한국형 발사체 누리호(KSLV-Ⅱ)가 2차 발사에 성공했다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220621520969?OutUrl=naver",
+            "search_query": "누리호 발사 성공",
+            "terminate": false,
+            "text": "응, 한국형 발사체 누리호가 드디어 2차 발사를 성공리에 마쳤어.",
+            "turn_id": "BK22001494-2",
+            "utterance_id": "BK22001494.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리호 성능검증 위성 안에 작은 위성들도 들어갔다는데 크기가 얼마만 해?",
+            "turn_id": "BK22001494-3",
+            "utterance_id": "BK22001494.5"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "큐브 위성은 기본 단위가 가로·세로·높이가 각 10㎝이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "누리호에 실린 큐브 위성들은 정육면체인 기본 단위를 3~6개 연결한 막대 형태다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/economy/science/2022/06/30/SX6L47LFT5G63DKVE7YVKFBJVY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "누리호 꼬마위성",
+            "terminate": false,
+            "text": "큐브 위성의 기본 단위는 가로, 세로, 높이가 각각 10센티미터야. 누리호에 탑재된 큐브 위성들은 정육면체인 기본 단위를 세 개에서 여섯 개 이어 붙인 막대 모양으로 되어있어.",
+            "turn_id": "BK22001494-3",
+            "utterance_id": "BK22001494.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 정말 작은 위성이구나. 위성은 분리되었는데 교신도 잘 된 거야?",
+            "turn_id": "BK22001494-4",
+            "utterance_id": "BK22001494.7"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "한국형 발사체 누리호(KSLV-Ⅱ)에 실려 궤도에 오른 성능검증위성과 지상국 사이의 쌍방향 교신이 22일 새벽에 성공적으로 이뤄졌다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220622059800017?input=1195m",
+            "search_query": "누리호 교신성공",
+            "terminate": false,
+            "text": "응, 성능검증위성과 지상국 사이의 양방향 교신도 새벽에 성공했어.",
+            "turn_id": "BK22001494-4",
+            "utterance_id": "BK22001494.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 잘 됐다. 그럼 이제부터 성능검증위성은 뭘 하게 돼?",
+            "turn_id": "BK22001494-5",
+            "utterance_id": "BK22001494.9"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "큐브위성 사출을 마치면 성능검증위성은 국내에서 개발된 우주핵심기술 탑재체 3종(발열전지, 제어모멘트자이로, S-Band 안테나) 설비가 실제 우주환경에서도 설계된 대로 성능을 잘 발휘하는지 검증하는 임무를 준비하게 된다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220630014851017?input=1195m",
+            "search_query": "성능검증위성 임무",
+            "terminate": false,
+            "text": "큐브위성을 쏘아 올리고 나면 성능검증위성은 국내에서 만들어진 우주핵심기술인 발열전지, 제어모멘트자이로, S Band 안테나 설비가 진짜 우주환경에서 설계된 대로 성능을 제대로 보여주는지 검사하여 증명하는 임무를 준비해.",
+            "turn_id": "BK22001494-5",
+            "utterance_id": "BK22001494.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 큐브위성들은 어떤 일을 맡는지도 궁금해.",
+            "turn_id": "BK22001494-6",
+            "utterance_id": "BK22001494.11"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "서울대 '스누글라이트-2'는 정밀 GPS 반송파 신호를 활용해 지구대기를 관측한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연세대 '미먼'은 200m 해상도로 미세먼지를 모니터링한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220615_0001908042&cID=13005&pID=13100",
+            "search_query": "큐브위성 임무",
+            "terminate": false,
+            "text": "서울대 큐브위성인 스누글라이트2는 정교한 GPS 반송파 신호를 이용해서 지구대기를 관찰하고 측정해. 그리고 연세대 미먼은 200m 선명도로 미세먼지를 관찰하지.",
+            "turn_id": "BK22001494-6",
+            "utterance_id": "BK22001494.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇구나. 그런데 인공위성이 수명을 다하면 어떻게 되는 거야?",
+            "turn_id": "BK22001494-7",
+            "utterance_id": "BK22001494.13"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "위성들은 수명을 다한 뒤 대기권에서 소멸할 때 알루미늄 등 금속제 파편을 우주 공간에 흩뿌린다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.beyondpost.co.kr/view.php?ud=2022051812223374478752c8ab62_30",
+            "search_query": "수명다한 인공위성",
+            "terminate": false,
+            "text": "수명을 다한 위성들은 대기권에서 소멸하거든. 그런데 소멸하면서 알루미늄 같은 금속제 파편을 우주 공간에 흩뿌려.",
+            "turn_id": "BK22001494-7",
+            "utterance_id": "BK22001494.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구에도 쓰레기가 엄청 많은데 우주에도 쓰레기가 생기는구나. 우주 쓰레기는 치울 수가 없는 건가.",
+            "turn_id": "BK22001494-8",
+            "utterance_id": "BK22001494.15"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "우주 쓰레기 문제의 해결 방법은 다른 나라에서도 활발히 연구되고 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영화에서 스파이더맨은 손바닥으로 내뿜는 거미줄로 자동차부터 건물까지 무엇이든 붙잡고 낚아챈다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "러시아의 우주기업 스타트로켓은 여기서 착안한 접착망으로 우주 쓰레기를 붙여 모으는 기술에 성공했다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=19029",
+            "search_query": "우주 쓰레기 문제",
+            "terminate": false,
+            "text": "음, 우주 쓰레기 문제를 어떻게 해결할지에 대한 연구는 나라별로 많이 이루어지고 있어. 영화 속 스파이더맨은 손바닥에서 만드는 거미줄로 자동차나 건물까지 붙잡고 낚아채잖아. 러시아의 우주기업 스타트로켓이 스파이더맨의 거미줄에서 고안한 접착망으로 우주 쓰레기를 붙여 모으는 기술을 만들어 냈어.",
+            "turn_id": "BK22001494-8",
+            "utterance_id": "BK22001494.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 위성 쓰레기 문제를 해결할 기술들이 많이 개발되면 좋겠어. 현실적인 처리 방법은 뭐가 있을까?",
+            "turn_id": "BK22001494-9",
+            "utterance_id": "BK22001494.17"
+        },
+        {
+            "reference_date": "2021-02-17",
+            "reference_text": [
+                {
+                    "value": "현재 우주쓰레기를 처리하는 방법은 두 가지뿐이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구 대기권으로 재진입시켜 완전 연소시키는 방법과 운용 중인 인공위성에 전혀 방해되지 않는 궤도로 옮기는 것이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021021513310003702?did=NA",
+            "search_query": "우주 쓰레기 처리 방법",
+            "terminate": false,
+            "text": "음, 지금은 우주쓰레기를 처리하는 두 가지 방법이 있어. 첫 번째는 우주쓰레기를 지구 대기권으로 다시 진입시켜 완전 태우는 방법이고, 두 번째는 운용 중인 인공위성에 방해가 안되는 궤도로 이동시키는 거야.",
+            "turn_id": "BK22001494-9",
+            "utterance_id": "BK22001494.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래? 어쨌든 우주도 지구도 깨끗하게 썼으면 좋겠다. 커피 다 마셨으면 우리 이제 일어날까?",
+            "turn_id": "BK22001494-10",
+            "utterance_id": "BK22001494.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 일어나자. 영화 예매 시간이 거의 다 됐으니 극장으로 가자.",
+            "turn_id": "BK22001494-10",
+            "utterance_id": "BK22001494.20"
+        }
+    ]
+}

@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013778",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013778",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 법학전문대학원에 가고 싶다고 하는데 질문 좀 드려도 될까요?",
+            "turn_id": "BK22013778-1",
+            "utterance_id": "BK22013778.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 있으면 뭐든 물어보세요.",
+            "turn_id": "BK22013778-1",
+            "utterance_id": "BK22013778.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "법학전문대학원을 로스쿨이라고도 부르던데 이게 우리나라에서 언제부터 도입됐나요?",
+            "turn_id": "BK22013778-2",
+            "utterance_id": "BK22013778.3"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "법학전문대학원(法學專門大學院) 또는 로스쿨(law school)은 보통 미국과 캐나다에서 운영되는 형태의 3년제 법학전문대학원을 말한다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대한민국도 2007년 기존의 사법시험과 사법연수원을 폐지하고 법학전문대학원에서 법조인을 양성하는 것으로 하는 법안을 통과시켰다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2008년 첫 법학적성시험실시로 2009년부터 대한민국 첫 로스쿨이 시작되었다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%95%ED%95%99%EC%A0%84%EB%AC%B8%EB%8C%80%ED%95%99%EC%9B%90",
+            "search_query": "법학전문대학원 로스쿨 도입",
+            "terminate": false,
+            "text": "법학전문대학원, 이른바 로스쿨은 보통 미국이나 캐나다의 3년제 법학전문대학원 형태를 말하는데요. 우리나라도 기존 사법시험과 사법연수원을 폐지하고 법학전문대학원을 도입하는 법안을 2007년 통과시켰습니다. 이듬해인 2008년 첫 법학적성시험을 치렀고 2009년부터 우리나라에 법학전문대학원이 처음으로 출범했습니다.",
+            "turn_id": "BK22013778-2",
+            "utterance_id": "BK22013778.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2009년부터 우리나라에서 시행이 됐군요. 법학전문대학원은 우리나라에 총 몇 개교가 있나요?",
+            "turn_id": "BK22013778-3",
+            "utterance_id": "BK22013778.5"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "고등법원 소재지 관할 지역을 기준으로 전국을 5개 권역(서울권·대전권·대구권·부산권·광주권)으로 나누어 할당하였다.[2]",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "25개 법학전문대학원의 총 정원은 2,000명이다.[3]",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%95%ED%95%99%EC%A0%84%EB%AC%B8%EB%8C%80%ED%95%99%EC%9B%90",
+            "search_query": "법학전문대학원",
+            "terminate": false,
+            "text": "전국을 고등법원 소재지 관할 지역을 기준으로 총 5개 권역, 즉 서울권과 부산권, 대구권, 광주권, 대전권으로 나누어 학교를 할당했습니다. 총정원 2천 명이며 25개 법학전문대학원이 있습니다.",
+            "turn_id": "BK22013778-3",
+            "utterance_id": "BK22013778.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "법학전문대학원에 가려면 일단 법학적성시험을 봐야 한다고 하던데요. 법학적성시험은 어떤 과목으로 구성돼 있나요?",
+            "turn_id": "BK22013778-4",
+            "utterance_id": "BK22013778.7"
+        },
+        {
+            "reference_date": "44747.0",
+            "reference_text": [
+                {
+                    "value": "법학적성시험은 언어이해 영역, 추리논증 영역, 논술 영역으로 구성된다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제1교시(09:00∼10:10) 언어이해는 30문항 70분간 진행되며 제2교시(10:45∼12:50) 추리논증은 40문항 125분 동안 진행된다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "점심 이후 제3교시(14:00∼15:50)는 2문항 110분간 치러진다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=738051",
+            "search_query": "법학적성시험 구성",
+            "terminate": false,
+            "text": "법학적성시험은 언어이해와 추리논증, 논술까지 총 3개의 영역으로 이루어져 있습니다. 1교시인 오전 9시부터 10시 10분까지 언어이해 30문항을 70분간 진행하고요. 10시 45분부터 12시 50분까지 2교시에는 추리논증 영역 시험 40문항을 125분 동안 치릅니다. 점심시간 후 3교시인 14시부터 15시 50분까지는 2문항을 110분간 치릅니다.",
+            "turn_id": "BK22013778-4",
+            "utterance_id": "BK22013778.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 준비를 철저히 해야겠네요. 법학전문대학원 입학 절차는 어떤 것들이 있나요? 시험 외에 어떤 준비가 필요한지 궁금합니다.",
+            "turn_id": "BK22013778-5",
+            "utterance_id": "BK22013778.9"
+        },
+        {
+            "reference_date": "42348.0",
+            "reference_text": [
+                {
+                    "value": "입학 과정에서 법학적성시험, 학점, 외국어능력 등 다양한 실력 요소를 평가하고 3인 이상 면접관의 합의에 따라 합격자가 가려진다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0003639927?sid=110",
+            "search_query": "법학전문대학원 입학",
+            "terminate": false,
+            "text": "법학전문대학원 입학 과정에서 법학적성시험을 비롯해 학점과 어학 능력 등 다양한 실력 요소를 평가하고요. 면접관 3인 이상의 합의에 따라 합격자를 결정하게 됩니다.",
+            "turn_id": "BK22013778-5",
+            "utterance_id": "BK22013778.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "법학전문대학원 입학부터 만만치가 않네요. 입학 후 변호사시험에 대해서도 궁금한 게 있는데요. 변호사시험 응시 기간에 제한이 있나요?",
+            "turn_id": "BK22013778-6",
+            "utterance_id": "BK22013778.11"
+        },
+        {
+            "reference_date": "44288.0",
+            "reference_text": [
+                {
+                    "value": "변호사시험법 제7조는 '변호사시험은 법학전문대학원 설치·운영에 관한 법률 제18조 1항에 따른 법학전문대학원의 석사학위를 취득한 달의 말일부터 5년 내에 5회만 응시할 수 있다'고 규정하고 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=169031",
+            "search_query": "변호사시험 응시 제한",
+            "terminate": false,
+            "text": "변호사시험법에 관련 규정이 있습니다. 변호사시험은 법학전문대학원 설치, 운영에 관한 법률 제18조 1항에 따른 법학전문대학원의 석사학위를 취득한 달의 말일부터 5년 이내에 5회만 응시할 수 있다고 변호사시험법 제7조에 명시하고 있어요.",
+            "turn_id": "BK22013778-6",
+            "utterance_id": "BK22013778.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 5년 동안에 병역 문제가 걸려있어서 입대할 경우 복무 중인 기간도 포함이 되는 건가요?",
+            "turn_id": "BK22013778-7",
+            "utterance_id": "BK22013778.13"
+        },
+        {
+            "reference_date": "44172.0",
+            "reference_text": [
+                {
+                    "value": "변호사시험법 제7조의 2는 법학전문대학원 졸업 후 5년 내 5회로 변호사시험 응시기회를 제한하지만 그 기간에 병역 의무 이행기간은 포함하지 않는다고 규정한다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "병역의무 외에 예외로 인정되는 사유는 없다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/629/0000056157?sid=102",
+            "search_query": "변호사시험 병역",
+            "terminate": false,
+            "text": "오직 병역 의무만 예외로 두고 있습니다. 변호사시험법 제7조의 2는 법학전문대학원 졸업 후 변호사시험 응시기회를 5년 내 5회로 제한하고 있지만, 그 기간에 병역 의무 이행 기간은 포함하지 않는 것으로 규정하고 있습니다.",
+            "turn_id": "BK22013778-7",
+            "utterance_id": "BK22013778.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변호사시험 초반 합격률은 높았던 것으로 기억하는데 합격률 추이가 어떤가요?",
+            "turn_id": "BK22013778-8",
+            "utterance_id": "BK22013778.15"
+        },
+        {
+            "reference_date": "44692.0",
+            "reference_text": [
+                {
+                    "value": "11일 법무부에 따르면 올해 치러진 제11회 변호사시험은 전체 응시생 3197명 중 1712명이 합격해 53.5%의 합격률을 나타냈다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제1회 시험 때 87.25%였던 변호사시험 합격률은 제2회 75.17%, 제3회 67.63%로 지속 하락했고, 제7회 시험 때는 49.35%까지 떨어졌다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제8회 시험 때 50.78%로 다시 50%를 넘긴 이후 50%대를 유지하고 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/008/0004744265?sid=102",
+            "search_query": "변호사시험 합격률",
+            "terminate": false,
+            "text": "2022년 5월 11일 법무부에 의하면 2022년 열린 11회 변호사시험에서 전체 응시생 3197명 중 1712명이 합격해 합격률 53.5%를 기록했습니다. 1회 변호사시험 때는 합격률이 87.25%에 달했는데요, 2회 시험에서 75.17%, 3회 시험에서 67.63%로 합격률이 내려갔고 제7회 시험에서는 49.35%를 기록하기도 했습니다. 8회 시험에서 50.78%로 50% 선을 회복한 뒤 50%대를 유지하고 있습니다.",
+            "turn_id": "BK22013778-8",
+            "utterance_id": "BK22013778.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 물어볼게요. 그러면 법학전문대학원 도입 이후 사법시험은 언제 폐지됐나요? 사법시험이 몇 년 동안 존속했는지도 궁금합니다.",
+            "turn_id": "BK22013778-9",
+            "utterance_id": "BK22013778.17"
+        },
+        {
+            "reference_date": "43019.0",
+            "reference_text": [
+                {
+                    "value": "지난 70년간 법조인 배출의 유일한 관문이었던 사법시험의 연원은 1947년 시작된 ‘조선변호사 시험’으로 거슬러 올라간다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1950년 ‘사법관시보의 임명수습 및 고시규정’에 따라 고등고시 사법과로 출발해 16회에 걸쳐 실시됐고, 1963년 사법시험령이 공포되면서 지금의 사법시험으로 전환됐다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2017년 마지막 제59회 사법시험까지 응시자는 총 70만 8천여 명.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 2.9%인 2만718명이 문턱을 넘어 법조인의 꿈을 이뤘다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=45664",
+            "search_query": "사법시험 폐지",
+            "terminate": false,
+            "text": "2017년 마지막인 제59회 사법시험이 열렸는데요, 이로써 70년간 법조인 배출의 유일한 통로였던 사법시험이 막을 내렸습니다. 사법시험은 1947년 조선변호사시험을 시초로 1950년 사법관시보의 임명수습 및 고시규정에 따라 고등고시 사법과로 총 16회 실시됐고요, 1963년 사법시험령이 공포되며 사법시험으로 변모했습니다. 사법시험 총 응시자 70만 8천여 명 중 2.9%인 2만718명이 시험에 합격하며 법조인이 되었습니다.",
+            "turn_id": "BK22013778-9",
+            "utterance_id": "BK22013778.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합격률을 보니 정말 보통 시험이 아니었네요. 좋은 내용 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013778-10",
+            "utterance_id": "BK22013778.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 말씀하세요.",
+            "turn_id": "BK22013778-10",
+            "utterance_id": "BK22013778.20"
+        }
+    ]
+}

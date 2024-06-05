@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012949",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012949",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간은 음식을 먹으며 생명을 유지하는데 식물은 어떻게 살아가나요?",
+            "turn_id": "BK22012949-1",
+            "utterance_id": "BK22012949.1"
+        },
+        {
+            "reference_date": "44522.0",
+            "reference_text": [
+                {
+                    "value": "대부분의 식물은 물과 햇빛, 흙에서 양분을 흡수하지만 어떤 식물들은 덫을 놓아 벌레를 잡아 녹여 양분을 흡수해요.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=1558",
+            "search_query": "식물",
+            "terminate": false,
+            "text": "식물은 일반적으로 햇빛, 물, 흙에서 영양분을 얻어요. 하지만 일부 식물의 경우 벌레를 녹여 영양분을 얻기 위해서 벌레를 잡는 덫을 놓기도 해요.",
+            "turn_id": "BK22012949-1",
+            "utterance_id": "BK22012949.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물도 포식할 수 있었군요. 바다에서는 식물을 못 본 것 같은데, 식물은 육지에서만 살아갈 수 있나요?",
+            "turn_id": "BK22012949-2",
+            "utterance_id": "BK22012949.3"
+        },
+        {
+            "reference_date": "44721.0",
+            "reference_text": [
+                {
+                    "value": "선캄브리아기의 생물은 모두 물 속에서 살았다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 오존층이 만들어져 강한 자외선을 막아주게 되자, 식물계에서는 녹조식물과 마찬가지로 광합성을 하는 녹색 식물들이 점차 육상으로 진출하게 되었다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9D%EB%AC%BC%EC%9D%98_%EC%A7%84%ED%99%94",
+            "search_query": "식물의 진화",
+            "terminate": false,
+            "text": "아니에요, 과거 선캄브리아 시대에는 생물이 모두 물속에 있었죠. 이후 오존층이 형성되고 강한 자외선이 차단되자 녹조식물처럼 광합성을 하는 식물계의 녹색 식물들이 육지로 올라오게 된 것이죠.",
+            "turn_id": "BK22012949-2",
+            "utterance_id": "BK22012949.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오존층이 식물의 육상 진출에 중요한 역할을 했군요. 설명 중에 광합성을 하는 식물이라고 표현하셨는데, 광합성이 무엇인가요?",
+            "turn_id": "BK22012949-3",
+            "utterance_id": "BK22012949.5"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "광합성(光合成, 영어: photosynthesis, 문화어: 빛합성)은 식물 및 다른 생명체가 빛에너지를 화학 에너지로 전환하기 위해 사용하는 과정이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전환된 화학 에너지는 나중에 생명체의 활동에 에너지를 공급하기 위해 방출될 수 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%A9%EC%84%B1",
+            "search_query": "광합성",
+            "terminate": false,
+            "text": "식물을 포함한 여러 생명체가 빛 에너지를 화학 에너지로 바꾸기 위해 사용하는 과정이 광합성인데, 이렇게 바뀐 화학 에너지는 이후 생명 활동에 필요한 에너지 공급을 위해 방출될 수도 있죠.",
+            "turn_id": "BK22012949-3",
+            "utterance_id": "BK22012949.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물은 생명 활동을 위해 햇빛이 꼭 필요하겠네요. 광합성을 하지 않는 사람도 햇빛을 쐬면 좋은 점이 있을까요?",
+            "turn_id": "BK22012949-4",
+            "utterance_id": "BK22012949.7"
+        },
+        {
+            "reference_date": "44791.0",
+            "reference_text": [
+                {
+                    "value": "한편 따라서 태양 광선이 비타민 D의 합성에 없어서는 안될 요소이며, 태양을 아주 적게 쐬는 또는 거의 쬐지못하는 직업에 종사하는 사람(이를테면 광부)은 비타민 D의 결핍에 주의하여야 한다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하루에 20분 정도 쐬어줘야 우리 몸에 필요한 비타민 D가 충분한 양이 생성된다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%83%80%EB%AF%BC_D",
+            "search_query": "비타민 D",
+            "terminate": false,
+            "text": "네, 사람도 햇빛을 쐬면 비타민 D를 합성해요. 이렇다 보니 햇빛을 적게 혹은 거의 쐬지 못하는 직업을 가진 사람들은 비타민 D 결핍을 조심해야 하죠. 우리 몸이 비타민 D를 충분히 만들기 위해서 하루에 20분 정도는 햇빛을 쐬어주세요.",
+            "turn_id": "BK22012949-4",
+            "utterance_id": "BK22012949.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 햇빛을 너무 오래 쐬면 안 좋지 않나요?",
+            "turn_id": "BK22012949-5",
+            "utterance_id": "BK22012949.9"
+        },
+        {
+            "reference_date": "44791.0",
+            "reference_text": [
+                {
+                    "value": "비타민 D의 결핍은 뼈의 성장에 커다란 장애를 초래한다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 따른 대표적 질병으로는 후천성 구루병, 현기증이 있을 수 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반대로 비타민 D를 과다 섭취할 경우엔 간에 축적 되어 고칼슘혈증, 식욕 부진등의 여러 가지 부작용을 초래할 수 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%83%80%EB%AF%BC_D",
+            "search_query": "비타민 D",
+            "terminate": false,
+            "text": "맞아요, 무엇이든 적당히 하는 것이 좋죠. 비타민 D가 과도하게 생성되면 간에 축적되어 고칼슘혈증, 식욕 부진 등의 부작용을 겪을 수 있어요. 반대로 비타민 D가 부족하면 뼈 성장에 장애가 오며 이에 따른 후천성 구루병과 현기증을 유발할 수 있죠.",
+            "turn_id": "BK22012949-5",
+            "utterance_id": "BK22012949.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 오래 쐬지 않게 주의해야겠네요. 광합성을 하지 않는 식물 중에 포식하지 않고 영양분을 얻을 수 있는 식물이 있나요?",
+            "turn_id": "BK22012949-6",
+            "utterance_id": "BK22012949.11"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "기생 식물(寄生植物)은 다른 식물에 기생하여 양분을 흡수하는 식물을 말한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대표적인 예가 겨우살이와 새삼인데, 이들은 뿌리가 없거나 스스로 뿌리를 없앴기 때문에 나무에 기생하여 양분을 흡수한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%83%9D%EC%8B%9D%EB%AC%BC",
+            "search_query": "기생식물",
+            "terminate": false,
+            "text": "네, 다른 식물에 기생하며 영양분을 얻는 기생 식물이 있어요. 겨우살이와 새삼이 대표적인 기생식물인데 뿌리가 없거나 스스로 뿌리를 없애서 나무에 있는 영양분을 빨아들이죠.",
+            "turn_id": "BK22012949-6",
+            "utterance_id": "BK22012949.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스스로 뿌리를 없애면서 나무에 기생하다니 신기하네요. 그럼 벌레를 잡기 위해 덫을 놓는 식물은 어떤 식물인가요?",
+            "turn_id": "BK22012949-7",
+            "utterance_id": "BK22012949.13"
+        },
+        {
+            "reference_date": "44664.0",
+            "reference_text": [
+                {
+                    "value": "식충식물(食蟲植物, 영어: insectivorous plants)은 벌레를 잡아먹는 식물을 말한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식충식물이 자라는 곳은 대부분 습지라든가 이탄지(泥炭地), 사력지(砂礫地) 또는 암벽과 같은 곳이다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 좋지 않은 환경에서 식물이 살아남기 위해, 주위의 다른 영양원을 얻기 위해 일부 식물들이 선택한 것이 식충활동이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9D%EC%B6%A9%EC%8B%9D%EB%AC%BC",
+            "search_query": "식충식물",
+            "terminate": false,
+            "text": "벌레를 잡아먹는 식물을 식충식물이라고 말하는데 이들은 대부분 습지 또는 이탄지, 사력지, 암벽 등에서 자라나요. 이런 식물들은 척박한 환경에서 영양원을 얻기 위해 식충활동을 하며 살아남았지요.",
+            "turn_id": "BK22012949-7",
+            "utterance_id": "BK22012949.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식충 활동을 하는 식물 중에 어떤 식물이 있는지 궁금한데 한 가지 말해줄 수 있나요?",
+            "turn_id": "BK22012949-8",
+            "utterance_id": "BK22012949.15"
+        },
+        {
+            "reference_date": "44630.0",
+            "reference_text": [
+                {
+                    "value": "파리지옥(--地獄)은 쌍떡잎식물 끈끈이귀개과의 여러해살이 식물로 곤충을 잡아먹으며 사는 식충식물이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만약 벌레가 잎 안의 감각모(感覺毛)에 닿으면 잎을 닫아 가둔 뒤 소화액을 분비해 벌레를 분해하거나 소화시킨다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EB%A6%AC%EC%A7%80%EC%98%A5",
+            "search_query": "파리지옥",
+            "terminate": false,
+            "text": "쌍떡잎식물 끈끈이귀개과의 여러해살이 식물 중에 식충식물인 파리지옥이 있어요. 곤충을 잡아먹으며 사는 파리지옥은 벌레가 잎 안의 감각모를 건드리면 잎을 닫고 가두어요. 이후 소화액을 분비해서 벌레를 분해하고 소화하죠.",
+            "turn_id": "BK22012949-8",
+            "utterance_id": "BK22012949.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무서운 식물이군요. 곤충이 잡아먹히는 장면을 한번 보고 싶네요.",
+            "turn_id": "BK22012949-9",
+            "utterance_id": "BK22012949.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추가로 파리지옥은 한 번 털을 건드리고 20초가 지나기 전에 한 번 더 건드려야 잎을 닫는데 그 이유를 아시나요?",
+            "turn_id": "BK22012949-9",
+            "utterance_id": "BK22012949.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니요, 이유가 무엇인지 알려주시겠어요?",
+            "turn_id": "BK22012949-10",
+            "utterance_id": "BK22012949.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 낙엽 등 무생물이 우연히 떨어졌을 때 잎이 닫히는 것을 피하기 위해서이죠.",
+            "turn_id": "BK22012949-10",
+            "utterance_id": "BK22012949.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "무섭지만 정말 똑똑한 식물이네요.",
+            "turn_id": "BK22012949-11",
+            "utterance_id": "BK22012949.21"
+        }
+    ]
+}

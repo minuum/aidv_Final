@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007895",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007895",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "형한테 이빨이라고 했다가 야단맞았어. 사람한테는 이빨이라고 하면 안 된다던데 그럼 뭐라고 해야 돼?",
+            "turn_id": "BK22007895-1",
+            "utterance_id": "BK22007895.1"
+        },
+        {
+            "reference_date": "2020-12-10",
+            "reference_text": [
+                {
+                    "value": "참고로 '이', '치', '치아(齒牙)'는 사람에 대해 쓰는 말이며, 동물의 이는 보통 낮잡아'이빨'이라 쓰므로 이빨이란 말은 사람에게는 안 쓴다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kwnews.co.kr/nview.asp?aid=220120900001",
+            "search_query": "이와 이빨",
+            "terminate": false,
+            "text": "이빨이라고 하면 동물의 이를 낮잡아 쓰는 표현이라서 사람들한테는 안 써. 사람한테는 이, 치, 치아라고 하면 돼.",
+            "turn_id": "BK22007895-1",
+            "utterance_id": "BK22007895.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람한테는 이빨이라고 안 하고 이나 치아라고 하는구나. 근데 사람들한테는 몇 개의 치아가 있는 거야?",
+            "turn_id": "BK22007895-2",
+            "utterance_id": "BK22007895.3"
+        },
+        {
+            "reference_date": "2020-10-30",
+            "reference_text": [
+                {
+                    "value": "사람의 상악/하악 즉 윗턱과 아래턱의 일반적인 치아의 개수는 동일하며 상악 14개 하악 14개로 정상적인 사람의 치아 갯수는 28개이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만, 사랑니 4개가 존재한다면 32개가 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdtoday.co.kr/mdtoday/index.html?no=404394",
+            "search_query": "사람 치아 갯수",
+            "terminate": false,
+            "text": "일반적으로 사람의 위턱, 아래턱의 치아는 각각 14개씩 총 28개면 정상으로 봐. 아, 사랑니가 4개씩 나는 사람이라면 32개가 되겠다.",
+            "turn_id": "BK22007895-2",
+            "utterance_id": "BK22007895.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기본적으로는 사람의 치아는 28개가 나는구나. 우리 형 오늘 사랑니 뽑았다고 했는데 사랑니는 왜 나는 거야?",
+            "turn_id": "BK22007895-3",
+            "utterance_id": "BK22007895.5"
+        },
+        {
+            "reference_date": "2019-08-05",
+            "reference_text": [
+                {
+                    "value": "사랑니가 나는 이유에 대해 확실히 밝혀진 바는 없으나, 인류의 진화로 인한 식생활 변화 때문이라는 설이 제일 유력하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "불이 없던 시대에는 딱딱하고 질긴 날것 그대로의 음식을 씹어야 했기 때문에 더 많은 치아가 필요했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 당시에는 턱이 발달했고 치아가 배치되는 공간도 넓었는데, 인류가 불을 사용하고 부드러운 음식을 먹기 시작하면서 턱이 작아지고 어금니가 퇴화됐다는 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dtnews24.com/news/articleView.html?idxno=554972",
+            "search_query": "사랑니 나는 이유",
+            "terminate": false,
+            "text": "사실 사랑니가 나는 이유는 정확히 밝혀지지는 않았는데 유력한 설은 인류가 진화하면서 식생활도 변했기 때문이라고 보고 있어. 과거에는 불이 없으니까 음식을 조리해 먹을 수 없어서 딱딱하고 질긴 음식을 씹어먹느라 더 많은 치아가 필요했었거든. 그때는 치아가 배치되는 공간도 넓고 턱이 발달했었는데 불을 사용하고 부드러운 음식을 먹게 되면서부터는 어금니가 퇴화되고 턱이 작아졌어.",
+            "turn_id": "BK22007895-3",
+            "utterance_id": "BK22007895.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불을 사용하면서 그렇게 되었구나. 근데 사랑니의 이름은 무슨 의미야?",
+            "turn_id": "BK22007895-4",
+            "utterance_id": "BK22007895.7"
+        },
+        {
+            "reference_date": "2021-11-12",
+            "reference_text": [
+                {
+                    "value": "사랑이 찾아오는 나이에 난다고 해서 사랑니라는 이름이 붙여졌는데 서양에서는 지혜가 생기는 나이에 난다고 해서 ‘지치(wisdom tooth)’라고 부른다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20211112000633",
+            "search_query": "사랑니 이름",
+            "terminate": false,
+            "text": "사랑니라는 이름은 사랑이 찾아오는 나이에 이가 난다고 해서 그렇게 부르게 되었어. 우리는 사랑니라고 부르지만 서양에서는 지치라고 불러. 지혜가 생기는 나이에 난다고 해서 붙여진 이름이야.",
+            "turn_id": "BK22007895-4",
+            "utterance_id": "BK22007895.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사랑이 찾아오는 나이, 지혜가 생기는 나이 둘 다 그럴듯하다. 근데 사랑니는 누구나 다 나는 거야?",
+            "turn_id": "BK22007895-5",
+            "utterance_id": "BK22007895.9"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "모든 사람이 사랑니가 나는 것은 아니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약 7%의 사람들은 사랑니가 아예 없는 경우도 있으며 나오는 개수도 1~4개까지 사람마다 다르다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022090113284110335",
+            "search_query": "사랑니 안나는 사람",
+            "terminate": false,
+            "text": "사랑니가 모든 사람들한테 나는 건 아니야. 나오는 개수도 1개부터 4개까지 사람마다 다르듯이 사랑니가 나는 사람도 있고 안 나는 사람도 있어. 사랑니가 아예 안 나는 경우는 약 7% 정도 돼.",
+            "turn_id": "BK22007895-5",
+            "utterance_id": "BK22007895.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사랑니가 하나도 안 나는 경우도 있구나. 근데 사랑니를 왜 빼는 거야?",
+            "turn_id": "BK22007895-6",
+            "utterance_id": "BK22007895.11"
+        },
+        {
+            "reference_date": "2018-02-07",
+            "reference_text": [
+                {
+                    "value": "사랑니를 빼는 이유는 사랑니로 인해 어금니와 사랑니 사이 음식물이 끼어 충치가 생기거나, 위아래 치아의 교열이 맞지 않아 불편함이 느껴지기 때문이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "좁은 턱 공간에 사랑니가 생기면 잇몸이 붓거나 턱뼈 안에서 낭종을 만들 수도 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2018020613262399730",
+            "search_query": "사랑니를 빼는 이유",
+            "terminate": false,
+            "text": "턱의 좁은 공간에 사랑니가 날 경우에는 잇몸이 부을 수도 있고 턱뼈 안에서 낭종이 생기기도 하거든. 그리고 치아의 위아래 교열이 안 맞아서 불편함을 느끼거나 사랑니와 어금니 사이에 음식물이 끼어서 충치가 생기기도 해서 사랑니를 빼는 거야.",
+            "turn_id": "BK22007895-6",
+            "utterance_id": "BK22007895.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 사랑니 난 사람은 무조건 다 빼야 돼?",
+            "turn_id": "BK22007895-7",
+            "utterance_id": "BK22007895.13"
+        },
+        {
+            "reference_date": "2020-04-22",
+            "reference_text": [
+                {
+                    "value": "사랑니를 빼지 않아도 되는 사례는 '주변 큰 어금니처럼 똑바른 방향으로 나와 있고, 칫솔질을 할 때 잘 닦을 수 있으면서 음식을 먹을 때 사랑니로도 잘 씹히고 있다고 느낄 때'다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2020/04/416989/",
+            "search_query": "사랑니 안빼는 사람",
+            "terminate": false,
+            "text": "그렇지 않아, 주변의 큰 어금니처럼 똑바로 자란 사랑니라면 빼지 않아도 돼. 그리고 사랑니로도 음식을 잘 씹어먹을 수 있거나 칫솔질할 때 잘 닦을 수 있으면 괜찮아.",
+            "turn_id": "BK22007895-7",
+            "utterance_id": "BK22007895.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 형은 사랑니가 삐뚤게 났었나 보다. 형이 이가 아파서 밥을 못 먹고 있는데 뭘 먹으면 좋을까?",
+            "turn_id": "BK22007895-8",
+            "utterance_id": "BK22007895.15"
+        },
+        {
+            "reference_date": "2021-04-22",
+            "reference_text": [
+                {
+                    "value": "사랑니 발치 후에는 딱딱하고 자극적인 음식은 피하는 것이 좋다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빨대를 사용하거나 흡연을 하면 구강에 압력이 가해져 출혈이 멈추지 않을 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심한 경우 발치 부위가 제대로 아물지 않는 ‘드라이소켓’ 현상이 생길 수 있어 주의해야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/2021042232221",
+            "search_query": "사랑니 발치 후 음식",
+            "terminate": false,
+            "text": "일단 사랑니 뽑은 후에는 자극적인 음식이나 딱딱한 음식은 되도록 피해야 해. 그리고 구강에 압력이 가해지면 출혈이 멈추지 않을 수도 있으니 흡연을 하거나 빨대를 사용하면 안 된다고 형한테 꼭 얘기해 줘. 발치한 부분이 제대로 아물지 않는 드라이 소켓 현상이 생길 수도 있으니까.",
+            "turn_id": "BK22007895-8",
+            "utterance_id": "BK22007895.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 들은 이야기를 형한테 꼭 전해줘야겠다.",
+            "turn_id": "BK22007895-9",
+            "utterance_id": "BK22007895.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히 흡연이나 빨대 사용은 꼭 자제하라고 전해줘.",
+            "turn_id": "BK22007895-9",
+            "utterance_id": "BK22007895.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나는 그만 형의 상태를 보러 가봐야겠어.",
+            "turn_id": "BK22007895-10",
+            "utterance_id": "BK22007895.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 형이 빨리 낫길 바랄게. 우리는 다음에 또 대화 나누자.",
+            "turn_id": "BK22007895-10",
+            "utterance_id": "BK22007895.20"
+        }
+    ]
+}

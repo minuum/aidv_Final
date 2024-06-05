@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008545",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008545",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우유에 대한 내용을 발표하기로 했는데 좀 도와줄 수 있을까? 일반적으로 우유는 하루에 몇 잔 정도 마시는 게 좋아? 그리고 우유에 어떤 성분들이 들어있는지도 궁금한데, 칼슘 외에 또 어떤 영양소가 들어있는 건가?",
+            "turn_id": "BK22008545-1",
+            "utterance_id": "BK22008545.1"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "우유에는 단백질ㆍ칼슘ㆍ탄수화물ㆍ무기질ㆍ비타민 등 무려 114가지의 영양 성분이 들어 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성인의 하루 평균 칼슘 권장량은 700mg이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 우유 3잔 정도를 마시면 채울 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4574",
+            "search_query": "우유 영양 성분",
+            "terminate": false,
+            "text": "우유는 하루에 3잔 정도 마시면 돼. 성인의 하루 칼슘 섭취 권장량이 700밀리그램인데, 이게 우유 3잔 정도 되는 분량이거든. 그리고 우유에는 무기질, 비타민, 칼슘, 탄수화물, 단백질을 비롯해 114가지의 영양소가 함유되어 있어.",
+            "turn_id": "BK22008545-1",
+            "utterance_id": "BK22008545.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무려 114가지의 영양 성분이 들었다니 정말 대단하네. 그럼 멸균우유의 영양 성분은 어때? 영양적인 측면에서 일반우유와 차이가 있을 것 같거든.",
+            "turn_id": "BK22008545-2",
+            "utterance_id": "BK22008545.3"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "멸균우유 일반우유에 비해서 상대적으로 유익균이 적기는 하나 영양성분에 있어 큰 차이는 드러나지 않는다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=307745",
+            "search_query": "멸균우유 영양성분",
+            "terminate": false,
+            "text": "일반우유와 비교했을 때 멸균우유의 유익균이 상대적으로 적게 들어있기는 하지만 전체적인 영양성분을 따져보면 멸균우유도 일반우유와 큰 차이는 없어.",
+            "turn_id": "BK22008545-2",
+            "utterance_id": "BK22008545.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "멸균우유는 열을 가하기 때문에 영양소도 그만큼 파괴될 것 같았는데, 그게 아니었구나. 그럼 멸균우유는 일반우유와 어떤 차이점을 가지고 있는 거야?",
+            "turn_id": "BK22008545-3",
+            "utterance_id": "BK22008545.5"
+        },
+        {
+            "reference_date": "2021-10-13",
+            "reference_text": [
+                {
+                    "value": "시중에서 유통되는 우유는 크게 멸균과 살균으로 나뉜다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "멸균 우유는 135~150도에서 균을 사멸(死滅)해 부패 속도가 느리며 상온에서 1년까지 보관이 가능하다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "살균 우유는 63~135도에서 열처리해 유익균이 남아있으며 유통 기한은 7~14일 정도로 짧은 편이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/distribution/food/2021/10/13/WRTR7GHBDBDFXPCQUYMSG3GCUY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "멸균 살균 우유",
+            "terminate": false,
+            "text": "일단 시중에 판매 중인 우유는 멸균우유와 살균우유로 나뉘는데, 이 중 멸균우유는 135도에서 150도 정도의 열을 가해 균을 없앴기 때문에 부패 속도가 그만큼 느려서 1년 정도 보관할 수 있는 특징을 가지고 있어. 그리고 살균우유는 63도에서 135도의 열을 가해 유익균이 살아있지만 7일에서 14일 정도의 유통 기한이 짧다는 특징이 있지.",
+            "turn_id": "BK22008545-3",
+            "utterance_id": "BK22008545.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 일반적인 우유도 살균 과정을 거치는 거구나. 보관이 용이한 것 외에 멸균우유는 또 어떤 장점을 가지고 있어?",
+            "turn_id": "BK22008545-4",
+            "utterance_id": "BK22008545.7"
+        },
+        {
+            "reference_date": "2020-03-12",
+            "reference_text": [
+                {
+                    "value": "또한, 멸균우유는 상온에서 보관이 가능하다는 장점 때문에 운송에 있어 꼼꼼한 냉장 시스템은 필요치 않다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=307745",
+            "search_query": "멸균우유 장점",
+            "terminate": false,
+            "text": "멸균우유는 상온에서도 보관할 수 있어서 냉장 시스템 없이 운송할 수 있다는 장점을 가지고 있지.",
+            "turn_id": "BK22008545-4",
+            "utterance_id": "BK22008545.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반우유와 영양 성분이 동일한 만큼 장점을 따져보고 선택하면 되겠네. 그럼 락토프리 우유의 영양 성분은 어때?",
+            "turn_id": "BK22008545-5",
+            "utterance_id": "BK22008545.9"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "▲락토프리우유= 일반우유에서 유당을 물리적으로 제거한 것으로 유당 외 영양성분은 일반우유와 별 차이 나지 않는다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202206301456002",
+            "search_query": "락토프리우유 영양성분",
+            "terminate": false,
+            "text": "락토프리 우유는 물리적인 방법을 사용해 일반우유의 유당을 제거한 것인데, 락토프리 우유 또한 일반우유와 비교했을 때 영양 성분의 차이는 거의 없어.",
+            "turn_id": "BK22008545-5",
+            "utterance_id": "BK22008545.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇구나. 그럼 우유의 품질은 어떤 방법으로 평가하는 거야? 우유팩에 등급 같은 게 적혀있더라고.",
+            "turn_id": "BK22008545-6",
+            "utterance_id": "BK22008545.11"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "우유의 품질을 평가하는 기준은 체세포 수와 세균 수인데 국내산 우유의 1등급 기준을 살펴보면 체세포수 1등급은 20만 개 미만, 세균수 1A등급은 3만 개 미만이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.aflnews.co.kr/news/articleView.html?idxno=231052",
+            "search_query": "우유 품질 평가 기준",
+            "terminate": false,
+            "text": "우유의 품질 평가 기준은 세균 수과 체세포 수로 구분할 수 있는데, 우리나라에서는 체세포 수 20만 개 미만은 1등급으로 분류되고 세균 수 3만 개 미만은 1A등급으로 분류되고 있어.",
+            "turn_id": "BK22008545-6",
+            "utterance_id": "BK22008545.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우유의 품질을 평가하는 기준이 나라마다 다른가 보구나. 그럼 다른 나라의 경우에는 어떤 기준을 가지고 있는 거야?",
+            "turn_id": "BK22008545-7",
+            "utterance_id": "BK22008545.13"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "반면 해외 낙농 선진국의 1등급 우유 기준을 살펴보면 덴마크는 체세포수 20만 개 이하, 세균수 3만 개 이하이며 뉴질랜드는 체세포수 40만 개 이하, 세균수 1만 개 이하, 프랑스는 체세포수 20만 개 이하, 세균수 5만 개 이하로 조사돼 국내산 우유가 세계 낙농 선진국과 비교해도 뒤지지 않을 정도로 고품질의 원유를 생산하고 있다는 사실을 알 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.aflnews.co.kr/news/articleView.html?idxno=231052",
+            "search_query": "1등급 우유 기준 체세포수",
+            "terminate": false,
+            "text": "해외의 우유 품질 기준을 확인해 보면 1등급의 경우 뉴질랜드는 체세포 수 40만 개 이하 및 세균 수 1만 개 이하, 덴마크는 체세포 수 20만 개 이하 및 세균 수 3만 개 이하, 프랑스는 체세포 수 20만 개 이하 및 세균 수 5만 개 이하를 기준으로 하고 있어. 다른 나라의 우유와 비교했을 때 국내산 우유가 뒤지지 않는다는 걸 알 수 있지.",
+            "turn_id": "BK22008545-7",
+            "utterance_id": "BK22008545.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말이네. 우리나라의 우유 품질 평가 기준이 결코 뒤지지 않는구나. 그나저나 우리나라에서는 언제부터 우유를 마시기 시작한 거야?",
+            "turn_id": "BK22008545-8",
+            "utterance_id": "BK22008545.15"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "우리나라에서는 우유를 이용한 구체적인 기록이 1285년경 일연이 지은 ‘삼국유사’에 처음 나온다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고려 시대에는 귀족층을 중심으로 우유를 마셨다는 기록이 있으며, 고려 말기에는 국가 상설기관으로 ‘유우소(乳牛所)’를 설치 및 운영했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4574",
+            "search_query": "삼국유사 우유 기록",
+            "terminate": false,
+            "text": "우유에 대한 구체적인 기록은 1285년에 일연이 집필한 삼국유사에서 처음 등장해. 고려 시대 때는 귀족들이 우유를 마셨다는 기록도 있고, 고려 시대 말기에는 유우소라는 국가 기관이 설치되어 운영되었다는 기록도 적혀있지.",
+            "turn_id": "BK22008545-8",
+            "utterance_id": "BK22008545.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 내가 생각했던 것보다 훨씬 오래전부터 우유를 마셨구나. 그만큼 우유가 좋다는 거겠지?",
+            "turn_id": "BK22008545-9",
+            "utterance_id": "BK22008545.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 꾸준히 섭취하면 건강에 도움이 될 거야.",
+            "turn_id": "BK22008545-9",
+            "utterance_id": "BK22008545.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 덕분에 오늘 우유에 대해서 정보 많이 얻어서 발표 준비 잘 할 수 있을 것 같아. 고마워!",
+            "turn_id": "BK22008545-10",
+            "utterance_id": "BK22008545.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아냐, 다음에도 궁금한 점이 생기면 언제든 물어봐!",
+            "turn_id": "BK22008545-10",
+            "utterance_id": "BK22008545.20"
+        }
+    ]
+}

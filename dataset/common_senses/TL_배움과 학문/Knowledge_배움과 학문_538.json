@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002789",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002789",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언어학에 대해 공부를 하고 있는데 너무 광범위해서 어려워요. 우가리트라는 곳과 관련해서 문자에 대해 읽었는데 무슨 말인지 잘 모르겠네요.",
+            "turn_id": "BK22002789-1",
+            "utterance_id": "BK22002789.1"
+        },
+        {
+            "reference_date": "2019-10-28",
+            "reference_text": [
+                {
+                    "value": "특히, 이곳 우가리트 유적지가 중요한 것은 이곳에서 최초의 알파벳이 발굴된 까닭이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이곳 도서관 터에서 발견한 페니키아 문자가 현재 전 세계적으로 사용하고 있는 알파벳의 기원으로 알려졌다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheontoday.com/news/articleView.html?idxno=117519",
+            "search_query": "우가리트",
+            "terminate": false,
+            "text": "우가리트라면 알파벳이 처음으로 발굴된 유적지에 대해서 공부하고 있나봐요? 페니키아 문자가 발견된 곳이잖아요.",
+            "turn_id": "BK22002789-1",
+            "utterance_id": "BK22002789.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 그런데 페니키아 문자랑 영어가 무슨 상관인지 이해가 안 되는데 자꾸 알파벳에 대한 이야기가 나오네요.",
+            "turn_id": "BK22002789-2",
+            "utterance_id": "BK22002789.3"
+        },
+        {
+            "reference_date": "2021-03-09",
+            "reference_text": [
+                {
+                    "value": "지금 통용 중인 영어 알파벳은 기원전 1000년 무렵 레반트 연안 페니키아어에서 유래한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물론 고대 그리스와 로마 문자를 거치면서 진화를 거듭했다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyongbuk.co.kr/news/articleView.html?idxno=2070458",
+            "search_query": "페니키아어 영어",
+            "terminate": false,
+            "text": "페니키아어는 기원전 약 1000년에 레반트 연안에 존재했던 언어이고 현재 우리가 사용하는 영어 알파벳이 이 페니키아어에 뿌리를 둔다는 이야기에요. 물론 그 이후 로마 문자, 고대 그리스어의 영향을 받긴 했지만요.",
+            "turn_id": "BK22002789-2",
+            "utterance_id": "BK22002789.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그런 얘기였군요, 말로 설명을 들으니 이해가 되네요. 근데 알파벳이 말 그대로 영어 문자라는 뜻인데 왜 알파벳에 대한 이야기가 나오면서 다른 국가 이야기도 하는 걸까요?",
+            "turn_id": "BK22002789-3",
+            "utterance_id": "BK22002789.5"
+        },
+        {
+            "reference_date": "2020-12-22",
+            "reference_text": [
+                {
+                    "value": "어쨌든 알파벳은 흔히 생각하듯이 로마자만을 뜻하는 것이 아니라 음소 문자 가운데 문자 하나가 닿소리(자음) 또는 홀소리(모음) 하나하나를 나타내는 문자 체계를 통틀어 부르는 이름이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002704735&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "알파벳",
+            "terminate": false,
+            "text": "알파벳은 로마자 같은 특정 언어를 지칭하는 게 아니라 음소 문자 중 닿소리인 자음과 홑소리인 모음을 가지는 문자 체계를 통칭하는 거에요.",
+            "turn_id": "BK22002789-3",
+            "utterance_id": "BK22002789.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알파벳이 문자 체계였군요. 저는 영어의 문자인 줄 알았어요. 그럼 영어가 페니키아 사람들이 만든거란 이야기인가요?",
+            "turn_id": "BK22002789-4",
+            "utterance_id": "BK22002789.7"
+        },
+        {
+            "reference_date": "2019-10-01",
+            "reference_text": [
+                {
+                    "value": "[오늘의 퀴즈] 영어의 알파벳은 누가 처음 만들었을까요?",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정답은 ‘페니키아인’으로 확인됐다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "B.C. 12세기에 이르러 페니키아는 지중해에서 가장 강력한 세력으로 부상했으며 이 시기에 오늘날 알파벳의 모태가 되는 페니키아어 알파벳이 발명·보급 되었다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=676475",
+            "search_query": "영어 기원",
+            "terminate": false,
+            "text": "그렇죠, 영어의 알파벳을 페니키아인들이 처음으로 만든거죠. 좀 더 자세히 말씀드리면 페니키아가 지중해에서 가장 강력한 세력을 가진 B.C. 12세기에 현재 영어 알파벳의 근원이 되는 페니키아어 알파벳이 발명되어 보급된거죠.",
+            "turn_id": "BK22002789-4",
+            "utterance_id": "BK22002789.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요, 저는 영국으로 알고 있었어요. 페니키아 자체를 몰랐는데 영어를 페니키아인들이 만들었다니 너무 의외네요.",
+            "turn_id": "BK22002789-5",
+            "utterance_id": "BK22002789.9"
+        },
+        {
+            "reference_date": "2019-07-22",
+            "reference_text": [
+                {
+                    "value": "페니키아 문자는 서쪽 그리스 문자-로마의 라틴 문자로 전파된다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 라틴 문자가 오늘날 지구촌 영어를 비롯한 모든 서양 언어를 적는 알파벳이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2019072209472483161",
+            "search_query": "라틴어",
+            "terminate": false,
+            "text": "좀 더 자세히 설명하자면 페니키아 문자가 로마의 라틴 문자 그리고 그리스 문자로 전파됐고 이 중 라틴 문자가 영어뿐 아니라 서양 언어의 알파벳에 영향을 준거에요.",
+            "turn_id": "BK22002789-5",
+            "utterance_id": "BK22002789.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언어 역사가 되게 오래되었네요. 그런데 페니키아가 어디 있는 국가인가요?",
+            "turn_id": "BK22002789-6",
+            "utterance_id": "BK22002789.11"
+        },
+        {
+            "reference_date": "2019-01-17",
+            "reference_text": [
+                {
+                    "value": "페니키아인은 지중해 동부에서 출발해 북아프리카와 남부 유럽에 많은 식민도시를 건설하면서 해양제국을 세웠다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://jmagazine.joins.com/monthly/view/324589",
+            "search_query": "페니키아",
+            "terminate": false,
+            "text": "페니키아는 지중해 동부에 있던 국가였는데 남부 유럽, 북아프리카까지 진출해 식민도시를 세운 해양제국이었어요.",
+            "turn_id": "BK22002789-6",
+            "utterance_id": "BK22002789.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 고대국가라는 건 읽었는데 해양제국이기도 했군요. 그럼 현재 페니키아에 속하는 국가는 어디인가요?",
+            "turn_id": "BK22002789-7",
+            "utterance_id": "BK22002789.13"
+        },
+        {
+            "reference_date": "2020-06-22",
+            "reference_text": [
+                {
+                    "value": "영어의 알파벳은 페니키아인이 처음 만들었는데 이들의 후손이 레바논 사람이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알파벳을 처음 체계화한 만큼 이들은 타고난 언어 감각을 가졌다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/culture-general/article/202006191610005",
+            "search_query": "페니키아 현재 국가",
+            "terminate": false,
+            "text": "오늘날 레바논이 페니키아인들의 후손이에요. 그들은 알파벳을 최초로 체계화한 민족인만큼 언어 감각이 매우 탁월해요.",
+            "turn_id": "BK22002789-7",
+            "utterance_id": "BK22002789.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 많고 많은 언어 중에 왜 영어가 전 세계적으로 쓰이고 있는 걸까요?",
+            "turn_id": "BK22002789-8",
+            "utterance_id": "BK22002789.15"
+        },
+        {
+            "reference_date": "2021-10-11",
+            "reference_text": [
+                {
+                    "value": "그러면 왜 이렇게 영어가 세계 공용어로 위력을 떨치게 되었을까.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여러 가지 설명이 있지만 ‘다른 언어를 흡수하는 능력’이 가장 설득력을 얻고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영어는 세계에서 가장 어휘 수가 많은데 이중 50%가 외국어에서 차용한 것들이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jeollailbo.com/news/articleView.html?idxno=639036",
+            "search_query": "영어의 힘",
+            "terminate": false,
+            "text": "영어가 세계 공용어로 힘을 갖게 된 데는 의견이 분분한데 그중에서도 다른 언어를 흡수하는 힘이 가장 유력한 의견으로 좁혀지고 있어요. 영어의 어휘는 세계에서 가장 많기로 알려져 있는데 이 중 절반이 외국어를 차용한 단어거든요.",
+            "turn_id": "BK22002789-8",
+            "utterance_id": "BK22002789.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영어의 어휘가 세계에서 가장 많다니 이때까지 영어 공부가 왜 힘들었는지 이해가 되네요. 오늘 정말 새로운 내용을 많이 알게 되었어요. 이때까지 언어에 대해 제가 잘못 알고 있는 부분이 많았네요.",
+            "turn_id": "BK22002789-9",
+            "utterance_id": "BK22002789.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 대화 중 뭐가 가장 새로웠나요?",
+            "turn_id": "BK22002789-9",
+            "utterance_id": "BK22002789.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 영어가 페니키아인들에 의해 처음으로 시작된 언어라는 거에 대해 제일 놀랐어요.",
+            "turn_id": "BK22002789-10",
+            "utterance_id": "BK22002789.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그게 왜 가장 놀라웠나요?",
+            "turn_id": "BK22002789-10",
+            "utterance_id": "BK22002789.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 영어는 영국인이 처음 만든 줄 알았거든요. 오늘 언어에 대해 자세히 알려주셔서 너무 감사해요. 모르는 게 생기면 다음에 또 연락드릴게요.",
+            "turn_id": "BK22002789-11",
+            "utterance_id": "BK22002789.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 뭐든 물어봐도 좋아요. 제가 나중에 자세히 설명해드릴게요.",
+            "turn_id": "BK22002789-11",
+            "utterance_id": "BK22002789.22"
+        }
+    ]
+}

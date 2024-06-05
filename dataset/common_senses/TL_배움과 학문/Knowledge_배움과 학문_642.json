@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003861",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003861",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 그 소식 들으셨어요? 뉴스에서 봤는데, 창경궁이 복원되었대요.",
+            "turn_id": "BK22003861-1",
+            "utterance_id": "BK22003861.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정확히는 일제가 끊어놓은 종묘와 창경궁 연결 길이 복원된 거예요.",
+            "turn_id": "BK22003861-1",
+            "utterance_id": "BK22003861.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떻게 된 건지 알려주실 수 있나요?",
+            "turn_id": "BK22003861-2",
+            "utterance_id": "BK22003861.3"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "종묘와 창경궁은 본래 담장을 사이에 두고 이어져 있었으나, 1932년 일제가 '종묘관통도로'(율곡로)를 내면서 갈라놓았다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "풍수지리상 북한산의 주맥이 창경궁에서 종묘로 흘렀는데, 일제가 도로를 놓아 이를 끊어버렸다는 게 서울시의 설명이다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220720111000004?input=1195m",
+            "search_query": "종묘와 창경궁",
+            "terminate": false,
+            "text": "네, 종묘와 창경궁 사이가 북한산의 주맥이 흐르는 곳이라고 하는데, 이곳은 본래 서로 이어져 있었어요. 그런데 1932년 일제 강점기 때 일본이 여기에 종묘 관통 도로, 즉, 율곡로라는 도로를 만들면서 이 두 곳이 끊어졌었어요.",
+            "turn_id": "BK22003861-2",
+            "utterance_id": "BK22003861.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그 끊어졌던 길을 다시 연결한 거군요.",
+            "turn_id": "BK22003861-3",
+            "utterance_id": "BK22003861.5"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "서울시는 이와 같이 일제가 갈라놓은 창경궁과 종묘를 90년 만에 다시 연결하는 '창경궁-종묘 연결 역사복원사업'을 완료했다고 20일 밝혔다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220720_0001949419&cID=14001&pID=14000",
+            "search_query": "종묘와 창경궁 복원",
+            "terminate": false,
+            "text": "네, 맞아요. 서울시는 일제가 갈라놓은 창경궁과 종묘 연결 역사 복원사업을 90년 만에 완료했다고 20일 밝혔어요.",
+            "turn_id": "BK22003861-3",
+            "utterance_id": "BK22003861.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 기존에 있던 길은 다시 없앤 건가요?",
+            "turn_id": "BK22003861-4",
+            "utterance_id": "BK22003861.7"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "서울시는 창경궁과 종묘를 단절시켰던 율곡로를 지하화하고 그 위에 축구장보다 넓은 녹지(약 8천㎡)를 만들어 끊어졌던 녹지축을 잇고 일제가 없애버린 창경궁과 종묘 사이 궁궐담장(503m)과 북신문(北神門)도 최대한 원형 그대로 복원했다고 20일 밝혔다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5789697",
+            "search_query": "율곡로 지하화",
+            "terminate": false,
+            "text": "없앤 건 아니고 기존에 있던 율곡로를 지하화하고 8천여 제곱미터 정도의 녹지를 살려서 창경궁과 종묘를 다시 이은 건데요, 일제가 없애버린 궁궐 담장과 북신문도 함께 최대한 원형을 살려 복원했어요.",
+            "turn_id": "BK22003861-4",
+            "utterance_id": "BK22003861.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그렇다면 이 복원 사업은 얼마나 걸린 건가요?",
+            "turn_id": "BK22003861-5",
+            "utterance_id": "BK22003861.9"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "이날 시에 따르면, 창경궁~종묘 연결 역사복원사업은 2010년 11월 시작해 2022년 6월에 완료됐다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "약 12년 만에 사업이 완료된 이유에 대해 시 관계자는 \"문화재청에서 '옛날이랑 똑같이 복원해 놓으라'고 해서 협의하는데 오랜 시간이 들었다\"고 말했다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.metroseoul.co.kr/article/20220720500539",
+            "search_query": "창경궁 복원 12년",
+            "terminate": false,
+            "text": "2010년 11월 사업을 시작했지만 문화재청에서 옛날이랑 똑같이 복원해 놓으라는 고증 등으로 시간이 걸리면서 마무리하기까지 약 12년이 걸려서 2022년 6월에 완료되었어요.",
+            "turn_id": "BK22003861-5",
+            "utterance_id": "BK22003861.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 오래 걸렸네요. 복원하면서 사업비도 만만치 않았을 것 같은데요.",
+            "turn_id": "BK22003861-6",
+            "utterance_id": "BK22003861.11"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "시에 따르면, 전체 사업비 1008억 중 공사비(궁궐 담장·북신문 복원, 녹지 조성 등)에 743억원, 토지보상비에 190억원, 감리비에 67억원, 설계비에 8억원 등이 투입됐다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.metroseoul.co.kr/article/20220720500539",
+            "search_query": "창경궁 복원 사업비",
+            "terminate": false,
+            "text": "네, 맞아요. 시에 따르면 전체 사업비는 1008억이 들었는데 그중 공사비에 743억 원, 토지보상비가 190억 원, 감리비가 67억 원, 설계비에 8억 원 등으로 투입이 되었어요.",
+            "turn_id": "BK22003861-6",
+            "utterance_id": "BK22003861.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 시간과 비용이 사용되었는데, 얼마나 예전 모습 그대로 복원이 되었는지 궁금해요.",
+            "turn_id": "BK22003861-7",
+            "utterance_id": "BK22003861.13"
+        },
+        {
+            "reference_date": "2020-07-20",
+            "reference_text": [
+                {
+                    "value": "궁궐담장은 원형이 남아 있는 주변 담장형식을 토대로 1907년 제작된 '동궐도'와 1931년 발간된 '조선고적도' 등 관련 자료를 참고해 최대한 본모습을 되살렸다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "복원공사 중 발굴된 기초석에 맞게 지반의 높이를 옛 모습대로 맞추고, 종묘담장의 석재와 기초석도 20%(4만5000개 중 9000개) 이상 재사용했다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북신문은 '종묘의궤' '승정원일기' 등 문헌을 통해 규모와 형태가 가장 유사한 창경궁의 동문(東門)인 월근문(月覲門)을 참고했다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20220720010012161",
+            "search_query": "창경궁 종묘 원형 복원",
+            "terminate": false,
+            "text": "북신문은 종묘의궤, 승정원일기 등의 기록을 통해 크기나 모양이 가장 비슷한 월근문을 참고해 복원했어요. 복원 공사 도중에 발견된 기초석에 맞게 지반의 높이도 예전 모습 그대로 맞추고 종묘 담장의 석재와 기초석도 20퍼센트 이상 다시 사용하면서 남아있는 원형, 또 자료들을 참고해 최대한 본모습을 되살렸고요. 특히, 궁궐담장은 1907년 제작된 동궐도와 1931년에 발간된 조선고적도를 통해 최대한 옛 모습과 비슷한 모습으로 복원했지요.",
+            "turn_id": "BK22003861-7",
+            "utterance_id": "BK22003861.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 어떻게 복원이 되었는지 너무 보고 싶은데, 가서 볼 수 있는 건가요?",
+            "turn_id": "BK22003861-8",
+            "utterance_id": "BK22003861.15"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "복원된 담장·녹지와 새로 조성한 궁궐담장길은 22일(금)부터 시민들에게 개방한다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=102621",
+            "search_query": "창경국 종묘 개방",
+            "terminate": false,
+            "text": "네, 22일 금요일부터 개방하기로 했으니 복원된 담장과 녹지, 궁궐 담장 길을 보는 건 가능해요.",
+            "turn_id": "BK22003861-8",
+            "utterance_id": "BK22003861.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말이에요? 너무 기대되는데 22일 금요일에 꼭 가봐야겠어요.",
+            "turn_id": "BK22003861-9",
+            "utterance_id": "BK22003861.17"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "2011년 시작된 역사복원사업이 11년 만에 완료되면서 창경궁과 종묘의 연결 구조는 되살아났지만 당분간 사잇길을 통해 양쪽을 오갈 수는 없는 상태다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 창경궁은 자유관람이지만 종묘는 예약을 통해 시간제로 운영되고 있기 때문이다.",
+                    "value_time": "2022-07-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/local/Seoul/article/202207202138005",
+            "search_query": "창경궁과 종묘 예약",
+            "terminate": false,
+            "text": "네, 이 역사 복원 사업은 2011년에 시작되었는데 완성까지 총 11년이 걸렸어요. 창경궁과 종묘의 연결이 완료되어 22일부터 개방은 되었지만 자유 관람인 창경궁과는 다르게 종묘는 예약을 통해 시간제로 운영하기 때문에 당장 자유롭게 왕래하기는 좀 어려워요.",
+            "turn_id": "BK22003861-9",
+            "utterance_id": "BK22003861.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 완전히 개방되고 나면 창경궁과 종묘 사잇길 꼭 산책해 봐야겠어요.",
+            "turn_id": "BK22003861-10",
+            "utterance_id": "BK22003861.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 꼭 한번 걷고 싶네요.",
+            "turn_id": "BK22003861-10",
+            "utterance_id": "BK22003861.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친절하게 잘 알려주셔서 너무 감사해요.",
+            "turn_id": "BK22003861-11",
+            "utterance_id": "BK22003861.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 언제든 궁금한 점 있으면 물어보세요.",
+            "turn_id": "BK22003861-11",
+            "utterance_id": "BK22003861.22"
+        }
+    ]
+}

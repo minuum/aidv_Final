@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011923",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011923",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주 미술 교양 강의에서 발표를 해야 하는데 미술사를 잘 몰라 걱정이네요.",
+            "turn_id": "BK22011923-1",
+            "utterance_id": "BK22011923.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 과제를 받으셨군요. 혹시 어떤 미술사에 대해 알고 싶으세요?",
+            "turn_id": "BK22011923-1",
+            "utterance_id": "BK22011923.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 바로크 시대를 알고 싶은데요. 혹시 바로크 미술이 어떻게 생겨났는지 알 수 있을까요?",
+            "turn_id": "BK22011923-2",
+            "utterance_id": "BK22011923.3"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "1517년 마틴 루터의 종교개혁이 일어나면서 로마 가톨릭의 교세가 급격히 위축되었다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종교개혁자들에 맞서 가톨릭교회는 반종교개혁의 움직임을 형성했고 그 과정에서 나타난 것이 바로크미술이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=915708",
+            "search_query": "바로크 미술",
+            "terminate": false,
+            "text": "네, 1517년에 마틴 루터의 종교개혁이 일어났고 로마 가톨릭의 힘이 급격히 위축되었죠. 이에 따라 종교개혁자들에 맞서 가톨릭교회는 반종교개혁의 움직임을 만들었고 그 과정에서 바로크 미술이 나타났어요.",
+            "turn_id": "BK22011923-2",
+            "utterance_id": "BK22011923.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 바로크 미술이 태어났군요. 그렇다면 바로크 미술은 어떤 특징이 있나요?",
+            "turn_id": "BK22011923-3",
+            "utterance_id": "BK22011923.5"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "장식성이 강한 바로크 미술은 화려하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞선 르네상스 미술이 비례, 균형, 조화, 통일을 추구했다면 바로크에서는 비례와 균형이 무너지고 조화나 통일성 대신 스펙터클이 펼쳐졌다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=915708",
+            "search_query": "바로크 미술 특징",
+            "terminate": false,
+            "text": "네, 바로크 미술은 장식성이 강하고 화려하죠. 바로크 이전의 르네상스 미술이 비례, 균형, 조화, 통일을 지향했다면 바로크에서는 균형이 무너지고 조화나 통일성 대신 스펙터클이 있다는 특징이 있죠.",
+            "turn_id": "BK22011923-3",
+            "utterance_id": "BK22011923.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 화려하다는 특징이 있군요. 바로크 시대 이전의 르네상스와 그런 차이점이 있다면 이후에 나타난 로코코시대와 바로크 시대의 양식은 어떤 차이점이 있을까요?",
+            "turn_id": "BK22011923-4",
+            "utterance_id": "BK22011923.7"
+        },
+        {
+            "reference_date": "2021-08-20",
+            "reference_text": [
+                {
+                    "value": "바로크 양식은 시대라는 보다 큰 분위기를 강조하고, 궁정이나 대저택, 거리 등과 같은 큰 규모의 환경을 장식하기 위한 대작을 위주로 했다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 비해 로코코 양식은 개인의 감성적 체험에 주목하고, 지방 귀족이나 중산층의 주거 장식을 위한 소품 위주의 작품을 만들어냈다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210820511644?OutUrl=naver",
+            "search_query": "바로크 로코코 시대 차이점",
+            "terminate": false,
+            "text": "네, 귀족과 중산층의 주거 장식을 위한 소품 위주의 작품을 남긴 로코코 양식과 달리 바로크 양식은 보다 큰 분위기를 강조하죠. 궁정, 저택, 거리 등 큰 규모의 환경을 장식하기 위한 대작을 남겼죠.",
+            "turn_id": "BK22011923-4",
+            "utterance_id": "BK22011923.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 규모에서 차이점이 있었군요. 그렇다면 바로크 시대의 작가들은 어떤 성향이 있었나요?",
+            "turn_id": "BK22011923-5",
+            "utterance_id": "BK22011923.9"
+        },
+        {
+            "reference_date": "2012-07-09",
+            "reference_text": [
+                {
+                    "value": "바로크 미술은 로마에서 출발하여 프랑스로 퍼져나갔는데 당시 프랑스는 절대군주가 왕권신수설을 주장하며 절대 권력을 누리고 있었다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로크 시대의 미술가들은 로마에서 미술 공부를 하는 것을 즐겼다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 이후 자신의 나라로 돌아가 로마에서 배운 실력을 자국의 문화와 전통에 융합시켰다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로크 미술은 구교(가톨릭)냐 개신교냐에 따라 매우 다르게 나타난다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=290354",
+            "search_query": "바로크 미술화가",
+            "terminate": false,
+            "text": "네, 바로크 미술은 로마에서 출발했고 그 이후 프랑스로 퍼졌죠. 바로크 시대의 미술가들은 로마에서 미술 공부를 하는 것을 즐기기도 했고 그 이후 자국으로 귀국해 로마에서 배운 미술에 자국의 문화와 전통을 섞었죠. 바로크 미술은 가톨릭이냐 개신교냐에 따라 매우 다르게 나타나죠.",
+            "turn_id": "BK22011923-5",
+            "utterance_id": "BK22011923.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 문화와 전통을 융합시켰군요. 그렇다면 개신교 회화는 어떤 특징이 있나요?",
+            "turn_id": "BK22011923-6",
+            "utterance_id": "BK22011923.11"
+        },
+        {
+            "reference_date": "2012-07-09",
+            "reference_text": [
+                {
+                    "value": "한편 개신교 국가인 플랑드르에서는 부르주아 취향의 미술이 꽃 피워 루벤스, 렘브란트와 같은 거장들이 배출되었다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 네덜란드에서는 자유도시가 발달하여 부르주아들의 세력이 커지게 되었고, 회화도 이에 따라 부르주아적인 취향으로 흘러갔다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=290354",
+            "search_query": "바로크 개신교회화",
+            "terminate": false,
+            "text": "네, 개신교 국가인 플랑드르에서는 부르주아 취향의 미술이 중심을 이뤘고 루벤스와 렘브란트와 같은 거장들이 나왔죠. 그 당시 네덜란드에서는 도시가 자유롭게 발달하여 부르주아들의 세력이 확장됐고, 회화 또한 그들의 부르주아적인 취향으로 흘러갔다는 특징이 있죠.",
+            "turn_id": "BK22011923-6",
+            "utterance_id": "BK22011923.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 회화도 부르주아적인 취향으로 이어졌군요. 바로크 시대의 거장 렘브란트 외에도 어떤 대표 작가가 있나요?",
+            "turn_id": "BK22011923-7",
+            "utterance_id": "BK22011923.13"
+        },
+        {
+            "reference_date": "2018-07-23",
+            "reference_text": [
+                {
+                    "value": "이탈리아 바로크의 대표 작가 카라바지오가 바로 이러한 특징을 가장 잘 드러낸다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 관심은 우리와는 다른 완전한 신이나 성인을 보여주는 것이 아니라 성경 속의 이야기를 일상 속에서 일어나는 기적의 순간으로 드라마틱하게 표현하는 것이었다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 접근 방식은 확실히 독창적이고 신선한 것이었지만 표현이 지나치게 세속적이고 사실적이라는 이유로 신고전주의가 유행하던 한동안은 빛을 보지 못하기도 했다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002432382&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "바로크 대표작가",
+            "terminate": false,
+            "text": "네, 이탈리아 출신의 카라바지오가 바로크 특징을 가장 잘 드러내는 작가 중 한 명이죠. 그는 성경 속 이야기를 일상에서 나타나는 기적의 순간으로 극적으로 표현했죠. 이러한 접근 방식은 확실히 독창적이고 신선했지만, 표현이 너무 세속적이고 사실적이라는 이유로 한동안 외면받기도 했어요.",
+            "turn_id": "BK22011923-7",
+            "utterance_id": "BK22011923.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그런 그림을 그렸던 작가가 있었군요. 그렇다면 그 이외에도 바로크 미술은 어떤 사조에 영향을 끼쳤나요?",
+            "turn_id": "BK22011923-8",
+            "utterance_id": "BK22011923.15"
+        },
+        {
+            "reference_date": "2021-10-19",
+            "reference_text": [
+                {
+                    "value": "바로크 이후 로코코로부터 시작된 아방가르드, 인상파, 입체파, 다다이즘, 초현실주의, 추상주의 등 수많은 현대 예술의 사조는 결국 부분적으로 형식을 달리하는 바로크의 산물이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20211019_0001618594&cID=10701&pID=10700",
+            "search_query": "바로크 미술사조",
+            "terminate": false,
+            "text": "네, 바로크 미술의 산물로써 바로크 이후에 나타난 로코코부터 아방가르드, 인상파, 입체파, 다다이즘, 초현실주의, 추상주의 등이 수많은 현대 미술 사조에서 부분적으로 형식을 달리하며 나타나기도 했죠.",
+            "turn_id": "BK22011923-8",
+            "utterance_id": "BK22011923.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 바로크 미술은 다양한 사조에 영향을 미쳤군요. 그렇다면 바로크의 의미는 무엇인가요?",
+            "turn_id": "BK22011923-9",
+            "utterance_id": "BK22011923.17"
+        },
+        {
+            "reference_date": "2018-07-23",
+            "reference_text": [
+                {
+                    "value": "바로크는 '불완전한 진주'라는 의미의 포르투갈어로 르네상스 시대의 완벽한 균형과 아름다움과 비교하여 그에 미치지 못함을 의미한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002432382&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "바로크 의미",
+            "terminate": false,
+            "text": "네, 바로크는 불완전한 진주라는 뜻의 포르투갈어죠. 르네상스 시대의 완전한 균형과 아름다움에 비하면 그에 미치지 못함을 말하기도 하죠.",
+            "turn_id": "BK22011923-9",
+            "utterance_id": "BK22011923.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 의미를 담고 있군요. 덕분에 바로크 시대의 미술에 대해 잘 알게 되어 막막함이 해결되었어요. 정말 감사합니다.",
+            "turn_id": "BK22011923-10",
+            "utterance_id": "BK22011923.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 막막함이 해결됐다니 참 다행이네요. 그럼 안녕히 계세요!",
+            "turn_id": "BK22011923-10",
+            "utterance_id": "BK22011923.20"
+        }
+    ]
+}

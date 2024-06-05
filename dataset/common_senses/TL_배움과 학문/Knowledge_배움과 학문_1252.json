@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008403",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008403",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 재미있게 보고 있는 SF 드라마가 하나 있는데, 거기 주인공이 토성에 있는 위성에 살거든. 그걸 보다 보니 문득 토성에 관해 이것저것 알고 싶어져서 이것저것 공부하고 있는 중이야. 그래서 말인데, 토성의 크기는 어느 정도야?",
+            "turn_id": "BK22008403-1",
+            "utterance_id": "BK22008403.1"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "토성은 태양계 내의 행성 중 목성에 이어 두 번째로 크며, 지름은 약 12만 km로, 지구의 9.1배이며 부피는 760배에 달한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 비해 질량은 지구의 95배밖에 안되기 때문에, 토성의 평균 밀도는 0.7g/cm3에 지나지 않는다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%86%A0%EC%84%B1",
+            "search_query": "토성",
+            "terminate": false,
+            "text": "태양계에 있는 행성 중에서 두 번째로 큰 행성이 바로 토성이야. 목성 다음으로 크지. 토성의 지름은 12만 km 정도라서 지구 지름의 9.1배이고, 부피는 무려 지구의 760배나 돼. 다만, 이렇게 거대한 크기에 비해서 질량은 지구보다 95배 무거운 정도라서, 토성의 평균 밀도는 겨우 1평방 센티미터당 0.7g밖에 안 되지.",
+            "turn_id": "BK22008403-1",
+            "utterance_id": "BK22008403.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸집에 비해 무게는 덜 나가는 행성이구나. 그나저나, 토성이라고 하면 가장 먼저 떠오르는 건 커다란 고리인데, 이 고리는 얼마나 크고, 주로 어떤 성분으로 구성되어 있어?",
+            "turn_id": "BK22008403-2",
+            "utterance_id": "BK22008403.3"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "밀도가 높은 주요 고리는 토성의 적도 위로 7,000 km에서 80,000 km까지 뻗어있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추정되는 부분적인 두께가 10 미터만큼 작거나 1 킬로미터만큼 큰 고리들은 99.9%가 순수한 물로 구성되어 있고, 나머지 부분은 톨린이나 규산염과 같은 약간의 불순물로 구성되어 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주요 고리는 주로 1 센티미터에서 10 미터 범위의 크기를 가진 입자들로 구성되어 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%86%A0%EC%84%B1%EC%9D%98_%EA%B3%A0%EB%A6%AC#%EA%B3%A0%EB%A6%AC%EC%9D%98_%EC%A3%BC%EC%9A%94_%EC%84%B8%EB%B6%84",
+            "search_query": "토성 고리",
+            "terminate": false,
+            "text": "밀도가 높은 주요 고리 부분은 토성 적도 위쪽으로 뻗어 있는데, 뻗은 너비가 7,000km부터 80,000km에 달해. 고리의 두께는 10미터 정도로 얇은 부분부터 1킬로미터만큼 두꺼운 부분까지 있는 것으로 추정되는데, 고리를 구성하는 물질은 99.9 퍼센트가 순수한 물이고, 그 외에는 규산염이나 톨린 같은 불순물이 조금 섞여 있어. 주요 고리를 구성하는 입자의 크기는 주로 1센티미터에서 10미터 정도야.",
+            "turn_id": "BK22008403-2",
+            "utterance_id": "BK22008403.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수치로 들으니까 고리의 웅장함이 새삼 느껴지네. 그런 큰 고리가 대체 어떻게 생겨난 걸까?",
+            "turn_id": "BK22008403-3",
+            "utterance_id": "BK22008403.5"
+        },
+        {
+            "reference_date": "2019-02-16",
+            "reference_text": [
+                {
+                    "value": "토성 고리의 기원을 설명하는 최근의 가설은 토성의 위성이 토성에 흡수되고 남은 흔적이 고리라는 이론이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 위성이 토성 쪽으로 서서히 빨려 들어오다가 ‘로슈한계’라는, 위성의 중력보다 토성의 기조력이 더 강한 지점까지 다가오면 위성이 부스러진다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 파편 가운데 무거운 암석 부스러기는 자체 중력 때문에 빠르게 토성에 흡수되지만, 가벼운 얼음 입자는 상대적으로 천천히, 혹은 흡수되지 않고 토성 주위를 도는 고리로 남을 수 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=26785",
+            "search_query": "토성 고리 생성 원리",
+            "terminate": false,
+            "text": "최근 가설은 토성의 위성이 모행성인 토성에 흡수되고 남은 찌꺼기가 토성 고리의 기원이라고 설명해. 로슈 한계라고 해서, 모행성의 기조력이 위성보다 강해지는 지점이 있는데, 토성의 위성이 토성에 가까이 빨려 들어가다가 이 로슈 한계에 다가가면 위성이 잘게 부서진다는 거야. 그리고 이렇게 부서진 파편 중에서 무거운 것은 자체 중력으로 인해 토성으로 빠르게 떨어지고, 얼음 입자처럼 가벼운 파편은 상대적으로 천천히 떨어지거나, 또는 아예 떨어지지 않고 토성을 공전하는 고리로 남는다는 것이지.",
+            "turn_id": "BK22008403-3",
+            "utterance_id": "BK22008403.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위성이 죽어서 아름다운 고리가 된다니 뭔가 역설적인걸. 그런데 그럼 작은 파편도 토성으로 흡수될 수 있다는 건데, 언젠가 토성 고리가 사라질 수도 있다는 걸까?",
+            "turn_id": "BK22008403-4",
+            "utterance_id": "BK22008403.7"
+        },
+        {
+            "reference_date": "2018-12-18",
+            "reference_text": [
+                {
+                    "value": "하지만 토성도 머지 않아 '고리없는 행성' 대열에 동참할 가능성이 있는 것으로 관측됐다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토성의 고리는 주로 암석이 섞여 있는 얼음으로 구성되어 있는데, 자기장의 영향으로 고리에 있는 얼음입자들이 비처럼 내리는 ‘고리 비(ring rain)’ 현상 때문에 토성의 고리가 사라지고 있다는 것이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "NASA 카시니호는 토성의 고리 비 현상에 대해 관측한 후, 토성의 고리가 앞으로 1억 년 후에 사라질 수 있다는 것을 밝혀냈다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://zdnet.co.kr/view/?no=20181218093047",
+            "search_query": "토성 고리 사라짐",
+            "terminate": false,
+            "text": "응, 미래에는 토성도 고리 없는 행성이 될 가능성이 있어. 암석이 섞인 얼음이 토성 고리의 주요 구성 물질인데, 고리 비 현상 때문에 토성 고리가 사라지고 있기 때문이지. 여기서 고리 비 현상이란 자기장 때문에 고리에 존재하는 얼음 입자가 비처럼 떨어져 내리는 걸 말해. NASA의 카시니호가 토성에서 일어나는 고리 비 현상을 관측한 결과, 토성의 고리는 1억 년이 지나면 사라질 가능성이 있는 것으로 밝혀졌어.",
+            "turn_id": "BK22008403-4",
+            "utterance_id": "BK22008403.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1억 년 뒤에 인류가 태양계에 남아 있을지는 모르겠지만, 그때 인류의 후손들은 토성의 고리를 못 볼 수도 있겠다는 상상을 하니 아쉬운 기분이 드네. 고리 얘기를 하다 보니 궁금해진 건데, 외계 행성 중에도 토성처럼 고리를 가진 게 있을까?",
+            "turn_id": "BK22008403-5",
+            "utterance_id": "BK22008403.9"
+        },
+        {
+            "reference_date": "2015-01-28",
+            "reference_text": [
+                {
+                    "value": "지구에서 430광년 떨어진 외계 행성 주위에서 토성의 고리보다 지름이 200배 이상 큰 고리구조가 발견됐다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "네덜란드 레이덴 천문대와 미국 로체스터대 연구진은 27일 천문분야 국제학술지 ‘천체물리학저널'(Astrophysical Journal)에서 나이가 1천600만년 정도밖에 안 된 어린 별 ‘J1407’을 도는 행성(또는 갈색왜성) ‘J1407b’ 주위에서 30개 이상으로 이루어진 고리를 발견했다고 밝혔다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분석 결과, J1407b는 목성보다 40배 정도 큰 것으로 추정되며 발견된 고리는 지름이 1억2천만㎞로 토성 고리보다 200배 정도 큰 것으로 나타났다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%99%B8%EA%B3%84-%ED%96%89%EC%84%B1-%EC%A3%BC%EB%B3%80%EC%97%90-%ED%86%A0%EC%84%B1%EA%B3%A0%EB%A6%AC%EB%B3%B4%EB%8B%A4-200%EB%B0%B0-%ED%81%B0-%EA%B3%A0%EB%A6%AC-%EB%B0%9C%EA%B2%AC/",
+            "search_query": "외계 토성 고리",
+            "terminate": false,
+            "text": "응, 지구로부터 430광년 떨어진 곳에 있는 외계 행성 주변에 토성 고리보다 지름이 200배 이상 큰 고리 구조가 있다는 게 관측됐어. 지난 2015년 1월 27일, 미국 로체스터대 연구진과 네덜란드 레이덴 천문대는 천문 분야 국제 학술지 천체물리학저널에 나이 1천600만 년짜리 어린 별인 J1407을 공전하는 행성 J1407b 주위에 30개가 넘는 고리가 있다는 사실을 찾아냈다고 발표했어. 이 모행성 J1407b는 크기가 목성의 40배 정도에 고리 지름은 무려 1억 2천만 km인 것으로 예상돼.",
+            "turn_id": "BK22008403-5",
+            "utterance_id": "BK22008403.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고리 지름이 억 단위라니 그저 경이로울 따름이네. 혹시 고리 외에 토성의 특이한 점이 또 있다면 하나만 이야기해 줄래?",
+            "turn_id": "BK22008403-6",
+            "utterance_id": "BK22008403.11"
+        },
+        {
+            "reference_date": "2015-08-27",
+            "reference_text": [
+                {
+                    "value": "대표적인 것이 토성 북극에 나타나는 ‘육각형 제트류 구름’이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구가 2개 들어갈 크기의 영역 안에서 제트기류가 초속 100m 속도로 빠르게 회전하고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2008년 덴마크공대 연구팀은 액체를 채운 원통형 용기를 이용해 육각형 구름이 만들어지는 원리를 실험했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "액체를 채운 원통형 용기에 원판을 넣고 전동기로 회전시키자, 회전수에 따라 원통형에 들어있는 액체 표면에 삼각형부터 육각형까지 다양한 다각형 모양이 만들어졌다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토성의 북극도 이와 유사한 구조로 돼 있을 확률이 높다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=7932",
+            "search_query": "토성 육각형 구름 원리",
+            "terminate": false,
+            "text": "응, 그럼 토성 북극 쪽에서 발생하는 육각형 제트류 구름에 관해 이야기해 줄게. 이 육각형 제트류 구름의 크기는 지구가 2개는 들어갈 정도이고, 내부에서는 제트 기류가 초속 100m라는 빠른 속도로 회전 중이야. 덴마크공대 연구팀은 지난 2008년, 원통 형태 용기에 액체를 채워 육각형 모양 구름이 생성되는 원리를 실험했는데, 이 원통 용기에 액체를 채운 다음, 원판을 넣고 전동기로 회전시키니 원통에 들어 있는 액체의 표면에 회전수에 따라 삼각형부터 육각형에 이르기까지 여러 다각형 모양이 생기는 결과를 얻었어. 토성의 북극도 이 실험에서 사용한 조건과 비슷한 구조일 가능성이 높지.",
+            "turn_id": "BK22008403-6",
+            "utterance_id": "BK22008403.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연 상태에서 육각형 모양으로 제트 기류가 나타난다는 게 너무 놀라워. 언젠가 그 내부도 볼 수 있으면 좋겠다. 그건 그렇고, 드라마 주인공이 토성 위성에 살다 보니, 위성에도 관심이 생기는데, 토성에는 위성이 얼마나 있고, 위성들의 전체적인 궤도는 어떻게 돼?",
+            "turn_id": "BK22008403-7",
+            "utterance_id": "BK22008403.13"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "2019년 기준으로 토성은 궤도가 확인된 위성 82개를 거느리고 있으며 이들 중 13개가 지름이 50 킬로미터 이상이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토성의 위성들 중 24개는 규칙 위성으로 토성의 적도면에서 크게 기울어지지 않은 궤도를 순행 공전하고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나머지 58개는 불규칙 위성으로 평균 지름은 4 ~ 213 km에 걸쳐 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들의 궤도는 규칙 위성들보다 토성으로부터 훨씬 먼 곳에 있고 궤도경사각이 크며, 공전 방향은 순행과 역행 천체들이 섞여 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%86%A0%EC%84%B1%EC%9D%98_%EC%9C%84%EC%84%B1",
+            "search_query": "토성 위성",
+            "terminate": false,
+            "text": "2019년을 기준으로 했을 때, 토성에는 궤도가 알려진 위성 82개가 있고, 이 중 13개는 지름이 50킬로미터가 넘어. 82개의 위성 중 24개는 규칙 위성이라고 하는데, 궤도가 토성 적도면을 크게 벗어나지 않고, 순행 공전하지. 나머지 58개는 불규칙 위성이라고 하고, 이 위성들의 지름은 4~213km야. 불규칙 위성은 규칙 위성에 비해 훨씬 먼 궤도에서 토성을 돌고, 궤도 경사각도 커. 공전 방향도 순행인 것과 역행인 것이 섞여 있지.",
+            "turn_id": "BK22008403-7",
+            "utterance_id": "BK22008403.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양계에서 두 번째로 큰 행성답게 위성 수도 장난 아니네. 토성 위성 중에 유명한 걸로 하나만 소개해 줄래?",
+            "turn_id": "BK22008403-8",
+            "utterance_id": "BK22008403.15"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "타이탄(영어: Titan) 또는 티탄은 토성의 위성이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "짙은 대기를 가진 유일한 위성이며, 지구처럼 표면에 안정된 상태로 존재하는 액체가 확인된 최초의 천체이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기 구성이 원시지구와 유사하여 다양한 관심을 받고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 최근 타이탄에서 원시 생명체가 살고 있는 징후가 포착되었다는 것이 새롭게 주장되었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토성탐사선 호이겐스 호가 수집한 자료를 분석한 결과, 수소가 타이탄의 대기에서 하강해 지표면에서 사라지는 모습이 포착됐으며 이는 원시 생명체가 타이탄의 대기를 호흡하고 표면의 물질을 섭취한 결과일 수 있다는 것이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%ED%83%84_(%EC%9C%84%EC%84%B1)",
+            "search_query": "토성 위성 타이탄",
+            "terminate": false,
+            "text": "그럼 타이탄이라는 위성에 관해 이야기해 줄게. 타이탄은 티탄이라고도 하는데, 위성 중에서 유일하게 짙은 대기가 있고, 액체가 지구처럼 안정된 상태로 표면에 존재하는 것으로 최초로 확인된 천체야. 타이탄은 원시지구와 대기 조성이 비슷하다는 점 때문에 많은 관심을 받고 있지. 특히, 타이탄에 원시 생명체가 서식하는 징후가 포착되었다는 주장이 최근 제기됐는데, 토성 탐사선 호이겐스 호에서 얻은 정보를 분석해 보니, 타이탄 대기 중 수소가 아래로 내려가 지표면에서 사라지는 모습이 포착됐거든. 이 현상이 타이탄의 원시 생명체가 표면에 있는 물질을 먹고, 대기를 호흡하는 증거일 수 있다는 거지.",
+            "turn_id": "BK22008403-8",
+            "utterance_id": "BK22008403.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생명체의 증거라니, 얼른 더 확실한 결과가 나오면 좋겠다. 우주에 관한 이야기는 들으면 들을수록 신비로운 것 같아.",
+            "turn_id": "BK22008403-9",
+            "utterance_id": "BK22008403.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 그래서 우주에 관한 공부에 푹 빠져 있지.",
+            "turn_id": "BK22008403-9",
+            "utterance_id": "BK22008403.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 더 공부해서 같이 우주에 관해 더 많은 이야기를 나눠 보고 싶네. 또 궁금한 거 있으면 연락할게.",
+            "turn_id": "BK22008403-10",
+            "utterance_id": "BK22008403.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 언제든 편하게 연락하고 다음에 또 보자.",
+            "turn_id": "BK22008403-10",
+            "utterance_id": "BK22008403.20"
+        }
+    ]
+}

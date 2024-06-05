@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013910",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013910",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 추석이라 보름달이 기대되네요. 최근에 나사에서 발사를 앞둔 아르테미스 달 탐사 계획이 있던데 자세히 알아보고 싶어요. 이 계획의 이름은 어디서 유래했나요?",
+            "turn_id": "BK22013910-1",
+            "utterance_id": "BK22013910.1"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "‘아르테미스’는 그리스 신화에서 달의 여신이자 태양신인 아폴로의 쌍둥이 누이다.",
+                    "value_time": "44810.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최초의 달 탐사 프로그램이었던 ‘아폴로 계획’의 뒤를 잇는다는 뜻에서 붙은 이름이다.",
+                    "value_time": "44810.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25097845#home",
+            "search_query": "아르테미스 계획 이름",
+            "terminate": false,
+            "text": "그리스 신화에 보면 달의 여신이자 태양신 아폴로의 쌍둥이 누이인 아르테미스가 나와요. 최초로 달을 탐사했던 아폴로 계획의 뒤를 잇는다는 점에서 아르테미스라는 이름을 붙였어요.",
+            "turn_id": "BK22013910-1",
+            "utterance_id": "BK22013910.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아르테미스라는 여신의 이름을 따온 또 다른 이유가 있나요?",
+            "turn_id": "BK22013910-2",
+            "utterance_id": "BK22013910.3"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "2025년 최초로 여성 우주인의 달 착륙을 계획하고 있다는 점도 프로그램 이름과 맥락이 닿는다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25097845#home",
+            "search_query": "아르테미스 프로그램",
+            "terminate": false,
+            "text": "2025년 최초로 여성 우주인이 달에 착륙할 예정이기 때문에 이런 이름을 지었어요.",
+            "turn_id": "BK22013910-2",
+            "utterance_id": "BK22013910.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아폴로 계획 이후로 얼마 만에 다시 도전하는 건가요?",
+            "turn_id": "BK22013910-3",
+            "utterance_id": "BK22013910.5"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "나사는 1972년 아폴로 17호의 달 착륙 이후 50년 만에 유인 달 탐사에 도전한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/news-62784695",
+            "search_query": "아르테미스 아폴로",
+            "terminate": false,
+            "text": "나사가 아폴로 17호를 달에 착륙시킨 것은 지난 1972년이에요. 그 후로 50년 만에 유인 탐사로 다시 도전하는 거죠.",
+            "turn_id": "BK22013910-3",
+            "utterance_id": "BK22013910.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아폴로 계획에서 달라진 점이 있다면 뭘까요?",
+            "turn_id": "BK22013910-4",
+            "utterance_id": "BK22013910.7"
+        },
+        {
+            "reference_date": "43769.0",
+            "reference_text": [
+                {
+                    "value": "존 코놀리는 아폴로와 아르테미스 계획의 최대 차이점에 대해 \"원격 제어 로버를 비롯한 조사 장비를 통해 달을 철저히 조사한다는 점\"이라고 밝혔다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=71032",
+            "search_query": "아르테미스 아폴로 차이점",
+            "terminate": false,
+            "text": "존 코놀리에 따르면 아르테미스 계획에서 제일 크게 달라진 점은 원격 제어 로버를 포함한 조사 장비를 통해 달을 철저히 조사한다는 것에 있어요.",
+            "turn_id": "BK22013910-4",
+            "utterance_id": "BK22013910.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 조사 장비에는 어떤 것이 있나요?",
+            "turn_id": "BK22013910-5",
+            "utterance_id": "BK22013910.9"
+        },
+        {
+            "reference_date": "43769.0",
+            "reference_text": [
+                {
+                    "value": "NASA는 아르테미스 계획에 ‘바이퍼(VIPER) 달 탐사선’을 투입할 방침을 발표한바 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달 탐사선은 테슬라 자동차에 장착되는 ‘스마트 서먼(Smart Summon)’처럼 우주 비행사가 호출하면 자율주행을 기반으로 이동해 효율적인 탐사를 할 수 있는 기능이 탑재되어 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=71032",
+            "search_query": "아르테미스 조사장비",
+            "terminate": false,
+            "text": "나사는 아르테미스 계획에 바이퍼라는 달 탐사선을 투입할 예정이에요. 본 탐사선에는 테슬라 자동차에 장착되는 스마트 서먼처럼 우주 비행사가 호출 시 자율주행을 바탕으로 이동해 탐사하는 효율적인 기능이 실려있어요.",
+            "turn_id": "BK22013910-5",
+            "utterance_id": "BK22013910.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바이퍼 탐사선은 어디를 탐사할 예정인가요?",
+            "turn_id": "BK22013910-6",
+            "utterance_id": "BK22013910.11"
+        },
+        {
+            "reference_date": "44466.0",
+            "reference_text": [
+                {
+                    "value": "미국항공우주국(NASA)은 21일(현지시간) 달 남극에 형성된 폭 73km의 거대 충돌구인 노빌레 충돌구 서쪽 지역을 탐사로봇(로버) ‘바이퍼(VIPER)’가 탐색할 지역으로 선정했다고 밝혔다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=49411",
+            "search_query": "아르테미스 바이퍼",
+            "terminate": false,
+            "text": "달 남극에는 폭 73킬로미터의 거대 충돌구인 노빌레 충돌구가 형성돼 있어요. 작년 9월 21일 나사의 발표에 따르면 탐사로봇 바이퍼는 이 충돌구의 서쪽 지역을 탐색할 예정이에요.",
+            "turn_id": "BK22013910-6",
+            "utterance_id": "BK22013910.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달 남극의 노빌레를 탐사하는 특별한 이유가 있나요?",
+            "turn_id": "BK22013910-7",
+            "utterance_id": "BK22013910.13"
+        },
+        {
+            "reference_date": "43769.0",
+            "reference_text": [
+                {
+                    "value": "우주 비행사와 VIPER 달 탐사선이 조사할 지역은 달 남극 근처 영구 음영지역이다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳은 얼음 상태의 물 존재가 확실시되고 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "얼음 존재를 확인하고 채굴 가능성을 입증하는 것이 아르테미스 계획의 주 목적 가운데 하나다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=71032",
+            "search_query": "아르테미스 노빌레",
+            "terminate": false,
+            "text": "달 남극 근처의 영구 음영지역은 얼음 상태의 물이 있을 거라고 확실시되고 있어요. 이곳을 탐색하는 이유는 얼음의 존재를 확인하고 채굴 가능성을 밝히는 것이 이번 아르테미스 계획의 주된 목적 중에 하나기 때문이에요.",
+            "turn_id": "BK22013910-7",
+            "utterance_id": "BK22013910.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달에서 물을 발견하면 어떤 장점이 있나요?",
+            "turn_id": "BK22013910-8",
+            "utterance_id": "BK22013910.15"
+        },
+        {
+            "reference_date": "44466.0",
+            "reference_text": [
+                {
+                    "value": "우주 경제전문가들은 물을 달에서 직접 조달하면 지구에서 달로 보내는 것보다 훨씬 싼 가격에 현지에서 먹을 물과 공기를 얻고 지구나 화성으로 보낼 로켓 연료로 활용할 수 있을 것으로 기대하고 있다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=49411",
+            "search_query": "아르테미스 물",
+            "terminate": false,
+            "text": "우주 경제전문가들에 의하면 물을 달에서 직접 조달하는 경우 지구에서 달에 물을 보내는 것보다 비용이 내려갑니다. 달에서 물을 발견하면 현지에서 필요한 물과 공기를 얻고 지구나 화성으로 로켓을 보낼 때 연료로 사용할 수도 있어요.",
+            "turn_id": "BK22013910-8",
+            "utterance_id": "BK22013910.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "멋진 이야기네요. 그런데 아르테미스의 발사가 미뤄진 이유는 뭔가요?",
+            "turn_id": "BK22013910-9",
+            "utterance_id": "BK22013910.17"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "NASA는 3일(현지시간) 아르테미스 1호를 구성하는 대형 로켓인 ‘우주 발사 시스템’(SLS) 동체에서 연료인 액체수소가 누출되는 사실이 확인돼 발사를 취소했다고 발표했다.",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/science/aerospace/article/202209040125001?www",
+            "search_query": "아르테미스 연기",
+            "terminate": false,
+            "text": "올해 9월 3일 나사의 발표에 따르면 아르테미스 1호를 구성하는 대형 로켓인 우주 발사 시스템 동체에서 연료로 사용하고 있는 액체수소가 누출된 사실이 밝혀졌어요. 그래서 발사를 취소할 수밖에 없었습니다.",
+            "turn_id": "BK22013910-9",
+            "utterance_id": "BK22013910.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 연구진과 관계자들이 애쓰고 있겠네요.",
+            "turn_id": "BK22013910-10",
+            "utterance_id": "BK22013910.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 곧 무사히 발사돼서 새로운 지평을 열어줬으면 좋겠어요.",
+            "turn_id": "BK22013910-10",
+            "utterance_id": "BK22013910.20"
+        }
+    ]
+}

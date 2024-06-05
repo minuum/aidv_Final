@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012951",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012951",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수업 시간에 연안에 대한 설명을 들었는데 잘 이해가 되지 않았어요. 연안이 무엇인지 다시 설명해 주시겠어요?",
+            "turn_id": "BK22012951-1",
+            "utterance_id": "BK22012951.1"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "연안(沿岸) 또는 해안(海岸)은 일반적으로 바다와 육지가 맞닿아 서로 밀접한 영향을 미치는 지역 및 해역을 총칭한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연안은 해변, 갯벌, 만, 삼각주 등 다양한 모습을 보이고 있고, 해양 생물 및 철새 등에는 산란장과 서식지이자, 사람들에게는 항만, 임해공단, 어항 및 어촌, 관광지 등이 되고 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%95%88",
+            "search_query": "연안",
+            "terminate": false,
+            "text": "해안이라고도 불리는 연안은 보통 육지와 바다가 만나 서로 영향을 주는 지역을 말해요. 연안은 갯벌, 해변, 삼각주, 만 등 여러 모습을 가지고 있고, 바다 생물과 철새들에게 서식지와 알을 낳는 장소를 제공하고 있어요. 사람들은 이러한 연안을 임해공단, 어항, 관광지 등 다양한 장소로 활용하고 있지요.",
+            "turn_id": "BK22012951-1",
+            "utterance_id": "BK22012951.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞서 말씀하신 다양한 연안의 모습에 대해 궁금증이 생기네요. 특히 해변이란 단어는 많이 사용하지만 정확한 의미를 모르는데 알려줄 수 있나요?",
+            "turn_id": "BK22012951-2",
+            "utterance_id": "BK22012951.3"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "해변(海邊)은 해안선을 따라 파도와 연안류(沿岸流)가 모래나 자갈을 쌓아올려서 만들어 놓은 퇴적지대로서, 특히 파도의 작용을 크게 받아 형성된다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 해변은 모래로 되어 있으며, 해수욕에 적합하여, 해수욕장이 많이 생겨져 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B3%80",
+            "search_query": "해변",
+            "terminate": false,
+            "text": "해변은 연안류와 파도가 모래나 자갈을 해안선에 따라 쌓아 올려 만든 퇴적지대인데, 주로 파도의 작용을 받아서 생기죠. 해변은 보통 모래로 이루어져 있어 해수욕을 하기 좋아 해수욕장이 많이 분포하고 있어요.",
+            "turn_id": "BK22012951-2",
+            "utterance_id": "BK22012951.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해수욕장으로 놀러 가는 곳들이 대부분 해변이겠군요. 갯벌은 어떤 형태의 모습인가요?",
+            "turn_id": "BK22012951-3",
+            "utterance_id": "BK22012951.5"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "갯벌, 개펄 혹은 뻘(영어: mudflats, mud flats, tidal flats)은 조류나 강에 의해 진흙이 쌓인 해안 습지이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "썰물 때 드러나는 지역만을 가리켜 간석지(干潟地)로 부르기도 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%AF%EB%B2%8C",
+            "search_query": "갯벌",
+            "terminate": false,
+            "text": "갯벌은 뻘이라고도 불리는데 진흙이 쌓인 해안 습지를 말해요. 조류나 강에 의해 진흙이 쌓여 만들어지는데 썰물 때 나타나는 갯벌을 간석지라고 부르죠.",
+            "turn_id": "BK22012951-3",
+            "utterance_id": "BK22012951.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간석지는 밀물 시간을 확인하고 들어가야겠네요. 연안 중에 튀어나온 부분을 부르는 명칭도 있나요?",
+            "turn_id": "BK22012951-4",
+            "utterance_id": "BK22012951.7"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "곶(串, 영어: Cape) 또는 갑(岬), 혹은 단(端)은 바다 또는 호수 쪽으로 튀어나온 모양을 한 육지로, 3면이 물로 둘러싸인 땅을 말한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "곶의 규모가 크면 반도라고 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B6",
+            "search_query": "곶",
+            "terminate": false,
+            "text": "바다나 호수 쪽으로 돌출된 모양을 한 땅은 곶이라고 불러요. 3면이 물로 둘러싸인 땅인데 그 규모가 크면 반도라고 불리죠.",
+            "turn_id": "BK22012951-4",
+            "utterance_id": "BK22012951.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 한반도는 규모가 큰 곶이라고 할 수 있겠네요?",
+            "turn_id": "BK22012951-5",
+            "utterance_id": "BK22012951.9"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "한반도(韓半島, 문화어: 조선반도(朝鮮半島), 영어: Korean peninsula)는 정치지리학적으로 동아시아에 위치해 있으며, 지정학적으로 유라시아 대륙의 동부에 있는 반도이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "삼면이 바다와 맞닿아 있으며 동쪽 바다는 동해, 서쪽 바다는 황해, 남쪽 바다는 남해이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%B0%98%EB%8F%84",
+            "search_query": "한반도",
+            "terminate": false,
+            "text": "그렇죠, 한반도는 지리적으로 유라시아 대륙 동쪽에 있는 반도이니까요. 동쪽에서 동해, 서쪽에서 황해, 남쪽에서 남해로 삼면이 바다와 맞닿아있어요.",
+            "turn_id": "BK22012951-5",
+            "utterance_id": "BK22012951.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 한반도에 있는 작은 곶도 있나요?",
+            "turn_id": "BK22012951-6",
+            "utterance_id": "BK22012951.11"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "간절곶(艮絶串)은 대한민국 울산광역시 울주군 서생면 대송리에 위치한 곶이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1월 1일에 대한민국의 육지 지역에서 해가 가장 먼저 뜨는 장소들 중 하나이다",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%84%EC%A0%88%EA%B3%B6",
+            "search_query": "간절곶",
+            "terminate": false,
+            "text": "그럼요, 울산광역시 울주군 서생면 대송리에 위치한 간절곶이 있어요. 이 지역은 육지에서 1월 1일에 해가 가장 먼저 뜨는 장소 중 하나랍니다.",
+            "turn_id": "BK22012951-6",
+            "utterance_id": "BK22012951.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일출을 보러 가기 좋은 여행지군요. 근데 연안 중에 바다 쪽으로 튀어나온 모양 말고 들어온 모양도 있나요?",
+            "turn_id": "BK22012951-7",
+            "utterance_id": "BK22012951.13"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "만(灣)은 바다, 호수 등의 큰 물이 육지 쪽으로 곧장 굽어 들어온 곳을 말한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바다가 육지 속으로 파고들어 와 있는 곳, 즉 해안선에 의해서 둘러싸인 수역은 해만(海灣)으로도 부른다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%8C",
+            "search_query": "만",
+            "terminate": false,
+            "text": "네, 바다나 호수 같은 큰 물이 육지 쪽으로 들어온 곳인 만이 있어요. 바다가 육지로 파고들어서 해안선에 의해 둘러싸여 있으면 해만이라고 불러요.",
+            "turn_id": "BK22012951-7",
+            "utterance_id": "BK22012951.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 과거 일본 제국이 습격한 진주만도 만인가요?",
+            "turn_id": "BK22012951-8",
+            "utterance_id": "BK22012951.15"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "진주만(한국 한자: 眞珠灣 영어: Pearl Harbor)는 미국 하와이주 오아후섬, 호놀룰루의 서쪽에 위치한 만으로, 미국의 태평양함대 사령부가 여기에 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%A3%BC%EB%A7%8C",
+            "search_query": "진주만",
+            "terminate": false,
+            "text": "맞아요, 진주만은 미국 하와이주 오아후섬 호놀룰루 서쪽에 있는 만이죠.",
+            "turn_id": "BK22012951-8",
+            "utterance_id": "BK22012951.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "군사 전략적으로 중요한 지역이겠네요.",
+            "turn_id": "BK22012951-9",
+            "utterance_id": "BK22012951.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 그나저나 이렇게 다양한 형태를 가진 바다로 언제 한번 놀러 가실래요?",
+            "turn_id": "BK22012951-9",
+            "utterance_id": "BK22012951.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 열심히 설명해주셨는데 안 갈 이유가 없죠.",
+            "turn_id": "BK22012951-10",
+            "utterance_id": "BK22012951.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 날 잡고 바로 떠나봅시다.",
+            "turn_id": "BK22012951-10",
+            "utterance_id": "BK22012951.20"
+        }
+    ]
+}

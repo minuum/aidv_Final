@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011607",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011607",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 듣는 교양과목에서 동물에 관해서 레포트를 하나 작성해오라고 하는데 고래를 쓰려고, 나 범고래 좋아하거든. 근데 범고래에 관한 지식이 하나도 없어서 너한테 도움 좀 얻으려고 하는데 괜찮지?",
+            "turn_id": "BK22011607-1",
+            "utterance_id": "BK22011607.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 물론이지. 특히 범고래 나도 너무 좋아해. 궁금한 거 있으면 무엇이든 물어봐.",
+            "turn_id": "BK22011607-1",
+            "utterance_id": "BK22011607.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 일단 범고래는 고래 중에서 어떤 과에 속해?",
+            "turn_id": "BK22011607-2",
+            "utterance_id": "BK22011607.3"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "범고래(학명: Orcinus orca, 영어: killer whale 또는 orca[2])는 참돌고래과에 속하는 고래 중 큰 종이자, 극지방에서 열대지방에 이르기까지 널리 발견되는 이빨고래이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래",
+            "terminate": false,
+            "text": "범고래는 참돌고래과에 속하는 고래 중 하나이면서 거기서 제일 큰 고래라고 할 수 있어. 극지방에서 열대지방까지 고르게 발견되는 이빨 고래야.",
+            "turn_id": "BK22011607-2",
+            "utterance_id": "BK22011607.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참돌고래과에 속하는구나. 범고래는 비이주성과 이주성의 종류로 나뉠 수 있다는 거는 아는데 각각의 특성은 잘 몰라. 혹시 설명해줄 수 있어?",
+            "turn_id": "BK22011607-3",
+            "utterance_id": "BK22011607.5"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "비이주성: 북동아메리카 해안에서 흔히 관찰되는 종류이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주식은 물고기와 오징어 등이며 무리 안에서는 복잡하고 연대 깊은 가족 관계를 형성한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종종 거대한 모계 사회를 이루며 서로 독특한 방언의 노래를 이용한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "비이주성 범고래",
+            "terminate": false,
+            "text": "그럼. 비이주성같은 경우는 북동 아메리카 해안에서 자주 볼 수 있는 종류야. 먹이는 보통 물고기와 오징어이고 무리를 지어 생활하는데 복잡하고 연대 깊은 가족 관계를 형성하지. 무리는 모계사회를 이루고 있고 ,고래는 노래하는 거는 알고 있지? 비이주성 범고래도 서로 독특한 방언의 노래를 불러.",
+            "turn_id": "BK22011607-3",
+            "utterance_id": "BK22011607.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 신기하다. 바다사자나 이런 거 안 먹고 물고기랑 오징어를 먹네?",
+            "turn_id": "BK22011607-4",
+            "utterance_id": "BK22011607.7"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "이주성: 이들의 주식은 대부분이 다른 해양 포유류이며 물고기는 먹지 않는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알래스카주 남부에서는 2마리에서 6마리로 구성되는 작은 무리를 이룬다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비이주성 무리와 달리 가족끼리 언제나 몰려다니지는 않는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들의 구성원 숫자는 적고 유대감이 덜하며 노래의 방언도 대체로 덜 복잡한 편이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "이주성 범고래",
+            "terminate": false,
+            "text": "다른 해양포유류를 먹는 범고래는 이주성 범고래로, 물고기는 먹지 않아. 알래스카주 남부에서 주로 생활하며 2마리에서 6마리로 구성되는 작은 무리를 이루면서 살아가지. 비이주성 무리와 달리 가족끼리 항상 몰려다니지 않아. 그래서 그런지 구성하는 마리 숫자가 적고 유대감도 확실히 덜하지. 노래의 방언도 대체로 덜 복잡하고.",
+            "turn_id": "BK22011607-4",
+            "utterance_id": "BK22011607.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이주성 범고래와 비이주성 범고래가 같은 범고래에 속하는데도 차이가 크다. 보통 범고래는 외관상 어떻게 생겼어?",
+            "turn_id": "BK22011607-5",
+            "utterance_id": "BK22011607.9"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "범고래는 까만 등, 하얀 가슴과 옆, 그리고 눈 주위에 있는 흰 무늬로 구분한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "갓난 새끼는 약간 노란색 또는 주황색 색조로 태어나 흰색으로 바뀐다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래 외모",
+            "terminate": false,
+            "text": "보통 까만 등과 대조적으로 가슴과 옆은 하얀색이야. 그리고 눈 주위에 있는 흰 무늬를 보고 범고래로 구분하지. 아직 다 자라지 않은 새끼 같은 경우는 약간 노란 색이거나 주황색을 띠기도 하는데 나중에 흰색으로 바뀌어.",
+            "turn_id": "BK22011607-5",
+            "utterance_id": "BK22011607.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아기 범고래 같은 경우는 노란색을 띠기도 하는구나. 범고래도 자라면 엄청나게 크잖아. 보통 다 자란 범고래의 크기와 몸무게는 어느 정도라고 볼 수 있어?",
+            "turn_id": "BK22011607-6",
+            "utterance_id": "BK22011607.11"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "수컷의 몸길이는 6~8m 정도이며, 무게는 최대 7톤 정도 나가나, 사람에게 생포된 최대 크기의 개체의 경우 무게가 10톤에 육박했다고 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷은 수컷보다 작으며 몸길이 5~7m 정도이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸무게는 3~4톤 정도 나간다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래 크기",
+            "terminate": false,
+            "text": "수컷의 경우는 몸길이가 6에서 8미터 정도 돼. 무게는 최대 7톤 정도 나가는데 사람에게 잡힌 최대 크기의 범고래는 무게가 10톤 정도 육박했었어. 암컷 범고래의 경우 수컷보다는 작은데 몸길이는 5에서 7미터 정도, 몸무게는 3에서 4톤 정도 나간다고 보면 돼.",
+            "turn_id": "BK22011607-6",
+            "utterance_id": "BK22011607.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 근데 이렇게 크고 무거운데 어떻게 그렇게 빨리 움직이지? 범고래 사냥하는 영상 봤었는데 엄청나게 빨리 움직였거든.",
+            "turn_id": "BK22011607-7",
+            "utterance_id": "BK22011607.13"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "범고래가 빨리 이동할 수 있는 것은 유선형 몸체와 상당히 큰 몸집 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최고 이동 속도는 시속 56킬로미터에 이르지만, 이 속도로는 아주 짧은 시간(몇 분 정도)만 헤엄칠 수 있는 한계도 지니고 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래 속도",
+            "terminate": false,
+            "text": "범고래가 빨리 이동할 수 있는 이유는 몸체가 유선형으로 생겼고 크기 때문이야. 최고 이동속도가 시속 56킬로미터에 이를 정도로 빠르긴 한데 이 속도로 움직일 수 있는 건 몇 분 정도밖에 안 되기 때문에 오랫동안 빠른 속도로 헤엄칠 수는 없어.",
+            "turn_id": "BK22011607-7",
+            "utterance_id": "BK22011607.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 계속 빠르게 헤엄치는 건 아니구나. 고래들이 보통 다른 동물들과 다르게 새끼를 되게 적게 낳잖아. 범고래도 그래?",
+            "turn_id": "BK22011607-8",
+            "utterance_id": "BK22011607.15"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "암컷은 보통 5년마다 한 마리의 새끼를 낳는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "갓난 새끼의 생존률은 매우 낮으며, 한 살이 되기 전까지 절반이 생명을 이어가지 못한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷은 대체로 40살까지 새끼를 낳으며, 그동안 평균 5마리의 자식을 둔다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래 출산",
+            "terminate": false,
+            "text": "범고래도 적게 낳지. 보통 5년마다 한 마리를 낳는다고 보면 돼. 그리고 아기 범고래의 생존율도 매우 낮고, 한 살이 되기 전까지 절반이 생명을 이어 나가지 못해. 암컷의 경우 대체로 40살까지 새끼를 낳는데 그래서 암컷의 범고래는 사는 동안 평균 5마리의 자식을 두지.",
+            "turn_id": "BK22011607-8",
+            "utterance_id": "BK22011607.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 사람이랑 비슷하네. 5년마다 한 마리 낳는 거면 진짜 적게 낳는 건데. 범고래 평균 수명이 보통 어떻게 되는 거야?",
+            "turn_id": "BK22011607-9",
+            "utterance_id": "BK22011607.17"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "암컷의 평균 수명은 50살이지만, 70~80살까지 살 경우도 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 암컷만큼 오래 살지는 않는데, 평균 수명이 30년이며, 길어봤자 50~60년 정도이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사육되는 범고래의 수명은 훨씬 짧아서 보통 25년 이내이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EA%B3%A0%EB%9E%98",
+            "search_query": "범고래 수명",
+            "terminate": false,
+            "text": "암컷의 경우 평균 수명은 50살이야. 근데 70에서 80까지 사는 경우도 꽤 있고. 수컷 같은 경우는 암컷보다 적게 사는데 평균 수명은 30년 정도로 보며 길어도 50에서 60년 정도야. 사육되는 범고래의 수명은 비교되게 짧은데 25년 이내라고 생각하면 돼.",
+            "turn_id": "BK22011607-9",
+            "utterance_id": "BK22011607.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기한 게 사람이랑 비슷한점이 꽤 있는 것 같아. 오늘 범고래 정보 많이 알려줘서 고마워. 덕분에 레포트 잘 쓸 수 있을 것 같아.",
+            "turn_id": "BK22011607-10",
+            "utterance_id": "BK22011607.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 다행이다. 나 바빠서 이만 먼저 가봐야 할 것 같아. 나중에 도움이 더 필요하면 연락해. 조심히 가고 나중에 보자!",
+            "turn_id": "BK22011607-10",
+            "utterance_id": "BK22011607.20"
+        }
+    ]
+}

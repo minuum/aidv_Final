@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008658",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008658",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 마리아나 해구를 탐험하는 학술 저널을 보다가 궁금해진 건데, 마리아나 해구는 대체 얼마나 깊어?",
+            "turn_id": "BK22008658-1",
+            "utterance_id": "BK22008658.1"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "마리아나 해구(영어: Mariana Trench, 문화어: 마리아나 바다홈)는 지구에서 가장 깊은 해구로, 지구의 지각 표면 위에서 가장 깊은 위치에 있는 대양이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재까지 알려진 지구 상에서 가장 깊은 지점인 챌린저 해연(Challenger Deep)이 있으며 챌린저 해연의 최대 깊이는 10,929m이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC%EC%95%84%EB%82%98_%ED%95%B4%EA%B5%AC",
+            "search_query": "마리아나 해구",
+            "terminate": false,
+            "text": "마리아나 해구는 지표면을 기준으로 가장 깊은 곳에 있는 바다이자, 지구상에서 가장 깊은 해구야. 최대 깊이 10,929m로, 지구상에서 제일 깊은 곳이라고 알려진 챌린저 해연이 바로 이 마리아나 해구에 있지.",
+            "turn_id": "BK22008658-1",
+            "utterance_id": "BK22008658.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가늠이 안 될 정도로 깊은걸. 그런데 해구가 뭐야? 지구상에 해구라는 곳이 마리아나 해구 외에도 더 있어?",
+            "turn_id": "BK22008658-2",
+            "utterance_id": "BK22008658.3"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "해구(海溝, 문화어: 바다홈, trench)는 대륙사면과 심해저의 경계를 따라 형성된 수심이 6000~11000m인 V 자형의 깊은 골짜기로 해양에서 가장 깊은 곳이며 대양의 중심이 아닌 대륙 주변에 위치하며 주변에서 지진과 화산이 많이 발생한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 지구상에는 해구라고 불리는 곳이 28군데 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중에 20개 가량은 태평양에 있고, 그 대다수가 서태평양에 분포하고 있어서, 해구는 서태평양을 특징짓는 해저지형이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B4%EA%B5%AC",
+            "search_query": "해구",
+            "terminate": false,
+            "text": "일단 해구에 대해 먼저 설명하자면, 해구는 심해저와 대륙사면의 경계를 따라 만들어진 지형인데, 수심이 6000~11000m로 움푹 파인 골짜기 형태야. 해구는 바다에서 제일 깊은 곳에 속하는데, 대륙 인근에 있고, 해구 근처에서는 화산과 지진이 자주 일어나. 그리고 해구는 마리아나 해구 외에도 더 있어. 총 28군데 있는데, 그중 태평양에 20개 정도가 존재하고, 그 대부분은 서태평양에 있어서 해구는 서태평양 해저 지형의 특징이기도 해.",
+            "turn_id": "BK22008658-2",
+            "utterance_id": "BK22008658.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 깊은 장소가 그렇게나 많다니 자연은 역시 놀라워. 그런데 그 마리아나 해구 말이야, 어떻게 만들어진 거야?",
+            "turn_id": "BK22008658-3",
+            "utterance_id": "BK22008658.5"
+        },
+        {
+            "reference_date": "2019-06-01",
+            "reference_text": [
+                {
+                    "value": "지구에서 가장 깊은 마리아나 해구가 만들어진 것은 지구의 지각(地殼) 이동 때문입니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "판구조론에서 설명하듯 여러 개의 판으로 나뉜 지구의 여러 지각은 맨틀 위에 떠 있고, 천천히 이동하고 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마리아나 해구에서는 1억8000만 년 전에 형성된 태평양판이 그 뒤에 만들어진 필리핀판 아래로 끼어드는, 이른바 섭입(攝入, subduction) 현상이 일어나고 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1년에 수㎝씩 진행되는 그 섭입으로 인해 일부 필리핀판도 태평양판과 함께 아래로 딸려 들어가면서 수직 절벽이 생겼고, 깊은 해구도 만들어졌습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23485603#home",
+            "search_query": "해구 생성 원인",
+            "terminate": false,
+            "text": "마리아나 해구가 만들어진 원인은 지구의 지각 이동 현상이야. 판구조론에서 따르면, 지각은 여러 판으로 나뉜 상태로 맨틀 위에 떠 있고, 동시에 느린 속도로 이동 중인데, 마리아나 해구에서는 1억 8천만 년 전에 만들어진 태평양판이 그 이후 시기에 형성된 필리핀판 아랫부분으로 파고들고 있지. 이런 현상을 섭입 현상이라고 해. 섭입은 1년에 수 센티미터 정도씩 진행되는데, 이러한 섭입 때문에 필리핀판 또한 태평양판과 같이 아래쪽으로 딸려 내려가면서 수직 절벽과 깊은 해구가 생겨난 거야.",
+            "turn_id": "BK22008658-3",
+            "utterance_id": "BK22008658.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "판의 움직임 때문에 그런 엄청난 해저 지형이 생겨나는 거구나. 이번에는 마리아나 해구 외에 다른 해구를 하나 더 소개해 줄래?",
+            "turn_id": "BK22008658-4",
+            "utterance_id": "BK22008658.7"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "일본 해구(일본어: 日本海溝 니혼카이코[*])는 동일본 앞바다의 태평양 밑바닥에 해안선에 거의 병행하여 존재하는 해구이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태평양 판이 서쪽 방향으로 이동하고 유라시아 판 또는 오호츠크판 밑으로 가라앉는 장소에 형성되고 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북쪽은 홋카이도의 에리모 곶 앞바다에서 크게 동쪽으로 구부러져서 쿠릴-캄차카 해구에 연결되고 남쪽은 보소 반도 앞바다에서 다소 동쪽으로 구부러져 이즈-오가사와라 해구와 연결된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%ED%95%B4%EA%B5%AC",
+            "search_query": "일본 해구",
+            "terminate": false,
+            "text": "일본 해구에 관해 이야기해 줄게. 일본 해구는 동일본 바다 앞쪽 태평양 아래에 해안선과 거의 나란히 나 있는 해구야. 서쪽 방향으로 움직이는 태평양 판이 오호츠크판과 유라시아판 아래로 가라앉으면서 만들어지고 있지. 일본 해구의 북쪽은 홋카이도에 있는 에리모 곶 앞바다부터 동쪽 방향으로 크게 휘어서 쿠릴-캄차카 해구랑 이어지고, 남쪽 부분은 보소 반도 앞쪽 바다에서 약간 동쪽 방향으로 휘어져 이즈-오가사와라 해구와 이어지지.",
+            "turn_id": "BK22008658-4",
+            "utterance_id": "BK22008658.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본 열도의 해안선에 거의 나란히 나 있어서 일본 해구라고 불리나 보구나. 해구의 깊이를 생각하다가 갑자기 궁금해진 건데, 심해의 기준은 어디부터야?",
+            "turn_id": "BK22008658-5",
+            "utterance_id": "BK22008658.9"
+        },
+        {
+            "reference_date": "2020-05-29",
+            "reference_text": [
+                {
+                    "value": "바다를 깊이로 구분하면 크게 ‘천해’와 ‘심해’로 나눌 수 있어요.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대개 해안으로부터 수심 200m* 부분까지는 얕은 바다, 천해(淺海)라고 부르는데요.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "*생물학에서는 수심 200m 이하를 심해라고 부르고, 해양학에서는 수심 2,000m 이하를 심해로 규정하고 있어요.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=33031",
+            "search_query": "바다 수심 구분",
+            "terminate": false,
+            "text": "바다를 깊이에 따라 나누면 크게 천해와 심해로 구분할 수 있어. 천해는 얕은 바다를 가리키는데, 생물학에서는 수심 200 이하를 심해, 수심 200m까지는 천해라고 부르고, 해양학 기준으로는 수심 2,000m 이하를 심해라고 해.",
+            "turn_id": "BK22008658-5",
+            "utterance_id": "BK22008658.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학문 분야에 따라 심해를 나누는 기준이 다르구나. 그럼 그런 심해에 사는 생물에는 어떤 특징들이 있을까?",
+            "turn_id": "BK22008658-6",
+            "utterance_id": "BK22008658.11"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "모든 심해 생물에 해당하는 것은 아니지만 대체로 공통된 특징은 이렇다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "큰 눈과 어두운 계열의 색 그리고 먹이 사냥이나 번식을 위한 발광 기관의 유무, 소량의 근육, 일반적인 동물들과 다른 소화기관을 가지고 있다는 점이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 특징을 가지고 있는 심해 생물들은 예를 들어 심해 아귀, 풍선 장어, 배럴아이, 세발치, 덤보문어, 바이퍼 피쉬 등이 있다.3",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.goeonair.com/news/article.html?no=26680",
+            "search_query": "심해 생물 특징",
+            "terminate": false,
+            "text": "심해에 사는 생물 전부 그런 건 아니지만, 전반적인 공통점으로는 색이 어두운 계열이라는 점, 눈이 크다는 점, 번식이나 사냥을 위한 발광 기관이 달린 점, 근육이 적다는 점, 소화 기관이 다른 일반적인 동물과 다르다는 점을 들 수 있어. 그리고 이런 특징을 지닌 심해 생물에는 풍선 장어, 배럴 아이, 덤보문어, 세발치, 바이퍼 피쉬, 심해 아귀 등이 있지.",
+            "turn_id": "BK22008658-6",
+            "utterance_id": "BK22008658.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사는 환경이 심해라서 그런지 확실히 다양한 특징들이 눈에 띄네. 아귀는 아무래도 익숙한 이름인데, 심해 아귀의 독특한 점으로는 어떤 게 있을까?",
+            "turn_id": "BK22008658-7",
+            "utterance_id": "BK22008658.13"
+        },
+        {
+            "reference_date": "2020-08-13",
+            "reference_text": [
+                {
+                    "value": "캄캄한 깊은 바다에서 지느러미 일부가 변한 살덩이를 낚싯대처럼 드리워 사냥하는 심해 아귀 일부는 상상을 초월하는 방식으로 번식한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "왜소한 수컷이 독립성을 포기하고 암컷의 일부가 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸길이가 고작 6∼10㎜인 수컷은 자신보다 60배까지 큰 암컷을 만나면 배를 물어 상처를 낸 뒤 결합해 피부와 혈관까지 융합한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "필요 없어진 눈, 지느러미, 내장은 차츰 사라지고 아가미와 정자 주머니만 남은 수컷은 독립된 물고기라기보다 암컷이 산란할 때 정자를 공급할 뿐 평소에는 암컷의 영양분으로 살아가는 기생충처럼 바뀐다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/ecology_evolution/956000.html",
+            "search_query": "심해 아귀",
+            "terminate": false,
+            "text": "번식 방법이 독특한데, 일부 심해 아귀는 상상을 넘어서는 방법으로 번식하거든. 왜소한 몸집의 수컷이 독립성을 버리고 암컷의 일부가 되는 방식이지. 수컷은 몸길이가 겨우 6~10mm 정도밖에 안 되는데, 암컷은 수컷보다 60배는 커. 그리고 수컷이 암컷을 만나면 배 부분을 물어뜯어 상처를 낸 다음 몸을 결합한 뒤 혈관과 피부까지 합쳐 버려. 이후 쓸모없어진 지느러미나 눈, 내장은 점점 없어지고 수컷에게는 정자 주머니와 아가미만 남는데, 이제는 하나의 독립된 물고기라기보다는 암컷이 알을 낳을 때 정자만 공급하고 평소에는 암컷의 영양소로 생존하는 기생충처럼 변하게 되는 거지.",
+            "turn_id": "BK22008658-7",
+            "utterance_id": "BK22008658.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심해의 환경이 얼마나 가혹했으면 그렇게 진화했을까 싶네. 그나저나, 심해는 아무래도 깊은 바닷속이니까 인간에 의해 오염되지 않았겠지?",
+            "turn_id": "BK22008658-8",
+            "utterance_id": "BK22008658.15"
+        },
+        {
+            "reference_date": "2017-03-12",
+            "reference_text": [
+                {
+                    "value": "영국 뉴캐슬대 해양과학및기술대 앨런 제이미슨 박사팀이 태평양 마리아나 해구 10km 해저에서 무인 잠수정으로 단각류(갑각류의 일종)를 채취해 독성화학물질 농도를 검사한 결과, 중국의 오염된 강에서 잡은 게보다 수치가 50배 높게 나타났다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구팀이 검출한 잔류성유기오염물질(POPs)은 냉각수와 단열물질에 사용하던 물질로 1970년대에 이미 사용이 금지됐다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구팀은 이 물질이 죽은 동물이나 플라스틱 쓰레기에 붙어 흘러들어 심해를 오염시켰을 거라고 추정했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=16923",
+            "search_query": "심해 오염",
+            "terminate": false,
+            "text": "아니, 영국 뉴캐슬대학교 해양과학및기술대의 앨런 제이미슨 박사팀이 무인 잠수정을 이용해 태평양 마리아나 해구 해저 10km에서 단각류를 채취한 뒤 확인해 봤더니, 중국에 있는 오염된 강에서 채취한 게보다 독성 화학 물질 수치가 50배 높았어. 연구팀이 찾은 잔류성유기오염물질은 단열재와 냉각수에 쓰이던 물질인데, 1970년대에 이미 사용 금지된 거였어. 그래서 연구팀은 아마도 플라스틱 쓰레기나 동물 사체에 묻은 오염 물질이 심해로 흘러 들어가 오염이 일어났을 것이라고 추측했지.",
+            "turn_id": "BK22008658-8",
+            "utterance_id": "BK22008658.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 깊은 바닷속까지 오염이 일어났다니 그저 안타까울 따름이네. 물론 그거랑은 별개로 심해에 대해 알아가는 건 너무 재미있는 것 같아. 신기한 것 투성이고 말이야.",
+            "turn_id": "BK22008658-9",
+            "utterance_id": "BK22008658.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그런 신기하고 독특한 점 때문에 심해에 푹 빠져 있지.",
+            "turn_id": "BK22008658-9",
+            "utterance_id": "BK22008658.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 저널도 다 봤겠다, 나는 도서관에 들러서 심해를 주제로 한 논문 같은 게 있나 찾아봐야겠다. 가 볼게.",
+            "turn_id": "BK22008658-10",
+            "utterance_id": "BK22008658.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 책 추천받고 싶으면 언제든 말하고, 잘 다녀와. 다음에 보자.",
+            "turn_id": "BK22008658-10",
+            "utterance_id": "BK22008658.20"
+        }
+    ]
+}

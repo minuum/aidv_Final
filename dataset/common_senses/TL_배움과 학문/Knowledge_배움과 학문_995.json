@@ -1,0 +1,392 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006505",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006505",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제는 바람이 불어 시원했다가 오늘은 또 덥네. 생각해보면 우리에게 가장 익숙한 것이 날씨인데 관련에 대한 정보를 하나도 모르네. 날씨에 대해서 가르쳐 줄래?",
+            "turn_id": "BK22006505-1",
+            "utterance_id": "BK22006505.1"
+        },
+        {
+            "reference_date": "2022-04-16",
+            "reference_text": [
+                {
+                    "value": "기상(氣象)은 강수, 바람, 구름 등 대기 중에서 일어나는 각종 물리적인 현상을 통틀어 이르는 말이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기 현상과는 달리 태풍, 구름 등의 대규모 현상도 포함한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'날씨'(문화어: 날거리, 일세)나 '일기'(日氣)와 같은 의미로 쓰이기도 하나, 날씨 또는 일기(日氣)는 그날그날의 기상 상태를 일컫는 말로, 엄밀히 말하면 다른 의미이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%83%81",
+            "search_query": "기상",
+            "terminate": false,
+            "text": "그렇다면 기상에 대해서 알아야 해. 날씨 또는 일기는 그날그날의 기상 상태를 가리키는 말이야. 기상과는 엄밀히 말하면 다른 의미지. 기상은 강수, 바람, 구름 등 대기 중에서 일어나는 각종 물리적인 현상을 통틀어 서 말하는 거야. 대기 현상과는 다르게 태풍, 구름 같은 대규모 현상도 포함해.",
+            "turn_id": "BK22006505-1",
+            "utterance_id": "BK22006505.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 기상청이라고 하는구나. 대기에서 어떤 현상이 일어나는 것인지 알고 싶은데 바람의 원리에 대해 먼저 설명해줄래?",
+            "turn_id": "BK22006505-2",
+            "utterance_id": "BK22006505.3"
+        },
+        {
+            "reference_date": "2016-12-14",
+            "reference_text": [
+                {
+                    "value": "시원함을 가져다 주는 바람은 어딘가로부터 불어오는 것이 아니라 기압이 높은 곳에서 낮은 곳으로 공기가 이동하는 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흔히 이야기하는 고기압에서 저기압으로 공기가 이동하는 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=201612131701359210234",
+            "search_query": "바람의 원리",
+            "terminate": false,
+            "text": "바람은 어딘가로부터 불어오는 것이 아니라 기압이 높은 곳에서 낮은 곳으로 공기가 이동하는 걸 말해. 흔히 이야기하는 고기압에서 저기압으로 공기가 이동하는 것이지.",
+            "turn_id": "BK22006505-2",
+            "utterance_id": "BK22006505.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바람이 공기의 움직임이니까 물리적인 현상이라 하는 것이구나. 그럼 구름은 무엇으로 만들어져?",
+            "turn_id": "BK22006505-3",
+            "utterance_id": "BK22006505.5"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "지구상의 구름은 대부분 수증기로부터 생성된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알갱이들의 반지름은 주로 약 0.02~0.05mm로 되어 있으며 수십억 개의 작은 물방울들이 모이면 구름으로서 관측할 수 있게 된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%A6%84",
+            "search_query": "구름",
+            "terminate": false,
+            "text": "지구의 구름은 거의 수증기로부터 만들어져. 알갱이들의 반지름은 주로 약 0.02~0.05mm로 되어 있고 수십억 개의 작은 물방울들이 모이면 구름으로서 관측할 수 있게 되는 거지.",
+            "turn_id": "BK22006505-3",
+            "utterance_id": "BK22006505.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구름이 물방울로 이루어져 있을 줄이야. 그럼 구름이 만들어지는 원리는 뭐야?",
+            "turn_id": "BK22006505-4",
+            "utterance_id": "BK22006505.7"
+        },
+        {
+            "reference_date": "2017-06-14",
+            "reference_text": [
+                {
+                    "value": "구름이 만들어지는 핵심 원리는 공기의 상승이에요.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 예로 지표면의 일부가 가열되면 근처의 공기가 열을 받아 부피가 늘어나면서 가벼워져요.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그럼 위로 올라가지요.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 높이 올라간 공기는 온도가 떨어져요.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러면 기체였던 수증기들이 응결해서 물방울이나 얼음 알갱이로 변하죠.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=18496",
+            "search_query": "구름 원리",
+            "terminate": false,
+            "text": "구름이 만들어지는 핵심 원리는 공기의 상승이야. 예를 들어 지표면의 일부가 가열되면 근처의 공기가 열을 받고 부피가 늘어나 가벼워져 위로 올라가게 되는데, 여기서 높이 올라간 공기는 온도가 떨어지고 기체였던 수증기들은 응결해서 물방울이나 얼음 알갱이가 되는 거야.",
+            "turn_id": "BK22006505-4",
+            "utterance_id": "BK22006505.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구름의 원리를 들으니까 비의 원리도 알겠어. 구름에 수증기가 자꾸 모여들면 구름이 무거워져 비가 내리게 되는 거 맞지? 그런데 태풍은 짐작이 안 가는데 태풍은 어떤 건지도 설명해 줄래?",
+            "turn_id": "BK22006505-5",
+            "utterance_id": "BK22006505.9"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "태풍(한국 한자: 颱風, 영어: typhoon, 중국어 간체자: 台风) 또는 열대폭풍(熱帶暴風, TS: tropical storm)은 열대 해상에서 발생한 열대저기압이 발달하여, 중심 부근의 최대 풍속이 17.2m/s 이상의 강한 폭풍우를 동반한 국지적 기상 현상을 말한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D",
+            "search_query": "태풍",
+            "terminate": false,
+            "text": "오, 맞게 이해했네. 태풍은 열대 폭풍이라고도 해. 열대 해상에서 발생한 열대저기압이 발달해서 중심 부근의 최대 풍속이 17.2m/s 이상이고 폭풍우를 동반하는 국지적 기상 현상을 말해.",
+            "turn_id": "BK22006505-5",
+            "utterance_id": "BK22006505.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최대 풍속이 엄청난걸? 근데 미국에서 일어나는 허리케인도 태풍과 같은 것일까?",
+            "turn_id": "BK22006505-6",
+            "utterance_id": "BK22006505.11"
+        },
+        {
+            "reference_date": "2020-08-29",
+            "reference_text": [
+                {
+                    "value": "허리케인과 태풍은 모두 강한 열대성 저기압으로 같은 기상 현상이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "싸이클론도 마찬가지다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북서태평양 근해에서 발생하는 것을 태풍 이라고 부르고 대서양·북태평양 동부에서 발생하면 허리케인, 인도양에서 발생하면 사이클론이라고 부른다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200829165808775",
+            "search_query": "태풍 허리케인",
+            "terminate": false,
+            "text": "허리케인과 태풍은 모두 강한 열대성 저기압으로 같은 기상 현상이야. 참고로 사이클론도 마찬가지지. 정리하자면 북서 태평양 근해에서 발생하는 것을 태풍, 대서양과 북태평양 동부에서 발생하면 허리케인, 인도양에서 발생하면 사이클론이라고 하는 거지.",
+            "turn_id": "BK22006505-6",
+            "utterance_id": "BK22006505.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 곳곳에서 태풍이 일어나고 있는 거네. 이런 태풍은 발생하는 이유가 도대체 뭐야?",
+            "turn_id": "BK22006505-7",
+            "utterance_id": "BK22006505.13"
+        },
+        {
+            "reference_date": "2020-08-30",
+            "reference_text": [
+                {
+                    "value": "태풍(颱風)은 글자 그대로 큰 바람인데, 태풍이 생기는 근원적인 세 가지의 힘이 있습니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양에서 공급되는 열에너지, 중력에 의한 대기압, 하루 한 번의 지구 자전운동 입니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양의 에너지를 바닷물이 흡수하여 수증기가 만들어져 대기 상층으로 상승하고, 대기 상층의 낮은 온도에서 응결하면서 잠열을 방출하여 상층의 공기를 가열하여 팽창된 가벼워진 공기는 무게가 적은 저기압의 공기기둥을 형성해서 그 기둥의 하부에서 상대적으로 압력이 높은 주변의 공기가 저기압 기둥으로 몰려들면서 바람을 만듭니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 바람이 지구의 자전에 의해서 반시계방향의 소용돌이 바람을 일으켜 깔대기 같은 수직 소용돌이를 만들어 수증기를 점점 더 많이 빨아 올리게 되고, 이 현상이 반복하면서 성장한 저기압 기둥이 초속 17m/s 이상의 소용돌이 바람으로 강해진 것을 태풍이라고 정의합니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.safety1st.news/news/articleView.html?idxno=261",
+            "search_query": "태풍의 원리",
+            "terminate": false,
+            "text": "이유에는 태양에서 공급되는 열에너지, 중력에 의한 대기압, 하루 한 번의 지구 자전운동, 이렇게 근원적인 세 가지 힘이 있어. 바닷물이 태양에너지를 흡수해서 수증기가 만들어지고, 수증기가 대기 상층으로 상승하면 대기 상층의 낮은 온도에서 응결되고 잠열이 방출돼. 상층의 공기가 가열되면 팽창되어 공기는 가벼워지는데, 무게가 적은 저기압의 공기 기둥이 만들어지면서 그 기둥의 하부에 상대적으로 높은 압력의 주변 공기가 저기압 기둥으로 몰려들어 바람이 발생하지. 이 바람은 지구의 자전 때문에 반시계방향의 소용돌이 바람을 발생시키는데, 이때 깔대기 같은 수직 소용돌이가 만들어져 수증기를 더 많이 흡수하게 되고 이 현상이 반복하면서 저기압 기둥이 성장해 초속 17m/s 이상의 소용돌이 바람으로 강해지는 거지. 이런 걸 태풍이라고 말하는 거고.",
+            "turn_id": "BK22006505-7",
+            "utterance_id": "BK22006505.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "더운 여름날 일수록 왜 태풍이 자주 발생하는지도 알 것 같아. 그런데 뜨거운 날에 수증기가 많이 발생할 텐데 왜 가뭄이 생기는 거지? 최근 가뭄이 심각한 것이 이상해.",
+            "turn_id": "BK22006505-8",
+            "utterance_id": "BK22006505.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "기후 과학자들은 올 들어 기록적인 가뭄을 겪는 이유 중 하나로 열대 중동 태평양 지역에서 발생한 '라니냐 현상'을 꼽고 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=54872",
+            "search_query": "가뭄의 원인",
+            "terminate": false,
+            "text": "기후 과학자들이 올해 들어 기록적인 가뭄을 겪는 이유 중 하나로 열대 중동 태평양 지역에서 발생한 라니냐 현상을 지목하고 있어.",
+            "turn_id": "BK22006505-8",
+            "utterance_id": "BK22006505.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름 참 특이하네, 이 라니냐 현상은 어떤 거고 날씨에 어떤 영향을 주는 거야?",
+            "turn_id": "BK22006505-9",
+            "utterance_id": "BK22006505.17"
+        },
+        {
+            "reference_date": "2021-11-03",
+            "reference_text": [
+                {
+                    "value": "라니냐(La Nina)는 스페인어로 ‘여자아이’라는 뜻으로, 동태평양의 월평균 해수면 온도가 평소보다 0.5℃ 이상 낮은 상태가 최소 5개월 이상 지속될 때 선포된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동태평양의 해수면 온도가 떨어지면 서태평양의 대기순환이 바뀌어 두 태평양 인근 지역에 심각한 기상이변이 발생한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1970년대 이후 발생한 라니냐를 통계적으로 분석해보면 우리나라 여름철은 더운 편이었고, 9월에 비가 많이 왔으며 겨울은 강추위가 찾아왔다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=18238",
+            "search_query": "라니냐",
+            "terminate": false,
+            "text": "스페인어로 여자아이라는 뜻인 라니냐는 동태평양의 월평균 해수면 온도가 평소보다 0.5도 이상 낮은 현상이 최소 5개월 동안 일어날 때를 말해. 라니냐로 동태평양의 해수면 온도가 떨어지면 서태평양의 대기순환이 바뀌게 되는데, 동태평양과 서태평양 인근 지역에 심각한 기상이변이 일어나. 우리나라의 경우에는 1970년대 이후 발생한 라니냐를 통계적으로 분석했을 때 여름은 덥고 9월에는 비가 많이 내렸어. 그리고 겨울에 엄청 추웠지.",
+            "turn_id": "BK22006505-9",
+            "utterance_id": "BK22006505.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기상 이변을 발생시킨다니 몰랐던 사실이네. 근데 최근 지구 온난화에 대한 기사가 많이 보이긴 했는데 점점 심각해지는 것 같아. 해결할 방법이 없을까?",
+            "turn_id": "BK22006505-10",
+            "utterance_id": "BK22006505.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "여러 가지 방법이 있을 거야. 우리 함께 조사하러 가자. 그리고 실천하기 위해 노력하는 거야. 처음 자료를 찾을 때면 도서관이 가장 적당한 것 같다. 어서 출발하자.",
+            "turn_id": "BK22006505-10",
+            "utterance_id": "BK22006505.20"
+        }
+    ]
+}

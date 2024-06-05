@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008555",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008555",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 친구랑 천문대에 다녀왔는데, 구름이 많아서 별을 못 봤어.",
+            "turn_id": "BK22008555-1",
+            "utterance_id": "BK22008555.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 좋을 때 가야 잘 보일 텐데 아쉬웠겠다.",
+            "turn_id": "BK22008555-1",
+            "utterance_id": "BK22008555.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 다시 갈 땐 일기예보 잘 보고 가야겠어. 천문대 갔다가 내행성과 외행성이라는 말을 봤는데, 내행성이랑 외행성이 정확히 뭔지 알아?",
+            "turn_id": "BK22008555-2",
+            "utterance_id": "BK22008555.3"
+        },
+        {
+            "reference_date": "2020-05-21",
+            "reference_text": [
+                {
+                    "value": "기준 행성의 공전궤도보다 상대적으로 안쪽을 공전하고 있는 행성을 내행성이라고 하며 바깥쪽을 돌고 있는 행성을 외행성이라고 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnnews.co.kr/news/articleView.html?idxno=445405",
+            "search_query": "내행성과 외행성",
+            "terminate": false,
+            "text": "한 행성을 기준으로 그 행성의 공전궤도보다 안쪽으로 공전하는 행성들을 내행성, 바깥쪽을 공전하는 행성을 외행성이라고 해.",
+            "turn_id": "BK22008555-2",
+            "utterance_id": "BK22008555.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기준 행성이 있어야 구분이 가능하구나. 지구를 기준으로 하면 어떤 행성들이 내행성과 외행성으로 나뉘는 거야?",
+            "turn_id": "BK22008555-3",
+            "utterance_id": "BK22008555.5"
+        },
+        {
+            "reference_date": "2015-04-17",
+            "reference_text": [
+                {
+                    "value": " 두 번째는 지구를 기준으로 보았을 때 수성과 금성을 내행성(inferior planet), 그리고 지구 바깥쪽에 있는 화성부터 해왕성까지의 행성을 외행성(superior planet)이라고 부른다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.outdoornews.co.kr/news/articleView.html?idxno=17733",
+            "search_query": "지구 기준 내행성 외행성",
+            "terminate": false,
+            "text": "지구를 기준으로 하면 수성과 금성이 내행성이 되고 지구 바깥쪽에 있는 화성에서부터 해왕성까지 행성들이 외행성이 되는 거지.",
+            "turn_id": "BK22008555-3",
+            "utterance_id": "BK22008555.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇겠구나. 금성이나 수성 같은 내행성도 지구에서 관측이 가능해?",
+            "turn_id": "BK22008555-4",
+            "utterance_id": "BK22008555.7"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "내행성은 지구에서 봤을 때 항상 태양 근처에서만 관측된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 해가 진 직후 서쪽 하늘이나 해가 뜨기 전 동쪽 하늘에서 잠깐 동안만 볼 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/015/0004685827?sid=105",
+            "search_query": "내행성 관측",
+            "terminate": false,
+            "text": "지구에서 봤을 때 내행성은 태양 부근에서만 보이거든. 그래서 해가 진 직후에 서쪽 하늘과 해가 뜨기 전의 동쪽 하늘에서 잠깐씩만 관측할 수 있어.",
+            "turn_id": "BK22008555-4",
+            "utterance_id": "BK22008555.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 잘 못 봤구나. 그럼 외행성은 언제 관측이 잘 되는 거야?",
+            "turn_id": "BK22008555-5",
+            "utterance_id": "BK22008555.9"
+        },
+        {
+            "reference_date": "2014-04-23",
+            "reference_text": [
+                {
+                    "value": "따라서 외행성(화성을 포함하여 더 멀리 있는 바깥 행성들)의 경우 지구를 기준으로 태양과 거리가 가장 멀어질 때 오랫동안 관측이 가능하고 또한 가장 밝게 빛난다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.outdoornews.co.kr/news/articleView.html?idxno=13666",
+            "search_query": "외행성 관측",
+            "terminate": false,
+            "text": "지구를 기준으로 해서 외행성이 태양과 가장 멀리 떨어져 있을 때 가장 밝게 빛나기도 하고, 오랜 시간 동안 관측을 할 수 있어.",
+            "turn_id": "BK22008555-5",
+            "utterance_id": "BK22008555.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가장 멀리 있을 때 가장 잘 보인다니, 신기하네. 아 탐사선을 보낼 때도 내행성인지 외행성인지에 따라 방법이 다르다던데, 어떤 차이가 있는 거야?",
+            "turn_id": "BK22008555-6",
+            "utterance_id": "BK22008555.11"
+        },
+        {
+            "reference_date": "2018-11-01",
+            "reference_text": [
+                {
+                    "value": "지구보다 먼 외행성을 향하는 탐사선들은 태양의 중력을 이기고 속도를 높여야 멀리까지 날아갈 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 반해 지구 안쪽의 내행성을 향하는 탐사선은 손에서 놓인 공처럼 태양의 중력에 끌려 중력 위치에너지를 잃으면서 가속되기 때문에 속도를 적당히 낮춰야 수성 궤도에 안착할 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/022/0003315258?sid=110",
+            "search_query": "내행성 외행선 탐사선",
+            "terminate": false,
+            "text": "지구 바깥쪽의 외행성으로 보내는 탐사선의 경우는 태양이 당기는 중력을 이겨내면서 속도를 올려야 멀리까지 날아갈 수 있는 반면에 지구 안쪽 내행성으로 가는 탐사선은 태양의 중력에 의해 당겨져서 중력 위치에너지를 소실하면서 가속이 되니까 속도를 적당하게 낮춰야 내행성 궤도에 안착이 가능해.",
+            "turn_id": "BK22008555-6",
+            "utterance_id": "BK22008555.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중력 때문에 그런 차이가 생기는구나. 지구처럼 생명체가 살 만한 외행성도 발견이 되었다던데 어떤 게 있어?",
+            "turn_id": "BK22008555-7",
+            "utterance_id": "BK22008555.13"
+        },
+        {
+            "reference_date": "2016-08-25",
+            "reference_text": [
+                {
+                    "value": "지난해까지 연구 결과로 가장 생명체가 살 만한 외행성으로 ‘케플러-62f’, ‘케플러-186f’, ‘케플러-442b’ 등 세 행성이 꼽혔다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "셋은 각각 지구로부터 1200, 490, 1120광년 떨어진 행성들이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002330761?sid=105",
+            "search_query": "생명체 살 만한 외행성",
+            "terminate": false,
+            "text": "연구 결과에 의하면 생명체가 살만한 외행성으로 지구로부터 1200광년 떨어진 케플러 62f와 490광년 거리의 케플러 186f 그리고 1120광년 떨어져 있는 케플러 442b 세 행성이 꼽히고 있어.",
+            "turn_id": "BK22008555-7",
+            "utterance_id": "BK22008555.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1200광년이라니, 상상이 안 가는 거리다. 아 그리고 천문대에서 외행성의 충 현상에 대해 읽어보다 다 못 보고 왔는데 어떤 현상인지 설명 좀 해줄 수 있어?",
+            "turn_id": "BK22008555-8",
+            "utterance_id": "BK22008555.15"
+        },
+        {
+            "reference_date": "2018-07-24",
+            "reference_text": [
+                {
+                    "value": "충이란 태양과 외행성 사이를 지구가 지나가면서 지구 기준으로 볼 때 태양-지구-외행성이 일직선상에 위치하게 되는 천문현상이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1093931",
+            "search_query": "외행성 충 현상",
+            "terminate": false,
+            "text": "충 현상은 지구가 태양이랑 외행성 사이를 지나가다가 지구 기준으로 태양, 지구, 외행성이 일직선에 위치하게 되는 천문적 현상을 말하는 거야.",
+            "turn_id": "BK22008555-8",
+            "utterance_id": "BK22008555.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 일직선에 놓이는 걸 충이라고 하는 거구나. 그리고 순행과 역행 현상도 발생한다는 말도 봤거든. 그건 어떤 현상이야?",
+            "turn_id": "BK22008555-9",
+            "utterance_id": "BK22008555.17"
+        },
+        {
+            "reference_date": "2016-01-09",
+            "reference_text": [
+                {
+                    "value": "특히 수성과 금성을 제외한, 지구보다 공전 주기가 긴 외행성들은 동쪽에서 서쪽으로 움직이다 어느 순간 서쪽에서 동쪽으로 ‘역행’한 뒤 다시 반대 방향으로 ‘순행’한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구가 외행성보다 공전주기가 짧아 태양 주위를 더 빨리 돌기 때문에 일어나는 현상이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002302965?sid=105",
+            "search_query": "외행성 순행과 역행",
+            "terminate": false,
+            "text": "지구에 비해 공전 주기가 긴 외행성들이 동쪽에서 서쪽으로 이동하다가 어느 시점에 서쪽에서 동쪽으로 역행하고 다시 반대로 순행하는 현상을 말하는 데 지구가 외행성에 비해 공전 주기가 짧기 때문에 태양 주위를 빨리 돌게 되어서 발생하는 현상이야.",
+            "turn_id": "BK22008555-9",
+            "utterance_id": "BK22008555.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음 그렇구나. 쉽게 설명해주니까 이해가 쏙쏙 되네. 다음에 천문대 갈 때 너랑 같이 가면 정말 좋겠다.",
+            "turn_id": "BK22008555-10",
+            "utterance_id": "BK22008555.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 천문대 가는 거 좋아하니까 시간 잡아서 한 번 같이 가자.",
+            "turn_id": "BK22008555-10",
+            "utterance_id": "BK22008555.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "와 고마워. 내가 날씨 좋을 때 날 잡아서 연락할게. 그럼 잘 가고 다음에 봐.",
+            "turn_id": "BK22008555-11",
+            "utterance_id": "BK22008555.21"
+        }
+    ]
+}

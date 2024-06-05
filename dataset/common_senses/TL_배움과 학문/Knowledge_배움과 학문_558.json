@@ -1,0 +1,344 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002944",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002944",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름이 되어서 그런지 요즘 모기가 너무 많은 것 같아요! 제가 제일 싫어하는 게 모기인데 도대체 이 모기가 지구에서 언제부터 살아온 걸까요?",
+            "turn_id": "BK22002944-1",
+            "utterance_id": "BK22002944.1"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "모기는 1억 7천만 년 전 쥐라기 후기 때 지금의 남아메리카 대륙에서 처음 등장했다고 추정되며, 그 당시의 모기는 지금의 모기보다 3배 정도 컸던 것으로 여겨진다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기의 등장",
+            "terminate": false,
+            "text": "모기는 약 1억 7천만 년 전부터 남아메리카 대륙에서 처음 등장한 것으로 추정돼요. 그 당시는 모기가 지금 크기보다 3배 정도 컸어요!",
+            "turn_id": "BK22002944-1",
+            "utterance_id": "BK22002944.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구의 토착종이라고 할 만큼 오래전부터 살았네요. 도대체 모기는 왜 밤만 되면 저를 괴롭히고 피를 빨아먹으려 할까요?",
+            "turn_id": "BK22002944-2",
+            "utterance_id": "BK22002944.3"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "모기는 낮에는 풀숲에서 잠을 자고 밤에 활동하는 야행성 동물로써, 모기의 성충은 일반적으로 과즙이나 꽃의 꿀 같은 당분을 주된 칼로리원으로 하며, 흡혈은 암컷의 난소 발육을 위해서만 필요하고, 수컷은 흡혈하지 않는다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 흡혈",
+            "terminate": false,
+            "text": "왜냐하면 모기는 낮에는 풀숲에서 잠을 자고 밤에 활동하는 야행성 동물이기 때문에 밤에 활동을 주로 해요. 모기는 일반적으로 주요 영양소를 섭취하기 위해 과즙이나 꽃의 꿀을 먹는데 흡혈은 암컷이 난소의 발육을 하기 위해서기 때문에 흡혈하는 모기들은 모두 암컷이라 생각하면 돼요.",
+            "turn_id": "BK22002944-2",
+            "utterance_id": "BK22002944.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 이때까지 제 피를 흡혈한 모기들은 다 암컷이군요. 그러면 모기는 사람의 피만 흡혈하나요?",
+            "turn_id": "BK22002944-3",
+            "utterance_id": "BK22002944.5"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "흡혈 대상이 되는 동물은 포유류 외에도 새·양서류·파충류 등이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 흡혈 대상",
+            "terminate": false,
+            "text": "꼭 사람의 피만 흡혈하는 것은 아니에요. 흡혈 대상은 포유류 외에도 조류나 양서류 혹은 파충류의 피를 흡혈해요.",
+            "turn_id": "BK22002944-3",
+            "utterance_id": "BK22002944.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지 모기가 사람의 피만 흡혈하는 줄 알았는데 그게 아니었네요. 어떤 모기들은 피를 너무 많이 빨아서 날지도 못하는 모기를 봤는데 얼마나 흡혈을 많이 하길래 그러는 거죠? 그리고 그렇게 피를 흡혈하고 난소를 발달시켜서 어떤 일을 하죠?",
+            "turn_id": "BK22002944-4",
+            "utterance_id": "BK22002944.7"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "흡혈량은 빈속일 때의 체중(5mg 정도)과 같거나 또는 그 이상의 피를 한꺼번에 빨아들이는데 보통 여름철 기온에서는 3~4일 간에 전부 소화하고, 그 사이에 난소를 발달시켜 300여 개의 알을 낳는다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 흡혈량",
+            "terminate": false,
+            "text": "모기들은 빈속일 때 자신의 몸무게와 같거나 혹은 그 이상으로 피를 흡혈하는데 여름 기온에서는 그 피를 약 3일 정도면 모두 소화를 하고 소화한 피를 가지고 난소를 발달시킨 후 약 300개의 알을 낳아요.",
+            "turn_id": "BK22002944-4",
+            "utterance_id": "BK22002944.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소화력도 빠른 것 같고 알도 정말 많이 낳네요. 그런데 모기에 물리는 것 자체는 스트레스가 없는데 모기에 물리면 너무 간지러워서 그게 너무 스트레스에요. 모기에 물리면 왜 이렇게 간지러울까요?",
+            "turn_id": "BK22002944-5",
+            "utterance_id": "BK22002944.9"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "모기는 동물이나 사람의 피부에다 입을 찌르고 혈액의 응고를 방지하기 위하여 히루딘이라는 타액을 주입하는데, 이 타액 주입이 사람들에게 가려움을 느끼게 하며, 또한 이때 바이러스나 말라리아원충 등이 함께 주입되기도 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 가려움",
+            "terminate": false,
+            "text": "모기가 흡혈할 때 혈액의 응고를 방지하기 위해서 히루딘이라는 타액을 주입하는데 이 타액이 사람들에게는 간지럼증을 유발해요. 그리고 타액이 주입되면서 말라리아와 같은 바이러스가 주입되기도 하죠.",
+            "turn_id": "BK22002944-5",
+            "utterance_id": "BK22002944.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말라리아가 걸렸다는 말을 들어만 봤지 직접 말라리아에 걸려보지는 못했는데 왜 그런 병들이 모기에 물리면 발생하는 거죠?",
+            "turn_id": "BK22002944-6",
+            "utterance_id": "BK22002944.11"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "모기가 매개하는 질병은 뇌염·말라리아(학질)·필라리아(상피병)·일본뇌염·황열병 등이며 전 세계에 약 3,000종 가량이 알려져 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 전염병",
+            "terminate": false,
+            "text": "왜냐하면 모기가 가진 질병 자체가 약 3,000종 정도 있고 대표적으로 뇌염이나 말라리아를 가지고 있기 때문이죠.",
+            "turn_id": "BK22002944-6",
+            "utterance_id": "BK22002944.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모기가 그만큼 많은 질병을 가졌는지 몰랐어요. 사람들에게도 해를 끼칠 수 있는 모기들의 개체 수를 좀 줄일 수 있는 방법은 없나요?",
+            "turn_id": "BK22002944-7",
+            "utterance_id": "BK22002944.13"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "원래 모기는 애벌레 시기에 천적인 큰 잉어, 자라, 물방개, 가물치, 잠자리 애벌레, 미꾸라지, 메기에 의해 수가 조절되지만, 각종 개발과 공업화로 생태계가 파괴되면서 상대적으로 천적이 사라진 모기는 비정상적으로 늘어났고, 매년 그 수가 급증하였다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 천적",
+            "terminate": false,
+            "text": "모기들의 천적 중에서는 잉어, 자라, 가물치, 미꾸라지, 메기 등이 있긴 하지만 공업화와 각종 개발로 인해 생태계가 파괴되면서 모기들의 천적들의 개체 수도 줄어들어 모기들의 수가 비정상적으로 늘고 있어요.",
+            "turn_id": "BK22002944-7",
+            "utterance_id": "BK22002944.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각종 개발과 공업화가 모기들이 더욱 성행하게끔 했군요.",
+            "turn_id": "BK22002944-8",
+            "utterance_id": "BK22002944.15"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "지구 온난화와 환경 오염으로 모기가 늘어나고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B8%B0",
+            "search_query": "모기 수",
+            "terminate": false,
+            "text": "개발과 공업화뿐만 아니라 지구 온난화와 환경 오염으로 인해서 모기의 개체 수가 더욱 늘어나고 있죠.",
+            "turn_id": "BK22002944-8",
+            "utterance_id": "BK22002944.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 그런지 요즘 모기를 잡아도 계속 어디선가 모기가 보이고 정말 스트레스받아요!",
+            "turn_id": "BK22002944-9",
+            "utterance_id": "BK22002944.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 현시점에서 모기의 개체 수를 급격하게 줄일 수 있는 방법은 없지만 환경을 개선해 나간다면 서서히 모기 개체들이 정상 범위로 자리 잡을 수 있을 거예요.",
+            "turn_id": "BK22002944-9",
+            "utterance_id": "BK22002944.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러기 위해서는 제가 먼저 환경을 생각하는 행동을 해야겠죠?",
+            "turn_id": "BK22002944-10",
+            "utterance_id": "BK22002944.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 생각이에요, 모두가 같은 생각으로 환경을 더 이상 파괴하지 않는다면 언젠가는 모기로부터 보다 자유로운 여름을 보낼 수 있을 거예요.",
+            "turn_id": "BK22002944-10",
+            "utterance_id": "BK22002944.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모두가 함께 환경을 생각하는 마음으로 행동하면 좋을 것 같네요.",
+            "turn_id": "BK22002944-11",
+            "utterance_id": "BK22002944.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터 저와 함께 환경 보호 캠페인에 동참하여 환경을 보호하자고요!",
+            "turn_id": "BK22002944-11",
+            "utterance_id": "BK22002944.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "우리 함께 환경을 보호하여 모기로부터 벗어나 보아요!",
+            "turn_id": "BK22002944-12",
+            "utterance_id": "BK22002944.23"
+        }
+    ]
+}

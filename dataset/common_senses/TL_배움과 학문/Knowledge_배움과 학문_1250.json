@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008395",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008395",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시의성 있는 소재를 가지고 역사 관련 레포트를 좀 써보려고 하는데, 요즘 흑백 영화로 만든 자산어보에 대해 호평하는 사람들이 많더라고요. 혹시 영화의 제목인 자산어보는 뭘 뜻하는 건지 아세요? 시대극인 만큼 재밌는 레포트 소재가 될 것 같아요.",
+            "turn_id": "BK22008395-1",
+            "utterance_id": "BK22008395.1"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "《자산어보》(玆山魚譜)는 조선시대 영조-순조 당시 학자인 정약전이 1801년(순조 원년) 천주교 박해사건인 신유박해 때 전라도 흑산도에 유배되어 1814년(순조 14년)까지 생활하면서 이 지역의 해상 생물에 대해서 분석하여 편찬한 해양생물학 서적이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%82%B0%EC%96%B4%EB%B3%B4",
+            "search_query": "자산어보",
+            "terminate": false,
+            "text": "네, 조선시대 영조부터 순조 때까지의 학자인 정약전이 천주교 박해 사건인 신유박해로 인해 전라도 흑산도에 1801년부터 1814년까지 귀양살이를 하면서 해당 지역의 해상 생물에 관해 분석하여 편찬한 해양생물학 서적이 자산어보에요.",
+            "turn_id": "BK22008395-1",
+            "utterance_id": "BK22008395.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자산어보가 해양생물학 서적이군요. 이 서적을 편찬한 정약전은 어떤 사람인가요?",
+            "turn_id": "BK22008395-2",
+            "utterance_id": "BK22008395.3"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "정약전(丁若銓, 1758년 4월 8일(음력 3월 1일)~1816년 6월 30일(음력 6월 6일))은 조선 후기의 문관, 실학자, 저술가, 생물학자이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정약현(丁若鉉)의 동생이며, 정약종, 정약용의 형이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%95%BD%EC%A0%84",
+            "search_query": "정약전",
+            "terminate": false,
+            "text": "조선 후기에 살았던 정약전은 문관이자 실학자로 저술가와 생물학자이기도 했어요. 그리고 형제 관계는 형인 정약현과 동생인 정약종과 정약용이 있죠.",
+            "turn_id": "BK22008395-2",
+            "utterance_id": "BK22008395.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "형제가 많았네요. 정약현도 문관이었던 동생 정약전처럼 문과시험 출신의 관리였나요?",
+            "turn_id": "BK22008395-3",
+            "utterance_id": "BK22008395.5"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "정조 19년(1795년), 식년시 진사 3등에 합격하였으나, 벼슬자리는 얻지 못했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1801년 순조 원년, 신유박해 때 조정의 대대적인 천주교 신자 탄압으로 동생들이 죽거나 귀양갔다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정약현은 천주교를 받아들이지 않고 고향집에 기거한 덕분에 화를 면하여 집안을 보전하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%95%BD%ED%98%84",
+            "search_query": "정약현",
+            "terminate": false,
+            "text": "아니요. 정약현은 정조 19년에 식년시 진사 3등에 급제했지만 벼슬자리는 받지 못했어요. 그리고 고향집에 머물면서 천주교를 믿지 않은 덕분에 1801년 순조 원년에 신유박해로 인해 조정의 천주교 신자 탄압이 매우 크게 일어나 동생들이 죽거나 유배될 때 화를 면하여 가문을 보존하였죠.",
+            "turn_id": "BK22008395-3",
+            "utterance_id": "BK22008395.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천주교를 받아들여 동생들이 죽거나 귀양을 갔군요. 그럼 정약종은 어떻게 되었나요?",
+            "turn_id": "BK22008395-4",
+            "utterance_id": "BK22008395.7"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "정약종(丁若鍾, 1760년 ~ 1801년 4월 8일)은 조선 정조 때의 학자이며, 로마 가톨릭교회 순교자이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정약용의 셋째 형으로 형제중 가장 늦게 천주교인이 되었으나 탄압과 박해에도 불구하고 흔들리지 않는 신앙을 유지하다가 신유박해 때 서소문 밖에서 순교하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%95%BD%EC%A2%85",
+            "search_query": "정약종",
+            "terminate": false,
+            "text": "조선 정조 때의 학자인 정약종은 정약용의 셋째 형으로 형제들 가운데 제일 늦게 천주교 신자가 되었으나 박해와 탄압에도 변치 않는 신앙을 유지하다가 서소문 밖에서 신유박해 때 순교하여 로마 가톨릭교회의 순교자로 남게 되죠.",
+            "turn_id": "BK22008395-4",
+            "utterance_id": "BK22008395.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신유박해 때 순교하였군요. 그럼 정약용은 이 사건으로 어떻게 되었나요?",
+            "turn_id": "BK22008395-5",
+            "utterance_id": "BK22008395.9"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "조선 후기를 대표하는 실학자 정약용은 1801년 신유박해로 유배를 떠나 18년간 귀양살이를 했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 정약용은 유배지에서 '경세유표'(1817) '목민심서'(1818) 등을 집필했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4697147",
+            "search_query": "정약용 신유박해 유배",
+            "terminate": false,
+            "text": "정약용은 조선 후기를 대표하는 실학자로 1801년에 신유박해로 인해 귀양살이를 18년 동안 하게 되죠. 이때 경세유표와 목민심서 등을 귀양지에서 저술했어요.",
+            "turn_id": "BK22008395-5",
+            "utterance_id": "BK22008395.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정약전처럼 유배지에서 서적을 집필했군요. 목민심서는 어떤 내용을 다루고 있나요?",
+            "turn_id": "BK22008395-6",
+            "utterance_id": "BK22008395.11"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "《목민심서》는 목민관으로 불리는 지방 수령이 지켜야 할 지침(指針)을 밝히면서 관리들의 폭정을 비판한 저서이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EB%AF%BC%EC%8B%AC%EC%84%9C",
+            "search_query": "목민심서",
+            "terminate": false,
+            "text": "관리들의 폭정을 비판하면서 목민관으로 일컬어지는 지방 수령이 지켜야 할 행동 준칙을 규정한 책이에요.",
+            "turn_id": "BK22008395-6",
+            "utterance_id": "BK22008395.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관리들의 폭정을 비판한 저서군요. 그런데 신유박해가 정확히 어떤 사건인가요?",
+            "turn_id": "BK22008395-7",
+            "utterance_id": "BK22008395.13"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "신유박해(辛酉迫害)는 1801년(순조 1년)에 발생한 조선 천주교 박해 사건이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시파·벽파의 정치 투쟁에서 시파 제거를 오랜 숙원으로 한 벽파가 천주교 탄압을 명분으로 일으킨 사건이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%9C%A0%EB%B0%95%ED%95%B4",
+            "search_query": "신유박해",
+            "terminate": false,
+            "text": "1801년에 일어난 조선 천주교 박해 사건이 신유박해에요. 시파를 없애기 위해 오래전부터 숙원해온 벽파가 시파와의 정치 싸움에서 천주교 탄압을 구실로 일으킨 사건이었죠.",
+            "turn_id": "BK22008395-7",
+            "utterance_id": "BK22008395.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선 천주교 박해 사건이 신유박해군요. 그럼 조선에서 천주교 박해가 자주 있었나요?",
+            "turn_id": "BK22008395-8",
+            "utterance_id": "BK22008395.15"
+        },
+        {
+            "reference_date": "2016-02-15",
+            "reference_text": [
+                {
+                    "value": "조선 후기 우리나라에 들어온 천주교 박해 사건은 크게 세 번 일어났다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1791년의 신해사옥, 1801년의 신유사옥, 1866년의 병인사옥이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "겉으로는 종교탄압이지만 알고 보면 정치 싸움이었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.whitepaper.co.kr/news/articleView.html?idxno=61870",
+            "search_query": "조선 후기 천주교 박해 사건은 크게 세 번",
+            "terminate": false,
+            "text": "천주교가 조선 후기에 들어와서 크게 세 번의 박해가 발생하는데, 표면적으로는 종교탄압이지만 속내는 정치 투쟁이었죠. 천주교 박해 사건으로는 1791년에 발생한 신해사옥과 1801년에 일어난 신유사옥 그리고 1866년의 병인사옥이 있었죠.",
+            "turn_id": "BK22008395-8",
+            "utterance_id": "BK22008395.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본질은 권력 투쟁이었군요. 오늘 자산어보의 시대적 배경에 대해 공부할 수 있어서 좋았어요.",
+            "turn_id": "BK22008395-9",
+            "utterance_id": "BK22008395.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 오늘 대화 좋았어요.",
+            "turn_id": "BK22008395-9",
+            "utterance_id": "BK22008395.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 해가 짧아져서 그런지 금세 어두워졌네요. 조심히 들어가시고, 또 뵈어요.",
+            "turn_id": "BK22008395-10",
+            "utterance_id": "BK22008395.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "정말 해가 많이 짧아진 것 같아요. 그럼 살펴 가시고, 또 봬요.",
+            "turn_id": "BK22008395-10",
+            "utterance_id": "BK22008395.20"
+        }
+    ]
+}

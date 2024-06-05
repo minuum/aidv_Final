@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003936",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003936",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 장사가 너무 안돼서 큰일이네요. 요즘 같은 불황은 일찍이 없었던 것 같아요.",
+            "turn_id": "BK22003936-1",
+            "utterance_id": "BK22003936.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 걱정이 많이 되시겠네요. 불황이라 장사하시는 분들은 더 힘드실 거 같아요.",
+            "turn_id": "BK22003936-1",
+            "utterance_id": "BK22003936.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마나 불황이 심하면 요즘 뉴스에서 계속 대공황이 우려된다고 하더라구요. 그런데 대공황이라는 게 그냥 공황의 규모가 큰 걸 말하는 단어인가요?",
+            "turn_id": "BK22003936-2",
+            "utterance_id": "BK22003936.3"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "대공황(大恐慌, 영어: The Great Depression)은 미국 역사상 20세기 장기적으로 가장 길고, 깊게 스며드는 경제위기로[1] 1929년부터 1939년까지 지속되었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EA%B3%B5%ED%99%A9",
+            "search_query": "대공황 미국 역사",
+            "terminate": false,
+            "text": "아니에요. 대공황은 20세기 미국 역사에서 가장 길었던 경제위기를 말하는 것이에요. 1929년에 발생해서 1939년까지 지속됐죠.",
+            "turn_id": "BK22003936-2",
+            "utterance_id": "BK22003936.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무슨 불황이 10년이나 지속되는 거죠? 이런 어마어마한 사건이 터지게 된 계기는 뭔가요?",
+            "turn_id": "BK22003936-3",
+            "utterance_id": "BK22003936.5"
+        },
+        {
+            "reference_date": "2022-04-16",
+            "reference_text": [
+                {
+                    "value": "1929년 월스트리트 대폭락(Wall Street Crash of 1929)은 1929년 10월 말에 뉴욕증권시장에서 일어난 일련의 주가 대폭락 사건으로, 10월 24일 목요일(검은 목요일)부터 10월 29일 화요일(검은 화요일)까지 있었던 지속적인 주식 시장 붕괴 사건이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "9월 20일 있었던 런던 증권거래소 대폭락 이후 월스트리트 대폭락까지 이어지면서 12년 동안 서구권 전체에 엄청난 대공황이 시작되었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/1929%EB%85%84_%EC%9B%94%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8_%EB%8C%80%ED%8F%AD%EB%9D%BD",
+            "search_query": "월스트리트 대폭락",
+            "terminate": false,
+            "text": "시작은 월스트리트 대폭락이었어요. 1929년 9월 20일에 런던 증권거래소가 폭락하자 10월 24일 목요일부터 10월 29일 화요일까지 뉴욕 증권시장은 지속적인 대폭락을 겪죠. 이에 따라 주식 시장은 붕괴했고 12년 동안 유럽과 미국 등 서구권 전체는 엄청난 대공황을 겪게 되죠.",
+            "turn_id": "BK22003936-3",
+            "utterance_id": "BK22003936.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 시작은 주식 폭락이었군요. 어쩌다가 그렇게 주가가 폭락하게 된 거예요?",
+            "turn_id": "BK22003936-4",
+            "utterance_id": "BK22003936.7"
+        },
+        {
+            "reference_date": "2022-04-16",
+            "reference_text": [
+                {
+                    "value": "주가 상승이 이어지면서 투자자들은 주식이 이보다 더 오를 것이라 기대하고 사람들이 몰리게 되었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 생각과 추정이 가면 갈수록 심해지면서 거품 경제를 만들어냈다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/1929%EB%85%84_%EC%9B%94%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8_%EB%8C%80%ED%8F%AD%EB%9D%BD",
+            "search_query": "월스트리트 대폭락 주가 투자자",
+            "terminate": false,
+            "text": "주가가 계속 오르자 투자자들이 주식이 계속 오를 거라 기대하고 계속 몰려들었거든요. 이게 심해지면서 결국 경제에 거품이 껴버린 거예요.",
+            "turn_id": "BK22003936-4",
+            "utterance_id": "BK22003936.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거품은 역시 예나 지금이나 정말 무서운 존재네요. 미국이 그렇게 되어버렸으니 다른 나라들도 무사하지는 않았겠어요.",
+            "turn_id": "BK22003936-5",
+            "utterance_id": "BK22003936.9"
+        },
+        {
+            "reference_date": "2014-08-26",
+            "reference_text": [
+                {
+                    "value": "1929년, 미국은 세계 총생산량의 42％를 생산하는 초강대국이었기에 유럽을 비롯한 다른 나라들의 경제까지 연쇄적으로 무너지기 시작했다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578547&cid=59017&categoryId=59017",
+            "search_query": "미국 세계 대공황 유럽",
+            "terminate": false,
+            "text": "통찰력이 좋으시네요. 1929년에 미국은 이미 세계 총생산량의 42퍼센트를 담당하는 초강대국이었죠. 그래서 유럽 등 다른 국가들의 경제까지 함께 무너졌어요.",
+            "turn_id": "BK22003936-5",
+            "utterance_id": "BK22003936.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금이랑 비슷하네요. 지금도 미국이 재채기하면 우리는 앓아눕는다잖아요. 그럼 미국 정부는 대공황에 어떻게 대처했나요?",
+            "turn_id": "BK22003936-6",
+            "utterance_id": "BK22003936.11"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "뉴딜(New Deal)은 실업자에게 일자리를 만들어 주고, 경제 구조와 관행을 개혁해 대공황으로 침체된 경제를 되살리기 위해 프랭클린 D. 루스벨트 미국 제32대 대통령이 1933년~1936년에 추진하기 시작한 경제 정책이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%89%B4%EB%94%9C",
+            "search_query": "뉴딜 정책 대공황",
+            "terminate": false,
+            "text": "대공황을 해결하기 위해 뉴딜 정책이라는 게 나와요. 미국의 32대 대통령이었던 프랭클린 루스벨트에 의해 1933년부터 1936년까지 추진됐는데 실업자에게 일자리를 주고 경제 구조와 관행을 개혁하는 정책이었어요.",
+            "turn_id": "BK22003936-6",
+            "utterance_id": "BK22003936.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴딜이라면 저도 들어본 적 있어요! 심지어 요즘까지도 뉴딜이라는 단어를 많이 쓰잖아요.",
+            "turn_id": "BK22003936-7",
+            "utterance_id": "BK22003936.13"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "1970년대 후반, 1980년대 초반의 규제철폐(deregulation) 물결은 많은 규제들을 폐지했다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 뉴딜 정책 당시 진행됐던 프로그램 중 몇몇은 당시와 같은 이름으로 지금도 계속 운영되고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%89%B4%EB%94%9C",
+            "search_query": "뉴딜 현재 프로그램",
+            "terminate": false,
+            "text": "맞아요, 1970년대 후반부터 1980년대 초반에 많은 규제를 폐지하는 규제철폐 물결이 일어나죠. 하지만 뉴딜 정책의 프로그램 중 몇몇은 심지어 지금도 똑같은 이름으로 계속 운영되고 있어요.",
+            "turn_id": "BK22003936-7",
+            "utterance_id": "BK22003936.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지도 일부 프로그램이 남아있다니 대단한 정책이었네요. 그럼 이후 사회에 끼친 영향도 어마어마했을 거 같은데요.",
+            "turn_id": "BK22003936-8",
+            "utterance_id": "BK22003936.15"
+        },
+        {
+            "reference_date": "2014-08-26",
+            "reference_text": [
+                {
+                    "value": "대공황은 사회적 우상이 ‘생산의 우상’에서 ‘소비의 우상’으로 바뀌는 결정적 계기가 됨으로써 자본주의 유지에 유리한 ‘소비 이데올로기 효과’를 얻게 되는 바, 이로써 대공황이 자본주의의 저주만도 아닌 셈이 되고 만다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578547&cid=59017&categoryId=59017",
+            "search_query": "세계 대공황",
+            "terminate": false,
+            "text": "당연하죠. 대공황을 기점으로 사회는 생산을 숭배하기보다는 소비를 숭배하는 기류로 바뀌게 돼요. 자본주의 유지에 소비가 더 유리하다고 보는 소비 이데올로기의 효과를 얻은 거죠. 덕분에 대공황이 꼭 자본주의의 저주만은 아닌 셈이 됐어요.",
+            "turn_id": "BK22003936-8",
+            "utterance_id": "BK22003936.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대공황이 무조건 사회에 악영향만 끼친 건 아니었군요. 그래도 당시 대통령이었던 후버는 엄청 욕을 먹었겠어요.",
+            "turn_id": "BK22003936-9",
+            "utterance_id": "BK22003936.17"
+        },
+        {
+            "reference_date": "2014-08-26",
+            "reference_text": [
+                {
+                    "value": "뜨내기 일꾼(hobo)이나 빈민들이 추위를 쫓기 위해 둘러썼던 신문지를 ‘후버 담요’, 텅 빈 호주머니를 ‘후버 주머니’, 무주택자들의 달동네를 ‘후버촌’, 돈이 없다는 것을 보여주기 위해 호주머니 속이 밖으로 나온 것은 ‘후버 깃발’, 발바닥에 구멍이 난 신발은 ‘후버 신발’, 닳아 헤진 구두의 안을 덧대기 위해 사용한 골판지는 ‘후버 가죽’, 휘발유가 없어 말이 끌고 다니는 자동차를 ‘후버 마차’, 그렇지 않아도 부족한 식량을 먹어치우는 야생 토끼는 ‘후버 돼지’라고 부르는 등 후버를 접두어로 한 많은 신조어들이 생겨났다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578547&cid=59017&categoryId=59017",
+            "search_query": "미국 세계 대공황 유럽",
+            "terminate": false,
+            "text": "맞아요. 빈민 등이 추위를 쫓기 위해 둘러쌌던 신문지는 후버 담요, 돈이 없다는 걸 보여주기 위한 텅 빈 호주머니는 후버 주머니, 집이 없는 사람들이 사는 달동네는 후버촌, 텅 빈 호주머니 속을 꺼낸 것은 후버 깃발, 구멍이 난 신발은 후버 신발, 닳아 헤진 구두의 안을 덧대던 골판지는 후버 가죽, 기름이 없어서 말이 끌던 자동차는 후버 마차, 식량을 먹어 치우는 야생 토끼는 후버 돼지라고 부르는 등, 후버를 앞에 붙인 신조어가 엄청 많이 생겼었죠.",
+            "turn_id": "BK22003936-9",
+            "utterance_id": "BK22003936.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 장사 안돼서 웃을 일이 없었는데 지금 엄청 웃었네요. 미국 사람들은 90년 전에도 정치인 욕을 할 때는 엄청난 센스를 장착하고 욕을 하네요.",
+            "turn_id": "BK22003936-10",
+            "utterance_id": "BK22003936.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아메리칸 개그랑 상성이 잘 맞으시나 봐요. 아무튼 그래도 오랜만에 웃으셨다니 저도 기분이 좋네요. 전 이제 해야 할 일이 있어서 슬슬 가볼게요.",
+            "turn_id": "BK22003936-10",
+            "utterance_id": "BK22003936.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "오늘도 궁금한 점 자세히 알려주셔서 정말 감사합니다. 다음에 또 뵐게요!",
+            "turn_id": "BK22003936-11",
+            "utterance_id": "BK22003936.21"
+        }
+    ]
+}

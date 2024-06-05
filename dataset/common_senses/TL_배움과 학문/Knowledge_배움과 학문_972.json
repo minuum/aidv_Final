@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006315",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006315",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "형, 세포에 대해 조사하라는 숙제를 받았어. 형은 의대를 준비하고 있으니까 잘 알 거 아니야. 좀 도와주겠어?",
+            "turn_id": "BK22006315-1",
+            "utterance_id": "BK22006315.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜만에 보는 사촌 형에게 너무한 거 아니니? 그래, 궁금한 게 뭔데?",
+            "turn_id": "BK22006315-1",
+            "utterance_id": "BK22006315.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 아무것도 몰라서 기본적인 것부터 모두 조사하려고 해. 우선 세포란 정확히 뭐야?",
+            "turn_id": "BK22006315-2",
+            "utterance_id": "BK22006315.3"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "세포(細胞, 영어: cell)는 모든 생물체의 구조적, 기능적 기본 단위이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세포에 대해 연구하는 학문을 세포생물학이라고 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세포는 세포막으로 둘러싸인 세포질로 구성되어 있으며, 단백질 및 핵산과 같은 많은 생체분자들을 포함하고 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%ED%8F%AC",
+            "search_query": "세포",
+            "terminate": false,
+            "text": "모든 생물체의 구조적 기능적 기본 단위를 세포라고 해. 세포는 세포막에 둘러싸인 세포질로 이뤄져 있고 단백질이나 핵산 같은 많은 생체분자들을 가지고 있지. 세포에 대해 연구하는 학문을 세포생물학이라고 해.",
+            "turn_id": "BK22006315-2",
+            "utterance_id": "BK22006315.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 단어가 엄청 많네. 단어는 나중으로 하고 세포의 크기는 어떻게 되고 누가 제일 먼저 발견한거야?",
+            "turn_id": "BK22006315-3",
+            "utterance_id": "BK22006315.5"
+        },
+        {
+            "reference_date": "2022-01-10",
+            "reference_text": [
+                {
+                    "value": "인체 세포의 경우 평균 크기가 100 마이크로미터 정도 밖에 되지 않을 정도로 작기 때문이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 작은 세포의 존재를 처음 확인한 것은 1665년 영국 과학자 로버트 훅(Robert Hooke,1635~1703)이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000901/selectBoardArticle.do?nttId=14787&pageIndex=1&mno=sitemap_02&searchCnd=&searchWrd=",
+            "search_query": "세포크기",
+            "terminate": false,
+            "text": "세포는 정말 작아. 인체 세포만 봐도 평균 크기가 100마이크로미터 정도야. 세포의 최초 확인은 1665년 영국의 과학자 로버트 훅에 의해서 이루어졌어.",
+            "turn_id": "BK22006315-3",
+            "utterance_id": "BK22006315.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평균 크기라고 했으니까 그거 보다 더 작은 게 있는지 궁금하다. 예시를 하나 들어줘.",
+            "turn_id": "BK22006315-4",
+            "utterance_id": "BK22006315.7"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "미토콘드리아(영어: mitochondria 단수:mitochondrion), 고대 그리스어 mitos: 끈 + chondros: 낱알)는 진핵생물에서 산소 호흡의 과정이 진행되는 세포 속에 있는 중요한 세포소기관으로, 한자 표기로는 사립체(絲粒體) 또는 활력체(活力體)라고도 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한편 미토콘드리아의 길이는 약 2~6 마이크로미터 정도이며, 직경은 약0.5마이크로미터(μm) 정도이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%86%A0%EC%BD%98%EB%93%9C%EB%A6%AC%EC%95%84",
+            "search_query": "미토콘드리아",
+            "terminate": false,
+            "text": "예로 미토콘드리아를 들어줄게. 정말 중요한 세포소기관으로 진핵생물의 산소 호흡 과정이 일어나는 세포 속에 있지. 미토콘드리아는 길이가 2에서 6마이크로미터, 직경은 약 0.5 마이크로미터 정도의 크기를 가지고 있어.",
+            "turn_id": "BK22006315-4",
+            "utterance_id": "BK22006315.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "100 마이크로미터는 비교도 안 될 정도로 작다. 예시 사항으로 꼭 넣어두어야겠다. 그런데 어려운 단어는 설명을 해주면 좋은데 진핵생물이 어떤 거야?",
+            "turn_id": "BK22006315-5",
+            "utterance_id": "BK22006315.9"
+        },
+        {
+            "reference_date": "2020-01-23",
+            "reference_text": [
+                {
+                    "value": "식물에서 동물에 이르기까지 복잡한 형태 갖는 생명체를 진핵 생물이라고 한다: 진핵 생물의 세포는 내부막 내에 핵과 같은 내부 구획을 갖는 것이 특징이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.natureasia.com/ko-kr/nature/highlights/101889",
+            "search_query": "진핵생물",
+            "terminate": false,
+            "text": "식물이나 동물처럼 복잡한 형태를 가지는 생명체가 진핵 생물이야. 진핵 생물의 세포는 내부막 내에 핵과 같은 내부 구획을 가지는 특징이 있어.",
+            "turn_id": "BK22006315-5",
+            "utterance_id": "BK22006315.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 식물 세포나 동물세포도 진핵 생물의 세포에 들어가네. 박테리아는 단순하다고 했으니까 다르게 부르겠네?",
+            "turn_id": "BK22006315-6",
+            "utterance_id": "BK22006315.11"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "원핵생물(영어: Prokaryotes)은 핵막이 없는 생물이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전부 단세포 생물이라는 특징이 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%90%ED%95%B5%EC%83%9D%EB%AC%BC",
+            "search_query": "원핵생물",
+            "terminate": false,
+            "text": "그렇지. 원핵생물이라고 핵막이 없는 생물로 전부 단세포 생물이라는 특징이 있어.",
+            "turn_id": "BK22006315-6",
+            "utterance_id": "BK22006315.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이참에 원핵생물 대표적인 거 하나만 가르쳐 줘. 원핵생물 진핵생물 분류도 해놓으려고.진핵생물은 식물이나 동물이니까 내가 정리하면 될 것 같거든.",
+            "turn_id": "BK22006315-7",
+            "utterance_id": "BK22006315.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "세균(細菌) 또는 박테리아(라틴어: bacteria 단수형: bacterium[*])는 생물의 주요 분류군이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단세포의 미생물로 세포소기관을 가지지 않은 대부분의 원핵생물이 여기에 속한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B7%A0",
+            "search_query": "세균",
+            "terminate": false,
+            "text": "세균 이나 박테리아를 알면 되겠네. 이 둘은 생물의 주요 분류군이야. 단세포의 미생물로 세포소기관을 가지지 않은 대부분의 원핵생물이 여기 속하지.",
+            "turn_id": "BK22006315-7",
+            "utterance_id": "BK22006315.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 세포를 조사하면서 어려운 단어 몇 가지만 물을게. 초등과정이라서 어려운 건 필요 없거든. 아까 세포막이라고 했는데 그게 뭐야?",
+            "turn_id": "BK22006315-8",
+            "utterance_id": "BK22006315.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "세포막(細胞膜, 영어: cell membrane)은 모든 세포가 가지고 있는 구성요소이며, 세포 내부와 외부를 서로 구분해준다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%ED%8F%AC%EB%A7%89",
+            "search_query": "세포막",
+            "terminate": false,
+            "text": "간단하게, 모든 세포가 가지고 있는 구성요소 중 하나로, 세포막은 세포 내부, 외부를 구분하는 역할을 하지.",
+            "turn_id": "BK22006315-8",
+            "utterance_id": "BK22006315.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 세포질이라는 건 뭐야?",
+            "turn_id": "BK22006315-9",
+            "utterance_id": "BK22006315.17"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "세포질(細胞質, 영어: cytoplasm)은 세포 내부를 채우고 있는 균일하고, 일반적으로는 투명한 점액 형태의 물질이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%ED%8F%AC%EC%A7%88",
+            "search_query": "세포질",
+            "terminate": false,
+            "text": "세포질은 세포 내부를 채우고 있는 투명한 점액 형태의 물질인데 균일하게 이뤄져 있어.",
+            "turn_id": "BK22006315-9",
+            "utterance_id": "BK22006315.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도면 될 것 같아. 오늘 도와줘서 고마워. 난 알려준 내용 정리 좀 하고 올게.",
+            "turn_id": "BK22006315-10",
+            "utterance_id": "BK22006315.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제발 명절날 이러지 말자. 그래도 궁금한 게 있으면 언제든 물어봐. 그럼 이따 보자.",
+            "turn_id": "BK22006315-10",
+            "utterance_id": "BK22006315.20"
+        }
+    ]
+}

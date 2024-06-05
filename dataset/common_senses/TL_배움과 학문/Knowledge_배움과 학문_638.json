@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003845",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003845",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘이 초복이래요. 그래서 삼계탕을 먹기로 했는데, 초복의 정확한 뜻이 뭔가요?",
+            "turn_id": "BK22003845-1",
+            "utterance_id": "BK22003845.1"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "초복의 뜻은, 삼복(三伏) 가운데 첫 번째에 드는 복날을 말한다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1133121/?sc=Naver",
+            "search_query": "초복",
+            "terminate": false,
+            "text": "초복은 삼복중에 가장 첫 번째로 오는 복날이에요.",
+            "turn_id": "BK22003845-1",
+            "utterance_id": "BK22003845.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼복중에 첫 번째라는 건 두 번째 세 번째도 있다는 거네요. 다른 두 가지는 뭔가요?",
+            "turn_id": "BK22003845-2",
+            "utterance_id": "BK22003845.3"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "삼복'은 초복(初伏), 중복(中伏), 말복(末伏)으로 올해 중복 날짜는 26일, 말복은 8월 15일이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1133121/?sc=Naver",
+            "search_query": "삼복",
+            "terminate": false,
+            "text": "삼복은 초복, 중복, 말복으로 올해는 7월 26일이 중복 8월 15일이 말복이에요.",
+            "turn_id": "BK22003845-2",
+            "utterance_id": "BK22003845.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그러고 보니 복날이 언제부터 시작됐는지 궁금해지네요.",
+            "turn_id": "BK22003845-3",
+            "utterance_id": "BK22003845.5"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "복날의 유래는 중국 '사기(史記)'에서 확인할 수 있다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중국 진나라의 덕공이 음력 6월부터 7월 사이 세 번 여름 제사를 지내며 신하들에게 고기를 나눠 준 데서 유래됐다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2022071516107",
+            "search_query": "복날의 유래",
+            "terminate": false,
+            "text": "복날은 중국 진나라의 덕공이 음력 6월부터 7월 사이에 세 번 여름 제사를 지냈는데 그때 제사를 지냈던 고기를 신하들에게 나눠준 데에서 유래되었어요. 이 내용은 중국 사기에서 찾아볼 수 있어요.",
+            "turn_id": "BK22003845-3",
+            "utterance_id": "BK22003845.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 재미있네요. 그럼 복날의 복은 어떤 뜻이 담겨 있나요?",
+            "turn_id": "BK22003845-4",
+            "utterance_id": "BK22003845.7"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "복날의 '복(伏)'은 엎드리다, 굴복하다 등의 의미가 있다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "더운 양기가 강해 찬 음기가 땅으로 나오려다 엎드렸다는 뜻으로, 이처럼 가장 더운 시기에 땀을 흘려 허약해질 몸을 우려해 원기보충용 음식을 챙겨 먹곤 한다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2022071516107",
+            "search_query": "복날 굴복하다의 의미",
+            "terminate": false,
+            "text": "복날의 복자에는 엎드리다, 굴복하다의 뜻이 있는데요. 이건 찬 음기가 땅으로 나오려다가 강하고 더운 양기에 눌려 엎드렸다는 뜻이에요. 그래서 복날은 땀을 많이 흘려서 허약해질 가장 더운 시기에 우리 몸을 위해 원기를 보충할 수 있는 음식을 챙겨 먹는 날이기도 해요.",
+            "turn_id": "BK22003845-4",
+            "utterance_id": "BK22003845.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 다들 복날에 삼계탕을 먹는 거군요. 그런데 왜 삼계탕이 복날의 대표 음식이 된 건가요?",
+            "turn_id": "BK22003845-5",
+            "utterance_id": "BK22003845.9"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "동의보감에 '닭고기는 따뜻한 성질을 지닌 식품으로 오장을 안정시켜주고 몸 저항력을 키워준다'는 내용이 포함돼 있다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/WYXZ2h/673702",
+            "search_query": "복날 삼계탕 먹는 이유",
+            "terminate": false,
+            "text": "그 이유는 동의보감을 통해 알 수 있어요. 동의보감을 보면 닭고기는 따뜻한 성질을 지니고 있어 오장을 안정시켜주고 몸 저항력을 키워준다고 나와 있거든요. 그래서 이러한 효능을 갖는 삼계탕이 복날 대표 음식이 된 거예요.",
+            "turn_id": "BK22003845-5",
+            "utterance_id": "BK22003845.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그럼 삼계탕 말고 다른 보양식은 없나요?",
+            "turn_id": "BK22003845-6",
+            "utterance_id": "BK22003845.11"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "삼계탕 외에도 추어탕, 전복, 장어 등이 매년 복날 보양식으로 주목받는다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1133121/?sc=Naver",
+            "search_query": "복날 보양식",
+            "terminate": false,
+            "text": "삼계탕 외에도 추어탕이나, 전복, 장어 등 다른 보양식들도 있어요.",
+            "turn_id": "BK22003845-6",
+            "utterance_id": "BK22003845.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 삼계탕 말고도 많은 음식들이 있었군요. 그런데 삼계탕은 모든 사람들에게 다 잘 맞는 음식인 건가요?",
+            "turn_id": "BK22003845-7",
+            "utterance_id": "BK22003845.13"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "열이 많은 사람에게는 삼계탕보다 오리고기가 적절하다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오리는 닭과 반대로 찬 성질을 가지고 있어 여름에 더위를 많이 타는 사람들에게 제격이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailian.co.kr/news/view/1133121/?sc=Naver",
+            "search_query": "삼계탕보다 오리고기",
+            "terminate": false,
+            "text": "삼계탕은 열이 많은 사람에겐 그다지 추천하지 않아요. 삼계탕보다는 오리고기를 추천해요. 오리는 닭과 반대로 찬 성질을 가지고 있기 때문에 몸에 열이 많은 사람에게는 닭보다 좋아요.",
+            "turn_id": "BK22003845-7",
+            "utterance_id": "BK22003845.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 체질에 따라 맞지 않는 음식도 있군요. 또 궁금한 게 있는데, 복날은 몸에 좋은 음식만 먹는 날인가요?",
+            "turn_id": "BK22003845-8",
+            "utterance_id": "BK22003845.15"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "복날 각 지방에서는 술과 음식을 마련해 계곡이나 산으로 놀러가는 풍습도 있었다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일례로 서울에서는 삼청동 성조우물물을 마시고 계곡물에 머리를 감거나 목욕을 하며 하루를 즐겁게 보내기도 했다고 한다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbiznews.co.kr/news/articleView.html?idxno=91696",
+            "search_query": "복날 풍습",
+            "terminate": false,
+            "text": "복날에는 예로부터 각 지방에서 술과 먹을 것들을 가지고 산이나 계곡으로 놀러 다니곤 했어요. 한 가지 예로 서울에서는 삼청동 성조 우물물을 마시고 계곡물에 머리를 감거나 목욕을 하면서 복날을 즐겼다고 해요.",
+            "turn_id": "BK22003845-8",
+            "utterance_id": "BK22003845.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 저도 오늘 하루 즐겁게 놀고 몸에 좋은 음식 먹으며 복날을 즐겨야겠어요.",
+            "turn_id": "BK22003845-9",
+            "utterance_id": "BK22003845.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 무더운 날씨지만 즐겁고 건강한 하루가 되었으면 좋겠네요.",
+            "turn_id": "BK22003845-9",
+            "utterance_id": "BK22003845.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 좋은 정보 너무 감사드려요.",
+            "turn_id": "BK22003845-10",
+            "utterance_id": "BK22003845.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요. 더 궁금한 점 있으면 언제든지 또 물어보세요.",
+            "turn_id": "BK22003845-10",
+            "utterance_id": "BK22003845.20"
+        }
+    ]
+}

@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003833",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003833",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이집트에 관한 다큐멘터리를 봤는데 이집트는 정말 이국적인 국가인 것 같아요.",
+            "turn_id": "BK22003833-1",
+            "utterance_id": "BK22003833.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다큐멘터리에서 어떤 내용을 보여주든가요?",
+            "turn_id": "BK22003833-1",
+            "utterance_id": "BK22003833.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네페르티티 흉상에 대한 내용이었어요. 그런데 이집트 역사를 모르니까 설명을 들어도 이해가 잘 안 가더라고요. 네페르티티가 사람인 거죠?",
+            "turn_id": "BK22003833-2",
+            "utterance_id": "BK22003833.3"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "흉상의 주인공은 이집트 제18왕조의 파라오인 아크나톤의 왕비이자 투탕카멘의 양어머니 네페르티티로, 이 흉상은 이집트 최고의 걸작 중 하나로 평가받고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2021120216293570195",
+            "search_query": "네페르티티 흉상",
+            "terminate": false,
+            "text": "이집트 최고 걸작 중 하나인 네페르티티 흉상의 주인공은 투탕카멘의 양어머니이자 이집트 제18왕조인 파라오 아크나톤의 왕비인 네페르티티예요.",
+            "turn_id": "BK22003833-2",
+            "utterance_id": "BK22003833.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 왕비가 그 흉상의 주인공이었군요. 왕비는 어떤 사람이었나요?",
+            "turn_id": "BK22003833-3",
+            "utterance_id": "BK22003833.5"
+        },
+        {
+            "reference_date": "2015-10-01",
+            "reference_text": [
+                {
+                    "value": "다신교 시대에 아톤신 유일신앙을 주장하며 남편과 함께 ‘종교개혁’을 단행한 주역이기도 했다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "네페르티티는 15살에 결혼해 여섯 딸과 외아들을 뒀다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "네페르티티와 투탕카문의 관계는 확실치 않다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "투탕카문은 아케나톤 직후, 혹은 그 다음의 파라오였는데 선대 왕의 종교개혁을 뒤집어 아문을 최고신으로 섬기는 다신교 체제로 복귀시켰다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/mideast-africa/article/201509302230315",
+            "search_query": "네페르티티",
+            "terminate": false,
+            "text": "네페르티티 왕비는 15살에 결혼을 해 슬하에 딸 여섯 명, 아들 한 명을 두었어요. 네페르티티 왕비와 투탕카멘의 관계는 확실히 알려진 바 없으나 투탕카멘은 아케나톤 직후 혹은 그 다음의 파라오였어요. 이들은 네페르티티와 그녀의 남편이 아톤신 유일신앙을 주장하며 일으킨 종교개혁을 뒤집고, 최고신을 아문이라 섬기는 다신교 체제로 복귀시켰어요. 그녀와 그녀의 남편은 종교개혁을 단행한 인물이었던 거죠.",
+            "turn_id": "BK22003833-3",
+            "utterance_id": "BK22003833.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단한 사람이었군요. 그런데 다큐멘터리에서 다른 나라 사람이 흉상을 찾았다는데 그게 누구인가요?",
+            "turn_id": "BK22003833-4",
+            "utterance_id": "BK22003833.7"
+        },
+        {
+            "reference_date": "2015-10-08",
+            "reference_text": [
+                {
+                    "value": "1914년 독일인인 루트비히 보르하르트가 발굴해서 독일로 냉큼 밀반출한 흉상의 주인공이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/yeojeok/article/201510011722301",
+            "search_query": "네페르티티 흉상 발굴",
+            "terminate": false,
+            "text": "독일인 루트비히 보르하르트가 1914년 발굴하여 독일로 밀반출했어요.",
+            "turn_id": "BK22003833-4",
+            "utterance_id": "BK22003833.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 맞아요, 독일인이었어요. 네페르티티 흉상의 사진은 보지 못했는데 어떻게 생겼나요?",
+            "turn_id": "BK22003833-5",
+            "utterance_id": "BK22003833.9"
+        },
+        {
+            "reference_date": "2019-11-26",
+            "reference_text": [
+                {
+                    "value": "이집트 파라오 시대의 왕비인 네페르티티의 흉상은 석회석에 채색토를 입힌 약 50㎝ 높이의 흉상으로, 왼쪽 눈동자가 미완성 상태로 남겨졌음에도 불구하고 당대 최고의 걸작으로 평가받는 고대 이집트 유물이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20191126601008&wlog_tag3=naver",
+            "search_query": "네페르티티 흉상 보존",
+            "terminate": false,
+            "text": "네페르티티 흉상은 약 50센티미터의 높이로 만들어졌어요. 그리고 석회석에 채색토를 입혀 만들어졌죠. 흉상의 왼쪽 눈동자가 완성되지 못한 상태로 남겨졌지만, 당대 이집트의 유물 중 최고 걸작으로 평가받고 있어요.",
+            "turn_id": "BK22003833-5",
+            "utterance_id": "BK22003833.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한번 인터넷에 어떻게 생긴 흉상인지 찾아봐야겠어요. 그런데 네페르티티는 어디에 묻혀있나요?",
+            "turn_id": "BK22003833-6",
+            "utterance_id": "BK22003833.11"
+        },
+        {
+            "reference_date": "2016-03-17",
+            "reference_text": [
+                {
+                    "value": "네페르티티 묘 발견은 이집트 고대유물 당국과 이집트학 학자들의 오랜 꿈이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0010456701&code=61131111&cp=nv",
+            "search_query": "네페르티티 묘",
+            "terminate": false,
+            "text": "아쉽게도 네페르티티의 묘를 찾는 건 이집트학 학자들과 이집트 고대유물 당국의 오랜 바램이에요.",
+            "turn_id": "BK22003833-6",
+            "utterance_id": "BK22003833.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아직 못 찾았네요. 그런데 어떤 학자가 어디에 묻혀있을 거라고 말하는 이야기가 있던데요?",
+            "turn_id": "BK22003833-7",
+            "utterance_id": "BK22003833.13"
+        },
+        {
+            "reference_date": "2016-03-17",
+            "reference_text": [
+                {
+                    "value": "영국의 유명 고고학자 니콜러스 리브스는 지난해 8월 투탕카멘의 무덤에 그의 아버지 아크나톤의 부인이자 이집트 전설의 미녀인 네페르티티 왕비의 묘실이 있다는 가설을 내놨다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2605977",
+            "search_query": "네페르티티 묘 가설",
+            "terminate": false,
+            "text": "지난해 8월 니콜러스 리브스라는 영국의 유명 고고학자가 있는데, 니콜러스는 투탕카멘의 무덤에 네페르티티 왕비와 그녀의 남편 아크나톤의 묘실이 있을 거라는 가설을 내놓은 적이 있어요.",
+            "turn_id": "BK22003833-7",
+            "utterance_id": "BK22003833.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영국인 학자 말고 이집트 정부에서도 네페르티티 묘에 대해 발표한 적이 있지 않나요?",
+            "turn_id": "BK22003833-8",
+            "utterance_id": "BK22003833.15"
+        },
+        {
+            "reference_date": "2016-05-13",
+            "reference_text": [
+                {
+                    "value": "실제 투탕카멘의 묘를 레이더로 스캐닝한 결과, 묘 내부에 숨겨진 방이 있을 가능성이 90%에 달한다는 이집트 정부의 공식 발표도 있었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20160513601019",
+            "search_query": "네페르티티 묘 가설",
+            "terminate": false,
+            "text": "맞아요, 이집트 정부가 투탕카멘 묘 내부에 공간이 있을 가능성이 90퍼센트라고 공식적으로 발표한 적 있어요. 확인을 위해 투탕카멘의 묘를 레이더를 사용해 스캐닝했었거든요.",
+            "turn_id": "BK22003833-8",
+            "utterance_id": "BK22003833.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 결론은 어떻게 됐나요? 실제로 투탕카멘 묘 내부에 공간이 있었나요?",
+            "turn_id": "BK22003833-9",
+            "utterance_id": "BK22003833.17"
+        },
+        {
+            "reference_date": "2018-05-07",
+            "reference_text": [
+                {
+                    "value": "3차례에 걸쳐 레이더로 벽을 스캔해서 데이터들을 상호 체크했지만, 묘실 뒤에 어떤 공간이 존재한다는 증거를 찾지 못했다는 것이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20180507_0000301448&cID=10101&pID=10100",
+            "search_query": "투탕카멘 묘 내실",
+            "terminate": false,
+            "text": "아니요, 레이더로 벽을 3차례 스캔하여 데이터를 상호 확인했지만 묘실 뒤에 공간이 있다는 증거를 발견하지 못했어요.",
+            "turn_id": "BK22003833-9",
+            "utterance_id": "BK22003833.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 너무 아쉽네요. 투탕카멘 묘 뒤에 내실이 있었다면 뭔가 발견이 많이 됐을텐데요.",
+            "turn_id": "BK22003833-10",
+            "utterance_id": "BK22003833.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이집트 역사를 정말 좋아하나 보네요. 다음에 같이 이집트 다큐멘터리 영상 봐요.",
+            "turn_id": "BK22003833-10",
+            "utterance_id": "BK22003833.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 좋아요, 다음에 뵈어요.",
+            "turn_id": "BK22003833-11",
+            "utterance_id": "BK22003833.21"
+        }
+    ]
+}

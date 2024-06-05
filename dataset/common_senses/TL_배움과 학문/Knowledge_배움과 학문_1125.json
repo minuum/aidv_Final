@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007449",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007449",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 하와이로 신혼여행을 다녀왔는데요. 가기 전에 미국 비자가 필요하다고 해서 깜짝 놀랐잖아요. 하와이가 미국 땅인가요?",
+            "turn_id": "BK22007449-1",
+            "utterance_id": "BK22007449.1"
+        },
+        {
+            "reference_date": "2016-05-17",
+            "reference_text": [
+                {
+                    "value": "하와이는 1898년 미국령에 편입됐고, 1959년 미국의 50번째 주가 됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20160517004700075?input=1195m",
+            "search_query": "하와이 미국령",
+            "terminate": false,
+            "text": "그렇죠, 1898년에 미국령에 편입된 하와이가 1959년에는 미국의 50번째 주가 되었으니까요.",
+            "turn_id": "BK22007449-1",
+            "utterance_id": "BK22007449.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 하와이가 미국의 주인 걸 몰랐거든요. 근데 하와이는 영어 외에 다른 언어도 쓰나 봐요. 거리 표지판이 영어랑은 좀 다른 것 같던데 왜 인가요?",
+            "turn_id": "BK22007449-2",
+            "utterance_id": "BK22007449.3"
+        },
+        {
+            "reference_date": "2019-07-21",
+            "reference_text": [
+                {
+                    "value": "두 번째 의문에 대한 대답, 하와이 고유 언어는 글자가 12개다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자음이 7개(H, K, L, M, N, P, W), 모음이 5개(A, E, I, O, U)이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오래된 거리 사인은 모두 이 12글자로 표시돼 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2019/07/21/society/opinion/7445467.html",
+            "search_query": "하와이 언어",
+            "terminate": false,
+            "text": "모두 12글자로 표시되어있는 오래된 거리 사인을 보셨나 봐요. 하와이의 고유 언어는 H, K, L, M, N, P, W 이렇게 7개의 자음과 A, E, I, O, U 5개의 모음으로 되어서 총 12개거든요.",
+            "turn_id": "BK22007449-2",
+            "utterance_id": "BK22007449.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 사용하는 알파벳보다 훨씬 적은 숫자네요. 저는 하와이가 이렇게 큰 줄 몰랐어요. 우리나라 제주도보다 훨씬 크던데 규모가 어떻게 되나요?",
+            "turn_id": "BK22007449-3",
+            "utterance_id": "BK22007449.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "하와이섬, 마우이섬, 오아후섬, 카우아이섬, 몰로카이섬 등의 주요 8개의 섬과 100개 이상의 작은 섬으로 구성되어 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총 면적은 대한민국의 약 28% 정도인 28311km2이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%EC%99%80%EC%9D%B4%EC%A3%BC",
+            "search_query": "하와이주",
+            "terminate": false,
+            "text": "하와이의 총면적은 28311 제곱킬로미터에요. 우리나라 영토의 약 28%에 해당하는 규모랍니다. 그리고 100개 이상의 작은 섬으로 구성되어 있는데 하와이섬, 마우이섬, 오하우섬, 카우아이섬, 몰로카이섬 등이 주요 8개 섬에 해당돼요.",
+            "turn_id": "BK22007449-3",
+            "utterance_id": "BK22007449.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 하와이가 엄청 크군요. 8개의 주요 섬 중에 가장 큰 섬은 어디에요?",
+            "turn_id": "BK22007449-4",
+            "utterance_id": "BK22007449.7"
+        },
+        {
+            "reference_date": "2016-04-29",
+            "reference_text": [
+                {
+                    "value": "하와이 섬은 힐로라는 주요 도시가 속한 가장 큰 섬으로 빅 아일랜드라는 별칭을 갖고 있으며, 호놀룰루나 와이키키 해변이 있는 우리가 알고 있는 하와이는 사실 오아후 섬에 존재합니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/04/29/society/opinion/4226712.html",
+            "search_query": "하와이에서 제일 큰 섬",
+            "terminate": false,
+            "text": "가장 큰 섬은 빅 아일랜드라는 별칭을 가지고 있는 하와이섬이에요. 대부분 호놀룰루나 와이키키 해변을 하와이라고 알고 있는데 사실은 오아후섬에 있는 거예요.",
+            "turn_id": "BK22007449-4",
+            "utterance_id": "BK22007449.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와이키키 해변이 오아후섬에 있는거였군요. 그런데 하와이에는 일본인들이 정말 많던데 왜 그런가요?",
+            "turn_id": "BK22007449-5",
+            "utterance_id": "BK22007449.9"
+        },
+        {
+            "reference_date": "2020-01-13",
+            "reference_text": [
+                {
+                    "value": "하와이엔 유독 일본인의 비율이 높은데, 이들 대다수는 힘든 일본에서의 삶을 뒤로 하고 보다 나은 삶을 찾아 하와이로 이주한 이들이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과거 1920년대에는 전체 인구의 43%에 달할 정도였으며 2000년 기준 약 16.7%다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2020010614143490041",
+            "search_query": "하와이 일본인 많은 이유",
+            "terminate": false,
+            "text": "하와이에 유독 일본인들이 많이 있죠? 그들 대다수는 일본보다 더 나은 삶을 찾아서 하와이로 이주한 분들이에요. 1920년대에는 하와이 전체 인구 중에 일본인이 43%나 되었어요. 2000년 기준에는 약 16.7%로 줄어들긴 했지만요.",
+            "turn_id": "BK22007449-5",
+            "utterance_id": "BK22007449.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 일본인들이 하와이에 많은 거였군요. 우리나라 사람들도 하와이 이민을 많이 하던데 처음 간 게 언제인가요?",
+            "turn_id": "BK22007449-6",
+            "utterance_id": "BK22007449.11"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "‘하와이 이민’은 정부가 인정한 최초의 이민이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1902년부터 3년간 64차례에 걸쳐 7415명의 한국인이 하와이로 향했다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1383772",
+            "search_query": "하와이 한국인",
+            "terminate": false,
+            "text": "1902년부터 7415명의 한국인이 갔는데 3년간 64차례에 걸쳐서 간 숫자랍니다. 정부가 최초로 인정한 이민이 바로 하와이거든요.",
+            "turn_id": "BK22007449-6",
+            "utterance_id": "BK22007449.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하와이 이민의 역사가 100년도 더 되었군요. 근데 그분들은 무슨 이유로 그 먼 곳까지 가게 된 거예요?",
+            "turn_id": "BK22007449-7",
+            "utterance_id": "BK22007449.13"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "1903~1905년 하와이 한인 1세대 이민자의 삶이 시작됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사탕수수 농장 등에서 일하려고 먼저 바다를 건넌 이들은 남성이 대다수였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이어 이들 남성과 사진을 주고받고 결혼까지 결정한 '사진신부' 700여 명이 1910~1924년 가족 자격으로 하와이 땅을 밟았다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idomin.com/news/articleView.html?idxno=803338",
+            "search_query": "구한말 한인 하와이 이민",
+            "terminate": false,
+            "text": "하와이 한인 1세대 이민자의 삶이 시작된 건 1903년에서 1905년 사이인데요. 이때는 사탕수수 농장 등에서 노동하려고 온 남성이 대다수였어요. 그 후 1910년에서 1924년 사이에 이들과 결혼한 신부 700여 명이 가족 자격으로 하와이에 오게 되었고요. 이 신부들을 사진 신부라고 했었는데 이유가 남성들과 사진을 주고받은 후에 결혼을 결정한 거라서 그렇게 부르게 되었어요.",
+            "turn_id": "BK22007449-7",
+            "utterance_id": "BK22007449.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사진만 보고 결혼을 결정하다니 지금으로서는 상상이 안 되네요. 근데 하와이 길을 걷다 보면 노숙자가 정말 많던데 왜 그렇죠?",
+            "turn_id": "BK22007449-8",
+            "utterance_id": "BK22007449.15"
+        },
+        {
+            "reference_date": "2015-11-04",
+            "reference_text": [
+                {
+                    "value": "인구수가 약 140만명인 하와이의 노숙자 수는 올해 기준으로 약 7,620명으로 집계됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하와이에 노숙자가 증가하는 데는 일차적으로 저임금과 고물가, 막대한 주거비용 등 사회구조적 원인이 크다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201511041469454411",
+            "search_query": "하와이의 노숙자 수",
+            "terminate": false,
+            "text": "하와이에 노숙자가 많은 이유는 사회구조적인 원인이 큰데 주거비용과 물가는 비싼데 임금은 낮아서 그런 거죠. 2015년에는 하와이의 총인구수가 약 140만명이었는데 노숙자 수가 약 7,620명이었어요.",
+            "turn_id": "BK22007449-8",
+            "utterance_id": "BK22007449.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청나게 많은 숫자의 노숙자들이 있군요. 아름다운 하와이의 뒷면을 본 기분이었어요.",
+            "turn_id": "BK22007449-9",
+            "utterance_id": "BK22007449.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 그런 기분 느낄 수 있죠.",
+            "turn_id": "BK22007449-9",
+            "utterance_id": "BK22007449.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 이만 신혼여행에서 찍은 사진 정리하러 가볼게요. 오늘 대화 즐거웠습니다.",
+            "turn_id": "BK22007449-10",
+            "utterance_id": "BK22007449.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 사진 정리 잘하시고 오늘 하루도 즐겁게 보내세요.",
+            "turn_id": "BK22007449-10",
+            "utterance_id": "BK22007449.20"
+        }
+    ]
+}

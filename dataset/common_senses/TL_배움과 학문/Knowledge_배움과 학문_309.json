@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013131",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013131",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 중국이 대만을 침공할지도 모른다는 뉴스가 나오고 있더라고요.",
+            "turn_id": "BK22013131-1",
+            "utterance_id": "BK22013131.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래서 국제적으로 긴장감이 돌고 있죠.",
+            "turn_id": "BK22013131-1",
+            "utterance_id": "BK22013131.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중국과 대만의 갈등을 보며 대만의 역사에 관해 이것저것 궁금한 게 생겼는데요. 역사적으로 살펴볼 때, 언제 최초로 대만이 문헌에 등장했나요?",
+            "turn_id": "BK22013131-2",
+            "utterance_id": "BK22013131.3"
+        },
+        {
+            "reference_date": "44818.0",
+            "reference_text": [
+                {
+                    "value": "타이완이 역사 기록에 본격적으로 등장한 것은 1624년 네덜란드 상인들이 타이완섬에 진출하면서 시작되었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물론, 그 이전 시기에도 타이완 원주민들이 정주, 생활하여 왔다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%EC%99%84",
+            "search_query": "대만",
+            "terminate": false,
+            "text": "1624년 네덜란드 상인들이 타이완섬에 들어오면서 본격적으로 역사 기록에 등장하기 시작했습니다. 물론 그 이전에도 정주하여 생활하고 있던 대만 원주민들이 있었고요.",
+            "turn_id": "BK22013131-2",
+            "utterance_id": "BK22013131.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문헌상으로는 400년 전에 처음 기록이 된 거군요. 그럼 그 전후로 중국 본토에서는 관료를 파견한다거나, 통치 기구를 세워서 대만을 다스렸나요?",
+            "turn_id": "BK22013131-3",
+            "utterance_id": "BK22013131.5"
+        },
+        {
+            "reference_date": "44818.0",
+            "reference_text": [
+                {
+                    "value": "13세기 후반 원나라가 펑후 제도에 행정 기관을 설치했다는 기록은 있지만 타이완섬을 통치했다는 기록은 남아있지 않다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 뒤, 한족 등이 세운 명나라가 펑후 제도를 차지 했지만, 역시 타이완섬은 별도로 다스리지 않았던 것으로 보인다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%EC%99%84",
+            "search_query": "타이완섬 통치",
+            "terminate": false,
+            "text": "13세기 후반 당시 원나라 펑후 제도에 행정기관을 두었다는 기록은 존재하지만, 타이완섬을 다스렸다는 기록은 전해지지 않습니다. 그 후 한족 등이 건립한 명나라가 펑후 제도를 장악했지만, 역시 타이완섬을 별도로 통치하지 않은 것으로 보고 있습니다.",
+            "turn_id": "BK22013131-3",
+            "utterance_id": "BK22013131.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 네덜란드가 진출했을 당시 대만은 사실상 주인 없는 섬이었군요. 그러면 네덜란드는 이후 대만을 어떻게 했나요?",
+            "turn_id": "BK22013131-4",
+            "utterance_id": "BK22013131.7"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "대만에 가장 먼저 도착한 사람은 서양인은 포르투갈 상인이었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 대만의 아름다운 풍광에 반해 '아름다운 섬'이라는 뜻의 'Formosa'라고 불렀다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포르모사를 가장 먼저 식민지로 삼은 나라는 네덜란드다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "네덜란드 포르모사'는 1624년부터 1662년까지 38년간 지속된다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4789375",
+            "search_query": "대만 네덜란드 식민지",
+            "terminate": false,
+            "text": "사실 포르투갈 상인이 서양인 중에서 대만에 가장 먼저 들어왔는데요. 이들은 대만의 아름다운 풍경을 보고 아름다운 섬이라는 뜻을 가진 포르모사라는 이름을 붙였습니다. 그리고 네덜란드가 이 대만을 가장 먼저 식민지로 삼아, 1624년부터 1662년까지 38년간 지배했습니다.",
+            "turn_id": "BK22013131-4",
+            "utterance_id": "BK22013131.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 그 후에 대만 역사는 어떻게 전개되었나요?",
+            "turn_id": "BK22013131-5",
+            "utterance_id": "BK22013131.9"
+        },
+        {
+            "reference_date": "43617.0",
+            "reference_text": [
+                {
+                    "value": "1662년 명나라 유신이자 중국 남동부 해상세력이었던 정성공(鄭成功, 1624~1662년)이 네덜란드를 쫓아내고 대만에 한족 왕국을 세웠고, 1683년 청나라가 대만의 정씨 왕국을 멸망시킴으로써 본격적으로 중국 영토가 되었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=435",
+            "search_query": "정성공 네덜란드",
+            "terminate": false,
+            "text": "네덜란드가 1662년 멸망한 명나라를 여전히 섬기던 신하이자 중국 남동부의 해상세력이었던 정성공에게 쫓겨난 이후 대만에는 한족의 왕국이 건립됩니다. 그 후 1683년 청나라가 대만이 한족 왕국이었던 정 씨 왕국을 함락시키면서, 대만은 본격적으로 중국의 영토로 편입되었죠.",
+            "turn_id": "BK22013131-5",
+            "utterance_id": "BK22013131.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 그건 그렇고 중국 공산당 정권 수립 전부터 살고 있던 사람들을 본성인이라고 하던데, 대만에서 본성인은 정확히 어떤 개념인가요?",
+            "turn_id": "BK22013131-6",
+            "utterance_id": "BK22013131.11"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "본성인(本省人)은 1945년 일본이 패전하기 전에 타이완으로 건너온 한족과 그들의 후손을 뜻한다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "타이완 원주민과는 구분된다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%B8%EC%84%B1%EC%9D%B8",
+            "search_query": "본성인",
+            "terminate": false,
+            "text": "본성인은 1945년 일본이 전쟁에서 패하기 전에 대만으로 이주한 한족과 그 후손을 의미합니다. 대만 원주민과는 별도로 치고요.",
+            "turn_id": "BK22013131-6",
+            "utterance_id": "BK22013131.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 네덜란드 식민지 시기나 청나라가 대만을 편입시켰던 시기부터 살아온 사람도 있겠군요. 그런데 본성인이 타이완 원주민과 다르다고 하셨잖아요. 그러면 본성인 그룹은 어떻게 형성된 건가요?",
+            "turn_id": "BK22013131-7",
+            "utterance_id": "BK22013131.13"
+        },
+        {
+            "reference_date": "44818.0",
+            "reference_text": [
+                {
+                    "value": "네덜란드 동인도 회사는 농사를 짓기 위해 푸젠성, 광둥성에서 사는 한족들을 모집해 타이완으로 이주시켜 농업에 종사하게 하였는데, 이들이 타이완에 정착하면서 현대정치에서 본성인 그룹을 형성하게 된다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중국 대륙에서 한족 남성이 유입되면서 원주민 여성과의 결혼 빈도가 늘어나 자연스럽게 타이완만의 독특한 혈통이 형성되었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%EC%99%84",
+            "search_query": "네덜란드 본성인",
+            "terminate": false,
+            "text": "네덜란드 동인도 회사에서 농경을 목적으로 푸젠성과 광둥성에 거주하던 한족들을 모집하여 대만으로 이주시킨 후 농사에 투입했습니다. 이렇게 대만에 건너온 이들이 대만에 정착하면서, 현대정치의 본성인 집단을 이루게 되었죠. 또 중국 본토의 한족 남성이 대만으로 들어오면서 원주민 여성과 혼인하는 사례도 늘어났고, 그로 인해 자연스럽게 대만만의 독특한 혈통이 만들어졌습니다.",
+            "turn_id": "BK22013131-7",
+            "utterance_id": "BK22013131.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어찌 보면 본성인은 대만 토박이라기보다는, 네덜란드 식민 지배의 유산이군요. 나중에 19세기 말부터 대만이 일본의 식민 지배받았다고 들었는데, 왜 다시 청나라에서 일본으로 지배권이 넘어간 건가요?",
+            "turn_id": "BK22013131-8",
+            "utterance_id": "BK22013131.15"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "1895년 4월 17일, 청나라가 청일전쟁에서 패하면서 체결된 시모노세키 조약으로 타이완섬과 펑후 제도는 일제에 할양되었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일제는 타이완에 총독부를 설치하고 50년간 타이완 주민들을 식민지배했다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9D%B4%EC%99%84%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "시모노세키 조약",
+            "terminate": false,
+            "text": "청나라가 청일전쟁에서 지면서 1895년 4월 17일 시모노세키 조약이 체결되는데요. 이 조약으로 청나라의 영토였던 타이완섬과 펑후 제도가 일본으로 넘어가게 되었습니다. 이후 일본은 대만에 총독부를 두고 대만을 식민지로 삼아 50년 동안 대만 주민들을 지배했죠.",
+            "turn_id": "BK22013131-8",
+            "utterance_id": "BK22013131.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청일전쟁에서 패한 대가로 대만이 일본에 넘어간 거였군요. 마지막으로 지금과 같은 대만 건국을 두고 국부천대라고 표현하던데, 국부천대가 무슨 뜻인가요?",
+            "turn_id": "BK22013131-9",
+            "utterance_id": "BK22013131.17"
+        },
+        {
+            "reference_date": "44706.0",
+            "reference_text": [
+                {
+                    "value": "국부천대(國府遷臺, 영어: retreat of the Republic of China to Taiwan, Kuomintang's retreat to Taiwan, The Great Retreat)는 '국민당정부 대만 파천'의 약어로서 한때 중국의 유일합법정부였던 중화민국 정부가 중국 공산당 세력에게 밀려 대륙에서 타이완 섬으로 철수한 사건을 일컫는다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때 약 2백만 명에 달하는 중화민국의 정부 수반들, 그리고 국민당 당원 및 지지자들이 진격해오는 인민해방군을 피하여 타이완 섬으로 이주하였다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EB%B6%80%EC%B2%9C%EB%8C%80",
+            "search_query": "국부천대",
+            "terminate": false,
+            "text": "국부천대는 국민당 정부 대만 파천을 줄인 말입니다. 한때 중국 내에서 유일한 합법정부였던 중화민국 정부가 중국 공산당 세력에게 밀려 중국 본토에서 타이완섬으로 물러나게 된 사건을 의미합니다. 이때 진격해 오던 인민 해방군을 피해 타이완섬으로 옮겨온 이들은 중화민국의 정부 수반들과 국민당 당원 및 지지자들로서 약 2백만 명에 육박했습니다.",
+            "turn_id": "BK22013131-9",
+            "utterance_id": "BK22013131.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 때 옮겨온 이들이 본성인과 대비되는 외성인을 이루고 있겠군요. 오늘은 대만 건국 때까지의 역사를 알게 된 시간이었네요. 그러면 저는 이만 들어가 보겠습니다.",
+            "turn_id": "BK22013131-10",
+            "utterance_id": "BK22013131.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나서 이야기 나눠요.",
+            "turn_id": "BK22013131-10",
+            "utterance_id": "BK22013131.20"
+        }
+    ]
+}

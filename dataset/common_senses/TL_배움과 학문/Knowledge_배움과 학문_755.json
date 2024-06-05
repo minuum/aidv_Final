@@ -1,0 +1,407 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004940",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004940",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 주말에 친구와 아쿠아리움을 갈 계획이야.",
+            "turn_id": "BK22004940-1",
+            "utterance_id": "BK22004940.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아쿠아리움이라니 정말 재미있겠다. 다양한 동물을 보고 올 수 있겠네. 네가 제일 기대하는 동물은 어떤 동물이야?",
+            "turn_id": "BK22004940-1",
+            "utterance_id": "BK22004940.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 펭귄이 제일 기대돼. 그나저나 나는 펭귄이 추운데서만 사는 줄 알아서 아쿠아리움에서 어떻게 지내나 생각했는데, 남극이 아닌 곳에서도 사는 펭귄이 있다며?",
+            "turn_id": "BK22004940-2",
+            "utterance_id": "BK22004940.3"
+        },
+        {
+            "reference_date": "2016-01-27",
+            "reference_text": [
+                {
+                    "value": "극지방에 살지 않는 대표적인 펭귄종이 아프리카펭귄이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘더운 아프리카에 무슨 펭귄이야’라고 의문을 가질지 모르지만, 아프리카에서 가장 기온이 낮은 남아프리카공화국 최남단 케이프타운 볼더스비치(Boulders Beach)에 가면 인간의 보호속에 자연서식하는 아프리카펭귄을 볼 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160127000379",
+            "search_query": "아프리카 펭귄",
+            "terminate": false,
+            "text": "맞아. 극지방에 살지 않는 펭귄도 있는데 대표적으로 아프리카 펭귄이 있어. 아프리카의 남아프리카 공화국 최남단에 케이프타운 볼더스 비치라는 곳이 있거든. 그 곳은 아프리카에서 가장 기온이 낮은 곳인데, 거기에서 인간의 보호를 받으며 자연 서식하는 아프리카 펭귄을 직접 볼 수 있어.",
+            "turn_id": "BK22004940-2",
+            "utterance_id": "BK22004940.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 신기해. 나는 그동안 펭귄이라고 하면 추운 곳에서만 사는 동물인 줄 알았거든. 그럼 아프리카 펭귄은 주로 남아공 볼더스 비치에서 주로 사는거야?",
+            "turn_id": "BK22004940-3",
+            "utterance_id": "BK22004940.5"
+        },
+        {
+            "reference_date": "2017-06-26",
+            "reference_text": [
+                {
+                    "value": "펭귄은 주로 남극에 산다고 알려져 있지만 아프리칸 펭귄은 수온 10~20도의 아프리카 남서부 해안에 주로 서식한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성체 크기는 극지방 황제펭귄의 새끼 보다도 크지 않다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸 길이 70cm, 몸무게는 2~5㎏이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가슴을 가로지르는 검은 띠 아래로 작은 점들이 퍼져있는데, 펭귄 마다 다르다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람의 지문 같은 것이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20170626000759",
+            "search_query": "아프리카 펭귄 특징",
+            "terminate": false,
+            "text": "맞아. 아프리카 펭귄은 수온 10도에서 20도 사이의 아프리카 남서부 해안에서 주로 살고 있어. 추가로 아프리카 펭귄의 특징에 대해 설명하자면, 극지방에 사는 황제펭귄의 새끼보다 아프리카 펭귄의 성체가 더 작아. 몸 길이는 70센티미터고 몸무게는 2에서 5키로 정도에 불과해. 가슴에는 검은 띠가 있고 그 아래로 점들이 퍼져있는데, 펭귄 마다 무늬가 달라서 사람의 지문같은 역할을 해.",
+            "turn_id": "BK22004940-3",
+            "utterance_id": "BK22004940.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그나저나 사람들의 보호를 받으면서 자연 서식한다고 했잖아. 아프리카 펭귄 개체 수가 위협받는 일은 없을까?",
+            "turn_id": "BK22004940-4",
+            "utterance_id": "BK22004940.7"
+        },
+        {
+            "reference_date": "2019-11-10",
+            "reference_text": [
+                {
+                    "value": "자카스란 이름은 울음소리가 수탕나귀와 비슷하다는 데서 연유했지만 울음소리가 같은 남미 펭귄과 구분하기 위해 아프리카 펭귄 혹은 케이프 펭귄이라 부르기도 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한때 백인들이 펭귄알을 요리해 먹는 바람에 멸종 위기에 처하기도 했지만, 1982년부터 보호 운동을 시작해 볼더스 비치가 펭귄 보호 구역이 됐다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 놀라운 건, 1982년 이곳에 펭귄 2마리를 방사했는데 지금은 3000여 마리의 펭귄이 살고 있단다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2019111064131",
+            "search_query": "자카스 펭귄",
+            "terminate": false,
+            "text": "예전에는 백인들이 펭귄알 요리를 해먹은 적이 있어서 멸종위기에 처한 적도 있었어. 그렇지만 1982년부터 보호 운동을 시작하면서 볼더스 비치가 펭귄 보호 구역이 되었어. 그러면서 같은 해에 펭귄 두 마리를 방사했는데 현재는 3000마리의 펭귄이 살고있어. 참고로 아프리카 펭귄은 수컷 당나귀와 울음소리가 닮아 자카스 펭귄이라고도 하는데 남미 펭귄이랑 구분하기 위해 아프리카 펭귄 또는 케이프 펭귄이라고 부르기도 해.",
+            "turn_id": "BK22004940-4",
+            "utterance_id": "BK22004940.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 방금 말한 남미펭귄은 남미에 사는 펭귄이야?",
+            "turn_id": "BK22004940-5",
+            "utterance_id": "BK22004940.9"
+        },
+        {
+            "reference_date": "2018-09-22",
+            "reference_text": [
+                {
+                    "value": "한편 훔볼트펭귄은 남극에 사는 펭귄과 달리 온난한 남아메리카의 페루와 칠레 해안에 서식하며 몸 길이는 약 60~65cm, 평균 수명은 약 15~30년이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털갈이 후 성인이 되면 머리와 가슴 쪽에 검은 띠를 두르고 있는 것이 특징이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsculture.press/news/articleView.html?idxno=66931",
+            "search_query": "훔볼트 펭귄 특징",
+            "terminate": false,
+            "text": "맞아. 훔볼트 펭귄이라고 하는 이 펭귄은 남아메리카의 페루와 칠레 해안에 주로 서식해. 몸 길이는 약 60센티미터고 평균 수명은 15년에서 30년 정도 돼. 이 펭귄의 특징은 털갈이 후에 성체가 되면 머리와 가슴 쪽에 검은 띠를 두르고 있는 점이야.",
+            "turn_id": "BK22004940-5",
+            "utterance_id": "BK22004940.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "검은 띠를 두르고 있다니 훔볼트 펭귄의 매력포인트네. 그런데 이름이 훔볼트라니 정말 특이하네. 훔볼트라는 이름은 어떻게 지어진거야?",
+            "turn_id": "BK22004940-6",
+            "utterance_id": "BK22004940.11"
+        },
+        {
+            "reference_date": "2016-08-17",
+            "reference_text": [
+                {
+                    "value": "암반이나 토양 기질의 해안에 서식하며 주로 바다에서 시간을 보낸다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "훔볼트라는 이름은 남미 해안을 따라 흐르는 훔볼트 해류의 이름을 따서 붙여졌다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2749343",
+            "search_query": "훔볼트 펭귄 이름 유래",
+            "terminate": false,
+            "text": "이름이 정말 특이하지. 남미 해안을 따라 흐르는 해류 중에 훔볼트 해류란 것이 있어. 그 해류 이름을 따서 지어진 이름이야. 훔볼트 펭귄은 암반이나 토양 기질의 바닷가에서 살고 주로 바다에서 생활해.",
+            "turn_id": "BK22004940-6",
+            "utterance_id": "BK22004940.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해류의 이름을 따서 지어진 이름이구나. 그나저나 내가 예전에 티비에서 보기론 펭귄은 다른 펭귄에게 프로포즈 할 때 조약돌을 사용한다고 하던데, 정말이야?",
+            "turn_id": "BK22004940-7",
+            "utterance_id": "BK22004940.13"
+        },
+        {
+            "reference_date": "2017-05-10",
+            "reference_text": [
+                {
+                    "value": "수컷 펭귄은 마음에 드는 이성이 나타나면 해변가를 뒤져서 가장 예쁘게 생긴 조약돌을 주워온다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "선물을 준비하는 것이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 암컷 앞에 조약돌을 슬며시 가져다 놓는데, 이때 암컷이 돌멩이를 집어 올리면 프러포즈를 수락한다는 의미이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/newsRead.php?ArtNo=104907",
+            "search_query": "펭귄 프러포즈",
+            "terminate": false,
+            "text": "맞아. 수컷 펭귄은 암컷 펭귄에게 프로포즈 할 때 가장 예쁘게 생긴 조약돌을 주워와서 암컷에게 선물해. 조약돌 선물을 받은 펭귄이 그것을 집어 올리면 프로포즈를 수락한다는 뜻이지.",
+            "turn_id": "BK22004940-7",
+            "utterance_id": "BK22004940.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조약돌 선물을 준비하고 프로포즈를 한다니 엄청 낭만적인걸? 그런데 펭귄은 날개가 있는데 왜 날지 못하는거야?",
+            "turn_id": "BK22004940-8",
+            "utterance_id": "BK22004940.15"
+        },
+        {
+            "reference_date": "2013-09-09",
+            "reference_text": [
+                {
+                    "value": "그중 대표적인 것이 땅 위에 펭귄을 잡아먹는 천적들이 별로 없어 굳이 하늘을 날 필요가 없었다는 것.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 하늘을 날 때나 잠수할 때 모두 날개를 사용하는데 서로 기능이 달라 두 능력이 모두 발달하기 힘들었다는 이론이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결과적으로 펭귄은 하늘을 나는 능력을 포기하는 대신 에너지 소모가 적은 잠수하는 능력을 키웠다는 설명.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20130521601013",
+            "search_query": "펭귄 날지못하는 이유",
+            "terminate": false,
+            "text": "펭귄이 날지 못하는 데엔 여러 가설이 있어. 하나씩 이야기 해보자면 첫 번째론 육지엔 펭귄에게 위협이 되는 천적이 없어 굳이 하늘을 날 필요가 없었다는 것이야. 둘째로는 비행을 위한 날개와 수영을 위한 날개가 다르기 때문에 모두 발달 할 수 없어서 한쪽만 발달했다는 것이야. 마지막으론 에너지 소모가 적은 잠수 능력을 선택하고 하늘을 나는 능력을 포기했다는 가설이 있어.",
+            "turn_id": "BK22004940-8",
+            "utterance_id": "BK22004940.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펭귄이 날지 못하는 덴 여러 가설이 있구나. 그리고 또 내가 알고 있는 건 펭귄 다리가 생각보다 길다는 점이야. 그것도 맞니?",
+            "turn_id": "BK22004940-9",
+            "utterance_id": "BK22004940.17"
+        },
+        {
+            "reference_date": "2016-09-01",
+            "reference_text": [
+                {
+                    "value": "뒤뚱뒤뚱 걷는 모습이 귀여운 펭귄은 사실 다리가 길다고 합니다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "겉으로 보이는 다리의 길이는 짧지만, 엑스레이를 찍어보면 감춰진 다리뼈를 확인할 수 있는데요.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "펭귄의 다리뼈는 90°에 가깝게 접혀있다고 해요.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 이유는 무릎을 구부리면 몸을 훨씬 빠르게 움직일 수 있기 때문이라고 합니다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 펭귄의 다리를 쭉 펴면 몸길이의 약 1/2을 차지한다고 하네요.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201609011184507406",
+            "search_query": "펭귄 다리",
+            "terminate": false,
+            "text": "잘 알고있네. 펭귄은 사실 다리가 꽤 길어. 우리가 눈으로 보는 펭귄의 다리는 짧지만 엑스레이 촬영을 해보면 가려진 다리뼈를 볼 수 있어. 펭귄의 다리뼈는 90도에 가깝게 접혀있는데 만약 쭉 펴면 다리가 몸길이의 절반이나 차지해. 펭귄이 무릎을 구부리고 다니는 건 몸을 더 빠르게 움직일 수 있기 때문이야.",
+            "turn_id": "BK22004940-9",
+            "utterance_id": "BK22004940.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 몸의 절반이나 차지한다니. 다리가 긴 건 알았지만 그 정도로 다리가 길 거라곤 생각 못했어. 그나저나 남극이 아니라 남미나 남아공에서도 볼 수 있다면 나도 펭귄을 가까이서 보러 가 보고 싶네.",
+            "turn_id": "BK22004940-10",
+            "utterance_id": "BK22004940.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아쿠아리움에서 보는 것도 좋지만 야외에서 돌아다니는 펭귄을 직접 보면 더 신기할 것 같아.",
+            "turn_id": "BK22004940-10",
+            "utterance_id": "BK22004940.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아. 어쨌든 나는 아쿠아리움 가는 날의 일정을 짜러 이만 가볼게. 오늘 이야기 재미있었어.",
+            "turn_id": "BK22004940-11",
+            "utterance_id": "BK22004940.21"
+        }
+    ]
+}

@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009014",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009014",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 하는 인사 직무가 저와 잘 맞지 않는 것 같아서 스트레스를 많이 받고 있어요. 노사 간 균형을 맞춘다는 게 너무 힘드네요.",
+            "turn_id": "BK22009014-1",
+            "utterance_id": "BK22009014.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 그러면 정말 힘드시겠어요. 직무 변경을 고려해보시면 어떨까요?",
+            "turn_id": "BK22009014-1",
+            "utterance_id": "BK22009014.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 그래서 아예 퇴사하고 제 전공을 살린 자격증을 따서 재취업하면 어떨까 생각하고 있거든요. 제가 안전공학을 전공했는데 추천해 주실 만한 자격증은 없을까요?",
+            "turn_id": "BK22009014-2",
+            "utterance_id": "BK22009014.3"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "산업안전기사는 제조·서비스업 등 각 산업현장에 배속돼 산업재해 예방계획의 수립에 관한 사항을 수행합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "작업환경의 점검 및 개선에 관한 사항, 유해 및 위험방지에 관한 사항, 사고사례 분석 및 개선에 관한 사항, 근로자의 안전교육 및 훈련에 관한 업무도 담당합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사",
+            "terminate": false,
+            "text": "산업안전기사가 있어요. 산업안전기사는 제조, 서비스업 등 각 산업현장에 소속되어 산업재해 예방계획의 구축에 관한 사항을 다뤄요. 작업환경의 점검 및 개선에 관한 사항, 유해 및 위험방지에 관한 사항, 사고 사례 분석 및 개선에 관한 사항, 근로자의 안전 교육 및 훈련에 관한 업무도 맡고 있어요.",
+            "turn_id": "BK22009014-2",
+            "utterance_id": "BK22009014.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 산업 현장에서 수요는 어떨까요? 유망한 자격증인지가 궁금해서요.",
+            "turn_id": "BK22009014-3",
+            "utterance_id": "BK22009014.5"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "어려운 자격시험인 만큼 산업 현장의 수요는 큰 편입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사업장 재해 사고에 대한 근로자와 국민의 관심이 커지면서 기업들의 경영 전략에도 변화가 생기고 있지요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기업들이 사고로 인한 경제적 피해, 기업 이미지 훼손 등을 고려할 때 사후 대책보다는 사전 예방에 포커스를 맞추고 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 정부의 안전에 대한 규제 강화로 향후 10년 간 안전 관리 및 위험물 관리원의 취업자 수는 증가할 것으로 전망됩니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 수요",
+            "terminate": false,
+            "text": "산업 현장의 수요는 규모가 있는 편이에요. 사업장 재해 사고가 근로자와 국민의 주목을 받으면서 기업들의 경영 전략에도 변화가 생기고 있어요. 기업들이 사고로 인한 경제적 피해, 기업 이미지 훼손 등을 생각할 때 사후 대책보다는 사전 예방에 초점을 맞추고 있거든요. 또 정부의 안전에 대한 단속 강화로 향후 10년간 안전 관리 및 위험물 관리원으로 취직하는 사람의 수가 많아질 것으로 전망돼요.",
+            "turn_id": "BK22009014-3",
+            "utterance_id": "BK22009014.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안전이 점점 우선 시 되니 수요도 증가한다는 거군요. 그럼 산업안전기사 자격증을 딴 사람들은 어디로 취업하게 되나요?",
+            "turn_id": "BK22009014-4",
+            "utterance_id": "BK22009014.7"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "산업안전기사 자격을 취득한 사람들의 취업 분야를 구체적으로 살펴보면 아래와 같습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 기계·금속·전기·화학·목재 등의 모든 제조업체, 안전관리 대행업체 등으로 취업할 수 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳에서 산업안전 및 위험괸리원 등으로 활동하는 것이지요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 취업분야",
+            "terminate": false,
+            "text": "산업안전기사 자격증을 딴 사람들의 취업 분야를 세부적으로 보면 기계, 금속, 전기, 화학, 목재 등의 모든 제조업체, 안전관리 대행업체 등에 취직할 수 있어요. 이곳에서 산업안전 및 위험괸리원 역할을 하죠.",
+            "turn_id": "BK22009014-4",
+            "utterance_id": "BK22009014.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산업안전 및 위험관리원 외에 다른 직업도 있나요?",
+            "turn_id": "BK22009014-5",
+            "utterance_id": "BK22009014.9"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "안전관리 유해, 위험작업 교육기관, 재해예방 전문지도기관, 안전관리 진단기관 등에 취업해 컨설턴트로 활동할 수도 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이밖에 한국산업안전공단, 대한산업안전협회 등 관련 기관의 산업안전 기술지원 부서에서도 일할 수 있지요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 취업분야",
+            "terminate": false,
+            "text": "네, 안전관리 유해, 위험작업 교육기관, 재해예방 전문 지도기관, 안전관리 진단기관 등에 취직해 컨설턴트로 일할 수도 있어요. 이밖에 한국산업안전공단, 대한산업안전협회 등 관련 기관의 산업안전 기술지원 부서에 취업할 수도 있고요.",
+            "turn_id": "BK22009014-5",
+            "utterance_id": "BK22009014.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자격증이 있으면 취업 문이 확실히 넓어질 것 같네요. 혹시 자격증을 따면 우대사항도 있을까요?",
+            "turn_id": "BK22009014-6",
+            "utterance_id": "BK22009014.11"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "먼저 5급 이하 및 기술직공무원 채용시험 시 가산점을 받을 수 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 가산점은 각 과목 40점 득점자에게만, 필기시험 시행 전일까지 취득한 자격증에만 부여합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공업직렬의 일반기계, 농업기계, 운전, 전기, 섬유, 화공 직류에서 채용계급이 8·9급, 기능직 기능8급 이하와 6·7급, 기능직 기능7급 이상일 경우 모두 5%의 가산점을 받을 수 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 가산점",
+            "terminate": false,
+            "text": "네, 그럼요. 5급 이하 및 기술직 공무원 채용시험 시 가산점을 받을 수 있어요. 다만 가산점은 각 과목 40점 득점하고 필기시험 시행 전 일까지 자격증을 취득한 사람만 받을 수 있어요. 공업 직렬의 일반기계, 농업기계, 운전, 전기, 섬유, 화공 직류에서 채용 계급이 8, 9급, 기능직 기능 8급 이하와 6, 7급, 기능직 기능 7급 이상일 경우도 모두 5%의 가산점을 부여합니다.",
+            "turn_id": "BK22009014-6",
+            "utterance_id": "BK22009014.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공무원 시험에 가산점도 주는군요. 그런데 시험은 어떻게 구성되어 있나요?",
+            "turn_id": "BK22009014-7",
+            "utterance_id": "BK22009014.13"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "시험과목은 필기 6개(안전관리론·인간공학 및 시스템 안전공학·기계위험방지기술·전기위험방지기술·화학설비위험방지기술·건설안전기술)과 실기 1개(산업안전실무) 등으로 구성됩니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 시험",
+            "terminate": false,
+            "text": "시험은 필기시험과 실기시험으로 나뉘어요. 필기시험은 안전관리론, 인간공학 및 시스템 안전공학, 기계위험방지 기술, 전기위험방지 기술, 화학 설비위험방지기술, 건설안전 기술로 6과목과 실기시험 산업안전 실무 1개를 치러야 해요.",
+            "turn_id": "BK22009014-7",
+            "utterance_id": "BK22009014.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 시험 통과 기준은 어떻게 되나요?",
+            "turn_id": "BK22009014-8",
+            "utterance_id": "BK22009014.15"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "필기는 100점을 만점으로 과목당 40점 이상, 전 과목 평균 60점 이상을 맞아야 합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실기는 100점 만점에 60점 이상되면 합격입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 합격",
+            "terminate": false,
+            "text": "필기는 100점을 만점으로 과목당 40점 이상, 전 과목 평균 60점 이상의 점수를 받으면 합격이에요. 실기도 100점 만점에 60점 이상 되면 통과에요.",
+            "turn_id": "BK22009014-8",
+            "utterance_id": "BK22009014.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "필기는 전략적으로 과락을 면하고 잘하는 과목에 집중해야 하겠네요. 그런데 시험 합격률은 얼마나 되나요?",
+            "turn_id": "BK22009014-9",
+            "utterance_id": "BK22009014.17"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "필기와 실기 합격률이 모두 50% 미만입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기 합격률은 2017년 44.4%, 2018년 43.1%, 2019년 45.3%이고요, 실기 합격률은 2017년 49.2%, 2018년 48.2%, 2019년 47.2% 입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JZX12S52",
+            "search_query": "산업안전기사 합격률",
+            "terminate": false,
+            "text": "필기와 실기 합격률이 모두 50% 아래에요. 필기 합격률은 2017년 44.4%, 2018년 43.1%, 2019년 45.3%이고요, 실기 합격률은 2017년 49.2%, 2018년 48.2%, 2019년 47.2%이에요.",
+            "turn_id": "BK22009014-9",
+            "utterance_id": "BK22009014.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합격률이 절반이 안 되는 시험인 만큼 열심히 준비해야겠네요. 오늘 좋은 정보 알려주셔서 감사해요. 자격증 따는 걸 고려해봐야겠어요.",
+            "turn_id": "BK22009014-10",
+            "utterance_id": "BK22009014.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 좋은 선택 하시길 바랄게요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22009014-10",
+            "utterance_id": "BK22009014.20"
+        }
+    ]
+}

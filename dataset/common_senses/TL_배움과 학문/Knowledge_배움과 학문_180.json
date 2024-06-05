@@ -1,0 +1,353 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001319",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001319",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달이 너무 아름다운데 붉은 달은 무엇 때문에 붉게 되나요?",
+            "turn_id": "BK22001319-1",
+            "utterance_id": "BK22001319.1"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "개기월식이 일어날 때 달이 붉은색으로 보이게 되는 것은 지구 대기에 의한 산란 때문인데, 태양에서 나온 빛 중 파장이 짧은 푸른 빛이 산란되고 결과적으로 파장이 긴 붉은 빛이 달에 반사되기 때문이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EC%9B%94%EC%8B%9D",
+            "search_query": "붉은달",
+            "terminate": false,
+            "text": "붉게 되는 이유는 개기월식이 일어날 때 지구 대기에 의한 산란에 의해서 붉게 돼요. 다시 말해 태양에서 나온 푸른빛은 파장은 짧아 산란되고 파장이 긴 붉은빛이 반사되기 때문인 거죠.",
+            "turn_id": "BK22001319-1",
+            "utterance_id": "BK22001319.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파장의 길이 때문이구나. 월식은 알고 있는데 개기월식은 정확히 뭔가요?",
+            "turn_id": "BK22001319-2",
+            "utterance_id": "BK22001319.3"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "월식(月蝕, 영어: Lunar eclipse 루너 이클립스, 문화어: 달가림)은 달이 지구의 그림자에 들어와 보이지 않는 현상이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "월식은 태양 - 지구 - 달의 위치로 배열될 때 일어나게 되며 이때 달의 위상은 보름달인 망이 된다",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "월식은 달이 지구의 본 그림자 속에 들어갈 때 관측되는 개기 월식(문화어: 옹근월식)과 달이 지구의 본 그림자와 반 그림자 사이에 위치할 때 관측되는 부분 월식으로 나뉜다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EC%9B%94%EC%8B%9D",
+            "search_query": "개기월식",
+            "terminate": false,
+            "text": "알고 계신 것처럼 월식이 달이 지구의 그림자에 들어와 보이지 않는 현상이지만 월식은 한 가지가 아닌 두 가지로 나뉘게 돼요. 하나는 달이 지구의 본 그림자 속에 들어갈 때 관측되는 개기월식과 지구의 본 그림자와 반 그림자 사이에 위치할 때 관측되는 부분 월식으로 말이죠.",
+            "turn_id": "BK22001319-2",
+            "utterance_id": "BK22001319.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어릴때 교과서에서 사진으로 본게 기억나네요 개기월식이 그런거군요.",
+            "turn_id": "BK22001319-3",
+            "utterance_id": "BK22001319.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 맞아요. 교과서 사진까지 기억하시는 걸 보니 달에 관심이 있으신가 봐요?",
+            "turn_id": "BK22001319-3",
+            "utterance_id": "BK22001319.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 아름답잖아요. 그런데 사람들이 달 크레이터가 징그럽다는데 크레이터가 뭔가요?",
+            "turn_id": "BK22001319-4",
+            "utterance_id": "BK22001319.7"
+        },
+        {
+            "reference_date": "2022-01-29",
+            "reference_text": [
+                {
+                    "value": "구덩이(crater 크레이터)는 둥글게 파인 지형으로 생성 원인에 따라 다음과 같이 분류한다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "충돌구는 운석이나 혜성 등이 충돌하여 생긴 구덩이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분화구나 칼데라는 화산 활동에 의해 생긴 구덩이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EA%B5%AC%EB%8D%A9%EC%9D%B4",
+            "search_query": "크레이터",
+            "terminate": false,
+            "text": "크레이터는 둥글게 파인 지형을 말하는데요. 생성 원인에 따라서 운석이나 혜성 등이 출동하여 생긴 구덩이는 충돌구라 부르고 화산 활동의 해 생긴 구덩이는 분화구나 칼데라라고 해요.",
+            "turn_id": "BK22001319-4",
+            "utterance_id": "BK22001319.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경희로 운 장면 같은데 왜 징그럽다고 하는지 이해가 안되네요. 운석은 많이 들어봤는데 혜성은 뭔가요?",
+            "turn_id": "BK22001319-5",
+            "utterance_id": "BK22001319.9"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "혜성(彗星, 영어: comet, 문화어: 취성(箒星)) 또는 살별, 꼬리별은 태양계를 구성하는 천체(SSSB) 중의 하나로, 태양 복사에 의해 핵으로부터 발생한 코마(핵을 둘러싼 구름층)와 꼬리를 갖는다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%ED%98%9C%EC%84%B1",
+            "search_query": "혜성",
+            "terminate": false,
+            "text": "혜성은 태양계를 구성하는 천체중 하나가 태양 복사로 인해 핵으로 부터 발생한 코마와 꼬리를 갖는 것을 말해요.",
+            "turn_id": "BK22001319-5",
+            "utterance_id": "BK22001319.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼬리 말씀하시니 밤 하늘에서 관측했던 기억이 나네요.",
+            "turn_id": "BK22001319-6",
+            "utterance_id": "BK22001319.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밤 하늘 관측 하시는거 보니 별자리도 좋아하시겠네요?",
+            "turn_id": "BK22001319-6",
+            "utterance_id": "BK22001319.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별자리 잘은 모르지만 국자모양 별 본적은 있는데 그것도 별자리인가요?",
+            "turn_id": "BK22001319-7",
+            "utterance_id": "BK22001319.13"
+        },
+        {
+            "reference_date": "2015-11-12",
+            "reference_text": [
+                {
+                    "value": "북두칠성은 밝은 별 7개로 이뤄져 있고, 국자 모양을 띤다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.yna.co.kr/view/AKR20151111055000805?section=search/news",
+            "search_query": "국자모양 별",
+            "terminate": false,
+            "text": "맞아요. 북두칠성은 7개의 별로 이루어져 있으며 모양은 국자 모양을 띤 것을 말해요.",
+            "turn_id": "BK22001319-7",
+            "utterance_id": "BK22001319.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요. 예전에 밤 산책 도중 W 모양 별도 봤었는데 그것도 별자리인가요?",
+            "turn_id": "BK22001319-8",
+            "utterance_id": "BK22001319.15"
+        },
+        {
+            "reference_date": "2015-11-12",
+            "reference_text": [
+                {
+                    "value": "별 5개가 더블유(W) 모양을 이루는 카시오페이아자리에서 W의 양끝 별과 삼각형을 이루는 별 역시 북극성이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.yna.co.kr/view/AKR20151111055000805?section=search/news",
+            "search_query": "W모양 별",
+            "terminate": false,
+            "text": "W모양이면 카시오페이아자리고 W의 양끝 별과 삼각형을 이루는 별이 북극성이구요.",
+            "turn_id": "BK22001319-8",
+            "utterance_id": "BK22001319.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "길을 잃으면 북극성부터 찾으라는 말이 있던데 북쪽을 가르키는 별 맞죠?",
+            "turn_id": "BK22001319-9",
+            "utterance_id": "BK22001319.17"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "북극성(北極星, 영어: pole star, north star)은 천구(天球)의 북쪽에 자리한 별을 부르는 이름이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EB%B6%81%EA%B7%B9%EC%84%B1",
+            "search_query": "북극성 북쪽",
+            "terminate": false,
+            "text": "맞아요. 북극성은 북쪽에 자리하고 있는 별을 부르는 이름이에요.",
+            "turn_id": "BK22001319-9",
+            "utterance_id": "BK22001319.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 길을 잃어도 북극성만 찾으면 되겠네요. 그런데 별빛도 달처럼 태양빛에 반사된건가요?",
+            "turn_id": "BK22001319-10",
+            "utterance_id": "BK22001319.19"
+        },
+        {
+            "reference_date": "2022-04-24",
+            "reference_text": [
+                {
+                    "value": "별빛은 별에 의해 방출되는 빛이다.",
+                    "value_time": "2022-06-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.m.wikipedia.org/wiki/%EB%B3%84%EB%B9%9B",
+            "search_query": "별빛",
+            "terminate": false,
+            "text": "아뇨, 별빛은 별 자체에서 방출되는 빛이에요.",
+            "turn_id": "BK22001319-10",
+            "utterance_id": "BK22001319.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자체에서 방출되는 빛이라니 너무 아름답네요. 이것저것 답변 너무 감사합니다.",
+            "turn_id": "BK22001319-11",
+            "utterance_id": "BK22001319.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한거 있으면 언제든 또 물어봐주세요.",
+            "turn_id": "BK22001319-11",
+            "utterance_id": "BK22001319.22"
+        }
+    ]
+}

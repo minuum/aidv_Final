@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007116",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007116",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 읽은 소설에서 인류가 근미래에 태양계 각 행성과 위성으로 진출하는 내용이 나왔는데, 그중에 목성도 있었거든. 그걸 읽다 보니까 문득 목성에 관해 이런저런 궁금증이 일더라. 일단, 목성이 엄청 크다고는 대충 알고 있는데, 대체 얼마나 큰 거야?",
+            "turn_id": "BK22007116-1",
+            "utterance_id": "BK22007116.1"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "목성의 질량은 태양계의 다른 모든 행성을 합한 질량의 2.5 배로, 태양과 목성의 무게중심이 태양의 중심으로부터 1.068 태양 반지름, 즉 태양의 표면 위에 자리잡게 만들 만큼 매우 무겁다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목성의 직경은 적도에서 142,984 km (88,846 mi)이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EC%84%B1",
+            "search_query": "목성",
+            "terminate": false,
+            "text": "우선, 목성은 태양계에 있는 다른 행성의 질량을 모두 합한 것보다 2.5배 무거운데, 목성과 태양의 무게 중심이 태양의 중심으로부터 무려 1.068 태양 반지름, 그러니까 태양 표면 위에 있게 할 정도야. 게다가 직경은 적도 기준으로 142,984km이지.",
+            "turn_id": "BK22007116-1",
+            "utterance_id": "BK22007116.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 상상을 초월하는 크기네. 그러고 보니, 목성은 도시 밤하늘에서도 보일 정도로 환하기도 한 것 같은데, 목성의 밝기는 어느 정도 수준이야? 다른 별은 안 보여도 목성은 보일 때가 많더라고.",
+            "turn_id": "BK22007116-2",
+            "utterance_id": "BK22007116.3"
+        },
+        {
+            "reference_date": "2019-07-29",
+            "reference_text": [
+                {
+                    "value": "별의 밝기는 등급으로 나타냅니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "맨 눈으로 볼 수 있는 별들 중 가장 밝은 별은 1등급, 가장 어두운 별은 6등급으로 나타냅니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 밝은 별인 시리우스(Sirius, 큰개자리 α별)의 등급은 –1.47등급입니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 오늘밤 목성의 겉보기등급은 –2.62등급으로 시리우스보다 2배 이상 밝습니다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://spacetimes.co.kr/View.aspx?No=1266350",
+            "search_query": "목성 겉보기 등급",
+            "terminate": false,
+            "text": "그 이유를 설명해 줄게. 별의 밝기는 등급으로 표현하는데 눈으로 보이는 별 중에 가장 밝은 별을 1등급, 제일 어두운 별을 6등급으로 나타내. 등급을 이용해서 비교했을 때, 제일 밝은 별인 시리우스가 -1.47등급인데 비해, 2019년 7월 기준으로 목성의 겉보기 등급은 -2.62등급이라서 시리우스보다 2배 이상 밝은 수준이야. 그렇기 때문에 맨 눈으로도 잘 보이는 거지.",
+            "turn_id": "BK22007116-2",
+            "utterance_id": "BK22007116.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 그 정도면 잘 보일 만도 하네. 그건 그렇고, 목성 하면 제일 먼저 생각나는 것 중 하나가 대적점인데, 이 대적점은 내가 어릴 때나 지금이나 항상 있는 것 같더라고. 대적점은 무엇이고, 대체 얼마나 오래된 거야?",
+            "turn_id": "BK22007116-3",
+            "utterance_id": "BK22007116.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "대적점(大赤點) 또는 대적반(大赤斑)은 목성 대기 중 남위 22도에 위치한 고기압성 폭풍 지대이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목성 표면의 점을 최초로 관측한 기록은 1665년부터 1713년까지였는데, 목성 초기 관측들이 현 대적점을 기록한 것이라고 가정하면 대적점은 최소 350년 동안 유지되어 온 셈이 된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 현 대적점은 1830년이 되어서야 처음으로 목격되었으며[2] 1879년 뚜렷하게 모습을 보인 이후부터 자세히 연구되었다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목성의 폭풍을 최초로 발견한 17세기와 현 대적점을 처음으로 다룬 1830년 사이에는 시간차가 크다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 1600년대에 사람들이 본 목성의 폭풍은 지금 우리가 보는 대적점과 다른 것이었을 가능성이 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%A0%81%EC%A0%90#cite_note-1",
+            "search_query": "목성 대적점",
+            "terminate": false,
+            "text": "대적점은 목성 남위 22도의 대기 중에 있는 고기압성 폭풍 지대이고, 대적반이라고도 불려. 목성 표면에 있는 점을 맨 처음 관측한 기록은 1665년부터 1713년까지인데, 만약 이러한 목성 초기의 관측이 현재의 대적점을 기록한 것이라고 가정한다면 대적점은 적어도 350년 동안 지속된 셈이지. 다만, 현재의 대적점은 1830년에 이르러서야 처음 목격되었고 1879년에 뚜렷하게 모습을 본 뒤부터 자세한 연구가 이루어졌는데, 처음으로 현 대적점을 다룬 1830년과 목성의 폭풍을 최초로 발견한 17세기 사이에는 시간차가 커. 그래서 1600년대에 관측한 목성의 폭풍은 우리가 지금 보는 대적점과 다른 것이었을 가능성도 있는 거지.",
+            "turn_id": "BK22007116-3",
+            "utterance_id": "BK22007116.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어느 쪽이든 나한테는 충분히 오래된 것처럼 느껴지네. 그럼 대적점의 크기는 어느 정도일까?",
+            "turn_id": "BK22007116-4",
+            "utterance_id": "BK22007116.7"
+        },
+        {
+            "reference_date": "2018-04-24",
+            "reference_text": [
+                {
+                    "value": "작도 부근에 위치한 대적점의 현재 크기는 지구보다 크며, 지구 3~4개를 합친 천체를 삼킬 수 있을 정도로 거대한 시기도 있었다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 전문가들에 따르면 현재 목성의 대적점은 1년 평균 지름 230㎞씩 줄어들고 있으며, 상부의 구름도 빠르게 이동하고 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20180424601006",
+            "search_query": "대적점 크기",
+            "terminate": false,
+            "text": "현재 대적점의 크기는 지구보다 크고, 지구 3~4개를 합친 크기의 천체를 삼킬 수 있을 만큼 거대했던 시기도 있었어. 다만, 전문가들에 따르면, 대적점은 현재 평균적으로 1년에 지름 230km씩 줄어들고 있고, 상부층의 구름도 빠른 속도로 이동 중이야.",
+            "turn_id": "BK22007116-4",
+            "utterance_id": "BK22007116.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언젠가 사라질 수도 있다고 생각하니 뭔가 아쉬운 기분이 드네. 얘기하다 보니 갑자기 생각났는데, 소설에 나오는 목성 위성이 꽤나 여러 군데더라고. 목성에는 위성이 대체 얼마나 있는 거야?",
+            "turn_id": "BK22007116-5",
+            "utterance_id": "BK22007116.9"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "목성의 위성은 2018년까지 79개가 발견되었고, 이는 태양계에서 두 번째로 많은 위성 숫자이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때문에 목성은 간혹 \"작은 태양계\"로 불리기도 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위성들 중 가장 큰 위성들은 4개의 갈릴레이 위성들로, 1610년에 갈릴레오 갈릴레이와 시몬 마리우스가 발견하였으며 태양이나 지구를 돌지 않는 천체 중 최초로 발견된 천체들이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EC%84%B1%EC%9D%98_%EC%9C%84%EC%84%B1",
+            "search_query": "목성 위성",
+            "terminate": false,
+            "text": "2018년까지 기준으로 목성의 위성은 79개가 발견됐는데, 이 위성 숫자는 태양계에서 두 번째로 많은 수치야. 그래서 목성은 작은 태양계라고 불리기도 하지. 위성 중에서 제일 큰 위성은 갈릴레이 위성 4개인데, 1610년에 시몬 마리우스와 갈릴레오 갈릴레이가 발견했고, 지구와 태양을 공전하지 않는 천체 중에서는 최초로 발견된 천체들이지.",
+            "turn_id": "BK22007116-5",
+            "utterance_id": "BK22007116.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "79개라니, 작은 태양계라는 별명이 정말 잘 어울리네. 근데 갈릴레이 위성 4개는 어떤 위성들이야? 이름이나 특징 같은 게 있을까?",
+            "turn_id": "BK22007116-6",
+            "utterance_id": "BK22007116.11"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "이들은 목성의 위성 중 크기가 큰 천체이며, 이들 위성의 이름은 이오, 에우로페, 가니메데스, 칼리스토 등 제우스; 즉 목성의 이름)의 연인의 이름을 따서 지었다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 위성은 태양계에서 태양과 8개 행성을 제외하고 가장 큰 위성이며 현재까지 확인된 어떤 왜행성보다도 지름이 크다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%88%EB%A6%B4%EB%A0%88%EC%9D%B4_%EC%9C%84%EC%84%B1",
+            "search_query": "갈릴레이 위성",
+            "terminate": false,
+            "text": "갈릴레이 위성은 목성이 가진 위성 중에서 크기가 큰 천체들이고, 제우스, 그러니까 목성의 이름인 주피터의 연인들 이름을 따서 이오, 에우로페, 가니메데스, 칼리스토라는 이름이 붙어 있어. 이 위성들은 태양계에서 8개 행성과 태양을 제외하면 가장 큰 위성이고, 지금까지 확인된 어떤 왜행성보다도 지름이 커.",
+            "turn_id": "BK22007116-6",
+            "utterance_id": "BK22007116.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 네 개 위성 중에 한 군데만 골라서 이야기를 들려줄 수 있을까? 가니메데스라는 이름이 예쁘니까 이 위성으로 말이야 이 위성의 특징은 어떤 게 있어?",
+            "turn_id": "BK22007116-7",
+            "utterance_id": "BK22007116.13"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "가니메데(Ganymede, 목성 III)는 목성의 위성으로, 태양계의 위성들 중 가장 크고 밝다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가니메데는 태양계에서 자체 자기장이 있는 유일한 위성으로, 액체 핵의 대류 현상으로 발생하는 것으로 추정하고 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 미량의 수소가 대기에 존재하며, 아주 옅은 산소 대기층이 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%8B%88%EB%A9%94%EB%8D%B0_(%EC%9C%84%EC%84%B1)",
+            "search_query": "목성 가니메데",
+            "terminate": false,
+            "text": "가니메데는 태양계에 있는 위성 중에서 가장 밝고 커. 그리고 태양계에서 자체적으로 자기장을 가지는 유일한 위성이기도 한데, 자기장은 액체 핵의 대류 현상으로 인해 발생하는 것으로 추정돼. 매우 옅은 산소 대기층도 있고, 대기 중에는 수소가 미량으로 존재하지.",
+            "turn_id": "BK22007116-7",
+            "utterance_id": "BK22007116.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옅긴 해도 대기가 있고 자기장도 있다니, 마치 위성이 아니라 행성 같아. 이 정도면 혹시 바다도 있는 거 아니야?",
+            "turn_id": "BK22007116-8",
+            "utterance_id": "BK22007116.15"
+        },
+        {
+            "reference_date": "2015-03-13",
+            "reference_text": [
+                {
+                    "value": "미국 연방항공우주국(NASA)이 허블 우주망원경으로 관찰한 결과 목성의 가장 큰 위성인 가니메데의 지표면 아래에 소금물로 가득한 지하 바다가 있다는 증거가 발견됐다고 씨넷이 12일(현지 시각) 보도했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가니메데에 지표면 아래에 있는 바다는 그 두께가 100㎞로 지구에서 가장깊은 해구인 태평양의 마리아나 해구보다 10배나 깊다고 전했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가니메데의 바다는 두꺼운 얼음으로 덮여 있는 지표면의 약 150㎞ 아래에 있을 것으로 예측했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://zdnet.co.kr/view/?no=20150313095613",
+            "search_query": "목성 가니메데 지하바다",
+            "terminate": false,
+            "text": "2015년 3월 12일 씨넷의 보도에 따르면, 미국 항공우주국이 허블 망원경을 이용해 관측한 결과, 가니메데의 지표면 밑에 소금물로 가득한 지하 바다가 존재한다는 증거가 발견됐어. 이 바다의 깊이는 100km인데, 이건 지구의 가장 깊은 해구인 태평양 마리아나 해구보다 10배나 깊은 거야. 바다는 두꺼운 얼음으로 뒤덮인 지표면 약 150km 밑에 있을 것이라고 예상돼.",
+            "turn_id": "BK22007116-8",
+            "utterance_id": "BK22007116.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 정말 바다도 있다는 증거가 발견됐구나. 우주는 정말 신비로운 것 같아. 나도 우주로 나가 보고 싶다.",
+            "turn_id": "BK22007116-9",
+            "utterance_id": "BK22007116.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 나도 살아 있는 동안 우주 개발이 이루어지는 모습을 보고 싶어. 우주로 이민도 가고 말이야.",
+            "turn_id": "BK22007116-9",
+            "utterance_id": "BK22007116.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우주 얘기하니까 SF 드라마 보고 싶어졌어, 같이 볼래? 내가 재미있는 시리즈 하나 발견했거든. 내일이랑 모레 시간 되면 같이 쭉 달려 보자.",
+            "turn_id": "BK22007116-10",
+            "utterance_id": "BK22007116.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "이번 주말 전부 시간 되니까 같이 봐야겠다. 그럼 내일 다시 연락할게.",
+            "turn_id": "BK22007116-10",
+            "utterance_id": "BK22007116.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009095",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009095",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 자기계발삼아 한국사 시험을 보려고 공부 중인데, 생각보다 양이 방대해서 좀 어렵네.",
+            "turn_id": "BK22009095-1",
+            "utterance_id": "BK22009095.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자기계발로 한국의 역사를 공부하다니, 훌륭한 도전이네. 어려워도 차근차근 해 나가다 보면 좋은 결과 있을 거야!",
+            "turn_id": "BK22009095-1",
+            "utterance_id": "BK22009095.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하다 보면 되겠지, 응원 고마워! 근데 역사를 공부하다 보니 문득 궁금한 게 하나 생겼어. 우리가 사용하는 서기 연도랑 단기는 몇 년의 차이가 나는 거야?",
+            "turn_id": "BK22009095-2",
+            "utterance_id": "BK22009095.3"
+        },
+        {
+            "reference_date": "2014-10-02",
+            "reference_text": [
+                {
+                    "value": "단기는 서기보다 2333년 빠르다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금 햇수에다 2333을 더하면 단기다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20141001005549?OutUrl=naver",
+            "search_query": "단기 서기 2333년",
+            "terminate": false,
+            "text": "단기와 서기 사이에는 2333년의 차이가 있어. 단기가 서기보다 빨라서, 지금의 햇수에 2333년을 더하면 단기 년도를 알 수 있지.",
+            "turn_id": "BK22009095-2",
+            "utterance_id": "BK22009095.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 올해의 단기 연도는 2022년에서 2333을 더하면 되는 거겠네? 단기는 단군의 탄생을 기원으로 하는 연도잖아. 그럼 서기는 무엇을 기원으로 하는거야?",
+            "turn_id": "BK22009095-3",
+            "utterance_id": "BK22009095.5"
+        },
+        {
+            "reference_date": "2020-12-25",
+            "reference_text": [
+                {
+                    "value": "서력기원 약칭 서기(西紀)는 예수님 탄생을 기원(紀元)으로 하고 있고, 유럽 문화권에서 사용해 온 기년법 책력으로 전 세계적으로 통용되고 있는 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.christiantoday.co.kr/news/337044",
+            "search_query": "서기 기년법",
+            "terminate": false,
+            "text": "서력기원의 약칭인 서기는 예수님의 탄생을 기원으로 해. 유럽 문화권에서 사용된 기년법 책력이 이제는 전 세계에서 통용되고 있는 셈이지.",
+            "turn_id": "BK22009095-3",
+            "utterance_id": "BK22009095.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흥미롭네, 생각해보면 우리나라에는 종교가 다양한데 기독교적 기준으로 맞춰져 있는 거잖아. 예수가 탄생한 해에 대한 역사적 기록이 있어?",
+            "turn_id": "BK22009095-4",
+            "utterance_id": "BK22009095.7"
+        },
+        {
+            "reference_date": "2013-12-31",
+            "reference_text": [
+                {
+                    "value": "서기 525년 신학자 디오니시우스 엑시우스는 교황의 명령에 따라 <부활제의 서>라는 책을 써서 예수 탄생의 해를 로마 건국 기원 754년으로 맞추었다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그것이 오늘날의 서기 1년으로, 연대를 예수 전(B.C., Before Christ), 예수 후(A.D., Anno Domini)로 나누는 서력기원은 이렇게 탄생했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/112608",
+            "search_query": "기년법 서기 1년",
+            "terminate": false,
+            "text": "서기 525년에 디오니시우스 엑시우스라는 신학자가 교황의 명령을 받들어 부활제의 서라는 책을 썼어. 그때 예수 탄생의 해를 로마 건국 기원 754년도로 맞추었지. 이것이 지금의 서기 1년이 되었고, 연대를 예수 전과 후로 나누는 서력기원이 탄생하게 되었어.",
+            "turn_id": "BK22009095-4",
+            "utterance_id": "BK22009095.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하다, 그게 현대에 사용하는 날짜의 기준이 된 거구나. 그런데 우리나라는 예전에 서력기원이 아니라 단군기원을 사용했었잖아. 언제를 기점으로 사용 기원이 바뀐 거야?",
+            "turn_id": "BK22009095-5",
+            "utterance_id": "BK22009095.9"
+        },
+        {
+            "reference_date": "2021-04-20",
+            "reference_text": [
+                {
+                    "value": "한국은 1948년 정부 수립 후 단군기원(檀君紀元)을 사용하다가 1962년 1월 1일을 기해 서력기원(西曆紀元)으로 고쳐 쓰고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=842433",
+            "search_query": "단군기원 서력기원",
+            "terminate": false,
+            "text": "1948년도에 정부를 수립한 후 대한민국은 단군기원을 사용했어. 그러다 1962년 1월 1일을 기점으로 서력기원으로 고쳐 쓰고있지.",
+            "turn_id": "BK22009095-5",
+            "utterance_id": "BK22009095.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 갑자기 좀 헷갈리네. 지금까지 이야기했던 단기나 서기 모두 연호가 아니라 기년법에 해당되는거지? 그렇다면 기년법이 정확히 뭘 의미하는 거야?",
+            "turn_id": "BK22009095-6",
+            "utterance_id": "BK22009095.11"
+        },
+        {
+            "reference_date": "2018-08-09",
+            "reference_text": [
+                {
+                    "value": "‘단기’, ‘서기’, ‘불기’ 등은 연호가 아니라 ‘기년법’으로서 사전에서 ‘나라나 민족이 역사적으로 경과한 햇수를 계산할 때, 어떤 특정한 연도를 기원으로 하여 그로부터 햇수를 세는 방법으로서, 기원의 근거에 따라 정치적 기년법, 종교적 기년법, 천문학적 기년법 등이 있다’고 설명한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ujeil.com/news/articleView.html?idxno=207161",
+            "search_query": "단기 서기 연호 기년법",
+            "terminate": false,
+            "text": "응, 단기나 서기뿐만 아니라 불기도 전부 연호가 아닌 기년법에 해당돼. 기년법은 민족이나 나라가 역사적으로 시간이 경과한 햇수를 헤아릴 때, 특정 연도를 기원으로 두고 그로부터 햇수를 세는 방법을 의미하지. 기원의 근거에 따라서 정치적 기년법과 종교적 기년법, 그리고 천문학적 기년법 등으로 나뉘기도 해.",
+            "turn_id": "BK22009095-6",
+            "utterance_id": "BK22009095.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 연호는 뭘 의미하는 거야? 우리나라가 처음 연호를 사용한 게 언제인지도 궁금해.",
+            "turn_id": "BK22009095-7",
+            "utterance_id": "BK22009095.13"
+        },
+        {
+            "reference_date": "2014-08-15",
+            "reference_text": [
+                {
+                    "value": "연호란 새로 임금이 즉위한 해를 시작으로 햇수를 세는 것입니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중국에서는 한무제 때 처음으로 '건원(建元)'이라는 연호를 썼다는 기록이 있습니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선은 중국의 연호를 따라 썼었는데 1895년 11월 17일 갑오개혁 때 처음 건양(建陽)이란 연호를 썼지만 이는 일본 제국주의와 관련이 있는 것으로 큰 의미가 없는 것입니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/sh/201408151530580111818_1/%27%EA%B4%91%EB%AC%B4%28%E5%85%89%E6%AD%A6%29%27%EB%9D%BC%EB%8A%94+%EC%97%B0%ED%98%B8%EB%A5%BC+%EC%93%B0%EA%B8%B0+%EC%8B%9C%EC%9E%91%ED%95%9C+1897%EB%85%84+8%EC%9B%9417%EC%9D%BC.html?md=20150226025257_U",
+            "search_query": "조선 중국 연호",
+            "terminate": false,
+            "text": "연호는 임금이 새로 즉위한 해를 시작으로 두고 햇수를 세는 것을 의미해. 중국은 한무제때 처음으로 건원이라는 연호를 사용했다는 기록이 있는데, 조선은 중국의 연호를 따라 사용했지. 일본의 제국주의와 연관이 있어서 큰 의미는 없지만, 1895년 갑오개혁 당시 조선은 처음으로 건양이라는 연호를 썼어.",
+            "turn_id": "BK22009095-7",
+            "utterance_id": "BK22009095.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 그 이후로 우리나라가 자주적으로 사용한 연호는 뭐야?",
+            "turn_id": "BK22009095-8",
+            "utterance_id": "BK22009095.15"
+        },
+        {
+            "reference_date": "2014-08-15",
+            "reference_text": [
+                {
+                    "value": "그러다 새로 쓰기 시작하여 순종(純宗)이 임금 자리에 오를 때까지 연호였던 “광무(光武)”는 고종 임금의 자주적인 뜻이 반영된 것이라고 보아야 합니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 “광무”라는 연호는 대한제국 선포, 황금색 곤룡포와 함께 중국의 종속국가가 아닌 자주독립국가임을 만천하에 알린 것입니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/sh/201408151530580111818_1/%27%EA%B4%91%EB%AC%B4%28%E5%85%89%E6%AD%A6%29%27%EB%9D%BC%EB%8A%94+%EC%97%B0%ED%98%B8%EB%A5%BC+%EC%93%B0%EA%B8%B0+%EC%8B%9C%EC%9E%91%ED%95%9C+1897%EB%85%84+8%EC%9B%9417%EC%9D%BC.html?md=20150226025257_U",
+            "search_query": "순종 연호 광무",
+            "terminate": false,
+            "text": "광무라는 연호가 중국의 종속국이 아닌 자주독립국가인 대한민국을 선포한 연호지. 광무는 순종이 임금 자리에 오를 때까지 사용되었는데, 고종 임금의 자주적인 의지가 반영되어있어.",
+            "turn_id": "BK22009095-8",
+            "utterance_id": "BK22009095.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "멋지다, 그럼 대한제국이 국호고 광무가 연호였다는거네. 그 이름들은 어떤 뜻으로 지어진 거야?",
+            "turn_id": "BK22009095-9",
+            "utterance_id": "BK22009095.17"
+        },
+        {
+            "reference_date": "2021-08-08",
+            "reference_text": [
+                {
+                    "value": "대한은 후삼국시대의 삼한을 아우르는, 광무는 외세 간섭에서 벗어나 힘을 기르고 나라를 빛내자는 뜻을 담고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002764350&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "광무 연호",
+            "terminate": false,
+            "text": "대한제국의 대한은 후삼국시대의 삼한을 아우른다는 의미를 가지고 있어. 또한, 광무는 외세의 간섭에서 벗어나 나라의 힘을 길러서 빛내자는 의미를 담고 있지.",
+            "turn_id": "BK22009095-9",
+            "utterance_id": "BK22009095.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 좋은 의미를 지니고 있구나. 오늘 알려준 이야기 전부 유익했어, 고마워!",
+            "turn_id": "BK22009095-10",
+            "utterance_id": "BK22009095.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "유익했다니 나도 뿌듯하네, 다음에도 궁금한 역사 이야기 있으면 편하게 연락줘.",
+            "turn_id": "BK22009095-10",
+            "utterance_id": "BK22009095.20"
+        }
+    ]
+}

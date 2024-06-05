@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006682",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006682",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 친구랑 속담 말하기 내기를 하는데, 사과에 관한 속담을 물어봤을 때 대답하지 못했거든요. 혹시 사과와 관련된 속담을 아시나요?",
+            "turn_id": "BK22006682-1",
+            "utterance_id": "BK22006682.1"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "‘사과가 빨갛게 익으면 의사는 파랗게 질린다’는 서양 속담이 있다. 잘 익은 사과는 건강에 좋아, 의사가 할 일이 없어진다는 의미다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/health/2022/07/28/SW6GRZJXQNGZLHBSJZPLYPNPEQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "사과와 관련된 속담",
+            "terminate": false,
+            "text": "네, 서양에는 사과가 빨갛게 익으면 의사는 파랗게 질린다는 속담이 있어요. 이 속담의 뜻은 잘 익은 사과는 건강에 좋기 때문에 의사가 필요 없어진다는 거죠.",
+            "turn_id": "BK22006682-1",
+            "utterance_id": "BK22006682.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 속담이 있었네요. 참고해서 다음에 물어보면 대답해 줘야겠어요.",
+            "turn_id": "BK22006682-2",
+            "utterance_id": "BK22006682.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요, 이제는 속담을 알게 되었으니 다음에 잘하시면 되죠.",
+            "turn_id": "BK22006682-2",
+            "utterance_id": "BK22006682.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알려주셔서 감사해요. 사과 얘기를 하니까 오늘은 사과에 대해 궁금해지는데, 원산지 등 사과에 대한 정보를 알려주실 수 있을까요?",
+            "turn_id": "BK22006682-3",
+            "utterance_id": "BK22006682.5"
+        },
+        {
+            "reference_date": "2021-06-30",
+            "reference_text": [
+                {
+                    "value": "사과나무 재배 역사는 4천년이 넘는다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원산지는 발칸반도로 전해진다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중국에서는 1세기 '능금'이라는 이름으로 사과를 재배했다는 기록이 남아 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20210615010001945",
+            "search_query": "사과",
+            "terminate": false,
+            "text": "네, 사과는 깊은 역사를 가지고 있어요. 사과나무를 재배하기 시작한 건 4천 년이 넘었고, 사과의 원산지는 발칸반도로 알려져 있어요. 중국에서도 사과를 재배한 기록이 있는데, 1세기에 능금이라는 이름을 가진 사과였죠.",
+            "turn_id": "BK22006682-3",
+            "utterance_id": "BK22006682.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 깊은 역사를 가지고 있네요. 우리나라에서는 언제부터 재배하기 시작했나요?",
+            "turn_id": "BK22006682-4",
+            "utterance_id": "BK22006682.7"
+        },
+        {
+            "reference_date": "2020-11-01",
+            "reference_text": [
+                {
+                    "value": "사과가 우리나라에 들어온 것은 1884년 외국 선교사를 통해서다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후 1901년 윤병수가 미국 선교사를 통해 다량의 사과 묘목을 들여와 원산 부근에 과수원을 조성해 수확하기 시작했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=32602",
+            "search_query": "우리나라 사과 역사",
+            "terminate": false,
+            "text": "우리나라에는 1884년 외국 선교사를 통해 처음으로 사과가 들어왔어요. 이후 1901년 윤병수가 미국 선교사를 통해서 많은 양의 사과 묘목을 가져왔고, 원산 인근에 과수원을 만들어 사과를 따기 시작했죠.",
+            "turn_id": "BK22006682-4",
+            "utterance_id": "BK22006682.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선교사를 통해 들어온 게 사과의 시작이었네요. 그런데 사과는 몸에 좋다고만 들었지, 실제로는 어떤 효과가 있는지 몰라서요. 사과의 효능은 어떻게 되나요?",
+            "turn_id": "BK22006682-5",
+            "utterance_id": "BK22006682.9"
+        },
+        {
+            "reference_date": "2019-09-13",
+            "reference_text": [
+                {
+                    "value": "사과의 최대 장점 중의 하나가 식이섬유인 펙틴이 풍부하다는 것이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 때 펙틴은 장을 약산성으로 유지하며 나쁜 균의 증식을 억제하는데 도움을 준다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1301841/%ec%b6%94%ec%84%9d-%ec%9d%8c%ec%8b%9d-%eb%a8%b9%ea%b3%a0-%eb%8d%94%eb%b6%80%eb%a3%a9%ed%95%a0-%eb%95%8c%ec%82%ac%ea%b3%bc%ea%b0%80-%ec%a2%8b%ec%95%84/",
+            "search_query": "사과의 효능",
+            "terminate": false,
+            "text": "사과의 효능 중 하나는 식이섬유인 펙틴이 많이 들어있다는 거예요. 펙틴은 장을 약산성으로 만들어주기 때문에, 유해균이 늘어나는 것을 막아주는 데 도움이 돼요.",
+            "turn_id": "BK22006682-5",
+            "utterance_id": "BK22006682.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그것 말고 사과의 또 다른 효능도 있을까요?",
+            "turn_id": "BK22006682-6",
+            "utterance_id": "BK22006682.11"
+        },
+        {
+            "reference_date": "2021-09-19",
+            "reference_text": [
+                {
+                    "value": "사과의 폴리페놀 성분은 노화를 방지하며 피부를 하얗게 가꿔준다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "콜레스테롤이 소화관으로 흡수되는 것을 막아 혈중 콜레스테롤 수치를 낮게 해주는 작용도 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1356587/%ec%95%94-%ec%98%88%eb%b0%a9%c2%b7%ed%94%bc%eb%b6%80%eb%af%b8%ec%9a%a9%ec%82%ac%ea%b3%bc%ea%b0%80-%ea%b1%b4%ea%b0%95%ec%97%90-%ec%a2%8b%ec%9d%80-%ec%9d%b4%ec%9c%a0/",
+            "search_query": "사과의 효능",
+            "terminate": false,
+            "text": "물론이죠, 사과에 들어있는 폴리페놀 성분은 노화를 예방하고 흰 피부로 만들어줘요. 또한 콜레스테롤이 소화관에 스며드는 것을 방지해 혈중 콜레스테롤 수치를 낮춰주고요.",
+            "turn_id": "BK22006682-6",
+            "utterance_id": "BK22006682.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 사과는 좋은 효능이 많이 있네요. 이처럼 좋은 사과를 잘 고르는 방법도 물론 있겠죠?",
+            "turn_id": "BK22006682-7",
+            "utterance_id": "BK22006682.13"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "맛있는 사과는 들었을 때 묵직하고 단단한 느낌이 든다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사과 향이 은은하며 색이 전체적으로 고른 것이 좋다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1378201/%eb%8b%a4%ea%b0%80%ec%98%a4%eb%8a%94-%eb%aa%85%ec%a0%88-%ec%8b%a0%ec%84%a0%ed%95%9c-%ea%b3%bc%ec%9d%bc-%ea%b3%a0%eb%a5%b4%eb%8a%94-%eb%b2%95%ec%9d%80/",
+            "search_query": "좋은 사과 고르는 법",
+            "terminate": false,
+            "text": "그럼요, 들었을 때 묵직하면서 단단한 게 맛있는 사과예요. 또 사과에서 은은한 향이 나면서 전체적으로 색깔이 고루 있는 것이 좋아요.",
+            "turn_id": "BK22006682-7",
+            "utterance_id": "BK22006682.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "색깔이 골고루 분포되어 있고 단단한 것을 고르라는 말씀이시군요. 구매한 사과 세척은 어떻게 하는 것이 좋을까요?",
+            "turn_id": "BK22006682-8",
+            "utterance_id": "BK22006682.15"
+        },
+        {
+            "reference_date": "2021-04-30",
+            "reference_text": [
+                {
+                    "value": "물에 식초를 넣어 1분간 넣고, 헝겊으로 닦아줍니다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식초의 산 성분이 사과 껍질에 묻은 잔여물을 제거해줍니다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=50253",
+            "search_query": "사과 세척",
+            "terminate": false,
+            "text": "그렇다면 사과는 물과 식초를 섞어 1분간 담가 둔 후 헝겊으로 닦아주세요. 식초에 들어 있는 산성이 사과 껍질에 남아있는 것들을 깨끗하게 없애줄 거예요.",
+            "turn_id": "BK22006682-8",
+            "utterance_id": "BK22006682.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식초를 사용하면 좋군요. 마지막으로 남은 사과는 어떻게 하면 신선하면서도 오랫동안 보관할 수 있을까요?",
+            "turn_id": "BK22006682-9",
+            "utterance_id": "BK22006682.17"
+        },
+        {
+            "reference_date": "2021-09-20",
+            "reference_text": [
+                {
+                    "value": "사과를 오랫동안 보관하면서 신선한 맛을 즐기려면 폴리에틸렌 필름에 밀봉해 보관하는 것이 좋다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밀봉하면 수분 증발이 거의 일어나지 않아 1~2개월 보관 가능하다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1356963/%ea%b8%b0%eb%a6%84%ec%a7%84-%ec%9d%8c%ec%8b%9d-%eb%a8%b9%ea%b3%a0-%eb%8d%94%eb%b6%80%eb%a3%a9%ed%95%a0-%eb%95%8c%ec%82%ac%ea%b3%bc%ea%b0%80-%ec%a2%8b%ec%9d%80-%ec%9d%b4%ec%9c%a0-2/",
+            "search_query": "사과 보관법",
+            "terminate": false,
+            "text": "사과를 신선하면서도 오랜 시간 보관하려면 밀봉하는 것이 좋아요. 폴리에틸렌 필름에 넣어 밀봉하면 수분이 거의 날아가지 않아서 1~2개월은 보관할 수 있어요.",
+            "turn_id": "BK22006682-9",
+            "utterance_id": "BK22006682.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수분이 날아가면 맛이 없으니까요, 좋은 꿀팁 감사합니다.",
+            "turn_id": "BK22006682-10",
+            "utterance_id": "BK22006682.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 오늘도 즐거웠어요, 그럼 다음에 만나요.",
+            "turn_id": "BK22006682-10",
+            "utterance_id": "BK22006682.20"
+        }
+    ]
+}

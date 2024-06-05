@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004941",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004941",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 오늘 한산 보고 왔어요! 그런데 의문점이 드는 게 임진왜란 때 아무리 일본군이 강했다지만 그렇게까지 조선이 당한 이유가 뭔가요?",
+            "turn_id": "BK22004941-1",
+            "utterance_id": "BK22004941.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 아무래도 충주에서 탄금대 전투를 패한 게 컸다고 생각해요.",
+            "turn_id": "BK22004941-1",
+            "utterance_id": "BK22004941.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탄금대 전투라면 혹시 임진왜란 초기에 일어났던 전투인가요?",
+            "turn_id": "BK22004941-2",
+            "utterance_id": "BK22004941.3"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "충주 탄금대 전투(忠州彈琴臺戰鬪)는 1592년 6월 7일 임진왜란 당시 신립이 이끄는 조선군이 충주 탄금대에서 전멸한 전투이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%A9%EC%A3%BC_%ED%83%84%EA%B8%88%EB%8C%80_%EC%A0%84%ED%88%AC",
+            "search_query": "충주 탄금대 전투",
+            "terminate": false,
+            "text": "네. 1592년 6월 7일에 신립이 지휘하던 조선군이 충주에 있는 탄금대에서 전멸한 전투였죠.",
+            "turn_id": "BK22004941-2",
+            "utterance_id": "BK22004941.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1592년이면 임진왜란이 발발한 해네요! 당시 병사 규모가 어느 정도였길래 전멸까지 한 건가요?",
+            "turn_id": "BK22004941-3",
+            "utterance_id": "BK22004941.5"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "따라서 신립의 조선군은 선조실록에 나타난 도성 근방에서 모집한 8천명, 이후 징비록, 연려실기술에서 충청도에서 합류한 8천명까지 합해 최대 1만 6천명 까지로 보이지 그 이상은 되지 않을 것이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%A9%EC%A3%BC_%ED%83%84%EA%B8%88%EB%8C%80_%EC%A0%84%ED%88%AC",
+            "search_query": "탄금대 전투 조선군 선조실록 징비록",
+            "terminate": false,
+            "text": "정확하지는 않지만, 선조실록에 기록된 도성 인근에서 모병한 8천명, 징비록, 연려실기술에 기록된 충청도에서 합세한 군사 8천명을 합치면 최대 1만 6천명 정도까지 보고 있어요.",
+            "turn_id": "BK22004941-3",
+            "utterance_id": "BK22004941.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "숫자가 아주 많지는 않네요. 그럼 당시 왜군의 장수는 누구였나요?",
+            "turn_id": "BK22004941-4",
+            "utterance_id": "BK22004941.7"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "당시 먼저 출발한 선봉군의 대장은 고니시 사쿠에몬(유키시게)이었고 그는 '선발대'였다고 적혀있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고니시 사쿠에몬의 선발대는 충주를 향해 가던 도중 충주 근처 단월역에서 가토 기요마사와 만나 서로 격돌할 뻔한 위기 사태를 겪지만 겨우 무마된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%A9%EC%A3%BC_%ED%83%84%EA%B8%88%EB%8C%80_%EC%A0%84%ED%88%AC",
+            "search_query": "탄금대 전투 선봉군 대장 고니시",
+            "terminate": false,
+            "text": "당시 왜군의 선봉 대장은 고니시 사쿠에몬이었어요. 고니시 사쿠에몬은 선발대였는데, 충주 인근인 단월역에서 가토 기요마사와 만나서 서로 싸울 뻔하기도 했었죠.",
+            "turn_id": "BK22004941-4",
+            "utterance_id": "BK22004941.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 같은 편 아닌가요? 서로 싸우려고 했다니 좀 웃기네요. 그런데 이런 일본군에게 진 결정적인 이유는 뭔가요?",
+            "turn_id": "BK22004941-5",
+            "utterance_id": "BK22004941.9"
+        },
+        {
+            "reference_date": "2019-02-20",
+            "reference_text": [
+                {
+                    "value": "신립은 일본군이 보병인데 반해 아군은 기병이므로 기병력을 이용할 수 있는 평지에서 공격할 것을 주장했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신립이 전장으로 선택한 탄금대는 논과 밭 등의 장애물이 많아서 기병의 기동력을 활용하는데 제약이 많은 곳이었다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=569460",
+            "search_query": "탄금대 전투 신립 기병",
+            "terminate": false,
+            "text": "신립은 우리 편은 기병, 적군은 보병 위주니까 기병을 활용할 수 있는 평야 지역에서 공격할 것을 주장했죠. 하지만 사실 전투지역으로 택한 탄금대는 논이나 밭 같은 장애물이 많아서 기병의 재빠른 움직임을 이용하기에는 제한이 많은 곳이었어요.",
+            "turn_id": "BK22004941-5",
+            "utterance_id": "BK22004941.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 판단을 완전히 잘못했네요. 완전히 불리한 싸움이 됐을 거 같은데요? 전투의 양상은 어떻게 흘러갔나요?",
+            "turn_id": "BK22004941-6",
+            "utterance_id": "BK22004941.11"
+        },
+        {
+            "reference_date": "2019-02-20",
+            "reference_text": [
+                {
+                    "value": "이날 하늘도 무심하게 기병에게 불리한 비가 내렸다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본군은 오다 노부다가가 개발한 3단 철포 사격 방식을 이 전투에서 채용해 말 그래도 기병들을 도륙했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=569460",
+            "search_query": "탄금대 전투 비 3단 철포",
+            "terminate": false,
+            "text": "하필 이날은 비까지 내려서 기병에게 불리한 날씨였어요. 이에 일본군은 오다 노부나가가 창안한 3단 철포 사격을 사용해서 기병들을 마구 무찔렀죠.",
+            "turn_id": "BK22004941-6",
+            "utterance_id": "BK22004941.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심지어 운까지 안 따라줬네요. 그러면 지휘관인 신립은 대체 뭘 하고 있었나요?",
+            "turn_id": "BK22004941-7",
+            "utterance_id": "BK22004941.13"
+        },
+        {
+            "reference_date": "2019-02-20",
+            "reference_text": [
+                {
+                    "value": "신립은 탄금대 북쪽 남한강 언덕의 열두대라고 하는 절벽에서 12번이나 오르내리며 활줄을 물에 적시어 쏘면서 병사들을 독려했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 전세가 불리해 패하게 되자 이 강물에 투신해 목숨을 끊었다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=569460",
+            "search_query": "탄금대 전투 신립 투신",
+            "terminate": false,
+            "text": "신립은 탄금대 북쪽 남한강 언덕에 있는 열두대 절벽을 12번씩 오르내리며 병사들을 고무했어요. 하지만 전세가 기울어 패배가 가까워지자 강물에 몸을 던져 자살을 하죠.",
+            "turn_id": "BK22004941-7",
+            "utterance_id": "BK22004941.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 비겁하게 항복하지는 않았군요. 하지만 이 전투가 끼친 영향이 꽤 컸을 거 같아요.",
+            "turn_id": "BK22004941-8",
+            "utterance_id": "BK22004941.15"
+        },
+        {
+            "reference_date": "2019-02-20",
+            "reference_text": [
+                {
+                    "value": "탄금대 전투의 패배와 명장으로 칭송받던 신립의 죽음은 조선 조정을 충격과 공포로 몰아넣었고 파죽지세로 진격하던 일본군에게 더욱 박차를 가하게 하는 계기가 됐다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews365.com/news/article.html?no=569460",
+            "search_query": "탄금대 전투 조선 조정 일본군",
+            "terminate": false,
+            "text": "맞아요. 명장이라 불리던 신립이 사망하자 조선 조정은 충격과 공포에 빠지고 일본군은 더욱 엄청난 기세로 진격을 하게 되죠.",
+            "turn_id": "BK22004941-8",
+            "utterance_id": "BK22004941.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 패배했으니 당시 충주에 있던 백성들도 무사하지는 않았겠네요.",
+            "turn_id": "BK22004941-9",
+            "utterance_id": "BK22004941.17"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "충주의 사민과 관속들은 신립군이 6만 대군大軍이나 되어서 신립을 믿고 피난하지 않아 전투 종결 후 일본군에 학살당한 것으로 난중잡록이 적고있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%A9%EC%A3%BC_%ED%83%84%EA%B8%88%EB%8C%80_%EC%A0%84%ED%88%AC",
+            "search_query": "탄금대 전투 충주 학살",
+            "terminate": false,
+            "text": "맞아요. 난중잡록에 의하면 당시 충주의 백성들과 관리들은 신립군이 6만이나 되는 대군이라고 믿고 피난을 하지 않아서 전투가 끝난 후 학살을 당하게 되죠.",
+            "turn_id": "BK22004941-9",
+            "utterance_id": "BK22004941.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 안타까운 역사네요. 정말 지휘관의 판단이 중요하다는 걸 일깨워 주는 역사 일화 같아요. 오늘도 좋은 역사 지식 알려주셔서 감사합니다.",
+            "turn_id": "BK22004941-10",
+            "utterance_id": "BK22004941.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 다음에도 궁금한 게 생기면 언제든지 편하게 질문주세요!",
+            "turn_id": "BK22004941-10",
+            "utterance_id": "BK22004941.20"
+        }
+    ]
+}

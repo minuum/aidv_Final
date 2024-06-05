@@ -1,0 +1,338 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003603",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003603",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘에 역사 공부를 하고 있는데, 새삼 새롭게 알게 되는 놀라운 사실들이 많더라.",
+            "turn_id": "BK22003603-1",
+            "utterance_id": "BK22003603.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특별히 더 놀랍게 다가왔던 부분이 있었어?",
+            "turn_id": "BK22003603-1",
+            "utterance_id": "BK22003603.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 영국의 엘리자베스 1세가 누구인지는 너도 알지?",
+            "turn_id": "BK22003603-2",
+            "utterance_id": "BK22003603.3"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 1세(영어: Elizabeth I, 1533년 9월 7일 ~ 1603년 3월 24일)는 1558년 11월 17일부터 1603년 3월 24일까지 44년간 잉글랜드 왕국 및 아일랜드 왕국을 다스린 여왕이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4_1%EC%84%B8",
+            "search_query": "영국의 엘리자베스 1세",
+            "terminate": false,
+            "text": "그럼, 1533년 9월 7일에 태어나, 잉글랜드와 아일랜드 왕국을 총 44년간 통치했었던 여왕이잖아. 1558년 11월 17일부터 통치를 시작해서 서거일인 1603년 3월 24일까지 왕국을 다스렸었지.",
+            "turn_id": "BK22003603-2",
+            "utterance_id": "BK22003603.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 사실 나는 방금 말한 엘리자베스 1세가 잉글랜드 최초의 여왕이라고 생각했었거든. 그런데 이번에 공부를 해보니까, 알고 보니 엘리자베스에게 이복 언니가 있었고, 이 언니도 여왕이었다는 사실을 알고 놀랐어.",
+            "turn_id": "BK22003603-3",
+            "utterance_id": "BK22003603.5"
+        },
+        {
+            "reference_date": "2020-05-06",
+            "reference_text": [
+                {
+                    "value": "병약한 소년 왕 에드워드 6세의 6년간의 짧은 재위기간의 뒤를 이어 잉글랜드 왕국의 여왕이 된 것은 헨리 8세와 첫 번째 왕비인 캐서린 사이의 유일한 장녀이자 엘리자베스의 이복 언니인 메리 1세였다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.hankooki.com/news/articleView.html?idxno=6765615",
+            "search_query": "엘리자베스 이복 언니 여왕",
+            "terminate": false,
+            "text": "네 말대로 엘리자베스에겐 이복 언니가 있었어. 잉글랜드 왕국의 여왕이었던 메리 1세였지. 메리는 헨리 8세와 첫 번째 왕비였던 캐서린 사이에서 태어난 유일한 딸이었고, 몸이 좋지 않아서 재위 기간이 6년에 불과했던 어린 왕 에드워드 6세의 왕위를 계승하면서 여왕이 됐어.",
+            "turn_id": "BK22003603-3",
+            "utterance_id": "BK22003603.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 엘리자베스의 언니 이름이 메리였구나. 그러면 메리 1세의 통치 기간은 얼마나 길었어?",
+            "turn_id": "BK22003603-4",
+            "utterance_id": "BK22003603.7"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "메리 1세(Mary I, 1516년 2월 18일 ~ 1558년 11월 17일)는 잉글랜드 왕국 및 아일랜드 왕국의 여왕(재위 1553년 7월 19일 - 1558년 11월 17일)이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 통치기간",
+            "terminate": false,
+            "text": "메리 1세는 1553년 7월 19일에 재위해서, 서거일이었던 1558년 11월 17일까지 잉글랜드와 아일랜드 왕국을 다스렸어. 참고로, 출생일은 1516년 2월 18일이었지.",
+            "turn_id": "BK22003603-4",
+            "utterance_id": "BK22003603.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메리 1세가 어렸을 적 겪었던 고생에 비하면, 여왕으로 즉위했던 기간은 너무 짧았던 거 같아서 조금 안타깝다. 내가 읽은 책을 보면, 아버지인 헨리 8세가 메리의 어머니인 캐서린을 내쫓는 바람에, 메리도 사생아 취급을 당했다던데 그게 진짜야?",
+            "turn_id": "BK22003603-5",
+            "utterance_id": "BK22003603.9"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "그의 아버지가 엘리자베스 1세의 어머니인 앤 불린과 결혼하기 위해 캐서린 왕비와 이혼하면서 메리 1세는 사생아로 지위가 바뀌었다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.handmk.com/news/articleView.html?idxno=12714",
+            "search_query": "헨리 8세 캐서린 메리 1세 사생아",
+            "terminate": false,
+            "text": "정확해, 메리의 아버지는 캐서린 왕비와 이혼했는데, 이는 엘리자베스 1세의 어머니인 앤 불린과 결혼하기 위해서였어. 이 이혼 이후로, 메리 1세의 지위가 사생아로 바뀌고 말았지.",
+            "turn_id": "BK22003603-5",
+            "utterance_id": "BK22003603.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캐서린 왕비는 헨리 8세가 앤과 결혼하기 위해서 자신과의 이혼을 제안했을 때, 순순히 받아들였어?",
+            "turn_id": "BK22003603-6",
+            "utterance_id": "BK22003603.11"
+        },
+        {
+            "reference_date": "2021-12-30",
+            "reference_text": [
+                {
+                    "value": "혼인이 추진되면서 동시에 왕비와의 이혼을 시도하려는 헨리 8세에게 캐서린은 완강하게 저항했고 로마 교황 역시 강력하게 반대했다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kor.theasian.asia/archives/305389",
+            "search_query": "캐서린 왕비 헨리 8세 이혼",
+            "terminate": false,
+            "text": "그럴리가, 캐서린 왕비는 혼인이 추진되는 동안 헨리 8세에게 강력하게 반발했어. 캐서린뿐만 아니라, 심지어 로마 교황도 이 이혼에 강력히 반대하는 입장이었지.",
+            "turn_id": "BK22003603-6",
+            "utterance_id": "BK22003603.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데도 결국 캐서린이 쫓겨나게 되었구나. 이후 새어머니가 된 앤 불린과 메리의 사이는 어땠어?",
+            "turn_id": "BK22003603-7",
+            "utterance_id": "BK22003603.13"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "이복 여동생 엘리자베스가 태어나자 앤 불린은 메리의 왕위 계승권을 빼앗아, 서녀 취급하도록 했다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 앤 불린 사이",
+            "terminate": false,
+            "text": "음, 결코 좋았다고는 말을 못하겠네. 메리로부터 왕위 계승권을 빼앗은 게 바로 앤 불린이었거든. 이복 동생인 엘리자베스가 태어난 이후, 메리는 앤 불린 때문에 왕위 계승권을 빼앗겼을 뿐만 아니라, 한 술 더 떠서 서녀 취급까지 받게 되었어.",
+            "turn_id": "BK22003603-7",
+            "utterance_id": "BK22003603.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그야말로 정말 최악의 상황이네. 그런데 메리 1세는 왕위 계승권까지 빼앗겼는데, 어떻게 다시 여왕으로 즉위하게 된 거야? 서녀가 된 이후에, 신분을 복권할 기회가 다시 있었나?",
+            "turn_id": "BK22003603-8",
+            "utterance_id": "BK22003603.15"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "헨리 8세의 여섯 번째 왕비인 캐서린 파에 의해 간신히 공주로서의 신분이 복권되었다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 신분 복권",
+            "terminate": false,
+            "text": "그건 캐서린 파가 힘을 써준 덕분이었어. 캐서린 파는 헨리 8세의 여섯 번째 왕비였는데, 이 사람의 도움 덕분에 겨우 공주로서의 신분을 복권하게 된 거야.",
+            "turn_id": "BK22003603-8",
+            "utterance_id": "BK22003603.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나, 혹시 캐서린 파 말고는 서녀로 강등되었던 메리를 도와주려고 한 사람이 전혀 없었을까? 메리가 적자가 맞다거나, 메리의 공주로서의 신분을 돌려주는 것이 옳다고 주장한 사람들 말이야.",
+            "turn_id": "BK22003603-9",
+            "utterance_id": "BK22003603.17"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "독실한 가톨릭 신자였던 제인 시모어는 메리 공주(훗날 메리 1세, 헨리 8세의 첫왕비의 딸)를 적자의 신분으로 돌려 놓아줄 것을 왕에게 간청했다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 헨리 8세는 이를 딸 메리가 반역을 시도했다고 생각해 오히려 메리와 그녀의 지지자들을 법정에 세웠다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9D%B8_%EC%8B%9C%EB%AA%A8%EC%96%B4",
+            "search_query": "메리 공주 신분 적자",
+            "terminate": false,
+            "text": "독실한 가톨릭 신자였던 제인 시모어도 메리를 도와주려고 했던 사람 중 한 명이었어. 이 사람은 심지어 메리에게 적자의 신분을 돌려줘야 한다고 헨리 8세에게 간청하기도 했었거든. 하지만 헨리 8세가 이 간청을 딸이었던 메리의 반역 시도라고 판단하는 바람에, 메리의 지지자뿐만 아니라 메리 본인도 법정에 서야 하는 수모를 겪고 말았어.",
+            "turn_id": "BK22003603-9",
+            "utterance_id": "BK22003603.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 도움을 주려는 사람이 전혀 없지는 않았구나. 그리고, 헨리 8세는 알면 알수록 참 너무한 사람인 거 같아. 아무리 그래도 자기 딸인데, 메리를 반역자 취급하면서 법정에까지 세웠을 줄은 몰랐어.",
+            "turn_id": "BK22003603-10",
+            "utterance_id": "BK22003603.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 지금 관점으로 바라봐도 헨리 8세가 확실히 좀 너무했던 것 같기는 해.",
+            "turn_id": "BK22003603-10",
+            "utterance_id": "BK22003603.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 아무튼 같이 이야기 해줘서 고마워! 덕분에 제인 시모어에 대한 새로운 정보도 알게 된 것 같아. 더 이야기하고 싶지만, 난 내일까지 제출해야 하는 과제가 있어서 이만 들어가 봐야 할 거 같아.",
+            "turn_id": "BK22003603-11",
+            "utterance_id": "BK22003603.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 들어가고, 다음에 시간 나면 다시 이야기 나누자.",
+            "turn_id": "BK22003603-11",
+            "utterance_id": "BK22003603.22"
+        }
+    ]
+}

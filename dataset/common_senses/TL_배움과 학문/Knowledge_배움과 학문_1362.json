@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001152",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001152",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인터넷에서 CPTPP에 대한 기사를 읽었어. CPTPP에 대해 들어본 적 있어?",
+            "turn_id": "BK22001152-1",
+            "utterance_id": "BK22001152.1"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "포괄적·점진적 환태평양 경제 동반자 협정(영어: Comprehensive and Progressive Agreement for Trans-Pacific Partnership, CPTPP)은 아시아·태평양 11개국이 2018년 3월 칠레에서 결성한 다자간 무역협상이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EA%B4%84%EC%A0%81%C2%B7%EC%A0%90%EC%A7%84%EC%A0%81_%ED%99%98%ED%83%9C%ED%8F%89%EC%96%91_%EA%B2%BD%EC%A0%9C_%EB%8F%99%EB%B0%98%EC%9E%90_%ED%98%91%EC%A0%95",
+            "search_query": "CPTPP",
+            "terminate": false,
+            "text": "응, 자주 들어봤어. CPTPP는 아시아랑 태평양에 있는 11개 국가가 2018년 3월 칠레에서 만든 무역협상이잖아.",
+            "turn_id": "BK22001152-1",
+            "utterance_id": "BK22001152.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 국제문제에 대해 잘 아는구나. CPTPP 규모는 어느 정도 되는지 알아?",
+            "turn_id": "BK22001152-2",
+            "utterance_id": "BK22001152.3"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "회원국의 국내총생산(GDP)은 전 세계 13%, 무역 규모는 15%에 이른다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그야말로 메가톤급 ‘자유무역협정(FTA)’이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/202204117087i",
+            "search_query": "CPTPP 규모",
+            "terminate": false,
+            "text": "CPTPP에 가입한 국가들이 전 세계 GDP의 13퍼센트, 무역량의 15퍼센트를 차지해. 그야말로 엄청나게 규모가 큰 FTA지.",
+            "turn_id": "BK22001152-2",
+            "utterance_id": "BK22001152.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 큰 규모의 협정이구나. 이렇게 큰 규모면 미국도 회원국이겠네?",
+            "turn_id": "BK22001152-3",
+            "utterance_id": "BK22001152.5"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "그러나 CPTPP의 모체인 환태평양경제동반자협정(TPP)을 주도했던 미국은 도널드 트럼프 대통령이 집권한 2017년 TPP에서 탈퇴했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.khan.co.kr/economy/economy-general/article/202204191433001#c2b",
+            "search_query": "CPTPP 미국",
+            "terminate": false,
+            "text": "아니야, 미국은 CPTPP에 가입 안 했어. 원래 CPTPP 전에 만들어진 TPP를 미국이 추진했었는데 트럼프 대통령이 2017년에 탈퇴를 해버렸지.",
+            "turn_id": "BK22001152-3",
+            "utterance_id": "BK22001152.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 만들다가 결국 참여를 안 했구나. 그러면 CPTPP의 핵심 내용은 뭐야?",
+            "turn_id": "BK22001152-4",
+            "utterance_id": "BK22001152.7"
+        },
+        {
+            "reference_date": "2021-12-17",
+            "reference_text": [
+                {
+                    "value": "협정의 주요 내용은 ▲ 농수산물과 공산품 역내 관세 철폐 ▲ 데이터 거래 활성화 ▲ 금융·외국인 투자 규제 완화 ▲ 이동 자유화 ▲ 국유기업 보조금 지원 금지 등입니다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20211217062600797",
+            "search_query": "CPTPP 내용",
+            "terminate": false,
+            "text": "핵심 내용은 농수산물과 공산품의 관세 철폐, 데이터 거래 활성화, 금융 및 외국인 투자 규제 완화, 이동의 자유화, 국유기업 보조금 지원 금지 다섯 가지로 요약할 수 있어.",
+            "turn_id": "BK22001152-4",
+            "utterance_id": "BK22001152.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 내용을 다루고 있구나. 그러면 한국도 가입한 상태야?",
+            "turn_id": "BK22001152-5",
+            "utterance_id": "BK22001152.9"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "앞서 15일 한국 정부는 CPTPP 가입 추진 계획을 서면 의결했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Economy/article/all/20220418/112952926/1",
+            "search_query": "CPTPP 한국",
+            "terminate": false,
+            "text": "한국은 CPTPP 가입을 추진하기로 결정한 상태야.",
+            "turn_id": "BK22001152-5",
+            "utterance_id": "BK22001152.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 CPTPP에 가입하면 한국한테 좋은 점은 뭐야?",
+            "turn_id": "BK22001152-6",
+            "utterance_id": "BK22001152.11"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "대외경제정책연구원(KIEP)은 'CPTPP 가입의 경제적 영향' 분석에서 CPTPP에 가입하면 교역 확대와 생산·투자·고용 증가로 실질 국내총생산(GDP)이 0.33~0.35% 증가할 거라고 봤다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.newdaily.co.kr/site/data/html/2022/04/08/2022040800072.html",
+            "search_query": "CPTPP 효과",
+            "terminate": false,
+            "text": "CPTPP에 가입하면 무역이 늘어나고, 생산, 투자, 고용이 증가해서 실질 GDP가 0.33퍼센트에서 0.35퍼센트 증가할 수 있어.",
+            "turn_id": "BK22001152-6",
+            "utterance_id": "BK22001152.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 반대로 부정적인 측면도 있어?",
+            "turn_id": "BK22001152-7",
+            "utterance_id": "BK22001152.13"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "그러나 호주, 뉴질랜드 등 농업강국도 CPTPP에 포함돼 있어 이들 국가로부터의 수입 확대에 따른 국내 농수산업계의 피해가 불가피할 전망이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220415152000003",
+            "search_query": "CPTPP 효과",
+            "terminate": false,
+            "text": "응, CPTPP에 가입한 호주, 뉴질랜드가 농업이 발전한 나라여서 수입이 늘어나면 한국 농수산업에 피해가 있을 수 있지.",
+            "turn_id": "BK22001152-7",
+            "utterance_id": "BK22001152.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 가입을 반대하는 사람들도 있겠어.",
+            "turn_id": "BK22001152-8",
+            "utterance_id": "BK22001152.15"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "포괄적·점진적 환태평양경제동반자협정(CPTPP) 가입을 반대하는 경남지역 농어민단체, 시민사회단체 등으로 구성된 'CPTPP 저지 경남운동본부'가 CPTPP 반대 도민 서명운동을 벌이기로 했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/06/564410/",
+            "search_query": "CPTPP 반대",
+            "terminate": false,
+            "text": "맞아, CPTPP 가입을 반대하는 경남지역 농어민단체, 시민사회단체가 만든 CPTPP 저지 경남운동본부가 CPTPP 반대 도민 서명운동을 벌일 예정이야.",
+            "turn_id": "BK22001152-8",
+            "utterance_id": "BK22001152.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 점도 있고 안 좋은 점도 있으니 신중해야겠네.",
+            "turn_id": "BK22001152-9",
+            "utterance_id": "BK22001152.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 여러 가지를 고민해야 하는 거 같아.",
+            "turn_id": "BK22001152-9",
+            "utterance_id": "BK22001152.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 덕분에 어려운 국제 이슈를 쉽게 이해하게 되었어.",
+            "turn_id": "BK22001152-10",
+            "utterance_id": "BK22001152.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 조심히 들어가고 다음에 보자.",
+            "turn_id": "BK22001152-10",
+            "utterance_id": "BK22001152.20"
+        }
+    ]
+}

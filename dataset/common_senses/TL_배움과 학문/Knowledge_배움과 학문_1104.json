@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007288",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007288",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 사람들 혈액형 진짜 잘 맞추는데 한 번 맞춰 볼게요. O형 맞죠?",
+            "turn_id": "BK22007288-1",
+            "utterance_id": "BK22007288.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 어떻게 알았어요? 저희 집은 가족 모두가 O형이에요. 신기하게 진짜 잘 맞추시네요.",
+            "turn_id": "BK22007288-1",
+            "utterance_id": "BK22007288.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4가지 중에 하나 고르는 건 자신 있거든요. 그런데 얼마 전에 얼핏 기사 제목만 봤는데 우리가 상식으로 알고 있는 ABO 혈액형 공식이 맞지 않는 경우도 있다던데, 사실인가요?",
+            "turn_id": "BK22007288-2",
+            "utterance_id": "BK22007288.3"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "흔히 알고 있는 혈액형 상식으로는 부모 모두 B형일 경우 자식의 혈액형은 B형이나 O형이 일반적이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 반드시 그런 것은 아니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혈액형에도 돌연변이가 있기 때문이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220818040900502?input=1195m",
+            "search_query": "혈액형 돌연변이",
+            "terminate": false,
+            "text": "네, 맞아요. 혈액형에도 돌연변이가 존재하거든요. 우리는 혈액형 상식에 따라 흔히 부모가 둘 다 B형이면 자녀는 B형 혹은 O형일 것이라고 일반적으로 생각하지만, 꼭 그렇다고는 할 수 없어요.",
+            "turn_id": "BK22007288-2",
+            "utterance_id": "BK22007288.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 정말 신기하네요. 그런 돌연변이의 구체적인 예가 있으면 알려주실래요?",
+            "turn_id": "BK22007288-3",
+            "utterance_id": "BK22007288.5"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "시스-AB형은 혈액 내의 A형 또는 B형 어느 한쪽의 특성(항원성)이 아주 미약해 일반 혈액형 검사에서 A형 또는 B형으로 진단되는 비정형 AB형을 가리킨다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 정밀검사를 통해서야 비정형 AB형이라는 것이 드러난다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220818040900502?input=1195m",
+            "search_query": "시스-AB형",
+            "terminate": false,
+            "text": "시스-AB형이라는 것이 있는데 이 혈액을 가진 사람은 혈액 속 A형과 B형 중 어느 한쪽의 특성이 매우 미미해서 일반적인 혈액형 검사를 했을 때 AB형이 아닌 A형 혹은 B형으로 나오거든요. 사실은 비정형 AB형인 것이죠. 이런 경우에는 보통 정밀 검사를 해 보아야 비로소 비정형 AB형이라는 사실을 확인할 수 있어요.",
+            "turn_id": "BK22007288-3",
+            "utterance_id": "BK22007288.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혈액형 검사를 해도 자신의 정확한 혈액형이 나오지 않을 수도 있다니 놀랍고 신기하네요. 그런데 이런 ABO 혈액형은 어떤 기준으로 정해지는 거예요?",
+            "turn_id": "BK22007288-4",
+            "utterance_id": "BK22007288.7"
+        },
+        {
+            "reference_date": "2021-06-14",
+            "reference_text": [
+                {
+                    "value": "이같은 ABO 혈액형은 적혈구 표면의 항원과 혈액 속 항체가 무엇이냐에 의해 구분됩니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간단히 A형은 혈액 속 항체에 A형 항원을 가지고 있는 사람이며, B는 B형 항원, AB형은 A형 항원과 B형 항원 모두를 가지고 있는 사람이며, O형은 A형 항원, B형 항원 모두를 갖지 않는 사람입니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatime.co.kr/article/20210614500036",
+            "search_query": "ABO혈액형",
+            "terminate": false,
+            "text": "ABO 혈액형을 구분하는 기준은 적혈구 겉면의 항원과 혈액 안의 항체의 종류예요. 혈액 안의 항체에 A형 항원이 있는 사람은 A형, B형 항원이 있는 사람은 B형, A형과 B형 항원이 모두 있는 사람은 AB형, A형과 B형 항원 둘 다 없는 사람은 O형이에요.",
+            "turn_id": "BK22007288-4",
+            "utterance_id": "BK22007288.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 사람의 피를 이렇게 구분할 수 있으니 수혈도 안심하고 받을 수 있고 정말 좋은 것 같아요. 이렇게 혈액형을 구분하는 방법은 누가 발견한 것인가요?",
+            "turn_id": "BK22007288-5",
+            "utterance_id": "BK22007288.9"
+        },
+        {
+            "reference_date": "2021-06-14",
+            "reference_text": [
+                {
+                    "value": "이같은 ABO 혈액형은 오스트리아의 병리학자 카를 란트슈타이너에 의해 발견됐습니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "란트슈타이너는 1901년 사람의 적혈구가 타인의 혈청에 의해 응집되는 것을 확인하고, 이를 통해 ABO식 혈액형을 발견했지요.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatime.co.kr/article/20210614500036",
+            "search_query": "ABO혈액형 발견",
+            "terminate": false,
+            "text": "카를 란트슈타이너라는 오스트리아의 병리학자에 의해 1901년 ABO 혈액형이 발견되었어요. 다른 사람의 혈청에 의해 사람의 적혈구가 응집되는 현상을 란트슈타이너가 확인하면서 ABO식 혈액형을 발견한 것이죠.",
+            "turn_id": "BK22007288-5",
+            "utterance_id": "BK22007288.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 생각해 보니 ABO 혈액형 말고 Rh 플러스, 마이너스 혈액형도 있죠? Rh로 구분하는 방식에 대해서도 설명해주실래요?",
+            "turn_id": "BK22007288-6",
+            "utterance_id": "BK22007288.11"
+        },
+        {
+            "reference_date": "2016-11-23",
+            "reference_text": [
+                {
+                    "value": "이 혈액형은 Rh식 혈액분류의 하나로, 대립인자 C, D, E 가 존재하는데, Rh+의 경우 이 3가지를 모두 가지고 있으며, 이중에서 D가 없는 경우를 Rh-라 일컫는다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 혈액형 보유자가 Rh+의 혈액을 수혈 받을 경우에는 체내에서 항체가 형성되어 수혈부작용이 일어날 수 있기 때문에 같은 Rh-끼리만 수혈이 가능하다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisunnews.co.kr/news/articleView.html?idxno=44770",
+            "search_query": "Rh식 혈액형",
+            "terminate": false,
+            "text": "Rh식으로 혈액을 분류하면 세 가지 대립인자인 C, D, E를 모두 가지고 있으면 Rh+, 이 세 가지 대립인자 중 D가 없으면 Rh-예요. 혈액형이 Rh-인 사람이 Rh+의 피를 수혈받게 되면 몸속에서 항체가 만들어져서 수혈 부작용이 발생할 수 있으므로 Rh-인 사람은 Rh-의 혈액만 수혈받을 수 있는 특징이 있죠.",
+            "turn_id": "BK22007288-6",
+            "utterance_id": "BK22007288.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 가끔 방송에서 Rh- 혈액을 찾는 자막이 나오던데, 혈액형이 Rh-인 사람은 드문가요?",
+            "turn_id": "BK22007288-7",
+            "utterance_id": "BK22007288.13"
+        },
+        {
+            "reference_date": "2016-11-23",
+            "reference_text": [
+                {
+                    "value": "미국이나 유럽 등지에는 전체인구의 20% 정도로 흔하지만, 우리나라를 비롯한 아시아권 국가에서는 0.1~0.5%에 불과할 정도로 매우 드물다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisunnews.co.kr/news/articleView.html?idxno=44770",
+            "search_query": "Rh- 혈액형 보유자",
+            "terminate": false,
+            "text": "네. 미국이나 유럽 지역에서는 전체 인구 중 20% 정도를 차지할 정도로 드물지 않지만, 우리나라를 포함한 아시아권 국가에서는 불과 0.1~0.5% 정도로 매우 희귀해요.",
+            "turn_id": "BK22007288-7",
+            "utterance_id": "BK22007288.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 드문 혈액형이네요. Rh-인 사람은 항상 더 조심해야겠어요. 혈액형 이야기를 하다 보니 갑자기 궁금해졌는데, 개도 혈액형이 있나요?",
+            "turn_id": "BK22007288-8",
+            "utterance_id": "BK22007288.15"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "먼저 개의 혈액형은 DEA(Dog Erythrocyte Antigen, 개 적혈구 항원)로 분류하는데, DEA 뒤에 숫자를 붙여 DEA1-, DEA1.1, DEA1.2' 등으로 표기합니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개의 혈액형은 DEA1-, DEA1.1, DEA1.2, DEA3, DEA4, DEA5, DEA7 등 7개 혈액형이 국제적으로 인정된 혈액형이고, 나머지 인정받지 못한 혈액형을 포함해 모두 13가지 종류가 있다고 합니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019121315155561543",
+            "search_query": "개 혈액형",
+            "terminate": false,
+            "text": "네, 개도 혈액형이 있어요. 개의 혈액형은 개 적혈구 항원, 다른 말로 DEA로 분류해요. DEA1-, DEA1.1, DEA1.2와 같이 DEA 다음에 숫자를 붙여서 표기하죠. 개의 혈액형에는 총 13가지 종류가 있는데 그 중 DEA1-, DEA1.1, DEA1.2, DEA3, DEA4, DEA5, DEA7 등이 국제적으로 인정받은 7가지의 혈액형이에요.",
+            "turn_id": "BK22007288-8",
+            "utterance_id": "BK22007288.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개는 혈액형 종류가 매우 많네요. 그럼 고양이도 이렇게 혈액형이 다양하게 나뉘나요?",
+            "turn_id": "BK22007288-9",
+            "utterance_id": "BK22007288.17"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "고양이는 A, B의 항원을 가지고 있어 A, B, AB형만 존재합니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만, 사람과 달리 RH+,-로 나뉘지는 않는다고 합니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람이나 개보다 고양이의 혈액형이 훨씬 더 간단합니다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019121315155561543",
+            "search_query": "고양이 혈액형",
+            "terminate": false,
+            "text": "그렇지 않아요. 고양이는 사람이나 개에 비해 혈액형의 분류가 간단해요. 고양이가 가지고 있는 항원은 A, B 두 가지라서 A, B, AB형만 있고 사람처럼 Rh+나 Rh-로 구분되지 않아요.",
+            "turn_id": "BK22007288-9",
+            "utterance_id": "BK22007288.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고양이는 오히려 더 간단하군요. 오늘 이렇게 재미있고 신기한 이야기를 많이 들려주셔서 감사해요.",
+            "turn_id": "BK22007288-10",
+            "utterance_id": "BK22007288.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 같이 대화 나눠서 즐거웠어요. 앞으로도 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22007288-10",
+            "utterance_id": "BK22007288.20"
+        }
+    ]
+}

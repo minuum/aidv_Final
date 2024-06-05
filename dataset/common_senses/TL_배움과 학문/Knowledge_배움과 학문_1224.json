@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008225",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008225",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스에 엘리자베스 2세 여왕이 사망했다고 나오던데 혹시 보셨어요?",
+            "turn_id": "BK22008225-1",
+            "utterance_id": "BK22008225.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 그 뉴스 봤어요. 전 세계가 엘리자베스 2세 여왕의 사망으로 떠들썩했죠.",
+            "turn_id": "BK22008225-1",
+            "utterance_id": "BK22008225.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그런데 영국은 아직도 왕이 있다니 조금 신기하네요. 그걸 입헌군주제라고 하던데 입헌군주제는 뭘 말하는 건가요?",
+            "turn_id": "BK22008225-2",
+            "utterance_id": "BK22008225.3"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "입헌군주제 국가인 영국에서 왕은 군림하되 통치하지 않는 상징적 존재다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입헌군주제 나라에서는 의회의 다수당에서 선출된 총리가 실질적으로 국가의 통치를 맡는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220621113509187395",
+            "search_query": "입헌군주제란",
+            "terminate": false,
+            "text": "아, 영국은 입헌군주제 나라인데 왕이 군림하지만 통치는 하지 않고 상징적인 존재로만 있는 걸 말해요. 입헌군주제를 하는 나라에서는 의회의 다수당에서 뽑힌 총리가 국가를 통치해요.",
+            "turn_id": "BK22008225-2",
+            "utterance_id": "BK22008225.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 영국 말고도 아직도 입헌군주제를 하고 있는 나라들이 있나요?",
+            "turn_id": "BK22008225-3",
+            "utterance_id": "BK22008225.5"
+        },
+        {
+            "reference_date": "2021-04-26",
+            "reference_text": [
+                {
+                    "value": "아시아의 경우 일본 태국 캄보디아 등지에, 그리고 중동에는 사우디아라비아 카타르 모로코 등지에 군주제가 유지되고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 유럽 12개 군주국 중 바티칸을 제외한 나머지 국가들은 모두 입헌군주제를 채택하고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0924188839&code=11141500&cp=nv",
+            "search_query": "21세기 입헌군주제 국가",
+            "terminate": false,
+            "text": "네, 아시아에 있는 국가의 경우 일본, 태국, 캄보디아가 입헌군주제를 유지하고 있어요. 중동의 경우 사우디아라비아, 카타르, 모로코 등의 나라가 있고요. 또한 유럽 12개 군주국 중 바티칸을 뺀 나머지 국가들 모두 입헌군주제를 실행하고 있어요.",
+            "turn_id": "BK22008225-3",
+            "utterance_id": "BK22008225.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 나라들이 입헌군주제를 하고 있는 거군요. 듣자 하니 엘리자베스 2세 여왕이 정말 오랫동안 집권했다면서요?",
+            "turn_id": "BK22008225-4",
+            "utterance_id": "BK22008225.7"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 2세는 이날까지 만 70년 127일을 재위해 영국 군주 중에서는 최장, 세계 역사에서는 둘째로 오래 통치한 군주로 남았다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/international/international_general/2022/09/09/KKT7IOGBI5CHLM3QX2LMF2CUJ4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "엘리자베스 2세 여왕 통치기간",
+            "terminate": false,
+            "text": "네, 엘리자베스 2세 여왕은 만 70년 127일 동안 집권하면서 영국 군주 중에서는 최장의 기록을 세웠어요. 그리고 세계 역사에서는 두 번째로 오랫동안 통치한 군주에요.",
+            "turn_id": "BK22008225-4",
+            "utterance_id": "BK22008225.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 오랫동안 여왕으로 집권했던 거네요. 엘리자베스 2세 여왕은 대체 언제부터 여왕이 됐기에 그런 거예요?",
+            "turn_id": "BK22008225-5",
+            "utterance_id": "BK22008225.9"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 2세는 1952년 2월 25살의 나이로 왕위에 오른 뒤 영국의 군주와 영연방의 수장 자리를 지켜왔다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022090902484203031",
+            "search_query": "엘리자베스 2세 여왕 즉위 나이",
+            "terminate": false,
+            "text": "엘리자베스 2세 여왕은 1952년 2월에 25살의 나이에 왕위에 올랐어요. 이후 영국의 군주와 영연방의 수장 자리를 지켜왔어요.",
+            "turn_id": "BK22008225-5",
+            "utterance_id": "BK22008225.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 어린 나이에 여왕이 된 거라니 대단하네요. 그런데 엘리자베스 2세가 영연방의 수장이라고 했는데 그게 뭔가요? 도무지 알 수 없는 말이라서요.",
+            "turn_id": "BK22008225-6",
+            "utterance_id": "BK22008225.11"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "영연방은 영국과 그 식민지였던 독립국 56개국으로 구성된 느슨한 형태의 연합체다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영국 국왕이 국가 수장을 맡는 나라는 영국을 포함해 15개국이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20220910.99099002711",
+            "search_query": "영연방",
+            "terminate": false,
+            "text": "아, 영연방이라는 말은 처음 들으면 낯설죠. 영연방이란 영국을 포함해서 영국의 식민지였던 독립국 56개국으로 구성된 느슨한 형태의 연합체를 말해요. 영국 국왕은 영국을 포함한 15개 나라의 수장을 맡고 있어요.",
+            "turn_id": "BK22008225-6",
+            "utterance_id": "BK22008225.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 그런 연합체가 있다니 신기하네요. 그런데 엘리자베스 2세 여왕이 현대사의 산증인이라는 말이 있던데 그 이유가 뭔가요?",
+            "turn_id": "BK22008225-7",
+            "utterance_id": "BK22008225.13"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "1952년 26세의 나이로 왕위에 오른 엘리자베스 여왕은 이후 70년간 영국 군주와 영연방의 수장 자리를 지켜왔다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "재임 기간 중 15명의 영국 총리가 거쳐갔고, 냉전과 공산권 국가들의 붕괴, 유럽연합(EU) 출범과 영국 탈퇴 등 격변기를 겪어 현대사의 산증인으로 통한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/world/view/2022/09/801027/",
+            "search_query": "엘리자베스2세 여왕 현대사 산증인",
+            "terminate": false,
+            "text": "엘리자베스 여왕은 70년간 영국 군주의 자리를 지켰고 영연방의 수장 자리에 있었어요. 그렇게 긴 재임 기간 중 15명의 영국 총리가 바뀌는 걸 모두 봤고, 또한 냉전과 공산권 국가들이 붕괴하는 것도 겪었죠. 그리고 유럽연합인 EU의 출범과 영국 탈퇴 등의 격변기를 모두 겪었기에 현대사의 산증인으로 통해요.",
+            "turn_id": "BK22008225-7",
+            "utterance_id": "BK22008225.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 오랜 시간 동안 여러 역사의 순간들을 함께한 거네요. 그런 여왕이 세상을 떠났다고 하니 영국 시민들의 슬픔이 크겠어요. 그럼 엘리자베스 여왕 이후에 영국의 왕은 누가 되나요?",
+            "turn_id": "BK22008225-8",
+            "utterance_id": "BK22008225.15"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 2세 여왕의 서거에 따라 왕위를 계승한 찰스 3세가 영국 국왕으로 공식 선포됐다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "찰스 3세는 엘리자베스 2세 여왕이 지난 8일 세상을 떠남에 따라 이미 국왕 자리를 자동 승계했다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220910030400009?input=1195m",
+            "search_query": "찰스 3세",
+            "terminate": false,
+            "text": "엘리자베스 2세 여왕이 서거함에 따라서 찰스 3세가 영국 국왕으로 공식 즉위했어요. 찰스 3세는 엘리자베스 2세 여왕이 8일 세상을 떠났기에 국왕 자리를 자동으로 승계받았어요.",
+            "turn_id": "BK22008225-8",
+            "utterance_id": "BK22008225.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 새로운 영국 국왕인 찰스 3세는 왕세자로 오래 있었다는데 그게 무슨 말이에요?",
+            "turn_id": "BK22008225-9",
+            "utterance_id": "BK22008225.17"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "찰스 왕은 1948년 11월 14일 여왕과 남편 필립공 사이에 장남으로 태어났으며, 1952년 여왕이 즉위하면서 거의 평생 승계 1순위였다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여왕이 영국 최장수 군주인 만큼 찰스 3세도 9살이던 1958년 영국 왕세자(Prince of Wales)로서 책봉된 이래 무려 64년간 즉위를 기다린 기록을 남겼다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220909000400085?input=1195m",
+            "search_query": "영국 찰스 3세",
+            "terminate": false,
+            "text": "찰스 왕은 여왕과 남편 필립 공 사이에서 1948년 11월 14일 첫째로 태어났어요. 찰스 3세는 1952년에 여왕이 즉위하며 9살에 승위 1순위였어요. 하지만 여왕이 영국 최장수 군주라 1958년 영국 왕세자로 책봉된 후 64년간 즉위를 기다렸죠.",
+            "turn_id": "BK22008225-9",
+            "utterance_id": "BK22008225.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "찰스 3세도 정말 오랫동안 왕이 되려고 기다린 거네요. 참 입헌군주제 자체가 신기한 것 같아요. 국제 뉴스를 잘 몰랐는데 오늘 많이 알게 돼서 재밌었어요.",
+            "turn_id": "BK22008225-10",
+            "utterance_id": "BK22008225.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 오늘 대화 정말 즐거웠어요. 그럼 다음에 만나서 또 얘기 나눠요. 또 봐요.",
+            "turn_id": "BK22008225-10",
+            "utterance_id": "BK22008225.20"
+        }
+    ]
+}

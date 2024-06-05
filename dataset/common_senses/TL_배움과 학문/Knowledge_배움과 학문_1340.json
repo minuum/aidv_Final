@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001149",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001149",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 텔레비전에서 나토에 대한 뉴스를 봤어.",
+            "turn_id": "BK22001149-1",
+            "utterance_id": "BK22001149.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 요즘 인터넷에서 나토를 다룬 기사를 자주 본 거 같아.",
+            "turn_id": "BK22001149-1",
+            "utterance_id": "BK22001149.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나토가 정확히 어떤 역할을 하는거야?",
+            "turn_id": "BK22001149-2",
+            "utterance_id": "BK22001149.3"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "2차 세계대전 종료 직후인 지난 1949년 미국과 유럽은 소련이 중심인 동쪽 진영으로부터 서쪽 진영을 방어하기 위해 군사동맹인 나토를 창설했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220629090650654",
+            "search_query": "나토 창설",
+            "terminate": false,
+            "text": "나토는 2차 세계대전이 끝나고 1949년에 미국하고 유럽이 소련이 있는 동쪽 진영으로부터 서쪽 진영을 방어하기 위해 만든 군사동맹이야.",
+            "turn_id": "BK22001149-2",
+            "utterance_id": "BK22001149.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 오래된 군사동맹인지는 몰랐어. 그러면 회원국은 얼마나 돼?",
+            "turn_id": "BK22001149-3",
+            "utterance_id": "BK22001149.5"
+        },
+        {
+            "reference_date": "2022-06-12",
+            "reference_text": [
+                {
+                    "value": "북대서양 조약 기구의 회원국은 30개국이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "창립 회원국은 12개국이며, 가장 마지막으로 가입한 회원국은 2020년에 가입한 북마케도니아이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%81%EB%8C%80%EC%84%9C%EC%96%91_%EC%A1%B0%EC%95%BD_%EA%B8%B0%EA%B5%AC",
+            "search_query": "나토 회원국",
+            "terminate": false,
+            "text": "30개국이고, 그중 창립 회원국은 12개국이야. 가장 마지막으로 가입한 국가는 2020년에 가입한 북마케도니아고.",
+            "turn_id": "BK22001149-3",
+            "utterance_id": "BK22001149.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 2020년 이후에 새로운 회원국은 없는거야?",
+            "turn_id": "BK22001149-4",
+            "utterance_id": "BK22001149.7"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "핀란드와 스웨덴은 70년 이상 유지해온 중립 정책을 포기하고 나토 가입 절차를 밟는다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "러시아와 국경을 접한 핀란드와 인접국인 스웨덴은 러시아가 우크라이나를 침공하자 중립국 지위를 포기하고 나토 가입을 결정했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/world/view/2022/06/567904/",
+            "search_query": "나토 핀란드 스웨덴",
+            "terminate": false,
+            "text": "지금 핀란드랑 스웨덴이 70년이 넘은 중립 정책을 버리고 나토에 가입하려고 해. 러시아가 우크라이나를 공격하는 걸 보고 러시아랑 가까운 핀란드랑 스웨덴이 중립국이 되는 걸 포기한거지.",
+            "turn_id": "BK22001149-4",
+            "utterance_id": "BK22001149.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 회원국이 더 늘어날 수도 있겠네. 그런데 나토에 가입하게 되면 국방비 지출 의무같은 게 있어?",
+            "turn_id": "BK22001149-5",
+            "utterance_id": "BK22001149.9"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "나토에 따르면 30개 회원국 중 국방비 지출을 국내총생산(GDP)의 2% 부담이라는 현행 목표치를 충족한 나라는 현재 9개국에 불과하다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220629_0001924426",
+            "search_query": "나토 국방비",
+            "terminate": false,
+            "text": "현재 국방비 지출을 GDP의 2퍼센트로 정해놨는데 실제 충족한 나라는 30개국 중 9개국에 불과해.",
+            "turn_id": "BK22001149-5",
+            "utterance_id": "BK22001149.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "충족한 국가들이 그렇게 많지 않구나. 그러면 나토 헌장에는 어떤 내용이 들어있어?",
+            "turn_id": "BK22001149-6",
+            "utterance_id": "BK22001149.11"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "나토는 ‘나토 헌장’ 제5조에 규정된 집단 자위권에 따라 회원국이 한 곳이라도 공격받을 경우 이를 나토 전체에 대한 공격으로 간주하고 집단 자위권을 발동한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220629090650654",
+            "search_query": "나토 헌장",
+            "terminate": false,
+            "text": "헌장 5조에 집단 자위권이라는 게 있어. 한 회원국이 공격을 받게 되면 이를 나토 전체에 대한 공격으로 보고 회원국들이 다 같이 공격을 막아낸다는 내용이야.",
+            "turn_id": "BK22001149-6",
+            "utterance_id": "BK22001149.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집단 자위권을 명시했구나. 그러면 나토랑 비슷한 기구는 없어?",
+            "turn_id": "BK22001149-7",
+            "utterance_id": "BK22001149.13"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "1955년 옛 소련은 동유럽 공산주의 국가 군사 동맹체인 바르샤바 조약기구를 창설해 나토에 대응했다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/international-60521392",
+            "search_query": "나토 바르샤바 조약기구",
+            "terminate": false,
+            "text": "1955년에 소련이 동유럽에 있었던 공산주의 국가들이랑 바르샤바 조약기구를 만들었어. 군사 동맹 같은 건데 나토에 대응하려고 만든 거야.",
+            "turn_id": "BK22001149-7",
+            "utterance_id": "BK22001149.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 비슷한 기구가 있었구나. 그러면 최근에는 어떤 논의를 하고 있어?",
+            "turn_id": "BK22001149-8",
+            "utterance_id": "BK22001149.15"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "나토는 이번 정상회의에서 러시아의 위협과 함께 중국이 초래하는 도전을 처음으로 다룬 전략 개념을 채택할 예정이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/202206291701001",
+            "search_query": "나토 중국",
+            "terminate": false,
+            "text": "이번 정상회의에서 러시아 때문에 생긴 위협, 또 중국이 만들어내고 있는 도전에 대한 전략 개념을 채택할 예정이야.",
+            "turn_id": "BK22001149-8",
+            "utterance_id": "BK22001149.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "러시아와 중국에 대해 논의하고 있구나. 그러면 한국은 나토와 직접 관련되지는 않겠네.",
+            "turn_id": "BK22001149-9",
+            "utterance_id": "BK22001149.17"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "한국 대통령이 서방의 대표적인 군사동맹 중 하나인 나토 정상회의에 참석하는 것은 이번이 처음이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/politics/politics_general/1048622.html",
+            "search_query": "나토 한국",
+            "terminate": false,
+            "text": "원래 그랬는데, 이번 정상회의에 한국 대통령이 처음으로 나토 정상회의에 참석했어.",
+            "turn_id": "BK22001149-9",
+            "utterance_id": "BK22001149.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 다양한 변화가 나타나고 있네. 덕분에 어려운 내용을 쉽게 이해했어.",
+            "turn_id": "BK22001149-10",
+            "utterance_id": "BK22001149.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나도 오랜만에 즐거운 대화였어. 조심히 가고 다음에 보자.",
+            "turn_id": "BK22001149-10",
+            "utterance_id": "BK22001149.20"
+        }
+    ]
+}

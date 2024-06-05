@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011419",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011419",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교 수업으로 거문고 수업을 들을 예정이라 미리 공부중 이거든요. 거문고에 대해서 자세히 알려주실 수 있나요?",
+            "turn_id": "BK22011419-1",
+            "utterance_id": "BK22011419.1"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "거문고는 낮고 중후한 소리부터 높은 소리까지 넓은 옥타브의 소리를 내는 고구려에서 유래된 한국의 전통 현악기이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현학금(玄鶴琴), 현금(玄琴)이라고도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고",
+            "terminate": false,
+            "text": "물론이죠, 거문고는 중후한 소리를 내주는데 낮고 높은 소리에 넓은 옥타브를 내주며 고구려에서 유래되어진 한국 전통의 현악기로 현금, 현학금이라고도 불러요.",
+            "turn_id": "BK22011419-1",
+            "utterance_id": "BK22011419.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거문고가 현금 현학금이라고도 불리는군요. 인터넷으로 거문고의 소리를 들어보니 뭔가 묵직하고 단단한 게 느껴졌어요. 선조들은 소리를 어떻게 묘사하였나요?",
+            "turn_id": "BK22011419-2",
+            "utterance_id": "BK22011419.3"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "소리는 깊고 꿋꿋하며 장중하여 예로부터 백악지수(百樂之首), 백악지장(百樂之丈)이라 하여 선비들이 음악의 도를 닦는 그릇으로 소중히 여겨 왔다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 소리",
+            "terminate": false,
+            "text": "거문고의 소리는 장중하며 꿋꿋하게 들리며 백악지장, 백악지수라 하였어요. 선비들은 음악의 도를 닦기 위한 그릇으로 여겨왔죠.",
+            "turn_id": "BK22011419-2",
+            "utterance_id": "BK22011419.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장중하며 꿋꿋한 소리라는 거군요. 근데 거문고의 음역대는 어느정도 인가요?",
+            "turn_id": "BK22011419-3",
+            "utterance_id": "BK22011419.5"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "한국의 전통 악기 가운데 가장 넓은 3옥타브에 가까운 음역을 갖고 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 음역대",
+            "terminate": false,
+            "text": "거문고의 음역대로는 무려 3옥타브에 가까워요. 한국 전통 악기 중 가장 넓은 음역대죠.",
+            "turn_id": "BK22011419-3",
+            "utterance_id": "BK22011419.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3옥타브에 한국 전통악기 중 가장 넓다니 굉장하네요. 그러면 거문고는 누가 만들었나요?",
+            "turn_id": "BK22011419-4",
+            "utterance_id": "BK22011419.7"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "삼국사기에 의하면 고구려의 재상이었던 왕산악(王山岳)이 중국 악기인 칠현금(七絃琴)을 개조하여 거문고를 만들었다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고",
+            "terminate": false,
+            "text": "제 생각에도 굉장한 것 같아요. 거문고는 삼국사기에 따르면 고구려 재상인 왕산악이 칠현금이란 중국악기를 개조하여 만들었다고 알려져 있어요.",
+            "turn_id": "BK22011419-4",
+            "utterance_id": "BK22011419.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왕산악이란 사람에 의해서 만들어진 거군요. 그러면 거문고라는 이름은 어떻게 작명되었나요?",
+            "turn_id": "BK22011419-5",
+            "utterance_id": "BK22011419.9"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "칠현금은 있으나 연주할 수 있는 사람이 아무도 없음을 왕이 슬퍼하자, 왕산악이 그 주법을 바꾸고 100여곡을 작곡하여 바치며 왕 앞에서 연주하니, 이윽고 검은 학이 날아들었다는 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 ‘현학금(玄鶴琴)’이라 부르다가, ‘검은(학)고’, ‘거문고’로 불린다고 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 이름",
+            "terminate": false,
+            "text": "거문고의 이름은 왕산악이 100여곡을 작곡하여 왕 앞에서 연주했어요. 그런데 검은학이 날아들어 현학금이라 불렀으며 검은고, 거문고로 불렸다고 해요.",
+            "turn_id": "BK22011419-5",
+            "utterance_id": "BK22011419.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 재밌는 일화 같아요. 그런데 거문고는 어떻게 제작되나요?",
+            "turn_id": "BK22011419-6",
+            "utterance_id": "BK22011419.11"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "밤나무(뒷판)를, 대추나무(괘) 붙여서 만든 울림통 위에 명주실을 소나무(지름 약10센치 정도로 둥글게 만든 막대모양)에 감아서 쩌서내 만든 6줄(絃-문현,유현,대현,괘상청,괘하청,무현)을 맨다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 제작",
+            "terminate": false,
+            "text": "거문고는 대추나무와 밤나무를 붙여 울림통을 만든 후에, 그 위쪽에 명주실을 소나무에 감아서 유현, 문현, 대현, 무현, 괘상청, 괘하청 6줄을 매어 만들죠.",
+            "turn_id": "BK22011419-6",
+            "utterance_id": "BK22011419.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나무들과 6개의 줄로 만들어지는군요. 그러면 연주하는 방법도 알려주실래요?",
+            "turn_id": "BK22011419-7",
+            "utterance_id": "BK22011419.13"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "왼손은 손가락으로 줄을 눌러 괘를 짚어서 음을 내는데 운지법(運指法)은 다음과 같다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소지(小指, 새끼손가락)는 문현 위에 붙이고, 무명지는 유현을, 장지는 대현을, 식지(食指)와 엄지는 유현과 대현을 두루 누른다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 연주법",
+            "terminate": false,
+            "text": "왼쪽 손가락은 줄을 누르고 괘를 짚어 음을 내며 운지법으로는 무명지는 유현을, 식지와 엄지는 유현과 대현을, 장지는 대현을 두루 누르며 소지는 문현 위에 붙여 연주하죠.",
+            "turn_id": "BK22011419-7",
+            "utterance_id": "BK22011419.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연주하는 방법이 꽤 어렵게 들리네요. 그런데 거문고와 가야금은 같은 건가요?",
+            "turn_id": "BK22011419-8",
+            "utterance_id": "BK22011419.15"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "가야금에 비해 거문고의 줄이 훨씬 두껍다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가야금은 12줄, 거문고는 6줄이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가야금은 손으로 현을 뜯는데 반해 거문고는 술대를 이용해서 연주한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고 가야금",
+            "terminate": false,
+            "text": "거문고의 줄이 가야금보다 훨씬 두꺼우며 거문고는 줄이 6개, 가야금은 12개에요. 그리고 가야금은 현을 뜯어 손으로 연주하지만, 거문고는 술대를 사용하죠.",
+            "turn_id": "BK22011419-8",
+            "utterance_id": "BK22011419.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가야금은 손으로 연주하는 것, 거문고는 술대를 사용하여 연주하는 것 기억해 둬야겠어요.",
+            "turn_id": "BK22011419-9",
+            "utterance_id": "BK22011419.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 생각이에요. 거문고를 배우기 위해서 술대를 사용해야 한다는 것은 기본적인 부분이라서요.",
+            "turn_id": "BK22011419-9",
+            "utterance_id": "BK22011419.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거문고에 대해서 자세히 알려주셔서 정말 고마워요. 거문고 수업을 어렵다고 느끼지 않을 것 같아요.",
+            "turn_id": "BK22011419-10",
+            "utterance_id": "BK22011419.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "수업을 어렵게 생각하지 마시고 질문이 있으면 또 물어보러 오세요. 나중에 또 만나요!",
+            "turn_id": "BK22011419-10",
+            "utterance_id": "BK22011419.20"
+        }
+    ]
+}

@@ -1,0 +1,414 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000802",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000802",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 3.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 혹시 심지어란 말이 한자어인 거 알고 있어? 당연히 우리말인 줄 알았는데 한자였더라?",
+            "turn_id": "BK22000802-1",
+            "utterance_id": "BK22000802.1"
+        },
+        {
+            "reference_date": "2017-09-05",
+            "reference_text": [
+                {
+                    "value": "언뜻 듣기에 순우리말인 것 같아도 사실은 한자어인 경우가 의외로 많다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘어차피’와 ‘도저히’가 그 대표적인 예이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1535559",
+            "search_query": "의외로 한자어인 말",
+            "terminate": false,
+            "text": "맞아. 어차피랑 도저히도 사실 한자어야. 언뜻 듣기에는 순수 우리말인 것 같아도 알고 보면 한자어인 경우가 의외로 많지.",
+            "turn_id": "BK22000802-1",
+            "utterance_id": "BK22000802.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜? 설마 지금 말한 의외로라는 말도 한자어는 아니겠지?",
+            "turn_id": "BK22000802-2",
+            "utterance_id": "BK22000802.3"
+        },
+        {
+            "reference_date": "2014-01-04",
+            "reference_text": [
+                {
+                    "value": "\"뜻밖\"이라는 뜻으로 의외(意外)라는 낱말이 있습니다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.koya-culture.com/news/article.html?no=93751",
+            "search_query": "의외로 뜻",
+            "terminate": false,
+            "text": "미안해서 어쩌지? 의외로에서 의외도 뜻밖이라는 뜻의 한자거든. 너 그동안 이 말 순 우리말인줄 알았지?",
+            "turn_id": "BK22000802-2",
+            "utterance_id": "BK22000802.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에. 난 지금까지 그 말들이 모두 우리말인 줄 알았어. 그 말들은 왜 우리말로 순화해서 쓰지 않는거지?",
+            "turn_id": "BK22000802-3",
+            "utterance_id": "BK22000802.5"
+        },
+        {
+            "reference_date": "2017-02-13",
+            "reference_text": [
+                {
+                    "value": "한자어는 크게 두 가지다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "순우리말로 바꿀 수 있거나 이미 그렇게 쓰고 있는 것이 그중 하나다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 하나는, 그게 불가능하거나 우리말처럼 쓰고 있으니 굳이 바꿀 필요가 없는 말이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jjan.kr/article/20170212603479",
+            "search_query": "우리말 같은 한자",
+            "terminate": false,
+            "text": "우리가 쓰는 한자어는 크게 두 가지로 나뉘거든. 순수 우리말로 순화할 수 있거나 벌써 그렇게 쓰고 있는 것이나, 우리말로 바꿀수 없고 이미 우리말처럼 사용하고 있으므로 이제와서 변경하지 않아도 되는 것으로 말이야.",
+            "turn_id": "BK22000802-3",
+            "utterance_id": "BK22000802.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 아까 말한 심지어나 어차피 의외로 같은 말은 이미 우리말처럼 쓰고 있어서 굳이 안 바꾸고 그대로 쓰는 거겠네?",
+            "turn_id": "BK22000802-4",
+            "utterance_id": "BK22000802.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지. 너도 여태껏 그 말들을 이미 우리말이라고 생각하면서 쓰고 있었잖아.",
+            "turn_id": "BK22000802-4",
+            "utterance_id": "BK22000802.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보면 우리가 쓰는 말에 한자어가 정말 많은 것 같아. 학생들이 교과서를 통해 배우는 다양한 용어들도 한자어가 많잖아?",
+            "turn_id": "BK22000802-5",
+            "utterance_id": "BK22000802.9"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "실제로 현재 학생들이 배우는 여러 교과서에 나오는 핵심 용어들은 대부분 한자어로 되어 있다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://helloedunews.com/mobile/article.html?no=26539",
+            "search_query": "한자교육",
+            "terminate": false,
+            "text": "맞아. 지금 학교에서 배우는 교과서에 나오는 핵심 용어들은 한자어로 되어 있는 게 대부분이지.",
+            "turn_id": "BK22000802-5",
+            "utterance_id": "BK22000802.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 한자를 잘 모르면 아무래도 교과서 내용을 이해하기 어렵지 않을까?",
+            "turn_id": "BK22000802-6",
+            "utterance_id": "BK22000802.11"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "이와 관련하여 요즘 화두로 떠오르는 것 중의 하나는 학생들의 '문해력 저하'.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1125618",
+            "search_query": "학교 한자교육",
+            "terminate": false,
+            "text": "맞아. 그래서 이와 관련해서 요즘엔 학생들의 문해력 저하에 대한 문제가 화두로 떠오르고 있지.",
+            "turn_id": "BK22000802-6",
+            "utterance_id": "BK22000802.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학생들의 문해력이 떨어진 게 한자 교육과 관련이 있다는 거야?",
+            "turn_id": "BK22000802-7",
+            "utterance_id": "BK22000802.13"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "2021년 4월, 한국교총이 전국 초중고 교사 1152명을 대상으로 '문해력 저하 요인'을 설문 조사한 결과(중복 응답)에서, \"한자교육을 소홀히 해서\"(16.6%)와 \"학교 교육에서 어휘 교육을 소홀히 해서\"(13.9%)가 적지 않은 비중을 차지하는 현실을 간과해서는 안 된다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1125618",
+            "search_query": "문해력",
+            "terminate": false,
+            "text": "그래. 2021년 4월에 한국교총에서 전국의 초중고 교사 1152명을 대상으로 문해력 저하의 요인에 대해서 설문조사 한 결과가 있어. 이걸 보면 문해력 저하의 요인으로 한자 교육을 소홀히 해서, 학교 교육에서 어휘 교육을 소홀히 해서와 같은 대답의 비중이 적지 않다는 걸 알 수 있거든.",
+            "turn_id": "BK22000802-7",
+            "utterance_id": "BK22000802.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 요즘 어린 학생들은 글을 읽고 이해하는 능력이 많이 떨어진다고 하더라?",
+            "turn_id": "BK22000802-8",
+            "utterance_id": "BK22000802.15"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "한국어를 구성하는 어휘의 약 70%가 한자어로 되어 있다는 것은 잘 알려진 사실이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한자를 모르면 우리말과 우리글을 잘 이해하지 못하는 것은 당연한 일.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1125618",
+            "search_query": "문해력 저하 원인",
+            "terminate": false,
+            "text": "잘 알려졌다시피 한국어 어휘의 70퍼센트는 한자어로 되어 있으니까, 한자어를 잘 모르면 우리말과 글을 이해하기가 어려워지는 게 당연한 거지.",
+            "turn_id": "BK22000802-8",
+            "utterance_id": "BK22000802.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 앞으로는 한자 교육에도 신경을 더 쓰게 되려나?",
+            "turn_id": "BK22000802-9",
+            "utterance_id": "BK22000802.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 생각할 수 있지. 그런데 그게 쉬운 문제가 아닌 듯해.",
+            "turn_id": "BK22000802-9",
+            "utterance_id": "BK22000802.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 문제라도 있는거야? 한자 교육에 대한 입장이 어떻길래 그래?",
+            "turn_id": "BK22000802-10",
+            "utterance_id": "BK22000802.19"
+        },
+        {
+            "reference_date": "2021-11-18",
+            "reference_text": [
+                {
+                    "value": "지금도 우리 사회에는 한자를 완전히 폐지하자는 쪽과 제한된 한자라도 사용하자는 의견이 대립하고 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일부에서는 한자 기초 교육을 강화해 문해력을 높여야 한다는 목소리를 높이지만 한글학회를 중심으로는 여전히 반대하고 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailycc.net/news/articleView.html?idxno=665682",
+            "search_query": "한자 교육과정",
+            "terminate": false,
+            "text": "지금 우리 사회에서는 한자를 완전히 폐지하자는 주장과 제한된 한자라도 쓰자는 두 의견이 대립 중이거든. 한자 기초 교육을 강화해서 문해력을 높여야 한다는 의견도 있지만 한글 학회를 중심으로 여전히 이 주장에 대해 반대하는 목소리도 높아.",
+            "turn_id": "BK22000802-10",
+            "utterance_id": "BK22000802.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 개인적으로라도 한자를 공부해두면 문해력을 높이고 사고력을 키우는 데 도움이 될까?",
+            "turn_id": "BK22000802-11",
+            "utterance_id": "BK22000802.21"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "우리말에 한자가 많이 쓰이는 만큼 한자교육은 아이들의 풍부한 어휘력과 논리적 사고력 등에 크게 기여할 수 있을 것이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://helloedunews.com/mobile/article.html?no=26539",
+            "search_query": "한자교육 필요성",
+            "terminate": false,
+            "text": "맞아. 우리말에 한자가 많이 쓰이고 있으니까 아이들의 어휘력을 풍부하게 하고 논리적인 사고력을 갖추는 데 한자 교육이 도움이 될 수 있겠지.",
+            "turn_id": "BK22000802-11",
+            "utterance_id": "BK22000802.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 아이들만 배울 게 아니고, 우리 어른들도 한자에 대한 인식을 바꿔야 할 것 같아.",
+            "turn_id": "BK22000802-12",
+            "utterance_id": "BK22000802.23"
+        },
+        {
+            "reference_date": "2020-12-16",
+            "reference_text": [
+                {
+                    "value": "우리말의 세계를 좀 더 정확하게 탐색하기 위해서는 무엇보다 한자를 제대로 알아야 한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.eduinnews.co.kr/news/articleView.html?idxno=37616",
+            "search_query": "성인 한자교육",
+            "terminate": false,
+            "text": "그래 맞아. 우리말을 좀 더 정확하게 알고 쓰기 위해서는 무엇보다도 한자를 제대로 아는 것이 중요하니까.",
+            "turn_id": "BK22000802-12",
+            "utterance_id": "BK22000802.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아. 남 말할 게 아니라 나부터라도 한자 공부 좀 시작해야겠다. 말 나온 김에 서점 같이 갈래?",
+            "turn_id": "BK22000802-13",
+            "utterance_id": "BK22000802.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아. 가서 쉽게 배울 수 있는 책이 있는지 찾아보자.",
+            "turn_id": "BK22000802-13",
+            "utterance_id": "BK22000802.26"
+        }
+    ]
+}

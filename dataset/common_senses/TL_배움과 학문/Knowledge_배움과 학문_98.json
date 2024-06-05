@@ -1,0 +1,414 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011598",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011598",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 버킷리스트 중 하나가 오로라를 보는거에요. 혹시 오로라에 대해서 아세요?",
+            "turn_id": "BK22011598-1",
+            "utterance_id": "BK22011598.1"
+        },
+        {
+            "reference_date": "2015-10-22",
+            "reference_text": [
+                {
+                    "value": "오로라는 태양에서 오는 전기를 띤 입자(대부분은 전자)들이 지구의 자기장과 만나면서 시작된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양풍이라고 불리는 이들 입자들은 지구 자기장을 따라 양쪽 극지방으로 모인다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 극지방에서 대기와 만나 충돌하는데 이 때 에너지를 받아서 흥분한 대기 입자들이 정상 상태로 돌아가면서 내보내는 빛이 바로 오로라이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%8B%A0%EC%9D%98-%EC%98%81%ED%98%BC-%EC%98%A4%EB%A1%9C%EB%9D%BC-%EB%B9%9B%EC%9D%98-%EC%A0%95%EC%B2%B4%EB%8A%94/",
+            "search_query": "오로라란",
+            "terminate": false,
+            "text": "그럼요, 오로라는 태양으로부터 발생하는 전자들이 지구의 자기장과 만나게 되는데, 이때 태양풍 입자들이 지구의 자기장을 따라서 양 극지방으로 모이고 이후 대기와 만나면서서 충동을 하게 되죠. 이때 대기의 입자들은 충돌로 인해 발생한 에너지를 받게돼 흥분하게 되고, 이후 흥분상태에서 정상 상태로 돌아가면서 내보내는 빛을 오로라라고 하죠.",
+            "turn_id": "BK22011598-1",
+            "utterance_id": "BK22011598.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 전 오로라는 겨울에만 볼 수 있는 줄 알았는데 캐나다 옐로나이프에서는 여름에도 오로라를 볼 수 있다고 하더라구요. 옐로나이프의 여름 오로라를 볼 수 있는 시기는 정확히 언제인지 아시나요?",
+            "turn_id": "BK22011598-2",
+            "utterance_id": "BK22011598.3"
+        },
+        {
+            "reference_date": "2019-06-11",
+            "reference_text": [
+                {
+                    "value": "옐로나이프에서는 8월 중순부터 10월 초까지를 ‘여름 오로라’ 시즌이라 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23491598",
+            "search_query": "캐나다 여름 오로라 시기",
+            "terminate": false,
+            "text": "그럼요, 옐로나이프에서는 8월 중순부터 10월 초까지 여름 오로라를 즐길 수 있어요.",
+            "turn_id": "BK22011598-2",
+            "utterance_id": "BK22011598.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 정말 겨울이 아닌 계절에도 오로라를 볼 수 있다니 신기한 것 같아요. 그럼 여름 오로라를 볼 수 있는 시기의 날씨는 어떠한 편인가요? 어떤 옷을 준비해야 할지 모르겠어요.",
+            "turn_id": "BK22011598-3",
+            "utterance_id": "BK22011598.5"
+        },
+        {
+            "reference_date": "2018-09-19",
+            "reference_text": [
+                {
+                    "value": "옐로나이프의 8, 9월은 평균 15˚C로 방한복 없이도 오로라를 관측할 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.travie.com/news/articleView.html?idxno=20365",
+            "search_query": "캐나다 여름오로라 날씨",
+            "terminate": false,
+            "text": "별도의 방한복은 필요하지 않아요. 옐로 나이프의 8, 9월의 평균 기온은 15도 정도거든요.",
+            "turn_id": "BK22011598-3",
+            "utterance_id": "BK22011598.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 정말 쾌적할 것 같아요. 그런데 옐로나이프에서 오로라를 잘 관측할 수 있는 이유는 뭔가요?",
+            "turn_id": "BK22011598-4",
+            "utterance_id": "BK22011598.7"
+        },
+        {
+            "reference_date": "2018-04-30",
+            "reference_text": [
+                {
+                    "value": "멀찍이서 춤추는 오로라가 아니라 내 머리로 쏠아질 듯 입체적인 오로라를 볼 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지형도 큰 몫을 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "옐로나이프를 중심으로 사방 1000㎞에 산맥이 존재하지 않아 사막처럼 탁 트인 하늘을 볼 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/22565748#home",
+            "search_query": "옐로나이프가 오로라로 유명한 이유",
+            "terminate": false,
+            "text": "옐로나이프를 기준으로 사방 1000km까지 산맥이 없는 지형이기 때문에 마치 사막처럼 탁 트인 하늘에서 쏟아질 듯한 오로라를 감상할 수 있어요.",
+            "turn_id": "BK22011598-4",
+            "utterance_id": "BK22011598.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 옐로나이프에서 오로라를 보게 된다면 벅차오를 것 같아요. 아, 그런데 궁금한게 오로라는 색이 다양하잖아요. 오로라의 색이 다양한 이유는 무엇인가요?",
+            "turn_id": "BK22011598-5",
+            "utterance_id": "BK22011598.9"
+        },
+        {
+            "reference_date": "2021-11-09",
+            "reference_text": [
+                {
+                    "value": "오로라 색은 태양풍 입자가 어떤 기체와 충돌하는지에 따라 달라진답니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구 대기 대부분은 질소(78%)와 산소(21%)로 이뤄져 있어요.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양풍 입자가 산소와 충돌하면 녹색이나 붉은색 오로라가 나타나요.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 질소의 밀도가 높은 곳에선 보라색, 질소 밀도가 낮은 곳에선 푸른색 오로라가 보이죠.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2021/11/08/2021110802201.html",
+            "search_query": "오로라 색이 다양한 이유",
+            "terminate": false,
+            "text": "오로라 태양풍 입자가 어떤 기체와 충돌을 하는지의 여부에 따라 색이 달라지게 돼요. 지구의 대기는 대부분 질소와 산소로 구성이 되어 있는데, 태양풍 입자가 산소와 충돌을 하게 되는 경우에는 녹색이나 붉은색의 오로라가 발생하죠. 또 질소의 밀도가 높은 곳에서는 보라색의 오로라가 나타나고 반대로 질소 밀도가 낮은 곳에서는 푸른색 오로라가 보이게 된답니다.",
+            "turn_id": "BK22011598-5",
+            "utterance_id": "BK22011598.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 태양풍의 입자와 충돌하는 기체에 따라서 색이 달라진다는게 너무 신기한 것 같아요. 그럼 옐로나이프는 어떻게 갈 수 있나요?",
+            "turn_id": "BK22011598-6",
+            "utterance_id": "BK22011598.11"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "거의 유일하게 정기 항공편을 이용해 접근할 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "옐로나이프는 노스웨스트 준주의 주도로 한국에서는 밴쿠버를 경유해 편하게 닿을 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밴쿠버까지 약 9.5시간의 비행, 그리고 밴쿠버에서 옐로나이프까지 2.5시간 정도가 걸린다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/06/535748/",
+            "search_query": "옐로나이프 가는법",
+            "terminate": false,
+            "text": "옐로 나이프는 노스웨스트 준주의 주도로 정기 항공편 이용이 가능해요. 한국에서 벤쿠버까지 9.5시간의 비행을 마친 후 벤쿠버에서 옐로 나이프까지 2.5시간 정도면 갈 수 있어요.",
+            "turn_id": "BK22011598-6",
+            "utterance_id": "BK22011598.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항공편을 이용할 수 있다고 하니 훨씬 편하게 갈 수 있을 것 같아요. 그런데 옐로나이프에서 오로라를 볼 때 오로라 빌리지를 이용하는 것이 좋다는 이야기를 들었는데 오로라 빌리지는 어떤 곳인가요?",
+            "turn_id": "BK22011598-7",
+            "utterance_id": "BK22011598.13"
+        },
+        {
+            "reference_date": "2018-08-24",
+            "reference_text": [
+                {
+                    "value": "오로라 빌리지란 옐로나이프 근교에 자리한 오로라 관찰 시설로 2002년, 옐로나이프를 찾은 여행자들이 좀 더 편안한 환경에서 오로라를 관찰할 수 있도록 조성한 것이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이름은 ‘빌리지’지만, 마을이 있는 것은 아니고 방문객들이 오로라 관찰 중 몸을 녹일 수 있도록 전통 방식으로 지은 ‘티피’가 마련되어 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 밖에 화장실이나 레스토랑, 기념품점 등의 편의 시설을 갖추고 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.koreatimes.net/ArticleViewer/Article/112611",
+            "search_query": "옐로나이프 오로라 빌리지",
+            "terminate": false,
+            "text": "오로라 빌리지는 이름처럼 정말 마을이 있는 것은 아니고 옐로나이프 근교에 위치한 오로라를 관찰 할 수 있는 시설로써 여행자들이 보다 편안하게 오로라를 볼 수 있도록 조성해 놓은 곳이에요. 오로라 빌리지에서는 여행객들이 오로라를 감상하면서 몸을 녹일 수 있도록 티피가 있고, 그 외에도 화장실이나 레스토랑 등의 편의 시설을 마련해 놨어요.",
+            "turn_id": "BK22011598-7",
+            "utterance_id": "BK22011598.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 빌리지라고 해서 숙소가 있는 마을인줄 알았는데 아니었네요. 그럼 오로라 빌리지 말고 오로라를 즐길 수 있는 곳은 어디가 있을까요?",
+            "turn_id": "BK22011598-8",
+            "utterance_id": "BK22011598.15"
+        },
+        {
+            "reference_date": "2022-03-15",
+            "reference_text": [
+                {
+                    "value": "경비행기로만 갈 수 있는 희소성 있는 장소인 블래치포드 레이크 로지(Blachford Lake Lodge)는 영국 왕실의 윌리엄과 케이트 왕세손 부부의 선택을 받았던 곳이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "객실에서 나오면 바로 앞 호수에서 여유롭게 수영을 즐기거나 천천히 카누를 즐기며 호수를 둘러싼 자연을 만끽할 수 있는 곳.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밤에는 앉은 자리에서 별과 함께 오로라를 감상할 수 있고 호수 아래로 그 반영이 드리워진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.traveltimes.co.kr/news/articleView.html?idxno=400805",
+            "search_query": "블래치포드 레이크 로지",
+            "terminate": false,
+            "text": "블래치포드 레이크로지가 있어요. 이곳은 영국 왕실의 윌리엄과 케이트 왕세손 부부가 선택했던 장소로 경비행기로만 갈 수 있기 때문에 희소성이 있는 것도 특징이에요. 그리고 객실 바로 앞에 위치한 호수에서 수영이나 카누를 즐기며 자연을 만끽할 수도 있고 또 밤에는 앉은 자리에서 별과 오로라를 함께 즐길 수 있어요. 특히 호수 아래로 오로라가 반영되는 모습을 볼 수 있어요.",
+            "turn_id": "BK22011598-8",
+            "utterance_id": "BK22011598.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣기만 해도 너무 기대되는 것 같아요. 맞다, 가장 중요한걸 까먹었네요. 캐나다는 현재 입국 규정이 어떻게 되나요?",
+            "turn_id": "BK22011598-9",
+            "utterance_id": "BK22011598.17"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "현재로서 모든 해외 입국자는 캐나다에 입국하기 위해 백신 예방접종 증명서를 제공해야 하고, 여행 일정 및 예방 접종 정보를 ‘어라이브캔(ArriveCAN)’ 앱에 업로드해야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또, 예방 접종을 받지 않은 시민권자 및 영주권자들은 입국 72시간 전에 받은 PCR 음성확인서를 제공해야 하고, 도착 후엔 14일 동안 격리해야 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "18세 이상 백신 미접종 외국인의 경우는 필수 목적을 제외하고 캐나다에 입국할 수 없다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.vanchosun.com/m/index.php?view=detailedNews&newsId=76490",
+            "search_query": "캐나다 입국 규정",
+            "terminate": false,
+            "text": "현재 캐나다에 입국을 하기 위해서는 백신 예방접종 증명서를 제출하고, 어라이브캔 어플에 여행 일정과 예방접종 정보를 등록해야 해요. 그리고 예방접종을 받지 않은 18세 이상의 백신 미접종 외국들은 필수 목적을 제외하고는 입국이 불가한 점 참고해주세요.",
+            "turn_id": "BK22011598-9",
+            "utterance_id": "BK22011598.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 알려주신 정보가 많은 도움이 될 것 같아요. 너무 유용한 정보 알려주셔서 감사합니다.",
+            "turn_id": "BK22011598-10",
+            "utterance_id": "BK22011598.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니에요, 도움이 됐다고 하니 기분이 좋네요. 혹시 더 궁금한건 없으신가요?",
+            "turn_id": "BK22011598-10",
+            "utterance_id": "BK22011598.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 건 많지만 저는 이만 가봐야 할 것 같아요.",
+            "turn_id": "BK22011598-11",
+            "utterance_id": "BK22011598.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그럼 얼른 들어가보세요. 캐나다에서 즐거운 여행하시길 바랄게요. 그럼 저는 먼저 들어가보겠습니다.",
+            "turn_id": "BK22011598-11",
+            "utterance_id": "BK22011598.22"
+        }
+    ]
+}

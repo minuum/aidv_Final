@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009282",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009282",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교 수업 중에 첼로 강의가 생성되어서 곧 듣게 되었는데, 첼로에 대해 공부하고 싶어서요. 첼로가 서양 고전음악에서 어떻게 사용됐는지 알려주실래요?",
+            "turn_id": "BK22009282-1",
+            "utterance_id": "BK22009282.1"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "비올론첼로(영어: Violoncello)는 서양 고전음악에 쓰이는 바이올린족의 저음역 악기로 비올라보다 한 옥타브 아래 음을 연주한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로",
+            "terminate": false,
+            "text": "첼로는 서양 고전음악에서 바이올린족의 저음역대 악기로 사용되었어요. 그리고 비올라보다 한옥타브 밑의 음을 연주하죠.",
+            "turn_id": "BK22009282-1",
+            "utterance_id": "BK22009282.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비올라보다 첼로가 밑의 음을 연주하는군요. 그런데 연주할 때 첼로의 역할이 뭔가요?",
+            "turn_id": "BK22009282-2",
+            "utterance_id": "BK22009282.3"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "오늘날 독주나 실내악, 오케스트라 연주 등에서 낮은 음역대에서 가장 중요한 역할을 하는 악기이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로 역할",
+            "terminate": false,
+            "text": "실내악이나 독주 그리고 오케스트라 등의 연주에서 음역대가 낮은 악기 중 가장 중요한 역할을 해줘요.",
+            "turn_id": "BK22009282-2",
+            "utterance_id": "BK22009282.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음역대가 낮은 악기 중 가장 중요한 역할이었군요. 그러면 첼로의 기원은 언제부터인가요?",
+            "turn_id": "BK22009282-3",
+            "utterance_id": "BK22009282.5"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "첼로는 16세기에 생겨났다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최초의 제작자는 크레모나의 안드레아 아마티로 1572년에 '킹 아마티'를 만들었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로 역사",
+            "terminate": false,
+            "text": "첼로는 16세기에 처음 생겼어요. 크레모나의 안드레아 아마티가 최초로 1572년 킹 아마티를 만들었죠.",
+            "turn_id": "BK22009282-3",
+            "utterance_id": "BK22009282.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "16세기부터라니 역사가 엄청 오래되었군요. 그런데 듣기로 초기의 첼로는 아주 컸다고 하던데 사실인가요?",
+            "turn_id": "BK22009282-4",
+            "utterance_id": "BK22009282.7"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "초기 첼로는 현대 첼로보다 상당히 커서 악기에 따라서는 몸통의 길이가 80cm에 이르는 것도 있었는데, 이런 크기로는 빠른 악절을 연주하기 어려웠기 때문에 1600년경 볼로냐에서 소형 첼로를 만들게 되었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "초기첼로",
+            "terminate": false,
+            "text": "초기 첼로는 상당히 컸고 몸통의 길이가 80cm 정도 되는 것도 있었는데 크기가 커서 빠른 악절의 연주가 어려웠어요. 그래서 1600년경 소형 첼로를 볼로냐에서 만들었죠.",
+            "turn_id": "BK22009282-4",
+            "utterance_id": "BK22009282.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸통만 80cm라니 엄청 컸군요. 그러면 첼로는 무엇으로 제작되나요?",
+            "turn_id": "BK22009282-5",
+            "utterance_id": "BK22009282.9"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "첼로는 대개 목재로 만들지만, 탄소 섬유나 알루미늄과 같은 다른 재료가 쓰이기도 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전통적인 첼로는 앞판은 가문비 나무로, 뒤와 옆 그리고 목부분은 단풍나무로 만들어진다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로 제작",
+            "terminate": false,
+            "text": "대부분 목재 소재가 쓰이지만, 알루미늄과 탄소섬유가 쓰이기도 하고, 전통 첼로의 경우 앞판은 가문비나무, 목과 옆, 뒷부분은 단풍나무로 만들어요.",
+            "turn_id": "BK22009282-5",
+            "utterance_id": "BK22009282.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목재는 알고 있었지만, 알루미늄과 탄소섬유도 쓰이는군요. 혹시 첼로의 연주 방법도 알고 계신가요?",
+            "turn_id": "BK22009282-6",
+            "utterance_id": "BK22009282.11"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "첼로의 발달 역사와 구조는 바이올린과 같으나, 낮은음의 악기로서 전 길이가 120cm나 되므로 악기를 세워 의자에 앉아 양쪽 무릎 사이에 끼고 연주한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "악기를 바닥에 받칠 수 있는 엔드핀이 있는 것이 특징이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로 연주법",
+            "terminate": false,
+            "text": "첼로를 엔드핀에 꽂아 바닥에 받쳐 세운 후 의자에 앉아서 무릎 양쪽 사이에 끼고 연주해요.",
+            "turn_id": "BK22009282-6",
+            "utterance_id": "BK22009282.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엔드핀은 처음 들어 봤는데 참고해서 사용해야 하겠네요. 그런데 첼로의 초기 연주자는 어떤 식으로 연주했을까요?",
+            "turn_id": "BK22009282-7",
+            "utterance_id": "BK22009282.13"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "초기 첼로 연주자는 걸터앉아서 악기를 바닥과 양 다리 사이에 놓거나 선 채로 몸에 기울여 놓고 연주 하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "때로는 악기를 의자에 세우거나 심지어 수평으로 놓고도 연주하였는데, 1700년까지는 첼로를 무릎 사이에 끼워 연주하는 것이 일반적이었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "초기첼로 연주법",
+            "terminate": false,
+            "text": "첼로는 걸터앉아서 첼로를 바닥과 양다리 사이에 놓거나 선체로 몸을 기울여서 연주했다고 해요. 혹은 첼로를 의자에 세우거나 수평으로 놓고도 연주했다는데 1700년까지는 무릎 사이에 두어 연주하는 게 일반적이었죠.",
+            "turn_id": "BK22009282-7",
+            "utterance_id": "BK22009282.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의자에 수평으로 놓고 연주했다니 신기하기도 하고 충격적이네요. 혹시 첼로는 어떤 소리를 내주나요?",
+            "turn_id": "BK22009282-8",
+            "utterance_id": "BK22009282.15"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "낮은 음넓이는 굵고 부드러운 음빛깔을 가지며 높은음 넓이는 달콤하고 정열적인 울림을 가지고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%BC%EB%A1%9C",
+            "search_query": "첼로 소리",
+            "terminate": false,
+            "text": "낮은음은 굵고 부드러운 소리를 내고 높은음은 정열적인 울림이 있죠.",
+            "turn_id": "BK22009282-8",
+            "utterance_id": "BK22009282.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굵고 부드러우며 정열적이기까지 하다니 빨리 들어보고 싶네요.",
+            "turn_id": "BK22009282-9",
+            "utterance_id": "BK22009282.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강의 듣게 되면 잘 배우셔서 저한테도 들려주세요!",
+            "turn_id": "BK22009282-9",
+            "utterance_id": "BK22009282.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열심히 배워서 전문가님께 꼭 들려드릴게요. 첼로에 대해 많이 알아가요, 고마워요!",
+            "turn_id": "BK22009282-10",
+            "utterance_id": "BK22009282.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "강의 잘 들으시고 궁금한 점 있으시면 또 물어보세요. 또 봐요!",
+            "turn_id": "BK22009282-10",
+            "utterance_id": "BK22009282.20"
+        }
+    ]
+}

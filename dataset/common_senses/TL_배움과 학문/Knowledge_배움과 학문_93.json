@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011572",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011572",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "손등을 보면 혈관이 눈으로 보이는 게 신기해. 그냥 단순히 피가 지나다니는 핏줄이라고 생각했었는데, 구체적으로 어떤 역할을 하는지 궁금해졌어. 혹시 혈관이 어떤 역할을 하는지 자세히 알려줄 수 있어?",
+            "turn_id": "BK22011572-1",
+            "utterance_id": "BK22011572.1"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "혈관(血管, blood vessel)은 동물의 체내에 존재하는 가느다란 관으로, 산소와 영양분을 실은 혈액을 몸 구석구석 흘려보내고 말초세포와 조직이 배설하는 이산화탄소와 노폐물을 받아들이는 중요한 역할을 한다.[1]",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혈관은 구조와 기능에 따라 동맥, 정맥, 모세혈관으로 나뉜다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%88%EA%B4%80",
+            "search_query": "혈관",
+            "terminate": false,
+            "text": "혈관은 산소와 영양분이 들어있는 혈액을 온몸 구석구석 흘려보내거나 말초 세포와 조직들이 방출하는 이산화탄소와 노폐물 등을 다시 받아들이는 역할을 해. 보통 가느다란 관의 형태로 동물의 체내에 존재하는데, 주요 기능과 구조에 따라 동맥과 정맥, 모세혈관으로 구분이 되지.",
+            "turn_id": "BK22011572-1",
+            "utterance_id": "BK22011572.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혈관도 여러 가지 종류가 있구나. 그중 동맥은 어떤 역할을 하는 혈관이야?",
+            "turn_id": "BK22011572-2",
+            "utterance_id": "BK22011572.3"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "동맥은 산소나 영양을 함유한 혈액을 심장에서 온몸으로 보내는 관으로, 점차 가늘어져 모세혈관으로 이행한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%88%EA%B4%80",
+            "search_query": "동맥",
+            "terminate": false,
+            "text": "동맥은 심장에서 영양분과 산소를 포함한 혈액을 온몸으로 보내는 역할을 해. 갈수록 점점 가늘어져서 모세혈관으로 이행하는 혈관이지.",
+            "turn_id": "BK22011572-2",
+            "utterance_id": "BK22011572.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동맥이 온몸으로 피를 보내는 역할을 하는구나. 그러면 모세혈관은 어떤 혈관이야?",
+            "turn_id": "BK22011572-3",
+            "utterance_id": "BK22011572.5"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "모세혈관(毛細血管, 영어: capillary)은 소동맥과 소정맥을 연결하는 그물 모양의 매우 가는 혈관으로 탄성 섬유나 근육이 없는 한 층의 내피세포로 이루어진 혈관이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%84%B8%ED%98%88%EA%B4%80",
+            "search_query": "모세혈관",
+            "terminate": false,
+            "text": "모세혈관은 그물 모양의 미세한 혈관으로, 근육이나 탄성 섬유가 없이 한 층의 내피세포로 구성되어있어. 특히 소동맥과 소정맥을 연결하는 기능을 하지.",
+            "turn_id": "BK22011572-3",
+            "utterance_id": "BK22011572.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모세혈관이 소동맥과 소정맥을 이어주는 혈관이구나. 그러면 모세혈관에서는 어떤 작용이 일어나는 거야?",
+            "turn_id": "BK22011572-4",
+            "utterance_id": "BK22011572.7"
+        },
+        {
+            "reference_date": "2019-12-17",
+            "reference_text": [
+                {
+                    "value": "동맥혈은 좌심실에서 동맥, 세동맥을 거쳐 모세혈관에 이르러 주변 조직에 산소를 내놓고 이산화탄소를 흡수해 정맥혈로 바뀌어 세정맥, 정맥을 거쳐 우심방으로 들어가 위의 주기가 반복된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=33027",
+            "search_query": "모세혈관 작용",
+            "terminate": false,
+            "text": "심장의 좌심실에서 출발하여 동맥과 세동맥을 거쳐 온 동맥혈이 모세혈관에 도착하면 기존에 가지고 있던 산소를 주변 조직에게 전달해. 그리고 이산화탄소를 흡수하여 정맥혈로 바뀌게 되지. 이 정맥혈은 세정맥과 정맥을 거쳐 다시 심장의 우심방으로 들어가게 되고, 이러한 주기는 계속해서 반복돼.",
+            "turn_id": "BK22011572-4",
+            "utterance_id": "BK22011572.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모세혈관에서 산소와 이산화탄소가 서로 교환되는 거네. 예전에 좌심실과 우심방에 대해서 들어본 적이 있는 것 같은데, 심장 구조에 대해 자세히 알려줄래?",
+            "turn_id": "BK22011572-5",
+            "utterance_id": "BK22011572.9"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "심장은 2심방 2심실로 구성되어 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "첫 번째 방은 우심방과 우심실로, 온 몸에서 온 혈액은 상하 대정맥에 의해 우심방으로 돌아가며, 심실과의 경계인 방실판(房室瓣)을 통해서 우심실로 들어간다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 번째 방은 좌심방과 좌심실이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폐에서 나온 혈액이 4개의 폐정맥에서 좌심방으로 돌아오면 심실과의 경계인 방실판(2첨판)을 통해서 좌심실로 들어가고, 여기에서 밀려나오면 대동맥으로 유출되어 온몸으로 보내진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%9E%A5#%EC%8B%AC%EB%B0%A9%EA%B3%BC_%EC%8B%AC%EC%8B%A4",
+            "search_query": "심장의 구조",
+            "terminate": false,
+            "text": "심장은 총 2심방 2심실로 이루어져 있어. 첫 번째 방이 우심방과 우심실인데, 온몸에서 흘러 들어온 혈액이 상하 대정맥을 통해 우심방으로 들어갔다가 경계에 있는 방실판을 통해 우심실로 들어가게 되지. 그리고 두 번째 방은 좌심방과 좌심실인데, 폐에서 흘러나온 혈액이 4개의 폐정맥을 통해 좌심방으로 들어왔다가 경계에 있던 방실판을 통해 좌심실로 들어가게 돼. 이 과정을 통해 좌심실에서 나온 혈액들이 대동맥을 거쳐 온몸으로 퍼지는 거야.",
+            "turn_id": "BK22011572-5",
+            "utterance_id": "BK22011572.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심장이 우심방, 우심실, 좌심방, 좌심실로 구성되어 있구나. 혈액은 심장으로 들어왔다가 온몸으로 나가는 과정을 반복하는 것 같은데, 어떤 작용에 의해서 피가 이동할 수 있는 거야?",
+            "turn_id": "BK22011572-6",
+            "utterance_id": "BK22011572.11"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "심장의 혈액을 내보내는 작용은 역학적으로는 펌프와 거의 같다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심방의 수축과 심실의 확대에 의해 혈액은 심실로 빨려들어가고, 이어서 심실이 수축하여 혈액을 동맥으로 내보내는데, 이때 심방은 확대되어 다시 정맥으로부터 혈액을 빨아들인다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%EC%9E%A5",
+            "search_query": "심장의 기능",
+            "terminate": false,
+            "text": "심장에서 혈액을 내보내는 작용의 원리는 펌프와 유사해. 심방이 수축하면서 심실이 확대되면 혈액이 심실로 빨려 들어가게 되고, 다시 심실이 수축했을 때 혈액은 동맥으로 내보내지지. 이때 심방은 다시 확대되어 정맥으로부터 혈액을 빨아들이는 작용을 하는 거야.",
+            "turn_id": "BK22011572-6",
+            "utterance_id": "BK22011572.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심방과 심실이 확대되고 수축하면서 피가 계속 돌 수 있는 거네. 그래서 심장 박동이 중요하다고 하는구나. 혹시 혈압은 이러한 심장 박동과 관련이 있는 거야?",
+            "turn_id": "BK22011572-7",
+            "utterance_id": "BK22011572.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "심장 박동에 따라 혈압은 최고혈압(수축기 혈압)과 최저혈압(이완기 혈압)을 넘나들며 변한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혈압은 심박출량과 혈류의 저항에 기인하며, 심장으로부터 멀어질수록 낮아진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%88%EC%95%95",
+            "search_query": "혈압",
+            "terminate": false,
+            "text": "맞아, 혈압은 심박출량과 혈류 저항에 기초하기 때문에 심장으로부터 멀어지면 점차 감소해. 심장 박동에 따라 수축기 혈압과 이완기 혈압을 넘나들게 되지.",
+            "turn_id": "BK22011572-7",
+            "utterance_id": "BK22011572.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심장 박동에 의해 혈압이 변화하는구나. 주위에서 고혈압을 조심해야 한다는 이야기를 자주 듣곤 하는데, 고혈압이 위험한 이유는 뭐야?",
+            "turn_id": "BK22011572-8",
+            "utterance_id": "BK22011572.15"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "고혈압은 뇌졸중, 심근 경색(심장마비), 심부전, 혈관 동맥류(예를 들면 대동맥류), 하지동맥류 등의 주요 위험 인자이며, 만성 신부전의 원인이 되기도 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%ED%98%88%EC%95%95",
+            "search_query": "고혈압",
+            "terminate": false,
+            "text": "고혈압은 여러 질병을 일으킬 수 있는 주요 위험 인자야. 고혈압으로 인해 뇌졸중이나 심장마비, 혈관 동맥류 등이 유발될 수 있고, 만성 신부전을 일으키기도 하지.",
+            "turn_id": "BK22011572-8",
+            "utterance_id": "BK22011572.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 고혈압을 조심하는 게 중요하다고 하는 거네. 평소에도 고혈압을 예방할 수 있도록 노력해야겠다.",
+            "turn_id": "BK22011572-9",
+            "utterance_id": "BK22011572.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 혈압을 적정 수준으로 유지하는 게 건강에 도움이 되지.",
+            "turn_id": "BK22011572-9",
+            "utterance_id": "BK22011572.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금도 내 몸속에서 혈액이 혈관을 통해 돌고 있다는 게 신기해. 덕분에 유익한 정보를 알게 되었네.",
+            "turn_id": "BK22011572-10",
+            "utterance_id": "BK22011572.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별말씀을, 궁금한 게 있으면 언제든 물어봐.",
+            "turn_id": "BK22011572-10",
+            "utterance_id": "BK22011572.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 또 모르는 게 생기면 물어보도록 할게!",
+            "turn_id": "BK22011572-11",
+            "utterance_id": "BK22011572.21"
+        }
+    ]
+}

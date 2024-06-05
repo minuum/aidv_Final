@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013053",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013053",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "늦어서 정말 죄송해요. 택시를 타고 오는데 중간에 길이 너무 막혔어요.",
+            "turn_id": "BK22013053-1",
+            "utterance_id": "BK22013053.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오시느라 고생 정말 많으셨어요.",
+            "turn_id": "BK22013053-1",
+            "utterance_id": "BK22013053.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "택시를 타고 오다 보니 든 궁금증인데, 택시가 어디서 온 말인가요?",
+            "turn_id": "BK22013053-2",
+            "utterance_id": "BK22013053.3"
+        },
+        {
+            "reference_date": "44621.0",
+            "reference_text": [
+                {
+                    "value": "taxi라는 단어는 \"자동으로 주행거리를 계산해 주는 기계\"를 의미하는 taximeter(또는 taxameter)에서 meter가 떨어지면서 만들어진 단어이다",
+                    "value_time": "44787.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9D%EC%8B%9C",
+            "search_query": "택시 유래",
+            "terminate": false,
+            "text": "택시라는 표현은 주행거리를 자동으로 계산해주는 기계라는 뜻의 단어인 taximeter에서 meter가 탈락되면서 만들어졌습니다.",
+            "turn_id": "BK22013053-2",
+            "utterance_id": "BK22013053.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "택시미터라는 단어에서 택시가 유래했다고요? 그렇다면 택시미터가 정확히 어떤 거죠?",
+            "turn_id": "BK22013053-3",
+            "utterance_id": "BK22013053.5"
+        },
+        {
+            "reference_date": "42255.0",
+            "reference_text": [
+                {
+                    "value": "이 요금 산정 기계는 자동차 뒷바퀴의 회전으로 주행 거리를 계산해 요금이 자동으로 표시되도록 했다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=20150907000043",
+            "search_query": "택시미터",
+            "terminate": false,
+            "text": "요금을 매기는 기계였어요. 자동차 뒷바퀴가 회전한 수로 주행거리를 산정해서 요금이 얼마인지 나오는 기계였죠.",
+            "turn_id": "BK22013053-3",
+            "utterance_id": "BK22013053.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 택시 미터기 같은 거였군요. 그러면 택시는 언제 처음 나타났나요?",
+            "turn_id": "BK22013053-4",
+            "utterance_id": "BK22013053.7"
+        },
+        {
+            "reference_date": "43391.0",
+            "reference_text": [
+                {
+                    "value": "물론 논란은 있지만 역사적으로 최초 택시는 1896년 아메리카전기차가 미국 뉴욕에서 운영한 전기택시를 지칭한다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/car/article/2018101264162",
+            "search_query": "세계 최초 택시",
+            "terminate": false,
+            "text": "다른 주장도 존재하지만, 세계 최초의 택시는 1896년 미국 뉴욕의 아메리카전기차가 영업했던 전기 택시입니다.",
+            "turn_id": "BK22013053-4",
+            "utterance_id": "BK22013053.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 최초의 택시가 전기로 움직였다니 놀라운 일이네요. 그럼 이때부터 미터 요금제가 적용된 건가요?",
+            "turn_id": "BK22013053-5",
+            "utterance_id": "BK22013053.9"
+        },
+        {
+            "reference_date": "44018.0",
+            "reference_text": [
+                {
+                    "value": "세계 최초로 택시미터가 장착된 휘발유차인 ‘Daimler Victoria’는 1897년 Gottlieb Daimler에서 만들었다.",
+                    "value_time": "44786.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "택시미터가 장착된 휘발유차는 1899년 파리, 1903년 런던, 1907년 뉴욕에서 정식으로 운행되기 시작했다.",
+                    "value_time": "44786.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=7944",
+            "search_query": "세계 최초 택시 미터기",
+            "terminate": false,
+            "text": "택시미터기가 탑재된 휘발유차는 Daimler Victori인데요. 1897년 Gottlieb Daimler에서 세계 최초로 만들었습니다. 이후 1899년 파리, 1903년 런던, 1907년 뉴욕에서 택시미터기가 탑재된 휘발유차가 공식적으로 운행을 시작했고요.",
+            "turn_id": "BK22013053-5",
+            "utterance_id": "BK22013053.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 우리나라에는 언제 택시가 소개되었나요?",
+            "turn_id": "BK22013053-6",
+            "utterance_id": "BK22013053.11"
+        },
+        {
+            "reference_date": "43029.0",
+            "reference_text": [
+                {
+                    "value": "우리나라에 처음 등장한 때는 1912년 서울 낙산의 부자 이봉래와 일본인 2명이 함께 ‘포드T형’ 승용차 2대로 시간제 임대업을 하면서부터다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금으로 따지면 일종의 운전기사가 딸린 시간제 렌터카다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20171021015006",
+            "search_query": "한국 최초 택시",
+            "terminate": false,
+            "text": "1912년 서울 낙산에서 부자로 살던 이봉래라는 사람이 일본인 2명과 동업하여 포드T형 승용차 2대를 활용해서 시간제로 차를 빌려준 것을 한국에서 택시의 시초로 보고 있습니다. 요즘과 비교하면 운전기사가 동반되는 시간제 렌터카 서비스에 가깝다고 볼 수 있죠.",
+            "turn_id": "BK22013053-6",
+            "utterance_id": "BK22013053.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 한국 최초의 택시회사는 언제 설립되었나요?",
+            "turn_id": "BK22013053-7",
+            "utterance_id": "BK22013053.13"
+        },
+        {
+            "reference_date": "42255.0",
+            "reference_text": [
+                {
+                    "value": "최초의 회사는 1919년 일본인 노무라 겐조가 세운 경성택시회사이며, 한국인으로는 조봉승이라는 사람이 처음으로 1921년 종로택시회사를 설립했다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=20150907000043",
+            "search_query": "한국 최초 택시회사",
+            "terminate": false,
+            "text": "1919년에 일본인 노무라 겐조가 설립한 경성택시회사가 최초입니다. 한국 사람이 최초로 세운 택시회사는 1921년 조봉승이 설립한 종로택시회사였고요.",
+            "turn_id": "BK22013053-7",
+            "utterance_id": "BK22013053.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 전부 법인 택시를 말씀하신 것 같은데요. 우리나라에서 개인택시는 언제부터 등장했나요?",
+            "turn_id": "BK22013053-8",
+            "utterance_id": "BK22013053.15"
+        },
+        {
+            "reference_date": "42355.0",
+            "reference_text": [
+                {
+                    "value": "1967년 7월 20일에 4대의 개인택시 최초 면허가 발급되었고 이것이 우리나라 개인택시의 효시이다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://taxicenter.co.kr/bbs/board.php?bo_table=data&wr_id=18",
+            "search_query": "한국 최초 개인택시",
+            "terminate": false,
+            "text": "1967년 7월 20일입니다. 총 네 대의 개인택시 면허가 처음으로 발급되었고, 한국 최초로 개인택시가 운행하기 시작했습니다.",
+            "turn_id": "BK22013053-8",
+            "utterance_id": "BK22013053.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자율주행 기술이 비약적으로 발달했잖아요. 혹시 무인 택시도 있나요?",
+            "turn_id": "BK22013053-9",
+            "utterance_id": "BK22013053.17"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "제너럴모터스(GM) 자율주행 자회사 크루즈(Cruise)가 24일 미국 샌프란시스코에서 무인택시 유료 운행을 본격 시작했다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gpkorea.com/news/articleView.html?idxno=87292",
+            "search_query": "무인택시",
+            "terminate": false,
+            "text": "네. 미국 샌프란시스코에서 지금 무인 택시가 운행 중입니다. 제너럴모터스에서 자율주행 사업을 하는 자회사인 크루즈라는 곳에서 운영 중이고요.",
+            "turn_id": "BK22013053-9",
+            "utterance_id": "BK22013053.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 오늘도 정말 시간 가는 줄 모르고 이야기를 들었네요. 그럼 다음에 뵙겠습니다. 저는 이만 들어가 볼게요!",
+            "turn_id": "BK22013053-10",
+            "utterance_id": "BK22013053.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 댁까지 조심해서 들어가세요.",
+            "turn_id": "BK22013053-10",
+            "utterance_id": "BK22013053.20"
+        }
+    ]
+}

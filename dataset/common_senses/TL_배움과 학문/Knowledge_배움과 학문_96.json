@@ -1,0 +1,415 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011584",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011584",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 자동차를 보면 예전과 많이 달라졌고 발전했다는 게 느껴져요. 자동차가 인류 역사에 등장한 건 얼마 안 된 것 같은데, 최초의 자동차는 누가 만들었나요?",
+            "turn_id": "BK22011584-1",
+            "utterance_id": "BK22011584.1"
+        },
+        {
+            "reference_date": "2020-10-18",
+            "reference_text": [
+                {
+                    "value": "잘 알려진 세계 최초의 내연기관 자동차다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "칼 벤츠(Karl Benz)가 만들었으며, 단기통 954cc 엔진을 사용해 시속 16km 정도의 속도로 주행할 수 있었다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 마차보다도 느린 속도였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.autoview.co.kr/content/article.asp?num_code=71922",
+            "search_query": "인류 최초의 자동차",
+            "terminate": false,
+            "text": "세계 최초 내연기관 자동차는 칼 벤츠가 만들었어요. 단기통 954cc 엔진을 장착해 시속 16km 정도의 주행 속도를 갖췄는데, 그 당시의 마차보다도 느렸죠.",
+            "turn_id": "BK22011584-1",
+            "utterance_id": "BK22011584.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마차보다 느린 자동차라니 상상하기 어렵네요. 최초의 자동차는 어떤 방식으로 만들어졌나요?",
+            "turn_id": "BK22011584-2",
+            "utterance_id": "BK22011584.3"
+        },
+        {
+            "reference_date": "2022-09-24",
+            "reference_text": [
+                {
+                    "value": "1885년 최초로 내연자동차가 등장한 이래 1900년 초까지 자동차는 가내수공업으로 만들어졌다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일명 ‘엔진 실은 마차’로 여겨졌다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거기에 지붕을 덮고 문을 달았다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "근대적 형태의 자동차 형태를 갖추게 된 것이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "최초의 자동차 가내수공업",
+            "terminate": false,
+            "text": "네. 1885년 최초로 내연자동차가 등장한 후 1900년 초까지는 가내수공업으로 자동차를 만들었어요. 엔진을 싣고 가는 마차로 여겨졌죠. 거기에 지붕을 올려 문을 달았는데, 근대의 자동차 모습을 갖췄던거죠.",
+            "turn_id": "BK22011584-2",
+            "utterance_id": "BK22011584.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자동차를 가내수공업으로 만들다니 대단하다 생각이 들면서도 엄청 힘들었을 것 같아요. 그럼 최초의 자동차 회사는 어디인가요?",
+            "turn_id": "BK22011584-3",
+            "utterance_id": "BK22011584.5"
+        },
+        {
+            "reference_date": "2019-03-27",
+            "reference_text": [
+                {
+                    "value": "메르세데스-벤츠의 브랜드 역사는 곧 자동차 역사를 의미한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지난 1886년 선보인 세계 최초의 차 페이턴트 모터바겐을 시작으로 지금까지 130여년간 자동차 산업을 이끌어온 대표적인 프리미엄 브랜드로 꼽힌다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.enuri.com/knowcom/detail.jsp?kbno=850739",
+            "search_query": "세계 최초의 자동차회사 벤츠",
+            "terminate": false,
+            "text": "메르세데스-벤츠예요. 이 브랜드의 역사는 곧 자동차 역사를 가리킨다고 하죠. 과거 1886년 발표했던 세계 최초의 자동차 페이턴트 모터바겐을 시작으로 지금까지 약 130여 년간 자동차 산업을 선도해온 대표적인 프리미엄 브랜드거든요.",
+            "turn_id": "BK22011584-3",
+            "utterance_id": "BK22011584.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칼 벤츠가 본인의 이름을 따서 회사 이름을 지었나 보군요. 벤츠가 그렇게 오래된 회사였다니 처음 알았어요. 아까 1900년 초까지는 자동차를 가내수공업으로 만들었다 하셨는데, 공장에서 만든 최초의 자동차는 어떤 건가요?",
+            "turn_id": "BK22011584-4",
+            "utterance_id": "BK22011584.7"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "헨리 포드(영어: Henry Ford, 1863년 7월 30일 ~ 1947년 4월 7일)는 미국의 기술자이자 기업인으로 포드 모터 컴퍼니의 창설자이다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1903년 그는 자본금 10만 달러를 투자하여 벨트 컨베이어 시스템을 세계 최초로 도입한 대량 생산 방식의 자동차 포드 모델 T의 제작을 시작하였는데, 그것은 마이카 시대의 도화선이 된 그가 실현해 낸 대량 생산 방식의 자동차 롤모델이 아닐 수 없다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC_%ED%8F%AC%EB%93%9C",
+            "search_query": "최초의 대량생산 자동차",
+            "terminate": false,
+            "text": "미국인 기술자이자 기업인으로 포드 모터 컴퍼니의 창립자인 헨리 포드가 만든 자동차 포드 모델 T예요. 그는 1903년 자본금 10만 달러를 투자해 벨트 컨베이어 시스템을 세계에서 처음으로 도입해 대량 생산 방식으로 포드 모델 T를 만들었어요. 헨리 포드가 실현한 대량 생산 방식은 마이카 시대의 도화선이 되었죠.",
+            "turn_id": "BK22011584-4",
+            "utterance_id": "BK22011584.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아는 자동차 회사의 이름이 하나 둘 나오니 신기하면서도 흥미롭네요. 당시 포드 모델 T의 가격이 얼마였는지 알 수 있나요?",
+            "turn_id": "BK22011584-5",
+            "utterance_id": "BK22011584.9"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "모델 T의 첫 출시는 1908년 미시간주 디트로이트에 위치한 피케트 공장(Piquette Plant)에서였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "발표 당시 가격은 825달러로, 당시 미국의 고급 자동차 한대의 가격이 2,000~3,000 달러였던 것과 비교하면 상대적으로 저렴한 가격이었다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.motoya.co.kr/news/articleView.html?idxno=11881",
+            "search_query": "포드 모델 T 가격",
+            "terminate": false,
+            "text": "모델 T는 1908년 미시간주 디트로이트에 있던 피케트 공장에서 처음 출시되었고, 발표 당시의 가격은 825달러였어요. 그 때 미국에서 고급 자동차 한 대를 구매하려면 2000~3000달러를 내야 했던 것과 비교해보자면 상당히 저렴했던 걸 알 수 있죠.",
+            "turn_id": "BK22011584-5",
+            "utterance_id": "BK22011584.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 저렴한 자동차였네요. 고급 자동차보다 절반도 더 싼 거잖아요. 인기가 많았을 것 같은데, 맞나요?",
+            "turn_id": "BK22011584-6",
+            "utterance_id": "BK22011584.11"
+        },
+        {
+            "reference_date": "2015-09-18",
+            "reference_text": [
+                {
+                    "value": "모델 T는 날개 돋친 듯 팔려나갔다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모델 T의 생산 대수는 1910년 1만 9050대에서 1912년에는 6만 8773대로, 1913년에는 17만 211대로 급증했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.motoya.co.kr/news/articleView.html?idxno=11881",
+            "search_query": "포드 모델 T 인기",
+            "terminate": false,
+            "text": "맞아요. 모델 T는 말 그대로 날개 돋친 듯 판매가 되었어요. 1910년 1만 9050대였던 생산 대수가 1912년에는 6만 8773대로, 1913년에는 17만 211대로 급격히 성장했죠.",
+            "turn_id": "BK22011584-6",
+            "utterance_id": "BK22011584.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 마이카 시대를 개척한 거네요. 그런데 1910년대라면 우리나라는 일제강점기였잖아요. 그 당시 우리나라에도 자동차가 있었나요?",
+            "turn_id": "BK22011584-7",
+            "utterance_id": "BK22011584.13"
+        },
+        {
+            "reference_date": "2021-05-03",
+            "reference_text": [
+                {
+                    "value": "국내 자동차 판매회사의 효시는 1913년에 설립된 ‘오리이 자동차상회’라고 한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 광산 개발을 위해 국내에 들어왔던 테일러 가문의 윌리엄 테일러도 포드와 시보레 자동차를 취급했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20210503030002",
+            "search_query": "일제강점기 자동차",
+            "terminate": false,
+            "text": "네. 우리나라의 첫 자동차 판매회사는 1913년에 만들어진 오리이 자동차상회예요. 또 광산을 개발하기 위해 우리나라에 들어왔던 테일러 가문의 윌리엄 테일러도 포드와 시보레 자동차를 판매했죠.",
+            "turn_id": "BK22011584-7",
+            "utterance_id": "BK22011584.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 이미 자동차가 들어왔었군요. 그럼 우리나라 사람 중 최초로 자가용을 가졌던 건 누구였는지 알 수 있나요?",
+            "turn_id": "BK22011584-8",
+            "utterance_id": "BK22011584.15"
+        },
+        {
+            "reference_date": "2014-12-03",
+            "reference_text": [
+                {
+                    "value": "민간인으로 한국에서 자가용을 가진 최초의 한국인은 3·1운동 민족대표 33인 중 한 명이자 천도교 3대 교령이었던 의암 손병희다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1915년 캐딜락을 탔다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "손병희 외에도 순정왕후 아버지 윤택영, 개화사상가 박영효, 서울 갑부 김종성, 연세대를 창립한 언더우드, 배재학당 아펜젤러 등이 당시 외제차를 타고 다녔다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/16590121#home",
+            "search_query": "한국에서 자가용을 가진 최초의 민간인",
+            "terminate": false,
+            "text": "민간인으로 우리나라에서 자가용을 가졌던 최초의 사람은 3.1운동 민족대표 33인 중 한 명이자 천도교의 3대 고령으로 지낸 의암 손병희예요. 1915년 캐딜락을 탔었죠. 이 외에도 순정왕후의 아버지인 윤택영, 개화사상가 박영효, 서울 갑부인 김종성, 연세대를 설립한 언더우드, 배재학생 아펜젤러 등이 그 당시의 외제차를 타고 다녔었어요.",
+            "turn_id": "BK22011584-8",
+            "utterance_id": "BK22011584.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 많은 사람들이 자동차를 타고 다녔네요. 그럼 국내 제작으로 만든 최초의 자동차는 어떤 건가요?",
+            "turn_id": "BK22011584-9",
+            "utterance_id": "BK22011584.17"
+        },
+        {
+            "reference_date": "2019-08-08",
+            "reference_text": [
+                {
+                    "value": "‘국제차량제작(國際車輛製作)’이라는자동차 제작 회사가 내놓은 대한민국 자동차 역사상 첫 차, ‘시-발’.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다라서 기본 구조는 폐차된 지프를 기반으로하고, 차체는 드럼통을 자르고 펴서 만들어졌으며, 엔진은원본 지프의 부품을 주물로 복제해다 만들었다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.motoya.co.kr/news/articleView.html?idxno=18033",
+            "search_query": "최초의 국산 자동차",
+            "terminate": false,
+            "text": "국제차량제작이라는 이름을 가진 자동차 제조 회사가 만든 시-발이 대한민국 역사상 첫 자동차예요. 폐차된 지프를 기본 구조로 하고, 차체는 드럼통을 이용해 자르거나 펴서 제작했어요. 엔진의 경우 원본 지프의 부품을 주물로 복사해 만들었고요.",
+            "turn_id": "BK22011584-9",
+            "utterance_id": "BK22011584.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들어본 적 있어요. 이름이 너무 특이해서 한 번 들으면 잊어버릴 수 없는 차 이름이죠. 처음 출시되었을 때 가격은 얼마였나요?",
+            "turn_id": "BK22011584-10",
+            "utterance_id": "BK22011584.19"
+        },
+        {
+            "reference_date": "2018-12-20",
+            "reference_text": [
+                {
+                    "value": "당시 시발의 가격은 8만환에 달했는데, 이는 당시 쌀 90가마니 정도에 해당하는 가격으로, 상당한 고가품이었다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 택시회사에서 관심을 갖기 시작한 이래로가격이 계속 오르기 시작해 택시로 판매될 당시에는 30만환에 이르고 이후에는 90만환까지 치솟게 된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.motoya.co.kr/news/articleView.html?idxno=16285",
+            "search_query": "시발 자동차 가격",
+            "terminate": false,
+            "text": "그 당시 시발의 가격은 8만환 정도였는데, 쌀로 따지면 90가마니 정도에 해당하니 꽤 고가품이었어요. 그 후 택시회사에서 관심을 갖게 되었고 가격이 계속 올라 택시로 판매될 때는 30만환, 이후 90만환까지 급증하게 돼요.",
+            "turn_id": "BK22011584-10",
+            "utterance_id": "BK22011584.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날 이야기를 듣는 건 언제나 흥미롭고 재밌어요. 자동차는 특히 짧은 시간에 많은 발전을 이뤄서 엄청 옛날 이야기처럼 느껴지기도 하고요. 다음에는 앞으로의 자동차 미래에 대해서도 얘기해주세요.",
+            "turn_id": "BK22011584-11",
+            "utterance_id": "BK22011584.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요. 미래에 대한 이야기를 하는 것도 재미있죠. 어떤 것들이 궁금했는지 생각해오면 대화가 더 즐거울 거예요. 그럼 남은 하루 재밌게 보내시고 다음에 봐요!",
+            "turn_id": "BK22011584-11",
+            "utterance_id": "BK22011584.22"
+        }
+    ]
+}

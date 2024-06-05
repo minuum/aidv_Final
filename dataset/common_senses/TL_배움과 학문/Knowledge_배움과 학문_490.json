@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002188",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002188",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스페인 독감은 스페인에 시작된 전염병이야?",
+            "turn_id": "BK22002188-1",
+            "utterance_id": "BK22002188.1"
+        },
+        {
+            "reference_date": "2020-02-01",
+            "reference_text": [
+                {
+                    "value": "스페인독감은 1918년 3월 미국 미시간주 디트로이트와 사우스캐롤라이나주 일부 지역에서 처음 발생했는데 6개월 뒤 미국 보스턴, 프랑스 서부 브레스트, 아프리카 서부 시에라리온 등에서 맹독성 독감이 폭발적으로 확산하기 시작했다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23695134",
+            "search_query": "스페인독감 발원지",
+            "terminate": false,
+            "text": "스페인 독감은 스페인에서 시작된 독감이 아니야. 1918년 3월 미국의 미시간주 디트로이트와 사우스캐롤라이나주 일부에서 처음 발병했고, 6개월 뒤 미국 보스턴, 아프리카 서부, 프랑스 서부 등으로 폭발적으로 확산했어.",
+            "turn_id": "BK22002188-1",
+            "utterance_id": "BK22002188.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스페인은 발원지도 아닌데 왜 스페인 독감이라고 불러?",
+            "turn_id": "BK22002188-2",
+            "utterance_id": "BK22002188.3"
+        },
+        {
+            "reference_date": "2020-03-31",
+            "reference_text": [
+                {
+                    "value": "흥미로운 것은 사기가 떨어질 것을 염려한 다른 국가들이 언론통제로 독감을 숨기고 있을 때 중립국이어서 이 질병에 주목할 여력이 있었던 스페인만이 독감을 보도했고, 발병 원인이나 피해 정도와는 무관하게 결국 역사에는 스페인 독감으로 남게 되었다는 점이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/935006.html",
+            "search_query": "스페인독감 이유",
+            "terminate": false,
+            "text": "다른 국가에서는 언론통제로 독감에 대한 보도를 숨겼고, 당시 중립국이었던 스페인만 독감에 대해 보도했거든. 그래서, 발병 원인이나 피해 정도와는 상관없이 스페인 독감이라는 이름으로 불리게 되었어.",
+            "turn_id": "BK22002188-2",
+            "utterance_id": "BK22002188.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 스페인 독감은 굉장히 심각했다고 하던데?",
+            "turn_id": "BK22002188-3",
+            "utterance_id": "BK22002188.5"
+        },
+        {
+            "reference_date": "2021-11-15",
+            "reference_text": [
+                {
+                    "value": "1918년 독감은 3차례 유행하면서 당시 전 세계 인구의 약 3분의 1에 해당하는 5억 명 이상을 감염시켰고, 그로 인해 5000만 명 안팎이 사망한 것으로 추정된다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25023694",
+            "search_query": "스페인독감 감염",
+            "terminate": false,
+            "text": "스페인 독감은 3차례나 유행하면서 약 5억 명 즉, 당시 전 세계 인구의 약 3분의 1을 감염시켰고 5000만 명이 사망했어.",
+            "turn_id": "BK22002188-3",
+            "utterance_id": "BK22002188.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스페인 독감이 3차례나 유행했다니 치명적일 수밖에 없었겠네.",
+            "turn_id": "BK22002188-4",
+            "utterance_id": "BK22002188.7"
+        },
+        {
+            "reference_date": "2020-04-24",
+            "reference_text": [
+                {
+                    "value": "스페인 독감은 1918년부터 1920년까지 유행했는데, 1918년 봄, 1918년 가을, 1919년 봄 3차례 유행이 전 세계에서 나타났다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 영국 통계에 따르면 1000명당 사망률은 1차 유행 때 5명 수준이었다가 2차 유행 때는 25명으로 다섯 배로 치솟았다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3차 유행 때는 이 수치가 10여 명 수준으로 떨어졌다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스페인 독감을 일으킨 바이러스가 1차 유행과 2차 유행 사이에 변이를 일으켜 더 치명적으로 변했기 때문이라는 것이다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2020/04/24/2020042400148.html",
+            "search_query": "스페인독감 유행",
+            "terminate": false,
+            "text": "1918년 봄, 1918년 가을, 1919년 봄 이렇게 3차례 유행이 전 세계적으로 나타났어. 이때 사망률은 1차에 1000명당 5명이었으나, 2차에는 25명으로 치솟다가 3차 유행에는 10명으로 감소했어. 1차와 2차 사이에 사망률이 높아진 것은 치명적 변이 생겼기 때문이야.",
+            "turn_id": "BK22002188-4",
+            "utterance_id": "BK22002188.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변이가 일어나서 사람들을 더 많이 죽게 했구나. 노인들이나 어린아이들의 피해가 심각했겠어.",
+            "turn_id": "BK22002188-5",
+            "utterance_id": "BK22002188.9"
+        },
+        {
+            "reference_date": "2020-04-03",
+            "reference_text": [
+                {
+                    "value": "그런데 스페인 독감의 경우 젊은 층에서 치명률이 훨씬 더 높았다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 대해 과학자들은 당시 나이가 많은 연령층에서는 그들이 어렸을 때 스페인 독감과 비슷한 유전 형질을 지닌 유행성 독감 바이러스에 노출된 적이 있어서 면역이 있었을 거란 추정을 내놓고 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%8A%A4%ED%8E%98%EC%9D%B8-%EB%8F%85%EA%B0%90%EC%9D%84-%ED%86%B5%ED%95%B4%EB%B3%B8-%EC%BD%94%EB%A1%9C%EB%82%9819/",
+            "search_query": "스페인독감 특성",
+            "terminate": false,
+            "text": "사실은 그렇지 않았어. 스페인 독감은 젊은 층의 피해가 더 컸는데, 나이가 많은 연령층은 어렸을 때 비슷한 유전 형질을 가진 유행성 독감 바이러스에 노출된 적이 있기 때문이야.",
+            "turn_id": "BK22002188-5",
+            "utterance_id": "BK22002188.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 비슷한 병에 노출된 적이 없는 곳에서 사망률이 높았겠네.",
+            "turn_id": "BK22002188-6",
+            "utterance_id": "BK22002188.11"
+        },
+        {
+            "reference_date": "2020-03-02",
+            "reference_text": [
+                {
+                    "value": "바이러스에 대한 저항력이 낮은 남태평양 군도와 알래스카등지에서 사망률이 극히 높았다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "앨래스카 이누이트족의 한 마을 주민이 전원 사망했다는 기록이 있다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=1779",
+            "search_query": "스페인독감 사망률",
+            "terminate": false,
+            "text": "맞아, 안타깝게도 남태평양의 군도와 알래스카 지역의 사망률이 높았어. 알래스카의 이누이트족 마을 하나는 주민이 전원 사망하기도 했어.",
+            "turn_id": "BK22002188-6",
+            "utterance_id": "BK22002188.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계적으로 심각했는데 당시 우리나라의 상황은 어땠어?",
+            "turn_id": "BK22002188-7",
+            "utterance_id": "BK22002188.13"
+        },
+        {
+            "reference_date": "2020-03-16",
+            "reference_text": [
+                {
+                    "value": "1919년 3월 조선총독부가 발표한 내용에 의하면 당시 조선인구 1705만7032명 가운데 환자가 755만6693명이었고 이 중 사망자는 14만527명이며 사망률은 0.82명이었다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.futurekorea.co.kr/news/articleView.html?idxno=130263",
+            "search_query": "조선 스페인독감",
+            "terminate": false,
+            "text": "1919년 조선총독부의 발표에 따르면 조선의 인구 1705만 7032명 중 감염자가 755만 6693명이고, 사망자도 14만 527명이었어.",
+            "turn_id": "BK22002188-7",
+            "utterance_id": "BK22002188.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 상황이 너무 좋지 않았구나. 세계 전체를 공포에 몰아넣은 스페인 독감의 정체는 뭐야?",
+            "turn_id": "BK22002188-8",
+            "utterance_id": "BK22002188.15"
+        },
+        {
+            "reference_date": "2020-06-16",
+            "reference_text": [
+                {
+                    "value": "하지만 과학자들의 끈질긴 연구 끝에, 알래스카의 얼음 아래에 파묻혀 있던 희생자의 폐 조직에서 얻어낸 바이러스를 현대적인 기술로 분석하는 것이 가능해졌다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2005년에 와서야 그 바이러스가 H1N1 인플루엔자 A형 바이러스였다는 것이 명확해졌다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=42202",
+            "search_query": "스페인독감 바이러스",
+            "terminate": false,
+            "text": "과학자들이 알래스카의 얼음에 묻혀 있던 피해자의 폐 조직을 통해 그 바이러스가 H1N1 인플루엔자 A형이었다는 것을 2005년에서야 밝혀냈어.",
+            "turn_id": "BK22002188-8",
+            "utterance_id": "BK22002188.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독감이 무엇인지 알아내는 것도 오래 걸렸네. 당시 정체도 잘 몰랐던 스페인 독감이 어떻게 멈춘 거야?",
+            "turn_id": "BK22002188-9",
+            "utterance_id": "BK22002188.17"
+        },
+        {
+            "reference_date": "2020-02-29",
+            "reference_text": [
+                {
+                    "value": "바이러스에 감염될 만한 사람은 모두 감염되자 마침내 확산세가 멈추었다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한번 바이러스에 앓았던 사람들에겐 면역력이 생겼고 바이러스는 덜 치명적인 행태로 변했다.",
+                    "value_time": "2022-07-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002617092",
+            "search_query": "스페인독감 멈춘이유",
+            "terminate": false,
+            "text": "바이러스에 걸릴 사람이 다 걸려서 확산이 멈췄어. 바이러스에 걸렸던 사람들에게는 면역력이 생겼고, 바이러스는 덜 치명적인 형태로 진화했지.",
+            "turn_id": "BK22002188-9",
+            "utterance_id": "BK22002188.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바이러스 스스로가 전염을 멈춘 거구나.",
+            "turn_id": "BK22002188-10",
+            "utterance_id": "BK22002188.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 인명피해를 남기고 바이러스의 전염이 끝난 거야.",
+            "turn_id": "BK22002188-10",
+            "utterance_id": "BK22002188.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇네, 스페인 독감에 대해 궁금한 점이 많았는데 자세히 설명해 줘서 고마워.",
+            "turn_id": "BK22002188-11",
+            "utterance_id": "BK22002188.21"
+        }
+    ]
+}

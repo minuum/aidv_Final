@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001130",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001130",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내일까지 축구에 대한 레포트를 써야해서 고민이야. 어디서 시작해야 할까?",
+            "turn_id": "BK22001130-1",
+            "utterance_id": "BK22001130.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 축구의 기원부터 살펴봐봐.",
+            "turn_id": "BK22001130-1",
+            "utterance_id": "BK22001130.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 좋은 생각이야. 축구가 스페인에서 시작했다고 알고 있는데, 맞아?",
+            "turn_id": "BK22001130-2",
+            "utterance_id": "BK22001130.3"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "축구의 역사는 유럽(영국), 그 중에서도 특히 옛날의 중세 스페인에서 펼쳐졌던 전통적인 축구 경기에서부터 시작된다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나, 현대적 의미의 축구는 1863년에 잉글랜드에서 설립된 축구 협회 (FA)의 등장에 그 기원을 두고 있다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%95%EA%B5%AC%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "축구 기원",
+            "terminate": false,
+            "text": "맞긴한데, 정확하게 설명하면 중세 스페인의 전통적인 축구 경기에서 시작했지만, 현대적 의미의 축구는 1863년 잉글랜드에서 설립된 축구 협회의 등장이 그 기원이라고 할 수 있지.",
+            "turn_id": "BK22001130-2",
+            "utterance_id": "BK22001130.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그러면 가장 인기있는 세계 축구 대회는 월드컵이지?",
+            "turn_id": "BK22001130-3",
+            "utterance_id": "BK22001130.5"
+        },
+        {
+            "reference_date": "2021-10-21",
+            "reference_text": [
+                {
+                    "value": "국제축구연맹(FIFA) 월드컵은 지상 최대의 축제라고 불릴 만큼 전 세계 축구팬들의 이목을 받는다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1930년 우루과이 대회로 시작한 월드컵은 다음해 카타르에서 22번째 대회가 개최된다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 2026년에는 캐나다·멕시코·미국에서 북중미 월드컵이 열릴 예정이다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202110200017",
+            "search_query": "축구 대회 월드컵",
+            "terminate": false,
+            "text": "그렇지. 국제축구연맹 월드컵은 지상 최대의 축제라고 불릴 만큼 전 세계 축구팬들의 사랑을 받고 있어. 1930년 우루과이 대회로 시작해서 22번째 대회가 올해 2022년에 카타르에서 개최될 예정이야. 그 다음에는 2026년에 캐나다, 멕시코, 미국에서 북중미 월드컵이 열릴 예정이고.",
+            "turn_id": "BK22001130-3",
+            "utterance_id": "BK22001130.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "월드컵 볼 생각을 하니 정말 신나. 그러면 세계에서 제일 잘 나가는 축구 구단은 어디야?",
+            "turn_id": "BK22001130-4",
+            "utterance_id": "BK22001130.7"
+        },
+        {
+            "reference_date": "2022-05-27",
+            "reference_text": [
+                {
+                    "value": "영국 매체 데일리스타는 27일(한국시각) '레알 마드리드가 포브스 선정 세계에서 가장 가치 높은 구단으로 선정됐다'고 보도했다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구단 수익과 광고료, 자산(선수) 평가 등을 토대로 구단의 가치를 매긴다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/sports/sports_photo/2022/05/27/OZ2LBN7ZZTHUNXVTJAXMWCRVQU/",
+            "search_query": "세계 축구 구단",
+            "terminate": false,
+            "text": "2022년 세계 축구 구단 가치 평가에서 레알 마드리드가 가장 가치가 높은 구단으로 선정됐어. 선정 기준은 구단 수익, 광고료, 선수 평가 등이야.",
+            "turn_id": "BK22001130-4",
+            "utterance_id": "BK22001130.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 레알 마드리드가 최고구나. 그러면 한국 축구 수준은 어때?",
+            "turn_id": "BK22001130-5",
+            "utterance_id": "BK22001130.9"
+        },
+        {
+            "reference_date": "2022-03-31",
+            "reference_text": [
+                {
+                    "value": "한국은 FIFA가 31일(이하 한국시간) 발표한 세계 랭킹에서 1천519.54점으로 29위를 차지했다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220331181800007",
+            "search_query": "한국 축구 순위",
+            "terminate": false,
+            "text": "한국은 2022년 피파가 발표한 세계 랭킹에서 29에 올랐어.",
+            "turn_id": "BK22001130-5",
+            "utterance_id": "BK22001130.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그러면 세계적으로 유명한 한국 축구 선수는 누가 있지?",
+            "turn_id": "BK22001130-6",
+            "utterance_id": "BK22001130.11"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "글로벌 축구잡지 포포투는 8일(한국시각) 2020년 맹활약한 세계 최고의 축구선수 순위를 정했다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토트넘 홋스퍼의 손흥민은 아시아인으로는 유일하게 최종 순위 18위에 이름을 올렸다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/sports/article/202102094717l",
+            "search_query": "세계 축구 선수 한국",
+            "terminate": false,
+            "text": "2020년에 맹활약한 세계 최고의 축구선수 명단에 토트넘 홋스퍼의 손흥민 선수가 아시아인으로 유일하게 18위에 이름을 올렸어.",
+            "turn_id": "BK22001130-6",
+            "utterance_id": "BK22001130.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "손흥민 선수가 정말 대단하구나. 그럼 한국도 2022년 월드컵에 출전하겠지?",
+            "turn_id": "BK22001130-7",
+            "utterance_id": "BK22001130.13"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "앞으로 시작 될 2022 FIFA 카타르 월드컵 조편성에서 한국은 포르투갈, 가나, 우루과이와 함께 8팀 중 H조에 속한다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisamagazine.co.kr/news/articleView.html?idxno=450084",
+            "search_query": "한국 월드컵",
+            "terminate": false,
+            "text": "응, 2022년 카타르 월드컵 H조에 편성되서 포르투갈, 가나, 우루과이랑 경기하게 될거야.",
+            "turn_id": "BK22001130-7",
+            "utterance_id": "BK22001130.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국 경기는 놓치지 말고 무조건 봐야겠어. 그런데 축구를 보는 건 너무 즐겁지만 막상 축구하다보면 부상 위험이 늘 있는 거 같아.",
+            "turn_id": "BK22001130-8",
+            "utterance_id": "BK22001130.15"
+        },
+        {
+            "reference_date": "2019-09-19",
+            "reference_text": [
+                {
+                    "value": "축구 초보자들은 달리다가 갑자기 정지하거나 방향을 바꾸려고 하는 동작에서 '전방 십자인대파열'을 흔히 겪는다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2019/09/19/2019091900892.html",
+            "search_query": "축구 부상",
+            "terminate": false,
+            "text": "맞아, 특히 초보자들이 달리다가 갑자기 정지하거나 방향을 틀면서 전방 십자인대파열을 겪곤 하지. 조심해야해.",
+            "turn_id": "BK22001130-8",
+            "utterance_id": "BK22001130.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저번에 나도 갑자기 달리가 멈춰서 다칠뻔 했어. 축구가 건강에 너무 좋아서 하고 있긴 한데. 걱정되기도 해.",
+            "turn_id": "BK22001130-9",
+            "utterance_id": "BK22001130.17"
+        },
+        {
+            "reference_date": "2018-03-22",
+            "reference_text": [
+                {
+                    "value": "축구는 하체 힘만 길러주는 운동이 아니다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "순발력과 민첩성, 근력 향상 등은 잘 알려진 건강 효과는 물론, 격렬한 유산소운동이어서 심폐지구력 향상에 좋고 다이어트에도 효과적이다.",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "축구 한 경기를 뛰면 보통 1500㎉l의 에너지가 소모된다",
+                    "value_time": "2022-06-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201803230100182090013231&servicedate=20180322",
+            "search_query": "축구 효과",
+            "terminate": false,
+            "text": "맞는 말이야. 축구는 하체 힘을 키워주는 것 뿐만 아니라 순발력과 민첩성, 근력 향상에도 도움되지. 그리고 격렬한 유산소운동이니까 심폐지구력 향상에 좋고 다이어트에도 효과적이고. 보통 축구 한 경기를 뛰면 1500칼로리의 에너지가 소모되지.",
+            "turn_id": "BK22001130-9",
+            "utterance_id": "BK22001130.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 다칠까봐 무서워도 축구를 계속하고 있나봐. 덕분에 레포트 쓰는 게 훨씬 수월해졌어. 고마워.",
+            "turn_id": "BK22001130-10",
+            "utterance_id": "BK22001130.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 축구 하러 같이 가자. 오늘은 레포트 쓰느라 고생하겠네. 조심히 들어가고 다음에 보자.",
+            "turn_id": "BK22001130-10",
+            "utterance_id": "BK22001130.20"
+        }
+    ]
+}

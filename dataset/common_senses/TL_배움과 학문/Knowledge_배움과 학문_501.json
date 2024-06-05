@@ -1,0 +1,380 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002313",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002313",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 물리학에 관해 잘 아세요?",
+            "turn_id": "BK22002313-1",
+            "utterance_id": "BK22002313.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 꽤 알죠, 그런데 물리학은 갑자기 왜요?",
+            "turn_id": "BK22002313-1",
+            "utterance_id": "BK22002313.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 조카가 학교에서 물리학 공부를 하는지 저한테 자꾸만 물어보더라고요. 전 솔직히 물리학이 뭘 배우는 학문인지도 모르겠는데 말이에요. 물리학이라는 게 어떤 건지 저한테 설명해 줄 수 있어요?",
+            "turn_id": "BK22002313-2",
+            "utterance_id": "BK22002313.3"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "물리학(物理學, 영어: physics)은 물질과 그것의 시공간에서의 운동, 그리고 그것과 관련된 에너지나 힘 등을 연구하는 자연과학의 한 분야이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 기초적인 과학의 한 분야로, 물리학의 목표는 우주 또는 자연이 어떤 식으로 운동하는가를 논리적으로 이해하는 것 즉, 모든 물체의 운동 원리를 규명하는 것이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A6%AC%ED%95%99",
+            "search_query": "물리학",
+            "terminate": false,
+            "text": "물리학은 물질과 시공간에서의 물질의 운동, 그리고 그것과 관련된 에너지와 힘 등을 연구하는 자연과학으로, 가장 기초적인 과학 분야 중 하나예요. 우주와 자연이 어떤 식으로 운동하는지 논리적으로 이해하는 것, 다시 말해 모든 물체의 운동 원리를 규명하는 게 물리학의 목표죠.",
+            "turn_id": "BK22002313-2",
+            "utterance_id": "BK22002313.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 역학도 물리학에 속해요?",
+            "turn_id": "BK22002313-3",
+            "utterance_id": "BK22002313.5"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "또한, 역학, 전자기학, 광학과 같이 특정한 분야별로 나뉘어 불리기도 한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A6%AC%ED%95%99",
+            "search_query": "물리학 역학",
+            "terminate": false,
+            "text": "맞아요. 물리학을 특정한 분야별로 나눠서 역학, 광학, 전자기학 등으로 구분하기도 하죠.",
+            "turn_id": "BK22002313-3",
+            "utterance_id": "BK22002313.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역학은 정확히 어떤 걸 연구하는 학문인가요?",
+            "turn_id": "BK22002313-4",
+            "utterance_id": "BK22002313.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "역학(力學, 문화어: 력학, 고대 그리스어: Μηχανική, 영어: Mechanics)은 물리학의 한 분야로, 외력을 받고 있는 물체의 정지 또는 운동 상태를 설명하고 예측하는 자연 과학이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%AD%ED%95%99_(%EB%AC%BC%EB%A6%AC%ED%95%99)",
+            "search_query": "역학",
+            "terminate": false,
+            "text": "외력을 받고 있는 물체의 정지 또는 운동 상태를 설명하고 예측하는 자연과학을 물리학 중에서도 역학이라고 불러요.",
+            "turn_id": "BK22002313-4",
+            "utterance_id": "BK22002313.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역학도 무슨 역학 무슨 역학, 하고 종류가 다양하죠?",
+            "turn_id": "BK22002313-5",
+            "utterance_id": "BK22002313.9"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "역학에는 여러 하위 분야가 있으며, 크게 보아 고전역학과 양자역학으로 구분할 수 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%AD%ED%95%99_(%EB%AC%BC%EB%A6%AC%ED%95%99)",
+            "search_query": "역학 종류",
+            "terminate": false,
+            "text": "맞아요. 역학에도 다양한 종류가 있는데, 크게 고전역학과 양자역학으로 나눌 수 있어요.",
+            "turn_id": "BK22002313-5",
+            "utterance_id": "BK22002313.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양자역학은 많이 들어 봤어요! 많이 들어는 봤는데, 뭔진 모르겠네요, 하하.",
+            "turn_id": "BK22002313-6",
+            "utterance_id": "BK22002313.11"
+        },
+        {
+            "reference_date": "2021-10-21",
+            "reference_text": [
+                {
+                    "value": "양자역학은 물질을 구성하는 미시 세계 원자의 움직임을 규정하는 원리다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.hankookilbo.com/News/Read/A2021102016280000306",
+            "search_query": "양자역학 쉽게 설명",
+            "terminate": false,
+            "text": "물질을 구성하는 미시 세계 원자의 움직임을 규정하는 원리를 양자역학이라고 해요.",
+            "turn_id": "BK22002313-6",
+            "utterance_id": "BK22002313.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 과학이랑 담쌓아서 그런 건지, 양자역학은 정의를 들어도 그게 뭔지 감이 안 오네요.",
+            "turn_id": "BK22002313-7",
+            "utterance_id": "BK22002313.13"
+        },
+        {
+            "reference_date": "2021-10-21",
+            "reference_text": [
+                {
+                    "value": "\"양자역학을 이해하는 사람은, 나를 포함해서, 아무도 없다.\"",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "20세기의 천재 과학자로 꼽히는 리처드 파인먼이 양자역학을 강의하면서 했던 얘기다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.hankookilbo.com/News/Read/A2021102016280000306",
+            "search_query": "양자역학 이해",
+            "terminate": false,
+            "text": "하하. 20세기의 천재 과학자로 유명한 리처드 파인먼도 양자역학을 이해하는 사람은 본인을 포함해서 아무도 없다고 말했어요. 양자역학은 원래 이해하기 힘든 학문이에요.",
+            "turn_id": "BK22002313-7",
+            "utterance_id": "BK22002313.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양자역학이라는 단어는 누가 처음 만든 거예요? 개념을 이해하는 건 쉽지 않을 테니 명칭에 관해서라도 제대로 알아둘까 봐요.",
+            "turn_id": "BK22002313-8",
+            "utterance_id": "BK22002313.15"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "양자역학이라는 용어는 독일의 물리학자 막스 보른(Max Born, 1882~1970)이 처음 제시했다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양자역학이란 말을 이해하려면 ‘양자’와 ‘역학’을 각각 살펴보는 것이 좋다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%9E%90%EC%97%AD%ED%95%99",
+            "search_query": "양자역학 용어",
+            "terminate": false,
+            "text": "막스 보른이라는 독일 물리학자가 양자역학이라는 용어를 처음 제시했어요. 양자역학이라는 용어를 제대로 이해하려면, 양자와 역학이라는 단어를 각각 살펴보는 게 좋아요.",
+            "turn_id": "BK22002313-8",
+            "utterance_id": "BK22002313.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양자와 역학을 각각 살펴봐요? 양자와 역학이 각각 어떤 뜻인데요?",
+            "turn_id": "BK22002313-9",
+            "utterance_id": "BK22002313.17"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "‘양자(量子)’로 번역된 영어의 quantum은 양을 의미하는 quantity에서 온 말로, 무엇인가 띄엄띄엄 떨어진 양으로 있는 것을 가리키는 말이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘역학(力學)’은 말 그대로는 ‘힘의 학문’이지만, 실제로는 ‘이러저러한 힘을 받는 물체가 어떤 운동을 하게 되는지 밝히는 물리학의 한 이론’이라고 할 수 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇듯 양자역학이란 띄엄띄엄 떨어진 양으로 있는 것이 이러저러한 힘을 받으면 어떤 운동을 하게 되는지 밝히는 이론이라고 할 수 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%9E%90%EC%97%AD%ED%95%99",
+            "search_query": "양자역학 양자와 역학",
+            "terminate": false,
+            "text": "양자는 영어 Quantum이 번역된 단어예요. Quantum은 양을 뜻하는 Quantity에서 파생한 단어로, 무언가가 띄엄띄엄 떨어진 양으로 있는 걸 나타내는 말이에요. 역학은 이름 그대로 풀이하면 힘의 학문이지만, 앞서 말했듯 실제로는 이러저러한 힘을 받는 물체가 어떤 운동을 하게 되는지 밝히는 물리학의 한 이론이라고 할 수 있죠. 즉, 양자역학은 띄엄띄엄 떨어진 양으로 존재하는 것이 특정한 힘을 받았을 때 어떤 운동을 하게 되는지 밝히는 이론이라고 정리할 수 있죠.",
+            "turn_id": "BK22002313-9",
+            "utterance_id": "BK22002313.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 지금 살짝 이해됐어요! 근데 솔직히 너무 어렵네요. 물리학자분들 새삼 정말 존경스러워요.",
+            "turn_id": "BK22002313-10",
+            "utterance_id": "BK22002313.19"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "물리학의 목적은 자연에 대한 서술이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러므로 물리학자들은 우리 주변에서 일어나는 일의 원인을 알아내어 이성적으로 판단하여 그 원인과 결과를 하나의 이론으로 일반화시키는 판단을 한다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A6%AC%ED%95%99",
+            "search_query": "물리학",
+            "terminate": false,
+            "text": "그렇죠? 물리학자들은 이성적인 판단에 근거해 우리 주변에서 일어나는 일의 원인을 알아내고, 그 원인과 결과를 하나의 이론으로 일반화하는 사람들이에요. 물리학의 궁극적인 목적은 자연에 대한 서술이니까, 물리학자들은 자연을 해석하는 학자들인 거죠. 진짜 존경스러워요.",
+            "turn_id": "BK22002313-10",
+            "utterance_id": "BK22002313.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연을 서술한다니, 과학의 한 분야인데 꼭 예술 같아요. 다음번엔 물리학자들에 관해서도 이야기해 줄 수 있어요?",
+            "turn_id": "BK22002313-11",
+            "utterance_id": "BK22002313.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물리학에 관한 이야기라면 언제든 좋죠.",
+            "turn_id": "BK22002313-11",
+            "utterance_id": "BK22002313.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음번에 만날 땐 멋있는 물리학자들 이야기 기대할게요. 감사해요!",
+            "turn_id": "BK22002313-12",
+            "utterance_id": "BK22002313.23"
+        }
+    ]
+}

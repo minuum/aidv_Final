@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005079",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005079",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "홍콩의 역사에 대해 알아보다가, 우연히 흥미로운 내용을 하나 보게 됐어.",
+            "turn_id": "BK22005079-1",
+            "utterance_id": "BK22005079.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흥미로운 내용이라니, 그게 뭔데?",
+            "turn_id": "BK22005079-1",
+            "utterance_id": "BK22005079.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 홍콩이 영국의 식민지였던 적이 없었다는 내용의 발표를 했더라고? 내가 알던 역사와 달라서 의아했어.",
+            "turn_id": "BK22005079-2",
+            "utterance_id": "BK22005079.3"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "영국이 150년 이상 홍콩을 점령하고 식민 지배를 해왔지만, 이는 1800년대에 맺어진 불공정 조약 때문이며 중국은 항상 홍콩 주권을 포기하지 않았다는 것이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/202208031619001",
+            "search_query": "홍콩 영국 식민지",
+            "terminate": false,
+            "text": "150년이 넘는 기간 동안 영국이 홍콩을 점령하고 식민 지배 해오긴 했지. 하지만 그건 1800년대에 맺은 불공정 조약 때문일 뿐, 중국은 홍콩 주권을 포기한 적이 없다는 입장이야.",
+            "turn_id": "BK22005079-2",
+            "utterance_id": "BK22005079.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조약 자체가 불공정해서 식민지였던 사실도 인정할 수 없다는 거야?",
+            "turn_id": "BK22005079-3",
+            "utterance_id": "BK22005079.5"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "홍콩이 영국에 넘어간 계기였던 난징조약 자체가 “강압적으로” 체결됐고 중국은 이를 수락한 적 없다는 것이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/202208031619001",
+            "search_query": "홍콩 영국 식민지",
+            "terminate": false,
+            "text": "응, 홍콩이 영국으로 넘어가게 된 난징조약이 강압적으로 체결되었기 때문에 중국은 이 조약을 수락한 적이 없다는 거지.",
+            "turn_id": "BK22005079-3",
+            "utterance_id": "BK22005079.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 불공정 조약의 이름이 난징조약이었구나. 난징조약은 언제 체결된 조약이야?",
+            "turn_id": "BK22005079-4",
+            "utterance_id": "BK22005079.7"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "1842년 아편 전쟁 이후 영국과 청나라 사이에 체결된 난징 조약에 따라 홍콩 섬은 영국이 차지했다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newscj.com/article/20220701580176",
+            "search_query": "난징조약 홍콩",
+            "terminate": false,
+            "text": "난징조약은 1842년 아편 전쟁 이후에 체결되었어. 청나라와 영국 사이에서 체결된 이 조약에 의해 홍콩섬은 영국에 귀속되었지.",
+            "turn_id": "BK22005079-4",
+            "utterance_id": "BK22005079.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 영국이 홍콩을 중국에 반환한 건 언제였어?",
+            "turn_id": "BK22005079-5",
+            "utterance_id": "BK22005079.9"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "영국은 150년 넘게 홍콩을 통치한 끝에 1997년 중국에 반환했다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4713767",
+            "search_query": "영국 150년 홍콩",
+            "terminate": false,
+            "text": "150년이 넘는 통치 기간을 끝으로, 1997년도에 영국은 홍콩을 중국으로 반환했어.",
+            "turn_id": "BK22005079-5",
+            "utterance_id": "BK22005079.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영국으로부터의 반환 이후로도 홍콩은 기존 사회 체제는 그대로 유지되었지? 현재의 홍콩은 중국과 전혀 다른 느낌이잖아.",
+            "turn_id": "BK22005079-6",
+            "utterance_id": "BK22005079.11"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "일국양제는 1997년 홍콩, 1999년 마카오 반환 이후 중국이 제시한 해당 지역 통치 원칙으로, 홍콩과 마카오가 반환 이전에 가지고 있던 정치, 경제, 사회 체제를 반환 이후 50년간 한시적으로 유지하며 중화인민공화국 본토의 공산주의 체제와 공존하는 방식이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/2022072811000901975?utm_source=naver&utm_medium=search",
+            "search_query": "홍콩 일국양제",
+            "terminate": false,
+            "text": "맞아, 일국양제 지역 통치 원칙을 통해 기존의 경제적, 정치적, 사회적 체제가 모두 유지되었어. 50년 동안 한시적으로 이 체제들을 모두 유지하면서 중국의 공산주의 체제와 공존하는 방식이지. 이 통치 원칙은 1997년에 반환된 홍콩 외에도 1999년에 반환된 마카오에도 그대로 적용되었어.",
+            "turn_id": "BK22005079-6",
+            "utterance_id": "BK22005079.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하다, 근데 홍콩 말고 대만에서도 일국양제가 적용된다는 이야기를 들은 것 같은데 사실이야?",
+            "turn_id": "BK22005079-7",
+            "utterance_id": "BK22005079.13"
+        },
+        {
+            "reference_date": "2022-08-12",
+            "reference_text": [
+                {
+                    "value": "중국이 22년 만에 발간한 대만백서에서 대만 통일 후 홍콩식 '일국양제'(一國兩制·한 국가 두 체제)를 적용하겠다는 의지를 확고히 했다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022081121501263699",
+            "search_query": "대만 일국양제",
+            "terminate": false,
+            "text": "응, 중국에서 22년 만에 발간된 대만백서에 따르면 대만 통일 이후에는 한 국가 두 체제를 의미하는 홍콩식 일국양제를 적용하겠다는 의지가 확고하게 담겨있지.",
+            "turn_id": "BK22005079-7",
+            "utterance_id": "BK22005079.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 대만 통일 과정에 있어서 일국양제 말고 92공식이라는 조건도 전제된다던데. 92공식이 의미하는 바가 정확히 뭐야?",
+            "turn_id": "BK22005079-8",
+            "utterance_id": "BK22005079.15"
+        },
+        {
+            "reference_date": "2022-08-12",
+            "reference_text": [
+                {
+                    "value": "평화통일을 위한 전제 조건으로는 '92공식'(九二共識)을 최초로 거론했다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "92공식은 1992년 중국과 대만이 이룬 공통인식이라는 의미다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022081121501263699",
+            "search_query": "대만 통일 92공식",
+            "terminate": false,
+            "text": "92공식이란 1992년에 중국과 대만이 이뤄낸 공통인식을 뜻해. 평화통일을 위한 전제 조건으로 이 92공식이 처음으로 거론되었지.",
+            "turn_id": "BK22005079-8",
+            "utterance_id": "BK22005079.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 맞다, 대만 말고 타이완과도 통일 과정을 진행 중이던데 타이완의 반응은 어때?",
+            "turn_id": "BK22005079-9",
+            "utterance_id": "BK22005079.17"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "타이완 측은 홍콩식 일국양제 적용 구상에 즉각 반발했습니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중국은 92 공식에 대해 양안이 하나의 중국에 속하며 통일을 위해 노력한다는 의미라고 주장하지만, 타이완은 양안의 정치적 주장에 대한 합의가 이뤄진 적이 없다며 사실상 92 공식을 부정하고 있습니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006857222&plink=ORI&cooper=NAVER",
+            "search_query": "타이완 중국 통일",
+            "terminate": false,
+            "text": "타이완은 92 공식은 물론이고 홍콩식 일국양제 적용 역시 부정하고 있어. 중국은 92 공식이 통일을 위한 노력의 일환이라 주장하지만, 타이완은 양안의 정치적 주장에 대해서 합의가 이뤄진 적이 없다고 주장하지.",
+            "turn_id": "BK22005079-9",
+            "utterance_id": "BK22005079.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나라마다 반응이 다르구나, 네 설명 덕분에 무슨 상황인지 제대로 이해가 된다. 오늘 알려준 내용들 전부 고마워!",
+            "turn_id": "BK22005079-10",
+            "utterance_id": "BK22005079.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 나도 기분이 좋네. 다음에 또 궁금한 거 있으면 물어봐!",
+            "turn_id": "BK22005079-10",
+            "utterance_id": "BK22005079.20"
+        }
+    ]
+}

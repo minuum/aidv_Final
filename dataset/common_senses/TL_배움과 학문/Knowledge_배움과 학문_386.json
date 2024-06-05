@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013801",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013801",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부산에 세계 박람회를 유치하려고 노력 중인 것 같더라고요. 그러고 보니 세계 박람회에 대해 궁금한 게 있는데, 좀 물어봐도 될까요?",
+            "turn_id": "BK22013801-1",
+            "utterance_id": "BK22013801.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마든지 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013801-1",
+            "utterance_id": "BK22013801.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 많은데 다행이네요, 세계 박람회는 어떤 곳에서 주관하는 행사인가요?",
+            "turn_id": "BK22013801-2",
+            "utterance_id": "BK22013801.3"
+        },
+        {
+            "reference_date": "44740.0",
+            "reference_text": [
+                {
+                    "value": "국제박람회기구(BIE, 프랑스어: Bureau International des Expositions, 영어: International Exhibitions Bureau)에서 주관하며, 흔히 엑스포(Expo, 영어: exposition의 줄임말), 세계 엑스포(영어: world expo)라고도 한다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "과거에는 만국 박람회(萬國博覽會, Universal Expositions)라고 부르기도 했지만, 더이상 공식적으로 사용하지 않는 용어다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84_%EB%B0%95%EB%9E%8C%ED%9A%8C",
+            "search_query": "세계 박람회 주관",
+            "terminate": false,
+            "text": "세계 박람회는 흔히 엑스포나 세계 엑스포라는 이름으로도 많이 불리는데요, 프랑스어 약자로 BIE로 불리는 국제박람회기구에서 주관하는 행사입니다. 세계 박람회는 과거 만국 박람회라는 이름으로 불리기도 했는데요, 현재 이 용어는 공식적으로 사용되지 않고 있습니다.",
+            "turn_id": "BK22013801-2",
+            "utterance_id": "BK22013801.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엑스포가 세계 박람회와 같은 말이었군요. 또 궁금한 게 있는데, 세계 박람회는 종류별로 급이 나뉘는 것 같은데 어떤 차이가 있나요?",
+            "turn_id": "BK22013801-3",
+            "utterance_id": "BK22013801.5"
+        },
+        {
+            "reference_date": "44546.0",
+            "reference_text": [
+                {
+                    "value": "세계박람회는 등록박람회와 인정박람회로 나뉜다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "등록박람회는 5년마다 6주~6개월간 열린다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인정박람회는 등록박람회 사이에 열리며 기간도 3주~3개월로 짧다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국은 1993년 대전에 이어 2012년 여수에서 인정박람회를 개최됐다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부산은 2030년 등록박람회 유치 경쟁을 하고 있다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/032/0003116753?sid=102",
+            "search_query": "세계 박람회",
+            "terminate": false,
+            "text": "세계 박람회는 등록박람회와 인정박람회로 나눌 수 있는데요, 5년마다 6주~6개월의 기간 동안 열리는 게 등록박람회입니다. 인정박람회의 경우 등록박람회 사이에 개최되는데, 기간 역시 3주에서 3개월 정도로 짧습니다. 우리나라는 1993년에 대전에서, 2012년에 여수에서 인정박람회를 열었는데요, 2030년에 부산에서 등록박람회를 유치하려고 경쟁 중입니다.",
+            "turn_id": "BK22013801-3",
+            "utterance_id": "BK22013801.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대전과 여수에서 열린 건 인정박람회였군요. 또 궁금한 게 있는데 최초의 박람회는 언제 어디서 열렸나요?",
+            "turn_id": "BK22013801-4",
+            "utterance_id": "BK22013801.7"
+        },
+        {
+            "reference_date": "44715.0",
+            "reference_text": [
+                {
+                    "value": "최초의 국제적인 산업전시회는 1851년 런던 하이드파크에서 열린 만국박람회(Great Exhibition)다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "처음으로 현대적인 시설을 갖춘 전시장(crystal palace)에서 열렸으며, 영국뿐만 아니라 전 세계에서 1만3000개 이상을 출품하고, 6200만명이 관람한 최초의 국제박람회였다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0004972830?sid=110",
+            "search_query": "최초 박람회",
+            "terminate": false,
+            "text": "런던 하이드파크에서 1851년 열린 만국 박람회가 최초의 국제 산업전시회였습니다. 현대적 시설을 갖춘 전시장인 크리스털 팰리스에서 처음 개최했는데, 영국을 비롯해 전 세계에서 1만 3000개가 넘게 출품하고 관람객을 6200만 명 모은 최초의 국제박람회였습니다.",
+            "turn_id": "BK22013801-4",
+            "utterance_id": "BK22013801.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 박람회라는 게 언뜻 듣기에 막연한 부분도 있는데요. 주요 전시품으로 어떤 것들이 공개됐었는지 알 수 있을까요?",
+            "turn_id": "BK22013801-5",
+            "utterance_id": "BK22013801.9"
+        },
+        {
+            "reference_date": "44734.0",
+            "reference_text": [
+                {
+                    "value": "세계박람회는 단순한 국제행사를 넘어 인류의 과학적·문화적 성취를 선보이고 다음 행선지를 제시하는 혁신의 기폭제로 작용해왔다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1851년 영국 런던박람회에 전시된 증기기관차는 산업혁명을 이끌었고, 1889년 프랑스 파리박람회 때 전시된 에펠탑은 산업화의 서막을 알렸다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전화기(1876년 필라델피아), 비행기(1904년 세인트루이스), TV(1939년 뉴욕) 등도 세계박람회를 통해 공개되면서 인류의 삶에 큰 변화를 가져왔다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0004981028?sid=110",
+            "search_query": "세계 박람회 공개",
+            "terminate": false,
+            "text": "1851년 영국 런던 박람회에서 증기기관차가 전시됐는데, 증기기관차는 산업혁명을 이끌었죠. 1889년 프랑스 파리 박람회에선 에펠탑이 전시돼 산업화의 시작을 알렸습니다. 그밖에 1876년 필라델피아에선 전화기가, 1904년 세인트루이스에선 비행기가 공개됐고요, 1939년 뉴욕에선 텔레비전이 세계 박람회를 통해 공개돼 우리 삶에 큰 변화를 몰고 왔습니다.",
+            "turn_id": "BK22013801-5",
+            "utterance_id": "BK22013801.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 중요한 물품들이 많이 출품됐었네요. 우리나라는 언제부터 처음으로 세계 박람회에 참가했나요?",
+            "turn_id": "BK22013801-6",
+            "utterance_id": "BK22013801.11"
+        },
+        {
+            "reference_date": "40674.0",
+            "reference_text": [
+                {
+                    "value": "우리가 쇄국의 빗장을 풀고 처음으로 참가한 박람회는 구한말 1893년 미국에서 열린 시카고 컬럼비아 세계박람회다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시카고박람회에 우리나라는 가마·도자기·모시·부채·갑옷·관복·활·화살 등을 출품했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 조선 전시관은 한글로 ‘대죠선(대조선)’이라는 국호를 썼다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "청나라 영향에서 벗어나려는 고종 황제의 강력한 의지가 담긴 것으로 전시관은 6~7칸 규모였다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/032/0002133716?sid=103",
+            "search_query": "세계 박람회 우리나라",
+            "terminate": false,
+            "text": "우리나라는 구한말 당시인 1893년에 미국 시카고 컬럼비아 세계 박람회에 처음으로 참가했습니다. 당시 우리나라는 가마와 도자기, 부채, 모시, 관복, 갑옷, 활과 화살 등을 출품했는데요. 청나라의 영향에서 벗어나고 싶은 고종 황제의 강한 의지를 담아 6~7칸 규모의 전시관에 한글로 대조선이라는 국호를 사용했습니다.",
+            "turn_id": "BK22013801-6",
+            "utterance_id": "BK22013801.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1893년부터 참가했었다니 우리나라도 생각보다 일찍 함께했네요. 제가 듣기로 팔만대장경도 출품했었다고 하던데 이건 언제 어디서 열린 세계 박람회였나요?",
+            "turn_id": "BK22013801-7",
+            "utterance_id": "BK22013801.13"
+        },
+        {
+            "reference_date": "40674.0",
+            "reference_text": [
+                {
+                    "value": "이어 1900년 프랑스 파리에서 열린 세계박람회에 참가했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1900년에는 독자적인 전시관을 짓고 대규모 참가단을 파견했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리나라는 320㎡ 규모의 전시관에 관복·나전칠기·머리띠·부채·담뱃대·병풍·생강분쇄기 등을 전시했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 함께 불경·삼국사기·팔만대장경 등 목판 인쇄물도 선보였다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/032/0002133716?sid=103",
+            "search_query": "세계 박람회 팔만대장경",
+            "terminate": false,
+            "text": "우리나라는 1900년 프랑스 파리에서 열린 세계 박람회에도 참가했는데 독자적으로 전시관을 짓고 참가단도 대규모로 보냈습니다. 320제곱미터 규모의 전시관에 팔만대장경과 불경, 삼국사기 등 목판 인쇄물을 선보이는가 하면, 관복과 머리띠, 나전칠기, 부채, 병풍, 담뱃대, 생강 분쇄기 등을 내놓기도 했습니다.",
+            "turn_id": "BK22013801-7",
+            "utterance_id": "BK22013801.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요, 어릴 적 대전 엑스포를 갔던 기억이 나서요. 대전 엑스포는 경제적 효과가 어떠했는지 궁금합니다.",
+            "turn_id": "BK22013801-8",
+            "utterance_id": "BK22013801.15"
+        },
+        {
+            "reference_date": "41169.0",
+            "reference_text": [
+                {
+                    "value": "`새로운 도약에의 길`을 주제로 한 대전엑스포에는 108개 국가 38개 국제기구에서 참가했고, 관람객 수만 1400만여명에 달했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 행사에서 우리나라는 과학기술, 경제, 문화, 환경, 지역 발전 등 여러 분야에서 긍정적인 성과를 거둔 것으로 평가됐다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산업연구원에 따르면 대전엑스포를 통해 생산 유발액 3조643억원, 소득 유발액 1조2500억원, 고용창출 효과 21만2000명 등 경제적 효과를 거둔 것으로 평가했다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 수입 유발액은 4455억원으로, 국제 수지 개선에도 큰 영향을 미쳤다.",
+                    "value_time": "44823.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/030/0002188190?sid=004",
+            "search_query": "대전 엑스포 경제 효과",
+            "terminate": false,
+            "text": "대전 엑스포는 새로운 도약에의 길을 주제로 열렸는데, 108개 국가와 38개 국제기구가 참가했고 1400만여 명이 관람했습니다. 산업연구원에 의하면 대전 엑스포를 통해 3조 643억 원의 생산 유발액이 발생했고, 소득 유발액도 1조 2500억 원을 기록했습니다. 21만 2000명에 이르는 고용 창출과 함께 4455억 원의 수입 유발액도 기록해 국제 수지 개선에도 상당한 영향을 끼쳤습니다. 과학기술을 비롯해 경제, 환경, 문화, 지역 발전 등 다양한 분야에서 긍정적인 성과를 거뒀습니다.",
+            "turn_id": "BK22013801-8",
+            "utterance_id": "BK22013801.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라가 세계적 행사인 올림픽과 월드컵은 개최한 바 있잖아요. 등록박람회까지 3개 행사를 모두 개최해 본 국가는 어떤 곳이 있나요?",
+            "turn_id": "BK22013801-9",
+            "utterance_id": "BK22013801.17"
+        },
+        {
+            "reference_date": "44788.0",
+            "reference_text": [
+                {
+                    "value": "유치 성공 시 세계 12번째 등록박람회 개최국가가 되는 동시에 3대 메가이벤트(올림픽, 월드컵, 등록박람회)를 모두 개최하는 세계 7번째 국가가 된다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3대 행사를 모두 개최한 나라는 지금까지 프랑스, 미국, 캐나다, 일본, 독일, 이탈리아 등 6개국뿐이다.",
+                    "value_time": "44823.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0004883278?sid=101",
+            "search_query": "올림픽 월드컵 등록박람회",
+            "terminate": false,
+            "text": "먼저, 우리나라가 등록박람회 유치에 성공하면 12번째 등록박람회 개최국이 됩니다. 아울러 올림픽과 월드컵, 등록박람회 3가지 이벤트를 모두 개최하는 세계 7번째 국가가 됩니다. 현재까지 프랑스와 미국, 일본, 캐나다, 이탈리아, 독일 등 6개국만 3가지 이벤트를 모두 유치했습니다.",
+            "turn_id": "BK22013801-9",
+            "utterance_id": "BK22013801.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 박람회에 대해 많은 걸 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013801-10",
+            "utterance_id": "BK22013801.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 자세히 말씀드릴 수 있으니 언제든 물어보세요.",
+            "turn_id": "BK22013801-10",
+            "utterance_id": "BK22013801.20"
+        }
+    ]
+}

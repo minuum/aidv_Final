@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007745",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007745",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래가 지구온난화를 해결하는 데 도움을 준다는 기사를 봤어. 이산화탄소를 줄여줄 수 있다고 하던데, 고래가 어떻게 이산화탄소를 줄이는 역할을 하는지 알아?",
+            "turn_id": "BK22007745-1",
+            "utterance_id": "BK22007745.1"
+        },
+        {
+            "reference_date": "2019-10-09",
+            "reference_text": [
+                {
+                    "value": "고래는 이산화탄소 포획과 저장의 일등공신이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지방과 단백질이 많은 거대한 몸집 안에 대기 중의 이산화탄소를 흡수해 수t씩 저장한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고래의 사체가 심해 깊은 곳까지 가라앉는다면 탄소는 수백 년 이상 바다 밖으로 나오지 못하고 격리된다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=14861",
+            "search_query": "이산화탄소 고래",
+            "terminate": false,
+            "text": "고래는 이산화탄소를 흡수하고 저장하는 데 일등 공신이야. 대기 중의 이산화탄소를 흡수해서 그 거대한 몸 안에 수 톤씩 저장을 하지. 수명을 다한 고래들이 죽은 후 심해로 가라앉으면, 흡수되었던 이산화탄소들 역시 고래와 함께 바다 밑으로 가라앉아.",
+            "turn_id": "BK22007745-1",
+            "utterance_id": "BK22007745.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래의 몸 안에 이산화탄소가 들어 있다고 생각하니 신기해. 고래가 굉장히 크니까 이산화탄소도 많이 저장할 수 있겠네. 보통 고래는 얼마나 크지?",
+            "turn_id": "BK22007745-2",
+            "utterance_id": "BK22007745.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "고래는 몸이 무척 크다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작은 것은 1.5m 정도이나 큰 것은 31m에 이른다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98",
+            "search_query": "고래의 크기",
+            "terminate": false,
+            "text": "맞아, 고래는 매우 큰 편이지. 그중에서도 1.5m의 비교적 작은 고래도 있고, 31m에 달하는 매우 큰 고래도 있어.",
+            "turn_id": "BK22007745-2",
+            "utterance_id": "BK22007745.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래도 크기가 꽤 다양하구나. 다양한 크기만큼 종류도 다양할 것 같은데, 고래의 종류는 어떤 것들이 있어?",
+            "turn_id": "BK22007745-3",
+            "utterance_id": "BK22007745.5"
+        },
+        {
+            "reference_date": "2020-05-13",
+            "reference_text": [
+                {
+                    "value": "고래는 수염을 지닌 수염고래류와 이빨을 지닌 이빨고래류로 나누어진다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수염고래류에는 혹등고래, 쇠고래, 대왕고래 등이 있고, 이빨고래류에는 돌고래와 범고래가 속한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B3%A0%EB%9E%98%EC%9D%98-%EC%88%98%EC%97%BC%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%84%ED%99%94%ED%96%88%EC%9D%84%EA%B9%8C/",
+            "search_query": "고래의 종류",
+            "terminate": false,
+            "text": "고래는 수염을 가진 수염고래류와 이빨을 가진 이빨고래류로 구분하는데, 수염고래류에는 대왕고래, 혹등고래, 쇠고래 등이 있어. 그리고 이빨고래류에는 돌고래나 범고래 등이 있지.",
+            "turn_id": "BK22007745-3",
+            "utterance_id": "BK22007745.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래들 중 수염을 가진 고래도 있구나. 그렇다면 수염을 가진 고래들은 이빨이 없어?",
+            "turn_id": "BK22007745-4",
+            "utterance_id": "BK22007745.7"
+        },
+        {
+            "reference_date": "2017-12-12",
+            "reference_text": [
+                {
+                    "value": "수염고래는 이빨이 없는 대신 입안의 수염으로 플랑크톤이나 작은 갑각류들을 걸러 먹는다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20171213.22024005041",
+            "search_query": "수염고래",
+            "terminate": false,
+            "text": "맞아, 수염고래는 이빨이 없어. 그 대신 입 안에 있는 수염으로 플랑크톤과 작은 갑각류 등을 걸러서 먹지.",
+            "turn_id": "BK22007745-4",
+            "utterance_id": "BK22007745.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수염고래는 이빨 대신 수염으로 먹이를 걸러서 먹는다니 흥미로워. 그런데 고래는 사실 물고기랑 비슷하게 생긴 것 같은데, 왜 포유류라고 하는 거지?",
+            "turn_id": "BK22007745-5",
+            "utterance_id": "BK22007745.9"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "고래는 물고기의 모습을 하고 있지만 엄연한 포유류다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "내장기관이 포유류의 특징을 갖고 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아가미가 아니라 물 위로 올라와 허파로 숨을 쉬고, 알 대신 새끼를 낳아 젖을 먹인다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hapt.co.kr/news/articleView.html?idxno=156481",
+            "search_query": "고래 포유류",
+            "terminate": false,
+            "text": "맞아, 고래는 물고기와 비슷한 형태를 지니고 있지만 포유류로 분류되고 있어. 그 이유는 내장 기관이 포유류의 특징을 가지고 있고, 아가미가 있는 물고기와는 다르게 허파를 가지고 있기 때문이야. 그래서 물 위로 올라와서 숨을 쉬지. 게다가 알이 아니라 새끼를 낳아 젖을 먹인다는 포유류의 특징도 있어.",
+            "turn_id": "BK22007745-5",
+            "utterance_id": "BK22007745.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래는 다양한 포유류의 특징들을 가지고 있구나. 만약 허파로 숨을 쉬려면 인간의 콧구멍처럼 호흡을 할 수 있는 기관이 있어야 할 것 같은데, 고래에게도 숨구멍이 따로 있어?",
+            "turn_id": "BK22007745-6",
+            "utterance_id": "BK22007745.11"
+        },
+        {
+            "reference_date": "2019-11-09",
+            "reference_text": [
+                {
+                    "value": "허파로 숨 쉬고 새끼를 낳는 고래는 머리 위에 호흡 구멍이 있어 수면으로 올라올 때 재빨리 탁한 공기를 내뿜고 숨을 들이마신다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2019/11/09/2019110900044.html?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "고래 호흡",
+            "terminate": false,
+            "text": "고래에게는 머리 윗부분에 호흡할 수 있는 구멍이 있어. 그래서 물 위로 올라올 때 탁한 공기를 빠르게 분출하고, 숨을 들이마시지.",
+            "turn_id": "BK22007745-6",
+            "utterance_id": "BK22007745.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래는 머리에 숨을 쉬는 구멍이 있는 거네. 실제로 고래가 숨을 쉬는 모습을 보고싶다! 혹시 우리나라에도 고래가 살아?",
+            "turn_id": "BK22007745-7",
+            "utterance_id": "BK22007745.13"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "지금까지 국내 연안에서 발견됐다고 기록된 고래의 종류는 약 35종에 이른다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내 고래 연구자들은 그중에서도 자주 발견되는 밍크고래, 참돌고래, 상괭이, 낫돌고래, 남방큰돌고래를 주요 5종으로 분류해 연구하고 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9A%B0%EC%98%81%EC%9A%B0%EB%8F%84-%EC%A2%8B%EC%95%84%ED%95%9C-%EA%B3%A0%EB%9E%98%EC%9A%B0%EB%A6%AC-%EB%B0%94%EB%8B%A4%EC%97%94-%EC%96%B4%EB%96%A4-%EC%A2%85%EB%A5%98%EA%B0%80-%EC%82%AC/",
+            "search_query": "한국의 고래",
+            "terminate": false,
+            "text": "현재까지 우리나라 연안에서 발견된 적이 있는 고래는 약 35종에 달하는 것으로 기록되어 있어. 국내 고래 학자들은 특히 한국에서 자주 발견되는 돌고래들을 주요 5종으로 구분하여 연구를 진행하고 있어. 주요 5종에는 남방큰돌고래, 상괭이, 낫돌고래, 참돌고래, 밍크고래가 해당이 돼.",
+            "turn_id": "BK22007745-7",
+            "utterance_id": "BK22007745.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에서도 고래가 많이 발견되는구나! 한국의 주요 고래 5종 중 상괭이는 어떤 고래야? 상괭이라는 이름은 처음 들어보는 것 같아.",
+            "turn_id": "BK22007745-8",
+            "utterance_id": "BK22007745.15"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "우리나라의 토종 돌고래인 상괭이는 웃는 듯한 얼굴로 잘 알려진 고래다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상괭이는 수심이 얕은 서해와 남해에서 보이며 등지느러미가 없다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9A%B0%EC%98%81%EC%9A%B0%EB%8F%84-%EC%A2%8B%EC%95%84%ED%95%9C-%EA%B3%A0%EB%9E%98%EC%9A%B0%EB%A6%AC-%EB%B0%94%EB%8B%A4%EC%97%94-%EC%96%B4%EB%96%A4-%EC%A2%85%EB%A5%98%EA%B0%80-%EC%82%AC/",
+            "search_query": "상괭이",
+            "terminate": false,
+            "text": "상괭이는 한국의 토종 돌고래야. 웃는 듯한 얼굴이 특징이고, 등지느러미가 없지. 수심이 얕은 서해과 남해에서 관찰되곤 해.",
+            "turn_id": "BK22007745-8",
+            "utterance_id": "BK22007745.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국에도 토종 돌고래가 있다니 놀랍다! 상괭이는 기회가 된다면 꼭 한 번 보고싶어.",
+            "turn_id": "BK22007745-9",
+            "utterance_id": "BK22007745.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 우리나라에도 토종 돌고래인 상괭이가 있지만 다른 고래들과 마찬가지로 멸종의 위기에 처해있어. 지금부터라도 고래들을 지키기 위한 적극적인 개입과 노력이 필요해.",
+            "turn_id": "BK22007745-9",
+            "utterance_id": "BK22007745.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 고래에 대해 지속적으로 관심을 가지고, 고래를 지킬 수 있는 방법에 동참해야겠어.",
+            "turn_id": "BK22007745-10",
+            "utterance_id": "BK22007745.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그런 노력들이 차츰 쌓인다면 고래를 지켜낼 수 있을 거야.",
+            "turn_id": "BK22007745-10",
+            "utterance_id": "BK22007745.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 정보들을 알려줘서 고마워. 또 궁금한 것이 있으면 연락할게!",
+            "turn_id": "BK22007745-11",
+            "utterance_id": "BK22007745.21"
+        }
+    ]
+}

@@ -1,0 +1,399 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013791",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013791",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 통신 기기의 발전 역사에 대해 궁금해하는데 혹시 잘 아세요?",
+            "turn_id": "BK22013791-1",
+            "utterance_id": "BK22013791.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 있으면 뭐든 물어보세요.",
+            "turn_id": "BK22013791-1",
+            "utterance_id": "BK22013791.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전화의 역사가 먼저 궁금한데요. 우리나라에 언제 최초로 전화가 도입됐는지 알고 싶습니다.",
+            "turn_id": "BK22013791-2",
+            "utterance_id": "BK22013791.3"
+        },
+        {
+            "reference_date": "42268.0",
+            "reference_text": [
+                {
+                    "value": "1896년 왕실 궁내부에 최초의 전화가 개통됐다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 전화는 '덕률풍'이라고 불렸다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전화의 영어단어 '텔레폰(telephone)'을 음역한 명칭이다.",
+                    "value_time": "44830.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003507870?sid=105",
+            "search_query": "우리나라 최초 전화 덕률풍",
+            "terminate": false,
+            "text": "우리나라에 최초로 전화가 개통된 건 1896년인데요, 왕실 궁내부에 전화가 도입됐습니다. 이 전화는 덕률풍이라고 불렸는데요, 전화를 의미하는 영어단어 텔레폰을 음역 한 것입니다.",
+            "turn_id": "BK22013791-2",
+            "utterance_id": "BK22013791.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1896년이라니 벌써 120년도 넘게 지났네요. 또 궁금한 게 있는데요, 휴대전화는 언제 처음 세상에 나왔나요?",
+            "turn_id": "BK22013791-3",
+            "utterance_id": "BK22013791.5"
+        },
+        {
+            "reference_date": "42459.0",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 휴대 전화는 1973년 모토롤라에서 근무하던 마틴 쿠퍼 박사와 그의 연구팀이 개발하였으며, 당시 무게는 약 850그램이었다 (참고로 현재 갤럭시 7은 150그램이다).",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "쿠퍼 박사는 휴대전화의 아이디어를 스타트렉 영화에서 캡틴 커크가 사용한던 무선 통신기에서 영감을 받았다 한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/03/30/society/generalsociety/4137067.html",
+            "search_query": "최초 휴대전화",
+            "terminate": false,
+            "text": "1973년 모토롤라의 마틴 쿠퍼 박사와 그의 연구팀이 세계 최초의 휴대전화를 개발했습니다. 당시 이 휴대전화의 무게는 850그램에 달했는데요, 쿠퍼 박사는 영화 스타트렉의 등장인물인 캡틴 커크가 사용한 무선 통신기에서 영감을 받아 휴대전화를 개발했습니다.",
+            "turn_id": "BK22013791-3",
+            "utterance_id": "BK22013791.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1973년에 휴대전화를 개발했다니 시간이 많이 흘렀네요. 또 궁금한 게 있는데, 제가 어렸을 적에는 카폰이 있었거든요. 카폰은 언제 처음으로 쓰이기 시작했나요?",
+            "turn_id": "BK22013791-4",
+            "utterance_id": "BK22013791.7"
+        },
+        {
+            "reference_date": "44710.0",
+            "reference_text": [
+                {
+                    "value": "자동차전화 또는 카 폰(car phone)은 자동차에서 사용할 수 있도록 특별히 설계된 모바일 무선전화이다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 서비스는 벨 시스템에서 기원하였으며 1946년 6월 17일 세인트루이스에 처음 사용되었다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "첫 장비의 무게는 36킬로그램이었으며 도심지역의 모든 사용자를 위해 단지 3개 채널만 존재했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%A0%84%ED%99%94",
+            "search_query": "카폰",
+            "terminate": false,
+            "text": "카폰은 자동차전화라고 할 수 있는데요, 자동차에서 사용할 수 있게 특별하게 설계된 모바일 무선전화를 의미합니다. 벨 시스템에서 처음으로 카폰 서비스를 시작했는데, 1946년 6월 17일 세인트루이스에서 처음 사용되었습니다. 당시 도심의 모든 사용자가 3개 채널만 사용할 수 있었고, 첫 장비는 무게가 36킬로그램이나 됐습니다.",
+            "turn_id": "BK22013791-4",
+            "utterance_id": "BK22013791.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보니 당시로선 엄청난 기술이었겠네요. 또 궁금한 게, 우리나라에서 대중이 카폰을 본격적으로 사용할 수 있게 된 건 언제였나요?",
+            "turn_id": "BK22013791-5",
+            "utterance_id": "BK22013791.9"
+        },
+        {
+            "reference_date": "44611.0",
+            "reference_text": [
+                {
+                    "value": "1984년 일반인도 가입할 수 있는 카폰 시대가 열리자 대중은 열광했다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "400만원 이상을 호가하는 가격에도 불구하고 청약접수가 밀릴 정도로 북새통을 이뤘다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 같은해말 계획한 초도물량 3천대는 모두 소진됐다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/031/0000654876?sid=105",
+            "search_query": "카폰 대중",
+            "terminate": false,
+            "text": "일반인도 카폰에 가입할 수 있게 된 건 1984년입니다. 당시 카폰 가격은 400만 원을 넘는 고가였는데도 청약 접수가 밀릴 정도로 호응이 대단했습니다. 1984년 말 계획했던 초회 물량 3천 대가 모두 떨어졌을 정도였죠.",
+            "turn_id": "BK22013791-5",
+            "utterance_id": "BK22013791.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 기억에 남는 게, 무선호출기 삐삐인데요. 우리나라 성인들 대부분이 삐삐를 사용했던 기억인데, 삐삐는 언제 우리나라에서 서비스를 시작했나요?",
+            "turn_id": "BK22013791-6",
+            "utterance_id": "BK22013791.11"
+        },
+        {
+            "reference_date": "44582.0",
+            "reference_text": [
+                {
+                    "value": "지금으로부터 무려 39년 전인 1982년 12월 15일은 무선호출기, 일명 ‘삐삐’ 서비스가 시작된 날입니다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘삐삐’는 호출 전용의 소형 휴대용 수신기의 일종으로, 호출기 수신 시 내는 ‘삐삐삐~’ 소리에서 따온 이름입니다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/138/0002115344?sid=105",
+            "search_query": "삐삐 시작",
+            "terminate": false,
+            "text": "지금부터 대략 40년 전인 1982년 12월 15일에 무선호출기, 이른바 삐삐의 서비스가 시작됐습니다. 호출 전용인 소형 휴대용 수신기의 일종을 삐삐라고 불렀는데요, 호출기가 수신할 때 삐삐삐 소리를 내는 점에서 착안한 이름입니다.",
+            "turn_id": "BK22013791-6",
+            "utterance_id": "BK22013791.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 요즘엔 삐삐 사용하는 사람을 찾기 힘든 것 같아요. 우리나라에서 삐삐의 사용이 혹시 종료됐나요?",
+            "turn_id": "BK22013791-7",
+            "utterance_id": "BK22013791.13"
+        },
+        {
+            "reference_date": "44582.0",
+            "reference_text": [
+                {
+                    "value": "1995년 100만명에 불과하던 휴대전화 가입자 수는 1999년 2000만명을 넘기면서 삐삐는 점차 역사의 뒤안길로 사라지게 됩니다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2009년 11월 삐삐 서비스를 제공하던 마지막 전국사업체인 리얼텔레콤의 폐업으로 사실상 삐삐서비스는 종료 수순을 밟게 됩니다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/138/0002115344?sid=105",
+            "search_query": "삐삐 종료",
+            "terminate": false,
+            "text": "휴대전화 가입자 수가 1995년 100만 명에서 1999년 2000만 명을 넘길 정도로 빠르게 성장하면서 삐삐는 역사 속으로 사라지게 됩니다. 삐삐 서비스를 제공하던 마지막 전국 사업체 리얼텔레콤이 폐업하게 되면서 삐삐 사용은 사실상 종료하게 됩니다.",
+            "turn_id": "BK22013791-7",
+            "utterance_id": "BK22013791.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요. 드라마를 보는데 추억의 물건인 시티폰이 등장하더라고요. 시티폰은 어떤 특징이 있었나요?",
+            "turn_id": "BK22013791-8",
+            "utterance_id": "BK22013791.15"
+        },
+        {
+            "reference_date": "43250.0",
+            "reference_text": [
+                {
+                    "value": "1997년 3월 ‘시티폰’이 등장했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 시티폰은 공중전화 반경 100m 내에서만 사용할 수 있는 치명적인 단점을 갖고 있었다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 휴대전화가 본격 도입되면서 시티폰은 출시 1년 만에 역사의 뒤안길로 사라졌다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0002918972?sid=110",
+            "search_query": "시티폰",
+            "terminate": false,
+            "text": "시티폰은 1997년 3월에 등장했는데요, 결정적인 단점이 있었습니다. 공중전화 반경 100미터 내에서만 사용이 가능했던 건데요, 이후 휴대전화 도입이 본격화되면서 시티폰은 제품을 내놓은 지 1년 만에 역사 속으로 사라지게 됐습니다.",
+            "turn_id": "BK22013791-8",
+            "utterance_id": "BK22013791.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시티폰 사업을 했던 사람들은 피해가 있었겠네요. 또 궁금한 게 있는데, 요즘은 우리나라가 휴대전화 제조 강국이잖아요. 국산 휴대전화가 처음 출시된 건 언제인가요?",
+            "turn_id": "BK22013791-9",
+            "utterance_id": "BK22013791.17"
+        },
+        {
+            "reference_date": "42424.0",
+            "reference_text": [
+                {
+                    "value": "삼성전자의 기술로 개발한 첫번째 휴대전화이자 국산 1호 휴대전화가 바로 SH-100으로, 1988년 서울올림픽에서 첫선을 보인 후 이듬해 본격 출시됐다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/092/0002091971?sid=105",
+            "search_query": "국산 휴대전화 출시",
+            "terminate": false,
+            "text": "국산 1호 휴대전화는 SH-100인데요, 삼성전자가 개발한 첫 번째 휴대전화이기도 합니다. 삼성은 이 휴대전화를 1988년 서울올림픽 당시 선보인 뒤 이듬해에 본격적으로 출시했습니다.",
+            "turn_id": "BK22013791-9",
+            "utterance_id": "BK22013791.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 물어볼게요. 요즘엔 대부분 스마트폰을 사용하는데 최초로 스마트폰을 세상에 내놓은 회사는 어떤 곳인가요? 언제 처음 출시됐는지도 알고 싶습니다.",
+            "turn_id": "BK22013791-10",
+            "utterance_id": "BK22013791.19"
+        },
+        {
+            "reference_date": "41114.0",
+            "reference_text": [
+                {
+                    "value": "이메일과 터치스크린, 빠른 무선통신망 연구개발에 수십억 달러를 지출했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1996년 최초 스마트폰 노키아9000을 내놓으며 이메일과 팩스, 인터넷 기능이 있는 최초의 모바일 기기라고 홍보했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/030/0002181745?sid=004",
+            "search_query": "최초 스마트폰",
+            "terminate": false,
+            "text": "노키아가 1996년 최초의 스마트폰인 노키아 9000을 출시했는데요. 노키아는 이 제품을 인터넷과 이메일, 팩스 기능이 있는 최초의 모바일 기기로 알렸습니다. 당시 노키아는 터치스크린과 이메일, 고속 무선통신망 연구개발에 수십억 달러를 썼습니다.",
+            "turn_id": "BK22013791-10",
+            "utterance_id": "BK22013791.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노키아가 최초의 스마트폰을 세상에 내놓았던 거군요. 지금은 노키아 제품을 찾아보기 어려운 세상인데 말이죠. 통신 기기에 대해 자세히 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013791-11",
+            "utterance_id": "BK22013791.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013791-11",
+            "utterance_id": "BK22013791.22"
+        }
+    ]
+}

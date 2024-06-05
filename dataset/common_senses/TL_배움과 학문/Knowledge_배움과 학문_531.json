@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002613",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002613",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소설책을 읽었는데, 인물들의 강박장애와 강박성 인격장애를 분리해서 이야기하더라고요. 그 두 개가 많이 다른 건가요?",
+            "turn_id": "BK22002613-1",
+            "utterance_id": "BK22002613.1"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "강박장애(強迫障礙/強迫障碍, 영어: obsessive-compulsive disorder, OCD)는 자신의 의지와 상관없이 특정한 사고나 행동을 지속적으로 반복하는 상태를 말한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강박적인 생각과 행동을 할 때는 떨쳐버리거나 중단하고 싶지만 그렇게 할 수 없기 때문에 불편함을 느끼고 고통스러워하게 되는 상태를 겪게 되기도 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/강박장애",
+            "search_query": "강박장애",
+            "terminate": false,
+            "text": "음, 두 가지는 엄연히 다른 질환이에요. 강박장애는 간단히 말하자면 본인의 의사와는 상관없이 어떤 특정한 생각이나 행동을 끊임없이 반복하는 상태예요. 동시에 강박장애 환자는 그러한 사고나 행동을 그만하고 싶어 하지만 그게 불가능하기 때문에 고통을 겪죠.",
+            "turn_id": "BK22002613-1",
+            "utterance_id": "BK22002613.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들이 흔히 알고 있는 강박증이네요. 그렇다면 강박성 인격장애는 어떤 거죠?",
+            "turn_id": "BK22002613-2",
+            "utterance_id": "BK22002613.3"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "강박성 인격장애(強迫性人格障碍, obsessive-compulsive personality disorder, OCPD)는 질서·규칙·조직·효율성·정확성·완벽함·세밀함에 집착하거나 정신에 대한 통제·대인관계에 대한 통제·환경에 대한 통제에 지나치게 관심을 가져서, 융통성과 효율성이 떨어지고 대인관계도 악화되며 새로운 경험을 하려 하지 않으며 전체적인 것을 보는 능력이 결여된 이상 인격장애이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/강박성_인격장애",
+            "search_query": "강박성 인격장애",
+            "terminate": false,
+            "text": "강박성 인격장애는 정신, 대인관계, 환경 등에 대한 통제심과 관심을 과도하게 가져서 융통성과 효율성이 떨어지는 게 특징인데, 그 특성이 대인관계에까지 악영향을 미칠 정도로 심한 이상 인격장애라고 말할 수 있어요. 질서나 규칙, 완벽함, 세밀함에 집착이 강하고 새로운 경험도 피하면서 전체적인 것을 보는 능력 자체가 결여되죠.",
+            "turn_id": "BK22002613-2",
+            "utterance_id": "BK22002613.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강박장애와의 차이가 뭔지 알겠네요. 강박장애 환자는 통제나 세밀함보다는 불안이나 걱정이라고 말할 수 있는 거죠?",
+            "turn_id": "BK22002613-3",
+            "utterance_id": "BK22002613.5"
+        },
+        {
+            "reference_date": "2014-02-05",
+            "reference_text": [
+                {
+                    "value": "강박사고에 의한 불안을 조절하기 위해 확인행위를 하고 이것이 반복적이 되고 정형화 되면 강박행동이 됩니다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 흔한 증상은 오염되었다는 생각으로 손을 씻는 행위, 집을 나올 대 문을 잠그지 않았거나 가스를 잠그지 않았다는 생각으로 확인을 반복적으로 하는 행위, 물건들이 대칭적으로 놓여있어야 한다는 생각으로 정돈을 반복하는 행위 등이 있습니다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.samsunghospital.com/home/healthInfo/content/contenView.do?CONT_SRC=CMS&CONT_SRC_ID=09a4727a8000f1a2&CONT_CLS_CD=001020001001&CONT_ID=1707",
+            "search_query": "강박장애증상",
+            "terminate": false,
+            "text": "맞아요, 강박사고로 인한 불안을 조절하려 확인행위를 하고, 그 행동이 정형화 되면서 강박행동이 되는거예요. 흔한 증상 몇 가지 예를 들자면, 손이 러워졌다고 생각해 계속 손을 씻거나, 문을 잠갔는지, 가스를 잠갔는지 계속 확인하거나, 물건의 대칭을 맞추려고 정돈을 반복하는 행동이 있죠.",
+            "turn_id": "BK22002613-3",
+            "utterance_id": "BK22002613.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반면에 강박성 인격장애 환자는 무언가를 염려한다기보다는 통제에 집착하는 거고요?",
+            "turn_id": "BK22002613-4",
+            "utterance_id": "BK22002613.7"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "강박성 인격장애를 가진 사람은 주위 환경을 통제하는데 강박을 보인다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통제욕을 충족하기 위하여 이들은 사소한 디테일, 목록, 절차, 규칙, 스케줄에 집착한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강박성 인격장애 증상은 크고 작은, 일시적 혹은 급성적 혹은 만성적 고통을 유발하며, 환자의 직업적, 사회적, 이성관계적 생활에 지장을 준다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/강박성_인격장애",
+            "search_query": "강박성 인격장애 증상",
+            "terminate": false,
+            "text": "그렇죠, 주위 환경을 통제하는데 굉장히 집착해요. 통제권을 잡기 위해 숨이 막힐 정도의 세세한 디테일과 일정, 규칙, 절차 등에 집착하죠. 환자 본인들도 굉장히 고통받으면서 특히 환자의 직업적, 사회적, 대인관계적 생활에 큰 지장을 줘요.",
+            "turn_id": "BK22002613-4",
+            "utterance_id": "BK22002613.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말만 들어도 굉장히 숨이 막히고 고통스러울 것 같아요. 근데 강박장애는 강박사고를 갖는 종류가 사람마다 다른 건가요?",
+            "turn_id": "BK22002613-5",
+            "utterance_id": "BK22002613.9"
+        },
+        {
+            "reference_date": "2022-01-16",
+            "reference_text": [
+                {
+                    "value": "겉으로 드러나는 강박행동의 종류는 확인, 청결, 대칭, 완전, 공격, 성, 종교 등 몇 가지 주제나 테마로 분류해볼 수 있는데, 사실 사람마다 얼굴이 다르듯이 강박의 양상도 사람마다 매우 다양하게 나타난다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내가 읽은 글자가 맞는지 확인하느라 다음 페이지로 넘어가지 못하기도 하고, 옷 안의 라벨들이 거슬려서 다 잘라버리기도 하며, 벽에 건 그림의 위치가 맘에 들지 않아 조금씩 이동시키는 일을 1시간 동안 계속할 수도 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.psychiatricnews.net/news/articleView.html?idxno=32385",
+            "search_query": "강박장애 종류",
+            "terminate": false,
+            "text": "굉장히 천차만별로 다양해요. 마치 사람마다 얼굴이 다르듯 강박의 대상도 사람마다 다르죠. 대표적인 종류로는 확인, 청결, 대칭 등이 있기는 하지만 어떤 환자는 본인이 읽은 글자가 맞는지 확인하느라 책장을 못 넘기기도 하고, 어떤 환자는 벽에 건 그림의 위치가 마음에 안 들어서 1센티미터씩 이동하고 수정하는 행동을 1시간 동안 하기도 하고요.",
+            "turn_id": "BK22002613-5",
+            "utterance_id": "BK22002613.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본인들은 얼마나 힘들까요. 요즘 강박증 때문에 내원하는 환자들이 많은 편인가요?",
+            "turn_id": "BK22002613-6",
+            "utterance_id": "BK22002613.11"
+        },
+        {
+            "reference_date": "2021-06-07",
+            "reference_text": [
+                {
+                    "value": "20대 젊은층에서 강박장애를 앓는 비율이 높은 것으로 밝혀졌다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 자료를 보면 강박장애로 진료받은 환자는 2015년 2만 4446명에서 2019년 3만 152명으로 5706명(23%)이 증가하였고, 연평균 증가율은 5.4%로 나타났다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2019년 기준 ‘강박장애’ 질환 진료인원 구성비를 연령대별로 살펴보면 전체 진료인원(3만 152명) 중 20대가 28.3%(8,520명)로 가장 많았고, 이어 30대가 20.6%(6,220명), 40대가 16.1%(4,865명) 순으로 나타났다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hkn24.com/news/articleView.html?idxno=319295",
+            "search_query": "강박장애 20대",
+            "terminate": false,
+            "text": "꾸준히 늘어나고 있어요. 15년도 기준으로는 2만 4446명이었는데, 19년에는 3만 152명으로 연평균 증가율이 5.4퍼센트에요. 19년도 자료 기준으로 연령대별 비율은 20대 강박장애 환자가 28.3퍼센트로 가장 많았어요. 30대는 20.6퍼센트, 40대는 16.1퍼센트로 가장 적고요.",
+            "turn_id": "BK22002613-6",
+            "utterance_id": "BK22002613.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 또래가 가장 많네요. 그러면 강박장애는 치료를 어떻게 진행하는 거예요?",
+            "turn_id": "BK22002613-7",
+            "utterance_id": "BK22002613.13"
+        },
+        {
+            "reference_date": "2016-10-13",
+            "reference_text": [
+                {
+                    "value": "강박 장애가 지나친 스트레스로 이어질 때는 약물치료나 심리치료를 통해 증상을 완화시키는 것이 도움이 될 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강박 장애도 방치하면 만성화돼 치료가 더 어려워 질 수 있기 때문이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강박 장애가 신경전달물질 중 하나인 세로토닌과 밀접한 관련이 있기 때문에 약물 치료는 주로 신경계 호르몬의 일종인 세로토닌의 균형을 조절을 위해 사용된다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/10/13/2016101301817.html",
+            "search_query": "강박장애 치료",
+            "terminate": false,
+            "text": "증상으로 인해 고통받아 내원하시는 경우 약물치료나 심리치료로 증상을 개선해요. 방치해두면 만성화되어버려서 치료가 어려운데, 강박 장애 자체가 신경전달물질 중 하나인 세로토닌과 연관성이 커서 약물 치료를 하게 되면 보통 신경계 호르몬인 세로토닌의 균형을 맞추는 데 힘을 쏟죠.",
+            "turn_id": "BK22002613-7",
+            "utterance_id": "BK22002613.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 약물 치료가 아닌 경우는 어떻게 하는 거죠?",
+            "turn_id": "BK22002613-8",
+            "utterance_id": "BK22002613.15"
+        },
+        {
+            "reference_date": "2022-01-16",
+            "reference_text": [
+                {
+                    "value": "인지 및 행동치료의 경우, 강박증 환자들은 강박적인 생각과 관련된 불안을 줄이기 위해서 특정한 행동을 반복하곤 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강박증 환자가 불안을 느끼는 어떤 상황에 노출시킨 후에 불안을 줄이기 위해서 보이는 강박행동을 못 하도록 막는 것이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "처음에는 환자가 매우 불안해하지만, 반복적으로 치료받으면서 환자는 불안을 유발하는 상황에 대해서 익숙해지고, 강박 행동을 하지 않더라도 일정한 시간이 지나면 불안이 줄어든다는 것을 발견하게 된다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이 치료를 위해서는 환자 본인의 동기가 강해야 하고 지속적으로 치료를 해야 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.doctorsnews.co.kr/news/articleView.html?idxno=123360",
+            "search_query": "강박장애 인지행동치료",
+            "terminate": false,
+            "text": "인지 및 행동치료라고 부르는데, 환자들은 강박 사고와 불안을 줄이기 위해 꼭 특정한 행동을 반복하거든요. 예를 들면 어딘가를 만지고 손을 닦는 것처럼. 그런 환자가 불안을 느낄만한 상황을 만들고, 자연스럽게 뒤따라 오는 강박행동을 못 하게 막는거예요. 물론 처음에는 환자가 불안을 많이 느끼지만 그게 반복되면 강박행동을 하지 않아도 불안이 줄어드는거죠. 그래서 이 치료를 계속 진행하려면 환자가 치료 받겠다는 의지도 강해야하고 지속적으로 해야해요.",
+            "turn_id": "BK22002613-8",
+            "utterance_id": "BK22002613.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 환자의 치료 의지도 영향을 미치는군요.",
+            "turn_id": "BK22002613-9",
+            "utterance_id": "BK22002613.17"
+        },
+        {
+            "reference_date": "2022-04-12",
+            "reference_text": [
+                {
+                    "value": "국가정신건강정보포털에 따르면, 강박증은 전 세계 인구의 약 2~2.5%가 한 번 이상 경험할 만큼 비교적 흔한 병이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강박증은 성격 문제로 인지해 방치되기 쉽다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 통제할 수 없는 강박 사고는 성격이나 컨디션 난조로 인한 일시적 현상이 아니라 만성적인 복통, 감기 증상처럼 일상생활에 불편함을 주는 현상이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000686702",
+            "search_query": "강박장애 호전",
+            "terminate": false,
+            "text": "네, 그리고 강박증은 특히 본래 성격문제로 치부되면서 방치되는 경우가 많은데 통제 불가능한 강박사고는 성격 때문도 아니고, 컨디션이 안좋다고 나타나는 증상도 아니죠. 국가정신건강정보포털에 의하면 전 세계에서 2.5퍼센트에 달하는 사람들이 한번 이상 경험한 꽤 흔한 질환이에요.",
+            "turn_id": "BK22002613-9",
+            "utterance_id": "BK22002613.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생활에 불편함을 겪는 수준이라면 망설이지말고 제때 치료 받는게 중요하겠어요. 이제 두 질환이 어떻게 다른지 구분하겠네요, 감사해요.",
+            "turn_id": "BK22002613-10",
+            "utterance_id": "BK22002613.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "감사는요, 다음에 또 궁금한거 있으면 물어봐요.",
+            "turn_id": "BK22002613-10",
+            "utterance_id": "BK22002613.20"
+        }
+    ]
+}

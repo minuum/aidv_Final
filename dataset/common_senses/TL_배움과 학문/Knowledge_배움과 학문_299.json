@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013115",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013115",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 저 드디어 손목시계 장만했어요.",
+            "turn_id": "BK22013115-1",
+            "utterance_id": "BK22013115.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 디자인이 세련되고, 고급스러워 보이네요.",
+            "turn_id": "BK22013115-1",
+            "utterance_id": "BK22013115.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 몇 달 치 생활비를 아껴 모아서 비싼 걸로 샀어요. 시계를 새로 사다 보니 문득 기계가 발달하기 전 시대의 사람들은 어떻게 시간을 파악하고 살았을까 궁금해지더라고요. 해시계가 가장 오래된 형태라던데, 언제부터 쓰이기 시작했나요?",
+            "turn_id": "BK22013115-2",
+            "utterance_id": "BK22013115.3"
+        },
+        {
+            "reference_date": "42825.0",
+            "reference_text": [
+                {
+                    "value": "최초의 시계가 고안된 것은 기원전 약 2천 년 전 고대 바빌로니아인데, ‘해시계’가 가장 먼저 만들어졌다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지표면에 막대기 등을 세워서 그림자의 위치만 재면 되므로, 제작하기도 간단한 편이다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B7%BC%EB%8C%80-%EA%B8%B0%EA%B3%84-%ED%83%84%EC%83%9D%EC%9D%98-%EC%8B%9C%EC%B4%88-%EC%8B%9C%EA%B3%84/",
+            "search_query": "시계 역사",
+            "terminate": false,
+            "text": "기원전 2천 년 무렵 고대 바빌로니아에서 처음으로 해시계가 만들어졌습니다. 땅에 막대기 같은 것을 세워 두고 그림자의 위치를 측정하면 되기에, 만들기도 쉬운 편이었죠.",
+            "turn_id": "BK22013115-2",
+            "utterance_id": "BK22013115.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 해시계가 가장 먼저 만들어졌군요. 하지만 흐린 날에는 해가 뜨지 않고, 밤에는 해가 져서 시간을 잴 수가 없잖아요. 이 문제는 어떻게 해결했나요?",
+            "turn_id": "BK22013115-3",
+            "utterance_id": "BK22013115.5"
+        },
+        {
+            "reference_date": "42825.0",
+            "reference_text": [
+                {
+                    "value": "햇빛이 없는 밤에는 별의 방향을 정확하게 재어서 시간을 아는 ‘아스트롤라베(astrolabe)’라는 시계가 쓰이기도 했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 시각 뿐 아니라 별의 위치와 경위도 등을 관측할 수 있는 천문기계였다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 흐린 날이나 비오는 날은 햇빛도 별빛도 볼 수 없었을 것이므로, 물시계, 모래시계 등이 고안되어 쓰였다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B7%BC%EB%8C%80-%EA%B8%B0%EA%B3%84-%ED%83%84%EC%83%9D%EC%9D%98-%EC%8B%9C%EC%B4%88-%EC%8B%9C%EA%B3%84/",
+            "search_query": "물시계 모래시계",
+            "terminate": false,
+            "text": "햇빛이 사라진 밤에는 별의 방향을 확실하게 측정해서 시간을 파악하는 아스트롤라베라는 시계가 사용되기도 했습니다. 아스트롤라베는 시각도 파악할 수 있었고, 별이 있는 지점과 경도, 위도 등을 관찰하고 측정할 수 있는 천문기계였습니다. 또 날씨가 흐리거나 비가 오면 햇빛도 별빛도 없기 때문에, 물시계나 모래시계 등이 만들어져 이용되었죠.",
+            "turn_id": "BK22013115-3",
+            "utterance_id": "BK22013115.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 다 방법이 있었네요. 그런데 물시계는 어떤 원리로 작동하는 거죠? 해시계, 모래시계처럼 직관적으로 볼 수 없을 것 같아요.",
+            "turn_id": "BK22013115-4",
+            "utterance_id": "BK22013115.7"
+        },
+        {
+            "reference_date": "44655.0",
+            "reference_text": [
+                {
+                    "value": "물시계는 물통에서 물이 흘러나가거나, 물이 흘러 들어오는 원리를 이용한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물이 유입되는 경우, 물에 뜨는 잣대를 이용해 수위 변화를 정량적으로 측정했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1512965",
+            "search_query": "물시계 원리",
+            "terminate": false,
+            "text": "물시계는 수통에서 물이 흘러서 빠져나가거나, 물이 흘러서 유입되는 원리를 활용합니다. 물이 흘러 들어오면, 물에 뜨는 잣대를 사용해 물의 높이가 얼마나 변화하는지 정량적으로 측정했죠.",
+            "turn_id": "BK22013115-4",
+            "utterance_id": "BK22013115.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물의 양을 가지고 시각을 확인했군요. 저는 물시계 하면 조선시대에 장영실이 만든 자격루가 떠오르는데, 우리 역사에서는 언제부터 물시계를 사용했나요?",
+            "turn_id": "BK22013115-5",
+            "utterance_id": "BK22013115.9"
+        },
+        {
+            "reference_date": "41557.0",
+            "reference_text": [
+                {
+                    "value": "물시계에 대한 공식적인 기록은 삼국사기에 남아 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "718년 신라 성덕왕 17년에 물시계를 만들고 이것을 관리하는 관청을 두었다고 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/special.php?idx=534",
+            "search_query": "물시계 삼국사기",
+            "terminate": false,
+            "text": "삼국사기에 수록된 공식적인 기록에 따르면, 물시계는 718년 신라 성덕왕 17년에 만들어졌고, 관청을 설치하여 이를 관리한 것으로 나옵니다.",
+            "turn_id": "BK22013115-5",
+            "utterance_id": "BK22013115.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 장영실이 만든 자격루는 수백 년 동안 이어져 온 물시계를 개량한 것이었겠군요. 그렇다면 요즘도 쓰고 있는 기계식 시계는 언제 처음 등장하였나요?",
+            "turn_id": "BK22013115-6",
+            "utterance_id": "BK22013115.11"
+        },
+        {
+            "reference_date": "41539.0",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 기계식 시계는 13세기 유럽에서 등장했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초창기 기계식 시계의 대표적인 것들은 성당이나 교회, 시 청사 등 도시의 중심에 설치돼 자동으로 종을 울리는 대형 시계였다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=2413",
+            "search_query": "세계 최초 기계식 시계",
+            "terminate": false,
+            "text": "기계식 시계는 13세기 유럽에서 세계 최초로 나왔습니다. 기계식 시계의 초창기를 대표하는 것들은 성당, 교회, 시 청사 같은 도시의 핵심부에 설치되어 자동으로 종을 치는 대형시계였고요.",
+            "turn_id": "BK22013115-6",
+            "utterance_id": "BK22013115.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기계식 시계는 유럽이 원조였군요. 그러면 최초의 손목시계는 언제 등장했나요?",
+            "turn_id": "BK22013115-7",
+            "utterance_id": "BK22013115.13"
+        },
+        {
+            "reference_date": "43159.0",
+            "reference_text": [
+                {
+                    "value": "기록상 최초의 손목시계 역시 1571년 로버트 두들리가 엘리자베스 1세 여왕에게 증정한 시계로 알려져 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.timepieceasia.com/bbs/board.php?tbl=gbbs_10a0&mode=VIEW&num=200&",
+            "search_query": "최초의 손목시계",
+            "terminate": false,
+            "text": "1571년 로버트 두들리가 엘리자베스 1세 여왕에게 진상한 시계가, 기록으로 확인되는 최초의 손목시계입니다.",
+            "turn_id": "BK22013115-7",
+            "utterance_id": "BK22013115.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "450년 정도의 역사를 자랑하는군요. 그러면 요즘처럼 흔히 볼 수 있는 배터리를 넣어서 작동시키는 손목시계는 언제 처음 발명되었나요?",
+            "turn_id": "BK22013115-8",
+            "utterance_id": "BK22013115.15"
+        },
+        {
+            "reference_date": "41358.0",
+            "reference_text": [
+                {
+                    "value": "쿼츠 시계는 한 마디로 배터리를 동력으로 구동되는 무브먼트를 장착한 시계입니다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1967년 스위스 CEH (Centre Electronique Horloger) 연구소에서 제작한 베타 21(Beta 21)이 시계 제조 사상 최초의 쿼츠 손목시계입니다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/money/article/202101211034c",
+            "search_query": "사상 최초 쿼츠 손목시계",
+            "terminate": false,
+            "text": "배터리를 동력 삼아 움직임이 이뤄지는 시계를 쿼츠 시계라고 하는데요. 스위스 CEH 연구소에서 1967년에 만든 베타 21이, 시계 제작 역사상 가장 일찍 만들어진 쿼츠 손목시계입니다.",
+            "turn_id": "BK22013115-8",
+            "utterance_id": "BK22013115.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 시계 강국 스위스답군요. 그러면 그때 만들어진 시계가 숫자로만 표시되는 디지털시계인가요?",
+            "turn_id": "BK22013115-9",
+            "utterance_id": "BK22013115.17"
+        },
+        {
+            "reference_date": "41544.0",
+            "reference_text": [
+                {
+                    "value": "1972년, 시침과 분침 대신 네 개의 숫자로 시간을 알려주는 시계가 처음 등장한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해밀턴 워치 회사에서 만든 '펄서'(중성자별이라는 뜻)는 18캐럿 금 장식에 빨간색 LED 화면이 이색적인 손목시계였다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세계 최초의 디지털 시계였던 펄서의 가격은 2100달러.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/special-edition/view/2013/09/904499/",
+            "search_query": "세계 최초의 디지털 시계",
+            "terminate": false,
+            "text": "그렇지는 않습니다. 시침과 분침을 대신하여 네 개의 숫자로 시각을 확인할 수 있는 디지털 시계는 1972년에 세계 최초로 나왔습니다. 해밀턴 워치 회사에서 제작한 펄서였는데요. 18캐럿 금으로 장식되어 있었고, 빨강 LED 화면이 색다른 손목시계였어요. 당시 펄서의 가격은 2,100달러였고요.",
+            "turn_id": "BK22013115-9",
+            "utterance_id": "BK22013115.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 불과 몇 분 사이의 시계의 역사가 싹 정리가 되네요. 오늘도 덕분에 잘 들었습니다. 그러면 저는 이만 돌아가 볼게요.",
+            "turn_id": "BK22013115-10",
+            "utterance_id": "BK22013115.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 다시 만나서 또 대화해요.",
+            "turn_id": "BK22013115-10",
+            "utterance_id": "BK22013115.20"
+        }
+    ]
+}

@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003340",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003340",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안드로메다 은하 말이야. 많이는 들어봤는데 정확히 어떤 은하인지는 모른다는 사실을 깨달았어. 좀 설명해 줄 수 있어?",
+            "turn_id": "BK22003340-1",
+            "utterance_id": "BK22003340.1"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "안드로메다 은하(영어: Andromeda Galaxy)는 지구로부터 약 780 킬로파섹(250만 광년) 떨어져 있는 나선은하이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다",
+            "terminate": false,
+            "text": "안드로메다은하라, 일단 지구로부터 780킬로파섹, 그러니까 광년으로는 250만 광년 떨어진 나선 은하지.",
+            "turn_id": "BK22003340-1",
+            "utterance_id": "BK22003340.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "250만 광년이면 엄청나게 멀리 있는 거네.",
+            "turn_id": "BK22003340-2",
+            "utterance_id": "BK22003340.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "이는 우리은하로부터 가장 가까운 큰 은하(major galaxy)이며, 메시에 31(M31) 또는 NGC 224로 알려져 있기도 하다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 메시에31",
+            "terminate": false,
+            "text": "그래도 안드로메다가 우리은하랑 가장 가까운 큰 은하야. 아, 안드로메다은하는 메시에 31 혹은 NGC 224로 부르기도 해.",
+            "turn_id": "BK22003340-2",
+            "utterance_id": "BK22003340.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 학술적인 이름도 가지고 있네. 그럼 안드로메다라는 이름은 어디서 온 건데?",
+            "turn_id": "BK22003340-3",
+            "utterance_id": "BK22003340.5"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "은하의 명칭은 은하가 보이는 별자리, 즉 안드로메다자리의 명칭을 따서 붙여졌다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 명칭",
+            "terminate": false,
+            "text": "안드로메다자리라는 별자리 말이야. 안드로메다 은하가 바로 그 별자리에 보이거든. 바로 거기서 따온 거야.",
+            "turn_id": "BK22003340-3",
+            "utterance_id": "BK22003340.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇다면 그 별자리 이름은 또 어디서 온 거냐는 의문이 들 수밖에 없는걸?",
+            "turn_id": "BK22003340-4",
+            "utterance_id": "BK22003340.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "여기서 안드로메다자리는 그리스 신화의 안드로메다 공주의 이름을 따 붙여진 별자리이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 공주",
+            "terminate": false,
+            "text": "아, 그건 그리스 신화에 나오는 안드로메다 공주의 이름을 따다가 붙인 거야.",
+            "turn_id": "BK22003340-4",
+            "utterance_id": "BK22003340.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각 난 것 같아, 안드로메다 공주! 어릴 때 그리스 신화 읽으면서 본 적이 있어. 크기가 좀 작고 아담해서 공주 이름을 가져다 붙인 걸까?",
+            "turn_id": "BK22003340-5",
+            "utterance_id": "BK22003340.9"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "폭이 대략 22만 광년인 안드로메다 은하는 우리 은하 및 삼각형자리 은하와 대략 44개의 작은 은하들을 포함하는 국부은하군에서 가장 큰 은하이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 은하",
+            "terminate": false,
+            "text": "그건 아니지, 안드로메다은하는 폭이 거의 22만 광년이나 되는걸. 우리은하랑 삼각형자리 은하, 거기에 44개 정도 되는 작은 은하들이 합쳐진 국부은하군 안에서 제일 큰 은하야.",
+            "turn_id": "BK22003340-5",
+            "utterance_id": "BK22003340.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 안드로메다 은하가 우리은하보다 더 크구나. 예전에 우리은하가 더 크다고 들은 거 같은데 그게 아닌 거야?",
+            "turn_id": "BK22003340-6",
+            "utterance_id": "BK22003340.11"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "초기의 탐사들은 우리은하가 더 많은 암흑물질을 포함하며 국부은하군에서 가장 클 것이라고 시사하였지만, 2006년 스피처 우주 망원경을 통한 관측들은 안드로메다 은하가 2,000~4,000억 개의 별들을 포함할 것으로 추정되는 우리은하의 적어도 두 배에 해당하는, 1조 개의 별들을 포함하는 것을 보여주었다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 우리은하",
+            "terminate": false,
+            "text": "초기에 탐사했을 때는 우리은하가 더 많은 암흑물질을 포함하고 국부은하군 중에서 제일 클 거라고 생각했었는데 2006년에 스피처 우주 망원경으로 관측을 해 본 결과 안드로메다은하가 2000억에서 4000억 개의 별을 가진, 우리은하보다 적어도 2배는 되는 1조 개의 별들을 가지고 있다는 걸 알게 되었어.",
+            "turn_id": "BK22003340-6",
+            "utterance_id": "BK22003340.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리은하보다 훨씬 큰 은하였구나. 하긴 그 정도로 크니까 맨눈으로 보이는 거 아니겠어.",
+            "turn_id": "BK22003340-7",
+            "utterance_id": "BK22003340.13"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "안드로메다 은하의 겉보기 등급은 3.4등급으로 메시에 천체 중에서 가장 밝다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 광공해가 적은 지역에서 달이 없는 밤에 맨눈으로 보일 정도이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 겉보기 등급",
+            "terminate": false,
+            "text": "그렇지, 메시에 천체 중에서도 겉보기 등급이 3.4등급으로 제일 밝지. 광공해가 적은 지역에서는 달이 안 뜬 밤이면 말한 대로 맨눈으로 보일 정도야.",
+            "turn_id": "BK22003340-7",
+            "utterance_id": "BK22003340.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들으면서 계속 헷갈리는 게 있는데, 안드로메다랑 우리은하랑 같은 은하가 아닌 거지? 우리은하 안에 안드로메다 은하가 들어가 있다는 얘기를 들은 거 같아서 말이야.",
+            "turn_id": "BK22003340-8",
+            "utterance_id": "BK22003340.15"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "예전에 안드로메다가 우리 은하에 속해있는 성운이라는 의견과 우리 은하 밖에 있는 또 다른 은하라는 의견이 있었지만 허블이 또 다른 은하라는 사실을 밝혀냈다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 성운",
+            "terminate": false,
+            "text": "아, 예전에 안드로메다가 은하가 사실 우리은하에 속해 있는 성운이라는 이야기가 있었어. 하지만 허블 관측을 통해 우리은하 밖에 있는 또 다른 은하라는 사실이 밝혀졌지.",
+            "turn_id": "BK22003340-8",
+            "utterance_id": "BK22003340.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그렇게 된 거구나. 우주에 관한 지식은 매번 새롭게 바뀌니까 자주 찾아봐야겠네.",
+            "turn_id": "BK22003340-9",
+            "utterance_id": "BK22003340.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 관측 기술이 발달하는 거에 따라서 우주에 대한 우리의 지식도 조금씩 정확해지는 거지.",
+            "turn_id": "BK22003340-9",
+            "utterance_id": "BK22003340.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 얘기 더 듣고 싶은데 이제 가야 할 시간이네.",
+            "turn_id": "BK22003340-10",
+            "utterance_id": "BK22003340.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아, 벌써 그렇게 되었나? 잘 들어가고 또 보자고, 안녕!",
+            "turn_id": "BK22003340-10",
+            "utterance_id": "BK22003340.20"
+        }
+    ]
+}

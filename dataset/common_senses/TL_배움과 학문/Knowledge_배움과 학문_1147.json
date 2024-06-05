@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007625",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007625",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사를 공부하다 보면 민족이 너무 많아서 헷갈려. 정리하는데 도와주겠니?",
+            "turn_id": "BK22007625-1",
+            "utterance_id": "BK22007625.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론이지. 각 지역마다 어떤 민족이 있었는지 정리하면 될까? 아니면 각 민족이 무엇인지 정리하면 좋을까?",
+            "turn_id": "BK22007625-1",
+            "utterance_id": "BK22007625.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지역별로 어떤 민족이 있는지는 대강 정리해두어서 후자가 좋을 것 같아. 우선 세계사 공부를 할 때 꼭 등장하는 아리아인이 어떤 것일까?",
+            "turn_id": "BK22007625-2",
+            "utterance_id": "BK22007625.3"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "아리아인(영어: Aryan, 산스크리트어: आर्यावर्त, 페르시아어: اریایی)은 인도이란계 민족들이 사용한 자기지칭어이다.[1][2]",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도에서 아리아인이라는 용어는 고대 인도 베다 시대의 인도아리아인들이 자신들 그리고 인도아리아 문화가 기반을 두었던, 아리아바르타라는 지역에 종교적 연관성을 위해 사용되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아리아인의 어근 *h₄erós (\"외부인과 반대되는, 어떤 집단의 구성원\"을 뜻함)이 인도유럽조어 (PIE)에서 기원을 한 것으로 보이나, 자기지칭어로써, \"아리아\"라는 용어의 사용이 인도이란인들에게서만 확인되었고 인도유럽조어 화자들인 원시 인도유럽인들이 자신들을 집단으로서 지칭하는 용어가 있었는지 여부는 정확히 알 수 없다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A6%AC%EC%95%84%EC%9D%B8",
+            "search_query": "아리아인",
+            "terminate": false,
+            "text": "아리아인은 인도이란계 민족들이 자신들을 지칭할 때 사용한 말이야. 그리고 고대 인도인, 베다 시대의 인도아리아인들이 자신의 민족들을 가리킬 때도 사용되었어. 또한 이들은 인도아리아 문화였던 아리아바르타라는 지역과 종교적 연관성을 위해 사용했지. 아리아인의 어근은 인도유럽조어에서 기원한 것으로 추측하고 있지만, 인도이란인들이 자기지칭어로 사용하고 있었던 것만 확인되었지 인도유럽조어 화자들인 원시 인도유럽인들에게 자신의 집단을 가리키는 용어가 있었는지는 정확히 알 수 없었어.",
+            "turn_id": "BK22007625-2",
+            "utterance_id": "BK22007625.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "게르만족과 아리안인에 포함된다고 생각했는데 아까 인도유럽조어에서는 자신들을 집단으로 지칭하는 용어가 없다고 했으니까 아닌 것 같기도 해. 이 생각을 확인하기 위해서는 인도유럽조어에 대해서 정확히 알아야 할 것 같아. 인도유럽조어가 어떤 거야?",
+            "turn_id": "BK22007625-3",
+            "utterance_id": "BK22007625.5"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "인도유럽조어(Proto-Indo-European language, PIE) 또는 인구조어(印歐祖語)는 인도유럽어족에 속하는 언어들의 근간이 되었으리라고 여겨지는 언어이며, 이를 현대의 언어학자들이 재구성한 조어를 뜻하기도 하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기원전 6000년경에 처음으로 인도유럽어족의 조상격이 되는 언어가 등장하였다고 여겨지며, 이후 발트어파, 슬라브어파, 인도이란어파, 게르만어파 등으로 분화되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84%EC%9C%A0%EB%9F%BD%EC%A1%B0%EC%96%B4",
+            "search_query": "인도유럽조어",
+            "terminate": false,
+            "text": "인도유럽어족에 속하는 언어들의 근간일 것이라고 여겨지는 언어를 인도유럽조어라고 해. 현대 언어학자들에 의해 재구성된 조어를 의미하기도 하지. 인도유럽족어의 조상격 되는 이 언어는 기원전 6000년경에 처음 등장했다고 추측하고 있고 이후 발트어파, 슬라브어파, 인도이란어파, 게르만어파 등으로 분화되었어.",
+            "turn_id": "BK22007625-3",
+            "utterance_id": "BK22007625.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인도유럽조어의 분파에 역시 게르만어가 있구나. 추가로 한 가지 더, 인도유럽어족은 어떤 거야?",
+            "turn_id": "BK22007625-4",
+            "utterance_id": "BK22007625.7"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "인도유럽어족(영어: Indo-European languages)은 유럽과 서아시아, 남아시아를 중심으로 분포한 인도유럽인 민족들의 언어로 이루어진 어족이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인구어족(印歐語族)이라고도 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도유럽어족에는 오늘날 유럽에서 쓰이는 대부분의 언어가 속하며, 동아시아와 동남아시아를 제외한 아시아에도 인도유럽 언어들이 분포한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84%EC%9C%A0%EB%9F%BD%EC%96%B4%EC%A1%B1",
+            "search_query": "인도유럽어족",
+            "terminate": false,
+            "text": "유럽과 서아시아, 남아시아를 중심으로 인도유럽인 민족들의 언어를 사용하는 어족을 인구어족 또는 인도유럽어족이라고 해. 오늘날 유럽의 대부분의 언어가 인도유럽어족에 속해. 인도유럽 언어는 동아시아와 동남아시아를 제외한 아시아에도 분포하고 있어.",
+            "turn_id": "BK22007625-4",
+            "utterance_id": "BK22007625.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아리아인의 연관은 인도이란계에 있고 언어로 봤을 때도 인도유럽어족과 연관성을 찾기 힘드니 게르만족은 아리아인에 포함되지 않은 것 같아. 생각해보니 인도유럽어족 말고 인도유럽인도 있잖아. 인도유럽인은 어떤 거고, 어떻게 나눠져?",
+            "turn_id": "BK22007625-5",
+            "utterance_id": "BK22007625.9"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "인도유럽인(Indo-European) 또는 인도유럽제족은 인도유럽어족 계열의 언어를 사용하는 코카소이드계 민족들의 총칭이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도유럽제족의 조상은 기원전 36세기전부터 캅카스 산맥에 거주하면서 유목 생활을 하며 인도유럽조어를 사용한 원시 인도유럽인들이며,[1][2][3] 이들이 기원전 24세기에서 기원전 20세기 사이에 동쪽과 서쪽으로 이동하면서 인도유럽인들의 분화가 시작되는데, 동진한 인도유럽인들은 이후 안드로노보 문화를 형성하며 인도이란인들로 분화되면서 인도 아대륙에 들어가 인도아리아인으로 발전하거나 이란 고원이나 중앙아시아에 정착하여 이란계 민족으로 발전하였고, 동진한 인도유럽인들 중 일부는 인도이란인으로 분화되지 않고 토하라인 같은 독자 분파로 분화되었으며, 유럽으로 서진한 인도유럽인들은 켈트족, 게르만족, 라틴 민족, 슬라브족, 발트족으로 분화되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8F%84%EC%9C%A0%EB%9F%BD%EC%9D%B8",
+            "search_query": "인도유럽인",
+            "terminate": false,
+            "text": "인도유럽인은 인도유럽제족이라고도 하는데 인도유럽어족 계열의 언어를 사용하는 코카소이드계 민족들을 가리키는 말이야. 기원전 36세기전부터 캅카스 산맥에 거주하고 있던 인도유럽제족은 유목 생활을 했고, 인도유럽조어를 사용한 원시 인도유럽인이기도 해. 이들은 BC 24세기에서 BC 20세기 사이에 동쪽과 서쪽으로 이동하면서 분화되었는데, 동쪽으로 향한 인도유럽인들은 이후 안드로노보 문화를 만들며 인도이란인들로 분화되고, 인도 아대륙에서는 인도아리아인으로, 이란 고원이나 중앙아시아에 정착한 이들은 이란계 민족으로 발전했지. 그런데 이 중에서 토하라인 같은 독자 분파로 분화되기도 했어. 유럽방향인 서쪽으로 향한 인도유럽인들은 켈트족, 게르만족, 라틴 민족, 슬라브족, 발트족으로 분화되었어.",
+            "turn_id": "BK22007625-5",
+            "utterance_id": "BK22007625.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이걸로 정확하게 아리아인은 게르만족과 약간의 관계는 있으나 독자적으로 생겨난 민족으로 보면 되겠다. 이어서 게르만족은 어떤 민족이야?",
+            "turn_id": "BK22007625-6",
+            "utterance_id": "BK22007625.11"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "게르만족(독일어: Germanen, 영어: Germanic peoples)은 그리스 로마 문화권 저자들에게 최초로 언급된 북유럽 민족 집단들의 한 분류이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게르만족에 대한 일반적인 현대적 정의는 활동하던 시기에 게르만족이라 알려지지 않았지만, 주로 게르만어파 언어 사용으로 인하여 하나의 문화 집단으로 취급되는 이들을 포함한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%8C%EB%A5%B4%EB%A7%8C%EC%A1%B1",
+            "search_query": "게르만족",
+            "terminate": false,
+            "text": "게르만족은 북유럽 민족 집단 중 하나로 그리스 로마 문화권 저자들에게 처음 언급되었어. 현대에서의 정의는, 활동하던 시기에는 게르만족이라고 알려지지 않았으나 게르만파 언어를 사용하여 하나의 문화 집단으로 취급되는 민족들도 포함하고 있어.",
+            "turn_id": "BK22007625-6",
+            "utterance_id": "BK22007625.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "민족을 구분하는 데 있어 언어가 정말 중요한 역할을 한다는 생각이 드네. 아까 인도 유럽어족도 그랬잖아? 노르만은 어떤 것일까?",
+            "turn_id": "BK22007625-7",
+            "utterance_id": "BK22007625.13"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "노르만인은 중세시대 스칸디나비아에서부터 유래하여 프랑스 북부지역에 살던 민족으로, 프랑스화된 노르드족이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 프랑스의 영향을 받아 철갑옷을 입고 말탄 기사를 운용했으며, 그들의 조상인 \"바이킹\"과는 다소 다르다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B4%EB%A7%8C%EC%9D%B8",
+            "search_query": "노르만인",
+            "terminate": false,
+            "text": "노르만인은 프랑스화된 노르드족으로 중세시대 스칸디나비아에서부터 유래하여 프랑스 북부지역에 살던 민족이야. 노르만인은 그들 조상인 바이킹과 다르게 프랑스의 영향을 받아 철갑옷을 입고 말탄 기사를 운용했어.",
+            "turn_id": "BK22007625-7",
+            "utterance_id": "BK22007625.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노르만인이 바이킹이라고 생각했는데 노르드족과는 구분이 되는구나. 노르드 족은 어떤 걸까?",
+            "turn_id": "BK22007625-8",
+            "utterance_id": "BK22007625.15"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "노르드인(스웨덴어: Nordmän, 라틴어: normanni)은 8세기에서 11세기 사이에 스칸디나비아를 중심으로 활약했던, 고대 노르드어를 사용했던 북게르만족 일파를 가리킨다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 바이킹으로서 덴마크와 스웨덴 남부, 노르웨이 남부에 살고 있었으며 동쪽으로는 러시아, 우크라이나, 벨라루스와 에스토니아에까지 서쪽으로는 캐나다와 그린란드까지 진출하여 ‘노르딕 국가’(Norse Countries)들을 건국하였다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%A5%B4%EB%93%9C%EC%9D%B8",
+            "search_query": "노르드인",
+            "terminate": false,
+            "text": "8세기에서 11세기 사이, 스칸디나비아를 중심으로 고대 노르드어를 사용했던 북게르만족 일파를 노르드인이라고 해. 노르드인은 바이킹이며, 덴마크와 스웨덴 남부, 노르웨이 남부에 살았어. 동쪽으로는 러시아, 우크라이나, 벨라루스와 에스토니아에 살았고, 서쪽의 캐나다와 그린란드까지 나아가 노르딕 국가들을 세웠어.",
+            "turn_id": "BK22007625-8",
+            "utterance_id": "BK22007625.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인도유럽인과 관련해서는 어느 정도 알 것 같아. 마지막으로 다음에 아시아의 민족도 정리하려고 하는데, 우리나라가 포함된 아시아 민족들의 기원이 되는 민족은 뭘까?",
+            "turn_id": "BK22007625-9",
+            "utterance_id": "BK22007625.17"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "몽골 인종 또는 몽골로이드(Mongoloids)는 형태인류학상 인종의 개념이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몽골 인종의 특징은 피부색이 황색 내지 밝은 갈색이고, 두발은 검고 빳빳하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "체모는 적고 보통 단두형에 속한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "얼굴 모양은 폭이 넓고, 눈은 갈색 내지 흑갈색이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중국티베트어족, 몽골어족, 한국어족, 일본어족 등의 사람들이 이 인종에 속한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A8_%EC%9D%B8%EC%A2%85",
+            "search_query": "몽골로이드",
+            "terminate": false,
+            "text": "어떤 기준이냐에 따라 달라지겠지만 몽골로이드를 들 수 있어. 형태인류학상 인종의 개념으로, 중국티베트어족, 몽골어족, 한국어족, 일본어족 등의 사람들이 여기에 포함돼. 몽골 인종의 특징 몇 가지만 보자면, 황색 또는 밝은 갈색의 피부, 검고 빳빳한 머리카락을 가지고 있어. 그리고 체모는 적고 두상은 일반적으로 단두형이지. 얼굴의 폭이 넓다는 것과 갈색이나 흑갈색의 눈을 가진다는 것도 있어.",
+            "turn_id": "BK22007625-9",
+            "utterance_id": "BK22007625.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아시아인도 엄청 많이 분화되었는 것 같은데, 이거 공부할 게 한 두가지가 아니겠는걸? 그래도 유럽 쪽은 방향이 잡힌 것 같아. 오늘 시간 내줘서 고마워.",
+            "turn_id": "BK22007625-10",
+            "utterance_id": "BK22007625.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에는 아시아인에 대한 정리도 도와줄 테니 또 연락하라고. 그럼 내일 봐.",
+            "turn_id": "BK22007625-10",
+            "utterance_id": "BK22007625.20"
+        }
+    ]
+}

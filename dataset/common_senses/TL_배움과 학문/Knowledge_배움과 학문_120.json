@@ -1,0 +1,416 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011708",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011708",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 여러 약 성분에 관해 공부하고 있는데, 문득 항암제에 관해서도 궁금해져서 말이야. 항암제의 종류로는 어떤 것들이 있을까?",
+            "turn_id": "BK22011708-1",
+            "utterance_id": "BK22011708.1"
+        },
+        {
+            "reference_date": "2017-07-13",
+            "reference_text": [
+                {
+                    "value": "항암제는 크게 작용기전에 따라 분류할 수 있는데, 암세포의 DNA를 직접 파괴 또는 손상시키는 약물로 대표적인 성분으로는 시스플라틴, 카보플라틴, 옥살리플라틴, 사이클로포스파마이드, 이포스파마이드, 티오테파, 프로카바진 등이 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 암세포의 DNA 복제에 필요한 대사물질의 작용을 방해하는 약물로 플루오로우라실, 카페시타빈, 젬시타빈, 메소트렉세이트 등이 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작용하는 기전은 다양하지만, 천연물질에서 얻은 성분으로 널리 쓰이는 항암제에는 파클리탁셀, 도세탁셀, 빈크리스틴, 에토포사이드, 이리노테칸, 독소루비신, 아스파라기나제 등이 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암의 분자생물학적 특징을 이용하여 특정 암세포만 공격하는 표적치료제에는 이마티닙, 트라스트주맙, 리툭시맙, 게피티닙 등이 있고, 호르몬의 조절로 암세포의 성장을 저해하는 약물로 타목시펜, 에스트로겐, 안드로겐, 플루타마이드 등이 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://seoul.hyumc.com/adr/board/status.do?action=view&bbsId=drugsafestate&nttSeq=10407",
+            "search_query": "항암제 성분",
+            "terminate": false,
+            "text": "항암제는 작용하는 기전에 따라 구분할 수 있는데, 우선, 암세포의 DNA를 직접 손상하거나 파괴하는 약물로는 대표적으로 시스플라틴, 카보플라틴 등이 있어. 암세포가 DNA를 복제할 때 필요한 대사 물질의 작용을 막는 약물로는 플루오로우라실, 카페시타빈 등이 있고, 작용 원리는 여러 가지이지만, 천연 물질로부터 추출한 성분 중 널리 쓰이는 항암제로는 파클리탁셀, 도세탁셀 등이 있지. 그 외에, 암의 분자생물학적인 특징에 주목해 특정 암세포만 골라서 공격하는 표적치료제로는 트라스트주맙, 이마티닙 등이 쓰이고, 호르몬 조절을 통해 암세포의 성장을 억제하는 약물로는 플루타마이드, 안드로겐, 등이 사용돼.",
+            "turn_id": "BK22011708-1",
+            "utterance_id": "BK22011708.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 다양한 종류가 있구나. 분류별로 조금씩 알아보고 싶은데, 우선 시스플라틴은 언제 어떻게 만들어진 물질인지 알려줄래?",
+            "turn_id": "BK22011708-2",
+            "utterance_id": "BK22011708.3"
+        },
+        {
+            "reference_date": "2022-09-26",
+            "reference_text": [
+                {
+                    "value": "1964년 생물리학자 로젠버그(Barnett Rosenberg)와 그의 연구팀이 미국 미시간 주립 대학교에서 박테리아 성장에 미치는 전기장의 영향을 연구하던 중, 두 개의 백금 전극 사이에 박테리아균을 놓고 전류를 통과시켰더니 박테리아의 세포 분열이 멈추는 것을 발견하였다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "박테리아균으로부터 추출한 백금 금속을 함유하는 물질이 세포 분열을 중단시켰다는 것을 안 로젠버그와 그의 연구팀은 전기 분해 과정을 통하여 이 물질에 암모니아(NH3)와 Cl-이온을 첨가한 여러 백금 화합물을 합성하였다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 가장 효과적인 화합물이 바로 시스플라틴이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%94%8C%EB%9D%BC%ED%8B%B4",
+            "search_query": "시스플라틴",
+            "terminate": false,
+            "text": "1964년, 미국 미시간 주립 대학교에서 생물리학자인 로젠버그는 연구팀과 함께 전기장이 박테리아 성장에 끼치는 영향을 연구하다가, 박테리아균을 백금 전극 두 개 사이에 놓은 채 전류를 통하게 하니 박테리아가 세포 분열을 멈춘다는 사실을 발견했어. 로젠버그와 연구팀은 박테리아균에서 추출한 물질에 백금 금속이 포함되어 있고, 이 물질이 세포 분열을 멈추게 했다는 것을 알아낸 뒤, 해당 물질에 염소 이온과 암모니아를 첨가해 다양한 백금 화합물을 만들었지. 그리고 이 중에서 가장 효과가 컸던 화합물이 바로 시스플라틴이었어.",
+            "turn_id": "BK22011708-2",
+            "utterance_id": "BK22011708.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 발견한 물질이 항암제로 쓰이게 됐다니 신기하네. 그런데 시스플라틴은 세포의 어느 부분에 작용하는 걸까?",
+            "turn_id": "BK22011708-3",
+            "utterance_id": "BK22011708.5"
+        },
+        {
+            "reference_date": "2021-11-25",
+            "reference_text": [
+                {
+                    "value": "1960년대에 발견돼 현재까지 전 세계에서 항암 화학치료에 널리 쓰이는 항암제 ‘시스플라틴'(cisplatin)의 약리적 표적은 세포의 DNA가 아니라 응축된 상위 구조인 크로마틴(chromatin, 염색질)이라는 사실이 국내 연구진에 의해 규명됐다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진핵세포에 존재하는 ‘크로마틴’은 DNA와 ‘히스톤’으로 불리는 단백질의 복합체다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시스플라틴은 DNA 복제를 방해해 암세포를 사멸시키는데, 이런 항암 기제가 DNA 자체가 아니라 그보다 큰 크로마틴 단위에서 작용한다는 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%8B%9C%EC%8A%A4%ED%94%8C%EB%9D%BC%ED%8B%B4-%ED%95%AD%EC%95%94%EC%9E%91%EC%9A%A9-%EC%8B%A4%EB%A7%88%EB%A6%AC-%EC%B0%BE%EC%95%98%EB%8B%A4dna%EC%95%84%EB%8B%8C-%EC%97%BC%EC%83%89%EC%A7%88/",
+            "search_query": "시스플라틴 원리",
+            "terminate": false,
+            "text": "1960년대 이후로 전 세계에서 항암 화학 치료제로 많이 사용되는 시스플라틴의 약리적인 표적은 응축된 상위 구조인 크로마틴이라는 사실이 국내 연구진에 의해 밝혀졌어. 크로마틴은 진핵 세포에 존재하고, 히스톤과 DNA라는 단백질이 복합된 물질이지. 시스플라틴은 DNA 복제를 막아 암세포를 없애는데, 이 항암 기제가 DNA 자체에서 일어나는 게 아니라, DNA보다 큰 단위인 크로마틴 범위에서 일어난다는 말이야.",
+            "turn_id": "BK22011708-3",
+            "utterance_id": "BK22011708.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세포 단위에서 일어나는 작용을 그렇게 밝혀낸다는 게 참 신기해. 그럼 이번에는 플루오로우라실에 관해 들어보고 싶은데, 이 물질은 어떻게 쓰이고, 혹시 부작용이 있다면 어떤 것들이 있어?",
+            "turn_id": "BK22011708-4",
+            "utterance_id": "BK22011708.7"
+        },
+        {
+            "reference_date": "2022-09-26",
+            "reference_text": [
+                {
+                    "value": "플루오로유라실(fluorouracil, 5-FU, 상표명: Adrucil 등), 또는 플루오로우라실은 암 치료에 사용되는 약물이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정맥 주사를 통해 투여 시에는 대장암, 식도암, 위암, 췌장암, 유방암, 자궁경부암을 대상으로 사용된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "크림으로 투여할 경우 광선각화증, 기저 세포암, 피부 사마귀에 사용된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주사를 통해 투여할 경우 대부분의 사람들에게 부작용으로 발전하는데,[1] 일반적인 부작용으로는 구강염, 식욕 부진, 혈구 감소, 탈모, 피부염이 포함된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "크림으로 투여할 경우 적용 부위의 가려움이 발생할 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A3%A8%EC%98%A4%EB%A1%9C%EC%9C%A0%EB%9D%BC%EC%8B%A4",
+            "search_query": "플루오로우라실",
+            "terminate": false,
+            "text": "플루오로우라실은 플루오로유라실이라고도 불리는데, 식도암, 위암, 대장암, 유방암, 자궁경부암, 췌장암을 대상으로 쓸 때는 정맥 주사로 투여하고, 피부 사마귀, 기저 세포암, 광선각화증에 쓸 때는 크림으로 투여해. 주사로 투여할 경우, 투여받은 사람들 대부분에서 부작용이 일어나는데, 일반적으로 구강염, 혈구 감소, 탈모, 식욕 부진, 피부염 등이 발생해. 크림 투약 시에는 투약 부위가 가려울 수 있고.",
+            "turn_id": "BK22011708-4",
+            "utterance_id": "BK22011708.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적용되는 용도도 다양하고 투약 방식도 두 가지로 나뉘는구나. 플루오로우라실의 기전에 관해서 들려줄래?",
+            "turn_id": "BK22011708-5",
+            "utterance_id": "BK22011708.9"
+        },
+        {
+            "reference_date": "2021-02-08",
+            "reference_text": [
+                {
+                    "value": "플루오로우라실은 항대사성 약물에 속하는 항암제로 피리미딘(Pyrimidine)길항제에 해당한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "항대사약물로 이용될 수 있는 생화학적 경로는 뉴클레오티드와 핵산합성과 관련된 경로이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "플루오로우라실은 생전환반응을 통해서 ribosyl과 deoxyribosyl nucleotide 대사물로 활성화가 요구되는 전구약물이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 대사물 중의 하나인 FdUMP가 티민 뉴클레오티드의 de novo합성에 중요한 반응인 Thymidylayte synthase 효소와 환원된 엽산 N5,10-methyenetetrahydrofolate와 공유결합으로 결합된 삼중 복합체를 형성합니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 DNA 합성을 억제해 티민없이 없어 세포자살을 초래하게 된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/academy/show.asp?search_cate=10&idx=501",
+            "search_query": "플루오로우라실 기전",
+            "terminate": false,
+            "text": "항대사성 약물 중 하나인 항암제로서 피리미딘 길항제에 속하는 플루오로우라실이 작용하는 생화학적인 경로는 핵산 합성과 뉴클레오티드와 연관된 경로야. 플루오로우라실은 생전환반응으로 인해 ribosyl과 deoxyribosyl nucleotide 대사물로 활성화되는 전구약물인데, 이러한 대사물 중 FdUMP라는 대사물이 티민 뉴클레오티드의 de novo 합성이 일어날 때 중요한 반응인 Thymidylayte synthase 효소, 10-methyenetetrahydrofolate, 환원된 엽산과 공유결합으로 이루어진 삼중 복합체를 만들지. 그 결과, DNA 합성을 막아 티민이 없는 세포의 자살을 유발하는 거야.",
+            "turn_id": "BK22011708-5",
+            "utterance_id": "BK22011708.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히, DNA 복제에 필요한 대사 물질 작용을 막는다는 분류에 들어맞네. 그럼 이번에는 같은 분류에 속하는 카페시타빈의 용도와 기전에 관해 이야기해 줄래?",
+            "turn_id": "BK22011708-6",
+            "utterance_id": "BK22011708.11"
+        },
+        {
+            "reference_date": "2021-07-28",
+            "reference_text": [
+                {
+                    "value": "Capecitabine은 항대사성 약물 항암제로 암세포의 성장을 억제하는 작용을 합니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 전이성 결장직장암, 유방암, 위암, 치료에 사용됩니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "Capecitabine은 종양세포에 주로 존재하는 tymidine phosphrylase 효소에 의해서 5-FU로 활성화 되는 fluorouracil 전구체 입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 pyrimidine 대사를 억제해, G1 및 S phase에 특이적으로 작용하여 DNA와 RNA 합성을 저해함으로써 정상세포에는 큰 영향을 미치지 않고 항암작용을 나타냅니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kpanews.co.kr/article/show.asp?idx=224429&category=H",
+            "search_query": "카페시타빈 기전",
+            "terminate": false,
+            "text": "항대사성 약물 항암제인 카페시타빈은 암세포가 성장하는 것을 막는 역할을 하는데, 주로 유방암, 위암, 결장직장암 치료에 쓰여. 카페시타빈은 fluorouracil 전구체이고, 종양 세포에 흔히 있는 tymidine phosphrylase 효소에 의해 5-FU로 활성화돼. 그 결과, pyrimidine의 대사를 막고, 특히 G1과 S phase에 작용해 RNA와 DNA 합성을 억제하므로, 정상 세포에는 많은 영향을 끼치지 않으면서도 항암 작용을 보이게 되지.",
+            "turn_id": "BK22011708-6",
+            "utterance_id": "BK22011708.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정상 세포에 영향이 덜 가는 기전이라서 참 괜찮네. 그럼 이번에는 천연 성분에서 추출한 항암제로 넘어가서, 도세탁셀은 어떤 식으로 작용하는지 알려줄 수 있을까?",
+            "turn_id": "BK22011708-7",
+            "utterance_id": "BK22011708.13"
+        },
+        {
+            "reference_date": "2012-11-07",
+            "reference_text": [
+                {
+                    "value": "파클리탁셀(paclitaxel)이나 도세탁셀(Docetaxel), 카바지탁셀(cabazitaxel)과 같은 탁산계열의 항암제는 지금까지 세포분열을 중단시킨다는 것만 알려져 왔지만 웨일코넬 의대 연구에서 탁산계열의 항암제가 암세포에서 여러 분자들의 이동과 분자들 간에 상호작용을 중단시킨다는 사실이 밝혀졌다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전립선암의 성장과 확산을 촉진하는 안드로겐수용체가 미세소관을 통해 세포핵으로 이동할 수 있으며 탁산이 미세소관에 결합하면 안드로겐수용체의 이동과 활동이 중단될 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.whosaeng.com/52229",
+            "search_query": "도세탁셀 기전",
+            "terminate": false,
+            "text": "도세탁셀을 포함해 카바지탁셀, 파클리탁셀 등 탁산 계열에 속한 항암제는 원래 세포 분열을 멈추게 한다는 것 정도만 알려져 있었는데, 웨일코넬 의대의 연구에 의해, 이런 탁산 계열 항암제가 암세포에서 분자들 사이의 상호 작용, 분자들의 이동을 막는다는 게 확인됐어. 예를 들어, 안드로겐수용체는 전립선암이 성장하고 확산하도록 촉진하는데, 이 안드로겐수용체는 미세소관을 통해 세포핵으로 옮겨갈 수 있어. 그런데 탁산 계열 항암제가 미세소관과 결합하면 안드로겐수용체가 이동하고 활동하는 것을 멈출 수 있는 거야.",
+            "turn_id": "BK22011708-7",
+            "utterance_id": "BK22011708.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암의 성장과 확산을 유발하는 물질이 이동하지 못하게 막아 버리는 거구나. 마지막으로 표적 치료제를 한 종류만 알아보고 싶은데, 이마티닙의 용도와 작용 원리가 어떻게 되는지 말해 줄래?",
+            "turn_id": "BK22011708-8",
+            "utterance_id": "BK22011708.15"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "이마티닙(Imatinib) 또는 상품명 글리벡(Gleevec)은 스위스의 노바티스(Novartis)사가 개발한 만성 골수성 백혈병(CML) 치료제이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이마티닙은 필라델피아 유전자(Bcr 유전자와 Abl 유전자의 염색체 전위로 인해 만들어지는 암유전자)에 의해 만들어지는 티로신 카이네이즈의 활성을 선택적으로 억제한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필라델피아 유전자가 만드는 티로신 카이네이즈는 만성 골수성 백혈병을 일으키는 주원인이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A7%88%ED%8B%B0%EB%8B%99",
+            "search_query": "이마티닙",
+            "terminate": false,
+            "text": "이마티닙은 만성 골수성 백혈병 치료제야. 상품명은 글리벡이고, 스위스에 있는 노바티스사에서 개발했지. 만성 골수성 백혈병을 유발하는 주원인으로는 필라델피아 유전자가 생성하는 티로신 카이네이즈가 있는데, 이마티닙은 이 티로신 카이네이즈가 활성화되지 않도록 선택적인 억제를 하지.",
+            "turn_id": "BK22011708-8",
+            "utterance_id": "BK22011708.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 필요한 목표만 선택적으로 억제할 수 있는 게 장점 같아. 앞으로 더욱 효과가 좋으면서 부작용 없는 암 치료제가 많이 개발되면 좋겠다.",
+            "turn_id": "BK22011708-9",
+            "utterance_id": "BK22011708.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 그렇게 해서 인류가 언젠가 암을 정복할 수 있는 날이 오면 좋겠어.",
+            "turn_id": "BK22011708-9",
+            "utterance_id": "BK22011708.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지도 의학 기술이 꾸준히 발전해 오고 있으니, 언젠가 그렇게 되리라 믿어. 오늘 여러 가지로 설명해 줘서 고마워. 나는 이만 의학 관련 서적을 좀 더 찾아보러 가 볼게.",
+            "turn_id": "BK22011708-10",
+            "utterance_id": "BK22011708.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 책 보다가 혹시라도 도움 필요하면 언제든 연락해. 그럼 나중에 또 보자.",
+            "turn_id": "BK22011708-10",
+            "utterance_id": "BK22011708.20"
+        }
+    ]
+}

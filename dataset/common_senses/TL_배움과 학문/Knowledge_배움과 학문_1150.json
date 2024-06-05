@@ -1,0 +1,436 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007652",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007652",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코로나바이러스로 몇 년간 많은 어려움이 있잖아. 이걸 계기로 질병의 역사에 대해서 알아보고 있는데 도와줄래?",
+            "turn_id": "BK22007652-1",
+            "utterance_id": "BK22007652.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사적으로 인류에게 큰 위기를 가져다준 질병은 꽤 많아서 차근차근 정리해야 할 것 같은데, 넌 기준을 어떻게 잡을래? 시기로 잡아도 되고 질병의 특징으로 잡아도 좋고.",
+            "turn_id": "BK22007652-1",
+            "utterance_id": "BK22007652.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시기별로 잡으면 좋긴 하지만 특징별로 묶으며 큰 틀을 잡고 나중에 총 정리를 하면 좋을 것 같아. 코로나바이러스와 비슷한 사례에서 출발하면 좋을 것 같은데, 이와 관련으로 스페인 독감이라고 들은 적이 있어. 스페인 독감이 어떤 것인지 가르쳐 줄래?",
+            "turn_id": "BK22007652-2",
+            "utterance_id": "BK22007652.3"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "스페인 독감(스페인어: gripe española, 영어: Spanish flu) 또는 1918년 인플루엔자 범유행(스페인어: Pandemia de gripe de 1918, 영어: 1918 flu pandemic)은 1918년에 발생했던 인플루엔자 바이러스이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "20세기에 들어서서 가장 크게 유행하고 치명률이 높았던 전염병이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "감기에 걸린 듯한 증상을 보이다가 폐렴으로 발전하는가 싶더니 환자의 피부에서 산소가 빠져나가면서 검은빛으로 변해 죽어가는 병이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "● 2005년 스페인 독감 바이러스가 인플루엔자 A, H1N1형으로 밝혀졌다.[13]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "● 2009년 6월 발병하여 유행하여 WHO가 팬데믹을 선언한 신종플루가 바로 인플루엔자 A, H1N1형이다.[14]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8_%EB%8F%85%EA%B0%90",
+            "search_query": "스페인 독감",
+            "terminate": false,
+            "text": "20세기에 가장 크게 유행하고 높은 치명률을 보였던 전염병으로, 1918년 인플루엔자 범유행이라고도 하는 스페인 독감은 1918년에 발생한 인플루엔자 바이러스야. 초기 증상은 감기에 걸린 것처럼 보였지만, 폐렴으로 발전하다가 어느 순간 피부에서 산소가 빠져나가 피부가 검게 변해 죽는 병이었어. 2005년에 이르러 인플루엔자 A, H1N1형이 스페인 독감이라는 것을 밝혀냈는데, 2009년 6월 발병해 세계 보건 기구에서 팬데믹을 선언하게 만든 신종플루가 이 인플루엔자야.",
+            "turn_id": "BK22007652-2",
+            "utterance_id": "BK22007652.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신종플루 백신을 맞은 적이 있는데 이게 스페인 독감 바이러스라는 것도 놀랍고, 백신 맞을 때는 어려서 잘 몰랐는데 당시 팬데믹 선언이 있었다는 사실은 질병은 계속 돌고 도는 것 같아 무섭게도 느껴져. 정말 오랜 옛날에도 전 세계를 강타했던 전염병이 꽤 있었던 것 같은데 그 중에 흑사병이라고 있지 않아? 흑사병에 대해서 간단히 가르쳐 줘.",
+            "turn_id": "BK22007652-3",
+            "utterance_id": "BK22007652.5"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "흑사병(黑死病, 영어: Black Death, Pestilence, Great Plague, Plague, Black Plague)은 14세기 유럽에서 7,500만~2억 명의 목숨을 앗아간 인류사상 최악의 범유행이다.[1][2][3]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흑사병 병원균에 관한 많은 이설이 있었으나 2010년~2011년 남유럽인들을 대상으로 수행한 DNA 분석 결과 페스트의 병원균인 페스트균이 병원균으로 밝혀졌다.[4][5]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흑사병은 중앙아시아의 건조한 평원지대에서 시작되어 비단길을 따라 서쪽으로 이동해 1343년경 크림반도에 닿았다.[6]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거기서부터 화물선에 들끓던 검은쥐에 기생하던 동양쥐벼룩(영어판)을 기주(중간 숙주)로 하여 지중해 해운망을 따라 유럽 전역으로 퍼져나갔다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9D%91%EC%82%AC%EB%B3%91",
+            "search_query": "흑사병",
+            "terminate": false,
+            "text": "흑사병은 1300년대 유럽에서 7,500만 명에서 2억 명의 사망자를 낸 인류사상 최악의 범유행이었어. 흑사병의 시작은 중앙아시아의 건조한 평원지대였는데, 비단길을 따라 서쪽으로 이동해 1343년경 크림반도에 도착했지. 화물선에는 검은 쥐가 엄청 들끓고 있었는데, 검은 쥐에는 동양 쥐벼룩이 기생하고 있었고, 동양 쥐벼룩을 중간 숙주로 해 흑사병은 여기서부터 지중해 해운망을 따라 유럽 전역으로 퍼져나갔어. 흑사병 병원균에 대해서는 많은 이설이 주장되었지만 2010년에서 2011년 남유럽인들을 대상으로 DNA 분석을 수행한 결과 페스트균이 흑사병의 병원균이라는 것을 알아냈어.",
+            "turn_id": "BK22007652-3",
+            "utterance_id": "BK22007652.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌레가 정말 작은데 엄청난 위기를 가지고 오기도 하는구나. 그러고 보니, 동남아 지역으로 여행 갈 때 말라리아라는 병을 예방하기 위한 주사를 맞은 적이 있는데 이것도 벌레 때문이라고 들었어. 말라리아의 원인은 뭐고 어떻게 걸리니?",
+            "turn_id": "BK22007652-4",
+            "utterance_id": "BK22007652.7"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "원인이 되는 기생충은 Plasmodium vivax (삼일열원충), Plasmodium falciparum (열대열원충), Plasmodium malariae (사일열원충), Plasmodium ovale (난형열원충) 등이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "감염된 모기(학질모기)가 사람을 물면 모기의 침샘에 있던 말라리아 원충이 혈액 내로 들어간다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 들어간 원충은 사람의 간으로 들어가서 성장하며 잠복기가 끝나면 사람의 적혈구로 침입하여 발열하게 된다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원충이 적혈구에서 다시 성장하면서 암수 생식모체라는 것이 만들어지는데 이 때 말라리아 매개모기인 중국 얼룩날개모기가 사람의 피를 흡혈하면 이들이 다시 모기를 감염시킴으로써 점차 전파된다.[5]",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%90%EB%9D%BC%EB%A6%AC%EC%95%84",
+            "search_query": "말라리아",
+            "terminate": false,
+            "text": "말라리아의 원인은 기생충으로 삼일열원충, 열대열원충, 사일열원충, 난형열원충 등이 있지. 말라리아의 감염은 모기 때문이야. 감염된 모기의 침샘에는 말라리아 원충이 있는데 이 모기가 사람을 물면 원충이 사람의 피 안으로 들어가고 이어 간으로 들어가. 원충은 간에서 성장하는데 이때는 잠복기라서, 잠복기가 끝나면 적혈구로 침입해 발열을 일으키지. 적혈구에 들어간 원충은 다시 성장하며 암수 생식모체라는 것을 만드는데, 이때 말라리아 매개 모기인 중국 얼룩날개모기가 사람을 물면 암수 생식 모체에 의해 감염되고, 이 모기로 인해 점차 전파되는 거지.",
+            "turn_id": "BK22007652-4",
+            "utterance_id": "BK22007652.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말라리아가 바이러스가 아니라 기생충 때문이라는 건 정말 충격인데, 이제는 바이러스뿐만 아니라 다른 것들도 조심해야 할 것 같아. 그런데 모기라고 하니까 생각나는데 피부에 발진이 일어나는 천연두는 어떤 거야? 게다가 천연두도 꽤 오랜 옛날부터 인류를 위협한 전염병이라고 들은 적이 있어서 궁금해.",
+            "turn_id": "BK22007652-5",
+            "utterance_id": "BK22007652.9"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "천연두 바이러스에 감염되면, 증세가 전신으로 퍼지기 전에 우선 피부와 입, 목의 작은 혈관들에 증상이 집중된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특유의 반구진 발진이 피부에 발생하고, 이 발진은 시간이 지나면서 유체가 채워진 수포가 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천연두는 기원전 10,000년경부터 인간을 괴롭혀 왔다.[13]",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이집트 파라오 람세스 5세의 미라에서 농포성 발진이 발견된 것이 천연두의 가장 오래된 물적 증거로 생각되고 있다.[21]",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 가능성 있는 설에서는 68,000년 전에서 16,000년 전 사이에 설치류 바이러스에서 진화한 것으로 생각한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%97%B0%EB%91%90",
+            "search_query": "천연두",
+            "terminate": false,
+            "text": "오래전부터 인류를 위협한 사실은 정확하게 알고 있는데? 천연두는 기원전 1만 년경부터 인류에게 고통을 주었던 질병으로, 이집트의 파라오인 람세스 5세의 미라에서 농포성 발진이 발견되었는데 이것을 천연두의 가장 오래된 물적 증거로 보고 있어. 천연두가 발생한 이유 중 가장 무게가 있는 설은 6만 8천년 전에서 1만 6천년 전 사이 설치류 바이러스가 진화했다는 거야. 천연두 바이러스에 감염되면 1차적으로는 피부와 입, 목의 작은 혈관들에 증상이 집중되고 전신으로 증세가 퍼져나가기 시작하는데, 피부에는 천연두 특유의 반구진 발진이 발생하며 발진은 시간이 지나면서 유체가 채워진 수포가 돼.",
+            "turn_id": "BK22007652-5",
+            "utterance_id": "BK22007652.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천연두가 오래되었다고는 생각하지만 이 정도로 인류의 역사와 함께 존재했을 줄은 생각지도 못했네. 그런데 오늘날에는 천연두가 전혀 보이지 않잖아. 백신이 개발된 건가?",
+            "turn_id": "BK22007652-6",
+            "utterance_id": "BK22007652.11"
+        },
+        {
+            "reference_date": "2020-07-11",
+            "reference_text": [
+                {
+                    "value": "많은 사람이 기억하는 최초의 백신 개발자는 영국의 의사 에드워드 제너다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제너는 소 젖을 짜던 사람들이 천연두와 비슷하지만 증상은 훨씬 약한 우두에 쉽게 걸리고 이후에는 천연두에 걸리지 않는다는 사실을 발견했다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그는 1798년 우두바이러스를 접종해 천연두에 대한 면역력을 얻게 하는 우두법을 발표했다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우두법은 천연두를 완전히 박멸한 천연두바이러스 백신의 시초로 불린다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=38022",
+            "search_query": "천연두 백신",
+            "terminate": false,
+            "text": "맞아. 영국의 의사 에드워드 제너라고 있는데 그는 최초의 백신 개발자라고도 알려져 있어. 그는 1798년 우두법이라는 것을 발표했어. 우두법은 천연두를 완전 박멸한 천연두 바이러스 백신의 시초로, 우두바이러스를 사람들에게 접종해 천연두에 대한 면역력을 얻게 하는 방법이지. 에드워드는 소 젖을 짜던 사람들이 천연두와 비슷하지만, 증상은 훨씬 약한 우두에 쉽게 걸리는 반면, 우두에 걸리고 난 뒤에는 천연두에 걸리지 않는다는 사실을 발견했거든.",
+            "turn_id": "BK22007652-6",
+            "utterance_id": "BK22007652.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랫동안 인류와 함께 해왔던 질병의 막이 1800년대 초에 내려졌다는 것도 놀라운걸? 이거와 반대로 백신과 치료제가 없는 질병도 정리하고 싶은데, 그 예시로 난 에볼라 바이러스가 생각났어. 백신이 없다는 것 외에는 알고 있는 게 전혀 없어서 간단하게 설명해주면 좋겠어.",
+            "turn_id": "BK22007652-7",
+            "utterance_id": "BK22007652.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "에볼라 출혈열(Ebola hemorrhagic fever; EHF) 또는 에볼라바이러스병(Ebola virus disease; EVD)는 바이러스성 출혈열 중 하나이며, 에볼라 바이러스로 인해 일어나는 인간의 질병이다.[1]",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "증상의 잠복기는 바이러스 감염 이후 이틀부터 삼주까지 지속되며 발열, 목과 근육의 통증, 두통을 동반한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바이러스를 치료하는 특별한 방법은 없다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 질병의 사망률은 50%에서 90%로 매우 높다.[1][5]",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%B3%BC%EB%9D%BC_%EC%B6%9C%ED%98%88%EC%97%B4",
+            "search_query": "에볼라",
+            "terminate": false,
+            "text": "에볼라 바이러스가 일으키는 질병은 에볼라 출혈열 또는 에볼라바이러스병 이라고 해. 바이러스성 출혈열 중 하나이고, 잠복기는 바이러스가 감염된 이틀 후부터 삼주까지 이어지는데 발열, 목과 근육의 통증, 두통을 동반해. 이 질병은 50%에서 90%로 정말 높은 사망률을 가지고 있지만 아직 바이러스를 치료할 방법이 없어.",
+            "turn_id": "BK22007652-7",
+            "utterance_id": "BK22007652.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사망률이 이렇게나 높은데 치료할 방법이 없다니 정말 무섭다. 예방이 최우선이네. 에볼라 말고 사망률은 높은데 치료 방법이 없는 질병이 또 있을까?",
+            "turn_id": "BK22007652-8",
+            "utterance_id": "BK22007652.15"
+        },
+        {
+            "reference_date": "2022-08-12",
+            "reference_text": [
+                {
+                    "value": "중증급성호흡기증후군(重症急性呼吸器症候群, 영어: severe acute respiratory syndrome), 또는 간단히 사스(영어: SARS)는 2002년 11월에 중화인민공화국 광둥성 포산시에서 첫 환자가 발생한 이후 홍콩, 싱가포르, 베트남 등을 거쳐 세계적으로 확산된 바이러스성 전염병이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치료법이랄 게 마땅히 없어 치명적인 질병이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "백신이 존재하지 않아 매우 치명적인 질병이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%A6%9D%EA%B8%89%EC%84%B1%ED%98%B8%ED%9D%A1%EA%B8%B0%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "중증급성호흡기증후군",
+            "terminate": false,
+            "text": "난 중증급성호흡기증후군을 예로 들고 싶어. 간단하게는 사스라고 하지. 2002년 11월에 중화인민공화국 광둥성 포산시에서 환자가 처음 등장했고, 홍콩, 싱가포르, 베트남 등을 거쳐 전 세계적으로 확산되었지. 치료법도 마땅히 없고 백신도 없어서 정말 치명적인 질병이야.",
+            "turn_id": "BK22007652-8",
+            "utterance_id": "BK22007652.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사스라는 이름을 들어본 적이 있는데 정말 무시무시하다. 마지막으로 가장 많은 인명 피해를 낳은 질병은 뭘까? 난 흑사병일 것 같기도 해.",
+            "turn_id": "BK22007652-9",
+            "utterance_id": "BK22007652.17"
+        },
+        {
+            "reference_date": "2020-12-11",
+            "reference_text": [
+                {
+                    "value": "지금까지 가장 많은 사람의 목숨을 앗아간 전염병은 뜻밖에도 세균이나 바이러스로 인해 생긴 전염병이 아니다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 모기가 일으키는 전염병인 ‘말라리아’이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "말라리아는 과거부터 지금까지 약 30억 명 인류의 목숨을 앗아갔다는 연구 결과가 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지금도 전 세계에 말라리아 감염 환자가 2억 명이나 있고, 매년 40만 명 이상이 목숨을 잃는다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B0%80%EC%9E%A5-%EB%A7%8E%EC%9D%80-%EB%AA%A9%EC%88%A8%EC%9D%84-%EC%95%97%EC%95%84%EA%B0%84-%EC%9D%B8%EB%A5%98-%EC%B5%9C%EC%95%85%EC%9D%98-%EC%A0%84%EC%97%BC%EB%B3%91%EC%9D%80/",
+            "search_query": "가장 많은 사람을 죽인 질병",
+            "terminate": false,
+            "text": "뜻밖에도 세균이나 바이러스로 인한 전염병이 아니라 모기로 감염되는 전염병 말라리아가 가장 많은 피해를 줬어. 과거부터 지금까지 약 30억 명 인류의 생명을 빼앗았다는 연구 결과도 있고, 현재도 전 세계 감염 환자가 2억 명이나 돼. 게다가 매년 40만 명 이상 사망하고 있지.",
+            "turn_id": "BK22007652-9",
+            "utterance_id": "BK22007652.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "팬데믹 선언이 안 되어도 우리의 곁에는 항상 무서운 질병이 도사리는 것 같아. 오늘 덕분에 많은 것을 알게 되었어. 정말 고마워.",
+            "turn_id": "BK22007652-10",
+            "utterance_id": "BK22007652.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한 것이 있으면 언제든지 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22007652-10",
+            "utterance_id": "BK22007652.20"
+        }
+    ]
+}

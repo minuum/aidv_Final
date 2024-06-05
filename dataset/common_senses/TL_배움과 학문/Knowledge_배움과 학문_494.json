@@ -1,0 +1,385 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002240",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002240",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 내 동생이 대학을 가는데 등록금 때문에 걱정이야.",
+            "turn_id": "BK22002240-1",
+            "utterance_id": "BK22002240.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 이번에 대학을 가게 됐구나. 정말 축하해. 그런데 대학 등록금이 많이 비싸?",
+            "turn_id": "BK22002240-1",
+            "utterance_id": "BK22002240.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이공계 대학이다 보니 실험 때문인가? 그래서 등록금이 많이 나오더라고. 그래서 내가 동생의 대학 등록금을 지원해줘야할지 고민이야.",
+            "turn_id": "BK22002240-2",
+            "utterance_id": "BK22002240.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 대학교 등록금 지원해주는 장학금은 알아봤어? 한국장학재단 홈페이지에 들어가면 자료가 나올거야.",
+            "turn_id": "BK22002240-2",
+            "utterance_id": "BK22002240.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대학 등록금을 지원해주는 장학금이 있어?",
+            "turn_id": "BK22002240-3",
+            "utterance_id": "BK22002240.5"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "국가장학금은 소득과 재산이 일정 수준 이하이며 성적 기준 등을 충족한 대학생에게 지원되는 소득연계형 장학금이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=684988",
+            "search_query": "국가장학금",
+            "terminate": false,
+            "text": "물론이지. 국가장학금이라는 제도가 있어. 국가장학금은 소득, 재산, 성적 등의 선발 조건을 충족하면 등록금을 지원해주는 소득연계형 장학금이야.",
+            "turn_id": "BK22002240-3",
+            "utterance_id": "BK22002240.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 비싼 등록금을 나라에서 전액 지원해준다는 말이야?",
+            "turn_id": "BK22002240-4",
+            "utterance_id": "BK22002240.7"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "국가장학금은 가구소득 구간을 기초·차상위와 1~10 구간을 포함한 총 11개로 나눠 선별 지원하는 소득연계형 장학금이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국가장학금 ‘Ⅰ유형’과 다자녀 국가장학금의 경우 등록금 범위 안에서 유형과 형제·자매 수에 따라 연간 350만원∼등록금 전액을 지원하며 8구간 이하까지가 해당된다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소득 9구간 학생들은 ‘Ⅰ유형’과 다자녀 국가장학금 지원 대상에 해당되지 않지만 국가장학금 ‘Ⅱ유형’에 지원할 수 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ekn.kr/web/view.php?key=20220523010003746",
+            "search_query": "국가장학금 지원금액",
+            "terminate": false,
+            "text": "지원 금액은 소득이나 전형에 따라 달라. 국가장학금은 가구소득을 기준으로 총 11개의 분위로 나눠 선발을 하는데, 국가장학금 1유형이나 다자녀 국가장학금인 경우엔 연간 350만 원에서 등록금 전액까지 지원을 해. 대신 소득구간이 8구간 이하까지만 해당이 돼. 그리고 9구간 학생들에게도 장학금의 기회가 있어. 국가장학금 1유형이나 다자녀 국가장학금에 지원하지 못하지만 국가장학금 2유형에는 지원할 수 있어.",
+            "turn_id": "BK22002240-4",
+            "utterance_id": "BK22002240.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집은 부모님을 제외하고 두 명 뿐이라 다자녀 국가장학금에는 지원할 수 없겠다. 국가장학금 1유형이랑 2유형은 어떻게 다른거야?",
+            "turn_id": "BK22002240-5",
+            "utterance_id": "BK22002240.9"
+        },
+        {
+            "reference_date": "2017-12-05",
+            "reference_text": [
+                {
+                    "value": "국가장학금 1유형은 학생직접지원형으로 소득수준에 연계해 경제적으로 어려운 학생들에게 보다 많은 혜택이 주어지도록 설계된 장학금이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국가장학금 2유형은 대학연계지원형이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대학의 적극적인 등록금 부담완화 참여를 도모하기 위해 대학 자체노력과 연계하여 지원하는 장학금이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 국가장학금은 등록금 범위 내에서 1유형과 2유형을 중복으로 수혜받을 수 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20171205.99099001896",
+            "search_query": "국가장학금 1유형 2유형",
+            "terminate": false,
+            "text": "1유형은 소득수준에 따라서 경제적으로 어려운 학생들에게 더 많은 혜택이 돌아가도록 만들어진 장학금이야. 학생을 직접적으로 지원을 해주는 장학금이지. 2유형의 경우엔 대학이 학생들의 등록금 완화를 위해서 대학과 연계해서 지원하는 장학금이야. 1유형과 2유형을 함께 신청하면 등록금 범위 내에서 두 번 수혜받을 수 있어.",
+            "turn_id": "BK22002240-5",
+            "utterance_id": "BK22002240.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중복으로 수혜 받을 수 있다니까 다행이네. 그런데 만약에 국가장학금을 받지 못하면 어쩌지?",
+            "turn_id": "BK22002240-6",
+            "utterance_id": "BK22002240.11"
+        },
+        {
+            "reference_date": "2019-07-11",
+            "reference_text": [
+                {
+                    "value": "한국장학재단의 학자금 대출은 일반 1금융권보다 대출 절차가 간편하고, 자격도 까다롭지 않아 대학교 신입생들과 재학생들에게 높은 인기를 얻고 있는 상품이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=249323",
+            "search_query": "학자금대출",
+            "terminate": false,
+            "text": "만약 국가장학금을 받지 못하는데 여윳돈이 없으면 한국장학재단에 학자금 대출이라는 제도를 이용해도 돼. 학자금 대출은 1금융권보다 대출 절차도 쉽고 자격심사도 까다롭지 않거든. 그래서 등록금을 내기 어려운 대학생들에게 인기가 많아.",
+            "turn_id": "BK22002240-6",
+            "utterance_id": "BK22002240.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제적으로 어려운 대학생들에게 나라에서 많은 도움을 주는구나. 이렇게 대학 등록금이 해결되면 동생이 생활비를 벌기위한 아르바이트만 하면 되니 공부에 집중하기도 좋겠다.",
+            "turn_id": "BK22002240-7",
+            "utterance_id": "BK22002240.13"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "선발된 근로장학생은 교내에서 행정업무 보조, 장애학생·외국인 유학생 학교생활 지원 업무를 하거나 학교 밖 국가·공공기관, 전공과 연계된 기관 등에서 일하고 실적에 따라 장학금을 받게 된다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220616048600530?input=1195m",
+            "search_query": "근로장학생",
+            "terminate": false,
+            "text": "아르바이트를 할 거면 근로장학생에 신청해 봐. 근로장학생이 되면 교내 행정업무를 돕거나 도움이 필요한 학생의 학교생활을 지원하는 일을 해. 그리고 교외 공공기관에서도 일을 할 수 있는데, 해당 기관의 업무를 보조하는 등의 업무를 봐. 그리고 근로를 하고 나면 본인이 일한 만큼 장학금을 받게 되는 거야. 너 말대로 근로장학생에 선발되면 학교에서 공부하면서 일할 수 있어서 좋을 거야.",
+            "turn_id": "BK22002240-7",
+            "utterance_id": "BK22002240.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교가 아닌 밖에서도 근로장학생으로 일하게 되면 좀 불편할 것 같은데? 어떤 장점 때문에 학교 밖에서까지 하는 거지?",
+            "turn_id": "BK22002240-8",
+            "utterance_id": "BK22002240.15"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "학생들에게 양질의 근로지를 제공하여 안정적인 학업 여건을 조성하고 다양한 근로체험 및 자기 역량 계발의 기회를 주고자 운영되고 있는것으로 대학에서 선택적으로 운영하기 때문에 신청 희망자는 소속대학 참여 여부를 반드시 확인해야한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=672470",
+            "search_query": "근로장학생 장점",
+            "terminate": false,
+            "text": "교외에서 근로하게 되면 다양한 곳에서 여러 일을 해볼 수 있어. 그래서 근로지에서 업무 체험과 자기 역량 계발을 할 수 있는 장점이 있지. 그런데 학교에서 운영하지 않을 수도 있으니까 학교에 이 사업을 운영하는지 꼭 알아봐야해.",
+            "turn_id": "BK22002240-8",
+            "utterance_id": "BK22002240.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양하고 좋은 제도들이 많으니까 학생들이 마음 놓고 학교다닐 수 있어 좋은 것 같아. 이 외에도 다른 제도들이 있을까? 동생에게 추천해주고 싶어.",
+            "turn_id": "BK22002240-9",
+            "utterance_id": "BK22002240.17"
+        },
+        {
+            "reference_date": "2018-07-31",
+            "reference_text": [
+                {
+                    "value": "정부지원 인턴쉽 프로그램은 대표적으로 WEST 프로그램이 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 어학 연수와 인턴십, 여행을 합쳐 놓은 프로그램으로 대학생 및 취준생들의 선호도가 높다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=148325",
+            "search_query": "국가장학금 WEST 프로그램",
+            "terminate": false,
+            "text": "동생이 해외로 나가는 것에 부담감이 없으면 WEST 프로그램을 추천해줄게. WEST 프로그램은 정부지원 인턴십 프로그램으로 미국 어학연수와 인턴십을 합친 프로그램이야. 여행도 다닐 수 있어서 대학생과 취준생에게 인기가 많은 프로그램이지.",
+            "turn_id": "BK22002240-9",
+            "utterance_id": "BK22002240.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이건 내가 참여해보고 싶은 프로그램인걸? 해외로 나갈 수 있는 기회까지 제공해주다니 학생들이 다양한 활동을 해볼 수 있어서 좋겠다. 그런데 이것저것 장학금이 많아서 헷갈릴 수도 있겠네.",
+            "turn_id": "BK22002240-10",
+            "utterance_id": "BK22002240.19"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "신청 결과는 한국장학재단 누리집을 통해 확인할 수 있으며, 세부 상담이 필요할 경우 전화 상담 또는 재단의 각 지역센터에 방문하여 일대일 맞춤형 상담을 받을 수 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=97710",
+            "search_query": "국가장학금 정보",
+            "terminate": false,
+            "text": "만약 모르는게 있으면 재단에서 전화 상담을 받을 수도 있고 지역에 있는 재단 센터에 방문해서 맞춤 상담도 가능해. 만약 신청 결과같은 내용이 궁금하면 한국장학재단 누리집에서도 확인 가능하고.",
+            "turn_id": "BK22002240-10",
+            "utterance_id": "BK22002240.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한게 생기면 전화상담 받아볼게. 이렇게 다양한 제도가 있다니 나도 다시 대학생으로 돌아가고싶어.",
+            "turn_id": "BK22002240-11",
+            "utterance_id": "BK22002240.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지? 가난하다고 학교를 가지 못한다면 정말 슬픈 일이잖아. 이런 제도로 누구나 공평하게 공부할 수 있어서 참 다행이야.",
+            "turn_id": "BK22002240-11",
+            "utterance_id": "BK22002240.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 말이야. 나는 동생에게 네가 알려준 정보를 알려주러 갈게. 덕분에 등록금 걱정은 줄었어.",
+            "turn_id": "BK22002240-12",
+            "utterance_id": "BK22002240.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "동생이 이런 제도를 통해 도움을 받아 대학생활 했으면 좋겠어. 안녕.",
+            "turn_id": "BK22002240-12",
+            "utterance_id": "BK22002240.24"
+        }
+    ]
+}

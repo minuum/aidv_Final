@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004408",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004408",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 수능이 얼마 남지 않았는데, 독학으로 재수하다 보니 입시 정보를 잘 모르겠네요. 이번에 수능 원서 접수는 언제 하는지 아세요?",
+            "turn_id": "BK22004408-1",
+            "utterance_id": "BK22004408.1"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "이번 대학수학능력시험 응시원서 접수기간은 8. 18.(목)부터 9. 2.(금)까지 12일간이며, 응시원서 접수기간 동안 접수내역 변경이 가능하다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=101063",
+            "search_query": "수능원서접수일",
+            "terminate": false,
+            "text": "독학하다니 힘들 텐데 대단하네요. 대학수학능력시험 응시원서 접수는 8월 18일 목요일부터 9월 2일 금요일까지 받아요. 응시원서 접수했더라도 수정할 내역이 생기면 변경할 수 있는데, 12일간 주어지는 원서접수 기간에만 가능해요.",
+            "turn_id": "BK22004408-1",
+            "utterance_id": "BK22004408.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "접수 기간이 12일 정도 되는군요. 고3 때는 담임 선생님에게 돈만 냈는데 혼자 하려니 다 생소하네요. 응시원서 접수는 인터넷으로 하면 되겠죠?",
+            "turn_id": "BK22004408-2",
+            "utterance_id": "BK22004408.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "고3 학생은 재학 중인 고등학교로, 졸업자는 출신 고등학교로 원서를 접수하면 된다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022070311020001426?did=NA",
+            "search_query": "졸업생 수능원서 접수",
+            "terminate": false,
+            "text": "고3 때는 재학 중인 학생이라서 고등학교에서 접수를 다 받았죠. 졸업하면 응시원서 접수가 다를 것 같지만, 졸업생도 인터넷 접수가 아니라 본인이 졸업한 고등학교에 접수해야 해요.",
+            "turn_id": "BK22004408-2",
+            "utterance_id": "BK22004408.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요? 제가 고등학교는 경기도에서 나오고 졸업한 뒤에 서울로 이사 왔는데, 하루 다 버리게 생겼네요. 혹시 다른 방법은 없어요?",
+            "turn_id": "BK22004408-3",
+            "utterance_id": "BK22004408.5"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "응시원서 접수일 출신학교 소재지가 현재 주소지와 서로 다른 관할 행정구역일 경우 관련 서류(졸업증명서, 주민등록초본)를 추가로 준비해 현재 주소지 관할 시험지구 교육지원청에 방문·접수할 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jbnews.com/news/articleView.html?idxno=1358304",
+            "search_query": "졸업생 다른 주소지 원서",
+            "terminate": false,
+            "text": "졸업한 고등학교 주소지와 현재 주소가 다른 경우에는 본인의 현재 주소지의 관할 시험지구 교육지원청에 방문해서 접수할 수 있어요. 응시원서 접수할 때, 주민등록초본과 졸업증명서를 추가로 가져가야 하니까 서류도 잘 챙기세요.",
+            "turn_id": "BK22004408-3",
+            "utterance_id": "BK22004408.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아휴, 방법이 있어서 천만다행이에요. 그런데, 저랑 스터디하는 친구는 검정고시 출신인데 어떻게 접수해요?",
+            "turn_id": "BK22004408-4",
+            "utterance_id": "BK22004408.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "검정고시 합격자 등은 주민등록상 주소지의 시·도 교육감이 지정하는 장소에 접수해야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022070311020001426?did=NA",
+            "search_query": "검정고시 합격자 수능원서 접수",
+            "terminate": false,
+            "text": "같이 공부하는 친구가 검정고시 합격자시군요. 검정고시 출신 수험생도 본인의 주민등록상 주소지에 접수 할 수 있어요. 향후, 해당 주소지의 시, 도 교육감이 장소를 지정하니까 그곳에 접수하면 돼요.",
+            "turn_id": "BK22004408-4",
+            "utterance_id": "BK22004408.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 같은 경우는, 다른 주소지라고 해서 주민등록초본과 졸업증명서가 추가로 필요한 것 보면, 검정고시 출신자도 추가 서류가 있을 것 같은데요.",
+            "turn_id": "BK22004408-5",
+            "utterance_id": "BK22004408.9"
+        },
+        {
+            "reference_date": "2015-08-26",
+            "reference_text": [
+                {
+                    "value": "검정고시 합격자는 응시원서, 사진 2매, 수수료, 신분증, 합격증 사본 또는 합격증명서 1부가 필요하며 주민등록등본 1부도 함께 필요하다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/star/hot-issues/view/2015/08/821793/",
+            "search_query": "수능원서 접수 준비물",
+            "terminate": false,
+            "text": "네, 맞아요. 검정고시 합격한 수험생이 원서 접수할 때는 응시원서와 사진 2매, 수수료, 신분증은 기본이고, 그 외에 추가 서류가 필요해요. 검정고시에 합격했다고 증빙할 수 있는 합격증 사본과 합격증명서 둘 중에 1부 제출해야 하고, 주민등록등본 1부도 제출해야 해요.",
+            "turn_id": "BK22004408-5",
+            "utterance_id": "BK22004408.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교 재학이 아니면 뭔가 추가로 내고 챙겨야 할 게 많군요. 작년에는 학교에 온 사진사가 단체로 찍은 것 내서 신경 쓰지 않았는데, 사진도 무슨 규정이 있었던 것 같아요.",
+            "turn_id": "BK22004408-6",
+            "utterance_id": "BK22004408.11"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "응시원서에 부착하는 사진은 원서접수 시작일로부터 최근 6개월 이내에 촬영된 천연색 상반신 정면 여권용 규격 사진이어야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220701146800530?input=1195m",
+            "search_query": "수능 응시원서 사진",
+            "terminate": false,
+            "text": "기억하셔서 다행이에요. 수능 응시원서에 붙이는 사진은 별도의 규정이 있어요. 사진 촬영은 원서접수 시작한 날부터 6개월 이내여야 하고, 규격은 여권용 사진이어야 해요. 또, 상반신 정면이 나오는 컬러사진만 부착할 수 있어요.",
+            "turn_id": "BK22004408-6",
+            "utterance_id": "BK22004408.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 기억났어요. 단체 사진 찍는 날 결석한 친구가 그냥 증명사진 냈다가 급하게 사진관 가서 다시 찍어서 냈었던 것 같아요.",
+            "turn_id": "BK22004408-7",
+            "utterance_id": "BK22004408.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 친구도 수능의 시작인 원서접수부터 상당히 당황했겠어요.",
+            "turn_id": "BK22004408-7",
+            "utterance_id": "BK22004408.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "황당했죠, 고3 때 친구 중에 별별 애들 많았어요. 그중에 한 명은 본인이 시험 준비가 제대로 안 되어 있다고 원서 내고서 아예 수능 안 본 애도 있었어요. 혹시 올해 수능 보기 전에 수시 합격하거나 해서 응시하지 않으면 수수료는 돌려주나요?",
+            "turn_id": "BK22004408-8",
+            "utterance_id": "BK22004408.15"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "천재지변, 질병, 수시모집 최종합격, 군입대 등의 사유로 수능에 응시하지 않은 수험생은 11월 21일부터 같은 달 25일까지 환불을 신청하면 수능 응시 수수료 일부를 환불받을 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220701146800530?input=1195m",
+            "search_query": "수능응시 수수료 환불",
+            "terminate": false,
+            "text": "인정할 수 있는 사유로 수능 시험을 보지 않으면, 응시 수수료 일부를 환불받을 수 있어요. 말한 것처럼 수능 보기 전에 수시모집에서 최종 합격한 경우, 또는 천재지변이나 질병, 입대 등의 사유면 가능해요. 만약 수능 미응시로 환불받으려면 11월 21일부터 11월 25일까지 신청해야 해요.",
+            "turn_id": "BK22004408-8",
+            "utterance_id": "BK22004408.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수시 합격으로 응시 수수료 환불받는 경험을 하면 좋겠는데, 사실 제가 보려는 대학은 거의 다 최저가 있어서 수능은 봐야 될 것 같아요. 그런데, 저나 제 친구 같은 경우에는 수능 성적표는 언제 어떻게 받아요?",
+            "turn_id": "BK22004408-9",
+            "utterance_id": "BK22004408.17"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "성적통지표는 12월9일까지 수험생에게 배부할 예정이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재학생은 재학 중인 학교에서, 졸업생이나 검정고시 수험생 등은 원서를 접수한 기관에서 받을 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022070317122417115",
+            "search_query": "성적통지표 배부",
+            "terminate": false,
+            "text": "현재까지 발표된 계획으로는 12월 9일까지 수험생에게 성적통지표를 배부하려고 해요. 재학생은 당연히 다니고 있는 학교에서 받고, 검정고시 합격자나 졸업한 수험생들은 처음에 응시원서 접수한 기관에서 받을 수 있어요.",
+            "turn_id": "BK22004408-9",
+            "utterance_id": "BK22004408.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수능 응시 원서 접수한 곳이 최종 성적표까지 받는 곳이라서 아주 중요하네요. 수능 응시원서 접수가 수능의 출발이니까 제 친구나 저나 공지 나는 것 챙겨보고 출발 잘해야겠어요.",
+            "turn_id": "BK22004408-10",
+            "utterance_id": "BK22004408.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서류들만 잘 챙겨서 내면 접수야 문제 될 것 없으니 너무 걱정하지 마시고, 수능에서 좋은 결과 있을 거예요.",
+            "turn_id": "BK22004408-10",
+            "utterance_id": "BK22004408.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "격려대로 좋은 결과 보여드릴게요. 수능 응시 원서접수 관련 내용들이 약간 막연했는데 덕분에 잘 알게 되어서 정말 감사해요.",
+            "turn_id": "BK22004408-11",
+            "utterance_id": "BK22004408.21"
+        }
+    ]
+}

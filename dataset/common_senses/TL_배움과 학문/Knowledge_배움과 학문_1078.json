@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007071",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007071",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 일본 역사 시간에 임팔 전투에 대해 배웠어요. 강의를 들어보니 정말 일본인들이 치욕스러워할 만하더라고요. 아, 혹시 한국 역사에서는 치욕적인 패배로 손꼽히는 전투가 무엇이 있나요?",
+            "turn_id": "BK22007071-1",
+            "utterance_id": "BK22007071.1"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "쌍령전투(雙嶺戰鬪)는 병자호란이 진행되던 중 1637년 1월 2일에 쌍령에서 벌어진 조선군과 청군의 전투이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국 역사 3대 패전 (칠천량해전, 쌍령전투, 현리전투) 중 하나로 꼽힌다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8C%8D%EB%A0%B9_%EC%A0%84%ED%88%AC#%EA%B0%99%EC%9D%B4_%EB%B3%B4%EA%B8%B0",
+            "search_query": "쌍령전투 3대 패전",
+            "terminate": false,
+            "text": "보통 칠천량해전, 쌍령전투, 현리전투를 한국사 3대 패전이라고 얘기해요. 저는 그 중에 병자호란 중이던 1637년 1월 2일에 쌍령에서 조선군과 청군 사이에 벌어졌던 쌍령전투를 꼽고 싶네요.",
+            "turn_id": "BK22007071-1",
+            "utterance_id": "BK22007071.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라 역사도 꽤 긴데 한국사를 통틀어서 3대 패전에 들어갈 정도면 엄청나게 치욕적이었겠네요. 당시 양군의 전력은 어느 정도였나요?",
+            "turn_id": "BK22007071-2",
+            "utterance_id": "BK22007071.3"
+        },
+        {
+            "reference_date": "2018-02-27",
+            "reference_text": [
+                {
+                    "value": "조선군은 남한산성의 본진으로 경상도군 4만 명이 포진해 있었으며, 청군은 고작 조선군의 100분의 1 정도 되는 300여 명의 기병대 병력으로 진격했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20180228/2/BBSMSTR_000000010058/view.do",
+            "search_query": "쌍령전투 조선군 청군 병력",
+            "terminate": false,
+            "text": "당시 남한산성의 본진이었던 조선군 측은 경상도 군사 4만 명으로 구성되어 있었고 그에 비해 청나라 군대는 조선군의 1퍼센트 정도밖에 안 되는 300여 명의 기병대였어요.",
+            "turn_id": "BK22007071-2",
+            "utterance_id": "BK22007071.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "300명으로 공격하다니 용기가 대단하네요. 혹시 처음부터 조선군이 청나라 군대에 밀린 건가요?",
+            "turn_id": "BK22007071-3",
+            "utterance_id": "BK22007071.5"
+        },
+        {
+            "reference_date": "2018-02-27",
+            "reference_text": [
+                {
+                    "value": "청군은 정찰을 목적으로 기습병력 33기를 먼저 보냈지만, 조선군 4만 명이 총을 쏴서 물리치게 된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20180228/2/BBSMSTR_000000010058/view.do",
+            "search_query": "쌍령전투 청군 정찰",
+            "terminate": false,
+            "text": "아니에요. 처음에는 정찰을 위해서 청나라군이 기습병력 33기를 우선 보냈는데 이를 4만 명이나 되는 조선군이 총을 발포해서 무찔렀어요.",
+            "turn_id": "BK22007071-3",
+            "utterance_id": "BK22007071.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고작 33기라지만 300명밖에 안 되는 청나라 기병대 입장에서는 큰 타격이었겠는데요? 승리한 조선군에게 무슨 문제라도 있었나요?",
+            "turn_id": "BK22007071-4",
+            "utterance_id": "BK22007071.7"
+        },
+        {
+            "reference_date": "2018-02-27",
+            "reference_text": [
+                {
+                    "value": "하지만 조선군은 청군 33기를 물리치기 위해 초기에 지급된 화약을 모두 소진하는 과오를 범했으며, 화약 재분배를 서두르다 화승(火繩)이 화약에 떨어져 폭발해 진중이 동요됐다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20180228/2/BBSMSTR_000000010058/view.do",
+            "search_query": "쌍령전투 조선군 화약 소진",
+            "terminate": false,
+            "text": "문제는 조선군이 고작 청나라 군대 33기를 무찌르려고 초반에 보급됐던 화약을 전부 써버리거든요. 게다가 재빨리 화약 재분배를 하려다 화승이 화약에 떨어지면서 폭발하는 일까지 일어나서 진중의 분위기가 흔들리기까지 했어요.",
+            "turn_id": "BK22007071-4",
+            "utterance_id": "BK22007071.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 어째서 겨우 33명에게 그 아까운 화약을 다 써버린 건가요?",
+            "turn_id": "BK22007071-5",
+            "utterance_id": "BK22007071.9"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "그러나 이 당시 대부분의 병사들이 조총으로 무장하고 있었지만 아직 조총에 숙련되지 못했던 병사들이 상당수였던 조선군은 첫 발포에서 소지하고 있던 모든 탄환들을 거의 다 소진해 버렸고, 조선군 진영은 탄환 재보급을 요청하는 수많은 병사들로 인해 혼란이 야기되었다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8C%8D%EB%A0%B9_%EC%A0%84%ED%88%AC#%EA%B0%99%EC%9D%B4_%EB%B3%B4%EA%B8%B0",
+            "search_query": "쌍령전투 조선군 탄환 재보급",
+            "terminate": false,
+            "text": "당시 대부분의 병사들이 조총을 장비하고 있었지만, 아직 조총에 익숙하지 못했던 병사가 대부분이었어요. 그래서 조선군은 최초 발포에서 갖고 있던 모든 탄환을 거의 다 써버렸죠. 이 때문에 조선군 진영은 탄환을 다시 달라고 요청하는 많은 군사들로 인한 혼란이 일어났어요.",
+            "turn_id": "BK22007071-5",
+            "utterance_id": "BK22007071.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 한마디로 전투 경험이 부족해서 일어난 일이네요. 조선군의 혼란을 목격한 청나라는 어떤 행동을 했나요?",
+            "turn_id": "BK22007071-6",
+            "utterance_id": "BK22007071.11"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "이 모습을 지켜보던 청군이 조선군의 목책을 넘어 급습하였고, 이에 놀란 조선군은 탄약을 다 써버린 조총들을 내던지고 무질서하게 도주하기 이른다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8C%8D%EB%A0%B9_%EC%A0%84%ED%88%AC#%EA%B0%99%EC%9D%B4_%EB%B3%B4%EA%B8%B0",
+            "search_query": "쌍령전투 청군 급습 조선군 도망",
+            "terminate": false,
+            "text": "이 모습을 본 청나라 군대는 조선군의 울짱을 넘어서 급습해요. 여기에 놀란 조선군은 탄약이 없는 조총들을 버리고 무질서하게 도망을 가기 시작하죠.",
+            "turn_id": "BK22007071-6",
+            "utterance_id": "BK22007071.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시 조선군들이 엄청나게 당황했나 보네요. 원래 사람이 갑자기 놀라면 객관적인 사고가 마비되잖아요. 결국 도망가던 조선군들은 어떻게 됐나요?",
+            "turn_id": "BK22007071-7",
+            "utterance_id": "BK22007071.13"
+        },
+        {
+            "reference_date": "2017-05-03",
+            "reference_text": [
+                {
+                    "value": "조선군은 총과 칼, 활을 모두 버리고 도망치려다 줄줄이 압사하거나 절벽에 떨어져 죽는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사방에서 추적해온 청군의 칼에 맞아 목숨을 잃는 병사도 부지기수였다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20170502082300797?input=1195m",
+            "search_query": "쌍령전투 조선군 압사",
+            "terminate": false,
+            "text": "무기들을 모두 버리고 도망치다가 깔려 죽거나 절벽에서 추락해서 죽었어요. 거기에 사방에서 쫓아온 청나라군의 칼에 찔려 죽은 병사들도 엄청나게 많았죠.",
+            "turn_id": "BK22007071-7",
+            "utterance_id": "BK22007071.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그야말로 아수라장이었네요. 당시 전투로 인한 조선군의 피해는 어느 정도였나요?",
+            "turn_id": "BK22007071-8",
+            "utterance_id": "BK22007071.15"
+        },
+        {
+            "reference_date": "2017-05-03",
+            "reference_text": [
+                {
+                    "value": "쌍령전투에서 조선군 약 1만 명이 사망하고 8천여 명이 중경상을 입은 것으로 추정된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지휘관 무능과 병사 훈련 부족 등이 복합 패인이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20170502082300797?input=1195m",
+            "search_query": "쌍령전투 조선군 사망 지휘관 무능",
+            "terminate": false,
+            "text": "조선군 약 1만 명이 전사하고 8천여 명이 크고 가벼운 부상을 입었다고 추정하고 있어요. 무능한 지휘관과 병사들의 훈련 부족이 종합적으로 작용한 거죠.",
+            "turn_id": "BK22007071-8",
+            "utterance_id": "BK22007071.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 안타깝네요. 아무리 그래도 영화 300도 아니고 300명에게 당했다는 사실 자체가 좀 충격적이네요. 그래서 한국사의 3대 패전이라고 불리는 거군요.",
+            "turn_id": "BK22007071-9",
+            "utterance_id": "BK22007071.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 이런 전투를 보면 확실히 군중심리라는 게 정말 무섭긴 무섭나 봐요.",
+            "turn_id": "BK22007071-9",
+            "utterance_id": "BK22007071.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇긴 하죠. 제가 만약 그 시절의 조선군이었다고 해도 저도 아마 줄행랑을 쳤을 테니까요. 아무튼 오늘도 재미있는 역사 지식 가르쳐 주셔서 감사합니다.",
+            "turn_id": "BK22007071-10",
+            "utterance_id": "BK22007071.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 다음에도 모르는 게 있으면 편하게 질문 주세요!",
+            "turn_id": "BK22007071-10",
+            "utterance_id": "BK22007071.20"
+        }
+    ]
+}

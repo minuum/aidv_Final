@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006533",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006533",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어렸을 때 미래 기술로 전기차가 등장한다는 책을 본 적이 있는데 어느덧 현실이 되어 신기해. 그런데 발전하는 시대와 달리 아는 것이 하나도 없다는게 스스로 한심하더라. 넌 기술에 대해서 잘 아니까 도와줬으면 해.",
+            "turn_id": "BK22006533-1",
+            "utterance_id": "BK22006533.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빠르게 바뀌는 세상의 흐름에 맞춰 정보를 익히는 건 중요하긴 하지. 그래, 필요한 것이 있으면 언제든 물어봐.",
+            "turn_id": "BK22006533-1",
+            "utterance_id": "BK22006533.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우선 전기차라는 건 정확히 어떤 것을 말하는 거야? 수소 자동차라던가 전기 자동차라던가 새롭게 등장하는 자동차가 많아서 헷갈려. 전기는 전기를 동력으로 하는 차니까 수소차가 뭔지 알면 이해하기 쉬울 것 같아.",
+            "turn_id": "BK22006533-2",
+            "utterance_id": "BK22006533.3"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "흔히 말하는 ‘수소차’의 정확한 이름은 수소 연료전지 자동차(FCEV·Fuel Cell Electric Vehicle)입니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이걸 줄여서 수소전기차라고 부릅니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어 이름에 전기(Electric)가 포함돼 있듯, 수소전기차도 전기차의 한 종류입니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/marketing/878983.html",
+            "search_query": "수소자동차",
+            "terminate": false,
+            "text": "수소차의 정확한 이름은 수소 연료전지 자동차, 약자는 FCEV로 Fuel Cell Electric Vehicle이지. 이걸 줄여서 수소 전기차라고 하는데 영어 이름에 Electric이 포함돼 있듯 수소전기차도 전기차의 한 종류야.",
+            "turn_id": "BK22006533-2",
+            "utterance_id": "BK22006533.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 자동차가 완전히 다른 것이라고 수소차도 전기차라니. 그래도 차이가 있으니 따로 등장하는 거 아니겠어? 전기차부터 설명해주면 좋을 것 같은데 우선 최초의 전기차는 언제 만들어졌어?",
+            "turn_id": "BK22006533-3",
+            "utterance_id": "BK22006533.5"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "전기자동차는 19세기 중반에 처음 등장하였다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1900년경까지는 전기 자동차가 최고 속도 기록을 보유하고 있었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "전기자동차 역사",
+            "terminate": false,
+            "text": "전기자동차는 1800년대 중반에 처음 등장했어. 1900년 경까지 전기 자동차가 최고 속도 기록을 가지고 있었어.",
+            "turn_id": "BK22006533-3",
+            "utterance_id": "BK22006533.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "19세기 중반에 전기차가 벌써 만들어 졌었다고? 그럼 왜 내연기관 자동차가 성행하게 된 거야?",
+            "turn_id": "BK22006533-4",
+            "utterance_id": "BK22006533.7"
+        },
+        {
+            "reference_date": "2020-03-13",
+            "reference_text": [
+                {
+                    "value": "하지만 전기자동차가 대중적으로 이용되기에 가장 큰 걸림돌은 역시 배터리의 성능이었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "육중한 배터리를 내장한 자동차는 엄청나게 무거웠고 하루에도 여러 차례 재충전해야만 했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시간이 지날수록 내연기관은 더욱 연비가 좋아졌고 가격은 싸졌다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1Z06M5TI6W",
+            "search_query": "최초의 전기차",
+            "terminate": false,
+            "text": "전기자동차가 대중적으로 이용되기에는 배터리의 성능이 문제가 많았어. 육중한 배터리를 내장한 자동차는 엄청 무거웠고 하루에 몇번이곤 재충전해야만 했지. 그런데 내연기관은 시간이 지날수록 더욱 연비가 좋아지고 가격이 저렴해졌지.",
+            "turn_id": "BK22006533-4",
+            "utterance_id": "BK22006533.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내연기관 자동차가 발달할 수밖에 없었네. 내연기관 자동차와 전기 자동차의 차이는 어떤 거야?",
+            "turn_id": "BK22006533-5",
+            "utterance_id": "BK22006533.9"
+        },
+        {
+            "reference_date": "2019-09-06",
+            "reference_text": [
+                {
+                    "value": "화석 연료를 연소시켜 구동 에너지를 얻는 내연기관차와 달리 배터리에 축적된 전기로 모터를 회전시켜 구동 에너지를 얻습니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내연기관차의 엔진과 달리 주행 중에도 소음과 진동이 거의 발생하지 않습니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://tech.hyundaimotorgroup.com/kr/article/all-about-evs-1/",
+            "search_query": "전기 자동차 구조",
+            "terminate": false,
+            "text": "내연기관차는 화석 연료를 연소시켜 구동 에너지를 얻지만 전기 자동차는 배터리에 축적된 전기로 모터를 회전시켜 구동 에너지를 얻어. 내연기관차의 엔진과 달리 주행 중에도 소음과 진동이 거의 없어.",
+            "turn_id": "BK22006533-5",
+            "utterance_id": "BK22006533.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기 자동차는 내연기관의 엔진 대신 배터리가 있어서 배터리가 중요한 거구나. 그런데 기사에 보면 배터리 셀, 배터리 모듈, 배터리에 관련된 용어가 엄청 많잖아. 이게 정확히 뭐니?",
+            "turn_id": "BK22006533-6",
+            "utterance_id": "BK22006533.11"
+        },
+        {
+            "reference_date": "2017-09-12",
+            "reference_text": [
+                {
+                    "value": "셀, 모듈, 팩은 쉽게 배터리를 모으는 단위로 생각하면 됩니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배터리 셀을 여러 개 묶어서 모듈을 만들고, 모듈을 여러 개 묶어서 팩을 만드는 것이죠.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전기차에는 최종적으로 배터리가 하나의 팩 형태로 들어가게 됩니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.samsungsdi.co.kr/column/all/detail/54229.html",
+            "search_query": "전기차 베터리 구성",
+            "terminate": false,
+            "text": "간단하게 셀, 모듈, 팩은 배터리를 모으는 단위라고 보면 돼. 배터리 셀을 여러 개 묶어서 모듈을 만들고, 모듈을 여러 개 묶어서 팩을 만드는 거지. 최종적으로 전기차에 들어가는 배터리는 하나의 팩 형태야.",
+            "turn_id": "BK22006533-6",
+            "utterance_id": "BK22006533.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 전기 자동차와 수소 자동차와의 차이는 뭐니? 배터리의 차이일까?",
+            "turn_id": "BK22006533-7",
+            "utterance_id": "BK22006533.13"
+        },
+        {
+            "reference_date": "2021-10-06",
+            "reference_text": [
+                {
+                    "value": "전기차와 마찬가지로 엔진이 없지만, ‘수소’를 연료로 사용하기 때문에 전기차와 달리 외부로부터 전기 공급이 없어도 자동차 내부에서 전기를 생산할 수 있다는 특징을 기억해주세요!",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://gscaltexmediahub.com/story/energy-plus-electric-vehicle-difference/",
+            "search_query": "전기차 수소차 차이",
+            "terminate": false,
+            "text": "전기차와 마찬가지로 엔진이 없지만, 연료로 수소를 사용하기 때문에 전기차와 달리 외부로부터 전기 공급이 없어도 자동차 내부에서 전기를 생산할 수 있다는 특징이 있어.",
+            "turn_id": "BK22006533-7",
+            "utterance_id": "BK22006533.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수소차가 발달하면 조금 더 효율적일 것 같은데 다른 특징은 더 없니?",
+            "turn_id": "BK22006533-8",
+            "utterance_id": "BK22006533.15"
+        },
+        {
+            "reference_date": "2021-10-12",
+            "reference_text": [
+                {
+                    "value": "전기차가 탄소를 배출하지 않는 것에 그친다면, 수소차는 여기서 한 걸음 더 나아간다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주행을 위해 수소와 산소를 결합하면서 주변 공기를 빨아들이고 그 과정에서 다른 불순물을 걸러내기 때문이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수소차가 달리는 것만으로도 대기 중 미세먼지를 정화하는 역할을 하는 셈이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수소차는 약 15분이면 완전히 충전할 수 있으며 한 번 충전에 600㎞까지 달릴 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kids.donga.com/?ptype=article&no=20211012134353536746",
+            "search_query": "전기차의 차이점",
+            "terminate": false,
+            "text": "전기차가 탄소를 배출하지 않는 것에 그친다면, 수소차는 여기서 한 걸음 더 나아가 주행을 위해 수소와 산소를 결합하면서 주변 공기를 빨아들여 그 과정에서 다른 불순물을 걸러내. 달리는 것만으로도 대기 중 미세먼지를 정화하는 역할을 하지. 그리고 수소차는 15분이면 완전히 충전되고 한 번 충전하면 600km까지 달릴 수 있어.",
+            "turn_id": "BK22006533-8",
+            "utterance_id": "BK22006533.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수소차는 효율적인 면에도 장점이 있고 환경에도 더 도움이 되는 것 같아. 그런데 수소차는 전기차보다 상용화가 덜 된 것 같아. 왜 그런 걸까?",
+            "turn_id": "BK22006533-9",
+            "utterance_id": "BK22006533.17"
+        },
+        {
+            "reference_date": "2021-07-28",
+            "reference_text": [
+                {
+                    "value": "우선 가격이 내연기관차보다 약 3배, 전기차보다 1.5~2배 더 비싸다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "관련 시설에 대한 님비(Not In My BackYard·내 뒷마당은 안 된다)현상도 문제다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 지난 4월 한국자동차산업협회가 발표한 자료에 따르면 3월 기준으로 전국에 설치된 수소 충전소는 69개에 불과하다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "늘어나는 판매대수를 따라가지 못하는 충전소 부족 현상을 해결하기 위해선 수소의 생산량을 늘려야 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재는 부생수소(철강·석유 등을 생산하는 과정에서 부수적으로 나오는 수소)를 수소차에 주로 이용하는데, 문제는 양이 부족하다는 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.epnc.co.kr/news/articleView.html?idxno=212967",
+            "search_query": "수소차 상용화",
+            "terminate": false,
+            "text": "우선 내연기관차보다 약 3배, 전기차보다 1.5~2배 더 비싸다는 거야. 그리고 수소차 관련 시설에 대한 님비 현상도 있어. 지난 4월 한국자동차산업협회 발표에 따르면 3월 기준으로 전국에 설치된 수소 충전소는 69개에 불과하다고 해. 충전소가 늘어나는 차량 판매 수를 따라가지 못해서 수소의 생산량이 늘어나야 하는데, 현재 수소차에 사용하는 철강이나 석유를 생산하는 과정에서 나오는 부생수소의 양이 부족하다는 문제가 있어.",
+            "turn_id": "BK22006533-9",
+            "utterance_id": "BK22006533.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무공해 차는 현재로서는 전기차밖에 없는 것 같아. 어서 기술이 발전해서 환경에 도움이 되는 자동차가 나왔으면 좋겠다.",
+            "turn_id": "BK22006533-10",
+            "utterance_id": "BK22006533.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수소차에 대한 개발은 계속 진행 중이니까 곧 좋은 결과가 있을 것이라고 생각해. 우리도 곧 대학생인데 조금 더 공부해서 친환경 기술 학과에 갈 수 있도록 해보자.",
+            "turn_id": "BK22006533-10",
+            "utterance_id": "BK22006533.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그거 정말 좋은 생각이다. 덕분에 많은 것을 배우고 미래에 대한 꿈도 생긴 것 같아. 고마워, 내일 보자!",
+            "turn_id": "BK22006533-11",
+            "utterance_id": "BK22006533.21"
+        }
+    ]
+}

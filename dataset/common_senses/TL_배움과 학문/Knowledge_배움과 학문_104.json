@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011614",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011614",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 학교 수업 시간에 코끼리에 관한 다큐멘터리를 봤는데 흥미로웠어. 코끼리의 종류는 몇 가지나 돼?",
+            "turn_id": "BK22011614-1",
+            "utterance_id": "BK22011614.1"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "코끼리는 크게 ‘아시아코끼리’와 ‘아프리카코끼리’로 나뉩니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아시아코끼리 경우 수컷은 대부분 엄니를 가지고 있으나 암컷은 엄니 크기가 작거나 아예 없는 경우도 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아프리카코끼리는 암수 모두 긴 엄니를 가지고 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25095701",
+            "search_query": "코끼리의 종류",
+            "terminate": false,
+            "text": "코끼리는 암수 모두 긴 엄니를 가진 아프리카 코끼리와 그렇지 않은 아시아 코끼리로 나눌 수 있어. 아시아 코끼리 수컷은 대부분 엄니가 있지만 암컷의 경우 엄니가 작거나 아예 없기도 해.",
+            "turn_id": "BK22011614-1",
+            "utterance_id": "BK22011614.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리는 아프리카코끼리, 아시아 코끼리로 나뉘는구나. 코끼리 수명이 굉장히 길다고 알고 있는데 몇 년이나 살 수 있어?",
+            "turn_id": "BK22011614-2",
+            "utterance_id": "BK22011614.3"
+        },
+        {
+            "reference_date": "2021-09-27",
+            "reference_text": [
+                {
+                    "value": "코끼리의 평균 수명은 60년 안팎이지만, 아시아 코끼리의 경우에는 80년 정도인 경우도 적지 않고 최근에는 '최장수 코끼리'가 88살로 생을 마감한 적도 있다고 한 매체는 소개했습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006477408&plink=ORI&cooper=NAVER",
+            "search_query": "코끼리 수명",
+            "terminate": false,
+            "text": "평균적인 코끼리의 수명은 60년 정도인데 아시아 코끼리의 경우는 80살까지 사는 경우도 적지 않아. 그리고 최근에는 88살로 생을 마감한 최장수 코끼리도 있었어.",
+            "turn_id": "BK22011614-2",
+            "utterance_id": "BK22011614.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "88살까지 산 코끼리라니 굉장하다. 근데 TV에서 보니까 세계 코끼리의 날이란 게 있던데 어떻게 만들어진 거야?",
+            "turn_id": "BK22011614-3",
+            "utterance_id": "BK22011614.5"
+        },
+        {
+            "reference_date": "2021-08-12",
+            "reference_text": [
+                {
+                    "value": "한편 8월 12일은 '세계 코끼리의 날'이다.",
+                    "value_time": "2022-10-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2012년부터 코끼리 보존 의식을 높이고, 기금을 조성하기 위한 취지로 마련됐다.",
+                    "value_time": "2022-10-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspenguin.com/news/articleView.html?idxno=5217",
+            "search_query": "코끼리의 날",
+            "terminate": false,
+            "text": "궁금이도 세계 코끼리의 날을 아는구나. 세계 코끼리의 날은 8월 12일이고 코끼리 보존 의식을 높이자는 취지로 2012년부터 시작되었어.",
+            "turn_id": "BK22011614-3",
+            "utterance_id": "BK22011614.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리를 보호하려는 마음으로 생긴 날이구나. 그런데 코끼리의 크기는 얼마나 될까?",
+            "turn_id": "BK22011614-4",
+            "utterance_id": "BK22011614.7"
+        },
+        {
+            "reference_date": "2021-07-03",
+            "reference_text": [
+                {
+                    "value": "코끼리는 육지에 사는 동물 중 몸집이 가장 크다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아시아코끼리는 키 3m, 몸무게 5.4톤까지 자라고, 아프리카 코끼리는 키 3.3m, 몸무게 6.3톤까지 자란다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsworks.co.kr/news/articleView.html?idxno=557970",
+            "search_query": "코끼리의 크기",
+            "terminate": false,
+            "text": "아시아 코끼리는 키가 3미터, 몸무게가 5.4톤까지 자라고 아프리카코끼리는 그보다 좀 더 큰 3.3미터, 6.3톤까지 자라. 육지에 사는 동물 중 몸집이 가장 큰 동물이 바로 코끼리야.",
+            "turn_id": "BK22011614-4",
+            "utterance_id": "BK22011614.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "키가 3미터가 넘다니 코끼리가 정말 크구나. 그렇다면 코끼리 코는 길이가 어느 정도나 될까?",
+            "turn_id": "BK22011614-5",
+            "utterance_id": "BK22011614.9"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "무게 100㎏ 길이 2m에 뼈나 관절도 없이 수천개의 근육으로 이뤄진 코로 코끼리는 숨 쉬고 냄새 맡는 것은 물론 동료와 소통하고 큰 나무를 쓰러뜨리는가 하면 부드러운 나무의 순을 하나씩 따 입에 넣기도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/ecology_evolution/997903.html",
+            "search_query": "코끼리 코",
+            "terminate": false,
+            "text": "코끼리의 코는 뼈나 관절도 없이 수천 개의 근육으로 이루어져 있는데 길이가 2미터, 무게가 100킬로그램이나 돼.",
+            "turn_id": "BK22011614-5",
+            "utterance_id": "BK22011614.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리의 코 길이가 2미터라니 정말 길구나. 코끼리가 똑똑하다는 사실이 많이 알려져 있는데 지능이 어느 정도나 될까?",
+            "turn_id": "BK22011614-6",
+            "utterance_id": "BK22011614.11"
+        },
+        {
+            "reference_date": "2020-05-13",
+            "reference_text": [
+                {
+                    "value": "지능은 뇌의 크기에 비례하는데, 코끼리의 두뇌는 사람의 2~3배이며 무게도 5~6㎏에 달한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아이큐도 50~70 수준으로 3살 어린아이와 비슷하다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 장기 기억력이 뛰어나다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 번 만난 사람도 냄새로 기억해 알아볼 정도다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20200513601016&wlog_tag3=naver",
+            "search_query": "코끼리 지능",
+            "terminate": false,
+            "text": "뇌의 크기랑 지능은 비례하는데 코끼리의 두뇌는 사람보다 두세배나 커. 아이큐도 3살 어린이와 비슷한 수준인 50~70 정도 되고. 게다가 코끼리는 한번 만났던 사람도 냄새로 기억하고 알아볼 수 있을 만큼 장기 기억력이 뛰어난 편이야.",
+            "turn_id": "BK22011614-6",
+            "utterance_id": "BK22011614.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이큐가 50~70이나 되다니 코끼리의 지능이 상당히 높구나. 근데 TV에서 보니까 이렇게 똑똑한 코끼리를 밀렵하는 사람이 많더라. 코끼리 밀렵으로 인한 피해가 얼마나 돼?",
+            "turn_id": "BK22011614-7",
+            "utterance_id": "BK22011614.13"
+        },
+        {
+            "reference_date": "2016-12-13",
+            "reference_text": [
+                {
+                    "value": "지난 10년간 아프리카에서 코끼리 개체수의 30%에 달하는 14만여마리가 학살당했으며, 중국 등 아시아국가에서 상아 수요가 급증했기 때문이라고 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심지어 모잠비크 고롱고사 국립공원에선 내전중이던 1977년부터 15년 동안 공원내 코끼리의 90%가 밀렵꾼에 의해 학살당했으며, 내전이 끝난 뒤 태어난 암컷 코끼리의 30%가 상아가 없다는 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20161213.010300807530001",
+            "search_query": "코끼리 밀렵",
+            "terminate": false,
+            "text": "아프리카에서 2006년부터 10년 동안 14만여 마리의 코끼리가 학살당했는데 이는 개체 수의 30%에 해당돼. 그리고 모잠비크가 내전 중이던 1977년부터 15년 동안 고롱고사 국립공원에서는 밀렵꾼에 의해 학살된 코끼리가 공원 내 전체 코끼리의 90%나 돼.",
+            "turn_id": "BK22011614-7",
+            "utterance_id": "BK22011614.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리 전체의 90%를 학살하다니 정말 끔찍하다. 다시는 이런 일이 일어나서는 안된다고 생각해.",
+            "turn_id": "BK22011614-8",
+            "utterance_id": "BK22011614.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 코끼리뿐 아니라 동물을 밀렵하는 행위는 일어나서는 안돼.",
+            "turn_id": "BK22011614-8",
+            "utterance_id": "BK22011614.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이야, 근데 코끼리는 사람보다 임신기간이 길다고 들었는데 얼마나 돼?",
+            "turn_id": "BK22011614-9",
+            "utterance_id": "BK22011614.17"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "보통 코끼리는 4년에 한번 임신을 하게 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임신기간은 20~22개월이고, 보통 한배에 1마리를 낳지만, 드물게 쌍둥이를 낳는 경우도 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%81%BC%EB%A6%AC",
+            "search_query": "코끼리",
+            "terminate": false,
+            "text": "코끼리의 임신 기간은 20~22개월이고 보통 4년에 한번 임신을 해. 대부분 1마리를 출산하지만 가끔 쌍둥이를 출산하는 코끼리도 있어.",
+            "turn_id": "BK22011614-9",
+            "utterance_id": "BK22011614.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쌍둥이 코끼리라니 상상만으로도 귀엽다. 오늘 코끼리에 대한 흥미로운 대화 즐거웠어. 난 친구랑 약속이 있어서 그만 가볼게.",
+            "turn_id": "BK22011614-10",
+            "utterance_id": "BK22011614.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 친구랑 즐거운 시간 보내고 다음에 또 대화 나누자, 안녕.",
+            "turn_id": "BK22011614-10",
+            "utterance_id": "BK22011614.20"
+        }
+    ]
+}

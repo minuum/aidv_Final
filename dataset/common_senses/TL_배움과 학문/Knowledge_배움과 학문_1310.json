@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008695",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008695",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사 시간에 들어봤던 신성로마제국이라는 국가가 독일이니?",
+            "turn_id": "BK22008695-1",
+            "utterance_id": "BK22008695.1"
+        },
+        {
+            "reference_date": "2018-08-05",
+            "reference_text": [
+                {
+                    "value": "독일인들은 신성로마제국을 제1제국, 프로이센 호엔쫄레른가에 의한 제국을 제2제국, 아돌프 히틀러의 나치 독일을 제3제국이라 일컫는다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.opinionnews.co.kr/news/articleView.html?idxno=10658",
+            "search_query": "신성로마제국 독일제1제국",
+            "terminate": false,
+            "text": "맞아, 독일인들은 신성로마제국을 독일 제1제국이라고 가리켜. 그리고 프로이센 호엔촐레른가에 의한 제국을 제2제국, 아돌프 히틀러의 나치 독일을 제3제국이라고 하지.",
+            "turn_id": "BK22008695-1",
+            "utterance_id": "BK22008695.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독일사람들은 왜 나치독일을 제3제국이라고 하는거야?",
+            "turn_id": "BK22008695-2",
+            "utterance_id": "BK22008695.3"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "나치 독일은 정부에 의하여 국민들의 삶을 통제하는 전체주의적인 독재 체제를 구축하였고, 신성 로마 제국과 독일 제국을 이어받은 국가로 자칭하며 스스로를 대독일국(독일어: Großdeutsches Reich 그로스도이체스 라이히[*]) 또는 제3제국(독일어: Drittes Reich 드리테스 라이히[*]) 등으로도 불렀다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%B9%98_%EB%8F%85%EC%9D%BC",
+            "search_query": "나치독일",
+            "terminate": false,
+            "text": "나치 독일은 신성 로마 제국과 독일 제국을 이어받은 국가로 자칭하며 스스로를 대독일국 또는 제3제국 등으로 불렀어. 당시 나치 독일은 국민들의 삶을 통제하며 전체주의적인 독재 체제를 구축했었지.",
+            "turn_id": "BK22008695-2",
+            "utterance_id": "BK22008695.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 헷갈리는데 자세히 가르쳐줘. 독일제국은 어떻게 이해하면 되니?",
+            "turn_id": "BK22008695-3",
+            "utterance_id": "BK22008695.5"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "독일 제국(독일어: Deutsches Kaiserreich 도이체스 카이저라이히[*])은 1871년부터 1918년까지 존속했던 국가이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일 지역에서 근대 민족 국가를 탄생시킴으로써 현대 독일의 모태가 되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "프로이센 왕국의 독일의 통일로 성립되어, 장기 19세기 말의 대표적인 강대국이었으나 제1차 세계 대전 패전으로 제정이 붕괴하고 공화국으로 바뀌었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치 독일의 영향으로 독일 제국을 제2제국(독일어: Zweites Reich 츠바이테스 라이히[*])이라 부르기도 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%85%EC%9D%BC_%EC%A0%9C%EA%B5%AD",
+            "search_query": "독일제2제국",
+            "terminate": false,
+            "text": "독일 제국은 나치 독일의 영향으로 제2제국이라고 부르게 되었어. 독일제국은 독일 지역에서 근대 민족 국가를 탄생시킴으로써 현대 독일의 모태가 되었지. 1871년 프로이센 왕국의 독일 통일로 성립되어 장기 19세기 말의 대표적인 강대국이었지만 제1차 세계 대전 패전으로 제정이 붕괴하면서 1918년까지 존속하고 공화국으로 바뀌었어.",
+            "turn_id": "BK22008695-3",
+            "utterance_id": "BK22008695.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독일제국이라고 하면 보통 제2제국을 가리키는구나. 호엔촐레른가라는 것은 처음 들어봐, 설명해줄래?",
+            "turn_id": "BK22008695-4",
+            "utterance_id": "BK22008695.7"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "호엔촐레른 가(독일어: Haus Hohenzollern)는 브란덴부르크 선제후, 프로이센 왕, 독일 황제(프랑켄계), 호엔촐레른 공국의 통치자와 루마니아의 왕(슈바벤계)을 배출한 가문을 말한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 호엔촐레른가는 프랑켄계(호엔촐레른 본가)와 슈바벤계(지크마링겐 가)로 구별되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1415년에는 프리드리히가 신성로마제국의 황제인 지기스문트에게 충성을 맹세하고 오스만 제국을 격파한 공으로 새로운 영지인 브란덴부르크를 상속받고 브란덴부르크 선제후가 되었으며, 이후 프로이센의 왕위를 획득하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1871년 이후에는 독일 제국의 황제도 겸해 1918년까지 계속되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%97%94%EC%B4%90%EB%A0%88%EB%A5%B8%EA%B0%80",
+            "search_query": "호엔촐레른가",
+            "terminate": false,
+            "text": "호엔촐레른 가는 브란덴부르크 선제후와 프로이센 왕, 독일 황제 그리고 호엔촐레른 공국의 통치자와 루마니아의 왕을 배출한 가문인데 호엔츨레른의 본가인 프랑켄계와 지크마링겐가인 슈바벤계로 구별돼. 참고로 독일황제는 프랑켄계이고 루마니아의 왕은 슈바벤계였어. 1415년에 프리드리히는 신성로마제국의 황제인 지기스문트에게 충성을 맹세하고 오스만 제국을 격파한 공으로 새로운 영지인 브란덴부르크를 상속받고 브란덴부르크 선제후가 된 이후, 프로이센의 왕위를 획득했지. 이후 독일 제국의 황제도 겸해 1871년에서 1918년까지 이어갔어.",
+            "turn_id": "BK22008695-4",
+            "utterance_id": "BK22008695.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단한 왕가였구나. 아까 공화국으로 바뀌었다고 했는데 그 공화국에 대해서도 설명해줘.",
+            "turn_id": "BK22008695-5",
+            "utterance_id": "BK22008695.9"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "제1차 세계 대전 말 1918년 11월 9일 킬(Kiel) 군항에서 수병들이 폭동을 일으킴으로써 11월 혁명이 일어나 독일 제국 황제 빌헬름 2세는 폐위되어 네덜란드로 망명했고 독일은 11월 11일에 항복했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "11월 혁명으로 제정이 붕괴된 이후, 사민주의자 중심세력으로 부상한 독일 사회민주당(SPD)에 의하여 1919년 8월 11일 독일 라이히(Deutsches Reich)의 새로운 정부가 수립되는데, 이 정부가 바이마르 공화국이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1933년 나치당이 제1정당으로 집권하기까지 존속하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바이마르라는 이름은 이 공화국의 헌법 제정단이 처음으로 회의를 개최한 바이마르란 도시 이름에서 따왔다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정식 명칭은 1918년까지 존속했던 독일 제국 이름을 따온 독일국(독일어: Deutsches Reich 도이체스 라이히[*])이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EB%A7%88%EB%A5%B4_%EA%B3%B5%ED%99%94%EA%B5%AD",
+            "search_query": "바이마르공화국",
+            "terminate": false,
+            "text": "1918년 11월 9일 제1차세계대전 말 킬 군항에서 수병들의 폭동으로 일어난 11월 혁명으로 독일 제국 황제 빌헬름 2세는 폐위되어 네덜란드로 망명했고 이후 11월 11일에 독일이 항복했어. 그렇게 제정이 붕괴되고 1919년 8월 11일 사민주의자 중심세력으로 부상한 사회민주당에 의해 독일 라이히의 새로운 정부가 수립되면서 바이마르 공화국이 탄생해. 바이마르 공화국은 나치당이 1933년에 제1정당으로 집권하면서 사라지게 되었지. 바이마르라는 이름은 이 공화국의 헌법 제정단이 처음으로 회의를 개최했던 도시인 바이마르에서 유래해. 원래 이 공화국의 정식 명칭은 직전의 독일 제국 이름을 딴 독일국이야.",
+            "turn_id": "BK22008695-5",
+            "utterance_id": "BK22008695.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독일 역사는 꽤 복잡한 것 같아. 그러고 보니 신성로마제국은 어떻게 멸망하게 되었니?",
+            "turn_id": "BK22008695-6",
+            "utterance_id": "BK22008695.11"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "1804년 나폴레옹은 스스로를 프랑스인의 황제라고 선언했고, 이에 같은 해 프란츠 2세는 신성 로마 황제임과 동시에 프랑스와 오스트리아의 동등성을 유지하고 신성 로마 황제가 두 직위를 능가하는 직위라는 것을 보여주기 위해 스스로를 오스트리아의 황제로 선언했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 1805년 12월 오스트리아가 아우스터리츠 전투에서 프랑스에게 패배한 뒤 1806년 7월에 제국 내의 많은 독일 선제후들이 제국을 이탈하여 프랑스의 위성 국가인 라인 동맹을 형성하였고, 이는 사실상 신성 로마 제국의 해체를 의미하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1806년 8월 프란츠 2세는 나폴레옹이 스스로를 신성 로마 황제로 선언하는 것을 막기 위해 퇴위를 했고, 이는 프란츠 2세를 나폴레옹의 봉신으로 전락하게 만들었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%84%B1_%EB%A1%9C%EB%A7%88_%EC%A0%9C%EA%B5%AD%EC%9D%98_%ED%95%B4%EC%B2%B4",
+            "search_query": "신성로마제국의 해체",
+            "terminate": false,
+            "text": "1804년 나폴레옹이 스스로를 프랑스인의 황제라고 선언한 것에 대해 프란츠 2세는 자신이 신성로마제국의 황제인 동시에 오스트리아의 황제라고 선언했어. 이는 프랑스와 오스트리아가 동등하다는 것을 유지하고 신성 로마 황제라는 직위가 두 직위보다 우월하다는 것을 보여주기 위함이었어. 하지만 1805년 12월 아우스터리츠 전투에서 오스트리아가 프랑스에게 패배하고 1806년 7월 신성로마제국 내의 많은 독일 선제후들이 제국을 이탈했고 프랑스의 위성 국가인 라인 동맹을 형성하면서 신성 로마 제국이 사실상 해체되었지. 같은 해 8월 프란츠 2세는 나폴레옹이 자신을 신성 로마 황제로 선언하는 것을 막기 위해 퇴위했는데 이 일로 프란츠 2세가 나폴레옹의 봉신으로 전락하게 되었어.",
+            "turn_id": "BK22008695-6",
+            "utterance_id": "BK22008695.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나폴레옹의 이름을 여기서 들을 줄은 몰랐네! 독일의 시작은 신성로마제국이라고 보면 되니?",
+            "turn_id": "BK22008695-7",
+            "utterance_id": "BK22008695.13"
+        },
+        {
+            "reference_date": "2022-03-18",
+            "reference_text": [
+                {
+                    "value": "동프랑크 왕국(라틴어: regnum Francorum orientalium, 독일어: Ostfrankenreich)은 843년 베르됭 조약으로 세 부분으로 나뉜 카롤링거 왕가의 프랑크 왕국 중에서 동쪽에 있던 왕국을 말한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동프랑크 왕국은 나중에 신성 로마 제국과 현대의 독일의 모태가 되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동프랑크 왕국은 4개의 공작령으로 나누는데 슈바벤, 프랑켄, 작센 그리고 바이에른이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%ED%94%84%EB%9E%91%ED%81%AC_%EC%99%95%EA%B5%AD",
+            "search_query": "동프랑크왕국",
+            "terminate": false,
+            "text": "그 이전인 동프랑크 왕국이 신성 로마 제국과 현대 독일의 모태야. 843년 베르됭 조약으로 카롤링거 왕가의 프랑크 왕국이 세 부분으로 나뉘었는데 그 중 동쪽에 있던 왕국이 동프랑크 왕국이었어. 동프랑크 왕국은 슈바벤, 프랑켄, 작센, 바이에른 이렇게 4개의 공작령으로 나뉘어져.",
+            "turn_id": "BK22008695-7",
+            "utterance_id": "BK22008695.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "프랑켄이면 아까 그 가문이구나! 그럼 서프랑크왕국은 오늘날 어떤 나라가 되었니?",
+            "turn_id": "BK22008695-8",
+            "utterance_id": "BK22008695.15"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "서프랑크 왕국은 이후 카페 왕조와의 분쟁도 겪긴 했지만 성장을 하면서 중세 프랑스, 그리고 현재의 프랑스로 발전하는 초석을 닦았다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대체로 오늘날 프랑스의 영토와 일치한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%94%84%EB%9E%91%ED%81%AC_%EC%99%95%EA%B5%AD",
+            "search_query": "서프랑크왕국",
+            "terminate": false,
+            "text": "서프랑크 왕국은 대체로 오늘날 프랑스 영토와 일치해. 카페 왕조와 분쟁을 겪는 등 성장을 하면서 중세 프랑스와 현대 프랑스로 발전하는 초석을 닦았어.",
+            "turn_id": "BK22008695-8",
+            "utterance_id": "BK22008695.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서프랑크와 동프랑크 왕국이 각각 프랑스와 독일로 발전했으면 나머지 프랑크 왕국은 어떻게 되었니?",
+            "turn_id": "BK22008695-9",
+            "utterance_id": "BK22008695.17"
+        },
+        {
+            "reference_date": "2022-03-18",
+            "reference_text": [
+                {
+                    "value": "로타르 1세 사후 중프랑크 왕국은 또다시 로타르 1세의 세 아들들에게 삼분된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분열된 중프랑크 왕국은, 동프랑크 왕국과 서프랑크 왕국이 각기 독일과 프랑스로 발전하는 과정에서 이들 두 왕국에 서서히 흡수되어 소멸됨으로써 두 왕국과 달리 단명한 나라가 되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%ED%94%84%EB%9E%91%ED%81%AC_%EC%99%95%EA%B5%AD",
+            "search_query": "중프랑크왕국",
+            "terminate": false,
+            "text": "중프랑크 왕국의 왕 로타르 1세 사후 왕국은 로타르 1세의 세 아들들에게 삼분되는데 분열된 중프랑크 왕국은 동프랑크 왕국과 서프랑크 왕국이 각기 독일과 프랑스로 발전하는 동안 이 두 왕국에게 서서히 흡수되면서 소멸했어. 그래서 중프랑크 왕국은 두 왕국과 달리 단명한 나라가 되었지.",
+            "turn_id": "BK22008695-9",
+            "utterance_id": "BK22008695.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중프랑크 왕국 정말 안타깝다. 프랑스와 독일이 같은 국가에서 출발했다는 건 정말 흥미로워. 다음에 유럽 역사를 자세히 살펴봐야겠어.",
+            "turn_id": "BK22008695-10",
+            "utterance_id": "BK22008695.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "개인적으로 지리와 함께 역사를 공부하면 더 잘 되었던 것 같아. 너도 참고하길 바라. 시간이 다 되었다. 그럼 내일 보자.",
+            "turn_id": "BK22008695-10",
+            "utterance_id": "BK22008695.20"
+        }
+    ]
+}

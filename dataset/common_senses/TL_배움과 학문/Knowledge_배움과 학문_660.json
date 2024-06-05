@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004040",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004040",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국말 공부하기 너무 어렵네요. 영상을 보고 회화는 가능하지만 문법이나 어법 등이 너무 어려워요.",
+            "turn_id": "BK22004040-1",
+            "utterance_id": "BK22004040.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 부분 때문에 그러세요?",
+            "turn_id": "BK22004040-1",
+            "utterance_id": "BK22004040.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어절이나 음절 같은 부분을 가르치기 어렵네요. 사실 저도 잘 이해를 못하고 있는 것들이거든요.",
+            "turn_id": "BK22004040-2",
+            "utterance_id": "BK22004040.3"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "말토막 또는 어절(語節)은 한국어에서 문장을 구성하고 있는 도막도막의 성분으로서 발음의 기본이 되는 단위이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%B4%EC%A0%88",
+            "search_query": "어절",
+            "terminate": false,
+            "text": "어절이나 음절 같은 부분들은 다들 많이 헷갈리죠. 어절은 문장을 구성하고 있는 성분이에요. 그래서 발음의 단위로도 사용돼요.",
+            "turn_id": "BK22004040-2",
+            "utterance_id": "BK22004040.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어절을 어떻게 구분하는지 헷갈렸는데 띄어쓰기로 구분하면 되겠네요. 음운 규칙도 너무 어려워요.",
+            "turn_id": "BK22004040-3",
+            "utterance_id": "BK22004040.5"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "한국어의 음운 규칙(韓國語―音韻規則)은 음절의 끝소리 규칙, 자음동화(비음화, 유음화), 구개음화, 축약, 탈락, 모음동화(전설모음화, 모음조화) 등이 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%96%B4%EC%9D%98_%EC%9D%8C%EC%9A%B4_%EA%B7%9C%EC%B9%99",
+            "search_query": "한국어의 음운규칙",
+            "terminate": false,
+            "text": "음운 규칙은 음절의 끝소리 규칙, 자음 동화, 구개음화, 축약, 탈락, 모음 동화 등이 있는데 어떤 것이 궁금하세요?",
+            "turn_id": "BK22004040-3",
+            "utterance_id": "BK22004040.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동화는 전래 동화할 때 그 동화를 이야기하는 건가요?",
+            "turn_id": "BK22004040-4",
+            "utterance_id": "BK22004040.7"
+        },
+        {
+            "reference_date": "2022-02-06",
+            "reference_text": [
+                {
+                    "value": "동화(同化)는 음운 과정(phonological process)의 가장 보편적인 유형들 가운데 하나로, 음운이 다른 음운의 영향을 받아 비슷한 방향으로 바뀌는 작용을 말한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예) 한국어 '종로'가 '종노'로 발음.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%ED%99%94_(%EC%96%B8%EC%96%B4%ED%95%99)",
+            "search_query": "동화",
+            "terminate": false,
+            "text": "아니에요. 종로라는 발음을 종노로 하는 것처럼 다른 음운의 영향을 받아 음운이 바뀌는 현상인데 음운 과정의 가장 보편적인 유형이에요.",
+            "turn_id": "BK22004040-4",
+            "utterance_id": "BK22004040.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 굳이도 구지로 발음이 되던데 이것도 동화 현상 때문에 그런 것인가요?",
+            "turn_id": "BK22004040-5",
+            "utterance_id": "BK22004040.9"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "구개음화(口蓋音化)는 경구개음이 아닌 자음이 경구개음으로 변하는 현상이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어 ‘굳이’, ‘같이’는 각각 /구지/, /가치/로 발음한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EA%B0%9C%EC%9D%8C%ED%99%94",
+            "search_query": "구개음화",
+            "terminate": false,
+            "text": "자음이 경구개음으로 변하는 현상이고, 구개음화라고 하죠. 굳이는 구지로 같이는 가치로 발음하는 것을 이야기 하는 거예요. 이해가 가지 않으면 예를 더 들어드릴게요.",
+            "turn_id": "BK22004040-5",
+            "utterance_id": "BK22004040.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 어려워서 그러는데 예시를 더 들어주시거나 더 쉽게 설명해주실 수 있나요?",
+            "turn_id": "BK22004040-6",
+            "utterance_id": "BK22004040.11"
+        },
+        {
+            "reference_date": "2017-06-04",
+            "reference_text": [
+                {
+                    "value": "굳히다[구치다] 닫히다[다치다] 묻히다[무치다]",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구개음화(입천장소리되기)란 구개음이 아닌 ‘ㄷ’, ‘ㅌ’ 따위의 자음이 뒤에 오는 모음 ‘ㅣ’나 ‘ㅣ’로 시작되는 이중 모음의 영향을 받아 구개음인 ‘ㅈ’, ‘ㅊ’ 따위로 바뀌는 현상을 말합니다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20170614000018207",
+            "search_query": "구개음화",
+            "terminate": false,
+            "text": "우리나라 말을 발음할 때 굳히다를 구치다로 닫히다를 다치다로 묻히다를 무치다로 발음하게 되죠? 이런 현상이 구개음화인데, 디귿이나 티읕같은 자음과 뒤에 이 모음이 만났을 때 발음이 지읒이나 치읓으로 발음 되는 현상을 말해요.",
+            "turn_id": "BK22004040-6",
+            "utterance_id": "BK22004040.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 이해가 조금 가네요. 그리고 사잇소리라는 것도 있던데 그것은 무엇을 이야기하는 건가요?",
+            "turn_id": "BK22004040-7",
+            "utterance_id": "BK22004040.13"
+        },
+        {
+            "reference_date": "2019-03-08",
+            "reference_text": [
+                {
+                    "value": "사잇소리 현상은 자음을 두 개의 형태소 사이에 삽입시키는 현상을 뜻한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사잇소리 현상이 나타나는 조건은 먼저 발음상 사잇소리가 있어야 한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=598017",
+            "search_query": "잼라이브 사잇소리",
+            "terminate": false,
+            "text": "자음을 두 개의 형태소 사이에 삽입시키는 현상인데 이런 현상이 나오려면 형태소 사이의 발음 상 사잇소리가 있어야 해요.",
+            "turn_id": "BK22004040-7",
+            "utterance_id": "BK22004040.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운데 예시를 들어주실 수 있나요?",
+            "turn_id": "BK22004040-8",
+            "utterance_id": "BK22004040.15"
+        },
+        {
+            "reference_date": "2019-03-08",
+            "reference_text": [
+                {
+                    "value": "[예]를 들면 봄비 → [봄삐], 나뭇잎 → [나문닙]가 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=598527",
+            "search_query": "사잇소리현상",
+            "terminate": false,
+            "text": "설명이 어려웠나 보네요. 예를 들어서 봄비를 봄삐로 나뭇잎을 나문닢같이 발음이 되는 거에요.",
+            "turn_id": "BK22004040-8",
+            "utterance_id": "BK22004040.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예시를 들어주시니 조금 이해가 가네요. 저번에 유튜브에서 보니깐 한국의 어린 아이들은 놀이를 통해서 배우던데 그렇게 하면 어휘력이 향상 되나요?",
+            "turn_id": "BK22004040-9",
+            "utterance_id": "BK22004040.17"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "말놀이를 하면서 아이들은 자기가 아는 단어를 확인하고, 새로운 단어를 알아 가며 재미를 느끼고 자연스럽게 어휘력을 향상시키게 된다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=428678",
+            "search_query": "말놀이",
+            "terminate": false,
+            "text": "그럼요. 아이들이 말놀이를 하면서 자연스럽게 언어 능력이 향상되는 거죠. 아이들이 자기가 아는 단어를 확인하고 또 모른다면 새로운 단어를 배우면서 재미있어 해요.",
+            "turn_id": "BK22004040-9",
+            "utterance_id": "BK22004040.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "놀이를 통해 배우면 더 쉽게 배울 수 있어 그런가 보네요. 덕분에 궁금한 게 많이 해소됐네요.",
+            "turn_id": "BK22004040-10",
+            "utterance_id": "BK22004040.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 궁금한 점이나 필요한 정보가 있다면 연락주세요. 안녕히 계세요.",
+            "turn_id": "BK22004040-10",
+            "utterance_id": "BK22004040.20"
+        }
+    ]
+}

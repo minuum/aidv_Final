@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013030",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013030",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님 오늘은 너울성 파도와 이안류에 대해서 알려주세요. 우선 너울성 파도부터요.",
+            "turn_id": "BK22013030-1",
+            "utterance_id": "BK22013030.1"
+        },
+        {
+            "reference_date": "42960.0",
+            "reference_text": [
+                {
+                    "value": "너울성 파도는 만조시 해안을 따라 형성된 강한 조류와 방파제가 부딪치면서 순간적으로 강력한 에너지를 뿜는 위력적인 파도다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sporbiz.co.kr/news/articleView.html?idxno=135176",
+            "search_query": "너울성 파도",
+            "terminate": false,
+            "text": "만조 때 해안을 따라가며 몰아치는 강한 파도가 방파제에 충돌하게 되면서 일시적으로 조류가 강한 힘을 전달하게 되는데요. 이때 발생하는 압도적이고 강한 파도가 너울성 파도입니다.",
+            "turn_id": "BK22013030-1",
+            "utterance_id": "BK22013030.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 너울성 파도가 왜 위험한 거죠?",
+            "turn_id": "BK22013030-2",
+            "utterance_id": "BK22013030.3"
+        },
+        {
+            "reference_date": "44104.0",
+            "reference_text": [
+                {
+                    "value": "바람을 동반하는 일반 파도와 달리 바람이 없어도 발생하고 사람들 눈에 쉽게 띄지도 않는다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예측할 수 없는 상황에서 갑자기 방파제와 해안을 덮치기 때문에 매우 위험하다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Society/article/all/20200930/103200905/1",
+            "search_query": "너울성 파도 위험",
+            "terminate": false,
+            "text": "일단 사람들 눈에 잘 띄지도 않고, 바람과 함께 나타나는 보통 파도와 달리 바람이 없어도 발생해요. 전혀 예측이 안 되는 상황에서 갑자기 방파제와 해안으로 불어닥치기 때문에 매우 위험합니다.",
+            "turn_id": "BK22013030-2",
+            "utterance_id": "BK22013030.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이번에는 이안류에 관해 설명해주세요.",
+            "turn_id": "BK22013030-3",
+            "utterance_id": "BK22013030.5"
+        },
+        {
+            "reference_date": "44619.0",
+            "reference_text": [
+                {
+                    "value": "이안류(離岸流), 역조(逆潮), 거꾸로 파도, 립 커런트(영어: rip current 또는 rip)는 해안에서 바다 방향으로 흐르는 해류로, 역파도, 역물살이라고도 부른다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폭이 좁고, 물살이 매우 빠르다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%95%88%EB%A5%98",
+            "search_query": "이안류",
+            "terminate": false,
+            "text": "이안류는 해안에서 바다 방향으로 흐르는 해류를 말하는데, 역파도나 역물살이라고도 합니다. 역조, 거꾸로 파도로도 불리고, 영어로는 립 커런트라고 하고요. 폭이 좁고, 물살이 매우 빠르다는 점이 특징입니다.",
+            "turn_id": "BK22013030-3",
+            "utterance_id": "BK22013030.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이안류는 얼마나 위험한 건가요?",
+            "turn_id": "BK22013030-4",
+            "utterance_id": "BK22013030.7"
+        },
+        {
+            "reference_date": "44387.0",
+            "reference_text": [
+                {
+                    "value": "바다에 있다가 이안류에 휩싸일 경우 급속도로 바다 쪽으로 나가게 돼 인명피해를 유발한다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유속은 최대 시속 10㎞에 달할 정도로 빠르다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빠른 유속 탓에 이안류를 거슬러 수영하기는 매우 어렵다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01380886629113208",
+            "search_query": "이안류 인명피해",
+            "terminate": false,
+            "text": "바다에 있다가 이안류에 휩싸이면 급속도로 바다 쪽으로 나가게 되는데, 목숨을 잃을 수 있습니다. 파도 속도가 시간당 최대 10킬로미터나 될 정도로 빠르다 보니, 이안류에 맞서서 헤엄을 치는 것이 몹시 어렵기도 하고요.",
+            "turn_id": "BK22013030-4",
+            "utterance_id": "BK22013030.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "죽을 수 있다고요? 우와 듣기만 해도 몸이 오싹오싹 떨리네요.",
+            "turn_id": "BK22013030-5",
+            "utterance_id": "BK22013030.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 여름철 바닷가 물놀이에 각별히 조심해야죠.",
+            "turn_id": "BK22013030-5",
+            "utterance_id": "BK22013030.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 너울성 파도나 이안류를 만났을 때는 어떻게 대처해야 하나요? 우선 너울성 파도부터요.",
+            "turn_id": "BK22013030-6",
+            "utterance_id": "BK22013030.11"
+        },
+        {
+            "reference_date": "42626.0",
+            "reference_text": [
+                {
+                    "value": "너울성 파도에 휩쓸렸을 경우 에너지 소모를 줄이는 생존수영자세를 통해 물 위에 표류하면서 구조를 기다리거나 헤엄쳐 나오는 방법 등이 있다",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2775040",
+            "search_query": "너울성 파도 생존수영",
+            "terminate": false,
+            "text": "너울성 파도로 조난을 당하면, 체력을 아끼는 생존수영 자세를 하셔야 합니다. 생존수영 자세로 바다 위에 떠 있으면서 구조를 기다리거나, 직접 수영을 해서 나오든가 하셔야 해요.",
+            "turn_id": "BK22013030-6",
+            "utterance_id": "BK22013030.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 생존수영 자세로 체력을 아껴야 하는군요. 그럼 이안류 대처법은요?",
+            "turn_id": "BK22013030-7",
+            "utterance_id": "BK22013030.13"
+        },
+        {
+            "reference_date": "44401.0",
+            "reference_text": [
+                {
+                    "value": "이럴 때는 이안류의 흐름에서 벗어나는 것이 중요하다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이안류의 흐름에서 45도 방향으로 헤엄쳐 빠져나온 뒤 해안 쪽으로 헤엄쳐 나오면 된다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20210724.99099006689",
+            "search_query": "이안류 흐름",
+            "terminate": false,
+            "text": "이안류가 나타나는 방향에서 빠져나오는 것이 제일 중요합니다. 이안류가 형성되는 방향에서 45도 방향으로 수영을 통해 벗어난 후, 해안 쪽으로 나와야 합니다.",
+            "turn_id": "BK22013030-7",
+            "utterance_id": "BK22013030.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너울성 파도에 따른 사고를 예방하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22013030-8",
+            "utterance_id": "BK22013030.15"
+        },
+        {
+            "reference_date": "44111.0",
+            "reference_text": [
+                {
+                    "value": "소방방재청이 제시한 너울성 파도로부터 안전사고를 예방하는 방법은 △방파제 및 해안가 출입시, 라디오나 TV, 인터넷 등을 통해서 기상상황 미리 파악하고, △기상이 좋지 않을 경우 방파제나 해안가에 접근을 피하는 것이 상책이며, 특히 이럴 경우 바다 낚시를 절대 금해야 한다고 밝혔다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ecotiger.co.kr/news/articleView.html?idxno=31179",
+            "search_query": "너울성 파도 사고 예방",
+            "terminate": false,
+            "text": "소방방재청에 따르면 방파제나 바닷가에 발을 들일 때는 먼저 라디오나, TV를 통해서 날씨를 확인해야 하고요. 날씨가 좋지 않으면 방파제나 바닷가에 가지 않는 것이 좋고, 특히 바다낚시는 반드시 하면 안 됩니다.",
+            "turn_id": "BK22013030-8",
+            "utterance_id": "BK22013030.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 기상 상황을 미리 알아야 하는군요. 그러면 혹시 이안류도 미리 알 수 있나요?",
+            "turn_id": "BK22013030-9",
+            "utterance_id": "BK22013030.17"
+        },
+        {
+            "reference_date": "42962.0",
+            "reference_text": [
+                {
+                    "value": "기상청은 2011년부터 이안류가 발생하는 부산 해운대, 제주 중문, 양양 낙산, 보령 대천 등 4개 해수욕장을 대상으로 예측시스템을 운영하고 있다.",
+                    "value_time": "44787.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/environment/806837.html",
+            "search_query": "이안류 예측시스템",
+            "terminate": false,
+            "text": "2011년부터 부산 해운대해수욕장, 제주 중문해수욕장 등 4개 해수욕장에는 기상청에서 운영 중인 이안류 예측 시스템이 설치되어 있습니다.",
+            "turn_id": "BK22013030-9",
+            "utterance_id": "BK22013030.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼼꼼히 기억해서 혹시나 위기에 닥치면 써먹어야겠군요. 오늘도 말씀 잘 들었습니다!",
+            "turn_id": "BK22013030-10",
+            "utterance_id": "BK22013030.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 가시는 길 조심해서 가세요!",
+            "turn_id": "BK22013030-10",
+            "utterance_id": "BK22013030.20"
+        }
+    ]
+}

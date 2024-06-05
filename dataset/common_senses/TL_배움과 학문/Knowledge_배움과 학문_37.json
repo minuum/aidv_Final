@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009226",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009226",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주 교양수업 과제를 해야 하는데 어떤 것부터 시작해야 할지 몰라서 고민이에요.",
+            "turn_id": "BK22009226-1",
+            "utterance_id": "BK22009226.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 벌써 개강하셨군요. 혹시 어떤 수업 과제인데요?",
+            "turn_id": "BK22009226-1",
+            "utterance_id": "BK22009226.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 프랑스 철학자 한 명을 소개해서 발표하는 교양수업인데요. 혹시 프랑스 철학에 대해서 잘 알고 계실까요?",
+            "turn_id": "BK22009226-2",
+            "utterance_id": "BK22009226.3"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "현대 프랑스철학의 무의식을 분석해 본다면 그 안에는 프로이트라는 이름이 있을 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분의 현대 프랑스철학은 프로이트의 창조적 변형이라 해도 과언이 아니며, 들뢰즈, 푸코, 메를로퐁티, 레비나스, 베르그송, 사르트르와 같은 사상가들 중 정신분석을 경유하지 않은 이는 거의 없기 때문이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=87888",
+            "search_query": "프랑스 철학",
+            "terminate": false,
+            "text": "네, 그럼요. 제가 근현대철학에 관심이 많아서 잘 알고 있어요. 현대 프랑스 철학의 근본에는 철학자 프로이트가 있죠. 대개의 현대 프랑스 철학은 프로이트의 이론을 창조적으로 바꿨다 해도 과언이 아니죠. 들뢰즈, 푸코, 메를로퐁티, 레비나스, 베르그송, 사르트르와 같은 사상가들은 모두 정신분석을 경유했죠.",
+            "turn_id": "BK22009226-2",
+            "utterance_id": "BK22009226.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 혹시 프로이트에 대해 자세히 알려주실 수 있을까요?",
+            "turn_id": "BK22009226-3",
+            "utterance_id": "BK22009226.5"
+        },
+        {
+            "reference_date": "2022-05-05",
+            "reference_text": [
+                {
+                    "value": "오스트리아의 정신과 의사이자 정신분석학의 창시자 지그문트 프로이트가 체코의 유대인 가정에서 태어났다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오스트리아 빈 대학에서 의학을 공부한 그는 파리에서 최면 요법을 연구하고 돌아와 정신과 개인병원을 개업했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 신경증 증상들이 성적 욕망과 방어 사이의 갈등이라는 주장을 했고, 저서 '꿈의 해석'에서 무의식의 세계인 꿈의 분석과 인간 활동의 근본 에너지를 성욕과 본능에 근거해 설명함으로써 극단적인 격론을 불러일으켰다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022050314404666227",
+            "search_query": "철학자 프로이트",
+            "terminate": false,
+            "text": "네, 프로이트는 체코의 유대인 가정에서 태어났고, 오스트리아의 정신과 의사이자 정신분석학의 창시자가 되었죠. 그는 오스트리아 빈 대학에서 의학을 공부했고 파리에서 최면을 연구했어요. 그리고 파리에서 돌아와 개인 정신병원을 열었고, 그는 신경증 증상들이 성적 욕망과 방어 간의 갈등이라는 주장을 펼쳤죠. 그는 꿈의 해석이라는 제목으로 책을 썼는데, 무의식의 세계인 꿈을 분석해 인간 활동의 근본 에너지를 성욕과 본능에 있다고 설명했죠.",
+            "turn_id": "BK22009226-3",
+            "utterance_id": "BK22009226.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 프로이트는 원래 의사였군요. 그렇다면 책 꿈의 해석에 등장하는 개념 무의식의 요지가 뭔가요?",
+            "turn_id": "BK22009226-4",
+            "utterance_id": "BK22009226.7"
+        },
+        {
+            "reference_date": "2013-09-13",
+            "reference_text": [
+                {
+                    "value": "프로이트가 ‘무의식’이란 영역을 혼자 발견해 이론화했다는 신화부터 도마에 오른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "프로이트는 어린 시절의 충격적 경험이 억압으로 인해 무의식에 잠재해 있다가 정신질환으로 나타날 수 있다고 생각했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정신분석으로 무의식 속의 억압된 기제를 의식 위로 끌어냄으로써 병적 증상의 치료가 가능하다는 게 프로이트 이론의 요지다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/article/201309132209305",
+            "search_query": "프로이트 무의식이론",
+            "terminate": false,
+            "text": "네, 그는 무의식의 영역을 혼자 발견했고 그 기반으로 신화가 있다고 주장했죠. 이론의 요지는 어린 시절의 트라우마가 억압 때문에 무의식 속에 숨어있다가 정신질환으로 나타날 수 있다는 것이죠. 정신분석으로 무의식 속의 억압 기제를 의식 위로 끄집어내어 정신병적 증상의 치료가 가능하다는 주장이죠.",
+            "turn_id": "BK22009226-4",
+            "utterance_id": "BK22009226.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 프로이트는 정신병 치료에 쓰일 수 있다고 생각했군요. 꿈의 해석이 발표된 후에 그 당시 반응이 어땠나요?",
+            "turn_id": "BK22009226-5",
+            "utterance_id": "BK22009226.9"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "1899년 지크문트 프로이트의 《꿈의 해석》이 발표되고 한 세기가 흘렀지만 정신분석을 둘러싼 논쟁은 계속되고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정신분석은 인간 해방의 강력한 힘으로 인식됐다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모더니즘, 복지국가, 급진적 대변혁 등을 뒷받침했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동시에 반정치, 반페미니즘, 동성애 혐오 등의 원천이 됐고 ‘사이비 과학’ 취급도 받았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2022072233331",
+            "search_query": "꿈의 해석 논쟁",
+            "terminate": false,
+            "text": "정신분석은 인간 해방의 강력한 힘으로 여겨졌고 모더니즘, 복지국가, 급진적 대변혁 등과 같은 주장들을 뒷받침했어요. 이와 반면에 반정치, 반페미니즘, 동성애 혐오 등의 근원이 됐고 사이비 과학 취급도 받았었죠. 책은 1899년 발표됐지만 한 세기가 흐른 현재까지 정신분석을 둘러싼 논쟁은 계속되고 있죠.",
+            "turn_id": "BK22009226-5",
+            "utterance_id": "BK22009226.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 반응들이 있었군요. 그의 이론에 반대하는 철학자도 있었을까요?",
+            "turn_id": "BK22009226-6",
+            "utterance_id": "BK22009226.11"
+        },
+        {
+            "reference_date": "2013-09-16",
+            "reference_text": [
+                {
+                    "value": "프로이트 정신분석학의 히트 용어 ‘오이디푸스 콤플렉스’에 대해서도 옹프레는 “모든 사람에게 일반화하기 어려운 현상”이라고 단언한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아들이 어머니에게 성적 욕망을 느끼고 아버지를 살해해야 할 적으로 본다는 이 콤플렉스는 프로이트 개인의 아주 독특한 가족사에서 비롯된 프로이트 자신의 이야기일 뿐이라고까지 주장한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여성을 ‘위축된 페니스’로 규정짓고 여성이 남근을 선망한다는 주장은 또 어떤가.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "“프로이트의 이론들은 아무리 복잡해 보여도 확실한 공통분모를 지녔다. 바로 여성 혐오와 남성 우월주의에 기반한다는 점이다.”",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/culture/book/603565.html",
+            "search_query": "프로이트 이론",
+            "terminate": false,
+            "text": "네, 오이디푸스 콤플렉스는 프로이트가 유행시킨 주장인데요, 이에 대해 철학자 옹프레는 단호히 이 주장은 모든 사람에게 일반화하기 어려운 현상이라고 말했어요. 또, 이 콤플렉스는 프로이트의 아주 독특한 개인적 가족사에서 출발한 프로이트 자신의 이야기일 뿐이라고도 주장했죠. 프로이트의 주장 중, 여성을 위축된 페니스로 규정하고 여성이 남근을 부러워한다는 이론들은 아무리 복잡해 보여도 확실히 공통분모를 지녔고, 바로 여성 혐오와 남성 우월주의를 기저에 둔다는 것이죠.",
+            "turn_id": "BK22009226-6",
+            "utterance_id": "BK22009226.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 오이디푸스 콤플렉스라는 주장이 있었군요. 그렇다면 그가 주장한 오이디푸스 콤플렉스는 어떤 건지 알 수 있을까요?",
+            "turn_id": "BK22009226-7",
+            "utterance_id": "BK22009226.13"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "프로이트의 ‘오이디푸스 콤플렉스’는 아버지를 살해하고 아버지 자리를 차지하려는 자식의 무의식적 욕망을 가리킨다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "프로이트는 오이디푸스 콤플렉스를 개인의 무의식을 지배하는 힘이자 인간의 문화를 두루 규정하는 힘이라고 보았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "“오이디푸스 콤플렉스에 종교·도덕·사회·예술의 기원이 집중돼 있다.”",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아버지를 살해하려는 무의식적 충동이 인류 문화의 보편적 창조 원리라는 얘기다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오이디푸스 콤플렉스가 문화의 보편적 원리라면, 그 오이디푸스의 아버지는 실제의 아버지일 뿐만 아니라, 아버지의 권위를 체현한 상징적 아버지이기도 할 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/1052451.html",
+            "search_query": "프로이트의 오이디푸스 콤플렉스",
+            "terminate": false,
+            "text": "네, 오이디푸스 콤플렉스란 아버지를 살해하고 아버지의 위치에 자리매김하고 싶어 하는 자식의 무의식적 욕망을 말하는데요. 그는 이 주장이 개인의 무의식을 차지하는 힘이자 문화를 두루 규정하는 원천이라고 보았고 종교, 도덕, 사회, 예술의 기원의 심지라고 말했죠. 다시 말해 아버지를 죽이려는 무의식적 충동이 인류 문화의 일반적인 창조 원리라는 말인데요. 이 콤플렉스가 문화의 보편적 원리라면, 그 오이디푸스의 아버지는 실제의 아버지 혹은 아버지의 권위를 상징적으로 나타낸 아버지를 말하기도 하죠.",
+            "turn_id": "BK22009226-7",
+            "utterance_id": "BK22009226.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 의미가 있었군요. 그렇다면 예술에서는 그의 이론이 어떻게 영향을 받았나요?",
+            "turn_id": "BK22009226-8",
+            "utterance_id": "BK22009226.15"
+        },
+        {
+            "reference_date": "2022-03-15",
+            "reference_text": [
+                {
+                    "value": "초현실주의는 원시적인 상태의 문학과 미술을 재조명하면서, 무의식(無意識, Unbewusste, unconsciousness)의 세계를 현실 속에 나타내려 했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리하여 초현실주의자들은 “작가란 자신의 내면에서 보이는 것은 뚜렷한 윤곽으로 그려내거나 투사할 수 있어야 한다.”고 주장하면서 무의식, 꿈, 환상의 세계를 탐색하면서 현실의 세계가 아니라 비이성적인 것들, 무의식의 세계들을 그리거나 써 남겼다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 그런 작업을 위하여 초현실주의자들은 프로이트(Sigmund Freud, 1856~1939)의 정신분석을 교본(text)으로 받아들였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kor.theasian.asia/archives/310687",
+            "search_query": "프로이트 초현실주의",
+            "terminate": false,
+            "text": "네, 초현실주의자들은 그의 정신분석을 긍정적으로 받아들였는데요. 이 이론은 문학과 미술을 원시적인 상태로 보고, 무의식의 세계를 현실에서 표현하려고 했죠. 그래서 이들은 작가란 자신의 내면 안에 보이는 것은 뚜렷한 윤곽으로 그려내거나 지켜볼 수 있어야 한다고 주장했어요. 초현실주의자 작가들은 무의식, 꿈, 환상의 세계를 탐구하고 비이성적인 것들과 무의식의 세계 즉, 현실의 세계가 아닌 것들을 그리거나 기록했죠.",
+            "turn_id": "BK22009226-8",
+            "utterance_id": "BK22009226.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 현실의 세계와 거리가 먼 것에 집중했군요. 그렇다면 초현실주의 대표작가에 누가 있나요?",
+            "turn_id": "BK22009226-9",
+            "utterance_id": "BK22009226.17"
+        },
+        {
+            "reference_date": "2022-03-15",
+            "reference_text": [
+                {
+                    "value": "우리는 초현실주의(超現實主義, Surrealism)를 대표하는 화가들을 쉽게 손으로 꼽을 수 있는데 그들은 바로 살바도르 달리(Salvador Dali)와 르네 마그리트(Rene Magritte) 등이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kor.theasian.asia/archives/310687",
+            "search_query": "초현실주의 화가",
+            "terminate": false,
+            "text": "살바도르 달리와 르네 마그리트와 같은 초현실주의 작가를 쉽게 손으로 꼽을 수 있죠.",
+            "turn_id": "BK22009226-9",
+            "utterance_id": "BK22009226.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 이 작가들의 작품을 발표 자료에 넣으면 되겠네요. 자세하게 알려주셔서 덕분에 막막했던 고민이 해결됐어요. 감사합니다.",
+            "turn_id": "BK22009226-10",
+            "utterance_id": "BK22009226.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 고민을 해결해드린 것 같아 뿌듯하네요. 그럼 안녕히 계세요!",
+            "turn_id": "BK22009226-10",
+            "utterance_id": "BK22009226.20"
+        }
+    ]
+}

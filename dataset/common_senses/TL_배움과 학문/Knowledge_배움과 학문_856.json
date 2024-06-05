@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005571",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005571",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 프랑스 혁명에 대한 소설을 읽고 있어요. 그런데 왕비였던 마리 앙투아네트가 빵이 없으면 케이크를 먹으면 된다고 한 말은 정말 사실인가요?",
+            "turn_id": "BK22005571-1",
+            "utterance_id": "BK22005571.1"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "빵을 달라고 여인들이 폭동을 일으키자 \"빵이 없으면 케이크를 먹으면 되잖아요!\"고 마리 앙투아네트가 무심하게 말을 했다는 에피소드는 너무나 잘 알려져 있다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 왕비는 이런 말을 한 적이 없다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%EC%95%99%ED%88%AC%EC%95%84%EB%84%A4%ED%8A%B8",
+            "search_query": "마리 앙투아네트 빵 케이크",
+            "terminate": false,
+            "text": "아니에요. 정확히는 여자들이 빵을 달라고 난동을 일으키자 왕비가 빵이 없으면 케이크를 먹으면 되지 않냐고 발언했다는 이야기로 유명하죠. 하지만 왕비는 그런 말을 한 적 자체가 없어요.",
+            "turn_id": "BK22005571-1",
+            "utterance_id": "BK22005571.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 마리 앙투아네트는 너무나도 억울했겠어요. 대체 누가 퍼뜨린 이야기인가요?",
+            "turn_id": "BK22005571-2",
+            "utterance_id": "BK22005571.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "세상물정 모르는 왕비의 무지와 함께 왕실의 부패와 비리를 과장스럽게 부풀려서 혁명의 당위성을 주장하고자한 당대의 혁명세력들 혹은 후대 사가들에 의해 조장된 근거 없는 낭설이다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%EC%95%99%ED%88%AC%EC%95%84%EB%84%A4%ED%8A%B8",
+            "search_query": "마리 앙투아네트 혁명세력 낭설",
+            "terminate": false,
+            "text": "당시의 혁명 세력들이 혁명의 당위성을 주장할 필요성이 있었죠. 그래서 왕비의 어리석음과 왕실의 부패 및 비리를 과장한 것이거나 혹은 후대의 역사가들에 의해 조작된 이야기에요.",
+            "turn_id": "BK22005571-2",
+            "utterance_id": "BK22005571.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 전혀 몰랐네요. 그렇다면 당시에 케이크 발언 외에도 왕비에 대한 흑색선전이 난무했을 거 같아요.",
+            "turn_id": "BK22005571-3",
+            "utterance_id": "BK22005571.5"
+        },
+        {
+            "reference_date": "2015-10-03",
+            "reference_text": [
+                {
+                    "value": "‘빵 대신 케이크’ 발언 외에도 보석과 섹스 등 마리 앙투아네트에 관한 소문이 많았다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 왕후가 민중의 궁핍을 전혀 아랑곳하지 않고 사치에 빠져있음을 비치는 내용이었는데, 소문 다수는 지어낸 말에 불과했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/18788012",
+            "search_query": "마리 앙투아네트 보석 소문",
+            "terminate": false,
+            "text": "맞아요. 그 발언 외에도 보석이나 성관계 등의 나쁜 소문이 많았죠. 주로 왕비가 민중의 굶주림을 외면하고 사치를 누리고 있다는 식이었는데 대부분은 지어낸 소문에 불과했어요.",
+            "turn_id": "BK22005571-3",
+            "utterance_id": "BK22005571.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소문이라는 게 정말 무섭네요. 그러면 당시의 민중들은 그게 지어낸 소문이라는 걸 전혀 몰랐던 건가요?",
+            "turn_id": "BK22005571-4",
+            "utterance_id": "BK22005571.7"
+        },
+        {
+            "reference_date": "2015-10-03",
+            "reference_text": [
+                {
+                    "value": "오히려 마녀사냥식의 한풀이 굿으로 진행돼 일부 군중은 그런 소문이 중상모략일 가능성을 인지하면서도 마녀사냥에 동참해 집단적 카타르시스를 즐기려 했다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/18788012",
+            "search_query": "마리 앙투아네트 군중 마녀사냥",
+            "terminate": false,
+            "text": "사실 일부 민중들은 그런 소문들이 모함일 가능성이 있다고 생각했어요. 하지만 집단적인 카타르시스를 느끼기 위해 그냥 마녀사냥에 동참했죠.",
+            "turn_id": "BK22005571-4",
+            "utterance_id": "BK22005571.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거짓이라는 걸 알고도 그렇게 행동했다고요? 혁명 세력은 그렇다 쳐도 대체 민중들은 왜 그렇게까지 마리 앙투아네트를 미워한 건가요?",
+            "turn_id": "BK22005571-5",
+            "utterance_id": "BK22005571.9"
+        },
+        {
+            "reference_date": "2015-10-03",
+            "reference_text": [
+                {
+                    "value": "그가 프랑스와 오랜 세월 경쟁했던 오스트리아 합스부르크 왕족이라는 사실 또한 그에 대한 프랑스 국민의 반감을 높였다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/18788012",
+            "search_query": "마리 앙투아네트 합스부르크 국민 반감",
+            "terminate": false,
+            "text": "그녀가 프랑스와 오랫동안 라이벌이었던 오스트리아 합스부르크 왕가 출신이었기 때문이죠. 그녀의 출신에 대한 프랑스 국민의 반감은 굉장히 높았어요.",
+            "turn_id": "BK22005571-5",
+            "utterance_id": "BK22005571.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시에는 외국인 혐오가 굉장했군요. 그럼 당시 마리 앙투아네트의 왕비로서의 처신은 어땠나요?",
+            "turn_id": "BK22005571-6",
+            "utterance_id": "BK22005571.11"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "그녀는 가난한 사람들에게 동정심을 가지고 있었으며 프랑스 왕비로선 이례적으로 빈민구제와 프랑스식 농경생활에 관심을 가졌다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%EC%95%99%ED%88%AC%EC%95%84%EB%84%A4%ED%8A%B8",
+            "search_query": "마리 앙투아네트 빈민 구제 농경생활",
+            "terminate": false,
+            "text": "거짓된 일화들과 달리 오히려 빈민들에게 동정심을 갖고 있었죠. 프랑스 왕비로서는 드물게 빈민을 구제하는 일이나 프랑스식 전원생활에 관심이 많은 왕비였어요.",
+            "turn_id": "BK22005571-6",
+            "utterance_id": "BK22005571.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오히려 굉장히 선량한 성품을 지니고 있었던 사람이었네요. 하지만 제가 알기로는 당시 프랑스가 어려웠던 것은 사실이었거든요. 거기에 그녀의 책임은 없나요?",
+            "turn_id": "BK22005571-7",
+            "utterance_id": "BK22005571.13"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "그녀가 왕비로 있었을 때 국고가 파산지경이었던 것은 사실이나, 그것은 그녀의 사치 때문이 아니라 선대의 향락과 미국 독립 전쟁 지원 때문이었고, 그것은 그녀의 선택이 아니었다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%EC%95%99%ED%88%AC%EC%95%84%EB%84%A4%ED%8A%B8",
+            "search_query": "마리 앙투아네트 사치 미국 독립 전쟁",
+            "terminate": false,
+            "text": "말씀대로 그 시대에 국고가 파산 직전이었던 것은 사실이에요. 하지만 그것은 마리 앙투아네트의 사치 때문이라기보다는 선대 왕실이 사치를 일삼은 데다 미국 독립 전쟁까지 지원했기 때문이었어요. 그게 그녀가 선택한 것은 아니었죠.",
+            "turn_id": "BK22005571-7",
+            "utterance_id": "BK22005571.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀을 들어보니 확실히 마리 앙투아네트의 잘못은 전혀 없어 보이네요. 그렇다면 그녀에 대한 역사적인 평가도 많이 바뀌었을 거 같아요.",
+            "turn_id": "BK22005571-8",
+            "utterance_id": "BK22005571.15"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "왕정 시대 프랑스의 왕비로서는 특별히 부적합한 행동이 없었다는 평가가 주류를 잇고 있다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 연구에 따르면, 당시 왕비들은 거의 정치에 참여하지 않았기 때문에 정치적 능력을 이유로 마리 앙투아네트를 폄하하는 것 역시 지나치다고 보고 있다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%EC%95%99%ED%88%AC%EC%95%84%EB%84%A4%ED%8A%B8",
+            "search_query": "마리 앙투아네트 최근 연구 평가",
+            "terminate": false,
+            "text": "맞아요. 현재는 당시 왕정 시대의 프랑스 왕비로서 딱히 잘못 처신한 행동은 없었다고 평가되고 있어요. 특히 최근 연구에서는 당대의 왕비들은 정치 참여가 거의 없었기 때문에 정치적 능력을 사유로 그녀를 낮게 평가하는 것은 지나치다고 보고 있죠.",
+            "turn_id": "BK22005571-8",
+            "utterance_id": "BK22005571.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 오늘 마리 앙투아네트에 대한 오해를 풀게 됐어요. 프랑스 혁명에 긍정적인 측면만 있는 건 아니었네요.",
+            "turn_id": "BK22005571-9",
+            "utterance_id": "BK22005571.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상 모든 일은 빛이 있으면 어둠이 있는 법이니까요. 저도 개인적으로 참 안타깝게 생각해요.",
+            "turn_id": "BK22005571-9",
+            "utterance_id": "BK22005571.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 억울한 피해자가 나오지 않도록 선동에 휩쓸리지 않는 판단력을 키워야겠어요! 오늘도 제 질문에 친절하게 답변해 주셔서 감사합니다. 정말 유익한 시간이었어요.",
+            "turn_id": "BK22005571-10",
+            "utterance_id": "BK22005571.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "유익한 시간이었다고 말씀하시니 저도 기쁘네요. 궁금한 게 또 생기면 언제든지 편하게 물어보세요.",
+            "turn_id": "BK22005571-10",
+            "utterance_id": "BK22005571.20"
+        }
+    ]
+}

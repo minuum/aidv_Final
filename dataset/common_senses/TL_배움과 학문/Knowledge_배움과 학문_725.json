@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004568",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004568",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 오다가 해상 사고 희생자들을 추모하는 집회가 서울에서 열리고 있는 걸 봤어요. 문득 궁금해지는 게 사상 최악의 해상 사고라는 타이타닉호 사건의 사고 규모는 어느 정도였나요?",
+            "turn_id": "BK22004568-1",
+            "utterance_id": "BK22004568.1"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "타이타닉의 침몰로 1,514명이 사망하였다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출항 당시 승선 인원은 2,223명이었다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 침몰 사망 인원",
+            "terminate": false,
+            "text": "출항 당시 승선한 사람은 총 2223명이었는데 침몰로 인해 그중 1514명이 희생되었어요.",
+            "turn_id": "BK22004568-1",
+            "utterance_id": "BK22004568.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 지금까지도 유명할 만한 참사였네요. 당시 타이타닉호의 행선지는 어디였나요?",
+            "turn_id": "BK22004568-2",
+            "utterance_id": "BK22004568.3"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "1912년 4월 10일 영국의 사우샘프턴을 떠나 미국의 뉴욕으로 향하던 첫 항해 중에 4월 15일 빙산과 충돌하여 침몰하였다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 빙산 뉴욕 영국",
+            "terminate": false,
+            "text": "1912년 4월 10일에 미국 뉴욕을 목적지로 영국의 사우샘프턴에서 출항했어요. 이게 타이타닉호의 첫 번째 항해였는데 4월 15일에 빙산과 충돌해서 가라앉게 되죠.",
+            "turn_id": "BK22004568-2",
+            "utterance_id": "BK22004568.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하필 첫 항해였네요. 당시 배 자체에 문제점은 없었나요?",
+            "turn_id": "BK22004568-3",
+            "utterance_id": "BK22004568.5"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "그러나 방수 격벽은 완전히 밀폐된 구역이 아니고 상부의 주 갑판에 구역 모두가 연결되어 있는 구조였다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이로 인해 타이타닉호 사고가 발생하였을 때, 격벽 한계치를 넘어서면서 넘쳐나는 물이 다른 구역을 차례대로 침범하게 되었고 돌이킬 수 없는 길을 걷게 됐다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 격벽 구조",
+            "terminate": false,
+            "text": "방수 격벽이 있었지만 이게 완전히 폐쇄된 구역이 아니고 상부의 주갑판으로 모두 연결된 구조였어요. 그래서 사고 발생 당시 격벽의 한계치를 넘은 물이 다른 구역들까지 침수시켜 버렸던 거죠.",
+            "turn_id": "BK22004568-3",
+            "utterance_id": "BK22004568.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설계 자체에 결함이 많았네요! 대체 누가 설계했길래 그런 실수를 한 걸까요?",
+            "turn_id": "BK22004568-4",
+            "utterance_id": "BK22004568.7"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "배의 설계자인 토머스 앤드류스는 승객들의 구명보트 승선과 뜰 만한 물건들을 던지는 것을 돕다가 1등실 흡연실에 조용히 들어가서 배와 함께 최후를 맞이했다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 설계자 최후",
+            "terminate": false,
+            "text": "토머스 앤드류스라는 사람이었어요. 그래도 그는 당시 타이타닉에 함께 탑승하고 있던 그는 승객들이 탈출하는 것을 돕다가 1등실 흡연실에 들어가서 배와 운명을 같이 했죠.",
+            "turn_id": "BK22004568-4",
+            "utterance_id": "BK22004568.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그래도 노블리스 오블리제 정신은 있었네요. 혹시 다른 승객 중에서도 그런 사람이 있었나요?",
+            "turn_id": "BK22004568-5",
+            "utterance_id": "BK22004568.9"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "백만장자인 철강업자 벤저민 구겐하임은 자신은 살 수 없음을 직감하고 현지처와 하녀를 보트에 태우고 선원의 구명조끼를 거절하고 턱시도로 갈아입은 뒤, 자신을 따르는 하인과 함께 \"우리는 가장 어울리는 복장을 입고 신사답게 갈 것이다\"고 하며 마지막까지 시가와 브랜디를 즐기며 배와 함께 최후를 맞이했다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 구겐하임 최후",
+            "terminate": false,
+            "text": "네. 백만장자였던 철강업자 벤저민 구겐하임은 현지처와 하녀를 보트에 태우고 구명조끼를 거절했죠. 그는 턱시도로 갈아입고 하인과 함께 자신들은 신사다운 죽음을 맞이하겠다며 마지막까지 시가를 피우고 브랜디를 마셨어요.",
+            "turn_id": "BK22004568-5",
+            "utterance_id": "BK22004568.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 안타깝네요. 그런데 당시 왜 보트가 그렇게 부족했나요?",
+            "turn_id": "BK22004568-6",
+            "utterance_id": "BK22004568.11"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "1등실 산책로의 경우 외관을 잘 볼 수 있게 하기 위해 구명보트가 설치되어 있지 않았는데, 이것이 참사의 원인 중 하나가 되었다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 참사 원인",
+            "terminate": false,
+            "text": "바깥을 잘 볼 수 있게 하기 위해 1등실 산책로에는 구명보트가 설치되지 않았거든요. 하필 이게 나중에 벌어지는 참사의 이유 중 하나였어요.",
+            "turn_id": "BK22004568-6",
+            "utterance_id": "BK22004568.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하, 한마디로 오션뷰를 살리려다가 사람들 다 죽게 만든 거네요. 근데 구명보트는 원래 승객 수만큼 갖춰야 하는 거 아니에요?",
+            "turn_id": "BK22004568-7",
+            "utterance_id": "BK22004568.13"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "타이타닉호의 침몰이 참사로 이어지게 된 원인 중 하나는 구명보트의 부족 때문이었는데, 당시의 영국 상무성의 규정을 보면 여객선은 여객 정원만큼 구명보트를 갖출 필요가 없었다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 규정에서는 978명, 그나마도 배의 배수톤수 기준이었다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 영국 상무성 규정 구명보트",
+            "terminate": false,
+            "text": "당시 영국 상무성의 규정에서는 승객 정원만큼 구명보트를 갖출 필요가 없었어요. 배수량을 기준으로 겨우 978명이 탈 보트만 갖추면 규정에 어긋나지 않았죠.",
+            "turn_id": "BK22004568-7",
+            "utterance_id": "BK22004568.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 그렇게 보트가 부족했던 거군요. 그럼 생존자들은 결국 어떻게 구조가 됐나요?",
+            "turn_id": "BK22004568-8",
+            "utterance_id": "BK22004568.15"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "타이타닉이 침몰한 뒤 약 1시간 30분 후인 새벽 3시 55분에 도착한, 선장 아서 로스톤이 맡은 카르파티아호는 약 4시간 30분 동안에 20개의 구명보트에 타고 있는 생존자들을 구조했다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89",
+            "search_query": "타이타닉 카르파티아호 구조",
+            "terminate": false,
+            "text": "아서 로스톤 선장이 이끄는 카르파티아호가 타이타닉이 가라앉은 뒤 약 1시간 30분이 지난 새벽 3시 55분에 도착해요. 그들이 약 4시간 30분 동안 20개의 구명보트에 승선한 생존자들을 구조했죠.",
+            "turn_id": "BK22004568-8",
+            "utterance_id": "BK22004568.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 생각보다 일찍 도착한 거 같은데 생존율이 높지 않네요. 지금 들어도 참 안타까운 사건이에요.",
+            "turn_id": "BK22004568-9",
+            "utterance_id": "BK22004568.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 이 사건을 얘기할 때마다 마음이 안 좋아요. 그래도 타이타닉호 이후 해상 안전에 대한 인식이 많이 개선됐죠.",
+            "turn_id": "BK22004568-9",
+            "utterance_id": "BK22004568.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 그나마 다행이지만 앞으로는 타이타닉호 같은 참사가 다시는 일어나지 않았으면 좋겠네요. 오늘 대화 덕분에 안전에 대해 다시 한번 생각해 보게 됐어요. 오늘도 친절한 답변 정말 감사드립니다.",
+            "turn_id": "BK22004568-10",
+            "utterance_id": "BK22004568.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 저도 사건을 설명하면서 안전 문제에 대해 한번 생각해볼 수 있어서 유익한 시간이었어요. 다음에도 궁금한 거 있으면 언제든지 질문해주세요!",
+            "turn_id": "BK22004568-10",
+            "utterance_id": "BK22004568.20"
+        }
+    ]
+}

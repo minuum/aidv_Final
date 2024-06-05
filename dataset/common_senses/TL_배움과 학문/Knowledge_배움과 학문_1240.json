@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001034",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001034",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천연두는 굉장히 오래된 전염병이라고 하던데 맞아?",
+            "turn_id": "BK22001034-1",
+            "utterance_id": "BK22001034.1"
+        },
+        {
+            "reference_date": "2021-02-25",
+            "reference_text": [
+                {
+                    "value": "인류역사상 최초의 전염병은 천연두로 알려져 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정확한 기록이 없으니 연원을 확인할 수는 없으나 기원전 1157년 이집트 람세스 5세의 미라에서 천연두 흔적이 발견되었고, 기원전 1112년에는 중국에서도 발병했다는 기록이 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jjan.kr/2103082",
+            "search_query": "천연두 역사",
+            "terminate": false,
+            "text": "맞아, 천연두는 인류 최초의 전염병이야. 천연두의 흔적은 기원전 1157년 이집트 람세스 5세의 미라에서 발견되었고, 중국에서는 기원전 1112년 발병한 기록도 찾을 수 있어.",
+            "turn_id": "BK22001034-1",
+            "utterance_id": "BK22001034.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 많은 사람들이 죽을 만큼 위험한 병이었어?",
+            "turn_id": "BK22001034-2",
+            "utterance_id": "BK22001034.3"
+        },
+        {
+            "reference_date": "2021-02-23",
+            "reference_text": [
+                {
+                    "value": "최소한 3500년에서 4500년 동안 인류를 감염과 후유증(실명 또는 곰보자국 등), 그리고 약30%이상의 높은 치명률(특정 경우 75%)로 죽음의 공포에 떨게 했던 전염병이었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추산 누적 사망자로 천연두는 약10억 명을 죽였다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiaa.co.kr/news/articleView.html?idxno=24102",
+            "search_query": "천연두 사망",
+            "terminate": false,
+            "text": "치명률은 30프로 이상이었고, 발병하면 실명이나 곰보자국 등의 후유증을 남기는 공포의 전염병이었어. 천연두로 약 10억 명이 죽음에 이르렀으니 무서운 전염병이었지.",
+            "turn_id": "BK22001034-2",
+            "utterance_id": "BK22001034.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10억 명이나 죽었다니 세상에나. 천연두에 걸리면 어떤 증상이 나타나는데?",
+            "turn_id": "BK22001034-3",
+            "utterance_id": "BK22001034.5"
+        },
+        {
+            "reference_date": "2020-11-01",
+            "reference_text": [
+                {
+                    "value": "천연두의 초기 증상은 열과 구토이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 이후 입 주위에 염증 및 통증이 생기고 피부 발진을 동반한다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "며칠이 더 지나면 피부 발진이 난 곳은 물집으로 뒤덮이고 딱지가 생기며, 이후에 딱지가 떨어지면서 흉터를 남기게 된다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thekpm.com/news/articleView.html?idxno=68762",
+            "search_query": "천연두 증상",
+            "terminate": false,
+            "text": "초기 증상은 구토와 열이고, 그 후에는 입 주변에 염증과 통증이 생기고 피부에 발진도 나타나. 며칠 지나면 피부 발진 난 곳에 물집으로 덮이고 딱지가 생긴 후 딱지가 떨어진 곳에는 흉터가 남아.",
+            "turn_id": "BK22001034-3",
+            "utterance_id": "BK22001034.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날 사람들 얼굴에 있는 곰보 자국이 천연두 흉터구나. 천연두에 걸리지 않으려고 사람들도 방법을 찾으려고 했을 것 같은데.",
+            "turn_id": "BK22001034-4",
+            "utterance_id": "BK22001034.7"
+        },
+        {
+            "reference_date": "2021-03-08",
+            "reference_text": [
+                {
+                    "value": "최초의 천연두 예방법은 천연두를 직접 접종하는 방법, 즉 '인두법'이었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중동과 아프리카, 그리고 북미 일부 지역에서는 오래 전부터 천연두환자의 고름을 일반인들의 인체에 미세한 상처를 내어 투여하는 인두법이 전해지고 있었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인두법은 0.5~2%정도의 치사율을 보인 것으로 추정되며, 실제 천연두의 치사율이 30%이상인 점을 감안하면 상당히 낮은 수치라고 할 수 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 천연두의 직접접종은 발병에 의한 재 전염을 야기시킬 수도 있다는 위험성이 내포되어있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiaa.co.kr/news/articleView.html?idxno=26475",
+            "search_query": "천연두 치료",
+            "terminate": false,
+            "text": "맞아, 최초의 예방법은 인두법이었어. 오래전부터 중동과 아프리카, 북미 일부에서는 천연두 환자의 고름을 일반인들에게 투여하는 인두법이 전해 오고 있었어. 하지만, 이 방법의 치사율은 0.5에서 2퍼센트로 천연두의 30퍼센트 치사율보다는 낮지만, 천연두를 직접 접종하므로 재전염을 일으킬 수도 있는 위험성을 안고 있는 방법이었지.",
+            "turn_id": "BK22001034-4",
+            "utterance_id": "BK22001034.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반인들에게 항체를 생성하게 하려는 방법이었네. 천연두는 우리나라에서도 심각했었지?",
+            "turn_id": "BK22001034-5",
+            "utterance_id": "BK22001034.9"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "조선 시대 ‘두창(痘瘡)’이라고 불렸던 천연두는 호랑이와 함께 조선 백성을 괴롭혔던 가장 무서운 전염병이었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현존하는 조선 후기 사대부 초상화 180여 폭 가운데 초상화 주인공 16명 얼굴에 곰보 딱지가 그려져 있으니, 비교적 신분이 높은 사대부들도 열 가운데 한 명은 천연두를 피하지 못했다는 뜻이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/opinion/2022/06/08/46LPTPN3NNDQTFDSVUZQ6YP67A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "조선시대 천연두",
+            "terminate": false,
+            "text": "조선 시대에는 천연두를 두창으로 부르던 심각한 전염병이었어. 조선 후기 사대부 초상화만 봐도 알 수 있는데, 초상화 180폭 중에 16명의 얼굴에 곰보가 그려져 있어. 신분이 높은 사대부들도 천연두를 피하기 어려웠다는 의미지.",
+            "turn_id": "BK22001034-5",
+            "utterance_id": "BK22001034.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 조선시대에 천연두를 피하려는 노력은 있었어?",
+            "turn_id": "BK22001034-6",
+            "utterance_id": "BK22001034.11"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "천연두에 걸린 소 고름을 쓰는 우두법이 수입되기 전, 조선에서는 천연두 환자 고름을 사용한 ‘인두법’이 한때 성과를 거두고 있었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘인두법’을 개발한 이 선구자들 이름은 박제가, 이종인 그리고 정약용.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/opinion/2022/06/08/46LPTPN3NNDQTFDSVUZQ6YP67A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "조선시대 천연두",
+            "terminate": false,
+            "text": "천연두에 걸린 소의 고름을 사용하는 우두법이 들어오기 전에는 박제가, 이종인, 정약용이 개발한 천연두 환자의 고름을 이용한 인두법이 성과를 거두기도 했어.",
+            "turn_id": "BK22001034-6",
+            "utterance_id": "BK22001034.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선시대에도 인두법을 사용하고 있었구나. 그럼, 왜 천연두에 대한 걱정을 요즈음은 안 하는 거야?",
+            "turn_id": "BK22001034-7",
+            "utterance_id": "BK22001034.13"
+        },
+        {
+            "reference_date": "2021-03-22",
+            "reference_text": [
+                {
+                    "value": "영국의 외과 의사 에드워드 제너(Edward Jenner)는 우드(cowpox)에 걸린 사람은 천연두에 걸리지 않는다는 속설에 근거하여 소년의 팔에 우드 고름을 주입한 결과 그 소년이 천연두에 걸리지 않았다는 사실을 발견하고 1796년 최초로 우드에서 뽑아내어 면역물질을 만들어 냈고, 이를 라틴어로 ‘바리올라에 바키나에(Variolae vaccinae)’로 부르면서 오늘날 백신이라는 말을 만들어 낸 인류 최초의 백신 개발자다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.domin.co.kr/news/articleView.html?idxno=1333390",
+            "search_query": "천연두 백신",
+            "terminate": false,
+            "text": "우드에 걸린 사람은 천연두에 걸리지 않는다는 속설이 있었는데 영국의 외과의사 에드워드 제너가 이것을 근거로 소년에게 우드 고름을 주사해서 천연두에 걸리지 않았다는 사실을 확인했어. 그는 1796년 우드에서 뽑아내 면역물질을 만들고 바리올라에 바키나에라고 불렀어. 이것이 현재의 백신이라는 말이 되었고, 그는 인류 최초의 백신 개발자가 되었지.",
+            "turn_id": "BK22001034-7",
+            "utterance_id": "BK22001034.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에드워드 제너가 천연두 백신을 만들어 낸 사람이구나.",
+            "turn_id": "BK22001034-8",
+            "utterance_id": "BK22001034.15"
+        },
+        {
+            "reference_date": "2021-03-01",
+            "reference_text": [
+                {
+                    "value": "세계보건기구는 1979년 12월 천연두의 박멸을 확인했고, 5개월 뒤인 1980년 5월 세계보건총회를 열어 “전 세계의 모든 시민이 천연두로부터 자유를 얻었다”고 공식 선언했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=114&artid=202102191441201",
+            "search_query": "천연두 종식",
+            "terminate": false,
+            "text": "그 덕분에 1979년 12월 세계보건기구는 천연두 박멸을 확인했고, 1980년 5월 세계보건총회에서 천연두가 사라졌음을 공식 선언했지.",
+            "turn_id": "BK22001034-8",
+            "utterance_id": "BK22001034.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금도 많은 전염병이 도는데 천연두라도 사라져서 다행이다.",
+            "turn_id": "BK22001034-9",
+            "utterance_id": "BK22001034.17"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "이어 천연두가 사라진 이유는 백신이 나왔기 때문이라며 \"인간이 유일하게 멸종시킨 바이러스가 천연두\"라고 말했습니다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newskr.kr/news/articleView.html?idxno=79272",
+            "search_query": "천연두",
+            "terminate": false,
+            "text": "맞아, 이렇게 천연두가 사라질 수 있었던 것은 백신이 나왔기 때문이야. 현재까지 인간이 유일하게 멸종시킨 전염병은 천연두뿐이기도 해.",
+            "turn_id": "BK22001034-9",
+            "utterance_id": "BK22001034.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 연구를 통해 전염병들이 천연두처럼 사라졌으면 좋겠어.",
+            "turn_id": "BK22001034-10",
+            "utterance_id": "BK22001034.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다른 전염병들도 백신이 어서 나오길 기대해 보자.",
+            "turn_id": "BK22001034-10",
+            "utterance_id": "BK22001034.20"
+        }
+    ]
+}

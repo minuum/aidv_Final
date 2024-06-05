@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006849",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006849",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원전 관련 다큐를 보는데 중수소라는게 나오더라고, 나는 수소는 하나만 있는 건지 알았는데 중수소라니 너무 생소한거야. 혹시 설명 좀 해줄 수 있어?",
+            "turn_id": "BK22006849-1",
+            "utterance_id": "BK22006849.1"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "중수소(重水素)는 수소의 동위 원소 중 하나로 2H 또는 D(Deuterium)로 표기한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "삼중수소와 구별하기 위해 이중수소(二重水素)라고 부르기도 한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소",
+            "terminate": false,
+            "text": "아, 그게 수소의 동위 원소 중에 하나인 건데 2H나 D라고 표기하지, 삼중수소와 구별하려고 이중 수소라고 부르기도 해.",
+            "turn_id": "BK22006849-1",
+            "utterance_id": "BK22006849.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 동위 원소이지만 수소이긴 하다는 얘기인거지? 그럼 이 중수소는 어디에 주로 쓰는 거야?",
+            "turn_id": "BK22006849-2",
+            "utterance_id": "BK22006849.3"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "원자로 중수소는 중수를 사용하는 원자로에서 이용된다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중수를 이용하면 일반적인 수소에서 일어나는 높은 확률의 중성자 흡수없이 중성자의 속도를 줄일 수 있다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 원자로",
+            "terminate": false,
+            "text": "원자로 중수소라고 해서 원자로에서 이용돼. 중수를 이용하면 일반적인 보통 수소에서 높을 확률로 일어나는 중소자 흡수없이 중성자의 속도를 줄일 수 있거든.",
+            "turn_id": "BK22006849-2",
+            "utterance_id": "BK22006849.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 원전 다큐에 나왔던 거구나. 그럼 이 중수소는 언제 발견된거야?",
+            "turn_id": "BK22006849-3",
+            "utterance_id": "BK22006849.5"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "중수소는 1931년, 미국의 화학자 헤롤드 유리가 발견했으며, 양성자 한 개와 중성자 한 개로 구성되어 있는 원자핵을 가지고 있는 원자이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 원자",
+            "terminate": false,
+            "text": "1931년이야. 그때 미국의 화학자 헤롤드 유리가 양성자 한개 중성자 한 개로 된 이 중수소를 발견한거지.",
+            "turn_id": "BK22006849-3",
+            "utterance_id": "BK22006849.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "완전 최근에 발견된 거구나. 이렇게 오랫동안 발견되지 않았던 거면 양이 많지 않은가봐?",
+            "turn_id": "BK22006849-4",
+            "utterance_id": "BK22006849.7"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "일반적인 경우, 지구상의 수소 원자와 중수소 원자의 존재비율을 보면, 수소가 99.985%, 중수소가 0.015% 존재한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 비율",
+            "terminate": false,
+            "text": "응, 지구상의 수소 원자랑 중수소 원자의 비율을 비교해보면 수소가 99.985%에 달하고 중수소는 0.015% 밖에 존재 하지 않아.",
+            "turn_id": "BK22006849-4",
+            "utterance_id": "BK22006849.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 정말 희귀한 원소구나, 근데 아까 삼중수소랑도 구별한다고 했잖아, 이 둘이 그럼 완전 별개의 원소인거야?",
+            "turn_id": "BK22006849-5",
+            "utterance_id": "BK22006849.9"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "넓은 의미에서는 2H와 3H를 중수소라 정의하고 있지만, 존재비가 극히 소량인 방사성 동위 원소인 삼중수소를 뺀 이중수소만 중수소라고 부르는 경우가 대부분이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 방사선",
+            "terminate": false,
+            "text": "아, 넓은 의미로 보자면 이중수소와 삼중수소 모두를 중수소라고 정의할 수는 있어. 그치만 삼중수소의 존재비가 너무나 적기 때문에 대부분은 삼중수소를 뺀 이중수소만 가리켜 중수소라고 부르는게 대부분인거지.",
+            "turn_id": "BK22006849-5",
+            "utterance_id": "BK22006849.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 거였구나, 이런 중수소는 아무래도 수소와는 화학적으로 차이가 있겠지? 그러니까 사용처도 다를거잖아.",
+            "turn_id": "BK22006849-6",
+            "utterance_id": "BK22006849.11"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "상온, 상압에서 무색, 무취의 기체이며, 녹는점은 -254.5°C이고 끓는점은 -249.4°C이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 수소 분자(H2)의 성질(녹는점이 -259.2°C, 끓는점이 -259.6°C)과 비교했을 때 높은 수치이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 수소 비교",
+            "terminate": false,
+            "text": "응, 차이가 있지. 중소수는 녹는점이 마이너스 254.5도, 끊는점이 마이너스 249.4도로 일반적인 수소 분자랑 비교해 봤을때 더 높은 수치를 보여줘.",
+            "turn_id": "BK22006849-6",
+            "utterance_id": "BK22006849.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그런 차이도 있구나. 또 궁금한게 이렇게 희귀한 중수소는 어디에서 구할 수 있는거야?",
+            "turn_id": "BK22006849-7",
+            "utterance_id": "BK22006849.13"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "중수소는 해수에 대량 존재하기 때문에, 핵융합 연료로서 유망한 에너지원으로 평가된다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 에너지원",
+            "terminate": false,
+            "text": "바닷물이지. 핵융합 연료로 아주 유망한 에너지원으로 해수에 대량으로 존재하고 있거든.",
+            "turn_id": "BK22006849-7",
+            "utterance_id": "BK22006849.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 바다에 있었구나, 중소수는 그럼 핵융합 분야 말고 다른 곳에는 쓰임이 없는 거야?",
+            "turn_id": "BK22006849-8",
+            "utterance_id": "BK22006849.15"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "약에서도 사용되는데 반응성이 낮아져서 물질대사가 이루어지는 시간이 길어지면, 약효가 높아진다는 사실이 확인됐다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%88%98%EC%86%8C",
+            "search_query": "중수소 약",
+            "terminate": false,
+            "text": "의학, 그 중에서 약학 쪽에서도 사용하고 있어. 반응성이 낮기 때문에 물질대사가 이뤄지는 시간이 길어지면 약효가 높아진다는 사실이 확인이 되었거든.",
+            "turn_id": "BK22006849-8",
+            "utterance_id": "BK22006849.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하다, 핵융합에서 신체대사라니, 정말 스케일이 다른 분야에서 다양하게 쓰는구나.",
+            "turn_id": "BK22006849-9",
+            "utterance_id": "BK22006849.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 이제 시간 다되지 않았어? 슬슬 가야 될 시간인 것 같은데?",
+            "turn_id": "BK22006849-9",
+            "utterance_id": "BK22006849.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞다, 나 가야 될 시간이야. 먼저 들어갈게, 오늘 얘기 재밌었어!",
+            "turn_id": "BK22006849-10",
+            "utterance_id": "BK22006849.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다음에 또 보자고, 안녕!",
+            "turn_id": "BK22006849-10",
+            "utterance_id": "BK22006849.20"
+        }
+    ]
+}

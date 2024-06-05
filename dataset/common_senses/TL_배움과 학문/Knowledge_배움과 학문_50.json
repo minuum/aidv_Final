@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009289",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009289",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 피아노 학원을 다니고 싶은데, 피아노에 대해 공부하고 가고 싶어서요. 피아노에 대해 알려주실래요?",
+            "turn_id": "BK22009289-1",
+            "utterance_id": "BK22009289.1"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "피아노(영어: piano)는 대표적인 건반악기로서[1] 피아노포르테(영어: pianoforte)의 준말이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노",
+            "terminate": false,
+            "text": "피아노는 피아노포르테의 준말이며 건반악기랍니다.",
+            "turn_id": "BK22009289-1",
+            "utterance_id": "BK22009289.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피아노의 건반악기라는 거네요, 그러면 피아노는 누가 고안하게 되었나요?",
+            "turn_id": "BK22009289-2",
+            "utterance_id": "BK22009289.3"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "18세기 초 이탈리아의 바르톨로메오 크리스토포리(Christofori, B.)가 고안하여 독일에서 완성하였다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노 고안",
+            "terminate": false,
+            "text": "피아노를 처음 만든 사람은 18세기 초 이태리의 바르톨로메오 크리스토포리가 고안하여 독일에서 만들었어요.",
+            "turn_id": "BK22009289-2",
+            "utterance_id": "BK22009289.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "18세기부터 시작되었다니 피아노의 역사가 꽤 오래되었네요. 그러면 피아노는 어떻게 발명되었나요?",
+            "turn_id": "BK22009289-3",
+            "utterance_id": "BK22009289.5"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "피아노가 발명되기 이전에는 쳄발로와 클라비코드가 가장 많이 보급된 건반악기였으나, 1709년에 이탈리아 사람인 쳄발로 제작가 바르톨로메오 크리스토포리(Bartolommeo Crist­ofori 1655-1731)가 쳄발로의 몸통(胴)을 써서 ‘포르테피아노’라고 이름붙인 악기를 만들었다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것이 피아노의 효과적인 최초의 고안이어서, 그가 피아노의 발명자로 되어 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "최초 피아노",
+            "terminate": false,
+            "text": "피아노 이전에는 클라비코드와 쳄발로가 많이 보급된 건반악기였으나, 1709년 쳄발로 제작가 바르톨로메오 크리스토포리가 쳄발로의 몸통을 이용하여 포르테 피아노라는 악기를 만들었는데 이것으로 최초 피아노의 고안이자 발명자로 알려져 있죠.",
+            "turn_id": "BK22009289-3",
+            "utterance_id": "BK22009289.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쳄발로라는 악기도 있군요. 그럼 현재의 피아노는 어떻게 만들어지게 되었나요?",
+            "turn_id": "BK22009289-4",
+            "utterance_id": "BK22009289.7"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "그 뒤 많은 개량이 가해졌고 특히 현이 굵어졌으며 액션(손가락의 누른 키가 현을 칠 때까지의 장치)이나 댐퍼 등의 정교한 것 등이 나오게 되어 현재의 피아노에 이르기까지 진보하였고, 피아노의 원래 이름은 피아노포르테였다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노",
+            "terminate": false,
+            "text": "피아노가 어떻게 만들어지게 되었냐면 현재의 피아노까지는 많은 개량이 이루어졌어요. 현이 굵어졌고, 댐퍼, 액션 등 정교한 것이 나왔죠. 그렇게 지금의 피아노에 이르렀어요.",
+            "turn_id": "BK22009289-4",
+            "utterance_id": "BK22009289.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개량이 많이 되어 현재의 피아노에 이르렀군요. 그러면 피아노의 형태에는 뭐가 있어요?",
+            "turn_id": "BK22009289-5",
+            "utterance_id": "BK22009289.9"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "피아노에는 그랜드형(Grand piano)과 업라이트형(Upright piano)의 두 가지 형태가 있고, 각각 소형에서 대형까지 여러 가지 크기가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노 형태",
+            "terminate": false,
+            "text": "피아노의 형태로는 그랜드형 피아노와 업라이트형 피아노 두 가지의 형태가 존재하며 각각 대형과 소형 등 여러 가지 크기가 있죠.",
+            "turn_id": "BK22009289-5",
+            "utterance_id": "BK22009289.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피아노의 형태가 두 가지나 있었군요. 그런데 피아노의 소리는 어디에서 확대가 되는 건가요?",
+            "turn_id": "BK22009289-6",
+            "utterance_id": "BK22009289.11"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "피아노는 철골틀에 현을 매었고 그 틀의 뒷면에 울림판이 있어 해머로 친 현의 진동을 울림판으로 확대한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노 소리",
+            "terminate": false,
+            "text": "피아노 소리의 확대 방법은 철골 틀에 현을 맨 후 해머로 현을 쳐서 그 진동을 울림판으로 확대하게 되면 울림판이 울려서 소리가 확대된답니다.",
+            "turn_id": "BK22009289-6",
+            "utterance_id": "BK22009289.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확대되는 방법이 참 신기하네요. 그런데 아까 말씀하신 쳄발로란 뭐에요?",
+            "turn_id": "BK22009289-7",
+            "utterance_id": "BK22009289.13"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "하프시코드(영어: harpsichord) 또는 쳄발로(독일어: Cembalo)는 피아노의 전신인 건반 악기이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 피아노와는 발음기구가 다르며, 피아노는 해머로 현을 치는 데 반해 쳄발로는 픽(플렉트럼)으로 현을 탄다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "픽은 새의 깃대(羽軸)라든가 또는 굳은 가죽조각으로 되어 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%ED%94%84%EC%8B%9C%EC%BD%94%EB%93%9C",
+            "search_query": "피아노 쳄발로",
+            "terminate": false,
+            "text": "쳄발로가 궁금하시군요. 쳄발로란 하프시코드라고도 불리는데 피아노 전신의 건반 악기라고 보면 돼요. 발음기구가 피아노와는 다른데 피아노는 방금 말씀드린 대로 해머로 현을 치지만 쳄발로는 픽이라 불리는 새의 깃대로 현을 타죠.",
+            "turn_id": "BK22009289-7",
+            "utterance_id": "BK22009289.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쳄발로는 새의 깃대로 만들어진 픽으로 현을 타는 악기군요. 그런데 피아노의 주법은 언제 발전하게 된 거예요?",
+            "turn_id": "BK22009289-8",
+            "utterance_id": "BK22009289.15"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "피아노 주법은 19세기에 극도로 발달하여 황금시대를 맞이하였다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그에 비하여 쇼팽이나 리스트의 음악은 피아노의 특징적인 아름다움을 완전히 살리고 있으며 또 양 손가락의 운동이나 페달의 효과를 극한까지 발전시키고 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8",
+            "search_query": "피아노 주법",
+            "terminate": false,
+            "text": "맞아요. 물어보신 피아노의 주법은 19세기에 황금시대를 맞았다고 해도 과언이 아니에요. 쇼팽과 리스트가 피아노의 특징을 살려 페달과 양 손가락의 운동을 극대화시켜 음악을 만들었거든요.",
+            "turn_id": "BK22009289-8",
+            "utterance_id": "BK22009289.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쇼팽과 리스트가 대단한 피아니스트임이 틀림없군요.",
+            "turn_id": "BK22009289-9",
+            "utterance_id": "BK22009289.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼요. 그들이 19세기 피아노의 발전과 밀접한 관련이 있죠.",
+            "turn_id": "BK22009289-9",
+            "utterance_id": "BK22009289.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워요. 피아노에 대해서 많이 알게 되었고 학원에서도 뒤처지지 않을 것 같아요!",
+            "turn_id": "BK22009289-10",
+            "utterance_id": "BK22009289.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "열심히 배우셔서 꼭 좋은 성과 이루시길 바랄게요. 다음에 만나요!",
+            "turn_id": "BK22009289-10",
+            "utterance_id": "BK22009289.20"
+        }
+    ]
+}

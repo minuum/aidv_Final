@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011492",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011492",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이제 슬슬 한국사능력검정시험 자격증을 따야 할 것 같은데 아는 게 별로 없어. 넌 한국사능력검정시험에 대해 알고 있니?",
+            "turn_id": "BK22011492-1",
+            "utterance_id": "BK22011492.1"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "한국사능력검정시험(韓國史能力檢定試驗)은 한국사에 대한 관심을 확산 · 심화시키는 계기를 마련하고 한국사에 대해 폭넓고 올바른 지식을 공유하여 균형 잡힌 역사 의식을 갖도록 하며 역사 교육의 올바른 방향을 제시하기 위해 2006년 11월 25일부터 시작된 시험으로서 국사편찬위원회가 주관 및 시행한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98",
+            "search_query": "한능검",
+            "terminate": false,
+            "text": "그럼, 한국사능력검정시험은 2006년 11월 25일 시작되어 국사편찬위원회가 주관하고 시행하는 시험이잖아. 사람들이 한국사에 대해 더 관심을 갖게 하고, 한국사에 대해 넓고 올바른 지식을 갖추도록 하여 균형 잡힌 역사의식과 역사 교육의 방향성 제시를 위해 시행되고 있어.",
+            "turn_id": "BK22011492-1",
+            "utterance_id": "BK22011492.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 취지로 만들어진 거였구나. 그러면 보통 어떤 내용이 출제되는 거야?",
+            "turn_id": "BK22011492-2",
+            "utterance_id": "BK22011492.3"
+        },
+        {
+            "reference_date": "2020-05-28",
+            "reference_text": [
+                {
+                    "value": "한국사능력검정시험의 기출문제를 시대별 출제 빈도로 분석한 결과 조선이 24%로 1위를 차지하였고 일제 강점기가 14%로 2위, 근대 조선이 13%로 3위를 차지하였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.campusn.co.kr/news/article.html?no=21392",
+            "search_query": "한능검 출제범위",
+            "terminate": false,
+            "text": "한국사능력검정시험 기출 문제를 바탕으로 시대별 출제 빈도를 조사했더니, 가장 많이 출제되는 건 24%의 비중인 조선이었어. 두 번째로 많이 출제되는 부분은 14%를 차지한 일제강점기, 그다음은 13%로 근대 조선이야.",
+            "turn_id": "BK22011492-2",
+            "utterance_id": "BK22011492.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선 이후에서 출제 빈도가 높은 것 같네. 출제 비중이 정해져 있는 거야?",
+            "turn_id": "BK22011492-3",
+            "utterance_id": "BK22011492.5"
+        },
+        {
+            "reference_date": "2021-12-22",
+            "reference_text": [
+                {
+                    "value": "한국사능력검정시험 출제 비중은 전근대사 60%, 근현대사 40%로 구성되어 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 중, 전근대사는 매년 출제되는 패턴이 동일하기 때문에 선사시대 유적지, 각 나라의 전성기과 왕의 업적, 주요 문화재 및 불교와 유교 사상의 변화 등만 공부를 잘해간다면 최소 50~65점 이상 확보할 수 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20337",
+            "search_query": "한능검 출제 비중",
+            "terminate": false,
+            "text": "맞아, 전근대사에서 60%를 출제하고 근현대사에서 40%를 출제하는 것으로 구성되어 있거든. 그런데 전근대사는 출제 패턴이 매번 비슷해서, 선사시대 유적지나 각 국가의 전성기 및 왕의 업적, 주요 문화재, 불교와 유교 사상 변화를 공부하면 50점에서 65점 정도는 받을 수 있다고 보면 돼.",
+            "turn_id": "BK22011492-3",
+            "utterance_id": "BK22011492.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 나머지 점수는 근현대사에서 확보해야겠네. 골고루 많이 공부해야 해서 꽤 힘들 것 같은데 합격률이 어느 정도 돼?",
+            "turn_id": "BK22011492-4",
+            "utterance_id": "BK22011492.7"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "이번 제57회 시험은 심화와 기본도 치러졌다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총 지원자 수는 13만5011명에 달했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 가운데 전체 합격자 수는 6만8895명으로 62.6%의 합격률을 나타냈다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 같은 합격률은 전회(61.5%)보다 1%포인트 증가한 수치다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=734603",
+            "search_query": "한능검 합격률",
+            "terminate": false,
+            "text": "57회 시험을 기준으로 보면, 심화와 기본을 합친 총 지원자 수가 13만 5011명이고 이 중 합격자 수가 6만 8895명이니 62.6%라고 할 수 있어. 이전 회차의 합격률인 61.5%보다 1% 증가했어.",
+            "turn_id": "BK22011492-4",
+            "utterance_id": "BK22011492.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기본이랑 심화를 나눠서 실시하는구나. 그럼 급수 체계가 어떻게 되는 거야?",
+            "turn_id": "BK22011492-5",
+            "utterance_id": "BK22011492.9"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "급수는 1급부터 6급까지 있으며 1급, 2급, 3급은 심화, 4급, 5급, 6급은 기본으로 문제가 통합되어 시행되고 있다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심화시험은 80점 이상을 획득하면 1급, 70점 이상을 획득하면 2급, 60점 이상을 획득하면 3급이 수여된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본시험은 80점 이상을 획득하면 4급, 70점 이상을 획득하면 5급, 60점 이상을 획득하면 6급이 수여된다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98",
+            "search_query": "한능검 급수",
+            "terminate": false,
+            "text": "총 급수는 1급부터 6급으로 이루어져 있어. 심화를 응시하는 경우 80점 이상을 받으면 1급, 70점 이상을 받는 경우 2급, 60점 이상을 획득하면 3급을 취득할 수 있어. 그리고 기본을 응시하는 경우 80점 이상을 받으면 4급, 70점 이상을 받는 경우 5급, 60점 이상을 받으면 6급을 취득 가능해.",
+            "turn_id": "BK22011492-5",
+            "utterance_id": "BK22011492.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기본과 심화를 선택했을 때 취득할 수 있는 급수가 애초에 정해져 있구나. 기본과 심화의 차이는 뭔데?",
+            "turn_id": "BK22011492-6",
+            "utterance_id": "BK22011492.11"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "한국사 기본과정으로서 기초적인 역사 상식을 바탕으로 한국사의 필수 지식과 기본적인 흐름을 이해하는 능력을 평가한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국사 심화과정으로서 한국사에 대한 체계적인 이해를 바탕으로 한국사의 주요 사건과 개념을 종합적으로 이해하고, 역사 자료를 분석하고 해석하는 능력, 한국사의 흐름 속에서 시대적 상황 및 쟁점을 파악하는 능력을 평가한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98",
+            "search_query": "한능검 기본 심화",
+            "terminate": false,
+            "text": "기본 과정의 경우 기초 역사 상식에 기반해 한국사 필수 지식, 기본 흐름을 파악하는 능력을 평가해. 이와 달리, 심화 과정의 경우 한국사에 대한 보다 체계적인 이해를 요구해서 주요 사건 및 개념을 총체적으로 이해할 수 있어야 해. 한국사의 흐름에서 시대 상황과 쟁점을 모두 파악할 수 있어야 하지.",
+            "turn_id": "BK22011492-6",
+            "utterance_id": "BK22011492.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 말을 들으니 심화가 기본보다 훨씬 어려울 것 같아. 급수별로 합격자가 어느 정도 분포하는지도 궁금하다.",
+            "turn_id": "BK22011492-7",
+            "utterance_id": "BK22011492.13"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "심화 합격자 중 급수별 합격자는 1급이 2만9776명으로 심화 합격자의 47.2%를 차지했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 반해 2급은 1만8151명으로 28.7%를 차지해 전회(26.3%)보다 소폭 증가했다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 3급 합격자도 1만5219명으로 24.1%를 차지하며 전회(22.4%)보다 증가한 것으로 나타났다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본 합격자 중 급별로 합격자를 보면 4급이 2057명으로 기본 전체 합격자의 35.8%를 차지한 것으로 나타났다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5급 합격자는 1757명으로 30.6%를 차지했으며 6급은 1935명으로 33.7%의 비율을 보였다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=734603",
+            "search_query": "한능검 합격자 비율",
+            "terminate": false,
+            "text": "심화 합격자 중 1급은 2만 9776명으로 심화 합격자의 47.2%, 2급은 1만 8151명으로 28.7%, 3급은 1만 5219명으로 24.1%를 차지했어. 기본 합격자는 4급이 2057명으로 기본 합격자의 35.8%, 5급이 1757명으로 30.6%, 6급이 1935명으로 33.7%였어.",
+            "turn_id": "BK22011492-7",
+            "utterance_id": "BK22011492.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 급수 모두 수요가 있구나. 한국사능력검정시험 자격을 취득하는 목적은 주로 뭐야?",
+            "turn_id": "BK22011492-8",
+            "utterance_id": "BK22011492.15"
+        },
+        {
+            "reference_date": "2021-12-22",
+            "reference_text": [
+                {
+                    "value": "한국사능력검정시험 심화 1급은 국어능력, 영어, 컴퓨터 활용능력과 더불어 취업 주요 스펙 중 하나가 됐다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공기업은 물론이고 7급 국가직과 지방직 모두 해당 성적을 2급 이상으로 반영하고 있기 때문에 한국사능력검정시험은 역사 마니아들만 응시한다는 편견이 사라진지 오래다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20337",
+            "search_query": "한능검 응시 이유",
+            "terminate": false,
+            "text": "한국사능력검정시험 심화 1급이 국어능력, 영어, 컴퓨터 활용능력과 함께 취업을 위한 주된 스펙이기도 하고, 공기업이나 7급 공무원 시험에서 한국사능력검정시험 2급 이상을 요구하기 때문이야.",
+            "turn_id": "BK22011492-8",
+            "utterance_id": "BK22011492.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 심화가 더 어려운데도 다들 심화 시험에 응시하는 거구나.",
+            "turn_id": "BK22011492-9",
+            "utterance_id": "BK22011492.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주로 취업이나 시험 응시를 위해 한국사능력검정시험 자격을 취득하는 사람이 많으니 그런 편이지.",
+            "turn_id": "BK22011492-9",
+            "utterance_id": "BK22011492.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 부지런히 공부해서 다음 시험에서 어서 취득해야겠다. 잘 설명해 주어서 고마워.",
+            "turn_id": "BK22011492-10",
+            "utterance_id": "BK22011492.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "열심히 공부하면 금방 취득할 수 있을 거야. 궁금한 게 있으면 언제든 또 물어봐.",
+            "turn_id": "BK22011492-10",
+            "utterance_id": "BK22011492.20"
+        }
+    ]
+}

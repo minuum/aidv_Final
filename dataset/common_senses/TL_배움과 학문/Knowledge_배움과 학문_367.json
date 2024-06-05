@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013753",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013753",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스를 보니까 곧 태풍이 온다고 하더라고요.",
+            "turn_id": "BK22013753-1",
+            "utterance_id": "BK22013753.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피해가 적어야 할 텐데 신경 쓰이네요.",
+            "turn_id": "BK22013753-1",
+            "utterance_id": "BK22013753.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 여태까지 태풍을 보면 이름이 제각기 다양하던데 이름을 어떻게 결정하는 건가요?",
+            "turn_id": "BK22013753-2",
+            "utterance_id": "BK22013753.3"
+        },
+        {
+            "reference_date": "43715.0",
+            "reference_text": [
+                {
+                    "value": "태풍에 이름을 처음 붙인 건 1953년의 호주 기상예보관들이었다고 하는데요.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그들은 자신들이 싫어하는 정치인의 이름을 태풍에다 붙여줬다고 합니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 2000년부터 아시아태풍위원회가 생겼고 한국을 포함한 회원국 14개국에서 각각 10개씩의 태풍명을 제출해 그것을 번갈아가며 사용하게 됐습니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003027308?sid=004",
+            "search_query": "태풍 이름",
+            "terminate": false,
+            "text": "태풍은 1953년에 이름이 처음 붙기 시작했습니다. 호주 기상예보관들이 자신들이 싫어하는 정치인의 이름을 붙인 게 시작입니다. 이후 2000년에는 아시아 태풍위원회가 만들어졌는데 한국을 포함한 회원국 14개국에서 태풍 이름을 각각 10개씩 제출해 그것을 번갈아 가며 사용 중입니다.",
+            "turn_id": "BK22013753-2",
+            "utterance_id": "BK22013753.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래는 태풍에 이름이 없었다니 놀랍네요. 그런데 태풍이 되려면 바람의 규모가 어느 정도 되어야 하나요? 그 기준을 알고 싶습니다.",
+            "turn_id": "BK22013753-3",
+            "utterance_id": "BK22013753.5"
+        },
+        {
+            "reference_date": "44132.0",
+            "reference_text": [
+                {
+                    "value": "우리 기상청은 최대풍속 17.2m/s 미만의 열대저기압을 열대저압부로, 이상의 열대저기압을 태풍으로 분류한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0003317199?sid=103",
+            "search_query": "태풍 규모 이상",
+            "terminate": false,
+            "text": "대한민국 기상청은 열대저기압의 최대풍속이 초속 17.2미터 미만이면 열대저압부로, 그 이상인 경우엔 태풍으로 분류하고 있습니다.",
+            "turn_id": "BK22013753-3",
+            "utterance_id": "BK22013753.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 흔히 쓰는 말 중에 태풍의 눈이라는 말이 있는데요. 실제로 태풍의 눈이 무엇을 의미하는지 자세히 알고 싶습니다.",
+            "turn_id": "BK22013753-4",
+            "utterance_id": "BK22013753.7"
+        },
+        {
+            "reference_date": "44599.0",
+            "reference_text": [
+                {
+                    "value": "태풍의 눈(颱風의 눈)은 두꺼운 구름으로 둘러싸인 태풍, 허리케인, 사이클론 등 열대저기압의 중심부에 나타나는 맑게 갠 무풍지대를 말한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 태풍의 눈은 태풍으로부터의 피해를 가장 줄일 수 있는 공간이라고 할 수 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태풍의 눈의 지름은 30~50km 정도이지만, 때로는 100~200km에 이르는 경우도 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D%EC%9D%98_%EB%88%88",
+            "search_query": "태풍의 눈",
+            "terminate": false,
+            "text": "두꺼운 구름으로 싸인 태풍, 사이클론, 허리케인 등 열대저기압 중심부에 나타나는 맑게 갠 무풍지대를 태풍의 눈이라고 정의합니다. 태풍으로부터의 피해를 가장 최소화할 수 있는 공간이라고 할 수 있죠. 보통 태풍의 눈 지름은 30~50킬로미터 정도인데 100~200킬로미터 정도에 달하기도 합니다.",
+            "turn_id": "BK22013753-4",
+            "utterance_id": "BK22013753.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오히려 태풍의 눈이 안전한 지역이었군요. 또 궁금한 게 있는데 우리나라에서 역대 가장 많은 인명피해를 낸 태풍은 어떤 것인가요?",
+            "turn_id": "BK22013753-5",
+            "utterance_id": "BK22013753.9"
+        },
+        {
+            "reference_date": "42935.0",
+            "reference_text": [
+                {
+                    "value": "◇태풍의 두 얼굴 = 태풍은 강력한 비바람으로 어마어마한 인명·재산 피해를 낳는다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1904년 기상 관측 이래 역대 최악의 인명 피해를 낸 태풍은 1936년 ‘3693호’로, 1232명의 사망·실종자가 발생했다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/021/0002321280?sid=103",
+            "search_query": "태풍 역대 인명피해",
+            "terminate": false,
+            "text": "태풍은 비바람이 강력한 까닭에 엄청난 인명과 재산 피해를 불러옵니다. 우리나라가 1904년 기상 관측을 시작한 이래 가장 최악의 인명 피해를 발생시킨 태풍은 1936년 있었던 3693호입니다. 사망자와 실종자가 1,232명이나 발생했습니다.",
+            "turn_id": "BK22013753-5",
+            "utterance_id": "BK22013753.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1,200명 넘는 인명 피해가 발생하다니 엄청난 태풍이었네요. 그러면 우리나라에 상륙한 태풍 중에서 가장 많은 재산 피해를 불러온 태풍은 어떤 것이었나요?",
+            "turn_id": "BK22013753-6",
+            "utterance_id": "BK22013753.11"
+        },
+        {
+            "reference_date": "43715.0",
+            "reference_text": [
+                {
+                    "value": "행정안전부에 따르면 1904년부터 2017년까지 우리나라에 가장 큰 재산피해를 준 태풍은 ‘루사’입니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "루사는 2002년 8월 30일부터 9월 1일까지 한반도를 강타해 재산 5조1479억원의 피해를 남겼는데요.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인명피해(사망·실종)도 246명에 달했습니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003027308?sid=004",
+            "search_query": "태풍 인명피해 역대",
+            "terminate": false,
+            "text": "행정안전부에 의하면 1904년부터 2017년까지 대한민국에 가장 큰 재산 피해를 불러온 태풍은 루사였습니다. 2002년 8월 30일부터 9월 1일까지 한반도에 상륙했던 루사는 5조 1,479억 원 규모의 재산 피해를 남겼습니다. 아울러 246명의 인명 피해도 있었고요.",
+            "turn_id": "BK22013753-6",
+            "utterance_id": "BK22013753.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 루사 기억나는데 5조 원 넘는 피해가 발생했다니 공포감이 드네요. 또 한 가지 궁금한 게 있는데 태풍의 강도를 나누는 기준에 대해 알고 싶어요.",
+            "turn_id": "BK22013753-7",
+            "utterance_id": "BK22013753.13"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "태풍의 강도는 '중-강-매우 강-초강력'으로 나뉘며 '초강력 태풍'은 최대풍속이 '54㎧ 이상 태풍을 분류한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중은 25m/s~33m/s, 강 33m/s~44m/s, 매우강은 44~54m/s 미만이다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=693608",
+            "search_query": "태풍 강도 기준",
+            "terminate": false,
+            "text": "태풍은 강도에 따라 중, 강, 매우 강, 초강력으로 나눕니다. 초강력은 최대풍속이 초속 54미터 이상인 경우를 말하고, 초속 44~54미터이면 매우 강입니다. 강은 초속 33~44미터, 중은 초속 25~33미터인 경우입니다.",
+            "turn_id": "BK22013753-7",
+            "utterance_id": "BK22013753.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 한 가지 궁금한 게 있는데요. 방송에서 중형 태풍이나 대형 태풍이라고 하는 얘기를 많이 들었는데 태풍의 크기는 어떻게 결정되나요?",
+            "turn_id": "BK22013753-8",
+            "utterance_id": "BK22013753.15"
+        },
+        {
+            "reference_date": "43370.0",
+            "reference_text": [
+                {
+                    "value": "또한, 태풍 크기는 풍속 초속 15m 이상 강풍 반경을 기준으로 소형(300km 미만)과 중형(300~500km), 대형(500~800km), 초대형(800km 이상)으로 나뉜다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/031/0000465113?sid=102",
+            "search_query": "태풍 크기 중형 대형",
+            "terminate": false,
+            "text": "풍속 초속 15미터 이상 강풍 반경을 기준으로 태풍의 크기를 나눕니다. 반경 300킬로미터 미만은 소형, 300~500킬로미터에 해당하면 중형 태풍입니다. 대형은 강풍 반경 500~800킬로미터, 반경 800킬로미터 이상일 경우 초대형에 해당합니다.",
+            "turn_id": "BK22013753-8",
+            "utterance_id": "BK22013753.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 여쭤볼게요. 태풍이 피해를 불러오는 건 맞는 것 같은데 순기능도 하나쯤은 있을 것 같아서요. 태풍으로 인한 좋은 점도 있나요?",
+            "turn_id": "BK22013753-9",
+            "utterance_id": "BK22013753.17"
+        },
+        {
+            "reference_date": "42935.0",
+            "reference_text": [
+                {
+                    "value": "생태학적으로 보면 태풍은 지구를 지탱하는 데 반드시 필요한 존재다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어 태풍은 중요한 수자원 공급원으로 물 부족 현상을 해소해주고, 저위도 지역에 축적된 대기 중의 에너지를 고위도 지역으로 운반해 지구 온도를 균형 있게 유지해주기도 한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/021/0002321280?sid=103",
+            "search_query": "태풍 좋은 점 나쁜 점",
+            "terminate": false,
+            "text": "태풍은 생태학적으로 지구에 꼭 필요합니다. 물 부족 현상을 해소하는 수자원 공급원의 역할을 하기도 하고요, 저위도 지역에 쌓인 대기 중의 에너지를 고위도 지역으로 옮겨 지구 온도의 균형을 맞추기도 합니다.",
+            "turn_id": "BK22013753-9",
+            "utterance_id": "BK22013753.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍에 관해 많은 것을 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013753-10",
+            "utterance_id": "BK22013753.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 태풍에 관해 알려드릴 수 있어서 기쁜 시간이었어요.",
+            "turn_id": "BK22013753-10",
+            "utterance_id": "BK22013753.20"
+        }
+    ]
+}

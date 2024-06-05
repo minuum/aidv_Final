@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009311",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009311",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국어 문법을 배우는 중인데, 문법 용어가 너무 어려워서 이해를 잘 못하겠어요.",
+            "turn_id": "BK22009311-1",
+            "utterance_id": "BK22009311.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공부하기가 많이 어려웠겠어요. 문법 용어 중 어떤 용어가 어려웠나요?",
+            "turn_id": "BK22009311-1",
+            "utterance_id": "BK22009311.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 건 너무 많지만, 먼저 음운이 뭔지 모르겠어요.",
+            "turn_id": "BK22009311-2",
+            "utterance_id": "BK22009311.3"
+        },
+        {
+            "reference_date": "2019-01-21",
+            "reference_text": [
+                {
+                    "value": "↳ 이유진의 답변> 음운이란 말의 뜻을 구별하여 주는 가장 작은 소리의 단위로, 이에는 자음과 모음, 소리의 길이, 소리의 높낮이, 소리의 세기 등이 있습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=49542",
+            "search_query": "음운",
+            "terminate": false,
+            "text": "음운이란 말의 뜻을 구별해 주는 소리의 가장 작은 단위에요. 음운은 모음, 자음, 소리의 길이, 소리의 높낮이, 소리의 세기 등으로 나눌 수 있어요.",
+            "turn_id": "BK22009311-2",
+            "utterance_id": "BK22009311.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자음, 모음이 하위 개념인 거군요. 그러면 음소와 음운은 같은 건가요?",
+            "turn_id": "BK22009311-3",
+            "utterance_id": "BK22009311.5"
+        },
+        {
+            "reference_date": "2011-07-08",
+            "reference_text": [
+                {
+                    "value": "그러나 음운에는 자음과 모음 외에 ‘장단, 고저, 세기’ 등도 말의 뜻을 구별해 주는 음운(비분절음운)입니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 ‘음운’에는 분절음운(자음, 모음)과 비분절음운(장단, 고저, 세기 등)이 있는데 분절음운을 따로 ‘음소’라하고 비분절음운을 ‘운소’라고 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 ‘음운’은 ‘음소’를 포함하는 개념입니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=32855",
+            "search_query": "음운 음소 차이",
+            "terminate": false,
+            "text": "음운에는 분절음운과 비분절음운이 있어요. 자음과 모음은 분절음운이고 따로 음소라고 불러요. 장단, 고저, 세기 등의 음운은 비분절음운이고, 운소라고 부르죠. 따라서 음소는 음운 안에 포함되는 개념이에요.",
+            "turn_id": "BK22009311-3",
+            "utterance_id": "BK22009311.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 같은 게 아니군요. 너무 헷갈렸는데 알려주셔서 감사해요. 그런데 음성도 있던데 그건 뭔가요?",
+            "turn_id": "BK22009311-4",
+            "utterance_id": "BK22009311.7"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "음성(音聲)은 사람이 발성 기관을 통해서 내는 소리를 뜻한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목소리라고도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람이 말하거나, 웃거나, 울거나, 노래할 때 내는 소리들이 모두 음성에 해당한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%8C%EC%84%B1",
+            "search_query": "음성",
+            "terminate": false,
+            "text": "아 음운과 음성이 비슷하게 느껴졌나 봐요. 음성은 사람이 발성 기관을 통해서 내는 소리, 즉 우리 목소리를 생각하면 돼요. 사람이 말하거나 웃고, 울고, 노래하는 모든 소리들이 음성인 거에요.",
+            "turn_id": "BK22009311-4",
+            "utterance_id": "BK22009311.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음운, 음소, 음성 차이를 알겠어요. 그러면 음절도 궁금해요. 영어에도 음절이 있는데 국어의 음절과는 다른 건가요?",
+            "turn_id": "BK22009311-5",
+            "utterance_id": "BK22009311.9"
+        },
+        {
+            "reference_date": "2019-06-10",
+            "reference_text": [
+                {
+                    "value": "그런데 우리의 ‘음절’과 영어의 ‘음절’ 개념 사이에는 차이가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어, and는 우리글로는 ‘앤드’로 표기되는 2음절어인데, 영어권 사람들은 1음절로 인식한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그처럼 영어에서는 국제음성기호 상의 단모음 수가 음절을 헤아리는 기준이 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘앤’에 비해 ‘드’가 작게 들릴 뿐 한국인들의 귀에는 분명 ‘드’이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그처럼 우리는 and의 음절수를 2로 보는데 영미인들은 1로 보니 그런 셈법의 차이는 모음 ‘으(ㅡ)’ 때문에 발생한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20190603_0000670387&cID=10701&pID=10700",
+            "search_query": "음운 음절",
+            "terminate": false,
+            "text": "영어에도 국어에도 음절이 있지만, 개념에는 다소 차이가 있어요. 예를 들어, 영어권 사람들은 국제음성 기호상의 단모음 수로 음절을 헤아리기에 and를 1음절로 생각해요. 하지만, 한국인들은 우리글로 앤드 즉 2음절로 표기하죠. 앤에 비해 드가 작게 들릴 뿐, 분명 드가 들리기 때문이죠. 즉 모음 으 때문에 음절의 수를 다르게 생각하는 거예요.",
+            "turn_id": "BK22009311-5",
+            "utterance_id": "BK22009311.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 영어와 달리 우리에게는 으 모음이 있기 때문에 그런 거군요. 그리고 센입천장은 어디를 말하는 건가요? 자음을 분류할 때 소리나는 위치에 따른 분류 중 하나를 센입천장소리라고 하는데, 센입천장이 어딘지 모르겠어요.",
+            "turn_id": "BK22009311-6",
+            "utterance_id": "BK22009311.11"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "경구개(硬口蓋) 또는 단단입천장은 입천장에서 비교적으로 단단한 부분을 말한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "센입천장이 라고도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%BD%EA%B5%AC%EA%B0%9C",
+            "search_query": "경구개",
+            "terminate": false,
+            "text": "센입천장은 다른 말로 경구개 혹은 단단입천장이라고도 하는데, 입천장에서 비교적 단단한 천장을 가리키는 거예요.",
+            "turn_id": "BK22009311-6",
+            "utterance_id": "BK22009311.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그럼 센이 단단하는 뜻이군요. 그래서 단단한 입천장이 센입천장, 이제 알았네요. 파찰음과 마찰음도 있는데, 그건 어떻게 다른 건가요?",
+            "turn_id": "BK22009311-7",
+            "utterance_id": "BK22009311.13"
+        },
+        {
+            "reference_date": "2016-08-21",
+            "reference_text": [
+                {
+                    "value": "국어의 자음은 조음 방법에 따라 분류할 수 있는데, 코로 공기를 내보내면서 내는 비음(ㄴ, ㅁ, ㅇ)과 폐에서 나오는 공기를 막았다가 막은 자리를 터뜨리며 내는 파열음(ㄱ, ㄲ, ㅋ, ㄷ, ㄸ, ㅌ, ㅂ, ㅃ, ㅍ), 입안이나 목청 사이의 통로를 좁혀서 마찰시켜 내는 마찰음(ㅅ, ㅆ, ㅎ), 입안의 날숨을 막았다가 터뜨리며 마찰시키는 파찰음(ㅈ, ㅉ, ㅊ), 혀끝을 잇몸에 댄 채 날숨을 그 양 옆으로 흘려보내면서 내는 유음(ㄹ) 등으로 나눌 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201608211515216496",
+            "search_query": "자음 파찰음 소리 내는 방법",
+            "terminate": false,
+            "text": "파찰음과 마찰음은 자음을 소리 내는 방법에 따라 분류할 때 쓰는 말이에요. 마찰음은 입안이나 목청 사이의 통로를 좁혀서 마찰을 시켜 내는 음이고, 입안의 날숨을 막았다가 터뜨리며 마찰시키는 음은 파찰음이라고 불러요.",
+            "turn_id": "BK22009311-7",
+            "utterance_id": "BK22009311.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘 다 마찰을 시키는 음이지만, 소리 내는 방법이 다르군요. 조금 더 물어봐도 될까요? 단모음과 이중모음은 어떻게 나누나요?",
+            "turn_id": "BK22009311-8",
+            "utterance_id": "BK22009311.15"
+        },
+        {
+            "reference_date": "2014-09-22",
+            "reference_text": [
+                {
+                    "value": "발음할 때 입술 모양이나 혀의 위치가 변하지 않는 모음은 ‘홑 단(單)’의 단모음(單母音)이고, 변하는 모음은 이중모음(二重母音)이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sjbnews.com/news/articleView.html?idxno=471422",
+            "search_query": "전설 원순모음",
+            "terminate": false,
+            "text": "그럼요. 발음을 기준으로 해서 보세요. 발음할 때 입술 모양이나 혀의 위치가 변하지 않으면 단모음이에요. 변한다면 이중모음인 거죠.",
+            "turn_id": "BK22009311-8",
+            "utterance_id": "BK22009311.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 영어의 이중모음과 한글의 이중 모음은 어떤 차이가 있나요?",
+            "turn_id": "BK22009311-9",
+            "utterance_id": "BK22009311.17"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "이중모음(二重母音, Diphthong)이란 이어지는 두개의 모음 중 시작 모음과 끝 모음이 다른 소리를 내는 것을 말한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소리를 내는 동안 조음 기관의 위치가 변화하여 다르게 소리난다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이중모음은 시작 소리가 잘 들리는 것을 하강 이중모음이라고 하고, 끝 소리가 잘 들리는 것을 상승 이중모음이라고 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모든 영어의 이중모음 음은 하강 이중모음이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A4%91%EB%AA%A8%EC%9D%8C",
+            "search_query": "이중모음",
+            "terminate": false,
+            "text": "이중모음이 이어지는 두 개의 모음 중 시작 모음과 끝 모음이 다른 소리를 내는 것은, 소리를 내는 동안 조음 기관의 위치가 변하기 때문이에요. 그리고 시작 소리가 잘 들리는 것은 하강 이중 모음, 끝소리가 잘 들리는 것은 상승 이중모음이라고 부르죠. 그런데 모든 영어의 이중 모음 음은 하강 이중모음이에요.",
+            "turn_id": "BK22009311-9",
+            "utterance_id": "BK22009311.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영어의 모든 이중 모음은 시작 소리가 잘 들리는 모음이라는 거군요. 용어가 잘 이해가 안 돼서 공부가 어려웠는데 덕분에 많이 배웠네요. 고맙습니다.",
+            "turn_id": "BK22009311-10",
+            "utterance_id": "BK22009311.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "음운이 어렵죠. 하지만, 오늘 기초적인 용어를 알았으니 앞으로는 공부하기 더 편해질 거에요. 힘내서 공부 열심히 하세요.",
+            "turn_id": "BK22009311-10",
+            "utterance_id": "BK22009311.20"
+        }
+    ]
+}

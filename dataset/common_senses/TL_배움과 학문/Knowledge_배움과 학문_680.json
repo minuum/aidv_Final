@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004296",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004296",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화장실에서 심심해서 샴푸 성분표를 보고 있었는데 모르는 단어가 나오더라. 대체 계면활성제가 무슨 뜻이야?",
+            "turn_id": "BK22004296-1",
+            "utterance_id": "BK22004296.1"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "계면활성제(界面活性劑, surfactant)는 물에 녹기 쉬운 친수성 부분과 기름에 녹기 쉬운 소수성 부분을 가지고 있는 화합물이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제",
+            "terminate": false,
+            "text": "응, 계면활성제는 물에 잘 녹는 친수성 부분이랑 기름에 잘 녹는 소수성 부분을 같이 가지고 있는 화합물을 의미해.",
+            "turn_id": "BK22004296-1",
+            "utterance_id": "BK22004296.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 근데 그 친수성이랑 소수성을 같이 가지고 있다는 게 어떤 작용을 해주는 거야?",
+            "turn_id": "BK22004296-2",
+            "utterance_id": "BK22004296.3"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "계면활성제는 일정 농도 이상에서 계면활성제 분자들끼리 모여 미셀(micelle)이라는 구조를 형성한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미셀이 물에서 형성될 때, 계면활성제의 소수성 부분은 중심부에 모여 핵을 형성하고 친수성 부분은 물과 접촉하는 외곽 부분을 형성한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기름과 같이 소수성 물질은 미셀의 안쪽 부분에 위치하게 되어 안정화 되고 물에 녹게 되는데 이를 용해화(solubilization)라 하며 이는 세제 작용의 기본 원리이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 용해화",
+            "terminate": false,
+            "text": "농도가 어느 정도 이상이 되면 계면활성제 분자들끼리 모여서 미셀이라는 구조를 만들게 돼. 물에서 미셀이 만들어지면, 소수성을 가진 부분은 중앙에 모여 핵을 만들고 친수성 부분을 물과 접촉하는 외곽부를 만들게 되거든. 이때 기름과 같은 소수성 물질이 미셀의 안쪽에 모이게 돼서 안정화가 되고 물에 잘 녹게 되는데 이걸 용해화라고 불러. 이 용해화가 바로 세제 작용의 기본의 원리지.",
+            "turn_id": "BK22004296-2",
+            "utterance_id": "BK22004296.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 왜 샴푸에 계면활성제가 들어가는지 이제 알겠네.",
+            "turn_id": "BK22004296-3",
+            "utterance_id": "BK22004296.5"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "이런 성질 때문에 비누나 세제 등으로 많이 활용되어 왔다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 비누",
+            "terminate": false,
+            "text": "맞아, 이런 성질이 있어서 비누나 세제에 계면활성제를 많이 활용하는 거야.",
+            "turn_id": "BK22004296-3",
+            "utterance_id": "BK22004296.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군, 그럼 혹시 세제 말고도 다른 용도가 있나?",
+            "turn_id": "BK22004296-4",
+            "utterance_id": "BK22004296.7"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "계면활성제는 세제용도에 많이 사용되는 것외에도 식품과, 화장품의 유화제, 보습제로도 많이 사용되고 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 용도",
+            "terminate": false,
+            "text": "계면활성제는 세제의 용도 말고도 식품이나 화장품에서 유화제, 보습제 같은 역할로도 많이 쓰고 있지.",
+            "turn_id": "BK22004296-4",
+            "utterance_id": "BK22004296.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 보습제로도 쓰는구나, 세제랑은 너무 다른 느낌인걸.",
+            "turn_id": "BK22004296-5",
+            "utterance_id": "BK22004296.9"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "계면활성제는 약간의 화학구조를 변형시킨 것만으로도 특성이 크게 달라져 종류도 다양하다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 종류",
+            "terminate": false,
+            "text": "응, 계면활성제라는 게 화학구조를 조금만 바꿔도 특성이 크게 달라지거든. 종류가 굉장히 다양해.",
+            "turn_id": "BK22004296-5",
+            "utterance_id": "BK22004296.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래? 어떤 종류가 있는지 설명해 줄 수 있어? 이참에 확실하게 알아가려고.",
+            "turn_id": "BK22004296-6",
+            "utterance_id": "BK22004296.11"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "대체로 계면활성제는 물에서 해리되었을 때 친수성 부분의 전하에 따라 음이온성, 양이온성, 양쪽성, 비이온성, 특수계면활성제로 분류할 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 친수성",
+            "terminate": false,
+            "text": "물에서 분리됐을 때 친수성 부분의 전하가 어떤지에 따라서 음이온성, 양이온성, 양쪽성, 비이온성 그리고 특수 계면활성제로 구분해 볼 수 있어.",
+            "turn_id": "BK22004296-6",
+            "utterance_id": "BK22004296.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 다양하구나. 그것들도 특성이나 용도가 다 다르겠지?",
+            "turn_id": "BK22004296-7",
+            "utterance_id": "BK22004296.13"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "발포성과는 반대로 거품이 이는 것을 방지하는 소포제도 계면활성제의 하나로서 만들어지고 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 소포제",
+            "terminate": false,
+            "text": "응, 정말 다양하지. 예를 들자면 세제처럼 거품이 잘 나게 하는 발포성과 반대로 작용하는 소포제도 계면활성제 중의 하나로 만들 수 있어.",
+            "turn_id": "BK22004296-7",
+            "utterance_id": "BK22004296.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 그럼 같은 물질이 정반대의 역할을 하는 거네. 더 자세히 말해줄 수 있어?",
+            "turn_id": "BK22004296-8",
+            "utterance_id": "BK22004296.15"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "또 물과 잘 섞이게 하는 역할과는 반대로 물을 배척하는 것도 계면활성제의 한 역할인데, 실리콘도료나 실리콘유를 유리 등의 표면에 바르면 물을 배척하는 성질이 있어, 자동차의 유리나 안경알이 뿌옇게 되는 것을 방지하는 데 사용되고 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%84%EB%A9%B4%ED%99%9C%EC%84%B1%EC%A0%9C",
+            "search_query": "계면활성제 안경알",
+            "terminate": false,
+            "text": "응, 말한 대로 물과 잘 섞이게 하는 것과 반대로 물을 배척하는 것도 계면활성제로 할 수 있는 부분이야. 실리콘도료나 실리콘유를 유리 같은 표면에 바르면 물을 배척하는 성질을 만들 수 있지. 안경알이나 자동차 유리는 쉽게 뿌옇게 보이잖아? 그런 걸 방지하는데 많이 쓰이고 있어.",
+            "turn_id": "BK22004296-8",
+            "utterance_id": "BK22004296.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 정말 신기하다. 계면활성제라는 거 정말 유용한 물질이구나.",
+            "turn_id": "BK22004296-9",
+            "utterance_id": "BK22004296.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그나저나 시간 괜찮은 거야? 아까 차 시간 20분밖에 안 남았다며.",
+            "turn_id": "BK22004296-9",
+            "utterance_id": "BK22004296.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 지금 일어나려고 했지. 먼저 가볼게, 안녕!",
+            "turn_id": "BK22004296-10",
+            "utterance_id": "BK22004296.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 다음에 또 보자, 연락해!",
+            "turn_id": "BK22004296-10",
+            "utterance_id": "BK22004296.20"
+        }
+    ]
+}

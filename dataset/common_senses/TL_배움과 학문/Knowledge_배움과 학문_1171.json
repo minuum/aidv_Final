@@ -1,0 +1,421 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007793",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007793",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 친구네 집에 놀러 갔다가 친구 아버지께서 모으시던 수석을 보게 됐어. 그걸 보고 문득 여러 암석에 관심이 생기더라고. 돌도 종류가 여러 가지인 것 같은데, 암석은 어떤 식으로 분류할 수 있어?",
+            "turn_id": "BK22007793-1",
+            "utterance_id": "BK22007793.1"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "암석은 생성 과정에 따라 화성암, 퇴적암, 변성암으로 분류된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화성암은 화산활동에 의해 형성된 암석이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화산에서 분출한 용암이 화산 지표면에서 식어 형성된 화산암(분출암이라고도 한다)과 지하에서 다른 암반 속으로 침투하여 형성된 심성암(관입암이라고도 한다)으로 나뉜다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "퇴적암은 풍화와 침식에 의해 기존의 암석에서 떨어져 나온 광물이나 조암광물 이 퇴적작용을 거쳐 암석으로 굳은 것을 말한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "변성암은 화성암이나 퇴적암과 같은 암석이 높은 압력과 고열에 의해 구성물질이 변하여 형성되는 암석이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%EC%84%9D",
+            "search_query": "암석 종류",
+            "terminate": false,
+            "text": "생성된 과정에 따라서 암석은 퇴적암, 화성암, 변성암으로 분류할 수 있어. 우선, 화성암은 화산 활동에 의해서 만들어진 암석인데, 화산에서 분출된 용암이 지표면에서 식으며 만들어진 것을 화산암, 땅속에서 다른 암반 속으로 들어가 만들어진 것을 심성암이라고 해. 퇴적암은 기존 암석에서 침식과 풍화를 받아 떨어져 나온 광물, 혹은 조암광물이 퇴적 작용을 거쳐서 암석 형태로 굳어진 것을 가리키지. 변성암의 경우, 퇴적암이나 화성암 등의 암석이 높은 온도와 압력에 의해 구성 물질이 변하면서 만들어지는 암석이야.",
+            "turn_id": "BK22007793-1",
+            "utterance_id": "BK22007793.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크게 분류한 것 같은데도 제법 복잡하네. 그럼 먼저, 화성암 중에서 화산암은 어떤 특징이 있고, 화산암에는 어떤 암석들이 속해 있어?",
+            "turn_id": "BK22007793-2",
+            "utterance_id": "BK22007793.3"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "화산암(volcanic rock, 火山岩)은 화성암의 종류 중 하나로, 마그마가 지표에 분출되어 식어 만들어진 암석으로, 냉각 속도가 빠르고, 결정의 크기가 미세한 세립질 또는 유리질 조직을 갖는다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이산화 규소의 함량에 따라 코마티아이트, 현무암, 안산암, 데이사이트, 유문암 등으로 분류된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%82%B0%EC%95%94",
+            "search_query": "화산암",
+            "terminate": false,
+            "text": "마그마가 지표로 나와 식어서 만들어지는 화산암은 냉각 속도가 빨라서, 결정 크기가 미세한 세립질, 혹은 유리질 조직을 가지는 게 특징이야. 화산암은 이산화규소 함량에 따라 코마티아이트, 현무암, 안산암, 데이사이트, 유문암 등으로 나눌 수 있지.",
+            "turn_id": "BK22007793-2",
+            "utterance_id": "BK22007793.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빠르게 식으면 암석 내 결정 크기가 작아지는구나. 현무암은 살면서 많이 들어본 돌 이름인데, 어떤 특징이 있을까?",
+            "turn_id": "BK22007793-3",
+            "utterance_id": "BK22007793.5"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "현무암(玄武巖, 영어: Basalt)은 회색~흑색의 분출 화산암이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이산화규소의 함량(45% ~ 52%)이 상대적으로 낮은 특징이 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "풍화되지 않은 현무암은 흑색 혹은 회색이지만, 철분의 산화에 따라 붉은색이나 자주색이 되기도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%84%EB%AC%B4%EC%95%94",
+            "search_query": "현무암",
+            "terminate": false,
+            "text": "현무암은 회색~흑색을 띠는 분출 화산암인데, 이산화규소 함량이 45~52퍼센트로, 다른 화산암에 비해 상대적으로 낮은 게 특징이야. 현무암 색은 풍화되지 않았을 때는 흑색이나 회색이지만, 철분의 산화 여부에 따라 자주색이나 붉은색을 띠기도 해.",
+            "turn_id": "BK22007793-3",
+            "utterance_id": "BK22007793.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구네 집에서 본 검은 돌이 현무암이었을 수도 있겠다. 부분 부분 자줏빛이 났었거든. 그럼 이번에는 퇴적암의 특징에는 어떤 것들이 있는지 말해 줄래?",
+            "turn_id": "BK22007793-4",
+            "utterance_id": "BK22007793.7"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "퇴적암(堆積岩, 문화어: 쌓인바위)은 퇴적물들이 속성작용을 받아 고화한 암석을 말한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "퇴적물에는 다른 곳에서 이동되어 온 광물이나 생물에 의하여 만들어진 물질들이 포함된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "퇴적암은 지구 표면의 75~80%를 덮고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지표에서 발견되는 퇴적암은 크게 퇴적 과정에 따라 쇄설성 퇴적암, 생물학적 퇴적암, 화학적 퇴적암으로 나눌 수 있으나 실제로는 퇴적되는 물질에 따라서 규산염질 퇴적암 또는 탄산염질 퇴적암으로 나누어 연구한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%87%B4%EC%A0%81%EC%95%94",
+            "search_query": "퇴적암",
+            "terminate": false,
+            "text": "퇴적물이 속성 작용으로 인해 고화한 암석을 퇴적암이라고 하고, 이런 퇴적물에는 다른 곳으로부터 옮겨져 온 광물이나 생물에 의해 생긴 물질이 포함돼. 지표면의 75~80퍼센트는 이 퇴적암으로 덮여 있는데, 지표에서 찾을 수 있는 퇴적암은 퇴적 과정에 따라 크게 생물학적 퇴적암, 화학적 퇴적암, 쇄설성 퇴적암으로 분류할 수 있지. 다만, 실제 연구는 퇴적되는 물질에 따라 탄산염질 퇴적암과 규산염질 퇴적암으로 나누어 이루어져.",
+            "turn_id": "BK22007793-4",
+            "utterance_id": "BK22007793.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 암석이나 생물체에 의한 물질이 쌓여서 만들어지는 암석이구나. 퇴적암의 예 하나만 들어서 특징을 설명해 줄 수 있을까?",
+            "turn_id": "BK22007793-5",
+            "utterance_id": "BK22007793.9"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "석회암(石灰岩, limestone)은 주로 탄산칼슘 성분으로 이루어진 퇴적암이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "탄산칼슘으로 구성되어 있으며, 생성원인에 따라 유기적 퇴적암과 화학적 퇴적암으로 구별할 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암석의 대부분은 방해석으로 되어있어 염산과 반응하면 이산화탄소를 발생시키고, 유기적 석회암은 탄산칼슘으로 몸의 껍질을 만드는 생물들의 사체로부터 만들어진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 유기적 석회암에서는 많은 화석이 발견되는 경우가 있으며, 탄산칼슘이 과포화되어있는 환경에서는 침전에 의해 석회암이 형성되기도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9D%ED%9A%8C%EC%95%94",
+            "search_query": "석회암",
+            "terminate": false,
+            "text": "탄산칼슘 성분으로 이루어진 퇴적암인 석회암을 예로 들 수 있겠네. 석회암은 생성 원인에 따라 화학적 퇴적암과 유기적 퇴적암으로 나눌 수 있고, 암석의 대부분은 방해석으로 이루어져 있어서 염산과 반응할 경우 이산화탄소를 발생시켜. 유기적 석회암은 탄산칼슘을 이용해 몸의 껍질을 만드는 생물의 사체에서 만들어지는데, 그래서 유기적 석회암에서는 화석이 많이 발견될 때가 있어. 참, 탄산칼슘이 과포화된 환경에서는 침전으로 인해 석회암이 만들어지기도 해.",
+            "turn_id": "BK22007793-5",
+            "utterance_id": "BK22007793.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생물의 사체가 돌이 된다니 신기하네. 그럼 변성암에는 어떤 특징과 종류가 있을까?",
+            "turn_id": "BK22007793-6",
+            "utterance_id": "BK22007793.11"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "변성암(變成岩, metamorphic rock)은 이전에 있었던 암석, 즉 모암이 '형태의 변화'를 뜻하는 변성작용을 받아 변화되어 만들어진 암석을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모암은 열(섭씨 150도 이상의)과 강한 압력을 받아 물리적 혹은 화학적 변화를 겪게 된다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모암은 퇴적암일수도 있고 화성암일수도 있으며 혹은 다른 변성암일수도 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "변성암의 예로는 편마암, 슬레이트, 대리암, 편암 등이 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%80%EC%84%B1%EC%95%94",
+            "search_query": "변성암",
+            "terminate": false,
+            "text": "우선, 변성암의 종류로는 슬레이트, 편암, 편마암, 대리암 등이 있어. 변성암은 원래 있던 암석, 그러니까 모암이 변성 작용을 받아서 변화되어 생성된 암석을 가리키는데, 여기서 변성 작용이란 형태의 변화를 뜻해. 다시 말해 모암이 높은 압력과 섭씨 150 이상의 고열을 받아 화학적, 또는 물리적인 변화를 겪게 되는 거지. 모암은 화성암이나 퇴적암일 수도 있고, 또는 다른 변성암이 될 수도 있어.",
+            "turn_id": "BK22007793-6",
+            "utterance_id": "BK22007793.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고온, 고압 환경에서는 그렇게 단단해 보이는 암석도 변하는 거구나. 대리암은 상당히 익숙한 돌 같은데, 막상 대리암에 관해 아는 건 없는 것 같아. 대리암은 어떤 암석이 변성되어 만들어진 것이고, 특징에는 어떤 것들이 있을까?",
+            "turn_id": "BK22007793-7",
+            "utterance_id": "BK22007793.13"
+        },
+        {
+            "reference_date": "2019-06-10",
+            "reference_text": [
+                {
+                    "value": "대리암은 해양에서 기원한 석회암이 변성된 암석으로 낮은 변성을 받은 것부터 높은 변성을 받은 것까지 다양하게 분포하고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대리암은 주로 밝은 회색 또는 황색을 띠며, 암석 내에 포함된 유기물, 황철석 등 불순물에 따라 다양한 색상을 띤다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대리암의 모스경도는 구성 광물인 방해석과 비슷한 3~4 수준으로 비교적 부드러워 가공이 쉽고, 등방성과 균질성도 우수하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 특징 덕에 대리암은 오래전부터 조각물이나 건축 재료로 쓰이고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B3%BC%ED%95%99%EA%B3%BC-%EC%9D%8C%EC%95%85%EC%9D%B4-%EB%A7%8C%EB%82%98%EB%8B%88-%EC%9E%AC%EB%AF%B8%EA%B0%80-%EC%91%A4%EC%9A%B1/",
+            "search_query": "대리암 특징",
+            "terminate": false,
+            "text": "응, 해양에서 기원한 석회암이 변성된 암석이 바로 대리암이고, 낮은 수준의 변성을 받은 것부터 높은 변성을 받은 것에 이르기까지 다양한 분포를 보여. 색상은 주로 회색이나 황색인데, 암석 내에 들어 있는 유기물이나 황철석 같은 불순물에 따라서 여러 색을 띠기도 해. 대리암은 모스경도가 구성 광물인 방해석과 비슷하게 3~4 수준이라서 비교적 부드러운 편이야. 그래서 등방성과 균질성이 우수하고 가공도 쉬워서 옛날부터 건축이나 조각물의 재료로 쓰이고 있지.",
+            "turn_id": "BK22007793-7",
+            "utterance_id": "BK22007793.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니, 유명한 조각상 중에 대리석으로 만들어진 것이 많은 것 같네. 그건 그렇고, 문맥상 모스경도는 돌의 굳기랑 관련 있는 것 같은데, 정확히 어떤 의미야?",
+            "turn_id": "BK22007793-8",
+            "utterance_id": "BK22007793.15"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "모스 굳기계(Mohs' scale of mineral hardness)는 독일 광물학자인 프리드리히 모스가 1812년에 제안한 굳기의 상대적인 기준이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모스는 주위에서 쉽게 얻을 수 있는 열 가지 광물들을 서로 긁어서 어느 쪽이 흠집이 나는지 관찰하여 굳기를 상대적인 10가지 순서로 나누었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어 굳기 5의 인회석(燐灰石, apatite)과 서로 긁어서 흠집이 생긴 어떤 물질 A를 굳기 4의 형석(螢石, fluorite)과 긁었다고 하자.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 형석에 흠집이 났다면 물질 A의 굳기는 4와 5의 중간이라고 말할 수 있을 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%8A%A4_%EA%B5%B3%EA%B8%B0%EA%B3%84",
+            "search_query": "모스 경도",
+            "terminate": false,
+            "text": "1812년, 독일의 광물학자인 프리드리히 모스가 제안한 굳기의 상대적인 기준이 바로 모스 굳기계야. 모스는 주변에서 손쉽게 구할 수 있는 열 가지 광물을 서로 긁어서 어느 쪽에 흠집이 생기는지 관찰하고, 굳기를 10단계의 상대적인 순서로 나누었어. 예를 들자면, 어떤 물질 A를 굳기 5인 인회석과 서로 긁어서 A에 흠집이 나고, 이 A를 다시 굳기 4의 형석과 긁어서 형석에 흠집이 났다면, 물질 A의 굳기는 4와 5 중간이라고 판단할 수 있는 거지.",
+            "turn_id": "BK22007793-8",
+            "utterance_id": "BK22007793.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "돌을 서로 긁어서 굳기를 판별한다니, 뭔가 단순하면서도 참신하고 깔끔한 방법이네. 집 가는 길에 돌을 이것저것 주워서 직접 돌끼리 긁어 보고 싶은걸. 좀 웃기는 생각인가?",
+            "turn_id": "BK22007793-9",
+            "utterance_id": "BK22007793.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전혀 웃기는 생각 같지 않아. 오히려 새로 안 사실을 직접 체험해 보는 중요한 활동이라고 봐.",
+            "turn_id": "BK22007793-9",
+            "utterance_id": "BK22007793.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 말 나온 김에 근처 산책로까지 돌아다니면서 신기해 보이는 돌 있으면 주워서 관찰도 하고 긁어도 봐야겠다. 집 도착하면 주운 돌 사진 찍어서 보내 줄게.",
+            "turn_id": "BK22007793-10",
+            "utterance_id": "BK22007793.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 사진 기대하고 있을게. 조심히 들어가고 독특한 돌 많이 발견할 수 있길 바랄게.",
+            "turn_id": "BK22007793-10",
+            "utterance_id": "BK22007793.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005674",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005674",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 눈이 잘 안 보이는 것 같아 안과에 가봤더니 근시가 생겼다고 하더라고. 근시란 어떤 걸 말해?",
+            "turn_id": "BK22005674-1",
+            "utterance_id": "BK22005674.1"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "근시(近視, 영어: Myopia, 의학: nearsightedness)는 빛이 망막 대신 그 바로 앞에 맺히는 증상을 말한다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이로 인해 먼 거리의 물체는 흐리게 보이는 반면 가까운 물체는 정상으로 보이게 된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%8B%9C",
+            "search_query": "근시",
+            "terminate": false,
+            "text": "근시가 있으면 멀리 있는 건 흐리게 보이고, 가까이에 있는 건 정상적으로 보이게 되는데 그 이유는 빛이 망막에 맺히는 대신 그 바로 앞에 맺혀서야.",
+            "turn_id": "BK22005674-1",
+            "utterance_id": "BK22005674.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 어느 순간 멀리 있는 물건이나 글씨가 흐릿해졌어. 예방을 잘 했어야 할까? 근시 예방법이 있어?",
+            "turn_id": "BK22005674-2",
+            "utterance_id": "BK22005674.3"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "미국 국립 보건원에 따르면 현재 알려져 있는 근시의 예방 방법은 존재하지 않으며 안경이나 콘택트 렌즈의 착용은 근시 진행에 영향을 주지 않는다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%8B%9C",
+            "search_query": "근시 예방법",
+            "terminate": false,
+            "text": "미국 국립 보건원에 따르면 근시 예방 방법이 딱히 존재하지 않는다고 해. 그렇다고 안경이나 콘택트 렌즈를 낀다고해서 근시가 더 진행되거나 하진 않아.",
+            "turn_id": "BK22005674-2",
+            "utterance_id": "BK22005674.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 근시를 치료하는 방법은 뭐가 있을까?",
+            "turn_id": "BK22005674-3",
+            "utterance_id": "BK22005674.5"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "안경, 콘택트 렌즈, 시력 교정술이 근시 치료의 주된 선택 사항이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%8B%9C",
+            "search_query": "근시 치료",
+            "terminate": false,
+            "text": "시력 교정술을 받는 방법도 있고, 안경이나 콘택트 렌즈를 끼는게 흔한 선택지야.",
+            "turn_id": "BK22005674-3",
+            "utterance_id": "BK22005674.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 안과에서는 근시는 정말 흔한 증상이라고 하더라고. 근시를 가지고 사는 사람들이 그렇게 많아?",
+            "turn_id": "BK22005674-4",
+            "utterance_id": "BK22005674.7"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "세계적으로 8천만 명에서 2억 3천만 명 정도가 근시를 가진 것으로 추정하고 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%BC%EC%8B%9C",
+            "search_query": "근시 인구",
+            "terminate": false,
+            "text": "응, 근시를 가진 사람들의 인구수는 8천만 명에서 2억 3천만명 정도로 추정 돼.",
+            "turn_id": "BK22005674-4",
+            "utterance_id": "BK22005674.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉, 정말 큰 숫자이긴 하다. 그렇다면 근시의 원인이 뭘까?",
+            "turn_id": "BK22005674-5",
+            "utterance_id": "BK22005674.9"
+        },
+        {
+            "reference_date": "2021-04-21",
+            "reference_text": [
+                {
+                    "value": "유전적 요인도 영향을 미치지만, 근거리 작업이나 잦은 스마트폰·컴퓨터 사용, TV 시청 등 다양한 요인이 복합적으로 작용한다고 볼 수 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근에는 전자기기 사용 연령이 낮아지고 사용 시간이 늘면서 근시를 겪는 아동 또한 증가하는 추세다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/04/21/2021042102435.html",
+            "search_query": "근시 원인",
+            "terminate": false,
+            "text": "유전의 영향이 있겠지만, 근거리 작업이나 잦은 스마트폰, 컴퓨터 사용, 티브이 시청도 근시의 요인으로 꼽혀. 최근에는 전자기기 사용 연령이 낮아지고 사용 시간은 늘어나면서 아동들도 근시를 겪는 경우가 늘고 있어.",
+            "turn_id": "BK22005674-5",
+            "utterance_id": "BK22005674.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 안과에서 나에겐 난시가 없어 다행이라고 했어. 난시는 어떤 증상을 말하는 거야?",
+            "turn_id": "BK22005674-6",
+            "utterance_id": "BK22005674.11"
+        },
+        {
+            "reference_date": "2021-04-21",
+            "reference_text": [
+                {
+                    "value": "난시가 있으면 2개 이상 초점을 갖게 돼 사물이 흐릿하게 보인다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물체 위치와 관계없이 먼 곳, 가까운 곳 모두 흐릿하게 보이며, 근시가 동반된 경우 가까운 곳이 조금 더 잘 보일 수 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/04/21/2021042102435.html",
+            "search_query": "난시 증상",
+            "terminate": false,
+            "text": "두 개 이상의 초점이 생겨 사물이 흐릿하게 보이는 증상이 난시야. 먼 곳, 가까운 곳 모두 흐릿하게 보이는게 특징이지만 만약 근시가 있다면 가까운 곳의 물체가 좀 더 잘 보일 수 있어.",
+            "turn_id": "BK22005674-6",
+            "utterance_id": "BK22005674.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런거구나, 정말 나는 난시는 없어서 다행이네. 시력 교정술 중에 요즘은 스마트라식을 많이 한다던데, 일반 라식 수술하고는 뭐가 다른 거야?",
+            "turn_id": "BK22005674-7",
+            "utterance_id": "BK22005674.13"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "스마트라식과 기존 라식의 가장 큰 차이점은 ‘각막 절개량’이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기존 라식 수술은 각막을 20mm 절개하고 각막절편을 만들어 젖힌 후 레이저를 조사했는데, 각막 두께가 충분하지 않은 경우 수술이 어려웠다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 달리 스마트라식은 기존 라식에 비해 절개 범위를 1/10로 축소한 만큼, 수술 후 통증이 적고 회복도 빠른 편이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jeonmae.co.kr/news/articleView.html?idxno=908893",
+            "search_query": "스마트라식",
+            "terminate": false,
+            "text": "기존 라식과의 제일 큰 차이점을 꼽자면 각막 절개량이야. 스마트라식은 기존의 라식 수술이 20밀리미터를 절개했던 데에 비해 그 십분의 일의 범위만 절개하거든. 라식은 각막절개 범위가 넓다보니 각막 두께가 충분하지 않으면 수술이 어려웠는데, 스마트라식은 수술 후 통증도 적고 회복도 빨라.",
+            "turn_id": "BK22005674-7",
+            "utterance_id": "BK22005674.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오오, 각막을 얼마나 절개하느냐에 따라 달라지는거구나. 아, 그럼 혹시 스마일 라식에 대해서도 알아? 스마일 라식도 관심이 있는데 혹시 스마일 라식이 안되는 조건도 있을까?",
+            "turn_id": "BK22005674-8",
+            "utterance_id": "BK22005674.15"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "초고도근시, 고도난시교정이 필요한 환자 중 너무 많은 각막을 깎아내야 하는 경우, 원추각막, 각막확장증, 아벨리노 각막이영양증 등 각막질환, 심한 각막혼탁을 가진 환자는 스마일라식이 어려울 수 있으므로 전문 의료진의 정확한 진단이 필수다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdtoday.co.kr/news/view/1065604993566299",
+            "search_query": "스마일라식 근시",
+            "terminate": false,
+            "text": "흠, 스마일라식은 고도난시교정이 필요하거나 초고도근시가 있어 너무 많은 각막을 깎아내야 하는 환자들의 경우에는 하기 힘들 수 있어. 원추 각막, 각막 확장증, 각막 질환, 심한 각막혼탁 등을 가진 환자들의 경우에도 스마일라식이 어려울 수 있으니 전문 의료진의 검사와 진단을 꼭 받아봐야 해.",
+            "turn_id": "BK22005674-8",
+            "utterance_id": "BK22005674.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 것 같긴 했어. 지금은 우선 눈이 더 나빠지지 않도록 관리 잘해야겠다.",
+            "turn_id": "BK22005674-9",
+            "utterance_id": "BK22005674.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 눈이 피로하지 않도록 해.",
+            "turn_id": "BK22005674-9",
+            "utterance_id": "BK22005674.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 너랑 이야기하니 이제 좀 근시에 대한 개념이 잡힌다. 도움 줘서 고마워.",
+            "turn_id": "BK22005674-10",
+            "utterance_id": "BK22005674.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 또 궁금한 거 있으면 언제든 물어봐. 눈 건강 관리 잘하고!",
+            "turn_id": "BK22005674-10",
+            "utterance_id": "BK22005674.20"
+        }
+    ]
+}

@@ -1,0 +1,436 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011894",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011894",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전에 연금술사에 관한 다큐멘터리를 본 뒤로 문득 여러 원소의 특징이나 용도가 궁금해지더라고. 특히 18족 원소들이 궁금하던데, 먼저 헬륨은 어떤 특징이 있는지 설명해 줄래?",
+            "turn_id": "BK22011894-1",
+            "utterance_id": "BK22011894.1"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "헬륨은 화학 원소 중 끓는점이 가장 낮으며, 상압에서는 영점에너지로 인하여 절대영도에서도 액체로 존재할 수 있는 유일한 원소다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단, 액체 헬륨의 동위원소는 일정한 온도 및 압력 하에서 고체로 존재할 수 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헬륨은 가장 반응성이 적은 비활성 기체이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거의 모든 조건에서 헬륨은 단원자 분자로 존재하며 반응하지 않는다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A5%A8#%EC%95%A1%EC%B2%B4_%ED%97%AC%EB%A5%A8%5B7%5D",
+            "search_query": "헬륨",
+            "terminate": false,
+            "text": "헬륨은 모든 화학 원소 중에서 끓는점이 제일 낮은 원소이자, 영점에너지 때문에 상압에서는 절대 영도에서조차 액체로 존재하는 유일한 원소야. 다만, 액체 헬륨의 동위원소는 일정 압력과 온도 조건에서라면 고체가 되지. 헬륨은 반응성이 제일 적은 비활성 기체이기 때문에 거의 대부분의 조건에서 단원자 분자로 존재하고, 화학 반응을 일으키지 않아.",
+            "turn_id": "BK22011894-1",
+            "utterance_id": "BK22011894.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절대 영도에서도 액체로 존재 가능하다는 게 너무 신기하네. 어째서 그런 걸까?",
+            "turn_id": "BK22011894-2",
+            "utterance_id": "BK22011894.3"
+        },
+        {
+            "reference_date": "2021-05-07",
+            "reference_text": [
+                {
+                    "value": "헬륨이 이토록 특이한 성질을 가질 수 있는 건 두 가지 조건이 맞아떨어지기 때문이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하나는 주기율표에서 두 번째로 등장하는 매우 가벼운 원자가 모여 만들어졌다는 점, 다른 하나는 주기율표 가장 우측 열에 존재하는 비활성 물질, 즉 원자와 원자 사이의 상호작용이 매우 약한 물질이란 점이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양자역학의 불확정성 원리로 인해 입자는 가장 낮은 에너지 상태에서도 가만히 있지 못하고 영점 운동zero-point motion이란 것을 한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헬륨 원자는 매우 가볍다 보니 양자역학적인 영점 운동이 매우 큰 반면 원자간 상호작용은 작아서 영점 운동을 구속할만한 다른 힘이 없다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 절대영도에서조차 헬륨 원자들을 제자리에 묶어둘 수가 없고 고체 대신 액체 상태로 존재한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://horizon.kias.re.kr/17558/",
+            "search_query": "헬륨 액체",
+            "terminate": false,
+            "text": "두 가지 조건에 들어맞기 때문이야. 주기율표상에서 두 번째에 있을 정도로 아주 가벼운 원자인 헬륨이 모여 있다는 점, 그리고 주기율표상에서 제일 우측 열에 있는 비활성 물질이라서 원자간 상호 작용이 아주 약한 물질이라는 점이지. 입자는 양자역학의 불확정성 원리 때문에 아무리 낮은 에너지 상태라도 그대로 있지 않고 영점 운동이라는 것을 하는데, 헬륨 원자는 아주 가볍다 보니 이 양자역학적인 영점 운동 효과가 아주 크게 나타나는 거야. 반대로 원자가 상호 작용을 잘 안 하기 때문에 영점 운동을 억제할 만한 힘은 부족하지. 그래서 절대 영도라는 낮은 온도조차 헬륨 원자들을 가만히 묶어 두지 못하고, 헬륨은 고체가 아닌 액체로 존재하게 되는 거야.",
+            "turn_id": "BK22011894-2",
+            "utterance_id": "BK22011894.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 신기한 특성을 양자역학으로 설명할 수 있는 거구나. 그럼 다음 원소인 네온은 어떤 특징이 있어?",
+            "turn_id": "BK22011894-3",
+            "utterance_id": "BK22011894.5"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "색깔과 냄새, 맛이 없으며 공기보다 가볍다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "저압방전에 의해 적색의 휘선스펙트럼을 나타낸다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비활성 기체로서 단원자 분자 상태로 존재한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헬륨 다음으로 반응성이 낮다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%84%A4%EC%98%A8",
+            "search_query": "네온",
+            "terminate": false,
+            "text": "네온은 무미, 무취, 무색이고 공기보다 가벼운 비활성 기체야. 헬륨 다음으로 반응성이 낮아서 단원자 분자 상태로 존재하지. 네온을 저압 방전하면 휘선 스펙트럼이 나타나는 특징이 있어.",
+            "turn_id": "BK22011894-3",
+            "utterance_id": "BK22011894.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헬륨과 비슷한 성질을 지닌 원소 같네. 그럼 이번에는 다음 원소인 아르곤의 용도에 관해 설명해 줄래?",
+            "turn_id": "BK22011894-4",
+            "utterance_id": "BK22011894.7"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "고온에서 2원자 물질인 질소가 불안정한데 반하여, 1원자 물질인 아르곤은 고온에서도 안정적이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 고온에서의 비활성 기체(inert gas)가 요구되는 곳에 많이 사용한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "철강 제조시 고급제련강을 제조하는 경우에 주로 쓰이며, 그 외에도 TIG용접, MIG용접시에도 불활성가스로 사용된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청록색의 아르곤 레이저는 종양 제거 등의 목적으로 이용되며, 잠수부들이 사용하는 산소통의 혼합기체로 사용되기도 한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%EA%B3%A4",
+            "search_query": "아르곤",
+            "terminate": false,
+            "text": "2원자 물질인 질소가 높은 온도에서 불안정해지는 데에 비해 아르곤은 1원자 물질이기 때문에 높은 온도에서도 안정적이라서, 높은 온도의 비활성 기체가 필요한 곳에 많이 쓰여. 철강 제조업에서 고급 제련강을 만들 때도 쓰고, TIG용접이나 MIG용접을 할 때 불활성 가스로 쓰이기도 하지. 그 외에, 청록색을 띠는 아르곤 레이저로 종양을 제거하거나, 잠수부의 산소통에 혼합 기체로 넣기도 해.",
+            "turn_id": "BK22011894-4",
+            "utterance_id": "BK22011894.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 다양한 용도로 사용되는 물질이네. 그럼 18족의 또 다른 원소인 크립톤은 어떤 특징이 있어?",
+            "turn_id": "BK22011894-5",
+            "utterance_id": "BK22011894.9"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "크립톤은 여러 개의 선 스펙트럼 띠를 나타내며 그 중 녹색과 노란색 계열에서 가장 선명하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "크립톤은 다른 비활성 기체들처럼 화학적으로는 반응성이 매우 낮다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 1962년 인공적으로 제논 화합물이 생성되었고 1963년에는 극한 조건에서 이플루오린화 크립톤(KrF2)이 합성되었다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "극저온에서 만들어지는 고체 크립톤은 흰색으로, 헬륨을 제외한 모든 비활성 기체들처럼 면심 입방정계 구조를 가진다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%BD%ED%86%A4",
+            "search_query": "크립톤",
+            "terminate": false,
+            "text": "크립톤은 선 스펙트럼 띠를 여러 개 나타내는데, 노란색과 녹색 계열이 가장 선명해. 여타 비활성 기체와 마찬가지로 크립톤도 화학적인 반응성이 아주 낮은데, 1962년에 인공적인 제논 화합물이 생성된 이후, 1963년에는 극한 조건으로 이플루오린화 크립톤이 합성되기도 했어. 또, 극저온 상태에서는 고체 크립톤이 만들어지는데, 색깔은 흰색이고, 헬륨을 뺀 다른 비활성 기체와 똑같이 면심 입방정계 구조를 보이지.",
+            "turn_id": "BK22011894-5",
+            "utterance_id": "BK22011894.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비활성 기체로 화합물을 만들었다는 게 정말 신기하네. 다음 원소인 제논은 어떤 특징과 용도가 있을까?",
+            "turn_id": "BK22011894-6",
+            "utterance_id": "BK22011894.11"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "제논은 무색의 무겁고 냄새가 없는 비활성 기체로, 지구 대기 중에 미량이 존재한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "핵 실험을 하면 대기에서 제논이 검출된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 통해서 핵실험 유무를 파악할 수 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 크세논이라고 하며, 카메라의 플래시나 등대의 플래시로 쓰인다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%85%BC_(%EC%9B%90%EC%86%8C)",
+            "search_query": "제논 원소",
+            "terminate": false,
+            "text": "제논은 주로 크세논이라고 불리는 무색, 무취의 무거운 기체인데, 지구 대기 상에도 아주 소량 존재하지. 핵실험을 할 경우 대기 중에서 제논이 검출되기 때문에 핵실험 유무를 파악하는 데 쓰일 수 있어. 그리고 등대나 카메라의 플래시로도 사용돼.",
+            "turn_id": "BK22011894-6",
+            "utterance_id": "BK22011894.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "핵실험에서 제논이 검출될 줄은 상상도 못 했어. 그럼 다음 원소인 라돈은 어떤 특징이 있는지 설명해 줄래?",
+            "turn_id": "BK22011894-7",
+            "utterance_id": "BK22011894.13"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "라돈은 방사성 비활성기체로써 무색, 무미, 무취의 성질을 가지고 있으며 공기보다 무겁다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 안정적인 동위 원소는 Rn-222으로 반감기는 3.8일이고, 이를 이용하여 방사선 치료 등에 사용된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "라돈의 방사능을 흡입하게 되면 폐의 건강을 위협할 수 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "표준 온도 압력에서 라돈은 비활성기체의 성질을 지니며, 밀도는 9.73 kg/m3로 지구 대기(해수면에서 밀도 1.217 kg/m3)의 약 8배에 해당한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9D%BC%EB%8F%88",
+            "search_query": "라돈",
+            "terminate": false,
+            "text": "라돈은 색, 맛, 냄새가 없는 방사성 비활성 기체인데, 가장 안정적인 동위 원소인 Rn-222의 반감기가 3.8일이라서 방사선 치료 등에 쓰여. 다만, 라돈을 흡입하면 방사능 때문에 폐가 위험해질 수 있지. 표준 온도 압력 상에서 라돈의 밀도는 세제곱미터당 9.73kg이라서 지구 대기 밀도의 8배에 달하는 무거운 기체야.",
+            "turn_id": "BK22011894-7",
+            "utterance_id": "BK22011894.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방사능 때문에 위험할 수도 있다니 무섭네. 그럼 18족 원소 중 마지막 원소인 오가네손은 어떤 특징과 용도가 있을까?",
+            "turn_id": "BK22011894-8",
+            "utterance_id": "BK22011894.15"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "오가네손(Oganesson)은 원자 번호 118번의 초우라늄 원소로 비활성 기체의 여러 성질을 공유할 것으로 생각되며, 화학적 성질은 라돈과 비슷할 것이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오가네손의 끓는점은 확실하지 않지만 370 K 정도로 추정된다.[1]",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오가네손은 다른 비활성 원소와는 달리 상온에서 고체 형태를 띤다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재까지 오가네손은 3개의 원자만 생성되었고, 그것마저도 반감기가 아주 짧기 때문에 아직까지는 이용되지 않는다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EA%B0%80%EB%84%A4%EC%86%90#%EC%9B%90%EC%9E%90%EC%99%80_%EB%AC%BC%EB%A6%AC%EC%A0%81_%EC%84%B1%EC%A7%88",
+            "search_query": "오가네손",
+            "terminate": false,
+            "text": "원자 번호 118번 오가네손은 초우라늄 원소이고, 비활성 기체와 여러 성질을 공유하는 한편, 라돈과 화학적 성질이 비슷할 것이라고 예상돼. 그리고 확실한 것은 아니지만, 오가네손은 끓는점이 약 370K로 추정되기 때문에, 여타 비활성 원소와 다르게 상온에서 고체 상태야. 오가네손은 아직 용도라고 할 만한 게 없는데, 원자가 3개밖에 만들어지지 않았고, 그마저도 반감기가 엄청 짧아서 그래.",
+            "turn_id": "BK22011894-8",
+            "utterance_id": "BK22011894.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 많은 부분이 미스터리에 쌓여 있는 물질인가 보구나. 그동안 원소에 대해 잘 몰랐는데, 이렇게 알아보니까 너무 신기한 게 많네.",
+            "turn_id": "BK22011894-9",
+            "utterance_id": "BK22011894.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지? 나도 처음 화학 공부에 재미를 붙인 이유가 원소들의 신기한 성질 때문이었어.",
+            "turn_id": "BK22011894-9",
+            "utterance_id": "BK22011894.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나, 나도 지금부터 주기율표의 원소를 전부 공부해 봐야겠어. 혹시 이번 일요일 점심 때쯤 만나서 또 알려줄 수 있을까?",
+            "turn_id": "BK22011894-10",
+            "utterance_id": "BK22011894.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 그야 물론이지. 최대한 많은 걸 알려줄 수 있게 나도 준비 많이 해 갈게. 그럼 일요일에 보자.",
+            "turn_id": "BK22011894-10",
+            "utterance_id": "BK22011894.20"
+        }
+    ]
+}

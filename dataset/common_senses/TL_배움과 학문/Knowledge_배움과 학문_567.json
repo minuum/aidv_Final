@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003077",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003077",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 TV에서 가우디 특집을 봤어요. 알고는 있었지만 다시 보니 정말 실물로 보고 싶어지더라고요.",
+            "turn_id": "BK22003077-1",
+            "utterance_id": "BK22003077.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가우디의 건축물들은 그 독특함이 시선을 사로잡죠. 가우디 작품 보러 스페인이라도 가야겠는걸요?",
+            "turn_id": "BK22003077-1",
+            "utterance_id": "BK22003077.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 가보고 싶어요. 스페인에 바르셀로나가 가우디의 도시라고 불린다던데요?",
+            "turn_id": "BK22003077-2",
+            "utterance_id": "BK22003077.3"
+        },
+        {
+            "reference_date": "2015-08-20",
+            "reference_text": [
+                {
+                    "value": "안토니 가우디는 바르셀로나의 대표적인 건축가로 바르셀로나의 유명 관광지 대부분이 그의 작품이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=25494",
+            "search_query": "가우디 바르셀로나",
+            "terminate": false,
+            "text": "바르셀로나에서 손꼽히는 관광 포인트들이 거의 다 안토니 가우디의 작품들이죠.",
+            "turn_id": "BK22003077-2",
+            "utterance_id": "BK22003077.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 건물들이 전형적이지 않고 독특하더라고요. 건축에 대해 잘 아시니까 가우디 건축물 특징 좀 자세히 알려주세요.",
+            "turn_id": "BK22003077-3",
+            "utterance_id": "BK22003077.5"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "가우디는 당시 카탈루냐 건축을 주도했던 고전주의 건축을 벗어나, 건조한 기하학 만이 강조된 건축이 아닌 나무, 하늘, 구름, 바람, 식물, 곤충 등 자연의 사물들을 관찰했고, 그런 형태들의 가능성에 관하여 진지하게 고민했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 그의 건축물은 기하학적인 형태들 외에도 곡선이 많이 사용되었으며, 내부 장식과 색, 빛이 조화를 이룬 건물들을 건축했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%EB%8B%88_%EA%B0%80%EC%9A%B0%EB%94%94",
+            "search_query": "안토니 가우디",
+            "terminate": false,
+            "text": "가우디가 있던 그 시절에 유행하던 고전주의 양식을 따르지 않고 기하학에서 벗어난 자연의 요소들을 관찰했어요. 나무나 하늘, 구름과 바람, 곤충 같은 것들을 살피면서 그 형태를 연구한 거죠. 그런 연구와 고민 후에 만들어진 건축물들은 곡선 위주의 기하학적 형태를 갖추었고, 내부 모습과 색상, 빛들이 서로 조화를 이룬 건축물을 만들어 냈죠.",
+            "turn_id": "BK22003077-3",
+            "utterance_id": "BK22003077.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 주변 환경들과 잘 어울리는 건축물들이 탄생할 수 있었던 거군요. 유네스코에 등재된 건축물도 있다면서요?",
+            "turn_id": "BK22003077-4",
+            "utterance_id": "BK22003077.7"
+        },
+        {
+            "reference_date": "2015-10-30",
+            "reference_text": [
+                {
+                    "value": "안토니 가우디전의 가우디 건축물은 7개의 유네스코세계문화유산에 등재되었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유네스코는 1984년 가우디의 건축물이 19세기 건축의 발전에 미친 영향과 그 문화적, 예술적 가치를 인정하여 카사 밀라와 구엘 저택, 구엘 공원을 세계문화유산에 등재하였고, 2005년 사그라다 파밀리아 성당 탄생의 파사드와 지하 예배당, 카사 비센스, 콜로니아 구엘 지하 경당, 카사 바트요 등 네 개의 작품을 추가로 등재하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsinside.kr/news/articleView.html?idxno=357504",
+            "search_query": "유네스코 등재 가우디 건축물",
+            "terminate": false,
+            "text": "7개의 건축물이 유네스코 세계문화유산에 등재되어 있어요. 1984년에 카사 밀라, 구엘 저택, 구엘 공원 이렇게 3개가 먼저 등재했구요, 그 이후 2005년에 사그라다 파밀리아 성당 탄생의 파사드와 지하 예배당, 카사 비센스, 콜리나오 구엘 지하 경당, 카사 바트요 이렇게 4개의 건축물이 추가로 등재됐어요. 가우디의 작품이 19세기에 건축과 문화, 예술적 발전에 미친 영향과 가치가 인정받은 거죠.",
+            "turn_id": "BK22003077-4",
+            "utterance_id": "BK22003077.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건축물 이름들도 어쩜 다 멋질까요. 까사 비센스가 첫 건축물로 알고 있는데 맞죠?",
+            "turn_id": "BK22003077-5",
+            "utterance_id": "BK22003077.9"
+        },
+        {
+            "reference_date": "2020-06-05",
+            "reference_text": [
+                {
+                    "value": "까사 비센스는 1878년, 26세였던 가우디가 처음으로 참여한 건축 프로젝트로 중산층이 많이 거주하던 그라시아 지구에 지어진 저택이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1888년에 완성된 것으로 알려져 있으며 타일을 활용한 기하학적이고 감각적인 외관이 특징이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6040938&cid=67006&categoryId=67301",
+            "search_query": "까사 비센스",
+            "terminate": false,
+            "text": "잘 알고 있네요. 가우디가 26살이던 1878년에 참여해서 1888년에 완성된 첫 건축 프로젝트죠. 그라시아 지구라고 중산층이 살던 지역에 만들어진 집인데, 타일을 이용해서 감각적인 건축물을 완성했죠.",
+            "turn_id": "BK22003077-5",
+            "utterance_id": "BK22003077.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "타일을 이용한 건축물들이 너무 아름답더라고요. 전 사그라다 파밀리아 성당이 가장 보고 싶어요. 아직도 건축 중이라죠?",
+            "turn_id": "BK22003077-6",
+            "utterance_id": "BK22003077.11"
+        },
+        {
+            "reference_date": "2022-05-20",
+            "reference_text": [
+                {
+                    "value": "카탈루냐 출신의 건축가 안토니 가우디가 설계하고 직접 건축을 책임졌다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가우디는 이 성당의 일부인 동부 성만 완성하고 죽었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 (2022년 기준)140년째 짓고있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B7%B8%EB%9D%BC%EB%8B%A4_%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84",
+            "search_query": "사그라다 파밀리아",
+            "terminate": false,
+            "text": "정말 아름다운 성당이죠. 가우디가 직접 설계하고 책임진 건축물인데, 가우디는 동부 성만 완성하고 죽었어요. 올해 2022년 기준으로 140년째 건축 중이죠.",
+            "turn_id": "BK22003077-6",
+            "utterance_id": "BK22003077.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "140년 동안 짓고 있다고요? 왜 그렇게나 오래 걸리고 있는 거예요?",
+            "turn_id": "BK22003077-7",
+            "utterance_id": "BK22003077.13"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "성당 건설이 유독 더뎠던 것은 시공 난도가 높은 가우디의 비정형적인 구조와 성도들의 기부금에 의존해야 했던 자금 조달 문제 때문이었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 사그라다 파밀리아 성당은 약 80% 완성된 상태로 목표 완공 시점은 가우디 사망 100주기인 2026년이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/life/view/2021/05/30093/",
+            "search_query": "사그라다 파밀리아 성당",
+            "terminate": false,
+            "text": "가우디의 건축물이 워낙 난도가 높은 정형적이지 않은 구조인 것도 있지만, 건축 자금을 대부분 기부금에서 의존해야 했기 때문인 이유가 컸어요. 그나마 현재는 80퍼센트 정도 지어져서 가우디 사망 100주년인 2026년에는 완공을 목표로 하고 있죠.",
+            "turn_id": "BK22003077-7",
+            "utterance_id": "BK22003077.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가우디 건축이 꽃 피운데 구엘이라는 후원자가 역할이 컸다고 하더라구요. 구엘이 어떻게 가우디를 후원하게 됐을까요?",
+            "turn_id": "BK22003077-8",
+            "utterance_id": "BK22003077.15"
+        },
+        {
+            "reference_date": "2018-07-11",
+            "reference_text": [
+                {
+                    "value": "구엘과의 만남은 가우디 일생을 바꾸는 기회가 되었습니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가우디가 1878년 프랑스 세계만국박람회에 작품을 출품하게 되는데, 구엘은 그의 독특한 디자인에 마음이 끌리고, 이를 계기로 가우디를 후원하게 되었다고 합니다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002452647&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "구엘과의 만남",
+            "terminate": false,
+            "text": "프랑스 세계만국박람회라고 1878년에 열렸던 행사가 있는데, 거기에 가우디가 출품한 작품을 본 구엘이 독특한 디자인에 매료되어 가우디를 후원하게 되죠. 구엘이라는 후원자는 가우디 일생을 바꿔준 사람이라 할 수 있어요.",
+            "turn_id": "BK22003077-8",
+            "utterance_id": "BK22003077.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 박람회에서 작품을 보고 반한 거군요. 그래서 그런지 건축물 이름에 구엘이 들어간 게 있더라고요.",
+            "turn_id": "BK22003077-9",
+            "utterance_id": "BK22003077.17"
+        },
+        {
+            "reference_date": "2017-12-06",
+            "reference_text": [
+                {
+                    "value": "그의 이름이 붙은 구엘 별장, 구엘 저택, 구엘 공원들은 가우디의 재능이 십분 발휘된 탁월한 작품들이었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 사람은 처음에는 고객과 건축가로 만났지만, 시간이 지나면서 예술을 사랑하고 서로를 존중하는 절친한 친구가 되어 갔다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20171204000171",
+            "search_query": "구엘이름 건축물",
+            "terminate": false,
+            "text": "맞아요. 구엘 별장과 구엘저택 , 구엘 공원이 있죠. 모두 가우디의 기량이 드러나는 멋진 건축물들이죠. 둘은 고객과 건축가로 시작된 관계지만 후에는 서로를 존중하며 예술을 즐기는 좋은 친구 관계가 되었죠.",
+            "turn_id": "BK22003077-9",
+            "utterance_id": "BK22003077.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 이상적인 후원자와 작가의 관계네요. 가우디 작품을 빨리 눈으로 볼 수 있는 날이 오면 좋겠어요.",
+            "turn_id": "BK22003077-10",
+            "utterance_id": "BK22003077.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "빠른 시일 내에 가우디 만날 수 있기를 바랄게요!",
+            "turn_id": "BK22003077-10",
+            "utterance_id": "BK22003077.20"
+        }
+    ]
+}

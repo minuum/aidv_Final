@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014109",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014109",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 화산 폭발과 관련된 기사를 읽었는데, 화산이라는 게 상상 이상으로 무서운 것이네요. 화산은 어떻게 만들어지는 거죠?",
+            "turn_id": "BK22014109-1",
+            "utterance_id": "BK22014109.1"
+        },
+        {
+            "reference_date": "44752.0",
+            "reference_text": [
+                {
+                    "value": "화산(火山)은 마그마 등의 물질이 행성 표면을 뚫고 나와 분출하여 만들어진 지형이다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%82%B0",
+            "search_query": "화산",
+            "terminate": false,
+            "text": "화산은 마그마 같은 물질이 지구의 바닥을 뚫고 나와서 만들어진 지형이에요.",
+            "turn_id": "BK22014109-1",
+            "utterance_id": "BK22014109.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 화산이 폭발하는 이유는 뭔가요? 이미 분출해서 만들어진 게 화산 아닌가요?",
+            "turn_id": "BK22014109-2",
+            "utterance_id": "BK22014109.3"
+        },
+        {
+            "reference_date": "43958.0",
+            "reference_text": [
+                {
+                    "value": "땅속 깊은 곳에서 흐르는 마그마는 지각의 약한 부분을 뚫고 조금씩 올라오는데, 이 과정에서 마그마가 응축되고 내부 압력이 높아지면 폭발을 일으킨다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2020/05/459687/",
+            "search_query": "화산 폭발 이유",
+            "terminate": false,
+            "text": "땅속에 흐르고 있는 마그마는 땅의 약한 곳을 뚫어서 조금씩 올라가는데, 이 과정에서 마그마가 굳어지고 그로 인해 안의 압력이 높아지게 되면서 결국 폭발로 이르게 되는 것이죠.",
+            "turn_id": "BK22014109-2",
+            "utterance_id": "BK22014109.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화산이 폭발하게 되면 주변에 끼치는 영향도 상당할 것 같은데요.",
+            "turn_id": "BK22014109-3",
+            "utterance_id": "BK22014109.5"
+        },
+        {
+            "reference_date": "44563.0",
+            "reference_text": [
+                {
+                    "value": "화산폭발 땐, 1차적으로 초미세결정인 화산재로 인한 막대한 피해를 초래한다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화산재로 인한 호흡기질환, 토양산성화에 따른 농작물 피해, 태양빛 가림에 따른 기후변화 유발 등이다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022012008113951423",
+            "search_query": "화산 폭발 피해",
+            "terminate": false,
+            "text": "화산 폭발 때 나오는 화산재는 초미세 결정이기 때문에 호흡기를 통해 들어가 질환을 유발하고 토양을 산성화 시켜 농작물들에 막대한 손해를 끼치죠. 또 화산재가 해를 가리면서 기후변화가 일어나기도 해요",
+            "turn_id": "BK22014109-3",
+            "utterance_id": "BK22014109.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 폼페이라는 곳이 화산 때문에 멸망했다고 들은 적이 있는 것 같아요.",
+            "turn_id": "BK22014109-4",
+            "utterance_id": "BK22014109.7"
+        },
+        {
+            "reference_date": "44719.0",
+            "reference_text": [
+                {
+                    "value": "79년 8월 24일 베수비오산 분화로 인근의 헤르쿨라네움 등과 함께 화산재와 분석에 묻혀 파괴되었다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "농업과 상업의 중심지이자, 로마 귀족들의 휴양지였다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%BC%ED%8E%98%EC%9D%B4",
+            "search_query": "폼페이",
+            "terminate": false,
+            "text": "폼페이는 농업과 상업이 발전했고, 로마의 귀족들이 쉴 때마다 찾아오는 유명한 곳이었지만 79년 8월 24일 베수비오 산이 폭발하면서 가까운 헤르쿨라네움 같은 곳과 함께 화산재와 분석에 파묻혀 멸망했죠.",
+            "turn_id": "BK22014109-4",
+            "utterance_id": "BK22014109.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 융성하게 성장했던 폼페이도 화산 폭발 한 방에 멸망한 것을 보니 참 덧없이 느껴지네요. 혹시 화산도 지진같이 규모를 매길 수 있는 등급 같은 게 있나요?",
+            "turn_id": "BK22014109-5",
+            "utterance_id": "BK22014109.9"
+        },
+        {
+            "reference_date": "43619.0",
+            "reference_text": [
+                {
+                    "value": "화산의 폭발 크기를 나타내는 화산폭발지수 VEI의 구분 기준은 화산 분출물의 양인데요.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화산의 크기, 분화 구름의 높이 등을 사용해 0~8까지 9단계로 폭발 규모를 나눕니다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=87788",
+            "search_query": "화산 폭발 규모",
+            "terminate": false,
+            "text": "화산의 폭발 규모를 보여주는 VEI는 화산 분출물의 양으로 단계를 나누는데, 화산의 규모나 화산이 터졌을 때 발생하는 구름의 높이 등을 보고 0에서 8까지 9단계에 걸쳐 폭발 크기를 나누고 있어요.",
+            "turn_id": "BK22014109-5",
+            "utterance_id": "BK22014109.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 여태까지 가장 큰 화산 폭발은 무엇이 있었나요?",
+            "turn_id": "BK22014109-6",
+            "utterance_id": "BK22014109.11"
+        },
+        {
+            "reference_date": "43831.0",
+            "reference_text": [
+                {
+                    "value": "화산활동으로 형성된 백두산에서는 946년에 지구 역사상 가장 큰 화산폭발이 있었다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2010년 화산재가 분출해 유럽 항공 대란의 원인이 됐던 아이슬란드 화산폭발에 비해 약 1,000배나 더 많은 분출물이 쏟아졌던 것으로 추정된다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1YXH8QFW8L",
+            "search_query": "가장 큰 화산폭발",
+            "terminate": false,
+            "text": "놀랍게도 백두산이 그중 하나예요. 백두산에선 946년에 폭발이 있었는데, 2010년 화산재 때문에 유럽의 항공에 엄청난 문제를 일으켰던 아이슬란드 화산 폭발의 약 1,000배나 되는 압도적인 양의 분출물들이 나왔던 것으로 추정하고 있어요. 지구 역사상 가장 큰 화산 폭발 중 하나죠.",
+            "turn_id": "BK22014109-6",
+            "utterance_id": "BK22014109.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백두산이 화산이었군요. 그래도 지금은 활동하고 있지는 않죠?",
+            "turn_id": "BK22014109-7",
+            "utterance_id": "BK22014109.13"
+        },
+        {
+            "reference_date": "43842.0",
+            "reference_text": [
+                {
+                    "value": "백두산은 한때 휴화산으로 여겨지기도 했지만, 지하에 거대한 마그마를 보유한 활화산이라는 것이 학자들의 공통된 견해이다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/202001120219Y",
+            "search_query": "백두산 화산",
+            "terminate": false,
+            "text": "백두산을 활동이 끝난 휴화산으로 생각하기도 했었지만, 아래에 거대한 마그마를 가지고 있는 활화산이 맞는다는 것에 학자들은 입을 모아 말하고 있어요.",
+            "turn_id": "BK22014109-7",
+            "utterance_id": "BK22014109.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 가까운 미래에 백두산이 터질 가능성도 있나요?",
+            "turn_id": "BK22014109-8",
+            "utterance_id": "BK22014109.15"
+        },
+        {
+            "reference_date": "44157.0",
+            "reference_text": [
+                {
+                    "value": "백두산의 분화 주기는 100~200년인데, 현재 백두산은 1903년 마지막 분화 이후 약 120년이 경과해 언제든 폭발할 수 있는 시점에 있다고 할 수 있다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://khan.co.kr/science/science-general/article/202011222132005#c2b",
+            "search_query": "백두산 폭발",
+            "terminate": false,
+            "text": "백두산의 분화는 100년에서 200년 사이에 걸쳐서 이루어졌는데, 1903년 마지막 분화 이후 약 120년이 지난 상태이기 때문에 언제 폭발해도 이상하지는 않은 상황이에요.",
+            "turn_id": "BK22014109-8",
+            "utterance_id": "BK22014109.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상만 해도 무서운 일인데요. 폭발을 막을 순 없겠지만 너무 큰 피해는 없었으면 좋겠네요.",
+            "turn_id": "BK22014109-9",
+            "utterance_id": "BK22014109.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현재 백두산에 대한 다양한 연구가 진행되고 있으니 진전이 있길 바라야죠.",
+            "turn_id": "BK22014109-9",
+            "utterance_id": "BK22014109.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 말씀 잘 들었어요. 화산에 대해 궁금한 점이 많았는데 오늘 친절히 알려주셔서 감사합니다.",
+            "turn_id": "BK22014109-10",
+            "utterance_id": "BK22014109.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에도 궁금한 게 있으시면 얼마든지 물어보세요.",
+            "turn_id": "BK22014109-10",
+            "utterance_id": "BK22014109.20"
+        }
+    ]
+}

@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008368",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008368",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에는 중국어가 영어 다음으로 필수 꼭 배워야 하는 언어였는데, 요즘은 대학교에서 중국 관련 수업 인기가 어느 정도 인기인지 궁금해.",
+            "turn_id": "BK22008368-1",
+            "utterance_id": "BK22008368.1"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "한양대 교양 과목인 ‘중국의 역사와 문화’는 이번 2학기 수강신청 결과 90명 정원에 6명이 신청했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "24일 ‘한중수교 30주년’을 맞았지만 중국에 대한 관심이 예전보다 못해지면서 대학가에서도 관련 수업이 위기를 맞고 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220825010053&wlog_tag3=naver",
+            "search_query": "중국어 인기",
+            "terminate": false,
+            "text": "한양대에서는 중국의 역사와 문화라는 교양 과목이 있는데, 2학기에 6명밖에 신청하지 않았어. 정원이 90명인데 말이야. 중국에 대한 관심이 줄어들면서 대학가에서도 중국과 관련된 수업이 위기를 맞았지.",
+            "turn_id": "BK22008368-1",
+            "utterance_id": "BK22008368.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "90명 정원에 겨우 6명이 신청했다니, 믿기지 않네. 중국어 교사 임용도 줄고 있다던데 사실이야?",
+            "turn_id": "BK22008368-2",
+            "utterance_id": "BK22008368.3"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "중국어 과목의 중등 교원 임용 인원도 줄어들고 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5년 전인 2018년 82명을 뽑았던 중국어 교원 임용 인원은 78명(2019년), 43명(2020년), 33명(2021년)에 이어 지난해 한 명도 없었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220825010053&wlog_tag3=naver",
+            "search_query": "중국어 임용",
+            "terminate": false,
+            "text": "맞아, 중국어 중등 교원 임용이 감소하고 있지. 지난 2018년에는 82명을 채용했지만, 2019년에는 78명, 2020년에는 43명, 그리고 2021년에는 33명으로 줄은데다 지난해에는 한 명도 없었어.",
+            "turn_id": "BK22008368-2",
+            "utterance_id": "BK22008368.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떻게 한 명도 채용하지 않을 수가 있지, 분명히 응시생은 많을 텐데 아예 뽑지 않는 이유가 뭘까?",
+            "turn_id": "BK22008368-3",
+            "utterance_id": "BK22008368.5"
+        },
+        {
+            "reference_date": "2021-09-10",
+            "reference_text": [
+                {
+                    "value": "교육당국은 2023년 고교학점제 도입과 선발 인원과다 등을 이유로 내년도 중국어 교사 채용이 어렵다는 입장이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kgnews.co.kr/news/article.html?no=666408",
+            "search_query": "중국어 교사",
+            "terminate": false,
+            "text": "교육 당국이 밝힌 이유로는, 2023년 고교학점제 도입과 선발 인원 과다 등이 있지. 그래서 내년도 중국어 교사 채용은 불분명한 상황이야.",
+            "turn_id": "BK22008368-3",
+            "utterance_id": "BK22008368.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선발 인원 과다가 이유라니, 이제껏 준비한 사람은 허탈하겠다. 그래도 중국어 시험은 계속 준비해야 할 텐데, 그중에 HSK가 대표적이겠지?",
+            "turn_id": "BK22008368-4",
+            "utterance_id": "BK22008368.7"
+        },
+        {
+            "reference_date": "2014-09-29",
+            "reference_text": [
+                {
+                    "value": "대표적인 중국어능력 평가시험인 신 HSK 시험은 1급부터 6급까지 수준별로 구분되는데, 일반적인 기업에서 요구하는 급수는 4급 이상이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0002577465?sid=103",
+            "search_query": "hsk 시험",
+            "terminate": false,
+            "text": "맞아, HSK 시험은 대표적인 중국어 능력 평가시험으로, 1급부터 6급까지로 나뉘어 있어. 통상적으로 기업에서는 4급 이상을 요구해.",
+            "turn_id": "BK22008368-4",
+            "utterance_id": "BK22008368.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6급까지 있구나, 그런데 hsk는 용도가 뭐야?",
+            "turn_id": "BK22008368-5",
+            "utterance_id": "BK22008368.9"
+        },
+        {
+            "reference_date": "2021-02-17",
+            "reference_text": [
+                {
+                    "value": "HSK 성적은 국내외 대학(원) 및 특목고 입학∙졸업 시 또는 각급 업체 및 기관의 채용•승진을 위한 평가 기준이 된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 외 중국정부장학생 선발 기준이 되기도 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kmaeil.com/news/articleView.html?idxno=266268",
+            "search_query": "hsk 용도",
+            "terminate": false,
+            "text": "국내외 대학, 대학원 또는 특목고 입학하고 졸업할 때, 그리고 각급 업체 및 기관의 채용과 승진의 평가 기준으로 HSK 성적을 보기도 돼. 그 외에도 중국 정부 장학생을 선발할 때 기준이 되기도 하지.",
+            "turn_id": "BK22008368-5",
+            "utterance_id": "BK22008368.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쓰임이 많은 시험이네, 그런데 hskk라는 시험은 뭐야?",
+            "turn_id": "BK22008368-6",
+            "utterance_id": "BK22008368.11"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "현행 HSKK(말하기시험)는 IBT(Internet-Bases Test) 형태로 초급, 중급, 고급 시험이 있으며, 중고급의 경우 문장을 듣고 따라하거나 낭독(고급), 그림보고 말하기, 질문에 생각을 논리적으로 말해서 녹음 하는 형식으로 구성되어있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=393425",
+            "search_query": "hskk 말하기",
+            "terminate": false,
+            "text": "HSKK는 말하기 시험으로, IBT 형태야. 난이도는 초급, 중급, 고급으로 나뉘고 그중에서 중고급은 문장을 듣고 따라 하거나 그림 보고 말하기, 질문을 받고 논리적으로 말해서 녹음하는 형식이지.",
+            "turn_id": "BK22008368-6",
+            "utterance_id": "BK22008368.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익 스피킹처럼 회화 시험인 거네. 그런데 bct 시험은 hskk랑 어떤 차이가 있어?",
+            "turn_id": "BK22008368-7",
+            "utterance_id": "BK22008368.13"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "BCT는 비즈니스 활동에 필요한 중국어와 일상생활, 사회활동 중 요구되는 전반적인 중국어실력을 측정하는 중국어 활용능력 시험이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "HSK와 달리 BCT(B)는 독해, 듣기, 작문이 있는데, 독해, 듣기만 선택적으로 시험 볼 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=393425",
+            "search_query": "bct hsk",
+            "terminate": false,
+            "text": "BCT는 비즈니스, 일상생활, 사회활동에서 쓰이는 중국어를 측정하는 중국어 활용 능력 시험이야. HSK와 다른 점은, 독해, 듣기, 작문 중에서 선택적으로 독해와 듣기만 시험 칠 수 있다는 거지.",
+            "turn_id": "BK22008368-7",
+            "utterance_id": "BK22008368.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비즈니스가 추가된 시험이구나. 아직은 hsk가 가장 대중적인 시험 같은데, 요즘 응시료는 얼마야?",
+            "turn_id": "BK22008368-8",
+            "utterance_id": "BK22008368.15"
+        },
+        {
+            "reference_date": "2015-03-23",
+            "reference_text": [
+                {
+                    "value": "HSK는 오는 5월16일 정기시험부터 응시료가 최대 36%나 올라간다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최고 등급인 6급 시험은 1만3000원 오른 9만8000원에 달한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cstimes.com/news/articleView.html?idxno=171311",
+            "search_query": "hsk 응시료",
+            "terminate": false,
+            "text": "HSK는 지난 2015년 5월 16일 정기시험에 최대 36%를 올렸는데, 6급 시험의 경우 응시료는 9만8000원이었어.",
+            "turn_id": "BK22008368-8",
+            "utterance_id": "BK22008368.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응시료가 거의 10만 원이라니, 싼 편은 절대 아닌 것 같아. Hsk 시험은 얼마나 자주 있고, 시험 방식은 어떻게 돼?",
+            "turn_id": "BK22008368-9",
+            "utterance_id": "BK22008368.17"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "한국에서도 HSK 한국 사무국에서 매월 HSK 시험을 실시하고 있으며, OMR카드 방식의 PBT시험과 컴퓨터 방식의 IBT 두가지 방식으로 시행되는데, 두 시험 성적의 효력은 동일하다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20220330154458588354",
+            "search_query": "hsk 시험일정",
+            "terminate": false,
+            "text": "hsk 시험은 한국 사무국에서 매월 실시 돼. 또, PBT 시험으로 omr을 쓰는 방식과 IBT로 컴퓨터를 쓰는 두 가지 방식이 있는데, 성적의 효력은 똑같아.",
+            "turn_id": "BK22008368-9",
+            "utterance_id": "BK22008368.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매월 치른다니, 시험은 자주 있겠네. 이것저것 알려줘서 고마운데, 난 이만 가봐야 될 것 같아. 나중에 또 만나서 얘기하자.",
+            "turn_id": "BK22008368-10",
+            "utterance_id": "BK22008368.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 조심히 가고 다음에 또 다른 주제로 얘기하자!",
+            "turn_id": "BK22008368-10",
+            "utterance_id": "BK22008368.20"
+        }
+    ]
+}

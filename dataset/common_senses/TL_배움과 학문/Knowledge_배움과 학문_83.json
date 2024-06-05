@@ -1,0 +1,400 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011484",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011484",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 사극을 좋아해서 자주 보는데 주로 조선시대 이야기가 많이 나오잖아요. 조선시대는 정확히 몇 년 정도 이어진 건가요?",
+            "turn_id": "BK22011484-1",
+            "utterance_id": "BK22011484.1"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "대조선국(大朝鮮國)[5] 또는 조선국(朝鮮國), 약칭 조선(朝鮮, 중세 한국어: 됴ᇢ〯션〮 또는 됴ᇢ〯션〯)[6]은 유학을 통치 이념으로 삼아 한반도를 518년간 다스렸던 왕조국가이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0",
+            "search_query": "조선시대 역사",
+            "terminate": false,
+            "text": "조선은 대조선국, 조선국이라고도 부르는데 유학을 국가의 이념으로 삼고 518년 동안 한반도를 다스린 왕조국가예요.",
+            "turn_id": "BK22011484-1",
+            "utterance_id": "BK22011484.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "500년이 넘게 한반도를 다스렸었군요. 그만큼 이야깃거리도 많은 것 같아요. 500여년간 총 몇 명의 왕이 있었나요?",
+            "turn_id": "BK22011484-2",
+            "utterance_id": "BK22011484.3"
+        },
+        {
+            "reference_date": "2015-10-13",
+            "reference_text": [
+                {
+                    "value": "조선시대는 1392년부터 1910년까지 518년간 집권했던 왕조로 태조부터 순종까지 27명의 왕이 승계했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/18849562#home",
+            "search_query": "조선시대 왕 몇명",
+            "terminate": false,
+            "text": "아까 언급했던 것처럼 조선은 1392년~1910년까지 총 518년간 왕조가 집권했고 태조에서 순종까지 모두 27명의 왕이 있었어요.",
+            "turn_id": "BK22011484-2",
+            "utterance_id": "BK22011484.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 좀 더 많을 줄 알았는데 왕은 생각보다 적은 것 같네요. 그런데 조선의 왕 이름을 보다 보면 뒤에 조가 붙기도 하고 종이 붙기도 하던데 차이가 있나요?",
+            "turn_id": "BK22011484-3",
+            "utterance_id": "BK22011484.5"
+        },
+        {
+            "reference_date": "2017-07-04",
+            "reference_text": [
+                {
+                    "value": "'묘호'란 왕이 죽은 후에 후손들이 붙이는 이름이며 창업한 왕은 조(祖), 왕조를 유지한 왕은 종(宗)이 기본 관례입니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=3509532",
+            "search_query": "조선시대 왕 조 종",
+            "terminate": false,
+            "text": "왕이 승하한 후 후손들은 묘호라는 이름을 붙여요. 이때 창업을 했던 왕은 조, 왕조를 지킨 왕은 종을 붙이는 것이 기본적인 관례에요.",
+            "turn_id": "BK22011484-3",
+            "utterance_id": "BK22011484.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태조는 조선을 건국했기 때문에 조가 붙은거군요. 그런데 태조 이후에도 묘호에 조가 붙은 왕이 몇 명 있는 거로 기억하는데 왜 그런 건가요?",
+            "turn_id": "BK22011484-4",
+            "utterance_id": "BK22011484.7"
+        },
+        {
+            "reference_date": "2021-04-06",
+            "reference_text": [
+                {
+                    "value": "조(祖)의 묘호를 쓴 왕은 태조, 세조, 선조, 인조, 영조, 정조, 순조 등 7명뿐이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "7대왕 세조는 단종을 몰아내고 계유정난을 일으켜 ‘새로 나라를 건국한 것과 같은 공’이라 해 조(祖)의 묘호를 쓰게 되고, 선조(임진왜란 극복)와 인조(병자호란 극복)도 조(祖)를 쓴다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "순조는 철종의 정통성을 강화하기 위해 본디 순종(宗)이었다가 순조(祖)로 격상시켰다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영조와 정조도 실은 영종, 정종 묘호로 사용되다가 고종이 대한제국을 선포하면서 선대의 묘호를 ‘조’로 바꾸게 된 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediaboot.co.kr/news/articleView.html?idxno=56286",
+            "search_query": "세조 묘호",
+            "terminate": false,
+            "text": "조의 묘호를 사용한 왕은 태조, 세조, 선조, 인조, 영조, 정조, 순조까지 총 7명뿐인데요, 7대 왕이었던 세조는 단종을 밀어내고 계유정난으로 새로 나라를 창립한 것과 같은 공을 인정해 세조라 부르게 되었어요. 임진왜란을 이겨낸 선조, 병자호란을 이겨낸 인조도 조를 사용해요. 순조의 경우는 철종의 전통성을 높이기 위해 순종에서 순조로 격상되었고, 영조와 정조도 마찬가지로 영종, 정종을 쓰다가 고종께서 대한제국을 선포할 때 선대 묘호를 조로 바꾸며 변경되었어요.",
+            "turn_id": "BK22011484-4",
+            "utterance_id": "BK22011484.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각각의 이유가 다 있었네요. 그럼 세종대왕은 왜 대왕이 붙은 건가요?",
+            "turn_id": "BK22011484-5",
+            "utterance_id": "BK22011484.9"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "세종(世宗, 1397년 5월 7일[1] ~ 1450년 3월 30일)은 조선의 제4대 국왕(재위 : 1418년 9월 9일 ~ 1450년 3월 30일)이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세종의 업적에 대한 존경의 의미를 담아 '세종대왕(世宗大王)으로 불린다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EC%84%B8%EC%A2%85",
+            "search_query": "세종 대왕인 이유",
+            "terminate": false,
+            "text": "세종은 조선의 제4대 국왕으로 1418년 9월 9월부터 1450년 3월 30일까지 조선을 다스렸어요. 그리고 그 업적에 대한 존경하는 마음으로 세종대왕이라 불리고 있는 거예요.",
+            "turn_id": "BK22011484-5",
+            "utterance_id": "BK22011484.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 세월이 지나도 위대한 업적은 잊히지 않는 것 같아요. 그럼 혹시 조선의 왕 중 가장 오래 집권한 왕은 누구였나요?",
+            "turn_id": "BK22011484-6",
+            "utterance_id": "BK22011484.11"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "영조(英祖, 1694년 10월 31일(음력 9월 13일) ~ 1776년 4월 22일(음력 3월 5일))는 조선의 제21대 국왕(재위 : 1724년 10월 16일(음력 8월 30일) ~ 1776년 4월 22일(음력 3월 5일))이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선의 역대 국왕 중 가장 장수(81세 5개월)하였으며, 가장 오랜 기간(51년 7개월) 동안 재위하였다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EC%98%81%EC%A1%B0",
+            "search_query": "조선시대 가장 오래 집권한 왕",
+            "terminate": false,
+            "text": "영조예요. 조선의 제21대 왕이었고, 조선의 왕 중에서 81세 5개월로 제일 장수했어요. 그리고 51년 7개월의 재위 기간으로 가장 오래 집권한 왕이에요.",
+            "turn_id": "BK22011484-6",
+            "utterance_id": "BK22011484.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "50년이 넘게 왕으로 지내다니 상상도 못 할 기간이네요. 영조가 장수할 수 있었던 비결은 뭐였을까요?",
+            "turn_id": "BK22011484-7",
+            "utterance_id": "BK22011484.13"
+        },
+        {
+            "reference_date": "2018-09-22",
+            "reference_text": [
+                {
+                    "value": "영조의 장수비결은 소식, 절주, 잡곡밥, 인삼 그리고 건강검진이었다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "<승정원일기>(承政院日記)에 따르면 영조는 연간 140회 이상 건강검진을 받았으며, 매년 20여근의 인삼을 복용했다고 한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kor.theasian.asia/archives/194160",
+            "search_query": "영조 장수 비결",
+            "terminate": false,
+            "text": "영조가 장수할 수 있었던 건 소식, 절주, 잡곡밥, 인삼, 건강검진이 있었기 때문이에요. 승정원일기를 보면 영조는 1년에 140번 넘게 건강검진을 받았고, 매년 20여근의 인삼을 섭취했다는 기록이 있어요.",
+            "turn_id": "BK22011484-7",
+            "utterance_id": "BK22011484.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금의 건강관리 방법과 크게 다르지 않군요. 그럼 영조와는 반대로 가장 짧게 집권한 왕은 누구인가요?",
+            "turn_id": "BK22011484-8",
+            "utterance_id": "BK22011484.15"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "조선의 임금 중 가장 짧은 기간 재위한 인종(1515~1545)은 중종의 두 번째 왕비 장경왕후에게서 태어났다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여섯 살에 세자로 책봉돼 왕위에 오를 때까지 24년여를 세자로 지냈다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1544년 중종이 죽고 닷새 후인 11월 20일(이하 음력)에 즉위, 이듬해 7월 1일 서른한 살로 죽었으니 윤달을 포함, 여덟 달 남짓 왕위에 있었던 셈이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hapt.co.kr/news/articleView.html?idxno=155363",
+            "search_query": "조선시대 인종 재위기간",
+            "terminate": false,
+            "text": "조선의 왕 중에서 가장 짧게 왕의 자리에 있었던 사람은 중종의 두 번째 왕비인 장경왕후가 낳은 인종이에요. 6살에 세자로 책봉되었고 24년간 세자로 지내다 1544년 중종이 승하하고 5일이 지난 11월 20일에 왕이 되었어요. 그런데 이듬해 7월 1일 31세의 나이로 승하했어요. 윤달을 포함하면 8달 정도 왕의 자리에 있었던 거예요.",
+            "turn_id": "BK22011484-8",
+            "utterance_id": "BK22011484.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "24년을 기다려 8개월간 왕의 삶이라니, 사람의 인생이란 참 알다가도 모르는 것 같아요. 조선시대 역사를 보면 누가 언제 태어나 언제까지 집권했는지 기록이 다 있는 것 같은데 마지막 왕에 대한 기록은 많지 않은 것 같아요. 조선의 마지막 왕인 순종은 어떻게 기록되어있나요?",
+            "turn_id": "BK22011484-9",
+            "utterance_id": "BK22011484.17"
+        },
+        {
+            "reference_date": "2015-09-14",
+            "reference_text": [
+                {
+                    "value": "조선왕조마지막 임금이었던 순종은 고종황제와 명성황후의 2남으로 태어나 1875년 2월 세자에 책봉됐고 1897년 대한제국 수립 후 황태자로 격상.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일제에 의해 국권을 빼앗겨 조선왕조가 519년 만에 막을 내린 후 순종은 왕으로 강등되어 이왕이라 불렸다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/20921022#home",
+            "search_query": "조선시대 마지막 왕 순종",
+            "terminate": false,
+            "text": "조선의 마지막 왕이었던 순종은 고종황제와 명성황후의 차남이었고 1875년 2월에 세자 책봉되었어요. 이후 1897년 대한제국이 수립되고 황태자로 격상되었다가 일제에 국권을 빼앗기고 519년의 조선 역사가 끝난 후 왕으로 강등돼 이왕으로 불렸어요.",
+            "turn_id": "BK22011484-9",
+            "utterance_id": "BK22011484.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막 왕이라는 말이 참 서글프게 느껴지는 것 같아요. 순종의 말년은 어땠을까요?",
+            "turn_id": "BK22011484-10",
+            "utterance_id": "BK22011484.19"
+        },
+        {
+            "reference_date": "2016-08-03",
+            "reference_text": [
+                {
+                    "value": "1907년 일본에 의해 강제로 황제에 오른 후부터 나라를 뺏기기 전까지 3년간, 이토 히로부미(伊藤博文) 등 일제 통감(統監)의 내정간섭으로 통치자로서 무능할 수밖에 없었다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 1926년 심장마비로 서거하기 전까지 창덕궁에서 지낸다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그에게 후손은 없었고, 이왕 직위는 이복동생 영친왕에게 물려준다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2016/08/02/2016080200954.html",
+            "search_query": "조선시대 순종 말년",
+            "terminate": false,
+            "text": "순종은 1907년 일본 때문에 강제로 황제에 올랐고 나라를 빼앗기기까지 3년간, 이토 히로부미 등 여러 일제 통감의 내정간섭이 있어 무능한 왕일 수밖에 없었어요. 이후 1926년 심장마비로 승하할 때까지 창덕궁에서 지냈고, 후손은 없었어요. 이왕의 직위는 이복동생이었던 영친왕이 물려받게 되었고요.",
+            "turn_id": "BK22011484-10",
+            "utterance_id": "BK22011484.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나라가 무너지는 순간은 언제 들어도 암담하고 슬프네요. 그동안 큰 줄기들만 대략 알았었는데 덕분에 오늘 좀 더 자세히 알게 되었어요. 그럼 다음에 봐요.",
+            "turn_id": "BK22011484-11",
+            "utterance_id": "BK22011484.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 조선시대는 이야깃거리가 많으니 뭐든 궁금하면 물어보세요. 저도 같이 공부가 되니 재밌고 좋네요. 그럼 조심히 들어가시고 다음에 또 봐요.",
+            "turn_id": "BK22011484-11",
+            "utterance_id": "BK22011484.22"
+        }
+    ]
+}

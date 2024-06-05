@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000782",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000782",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 작년부터 취업 때문에 고민이 많아요. 아직까지도 구직난이 심한가 봐요.",
+            "turn_id": "BK22000782-1",
+            "utterance_id": "BK22000782.1"
+        },
+        {
+            "reference_date": "2022-01-12",
+            "reference_text": [
+                {
+                    "value": "작년 12월 사람인이 구직자 2169명을 대상으로 ‘하반기 채용 시장’에 대해 조사한 결과에서 구직자 10명 중 9명(91.1%)은 올해 하반기 구직난이 ‘여전히 심하다’고 답했다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newswatch.kr/news/articleView.html?idxno=57833",
+            "search_query": "구직난",
+            "terminate": false,
+            "text": "맞아요. 작년 12월에 사람인 사이트에서 구직자들을 대상으로 하반기 채용 시장을 조사한 결과에 따르면 구직자 10명 중의 9명이 구직난이 여전히 심하다고 대답했을 정도예요.",
+            "turn_id": "BK22000782-1",
+            "utterance_id": "BK22000782.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스펙이 중요하니까 조언을 해주고 싶은데 어떤 걸 중점적으로 알려줘야 좋을까요?",
+            "turn_id": "BK22000782-2",
+            "utterance_id": "BK22000782.3"
+        },
+        {
+            "reference_date": "2022-03-31",
+            "reference_text": [
+                {
+                    "value": "에듀윌에 따르면 취업준비생들은 가장 중요한 필수 스펙 1위로 '토익 등 어학 성적(64.0%)'을 꼽았다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.youthdaily.co.kr/news/article.html?no=96569",
+            "search_query": "취업 스펙",
+            "terminate": false,
+            "text": "취업 준비생들은 가장 중요한 필수 스펙 1위로 토익 등의 어학 성적을 꼽고 있으니까 토익 점수를 올리라고 조언해봐요.",
+            "turn_id": "BK22000782-2",
+            "utterance_id": "BK22000782.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익 점수는 이미 높대요. 자격증 같은 걸 준비해보라고 할까요?",
+            "turn_id": "BK22000782-3",
+            "utterance_id": "BK22000782.5"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "한국산업인력공단이 취업 지원 누리집인 워크넷에 올라온 최근 3년(2018~2020년) 치 구인공고를 분석한 결과다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 기간에 게재된 22만6000여 건의 구인공고 중 22만5000건이 국가기술자격을 채용 요건으로 정하거나 우대하고 있는 것으로 나타났다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25012352",
+            "search_query": "자격증 취업",
+            "terminate": false,
+            "text": "좋은 생각이네요. 한국산업인력공단이 워크넷에 올라온 최근 3년의 구인 공고를 분석했는데요, 그 결과 22만 6000 여건의 구인 공고 중에 22만 5000건이 국가기술자격을 채용 요건으로 정하거나 우대하고 있는 것으로 나타났거든요.",
+            "turn_id": "BK22000782-3",
+            "utterance_id": "BK22000782.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도면 자격증은 필수인 것 같은데요. 그럼 어떤 자격증이 제일 취업이 잘 될까요?",
+            "turn_id": "BK22000782-4",
+            "utterance_id": "BK22000782.7"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "취업 시장에서 가장 인기 있는 자격증은 지게차운전기능사 자격인 것으로 나타났다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25012352",
+            "search_query": "취업 잘 되는 자격증",
+            "terminate": false,
+            "text": "취업 시장에서 가장 인기 있는 자격증은 지게차운전기능사 자격이에요.",
+            "turn_id": "BK22000782-4",
+            "utterance_id": "BK22000782.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하지만 제 동생은 그 직종과는 거리가 멀어요. 본인이 흥미를 가지는 분야를 찾아보라고 해야 할 것 같아요.",
+            "turn_id": "BK22000782-5",
+            "utterance_id": "BK22000782.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 어떤 분야에 흥미를 느끼는데요?",
+            "turn_id": "BK22000782-5",
+            "utterance_id": "BK22000782.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 동생은 사회 문제에 관심이 많아요. 고령화 사회나 노인 문제에 대한 도서도 많이 보고요.",
+            "turn_id": "BK22000782-6",
+            "utterance_id": "BK22000782.11"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "노인심리상담사는 신체적·정서적·심리적 장애를 겪거나 일상생활에 적응하지 못하는 노인들과 그 가족들을 대상으로 심리상담을 하고, 이를 바탕으로 종합적인 진단과 문제 해결에 도움을 주는 전문가의 역할을 수행한다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13248",
+            "search_query": "사회문제 관련 자격증",
+            "terminate": false,
+            "text": "그럼 노인심리상담사는 어때요? 신체적 정서적 장애를 겪거나 일상생활에 적응하지 못하는 노인과 그 가족을 대상으로 심리상담을 해서 문제 해결에 도움을 주는 역할을 하는 직업이거든요.",
+            "turn_id": "BK22000782-6",
+            "utterance_id": "BK22000782.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노인심리상담사 자격증이 따로 있는거예요?",
+            "turn_id": "BK22000782-7",
+            "utterance_id": "BK22000782.13"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "노인심리상담사 자격증은 민간자격증이다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1·2급으로 나뉘어 있으며, 나이와 경력에 따른 제한은 없다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=13248",
+            "search_query": "노인심리상담사",
+            "terminate": false,
+            "text": "네. 민간자격증으로 1급과 2급으로 나눠지고, 나이와 경력에 따른 제한은 따로 없어요.",
+            "turn_id": "BK22000782-7",
+            "utterance_id": "BK22000782.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 자격증을 취득하고 나면 어디로 취업하게 되는건데요?",
+            "turn_id": "BK22000782-8",
+            "utterance_id": "BK22000782.15"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "노인심리상담사 자격증을 취득하게 되면 노인을 대상으로 심리상담과 검사를 진행하는 업무를 할 수 있게 된다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 노인복지관, 실버타운, 사회봉사단체, 노인 심리 강사 등 다양한 분야로 취업이 가능해진다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jeollailbo.com/news/articleView.html?idxno=656912",
+            "search_query": "노인심리상담사",
+            "terminate": false,
+            "text": "자격증을 취득하면 노인을 대상으로 심리상담과 검사를 진행하는 업무를 할 수 있어서 노인복지관이나 실버타운, 사회복지단체 등 다양한 분야로 취업할 수 있어요.",
+            "turn_id": "BK22000782-8",
+            "utterance_id": "BK22000782.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 동생과 어울릴 것 같아요. 오늘 직접 얘기해봐야겠네요.",
+            "turn_id": "BK22000782-9",
+            "utterance_id": "BK22000782.17"
+        },
+        {
+            "reference_date": "2021-02-03",
+            "reference_text": [
+                {
+                    "value": "노인심리상담사는 실버세대의 마음을 위로하고, 그들이 생각하는 삶과 죽음에 대한 고민을 나누고 함께 짊어지는 직업이라는 점에서 의의가 크다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/schooling/981652.html",
+            "search_query": "노인심리상담사 자격증",
+            "terminate": false,
+            "text": "노인심리상담사는 노년층의 마음을 위로하고 그들이 생각하는 삶과 죽음에 대한 고민을 나누면서 함께 공감하는 직업이기 때문에 특별한 의의가 있는 직업이죠. 동생에게 이 점을 꼭 알려줘요.",
+            "turn_id": "BK22000782-9",
+            "utterance_id": "BK22000782.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 책임감을 가지고 임해야 하는 직업인 것 같아요.",
+            "turn_id": "BK22000782-10",
+            "utterance_id": "BK22000782.19"
+        },
+        {
+            "reference_date": "2020-01-21",
+            "reference_text": [
+                {
+                    "value": "노인심리상담사는 민간자격증이기 때문에 어떤 기관에서 취득했는지 여부가 중요하다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잘못하면 교육기관에 따라서 공신력이 전혀 없는 경우가 있다.",
+                    "value_time": "2022-06-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.eduinside.kr/news/articleView.html?idxno=3190",
+            "search_query": "노인심리 자격증",
+            "terminate": false,
+            "text": "참, 노인심리상담사 자격증은 어떤 기관에서 취득했는지 여부가 중요해요. 교육기관에 따라서 공신력이 전혀 없는 경우가 있거든요.",
+            "turn_id": "BK22000782-10",
+            "utterance_id": "BK22000782.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아 그래요? 그 부분도 꼭 잘 알아보라고 할게요, 좋은 정보 고마워요.",
+            "turn_id": "BK22000782-11",
+            "utterance_id": "BK22000782.21"
+        }
+    ]
+}

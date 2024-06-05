@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005821",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005821",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 영화 아마데우스를 봤는데, 엄청나게 흥미진진하더라. 혹시 어떤 작품인지 들어본 적 있어?",
+            "turn_id": "BK22005821-1",
+            "utterance_id": "BK22005821.1"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "《아마데우스》(영어: Amadeus)는 1984년에 밀로스 포만 감독이 만든 역사 드라마, 전기 영화이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피터 섀퍼가 동명의 희곡을 바탕으로 만들었으며, 볼프강 아마데우스 모차르트의 천재적 재능을 시기한 안토니오 살리에리가 모차르트를 죽음에 이르게 했다는 이야기를 담고 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A7%88%EB%8D%B0%EC%9A%B0%EC%8A%A4_(%EC%98%81%ED%99%94)",
+            "search_query": "영화 아마데우스",
+            "terminate": false,
+            "text": "물론이야, 밀로스 포만 감독이 1984년에 만든 전기 영화 겸 역사 드라마잖아. 동명의 희곡을 바탕으로 피터 섀퍼가 극본을 쓴 작품이고, 안토니오 살리에리라는 인물이 볼프강 아마데우스 모차르트가 가진 천재적인 재능을 시기해서, 모차르트를 죽음으로 몰고 간다는 내용을 담았지.",
+            "turn_id": "BK22005821-1",
+            "utterance_id": "BK22005821.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 역시 알고 있구나. 그런데 문득 궁금한데, 여기 나오는 안토니오 살리에리라는 인물이 정말로 실존한 인물이야?",
+            "turn_id": "BK22005821-2",
+            "utterance_id": "BK22005821.3"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "안토니오 살리에리(Antonio Salieri, 1750년 8월 18일 - 1825년 5월 7일)는 이탈리아 레가노 태생의 음악가이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유년기부터 음악에 재능을 보여, 1766년에는 빈 궁정으로부터 초청을 받는다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%EB%8B%88%EC%98%A4_%EC%82%B4%EB%A6%AC%EC%97%90%EB%A6%AC",
+            "search_query": "안토니아 살리에리 실존",
+            "terminate": false,
+            "text": "물론이야, 안토니오 살리에리는 이탈리아 레가노 지역에서 1750년에 8월 18일에 태어난 인물이거든. 살리에리는 어렸을 적부터 음악에 소질을 보였는데, 이후 1766년에는 빈 궁정에 초청을 받기도 했어. 그리고, 1825년 5월 7월에 숨을 거두었지.",
+            "turn_id": "BK22005821-2",
+            "utterance_id": "BK22005821.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 살리에리가 모차르트를 질투했거나, 혹은 죽이려고 했다는 것도 정말 역사 속에 있었던 일이야?",
+            "turn_id": "BK22005821-3",
+            "utterance_id": "BK22005821.5"
+        },
+        {
+            "reference_date": "2022-05-27",
+            "reference_text": [
+                {
+                    "value": "살리에르는 정말 질투의 화신이냐 물어본다면 이는 과장된 사실이라고 말하겠다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "질투심에 눈이 멀었다면 모차르트의 죽음 후에 그의 아들인 프란츠의 음악 교육을 담당하지 않았을 것이다",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=97988",
+            "search_query": "살리에리 모차르트 질투 사실",
+            "terminate": false,
+            "text": "살리에리를 질투의 화신이라고 보는 견해도 있지만, 사실 이건 과장된 것에 가까워. 실제로 살리에리는 모차르트 사후에, 모차르트의 아들인 프란츠에게 음악을 교육시키기도 했거든. 만약 정말 모차르트를 향한 질투심에 눈이 멀었었다면, 그랬을 리가 없지.",
+            "turn_id": "BK22005821-3",
+            "utterance_id": "BK22005821.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 그런 비하인드가 있을 줄은 생각을 못했어. 그렇다면, 영화 아마데우스에서 묘사된 모차르트와 살리에리의 사이는 사실 왜곡된 것에 가까울까?",
+            "turn_id": "BK22005821-4",
+            "utterance_id": "BK22005821.7"
+        },
+        {
+            "reference_date": "2016-02-17",
+            "reference_text": [
+                {
+                    "value": "특히 1985년 작품상 등 아카데미상 8개 부문을 휩쓴 영화 ‘아마데우스’는 살리에리가 질투에 불탄 나머지 모차르트를 독살한 것처럼 그려내 역사적 사실을 왜곡했다는 논란을 불러 일으켰다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/culture/music/730765.html",
+            "search_query": "모차르트 살리에리 사이",
+            "terminate": false,
+            "text": "맞아, 그렇다고 볼 수 있지. 영화 아마데우스는 1985년, 작품상을 포함한 아카데미상의 8개 부문을 수상하는 등의 찬사를 받은 작품이긴 하지만, 그것과는 별개로 질투심에 가득 찬 살리에리가 모차르트를 독살한 것처럼 묘사하는 바람에 논란을 불러 일으키기도 했어. 이게 역사적 사실을 왜곡한 것으로 보였기 때문이야.",
+            "turn_id": "BK22005821-4",
+            "utterance_id": "BK22005821.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 영화의 내용이 사실상 왜곡에 가깝다면, 실존 살리에리 입장에서는 그건 너무 억울하잖아. 어쩌다가 살리에리가 모차르트를 독살했다는 설까지 나오게 된 걸까? 이런 설정은 아마데우스가 원조야?",
+            "turn_id": "BK22005821-5",
+            "utterance_id": "BK22005821.9"
+        },
+        {
+            "reference_date": "2020-11-30",
+            "reference_text": [
+                {
+                    "value": "모차르트 독살설이 공식적으로 제기된 것은 1830년이었어요.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "러시아 문호 알렉산드르 푸시킨의 희곡 '모차르트와 살리에리'라는 작품이 독살설에 불을 지폈죠.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2020/11/30/2020113000144.html",
+            "search_query": "살리에리 모차르트 독살설",
+            "terminate": false,
+            "text": "아냐, 모차르트가 독살 당했다는 설이 공식적으로 제기된 건 1830년이었으니, 그보다 훨씬 앞섰지. 독살설에 불이 붙은 이유는, 희곡 모차르트와 살리에리라는 작품 때문이었어. 이건 러시아 작가인 알렉산드르 푸시킨이라는 사람이 쓴 글이지.",
+            "turn_id": "BK22005821-5",
+            "utterance_id": "BK22005821.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 아까 전에 영화 아마데우스의 각본을 쓴 사람이 피터 섀퍼라고 했잖아. 그러면 혹시 이 사람도, 푸시킨의 작품에서 영감을 받은 걸까?",
+            "turn_id": "BK22005821-6",
+            "utterance_id": "BK22005821.11"
+        },
+        {
+            "reference_date": "2014-05-27",
+            "reference_text": [
+                {
+                    "value": "푸시킨이 1831년 ‘모차르트와 살리에리’라는 희곡을 발표했고 영국 극작가 피터 섀퍼가 여기에서 영감을 받아 1979년 희곡 ‘아마데우스’를 발표했으며, 5년 뒤 이 희곡을 밀로시 포르만 감독이 영화로 만들었습니다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Culture/article/all/20140527/63784513/1",
+            "search_query": "피터 섀퍼 푸시킨 영감",
+            "terminate": false,
+            "text": "맞아, 모차르트와 살리에리라는 작품을 푸시킨이 1831년에 공개한 다음, 1979년에 영국 극작가인 피터 섀퍼가 영감을 받아서 1979년에 희곡 아마데우스를 발표한 거야. 그리고 5년 뒤에, 감독인 말로시 포르만이 이걸 영화로 만든 거지.",
+            "turn_id": "BK22005821-6",
+            "utterance_id": "BK22005821.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "으음, 그러면 푸시킨이 모차르트와 살리에리라는 작품을 쓰지 않았더라면, 영화 아마데우스가 나오지 않을 수 있었다는 거네. 그나저나 갑자기 또 궁금한 게 생겼는데, 영화 아마데우스를 보면 살리에리가 죽음을 연상시키는 무서운 가면을 쓰고 나타나서, 모차르트에게 레퀴엠을 작곡하라고 요청하잖아. 결국 이거 때문에 모차르트의 정신이 이상해지기 시작하는데, 가면을 쓴 남자가 나타나서 모차르트를 죽음으로 몰고 갔다는 것도 극 중 가상의 설정에 불과한 걸까?",
+            "turn_id": "BK22005821-7",
+            "utterance_id": "BK22005821.13"
+        },
+        {
+            "reference_date": "2019-12-05",
+            "reference_text": [
+                {
+                    "value": "①<레퀴엠>: 가면을 쓴 의뢰인이 찾아와 작곡을 맡겼다는 것은 사실.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 살리에리가 변장하고 찾아와 의뢰했다는 것은 허구.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/919790.html",
+            "search_query": "모차르트 살리에리 가면 죽음",
+            "terminate": false,
+            "text": "아냐, 믿기 힘들겠지만, 가면을 쓴 사람이 나타나서 작곡을 의뢰했다는 것은 실제로 있었던 일이야. 하지만, 그 의뢰인은 살리에리가 변장했던 것이 아니었어.",
+            "turn_id": "BK22005821-7",
+            "utterance_id": "BK22005821.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 그러면 모차르트에게 레퀴엠을 요청한 그 가면 쓴 의뢰인은 누구야? 설마 살리에리가 다른 사람을 보내서 그렇게 한 건 아니지?",
+            "turn_id": "BK22005821-8",
+            "utterance_id": "BK22005821.15"
+        },
+        {
+            "reference_date": "2019-12-05",
+            "reference_text": [
+                {
+                    "value": "의뢰인의 정체는 얌체 같은 귀족 프란츠 폰 발제크 백작의 심부름꾼이었다고 한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "곡을 받아다 백작 자신이 직접 쓴 곡처럼 발표하려던 속셈이었다나.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/919790.html",
+            "search_query": "모차르트 레퀴엠 가면 의뢰인",
+            "terminate": false,
+            "text": "아냐, 의뢰인은 살리에리가 아니라, 프란츠 폰 발제크라고 하는 귀족 백작의 심부름꾼이었어. 백작은 곡을 받아다가, 자기가 직접 작곡한 곡이라고 발표할 계획이었었거든. 결국엔 곡을 도용할 셈이었던 거지.",
+            "turn_id": "BK22005821-8",
+            "utterance_id": "BK22005821.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그러면 살리에리 입장에서는 더 억울할 수도 있겠네. 희곡이나 영화에서, 자기가 하지 않은 일까지 뒤집어 쓰게 된 거잖아. 극 중 재미를 위해서라지만, 내가 살리에리라면 좀 황당할 수는 있겠어.",
+            "turn_id": "BK22005821-9",
+            "utterance_id": "BK22005821.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 덕분에 작품이 더 흥미진진해지기는 했지만, 실제 살리에리의 입장에서는 그렇게 유쾌한 일은 아니겠지.",
+            "turn_id": "BK22005821-9",
+            "utterance_id": "BK22005821.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 그나저나 이야기하다 보니 실제 살리에리는 어떤 인물이었는지, 어떤 노래를 작곡했는지 좀 궁금해져. 혹시 살리에리가 만든 곡 중 남아있는 게 있는지, 한 번 유튜브에 찾으러 가볼게. 다음에 다시 또 이야기 나누자!",
+            "turn_id": "BK22005821-10",
+            "utterance_id": "BK22005821.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 찾아보고, 다음에 다시 또 이야기 나누자.",
+            "turn_id": "BK22005821-10",
+            "utterance_id": "BK22005821.20"
+        }
+    ]
+}

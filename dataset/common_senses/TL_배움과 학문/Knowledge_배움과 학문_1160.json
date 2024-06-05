@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007708",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007708",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전에 태양계 탐사에 관한 영상을 보다가 문득 궁금해졌는데, 태양을 탐사하는 탐사선도 있나?",
+            "turn_id": "BK22007708-1",
+            "utterance_id": "BK22007708.1"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "파커 태양 탐사선(Parker Solar Probe, 파커 솔라 프로브, PSP)는 미국 항공우주국의 과학 위성이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2018년 8월 12일 일요일 07:31 UTC에 발사되었으며 3번째로 태양을 탐사하기 위해 델타 IV 헤비 로켓에 탑재돼 쏘아올려졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "총 7년간 태양을 탐사할 예정이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%BB%A4_%ED%83%9C%EC%96%91_%ED%83%90%EC%82%AC%EC%84%A0",
+            "search_query": "파커 태양 탐사선",
+            "terminate": false,
+            "text": "응, 미국 항공우주국의 과학 위성인 파커 태양 탐사선이 있어. 파커 태양 탐사선은 세 번째로 태양을 탐사하는 탐사선이고, 2018년 8월 12일 일요일 UTC 오전 7시 31분에 델타 IV 헤비 로켓에 실려 발사됐지. 탐사선은 총 7년에 걸쳐 태양을 탐사할 예정이야.",
+            "turn_id": "BK22007708-1",
+            "utterance_id": "BK22007708.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양을 탐사하는 탐사선도 있었다니 놀랍네. 탐사선의 탐사 목표는 뭐야?",
+            "turn_id": "BK22007708-2",
+            "utterance_id": "BK22007708.3"
+        },
+        {
+            "reference_date": "2018-07-22",
+            "reference_text": [
+                {
+                    "value": "탐사선은 태양을 원격 또는 현장에서 직접 연구할 수 있는 일련의 장비들을 싣고 간다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이같은 첨단장비들로부터 얻는 자료들은 태양에 대한 세 가지의 근본적인 의문에 대한 답을 찾는데 도움을 줄 것으로 보인다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 번째는 태양풍의 가속에 대한 미스테리 즉, 태양의 끊임없는 물질 유출이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 번째는 코로나의 엄청난 고온에 대한 비밀도 풀어볼 계획.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 파커 탐사선 장비들은 태양의 에너지 입자가 가속화되는 이면의 메커니즘을 밝히는 작업도 수행한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%ED%83%9C%EC%96%91-%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC-%ED%95%B4%EB%8B%B5-%EC%B0%BE%EC%9D%84%EA%B9%8C/",
+            "search_query": "파커 태양 탐사선 목표",
+            "terminate": false,
+            "text": "탐사선에 탑재된 여러 첨단 장비를 통해 태양에 관한 근본적인 의문 세 가지를 푸는 것이 목표야. 첫째로, 태양풍의 가속에 관한 비밀, 그러니까 태양에서 끊임없이 물질이 유출되는 현상, 두 번째로는 코로나의 온도가 왜 엄청난 고온인지에 대한 의문, 세 번째로 태양의 에너지 입자가 가속화되는 메커니즘에 대한 답을 찾는 것이지.",
+            "turn_id": "BK22007708-2",
+            "utterance_id": "BK22007708.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탐사 목표 중에 내가 궁금했던 내용도 포함되어 있으니까 얼른 답을 찾을 수 있으면 좋겠다. 그건 그렇고, 탐사선을 로켓에 실어서 쏘아 올리는데, 내가 알기로 지구에서 벗어나기 위해 필요한 탈출 속도가 상당하거든. 그럼 로켓이 우주로 나가기 위해선 로켓의 속도가 무조건 그 탈출 속도에 도달해야 하는 걸까?",
+            "turn_id": "BK22007708-3",
+            "utterance_id": "BK22007708.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "많은 사람들이 탈출 속도에 대해 로켓과 같은 추진력을 가진 물체가 반드시 탈출 속도에 도달해야만 지구 중력권을 탈출할 수 있다고 믿고 있지만, 이는 잘못된 지식이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "로켓은 사실 지표면에서 탈출 속도에 해당하는 속도를 가질 수조차 없다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탈출 속도는 어떤 물체가 단순히 지표면에서 발사되고 그 이후 어떠한 운동 에너지도 공급받지 않는 경우에 그 행성의 중력권을 탈출하기 위해 지표면에서 가져야 하는 속도일 뿐이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사실 지속적으로 양의 속력를 유지할 수 있는 비행체라면 어떤 속도라도 지구 중력을 탈출할 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%88%EC%B6%9C_%EC%86%8D%EB%8F%84",
+            "search_query": "탈출 속도",
+            "terminate": false,
+            "text": "아니, 꼭 그런 게 아니야. 많이들 로켓처럼 추진력 있는 물체가 지구 중력권을 탈출하려면 반드시 탈출 속도에 도달해야 한다고 알고 있는데, 이건 잘못된 상식이지. 사실, 지표면에서 로켓은 탈출 속도에 해당하는 속도를 가질 수도 없어. 단순히 한 물체가 지표면에서 발사된 뒤 운동 에너지를 전혀 공급받지 않는다는 가정하에, 물체가 행성의 중력권에서 벗어나기 위해 지표면에서 가져야 하는 속도가 탈출 속도일 뿐이야. 비행체가 양의 속력을 지속적으로 유지할 수만 있다면 어떤 속도라도 지구의 중력을 탈출 가능해.",
+            "turn_id": "BK22007708-3",
+            "utterance_id": "BK22007708.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그 잘못된 지식을 알고 있던 사람이었다니, 이번에 정확하게 알게 되어서 다행이다. 그런데 지구에서 나갈 때는 로켓을 쓴다고 쳐도, 우주로 나간 뒤에 탐사선은 어떤 식으로 속도를 내는 거야?",
+            "turn_id": "BK22007708-4",
+            "utterance_id": "BK22007708.7"
+        },
+        {
+            "reference_date": "2018-10-05",
+            "reference_text": [
+                {
+                    "value": "‘스윙바이(swingby)’로도 불리는 중력도움은 행성에 근접해 중력을 이용하여 탐사선을 가속하는 것으로 장거리 우주 비행에서 꼭 필요한 부분이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태양을 향해 순항 중인 ‘파커 태양 탐사선(PSP)’이 3일 오전(이하 미국 동부시간) 금성의 첫 ‘중력도움(gravity assist)’ 비행을 마쳤다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%ED%83%9C%EC%96%91%ED%83%90%EC%82%AC%EC%84%A0-%ED%8C%8C%EC%BB%A4-%EC%B2%AB-%EA%B8%88%EC%84%B1-%EC%A4%91%EB%A0%A5%EB%8F%84%EC%9B%80-%EC%84%B1%EA%B3%B5%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%A7%88/",
+            "search_query": "파커 태양 탐사선 중력도움",
+            "terminate": false,
+            "text": "스윙바이라고도 하는 중력도움을 이용해. 스윙바이는 행성에 근접해서 행성의 중력을 이용해 탐사선을 가속하는 방법인데, 장거리 우주 비행에서는 필수적이지. 파커 태양 탐사선 또한 2018년 10월 3일에 금성을 이용해 첫 중력도움 비행을 했어.",
+            "turn_id": "BK22007708-4",
+            "utterance_id": "BK22007708.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "행성의 중력을 이용해 속도를 얻는다는 게 너무 신기한 개념이야. 그나저나 파커 태양 탐사선이 금성을 이용해 중력도움 비행을 했다면 금성에 근접했다는 건데, 금성에서도 뭔가 관측한 게 있을까?",
+            "turn_id": "BK22007708-5",
+            "utterance_id": "BK22007708.9"
+        },
+        {
+            "reference_date": "2021-05-04",
+            "reference_text": [
+                {
+                    "value": "미국 항공우주국(NASA)의 '파커 태양 탐사선'(PSP)이 금성 근처에 다가가 중력 도움(flyby) 비행을 하면서 행성의 상층 대기를 통과한 것으로 나타났다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 1992년 파이오니어 금성 궤도선 이후 거의 30년 만으로, 금성의 상층 대기가 태양 활동 주기에 따라 변하는 것을 우주선의 실측으로 직접 확인하는 기회가 됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "금성 전리층의 밀도는 그간 지상 망원경 관측을 통해 태양의 11년 활동 주기에 따라 크게 바뀌는 것으로 알려져 왔다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "금성 대기가 대체로 똑같이 유지되지만, 전리층은 가스가 밖으로 빠져나가면서 태양활동 극소기에는 훨씬 얇아진다는 것인데, 우주선이 전리층에 직접 들어가 측정한 것이 아니라 확인이 필요했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마침 파커호가 중력도움 비행을 한 시점은 태양 활동 극소기를 지난 지 6개월밖에 안 돼 태양활동 극대기로 접어들 때 전리층 밀도를 측정한 파이오니어호 자료와 비교하는데 안성맞춤 자료가 됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=46316",
+            "search_query": "파커 태양 탐사선 금성 전리층",
+            "terminate": false,
+            "text": "응, 파커 태양 탐사선은 금성 근처에서 중력 도움 비행을 하면서 금성의 상층부 대기를 통과했는데, 1992년 파이오니어 금성 궤도선 이후로 대략 30년 만이지. 덕분에, 태양 활동 주기에 따라서 금성의 상층 대기가 변하는 것을 실제 관측으로 확인할 수 있었어. 그동안 지상 망원경 관측을 통해 태양의 활동 주기인 11년에 따라 금성 전리층의 밀도가 크게 바뀌는 것으로 알려져 있었거든. 금성의 대기는 대체로 똑같이 유지되지만, 전리층은 밖으로 가스가 빠져나가면서 태양 활동 극소기에 훨씬 얇아진다는 말인데, 직접 전리층에 들어가서 탐사, 측정한 것이 아니라서 확인이 필요했지. 그런데 마침 파커 태양 탐사선이 중력도움 비행을 한 시점이 태양 활동 극소기 이후로 6개월밖에 안 된 시점이라서, 태양 활동 극대기 진입 때 전리층 밀도를 측정한 파이오니어호의 자료와 비교하는 데에 딱 맞는 데이터가 된 거야.",
+            "turn_id": "BK22007708-5",
+            "utterance_id": "BK22007708.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양을 탐사하러 가면서 금성에서도 겸사겸사 좋은 수확을 얻은 거네. 그나저나, 중력도움 얘기를 하다 보니 떠오른 궁금증인데, 파커 태양 탐사선의 속도 최고 기록 같은 게 있을까? 아, 그리고 태양 탐사선의 목표는 아무래도 태양 탐사인데, 태양에는 얼마나 가까이 다가갔어?",
+            "turn_id": "BK22007708-6",
+            "utterance_id": "BK22007708.11"
+        },
+        {
+            "reference_date": "2021-11-24",
+            "reference_text": [
+                {
+                    "value": "미 항공우주국(NASA)의 태양탐사선 ‘파커 솔라 프로브’(Parker Solar Probe·이하 PSP)가 인류의 피조물 중 가장 빠른 우주선 기록과 태양에 최근접하는 기록을 동시에 경신했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 NASA 측은 지난 21일(현지시간) PSP가 10번째 태양 근접비행을 수행해 태양 표면 기준 850만㎞까지 최근접했다고 밝혔다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 이날 PSP는 초속 163㎞, 시속으로는 58만6000㎞의 속도를 내 최고 기록도 세웠다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오는 2024년 PSP는 최고 시속 69만㎞로 태양에 620만㎞ 까지 접근할 예정이기 때문이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20211124601002",
+            "search_query": "파커 태양 탐사선 속도",
+            "terminate": false,
+            "text": "응, 최고 기록이 있어. 파커 태양 탐사선은 인류가 만들어 낸 피조물 중에서 가장 빠른 우주선 기록과 태양에 가장 근접하는 기록을 동시에 경신했지. NASA에서는 2021년 11월 21일에 파커 태양 탐사선이 태양 근접 비행을 10번째로 수행했고, 태양 표면을 기준으로 850만km까지 최근접했다고 밝혔어. 이때 탐사선의 속도는 초속 163km, 시속으로 치면 58만6000km의 속도에 달해서 최고 기록을 세운 것이지. 그뿐만 아니라, 파커 태양 탐사선은 오는 2024년에 최고 시속 69만km의 속도로 태양에 620만km까지 가까이 갈 예정이야.",
+            "turn_id": "BK22007708-6",
+            "utterance_id": "BK22007708.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 상상을 초월하는 속도네. 그런데 그렇게 태양에 가까이 가는데 탐사선은 왜 녹거나 하지 않고 괜찮은 거야?",
+            "turn_id": "BK22007708-7",
+            "utterance_id": "BK22007708.13"
+        },
+        {
+            "reference_date": "2018-08-15",
+            "reference_text": [
+                {
+                    "value": "온도는 입자들이 얼마나 빨리 움직이는지를 측정하는 반면, 열은 입자들이 전달하는 총 에너지 양을 측정한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 입자들이 빠르게 움직이면 온도가 높지만, 입자들이 아주 적으면 많은 에너지가 전달되지 못한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 우주는 대부분 비어 있으므로 코로나의 온도가 매우 높지만 파커 호에 에너지를 전달할 수 있는 입자가 거의 없다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 소형차 정도 크기의 파커 호에는 태양열을 막아주는 방패 모양의 열 보호 시스템(TPS)이 장착돼 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 외에도 파커 호 표면에는 약 11.43㎝ 두께의 방열판이 설치되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%ED%83%9C%EC%96%91-%ED%83%90%EC%82%AC%EC%84%A0%EC%9D%B4-%EB%85%B9%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%B9%84%EA%B2%B0%EC%9D%80/",
+            "search_query": "파커 태양 탐사선 녹지 않는 이유",
+            "terminate": false,
+            "text": "우선, 온도는 입자가 얼마나 빠르게 움직이는지를 측정하는 데 비해, 열은 입자가 전달하는 에너지의 총량을 측정해. 그러니까 입자가 빠른 속도로 움직이면 온도는 높지만, 입자 수가 아주 적으면 에너지가 많이 전달되지 못하지. 그런데 우주 공간은 대부분 비어 있다 보니, 코로나의 온도가 매우 높아도 파커 탐사선에 에너지를 전달할 입자가 거의 없는 거야. 게다가, 대략 소형차 크기의 파커 호에는 방패 모양의 열 보호 시스템이 장착되어 있는데, 이 시스템이 태양열을 막아 주지. 그뿐만 아니라, 파커 호 표면에는 11.43cm 정도 두께의 방열판도 설치되어 있어.",
+            "turn_id": "BK22007708-7",
+            "utterance_id": "BK22007708.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에너지가 잘 전달되지도 않을뿐더러, 철저히 대비책도 갖췄다는 거구나. 그나저나, 파커 탐사선이 그동안 보인 성과 같은 게 있으면 하나만 소개해 줄래?",
+            "turn_id": "BK22007708-8",
+            "utterance_id": "BK22007708.15"
+        },
+        {
+            "reference_date": "2019-12-05",
+            "reference_text": [
+                {
+                    "value": "파커호는 태양에서 약 1천120만㎞ 떨어진 곳에서 먼지가 감소하는 첫 증거를 확인했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 우주에 가득한 먼지가 태양 주변에서는 고열로 가스로 바뀌면서 먼지 없는 곳을 형성한다는 가설을 거의 100년 만에 입증하는 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "파커호는 광시야 이미지 장비인 WISPR을 통해 이를 확인했으며, 당시 위치에서 측정 한계였던 640만㎞까지 먼지가 계속 줄어드는 것을 확인했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2019/12/1019106/",
+            "search_query": "파커 태양 탐사선 성과",
+            "terminate": false,
+            "text": "응, 파커 호는 태양에서 1천120만km 떨어진 지점에서 먼지가 줄어드는 첫 번째 증거를 발견했어. 우주에 가득한 먼지가 태양 주위에서는 고열로 인해 가스로 바뀌면서 먼지 없는 부분을 형성한다는 가설이 있었는데, 이 가설을 100년 만에 입증한 거야. 파커 호에 장착된 광시야 이미지 장비인 WISPR을 통해서 이런 사실을 확인한 것이고, 당시 파커 호가 있던 위치로부터 측정 한계인 640만km까지 먼지 양이 계속 줄어드는 사실을 확인했지.",
+            "turn_id": "BK22007708-8",
+            "utterance_id": "BK22007708.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 들어도 이렇게 설레는데, 태양을 연구하는 과학자들은 더욱 설레는 소식이었을 것 같아. 파커 호에 관한 정보가 더 있는지 NASA 홈페이지에 들어가 봐야겠어.",
+            "turn_id": "BK22007708-9",
+            "utterance_id": "BK22007708.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 우주에 관심이 많다 보니 태양 탐사선 소식이 참 설레더라. NASA 홈페이지라, 좋은 생각 같아.",
+            "turn_id": "BK22007708-9",
+            "utterance_id": "BK22007708.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 내가 영어가 좀 약해서 말이야. 이번 토요일에 혹시 우리 집 와서 같이 보면서 영어 해석해 줄 수 있을까?",
+            "turn_id": "BK22007708-10",
+            "utterance_id": "BK22007708.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 이번 주 토요일은 한가하니까 갈게. 그럼 토요일에 연락 다시 줘.",
+            "turn_id": "BK22007708-10",
+            "utterance_id": "BK22007708.20"
+        }
+    ]
+}

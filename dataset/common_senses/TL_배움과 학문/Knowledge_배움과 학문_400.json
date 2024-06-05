@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013909",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013909",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 영화 한산을 재미있게 봤어요. 전문가님도 영화 한산을 보셨나요?",
+            "turn_id": "BK22013909-1",
+            "utterance_id": "BK22013909.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 웅장한 전투 장면을 인상 깊게 봤어요. 인물들의 갈등과 욕망이 고조되는 것도 흥미롭게 다뤘더라고요.",
+            "turn_id": "BK22013909-1",
+            "utterance_id": "BK22013909.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영화를 보며 영화 한산의 배경이 된 한산도대첩에 대해 더 알고 싶어졌는데 알려주실 수 있으세요?",
+            "turn_id": "BK22013909-2",
+            "utterance_id": "BK22013909.3"
+        },
+        {
+            "reference_date": "44786.0",
+            "reference_text": [
+                {
+                    "value": "한산도 대첩(閑山島大捷) 혹은 견내량대첩(見乃梁大捷)은 1592년 8월 14일(선조 25년 음력 7월 8일) 통영 한산도 앞바다에서 조선 수군이 왜군을 크게 무찌른 해전으로, 이 전투에서 육전에서 사용하던 포위 섬멸 전술 형태인 학익진을 처음으로 해전에서 펼쳤다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%82%B0%EB%8F%84_%EB%8C%80%EC%B2%A9",
+            "search_query": "한산도대첩",
+            "terminate": false,
+            "text": "한산도대첩은 견내량 대첩이라고도 불리는데 1592년 8월 14일 통영 한산도 앞바다에서 치른 전투를 말해요. 조선 수군은 이 전투에서 보통은 육전에서 사용하는 포위 섬멸 전술인 학익진을 처음으로 바다에서 펼치며 왜군을 크게 무찌르는 데 성공했습니다.",
+            "turn_id": "BK22013909-2",
+            "utterance_id": "BK22013909.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "견내량 대첩으로도 불린다면 견내량은 어디를 말하는 것인가요?",
+            "turn_id": "BK22013909-3",
+            "utterance_id": "BK22013909.5"
+        },
+        {
+            "reference_date": "44605.0",
+            "reference_text": [
+                {
+                    "value": "견내량(見乃梁)은 경상남도 거제시 사등면 덕호리와 통영시 용남면 장평리를 잇는 거제대교의 아래 쪽에 위치한 좁은 해협이다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임진왜란의 주요 해전의 배경이 된 곳은 이러한 좁은 해협과 거센 물길이 존재하고 있었으며, 육지와의 사이에서 바다의 폭이 가장 좁아지는 곳이기 때문에 지금은 모두 교량이 서 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%AC%EB%82%B4%EB%9F%89",
+            "search_query": "견내량",
+            "terminate": false,
+            "text": "견내량은 경상남도 거제시 사등면 덕호리와 통영시 용남면 장평리를 잇는 거제대교 아래에 위치한 좁은 해협을 말합니다. 임진왜란의 주요 해전들은 이러한 좁은 해협과 거센 물길이 있는 곳에서 치러졌어요. 육지를 사이에 두고 바다의 폭이 가장 좁아지기 때문에 지금은 모두 교량이 서 있습니다.",
+            "turn_id": "BK22013909-3",
+            "utterance_id": "BK22013909.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 견내량에서 학익진을 펼쳤던 것인가요?",
+            "turn_id": "BK22013909-4",
+            "utterance_id": "BK22013909.7"
+        },
+        {
+            "reference_date": "44767.0",
+            "reference_text": [
+                {
+                    "value": "당시 왜선이 정박해있던 견내량은 폭이 좁고 작은 섬도 많아 학익진을 구사하기 어려웠습니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선의 주력 전선(戰船)인 판옥선 6척이 견내량에 정박해있던 왜군을 공격합니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "접전을 벌이던 판옥선이 물러나자 일본 수군의 배인 안택선이 쫓아오는데요.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "안택선이 확 트인 한산도 앞바다에 이르자 조선 수군은 학이 날개를 펼치듯 에워싸 버립니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20220725.99099006949",
+            "search_query": "한산도대첩 학익진",
+            "terminate": false,
+            "text": "조선 수군이 학이 날개를 펼치듯 학익진을 펼친 곳은 한산도 앞바다입니다. 당시 견내량은 폭이 좁고 작은 섬도 많아서 학익진을 펼치기는 어려웠기에 조선의 주력 전선인 판옥선 6척이 먼저 견내량에 정박해있던 왜군을 공격한 후 접전을 벌입니다. 판옥선이 물러나자 일본 수군의 배인 안택선이 쫓아오는데 그들이 한산도 앞바다에 이르자 그곳에서 학익진으로 에워싸버린 것이죠.",
+            "turn_id": "BK22013909-4",
+            "utterance_id": "BK22013909.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본군의 피해가 상당히 컸겠어요. 일본 수군의 배는 몇 척이 격파되었나요?",
+            "turn_id": "BK22013909-5",
+            "utterance_id": "BK22013909.9"
+        },
+        {
+            "reference_date": "44767.0",
+            "reference_text": [
+                {
+                    "value": "판옥선과 거북선이 집중포화를 퍼붓자 왜선 73척 중 47척이 격파됩니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20220725.99099006949",
+            "search_query": "한산도대첩 격파",
+            "terminate": false,
+            "text": "판옥선과 거북선의 집중적인 포화로 일본 수군의 배 73척 중에 무려 47척이 격파되었습니다.",
+            "turn_id": "BK22013909-5",
+            "utterance_id": "BK22013909.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거북선의 활약이 대단했을 것 같아요. 실제 한산도 대첩에서도 영화 한산에서처럼 거북선 3대가 출항했나요?",
+            "turn_id": "BK22013909-6",
+            "utterance_id": "BK22013909.11"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "영화는 기존 거북선 2대와 순천산(産) 신형 거북선까지 모두 3대가 한산대첩에 출격한 것으로 나오지만, 기록상 한산대첩에 나온 거북선은 2대뿐이었습니다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/relion-academia/2022/08/05/JUDXK6YL5FFRVOF22QOFBFNNKM/",
+            "search_query": "한산도대첩 거북선",
+            "terminate": false,
+            "text": "기록상 한산대첩에 나온 거북선은 2대뿐입니다. 영화에서는 기존 거북선 2대와 순천에서 새로 만든 거북선까지 모두 출격한 것으로 나오지만 사실과 다릅니다.",
+            "turn_id": "BK22013909-6",
+            "utterance_id": "BK22013909.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거북선에 대한 역사적 기록에는 어떤 것들이 있나요?",
+            "turn_id": "BK22013909-7",
+            "utterance_id": "BK22013909.13"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "우리가 잘 아는 거북선의 구조는 1795년(정조 19년)에 왕명으로 간행한 ‘이충무공전서’에 나오는 것입니다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이순신 장군과 동시대의 학자인 이덕홍(1541~1596)의 ‘간재집’에 나오는 ‘귀갑선도(龜甲船圖)’를 보면, 거북선이 머리가 없는 배인 것으로 소개됩니다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/relion-academia/2022/08/05/JUDXK6YL5FFRVOF22QOFBFNNKM/",
+            "search_query": "거북선 구조",
+            "terminate": false,
+            "text": "1795년 정조의 어명으로 간행한 이충무공전서에 나오는 거북선은 우리가 잘 아는 구조입니다. 그런데 이순신 장군과 같은 시대를 살았던 학자인 이덕홍의 간재집에 나오는 귀갑선도에는 거북선이 머리가 없는 배로 나옵니다.",
+            "turn_id": "BK22013909-7",
+            "utterance_id": "BK22013909.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거북선 이외에도 조선 수군을 승리로 이끈 요인이 있다면 무엇일까요?",
+            "turn_id": "BK22013909-8",
+            "utterance_id": "BK22013909.15"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "이날 해설자로 나선 강희진 KRISO 친환경연료추진연구본부장은 한산도대첩의 승리 비결 중 하나로 선박의 구조를 꼽았다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강 본부장은 \"당시 조선의 주력 선박이었던 판옥선은 적송(소나무)을 짜맞춤 형태로 만들었고, 물을 흡수하며 팽창해 결합이 더욱 단단해졌다\"라며 \"반면 왜군의 주력 선박인 아타케부네(안택선)와 세키부네(관선)는 삼나무를 못질해 만들어 부식이 일어나고, 충돌에 취약한 구조였다\"라고 설명했다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hellodd.com/news/articleView.html?idxno=97733",
+            "search_query": "한산도대첩 승리",
+            "terminate": false,
+            "text": "강희진 KRISO 친환경연료추진연구본부장에 따르면, 선박 구조 때문에 한산도대첩에서 승리를 거둘 수 있었습니다. 당시 조선의 주력 선박이었던 판옥선은 소나무를 짜 맞춰 만들었고, 이 적송이 물을 만나면 물을 흡수하며 팽창해 결합이 더욱 단단해지는 효과가 있었어요. 이에 반해 왜군의 주력 선박인 아타케부네와 세키부네는 삼나무를 못질하여 결합했기 때문에 썩어들어가거나 충돌에 약했습니다.",
+            "turn_id": "BK22013909-8",
+            "utterance_id": "BK22013909.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한산도대첩 승리 이후에 어떤 변화가 일어났나요?",
+            "turn_id": "BK22013909-9",
+            "utterance_id": "BK22013909.17"
+        },
+        {
+            "reference_date": "42961.0",
+            "reference_text": [
+                {
+                    "value": "이 전투로 제해권을 장악해 적의 서해 진입을 막고 호남 곡창지대를 지키는 데 성공했다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "후방수송로가 끊긴 적은 결국 평양에서 후퇴해야 했다.",
+                    "value_time": "44805.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/opinion/article/2017081326011",
+            "search_query": "한산도대첩 이후",
+            "terminate": false,
+            "text": "이 전투로 제해권을 되찾고 적의 서해 진입을 막아 호남의 곡창 지대를 지킬 수 있었어요. 후방수송로가 막힌 적은 결국 평양에서 후퇴했습니다.",
+            "turn_id": "BK22013909-9",
+            "utterance_id": "BK22013909.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기만 들어도 손에 땀을 쥐게 되네요. 한산도대첩뿐만 아니라 다른 해전도 찾아봐야겠어요.",
+            "turn_id": "BK22013909-10",
+            "utterance_id": "BK22013909.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "바다를 배경으로 훌륭하게 적을 막아낸 이야기들을 함께 찾아봐요.",
+            "turn_id": "BK22013909-10",
+            "utterance_id": "BK22013909.20"
+        }
+    ]
+}

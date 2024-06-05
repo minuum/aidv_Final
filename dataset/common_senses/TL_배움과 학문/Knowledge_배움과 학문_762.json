@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004989",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004989",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호주의 동물에 대한 영상을 보니까 코알라가 나오더라고. 눈도 동그랗고 코도 신기하게 생긴게 너무 귀엽게 생겼어.",
+            "turn_id": "BK22004989-1",
+            "utterance_id": "BK22004989.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 복슬복슬한게 쓰다듬으면 참 부드러울 것 같아.",
+            "turn_id": "BK22004989-1",
+            "utterance_id": "BK22004989.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그나저나 코알라 영상을 보는데 계속 자고 있더라고. 하루에 얼마나 잠을 자는거야?",
+            "turn_id": "BK22004989-2",
+            "utterance_id": "BK22004989.3"
+        },
+        {
+            "reference_date": "2020-01-10",
+            "reference_text": [
+                {
+                    "value": "유칼립투스 나무에 매달려 살면서 잎을 뜯어먹는 이 동물은 하루 20시간 잠만 잡니다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나무에 매달려 잠을 자는 코알라들은 그야말로 천하태평의 모습입니다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=15238",
+            "search_query": "코알라 수면시간",
+            "terminate": false,
+            "text": "코알라는 유칼립투스 나무에서 잎을 뜯어먹고 먹고 살면서, 유칼립투스 나무에 매달려 천하태평하게 하루에 20시간동안 잠을 자.",
+            "turn_id": "BK22004989-2",
+            "utterance_id": "BK22004989.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루가 24시간인데 그렇게나 오래 잔다고? 그렇게나 오래 잘 수 있는 것도 쉽지 않을텐데 여러모로 대단한 동물이네. 아, 내가 예전에 듣기론 코알라가 유칼립투스 나뭇잎의 알콜 성분 때문이라는데 그게 맞을까?",
+            "turn_id": "BK22004989-3",
+            "utterance_id": "BK22004989.5"
+        },
+        {
+            "reference_date": "2016-02-02",
+            "reference_text": [
+                {
+                    "value": "그러나 코알라가 알코올 성분이 들어있는 유칼립투스 나뭇잎을 먹고 해롱거린다는 얘기는 잘못 된 정보라고 한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=177419",
+            "search_query": "코알라 유칼립투스",
+            "terminate": false,
+            "text": "코알라가 알콜에 취해 잔다, 독성에 취해 잔다 이런 이야기가 많이 있는데 그 이야기는 사실이 아니야.",
+            "turn_id": "BK22004989-3",
+            "utterance_id": "BK22004989.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어떤 것 때문에 코알라가 이렇게 잠을 많이 자는거야?",
+            "turn_id": "BK22004989-4",
+            "utterance_id": "BK22004989.7"
+        },
+        {
+            "reference_date": "2020-01-09",
+            "reference_text": [
+                {
+                    "value": "코알라는 매일 500g 정도의 유칼립투스 나뭇잎만 먹는데 이 나뭇잎은 영양분이 적고 소화가 잘 안 된다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 코알라는 에너지를 아끼고 소화를 위해 하루 18~20시간을 나무 위에서 잔다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20200109031011&wlog_tag3=naver",
+            "search_query": "코알라 많이 자는 이유",
+            "terminate": false,
+            "text": "코알라는 유칼립투스 나뭇잎을 매일 500그램 정도 먹게 되는데 이 나뭇잎은 영양분도 적고 소화가 잘 안돼. 그래서 코알라는 에너지도 아끼고 소화를 위해서 하루에 18시간에서 20시간 정도 나무 위에서 잠을 자는 거야.",
+            "turn_id": "BK22004989-4",
+            "utterance_id": "BK22004989.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 코알라가 잠을 자는 이유가 알콜 성분 때문은 아니라고 했지만, 어찌 되었던 유칼립투스 잎에 알콜 성분이 들어있다는 것이잖아? 그런데 코알라는 어떻게 그 잎을 주식으로 먹고 사는거야?",
+            "turn_id": "BK22004989-5",
+            "utterance_id": "BK22004989.9"
+        },
+        {
+            "reference_date": "2018-07-17",
+            "reference_text": [
+                {
+                    "value": "유칼립투스 잎에는 기름샘(oil gland)이 분포해 잎에 기름 성분이 많고 냄새가 강한 휘발성 물질을 다량으로 내놓는다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 평범한 동물이 유칼립투스 잎을 주식으로 삼는다는 건 곧 자살행위다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생체이물(xenobiotic), 즉 개체에게는 낯선 화합물을 해독하는 효소(CYPC2)의 유전자가 31개나 됐고 간에서 꽤 높게 발현됐다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23093",
+            "search_query": "코알라 해독능력",
+            "terminate": false,
+            "text": "그 이유는 코알라가 생체이물, 그러니까 낯선 화합물을 해독하는 효소인 유전자가 31개나 되고 그것이 간에 꽤 많이 있기 때문이야. 유칼립투스잎에는 기름샘이 있어서 잎 자체에 기름 성분이 많기도 하고 냄새가 강한 휘발성 물질을 내뿜고 있어. 그래서 평범한 동물이 먹게된다면 자살행위나 다름없어. 하지만 코알라는 앞서 이야기한 것처럼 해독 유전자 덕분에 먹을 수 있는거지.",
+            "turn_id": "BK22004989-5",
+            "utterance_id": "BK22004989.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코알라의 유전자가 특이한 능력을 가지고 있네. 아, 그리고 코알라는 물을 마시지 않아도 유칼립투스 잎에서 충분한 수분을 얻을 수 있다던데 맞아?",
+            "turn_id": "BK22004989-6",
+            "utterance_id": "BK22004989.11"
+        },
+        {
+            "reference_date": "2017-03-26",
+            "reference_text": [
+                {
+                    "value": "날씨가 점점 고온건조해지면서 유칼립투스 잎에 수분량도 적어져 따로 물을 마셔야만 하는 상황이 된 것이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호주 언론들에 따르면 최근 시드니대 연구팀은 코알라의 수분 섭취 습관을 관찰하기 위해 '세계 코알라의 수도'로 알려진 호주 구네다 지역의 코알라 서식지에 여러 곳의 인공 급수대와 몰래카메라를 설치했다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관찰 결과 100마리 이상의 코알라들이 급수대로 찾아와 물을 마시고 갔다고 연구팀은 전했다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "야행성인 코알라가 보통 잠을 자야할 낮 시간에도 안전한 나무 위 보금자리에서 내려와 지상 급수대를 찾기도 했다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20170324167400009?input=1195m",
+            "search_query": "코알라 갈증",
+            "terminate": false,
+            "text": "이젠 그마저도 쉽지 않을거야. 날씨가 점점 뜨거워지고 건조해지면서 유칼립투스 잎에 수분량이 적어져서 코알라가 따로 물을 찾아마셔야하는 상황이 왔어. 최근 시드니대 연구팀이 코알라의 수분섭취 습관을 관찰하기 위해서 세계 코알라의 수도라고 불리는 호주 구네다 지역의 코알라 서식지에 코알라를 위한 인공 급수대와 카메라를 설치했거든. 관찰 결과 100마리가 넘는 코알라가 급수대를 찾아와 수분을 섭취하고 돌아갔어. 보통 코알라는 야행성이기 때문에 낮에 잘 움직이지 않는데, 그 시간에도 나무에서 내려와 지상의 급수대를 찾을 정도면 코알라가 유칼립투스 잎만 먹기엔 수분이 부족하다는 걸 알 수 있어.",
+            "turn_id": "BK22004989-6",
+            "utterance_id": "BK22004989.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 환경이 변화면서 코알라가 물을 직접 찾아마시는 상황까지 온거네. 그런데 기후가 이렇게 점점 올라가는데 코알라는 털도 많은데 그 더위를 어떻게 버텨?",
+            "turn_id": "BK22004989-7",
+            "utterance_id": "BK22004989.13"
+        },
+        {
+            "reference_date": "2014-06-08",
+            "reference_text": [
+                {
+                    "value": "영국 왕립학회가 발행하는 국제학술지 ‘바이올로지 레터스’(Biology Letters) 최신호에 발표된 연구에 따르면 코알라는 주위 환경보다 온도가 몇도 낮은 나무를 껴안아 무더위에 대응하는 것으로 확인됐다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 이들은 더워지는 만큼 나무 아래로 이동했으며 식량인 유칼립투스 나무가 아닌 다른 나무에서도 목격되는 경우도 많았다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 유칼립투스 나무의 온도가 기온보다 1.46~1.87도밖에 낮지 않지만, 아카시아 나무는 무려 5도나 낮은 것으로 설명됐다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20140608601013",
+            "search_query": "코알라 땀샘",
+            "terminate": false,
+            "text": "영국 왕립학회가 발행하는 국제학술지인 바이올로지 레터스 최신호에 발표된 코알라 연구에 따르면, 코알라가 더위를 대응하기 위해 표면 온도가 낮은 나무를 껴안는 방법을 사용한다고 해. 그리고 날이 더워지면서 점점 나무 아래로 이동하기도 하고 주식인 유칼립투스 나무가 아니라 다른 나무에서도 목격됐다고 밝혔어. 왜냐면 유칼립투스 나무의 온도는 기온보다 1.46도에서 1.87도 정도 낮지만, 아카시아 나무는 무려 5도나 낮거든.",
+            "turn_id": "BK22004989-7",
+            "utterance_id": "BK22004989.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 코알라도 날이 더워지는 만큼 그거에 맞춰 대처하고 있네. 그런데 우리나라에선 보기 힘들지?",
+            "turn_id": "BK22004989-8",
+            "utterance_id": "BK22004989.15"
+        },
+        {
+            "reference_date": "2020-01-14",
+            "reference_text": [
+                {
+                    "value": "먹이 조달이 힘들고 비용이 많이 들어(마리당 연간 2억원) 호주 밖에선 일본 등 6개국 동물원에만 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라엔 없다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://ecotopia.hani.co.kr/493713",
+            "search_query": "코알라 우리나라 동물원",
+            "terminate": false,
+            "text": "맞아, 아쉽게도 우리나라에는 없지. 먹이 조달도 힘들고 마리 당 연간 2억원이라는 비용이 들 정도로 꽤 많은 돈이 들어가. 그래서 호주 외에 일본 등 6개국 외엔 코알라를 볼 수 없어.",
+            "turn_id": "BK22004989-8",
+            "utterance_id": "BK22004989.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 코알라를 보려면 호주는 못가도 일본은 가야하는거네. 그나저나 호주 화재가 최근에 큰 이슈였는데 코알라는 화재에 안전한 편이야?",
+            "turn_id": "BK22004989-9",
+            "utterance_id": "BK22004989.17"
+        },
+        {
+            "reference_date": "2020-01-13",
+            "reference_text": [
+                {
+                    "value": "코알라가 먹는 유칼립투스 잎에선 가연성 오일이 분비되기 때문에 불이 붙으면 나무가 폭발하기도 한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "불길이 붙어도 코알라는 나무 꼭대기로 올라갈 뿐 재빨리 피하지 못하고 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.iusm.co.kr/news/articleView.html?idxno=866657",
+            "search_query": "코알라 호주 화재",
+            "terminate": false,
+            "text": "코알라가 자주 올라가있는 유칼립투스 잎은 가연성 오일을 내뿜어서 불이 붙으면 폭발하는 성질을 가지고 있어. 그리고 코알라는 불이 붙으면 도망가기보단 나무 꼭대기로 올라가기 때문에 재빠른 대처가 어려운 편이야.",
+            "turn_id": "BK22004989-9",
+            "utterance_id": "BK22004989.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불이나면 바로 도망가야하는데 나무 위로 올라가버리니 대처가 어렵겠네. 산불이 생기니 다른 동물들도 피해가 클 텐데 안타깝다. 그럼 나는 이만 호주 산불이 왜 생겼는지 알아보러 가볼게.",
+            "turn_id": "BK22004989-10",
+            "utterance_id": "BK22004989.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다양한 정보를 찾아보다가 궁금하게 생기면 언제든지 물어봐. 그럼 다음에 또 봐!",
+            "turn_id": "BK22004989-10",
+            "utterance_id": "BK22004989.20"
+        }
+    ]
+}

@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003981",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003981",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화성 탐사선이 요새 보내오는 사진들을 보면 정말 놀라운 것 같아.",
+            "turn_id": "BK22003981-1",
+            "utterance_id": "BK22003981.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "로버 퍼서비어런스가 보내는 사진 말하는 거지?",
+            "turn_id": "BK22003981-1",
+            "utterance_id": "BK22003981.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 이름이었던 것 같아. 퍼서비어런스가 작년에 화성에 간 탐사선 맞지?",
+            "turn_id": "BK22003981-2",
+            "utterance_id": "BK22003981.3"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "퍼서비어런스(Perseverance)는 화성 탐사차로 2020년 7월 30일 발사하여 2021년 2월 18일 화성에 착륙하였다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8D%BC%EC%84%9C%EB%B9%84%EC%96%B4%EB%9F%B0%EC%8A%A4_(%ED%83%90%EC%82%AC%EC%B0%A8)",
+            "search_query": "퍼서비어런스",
+            "terminate": false,
+            "text": "맞아. 2020년 7월에 발사해서 2021년 2월에 화성에 도착한 화성 탐사차야.",
+            "turn_id": "BK22003981-2",
+            "utterance_id": "BK22003981.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 1년이 넘게 탐사 중인 거구나. 거기 첨단 장비들도 많이 달려있다던데 어떤 게 있는 거야?",
+            "turn_id": "BK22003981-3",
+            "utterance_id": "BK22003981.5"
+        },
+        {
+            "reference_date": "2021-04-22",
+            "reference_text": [
+                {
+                    "value": "퍼서비어런스에 탑재되는 분석 기기인 슈퍼캠은 레이저 분광계, 적외선 분광계, 영상 카메라, 마이크 등으로 구성돼 있다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "슈퍼캠을 통해 레이저 유도 플라스마 분광법(LIPS)으로 최대 7m 거리에 있는 표면 성분을 정확하게 분석할 수 있으며, 화성 표면에서 나는 다양한 소리를 들을 수 있다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 퍼서비어런스는 탑재 장치 목시(MOXIE)를 통해 화성 대기의 이산화탄소로 산소를 만드는 실험을 하게 된다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5706848&cid=43667&categoryId=43667",
+            "search_query": "퍼서비어런스",
+            "terminate": false,
+            "text": "퍼서비어런스에 달린 슈퍼캠에 레이저 분광계랑 적외선 분광계, 카메라랑 마이크가 있는데, 슈퍼캠이 갖고 있는 레이저 유도 플라스마 분광법을 이용해서 7미터 떨어진 표면의 성분 구성도 분석을 할 수 있게 돼 있고, 화성 표면의 여러 소리들도 확인할 수 있어. 또 목시라는 탑재 장치로는 대기 중의 이산화탄소를 산소로 변형시키는 실험도 하게 되지.",
+            "turn_id": "BK22003981-3",
+            "utterance_id": "BK22003981.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청난 기술들이 들어간 장비들이겠네. 퍼서비어런스도 다른 탐사선들처럼 주요 임무가 있겠지?",
+            "turn_id": "BK22003981-4",
+            "utterance_id": "BK22003981.7"
+        },
+        {
+            "reference_date": "2021-02-19",
+            "reference_text": [
+                {
+                    "value": "퍼서비어런스의 최대 임무는 생명의 흔적을 찾는 것이다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화성의 토양 시료를 채취해 퍼서비어런스가 원통에 넣어두면 미국과 유럽이 개발한 탐사선이 추후 화성에서 회수해 2031년 지구로 귀환하게 된다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=79549",
+            "search_query": "퍼서비어런스 임무",
+            "terminate": false,
+            "text": "역시나 주요 목표는 생명의 자취를 발견하는 거야. 퍼서비어런스가 화성에 있는 토양 샘플을 모아두면, 미국이랑 유럽에서 개발한 탐사선을 보내 2031년에 지구로 회수해 올 예정이야.",
+            "turn_id": "BK22003981-4",
+            "utterance_id": "BK22003981.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열심히 일해서 모아놓고 나면 나중에 다른 탐사선이 그걸 가지러 간다는 거네. 근데 화성에서 탐사하는 동안의 동력은 어디서 구해서 쓰는 거야?",
+            "turn_id": "BK22003981-5",
+            "utterance_id": "BK22003981.9"
+        },
+        {
+            "reference_date": "2020-07-31",
+            "reference_text": [
+                {
+                    "value": "퍼시비어런스의 동력은 원자력 전지다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "방사성 동위원소 플루토늄-238이 자연붕괴하는 과정에서 발생하는 열 에너지를 전기로 바꾼다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/955903.html",
+            "search_query": "퍼서비어런스 동력",
+            "terminate": false,
+            "text": "퍼서비어런스는 동력으로 원자력 전지를 이용하고 있어. 방사성 동위원소인 플루토늄 238을 이용하는데, 자연적으로 붕괴할 때 생기는 열에너지를 전기로 치환해 사용하는 거야.",
+            "turn_id": "BK22003981-5",
+            "utterance_id": "BK22003981.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원자력이 그렇게 이용되는구나. 이번에 드론을 띄우는 실험도 한다던데?",
+            "turn_id": "BK22003981-6",
+            "utterance_id": "BK22003981.11"
+        },
+        {
+            "reference_date": "2021-03-01",
+            "reference_text": [
+                {
+                    "value": "화성 탐사 로버 퍼서비어런스는 바닥 부분에 드론 헬리콥터 인제뉴어티(Ingenuity)를 품고 갔다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "무게 1.8kg, 폭 1.2미터의 날개 2개가 달린 헬리콥터 인제뉴어티는 1달 이내에 기동을 시작해 중력은 지구의 3분의 1이지만 공기 밀도는 지구의 100분의 1에 불과한 화성에서 비행이 가능한지를 시험하게 된다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006225778&plink=ORI&cooper=NAVER",
+            "search_query": "인제뉴어티",
+            "terminate": false,
+            "text": "퍼서비어런스에 드론형 헬리콥터인 인제뉴어티가 함께 갔어. 무게가 1.8킬로그램 정도 되고 1.2미터 정도 폭의 날개 2개가 달린 헬리콥터 형태야. 화성은 중력이 지구 3분의 1밖에 안 되고 공기밀도는 100분의 1이라서 환경이 완전히 다른데, 한 달 이내에 기동을 시작해서 비행이 가능한지를 시험해 보게 돼.",
+            "turn_id": "BK22003981-6",
+            "utterance_id": "BK22003981.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드론이 화성에서 날아다니는 모습이라니 상상이 안 가. 퍼서비어런스 말고도 먼저 화성에 탐사선이 아직 활동 중이라던데, 큐리오시티 같은 거 말이야.",
+            "turn_id": "BK22003981-7",
+            "utterance_id": "BK22003981.13"
+        },
+        {
+            "reference_date": "2021-02-06",
+            "reference_text": [
+                {
+                    "value": "나사는 2012년 큐리오시티를, 2018년 인사이트호를 화성에 착륙시켰다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "큐리오시티는 지금도 활동 중이다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인사이트호는 화성에 머무르면서 행성 내부 핵과 온도, 지진 여부 등 화성 '땅속의 움직임'을 조사하고 있다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20210206000006",
+            "search_query": "큐리오시티 퍼서비어런스",
+            "terminate": false,
+            "text": "2012년에 착륙한 큐리오시티는 여전히 활동하고 있고, 2018년에 화성에 도착한 인사이트호도 화성 내부 핵이랑 온도나 지진 같은 땅속의 활동을 조사하고 있어.",
+            "turn_id": "BK22003981-7",
+            "utterance_id": "BK22003981.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 큐리오시티가 벌써 10년이나 된 거네. 큐리오시티를 통해 진짜 다양한 화성 사진들이 기사에 나왔었잖아.",
+            "turn_id": "BK22003981-8",
+            "utterance_id": "BK22003981.15"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "그간 큐리오시티는 화성 탐사를 위해 지속적으로 이동하며 지표면 토양을 분석했다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구로 보낸 사진은 78만여장에 이른다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20210331000292",
+            "search_query": "큐리오시티 활동",
+            "terminate": false,
+            "text": "큐리오시티가 계속 화성을 조사하면서 땅의 표면 토양을 분석해서 지구로 전송한 사진이 약78만 장 정도나 되지.",
+            "turn_id": "BK22003981-8",
+            "utterance_id": "BK22003981.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참 우리나라도 다음 달에 탐사선 발사 소식이 있잖아. 그건 화성 탐사하는 건 아닌가?",
+            "turn_id": "BK22003981-9",
+            "utterance_id": "BK22003981.17"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "다누리는 최초의 달 탐사선인 시험용 궤도선으로 달 100km 고도를 비행하며 달을 관측하는 임무를 수행하게 되며, 오는 8월3일 발사될 예정이다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나아가 화성 등 심우주 탐사를 위한 중간 기착지로도 활용이 가능하기에 달은 우주 산업 발전을 위한 발판이 되기도 한다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.skyedaily.com/news/news_view.html?ID=161202",
+            "search_query": "다누리 화성탐사",
+            "terminate": false,
+            "text": "아, 다누리는 시험용 궤도선으로 최초의 달 탐사선이야. 8월 3일에 발사 예정인데, 달 100킬로미터 높이의 고도를 날면서 달을 관찰하고 측정하는 게 임무지. 화성에 가는 건 아니지만, 향후에 화성을 포함한 우주 탐사를 위한 중간지 역할을 하게 될 거고, 우리나라 우주산업에 있어 중요한 기점이 될 거야.",
+            "turn_id": "BK22003981-9",
+            "utterance_id": "BK22003981.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달 탐사가 성공적으로 진행되면 정말 다음은 화성일 수 있겠네. 역시 너랑 얘기하면 즐겁고 유익하다니까.",
+            "turn_id": "BK22003981-10",
+            "utterance_id": "BK22003981.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 재미있게 얘기해서 좋았어.",
+            "turn_id": "BK22003981-10",
+            "utterance_id": "BK22003981.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 또 재미난 얘기 많이 들려줘!",
+            "turn_id": "BK22003981-11",
+            "utterance_id": "BK22003981.21"
+        }
+    ]
+}

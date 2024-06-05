@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012395",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012395",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 수업 시간에 배운 내용, 하나도 이해가 가지 않아! 좀 도와줄 수 있을까?",
+            "turn_id": "BK22012395-1",
+            "utterance_id": "BK22012395.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "같이 수업 듣는 친구끼리 당연히 도와줄 수 있지!",
+            "turn_id": "BK22012395-1",
+            "utterance_id": "BK22012395.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먼저 지식 경영이 전혀 이해가 가지 않아.",
+            "turn_id": "BK22012395-2",
+            "utterance_id": "BK22012395.3"
+        },
+        {
+            "reference_date": "44174.0",
+            "reference_text": [
+                {
+                    "value": "이러한 흐름을 마주하면서 ‘예측할 수 없을 정도로 급격하게 변하는 경영환경 속에서 기업의 생존과 경쟁력을 갖추는 것’을 추구하는 지식경영(knowledge management)의 중요성이 대두되고 있다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "업무노하우 등 기업구성원들의 머릿 속에만 있는 암묵지(暗默知)를 문서나 매뉴얼 같이 여러 사람들 간에 공유되는 형식지(形式知)로 바꿔내는 것이 핵심이라고 할 수 있다.",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=863136",
+            "search_query": "지식 경영",
+            "terminate": false,
+            "text": "음, 지식 경영은 일단 예측하기 어려울 정도로 급격하게 변하는 경영 환경에서 기업의 생존과 경쟁력을 좌우할 만큼 중요한 것이야. 업무 노하우나 개인에게 체화되어 있지만 겉으로는 드러나지 않는 지식인 암묵지를, 문서나 매뉴얼처럼 공동으로 사용되는 지식인 형식지로 바꾸는 것이 핵심이지.",
+            "turn_id": "BK22012395-2",
+            "utterance_id": "BK22012395.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암묵지와 형식지가 거기서 나오는 거였구나! 그렇다면 OLTP와 OLAP는? 둘이 이름이 비슷해서 너무 헷갈려.",
+            "turn_id": "BK22012395-3",
+            "utterance_id": "BK22012395.5"
+        },
+        {
+            "reference_date": "44614.0",
+            "reference_text": [
+                {
+                    "value": "OLTP 시스템은 복수의 사용자 PC에서 발생하는 다수의 트랜잭션을 처리할 목적으로 구축된다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "OLTP 데이터베이스는 일반적으로 여러 사용자의 작고 빠른 트랜잭션을 처리한다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.itworld.co.kr/news/226499",
+            "search_query": "OLTP",
+            "terminate": false,
+            "text": "먼저 OLTP는 둘 이상의 사용자 컴퓨터에서 발생하는 여러 개의 트랜잭션을 처리하는 형태를 말해. 대부분 다수의 사용자의 작고 빠른 트랜잭션을 처리하지.",
+            "turn_id": "BK22012395-3",
+            "utterance_id": "BK22012395.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "OLTP가 둘 이상 사용자의 다수의 트랜잭션을 처리하는 거구나.",
+            "turn_id": "BK22012395-4",
+            "utterance_id": "BK22012395.7"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "OLAP 데이터베이스는 데이터 웨어하우스 또는 데이터 마트에서 나온 대량의 데이터를 다차원적으로 분석할 때 속도를 높일 목적으로 설계됐다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ciokorea.com/news/225564",
+            "search_query": "OLAP",
+            "terminate": false,
+            "text": "그렇지, 잘 이해하고 있어! 그리고 OLAP는 데이터 웨어하우스나 데이터 마트에서 나온 수 테라바이트의 테이터를 다차원적으로 분석하는 소프트웨어야. 데이터 분석 속도를 높이기 위해 개발되었어.",
+            "turn_id": "BK22012395-4",
+            "utterance_id": "BK22012395.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 조금씩 이해가 되고 있어! 그렇다면 ERP는 어떤 거야?",
+            "turn_id": "BK22012395-5",
+            "utterance_id": "BK22012395.9"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "전사적 자원 관리(영어: Enterprise resource planning: ERP)는 경영 정보 시스템(MIS)의 한 종류이다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전사적 자원 관리는 회사의 모든 정보 뿐만 아니라, 공급 사슬관리, 고객의 주문정보까지 포함하여 통합적으로 관리하는 시스템이다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "경영, 인사, 재무, 생산 등 기업의 전반적 시스템을 하나로 통합함으로써 효율성을 극대화하는 경영 전략이다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%82%AC%EC%A0%81_%EC%9E%90%EC%9B%90_%EA%B4%80%EB%A6%AC",
+            "search_query": "ERP",
+            "terminate": false,
+            "text": "ERP는 Enterprise resource planning의 약자로 전사적 자원 관리라 불리고 경영 정보 시스템의 한 종류야. 회사의 모든 정보와 공급 사슬 관리는 물론 고객의 주문정보 등까지 포함해 통합적으로 관리하는 시스템이지. 이렇게 경영과 인사, 재무 그리고 생산 시스템을 하나로 통합해 효율성이 아주 높아.",
+            "turn_id": "BK22012395-5",
+            "utterance_id": "BK22012395.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음은 기업 내부 데이터 베이스도 설명해 줄 수 있을까?",
+            "turn_id": "BK22012395-6",
+            "utterance_id": "BK22012395.11"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "고객 관계 관리(顧客關係管理, Customer relationship management, 줄여서 CRM)는 소비자들을 자신의 고객으로 만들고, 이를 장기간 유지하고자 하는 경영방식이며 기업들이 고객과의 관계를 관리, 고객 확보, 그리고 고객, 판매인, 협력자와 내부 정보를 분석하고 저장하는데 사용하는 광대한 분야를 아우르는 방법이다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B0%9D_%EA%B4%80%EA%B3%84_%EA%B4%80%EB%A6%AC",
+            "search_query": "CRM",
+            "terminate": false,
+            "text": "당연하지. 먼저 CRM은 Customer relationship management의 약자로 고객 관계 관리를 뜻해. 일단 소비자를 한 기업의 고객으로 만들고, 이 관계를 오랜 기간 유지하고자 하는 거지. 고객과의 이런 관계를 관리하고, 확보하고, 내부 정보를 분석, 저장하는 활동이라고 생각하면 이해가 쉬울 거야.",
+            "turn_id": "BK22012395-6",
+            "utterance_id": "BK22012395.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 SCM은? 둘 다 소비자랑 관련되어 있었던 거 같아 너무 헷갈려.",
+            "turn_id": "BK22012395-7",
+            "utterance_id": "BK22012395.13"
+        },
+        {
+            "reference_date": "44758.0",
+            "reference_text": [
+                {
+                    "value": "공급망 관리(供給網管理, supply chain management, SCM)란 부품 제공업자로부터 생산자, 배포자, 고객에 이르는 물류의 흐름을 하나의 가치사슬 관점에서 파악하고 필요한 정보가 원활히 흐르도록 지원하는 시스템을 말한다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B8%89%EB%A7%9D_%EA%B4%80%EB%A6%AC",
+            "search_query": "SCM",
+            "terminate": false,
+            "text": "둘 다 기업의 경영 방식이니 소비자와 관련이 있을 수 밖에 없지. 그런데 SCM은 Supply chain management의 약자고 공급망 관리란 뜻으로, 부품 제공업자부터 생산자를 통해 배포자, 소비자에 이르기까지의 물품의 흐름을 가치사슬 관점에서 파악하는 것을 말해. 둘이 다른 거, 알겠니?",
+            "turn_id": "BK22012395-7",
+            "utterance_id": "BK22012395.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 이제 알 것 같아! SCM은 제조 분야의 데이터베이스이구나. 유통 부문의 KMS도 한 번만 설명해줄 수 있을까?",
+            "turn_id": "BK22012395-8",
+            "utterance_id": "BK22012395.15"
+        },
+        {
+            "reference_date": "44716.0",
+            "reference_text": [
+                {
+                    "value": "지식 관리 시스템(knowledge management system)은 조직구성원의 지식자산에 대한 자세, 조직의 지식 평가/보상 체계, 지식공유 문화 등 조직차원의 인프라와 통신 네트워크, 하드웨어, 각종 소프트웨어 및 도구 등 정보기술 차원의 인프라를 기본 전제로 하고 있다.",
+                    "value_time": "44777.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EC%8B%9D_%EA%B2%BD%EC%98%81",
+            "search_query": "KMS",
+            "terminate": false,
+            "text": "KMS는 Knowledge management system의 약자로 지식 관리 시스템을 뜻해. 기업의 구성원들의 지식 자산에 대한 자세, 기업의 지식 평가와 보상 체계, 지식 공유 문화 등 기업 차원의 지적 재산과 여러 소프트웨어와 같은 정보기술의 인프라를 기본으로 하는 접근 방식이야.",
+            "turn_id": "BK22012395-8",
+            "utterance_id": "BK22012395.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 각 분야별 데이터베이스에 어떤 것이 있는지 이해가 가! 마지막으로 DW에 대해서 알려줄 수 있어? 자주 등장하는데 정확한 의미를 모르겠어.",
+            "turn_id": "BK22012395-9",
+            "utterance_id": "BK22012395.17"
+        },
+        {
+            "reference_date": "44624.0",
+            "reference_text": [
+                {
+                    "value": "데이터 웨어하우스(data warehouse)란 사용자의 의사 결정에 도움을 주기 위하여 기간시스템의 데이터베이스에 축적된 데이터를 공통의 형식으로 변환해서 관리하는 데이터베이스를 말한다.",
+                    "value_time": "44777.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4",
+            "search_query": "DW",
+            "terminate": false,
+            "text": "데이터 웨어하우스 말하는 거 맞지? 데이터 웨어하우스, 약자로 DW는 기간시스템의 데이터베이스에 쌓인 데이터를 하나의 형식으로 변환해서 관리하는 데이터베이스를 말해. 기업 내의 의사결정을 지원하기 위함이지.",
+            "turn_id": "BK22012395-9",
+            "utterance_id": "BK22012395.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, DW는 하나의 통합된 데이터의 저장공간이구나!",
+            "turn_id": "BK22012395-10",
+            "utterance_id": "BK22012395.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 맞아. 그건 그렇고 너 점심 먹었어? 안 먹었으면 같이 먹으러 가자.",
+            "turn_id": "BK22012395-10",
+            "utterance_id": "BK22012395.20"
+        }
+    ]
+}

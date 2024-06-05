@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007437",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007437",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 음식물을 먹으면 나중에 배변으로 나오잖아. 그 사이에 우리 몸 안에서 어떤 일들이 일어나는지 궁금해. 먼저, 음식물을 먹으면 어떤 과정을 거치게 되는 거야?",
+            "turn_id": "BK22007437-1",
+            "utterance_id": "BK22007437.1"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "소화(消化) 또는 삭임은 생물이 섭취 혹은 흡수한 음식물을 분해하여 영양분을 흡수하기 쉬운 형태로 변화시키는 일이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "음식물을 씹는 작용에 의한 기계적 소화와 소화 효소에 의한 화학적 소화가 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%99%94",
+            "search_query": "소화",
+            "terminate": false,
+            "text": "살아있는 생명체가 섭취를 하거나 흡수한 음식물을 분해해 영양소를 흡수하기 쉬운 형태로 바꾸는 과정을 소화라고 해. 음식물을 씹는 작용인 기계적 소화와 소화 효소에 의한 화학적 소화로 구분되지.",
+            "turn_id": "BK22007437-1",
+            "utterance_id": "BK22007437.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기계적 소화는 음식물을 씹는 과정인 게 이해가 돼. 혹시 화학적 소화에 관여하는 소화 효소에 대해 조금 더 자세히 설명해 줄 수 있어?",
+            "turn_id": "BK22007437-2",
+            "utterance_id": "BK22007437.3"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "소화효소는 음식물을 소화하는 데 관여한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "녹말을 분해해서 당분으로 만드는 아밀라아제, 단백질을 분해해서 아미노산으로 만드는 프로테아제, 지방을 분해해서 지방산으로 만드는 리파아제로 크게 나눌 수 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheonilbo.com/news/articleView.html?idxno=1130700",
+            "search_query": "소화 효소",
+            "terminate": false,
+            "text": "소화 효소는 크게 보면 녹말을 분해해서 당분으로 바꾸는 아밀라아제와 지방을 분해해서 지방산으로 바꾸는 리파아제, 단백질을 분해해서 아미노산으로 바꾸는 프로테아제로 나눌 수 있어. 이 효소들은 음식물을 소화시키는 데 관여하지.",
+            "turn_id": "BK22007437-2",
+            "utterance_id": "BK22007437.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 소화 효소들이 음식물을 서서히 분해하면서 흡수될 수 있도록 돕는 거구나. 그러면 위산은 어떤 역할을 하는 거야? 위산이 강한 산이라는 얘기를 들은 적이 있어.",
+            "turn_id": "BK22007437-3",
+            "utterance_id": "BK22007437.5"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "위산(胃酸)은 위에서 분비되는 소화를 돕는 액체이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "pH가 1.5~3.5 정도이며 0.5%(5000ppm)의 염산과 대량의 염화 칼륨, 염화 나트륨으로 되어 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "위산은 펩신과 함께 단백질의 소화를 돕는데 주 역할을 한다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%84%EC%82%B0_(%EC%86%8C%ED%99%94%EA%B3%84)",
+            "search_query": "위산",
+            "terminate": false,
+            "text": "위산은 pH가 1.5에서 3.5 정도이고, 5000ppm의 염산과 다량의 염화칼륨, 염화나트륨으로 구성되어 있어. 위에서 소화를 돕기 위해 분비되는 액체로, 주로 펩신과 함께 단백질의 소화를 돕는 역할을 해.",
+            "turn_id": "BK22007437-3",
+            "utterance_id": "BK22007437.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위산도 소화 효소와 함께 중요한 역할을 하네. 그래도 꽤 강한 산이라 문제가 생길 수 있을 것 같아. 혹시 위산으로 인해 생기는 문제가 있어?",
+            "turn_id": "BK22007437-4",
+            "utterance_id": "BK22007437.7"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "속 쓰림은 음식물이나 위산이 거꾸로 이동해 식도가 불타는 듯 작열감이 일어나는 증상이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매운 음식이나 튀김 등을 먹으면 위산을 과도하게 분비해 역류를 유발해 속 쓰림의 원인이 될 수 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416221/%EC%86%8D-%EC%93%B0%EB%A6%B4-%EB%95%8C-%EB%88%84%EA%B7%B8%EB%9F%AC%EB%9C%A8%EB%A6%AC%EB%8A%94-%EC%8B%9D%ED%92%88-5/",
+            "search_query": "속 쓰림",
+            "terminate": false,
+            "text": "맞아, 음식물이나 위산이 역류하면 속 쓰림이 생길 수 있는데, 이는 식도가 불타는 듯한 작열감을 느끼는 증상을 말해. 특히 매운 음식이나 튀김과 같은 음식들을 먹으면 위산이 과도하게 나오고, 역류를 일으켜 속 쓰림을 유발할 수 있어.",
+            "turn_id": "BK22007437-4",
+            "utterance_id": "BK22007437.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 위산이 역류하면 속 쓰림이 생길 수 있는 거구나. 그러면 위산과 펩신으로 인해 위에서 소화된 음식물은 어디로 가게 돼?",
+            "turn_id": "BK22007437-5",
+            "utterance_id": "BK22007437.9"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "입을 통해 들어온 음식물은 위산에 의해 잘게 분해된 뒤 십이지장으로 이동해 리파아제 등의 효소에 의해 더욱 잘게 부서진다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/05/11/2022051102284.html",
+            "search_query": "십이지장",
+            "terminate": false,
+            "text": "입으로 들어온 음식물이 위산에 의해 잘게 쪼개지고 난 후에는 십이지장으로 이동해서 리파아제와 같은 효소에 의해 더욱 잘게 분해가 돼.",
+            "turn_id": "BK22007437-5",
+            "utterance_id": "BK22007437.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식물이 위에서 십이지장으로 이동하는구나. 리파아제가 나오는 십이지장도 소장의 일부분이지?",
+            "turn_id": "BK22007437-6",
+            "utterance_id": "BK22007437.11"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "소장은 십이지장, 공장, 회장 (해부학)으로 이루어져 있으며, 쓸개로부터 쓸개즙이 분비되는 등 많은 소화 작용이 일어나는 곳이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%91%EC%9D%80%EC%B0%BD%EC%9E%90",
+            "search_query": "소장",
+            "terminate": false,
+            "text": "맞아, 소장은 십이지장과 공장, 회장으로 나뉘어져 있어. 쓸개로부터 쓸개즙이 분비되는 등의 수많은 소화 작용이 일어나는 기관이지.",
+            "turn_id": "BK22007437-6",
+            "utterance_id": "BK22007437.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소장에서도 수많은 소화 작용이 일어나네. 그러면 음식물이 소장을 거치고 난 다음에는 어디로 가는 거야?",
+            "turn_id": "BK22007437-7",
+            "utterance_id": "BK22007437.13"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "대장은 소화기관의 마지막 부분으로 소장 끝에서 시작해 항문으로 이어진다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022090222530001185",
+            "search_query": "대장",
+            "terminate": false,
+            "text": "소장의 끝에서 시작해서 항문까지 이어지는 대장으로 가게 되지. 대장이 소화기관의 마지막 부분이거든.",
+            "turn_id": "BK22007437-7",
+            "utterance_id": "BK22007437.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막 소화기관이 대장이구나! 대장에서는 어떤 소화 작용이 이루어져?",
+            "turn_id": "BK22007437-8",
+            "utterance_id": "BK22007437.15"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "대장의 역할은 주로 소화 불가능한 음식물 찌꺼기로부터 수분과 비타민의 일부, 쓸개즙염, 빌리루빈 등을 흡수하고, 찌꺼기를 보관하고 있다가 몸 밖으로 배출하는 것이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%B0%EC%B0%BD%EC%9E%90",
+            "search_query": "대장의 역할",
+            "terminate": false,
+            "text": "대장은 주로 소화가 불가능한 음식물 찌꺼기에서 수분과 일부 비타민 등을 흡수하는 역할을 해. 그리고 남은 찌꺼기들을 저장하고 있다가 몸 밖으로 배출하는 거지.",
+            "turn_id": "BK22007437-8",
+            "utterance_id": "BK22007437.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음식물이 입으로 들어가서 항문으로 배출되기까지 정말 많은 소화 기관들을 거치는구나.",
+            "turn_id": "BK22007437-9",
+            "utterance_id": "BK22007437.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그 소화기관들이 각자 자신의 역할을 잘 수행해야 원활한 소화가 이뤄질 수 있는 거지.",
+            "turn_id": "BK22007437-9",
+            "utterance_id": "BK22007437.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 몸속에서 이렇게 다양한 일들이 일어나고 있다는 게 신기해. 나중에 또 궁금한 게 생기면 물어볼게!",
+            "turn_id": "BK22007437-10",
+            "utterance_id": "BK22007437.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 언제든지 모르는 게 있으면 물어봐.",
+            "turn_id": "BK22007437-10",
+            "utterance_id": "BK22007437.20"
+        }
+    ]
+}

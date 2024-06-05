@@ -1,0 +1,416 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011880",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011880",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 자동차 레이싱을 하는 만화를 재미있게 보다 보니까 여러 엔진의 역사와 작동 원리 같은 게 자세히 알고 싶어지더라. 그래서 말인데, 증기 기관의 역사를 간략하게 이야기해 줄래?",
+            "turn_id": "BK22011880-1",
+            "utterance_id": "BK22011880.1"
+        },
+        {
+            "reference_date": "2022-08-14",
+            "reference_text": [
+                {
+                    "value": "1세기: 알렉산드리아의 헤론이 가열한 공기 또는 물의 힘에 대한 예시를 '아에올리스의 공'으로 구상하여 기록했다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1698년: 토마스 세이버리는 〈광부의 친구〉라는 증기 펌프를 소개했다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1705년: 토마스 뉴커먼은 대기압식 증기기관을 만들었는데, 세이버리 펌프와는 달리 실린더 안에 피스톤을 두어 물이 안으로 뿌려질 때 진공이 피스톤을 실린더의 바닥으로 밀어 내리도록 했다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1765년: 와트는 응축기를 분리하는 아이디어를 내놓았다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1776년: 첫 상업용 볼턴 & 와트 증기기관이 만들어졌다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A6%9D%EA%B8%B0%EA%B8%B0%EA%B4%80",
+            "search_query": "증기 기관",
+            "terminate": false,
+            "text": "1세기에 알렉산드리아의 헤론은 가열된 물이나 공기의 힘에 관한 사례를 아에올리스의 공으로 구상해 기록을 남겼고, 1698년에는 토마스 세이버리가 광부의 친구라는 이름의 증기 펌프를 내놓기도 했어. 이후 1705년에는 토마스 뉴커먼이 대기압식 증기 기관을 발명했는데, 이 증기 기관은 세이버리 펌프와 다르게 실린더 내부에 피스톤을 둔 형태라서, 물이 내부로 분사될 때 피스톤이 진공에 의해 실린더 아래쪽으로 밀려 내려가도록 만들어졌지. 그리고 1765년, 와트는 응축기를 따로 분리하는 발상을 떠올렸고, 1776년에는 첫 번째 상업용 볼턴-와트 증기 기관이 제작되었어.",
+            "turn_id": "BK22011880-1",
+            "utterance_id": "BK22011880.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증기 기관의 역사가 1세기까지 거슬러 올라갈 것이라고는 상상도 못 했어. 엔진은 내연 기관과 외연 기관으로 나눌 수 있던데, 외연 기관은 어떤 식으로 동작해?",
+            "turn_id": "BK22011880-2",
+            "utterance_id": "BK22011880.3"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "외연기관(外燃機關)(external combustion engine)은 연료를 보일러(Boiler)내에서 연소시키고 그 때에 발생하는 연소가스의 열을 보일러물에 전하여 증기(steam)를 만들고 이 증기에 의하여 왕복기관이나 증기터빈을 움직인다.[1]",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, ‘연소’라는 화학반응에 의하여 발생한 연소가스가 직접 기관을 움직이는 것이 아니고, 증기가 기관에서 일을 행한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%B8%EC%97%B0%EA%B8%B0%EA%B4%80",
+            "search_query": "외연기관",
+            "terminate": false,
+            "text": "외연 기관은 투입한 연료를 보일러 내부에서 태우고, 이때 생성되는 가스의 열을 보일러의 물에 전달해 증기를 만들어 낸 다음, 이 증기를 이용해 증기 터빈이나 왕복 기관을 움직이는 식으로 작동해. 그러니까 연료가 연소하는 화학 반응에서 생겨난 연소 가스가 기관을 직접 움직이는 게 아니라, 증기가 기관을 움직이게 하는 것이지.",
+            "turn_id": "BK22011880-2",
+            "utterance_id": "BK22011880.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명을 들으니 왜 외연 기관이라는 이름이 붙었는지 알겠네. 그럼 이번에는 내연 기관의 역사에 관해 좀 이야기해 줄래?",
+            "turn_id": "BK22011880-3",
+            "utterance_id": "BK22011880.5"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "1509년: 레오나르도 다빈치가 압축행정이 없는 내연기관을 고안하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1860년: 벨기에의 에티엔 르누아르가 휘발유를 연료로하는 내연기관을 발명하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1892년: 루돌프 디젤이 석탄 가루를 연료로 하는 카르노 열기관 형태의 독자적인 내연기관을 발명하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1893년 2월 23일: 루돌프 디젤이 디젤 엔진의 특허를 획득하다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%B4%EC%97%B0%EA%B8%B0%EA%B4%80",
+            "search_query": "내연기관",
+            "terminate": false,
+            "text": "우선, 레오나르도 다빈치가 1509년에 압축 행정이 없는 내연 기관을 생각해 내. 그리고 1860년에는 벨기에의 에티엔 르누아르가 연료로 휘발유를 쓰는 내연 기관을 만들어. 이후 루돌프 디젤이라는 사람은 1892년에 카르노 열기관 형태이면서 석탄 가루를 연료로 쓰는 자기만의 내연 기관을 만들고, 루돌프 디젤의 디젤 엔진은 1893년 2월 23일에 특허를 따지.",
+            "turn_id": "BK22011880-3",
+            "utterance_id": "BK22011880.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레오나르도 다빈치는 어떻게 그 시절에 내연 기관을 생각했는지 정말 신기하네. 그럼 휘발유를 쓰는 내연 기관에는 어떤 종류가 있을까?",
+            "turn_id": "BK22011880-4",
+            "utterance_id": "BK22011880.7"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "가솔린 기관은 왕복식 기관과 회전식 기관이 있으며, 왕복식 기관은 2행정 기관과 4행정 기관로 나뉜다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 4행정 기관이 흔하게 사용하며, 2행정 기관은 오토바이, 스쿠터 같은 소형 차량이나, 예취기같은 소형 원동기에 주로 쓰인다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "회전식 기관은 로터리 엔진으로 알려진 방켈 엔진이 있다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%86%94%EB%A6%B0_%EA%B8%B0%EA%B4%80",
+            "search_query": "가솔린 기관",
+            "terminate": false,
+            "text": "가솔린 기관은 회전식 기관과 왕복식 기관으로 나눌 수 있는데, 여기서 왕복식 기관은 다시 4행정 기관이랑 2행정 기관으로 분류돼. 이 중 흔히 쓰이는 건 4행정 기관이고, 2행정 기관은 주로 스쿠터나 오토바이 같은 소형 차량이나 예취기처럼 작은 원동기에 사용되지. 회전식 기관으로는 로터리 엔진이라고도 하는 방켈 엔진이 있어.",
+            "turn_id": "BK22011880-4",
+            "utterance_id": "BK22011880.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 여러 종류로 나눌 수 있구나. 그럼 먼저 2행정 기관이 어떻게 동작하는지 설명해 줄래?",
+            "turn_id": "BK22011880-5",
+            "utterance_id": "BK22011880.9"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "먼저 흡입·압축 행정이 이루어지는 동안, 피스톤이 아래에서 위로 올라가면서 사이클이 시작된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기서 크랭크실과 실린더 사이의 소기포트를 막는데, 이 과정에서 실린더 안에 먼저 들어가 있던 혼합기체를 압축하고, 동시에 다음 사이클을 위해 혼합기체가 크랭크실로 유입된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피스톤이 제일 윗부분에 이른 후, 점화 플러그의 전기 스파크로 혼합기체가 폭발한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 압력으로 피스톤이 위에서 아래로 내려가면서 폭발·배기 행정이 진행된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때 먼저 배기포트가 열리면서 배기 가스가 빠져나가고, 이후 소기포트가 열리면서 크랭크실에 대기되어 있던 혼합기체가 소기포트를 통해 실린더에 유입되면서 한 사이클이 완료된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/2%ED%96%89%EC%A0%95_%EA%B8%B0%EA%B4%80",
+            "search_query": "2행정 기관",
+            "terminate": false,
+            "text": "우선, 흡입과 압축 행정이 일어나는 동안 피스톤이 하부에서 상부로 상승하면서 사이클이 시작돼. 이때 실린더와 크랭크실 사이에 있는 소기 포트를 막으면서, 실린더 내부에 들어가 있던 혼합 기체가 압축되고, 동시에 다음 사이클 진행을 위해 혼합 기체는 크랭크실로 들어가지. 이후 피스톤이 최상단에 도달한 후에는 점화 플러그에서 일어난 전기 불꽃으로 혼합 기체가 폭발해. 그리고 그 압력 때문에 피스톤이 다시 아래로 내려가면서 폭발, 배기 행정이 이어지는데, 먼저 배기 포트가 개방되면서 배기가스가 배출된 뒤 소기 포트가 개방되고, 크랭크실에 있던 혼합 기체가 개방된 소기 포트를 통해 실린더로 들어가면서 한 사이클이 끝나.",
+            "turn_id": "BK22011880-5",
+            "utterance_id": "BK22011880.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흡입, 압축과 폭발, 배기 두 행정으로 나뉘어 있어서 2행정 기관이라고 하는구나. 4행정 기관은 어떤 식으로 동작해?",
+            "turn_id": "BK22011880-6",
+            "utterance_id": "BK22011880.11"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "4행정 기관은 흡입-압축-폭발-배기의 4행정을 하여 1사이클이 완료되는 형식이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흡입(Intake) : 피스톤이 상사점(TDC)에서 하사점(BDC)으로 하강하는데 이 때 실린더의 내부 압력이 낮아지면서 공기가 흡기다기관으로 밀려들어가고, 이 공기가 연료와 혼합되어 혼합기가 된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "압축(Compression) : 흡기/배기 밸브가 모두 닫힌 상태에서 피스톤이 하사점에서 상사점으로 상승하면서 혼합기를 압축한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "폭발(Ignition) : 실린더 내부의 혼합기가 연소되면서 생성된 연소 가스의 압력으로 피스톤을 밀어내리면서 피스톤이 하강하고 이 과정에서 동력이 발생한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "배기(Exhaust) : 배기밸브가 열리면서 피스톤이 상사점으로 상승하면서 연소 가스를 밀어 올려서 실린더 밖으로 배출시킨다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%ED%96%89%EC%A0%95_%EA%B8%B0%EA%B4%80#4%ED%96%89%EC%A0%95_%EA%B8%B0%EA%B4%80%EC%9D%98_%EC%9E%91%EB%8F%99_%EC%88%9C%EC%84%9C",
+            "search_query": "4행정 기관",
+            "terminate": false,
+            "text": "4행정 기관은 흡입, 압축, 폭발, 배기, 이렇게 4개 행정을 진행해 1사이클을 완료하는 방식인데, 먼저 흡입 행정에서는 피스톤이 상사점에서 하사점까지 내려가면서 실린더 내부의 압력이 떨어지고, 공기가 흡기다기관으로 유입되어 연료와 섞여서 혼합기가 돼. 압축 행정에서는 흡기와 배기 밸브가 전부 닫혀 있는 상태에서 피스톤이 하사점으로부터 상사점까지 올라가면서 혼합기를 압축하지. 폭발 행정에서는 실린더 안에 있는 혼합기가 연소하면서 발생한 가스의 압력으로 인해 피스톤이 밀려나 내려가는데, 바로 이 과정에서 동력이 생겨나. 마지막으로, 배기 행정에서는 배기 밸브가 개방되고, 피스톤이 상사점까지 올라가면서 연소 가스를 밀어 올려 실린더 외부로 내보내게 돼.",
+            "turn_id": "BK22011880-6",
+            "utterance_id": "BK22011880.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자동차를 운전할 때 엔진 내부에서 그런 과정이 계속 반복된다는 걸 상상하니까 자동차가 새삼 신기하게 느껴져. 아까 회전식 기관 중에 로터리 엔진이라는 것도 있다고 했는데, 로터리 엔진은 어떤 식으로 동작해?",
+            "turn_id": "BK22011880-7",
+            "utterance_id": "BK22011880.13"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "로터리 엔진(영어: rotary engine)은 피스톤의 왕복 운동을 회전 운동으로 바꾸는 대신 연소가스의 폭발에 의해 피스톤을 직접 회전시키는 기관이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흡입·압축·폭발팽창·배기의 4행정을 독립하여 순차로 행한다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로터가 1회전하는 동안에 각 행정이 3회씩 행해지며, 이 동안에 중심의 동력축은 3회전하게 돼 있으므로 동력축의 1회전에 대해 1회의 폭발 팽창행정이 있게 된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A1%9C%ED%84%B0%EB%A6%AC_%EC%97%94%EC%A7%84",
+            "search_query": "로터리 엔진",
+            "terminate": false,
+            "text": "로터리 엔진은 피스톤이 왕복하는 운동을 회전하는 운동으로 바꾸는 대신, 연소 가스의 폭발로 피스톤이 곧바로 회전하도록 하는 기관이야. 로터리 엔진에서는 흡입, 압축, 폭발과 팽창, 배기, 이렇게 독립적인 4개의 행정이 순서대로 진행되는데, 로터가 1번 회전하는 동안 각 행정은 3번씩 시행돼. 단, 그동안 중심부의 동력 축은 3회전 하기 때문에 동력 축 1회전을 기준으로 폭발, 팽창 행정이 1번 일어나게 되지.",
+            "turn_id": "BK22011880-7",
+            "utterance_id": "BK22011880.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굳이 왕복 운동을 회전 운동으로 바꿀 필요 없이 피스톤을 바로 회전시킨다는 게 참신한 방식 같아. 지금까지 가솔린 기관에 관해 이것저것 물어봤는데, 아까 언급했던 디젤 엔진은 어디에 주로 사용되고, 가솔린 엔진과는 어떻게 다른지 알려줄래?",
+            "turn_id": "BK22011880-8",
+            "utterance_id": "BK22011880.15"
+        },
+        {
+            "reference_date": "2022-09-28",
+            "reference_text": [
+                {
+                    "value": "디젤 기관은 열 효율이 높아 주로 대형자동차, 철도차량, 건설기계, 농업용기계, 선박 등의 엔진에 이용된다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 내연 기관인 가솔린 기관이 전기와 점화플러그를 이용하여 연료를 점화시키는 반면, 디젤 기관은 압축점화기관형태로, 실린더 안에 공기를 압축해서 온도를 높인 후 연료를 실린더 안에 분출하면서 스스로 점화되도록 하는 장치이다.",
+                    "value_time": "2022-09-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%94%94%EC%A0%A4_%EC%97%94%EC%A7%84",
+            "search_query": "디젤 기관",
+            "terminate": false,
+            "text": "열효율이 높다는 특징 때문에 디젤 기관은 철도차량, 건설 기계, 대형 자동차, 농업용 기계, 선박 등이 엔진으로 주로 사용돼. 가솔린 기관과는 점화 방식이 다른데, 가솔린 기관이 전기와 점화 플러그를 사용해 연료에 불을 붙이는 데에 비해, 디젤 기관은 압축 점화 기관 형태라서 실린더 내부의 공기를 압축해 온도를 높인 다음, 연료를 실린더 안에 분사해 점화하는 식으로 작동하지.",
+            "turn_id": "BK22011880-8",
+            "utterance_id": "BK22011880.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공기를 압축한 다음 연료에 불을 붙인다는 게 신기하네. 엔진은 정말 대단한 발명품 같아.",
+            "turn_id": "BK22011880-9",
+            "utterance_id": "BK22011880.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 지금까지 발명된 여러 엔진을 보면서 항상 감탄하게 되더라.",
+            "turn_id": "BK22011880-9",
+            "utterance_id": "BK22011880.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 나만 그렇게 느끼는 게 아니었구나. 오늘 여러 가지로 알려줘서 고마워. 나는 그럼 엔진에 관해 따로 좀 더 공부하러 가 볼게.",
+            "turn_id": "BK22011880-10",
+            "utterance_id": "BK22011880.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 공부하다가 궁금한 게 있으면 언제든 연락해. 그럼 나중에 보자.",
+            "turn_id": "BK22011880-10",
+            "utterance_id": "BK22011880.20"
+        }
+    ]
+}

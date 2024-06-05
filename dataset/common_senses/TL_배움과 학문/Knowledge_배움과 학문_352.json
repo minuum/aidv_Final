@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013591",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013591",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍이 우리나라를 향해 오고 있다는데 어떻게 되는 건지 알려줄래?",
+            "turn_id": "BK22013591-1",
+            "utterance_id": "BK22013591.1"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "11호 태풍 ‘힌남노’는 우리나라 쪽으로 북상해 다음 주 화요일 오전에 경남 남해안에 상륙할 것으로 보입니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기상청은 현재 타이완 남동쪽 해상에 있는 태풍 힌남노는 점차 북쪽으로 이동하고 있어 앞으로는 우리나라를 향해 북상하겠다고 예보했습니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://v.daum.net/v/20220902101943961?f=o",
+            "search_query": "태풍 힌남노 북상 예상",
+            "terminate": false,
+            "text": "기상청은 11호 태풍 힌남노가 지금은 타이완 남동쪽 해상에 있는데 점점 북쪽으로 이동하는 모양이라 우리나라를 향해 올라올 것으로 예보했어. 이후 9월 6일 오전에 경남 남해안으로 상륙할 걸로 예상돼.",
+            "turn_id": "BK22013591-1",
+            "utterance_id": "BK22013591.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "힌남노라니 태풍 이름이 참 특이하네, 어떤 뜻이고 어느 나라에서 만든 거야?",
+            "turn_id": "BK22013591-2",
+            "utterance_id": "BK22013591.3"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "힌남노 뜻은 라오스에서 제출한 태풍의 이름으로 라오스에 있는 국립보호구역을 의미한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisamagazine.co.kr/news/articleView.html?idxno=461674",
+            "search_query": "태풍 힌남노 뜻",
+            "terminate": false,
+            "text": "힌남노는 라오스에서 제출한 이름인데 라오스에 있는 국립보호구역을 뜻해.",
+            "turn_id": "BK22013591-2",
+            "utterance_id": "BK22013591.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍 힌남노는 어느 정도 세기의 태풍인 거야?",
+            "turn_id": "BK22013591-3",
+            "utterance_id": "BK22013591.5"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "태풍 힌남노는 현재 중심 부근의 최대 풍속이 초속 49m로 강도가 ‘매우 강한’ 태풍으로 분류됩니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태풍이 다음 주 화요일 남해안까지 북상했을 때는 세력이 조금 약해지겠지만, 예상되는 최대 풍속은 초속 43m로 여전히 강한 세력을 유지할 것으로 전망됩니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://v.daum.net/v/20220902101943961?f=o",
+            "search_query": "태풍 힌남노 크기",
+            "terminate": false,
+            "text": "현재는 중심 부근 최대 풍속이 초속 49미터의 강도가 매우 강한 태풍으로 분류되는데 9월 6일쯤 남해안에 북상했을 때는 조금 약해질걸로 예상돼. 그래도 최대 풍속이 초속 43미터 정도로 강한 세력을 유지할 것으로 전망되고 있어.",
+            "turn_id": "BK22013591-3",
+            "utterance_id": "BK22013591.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강도가 꽤 센 태풍이라 걱정이 많이 된다. 항상 궁금했던 건데 정확히 태풍이란 뭐를 말하는 거야?",
+            "turn_id": "BK22013591-4",
+            "utterance_id": "BK22013591.7"
+        },
+        {
+            "reference_date": "44081.0",
+            "reference_text": [
+                {
+                    "value": "태풍은 지구 북태평양 서남부에서 발생하여 아시아 대륙 동부로 불어오는, 폭풍우를 수반한 맹렬한 열대 저기압.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "풍속은 초속 17.2미터 이상으로 중심에서 수십 km 떨어진 곳이 가장 크며, 중심은 비교적 조용한 편이다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=793830",
+            "search_query": "태풍이란",
+            "terminate": false,
+            "text": "태풍이란 북태평양 서남부에서 생겨 아시아 대륙 동부로 불어오는, 풍속이 초속 17.2미터 이상의 폭풍우를 수반한 맹렬한 열대 저기압을 말해. 태풍의 중심 풍속은 비교적 낮은 것과 달리 중심에서 수십 킬로미터 떨어진 곳은 풍속이 아주 크지.",
+            "turn_id": "BK22013591-4",
+            "utterance_id": "BK22013591.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열대저기압을 여러 종류로 나누기도 하던데 어떻게 나뉘어?",
+            "turn_id": "BK22013591-5",
+            "utterance_id": "BK22013591.9"
+        },
+        {
+            "reference_date": "44081.0",
+            "reference_text": [
+                {
+                    "value": "세계기상기구(WMO)는 열대저기압 중에서 중심 부근의 최대풍속이 33㎧ 이상인 것을 태풍(TY), 25~32㎧인 것을 강한 열대폭풍(STS), 17~24㎧인 것을 열대폭풍(TS), 그리고 17㎧ 미만인 것을 열대저압부(TD)로 구분한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편, 우리나라와 일본에서는 최대풍속이 17㎧이상인 열대저기압 모두를 태풍이라고 부른다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=793830",
+            "search_query": "열대저기압 구분",
+            "terminate": false,
+            "text": "세계기상기구에서는 중심 부근 최대풍속이 33미터퍼세컨인 것을 태풍, 25에서 32 미터퍼세컨을 강한 열대폭풍, 17에서 24미터퍼세컨인 것을 열대폭풍 그리고 17미터퍼세컨 미만을 열대저압부로 나누지. 하지만 우리나라와 일본은 최대풍속 17미터퍼세컨 이상인 열대저압부는 모두 태풍이라고 해.",
+            "turn_id": "BK22013591-5",
+            "utterance_id": "BK22013591.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 태풍은 어떻게 만들어지는 거야?",
+            "turn_id": "BK22013591-6",
+            "utterance_id": "BK22013591.11"
+        },
+        {
+            "reference_date": "44068.0",
+            "reference_text": [
+                {
+                    "value": "지구는 구형으로 되어 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 저위도와 고위도 사이에 열에너지 불균형이 나타난다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양으로부터 받는 열에너지 불균형으로 인해 지역마다 고기압이 생기는 곳이 있고, 저기압이 생기는 곳이 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기서 저기압은 상승기류를 만들고 상승한 공기는 상층으로 올라가 팽창한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 저기압이 열대 지방에서 생길 경우 열대 저기압이 되는데, 이를 태풍이라고 한다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=791365",
+            "search_query": "태풍이 발생",
+            "terminate": false,
+            "text": "구형인 지구 모양으로 인해서 태양으로부터 받는 열에너지가 저위도와 고위도에 고르게 가지 못해. 이러한 열에너지 불균형으로 인해 지역마다 고기압과 저기압이 생기는데 저기압은 상승기류를 만들고 그 상승한 공기는 상층으로 올라가서 팽창하지. 이런 저기압이 열대 지방에서 생기면 열대 저기압이 되는데 그것이 바로 태풍인 거지.",
+            "turn_id": "BK22013591-6",
+            "utterance_id": "BK22013591.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 태풍이 하는 역할도 있어?",
+            "turn_id": "BK22013591-7",
+            "utterance_id": "BK22013591.13"
+        },
+        {
+            "reference_date": "44068.0",
+            "reference_text": [
+                {
+                    "value": "태풍은 바다로부터 증발한 수증기를 공급받아 강도를 유지하면서 고위도로 이동하게 된다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 과정을 통해 태풍은 지구 남북간의 에너지 불균형을 해소해준다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=791365",
+            "search_query": "태풍의 역할",
+            "terminate": false,
+            "text": "태풍은 바다에서 증발된 수증기를 받아 강도를 유지하면서 고위도로 이동하게 되는데 이런 작용으로 지구 남북 간의 에너지 불균형을 해소해 주는 역할을 해.",
+            "turn_id": "BK22013591-7",
+            "utterance_id": "BK22013591.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍은 많은 피해를 남기는 필요 없는 거라고 생각했었는데 지구의 에너지 불균형을 맞춰주는 역할을 하는구나.",
+            "turn_id": "BK22013591-8",
+            "utterance_id": "BK22013591.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이유나 쓸모없이 일어나는 자연현상은 없지.",
+            "turn_id": "BK22013591-8",
+            "utterance_id": "BK22013591.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 것 같아, 우리나라에 영향을 끼치는 태풍은 1년에 몇 개 정도 돼?",
+            "turn_id": "BK22013591-9",
+            "utterance_id": "BK22013591.17"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "태풍은 해마다 20~30개가 발생하는데 우리나라에 영향을 미치는 태풍은 연평균 3.1개다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평균적으로 여름철에 약 2개, 가을철에 약 1개 정도의 태풍이 영향을 미친다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=189215#0DJY",
+            "search_query": "우리나라 연평균 태풍",
+            "terminate": false,
+            "text": "태풍은 매년 20개에서 30개 정도 발생하는데 우리나라는 그중에서 여름에 약 2개, 가을에 약 1개 정도로 1년에 평균 3.1개 태풍의 영향을 받아.",
+            "turn_id": "BK22013591-9",
+            "utterance_id": "BK22013591.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1년에 3개 정도라면 많은 수의 태풍의 영향을 받는 것은 아니었구나. 아무튼 이번 태풍이 피해 없이 무사히 잘 지나갔으면 좋겠다.",
+            "turn_id": "BK22013591-10",
+            "utterance_id": "BK22013591.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그랬으면 좋겠네, 비도 많이 오고 바람도 많이 불테니까 외출 조심하고 다음에 또 얘기 나누자.",
+            "turn_id": "BK22013591-10",
+            "utterance_id": "BK22013591.20"
+        }
+    ]
+}

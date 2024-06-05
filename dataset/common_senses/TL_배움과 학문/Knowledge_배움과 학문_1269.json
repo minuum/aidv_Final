@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008492",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008492",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 여기서 인공지능 얘기가 많네. 대체 인공지능이 뭔지 넌 알고 있니?",
+            "turn_id": "BK22008492-1",
+            "utterance_id": "BK22008492.1"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "인공지능(人工智能) 또는 아티피셜 인텔리전스(영어: artificial intelligence, AI)은 인간의 학습능력, 추론능력, 지각능력을 인공적으로 구현하려는 컴퓨터 과학의 세부분야 중 하나이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정보공학 분야에 있어 하나의 인프라 기술이기도 하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",
+            "search_query": "인공지능",
+            "terminate": false,
+            "text": "인공지능은 아티피셜 인텔리전스라고도 하는데, 사람의 학습 및 추론, 지각 능력을 인공적으로 구현하려는 컴퓨터 과학의 분야 중 하나야. 정보공학 분야에서 인프라 기술의 일종이기도 해.",
+            "turn_id": "BK22008492-1",
+            "utterance_id": "BK22008492.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무슨 뜻인지는 대충 알겠다. 그런데 인공지능 말고도 머신러닝, 딥러닝 같은 비슷한 단어들도 있잖아. 나는 이 단어들의 차이를 모르겠는데, 설명해줄 수 있어?",
+            "turn_id": "BK22008492-2",
+            "utterance_id": "BK22008492.3"
+        },
+        {
+            "reference_date": "2021-08-09",
+            "reference_text": [
+                {
+                    "value": "마찬가지로 ‘AI’는 가장 넓은 의미이며, 그 안에 ‘머신러닝’을 포함한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 머신러닝의 하나로 ‘딥러닝’이 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 ‘딥러닝’이 특별한 존재라서 머신러닝이 주목받고, AI 세계가 최근에 급격히 발달한 것이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.epnc.co.kr/news/articleView.html?idxno=210681",
+            "search_query": "인공지능 의미",
+            "terminate": false,
+            "text": "인공지능을 뜻하는 AI가 가장 넓은 의미의 단어여서, 머신러닝은 그 안에 포함되는 개념이야. 딥러닝은 머신러닝의 종류 중 하나이고. 딥러닝의 특수성으로 머신러닝이 주목받게 되면서 인공지능이 급격히 발전하게 되었어.",
+            "turn_id": "BK22008492-2",
+            "utterance_id": "BK22008492.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비슷비슷한 말인 줄 알았는데 포함되는 개념이었구나. 딥러닝이 특수하다는 건 무슨 의미야?",
+            "turn_id": "BK22008492-3",
+            "utterance_id": "BK22008492.5"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "룰 기반 기술과 달리 딥 러닝은 전통적인 수학 알고리즘과 컨볼루션의 특정 숫자 입력을 사용하여 프로그래밍되지 않는다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대신, 딥 러닝은 인간 전문가들에 의해 분류되고 분류된 이미지의 데이터베이스를 분석함으로써 그 자체를 ‘프로그래밍’한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hellot.net/news/article.html?no=71317",
+            "search_query": "인공지능 딥러닝",
+            "terminate": false,
+            "text": "딥러닝은 기존의 전통적인 수학 알고리즘과 컨볼루션의 일정한 숫자를 입력해 프로그래밍하던 룰 기반 기술과 다르게, 인간 전문가들이 분류한 이미지의 데이터베이스 자체를 분석하고 프로그래밍하거든.",
+            "turn_id": "BK22008492-3",
+            "utterance_id": "BK22008492.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기존 방식과 다른 방식으로 프로그래밍한다는 거구나. 그렇다면 딥러닝만의 장점이 무엇인데?",
+            "turn_id": "BK22008492-4",
+            "utterance_id": "BK22008492.7"
+        },
+        {
+            "reference_date": "2019-02-23",
+            "reference_text": [
+                {
+                    "value": "배운 것을 어딘가로 옮길 수 있다는 것 역시 딥 러닝의 강점이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간의 학습 과정과 기계의 학습 과정이 비슷하다면, 전이 학습 부분에 있어서 그 특성이 가장 잘 드러난다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "딥 러닝 시스템들도 한 가지 문제를 통해서나 데이터셋에서 배운 것을 다른 것에 적용할 줄 안다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 1주일 동안 컴퓨터 비전을 통해 고양이 식별 방법을 익힌 딥 러닝이라면, 개를 식별하는 방법을 익힐 때 더 짧은 시간을 필요로 한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.boannews.com/media/view.asp?idx=77276",
+            "search_query": "딥러닝 장점",
+            "terminate": false,
+            "text": "배운 것을 다른 곳으로 옮길 수 있는 전이 학습이 딥러닝의 강점이야. 인간의 학습 과정과 기계의 학습 과정에서의 유사한 점이 드러나는 부분이지. 딥 러닝 시스템도 한 문제나 데이터셋에서 배운 것을 다른 문제나 데이터셋에 적용할 수 있어. 그래서 만일 딥러닝이 일주일간 컴퓨터 비전으로 고양이 식별 방식을 학습했다면, 개를 식별하는 방법을 배울 때는 더 짧은 시간이 소요돼.",
+            "turn_id": "BK22008492-4",
+            "utterance_id": "BK22008492.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 사람이 학습하는 것과 비슷한 것 같아서 신기하네. 딥러닝과 인공지능은 어떻게 시작된 거야?",
+            "turn_id": "BK22008492-5",
+            "utterance_id": "BK22008492.9"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "딥러닝의 기반이 되는 신경망은 꽤 오랜 역사를 가지고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세계 최초의 신경망이 1943년에 발표되었고, 현대 신경망의 주요 개념들을 소개한 퍼셉트론도 1957년에 개발되었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이들은 구조가 간단해서 단순한 작업들만 수행할 수 있었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신경망을 이용해 복잡한 작업을 수행하게 된 결정적인 계기는 다층 구조의 신경망을 학습할 수 있는 오류 역전파 알고리즘의 발견이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금까지 수 많은 학습 알고리즘이 개발됐지만 오류 역전파 알고리즘은 딥러닝에서 가장 널리 사용되는 학습 알고리즘이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/202202179087i",
+            "search_query": "인공지능 딥러닝 역사",
+            "terminate": false,
+            "text": "딥러닝의 밑바탕이라고 할 수 있는 신경망은 상당히 오래전에 만들어졌어. 1943년에 세계 최초의 신경망이 세상에 나왔고, 1957년에는 현대 신경망의 주요 개념을 담고 있는 퍼셉트론이 만들어졌거든. 그렇지만 이것들은 간단한 구조여서 복잡한 작업을 할 수 없었어. 신경망으로 복잡한 작업을 수행할 수 있게 된 건 오류 역전파 알고리즘이라는 다층 구조 신경망을 학습할 수 있는 학습 알고리즘이 발견되었기 때문이야. 지금까지 많은 학습 알고리즘이 만들어졌지만, 그럼에도 오류 역전파 알고리즘이 딥러닝에 가장 자주 사용돼.",
+            "turn_id": "BK22008492-5",
+            "utterance_id": "BK22008492.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인공지능이 4차 산업혁명 시대에야 뜨기 시작한 줄 알았는데 그 밑바탕은 예전부터 있던 거였구나. 그런데 오류 역전파 알고리즘이 잘 이해가 안 되는데, 쉽게 설명해 줄래?",
+            "turn_id": "BK22008492-6",
+            "utterance_id": "BK22008492.11"
+        },
+        {
+            "reference_date": "2019-03-18",
+            "reference_text": [
+                {
+                    "value": "그러기 위해서는 출력 오차를 확인하고, 그 결과에 따라 역 방향으로 가중치를 고쳐 나아가야 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이처럼 가중치를 꺼꾸로 고치면서 반대방향으로 교정해 가는 과정을 역전파(Back Propagation)이라고 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 역전파 학습 없는 머신러닝 인공지능은 없다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 잘못을 깨닫고 과거로 돌아가 자신을 바꾸는 과정이 바로 딥러닝 알고리즘의 핵심 학습과정이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20190317000190",
+            "search_query": "오류 역전파 알고리즘",
+            "terminate": false,
+            "text": "역전파라는 게 가중치를 거꾸로 고치며, 진행 방향의 반대 방향으로 교정하는 과정을 의미해. 즉, 출력 오차를 확인해서 그 결과를 보고 반대 방향으로 가중치를 고치는 거야. 쉽게 설명하면, 잘못된 것을 깨닫고 과거로 되돌아가서 고치는 과정이 딥러닝 알고리즘의 주된 학습 과정인 거야. 머신러닝 인공지능은 역전파 학습 없이는 성립하지 않아.",
+            "turn_id": "BK22008492-6",
+            "utterance_id": "BK22008492.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 설명하니까 무슨 말인지 알겠다. 그런데 아직도 잘 이해가 안 되는 게, 인공지능 기술 없이도 인간은 잘 살아 왔잖아. 과학자들은 왜 인공지능을 만들고 싶어 한 걸까?",
+            "turn_id": "BK22008492-7",
+            "utterance_id": "BK22008492.13"
+        },
+        {
+            "reference_date": "2021-07-30",
+            "reference_text": [
+                {
+                    "value": "1965년 여름, 과학자 10명이 미국 다트머스 대학에 모여 두 달 동안 사람처럼 생각할 수 있는 컴퓨터 프로그램 개발 가능성에 대해 연구하였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때부터 인공지능 연구가 시작되었다고 할 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%83%84%EC%83%9D%ED%96%88%EC%9D%84%EA%B9%8C/",
+            "search_query": "인공지능 만들어진 이유",
+            "terminate": false,
+            "text": "1965년 미국 다트머스 대학의 과학자 10명이 모였는데, 이들은 인간처럼 생각을 할 수 있는 컴퓨터 프로그램을 만들고 싶었던 거야. 그래서 이때부터 인공지능 연구가 시작됐어.",
+            "turn_id": "BK22008492-7",
+            "utterance_id": "BK22008492.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간처럼 생각할 수 있는 컴퓨터 프로그램을 만든다니, 그런 기발한 생각을 하는 사람들이 역사의 초석을 쌓는 거구나. 그러면 지금 인공지능의 수준은 어느 정도인 거야?",
+            "turn_id": "BK22008492-8",
+            "utterance_id": "BK22008492.15"
+        },
+        {
+            "reference_date": "2019-02-23",
+            "reference_text": [
+                {
+                    "value": "물론 개나 고양이를 사진만 보고 구분하는 데에는 인간이 뛰어나다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 암을 초기에 발견하거나 알츠하이머의 징조를 일찍부터 발견하는 데에는 딥 러닝이 인간을 이미 능가하고 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.boannews.com/media/view.asp?idx=77276",
+            "search_query": "인공지능 활용",
+            "terminate": false,
+            "text": "CNN 같은 다양한 딥러닝 신경망들이 인공지능이 인간보다 뛰어날 수 있는 가능성을 보여줘 왔어. 개와 고양이의 사진을 보고 구분하는 것은 물론 인간이 더 잘하지만, 초창기에 암을 발견하거나 알츠하이머의 징후를 초기에 알아채는 일은 딥러닝이 인간보다 뛰어나거든.",
+            "turn_id": "BK22008492-8",
+            "utterance_id": "BK22008492.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인공지능 기술을 잘 활용한다면 우리 삶이 훨씬 편해질 수 있을 것 같다는 생각이 드네.",
+            "turn_id": "BK22008492-9",
+            "utterance_id": "BK22008492.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 인공지능을 만들려고 했던 과학자들이 원했던 세상도 그런 것일 거야.",
+            "turn_id": "BK22008492-9",
+            "utterance_id": "BK22008492.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로의 기술 발전이 기대돼. 내가 살아 있는 동안 정말로 인간처럼 생각하는 인공지능이 나올 수 있을지 궁금하다.",
+            "turn_id": "BK22008492-10",
+            "utterance_id": "BK22008492.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "놀라운 속도로 기술 발전이 이루어져 왔으니, 앞으로도 차차 지켜보자.",
+            "turn_id": "BK22008492-10",
+            "utterance_id": "BK22008492.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 쉽게 설명해주어서 고마워.",
+            "turn_id": "BK22008492-11",
+            "utterance_id": "BK22008492.21"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012867",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012867",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 유엔이 세계 정세에 대해 방관하고 있다는 비판이 많은데 유엔은 언제 설립되었나요?",
+            "turn_id": "BK22012867-1",
+            "utterance_id": "BK22012867.1"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "또한 UN은 전세계 거의 모든 국가를 아우르는 국제 기구이며, 1945년 10월 24일에 제2차 세계대전 종전 이후 출범했다.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94#%EA%B0%81%EC%A3%BC",
+            "search_query": "유엔",
+            "terminate": false,
+            "text": "유엔은 제 2차 세계대전의 종식 이후, 1945년 10월 24일에 출범하였으며 전 세계의 대부분의 국가를 묶은 국제기구예요.",
+            "turn_id": "BK22012867-1",
+            "utterance_id": "BK22012867.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 현재 유엔에 가입된 회원국은 얼마나 되고 가입하려면 어떻게 해야 하나요?",
+            "turn_id": "BK22012867-2",
+            "utterance_id": "BK22012867.3"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "현재 유엔에는 193개국이 가입되어 있다.",
+                    "value_time": "44778.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유엔 회원국으로 가입하려면 유엔 안전 보장 이사회, 유엔 총회 양측의 승인이 있어야 하기 때문에 주권을 가진 국가라도 국제 사회에서 주권 국가로 인정받지 못하는 경우, 특정 유엔 회원국의 반대가 있는 경우에는 가입할 수 없다.",
+                    "value_time": "44778.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94_%ED%9A%8C%EC%9B%90%EA%B5%AD",
+            "search_query": "유엔 회원국",
+            "terminate": false,
+            "text": "현재 유엔에는 193개국이 입회된 상태예요. 유엔 회원국으로 가입하려면 유엔 안전보장이사회와 유엔 총회의 승인을 모두 받아야 해요. 그래서 주권이 있는 국가라고 하더라도 국제사회에서 인정받지 못하거나 특정 유엔 회원국이 반대를 하면 가입할 수 없어요.",
+            "turn_id": "BK22012867-2",
+            "utterance_id": "BK22012867.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 회원국들이 있군요. 제가 듣기로는 유엔에 안전 보장 이사회의 상임 이사국이 있다고 하던데 이는 어떤 근거로 부여되는 것인가요?",
+            "turn_id": "BK22012867-3",
+            "utterance_id": "BK22012867.5"
+        },
+        {
+            "reference_date": "44666.0",
+            "reference_text": [
+                {
+                    "value": "유엔 안전 보장 이사회 상임이사국(영어: permanent members of the United Nations Security Council, Permanent Five, Big Five, UNSC P5)은 1945년 유엔 헌장을 통해 유엔 안전 보장 이사회의 상임이사국 자격을 부여한 5개 국가이다: 중화인민공화국, 프랑스, 러시아, 영국, 미국.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94_%EC%95%88%EC%A0%84_%EB%B3%B4%EC%9E%A5_%EC%9D%B4%EC%82%AC%ED%9A%8C_%EC%83%81%EC%9E%84%EC%9D%B4%EC%82%AC%EA%B5%AD",
+            "search_query": "유엔 안전 보장 이사회 상임이사국",
+            "terminate": false,
+            "text": "상임이사국은 1945년 발효된 유엔 헌장을 통해 상임이사국의 자격을 부여해요. 현재는 중화인민공화국, 프랑스, 러시아, 영국, 미국이 상임이사국으로 있어요",
+            "turn_id": "BK22012867-3",
+            "utterance_id": "BK22012867.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 1945년에 유엔 헌장에 참여한 국가는 어떤 국가들인가요?",
+            "turn_id": "BK22012867-4",
+            "utterance_id": "BK22012867.7"
+        },
+        {
+            "reference_date": "44618.0",
+            "reference_text": [
+                {
+                    "value": "프랑스, 소비에트 연방, 영국, 미국, 중화민국 등 5개 상임이사국 및 나머지 서명국 대다수가 헌장을 비준한 뒤에 동년 10월 24일에 발효되었다.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94_%ED%97%8C%EC%9E%A5",
+            "search_query": "유엔 헌장",
+            "terminate": false,
+            "text": "해당 국가들은 5개의 상임이사국이었던 프랑스, 소비에트 연방, 영국, 미국, 중화민국 및 나머지 대다수의 국가예요. 유엔 헌장은 10월 24일에 효력을 가지게 되었지요.",
+            "turn_id": "BK22012867-4",
+            "utterance_id": "BK22012867.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 알기로는 소비에트 연방이야 후에 해체가 되면서, 러시아로 된 것은 알고 있었는데, 중화민국이라면 지금의 대만섬을 통치하는 국가 아닌가요?",
+            "turn_id": "BK22012867-5",
+            "utterance_id": "BK22012867.9"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "그러나 1971년 유엔 총회 결의 제2758호에 따라 안전보장이사회 상임이사국 지위뿐만 아니라 국제 연합 내에서의 '중국' 대표권을 모두 중화인민공화국에게 빼앗겼고, 연이어 전세계의 냉전 체제가 해빙기를 맞으면서 미국을 위시한 제1세계 국가들이 점차 중화민국 단교를 전제로 중화인민공화국과 수교함으로써 중화민국은 외교적으로 고립되기 시작했다.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EB%AF%BC%EA%B5%AD",
+            "search_query": "중화민국",
+            "terminate": false,
+            "text": "네. 1971년 유엔 총회결의에 따라 지금의 중화인민공화국에 중국 대표권과 안전보장이사회의 상임이사국을 빼앗겼고, 냉전체제의 해빙기 이후 제1세계 국가들이 점차 중화민국 격면을 전제로 중화인민공화국과 국교를 맺음으로써 중화민국은 점점 외교적으로 고립이 되었어요.",
+            "turn_id": "BK22012867-5",
+            "utterance_id": "BK22012867.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 중화인민공화국이 어떻게 중화민국을 밀어내고 상임이사국에 대체하게 되었죠?",
+            "turn_id": "BK22012867-6",
+            "utterance_id": "BK22012867.11"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "그러나, 스탈린 사후의 중소 대립을 거쳐, 1964년 1월에 프랑스와 수교한 이후, 1979년 1월 1일부터 미국과 수교하는 등 서방 측과의 관계 회복을 이루고, 동시에 중화민국을 대신하여 유엔 안보리의 상임이사국이 되었다.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중화민국을 승인하는 국가와는 외교관계를 수립하지 않는 것을 원칙으로 하고 있다.",
+                    "value_time": "44778.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%ED%99%94%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD",
+            "search_query": "중화인민공화국",
+            "terminate": false,
+            "text": "스탈린 사망 후 중소 대립을 거쳐, 중화인민공화국은 중화민국을 승인하는 국가와 외교관계를 수립하지 않는다는 원칙하에 1964년 1월에 프랑스, 1979년 1월 1일 미국 등과 수교한 이후, 서방과의 관계 회복시켰으며, 중화민국을 대신하여 유엔 안보리의 상임이사국이 되었어요.",
+            "turn_id": "BK22012867-6",
+            "utterance_id": "BK22012867.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 중화인민공화국의 외교적인 전략이 탁월했었나 보군요. 혹시 중화민국과 우리와 외교관계가 있었나요?",
+            "turn_id": "BK22012867-7",
+            "utterance_id": "BK22012867.13"
+        },
+        {
+            "reference_date": "44773.0",
+            "reference_text": [
+                {
+                    "value": "대한민국과 중화민국(대만) 간의 관계(大韓民國과 中華民國 間의 關係)는 1948년 8월에 대한민국 정부 수립 초기부터 본격적으로 시작되었으나, 1992년 8월 대한민국이 중화인민공화국과 수교하여 외교관계가 단절되었다",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EC%A4%91%ED%99%94%EB%AF%BC%EA%B5%AD_%EA%B4%80%EA%B3%84",
+            "search_query": "대한민국-중화민국 관계",
+            "terminate": false,
+            "text": "과거 1948년 8월 대한민국 정부 수립 초기부터 그 관계가 시작되었지만, 1992년 8월에 우리나라가 중화인민공화국과 수교하면서 중화민국과의 외교관계는 단절되었어요.",
+            "turn_id": "BK22012867-7",
+            "utterance_id": "BK22012867.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리와도 인연이 꽤 깊었었네요. 그렇다면 지금도 중화민국의 대사관은 없는 것인가요?",
+            "turn_id": "BK22012867-8",
+            "utterance_id": "BK22012867.15"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "공식적으로는 주한타이베이대표부(중국어: 駐韓國臺北代表部}), 대내적으로는 주한대만대표부(駐韓臺灣代表部)는 대한민국에 주재하는 중화민국의 타이베이 대표처이다.",
+                    "value_time": "44778.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하나의 중국 정책의 영향으로 인해 비공식적인 외교 임무를 수행하기 위해 대사관이 아닌 연락사무소 형식으로 개설하였다",
+                    "value_time": "44778.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A3%BC%ED%95%9C_%EB%8C%80%EB%A7%8C_%EB%8C%80%ED%91%9C%EB%B6%80",
+            "search_query": "주한 대만 대표부",
+            "terminate": false,
+            "text": "하나의 중국 정책의 영향으로 대사관이 아닌 공식적으로는 주한타이베이대표부, 대내적으로는 주한대만대표부라는 이름의 연락사무소 형식으로 개설이 되어있어요. 비공식적인 외교 임무를 맡아서 처리하기 위해 개설된 주한대만대표부는 우리나라에 주재하는 중화민국의 타이베이 대표처예요.",
+            "turn_id": "BK22012867-8",
+            "utterance_id": "BK22012867.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 외교 힘의 중요하다는 것을 새삼 느끼네요.",
+            "turn_id": "BK22012867-9",
+            "utterance_id": "BK22012867.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 어느 역사를 보던 외교는 중요한 변수로 작용하죠.",
+            "turn_id": "BK22012867-9",
+            "utterance_id": "BK22012867.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어찌 보면 중화민국이 좀 딱하게 되었어요.",
+            "turn_id": "BK22012867-10",
+            "utterance_id": "BK22012867.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "중국 대륙에서 민심을 크게 잃은 것이 큰 패착이었죠.",
+            "turn_id": "BK22012867-10",
+            "utterance_id": "BK22012867.20"
+        }
+    ]
+}

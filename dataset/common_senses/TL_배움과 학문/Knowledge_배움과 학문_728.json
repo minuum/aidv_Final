@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004594",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004594",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "며칠 전 영화 테넷을 봤는데 여러 가지로 이해 안되는 부분이 정말 많더라.",
+            "turn_id": "BK22004594-1",
+            "utterance_id": "BK22004594.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 부분에서 궁금한 점이 있었는데?",
+            "turn_id": "BK22004594-1",
+            "utterance_id": "BK22004594.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "테넷에서 나오는 엔트로피 있지? 이 엔트로피에 대해 잘 모르겠던데 알고 있니?",
+            "turn_id": "BK22004594-2",
+            "utterance_id": "BK22004594.3"
+        },
+        {
+            "reference_date": "2020-12-28",
+            "reference_text": [
+                {
+                    "value": "엔트로피는 ‘열은 뜨거운 물체에서 차가운 물체로만 이동한다’는 자연의 법칙을 설명하기 위해 도입된 양이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/015/0004473993?sid=105",
+            "search_query": "엔트로피 뜻",
+            "terminate": false,
+            "text": "응 알고 있어. 엔트로피란 열이 뜨거운 물체에서 차가운 물체로만 이동한다는 자연의 법칙을 설명해야 하는데 이 설명을 하기 위해 도입된 양이야.",
+            "turn_id": "BK22004594-2",
+            "utterance_id": "BK22004594.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 엔트로피가 시간이 흐르는 것과 관련이 있는 거야?",
+            "turn_id": "BK22004594-3",
+            "utterance_id": "BK22004594.5"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "엔트로피는 낮은 상태에서 증가하는 방향으로 가기 때문에 시간은 언제나 일방향인 것처럼 느껴진다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56722",
+            "search_query": "엔트로피 시간",
+            "terminate": false,
+            "text": "시간의 한 방향과 관련이 있지. 우리는 시간이 항상 한 방향으로 흐른다고 느끼잖아? 그 이유는 엔트로피가 낮은 상태에서 증가하는 방향으로 가기 때문이야.",
+            "turn_id": "BK22004594-3",
+            "utterance_id": "BK22004594.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 세상은 항상 엔트로피가 증가하는 식으로 간다는 거네?",
+            "turn_id": "BK22004594-4",
+            "utterance_id": "BK22004594.7"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "이게 바로 열역학 제 2법칙이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "액체는 고체보다, 기체는 액체보다 엔트로피가 높다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56722",
+            "search_query": "엔트로피 열역학 2법칙",
+            "terminate": false,
+            "text": "맞아. 이걸 열역학 제2 법칙으로 말하자면 액체는 고체보다 엔트로피가 높고 기체는 액체보다 엔트로피가 높은 거야.",
+            "turn_id": "BK22004594-4",
+            "utterance_id": "BK22004594.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 테넷에서 나오는 인버전은 어떻게 가능한 거야?",
+            "turn_id": "BK22004594-5",
+            "utterance_id": "BK22004594.9"
+        },
+        {
+            "reference_date": "2020-09-05",
+            "reference_text": [
+                {
+                    "value": "테넷은 이런 엔트로피가 핵분열에서 발생한 역복사를 통해 줄어듦으로써 시간 또한 인버전(inversion·역전)이 가능한 것으로 나온다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/421/0004854244?sid=105",
+            "search_query": "테넷 역복사",
+            "terminate": false,
+            "text": "테넷에서 인버전이 가능했던 이유는 핵분열에서 발생한 역 복사를 통해 엔트로피가 줄어듦으로써 시간을 인버전 할 수 있게 된 거야.",
+            "turn_id": "BK22004594-5",
+            "utterance_id": "BK22004594.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 혹시 영화의 앞부분에 나온 장면 중 맥스웰의 도깨비는 어떤 것인지 설명해 줄래?",
+            "turn_id": "BK22004594-6",
+            "utterance_id": "BK22004594.11"
+        },
+        {
+            "reference_date": "2020-09-05",
+            "reference_text": [
+                {
+                    "value": "맥스웰의 도깨비란 물리학자 제임스 맥스웰이 고안해낸 것으로 엔트로피의 감소가 가능한 조건을 가정해본 개념이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/421/0004854244?sid=105",
+            "search_query": "맥스웰의 도깨비",
+            "terminate": false,
+            "text": "맥스웰의 도깨비는 물리학자인 제임스 맥스웰이 고안해 낸 개념인데 엔트로피의 감소가 가능한 조건을 가정해본 거야.",
+            "turn_id": "BK22004594-6",
+            "utterance_id": "BK22004594.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맥스웰의 도깨비로 인해 엔트로피의 감소가 어떻게 이루어질 수 있는 거야?",
+            "turn_id": "BK22004594-7",
+            "utterance_id": "BK22004594.13"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "이 도깨비는 속도가 엄청 빠른 분자와 느린 분자를 구분하도록 칸막이를 설치할 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56722",
+            "search_query": "맥스웰의 도깨비 칸막이",
+            "terminate": false,
+            "text": "맥스웰의 도깨비에서 말하는 도깨비는 속도가 엄청 빠른 분자와 느린 분자를 구분하도록 칸막이를 설치할 수 있어.",
+            "turn_id": "BK22004594-7",
+            "utterance_id": "BK22004594.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설치한 칸막이가 어떤 역할을 하는 거지?",
+            "turn_id": "BK22004594-8",
+            "utterance_id": "BK22004594.15"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "뜨거운 물과 미지근한(혹은 차가운) 물을 섞으면 열평형상태에 도달한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 도깨비가 칸막이를 설치해 속도 차이가 나는 분자들을 분리해놓으면 엔트로피는 증가하지 않는다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56722",
+            "search_query": "열평형 상태",
+            "terminate": false,
+            "text": "칸막이의 역할은 속도 차이가 나는 분자를 분리해 놓은 역할이라 했잖아? 여기서 뜨거운 물과 미지근한 물 혹은 차가운 물을 섞으면 열평형상태에 도달하게 되는데 도깨비가 설치한 칸막이로 인해 더 이상 엔트로피는 증가하지 않게 되는 거야.",
+            "turn_id": "BK22004594-8",
+            "utterance_id": "BK22004594.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하. 그렇다면 증가하는 엔트로피의 법칙을 도깨비가 이를 막는다는 가정을 들어서 반증한 거네?",
+            "turn_id": "BK22004594-9",
+            "utterance_id": "BK22004594.17"
+        },
+        {
+            "reference_date": "2020-09-05",
+            "reference_text": [
+                {
+                    "value": "맥스웰은 분자의 운동을 완전히 꿰뚫고 있는 도깨비 같은 존재가 있다면 엔트로피의 감소가 가능할 것이라고 정리했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4045156",
+            "search_query": "맥스웰의 도깨비 엔트로피 감소",
+            "terminate": false,
+            "text": "맞아. 분자의 운동을 알고 있는 도깨비가 있다면 엔트로피의 감소가 가능할 것이라는 개념이지.",
+            "turn_id": "BK22004594-9",
+            "utterance_id": "BK22004594.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 테넷을 통해 보는 물리학은 정말 신기하고 재밌다.",
+            "turn_id": "BK22004594-10",
+            "utterance_id": "BK22004594.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 오늘 대화 즐거웠어, 다음에 또 보자!",
+            "turn_id": "BK22004594-10",
+            "utterance_id": "BK22004594.20"
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008957",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008957",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이제 슬슬 취업을 대비해서 영어 말하기 자격증을 따야 할 것 같아. 넌 알고 있는 영어 회화 자격증 있어?",
+            "turn_id": "BK22008957-1",
+            "utterance_id": "BK22008957.1"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "TOEIC Speaking(Test of English for International Communication Speaking)은 에듀케이셔널 테스팅 서비스가 시행하는 영어 시험으로, 영어를 모국어로 하지 않는 수험자의 실용 영어 말하기 능력을 평가한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC_Speaking",
+            "search_query": "토익스피킹",
+            "terminate": false,
+            "text": "난 토익 스피킹 알아. 영어가 모국어가 아닌 수험자를 대상으로 실용 영어 회화 능력을 평가하는 시험인데, 에듀케이셔널 테스팅 서비스에서 시행해.",
+            "turn_id": "BK22008957-1",
+            "utterance_id": "BK22008957.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익 스피킹이라면 나도 들어보긴 했어. 토익 스피킹도 토익처럼 점수가 나오는 거야? 아니면 따로 점수 체계가 있나?",
+            "turn_id": "BK22008957-2",
+            "utterance_id": "BK22008957.3"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "먼저, 토익스피킹 레벨 표시가 ACTFL 등급으로 변경된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 따라 토익스피킹 성적은 응시자의 수준에 맞게 가장 높은 등급인 Advanced High부터 가장 낮은 등급인 Novice Low까지 표시될 예정이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/06/500743/",
+            "search_query": "토익스피킹 등급 체계",
+            "terminate": false,
+            "text": "토익스피킹은 ACTFL 등급 체계를 사용해서 레벨을 표시해. Advanced High가 가장 높은 등급이고, Novice Low가 가장 낮아.",
+            "turn_id": "BK22008957-2",
+            "utterance_id": "BK22008957.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "ACTFL 등급이라니 나는 처음 들어 봐. 토익 스피킹에서만 쓰는 등급 체계인 거야?",
+            "turn_id": "BK22008957-3",
+            "utterance_id": "BK22008957.5"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "TOEIC Speaking 개발 기관인 미국 ETS가 국내 성적 활용 기관들의 의견을 수렴해 토익스피킹 성적 체계를 기존 ‘Level’에서 ‘ACTFL’ 체계로 개편했다고 밝혔다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토익스피킹 시험에 도입된 ACTFL 등급은 OPIc 등 타 영어 말하기 시험에서도 활용 중이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 이번 토익스피킹 성적 체계 개편을 통해 기업 및 기관들이 영어 말하기 시험별 동일한 성적 제출 기준을 설정할 수 있어, 공채 및 수시채용, 인사고과 등에 편의성을 높일 수 있게 되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=106280",
+            "search_query": "ACTFL 등급이란",
+            "terminate": false,
+            "text": "그건 아니고, 다른 영어 회화 시험인 OPIc에서도 이미 쓰이고 있어. 그래서 이전엔 토익 스피킹 점수 체계가 Level 방식이어서 OPIc과 방식이 달랐지만, 이번에 ACTFL 등급으로 개편하면서 기업이나 기관에서 채용 및 인사고과에 영어 회화 성적 기준을 동일하게 설정할 수 있게 됐어.",
+            "turn_id": "BK22008957-3",
+            "utterance_id": "BK22008957.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 사용하는 기준이 같으면 더 편하겠다. 그러면 토익 스피킹의 점수는 무엇을 기준으로 평가하는 거야?",
+            "turn_id": "BK22008957-4",
+            "utterance_id": "BK22008957.7"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "중요 평가 기준으로는 발음, 억양, 강세가 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 문법의 일관성도 중요하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 수험생들은 문제 유형에 따른 '템플릿'(미리 준비된 답변 양식)을 외우기도 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "답변을 미리 공부해 두면 시험장에서 유연하게 대응할 수 있기 때문이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "토익스피킹 평가 기준",
+            "terminate": false,
+            "text": "발음과 억양, 강세, 문법의 일관성을 주요한 평가 기준으로 사용해. 그래서 몇몇 수험생들은 문제 유형별로 템플릿이라고 부르는 미리 준비한 답변 형식들을 외우기도 해. 미리 어떤 방식으로 답할지 대비해두면 시험장에서 처세하기 유리하니까.",
+            "turn_id": "BK22008957-4",
+            "utterance_id": "BK22008957.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 대충 답변의 틀이 있나 보네. 시험을 어떤 식으로 대비해야 해?",
+            "turn_id": "BK22008957-5",
+            "utterance_id": "BK22008957.9"
+        },
+        {
+            "reference_date": "2014-10-03",
+            "reference_text": [
+                {
+                    "value": "토익스피킹 시험이라고 해서 말하기 연습만 하면 될 것으로 생각한다면 큰 오산이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "왜냐하면 모든 파트의 Directions 및 시간 안내가 음성으로 제공될 뿐만 아니라, 파트 3부터는 문제를 성우가 읽어주기 때문이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러므로, 탄탄한 듣기 실력이 없다면, 문제를 파악하지 못해 아무런 답변도 못하고 시간만 흘려보낼 위험이 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 문제가 화면에 표시되지 않으므로 듣기에만 의존하여야 질문을 파악할 수 있는 파트4에 대비해야 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "의문문의 맨 앞에 위치한 의문사와 연음을 알아듣는 연습을 하면 된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20140929601006",
+            "search_query": "토익 스피킹 연습",
+            "terminate": false,
+            "text": "사실 토익 스피킹이 영어 회화 시험이다 보니 사람들이 말하기 연습만 잘하면 될 것이라고 흔히 착각해. 그런데 토익 스피킹 전 파트의 Directions와 시간 안내는 음성으로 주어지고, 파트 3부터는 성우가 문제를 직접 읽어주기 때문에 듣기 실력도 중요해. 듣기 실력이 부족하면 문제조차 파악하지 못해서 답변할 수 없게 되거든. 문제가 화면에 주어지지 않고 듣기로만 주어지는 파트 4에 특히 대비해서, 의문문 초반에 위치한 의문사와 연음부터 알아듣는 연습을 하는 것이 좋아.",
+            "turn_id": "BK22008957-5",
+            "utterance_id": "BK22008957.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 만만치 않아 보이는걸. 시험 시간이나 가격 같은 정보도 궁금해.",
+            "turn_id": "BK22008957-6",
+            "utterance_id": "BK22008957.11"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "부가세 포함 응시료는 77,000원이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험은 매주 주말 진행되고 순수 응시 시간은 총 20분에 그친다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "토익 스피킹 가격",
+            "terminate": false,
+            "text": "순수 시험 진행 시간은 총 20분밖에 되지 않아. 그리고 매주 주말 시험이 있고, 응시료는 부가세를 포함해서 77,000원이야.",
+            "turn_id": "BK22008957-6",
+            "utterance_id": "BK22008957.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "20분밖에 시험을 안 치는데 77,000원이나 한다고? 그런 가격을 감내해야 할 만큼 자격을 따면 알아주는 공신력 있는 시험이니?",
+            "turn_id": "BK22008957-7",
+            "utterance_id": "BK22008957.13"
+        },
+        {
+            "reference_date": "2019-11-18",
+            "reference_text": [
+                {
+                    "value": "한국을 비롯한 전 세계 86개국에서 시행되는 글로벌 시험이기 때문에 국내를 비롯한 해외 취업까지 생각한다면 토익스피킹 성적을 확보하는 것이 유리하다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/job-joy/article/201911184753b",
+            "search_query": "토익스피킹 공신력",
+            "terminate": false,
+            "text": "그런 편이라고 할 수 있어. 우리나라에서만 실시되는 시험이 아니라, 전 세계 86개국에서 시행되거든. 그래서 아무래도 글로벌 시험이다 보니, 해외 취업까지 고려하면 토익 스피킹 성적을 취득하는 것이 좋지.",
+            "turn_id": "BK22008957-7",
+            "utterance_id": "BK22008957.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취업에 도움이 된다는 건 알겠어. 그런데 혹시 취업 후에도 쓸모가 있어?",
+            "turn_id": "BK22008957-8",
+            "utterance_id": "BK22008957.15"
+        },
+        {
+            "reference_date": "2019-11-18",
+            "reference_text": [
+                {
+                    "value": "토익스피킹은 ‘취업 전’은 물론 ‘취업 후’까지 폭넓게 활용되는 실용성 높은 시험이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기업과 기관에서는 토익스피킹 성적을 인사 고과, 자기 계발, 해외 파견자 선발 등에 활용하고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2018년 토익스피킹 응시자 중 약 32%가 회사원인 것으로 나타났다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/job-joy/article/201911184753b",
+            "search_query": "토익스피킹 활용",
+            "terminate": false,
+            "text": "그럼, 토익스피킹은 취업 전후에 모두 사용되어서 실용성이 높아. 2018년에는 토익스피킹 응시자의 32%가 회사원인 것으로 조사되기도 했어. 기업과 기관에서 토익스피킹 성적을 인사 고과나 자기계발, 해외 파견자 선발에 참고하기 때문이야.",
+            "turn_id": "BK22008957-8",
+            "utterance_id": "BK22008957.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자격을 취득하더라도 취직 후에는 쓸모가 없을까 봐 조금 걱정이었는데 다행이네.",
+            "turn_id": "BK22008957-9",
+            "utterance_id": "BK22008957.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 자격증은 따면 다 쓸모가 있다고 생각해.",
+            "turn_id": "BK22008957-9",
+            "utterance_id": "BK22008957.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 일단 따두면 만료된 후 다시 공부할 때도 수월하긴 하니까. 나도 토익스피킹을 한 번 준비해 봐야겠네.",
+            "turn_id": "BK22008957-10",
+            "utterance_id": "BK22008957.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 혹시 더 궁금한 게 있으면 물어봐. 한 번에 원하는 점수가 나오길 기원할게.",
+            "turn_id": "BK22008957-10",
+            "utterance_id": "BK22008957.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 잘 설명해 줘서 고마워.",
+            "turn_id": "BK22008957-11",
+            "utterance_id": "BK22008957.21"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005211",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005211",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 로빈 훗과 관련된 교양 강의를 들었어. 그런데 작품 마지막에 외국에서 돌아오는 왕은 실제로 영국 역사에 존재했던 왕이었어?",
+            "turn_id": "BK22005211-1",
+            "utterance_id": "BK22005211.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 리처드 1세를 말하는 거구나? 실제로 있었던 왕이었지.",
+            "turn_id": "BK22005211-1",
+            "utterance_id": "BK22005211.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 실제 역사에서는 어떤 평가를 받는 왕이야?",
+            "turn_id": "BK22005211-2",
+            "utterance_id": "BK22005211.3"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "그러나 재위 시 본국인 잉글랜드에 체재했던 기간이 불과 6개월이었으므로 그의 통치력에 대해서는 뚜렷이 알려진 바가 없다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치세의 대부분을 외국에서 보내고 통치자로서 무능하였으나, 용감·관용 등을 겸비한 중세의 전형적 기사였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%B2%98%EB%93%9C_1%EC%84%B8",
+            "search_query": "리처드 1세 재위 통치력",
+            "terminate": false,
+            "text": "사실 재위 기간 동안 잉글랜드에는 고작 6개월 밖에 있지 않아서 내정에 대해서는 크게 알려진 바가 없어. 재위 기간 대부분을 외국에 있었기에 통치자로는 별로였지만 용감한 중세의 전형적인 기사였지.",
+            "turn_id": "BK22005211-2",
+            "utterance_id": "BK22005211.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왕인데 고작 6개월밖에 있지 않았다고? 대체 어디서 뭘 했길래?",
+            "turn_id": "BK22005211-3",
+            "utterance_id": "BK22005211.5"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "리처드는 9월 30일 재위하자마자 십자군 원정에 참가하기로 결정하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇게 자금이 모이자, 그는 병력을 모아 함선을 타고 잉글랜드에서 팔레스타인으로 원정을 떠났다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%B2%98%EB%93%9C_1%EC%84%B8",
+            "search_query": "리처드 1세 십자군 원정 팔레스타인",
+            "terminate": false,
+            "text": "그는 9월 30일에 즉위하자마자 십자군 원정에 참전하기로 결정했어. 그래서 군대와 함께 함선을 타고 팔레스타인으로 원정을 가버렸거든.",
+            "turn_id": "BK22005211-3",
+            "utterance_id": "BK22005211.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그래서 잉글랜드에 없었던 거구나. 즉위하자마자 전쟁하러 갈 정도면 굉장히 용맹한 왕이었겠네?",
+            "turn_id": "BK22005211-4",
+            "utterance_id": "BK22005211.7"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "생애의 대부분을 전쟁터에서 보냈으며, 그 용맹함으로 인해 사자심왕(프랑스어: Cœur de Lion, the Lionheart)이라는 별명을 얻었으며, 이후 중세 기사 이야기의 전형적인 영웅으로 동경의 대상이 되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%B2%98%EB%93%9C_1%EC%84%B8",
+            "search_query": "리처드 1세 사자심왕 영웅",
+            "terminate": false,
+            "text": "맞아. 인생의 대부분을 전장에서 보냈고 그 용맹 덕분에 사자심왕이라는 별칭을 얻었지. 덕분에 중세 로맨스 문학의 전형적인 영웅으로 추앙을 받게 돼.",
+            "turn_id": "BK22005211-4",
+            "utterance_id": "BK22005211.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 알겠다! 로빈훗도 여기에 영향을 받은 거구나. 그러면 그가 팔레스타인에 가서 싸운 적은 누구였어?",
+            "turn_id": "BK22005211-5",
+            "utterance_id": "BK22005211.9"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "살라흐 앗딘 유수프 이븐 아이유브(아랍어: صلاح الدين الأيوبي, 쿠르드어: سه‌لاحه ‌دينێ ئه ‌يووبى, 페르시아어: صلاح الدین ایوبی, 튀르키예어: Selahaddin Eyyubi) 또는 살라딘 (1138년? ~ 1193년 3월 4일)은 12세기경 티크리트(현재 이라크 북부) 출신의 쿠르드족 무슬림 장군이자 전사였으며 이집트, 시리아의 술탄이었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1191년 9월 7일 살라딘의 군대는 사자왕 리처드 1세의 군대와 맞닥뜨렸다(아르수프 전투).",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%94%98",
+            "search_query": "살라딘 술탄 리처드 1세",
+            "terminate": false,
+            "text": "살라흐 앗딘 유수프 이븐 아이유브. 속칭 살라딘이라고 일컫는 티크리트 출신의 쿠르드족 무슬림 장군이자 이집트와 시리아의 술탄이었어. 1191년에 아르수프에서 리처드 1세의 군대와 조우하게 되지.",
+            "turn_id": "BK22005211-5",
+            "utterance_id": "BK22005211.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 살라딘이라면 많이 들어봤어. 게임에 자주 나오는 이름이잖아. 그럼 결국 둘이 싸운 결과는 어떻게 됐어?",
+            "turn_id": "BK22005211-6",
+            "utterance_id": "BK22005211.11"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "비록 살라딘은 전투에서 패배하였지만 리처드 역시 예루살렘을 정복하는데는 실패하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%94%98",
+            "search_query": "살라딘 패배 리처드 1세",
+            "terminate": false,
+            "text": "살라딘이 전투에서 지게 돼. 하지만 리처드왕 역시 예루살렘을 함락시키지는 못했지.",
+            "turn_id": "BK22005211-6",
+            "utterance_id": "BK22005211.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "리처드왕이 이겼지만, 승부는 나지 않았구나. 그럼 둘이 엄청 으르렁거렸겠다?",
+            "turn_id": "BK22005211-7",
+            "utterance_id": "BK22005211.13"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "리처드 1세가 부상을 당하자 살라딘은 공격을 중단하고 그의 개인 의사를 보내 상처를 돌보게 하였으며 리처드 1세가 전투 중에 말을 잃자 살라딘은 두 필의 말을 보냈으며, 눈으로 채운 신선한 과일을 보내기도 하였고, 호의에 감복한 리처드 1세는 자신의 누이와 살라딘의 동생을 결혼시키고 예루살렘은 결혼 선물로 하자는 제안을 하기도 했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%94%98",
+            "search_query": "리처드 1세 살라딘 결혼",
+            "terminate": false,
+            "text": "그렇지는 않았어. 리처드 1세가 다치자 살라딘은 공격을 중지하고 그를 위해 자신의 의사를 보냈지. 그뿐만 아니라 리처드 1세가 전투 중 말을 잃어버리자 말 2마리를 보낸 적도 있었고 눈으로 채운 싱싱한 과일을 선물하기도 했어. 이에 감동한 리처드1세는 자신의 누이와 살라딘의 남동생을 결혼시키고 예루살렘을 결혼 선물로 주자는 제의까지 했어.",
+            "turn_id": "BK22005211-7",
+            "utterance_id": "BK22005211.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서로 적이지만 인정하는 부분이 많았나 보네. 그럼 결국 전쟁은 어떤 결과로 끝나게 돼?",
+            "turn_id": "BK22005211-8",
+            "utterance_id": "BK22005211.15"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "결국 두 왕은 1192년 평화 협정을 맺었고, 예루살렘은 무슬림의 지배하에 두되 기독교도 순례자들이 자유로이 왕래할 수 있게 되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%94%98",
+            "search_query": "리처드 1세 살라딘 평화 협정",
+            "terminate": false,
+            "text": "결국 둘은 1192년에 평화 협정을 맺었고 이슬람 측이 예루살렘을 통치하되 가톨릭 순례자들이 자유롭게 오고 갈 수 있도록 했어.",
+            "turn_id": "BK22005211-8",
+            "utterance_id": "BK22005211.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나름대로 해피엔딩이네! 그럼 그 다음에 로빈훗이랑 의형제를 맺는 거야?",
+            "turn_id": "BK22005211-9",
+            "utterance_id": "BK22005211.17"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "《아이반호》에서는 리처드가 동생 존의 폭압적인 정치에서 나라를 구하고 의적 로빈훗과 의형제를 맺는 것으로 묘사되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 당시 영국에 산적이 늘어난 것은 리처드가 부과한 과중한 세금 때문이었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%B2%98%EB%93%9C_1%EC%84%B8",
+            "search_query": "리처드 1세 아이반호 로빈훗",
+            "terminate": false,
+            "text": "하하, 그건 아이반호에 나오는 이야기야. 거기서는 리처드 왕이 폭압적인 동생 존으로부터 나라를 구하려고 의적 로빈훗과 의형제가 되지. 그런데 진실은 당시에 영국에 산적이 증가했던 건 리처드가 세금을 많이 부과했기 때문이었지.",
+            "turn_id": "BK22005211-9",
+            "utterance_id": "BK22005211.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 역시 현실과 소설은 다르네. 아무튼 오늘도 재미있는 역사 지식을 알려줘서 너무 고마워, 학교 교양 수업 공부하는데 많이 도움이 된 것 같아. 다음에도 궁금한 게 있으면 질문해도 될까?",
+            "turn_id": "BK22005211-10",
+            "utterance_id": "BK22005211.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "새로운 질문은 언제나 환영이야! 다음에도 궁금한 게 있으면 언제든 편하게 물어 보면 돼.",
+            "turn_id": "BK22005211-10",
+            "utterance_id": "BK22005211.20"
+        }
+    ]
+}

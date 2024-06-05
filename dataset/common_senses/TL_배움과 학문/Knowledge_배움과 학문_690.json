@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004328",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004328",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매트리스를 사려고 알아보는데 예전에 어떤 매트리스 상품에서 라돈이 검출된 적 있다고 조심하라는 이야기를 들었어.",
+            "turn_id": "BK22004328-1",
+            "utterance_id": "BK22004328.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나. 라돈은 몸에 유해하기 때문에 조심해야 하는데 잘 알아봐야겠네.",
+            "turn_id": "BK22004328-1",
+            "utterance_id": "BK22004328.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래야겠어. 그런데 나는 라돈이 무엇인지 잘 몰라서 왜 조심하라고 하는지 이해가 안 가.",
+            "turn_id": "BK22004328-2",
+            "utterance_id": "BK22004328.3"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "‘라돈’(Radon, Rn)은 암석이나 토양, 건축자재 등에서 발생하는 자연방사능 물질을 뜻한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자연 속 우라늄과 토륨이 붕괴하는 과정에서 생성되며, 아무런 형체도, 냄새도, 맛도 나지 않는다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기 중에는 농도가 옅어 사람에게 큰 피해를 주지 않지만 특정한 곳에 농축되어 몸 속에 축적되면 우리의 건강에 악영향을 미친다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jeollailbo.com/news/articleView.html?idxno=662764",
+            "search_query": "라돈",
+            "terminate": false,
+            "text": "라돈은 암석, 토양, 건축자재에서 나오는 자연 방사능 물질이야. 자연 속 우라늄과 토륨이 붕괴하는 중에 생성되거든. 형체, 냄새, 맛을 보거나 느낄 수 없어. 라돈은 대기 중에 옅게 있기 때문에 큰 피해는 없지만 몸에 축적되면 나쁜 영향을 끼쳐. 그러니까 조심하라고 이야기 하는 거야.",
+            "turn_id": "BK22004328-2",
+            "utterance_id": "BK22004328.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연 방사능 물질이라는 이야기를 들으니 정말 위험하겠구나. 그렇지?",
+            "turn_id": "BK22004328-3",
+            "utterance_id": "BK22004328.5"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "라돈은 무색무취의 방사성 동위원소로 세계보건기구(WHO)에서 폐암의 주요 원인 가운데 하나로 지목한 1급 발암물질이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mtnews.net/news/view.php?idx=12805",
+            "search_query": "라돈 발암물질 지정",
+            "terminate": false,
+            "text": "아까 말한 것처럼 라돈은 무색무취에 방사성 동위원소기 때문에 세계보건기구는 라돈을 폐암의 주요 원인으로 판단해 1급 발암물질로 지정했어.",
+            "turn_id": "BK22004328-3",
+            "utterance_id": "BK22004328.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1급 발암물질이라니 매트리스 살 때 조심할 만도 하네. 그나저나 라듐과 라돈은 다른 거야? 이름이 비슷해서 헷갈려.",
+            "turn_id": "BK22004328-4",
+            "utterance_id": "BK22004328.7"
+        },
+        {
+            "reference_date": "2021-02-19",
+            "reference_text": [
+                {
+                    "value": "지구상의 암석이나 토양에 존재하는 우라늄과 토륨이 붕괴할 때 라듐이 만들어지는데 라돈은 바로 이 라듐이 붕괴할 때 생성된다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreatimes.com/article/1350768",
+            "search_query": "라돈 라듐",
+            "terminate": false,
+            "text": "아까 설명한 내용에서 더 자세히 본다면, 지구의 암석이나 토양에 있는 우라늄과 토륨이 붕괴할 때 라듐이 생성돼. 이때 생성된 라듐이 붕괴할 때 생성되는 것이 라돈이야.",
+            "turn_id": "BK22004328-4",
+            "utterance_id": "BK22004328.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그런데 다른 원소가 붕괴되면서 나오는 라듐을 누가, 어떻게 발견했을까?",
+            "turn_id": "BK22004328-5",
+            "utterance_id": "BK22004328.9"
+        },
+        {
+            "reference_date": "2019-01-08",
+            "reference_text": [
+                {
+                    "value": "소르본 대학에서 물리학과 수학 석사 학위를 취득한 마리는 1895년 프랑스 물리학자 베크렐이 발견한 우라늄 광석이 스스로 빛을 내는 현상을 접하고 흥미를 느꼈다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마리는 훗날 '방사능'이라고 명명한 이 독특한 현상을 박사 학위 연구 주제로 삼고 남편 피에르와 공동 연구를 진행했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1898년 퀴리 부부는 우라늄보다 무려 100만 배나 강한 방사성을 지닌 원소를 발견하고 '라듐'이라고 이름 붙였다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.themusical.co.kr/Magazine/Detail?num=3991",
+            "search_query": "마리퀴리 업적",
+            "terminate": false,
+            "text": "라듐을 발견한 사람들은 퀴리 부부야. 소르본 대학에서 물리학과 수학 석사 학위를 얻은 마리 퀴리는 1895년에 프랑스 물리학자인 베크렐이 찾아낸 우라늄 광석이 스스로 발광하는 걸 보고 흥미를 느꼈어. 그 후에 마리 퀴리는 이 현상을 방사능이라고 명명했는데, 이것을 박사학위 주제로 삼아 남편과 함께 공동으로 연구했어. 그리고 1898년 퀴리 부부가 우라늄보다 100만 배나 더 강한 방사성을 지닌 원소를 발견하게 됐는데 그것이 바로 라듐이야.",
+            "turn_id": "BK22004328-5",
+            "utterance_id": "BK22004328.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 방사능을 연구해서 라듐을 발견했다니 정말 대단해. 라듐이 방사능 물질이지만 그것을 발견해낸 업적은 인정받았겠지?",
+            "turn_id": "BK22004328-6",
+            "utterance_id": "BK22004328.11"
+        },
+        {
+            "reference_date": "2014-11-02",
+            "reference_text": [
+                {
+                    "value": "라듐을 발견한 성과로 1903년 퀴리 부부는 베크렐과 함께 노벨 물리학상을 수상한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1911년에는 라듐과 폴로늄 발견으로 노벨 화학상을 수상한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20141031000160",
+            "search_query": "마리퀴리 노벨상",
+            "terminate": false,
+            "text": "물론이지. 라듐을 발견해낸 성과로 1903년에 퀴리 부부와 베크렐은 노벨 물리학상을 수상했어. 그리고 1911년에는 라듐과 폴로늄 발견 업적을 인정받아 노벨 화학상을 수상하게 되었어.",
+            "turn_id": "BK22004328-6",
+            "utterance_id": "BK22004328.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그나저나 옛날엔 방사능이란게 위험하단 걸 알고 있었을까?",
+            "turn_id": "BK22004328-7",
+            "utterance_id": "BK22004328.13"
+        },
+        {
+            "reference_date": "2018-12-27",
+            "reference_text": [
+                {
+                    "value": "라듐은 1932년 판매가 금지될 때까지 미국과 유럽에서 인기 있는 건강식품이었다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아무런 규제가 없어 방사능 캔디, 방사능 크림으로 팔려나갔다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2018122317555364970",
+            "search_query": "라듐 건강식품 오해",
+            "terminate": false,
+            "text": "그 시절에는 알지 못했어. 라듐은 1932년에 판매 금지가 되었는데 그전까지는 미국과 유럽에서 건강식품으로 많이 팔렸어. 규제가 따로 없었기 때문에 방사능 캔디, 방사능 크림으로 판매가 된 적이 있어.",
+            "turn_id": "BK22004328-7",
+            "utterance_id": "BK22004328.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 방사능을 캔디와 크림으로 소비했다니 지금 생각하면 정말 아찔한 일이네. 그럼 언제부터 위험하단 걸 알게 된 거야?",
+            "turn_id": "BK22004328-8",
+            "utterance_id": "BK22004328.15"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "라듐이 인체에 피해를 미친다는 것이 본격적으로 사회에 알려진 것은 시계 공장에서 일어난 ‘라듐 소녀들’ 사건에서 시작됐다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "라듐을 원료로 한 라듐 시계 공장에서 일하던 소녀들이 각종 종양 등으로 건강상 문제를 호소하면서다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsquest.co.kr/news/articleView.html?idxno=93524",
+            "search_query": "라듐 사고",
+            "terminate": false,
+            "text": "라듐이 몸에 피해를 준다는 게 알려진 것은 라듐 소녀들이라고 부르는, 시계 공장에서 일어난 사건에서 시작되었어. 라듐을 원료로 한 시계 공장에서 일하던 소녀들이 종양 같은 각종 질병을 앓기 시작하면서 라듐이 신체에 영향을 끼치는 위험한 물질이란 것을 알게 되었어.",
+            "turn_id": "BK22004328-8",
+            "utterance_id": "BK22004328.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "라듐에 그대로 노출되니 질병을 얻는 건 당연한 거네. 그런데 라듐이 붕괴하면서 나온다는 라돈은 어떻게 예방하거나 관리할 수 있는 거야? 내가 구매한 매트리스나 가구에서도 나올까 봐 걱정이 돼.",
+            "turn_id": "BK22004328-9",
+            "utterance_id": "BK22004328.17"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "실내 라돈 농도를 낮추기 위해서는 크게 두 가지 방법을 들 수 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 ‘주기적인 실내 환기’와 라돈 방출원인 ‘건축 재료를 관리’하는 것이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "충분한 외기를 실내로 유입하는 것만으로도 실내 라돈 농도는 감소한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220509000433",
+            "search_query": "라돈 예방",
+            "terminate": false,
+            "text": "실내의 라돈 농도를 낮추고 싶다면 두 가지 방법이 있어. 주기적인 환기와 라돈을 방출하는 건축 재료를 관리하는 것이야. 그런데 우리가 건축 재료를 관리하기 힘드니 환기를 꾸준하게 해주는 게 좋겠지. 실내 환기를 충분히 해주는 것만으로도 실내의 라돈 농도는 감소하거든.",
+            "turn_id": "BK22004328-9",
+            "utterance_id": "BK22004328.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 네가 알려준 덕분에 라돈과 라듐에 대해서도 알게 되었고 이것들을 어떻게 관리하는지도 배웠어.",
+            "turn_id": "BK22004328-10",
+            "utterance_id": "BK22004328.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나를 통해 유용한 정보를 얻을 수 있었다니 정말 기뻐.",
+            "turn_id": "BK22004328-10",
+            "utterance_id": "BK22004328.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에도 궁금한 것이 생기면 너에게 연락할게. 그럼 다음에 또 이야기하자.",
+            "turn_id": "BK22004328-11",
+            "utterance_id": "BK22004328.21"
+        }
+    ]
+}

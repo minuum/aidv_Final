@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012053",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012053",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 오늘 참으로 달이 둥글고 아름답네요! 어쩜 저렇게 달이 둥글까요?",
+            "turn_id": "BK22012053-1",
+            "utterance_id": "BK22012053.1"
+        },
+        {
+            "reference_date": "44814.0",
+            "reference_text": [
+                {
+                    "value": "10일 충주고구려천문과학원에 따르면 이날 망이 되는 오후 6시59분 전후로 100년 만에 가장 둥근 보름달이 관측된다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220910_0002009054&cID=10899&pID=10800",
+            "search_query": "100년 둥근 달",
+            "terminate": false,
+            "text": "달을 보는 눈썰미가 아주 정확하네요. 2022년 9월 10일 오후 6시 59분 전후로 관측되는 달이 100년만의 가장 둥근 달이죠.",
+            "turn_id": "BK22012053-1",
+            "utterance_id": "BK22012053.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 뉴스를 보니 미국에서 달에 사람을 보내는 아르테미스 프로젝트도 추진하던데, 왜 자꾸 연기가 되는 거죠?",
+            "turn_id": "BK22012053-2",
+            "utterance_id": "BK22012053.3"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "하지만 ‘우주발사시스템(SLS)’ 로켓 엔진 연료를 채우는 과정에서 액체 수소가 누출되는 것을 감지해 이날 발사를 취소했다.",
+                    "value_time": "44816.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지난달 29일 발사 시도 과정에서 연료 누출, 로켓 엔진 센서 결함 등에 따라 발사를 연기한 데 이어 두 번째다.",
+                    "value_time": "44816.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01541606632456840&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "아르테미스 연기",
+            "terminate": false,
+            "text": "우주발사시스템의 로켓 엔진 연료를 채우는 과정에서, 액체 수소가 누출되고 있다는 결함을 발견했어요. 지난달 29일에 발사를 시도할 때는 연료가 누출되고, 로켓 엔진 센서까지 결함이 발견되었으니 두 번째로 연기를 한 것이죠.",
+            "turn_id": "BK22012053-2",
+            "utterance_id": "BK22012053.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 달로 사람을 보내는 것이 쉽지 않네요. 아르테미스 프로젝트와 아폴로 프로젝트의 가장 큰 차이점은 무엇이죠?",
+            "turn_id": "BK22012053-3",
+            "utterance_id": "BK22012053.5"
+        },
+        {
+            "reference_date": "44353.0",
+            "reference_text": [
+                {
+                    "value": "1970년대 아폴로 프로젝트는 미국 정부 주도 프로젝트였던 반면, 아르테미스 프로그램은 미국 주도의 국제 협력 프로그램이자 민간 참여 프로젝트다.",
+                    "value_time": "44816.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일론 머스크의 '스페이스X', 제프 베이조스의 '블루오리진' 등 우주기업뿐만 아니라 자동차 기업 GM 등 타 분야의 기업체들도 현재 아르테미스 프로그램에 참여하고 있다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2021/06/545542/",
+            "search_query": "아르테미스 아폴로 차이",
+            "terminate": false,
+            "text": "1970년대에 미국 정부가 추진한 아폴로 프로젝트와는 달리, 아르테미스 프로젝트는 미국의 주도하에 여러 국가와 민간 기업이 참여하는 프로젝트죠. 일론 머스크의 스페이스X, 제프 베이조스의 블루오리진 등의 우주 기업들도 참여하고 자동차 기업인 GM 등의 다른 분야의 기업체들도 참여하는 대형 프로젝트랍니다.",
+            "turn_id": "BK22012053-3",
+            "utterance_id": "BK22012053.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 아폴로 프로젝트보다 규모가 훨씬 커졌군요! 참여하는 국가 중에 한국도 있나요?",
+            "turn_id": "BK22012053-4",
+            "utterance_id": "BK22012053.7"
+        },
+        {
+            "reference_date": "44802.0",
+            "reference_text": [
+                {
+                    "value": "세계 21개국이 약정에 서명했으며, 한국은 지난해 5월 10번째로 아르테미스 참여에 서명했다.",
+                    "value_time": "44816.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 지난 5일 발사된 한국의 최초 달 궤도 탐사선 '다누리'도 아르테미스 프로젝트에 참여한다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4786302",
+            "search_query": "아르테미스 한국 참여",
+            "terminate": false,
+            "text": "아프테미스 프로젝트에 참여하는 세계 21개국 중에 한국은 10번째로 서명했어요. 8월 5일에 발사된 달 궤도 탐사선 다누리의 경우 아르테미스 프로젝트에 참여하는 한국 최초의 달 궤도 탐사선이죠.",
+            "turn_id": "BK22012053-4",
+            "utterance_id": "BK22012053.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다누리 탐사선은 어떤 역할을 하나요?",
+            "turn_id": "BK22012053-5",
+            "utterance_id": "BK22012053.9"
+        },
+        {
+            "reference_date": "44815.0",
+            "reference_text": [
+                {
+                    "value": "12월부터 달 남극 지방의 태양 빛이 닿지 않는 ‘영구음영’ 지역 13곳을 중심으로 사진을 찍어 보낼 예정입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/202209081648i",
+            "search_query": "아르테미스 다누리",
+            "terminate": false,
+            "text": "다누리 탐사선은 12월부터 달의 남극에 있어서 태양 빛이 닿지 않는 영구 음영 지역 13곳의 사진을 찍어 전송할 예정입니다.",
+            "turn_id": "BK22012053-5",
+            "utterance_id": "BK22012053.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 자세히 알수록 대단하네요. 그런데 아르테미스 프로젝트는 왜 추진하는 것이죠?",
+            "turn_id": "BK22012053-6",
+            "utterance_id": "BK22012053.11"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "아르테미스 계획의 최종 목표는 상주 기지를 통해 달에서 광물 자원을 캐는 것이다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달에는 핵융합 발전의 연료인 ‘헬륨3’를 비롯해 마그네슘과 실리콘, 각종 희토류 등이 풍부하게 매장돼 있다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 중력이 지구의 6분의 1에 불과해 화성 등 먼 우주로 가는 로켓을 쏘는 데 유리하다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/science/aerospace/article/202209040125001",
+            "search_query": "아르테미스 헬륨3",
+            "terminate": false,
+            "text": "아르테미스 프로젝트의 가장 큰 목표는 상주 기지를 달에 건설하여 광물 자원을 캐는 것이죠. 달에는 헬륨3이라고 하는 핵융합발전의 연료도 있고, 마그네슘과 실리콘 그리고 각종 희토류가 풍부하게 매장되어 있어요. 또한 중력이 지구의 6분의 1로 주변의 화성 등 우주로 가는 로켓을 쏠 때도 유리해요.",
+            "turn_id": "BK22012053-6",
+            "utterance_id": "BK22012053.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성공한다면 인류에게도 큰 발전이 되겠는데요. 음, 헬륨3은 처음 듣는데 어떤 연료인가요?",
+            "turn_id": "BK22012053-7",
+            "utterance_id": "BK22012053.13"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "실제 헬륨-3는 1g을 핵융합하면 석탄 40톤어치 에너지를 내면서도 방사성물질을 내뿜지 않는 꿈의 연료다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 100만톤만 있으면 인류 전체의 1년치 에너지를 충당할 수 있는 것으로 알려졌다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220805_0001969539&cID=13005&pID=13100",
+            "search_query": "아르테미스 헬륨3 가치",
+            "terminate": false,
+            "text": "헬륨3은 1그램을 핵융합할 경우 그 에너지가 석탄 40톤에 맞먹어요. 그렇게 큰 에너지를 내면서도 방사성 물질을 내뿜지 않는 청정 연료죠. 만약 헬륨3이 100만 톤 있으면 인류 전체가 1년이나 쓸 수 있는 양이에요.",
+            "turn_id": "BK22012053-7",
+            "utterance_id": "BK22012053.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 대단한 연료가 있다니 꿈만 같은데, 한국 또한 참여하는 것이 자랑스러워요. 한국은 아르테미스 프로젝트 이외에 어떤 다국적 우주 프로젝트에 참여하나요?",
+            "turn_id": "BK22012053-8",
+            "utterance_id": "BK22012053.15"
+        },
+        {
+            "reference_date": "44790.0",
+            "reference_text": [
+                {
+                    "value": "오는 2025년 4월에 발사돼 전천(全天) 즉 3차원 우주 지도를 작성할 수 있게 해줄 것으로 기대되는 미국 우주망원경 '스피어엑스'(SPHEREx)의 성능을 시험하는 장비를 한국천문연구원이 개발해 현지에 설치를 완료했다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천문연은 스피어엑스 프로젝트에 참여한 12곳 가운데 유일하게 미국 기관이 아니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220816_0001980290&cID=13003&pID=13100",
+            "search_query": "스피어엑스",
+            "terminate": false,
+            "text": "2025년 4월에 발사할 예정인 미국의 우주망원경 스피어엑스의 성능을 시험하는 장비를 한국천문연구원에서 개발했고, 현지에 설치도 완료했어요. 이 스피어엑스 우주망원경은 3차원 우주지도를 작성할 수 있도록 도움을 줄 예정이죠. 한국천문연구원은 스피어엑스 프로젝트에 참여한 기관 12곳 중에서 유일하게 미국의 기관이 아니라는 점에서 의미가 커요.",
+            "turn_id": "BK22012053-8",
+            "utterance_id": "BK22012053.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3차원 우주 지도를 만드는 프로젝트에 참여한다니 대단해요!",
+            "turn_id": "BK22012053-9",
+            "utterance_id": "BK22012053.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국의 우주 기술도 계속 발전해가요.",
+            "turn_id": "BK22012053-9",
+            "utterance_id": "BK22012053.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 이렇게 다양한 프로젝트에 참여하고 있는지 몰랐어요.",
+            "turn_id": "BK22012053-10",
+            "utterance_id": "BK22012053.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음번 아르테미스 발사 시도가 성공했으면 좋겠네요.",
+            "turn_id": "BK22012053-10",
+            "utterance_id": "BK22012053.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 아르테미스 발사를 유심히 지켜보아야겠어요.",
+            "turn_id": "BK22012053-11",
+            "utterance_id": "BK22012053.21"
+        }
+    ]
+}

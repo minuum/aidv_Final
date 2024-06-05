@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008669",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008669",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 기후 관련 뉴스를 보다가 꼭 모래로 뒤덮인 곳만 사막이 아니라는 얘기를 듣게 됐는데, 그럼 사막을 구분하는 기준은 뭘까?",
+            "turn_id": "BK22008669-1",
+            "utterance_id": "BK22008669.1"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "사막은 크게 표면 구성 물질에 따라 암석 사막, 모래사막, 자갈사막으로 나뉜다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 연평균 강수량이 250mm 이하인 지역을 사막이라 정의한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남극 대륙이나 그린란드는 얼음이 1년 내내 얼어 있으므로, 영구빙설사막이라고 하고, 1년 내내 얼음이 얼어 있지는 않는 툰드라 지방의 사막은 툰드라 사막이라고 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%A7%89",
+            "search_query": "사막",
+            "terminate": false,
+            "text": "우선, 표면이 어떤 물질로 구성되었는지에 따라서 사막은 모래 사막, 암석 사막, 자갈 사막으로 분류할 수 있어. 일반적으로 사막이라 함은 연간 평균 강수량이 250mm 이하인 지역을 말하는데, 그린란드나 남극 대륙 같은 경우는 1년 내내 얼음이 얼어 있기 때문에 영구빙설 사막이라고 불리고, 얼음이 1년 내내 얼어 있는 것은 아닌 툰드라 지역에 있는 사막은 툰드라 사막이라고 부르지.",
+            "turn_id": "BK22008669-1",
+            "utterance_id": "BK22008669.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강수량에 따라 구분하다 보니 얼핏 생각하기에는 사막 같지 않은 곳도 사막으로 분류할 수 있는 거구나. 암석 사막은 좀 생소한데, 암석 사막은 어떤 사막이야?",
+            "turn_id": "BK22008669-2",
+            "utterance_id": "BK22008669.3"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "암석 사막(巖石沙漠, 영어: rocky desert)은 건조지역의 사막 중에서 암석이 노출되어 있는 곳이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암질사막이라고도 하며, 북아프리카 지방(사하라 사막)에서는 하마다라고 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세계의 사막 가운데 모래사막보다 암석사막의 면적이 훨씬 넓다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암석사막은 미국 서부 사막의 98%, 사하라 사막의 89%, 아라비아 사막의 70%의 면적을 차지하고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%EC%84%9D_%EC%82%AC%EB%A7%89",
+            "search_query": "암석 사막",
+            "terminate": false,
+            "text": "암석 사막은 암질 사막이라고도 하고, 건조한 사막 중에서도 암석이 드러나 있는 지역이야. 북아프리카 지방에서는 하마다라고도 불리지. 지구상에 있는 사막 기준으로, 모래 사막보다 암석 사막이 차지하는 비중이 훨씬 큰데, 미국 서부 지역의 사막 중 98 퍼센트, 사하라 사막 면적 중 89 퍼센트, 아라비아 사막의 면적 중 70 퍼센트가 암석 사막이야.",
+            "turn_id": "BK22008669-2",
+            "utterance_id": "BK22008669.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모래로 뒤덮인 사막은 사막 중에서도 정말 일부에 불과한 거구나. 사막도 참 여러 곳이 있던데, 세상에서 가장 큰 사막은 어떤 사막일까?",
+            "turn_id": "BK22008669-3",
+            "utterance_id": "BK22008669.5"
+        },
+        {
+            "reference_date": "2013-06-04",
+            "reference_text": [
+                {
+                    "value": "대부분의 사람들은 세계 최대의 사막을 사하라 사막으로 알고 있을 것이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 한랭사막까지 포함시키면 정답은 남극이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남극의 면적은 사하라 사막의 2 배에 가까운 약 1,400㎢나 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/16OOPTKX3Z",
+            "search_query": "최대 사막 남극",
+            "terminate": false,
+            "text": "많은 사람들이 세계에서 가장 큰 사막은 사하라 사막이라고 알고 있는데, 한랭 사막까지 포함하면 최대 사막은 남극이야. 남극은 면적이 1,400 제곱킬로미터라서 사하라 사막 면적의 2배에 가깝거든.",
+            "turn_id": "BK22008669-3",
+            "utterance_id": "BK22008669.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남극이라는 대답이 나올 거라고는 상상도 못 했어. 그나저나 남극에 밀리기는 했지만, 사하라 사막이 역시 큰 사막이긴 하구나. 사하라 사막의 특징에는 어떤 것이 있을까?",
+            "turn_id": "BK22008669-4",
+            "utterance_id": "BK22008669.7"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "사하라 사막은 대부분 고도 180~300m의 평탄한 대지로 되어 있지만 사하라 사막 내부에는 해발고도 180m 이하의 저지대가 곳곳에 나타나는 반면, 아하가르(호가르) 산맥과 티베스티 산맥은 각각 3,000m와 3,400m 이상의 고도를 나타내고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "총 면적이 940만km2에 달하며 해마다 2만여km2씩 넓어지고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중생대와 신생대 동안 사하라는 늪과 맹그로브, 열대 우림 지대였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%95%98%EB%9D%BC_%EC%82%AC%EB%A7%89",
+            "search_query": "사하라 사막",
+            "terminate": false,
+            "text": "사하라 사막 대부분은 고도가 180~300m인 평지로 이루어져 있는데, 사막 안쪽에는 이곳저곳에 해발 고도 180m 이하인 저지대가 있기도 하고, 티베스티 산맥이나 아하가르 산맥의 경우 각각 고도가 3,400m, 3,000m 이상 되기도 해. 사하라 사막의 전체 면적은 940만 제곱킬로미터 가까이 되는데, 매년 약 2만 제곱킬로미터씩 넓어지고 있지. 참, 사하라 사막에 관해 재미있는 사실이 하나 있는데, 신생대와 중생대 기간 동안에는 사하라 사막이 맹그로브와 늪이 있는 열대 우림 지대였다는 거야.",
+            "turn_id": "BK22008669-4",
+            "utterance_id": "BK22008669.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사막이라고 해서 단조로운 게 아니라 다양한 지형이 나타나는가 보구나. 그럼 사하라 사막은 언제 생긴 걸까?",
+            "turn_id": "BK22008669-5",
+            "utterance_id": "BK22008669.9"
+        },
+        {
+            "reference_date": "2014-09-19",
+            "reference_text": [
+                {
+                    "value": "네이처 출판그룹(Nature Publishing Group)에서 발행하는 세계적 기초과학종합 주간매체 네이처(Nature)는 노르웨이 비야크네스 기후연구센터(Bjerknes Centre for Climate Research) 연구진이 “사하라 사막은 기존 인식보다 2배정도 빠른 700만년 전에 이미 형성됐다”는 연구결과를 발표했다고 17일(현지시간) 보도했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구진은 고생대부터 최근까지 아프리카 북부의 기후변화와 지형형성과정을 재배열하는 방대한 기상 시뮬레이션 분석을 진행한 결과, 사하라 사막이 300만년 전 형성됐다는 기존 학자들의 예상보다 2배 이상 오래된 700만년 전 이미 지구상에 존재했을 가능성이 매우 높다는 점을 발견했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시뮬레이션 과정을 살펴보면, 고생대 후기에서 신생대 전반기 사이 테티스 해(Tethys Sea, 지금 지중해에서 아프리카 북부. 카프카스산맥, 히말라야산맥, 동남아시아, 중국 남부 뻗어있던 해역)가 갑작스럽게 축소되면서 여름계절풍이 약화됐고 인근 아프리카 북부, 아라비아 반 도 역시 심각한 기후변화에 직면했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "테티스 해가 줄어들던 시기는 700만년~1100만년 전으로 이를 토대로 추측해보면, 적어도 이와 비슷한 시기에 이미 사하라 사막이 존재했을 가능성이 높다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20140919601003",
+            "search_query": "사하라 사막 형성 원인",
+            "terminate": false,
+            "text": "2014년 9월 17일, 세계적인 기초과학종합 주간매체 네이처에 실린 노르웨이 비야크네스 기후연구센터의 연구 결과 발표에 따르면, 사하라 사막은 기존에 예상했던 것보다 2배 가까이 빠른 700만 년 전에 만들어졌어. 연구진은 고생대 시기부터 최근에 이르기까지 아프리카 북쪽 지역에서 일어난 지형 형성 과정과 기후 변화를 재배열하는 기상 시뮬레이션 분석을 진행했는데, 그 결과, 300만 년 전에 생겼다는 기존 예상과 달리 사하라 사막이 700만 년 전부터 지구상에 존재했을 가능성이 아주 높다는 사실을 알아낸 거지. 고생대 후기부터 신생대 전반에 이르는 기간 동안 테티스 해가 갑자기 줄어들면서 여름 계절풍이 약해지고, 근처에 있는 아프리카 북쪽 지역과 아라비아 반도에 상당한 기후 변화가 일어났다는 게 시뮬레이션의 진행 과정이야. 여기서 테티스 해가 축소된 시기가 700만~1100만 년 전이라서, 비슷한 시기에 사하라 사막 또한 이미 있었을 가능성이 높다고 추측할 수 있는 거지.",
+            "turn_id": "BK22008669-5",
+            "utterance_id": "BK22008669.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근처 바다의 크기와 사막 형성이 연관되어 있다니 놀랍네. 그런데 사하라 사막은 그렇게 만들어진 이후로 지금까지 쭉 사막이었던 걸까?",
+            "turn_id": "BK22008669-6",
+            "utterance_id": "BK22008669.11"
+        },
+        {
+            "reference_date": "2020-09-29",
+            "reference_text": [
+                {
+                    "value": "마지막 빙하시대가 끝나가던 1만1000년~5000년 전 사이 사하라 사막의 모습은 지금과 매우 달랐다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북아프리카의 약 900만 평방킬로미터 지역이 녹색 지대로 변화했는데 그곳으로 하마, 영양, 코끼리 등 많은 동물들이 모여들고 있었다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "28일 ‘라이브 사이언스’에 따르면 과학자들은 그 원인에 대해 다양한 연구를 진행해왔다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 습도에 큰 영향을 미치는 지구 자전축의 기울기 변화가 사하라를 사막으로 변화시켰다고 설명하고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미 항공우주국(NASA)의 기후학자 가빈 슈미트(Gavin Schmidt) 박사는 이어 8000년 전부터 지구 자전축 기울기가 24.1 도에서 23.5도로 줄어들면서 여름(8월)이 되면 북반구 지역이 태양과 더 가까워졌고, 이로 인해 6000년 전부터 시작된 사막화 현상을 유발했다고 설명했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%82%AC%EB%A7%89%EC%9D%B4-%EC%88%B2%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/",
+            "search_query": "지구 자전축 사하라",
+            "terminate": false,
+            "text": "아니, 1만1000년 전부터 5000년 전 기간, 그러니까 마지막 빙하시대가 끝나던 무렵 사하라 사막은 지금과 사뭇 다른 모습이었어. 아프리카 북부의 약 900만 제곱킬로미터가 녹색 지대로 바뀌고, 영양, 코끼리나 하마 등 수많은 동물이 모여들었지. 지난 2020년 9월 28일 라이브 사이언스 내용에 따르면, 과학자들은 사하라 사막에 일어난 변화의 원인이 무엇인지에 관해 여러 연구를 해 왔는데, 지구 자전축의 기울기 변화가 사하라를 사막으로 바꾼 원인으로 지목됐어. 지구 자전축의 기울기는 습도에 영향을 많이 미치거든. 미국 항공우주국의 기후학자인 가빈 슈미트 박사의 설명에 따르면, 지구 자전축의 기울기가 8천 년 전부터 24.1도에서 23.5도로 줄어들면서 여름 시기에 북반구와 태양 사이 거리가 가까워졌고, 그 결과, 6천 년 전부터 사막화 현상이 일어났다는 거야.",
+            "turn_id": "BK22008669-6",
+            "utterance_id": "BK22008669.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "숫자로만 보면 고작 0.6도 차이인데, 그것 때문에 녹지가 사막이 되기도 하는 거구나. 그건 그렇고, 사막은 아무래도 사람이 사는 대도시와는 떨어져 있는 경우가 많은 것 같은데, 그럼 기후 변화 영향도 덜하려나?",
+            "turn_id": "BK22008669-7",
+            "utterance_id": "BK22008669.13"
+        },
+        {
+            "reference_date": "2021-01-18",
+            "reference_text": [
+                {
+                    "value": "17일(현지시간) 영국 데일리메일에 따르면 지난 13일 아프리카 알제리의 사막마을 아인세프라 기온이 영하 3도까지 떨어지고 사하라 사막에 흰 눈이 소복이 쌓였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중동 사우디아라비아 아시르 지역도 이달 중 기온이 최저 영하 2도까지 내려가면서 사막 마을이 눈으로 뒤덮였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아프리카와 중동의 사막에 눈이 오는 건 이례적이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "알제리는 2017년과 2018년 40년 만에 눈이 내린 데 이어 이 같은 현상이 올해도 이어졌다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사우디아라비아의 경우 50년 만에 처음이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Inter/article/all/20210118/104969758/1",
+            "search_query": "사막 눈",
+            "terminate": false,
+            "text": "아니, 2021년 1월 17일 영국 데일리메일의 보도에 따르면, 같은 해 1월 13일 아프리카 알제리 사막에 있는 아인세프라 마을의 기온이 영하 3도까지 내려가고, 사하라 사막에는 눈까지 쌓였어. 같은 시기 사우디아라비아 아시르 지역도 최저 기온이 영하 2도까지 떨어지면서 사막 마을에 눈이 쌓였는데, 이렇게 중동과 아프리카 사막에 눈이 오는 건 흔한 일이 아니야. 알제리는 2017년이랑 2018년에 40년 만에 눈이 온 뒤에 또다시 눈이 온 것이고, 사우디아라비아에 눈이 온 건 50년 만에 처음이지.",
+            "turn_id": "BK22008669-7",
+            "utterance_id": "BK22008669.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사막에 눈이라니 보통 일이 아닌 것 같아. 사막과 기후 변화에 대해 이야기하다 보니 사막화 문제도 생각나는데, 사람으로 인해 일어나는 사막화 원인에는 어떤 것들이 있을까?",
+            "turn_id": "BK22008669-8",
+            "utterance_id": "BK22008669.15"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "사막화의 원인은 자연적 요인과 인위적 요인으로 나뉜다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인위적 요인에는 환경오염, 산림벌채, 관개, 개간 등이 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토지가 오염이 되거나 관개시설의 무리한 확장의 경우에는 토지에 수목들이 자랄 양분이 부족해지게 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개간이나 땔감 등을 위해 산림벌채까지 하게 되면 지표의 반사율이 높아져 급속도로 냉각화되고 주변 지역에 하강기류가 강하게 생기면서 건조화는 확장된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%A7%89%ED%99%94",
+            "search_query": "사막화",
+            "terminate": false,
+            "text": "사막화의 원인 중 인위적 요인으로는 산림 벌채, 관개, 개간, 환경 오염 등이 있어. 땅이 오염되거나 관개 시설을 무리하게 늘리면 땅에 식물이 자라날 양분이 부족해지거든. 게다가, 땔감을 얻거나 개간을 하기 위해 산림을 벌채할 경우, 지표면의 반사율이 올라가서 빠르게 냉각이 일어나고, 그 결과, 주변에 강한 하강 기류가 발생해서 건조 과정이 더욱 심해지지.",
+            "turn_id": "BK22008669-8",
+            "utterance_id": "BK22008669.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람이 살아가기 위해 필요한 행위라고 볼 수도 있지만, 사막화를 막기 위해 지금부터라도 자연과 더불어 살아가는 방식을 실천해 나갔으면 좋겠네. 사막에 관해 더 알아보려고 책을 좀 사 보고 싶은데, 혹시 책 고르는 거 도와줄 수 있을까?",
+            "turn_id": "BK22008669-9",
+            "utterance_id": "BK22008669.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나도 사막에는 관심이 많아서 이런저런 책을 추천해 줄 수 있을 거야.",
+            "turn_id": "BK22008669-9",
+            "utterance_id": "BK22008669.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 그럼 이번 주 토요일에 서점에서 만나자. 내가 따로 연락할게.",
+            "turn_id": "BK22008669-10",
+            "utterance_id": "BK22008669.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 어떤 책들이 있는지 미리 좀 알아봐야겠네. 그럼 토요일에 보자.",
+            "turn_id": "BK22008669-10",
+            "utterance_id": "BK22008669.20"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008855",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008855",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집에 요새 모기가 너무 많아서 스트레스예요. 모기는 얼마나 많은 알을 낳길래 이렇게 많은 걸까요?",
+            "turn_id": "BK22008855-1",
+            "utterance_id": "BK22008855.1"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "암모기는 한 번에 200~300개씩, 일생 동안 2000여 개의 알을 낳는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산란에 앞서 부족한 영양분을 채우기 위해 제 몸무게 2~3배 정도의 피를 빨아 먹는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4213",
+            "search_query": "모기",
+            "terminate": false,
+            "text": "암모기는 평생 2000여 개의 알을 낳아요. 한 번에 낳는 알은 200~300개 정도인데 산란을 앞두고 자기 몸무게의 2~3배 정도의 피를 빨아먹어서 부족한 영양분을 채우기도 해요.",
+            "turn_id": "BK22008855-1",
+            "utterance_id": "BK22008855.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 번에 2~300개의 알을 낳다니 어마어마하네요. 그런데 모기에 물리면 왜 가려운 거예요?",
+            "turn_id": "BK22008855-2",
+            "utterance_id": "BK22008855.3"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "모기는 '하루딘'이란 물질을 인체에 주입한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "히루딘이 우리 몸에 들어오면 알레르기 반응이 일어난다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "히스타민이 분비되고 가려움을 느끼게 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1410777/%eb%aa%a8%ea%b8%b0-%eb%ac%bc%eb%a6%b0-%eb%8d%b0-%ec%9e%98-%eb%93%a3%eb%8a%94-%eb%af%bc%ea%b0%84-%ec%9a%94%eb%b2%95-5/",
+            "search_query": "모기 가려움",
+            "terminate": false,
+            "text": "모기가 사람을 물게 되면 하루딘 이란 물질이 주입되는데요. 이 하루딘 이 인체에 들어오면 히스타민이 분비되고 가려움을 느끼게 되는 알레르기 반응이 일어나는 거예요.",
+            "turn_id": "BK22008855-2",
+            "utterance_id": "BK22008855.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루딘 때문에 모기에 물리면 가려운 거군요. 근데 모기 물린 데에 침을 바르면 정말 효과가 있나요?",
+            "turn_id": "BK22008855-3",
+            "utterance_id": "BK22008855.5"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "식품의약품안전처에 따르면 가렵다고 긁거나 침을 바르면 2차 감염을 일으켜 상처가 덧날 수 있으므로 주의해야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220816/114972770/2",
+            "search_query": "모기 물렸을때 침",
+            "terminate": false,
+            "text": "식품의약품안전처에 따르면 모기에 물린 곳이 가렵다고 긁거나 침을 바를 경우 2차 감염을 일으켜 상처가 덧날 수 있다고 하니 주의해야 해요.",
+            "turn_id": "BK22008855-3",
+            "utterance_id": "BK22008855.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모기에 물렸을 때 침을 바르면 안 되는 거군요. 근데 제가 특히 모기에 잘 물리는 편인데 모기에 잘 물리는 사람이 따로 있나요?",
+            "turn_id": "BK22008855-4",
+            "utterance_id": "BK22008855.7"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "모기가 선호하는 색이 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 빨간색에서 주황색 스펙트럼에 놓인 색이나 검은색을 선호하고 녹색, 노란색, 흰색은 그다지 좋아하지 않는다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1408660/%ec%99%9c-%eb%82%98%eb%a7%8c-%eb%9c%af%ec%a7%80-%ec%9c%a0%eb%8f%85-%eb%aa%a8%ea%b8%b0%ec%97%90-%ec%9e%98-%eb%ac%bc%eb%a6%b0%eb%8b%a4%eb%a9%b4/",
+            "search_query": "모기에게 잘 물리는 사람",
+            "terminate": false,
+            "text": "혹시 모기가 선호하는 빨간색에서 주황색 스펙트럼에 있는 색이나 검은색 옷을 입으신 거 아니에요? 그리고 모기는 녹색, 노란색, 흰색은 별로 좋아하지 않으니 여름철 옷 입으실 때 참고하세요.",
+            "turn_id": "BK22008855-4",
+            "utterance_id": "BK22008855.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 붉은 계열의 옷을 자주 입어서 그랬나 보네요. 혹시 냄새가 많이 나는 사람이 모기에 잘 물리는 경우도 있나요?",
+            "turn_id": "BK22008855-5",
+            "utterance_id": "BK22008855.9"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "일반적으로 모기는 사람이 공기 중으로 독특한 체취를 내뿜으면, 이 냄새에 더듬이의 수용체가 자극돼 그 체취를 풍기는 사람을 물게 된다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1416743/%eb%aa%a8%ea%b8%b0%eb%8a%94-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%82%ac%eb%83%a5%ea%b0%90%ec%9d%84-%ec%b0%be%ec%9d%84%ea%b9%8c-%ec%97%b0%ea%b5%ac/",
+            "search_query": "모기 냄새",
+            "terminate": false,
+            "text": "사람이 공기 중에 독특한 체취를 풍기면 모기 더듬이의 수용체가 자극되어 체취의 주인공을 무는 경우도 있어요.",
+            "turn_id": "BK22008855-5",
+            "utterance_id": "BK22008855.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "체취를 풍길 경우 모기에게 물릴 수도 있군요. 근데 모기에게 물리면 전염병에 걸리기도 하나요?",
+            "turn_id": "BK22008855-6",
+            "utterance_id": "BK22008855.11"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "태풍 후 작은 물웅덩이가 만들어지면 모기 유충인 장구벌레가 증식해 말라리아, 일본뇌염 등 모기 매개 감염병이 확산할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220907_0002006416&cID=13101&pID=13200",
+            "search_query": "모기 매개 감염병",
+            "terminate": false,
+            "text": "그럼요, 모기 매개 감염병인 일본뇌염이나 말라리아에 걸릴 수도 있죠. 특히 태풍 후에 물웅덩이를 조심해야 하는데 거기에 모기 유충인 장구벌레가 증식해서 감염병을 확산시킬 수도 있어요.",
+            "turn_id": "BK22008855-6",
+            "utterance_id": "BK22008855.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍 후 물웅덩이 지날 때 조심해야겠네요. 설마 모기 감염병 때문에 목숨을 잃을 수도 있나요?",
+            "turn_id": "BK22008855-7",
+            "utterance_id": "BK22008855.13"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "일본뇌염 바이러스를 가진 매개모기에 물리면 250명 중 1명(0.4%)에서 증상이 나타난다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주요증상은 발열, 구토, 설사, 심하면 급성 뇌염으로까지 진행해 숨질 수도 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220830_0001995154&cID=10201&pID=10200",
+            "search_query": "모기 바이러스 증상",
+            "terminate": false,
+            "text": "매개 모기가 일본뇌염 바이러스를 가진 채 사람을 물 게 되면 250명 중의 1명에게는 증상이 나타날 수 있어요. 주요 증상으로는 발열, 구토, 설사 등이 있고 심할 경우는 급성 뇌염으로 진행되어 사망할 수도 있어요.",
+            "turn_id": "BK22008855-7",
+            "utterance_id": "BK22008855.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모기에게 물리면 가렵단 생각만 했는데 목숨까지 위험할 수 있다니 무섭네요. 모기를 세상에서 완전히 박멸해 버리면 어떻게 될까요?",
+            "turn_id": "BK22008855-8",
+            "utterance_id": "BK22008855.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "예를 들어 좀모기과는 카카오꽃의 수분자이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그것도 유일한 수분자이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카카오꽃은 너무 작고 구조가 복잡해 좀모기과만 침투할 수 있기 때문이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러므로 좀모기가 없다면 우린 초콜릿을 먹을 수 없다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220819000036",
+            "search_query": "모기 박멸",
+            "terminate": false,
+            "text": "카카오꽃의 유일한 수분자는 좀모깃과인데요. 카카오꽃이 워낙 작고 구조도 복잡해서 좀모깃과 외에 침투할 수 있는 생물이 없어요. 그러니까 좀모기를 박멸해버리면 우리는 더 이상 초콜릿을 먹을 수 없게 되는 거죠.",
+            "turn_id": "BK22008855-8",
+            "utterance_id": "BK22008855.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모기를 박멸하면 초콜릿을 먹을 수 없다니 너무 놀랍네요.",
+            "turn_id": "BK22008855-9",
+            "utterance_id": "BK22008855.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연의 신비는 굉장히 놀랍죠?",
+            "turn_id": "BK22008855-9",
+            "utterance_id": "BK22008855.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저 어제 모기 물린 데가 너무 가려워서 연고를 발라야겠어요.",
+            "turn_id": "BK22008855-10",
+            "utterance_id": "BK22008855.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "가려운 곳이 있으면 힘들 텐데 고생이시네요. 어서 가서 연고 바르시고 오늘은 여기까지만 대화 나누도록 해요. 다음에 또 만나요!",
+            "turn_id": "BK22008855-10",
+            "utterance_id": "BK22008855.20"
+        }
+    ]
+}

@@ -1,0 +1,412 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006829",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006829",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 친구에게 모든 건 탄소라면서 탄소 화합물이라는 용어를 들었어. 탄소 화합물이 무엇인지 알고 있니?",
+            "turn_id": "BK22006829-1",
+            "utterance_id": "BK22006829.1"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "탄소 화합물(Carbon compounds, 炭素化合物)은 탄소(C) 원자가 수소(H), 산소(O), 질소(N), 황(S), 할로젠(F, Cl, Br, I) 등의 원자와 결합하여 만들어진 화합물을 뜻한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리 주위의 많은 물질들이 탄소 화합물로 이루어져 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어 우리 몸의 탄수화물, 단백질, 지방 등, 음식, 의류, 플라스틱, 의약품 등이 있고 현재까지 알려진 탄소 화합물은 수천만 가지에 이르고 지금도 발견되거나 합성된다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%84%EC%86%8C_%ED%99%94%ED%95%A9%EB%AC%BC",
+            "search_query": "탄소 화합물",
+            "terminate": false,
+            "text": "탄소 화합물이란 탄소 원자가 수소, 산소, 질소, 황, 할로젠 등 원자와 결합하여 만들어진 화합물인데, 그 친구가 말한 것처럼 우리 주위의 많은 물질들이 탄소 화합물로 이루어져 있어. 우리 몸의 탄수화물이나 단백질 등도 있고, 음식, 의류, 플라스틱, 의약품 같은 것들도 있어. 이 밖에 현재까지 알려진 탄소 화합물은 수천만 가지에 이르고 지금도 발견되거나 합성되고 있지.",
+            "turn_id": "BK22006829-1",
+            "utterance_id": "BK22006829.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탄소하면 난 연필심만 생각하고 있었는데 탄소 화합물이 이렇게나 많다니. 이 많은 탄소는 어디서 오는 거야?",
+            "turn_id": "BK22006829-2",
+            "utterance_id": "BK22006829.3"
+        },
+        {
+            "reference_date": "2019-07-01",
+            "reference_text": [
+                {
+                    "value": "탄소화합물의 탄소는 모두 공기에서 왔습니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바로 광합성 과정에서 일어나는 일이죠.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "광합성은 빛에너지를 이용해서 이산화탄소(CO2)와 물(H2O)로 포도당을 만드는 과정입니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 포도당이 길게 연결되어 녹말이 되죠.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포도당과 녹말은 탄소와 물이 합쳐진 물질이라고 해서 탄수화물이라고 부릅니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://gonggam.korea.kr/newsView.do?newsId=01JFvxpzoDGJM000",
+            "search_query": "탄소 화합물의 탄소",
+            "terminate": false,
+            "text": "탄소화합물의 탄소는 모두 공기에서 왔어. 광합성 과정에서 일어나는 거지. 광합성은 빛에너지를 이용해서 이산화탄소와 물로 포도당을 만드는 과정을 말해. 이 포도당이 길게 연결되어 녹말이 되는데 포도당과 녹말은 탄소와 물이 합쳐진 물질이라고 해서 탄수화물이라고 해.",
+            "turn_id": "BK22006829-2",
+            "utterance_id": "BK22006829.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 단백질은 어떻게 이루어져 있는 거야?",
+            "turn_id": "BK22006829-3",
+            "utterance_id": "BK22006829.5"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "단백질의 구조(영어: protein structure)는 아미노산 사슬에 있는 원자와 분자의 3차원 배열이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단백질은 아미노산의 염기서열에서 형성된 생체고분자(폴리펩타이드)이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%B0%B1%EC%A7%88%EC%9D%98_%EA%B5%AC%EC%A1%B0",
+            "search_query": "단백질의 구조",
+            "terminate": false,
+            "text": "단백질은 아미노산의 염기서열에서 형성된 생체고분자인 폴리펩타이드야. 이때 단백질의 구조는 아미노산 사슬에 있는 원자와 분자의 3차원 배열로 이뤄져있지.",
+            "turn_id": "BK22006829-3",
+            "utterance_id": "BK22006829.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구조까지 이해하려면 원자 모형이 있는 편이 좋은데 지금은 없으니까 용어만 설명해주면 좋을 것 같아. 어려운 용어가 많아서 우선 아미노산에 대해서 말해주면 좋겠어.",
+            "turn_id": "BK22006829-4",
+            "utterance_id": "BK22006829.7"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "아미노산(영어: amino acid)은 생물의 몸을 구성하는 단백질의 기본 구성 단위로, 단백질을 완전히 가수분해하면 암모니아와 함께 생성된다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화학적으로 아미노기와 카복시기를 포함한 모든 분자를 지칭하며 화학식은 NH2CHRnCOOH(n=1~20)이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%AF%B8%EB%85%B8%EC%82%B0",
+            "search_query": "아미노산",
+            "terminate": false,
+            "text": "단백질을 완전히 가수분해하면 암모니아와 함께 만들어 지는데, 아미노산은 생물의 몸을 구성하는 단백질의 기본 구성 단위로, 화학적인 의미로는 아미노기와 카복시기를 포함한 모든 분자를 지칭하기도 해. 화학식은 NH2CHRnCOOH이야.여기서 n은 1~20까지의 값을 갖지.",
+            "turn_id": "BK22006829-4",
+            "utterance_id": "BK22006829.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아미노산 구조에도 C가 있으니까 탄소 화합물이구나. 아미노산 사슬을 이해하면 단백질을 조금 더 이해할 수 있을 것 같은데, 그전에는 용어를 알야하는 게 우선이니까 다음으로는 염기서열에 대해서 알려주면 좋겠어.",
+            "turn_id": "BK22006829-5",
+            "utterance_id": "BK22006829.9"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "염기서열(Nucleic Sequence, 鹽基序列) 또는 핵산의 1차 구조(Nucleic Acid Primary Structure)는 DNA의 기본단위 뉴클레오타이드의 구성성분 중 하나인 핵염기들을 순서대로 나열해 놓은 것을 말한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염기서열은 총 4종류의 염기 A(아데닌), T(티민), G(구아닌), C(사이토신)이 배열되어 이루어져 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 각각 A-T, G-C끼리 상보적인 결합을 이룬다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%BC%EA%B8%B0%EC%84%9C%EC%97%B4",
+            "search_query": "염기서열",
+            "terminate": false,
+            "text": "염기서열은 핵산의 1차 구조라고도 하는데 DNA의 기본단위 뉴클레오타이드의 구성성분 중 하나인 핵염기들을 순서대로 나열해 놓은 것이지. 염기서열은 총 4종류의 염기 아데닌, 티민, 구아닌, 사이토신이 배열되어 이루어져 있다. 약자는 A, T, G, C이고 이들은 각각 A-T, G-C끼리 상보적인 결합을 가져.",
+            "turn_id": "BK22006829-5",
+            "utterance_id": "BK22006829.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아미노산이 가지는 어떤 염기서열에서 생체고분자가 형성되었다는 거겠네. 아미노산의 염기 서열에 대해서는 나중에 알아보고 생체고분자에 대해 알면 좋을 것 같아.",
+            "turn_id": "BK22006829-6",
+            "utterance_id": "BK22006829.11"
+        },
+        {
+            "reference_date": "2022-05-06",
+            "reference_text": [
+                {
+                    "value": "생체고분자(生體高分子, 영어: biopolymer)는 살아있는 생물체에 의해 생성되는 중합체이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다시 말해서, 생체고분자는 중합체 생체분자이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사용되는 단량체의 단위와 형성된 생체고분자의 구조에 따라 분류되는 세 가지 주요 부류의 생체고분자들이 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "폴리뉴클레오타이드(DNA와 RNA)는 13개 이상의 뉴클레오타이드 단량체로 구성되어 있는 긴 중합체이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "폴리펩타이드는 아미노산을 단위체로 하는 중합체이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%9D%EC%B2%B4%EA%B3%A0%EB%B6%84%EC%9E%90",
+            "search_query": "생체고분자",
+            "terminate": false,
+            "text": "생체고분자는 살아있는 생물체에 의해 생성되는 중합체로 중합체 생체분자야. 사용되는 단량체의 단위와 형성된 생체고분자의 구조에 따라 세 가지 주요 부류의 생체고분자들로 분류돼. DNA와 RNA인 폴리뉴클레오타이드는 13개 이상의 뉴클레오타이드 단량체로 구성되어 있는 긴 중합체고, 폴리펩타이드는 아미노산을 단위체로 하는 중합체지.",
+            "turn_id": "BK22006829-6",
+            "utterance_id": "BK22006829.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점점 복잡해지고 있어서 폴리펩타이드에 대해서만 알아보고 탄소 화합물에 관련해서 다른 질문을 하려고 했는데 마침 폴리펩타이드도 설명이 되어 잘 됐다. 다시 돌아와서 어제 친구의 말로는 탄소 화합물은 유기 화합물과 무기 화합물로 분류된다고 했어. 유기 화합물은 뭐고 무기 화합물은 또 뭐니?",
+            "turn_id": "BK22006829-7",
+            "utterance_id": "BK22006829.13"
+        },
+        {
+            "reference_date": "2017-03-24",
+            "reference_text": [
+                {
+                    "value": "유기물은 불에 타는 물질로 생명체가 만들어내는 물질이고 무기물은 불에 타지 않는 물질로 생명과 상관없이 존재하는 물질이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1800년대 초 스웨덴의 화학자 베르셀리우스가 화합물을 유기화합물과 무기화합물로 분류한 이후 지금까지 물질을 유기와 무기로 나누는 개념이 사용되고 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idomin.com/news/articleView.html?idxno=533729",
+            "search_query": "유기물 무기물",
+            "terminate": false,
+            "text": "1800년대 초 스웨덴의 화학자 베르셀리우스가 화합물을 유기화합물과 무기화합물로 분류한 이후 지금까지 물질을 유기와 무기로 나누는 개념이 사용되고 있어. 유기물은 불에 타는 물질로 생명체가 만들어내는 물질이고 무기물은 불에 타지 않는 물질로 생명과 상관없이 존재하는 물질이지.",
+            "turn_id": "BK22006829-7",
+            "utterance_id": "BK22006829.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 아는 그 유기물과 무기물이 이런 것들이겠네. 유기물이 무기물과 다르게 가지는 특징은 뭐야?",
+            "turn_id": "BK22006829-8",
+            "utterance_id": "BK22006829.15"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "유기 화합물은 탄소 골격의 길이나 분기의 다양성에 제한이 없어 무기 화합물 보다 복잡한 구조를 가질 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 탄소에 질소, 산소, 황, 인 또는 할로젠 등이 결합하여 만들어지는 작용기도 다양하므로 각각 독특한 특성을 가져 무한한 다양성을 보여 준다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 다양성 때문에 유기 화합물은 생물을 구성하는 요소로 없어서는 안 되는 존재이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B8%B0_%ED%99%94%ED%95%A9%EB%AC%BC",
+            "search_query": "유기 화합물",
+            "terminate": false,
+            "text": "유기 화합물은 탄소 골격의 길이나 분기의 다양성에 제한이 없어 무기 화합물 보다 복잡한 구조를 가질 수 있고, 탄소에 질소, 산소, 황, 인 또는 할로젠 등이 결합해 만들어 지는 작용기도 다양해서 각각 독특한 특성을 가져 무한한 다양성을 가지지. 이 다양성 때문에 유기 화합물은 생물을 구성하는 요소로 없어서는 안 되는 거야.",
+            "turn_id": "BK22006829-8",
+            "utterance_id": "BK22006829.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탄수화물이나 단백질 모두 유기 화합물이겠다. 무기 화합물에는 어떤 것이 있어?",
+            "turn_id": "BK22006829-9",
+            "utterance_id": "BK22006829.17"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "금속 (전형 원소, 전이 금속) 및 비금속 (붕소, 규소 등)의 화합물이 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화합물로는 수소 화합물, 산화물, 산소산, 수소화물, 할로젠화물, 황산염, 질산염, 탄산염, 초산염, 금속착물 (배위화합물) 등이 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또, 탄소를 포함하고 있는 화합물 중에 이산화 탄소, 일산화 탄소, 다이아몬드, 탄화 칼슘 등도 무기 화합물로 분류한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EA%B8%B0_%ED%99%94%ED%95%A9%EB%AC%BC",
+            "search_query": "무기 화합물",
+            "terminate": false,
+            "text": "금속과 비금속이 있는데, 화합물로 수소 화합물, 산화물, 산소산, 수소화물, 할로젠화물, 황산염, 질산염, 탄산염, 초산염, 금속착물 등이 있어. 또, 탄소를 포함하고 있는 화합물 중에서는 이산화 탄소, 일산화 탄소, 다이아몬드, 탄화 칼슘 같은 것도 무기 화합물로 분류돼.",
+            "turn_id": "BK22006829-9",
+            "utterance_id": "BK22006829.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말로 탄소 화합물은 이 세상을 이루고 있는 모든 것 같아. 나중에 좀 더 자세히 알아봐야겠는걸?",
+            "turn_id": "BK22006829-10",
+            "utterance_id": "BK22006829.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "관련 서적이 많으니까 궁금하면 언제든 연락하라고.",
+            "turn_id": "BK22006829-10",
+            "utterance_id": "BK22006829.20"
+        }
+    ]
+}

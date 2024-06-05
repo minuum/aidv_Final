@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008631",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008631",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어렸을 적에 디즈니 애니메이션인 헤라클레스를 재미있게 봤었는데, 원작 신화에서는 헤라클레스가 헤라의 아들이 아니라고 하더라? 애니메이션에서 헤라클레스가 제우스와 헤라의 아들이라고 나오길래 그런 줄로만 알았는데, 실제 신화 속 헤라클레스의 어머니는 누구였어?",
+            "turn_id": "BK22008631-1",
+            "utterance_id": "BK22008631.1"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "알크메네(그리스어: Aλκμήνη)는 그리스 신화에서 암피트리온의 아내이며, 헤라클레스의 어머니였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장남 이피클레스에 이어 차남 헤라클레스 형제를 낳고 암피트리온의 딸 페리메데도 출산하였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%ED%81%AC%EB%A9%94%EB%84%A4",
+            "search_query": "헤라클레스 어머니",
+            "terminate": false,
+            "text": "헤라클레스의 어머니는 그리스 신화에 나오는 알크메네라는 여성이었어. 알크메네는 암피트리온의 아내였지. 참고로 알크메네는 차남인 헤라클레스 외에도, 장남인 이피클레스와, 암피트리온의 딸인 페리메데도 낳았었어.",
+            "turn_id": "BK22008631-1",
+            "utterance_id": "BK22008631.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 헤라클레스에게 형이랑 여동생이 있는 줄은 몰랐어. 그런데 알크메네가 헤라클레스를 낳은 다음에 암피트리온의 딸인 페리메데를 낳았다면, 알크메네는 한 때 제우스랑 사귀었었다가 헤어진 이후 암피트리온과 결혼하게 된 거야?",
+            "turn_id": "BK22008631-2",
+            "utterance_id": "BK22008631.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "헤라클레스는 제우스가 이미 결혼한 여인인 알크메네와 동침하여 얻은 아들로 알려져 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알크메네의 남편 암피트리온이 전쟁에 참가하여 집을 비운 틈을 타서 제우스는 암피트리온의 모습으로 변신하여 마치 전쟁에서 귀향하는 것인냥 알크메네를 속였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사실 그녀는 이미 암피트리온과의 사이에서 아들 이피클레스를 낳은 상태였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이날 밤 알크메네는 암피트리온으로 변신한 제우스로부터 수태하게 되었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%ED%81%AC%EB%A9%94%EB%84%A4",
+            "search_query": "알크메네 제우스 암피트리온",
+            "terminate": false,
+            "text": "아냐, 제우스와 동침했을 당시 알크메네는 이미 남편인 암피트리온과의 사이에서 아들인 이피클레스를 낳은 상태였어. 그런데 제우스가 암피트리온이 전쟁에 나가느라 집을 비운 사이, 암피트리온의 모습으로 변신해서 알크메네를 속였던 거야. 변신한 제우스는 마치 자신이 전쟁에서 돌아온 암피트리온인 것처럼 연기했는데, 결국 이 변신에 속은 알크메네는 제우스와 관계했고, 결국 임신하게 되었지.",
+            "turn_id": "BK22008631-2",
+            "utterance_id": "BK22008631.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그러면 알크메네랑 암피트리온 입장에서는 청천벽력 같은 일을 겪게 된 거네. 그런데 이 둘도 그렇지만, 제우스의 본부인인 헤라도 화가 많이 났을 거 같아. 혹시 신화 속의 헤라가 헤라클레스를 해코지하려고 하진 않았을까?",
+            "turn_id": "BK22008631-3",
+            "utterance_id": "BK22008631.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "헤라는 헤라클레스를 죽이기 위해 생후 8개월 때 요람에 두 마리의 독사를 헤라클레스 에게 보냈는데, 이때 이피클레스는 뱀을 무서워하여 소리를 질렀지만 헤라클레스는 전혀 무서워하지 않고 뱀을 손으로 목 졸라 죽였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%9D%BC%ED%81%B4%EB%A0%88%EC%8A%A4",
+            "search_query": "헤라 헤라클레스 해코지",
+            "terminate": false,
+            "text": "물론 헤라는 헤라클레스를 해코지하려고 했어. 헤라클레스가 태어난 지 고작 8개월 정도밖에 안 되었던 시점에, 헤라클레스를 죽이려고 독사 두 마리를 요람으로 보냈던 거야. 이때, 이피클레스는 독사를 보고 공포에 질려서 소리를 질렀지만, 헤라의 목표였던 헤라클레스는 뱀을 무서워하기는커녕, 오히려 뱀의 목을 손으로 졸라 죽이게 되지.",
+            "turn_id": "BK22008631-3",
+            "utterance_id": "BK22008631.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생후 8개월 만에 독사를 맨손으로 죽였단 말이야? 굉장하기는 한데, 헤라 입장에서는 오히려 더 성질을 돋우는 일이었을지도 모르겠네. 아무튼 이때의 살해 시도가 실패로 돌아간 이후, 헤라가 헤라클레스를 더 괴롭히지는 않았어?",
+            "turn_id": "BK22008631-4",
+            "utterance_id": "BK22008631.7"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "헤라클레스의 12업은 헤라가 내린 광기로 자신의 아이들을 죽인 헤라클레스가 죄값을 치르기 위해 에우리스테우스 밑에서 노역을 하게 된 것을 말한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%9D%BC%ED%81%B4%EB%A0%88%EC%8A%A4%EC%9D%98_12%EA%B3%BC%EC%97%85",
+            "search_query": "헤라 헤라클레스 괴롭힘",
+            "terminate": false,
+            "text": "물론 헤라는 헤라클레스를 괴롭혔지. 헤라클레스를 미치게 만들어서, 자기 아이들을 죽이게 만든 거야. 결국 헤라클레스는 아이들을 죽인 죗값을 씻기 위해, 에우리스테우스 밑에서 헤라클레스의 12업이라 불리는 노역을 진행하게 돼.",
+            "turn_id": "BK22008631-4",
+            "utterance_id": "BK22008631.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 헤라클레스에게 아이가 있었구나. 디즈니 애니메이션에서는 헤라클레스에게 메가라라는 여자 친구가 있었는데, 혹시 그 죽은 아이들이 메가라와 헤라클레스 사이의 아이들이었던 거야?",
+            "turn_id": "BK22008631-5",
+            "utterance_id": "BK22008631.9"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "헤라클레스와 메가라는 둘 사이에 3명의 아이를 가졌다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 헤라는 헤라클레스가 제우스의 약속대로 지배자가 된 에우리스테우스를 섬기는 것을 거부하자 술에 취한 그를 미치게 하였고, 취중에 헤라클레스는 자신의 아이들과 메가라를 적 또는 야수로 착각하고 죽이게 되었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 그는 델포이의 신탁에 따라 티린스의 왕 에우리스테우스의 신하가 되어 12년 동안 그가 시키는 일을 하게 되었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%9D%BC%ED%81%B4%EB%A0%88%EC%8A%A4",
+            "search_query": "헤라클레스 아이 메가라",
+            "terminate": false,
+            "text": "맞아, 헤라클레스와 메가라 사이에는 총 세 명의 아이가 있었는데, 나중에 이 아이들뿐만 아니라 메가라마저도 헤라클레스의 손에 죽게 돼. 본래 헤라클레스는 제우스의 약속에 따라, 지배자였던 에우리스테우스를 섬겨야 하는 입장이었어. 그런데 헤라클레스가 이걸 거부하자, 헤라는 술에 취해있던 헤라클레스를 미치게 했던 거야. 이렇게 정신이 나간 헤라클레스는 아이들과 메가라를 자기 적 내지 짐승으로 착각하고 죽이고 말아. 이 사건이 벌어진 이후 헤라클레스는 델포이의 신탁을 받게 되는데, 이 신탁의 내용에 따라 12년간 티린스의 왕인 에우리스테우스를 섬기게 되면서, 그의 지시를 따르게 되지.",
+            "turn_id": "BK22008631-5",
+            "utterance_id": "BK22008631.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그건 너무 충격적이다. 디즈니 애니메이션에서 헤라클레스와 메가라가 이어지는 걸 보고 굉장히 훈훈하다고 생각했는데, 원전 신화가 그런 내용일지는 상상도 못 했어. 그러면 에우리스테우스의 신하로 일하면서, 헤라클레스는 자기 죄를 씻기 위해 어떤 과업들을 수행하게 돼?",
+            "turn_id": "BK22008631-6",
+            "utterance_id": "BK22008631.11"
+        },
+        {
+            "reference_date": "2014-12-14",
+            "reference_text": [
+                {
+                    "value": "티린스의 왕 에우리스테우스가 내린 첫 번째 과업은 네메아 지방의 계곡에 사는 난폭한 사자의 가죽을 가져오는 일이었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "네메아의 사자는 여러 괴물을 낳았던 에키드나가 낳았고 제우스의 아내 헤라가 기른 후 인간들에게 고통을 안겨주기 위해 네메아로 보냈다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤라클레스는 사자를 죽여 가죽을 벗긴 후 에우리스테우스에게 가져갔지만, 정작 명령을 내린 그는 두려워 숨어 버렸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 사자 머리 가죽은 몽둥이와 함께 헤라클레스의 트레이드마크가 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://dailian.co.kr/news/view/475679",
+            "search_query": "헤라클레스 에우리스테우스 과업",
+            "terminate": false,
+            "text": "에우리스테우스가 지시한 최초의 과업은, 네메아 계곡에 사는 난폭한 사자의 가죽을 가져오라는 거였어. 그런데 이 네메아의 사자는 그냥 평범한 사자가 아니라, 여러 괴물의 어머니였던 에키드나로부터 태어난 사자였던데다, 심지어 제우스의 아내였던 헤라가 양육한 존재였지. 헤라는 인간들을 고통스럽게 만들기 위해 이 사자를 네메아로 보냈는데, 헤라클레스는 이 사자를 성공적으로 죽인 다음 가죽을 벗겨서 에우리스테우스에게 가져갔어. 비록, 에우리스테우스는 두려움을 느껴서 숨어버렸지만 말이야. 아무튼, 이 사자 머리로 된 가죽은 몽둥이와 함께 헤라클레스를 상징하는 요소가 되었지.",
+            "turn_id": "BK22008631-6",
+            "utterance_id": "BK22008631.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 디즈니의 헤라클레스 애니메이션에도 사자 가죽이 아주 짧게 등장하던데, 그 이유 때문이었구나. 그러면 네메아의 사자를 퇴치하는 거 말고, 헤라클레스의 다른 과업 중에서 또 유명한 게 있을까?",
+            "turn_id": "BK22008631-7",
+            "utterance_id": "BK22008631.13"
+        },
+        {
+            "reference_date": "2018-02-05",
+            "reference_text": [
+                {
+                    "value": "헤라클레스에게 주어진 열두 번째 미션은 지하 세계의 괴물 케르베로스를 생포해는 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밀교의 신관인 필리오스는 저승에 가는 길을 안다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤라클레스도 그 신관의 도움으로 저승 땅으로 내려갔다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤라클레스는 케르베로스를 어깨에 둘러멘 채 테세우스의 손을 잡고 저승에서 빠져 나왔다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이로써 헤라클레스는 12가지 미션을 모두 완수했다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sjpost.co.kr/news/articleView.html?idxno=26782",
+            "search_query": "헤라클레스의 과업 유명한",
+            "terminate": false,
+            "text": "헤라클레스의 열두번째 과업이자 마지막 과업은, 지하 세계의 괴물을 케르베로스를 산 채로 잡아 오라는 것이었어. 그러려면 헤라클레스가 우선 저승 땅으로 내려가야 했는데, 헤라클레스는 밀교의 신관이자, 저승으로 가는 길을 알고 있었던 필리오스라는 신관의 도움을 받아 저승으로 향하게 돼. 결국 헤라클레스는 테세우스와 함께 케르베로스를 어깨에 둘러멘 채로, 저승을 빠져나오게 되는데, 이로써 총 12개에 달하는 모든 과업을 끝내게 되지.",
+            "turn_id": "BK22008631-7",
+            "utterance_id": "BK22008631.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "케르베로스라는 이름의 괴물은 일본 RPG 게임에서도 많이 봤던 거 같아. 머리가 세 개 달린 늑대였지?",
+            "turn_id": "BK22008631-8",
+            "utterance_id": "BK22008631.15"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "고대 그리스에서 지하세계를 관장하는 죽음의 신 하데스는 사나운 머리 셋 달린 개 케르베로스를 지하세계의 수문장으로 세워 함부로 접근하지 못하도록 했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/2022081116224897669",
+            "search_query": "케르베로스 머리 세 개 늑대",
+            "terminate": false,
+            "text": "머리가 세 개인 건 맞지만, 케르베로스는 늑대가 아니라 사나운 개였어. 고대 그리스에서는 죽음의 신인 하데스가 지하세계를 관장했는데, 하데스는 이 케르베로스를 지하세계의 문지기로 세워서, 지하세계에 함부로 침입하는 것을 막았지.",
+            "turn_id": "BK22008631-8",
+            "utterance_id": "BK22008631.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 늑대랑 개가 비슷하다 보니 내가 착각했나 봐. 그나저나 이야기하면서 느낀 건데, 디즈니 애니메이션의 헤라클레스는 원전 신화랑 비교했을 때 굉장히 많이 각색된 거 같아. 내가 기억하기로는, 애니메이션에서는 헤라클레스의 과업 12개에 관련된 이야기도 완전히 생략되어서 나오지 않았었거든.",
+            "turn_id": "BK22008631-9",
+            "utterance_id": "BK22008631.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 원전 신화를 그대로 담기에는 분량이나 소재 문제가 있지 않았을까 싶어. 그래서 각색이 진행되지 않았을까 싶기는 한데, 원전 신화를 더 좋아하는 사람들 입장에서는 아쉬울 수도 있겠지.",
+            "turn_id": "BK22008631-9",
+            "utterance_id": "BK22008631.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그건 보는 사람들마다 의견이 좀 다를 거 같기는 해. 아무튼 헤라클레스에 대해서 자세히 설명해줘서 고마워. 더 이야기 나누고 싶지만, 난 오늘 마감인 과제가 있어서 그만 들어가 봐야 할 거 같아.",
+            "turn_id": "BK22008631-10",
+            "utterance_id": "BK22008631.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇구나, 그러면 과제 마무리 잘하고, 다음에 다시 또 이야기 나누자.",
+            "turn_id": "BK22008631-10",
+            "utterance_id": "BK22008631.20"
+        }
+    ]
+}

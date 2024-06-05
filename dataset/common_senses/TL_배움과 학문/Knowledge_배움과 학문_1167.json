@@ -1,0 +1,423 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007758",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007758",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장녹수라는 인물은 드라마나 영화에서 진짜 자주 등장하는 것 같아. 장녹수에 관해 제대로 공부해 보고 싶은데, 몇 가지 물어 봐도 괜찮을까?",
+            "turn_id": "BK22007758-1",
+            "utterance_id": "BK22007758.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 얼마든지 물어봐! 장녹수에 관해 어떤 게 궁금한데?",
+            "turn_id": "BK22007758-1",
+            "utterance_id": "BK22007758.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장녹수가 후궁이 되기 전에 원래는 기생이었다고 하던데, 장녹수의 출신에 관해 자세히 알려줘.",
+            "turn_id": "BK22007758-2",
+            "utterance_id": "BK22007758.3"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "장녹수의 아버지는 충청도 문의 현령(文義縣令)을 지낸 장한필이고 어머니는 천민 출신의 첩이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때문에 녹수는 성종의 종제인 제안대군의 노비로 살았다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제안대군의 가노(家奴)와 결혼해 아들을 낳은 뒤 노래와 춤을 배워 기생이 되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EB%85%B9%EC%88%98",
+            "search_query": "장녹수 출신 기생",
+            "terminate": false,
+            "text": "장녹수의 어머니는 천민 출신의 첩이었고, 아버지는 충청도 문의 현령을 지냈던 장한필이라는 자였어. 장녹수는 자연스럽게 성종의 종제인 제안대군의 노비로 지내고 있었지. 그러다가 제안대군의 가노와 결혼하고 아들을 낳기도 했는데, 이후 춤과 노래를 배워 기생이 돼.",
+            "turn_id": "BK22007758-2",
+            "utterance_id": "BK22007758.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 결혼하고 아들도 낳았는데 기생이 된 거였구나. 그럼 연산군은 한낱 기생이었던 장녹수를 어떻게 알고 찾아간 거야?",
+            "turn_id": "BK22007758-3",
+            "utterance_id": "BK22007758.5"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "“얼굴은 중인(中人) 정도를 넘지 못했다”는 표현으로 미루어 뛰어난 미색은 아니었던 것으로 보이나, 춤과 노래에 탁월한 능력을 겸비하여 소문이 자자했던 듯하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연산군은 그 소문을 듣고 그녀를 흥청(興淸)으로 뽑아 궁궐에 들였던 것으로 보인다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "장녹수 연산군 기생",
+            "terminate": false,
+            "text": "얼굴은 중인 정도를 넘지 못했다는 표현을 보면 그리 예쁜 외모는 아니었는데, 뛰어난 노래와 춤 실력을 겸비한 덕분에 소문이 자자했어. 그런 소문을 들은 연산군은 그녀를 흥청으로 뽑아서 궁궐에 들인 거고.",
+            "turn_id": "BK22007758-3",
+            "utterance_id": "BK22007758.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장녹수는 가무에 뛰어난 사람이었나 보네. 근데 흥청이라는 건 어떤 거야?",
+            "turn_id": "BK22007758-4",
+            "utterance_id": "BK22007758.7"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "흥청은 연산군 대에 뽑았던 일 등급 기녀였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연산군은 기녀 제도를 확대 개편하여, 창기로서 얼굴이 예쁜 자들을 대궐 안으로 뽑아들였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전국의 개인 몸종과 지방의 관비, 그리고 심지어 양갓집 여성들까지 강제로 뽑아 올려졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때, 기생의 칭호를 ‘운평(運平)’이라 했는데, 그 중에서도 왕을 가까이에서 모시는 특별한 기생을 승격시켜 맑은 기운을 일으킨다 하여 ‘흥청(興淸)’이라 불렀다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런 흥정 중에서도 잠깐이지만 가장 반짝 출세의 길을 걸은 인물이 바로 장녹수였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "연산군 흥청",
+            "terminate": false,
+            "text": "연산군 시대에 뽑았던 일 등급의 기녀를 흥청이라고 해. 연산군은 기녀 제도를 확장시켜 얼굴이 예쁜 이들을 기녀로서 대궐 안으로 뽑아 들였는데 이때 전국에 있는 지방의 관비, 개인 몸종, 심지어 양갓집 여성들까지 강제로 뽑아 올려지곤 했어. 이 시기의 기생을 운평이라고 칭했는데, 이중에서도 왕을 가까이에서 모시는 특별한 기생을 승격시켜 흥청이라고 칭했어. 참고로 흥청은 맑은 기운을 일으킨다는 뜻이야. 이런 흥청들 사이에서 짧지만 반짝 출세한 인물이 바로 장녹수였고.",
+            "turn_id": "BK22007758-4",
+            "utterance_id": "BK22007758.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 흥청이 그런 뜻이었구나. 궁에 들어간 장녹수는 연산군과 어떻게 지냈어?",
+            "turn_id": "BK22007758-5",
+            "utterance_id": "BK22007758.9"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "궁궐에 들어 온 장녹수는 본격적으로 연산군의 마음을 흔들었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장녹수는 연산군을 때로는 어린아이 같이 때로는 노예처럼 대할 수 있는 유일한 사람이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연산군은 장녹수에게 깊이 빠졌는데, 화내는 일이 있더라도 그녀를 보면 즉시 희색(喜色)을 띨 정도였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장녹수는 요사스러운 행동으로 연산군의 실정(失政)에 기름을 부었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "장녹수 연산군 궁궐",
+            "terminate": false,
+            "text": "장녹수는 궁궐에 들어온 후 본격적으로 연산군의 마음을 사로잡았어. 당시 장녹수는 어떨 땐 노예처럼, 또 어떨 땐 어린아이 대하듯 연산군을 대할 수 있는 유일한 인물이었어. 장녹수에게 푹 빠진 연산군은 화를 내다가도 그녀를 보면 곧바로 기쁜 기색을 띨 정도로 장녹수에게 푹 빠져 있었고, 장녹수는 간사하고 요망한 행동으로 연산군의 실정을 부추겼지.",
+            "turn_id": "BK22007758-5",
+            "utterance_id": "BK22007758.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연산군의 실정을 부추겼다고? 장녹수가 연산군의 사랑을 한껏 받았다는 건 대충 알고 있었는데, 실정을 부추겼다는 건 처음 알았어. 궁궐 안에서 장녹수는 어떤 행동들을 했는데?",
+            "turn_id": "BK22007758-6",
+            "utterance_id": "BK22007758.11"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "왕의 총애를 등에 업은 장녹수는 권력을 함부로 휘둘렀다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그녀는 남의 재산을 함부로 빼앗았으며, 각종 뇌물과 인사 청탁을 받았다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1502년(연산군 8)~1503년(연산군 9) 무렵에 이르러서는 연산군이 장녹수에게 빠져 날로 방탕이 심해지고 포악한 짓을 많이 하자, 왕실의 최고 어른인 할머니 인수대비(소혜왕후)는 크게 근심하였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "장녹수 실정",
+            "terminate": false,
+            "text": "왕의 총애를 얻은 장녹수는 권력을 함부로 이용하며 남의 재산을 빼앗고 각종 인사 청탁과 뇌물을 받았어. 1502년에서 1503년에 이르러서는 장녹수에 빠진 연산군의 방탕과 포악한 짓이 나날이 심해졌고, 그의 할머니이자 왕실 최고 어른인 인수대비는 근심에 빠졌어.",
+            "turn_id": "BK22007758-6",
+            "utterance_id": "BK22007758.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉 뭐야 장녹수는 악인이었네? 당시 장녹수의 품계는 어떤 거였어?",
+            "turn_id": "BK22007758-7",
+            "utterance_id": "BK22007758.13"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "장녹수는 입궁한 직후인 1502년(연산군 8)에 종4품의 숙원(淑媛)으로 있었는데, 이듬해에는 종3품의 숙용(淑容)에까지 올랐다7).",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "궁녀로 들어와 초고속으로 승진한 셈이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "장녹수의 품계",
+            "terminate": false,
+            "text": "1502년, 그러니까 입궁한 직후의 장녹수는 종4품의 숙원이었는데, 바로 다음 해에 종3품의 숙용까지 올랐어. 궁녀로 들어와서는 굉장히 빠르게 승진한 거지.",
+            "turn_id": "BK22007758-7",
+            "utterance_id": "BK22007758.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래 악인인데, 품계가 올랐다면 더 심하게 굴었던 거 아니야? 장녹수는 품계가 오른 뒤 궁에서 어떻게 지냈어? 구체적으로 알려줘.",
+            "turn_id": "BK22007758-8",
+            "utterance_id": "BK22007758.15"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "품계가 올라간 장녹수는 더욱 권력을 남용하였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장녹수는 궁 밖의 사가(私家)를 재건하기 위해 민가를 헐어버리게 하였으며, 모습이 고운 두 여인을 시기하여 두 사람의 부자 형제(父子兄弟)를 하루아침에 다 죽이게도 했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "옥지화(玉池花)라는 기녀는 장녹수의 치마를 한 번 잘못 밟았다가 참형을 당하기까지 했으니, 장녹수의 위세가 하늘을 찔렀음을 엿볼 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "품계 올라간 장녹수",
+            "terminate": false,
+            "text": "네 생각대로, 품계가 오른 장녹수는 한층 더 심하게 권력을 남용했어. 구체적으로 장녹수는 궁 밖의 사가를 재건한다는 이유로 민가를 헐어버리게 하고, 아름다운 두 명의 여인을 시기해서 둘의 부자 형제를 모두 죽게 만들기도 했어. 게다가 장녹수의 치마를 실수로 밟은 옥지화라는 기녀는 참형을 당하기까지 했어. 당시 장녹수의 위세는 진짜 엄청났거든.",
+            "turn_id": "BK22007758-8",
+            "utterance_id": "BK22007758.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니 그 정도 권력을 가졌으면 좀 좋은 일에 쓸 것이지, 왜 그렇게 악하게 살았을까. 그럼 장녹수는 최후는 어떤 식이었어? 최후까지 떵떵거리며 살았을까?",
+            "turn_id": "BK22007758-9",
+            "utterance_id": "BK22007758.17"
+        },
+        {
+            "reference_date": "2014-05-12",
+            "reference_text": [
+                {
+                    "value": "장녹수는 연산군 폭정의 핵심이었던 만큼, 중종반정을 성공시킨 세력은 온갖 비난의 대상이었던 장녹수 체포에 나섰다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반정군들에게 붙잡혀 군기시(軍器寺) 앞에 끌려온 장녹수는 참형(斬刑)에 처해졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "길 가는 수많은 사람들이 그녀의 시체에 기왓장과 돌멩이를 던지며 욕설을 퍼부었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그들은 “일국의 고혈이 여기에서 탕진됐다”고 하였는데, 잠깐 사이에 돌무더기를 이루었을 정도로 비참한 최후를 맞았다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3578126&categoryId=59015&cid=59015&tkFrom=tlist&tkListId=856675&tkTocId=1011228&tkSort=",
+            "search_query": "장녹수 최후",
+            "terminate": false,
+            "text": "중종반정을 성공시킨 세력은 장녹수가 연산군 폭정의 핵심이었던 만큼 그녀를 체포하려 했고, 곧 반정군들에게 잡혀 군기시 앞으로 끌려온 장녹수는 참형을 당했어. 길을 지나가는 수많은 사람들이 돌멩이와 기왓장을 그녀의 시체에 던졌고, 일국의 고혈이 여기에서 탕진됐다며 욕설을 퍼부었어. 짧은 시간에 돌무더기가 생겨버릴 정도로 비참한 최후였지.",
+            "turn_id": "BK22007758-9",
+            "utterance_id": "BK22007758.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "휴 정말 씁쓸하네. 오늘 장녹수에 관해서 얕게나마 알게 된 것 같아.",
+            "turn_id": "BK22007758-10",
+            "utterance_id": "BK22007758.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 또 궁금한 게 있으면 나한테 물어봐! 난 역사나 역사 속 인물에 관해서는 잘 알거든.",
+            "turn_id": "BK22007758-10",
+            "utterance_id": "BK22007758.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그럴게. 오늘 네 덕에 이것저것 많이 알게 됐네. 운전 조심하고, 내일 또 봐.",
+            "turn_id": "BK22007758-11",
+            "utterance_id": "BK22007758.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 너도 조심해서 들어 가.",
+            "turn_id": "BK22007758-11",
+            "utterance_id": "BK22007758.22"
+        }
+    ]
+}

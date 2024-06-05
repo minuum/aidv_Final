@@ -1,0 +1,401 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006808",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006808",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 여름도 슬슬 끝나가지만, 올해 여름도 정말 더웠어. 어렸을 때랑 비교하면 매년 점점 더워지는 것 같아. 그러고 보니, 최근 기후 위기라는 말을 들었는데, 지금까지 있어 온 기후 변화와는 다른 의미인지, 지구 온난화랑 비슷한 말인지 궁금하네.",
+            "turn_id": "BK22006808-1",
+            "utterance_id": "BK22006808.1"
+        },
+        {
+            "reference_date": "2022-08-16",
+            "reference_text": [
+                {
+                    "value": "기후 위기(氣候 危機, 영어: climate crisis), 기후 비상사태(climate emergency) 혹은 기후 변화(climate change)는 지구 온난화처럼 지구의 평균 기온이 점진적으로 상승함과 함께 전지구적 기후 패턴이 급격하게 변화하는 현상을 통틀어 일컫는다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현대 이전에도 기후 변화가 존재하긴 했지만, 현대의 기후 변화는 급격하며 자연적인 이유로 발생하는 현상이 아니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%9B%84_%EB%B3%80%ED%99%94",
+            "search_query": "지구 온난화",
+            "terminate": false,
+            "text": "맞아, 기후 위기, 기후 변화, 기후 비상사태 전부 같은 의미인데, 지구 온난화처럼 지구의 평균 기온이 점차 올라감과 동시에 전 지구적인 기후 패턴이 급작스레 바뀌는 현상을 가리키지. 기후 변화는 현대 이전에도 물론 있긴 했지만, 현대의 기후 변화는 아주 급작스러운 데다가 자연적인 이유로 발생하는 현상이 아니라는 점이 달라.",
+            "turn_id": "BK22006808-1",
+            "utterance_id": "BK22006808.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 게 있는데, 지구에는 빙하기랑 간빙기가 있잖아. 지금은 간빙기라고 들었는데, 그러면 빙하기가 아니니까 기온이 올라가는 중인 게 맞는 거 아니야?",
+            "turn_id": "BK22006808-2",
+            "utterance_id": "BK22006808.3"
+        },
+        {
+            "reference_date": "2019-08-09",
+            "reference_text": [
+                {
+                    "value": "이 빙하코어 연구를 통해 약 50만 년 전부터 지구에 빙하기가 여러 번 찾아왔음을 알아냈다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마지막 빙하기는 만 8000년 전에 끝났고, 그 후 기온이 높아지다 최고로 오른 후 다시 내려가는 간빙기가 현재까지 계속되고 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%A7%80%EA%B5%AC%EC%9D%98-%EB%B9%84%EB%B0%80%EC%9D%84-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EB%B9%99%ED%95%98%EC%BD%94%EC%96%B4/",
+            "search_query": "과거 지구 평균 온도 변화 추측",
+            "terminate": false,
+            "text": "간빙기라고 해서 기온이 무조건 올라가는 것은 아니야. 약 50만 년 전부터 지구에 빙하기가 여러 번 있었다는 사실은 빙하코어 연구를 이용해서 알 수 있는데, 마지막 빙하기는 18,000년 전에 끝났고, 그 뒤로는 기온이 높아지다가 최고 기온을 찍은 후, 현재에는 기온이 다시 내려가는 간빙기가 이어지는 중이지.",
+            "turn_id": "BK22006808-2",
+            "utterance_id": "BK22006808.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 자연 현상이 언제나 일관되게 일어나는 건 아니잖아. 현재 기후 변화가 인간에 의해 일어나고 있다는 근거는 있는 거야?",
+            "turn_id": "BK22006808-3",
+            "utterance_id": "BK22006808.5"
+        },
+        {
+            "reference_date": "2021-10-26",
+            "reference_text": [
+                {
+                    "value": "태양열을 가두는 온실 가스는 온도 상승과 인간 활동 사이의 중요한 연결 고리다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 중요한 것은 이산화탄소(CO2)인데, 그이유는 대기에 풍부하기 때문이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화석 연료를 태울 때 생성되는 탄소에는 독특한 화학적 특성이 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나이테와 극지방의 얼음은 모두 대기 화학의 변화를 기록한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조사 결과, 탄소, 특히 화석 공급원에서 나온 탄소가 1850년 이후 크게 증가한 것으로 나타났다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/international-59039937",
+            "search_query": "지구 온난화 인간 책임",
+            "terminate": false,
+            "text": "응, 실제로 근거가 있어. 우선, 온실가스는 태양열을 가두기 때문에 인류 활동과 기온 상승을 연결하는 중요한 단서인데, 특히 이산화탄소는 대기에 풍부하기 때문에 가장 중요하지. 그런데 화석 연료를 태울 때 나오는 탄소에는 특이한 화학적 특징이 있거든. 그리고 극지방의 얼음과 나이테는 대기 화학 성분이 어떻게 변화하는지 그 정보를 담고 있고. 이것들을 조사해 보면, 탄소 중에서도 화석 공급원에서 발생한 탄소가 1850년 이후로 많이 늘어났다는 것을 알 수 있지.",
+            "turn_id": "BK22006808-3",
+            "utterance_id": "BK22006808.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 인간의 영향이라는 건 확실한 거구나. 그런데 지구 온난화를 일으키는 온실가스는 이산화탄소뿐인 거야?",
+            "turn_id": "BK22006808-4",
+            "utterance_id": "BK22006808.7"
+        },
+        {
+            "reference_date": "2022-04-11",
+            "reference_text": [
+                {
+                    "value": "대기 가운데 메탄은 이산화탄소보다 적지만 지구온난화에는 단기간 훨씬 큰 영향을 끼친다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "메탄의 20년 동안 지구온난화지수는 이산화탄소에 비해 84배에 이른다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 같은 기간 대기중 이산화탄소보다 메탄이 적외선을 80배 이상 더 흡수한다는 것을 의미한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/environment/1038413.html",
+            "search_query": "온실 가스 메탄",
+            "terminate": false,
+            "text": "아니, 이산화탄소 외에도 있어. 메탄은 대기 중에서 이산화탄소보다 양은 적지만 지구 온난화 측면에서 짧은 기간 내에 훨씬 큰 영향을 줘. 20년 기준으로 메탄의 지구온난화지수가 이산화탄소의 84배인데, 이것은 같은 기간에 메탄이 이산화탄소보다 적외선을 80배 이상 더 흡수한다는 뜻이거든.",
+            "turn_id": "BK22006808-4",
+            "utterance_id": "BK22006808.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 메탄도 기후 변화에 엄청나게 큰 영향을 미치는 거네. 메탄이 이산화탄소보다 양이 적다고 했는데, 얼마나 적은 거야? 그리고 메탄은 대체 어디서 그렇게 나오고 있는 걸까?",
+            "turn_id": "BK22006808-5",
+            "utterance_id": "BK22006808.9"
+        },
+        {
+            "reference_date": "2021-10-13",
+            "reference_text": [
+                {
+                    "value": "대기 중에 포함된 메탄은 이산화탄소의 200분에 1에 불과하지만 온실가스 효과는 이산화탄소보다 20배 이상 강력하다고 알려져 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 미생물에 의한 유기물질의 분해 과정을 통해 주로 생산되며 화석연료 사용, 폐기물 배출, 가축 사육, 바이오매스의 연소 등 다양한 인간 활동에서 비롯된다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울대가 개발한 온실가스 역추적 모델을 활용한 결과, 양돈 축사 밀집 지역과 장기간 방치된 쓰레기 산, 등록된 폐기물 매립지, 산업 단지에서 고농도 메탄이 방출되고 있음이 확인됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.dongascience.com/news.php?idx=49862",
+            "search_query": "메탄 주요 발생원",
+            "terminate": false,
+            "text": "대기 중의 메탄양은 이산화탄소의 200분의 1밖에 안 돼. 물론 온실가스 효과는 20배 이상이지만. 메탄은 주로 미생물이 유기 물질을 분해할 때 생기는데, 화석 연료 사용이나 폐기물 배출, 가축 사육 등 인간의 여러 활동으로 생성돼. 서울대에서 만든 온실가스 역추적 모델을 쓰면 양돈 축사가 밀집된 지역, 오랜 기간 방치된 쓰레기 산, 산업 단지 등에서 메탄이 고농도로 배출되고 있다는 결과를 확인할 수 있지.",
+            "turn_id": "BK22006808-5",
+            "utterance_id": "BK22006808.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배출 원인이 전부 우리 생활과 밀접한 연관이 있는 것들이라 해결하기가 더 힘든 것 같네. 메탄을 없앨 수 있는 방법은 없는 걸까?",
+            "turn_id": "BK22006808-6",
+            "utterance_id": "BK22006808.11"
+        },
+        {
+            "reference_date": "2021-11-17",
+            "reference_text": [
+                {
+                    "value": "자연적으로 발생하는 ‘수산화 라디칼(hydroxyl radical)’은 대기 중의 메탄을 분해한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실험에 따르면, 햇볕이 바다 위로 비칠 때 생기는 소금 줄기 위로 ‘철분(iron)’을 뿌리면 생성되는 많은 양의 수산화 라디칼이 만들어진다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구자들은 이 같은 대양 환경에서 쉽고 안정적으로 철분을 공급해 수산화 라디칼을 대량으로 생산해 메탄을 분해하는 기술을 시도하고 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%8C%80%EA%B8%B0-%EC%86%8D-%EB%A9%94%ED%83%84%EC%9D%84-%EC%9E%A1%EC%95%84%EB%82%B4%EB%8A%94-%EA%B8%B0%EC%88%A0-%EC%84%B1%EA%B3%B5%ED%95%A0%EA%B9%8C/",
+            "search_query": "메탄 포집 기술",
+            "terminate": false,
+            "text": "자연적으로 발생하여 대기 중의 메탄이 분해하는 수산화 라디칼을 예로 들어 볼게. 한 실험 결과에 따르면, 태양 광선이 바닷물 위로 내리쬘 때 생기는 소금 줄기 위로 철분을 뿌릴 경우 많은 양의 수산화 라디칼이 생성되지. 이것을 활용하여 대양 환경에서 철분을 안정적이고 쉽게 공급해 수산화 라디칼을 대량으로 만들어 내고, 메탄을 분해하는 기술을 연구자들이 시도 중이야.",
+            "turn_id": "BK22006808-6",
+            "utterance_id": "BK22006808.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 시도들이 얼른 좋은 결과를 보이면 좋겠네. 그런데 지금도 지구의 기온이 계속 오르고 있다면 말이야, 기온이 어느 정도 오를 때까지 괜찮은 걸까? 일종의 마지노선 같은 것이 있는 걸까?",
+            "turn_id": "BK22006808-7",
+            "utterance_id": "BK22006808.13"
+        },
+        {
+            "reference_date": "2021-11-01",
+            "reference_text": [
+                {
+                    "value": "기후과학자들이 가장 바람직한 온난화 시나리오로 꼽는 건 '1.5도 이내' 모델 경로다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2100년까지 지구 평균기온이 산업화 이전 수준보다 1.5도 이상 높아져선 안 된다는 설정이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구 기온이 산업화 이전보다 2도 상승하면, 1.5도 상승했을 때보다 해수면이 10㎝는 더 높아져 인구 1,000만 명이 삶의 터전을 잃을 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물 부족 인구도 최대 50% 늘어날 전망이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1.5도 상승 시에는 100년에 한 번 해빙하는 북극이, 2도 상승 시에는 10년에 한 번꼴로 녹아내려 복원도 불가능해진다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021110110530003571",
+            "search_query": "기후 위기 1.5도",
+            "terminate": false,
+            "text": "기후과학자들이 지구 온난화 시나리오 중 가장 바람직한 것으로 꼽는 것은 1.5도 이내 모델이야. 지구의 평균 기온이 2100년까지 산업화 이전보다 1.5도 이상 올라가서는 안 된다는 것이지. 산업화 이전에 비해 기온이 2도 올라가면 1.5도 상승했을 때보다 해수면이 10센티미터는 더 올라가게 되고, 천만 명의 인구가 살아갈 터전을 잃을 수 있거든. 물 부족을 겪는 인구도 최대 50% 늘어날 것이라고 예상되고. 게다가 지구 기온이 1.5도 상승했을 때는 북극이 100년에 한 번 해빙하는 데 비해, 2도 오를 경우 10년에 한 번씩 녹기 때문에 복원이 불가능해지지.",
+            "turn_id": "BK22006808-7",
+            "utterance_id": "BK22006808.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수치를 듣기만 해도 정말 끔찍한걸. 이 정도면 인류의 존망이 걸린 문제 같은데, 세계의 각 나라가 힘을 합쳐서 무언가 해야 하는 것 아닐까?",
+            "turn_id": "BK22006808-8",
+            "utterance_id": "BK22006808.15"
+        },
+        {
+            "reference_date": "2021-11-04",
+            "reference_text": [
+                {
+                    "value": "미국과 유럽연합(EU)이 오는 2030년까지 메탄가스 배출량을 줄이기 위한 글로벌 파트너십을 발표했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 서약에는 전 세계 메탄가스의 배출량을 2020년 대비 30% 감축하는 계획안 등이 포함됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난 9월 미국과 유럽연합이 처음 제안한 이 서약에 한국을 포함한 100개국 이상이 서명했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/international-59151349",
+            "search_query": "메탄 감축안",
+            "terminate": false,
+            "text": "일단 유럽연합과 미국이 2030년까지 메탄가스 배출량을 줄이기 위해 글로벌 파트너십을 발표하긴 했어. 전 세계에서 나오는 메탄가스 배출량을 2020년 대비 30% 감축하자는 계획안 등이 서약에 포함됐고. 서약은 2021년 9월에 유럽연합과 미국에 의해 처음 제안되었는데, 100개국 이상이 서명했지. 물론 한국도 포함해서.",
+            "turn_id": "BK22006808-8",
+            "utterance_id": "BK22006808.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 그런 협약이라도 이루어지고 있다니, 그나마 다행이네. 각 나라에서 심각성을 인지하고 있다는 뜻이니 말이야.",
+            "turn_id": "BK22006808-9",
+            "utterance_id": "BK22006808.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이야. 한 개인이나 한 나라의 문제가 아닌 전 지구적인 문제이니만큼 꼭 극복할 수 있으면 좋겠어.",
+            "turn_id": "BK22006808-9",
+            "utterance_id": "BK22006808.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참, 조만간 지구 온난화 극복에 관한 세미나라도 찾아서 들어볼까 하는데, 같이 갈래? 일정 정해지면 내가 연락할게.",
+            "turn_id": "BK22006808-10",
+            "utterance_id": "BK22006808.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "오, 그거 정말 좋은 생각인걸. 나도 같이 가고 싶어. 그럼 연락 기다리고 있을게, 조만간 또 보자.",
+            "turn_id": "BK22006808-10",
+            "utterance_id": "BK22006808.20"
+        }
+    ]
+}

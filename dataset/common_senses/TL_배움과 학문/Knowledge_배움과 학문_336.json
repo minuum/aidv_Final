@@ -1,0 +1,369 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001463",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001463",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 신문을 보는데 국제 정세가 정말 갈수록 알 수 없게 흘러가더라고요.",
+            "turn_id": "BK22001463-1",
+            "utterance_id": "BK22001463.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 예측 불가능한 사건들이나 위험들이 요즘 너무 많아서 다들 긴장 상태일 거예요.",
+            "turn_id": "BK22001463-1",
+            "utterance_id": "BK22001463.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 좀 공부를 해야 할 거 같긴 한데, 모르는 용어들이 너무 많아서 힘들어요. 얼마 전에는 러시아가 결국 디폴트 위험에 놓였다는 기사를 봤는데, 이 디폴트가 혹시 무슨 뜻인지 아세요? 경제 용어인 거 같더라고요.",
+            "turn_id": "BK22001463-2",
+            "utterance_id": "BK22001463.3"
+        },
+        {
+            "reference_date": "2022-01-01",
+            "reference_text": [
+                {
+                    "value": "민법상 채무 불이행을 의미하며, 국가부도를 의미하기도 한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%94%94%ED%8F%B4%ED%8A%B8",
+            "search_query": "디폴트 정의",
+            "terminate": false,
+            "text": "한 국가가 겪는 디폴트를 말씀하시는 거라면, 국가부도를 의미하는 거예요. 민법상으로는 채무 불이행을 의미하기도 하죠.",
+            "turn_id": "BK22001463-2",
+            "utterance_id": "BK22001463.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 그러면 지금 러시아가 국가부도 위기에 처했다는 거네요?",
+            "turn_id": "BK22001463-3",
+            "utterance_id": "BK22001463.5"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "이번 채무불이행(디폴트)은 러시아의 지불 능력에 관계없이 서방 국가들의 경제 제재에 따른 것이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "러시아나 세계경제에 대한 영향은 제한적일 것으로 전망된다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.khan.co.kr/world/world-general/article/202206270842001#c2b",
+            "search_query": "러시아 국가부도",
+            "terminate": false,
+            "text": "네, 다만 이번 디폴트의 경우에는 러시아의 지급 능력이 원인이라기보단, 서방 국가들의 경제 제재 때문에 발생한 것으로 봐야해요. 그렇다 보니 이번 디폴트가 글로벌 경제나 러시아 본국에 미칠 영향은 미미할 거라 예상할 수 있죠.",
+            "turn_id": "BK22001463-3",
+            "utterance_id": "BK22001463.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영향이 없다면 제재 자체가 거의 무의미한 것 아닌가요? 그렇다면 이 디폴트가 러시아나 다른 국가에 미칠 수 있는 악영향은 딱히 없다고 생각해도 되나요?",
+            "turn_id": "BK22001463-4",
+            "utterance_id": "BK22001463.7"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "러시아 자국은 고공행진 중인 원유 판매로 버티고 있지만 불똥이 신흥국들에 번질 위험이 크다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "컨설팅 업체인 매크로어드바이저리의 러시아 전문가 크리스 위퍼는 AP통신에 \"(러시아 디폴트 때문에) 다른 신흥국이 디폴트에 빠질 가능성이 상당하다\"고 말했다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도미노 디폴트 위험이 커졌다는 해석이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202207041834155254",
+            "search_query": "러시아 디폴트 악영향",
+            "terminate": false,
+            "text": "지금은 미미할지 몰라도, 장기적으로 보면 그렇지 않아요. 이 디폴트를 계기로 다른 신흥국도 마치 도미노처럼 디폴트 위험에 빠질 수 있거든요. 당사자인 러시아는 현재 원유 가격이 치솟은 덕분에 버티고 있지만, 이 여파가 자칫하다간 신흥국 쪽에도 번질 수 있기 때문이죠. 러시아 전문가이자, 컨설팅 업체 매크로어드바이저리 소속의 크리스 위퍼 또한 이와 같은 입장이에요.",
+            "turn_id": "BK22001463-4",
+            "utterance_id": "BK22001463.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 그게 돌고 돌아서 또 러시아에도 영향을 줄 수도 있겠네요. 혹시 러시아의 디폴트 선언이 우리나라에도 영향을 줄 수 있을까요?",
+            "turn_id": "BK22001463-5",
+            "utterance_id": "BK22001463.9"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "정부 관계자는 “우리나라 은행들이 전쟁 발발 이후 러시아와의 금융 거래를 많이 정리했다”며 “이 때문에 다른 국가보다 러시아 디폴트의 직접적인 충격이 크지 않을 것”이라고 말했다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기에 애초 우리나라는 러시아와의 무역 거래 비중도 크지 않은 편이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "재계 관계자는 “국내 경제의 러시아 교역 비중은 2%에 불과하다”고 말했다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/finance/1048662.html",
+            "search_query": "우리나라 국가부도 가능성",
+            "terminate": false,
+            "text": "국내의 재계 관리자 및 정부 관계자의 의견을 인용하자면, 딱히 그렇진 않아요. 애초의 우리나라와 러시아의 교역 비중이 2퍼센트 정도밖에 되지 않을 정도로 낮았거든요. 덕분에 타국과 비교했을 때 우리나라가 당장 맞닥뜨려야 할 충격은 그렇게 크지 않을 확률이 높아요. 심지어, 전쟁이 터진 이후로 대한민국의 은행이 러시아와의 금융 거래를 이미 대부분 정리해두기도 했고요.",
+            "turn_id": "BK22001463-5",
+            "utterance_id": "BK22001463.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빠른 대처를 했다니 다행이긴 한데, 생각해보니 우리나라도 예전에 국가부도 상황을 맞이한 적 한 번 있지 않았어요? 부모님이나 선배분들 이야기 들어보니까 엄청 무시무시했던 거 같은데요.",
+            "turn_id": "BK22001463-6",
+            "utterance_id": "BK22001463.11"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "이처럼 힘든 요즘 문득 1997년 있었던 ‘IMF(국제통화기금) 사태’가 자연스럽게 떠오른다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.financialreview.co.kr/news/articleView.html?idxno=22203",
+            "search_query": "대한민국 국가부도",
+            "terminate": false,
+            "text": "IMF 사태, 그러니까 국제통화기금 사태를 말씀하시는 거 같네요. 1997년에 발생했던 사건이었잖아요.",
+            "turn_id": "BK22001463-6",
+            "utterance_id": "BK22001463.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 맞아요, IMF 금융위기를 말하는 거였어요. 그런데 우리나라에서는 이게 왜 발생한 거에요?",
+            "turn_id": "BK22001463-7",
+            "utterance_id": "BK22001463.13"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "28년 전인 1994년 자이언트 스텝을 밟았고, 결국 아시아금융위기가 도래하면서 우리나라도 IMF 사태가 일어났다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.financialreview.co.kr/news/articleView.html?idxno=22285",
+            "search_query": "한국 IMF 발생 원인",
+            "terminate": false,
+            "text": "사실 당시 금융위기를 맞이했던 게 한국뿐만은 아니었어요. 1994년에 자이언트 스텝을 단행했는데, 이거 때문에 아시아 전반적인 금융에 위기가 도래했고, 결과적으로 한국에서 IMF가 발생한 거죠.",
+            "turn_id": "BK22001463-7",
+            "utterance_id": "BK22001463.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 자이언트 스텝은 최근에도 많이 사용되는 용어던데요? 이건 정확히 뭘 의미하는 거에요?",
+            "turn_id": "BK22001463-8",
+            "utterance_id": "BK22001463.15"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "40년만의 최악의 인플레이션을 겪고 있는 미국이 기준금리를 0.75%포인트 올리는 '자이언트 스텝'이란 극약처방을 내렸다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/world/view/2022/06/525648/",
+            "search_query": "자이언트 스텝 뜻",
+            "terminate": false,
+            "text": "단 한 번에 금리를 0.75퍼센트나 올리는 것을 의미해요. 미국이 40년 만의 최악의 인플레이션을 맞이하게 되면서, 이를 극복하기 위한 수단으로 내놓은 방법이기도 하죠.",
+            "turn_id": "BK22001463-8",
+            "utterance_id": "BK22001463.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 과거엔 미국이 자이언트 스텝으로 금리를 올렸더니 한국에 IMF 국가부도가 났다는 거잖아요? 왜 미국의 금리에 한국이 영향을 받는 거죠?",
+            "turn_id": "BK22001463-9",
+            "utterance_id": "BK22001463.17"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "자이언트 스텝은 미국 소비시장의 급격한 위축을 불러일으켰다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그것은 우리나라로 이야기하면 수출길이 막히게 된다는 것을 의미한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.financialreview.co.kr/news/articleView.html?idxno=22285",
+            "search_query": "자이언트 스텝 IMF 발생 이유",
+            "terminate": false,
+            "text": "자이언트 스텝을 단행하게 되면, 미국의 소비시장은 급격하게 위축되어요. 사람들이 소비를 안한다면, 우리나라 제품을 팔기 더욱 힘들어져서 수출도 잘 안 되겠죠? 이런 식으로 수출길이 막혔던 것도 IMF의 원인 중 하나였어요.",
+            "turn_id": "BK22001463-9",
+            "utterance_id": "BK22001463.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 생각하면 말이 되네요. 결국에는 다 이어져 있는 것 같기도 하고, 예전에 있었던 큼지막한 경제적 사건도 공부해봐야겠다는 생각도 들어요. 혹시 IMF 같은 경제위기를 배경으로 한 영화나 소설은 없을까요?",
+            "turn_id": "BK22001463-10",
+            "utterance_id": "BK22001463.19"
+        },
+        {
+            "reference_date": "2018-12-09",
+            "reference_text": [
+                {
+                    "value": "<국가부도의 날>은 단군 이래 최대의 경제위기로 꼽혔던 1997년 외환위기를 다룬 첫 영화다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://h21.hani.co.kr/arti/society/society_general/46307.html",
+            "search_query": "경제위기 IMF 배경 영화 소설",
+            "terminate": false,
+            "text": "국가부도의 날이라는 제목의 영화가 있어요. 우리나라 사상 최악의 경제위기였던 1997년의 외환위기를 소재로 다룬 최초의 영화이기도 하죠.",
+            "turn_id": "BK22001463-10",
+            "utterance_id": "BK22001463.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금하네요, 한 번 검색해보러 가야겠어요! 흥미로운 작품을 추천해줘서 고마워요.",
+            "turn_id": "BK22001463-11",
+            "utterance_id": "BK22001463.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 혹시 궁금한 게 생기면 언제든 다시 물어보세요.",
+            "turn_id": "BK22001463-11",
+            "utterance_id": "BK22001463.22"
+        }
+    ]
+}

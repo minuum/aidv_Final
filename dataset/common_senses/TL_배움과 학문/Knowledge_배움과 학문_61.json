@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009332",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009332",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딸이 소방공무원 준비하고 싶다고 하는데 걱정이야. 넌 소방공무원이 어떤 건지 알아?",
+            "turn_id": "BK22009332-1",
+            "utterance_id": "BK22009332.1"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "대한민국 소방공무원은 대한민국의 소방공무원법의 적용을 받는 공무원을 말한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화재를 예방·경계하거나 진압하고 화재, 재난·재해, 그 밖의 위급한 상황에서의 구조·구급 활동 등을 통하여 국민의 생명·신체 및 재산을 보호한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%EC%86%8C%EB%B0%A9%EA%B3%B5%EB%AC%B4%EC%9B%90",
+            "search_query": "소방공무원",
+            "terminate": false,
+            "text": "화재를 예방하거나 경계하면서 진압하고 재난이나 재해 같은 위급한 상황에서 구조와 구급 활동을 하면서 국민의 생명과 신체 그리고 재산을 보호하는 대한민국 소방공무원법의 적용을 받는 공무원을 말하는 게 소방공무원이잖아. 딸이 이제 시험 준비하려고 하는 거야?",
+            "turn_id": "BK22009332-1",
+            "utterance_id": "BK22009332.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와 잘 알고 있구나. 응 시험 준비해보고 싶다는데 경쟁률이 너무 높을까?",
+            "turn_id": "BK22009332-2",
+            "utterance_id": "BK22009332.3"
+        },
+        {
+            "reference_date": "2022-03-14",
+            "reference_text": [
+                {
+                    "value": "2022년 신규 소방공무원 채용시험 경쟁률은 9.57대 1로 지난해(10.75대 1)보다 낮아진 것으로 나타났다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://fpn119.co.kr/174660",
+            "search_query": "2022년 소방공무원 경쟁률",
+            "terminate": false,
+            "text": "2022년 신규 소방공무원 채용시험은 경쟁률이 9.57대 1인데 2021년에는 10.75대 1이었거든. 지난해보다는 낮아진 것으로 나타났지.",
+            "turn_id": "BK22009332-2",
+            "utterance_id": "BK22009332.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 거의 10대1이구나. 딸이 하는 말이 경쟁률이 높은 거 같아서 고민 중이라고 하네. 필기시험 과목은 어떤 거 보는지 알아?",
+            "turn_id": "BK22009332-3",
+            "utterance_id": "BK22009332.5"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "지난해까지 국어, 한국사, 영어 필수 3과목과 소방학개론, 행정법총론, 소방관계법규, 사회, 과학, 수학 중 선택 2과목으로 시행했던 소방공무원 공채 필기시험이 올해는 한국사, 영어, 소방학개론, 행정법총론, 소방관계법규 필수 5과목으로 변경 시행됐다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jejutwn.com/news/article.html?no=140969",
+            "search_query": "소방공무원 필기과목",
+            "terminate": false,
+            "text": "올해는 한국사랑 영어 그리고 소방학개론, 행정법총론, 소방관계법규 이렇게 필수 5과목으로 변경되어서 이루어졌는데 2021년까지만 해도 국어, 한국사, 영어 필수 3과목과 소방학개론, 행정법총론, 소방관계법규, 사회, 과학, 수학 중 선택 2과목으로 시행되었었어.",
+            "turn_id": "BK22009332-3",
+            "utterance_id": "BK22009332.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과목 보는 게 조금 바뀌었네. 혹시 가점받을 수 있는 방법도 있을까?",
+            "turn_id": "BK22009332-4",
+            "utterance_id": "BK22009332.7"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "2023년부터 소방공무원 공개경쟁채용시험에서 한국사, 영어 과목이 검정시험으로 대체되면서 직무관련 비중이 강화되고 드론 등 자격 가점이 부여되고 가점은 최종합격자 결정 단계에서 적용하는 것으로 변경된다",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=734427",
+            "search_query": "소방공무원 가점",
+            "terminate": false,
+            "text": "일단 2023년부터 가점은 최종합격자 결정 단계에서 적용하는 것으로 바뀌는데 소방공무원 공개경쟁 채용시험에서 한국사랑 영어 과목이 검정시험으로 대체되거든. 그러면서 직무 관련 비중이 강화되고 드론 등 자격 가점을 받을 수 있어.",
+            "turn_id": "BK22009332-4",
+            "utterance_id": "BK22009332.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소방공무원이 필기시험만 보는 건 아니지? 전체적으로 어떤 시험들을 거쳐야 최종 합격 할 수 있는 거야?",
+            "turn_id": "BK22009332-5",
+            "utterance_id": "BK22009332.9"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "전체 시험은 1차 필기, 2차 체력, 3차 신체검사, 4차 면접시험으로 나뉘며 응시자격은 18세 이상 40세 이하로 군복무기간이 1년 미만이면 1세, 1년 이상에서 2년 미만이면 2세, 2년 이상이라면 3세까지 응시 자격이 늘어난다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedrive.co.kr/news/newsview.php?ncode=1065597086382513",
+            "search_query": "소방공무원 전체시험",
+            "terminate": false,
+            "text": "1차는 필기시험이 있고 그리고 2차는 체력이야. 그리고 3차는 신체검사 마지막 4차 면접시험으로 나뉘어져 있어.",
+            "turn_id": "BK22009332-5",
+            "utterance_id": "BK22009332.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2차가 바로 체력검사였구나. 체력검사 보는 종목이 뭔지 알려줄 수 있어?",
+            "turn_id": "BK22009332-6",
+            "utterance_id": "BK22009332.11"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "체력시험 종목은 악력, 배근력, 앉아윗몸앞으로굽히기, 제자리멀리뛰기, 윗몸일으키기, 왕복오래달리기 등 6가지다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220916153200530?input=1195m",
+            "search_query": "소방공무원 체력시험 종목",
+            "terminate": false,
+            "text": "체력시험 종목은 6가지인데 악력과 배근력 그리고 앉아윗몸앞으로굽히기와 제자리멀리뛰기, 윗몸일으키기, 왕복오래달리기가 있어.",
+            "turn_id": "BK22009332-6",
+            "utterance_id": "BK22009332.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 필기시험이나 체력시험 같은 각각의 시험들이 비중이 얼마나 되는지 아니?",
+            "turn_id": "BK22009332-7",
+            "utterance_id": "BK22009332.13"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "18일 소방청은 공개경쟁채용시험의 최종합격자 선정 시 '필기 75%·체력 15%·면접 10%'를 반영하던 것을 2023년부터 '필기 50%·체력 25%·면접 25%'로 조정하기로 했다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220916153200530?input=1195m",
+            "search_query": "소방공무원시험 비중",
+            "terminate": false,
+            "text": "2023년부터는 소방청에서 공개경쟁 채용시험의 최종합격자 선정할 때 필기를 50% 그리고 체력 25%, 면접 25%로 바꾸기로 했어. 원래는 필기가75%, 체력 15%, 면접 10%가 반영되었었지.",
+            "turn_id": "BK22009332-7",
+            "utterance_id": "BK22009332.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 우리 딸 체력이 좋은 편은 아닌데 딸 입장에서는 좋게 바뀐 건 아니네. 시험 볼 때 나이 제한 같은 거 있으려나?",
+            "turn_id": "BK22009332-8",
+            "utterance_id": "BK22009332.15"
+        },
+        {
+            "reference_date": "2020-02-06",
+            "reference_text": [
+                {
+                    "value": "응시 나이는 공개경쟁으로 선발하는 소방분야는 18세 이상 40세 이하, 경력경쟁채용은 20세 이상 40세 이하면 응시할 수 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5284723",
+            "search_query": "소방공무원 채용나이제한",
+            "terminate": false,
+            "text": "공개경쟁으로 선발하는 소방 분야에서는 응시 나이가 18세 이상 40세 이하이고 경력경쟁 채용은 20세 이상 40세 이하면 응시가 가능해.",
+            "turn_id": "BK22009332-8",
+            "utterance_id": "BK22009332.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나이 제한이 있기 하구나. 와 오늘 진짜 많이 배워간다.",
+            "turn_id": "BK22009332-9",
+            "utterance_id": "BK22009332.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었나 모르겠다. 딸은 시험은 준비하기로 마음 먹은 상태야?",
+            "turn_id": "BK22009332-9",
+            "utterance_id": "BK22009332.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니 조금 더 고민해 봐야 할 것 같다고 하네. 나도 잠깐 나가서 머리 좀 식히고 올게.",
+            "turn_id": "BK22009332-10",
+            "utterance_id": "BK22009332.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래 신중하게 선택하는 게 좋지. 응, 그럼 조심히 다녀와.",
+            "turn_id": "BK22009332-10",
+            "utterance_id": "BK22009332.20"
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013094",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013094",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 TV를 틀었더니 북극곰이 나오더라고요. 오늘은 북극곰에 대해 좀 가르쳐주세요.",
+            "turn_id": "BK22013094-1",
+            "utterance_id": "BK22013094.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 무엇이든 제게 물어보세요.",
+            "turn_id": "BK22013094-1",
+            "utterance_id": "BK22013094.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 먼저 북극곰에 대한 기본 정보부터 알려주세요.",
+            "turn_id": "BK22013094-2",
+            "utterance_id": "BK22013094.3"
+        },
+        {
+            "reference_date": "43521.0",
+            "reference_text": [
+                {
+                    "value": "북극곰(Polar Bear)은 알래스카(미국), 캐나다, 그린란드(덴마크), 러시아, 스발바르 제도(노르웨이) 등 북극 지방에 퍼져 사는 포유류다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "섬 또는 툰드라, 대륙의 해안에 서식한다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북극곰은 다른 불곰 종류인 코디액곰(Kodiak Bear)과 함께 세계에서 가장 큰 곰이다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸무게는 수컷 300~800kg 암컷 150~500kg이고, 25~30년을 산다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=878194",
+            "search_query": "북극곰 북극 지방",
+            "terminate": false,
+            "text": "북극곰은 서식지가 북극 지대에 분포된 포유류인데요. 알래스카, 캐나나, 덴마크 그린란드, 러시아, 노르웨이 스발바르 등지에서 대륙해안이나 섬, 또는 툰드라에서 삽니다. 다른 불곰의 일종인 코디 액곰과 더불어 지구에서 가장 몸집이 크고요. 수컷의 몸무게가 300에서 800킬로그램 암컷의 몸무게가 150에서 500킬로그램이고, 수명은 25년에서 30년 정도입니다.",
+            "turn_id": "BK22013094-2",
+            "utterance_id": "BK22013094.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름 그대로 북극 지방에 사는군요. 북극곰은 주로 무엇을 먹고사나요?",
+            "turn_id": "BK22013094-3",
+            "utterance_id": "BK22013094.5"
+        },
+        {
+            "reference_date": "43521.0",
+            "reference_text": [
+                {
+                    "value": "북극곰은 잡식성이지만 곰 중에서 유일하게 육식 위주의 식성을 가졌다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "북극해의 해빙 위에서 주식인 바다표범을 사냥하고, 물고기 바닷새 순록도 잡아먹는다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먹이가 없을 때는 포도, 머루, 다래 등 나무열매와 해초를 먹는다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=878194",
+            "search_query": "북극곰 육식 식성",
+            "terminate": false,
+            "text": "북극곰이 잡식성이기는 해도, 곰과 동물 중에서는 유일하게 육식 위주로 먹는 특성이 있는데요. 북극해의 바다 얼음 위에서 주 먹잇감인 바다표범을 잡아먹고, 물고기나 바닷새 그리고 순록도 사냥해 먹습니다. 먹잇감이 부족할 때는 포도나 머루 같은 나무 열매와 해초를 섭취하고요.",
+            "turn_id": "BK22013094-3",
+            "utterance_id": "BK22013094.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 북극곰은 바다표범을 어떤 방식으로 사냥해 먹나요?",
+            "turn_id": "BK22013094-4",
+            "utterance_id": "BK22013094.7"
+        },
+        {
+            "reference_date": "44293.0",
+            "reference_text": [
+                {
+                    "value": "가장 많이 이용하는 사냥방법은 뛰어난 후각을 활용해 얼음판에서 바다표범의 숨구멍을 찾아 조용히 웅크리고 기다리는 것이다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한참을 기다리다 숨을 쉬려 머리를 내밀면 순간적으로 앞발로 낚아채 얼음판으로 끌어내 머리를 물어 죽인다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24029790#home",
+            "search_query": "북극곰 바다표범",
+            "terminate": false,
+            "text": "제일 흔한 사냥 방식은 뛰어난 후각으로 얼음판에서 바다표범의 숨구멍을 포착해 조용히 웅크린 채 대기하고 있는 것입니다. 오랜 시간을 기다리고 있다가 바다표범이 호흡하려 머리를 밖으로 내밀면, 그 순간 앞발로 낚아채 얼음판 위로 끌어내고 바다표범의 머리를 물어 숨통을 끊습니다.",
+            "turn_id": "BK22013094-4",
+            "utterance_id": "BK22013094.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 영리한 사냥 방식이군요. 그건 그렇고 해빙이 보통 바다 위를 떠다니니까 수영 실력도 보통이 아닐 것 같아요. 북극곰은 헤엄을 얼마나 잘 치나요?",
+            "turn_id": "BK22013094-5",
+            "utterance_id": "BK22013094.9"
+        },
+        {
+            "reference_date": "43521.0",
+            "reference_text": [
+                {
+                    "value": "태어난 후에 대부분의 시간을 바다에서 보내는 북극곰은 대표적인 해양 포유류로, 수영에 능숙해 100km까지도 헤엄칠 수 있다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=878194",
+            "search_query": "북극곰 수영",
+            "terminate": false,
+            "text": "북극곰은 대표적인 해양 포유류로 분류되고, 출생 후에 거의 모든 시간을 바다에서 지내는데요. 수영을 매우 잘해서 헤엄쳐서 갈 수 있는 거리가 100킬로미터에 달합니다.",
+            "turn_id": "BK22013094-5",
+            "utterance_id": "BK22013094.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 100킬로미터나 헤엄을 칠 수 있다고요? 그런데 북극의 바다면 얼음물이라 아주 차가울 텐데, 어떻게 버틸 수 있는 거죠?",
+            "turn_id": "BK22013094-6",
+            "utterance_id": "BK22013094.11"
+        },
+        {
+            "reference_date": "41609.0",
+            "reference_text": [
+                {
+                    "value": "우선 피하지방층이 두꺼워 체온 손실이 거의 없다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피부에는 보온이 잘 되는 촘촘하게 난 짧은 털과 방수가 잘 되는 긴 털이 두 개의 층을 이루고 있다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털 속의 빈 공간에는 공기가 채워져 있어 단열효과를 높일 수 있다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013112908423548485",
+            "search_query": "북극곰 피부",
+            "terminate": false,
+            "text": "먼저 피하 지방층이 두껍다 보니, 체온이 거의 떨어지지 않습니다. 게다가 북극곰의 피부에 난 털이 두 개의 층으로 구성돼 있는데, 하나는 촘촘하게 나 있으며 보온이 잘 되는 짧은 털이고 다른 하나는 방수가 잘 되는 긴 털입니다. 털 안에 비어있는 공간에는 공기가 차 있는데, 이는 단열효과를 증대시켜 주고요.",
+            "turn_id": "BK22013094-6",
+            "utterance_id": "BK22013094.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 북극곰의 털과 피부가 방한 및 방수 기능이 있는 거군요. 그건 그렇고 북극곰은 어떻게 번식을 하나요?",
+            "turn_id": "BK22013094-7",
+            "utterance_id": "BK22013094.13"
+        },
+        {
+            "reference_date": "43521.0",
+            "reference_text": [
+                {
+                    "value": "또한 4~5월에 짝짓기를 해서 12월 하순~1월에 1∼2마리의 새끼를 낳는다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷은 출산 전 원래 몸무게의 두 배까지 지방을 저장해 눈 속에 깊게 판 구멍에다 새끼를 낳는다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷의 도움 없이 암컷이 새끼를 키운다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=878194",
+            "search_query": "북극곰 새끼 암컷",
+            "terminate": false,
+            "text": "4월에서 5월 사이에 암수가 짝짓기를 해서, 12월 하순부터 1월 사이에 암컷이 한두 마리의 새끼를 출산합니다. 암컷은 새끼를 낳기 전에 원래 무게의 두 배까지 지방을 축적해서, 눈 속 깊숙이 판 구덩이에다 새끼를 출산하고요. 수컷의 도움을 받지 않고, 암컷 혼자 새끼를 양육합니다.",
+            "turn_id": "BK22013094-7",
+            "utterance_id": "BK22013094.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추위에 잘 견디다 보니, 눈 속에 새끼를 낳는군요. 그런데 제가 듣기로는 북극곰이 멸종 위기에 처해있다 들었어요. 지금 대체 어떤 상황인가요?",
+            "turn_id": "BK22013094-8",
+            "utterance_id": "BK22013094.15"
+        },
+        {
+            "reference_date": "44616.0",
+            "reference_text": [
+                {
+                    "value": "포유류인 북극곰은 세계자연보전연맹(IUCN)의 위기종 적색목록에서 ‘취약’ 등급으로 분류된 대표적 멸종 위기 동물이다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세계자연보전연맹 북극곰 전문가 그룹은 북극곰 생존의 가장 큰 위협으로 ‘기후 변화로 인한 해빙 손실’을 꼽았다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/because/1032305.html",
+            "search_query": "북극곰 멸종",
+            "terminate": false,
+            "text": "네, 포유류인 북극곰은 멸종 위기에 처해있는 대표적인 동물인데요. 세계자연보전연맹이 발표한 위기종 적색 목록에서 취약 등급으로 등재되어 있습니다. 세계자연보전연맹 북극곰 전문가 그룹에 따르면, 기후 변화에 따른 해빙 손실이 북극곰의 생존을 가장 위협하는 요인이고요.",
+            "turn_id": "BK22013094-8",
+            "utterance_id": "BK22013094.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 그런데 제가 어디서 들은 바로는 북극곰 사냥이 허용되는 나라가 있다던데요?",
+            "turn_id": "BK22013094-9",
+            "utterance_id": "BK22013094.17"
+        },
+        {
+            "reference_date": "43843.0",
+            "reference_text": [
+                {
+                    "value": "미국, 노르웨이, 러시아, 덴마크는 북극곰 사냥을 금지했지만 캐나다에서는 합법적이다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국제 사파리 클럽(Safari Club International)은 북극곰 사냥을 7만 2000달러에 제공한다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://thescienceplus.com/news/newsview.php?ncode=1065592625482066&dt=m",
+            "search_query": "북극곰 사냥",
+            "terminate": false,
+            "text": "네, 맞습니다. 북극곰 사냥이 금지된 미국, 노르웨이, 러시아, 덴마크와 달리 캐나다에서는 허용되고 있습니다. 국제 사파리 클럽에 7만 2천 달러를 내면 북극곰을 사냥할 수 있고요.",
+            "turn_id": "BK22013094-9",
+            "utterance_id": "BK22013094.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가뜩이나 기후 위기로 고생하는데, 인간으로서 참 미안하네요. 오늘도 덕분에 좋은 말씀 잘 들었습니다. 저는 이만 가 볼게요!",
+            "turn_id": "BK22013094-10",
+            "utterance_id": "BK22013094.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 댁까지 조심히 들어가세요!",
+            "turn_id": "BK22013094-10",
+            "utterance_id": "BK22013094.20"
+        }
+    ]
+}

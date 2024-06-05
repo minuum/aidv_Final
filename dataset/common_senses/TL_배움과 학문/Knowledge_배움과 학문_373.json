@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013774",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013774",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 부동산 재건축 관련 신문 기사를 봤는데 모르는 내용이 너무 많더라고요.",
+            "turn_id": "BK22013774-1",
+            "utterance_id": "BK22013774.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모르는 게 있으면 뭐든 물어보세요.",
+            "turn_id": "BK22013774-1",
+            "utterance_id": "BK22013774.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부동산 관련 기사에서 용적률과 관련된 내용이 많이 나와서 그러는데요. 용적률이 무엇을 의미하는지 알려주세요.",
+            "turn_id": "BK22013774-2",
+            "utterance_id": "BK22013774.3"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "용적률(容積率)은 건축 용어로 전체 대지면적에 대한 건물 연면적의 비율을 뜻하며 백분율로 표시한다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "용적률이 높을수록 건축할 수 있는 연면적이 많아져 건축밀도가 높아지므로, 적정 주거환경을 보장하기 위하여 용적률의 상한선을 지정한다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%A9%EC%A0%81%EB%A5%A0",
+            "search_query": "용적률",
+            "terminate": false,
+            "text": "전체 대지면적에 대한 건물 연면적의 비율을 건축 용어로 용적률이라고 해요. 용적률은 백분율로 표시하는데요, 용적률이 높으면 높을수록 건축할 수 있는 연면적이 많아져 건축 밀도가 높아지기 때문에 주거환경의 적정성 보장을 위해 용적률에도 상한선을 둬요.",
+            "turn_id": "BK22013774-2",
+            "utterance_id": "BK22013774.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "용적률이 너무 높으면 쾌적한 느낌이 적겠네요. 그런데 아까 말씀에서 연면적이라고 설명하셨는데, 연면적이라는 말은 무엇을 의미하나요?",
+            "turn_id": "BK22013774-3",
+            "utterance_id": "BK22013774.5"
+        },
+        {
+            "reference_date": "44678.0",
+            "reference_text": [
+                {
+                    "value": "연면적은 지하층을 제외한 건물 지상층의 면적을 모두 합한 것으로, 용적률이 높을수록 동일한 대지 면적에 지을 수 있는 연면적이 넓어져 주택 공급도 늘어난다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/011/0004047460?sid=101",
+            "search_query": "연면적",
+            "terminate": false,
+            "text": "지하층을 제외한 건물 지상층의 면적을 모두 더한 것을 연면적이라고 해요. 용적률이 높아질수록 동일한 대지면적에 지을 수 있는 연면적도 넓어지기에 공급할 수 있는 주택 수도 늘어나게 되는 거고요.",
+            "turn_id": "BK22013774-3",
+            "utterance_id": "BK22013774.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 한 가지 궁금한 게 있는데요. 용적률 관련 기사를 보면 건폐율 이야기가 매번 함께 나오던데 건폐율은 무엇을 의미하나요?",
+            "turn_id": "BK22013774-4",
+            "utterance_id": "BK22013774.7"
+        },
+        {
+            "reference_date": "44506.0",
+            "reference_text": [
+                {
+                    "value": "건축법상 건폐율은 대지면적에 대한 건축면적 비율입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대지면적 중 건물이 지어지는 부분이 얼마나 되느냐를 나타내는 비율이죠.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대지에 건축물이 둘 이상 있는 경우에는 각 건축물 면적을 합한 비율을 건폐율로 봅니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1479285",
+            "search_query": "건폐율",
+            "terminate": false,
+            "text": "대지면적에 대한 건축면적 비율을 건축법상 건폐율이라고 불러요. 대지면적 중에서 건물이 지어지는 부분이 얼마나 되는지 나타내는 비율이에요. 한 대지에 건축물이 둘 이상인 경우는 모든 건축물 면적을 더한 비율을 건폐율로 보죠.",
+            "turn_id": "BK22013774-4",
+            "utterance_id": "BK22013774.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명을 들으니 조금씩 이해가 되네요. 또 궁금한 게 있는데, 부동산 광고나 신문 기사를 보면 전용면적이라는 단어가 항상 나오던데요. 전용면적이라는 말은 어떤 의미인가요?",
+            "turn_id": "BK22013774-5",
+            "utterance_id": "BK22013774.9"
+        },
+        {
+            "reference_date": "44184.0",
+            "reference_text": [
+                {
+                    "value": "우선, 전용면적은 아파트 등 공동주택의 소유주가 독점해 사용하는 면적을 말합니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거실과 주방, 욕실, 화장실과 같은 세대 내부 면적을 말합니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발코니는 전용면적에서 제외됩니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0010250932?sid=101",
+            "search_query": "전용면적",
+            "terminate": false,
+            "text": "아파트를 비롯한 공동주택의 소유주가 독점해 사용하는 면적을 전용면적이라고 해요. 거실이나 욕실, 화장실, 주방 등 같은 세대의 내부 면적을 칭하는데, 발코니의 경우 전용면적에 포함되지 않아요.",
+            "turn_id": "BK22013774-5",
+            "utterance_id": "BK22013774.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세대 내부 면적을 전용면적이라고 하는군요. 그러면 건축 용어 중 공용면적은 어떤 뜻인가요?",
+            "turn_id": "BK22013774-6",
+            "utterance_id": "BK22013774.11"
+        },
+        {
+            "reference_date": "44184.0",
+            "reference_text": [
+                {
+                    "value": "공용면적은 여러 세대가 한 건축물에서 공동으로 사용하는 공간을 말합니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공용면적은 주거 공용면적과 기타 공용면적으로 나뉩니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주거 공용면적은 건물 출입 현관, 계단, 복도, 엘리베이터가 대표적입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기타 공용면적은 주거 공용면적을 제외한 시설물로, 지하층, 관리사무소, 노인정, 커뮤니티시설, 보육(유치원) 시설 등을 말합니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0010250932?sid=101",
+            "search_query": "공용면적",
+            "terminate": false,
+            "text": "여러 세대가 같은 건축물에서 공동으로 사용하는 공간을 공용면적이라고 불러요. 공용면적은 다시 주거 공용면적과 기타 공용면적으로 나뉘는데요, 건물 출입 현관이나 복도, 계단, 엘리베이터 등이 주거 공용면적이고요. 주거 공용면적을 제외한 나머지 시설물, 예를 들어 지하층이나 노인정, 관리사무소, 보육 시설, 커뮤니티시설 등을 기타 공용면적이라고 칭합니다.",
+            "turn_id": "BK22013774-6",
+            "utterance_id": "BK22013774.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공용면적에 다양한 시설이 포함되는 거였네요. 그러면 공급면적이라는 건 어떤 의미인가요? 아파트 광고를 보면 항상 등장하더라고요.",
+            "turn_id": "BK22013774-7",
+            "utterance_id": "BK22013774.13"
+        },
+        {
+            "reference_date": "44184.0",
+            "reference_text": [
+                {
+                    "value": "공급면적(분양면적)은 전용면적과 공용면적을 모두 합친 것으로, 분양가를 산정할 때 쓰입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거실과 주방, 침실, 욕실 등 생활공간과 이웃들과 함께 쓰는 계단과 복도, 현관까지 모두 포함됩니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통상적으로 아파트 평수를 말할 때 쓰이는 면적입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실 거주면적(전용면적)은 공급면적에서 공용면적을 제외한 부분입니다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0010250932?sid=101",
+            "search_query": "공급면적",
+            "terminate": false,
+            "text": "전용면적과 공용면적을 모두 합친 게 공급면적인데요, 분양 면적이라고도 불러요. 공급면적은 분양가를 책정할 때 사용되는데요, 거실이나 침실, 주방, 욕실 등 생활공간을 비롯해 이웃과 함께 사용하는 복도, 계단, 현관 등까지 포함하죠. 일반적으로 아파트 평수를 말할 때 공급면적으로 말하는데, 실거주 면적, 이른바 전용면적은 공급면적에서 공용면적을 제외한 부분을 말해요.",
+            "turn_id": "BK22013774-7",
+            "utterance_id": "BK22013774.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 한 가지 궁금한 게 있는데요. 재건축 사업에서는 대지 지분이 굉장히 중요하다고 하던데 대지 지분은 어떤 의미인가요?",
+            "turn_id": "BK22013774-8",
+            "utterance_id": "BK22013774.15"
+        },
+        {
+            "reference_date": "44654.0",
+            "reference_text": [
+                {
+                    "value": "대지지분은 아파트 전체 단지의 대지면적을 가구수로 나눈 대지의 몫으로 각 세대가 현재 가지고 있는 토지 소유분을 말한다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아파트의 대지면적은 넓은 데 비해 세대수와 면적이 적고 좁을수록 대지지분은 늘어나게 된다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 대지지분이 많다는 것은 용적률이 낮아서 더 많은 아파트를 신축할 수 있다는 뜻이다",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0005180685?sid=101",
+            "search_query": "대지지분",
+            "terminate": false,
+            "text": "각 세대가 가지고 있는 토지 소유분을 의미하는데요, 아파트 전체 단지 대지면적을 가구 수로 나눈 대지의 몫입니다. 대지 지분이 많으면 용적률이 낮아서 더 많은 아파트를 새로 지을 수 있는데요, 아파트 대지면적이 넓은 상황에서 세대수가 적고 면적이 좁으면 대지 지분이 늘어나게 되기 때문이죠.",
+            "turn_id": "BK22013774-8",
+            "utterance_id": "BK22013774.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 물어볼게요. 이것도 재건축 사업에서 중요하게 여기는 단어 같던데, 무상지분율이 무슨 의미인가요?",
+            "turn_id": "BK22013774-9",
+            "utterance_id": "BK22013774.17"
+        },
+        {
+            "reference_date": "44654.0",
+            "reference_text": [
+                {
+                    "value": "재건축 사업의 수익은 무상지분율이 결정한다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무상지분율은 조합원이 추가 비용을 내지 않고 입주할 수 있는 평형을 대지지분 기준으로 나눈 비율이다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조합원 입장에서 시공사의 브랜드, 건축 능력, 안전성 등과 함께 시공사 선정에 가장 중요한 요소로 작용하는 것이 바로 무상지분율이다.",
+                    "value_time": "44816.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0005180685?sid=101",
+            "search_query": "무상지분율",
+            "terminate": false,
+            "text": "조합원이 추가 비용 없이 입주할 수 있는 평형을 대지 지분 기준으로 나눈 비율을 무상지분율이라고 해요. 재건축 사업의 수익에 무상지분율이 결정적인 영향을 끼치는데요, 조합원의 입장에서 시공사 브랜드나 안전성, 건축 능력 등과 함께 시공사를 선정하는 핵심 요소이기도 하죠.",
+            "turn_id": "BK22013774-9",
+            "utterance_id": "BK22013774.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건축 용어에 대해 알려주셔서 고맙습니다. 큰 도움이 될 것 같아요. 다음에 또 모르는 게 있으면 연락드릴게요.",
+            "turn_id": "BK22013774-10",
+            "utterance_id": "BK22013774.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되셨다니 기쁘네요. 언제든 궁금한 게 있으시면 물어보세요.",
+            "turn_id": "BK22013774-10",
+            "utterance_id": "BK22013774.20"
+        }
+    ]
+}

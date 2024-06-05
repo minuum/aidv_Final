@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012409",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012409",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "ESG 경영 지표가 새롭게 떠오르던데, ESG가 뭔가요?",
+            "turn_id": "BK22012409-1",
+            "utterance_id": "BK22012409.1"
+        },
+        {
+            "reference_date": "44531.0",
+            "reference_text": [
+                {
+                    "value": "ESG 경영(Environment 환경, Social 사회, 그리고 Governance 지배구조)은 UN이 2006에 제정한 ‘UN 책임투자원칙’을 통해서 처음 등장한 용어이다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 기업의 비재무적 성과를 측정하는 지표들로 사용되고 있다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기업의 사회적 책임은 도덕의 영역으로 치부될 수 있는 것이 아닌 기업의 필수 요소로 자리 잡았다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.casenews.co.kr/news/articleView.html?idxno=10198",
+            "search_query": "ESG 뜻",
+            "terminate": false,
+            "text": "ESG는 environment인 환경, social인 사회, governance인 지배 구조의 앞 글자를 따서 생성된 용어로써 기업의 비재무적인 성과를 판단하는 지표예요. 기업의 사회적 책임은 더 이상 도덕의 영역만이 아닌 기업의 필수 조건으로 중요시되고 있어요.",
+            "turn_id": "BK22012409-1",
+            "utterance_id": "BK22012409.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, ESG 경영에서 기업들이 어디에 가장 신경을 많이 쓰나요?",
+            "turn_id": "BK22012409-2",
+            "utterance_id": "BK22012409.3"
+        },
+        {
+            "reference_date": "44531.0",
+            "reference_text": [
+                {
+                    "value": "ESG 경영에서 기업들이 가장 신경 쓰는 부분을 말하라면 바로 ‘Environment’ ‘친환경’ 이다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "환경 분야에서 다루고 있는 이슈들에는 기후변화 및 탄소배출, 대기 및 수질오염, 생물의 다양성, 삼림벌채, 에너지 효율, 폐기물 관리, 물 부족 등이 있다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.casenews.co.kr/news/articleView.html?idxno=10198",
+            "search_query": "ESG 경영",
+            "terminate": false,
+            "text": "그건 바로 환경이에요. 환경에서 다루는 이슈는 여러 가지가 있는데 기후변화와 탄소 배출, 대기와 수질 오염, 생물의 다양성, 에너지 효율성, 물 부족 현상, 폐기물 등이 있어요.",
+            "turn_id": "BK22012409-2",
+            "utterance_id": "BK22012409.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "ESG의 사회와 지배구조도 궁금해요. 먼저, 사회에 대해서 알려주세요.",
+            "turn_id": "BK22012409-3",
+            "utterance_id": "BK22012409.5"
+        },
+        {
+            "reference_date": "44354.0",
+            "reference_text": [
+                {
+                    "value": "지역 사회 각종 커뮤니티와의 파트너십, 교육 및 문화 보존 활동, 고용 창출 및 직업능력 개발, 보건, 문화 증진, 사회적 투자 등을 사회공헌 활동의 영역으로 정의하고 있다.",
+                    "value_time": "44766.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailyimpact.co.kr/news/articleView.html?idxno=66725",
+            "search_query": "ESG 사회",
+            "terminate": false,
+            "text": "ESG의 사회는 기업이 지역 사회에 다양한 사회공헌 활동을 하는 것을 의미해요. 사회공헌 활동 영역에는 교육, 고용 창출, 사회적 투자, 문화 증진 활동이 포함돼요.",
+            "turn_id": "BK22012409-3",
+            "utterance_id": "BK22012409.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 ESG의 지배구조는 뭔가요?",
+            "turn_id": "BK22012409-4",
+            "utterance_id": "BK22012409.7"
+        },
+        {
+            "reference_date": "44404.0",
+            "reference_text": [
+                {
+                    "value": "지배구조는 기업이 의사결정을 내리는 프로세스와 이해관계자들의 이익을 보장하는 시스템 등을 총칭하는 개념입니다.",
+                    "value_time": "44766.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지배구조가 투명하고 민주적인 형태로 갖춰져 있어야 기업이 올바른 의사결정을 내리고 여러 이해관계자들의 충돌을 막을 수 있는데요.",
+                    "value_time": "44766.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.lgdisplay.com/kr/2021/07/esg-%EC%99%84%EC%A0%84%EC%A0%95%EB%B3%B5-4-%ED%88%AC%EB%AA%85%ED%95%9C-%EC%A7%80%EB%B0%B0%EA%B5%AC%EC%A1%B0-%EA%B8%B0%EC%97%85%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%99%80-%EA%B0%80%EC%B9%98%EB%A5%BC/",
+            "search_query": "ESG 지배구조",
+            "terminate": false,
+            "text": "지배구조는 기업이 의사결정을 내리는 과정과 이해관계자의 이익을 보장하는 시스템 전체를 뜻하는 용어에요. 지배구조가 투명하고 민주적일 때 기업은 올바른 결정을 내리고 다양한 이해관계자의 갈등을 피할 수 있어요.",
+            "turn_id": "BK22012409-4",
+            "utterance_id": "BK22012409.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "ESG에 대해서 들어보니 인상적이네요. ESG 경영이 등장하게 된 배경이 뭔가요?",
+            "turn_id": "BK22012409-5",
+            "utterance_id": "BK22012409.9"
+        },
+        {
+            "reference_date": "44435.0",
+            "reference_text": [
+                {
+                    "value": "기후 위기와 자본주의의 단점이 크게 부각되고 개인과 개인, 국가와 국가 간의 빈부 격차가 심화되면서 사회적 정화운동의 일환으로 시작됐다.",
+                    "value_time": "44757.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기업이 생산하는 제품을 구입하는 소비자와 기업에 투자하는 투자자들 사이에서 먼저 등장한 개념이다",
+                    "value_time": "44757.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.chukkyung.co.kr/news/articleView.html?idxno=61545",
+            "search_query": "esg 경영 배경",
+            "terminate": false,
+            "text": "ESG는 소비자와 투자자들 사이에 등장한 개념으로 기후 위기와 자본주의로 빈부격차가 심해지자 더 나은 사회를 만들기 위해 시작된 운동이었어요.",
+            "turn_id": "BK22012409-5",
+            "utterance_id": "BK22012409.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사회를 위한 새로운 기준 ESG 기준도 한계점이 있을 것 같은데, 있나요?",
+            "turn_id": "BK22012409-6",
+            "utterance_id": "BK22012409.11"
+        },
+        {
+            "reference_date": "44495.0",
+            "reference_text": [
+                {
+                    "value": "기업들이 ESG경영을 도입하고 실행하는 데 가장 심각한 어려움은 그 범위가 넓고 개념이 모호하다는 것이다.",
+                    "value_time": "44757.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경영이란 목표를 제시하고 이를 달성한 성과를 기준으로 평가와 보상이 이루어지는데 이런 노력이 ESG에는 통용되지 않는다.",
+                    "value_time": "44757.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1081964",
+            "search_query": "esg 한계",
+            "terminate": false,
+            "text": "ESG의 한계점은 기업의 경영에 적용하기에 범위가 넓고 개념이 모호하다는 것이에요. ESG는 경영의 지표와 달리 성과를 중심으로 평가와 보상이 이루어지지 않아서 ESG 성과를 측정하기가 어렵다는 한계점이 있어요.",
+            "turn_id": "BK22012409-6",
+            "utterance_id": "BK22012409.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한계점이 있지만 ESG가 사회에 많이 기여할 것 같아요. ESG 경영을 실제로 실천한 회사를 소개해 주실 수 있으세요?",
+            "turn_id": "BK22012409-7",
+            "utterance_id": "BK22012409.13"
+        },
+        {
+            "reference_date": "44498.0",
+            "reference_text": [
+                {
+                    "value": "한전은 이러한 과제를 성공적으로 달성하기 위해 전사에 분산된 탄소 감축 기술 개발, 재생 및 분산전원 확산을 위한 계통 운영전략 수립, ESG경영 확산 등 관련 기능을 통합하고 전략 수립과 정책 조정을 전담해 컨트롤 타워 역할을 수행하는 전력혁신본부를 신설했다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hkrecruit.co.kr/news/articleView.html?idxno=24116",
+            "search_query": "esg 경영 사례",
+            "terminate": false,
+            "text": "공기업인 한국전력 공사는 ESG 경영을 효과적으로 할 수 있도록 전력혁신본부를 만들었어요. 전력혁신본부는 탄소저감기술 개발, 계통 운영 전략 수립, ESG 경영 확산 등 관련 기능을 통합하고, 전략 수립과 정책조정을 전담하는 컨트롤 타워에요.",
+            "turn_id": "BK22012409-7",
+            "utterance_id": "BK22012409.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공기업의 ESG 경영 사례였는데 사기업 사례도 소개해주실 수 있으실까요?",
+            "turn_id": "BK22012409-8",
+            "utterance_id": "BK22012409.15"
+        },
+        {
+            "reference_date": "44515.0",
+            "reference_text": [
+                {
+                    "value": "최 회장이 구상한 환경 부문 스토리의 핵심은 SK그룹이 2030년 기준 전 세계 탄소 감축 목표량 210억t의 1%가량인 2억t을 줄인다는 목표다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 달성하기 위해 SK 계열사 CEO들은 우선 기존 사업 분야에서 공정 효율을 개선하고, 재생에너지를 구매하는 등의 방식으로 5000만t을 감축해 나가기로 했다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온택트 프로젝트는 영세 식당들에 도시락을 주문해 매출 신장을 돕고, 이 도시락을 식사가 어려운 취약계층에게 제공하는 상생 프로젝트다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아울러 SK그룹 각 계열사의 이사회는 앞으로 총수 등 경영진을 감시하거나 견제하는 수준을 넘어 CEO 후보추천 등 선임 단계부터 평가·보상까지 관여하게 할 계획이다",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://futurechosun.com/archives/60065",
+            "search_query": "esg 경영 sk",
+            "terminate": false,
+            "text": "SK 그룹은 ESG에 맞춰 기업 경영을 하기로 발표했어요. SK그룹은 더 나은 환경을 위해 공정 효율성을 높이고 재생에너지를 구매하여 탄소 2억톤을 줄이기로 발표했어요. 또한 SK 그룹은 영세 음식점에서 도시락을 구입해 소상공인의 매출을 올려주고 취약계층에게 주문한 도시락을 배달하여 더 나은 사회를 만들기 위해 노력하고 있어요. 더 나은 지배구조를 위해 경영진을 감시 수준을 넘어 다양한 프로세스에 관여하여 경영의 투명성을 높일 거예요.",
+            "turn_id": "BK22012409-8",
+            "utterance_id": "BK22012409.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기업들이 ESG 경영을 실천하는 모습이 멋있네요. ESG 경영이 기업에 어떤 긍정적인 영향을 미치나요?",
+            "turn_id": "BK22012409-9",
+            "utterance_id": "BK22012409.17"
+        },
+        {
+            "reference_date": "44515.0",
+            "reference_text": [
+                {
+                    "value": "지금까지 나온 전세계 연구를 메타 분석한 결과 ESG 점수가 높은 기업일수록 자본 조달 비용이 낮고, 재무 성과는 물론 영업 실적과 투자 수익률이 높은 것으로 나타났다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/202109156123i",
+            "search_query": "esg 경영 기대효과",
+            "terminate": false,
+            "text": "연구 결과에 따르면 ESG 관리 점수가 더 높은 회사가 재무 성과와 영업 실적, 투자 수익률이 더 높은 것으로 나타났어요. 또한 자본 조달 비용은 더 낮은 것으로 나타났고요. 그렇기에 기업들이 ESG 경영을 하려고 노력을 많이 하고 있어요.",
+            "turn_id": "BK22012409-9",
+            "utterance_id": "BK22012409.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "ESG 지표가 기업이 사회적 책임을 지게 하면서 기업에게도 이익을 주니 사회를 위해 좋은 지표인 것 같아요.",
+            "turn_id": "BK22012409-10",
+            "utterance_id": "BK22012409.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 그렇기에 전세계적으로 ESG 경영을 하려고 노력하고 있어요.",
+            "turn_id": "BK22012409-10",
+            "utterance_id": "BK22012409.20"
+        }
+    ]
+}

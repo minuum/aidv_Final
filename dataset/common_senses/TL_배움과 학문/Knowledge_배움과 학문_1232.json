@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008254",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008254",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 해적이 나오는 만화를 보는 중인데, 만화 내용 중에 정부의 허가를 받고 노략질하는 해적이 나오는 것을 보고 문득 궁금증이 생기더라. 저런 해적이 현실에도 있었을까?",
+            "turn_id": "BK22008254-1",
+            "utterance_id": "BK22008254.1"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "사략(私掠, privateering)은 국가로부터 특허장을 받은 개인이 선박을 무장시켜 적성국가의 상선을 노략질하는 것을 뜻한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사략에 동원되는 선박을 사략선(私掠船, privateer ship)이라고 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "근세 초기 유럽 국가들은 상비 해군력을 보충하기 위해 사략선에 교전자격을 부여했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "역사적으로 사략업자들과 해적들의 행위는 실질적인 차원에서 큰 차이가 없었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사략선은 해적선과 달리 국가로부터 권한을 받아 합법적 활동을 했다는 차이가 있을 뿐이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%B5",
+            "search_query": "사략",
+            "terminate": false,
+            "text": "응, 있었어. 그런 것을 사략이라고 하는데, 무장된 선박을 소유한 개인이 국가로부터 특허장을 받아서 적성 국가 측 상선을 약탈하는 행위야. 그리고 이런 사략에 사용되는 배를 사략선이라고 부르고. 상비 해군력을 보충하기 위해서 근세 초기에 유럽 국가들은 이러한 사략선들에 교전 자격을 부여했는데, 역사적으로 해적과 사략업자의 행위에는 실질적으로 큰 차이가 없었어. 해적선과 달리 사략선은 나라로부터 권한을 받아서 합법적인 활동을 했다는 점이 달랐을 뿐이지.",
+            "turn_id": "BK22008254-1",
+            "utterance_id": "BK22008254.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만화 속 설정인 줄 알았는데, 실제로 존재했다니 놀랍네. 그러면 그런 사략질을 하던 해적을 한 사람 소개해 줄래?",
+            "turn_id": "BK22008254-2",
+            "utterance_id": "BK22008254.3"
+        },
+        {
+            "reference_date": "2017-01-26",
+            "reference_text": [
+                {
+                    "value": "면허 받은 해적, 해군력의 아웃소싱.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 인물이 엘리자베스 1세와 계약을 맺은 프랜시스 드레이크.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "적국 에스파냐의 재산을 빼앗았고 일부는 엘리자베스 여왕에게 상납.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공을 인정받아 기사 작위를 받았다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사상 두 번째 세계 일주이자 살아서 돌아오기로는 첫 번째 선장.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/780450.html",
+            "search_query": "프랜시스 드레이크 사략",
+            "terminate": false,
+            "text": "면허를 받은 해적, 사략질을 하던 대표적인 인물로 프랜시스 드레이크가 있어. 엘리자베스 1세와 계약을 맺고, 적국 에스파냐의 재산을 빼앗아 일부를 엘리자베스 여왕에게 바치던 해적이지. 프랜시스 드레이크는 공로를 인정받아 기사 작위를 받기도 했는데, 사상 두 번째로 세계 일주를 한 선장이자, 세계 일주에서 생존하여 귀환한 것으로는 첫 번째인 선장이기도 하지.",
+            "turn_id": "BK22008254-2",
+            "utterance_id": "BK22008254.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해적이 기사 작위까지 받았다니, 그저 놀라운걸. 그나저나, 해적질도 해적질인데, 세계 일주를 했다는 게 관심을 끄네. 프랜시스 드레이크의 세계 일주는 어떻게 진행됐을까?",
+            "turn_id": "BK22008254-3",
+            "utterance_id": "BK22008254.5"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "1577년 11월, 배수량 약 300t의 갤리온선 골든 하인드 호(Golden Hind)를 중심으로 한 다섯 척의 함대를 이끌고 플리머스 항을 출항, 대서양에서 마젤란 해협을 거쳐 태평양까지 진출해, 칠레나 페루 연안의 에스파냐 식민지나 배를 덮쳐 다시 한 번 막대한 재보를 약탈했다.(그 중에는 에스파냐 왕의 재보를 실은 카카푸에고 호 등도 있었다.)",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후, 태평양을 가로질러 모루카 제도, 나아가 인도양에서 희망봉을 돌아 영국으로 귀국함으로써 페르디난드 마젤란에 이은 두 번째의 세계일주를 달성했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 이 도중인 1578년에 혼곶과 드레이크 해협을 발견하였다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%9C%EC%8B%9C%EC%8A%A4_%EB%93%9C%EB%A0%88%EC%9D%B4%ED%81%AC",
+            "search_query": "프랜시스 드레이크 세계 일주 항해",
+            "terminate": false,
+            "text": "우선, 프랜시스 드레이크는 배수량 약 300t의 갤리온선인 골든 하인드 호를 중심으로 하여 다섯 척의 함대를 이끌고 1577년 11월, 플리머스 항을 출발해. 그리고 대서양에서 마젤란 해협을 지나 태평양까지 나아간 뒤, 칠레와 페루 연안에서 에스파냐 식민지와 배를 공격해 엄청난 재보를 약탈하지. 그 후, 태평양을 횡단해 모루카 제도, 거기서 더 나아가 인도양에서 희망봉을 돌아 영국으로 귀국하는데, 이게 바로 페르디난드 마젤란에 이은 두 번째 세계 일주야. 또, 세계 일주 도중인 1578년에는 드레이크 해협과 혼곶을 발견하기도 하지.",
+            "turn_id": "BK22008254-3",
+            "utterance_id": "BK22008254.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 시대에 세계를 말 그대로 한 바퀴 돌았다는 게 믿기지가 않네. 또 다른 사략선 선장으로는 누가 있을까?",
+            "turn_id": "BK22008254-4",
+            "utterance_id": "BK22008254.7"
+        },
+        {
+            "reference_date": "2019-06-09",
+            "reference_text": [
+                {
+                    "value": "17세기말에 카리브해와 인도양에서 활약한 해적 윌리엄 키드(William Kidd)는 로버트 스티븐슨의 <보물섬>(Treasure Island), 에드거 알렌 포우의 <황금 풍뎅이>(The Gold-Bug) 등 여러 소설에 등장하는 인물이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그에 대한 평가는 천양지차다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국을 위해 사략선 선장이 되었다가 정치적으로 이용당했다는 주장과, 해적과 살인을 하지 않았는데 누명을 썼다는 자신의 변명등이 어우려져 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 영국의 법원 기록에는 해적 및 살인죄로 사형을 당한 인물이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=478",
+            "search_query": "윌리엄 키드 사략",
+            "terminate": false,
+            "text": "17세기 말에 인도양과 카리브해에서 활동한 해적인 윌리엄 키드가 있어. 에드거 알렌 포우의 황금 풍뎅이, 로버트 스티븐슨의 보물섬 등 여러 소설에 등장하는 인물이기도 하지. 윌리엄 키드에 대한 평가는 천차만별인데, 영국을 위해서 사략선의 선장이 됐다가 정치적으로 이용당했다는 주장이 있는가 하면, 해적과 살인을 한 적이 없는데 누명을 썼다는 윌리엄 키드 자신의 변명도 있어. 다만, 영국의 법원 기록에 따르면, 살인과 해적 죄로 사형을 당한 인물이지.",
+            "turn_id": "BK22008254-4",
+            "utterance_id": "BK22008254.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 누명을 쓴 것이라면 참 억울했을 것 같아. 그런데 보물섬이라는 소설의 등장 인물이라는 건, 윌리엄 키드가 보물을 숨겼다는 이야기라도 있는 걸까?",
+            "turn_id": "BK22008254-5",
+            "utterance_id": "BK22008254.9"
+        },
+        {
+            "reference_date": "2018-07-31",
+            "reference_text": [
+                {
+                    "value": "윌리엄 키드는 세계 곳곳에 보물을 숨겨 놓았다고 전해진다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "윌리엄 키드가 보물을 숨겨 놓았다고 전해지는 곳 가운데 가장 유력하고 가장 오랫 동안 사람들을 끌어들였던 곳은 캐나다의 오크 섬이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1795년, 그러니까 키드 선장이 교수형 당한 94년 뒤, 오크 섬에 살던 16세의 소년 다니엘 맥기니스가 오래된 참나무 밑에서 움팩 패인 지면을 발견했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "누군가 팠다가 다시 덮은 흔적이었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=859",
+            "search_query": "윌리엄 키드 보물",
+            "terminate": false,
+            "text": "응, 윌리엄 키드는 전 세계 여러 곳에 보물을 숨겨 뒀다고 전해져. 그 보물을 숨겼다고 전해지는 장소 중에서 가장 유력하고, 오랜 기간 사람들을 끌여들였던 곳은 캐나다에 있는 오크 섬이고. 윌리엄 키드 선장이 교수형을 당한 후 94년이 지난 1795년, 오크 섬에 살던 16살 소년 다니엘 맥기니스가 오래된 참나무 아래에서 움푹 파인 지면을 찾았거든. 누군가 땅을 팠다가 다시 덮은 흔적이었지.",
+            "turn_id": "BK22008254-5",
+            "utterance_id": "BK22008254.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제이든 아니든, 어딘가 보물이 숨겨져 있을 거라는 상상을 하니까 왠지 두근거리네. 그럼 이번에는 사략선 해적이든 일반 해적이든, 또 다른 해적을 소개해 줄 수 있을까?",
+            "turn_id": "BK22008254-6",
+            "utterance_id": "BK22008254.11"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "검은 수염 에드워드 티치(Edward Teach \"Blackbeard\", 1680년 ~ 1718년 11월 22일)는 서인도 제도와 미주 동부 해안에서 활동하던 18세기의 악명높은 잉글랜드계 해적이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앤 여왕 전쟁 때 사략선 선원으로 복무하고 바하마의 뉴프로비던스섬에 정착했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유명 해적으로 부상한 티치는 뻑뻑한 검은 수염과 공포스러운 외모로 \"검은 수염(Blackbeard)\"이라는 별명을 얻었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해적 역사상 가장 흉포하고 잔인한 해적이였으며 약탈한 배의 생존자는 남겨두지 않았다고 전해진다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 검은수염은 수많은 정부의 상선과 주요 인사들이 탄 배를 공격하였다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%93%9C%EC%9B%8C%EB%93%9C_%ED%8B%B0%EC%B9%98",
+            "search_query": "에드워드 티치",
+            "terminate": false,
+            "text": "응, 18세기에 서인도 제도와 미주 동부 해안에서 활동하면서 악명이 자자했던 잉글랜드계 해적, 검은 수염 에드워드 티치에 관해 이야기해 줄게. 에드워드 티치는 앤 여왕 전쟁 때 사략선 선원으로 복무한 뒤, 바하마의 뉴프로비던스섬에 정착했는데, 티치의 검은 수염이라는 별명은 공포스러운 외모와 뻑뻑한 검은 수염 때문에 붙었어. 검은 수염은 해적 역사상 가장 잔인하고 흉악한 해적이기도 했지. 약탈한 배에서 생존자는 절대 남기지 않았고, 수많은 정부의 주요 인사가 탄 배와 상선을 공격했거든.",
+            "turn_id": "BK22008254-6",
+            "utterance_id": "BK22008254.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별명부터 행적까지 정말 무시무시한 해적이었네. 18세기에 활동했던 다른 해적으로는 또 누가 있어?",
+            "turn_id": "BK22008254-7",
+            "utterance_id": "BK22008254.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "검은 준남작 바솔로뮤 로버츠(Bartholomew \"Barti Ddu\" Roberts, 1682년 5월 17일 ~ 1722년 2월 10일)는 18세기에 활동했던 웨일스 출신의 해적이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "11개월동안 활동하면서 400척이 넘는 배를 약탈하였으며 그가 약탈한 재물의 가치를 요즘 가치로 환산하면, 3200만 달러에 달하였다고 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EC%86%94%EB%A1%9C%EB%AE%A4_%EB%A1%9C%EB%B2%84%EC%B8%A0",
+            "search_query": "바솔로뮤 로버츠",
+            "terminate": false,
+            "text": "웨일스 출신의 해적, 검은 준남작 바솔로뮤 로버츠도 18세기에 활동했어. 바솔로뮤 로버츠는 11개월에 걸쳐 활동하면서 배를 400척 넘게 약탈했고, 이 약탈한 재물을 현재 가치로 환산하면 3200만 달러에 육박한다고 전해져.",
+            "turn_id": "BK22008254-7",
+            "utterance_id": "BK22008254.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1년도 채 안 되는 기간 동안 정말 어마어마한 양을 약탈했구나. 그나저나, 흔히 해적이라고 하면 남자 해적만을 떠올리게 되는 것 같은데, 혹시 여자 해적도 있었을까?",
+            "turn_id": "BK22008254-8",
+            "utterance_id": "BK22008254.15"
+        },
+        {
+            "reference_date": "2019-06-11",
+            "reference_text": [
+                {
+                    "value": "하지만 캐리비언 해적들 중에 단 두사람의 여성 해적에 관한 기록이 남아 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앤 보니(Anne Bonny)와 메리 리드(Mary Read)가 그들이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 여인은 서로 다른 생활을 하다가 카리브해에서 만나 함께 해적생활을 했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=487",
+            "search_query": "앤 보니 메리 리드",
+            "terminate": false,
+            "text": "응, 딱 두 명이긴 하지만, 캐리비언 해적들 중 여성 해적에 관한 기록이 남아 있지. 메리 리드와 앤 보니라는 해적들인데, 두 사람은 서로 다른 삶을 살다가 카리브해에서 만나 해적 생활을 함께 하게 돼.",
+            "turn_id": "BK22008254-8",
+            "utterance_id": "BK22008254.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기록은 적지만, 여성 해적도 있긴 했구나. 만화를 볼 때는 해적이 뭔가 멋지고 낭만 있어 보였는데, 실제 이야기를 들으니 역시 무섭고 끔찍하다는 느낌이 강하네.",
+            "turn_id": "BK22008254-9",
+            "utterance_id": "BK22008254.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 만화에서 나온 표현이 어떻든, 현실의 해적은 다른 사람을 약탈하고 공격하는 사람들이니까.",
+            "turn_id": "BK22008254-9",
+            "utterance_id": "BK22008254.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 만화 내용은 물론 재미있지만, 그래도 이렇게 만화와 다른 실제 이야기도 들으니 참 좋네. 그럼 난 이만 만화를 마저 보러 가 볼게. 보다가 궁금한 내용이 있으면 또 물어봐도 될까?",
+            "turn_id": "BK22008254-10",
+            "utterance_id": "BK22008254.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이지, 언제든 편히 물어봐도 돼. 그럼 만화 재미있게 보고, 다음에 만나자.",
+            "turn_id": "BK22008254-10",
+            "utterance_id": "BK22008254.20"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009296",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009296",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스나 인터넷 글들을 보다 보면 빅브라더라는 용어가 자주 나오더라고요. 큰 권력자라는 어감 같은데 정확한 뜻이 뭐예요?",
+            "turn_id": "BK22009296-1",
+            "utterance_id": "BK22009296.1"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "빅브라더는 1949년 조지 오웰의 소설 ‘1984년’에 등장하는 ‘감시자’를 지칭하는 용어에서 비롯된 말로, 일반 정보를 독점함으로써 사회를 감시·통제하는 관리권력 또는 사회체계를 일컫는 말이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=930254",
+            "search_query": "빅브라더",
+            "terminate": false,
+            "text": "빅브라더는 조지 오웰이 1949년에 집필한 1984라는 소설에 나오는 감시자를 지칭하는 용어에요. 이 용어를 시작으로 일반 정보를 독점해서 사회를 통제, 감시하는 사회체계 또는 관리 권력을 말할 때 빅브라더라고 해요.",
+            "turn_id": "BK22009296-1",
+            "utterance_id": "BK22009296.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정보를 독점해서 감시하는 권력이라니 상상만 해도 무시무시하네요. 권력 유지를 위한 정보 수집을 위해서 소설에는 어떤 방법들이 나와요?",
+            "turn_id": "BK22009296-2",
+            "utterance_id": "BK22009296.3"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "당원이 사는 집에는 '텔레스크린'이라고 부르는 송수신이 가능한 감시 기계가 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 기계는 함부로 끌 수가 없고, 소리를 조금 낮출 수는 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당은 체제 유지를 위해 텔레스크린 외에도 사상경찰, 마이크로폰, 헬리콥터 등을 이용한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=93609",
+            "search_query": "1984 텔레스크린",
+            "terminate": false,
+            "text": "송수신이 가능한 텔레스크린이라는 감시 기계를 당원이 사는 집에 설치하는데 이 기계는 소리를 약간 줄일 수는 있지만 마음대로 끌 수가 없어요. 체제 유지를 위해서 당은 텔레스크린 외에도 마이크로폰이나 헬리콥터, 사상경찰 등을 이용하죠.",
+            "turn_id": "BK22009296-2",
+            "utterance_id": "BK22009296.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텔레스크린은 현재의 CCTV 같은 기능을 하는 것 같은데 작가의 상상력이 대단하네요. 그런데 소설 속에서 텔레스크린을 당원의 집에 설치했다면 일반인들은 어떻게 통제를 한 거예요?",
+            "turn_id": "BK22009296-3",
+            "utterance_id": "BK22009296.5"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "당원이 아닌 하층 노동자들은 텔레스크린의 감시를 받지는 않지만, 당국의 우민화 정책에 따라 저급한 소설과 노래를 소비하며 살아간다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=93609",
+            "search_query": "1984 우민화정책",
+            "terminate": false,
+            "text": "당원을 제외한 하층 노동자들을 텔레스크린으로 감시하지는 않지만, 저급한 노래와 소설을 소비하면서 살아가도록 당국이 우민화 정책을 펼쳐요.",
+            "turn_id": "BK22009296-3",
+            "utterance_id": "BK22009296.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대다수의 국민은 바보로 만들고 지배층들만 꽉 붙잡아 조종하는 거네요. 공산국가나 독재사회가 연상되는데 소설의 배경이 따로 있나요?",
+            "turn_id": "BK22009296-4",
+            "utterance_id": "BK22009296.7"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "실제로 전체주의 중에서도 국민 개개인에 대한 국가의 감시, 사상 통제와 탄압이 두드러졌던 스탈린 체제를 모델로 삼았고, 작품의 주된 배경인 오세아니아의 정치와 사회 전반은 스탈린 치하 소련에서 모티프를 가져왔다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=412693",
+            "search_query": "1984 소설 배경",
+            "terminate": false,
+            "text": "작품의 주된 배경으로 나오는 오세아니아의 사회와 정치 전반은 스탈린 체제의 소련을 모델로 삼았어요. 실제로 스탈린 체제는 국민 한 사람 한 사람에 대한 국가의 탄압과 사상 통제, 감시가 전체주의 국가 중에서도 가장 심했거든요.",
+            "turn_id": "BK22009296-4",
+            "utterance_id": "BK22009296.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스탈린의 소련을 배경으로 한 건데 책이 출간된 뒤에 소련이나 공산권에서는 1984가 판매 가능했나요?",
+            "turn_id": "BK22009296-5",
+            "utterance_id": "BK22009296.9"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "대중을 감시·통제하는 ‘빅 브러더’ 지배하의 전체주의 세계를 그린 ‘1984′는 구소련과 동유럽 공산국가에서 1987년까지 금서였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/international/international_general/2022/05/24/2VNIWBJG6ZABXPKIVZGY34NMPI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "1984 금서",
+            "terminate": false,
+            "text": "1984가 대중을 통제, 감시하는 빅브라더의 지배를 받는 전체주의 나라를 그렸기 때문에 동유럽 공산국가와 구소련에서는 1987년까지는 책 판매가 금지되었어요.",
+            "turn_id": "BK22009296-5",
+            "utterance_id": "BK22009296.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시민 억압이 강한 곳이었으니 왠지 그랬을 것 같더라고요. 1984에 대한 다른 나라들의 반응은 어땠나요?",
+            "turn_id": "BK22009296-6",
+            "utterance_id": "BK22009296.11"
+        },
+        {
+            "reference_date": "2020-11-13",
+            "reference_text": [
+                {
+                    "value": "<타임> 선정 현대 100대 영문소설, <뉴스위크> 선정 100대 명저, BBC 선정 반드시 읽어야 할 책, 하버드대 학생들이 가장 많이 구입한 책, 서울대 신입생들이 가장 많이 읽는 책…",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모두 『1984』를 수식하는 말들이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조지 오웰의 마지막 작품인 『1984』는 전세계 65개 언어로 번역되어 수천만 부가 팔렸고, 국내에도 여러 판본이 출간되어 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=57922",
+            "search_query": "1984 세계 번역",
+            "terminate": false,
+            "text": "1984는 조지 오웰의 마지막 작품으로 65개 언어로 번역되어 전 세계로 수천만 부가 판매되었고, 국내에도 여러 버전으로 출간되었어요. 1984를 수식하는 말들을 보면 뉴스위크 선정 100대 명저, 타임 선정 100대 영문소설, BBC가 반드시 읽어야 할 책으로 선정, 하버드대 학생들이 가장 많이 구매한 책, 서울대 신입생들이 가장 많이 읽는 책 등 수도 없이 많아요.",
+            "turn_id": "BK22009296-6",
+            "utterance_id": "BK22009296.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 세계적으로 엄청난 인기를 누리고 있는 책이군요. 작가가 집필 한 것 중에 1984 외에 다른 작품들은 어떤 것들이 있는지 궁금해요.",
+            "turn_id": "BK22009296-7",
+            "utterance_id": "BK22009296.13"
+        },
+        {
+            "reference_date": "2020-04-13",
+            "reference_text": [
+                {
+                    "value": "그는 문학 평론, 시, 평론, 소설과 같은 작품을 남겼으며, '동물 농장'(1945년)과 '1984년'(1949년)으로 특히 유명하다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그의 논픽션 작품 중에는 '위건 부두로 가는 길'(1937년), '카탈로니아 찬가'(1938년) 등이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsculture.press/news/articleView.html?idxno=307482",
+            "search_query": "조지오웰 작품",
+            "terminate": false,
+            "text": "그가 남긴 작품들은 소설과 시, 평론과 문학 평론 등이 있는데 특히 유명한 것은 1984 외에 동물농장도 있어요. 그 외에 위건 부두로 가는 길과 카탈로니아 찬가 같은 논픽션 작품도 있죠.",
+            "turn_id": "BK22009296-7",
+            "utterance_id": "BK22009296.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소설뿐 아니라 다양한 분야의 작품들을 냈었군요. 동물농장은 정확한 내용은 기억나지 않는데 어려서 동화책으로 읽어본 것 같은데 어떤 내용이었죠?",
+            "turn_id": "BK22009296-8",
+            "utterance_id": "BK22009296.15"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "전체적인 내용으로는 존스 농장에 살던 동물들이 가혹한 생활에 못이겨 주인을 쫓아내고 직접 농장을 운영하지만, 결국은 혁명을 주도했던 권력층의 독재로 농장이 부패해 버리는 이야기이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%AC%BC_%EB%86%8D%EC%9E%A5",
+            "search_query": "동물농장",
+            "terminate": false,
+            "text": "존스 농장에 동물들이 살고 있었는데 주인이 너무나 가혹하게 해서 주인을 쫓아내고 농장을 직접 운영하게 돼요. 하지만, 혁명을 이끌었던 권력층이 독재를 함으로써 결국 농장이 부패해 버리고 마는 이야기죠.",
+            "turn_id": "BK22009296-8",
+            "utterance_id": "BK22009296.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 돼지도 나오고 여러 동물들의 싸움이 나왔던 것 같아요. 동물농장은 어렴풋이 읽었다는 정도만 기억하고 1984는 아예 읽어보지도 않았는데 좀 부끄럽네요.",
+            "turn_id": "BK22009296-9",
+            "utterance_id": "BK22009296.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부끄러울 것 까지는 없어요. 기회 될 때 한번 읽어보면 되죠.",
+            "turn_id": "BK22009296-9",
+            "utterance_id": "BK22009296.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가을은 독서의 계절이니까 이번 연휴 때 마음 먹고 한번 읽어봐야겠어요. 제가 다 읽고 나서 감상평 들려드릴게요. 다음에 다시 대화 나누어요.",
+            "turn_id": "BK22009296-10",
+            "utterance_id": "BK22009296.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 읽고 나서 대화 나누면 훨씬 재미있죠. 다음에 뵈어요.",
+            "turn_id": "BK22009296-10",
+            "utterance_id": "BK22009296.20"
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006790",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006790",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 밀턴 프리드먼에 대해서 발표를 해야 하는데 어떻게 준비해야 할지 막막해.",
+            "turn_id": "BK22006790-1",
+            "utterance_id": "BK22006790.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말? 내가 이번 학기에 경제학 수업을 듣고 있는데, 이 수업에서 밀턴 프리드먼에 대해서 배우고 있어.",
+            "turn_id": "BK22006790-1",
+            "utterance_id": "BK22006790.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 나 발표 준비하는 것 좀 도와줄 수 있어? 프리드먼은 어떤 사람이야?",
+            "turn_id": "BK22006790-2",
+            "utterance_id": "BK22006790.3"
+        },
+        {
+            "reference_date": "2022-03-29",
+            "reference_text": [
+                {
+                    "value": "밀턴 프리드먼(영어: Milton Friedman, 1912년 7월 31일 ~ 2006년 11월 16일)은 미국의 경제학자이자 대중적인 지식인이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자유주의 시장경제 옹호자로 거시경제학을 위시하여 미시경제학, 경제사, 경제통계학에 큰 기여를 하였다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%80%ED%84%B4_%ED%94%84%EB%A6%AC%EB%93%9C%EB%A8%BC",
+            "search_query": "밀턴 프리드먼",
+            "terminate": false,
+            "text": "물론이지, 프리드먼은 미국의 대중적인 지식인이면서 경제학자라고 할 수 있어. 자유주의 시장경제론을 지지하고 거시경제학을 비롯해서 미시경제학, 경제사, 경제통계학에 큰 영향을 미쳤지.",
+            "turn_id": "BK22006790-2",
+            "utterance_id": "BK22006790.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 그럼 경제학을 논할 때 빼놓을 수 없겠는걸? 그러면 프리드먼의 사상적 특징은 뭐가 있어?",
+            "turn_id": "BK22006790-3",
+            "utterance_id": "BK22006790.5"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "밀턴 프리드먼(1912~2006)은 노벨경제학상 수상자 중에서도 가장 유명하고 논쟁적인 인물이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전투적인 반케인스주의자이자 신자유주의 전도사이며 통화주의 창시자로서 전방위적인 사상 투쟁을 벌였다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002593375?sid=101",
+            "search_query": "밀턴 프리드먼 노벨상",
+            "terminate": false,
+            "text": "프리드먼은 노벨경제학상을 받은 사람 중에서도 제일 유명하고 논쟁을 좋아하는 사람인데, 전투력이 있는 반케인스주의자이면서 신자유주의를 설파한 사람이기도 하고, 통화주의를 만든 사람으로서 모든 방면에서 사상적 논쟁을 펼치는 특징을 갖고 있어.",
+            "turn_id": "BK22006790-3",
+            "utterance_id": "BK22006790.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 분야에서 논쟁을 펼칠 수 있다니, 정말 멋있다. 그러면 프리드먼은 어떤 학파야?",
+            "turn_id": "BK22006790-4",
+            "utterance_id": "BK22006790.7"
+        },
+        {
+            "reference_date": "2022-03-29",
+            "reference_text": [
+                {
+                    "value": "프리드먼은 통화주의 경제학파의 주요 지지자였다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그는 인플레이션과 통화 공급 사이에는 밀접하고 안정적인 연관성이 있으며 주로 통화 기반 성장률을 적절히 조절하면 인플레이션을 피할 수 있다고 주장했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%80%ED%84%B4_%ED%94%84%EB%A6%AC%EB%93%9C%EB%A8%BC",
+            "search_query": "밀턴 프리드먼 통화",
+            "terminate": false,
+            "text": "프리드먼은 통화주의 경제학파를 지지하는 주요 인물에 속해. 통화 공급과 인플레이션 사이에는 안정적이고 긴밀한 관계가 형성되어 있고, 통화를 토대로 한 성장률을 잘 관리하면 인플레이션을 방지할 수 있다고 보니까 말이야.",
+            "turn_id": "BK22006790-4",
+            "utterance_id": "BK22006790.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 프리드먼은 인플레이션에 대해서는 어떻게 설명하는데?",
+            "turn_id": "BK22006790-5",
+            "utterance_id": "BK22006790.9"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "프리드먼은 인플레이션에 대한 해법으로 연준 이사들의 재량권을 없애고 미리 정한 준칙에 따라 통화 정책을 펼칠 것을 제안했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://economychosun.com/client/news/view.php?boardName=C26&t_num=13612984",
+            "search_query": "밀턴 프리드먼 인플레이션",
+            "terminate": false,
+            "text": "프리드먼은 인플레이션을 해결하기 위해서는 연준 이사들이 가지고 있는 재량권을 없애고 사전에 만든 규칙에 따라서 통화 정책을 시행해야 한다고 설명해.",
+            "turn_id": "BK22006790-5",
+            "utterance_id": "BK22006790.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 중요한 내용인 거 같아. 그럼 프리드먼은 자유 시장에 대해서는 어떻게 설명해?",
+            "turn_id": "BK22006790-6",
+            "utterance_id": "BK22006790.11"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "프리드먼은 당시 경제학계 주류 견해에 반론을 제기한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자유 시장의 힘이 사회의 모든 문제를 해결해 줄 것이라며 정부 개입을 최소화하는 '경제적 자유'의 중요성을 강조했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011238718?sid=103",
+            "search_query": "밀턴 프리드먼 정부",
+            "terminate": false,
+            "text": "프리드먼은 그 시기 경제학계의 주요 견해에 대해 반대 의견을 제기하기도 했는데, 자유 시장의 힘이 사회에 존재하는 모든 문제를 처리해 줄 것이라며 정부의 개입은 최대한 줄이는 경제적 자유가 중요하다고 보았지.",
+            "turn_id": "BK22006790-6",
+            "utterance_id": "BK22006790.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제에서의 자유를 중요하게 본 학자구나. 혹시 정부의 개입에 대해서 프리드먼이 설명한 내용이 또 있을까?",
+            "turn_id": "BK22006790-7",
+            "utterance_id": "BK22006790.13"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "프리드먼은 경기의 고점과 저점을 판단하는 게 쉽지 않고, 설령 경기판단이 정확해도 정부의 정책 결정 과정은 오랜 시일이 필요해 적절한 타이밍을 놓치기 쉽다면서 섣부런 개입의 부작용을 갈파했던 것이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/2022071710055729974a01bf698f_1/article.html?md=20220717110940_U",
+            "search_query": "밀턴 프리드먼 정부",
+            "terminate": false,
+            "text": "프리드먼은 경기가 좋을 때와 나쁠 때를 결정하는 게 어렵고, 설사 경제 상태에 대한 정확한 판단이 내려져도 정부가 정책을 수립하기까지 오랜 시간이 걸리기 때문에 적절한 시기를 맞추기 어렵다는 점을 들어 섣불리 정부가 개입할 경우 발생할 수 있는 부작용을 강조하기도 했지.",
+            "turn_id": "BK22006790-7",
+            "utterance_id": "BK22006790.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 부분을 발표의 핵심 포인트로 제시해야겠네. 그러면 프리드먼이 제시한 구체적인 정책은 뭐가 있어?",
+            "turn_id": "BK22006790-8",
+            "utterance_id": "BK22006790.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "가장 먼저 등장한 대안은 저명한 경제학자 밀턴 프리드먼이 제시한 ‘음의 소득세(Negative Income Tax)’입니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대부분의 복지정책을 단일화해서 일정 소득 이하에서는 일정 비율로 보조금, 그러니까 음의 세금을 지급하자는 게 골자입니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=48214",
+            "search_query": "밀턴 프리드먼 정책",
+            "terminate": false,
+            "text": "프리드먼은 음의 소득세라는 걸 제안했는데, 많은 복지정책을 하나로 통일해서 기준 소득 이하의 사람들한테는 정해진 비율의 보조금, 즉 음의 세금을 주자는 게 핵심이야.",
+            "turn_id": "BK22006790-8",
+            "utterance_id": "BK22006790.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 혹시 프리드먼이 쓴 책도 있으면 알려줄 수 있어?",
+            "turn_id": "BK22006790-9",
+            "utterance_id": "BK22006790.17"
+        },
+        {
+            "reference_date": "2022-04-11",
+            "reference_text": [
+                {
+                    "value": "《선택할 자유》는 1976년 노벨경제학상을 받은 미국 경제학자 밀턴 프리드먼(1912~2006)이 펴낸 책이랍니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프리드먼은 이 책에서 자유시장경제가 비록 완벽하지 않지만 다른 어떤 경제 시스템보다 낫다고 강조합니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2022040821921",
+            "search_query": "밀턴 프리드먼 책",
+            "terminate": false,
+            "text": "프리드먼은 선택할 자유라는 책을 썼는데, 여기서 프리드먼은 자유시장경제가 문제가 없는 것은 아니지만 그 어떤 경제 체제보다 더 좋다고 설명해.",
+            "turn_id": "BK22006790-9",
+            "utterance_id": "BK22006790.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 프리드먼 하면 자유시장경제라는 요소를 떠올리는 거구나. 발표 준비하면서 한번 읽어봐야 겠다.",
+            "turn_id": "BK22006790-10",
+            "utterance_id": "BK22006790.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 그렇게 프리드먼 사상의 핵심을 중심으로 발표를 구성하면 좋을 거 같아.",
+            "turn_id": "BK22006790-10",
+            "utterance_id": "BK22006790.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 발표 준비가 훨씬 수월해졌어. 그럼 나는 이만 더 조사해보러 가볼게!",
+            "turn_id": "BK22006790-11",
+            "utterance_id": "BK22006790.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 발표 준비 열심히 하고 그럼 다음에 보자!",
+            "turn_id": "BK22006790-11",
+            "utterance_id": "BK22006790.22"
+        }
+    ]
+}

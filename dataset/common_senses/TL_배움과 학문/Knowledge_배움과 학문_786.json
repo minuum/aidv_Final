@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005112",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005112",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 중국 역사에 입문했는데 너무 재밌네요. 특히 요즘은 2인자들에 관심이 많이 가는데요. 한나라 통일 이전에 가장 위대했던 2인자는 누구인지 궁금해요.",
+            "turn_id": "BK22005112-1",
+            "utterance_id": "BK22005112.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐니 뭐니 해도 역시 관중이죠. 춘추전국시대에 관중만큼 위대했던 재상은 없었다고 생각해요.",
+            "turn_id": "BK22005112-1",
+            "utterance_id": "BK22005112.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관중이요? 제가 춘추전국시대는 잘 몰라서 그러는데, 관중은 어느 시대, 어느 나라의 인물이었나요?",
+            "turn_id": "BK22005112-2",
+            "utterance_id": "BK22005112.3"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "관이오(管夷吾, 기원전 725년? ~ 기원전 645년)는 중국 춘추 시대 초기 제나라의 정치가이자 사상가로, 자는 중(仲)이며 영상(潁上) 사람이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 성씨와 자를 합쳐 관중(管仲)으로 불리며, 제환공을 춘추오패의 첫번째 패자로 만드는데 큰 역할을 했다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "관중 관이오 제나라 제환공",
+            "terminate": false,
+            "text": "관중에서 중은 사실 이름이 아니라 자이기 때문에 원래 이름은 관이오예요. 하지만 성씨와 자를 합해서 보통 관중이라고 부르죠. 영상 출신인 그는 기원전 725년에 태어나서 645년에 사망한 춘추 시대 초기 제나라의 정치가이자 사상가예요. 제환공을 춘추오패의 첫 번째 패자로 등극시키는 데에 큰 역할을 담당했죠.",
+            "turn_id": "BK22005112-2",
+            "utterance_id": "BK22005112.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 옛날 사람이네요. 그럼 관중이 재상을 할 당시의 시대 상황은 어땠나요?",
+            "turn_id": "BK22005112-3",
+            "utterance_id": "BK22005112.5"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "관중이 제 환공에게 중용되어 재상이 되었을 때는 기원전 686년.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중원을 차지하고 있던 주 왕실의 통제력을 갈수록 약해지고 제(齊), 초(楚), 진(晉), 진(秦), 연(燕), 노(魯) 등을 비롯한 제후국(諸侯國)들이 차츰 중앙의 통제에서 벗어나 자국의 실리를 취하며 군웅할거하던 시절이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "관중 제나라 재상 군웅할거",
+            "terminate": false,
+            "text": "관중에 제 환공에게 재상으로 등용되었던 때가 기원전 686년이었어요. 당시 중원에 자리 잡고 있던 주 왕실은 통제력을 잃고 있었고 초, 진, 연, 노, 진 등의 제후국들이 점차 중앙의 지배를 벗어나 자국의 이익을 취하면서 군웅할거 하던 시절이죠.",
+            "turn_id": "BK22005112-3",
+            "utterance_id": "BK22005112.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그야말로 파란만장한 시대였네요. 그런 시대에 관중은 어떻게 제 환공을 보필해서 명성을 떨치게 한 건가요?",
+            "turn_id": "BK22005112-4",
+            "utterance_id": "BK22005112.7"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "관중은 유물론적 개념을 바탕으로 이데올로기 정치체제를 구축한다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이른바 목민이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "백성을 기른다는 개념을 처음 도입한 인물이 바로 관중이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "관중 유물론 목민",
+            "terminate": false,
+            "text": "관중은 유물론적 개념을 토대로 목민이라는 이데올로기 정치체제를 처음으로 완성했어요. 여기서 목민이란 백성을 기른다는 개념이죠.",
+            "turn_id": "BK22005112-4",
+            "utterance_id": "BK22005112.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 혹시 목민이라는 게 정약용의 목민심서에 나오는 그 목민인가요?",
+            "turn_id": "BK22005112-5",
+            "utterance_id": "BK22005112.9"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "정약용의 목민심서에서의 목민도 관중의 사상에서 유래한 것이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "관중 목민 정약용 목민심서",
+            "terminate": false,
+            "text": "맞아요. 사실 정약용의 목민심서에서의 목민도 관중의 사상에서 온 개념이죠.",
+            "turn_id": "BK22005112-5",
+            "utterance_id": "BK22005112.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 관중이 다산 정약용 선생님에게도 영향을 줬던 거군요. 그럼 제나라는 굉장히 부강한 나라가 되어서 위세를 떨쳤겠는데요?",
+            "turn_id": "BK22005112-6",
+            "utterance_id": "BK22005112.11"
+        },
+        {
+            "reference_date": "2017-02-13",
+            "reference_text": [
+                {
+                    "value": "제나라가 춘추시대 최초의 패주(主)가 될 수 있었던 가장 큰 이유는 다른 국가 대비 상업과 대외무역이 특별히 발전했기 때문이었다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 중심에는 관중이 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/opinion/columnists/view/2017/02/100199/",
+            "search_query": "관중 제나라 패주",
+            "terminate": false,
+            "text": "예상하신 대로 제나라는 다른 나라보다 상업과 대외무역이 발달한 국가가 되었고 이로써 춘추시대에서 처음으로 패주가 돼요. 그 중심에는 관중이라는 인물이 있었고요.",
+            "turn_id": "BK22005112-6",
+            "utterance_id": "BK22005112.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "관중이 제나라에 어마어마한 공헌을 했네요. 그런데 패주라는 게 대체 뭔가요?",
+            "turn_id": "BK22005112-7",
+            "utterance_id": "BK22005112.13"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "유교에서는 덕(德)으로써 천하를 다스리는 자를 왕자(王者)라고 했으며, 이와 대비되어 본인의 힘(力)으로 천하에 이름을 떨치는 군주는 패주(覇主)라고 했다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%9E%90",
+            "search_query": "유교 군주 패주",
+            "terminate": false,
+            "text": "당시 유교에서는 덕으로 세상을 다스리는 사람은 왕자라고 칭했고 이와 대비해서 힘으로 이름이 난 군주는 패주라고 했어요.",
+            "turn_id": "BK22005112-7",
+            "utterance_id": "BK22005112.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "패주라는 단어가 보통 도망간다는 의미로 쓰여서 안 좋은 건 줄 알았네요. 아무튼 결국 관중이 자기 군주를 당시 중원에서 가장 강력한 군주로 만들었다는 거군요. 그러면 제환공이 최고의 자리에 오른 건 언제인가요?",
+            "turn_id": "BK22005112-8",
+            "utterance_id": "BK22005112.15"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "제환공 재위 7년(기원전 679년)에 위(衛)의 견(甄)에서 회맹을 열고 패자의 지위에 오른다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "제환공 회맹 패자",
+            "terminate": false,
+            "text": "제환공은 군주가 된 지 7년 만인 기원전 679년에 위나라의 견이라는 곳에서 회맹을 개최하고 패자에 등극해요.",
+            "turn_id": "BK22005112-8",
+            "utterance_id": "BK22005112.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불과 7년 만에 자기 군주를 최고의 자리에 올렸네요! 그 정도로 위대한 인물이었다면 후세에도 큰 영향을 끼쳤겠네요.",
+            "turn_id": "BK22005112-9",
+            "utterance_id": "BK22005112.17"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "사후에도 그의 정치철학은 계속 제나라의 통치이념으로 활용되었고, 이는 제나라가 전국시대까지 전통적인 강국의 위치에 있을 수 있게 한 원동력이었다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A4%91_(%EC%B6%98%EC%B6%94)",
+            "search_query": "관중 제나라 통치이념 전국시대",
+            "terminate": false,
+            "text": "맞아요. 그가 죽은 뒤에도 그의 정치철학은 꾸준히 제나라의 통치이념으로 자리 잡았어요. 덕분에 제나라는 전국시대까지도 전통적인 강국의 위치를 계속 유지할 수 있었죠.",
+            "turn_id": "BK22005112-9",
+            "utterance_id": "BK22005112.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그래서 제나라가 진나라가 통일하기 직전까지도 무시할 수 없는 강국이 됐던 거군요. 오늘도 역사 지식을 쉽게 설명해주셔서 너무 감사합니다. 다음에 혹시 궁금한 게 있으면 질문해도 될까요?",
+            "turn_id": "BK22005112-10",
+            "utterance_id": "BK22005112.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이죠. 언제나 새로운 질문은 환영이니까 편하게 질문 주세요!",
+            "turn_id": "BK22005112-10",
+            "utterance_id": "BK22005112.20"
+        }
+    ]
+}

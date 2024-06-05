@@ -1,0 +1,434 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008644",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008644",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 예전엔 스마트폰에서 인터넷뱅킹 할 땐 무조건 공인인증서까지 다 입력해야 하는데 요즘은 지문인식으로 다 처리할 수 있어서 진짜 편한 것 같아.",
+            "turn_id": "BK22008644-1",
+            "utterance_id": "BK22008644.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 인증방법에 지문인증이 추가됐을 때부터 계속 쓰고 있는데 진짜 편하더라. 이젠 지문인증 아니면 불편하더라고.",
+            "turn_id": "BK22008644-1",
+            "utterance_id": "BK22008644.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 그렇지? 진짜 편하게 쓰고 있는데 이런 게 어떻게 가능할까 궁금하기도 해. 지문인식은 어떤 원리로 돌아가는 걸까?",
+            "turn_id": "BK22008644-2",
+            "utterance_id": "BK22008644.3"
+        },
+        {
+            "reference_date": "2019-10-22",
+            "reference_text": [
+                {
+                    "value": "지문인식센서의 기본 원리는 사람마다 다른 지문 특징을 센싱한 뒤 본인 여부를 확인하는 것이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20191021000232",
+            "search_query": "지문인식 원리",
+            "terminate": false,
+            "text": "지문은 사람마다 각각 다르게 생겼으니까, 그 특징을 센서가 인식해서 본인 여부를 확인하는 거야.",
+            "turn_id": "BK22008644-2",
+            "utterance_id": "BK22008644.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 지문을 읽어서 이 지문이 어떤 사람의 것이구나 하는 건 알겠는데 그걸 어떤 방식으로 읽어내는 건지가 궁금해서.",
+            "turn_id": "BK22008644-3",
+            "utterance_id": "BK22008644.5"
+        },
+        {
+            "reference_date": "2019-03-17",
+            "reference_text": [
+                {
+                    "value": "지문을 인식하는 기법은 △광학식 △정전용량식 △초음파 방식 등 세가지로 나뉜다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3572377",
+            "search_query": "지문인식 기법",
+            "terminate": false,
+            "text": "지문을 인식하는 방법에는 세 가지가 있는데, 광학식과 정전용량식, 그리고 초음파 방식이 있어.",
+            "turn_id": "BK22008644-3",
+            "utterance_id": "BK22008644.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 여러 가지가 있구나. 그럼 스마트폰에서는 어떤 방식으로 지문을 읽어?",
+            "turn_id": "BK22008644-4",
+            "utterance_id": "BK22008644.7"
+        },
+        {
+            "reference_date": "2019-03-17",
+            "reference_text": [
+                {
+                    "value": "스마트폰에서 주로 사용하는 지문인식 방식은 정전용량식이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지문에서 입체적으로 올라와 있는 융선과 움푹 파인 골간 정전용량의 차이를 이용한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지문에 미세한 전류를 흘리면 전압이 발생하는데 센서와 피부가 붙어있는 부분인 융선은 떨어져 있는 부분인 골보다 전압이 낮다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?3572377",
+            "search_query": "스마트폰 지문인식 방식",
+            "terminate": false,
+            "text": "정전용량식을 사용해. 정전용량식은 지문을 확대해보면 솟아있는 융선과 파여있는 골간으로 나눠지는데, 이 두개 정전용량의 차이를 이용해서 인식해. 좀 더 쉽게 얘기해보자면 지문에 미세한 전류를 흘려보내면 전압이 발생하는데, 융선과 골간의 전압이 달라. 융선은 센서와 피부가 붙어있기 때문에 상대적으로 센서와 떨어져 있는 융선보다는 전압이 낮거든. 이 차이를 이용하는 거지.",
+            "turn_id": "BK22008644-4",
+            "utterance_id": "BK22008644.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와우, 그냥 사진 같은 걸 찍어서 비교하나 했는데 더 정교한 기술이 쓰이고 있었네. 그런 기술에도 단점은 있겠지?",
+            "turn_id": "BK22008644-5",
+            "utterance_id": "BK22008644.9"
+        },
+        {
+            "reference_date": "2017-12-28",
+            "reference_text": [
+                {
+                    "value": "무리한 노동을 하거나 노화 등으로 지문이 닳거나 무늬가 옅어지는 경우 인식이 어렵다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 지문 복제의 가능성이 존재한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "패스워드나 패턴은 유출되면 변경하면 되지만 지문이 유출되었다고 해서 손가락을 바꿀 수는 없다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.betanews.net/article/788594",
+            "search_query": "지문인식 단점",
+            "terminate": false,
+            "text": "아무래도 그렇지. 일반적인 비밀번호나 패턴은 유출되더라도 바꾸면 되지만, 지문은 유출돼도 바꿀 수 없잖아. 그리고 지문 자체를 복제할 수도 있고. 그게 다니더라도 평소에 무리해서 일하거나 나이가 들면서 지문이 닳거나, 지문이 옅어지는 경우에도 인식률이 떨어져.",
+            "turn_id": "BK22008644-5",
+            "utterance_id": "BK22008644.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비밀번호는 바꿔도 지문은 바꿀 수 없다는 게 참 큰 단점이네. 나는 그냥 단순히 지문이 다른 사람과 일치할 일이 없으니 모든 인식을 지문인식으로 하면 정확하겠구나 싶었거든.",
+            "turn_id": "BK22008644-6",
+            "utterance_id": "BK22008644.11"
+        },
+        {
+            "reference_date": "2019-01-14",
+            "reference_text": [
+                {
+                    "value": "지문은 타인과 같을 확률이 10억분의 1에 불과하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.koreatimes.com/article/1225303",
+            "search_query": "지문 일치 확률",
+            "terminate": false,
+            "text": "흠, 지문이 타인과 일치할 확률이 10억분의 1이라 나랑 지문이 같은 사람을 만날 일이 거의 없지만 아예 없는 건 아니야.",
+            "turn_id": "BK22008644-6",
+            "utterance_id": "BK22008644.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇긴 하겠다. 우리나라에선 만나기 힘들겠지만 전 세계로 보면 나랑 지문이 같은 사람이 한 명 쯤은 있긴 하겠네. 그럼 아까 얘기하던 거지만, 지문인식이 그런 단점들이 있는데도 생체인식 분야에서 지문인식을 제일 많이 사용했던 이유가 뭘까?",
+            "turn_id": "BK22008644-7",
+            "utterance_id": "BK22008644.13"
+        },
+        {
+            "reference_date": "2021-03-31",
+            "reference_text": [
+                {
+                    "value": "생체인식 분야에서 지문인식이 널리 사용됐던 이유는 가격대비 경쟁력이 높았기 때문이었다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "CPU의 기술적인 발전으로 지문인식에 필요한 시간을 크게 줄일 수 있었으며 인식에 필요한 비용 또한 낮출 수 있었다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지문은 또한 오랫동안 연구대상이 돼왔기 때문에 상대적으로 기술적인 접근이 쉬웠다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.itdaily.kr/news/articleView.html?idxno=202341",
+            "search_query": "지문인식 사용 이유",
+            "terminate": false,
+            "text": "그때 당시 다른 생체인식에 비해 같은 가격 대비해서 경쟁력이 높아서야. 그리고 CPU가 계속 발전되면서 지문인식에 필요한 시간도 크게 줄었고, 들어가는 비용도 많이 줄어들었거든. 그리고 가장 큰 이유는 지문은 예전부터 연구해왔던 부분이라, 상대적으로 다른 생체인식과 비교해서 기술적인 접근도 쉬웠다는 점이야.",
+            "turn_id": "BK22008644-7",
+            "utterance_id": "BK22008644.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 지문은 다른 장치 없어도 잉크 묻혀서 찍기만 하면 볼 수는 있었으니까. 그렇게 보던 지문을 이제 여러 기술을 사용해서 분석한다는 게 참 신기하다.",
+            "turn_id": "BK22008644-8",
+            "utterance_id": "BK22008644.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 기술의 발전이라는 게 참 대단하고 신기해. 어떻게 그런 생각들을 했을까 몰라.",
+            "turn_id": "BK22008644-8",
+            "utterance_id": "BK22008644.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 지문만으로도 신기한데 요즘 생체인식 종류도 다양해졌다고 하더라고.",
+            "turn_id": "BK22008644-9",
+            "utterance_id": "BK22008644.17"
+        },
+        {
+            "reference_date": "2019-10-01",
+            "reference_text": [
+                {
+                    "value": "현재까지 상용화된 생체인식 기술 종류는 지문, 얼굴, 홍채, 정맥 등이 있으며 이 중 지문과 얼굴인식의 비중이 실제 시장에서 대다수를 차지하고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.itdaily.kr/news/articleView.html?idxno=97229",
+            "search_query": "생체인식 종류",
+            "terminate": false,
+            "text": "그렇긴 해. 현재 기준으로 시중에서 쓰이고 있는 생체인식은 방금 얘기한 지문인식이 대표적이지만, 얼굴인식과 홍채인식, 정맥인식도 있지. 여기서 제일 많이 쓰이는 건 지문인식과 얼굴인식이야.",
+            "turn_id": "BK22008644-9",
+            "utterance_id": "BK22008644.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 얼굴인식은 지금 스마트폰에서도 잠금해제 용도로 잘 쓰고 있어. 홍채인식도 인터넷뱅킹 할 때 메뉴를 본 것 같긴 한데, 정맥인식은 처음 듣는다. 정맥인식은 어떤 원리로 돌아가는거야?",
+            "turn_id": "BK22008644-10",
+            "utterance_id": "BK22008644.19"
+        },
+        {
+            "reference_date": "2021-05-09",
+            "reference_text": [
+                {
+                    "value": "손바닥 정맥은 성장기에도 변하지 않고 다른 신체 부위보다 정보량이 많아 본인 인증률이 높고 위·변조가 어렵다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람마다 정맥혈관 굵기, 모양 등이 서로 달라 손가락 지문 정보로 인식하는 방식보다 더 정확하다는 평가를 받는다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20210509102149680",
+            "search_query": "손바닥 정맥",
+            "terminate": false,
+            "text": "아까 지문은 시간이 지나면서 닳거나 옅어진다고 했잖아? 손바닥 정맥의 경우엔 성장기에도 변하지 않고, 다른 신체부위에 비해 정보량도 많아. 그래서 위조나 변조도 어려울 뿐만 아니라 본인 인증률 또한 높은 편이지. 아무래도 사람마다 혈관의 굵기나 모양도 제각각 다르니까 지문보다 더 정확할 수밖에 없지.",
+            "turn_id": "BK22008644-10",
+            "utterance_id": "BK22008644.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 그렇겠다. 경우의 수로 지문은 같을 수 있지만 혈관은 같을 수가 없으니까. 그럼 홍채도 비슷한 원리인 거야?",
+            "turn_id": "BK22008644-11",
+            "utterance_id": "BK22008644.21"
+        },
+        {
+            "reference_date": "2017-09-27",
+            "reference_text": [
+                {
+                    "value": "안구의 각막과 수정체 사이에 있는 홍채는 생후 18개월에 형태가 완성되고 이후 평생 변하지 않으며 접근 및 복제가 비교적 쉬운 ID/ PW 시스템과 달리 해킹이 거의 불가능하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍채의 특징적인 생체 패턴 200여 가지를 통해 대상을 인식하므로 30여 가지 특성을 통해 인식하는 지문보다 훨씬 정교하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000290801",
+            "search_query": "홍채인식 원리",
+            "terminate": false,
+            "text": "맞아. 우선 홍채는 눈의 각막과 수정체 사이에 있는데, 태어나고 18개월 정도 되면 형태가 완성되고 평생 변하지 않아. 그리고 지문의 경우엔 지문의 30가지 정도의 특성을 비교해서 일치여부를 판단하지만, 홍채는 무려 200가지의 특성을 비교해서 대상을 인식하기 때문에 지문인식보다 훨씬 정교한 판단을 할 수 있지.",
+            "turn_id": "BK22008644-11",
+            "utterance_id": "BK22008644.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그럼 홍채인식 할 땐 카메라에 눈을 대고 인식하겠네?",
+            "turn_id": "BK22008644-12",
+            "utterance_id": "BK22008644.23"
+        },
+        {
+            "reference_date": "2017-09-27",
+            "reference_text": [
+                {
+                    "value": "스마트폰의 홍채 인식은 홍채 인식 전용 카메라로 눈에 적외선이 반사되는 영상을 촬영해 인식하고 인증한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "촬영된 눈 영상에서 홍채를 구분해 홍채 영역만을 이미지로 변환 후 등록한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000290801",
+            "search_query": "홍채인식",
+            "terminate": false,
+            "text": "맞아. 예를 들자면, 스마트폰에서 홍채인식을 할 땐 홍채인식 전용 카메라에 눈을 대면, 눈에서 반사되는 적외선을 카메라가 촬영해서 인식하는 원리야. 촬영된 사진에서 홍채를 구분한 뒤, 홍채 영역을 이미지로 바꿔서 등록한 다음 사용하지.",
+            "turn_id": "BK22008644-12",
+            "utterance_id": "BK22008644.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 기술로 거기까지 가능하다는 게 참 신기하다. 홍채인식도 한번 써봐야겠어. 오늘 좋은 공부 할 수 있게 해줘서 고마워.",
+            "turn_id": "BK22008644-13",
+            "utterance_id": "BK22008644.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나도 관심 가던 분야여서 자세히 알려줄 수 있었는걸. 해보고 궁금한 거 있으면 알려줘. 언제든 환영이야!",
+            "turn_id": "BK22008644-13",
+            "utterance_id": "BK22008644.26"
+        }
+    ]
+}

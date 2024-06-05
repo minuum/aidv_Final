@@ -1,0 +1,359 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002475",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002475",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 보면 현실이 픽션을 능가하는 것 같다는 생각이 들어.",
+            "turn_id": "BK22002475-1",
+            "utterance_id": "BK22002475.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왜 갑자기 그런 생각을 한 거야?",
+            "turn_id": "BK22002475-1",
+            "utterance_id": "BK22002475.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그게, 내가 최근에 드라큘라라고 하는 소설을 읽었거든. 혹시 어떤 작품인지 알아?",
+            "turn_id": "BK22002475-2",
+            "utterance_id": "BK22002475.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "《드라큘라》(Dracula)는 아일랜드의 작가 브램 스토커가 쓴 1897년작 소설로, 흡혈귀인 드라큘라 백작이 주인공이다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%93%9C%EB%9D%BC%ED%81%98%EB%9D%BC",
+            "search_query": "소설 드라큘라",
+            "terminate": false,
+            "text": "그럼, 아일랜드 출신의 작가인 브램 스토커가 쓴 작품이잖아. 1897년에 나온 작품이고, 흡혈귀인 드라큘라 백작이 소설의 주인공이지.",
+            "turn_id": "BK22002475-2",
+            "utterance_id": "BK22002475.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 여기 나오는 드라큘라 백작은 가공의 인물이잖아. 그런데 검색해보니까, 피를 얻기 위해서 사람들을 납치해서 죽인 귀족이 역사 속에 실제로 있더라고. 에르제베트 바토리라는 사람인데, 혹시 들어봤어?",
+            "turn_id": "BK22002475-3",
+            "utterance_id": "BK22002475.5"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "바토리 에르제베트(헝가리어: Báthory Erzsébet, 체코어: Alžběta Báthoryová 알주베타 바토리오바, 슬로바키아어: Alžbeta Bátoriová 알주베타 바토리오바, 폴란드어: Elżbieta Batory 엘주비에타 바토리; 1560년 8월 7일(추정) - 1614년 8월 21일)는 헝가리 왕국 출신의 귀족이며 역사상 가장 유명한 연쇄살인마 가운데 하나로서 후세에는 흡혈귀 전설의 모델이 되었다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%86%A0%EB%A6%AC_%EC%97%90%EB%A5%B4%EC%A0%9C%EB%B2%A0%ED%8A%B8",
+            "search_query": "에르제베트 바토리",
+            "terminate": false,
+            "text": "헝가리 왕국 출신의 귀족인 바토리 에르제베트를 말하는 거구나. 1560년 8월 7일생으로 추정되고, 1614년 8월 21일에 사망한 사람 말이야. 역사상 가장 유명한 연쇄살인마 중 한 명이고, 후세 흡혈귀 전설의 모티브가 되기도 했지.",
+            "turn_id": "BK22002475-3",
+            "utterance_id": "BK22002475.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 내가 들은 이름은 에르제베트 바토리였어. 바토리가 이름이야, 아니면 성이야?",
+            "turn_id": "BK22002475-4",
+            "utterance_id": "BK22002475.7"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "이 사람의 이름은 헝가리 이름으로, 성이 앞에 오고 이름이 뒤에 옵니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 성은 ‘바토리’입니다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%86%A0%EB%A6%AC_%EC%97%90%EB%A5%B4%EC%A0%9C%EB%B2%A0%ED%8A%B8",
+            "search_query": "에르제베트 바토리 성 이름",
+            "terminate": false,
+            "text": "헝가리식 이름에서는 성이 앞으로 오고, 이름을 뒤에다가 표기해. 그러니까 바토리가 이름이 아니라 성이지.",
+            "turn_id": "BK22002475-4",
+            "utterance_id": "BK22002475.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 바토리가 아니라 에르제베트가 이름이구나. 아무튼 찾아보니까, 이 사람이 자기가 쓸 피를 얻기 위해서 진짜 엄청나게 많은 여자애를 납치해서 죽였다고 하더라고.",
+            "turn_id": "BK22002475-5",
+            "utterance_id": "BK22002475.9"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "그녀의 일기에는 1600년부터 1610년까지만에도 모두 612명의 여성을 죽였다고 쓰여있다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%86%A0%EB%A6%AC_%EC%97%90%EB%A5%B4%EC%A0%9C%EB%B2%A0%ED%8A%B8",
+            "search_query": "에르제베트 바토리 납치 살인",
+            "terminate": false,
+            "text": "그 수치가 엄청나긴 하지. 일기에 적힌 내용을 보면, 1600년부터 1610년까지 10년 동안 612명의 여성을 죽였다는 내용을 확인할 수 있어.",
+            "turn_id": "BK22002475-5",
+            "utterance_id": "BK22002475.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 사람들을 죽인 이유가, 다른 것도 아니고 단지 피로 목욕을 하기 위해서였다니 너무 끔찍해. 바토리는 어쩌다가 그런 짓을 저지르게 된 걸까?",
+            "turn_id": "BK22002475-6",
+            "utterance_id": "BK22002475.11"
+        },
+        {
+            "reference_date": "2015-02-01",
+            "reference_text": [
+                {
+                    "value": "그러던 어느날, 바토리 에르제베트는 하녀의 뺨을 때렸다가 우연히 피가 묻은 피부가 생기있게 되살아나는 느낌을 받는다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 뒤 젊은 피를 묻히는 것이 젊음을 유지하는 것이라 생각한 바토리 에르제베트는 젊은 처녀들을 살해하기 시작했다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.xportsnews.com/article/548860",
+            "search_query": "에르제베트 바토리 피 목욕 이유",
+            "terminate": false,
+            "text": "모든 건 우연으로부터 발생한 일이었어. 어느 날, 바토리가 하녀의 뺨을 때렸다가 피가 피부에 묻는 일이 발생했는데, 묘하게도 피가 묻었던 부분이 생기있게 되살아나는 듯한 느낌을 받았던 거야. 이거 때문에, 바토리는 젊은 피를 사용해서 젊음을 유지할 수 있다고 생각하게 됐고, 이후 젊은 여성들을 살해하게 된 거지.",
+            "turn_id": "BK22002475-6",
+            "utterance_id": "BK22002475.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 입장에서 보면 너무 황당한 살해 사유잖아. 바토리의 희생자들도 전혀 납득할 수 없는 이유였을 거고. 차라리 이게 누명이거나 조작된 사건이면 좋을 텐데.",
+            "turn_id": "BK22002475-7",
+            "utterance_id": "BK22002475.13"
+        },
+        {
+            "reference_date": "2015-02-01",
+            "reference_text": [
+                {
+                    "value": "이 끔찍한 이야기가 세상에 알려졌으나 1985년 헝가리의 한 역사학자는 바토리가 억울한 누명을 썼다고 주장하면서 상황은 새로운 국면에 맞서게 된다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/entertain/view/2015/02/103839/",
+            "search_query": "바토리 사건 누명",
+            "terminate": false,
+            "text": "그게, 네 말처럼 어쩌면 이게 누명이 아닐까 의심하는 사람이 없지는 않아. 1985년, 헝가리의 한 역사학자가 바토리가 억울하게 누명을 썼다고 주장하기도 했거든. 이 때문에 바토리 사건이 새로운 국면을 맞이하기도 했었지.",
+            "turn_id": "BK22002475-7",
+            "utterance_id": "BK22002475.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 이게 사실 누명이고, 실제로는 바토리가 살인마가 아니었을 가능성이 있다고 그 학자가 말했던 거야?",
+            "turn_id": "BK22002475-8",
+            "utterance_id": "BK22002475.15"
+        },
+        {
+            "reference_date": "2015-02-01",
+            "reference_text": [
+                {
+                    "value": "이에 대해 학자는 사촌 오빠이자 헝가리 국왕이었던 마티아스가 꾸민 짓이라고 설명했다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2015/02/01/2015020100873.html",
+            "search_query": "바토리 살인마 누명",
+            "terminate": false,
+            "text": "맞아, 이게 어쩌면 바토리의 사촌 오빠이자 헝가리 국왕이었던 마티아스의 음모가 아니였을까 주장한 거지.",
+            "turn_id": "BK22002475-8",
+            "utterance_id": "BK22002475.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마티아스 국왕이 왜 바토리에게 그런 짓을 한 걸까?",
+            "turn_id": "BK22002475-9",
+            "utterance_id": "BK22002475.17"
+        },
+        {
+            "reference_date": "2022-01-07",
+            "reference_text": [
+                {
+                    "value": "헝가리 왕은 바토리의 남편에게 큰돈을 빌렸다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남편이 죽은 뒤 돈을 받을 사람은 바토리였다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마티아스 2세가 바토리를 제거할 동기는 차고 넘쳤다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/1026281.html",
+            "search_query": "바토리 마티아스",
+            "terminate": false,
+            "text": "의외로 바토리를 제거해야 하는 이유가 마티아스 2세에게는 제법 많았어. 우선, 헝가리 국왕으로서 바토리의 남편에게 돈을 크게 빌렸었거든. 그리고 남편이 죽은 뒤, 그 돈을 다시 받아야 하는 사람은 바토리였지.",
+            "turn_id": "BK22002475-9",
+            "utterance_id": "BK22002475.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국왕이라는 사람이 고작 돈 문제 때문에 멀쩡한 사람에게 연쇄살인마의 누명을 씌운 거야? 그러면 오히려 바토리가 억울한 희생양이었던 거네!",
+            "turn_id": "BK22002475-10",
+            "utterance_id": "BK22002475.19"
+        },
+        {
+            "reference_date": "2022-01-07",
+            "reference_text": [
+                {
+                    "value": "재판이 있기 한참 전인 1602년에도 바토리와 남편이 하인을 잔인하게 괴롭혔다는 목격담이 기록으로 남았다.",
+                    "value_time": "2022-07-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/1026281.html",
+            "search_query": "바토리 희생양",
+            "terminate": false,
+            "text": "그렇긴 한데, 그렇다고 모든 게 다 억울한 누명이라고는 할 수 없을 거 같아. 재판이 일어나기 한참 전이었던 1602년에 이미, 바토리와 남편이 하인을 잔혹하게 학대했다는 목격담이 남아있거든.",
+            "turn_id": "BK22002475-10",
+            "utterance_id": "BK22002475.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그렇다면 연쇄살인마까지는 아니었을지 몰라도, 제법 잔혹했던 사람이었던 건 맞는 것 같네. 그래도 정말 억울하게 누명을 쓴 부분이나 과장된 부분이 있다면 이 부분은 명확히 밝혀지면 좋겠어. 바토리랑 관련된 한 번 추가적인 자료가 없는지, 한 번 검색해보러 가볼게!",
+            "turn_id": "BK22002475-11",
+            "utterance_id": "BK22002475.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "뭘, 혹시 자료 찾다가 도움이 필요하면 언제든지 말해줘.",
+            "turn_id": "BK22002475-11",
+            "utterance_id": "BK22002475.22"
+        }
+    ]
+}

@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013858",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013858",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매년 여름과 가을철에 꼭 태풍이 찾아오는데, 태풍의 정확한 정의는 뭔가요?",
+            "turn_id": "BK22013858-1",
+            "utterance_id": "BK22013858.1"
+        },
+        {
+            "reference_date": "44812.0",
+            "reference_text": [
+                {
+                    "value": "태풍(한국 한자: 颱風, 영어: typhoon, 중국어 간체자: 台风) 또는 열대폭풍(熱帶暴風, TS: tropical storm)은 열대 해상에서 발생한 열대저기압이 발달하여, 중심 부근의 최대 풍속이 17.2m/s 이상의 강한 폭풍우를 동반한 국지적 기상 현상을 말한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D",
+            "search_query": "태풍",
+            "terminate": false,
+            "text": "태풍은 열대 폭풍이라고도 하는데 열대 해상에 만들어진 열대저기압이 발달한 것이에요. 국지적 기상 현상으로 중심부의 최대 풍속이 17.2m/s 이상인 강한 폭풍우를 몰고 오죠.",
+            "turn_id": "BK22013858-1",
+            "utterance_id": "BK22013858.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 듣기로 태풍을 지칭하는 지역별 이름이 다르다고 하던데 그런가요?",
+            "turn_id": "BK22013858-2",
+            "utterance_id": "BK22013858.3"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "태풍은 열대저기압의 한 종류로 열대저기압은 지구의 여러 곳에서 발생하는데, 발생 지역에 따라 부르는 명칭이 다르다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북태평양 서부에서 발생할 경우 '태풍', 북태평양 동부·북대서양·카리브 해에서 발생할 경우 '허리케인', 벵골 만·인도양 등에서 발생할 경우는 '사이클론'이라 한다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=185381#0DJY",
+            "search_query": "태풍 지역별 명칭",
+            "terminate": false,
+            "text": "네, 열대저기압의 일종인 태풍은 세계 각지에서 만들어지는데, 어디서 만들어졌냐에 따라서 명칭이 달라지죠. 태풍은 북태평양 서부에서 발생한 경우를 일러요. 그 외에 북태평양 동부나 북대서양 및 카리브해에서 생긴 것은 허리케인이라고 부르죠. 사이클론은 인도양과 벵골만 등지에서 만들어진 열대저기압을 부르는 이름이고요.",
+            "turn_id": "BK22013858-2",
+            "utterance_id": "BK22013858.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 태풍과 관련된 일기 예보를 듣다 보면 태풍의 눈이라는 단어를 종종 듣게 되는데 태풍의 눈이 뭔가요?",
+            "turn_id": "BK22013858-3",
+            "utterance_id": "BK22013858.5"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "열대성 저기압 중심부에 나타나는 무풍지대, 곧 맑고 조용한 기상 상태를 가리킨다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태풍 중심에 가까울수록 원심력이 강해져서 나타나는 현상이다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022090418520619758",
+            "search_query": "태풍의 눈",
+            "terminate": false,
+            "text": "태풍의 눈은 쾌청하고 고요한 기상 상태를 지닌 열대성 저기압 중심부의 무풍지대를 일컫는데, 이는 태풍 중심에 근접할수록 거세지는 원심력 때문에 일어나는 현상이에요.",
+            "turn_id": "BK22013858-3",
+            "utterance_id": "BK22013858.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 아이러니하게도 태풍의 한가운데가 제일 안전하겠네요. 그런데 태풍의 어원은 뭔가요? 한자어인 것 같기도 하고 아리송해요.",
+            "turn_id": "BK22013858-4",
+            "utterance_id": "BK22013858.7"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "태풍의 어원은 다양하다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어 ‘타이푼(typhoon)’을 음역했다거나, 거꾸로 태풍의 중국 방언이 영어가 됐다거나 등등.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1634년 중국에서 간행된 〈복건통지〉라는 책에서 태풍이라는 말이 처음 나왔다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022090418520619758",
+            "search_query": "태풍의 어원",
+            "terminate": false,
+            "text": "우선 1634년 복건통지라는 중국에서 발행된 책에서 태풍이라는 단어가 처음 언급되었는데, 태풍의 어원에 대해서는 다양한 의견이 있어요. 태풍을 가리키는 영어 단어인 타이푼을 음역한 것이라거나, 반대로 태풍의 중국 방언이 영어 단어화되었다는 설이 있죠.",
+            "turn_id": "BK22013858-4",
+            "utterance_id": "BK22013858.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 태풍과 타이푼의 발음이 정말 비슷하네요. 그럼 옛날 우리 조상들은 태풍을 뭐라고 불렀어요?",
+            "turn_id": "BK22013858-5",
+            "utterance_id": "BK22013858.9"
+        },
+        {
+            "reference_date": "42566.0",
+            "reference_text": [
+                {
+                    "value": "태풍의 순 우리말은 '싹쓸바람'이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 번 휩쓸고 가면 남는 것이 아무것도 없다는 뜻이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2016071522531096139",
+            "search_query": "태풍 순우리말",
+            "terminate": false,
+            "text": "태풍은 순우리말로 싹쓸바람이라고 불러요. 태풍이 한 번 휘몰아치고 간 자리에는 남는 것이 전무하다는 의미죠.",
+            "turn_id": "BK22013858-5",
+            "utterance_id": "BK22013858.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 싹쓸바람이 태풍보다 훨씬 더 직관적인데요? 그런데 매번 찾아오는 태풍마다 고유한 이름을 가지고 있던데, 태풍의 이름은 어떻게 붙여지는 건가요?",
+            "turn_id": "BK22013858-6",
+            "utterance_id": "BK22013858.11"
+        },
+        {
+            "reference_date": "44095.0",
+            "reference_text": [
+                {
+                    "value": "태풍 이름은 2000년부터 아시아태풍위원회 회원국 14개국에서 각각 10개씩 제출한 이름을 일정한 순서에 따라 붙인다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "140개 태풍 이름은 28개씩 5개 조로 나뉘어 차례로 붙여진다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "140개를 모두 사용한 뒤에는 처음으로 돌아가 1번부터 다시 사용한다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200921192452190",
+            "search_query": "태풍 이름짓는 방법",
+            "terminate": false,
+            "text": "2000년부터 아시아 태풍위원회의 14개 회원국에서 각각 10개씩 이름을 제출하고, 이 이름들을 정해진 차례대로 사용하고 있어요. 140개의 이름들을 28개씩 5개의 조로 나누어 순서대로 태풍의 이름으로 쓰고 있는데, 모든 이름이 한 번씩 사용되고 나면 처음 이름부터 다시 돌아가며 쓰는 방식이에요.",
+            "turn_id": "BK22013858-6",
+            "utterance_id": "BK22013858.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 우리나라에서 제출한 태풍 이름은 어떤 것들이 있나요?",
+            "turn_id": "BK22013858-7",
+            "utterance_id": "BK22013858.13"
+        },
+        {
+            "reference_date": "44807.0",
+            "reference_text": [
+                {
+                    "value": "우리나라에서 제출한 이름에는 나리(NARI), 장미(JANGMI), 개나리(GAENARI) 등 꽃 이름이 포함된다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노루(NORU), 너구리(NEOGURI) 같은 비교적 작고 온순한 동물의 이름도 있다.",
+                    "value_time": "44813.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022090215484995263",
+            "search_query": "우리나라에서 제출한 태풍 이름",
+            "terminate": false,
+            "text": "우리나라에서 낸 태풍 이름으로는 나리, 장미, 개나리와 같은 꽃 이름과 노루, 너구리 등의 상대적으로 조그맣고 순한 동물 이름들로 구성되어 있답니다.",
+            "turn_id": "BK22013858-7",
+            "utterance_id": "BK22013858.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍 이름이 너구리라니 너무 귀여운데요. 그런데 어쩌다가 태풍에 저마다 이름을 붙이게 되었나요?",
+            "turn_id": "BK22013858-8",
+            "utterance_id": "BK22013858.15"
+        },
+        {
+            "reference_date": "41521.0",
+            "reference_text": [
+                {
+                    "value": "태풍의 이름을 처음으로 붙인 것은 호주의 예보관들이었다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 당시 호주 예보관들은 자신이 싫어하는 정치가의 이름을 붙였는데, 예를 들어 싫어하는 정치가의 이름이 앤더슨이라면 “현재 앤더슨이 태평양 해상에서 헤매고 있는 중입니다” 또는 “앤더슨이 엄청난 재난을 일으킬 가능성이 있습니다”라고 태풍 예보를 했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=765643",
+            "search_query": "태풍 이름 최초",
+            "terminate": false,
+            "text": "최초로 태풍에 이름을 지어주기 시작한 건 호주의 예보관들이에요. 당시 호주 예보관들은 싫어하는 정치가의 이름을 태풍의 이름으로 사용했어요. 만약 그 정치가의 이름이 앤더슨이라고 친다면, 현재 앤더슨이 태평양 해상에서 헤매고 있는 중이라든가 혹은 앤더슨이 엄청난 재난을 일으킬 가능성이 있다든가 하는 식으로 태풍 예보를 하곤 했죠.",
+            "turn_id": "BK22013858-8",
+            "utterance_id": "BK22013858.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 참 재치 있는 방식이네요. 제 어릴 적 기억으로는 태풍 이름에 외국 여자 이름이 많았던 거 같은데, 아닌가요?",
+            "turn_id": "BK22013858-9",
+            "utterance_id": "BK22013858.17"
+        },
+        {
+            "reference_date": "44811.0",
+            "reference_text": [
+                {
+                    "value": "제2차세계대전 이후에는 미국 공군과 해군에서 이름을 붙였는데 이때 기상 예보 센터에 배정된 장교 부인의 이름을 사용했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 전통에 따라 1978년까지 사라·루사 같은 여성 이름이 붙었고, 이후에는 남녀 이름을 번갈아 사용했다.",
+                    "value_time": "44813.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2022/09/792891/",
+            "search_query": "태풍 여성 이름",
+            "terminate": false,
+            "text": "맞아요. 제2차세계대전 이후부터 미국의 공군과 해군이 태풍의 이름을 지었는데, 당시 기상 예보 센터를 담당 중인 장교의 부인 이름을 따서 짓곤 했죠. 이 전통 때문에 1978년까지는 사라나 루사 같은 여성의 이름이 태풍에 사용되었고, 그 후로는 여자 이름뿐만 아니라 남자 이름도 번갈아 쓰기 시작했어요.",
+            "turn_id": "BK22013858-9",
+            "utterance_id": "BK22013858.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편 때문에 내 이름이 대대적으로 태풍 예보에 쓰인다면 기분이 묘했겠는 걸요.",
+            "turn_id": "BK22013858-10",
+            "utterance_id": "BK22013858.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "후후, 그러게요. 만약 큰 피해를 일으킨 태풍이라면 괜스레 죄책감이 들었을지도 모르겠네요.",
+            "turn_id": "BK22013858-10",
+            "utterance_id": "BK22013858.20"
+        }
+    ]
+}

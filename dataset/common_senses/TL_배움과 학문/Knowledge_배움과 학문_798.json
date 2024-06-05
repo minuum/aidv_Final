@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005207",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005207",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방금 피자 먹었는데, 피자는 진짜 최고의 음식 같아. 어떻게 이런 게 만들어졌을까? 피자의 기원에 대해 좀 알아?",
+            "turn_id": "BK22005207-1",
+            "utterance_id": "BK22005207.1"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "피자의 기원은 확실치 않으나 터키의 피데에서 비롯되었다는 설이 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대의 피자는 중세 초기 이탈리아의 토마토가 들어간 나폴리탄 파이가 그 기원으로, 1889년부터 치즈가 들어가기 시작했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%90",
+            "search_query": "피자 기원",
+            "terminate": false,
+            "text": "터키의 피데에서 유래되었다는 설이 있어. 현대 피자는 1889년부터 치즈가 들어간 중세 이탈리아의 나폴리탄 파이가 기원이야.",
+            "turn_id": "BK22005207-1",
+            "utterance_id": "BK22005207.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이탈리아가 피자의 원조 국가였구나. 난 미국식 피자를 먹었는데, 미국은 언제부터 피자를 먹은 거야?",
+            "turn_id": "BK22005207-2",
+            "utterance_id": "BK22005207.3"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "이후 세계 대전에서 이탈리아에 주둔한 미군들이 피자를 맛본 후 미국에 전해지거나 이탈리아의 이민자 및 노동자들이 미국으로 건너가면서 피자가 미국 전역으로 퍼지면서 세계적인 음식으로 발돋움하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%90",
+            "search_query": "피자 미국",
+            "terminate": false,
+            "text": "세계 대전 이후 미군들은 이탈리아에 주둔했는데, 그때 피자를 맛 본 미군들이 피자를 미국에 전파했지. 그리고 미국으로 넘어간 이탈리아 이민자들의 역할도 주요했어. 그렇게 미국 전 지역으로 퍼지며 세계적인 음식이 되었지.",
+            "turn_id": "BK22005207-2",
+            "utterance_id": "BK22005207.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 아, 한국에는 언제부터 피자가 들어온 거야?",
+            "turn_id": "BK22005207-3",
+            "utterance_id": "BK22005207.5"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "1972년, 서울 유네스코 빌딩에 대한민국 최초로 피자가게가 개점하여, 대한민국에 처음 알려졌다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%9E%90",
+            "search_query": "피자 한국",
+            "terminate": false,
+            "text": "서울 유네스코 빌딩에 한국 최초로 피자가게가 열렸었어. 그 때 한국에 처음 알려졌는데, 1972년이었지.",
+            "turn_id": "BK22005207-3",
+            "utterance_id": "BK22005207.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 50년이나 되었구나. 우리나라 피자의 역사도 깊은 편이네.",
+            "turn_id": "BK22005207-4",
+            "utterance_id": "BK22005207.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 넌 어떤 피자를 좋아하는 편이야?",
+            "turn_id": "BK22005207-4",
+            "utterance_id": "BK22005207.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 피자 중에 페퍼로니 피자를 제일 좋아하는데, 가끔 페퍼로니가 뭔 뜻일까 생각하곤 해. 페퍼로니가 뭔지 아니?",
+            "turn_id": "BK22005207-5",
+            "utterance_id": "BK22005207.9"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "페퍼로니(영어: Pepperoni)는 양념이 들어간 고기로 만드는 이탈리아 살라미의 미국식 음식이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%98%ED%8D%BC%EB%A1%9C%EB%8B%88",
+            "search_query": "페퍼로니",
+            "terminate": false,
+            "text": "페퍼로니는 이탈리아 살라미의 미국식 음식이야. 양념이 들어간 고기로 만들지.",
+            "turn_id": "BK22005207-5",
+            "utterance_id": "BK22005207.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양념이 들어간 고기로 만든다고? 어떻게 만드는지 더 자세히 알려주라. ",
+            "turn_id": "BK22005207-6",
+            "utterance_id": "BK22005207.11"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "살라미(영어: Salami 단수형 Salame, 이탈리아어: Salami 단수형 Salame)는 말린 햄의 일종으로 공기 중에 말려 발효시키는 음식이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%AF%B8",
+            "search_query": "살라미",
+            "terminate": false,
+            "text": "살라미는 말린 햄의 일종인데, 공기 중에 말리는 방식으로 발효를 시켜서 만들어.",
+            "turn_id": "BK22005207-6",
+            "utterance_id": "BK22005207.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오오, 그렇구나. 살라미, 이름이 참 신기해. 살라미 어원에 대해서는 좀 아는 것이 있어?",
+            "turn_id": "BK22005207-7",
+            "utterance_id": "BK22005207.13"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "살라미라는 것은 사실 Salame의 복수형으로서 살라메가 일반명사로서 각 종류 혹은 하나 하나의 소시지를 가리킨다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%AF%B8",
+            "search_query": "살라미 어원",
+            "terminate": false,
+            "text": "살라미는 salame의 복수형이야. 살라메는 각 종류나 하나의 소시지를 가리키는 일반명사고.",
+            "turn_id": "BK22005207-7",
+            "utterance_id": "BK22005207.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "넌 참 이런 걸 잘 아는구나. 그럼 살라미에는 어떤 고기가 들어가는거야?",
+            "turn_id": "BK22005207-8",
+            "utterance_id": "BK22005207.15"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "전통 살라미는 돼지고기, 소고기, 거위, 양, 염소, 기타 가금류의 고기로 만든다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%AF%B8",
+            "search_query": "살라미 재료",
+            "terminate": false,
+            "text": "전통적인 살라미는 소고기나 돼지고기, 양, 염소, 기타 가금류, 거위 등의 고기로 만들어.",
+            "turn_id": "BK22005207-8",
+            "utterance_id": "BK22005207.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 다양한 고기들로 만드네. 살라미는 도대체 어디서 시작된 음식인 거야?",
+            "turn_id": "BK22005207-9",
+            "utterance_id": "BK22005207.17"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "역사적으로는 이탈리아에서 오랜 전통을 갖고 있으며 부자가 아니더라도 많은 농민들이 작은 방에 소시지를 저장해놓고 일 년 내내 말려서 신선한 고기의 맛을 느낄 수 있었으므로 사랑받았다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B4%EB%9D%BC%EB%AF%B8",
+            "search_query": "살라미 기원",
+            "terminate": false,
+            "text": "살라미는 이탈리아에 오랜 전통이 있어. 그도 그럴 것이 살라미는 작은 방에서 일 년 내내 말려 저장할 수 있어서 많은 농민들에게 사랑 받았거든. 이런 방식은 부자가 아닌 농민들에게 손쉽게 신선한 고기 맛을 느낄 수 있게 해줘서 좋았던 거지.",
+            "turn_id": "BK22005207-9",
+            "utterance_id": "BK22005207.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 이런 이야기들을 하고 있으니 살라미, 아니 페퍼로니 피자가 먹고 싶어졌어. 같이 먹을래?",
+            "turn_id": "BK22005207-10",
+            "utterance_id": "BK22005207.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나야 좋지, 당장 시키자.",
+            "turn_id": "BK22005207-10",
+            "utterance_id": "BK22005207.20"
+        }
+    ]
+}

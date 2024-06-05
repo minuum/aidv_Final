@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003621",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003621",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우주에는 별이 참 많잖아요, 그런데 망원경으로 봐도 잘 안 보여요.",
+            "turn_id": "BK22003621-1",
+            "utterance_id": "BK22003621.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 아마 지구 밖에 있는 망원경을 사용하면 잘 보일 거예요.",
+            "turn_id": "BK22003621-1",
+            "utterance_id": "BK22003621.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구 밖에 망원경이 있어요?",
+            "turn_id": "BK22003621-2",
+            "utterance_id": "BK22003621.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "허블 우주망원경(영어: Hubble Space Telescope, HST;)은 1990년에 지구 저궤도로 발사된 우주망원경으로 현재도 가동 중이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%88%EB%B8%94_%EC%9A%B0%EC%A3%BC%EB%A7%9D%EC%9B%90%EA%B2%BD",
+            "search_query": "허블 우주망원경",
+            "terminate": false,
+            "text": "네, 1990년에 지구 저궤도로 발사된 망원경이 있어요. 현재도 가동 중인 허블 우주 망원경이에요.",
+            "turn_id": "BK22003621-2",
+            "utterance_id": "BK22003621.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 망원경이 지구 밖에 있었군요. 아마도 크기도 어마어마하겠죠?",
+            "turn_id": "BK22003621-3",
+            "utterance_id": "BK22003621.5"
+        },
+        {
+            "reference_date": "2020-08-30",
+            "reference_text": [
+                {
+                    "value": "‘허블’의 제원은 주경의 지름이 2.4m, 무게 12.2t, 길이 13m이고, 지상 600㎞ 정도의 높이에서 97분마다 지구를 한 바퀴씩 돌고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnnews.co.kr/news/articleView.html?idxno=453836",
+            "search_query": "허블 우주망원경 제원",
+            "terminate": false,
+            "text": "맞아요, 주경의 지름이 무려 2.4미터, 무게는 12.2톤, 길이는 13미터나 돼요. 지상 600킬로미터 높이에서 97분마다 한 번씩 지구를 돌고 있죠.",
+            "turn_id": "BK22003621-3",
+            "utterance_id": "BK22003621.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시나 크기가 엄청 크네요, 그만큼 관측 업적도 대단할 것 같아요.",
+            "turn_id": "BK22003621-4",
+            "utterance_id": "BK22003621.7"
+        },
+        {
+            "reference_date": "2021-12-23",
+            "reference_text": [
+                {
+                    "value": "블랙홀 관측은 허블우주망원경의 대표적 업적이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1992년 허블우주망원경은 거대 블랙홀이 있을 것으로 추정되는 은하 M87의 중심부를 관측하는 데 성공했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25034886",
+            "search_query": "허블 우주망원경 업적",
+            "terminate": false,
+            "text": "맞아요, 허블의 가장 잘 알려진 관측 중 하나는 블랙홀 관측이에요. 허블우주망원경은 1992년에 블랙홀이 있다고 생각되는 은하 M87의 중심부를 관측했어요.",
+            "turn_id": "BK22003621-4",
+            "utterance_id": "BK22003621.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단하네요, 또 다른 업적은 뭐가 있나요?",
+            "turn_id": "BK22003621-5",
+            "utterance_id": "BK22003621.9"
+        },
+        {
+            "reference_date": "2015-04-25",
+            "reference_text": [
+                {
+                    "value": "또 허블우주망원경은 우주의 나이를 138억년으로 규명하는데도 도움을 줬다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.donga.com/3/all/20150424/70897297/2",
+            "search_query": "허블 우주망원경 우주 나이",
+            "terminate": false,
+            "text": "우리는 우주의 나이를 138억 년으로 알고 있잖아요? 이것도 허블 우주망원경이 규명하는 데 도움을 줬어요.",
+            "turn_id": "BK22003621-5",
+            "utterance_id": "BK22003621.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 굵직한 업적들을 세웠네요. 그런데 1990년에 발사됐으면 꽤 오래됐는데 노후되진 않았나요?",
+            "turn_id": "BK22003621-6",
+            "utterance_id": "BK22003621.11"
+        },
+        {
+            "reference_date": "2021-07-12",
+            "reference_text": [
+                {
+                    "value": "NASA는 지난 2008년에 허블 망원경이 CU/SDF 모듈 고장으로 2주간 작동하지 않을 때도 예비장치로 대체한 바 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20210712052500009?input=1195m",
+            "search_query": "허블 우주망원경 고장",
+            "terminate": false,
+            "text": "맞아요, 지난 2008년에는 CU SDF 모듈 고장으로 2주간 작동하지 않은 적이 있어서 NASA가 예비장치로 대체한 적도 있어요.",
+            "turn_id": "BK22003621-6",
+            "utterance_id": "BK22003621.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 새로운 망원경이 필요할 것 같은데 계획에는 없나요?",
+            "turn_id": "BK22003621-7",
+            "utterance_id": "BK22003621.13"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "제임스 웹 우주망원경은 지난해 성탄절 발사된 NASA의 차세대 우주망원경으로 135억 광년 너머 빅뱅 직후에 나타난 초기 은하들과 외계행성의 생명체 증후들을 탐색하는 것을 미션으로 하고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20220709601006&wlog_tag3=naver",
+            "search_query": "제임스 웹 망원경 발사",
+            "terminate": false,
+            "text": "있어요, 바로 2021년 크리스마스에 발사된 NASA의 차세대 우주망원경 제임스 웹 우주망원경이에요. 이 망원경은 빅뱅 직후 태어난 초기 은하와 외계행성의 생명체 증거를 탐사하는 임무를 수행해요.",
+            "turn_id": "BK22003621-7",
+            "utterance_id": "BK22003621.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 새롭게 발사된 우주망원경이 있었군요. 아무래도 최근에 발사한 것이다 보니 성능이 좋겠죠?",
+            "turn_id": "BK22003621-8",
+            "utterance_id": "BK22003621.15"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "제임스 웹 우주망원경은 인류 역사상 가장 크고 강력한 성능을 가졌으며 약 100억달러(약 12조원)가 투입된 초대형 프로젝트입니다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.techm.kr/news/articleView.html?idxno=98308",
+            "search_query": "제임스 웹 망원경 성능",
+            "terminate": false,
+            "text": "맞아요, 약 100억 달러가 투입된 초대형 프로젝트인 만큼 인류 역사상 가장 강력한 성능을 가졌죠.",
+            "turn_id": "BK22003621-8",
+            "utterance_id": "BK22003621.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크기도 허블 우주 망원경보다 큰가요?",
+            "turn_id": "BK22003621-9",
+            "utterance_id": "BK22003621.17"
+        },
+        {
+            "reference_date": "2022-01-10",
+            "reference_text": [
+                {
+                    "value": "허블(직경 2.4m)의 2.7배에 이른다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "허블보다 빛을 6.25배 더 많이 모으고, 시야각은 15배 이상 넓다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/international/international_general/2022/01/10/GQ6VYEOJT5EYXH6W4MDE3BO4NA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "제임스 웹 망원경 크기",
+            "terminate": false,
+            "text": "맞아요, 무려 2.7배나 커요. 뿐만 아니라 빛도 허블 보다 약 6배 더 많이 모을 수 있고 시야각도 15배 이상 넓어요.",
+            "turn_id": "BK22003621-9",
+            "utterance_id": "BK22003621.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단하네요, 앞으로 보내올 사진들이 정말 기대돼요.",
+            "turn_id": "BK22003621-10",
+            "utterance_id": "BK22003621.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 제임스 웹이 사진을 보내온다면 제가 이메일로 보내드릴게요.",
+            "turn_id": "BK22003621-10",
+            "utterance_id": "BK22003621.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워요, 그럼 이따가 이메일 알려드릴게요, 대화 즐거웠어요.",
+            "turn_id": "BK22003621-11",
+            "utterance_id": "BK22003621.21"
+        }
+    ]
+}

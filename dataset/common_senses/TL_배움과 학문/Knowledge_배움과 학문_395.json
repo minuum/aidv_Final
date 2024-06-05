@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013866",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013866",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구가 속한 태양계는 어떤 천체들로 구성되어 있나요?",
+            "turn_id": "BK22013866-1",
+            "utterance_id": "BK22013866.1"
+        },
+        {
+            "reference_date": "44545.0",
+            "reference_text": [
+                {
+                    "value": "태양계는 태양과 태양의 영향권 내에 있는 주변 천체로 구성되어 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "항성인 태양과 이를 공전하는 행성, 그 행성을 공전하는 위성, 그리고 왜소행성과 소행성, 혜성, 카이퍼대(Kuiper belt) 천체를 비롯한 태양계 소천체, 행성 간 먼지등으로 구성되었다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.interview365.com/news/articleView.html?idxno=100422",
+            "search_query": "태양계 구성",
+            "terminate": false,
+            "text": "태양계는 태양을 비롯하여 태양의 영향권 내에 존재하는 주위의 천체들로 이루어져 있는데, 먼저 항성인 태양과 이를 중심으로 공전하는 행성들, 그리고 행성을 주변을 공전하는 위성들이 있죠. 그리고 왜소행성 및 소행성들과 혜성, 카이퍼대 천체 외에도 태양계 소천체들과 행성 간 먼지 등이 있죠.",
+            "turn_id": "BK22013866-1",
+            "utterance_id": "BK22013866.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음 들어보는데 카이퍼대가 뭔가요?",
+            "turn_id": "BK22013866-2",
+            "utterance_id": "BK22013866.3"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "카이퍼대(영어: Kuiper Belt)[1] 또는 에지워스 카이퍼대(영어: Edgeworth-Kuiper belt)는 태양계의 해왕성 궤도(태양으로부터 약 30 AU)보다 바깥쪽의 황도면 부근에 있는, 천체가 밀집해 있고 구멍이 뚫린 원반형 영역이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%9D%B4%ED%8D%BC%EB%8C%80",
+            "search_query": "카이퍼대",
+            "terminate": false,
+            "text": "카이퍼대는 에지워스 카이퍼대라고도 불리는데 천체들이 빽빽하게 모여있는 구멍 뚫린 원반형의 영역을 가리켜요. 태양계의 해왕성 궤도보다 먼 바깥쪽 황도면 부근에 위치하고 있죠.",
+            "turn_id": "BK22013866-2",
+            "utterance_id": "BK22013866.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇군요. 몇 년 전쯤에 명왕성이 태양계 행성에서 퇴출되었다고 들었는데, 그럼 현재 지구가 속한 태양계는 어떤 행성들로 이루어져 있나요?",
+            "turn_id": "BK22013866-3",
+            "utterance_id": "BK22013866.5"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "태양을 중심으로 공전하는 행성은 소행성대를 기준으로 안쪽에 있는 네 개의 고체 행성인 수성, 금성, 지구, 화성, 즉 지구형 행성과, 바깥쪽에 있는 네 개의 유체 행성인 목성, 토성, 천왕성, 해왕성, 즉 목성형 행성으로 알려져 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%EC%96%91%EA%B3%84#%ED%83%9C%EC%96%91",
+            "search_query": "태양계 행성",
+            "terminate": false,
+            "text": "행성들은 태양을 중심으로 공전하고 있는데 소행성대를 기준으로 안쪽의 행성 네 개가 있고, 바깥쪽의 행성 네 개가 있어요. 소행성대 안쪽에는 고체 행성이자 지구형 행성인 수성, 금성, 화성, 지구가 있죠. 소행성대 바깥쪽에는 유체 행성이자 목성형 행성이라고도 하는 목성, 토성, 천왕성, 해왕성이 있답니다.",
+            "turn_id": "BK22013866-3",
+            "utterance_id": "BK22013866.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소행성대를 기준으로 나눈다고 하셨는데 소행성대가 뭔가요?",
+            "turn_id": "BK22013866-4",
+            "utterance_id": "BK22013866.7"
+        },
+        {
+            "reference_date": "44731.0",
+            "reference_text": [
+                {
+                    "value": "소행성대(小行星帶, Asteroid belt)는 태양계의 화성과 목성 사이에 위치한 원반 모양 영역으로, 흔히 소행성이나 소행성체라고 칭하는 작고 불규칙한 고체 천체로 이루어져 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%96%89%EC%84%B1%EB%8C%80",
+            "search_query": "소행성대",
+            "terminate": false,
+            "text": "소행성대는 태양계의 화성과 목성 사이에 있는 원반 모양의 영역이에요. 통상적으로 소행성이나 소행성체라고 불리는 작고 불규칙한 모양의 천체들로 이루어져 있어요.",
+            "turn_id": "BK22013866-4",
+            "utterance_id": "BK22013866.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 지구형 행성과 목성형 행성이라는 말씀하셨는데 각각의 특징이 궁금해요. 먼저 지구형 행성에 대해 알려주세요.",
+            "turn_id": "BK22013866-5",
+            "utterance_id": "BK22013866.9"
+        },
+        {
+            "reference_date": "44659.0",
+            "reference_text": [
+                {
+                    "value": "지구형 행성(地球型行星, terrestrial planet)은 태양계에서 규산염 따위로 된 암석이나 금속 등 고체 상태의 물질을 주성분으로 하는 행성을 말한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목성형 행성보다 안쪽 궤도에 있으며, 크기 또한 상대적으로 작다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B5%AC%ED%98%95_%ED%96%89%EC%84%B1",
+            "search_query": "지구형 행성",
+            "terminate": false,
+            "text": "지구형 행성은 규산염 등으로 만들어진 암석 및 금속과 같이 고체 상태의 물질로 구성되어있는 행성을 말해요. 목성형 행성보다 안쪽 궤도에 위치해 있고 크기도 상대적으로 작아요.",
+            "turn_id": "BK22013866-5",
+            "utterance_id": "BK22013866.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 목성형 행성은 뭐로 이루어져 있나요?",
+            "turn_id": "BK22013866-6",
+            "utterance_id": "BK22013866.11"
+        },
+        {
+            "reference_date": "44621.0",
+            "reference_text": [
+                {
+                    "value": "목성형 행성(木星型行星)은 태양계에서 수소나 헬륨 따위의 유체(fluid) 형태를 주성분으로 하는 행성을 말한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이중 천왕성과 해왕성은 구성성분 중 얼음과 물, 메테인 따위의 혼합물이 상당량을 차지하고 있어 거대 얼음 행성(ice giants)으로, 수소와 헬륨이 주성분인 목성, 토성은 거대 가스 행성(gas giants)으로 세분하기도 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EC%84%B1%ED%98%95_%ED%96%89%EC%84%B1",
+            "search_query": "목성형 행성",
+            "terminate": false,
+            "text": "목성형 행성은 수소 및 헬륨 등의 유체 형태의 물질들로 이루어진 행성을 말해요. 목성형 행성은 다시 목성과 토성처럼 수소와 헬륨을 주성분으로 하는 거대 가스 행성이 있고 천왕성, 해왕성처럼 얼음이나 물, 메테인 등의 혼합물질이 대부분인 거대 얼음 행성으로 세밀하게 구분하기도 한답니다.",
+            "turn_id": "BK22013866-6",
+            "utterance_id": "BK22013866.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구성 물질을 기준으로 나뉘는 거군요. 그런데 명왕성은 왜 태양계 행성에서 퇴출된 건가요?",
+            "turn_id": "BK22013866-7",
+            "utterance_id": "BK22013866.13"
+        },
+        {
+            "reference_date": "44723.0",
+            "reference_text": [
+                {
+                    "value": "명왕성이 최초에 발견된 1930년대에는 지구 정도의 크기로 알려졌으나 실제로는 달보다도 작은 크기이며, 질량과 중력이 행성이라 보기엔 너무 작고 공전 궤도 또한 심한 타원형으로 찌그러져 있어 해왕성의 궤도 안쪽까지 침범하기도 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 국제천문연맹은 새 행성 기준을 마련해 2006년 8월 24일자로 새롭게 정한 행성 기준에 맞지 않는 명왕성을 공식적으로 왜소행성으로 분류했으며, 소행성번호 134340을 부여해 태양계 행성 지위를 박탈하였다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%85%EC%99%95%EC%84%B1",
+            "search_query": "명왕성",
+            "terminate": false,
+            "text": "1930년대에 명왕성이 처음으로 발견되었을 때는 모두가 지구 정도의 크기라고 생각했어요. 하지만 명왕성의 실제 크기는 달보다 작았고, 질량과 중력도 행성이라고 하기엔 부족한 데다가 공전 궤도까지 매우 심하게 찌그러진 타원형으로 해왕성의 궤도 안쪽을 침범하기도 했죠. 때문에 국제천문연맹은 행성의 기준을 새롭게 정의하고, 2006년 8월 24일 새 기준에 따라 명왕성을 태양계 행성에서 제외시켰어요. 현재 명왕성은 공식적으로 왜소행성으로 분류되었고 134340이라는 소행성 번호를 받았답니다.",
+            "turn_id": "BK22013866-7",
+            "utterance_id": "BK22013866.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 사정이 있었군요. 그럼 명왕성은 현재 왜소행성이라고 하셨는데, 명왕성 외의 왜소행성은 또 어떤 것들이 있나요?",
+            "turn_id": "BK22013866-8",
+            "utterance_id": "BK22013866.15"
+        },
+        {
+            "reference_date": "44629.0",
+            "reference_text": [
+                {
+                    "value": "국제천문연맹에서는 명왕성, 에리스, 세레스가 왜행성에 속한다고 공식 확인하였다.[1]",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마케마케는 2008년 7월 11일에,[2] 하우메아는 2008년 9월 17일에 왜행성으로 인정받았다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%9C%ED%96%89%EC%84%B1",
+            "search_query": "왜소행성",
+            "terminate": false,
+            "text": "국제천문연맹에서 공식 확인한 왜행성으로는 명왕성, 에리스, 세레스가 있어요. 여기에 추가로 2008년 7월 11일과 9월 17일에 각각 마케마케와 하우메아가 왜행성 목록에 추가되었죠.",
+            "turn_id": "BK22013866-8",
+            "utterance_id": "BK22013866.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크기가 작은 행성들에 대해 얘기하다 보니 문득 궁금해진 건데, 그럼 태양계에서 가장 큰 행성은 뭐죠?",
+            "turn_id": "BK22013866-9",
+            "utterance_id": "BK22013866.17"
+        },
+        {
+            "reference_date": "44801.0",
+            "reference_text": [
+                {
+                    "value": "목성은 태양계 내의 가스혹성 중 가장 큰 혹성으로, 크기는 지구의 1300배에 달한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "질양 또한 태양계 내의 모든 행성들을 합한 것보다 2.5배 더 크다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnnews.co.kr/news/articleView.html?idxno=508553",
+            "search_query": "태양계 가장 큰 행성",
+            "terminate": false,
+            "text": "태양계에서 가장 큰 행성은 목성이에요. 목성은 태양계에서 가장 큰 가스혹성으로 지구의 1300배에 이르는 크기를 가지고 있을 뿐만 아니라 목성의 질량은 태양계 내 모든 행성의 질량을 더한 것보다 2.5배 더 클 정도예요.",
+            "turn_id": "BK22013866-9",
+            "utterance_id": "BK22013866.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구의 1300배라니 상상도 잘 안되네요. 제 생각보다 태양계를 구성하고 있는 천체들이 엄청 다양한 것 같은데, 언젠가는 지구와 비슷한 행성도 발견된다면 좋겠어요.",
+            "turn_id": "BK22013866-10",
+            "utterance_id": "BK22013866.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "지금도 전 세계의 과학자들이 열심히 탐사선을 보내고 있으니 언젠가는 밝혀지겠죠.",
+            "turn_id": "BK22013866-10",
+            "utterance_id": "BK22013866.20"
+        }
+    ]
+}

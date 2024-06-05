@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001120",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001120",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 길게 보면 원자력 발전소는 없어져야 한다고 생각해요.",
+            "turn_id": "BK22001120-1",
+            "utterance_id": "BK22001120.1"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "기후위기를 극복하기 위해 탄소배출량을 ‘0’으로 만드는 탄소중립은 각국의 핵심 정책 목표다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220218/111882580/1",
+            "search_query": "원자력발전필요성",
+            "terminate": false,
+            "text": "전 세계적으로 기후위기가 심각해서 이를 극복하기 위해서 탄소배출량을 0으로 줄이자는 입장이 우세해요. 그런상황에 원자력 발전소를 당장 줄일 수는 없어요.",
+            "turn_id": "BK22001120-1",
+            "utterance_id": "BK22001120.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화력, 풍력 등 재생에너지를 사용하면 되지 않나요?",
+            "turn_id": "BK22001120-2",
+            "utterance_id": "BK22001120.3"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "풍력 등 재생에너지 자원이 부족한 나라일수록 발전 분야 탄소중립에 원자력발전이 효율적이라는 분석 결과도 나왔다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220218/111882580/1",
+            "search_query": "원자력발전 재생에너지",
+            "terminate": false,
+            "text": "그렇다면 좋겠죠. 하지만 풍력 등 재생에너지의 경우에는 자원이 부족한 나라가 있어요. 그런 나라의 경우에는 원자력 발전이 탄소중립에 더 효율적이죠.",
+            "turn_id": "BK22001120-2",
+            "utterance_id": "BK22001120.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇군요, 재생에너지는 아무래도 활용할 수 있는 여건 환경이 따로 있으니까요. 원자력은 어떤 원리로 전기를 만들어 내는건가요?",
+            "turn_id": "BK22001120-3",
+            "utterance_id": "BK22001120.5"
+        },
+        {
+            "reference_date": "2014-11-04",
+            "reference_text": [
+                {
+                    "value": "우라늄과 같은 무거운 원자핵은 외부에서 중성자를 흡수하면 둘로 쪼개지는데 이를 원자핵 분열이라고 한다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 핵분열에서 막대한 에너지가 나오기 때문에 원전은 연료의 높은 에너지 밀도로 장기간 연료교체 없이 적은 연료량으로 가동할 수 있는 것이 큰 장점이다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/200810231654463202?t=y",
+            "search_query": "원자력발전원리",
+            "terminate": false,
+            "text": "무거운 원자핵인 우라늄이 외부에서 중성자를 흡수하면 둘로 쪼개지는 현상이 나타나요, 이걸 원자핵분열이고 하죠. 핵이 분열 할때는 막대한 에너지가 나오고 이때 나온 에너지는 밀도가 매우 높아요. 그래서 높은 에너지 밀도로 연료를 오래쓰고, 적은연료로도 가동할 수 있어요. 훨씬 경제적이죠.",
+            "turn_id": "BK22001120-3",
+            "utterance_id": "BK22001120.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 신기하네요! 그 작은 핵분열로 인해 그렇게 많은 에너지가 생성된다니 놀라워요.",
+            "turn_id": "BK22001120-4",
+            "utterance_id": "BK22001120.7"
+        },
+        {
+            "reference_date": "2014-11-04",
+            "reference_text": [
+                {
+                    "value": "원자력 발전의 원료가 되는 우라늄은 세계 전역에 골고루 분포돼 있어 세계 에너지 정세에 크게 영향을 받지 않는다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 연료를 수입에 의존하더라도 다른 에너지원보다 안정적인 공급을 기대할 수 있다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/200810231654463202?t=y",
+            "search_query": "원자력우라늄",
+            "terminate": false,
+            "text": "게다가 원자력의 원료인 우라늄은 한정적이지 않고 전세계에 분포되어있어요. 그래서 그런지 에너지 정세에 영향을 받지 않죠. 만약 수입의 과정이 생긴다해도 석유와 같은 타 에너지보다 안정적으로 공급을 받을 수 도 있어요!",
+            "turn_id": "BK22001120-4",
+            "utterance_id": "BK22001120.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 경제적인 이점도 있네요, 그렇지만 저는 핵 폐기물 처리 등과 같이 위험성이 더 많다고 봐요.",
+            "turn_id": "BK22001120-5",
+            "utterance_id": "BK22001120.9"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "방사성 폐기물 처분의 안전성은 격납과 격리라는 두 가지 기본 원리에 의해 보장된다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25084105",
+            "search_query": "원자력안전성",
+            "terminate": false,
+            "text": "네, 그 부분이 문제라고 지적하는 사람들이 많죠. 하지만 방사성 폐기물 처분의 안전성은 격납과 격리, 두 가지 기본 원리에 의해 보장가능해요.",
+            "turn_id": "BK22001120-5",
+            "utterance_id": "BK22001120.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 안전하게만 관리 된다면 경제적인 효과도 크고 걱정할 일이 없을 거 같아요, 우리나라의 원전기술도 최고거든요.",
+            "turn_id": "BK22001120-6",
+            "utterance_id": "BK22001120.11"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "또 다른 원전 기업인 시그마그룹의 요세프 페를릭 이사회 의장은 “한국 원전 산업은 신뢰성 있고 안정적이며 기술적인 면에서도 뛰어나다”고 말했다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022053001031903017001",
+            "search_query": "원자력최고기술",
+            "terminate": false,
+            "text": "맞아요, 한국 원전 산업은 신뢰성 있고 안정적이며 기술적인 면에서도 뛰어나다고 평가 받고 있어요.",
+            "turn_id": "BK22001120-6",
+            "utterance_id": "BK22001120.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 안정적으로 운영하는 방향으로 지속적으로 운영이 되어야 하는 에너지원인거네요? 수출도 하고?",
+            "turn_id": "BK22001120-7",
+            "utterance_id": "BK22001120.13"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "산업통상자원부 관계자는 “우리 원전의 우수성과 경제성에 대한 홍보와 외교적 수주 노력을 강화하고, 이를 뒷받침하기 위한 민관 공동의 ‘원전수출전략추진단’도 만들어 조속히 가동에 들어갈 수 있도록 하겠다”고 말했다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022053001031903017001",
+            "search_query": "원전기술수출",
+            "terminate": false,
+            "text": "맞아요. 이번 정부는 우리 원전의 우수성과 경제성에 대한 홍보, 외교적 수주 노력을 강화하고, 민관 공동의 원전수출전략추진단도 만들어 적극적으로 원전수출 의사를 밝히고 있어요.",
+            "turn_id": "BK22001120-7",
+            "utterance_id": "BK22001120.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네. 확실히 이번정부 들어서 원전 수출 정책을 많이 강조 하고 있는 거 같아요. 우리나라에서 원전을 수출한 적이 없었나요?",
+            "turn_id": "BK22001120-8",
+            "utterance_id": "BK22001120.15"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "2009년 수주에 성공한 아랍에미리트(UAE) 바라카 원전은 우리나라가 해외에 건설한 최초의 원전이자, 중동지역 첫 원전으로 체코인들에게도 깊은 인상을 남긴 것으로 보인다.",
+                    "value_time": "2022-06-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022053001031903017001",
+            "search_query": "한국최초수출원전",
+            "terminate": false,
+            "text": "아니요, 2009년에 수주한 바카라 원전이 해외에 건설한 최초의 원전이에요.",
+            "turn_id": "BK22001120-8",
+            "utterance_id": "BK22001120.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 체코 원전이 처음이 아니었군요. 우리나라 원전기술이 인정받는다는 건 정말 좋은 소식이네요.",
+            "turn_id": "BK22001120-9",
+            "utterance_id": "BK22001120.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞습니다. 안정적인 기술력을 조금 더 개발한다면 많은 나라에 수출할 수 있을거예요.",
+            "turn_id": "BK22001120-9",
+            "utterance_id": "BK22001120.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 된다면 한국의 수출 경제도 살아나겠네요!",
+            "turn_id": "BK22001120-10",
+            "utterance_id": "BK22001120.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그래서 5년간 침체되어있던 원자력발전 관련 산업이 호황을 누리길 바라봅니다.",
+            "turn_id": "BK22001120-10",
+            "utterance_id": "BK22001120.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "덕분에 저도 원자력이 위험한 기술이 아니라 많은 장점이 있다는 걸 알게 되었습니다. 감사합니다.",
+            "turn_id": "BK22001120-11",
+            "utterance_id": "BK22001120.21"
+        }
+    ]
+}

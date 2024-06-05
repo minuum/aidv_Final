@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013793",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013793",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨상에 대해서 궁금한 게 있는데 혹시 물어봐도 될까요?",
+            "turn_id": "BK22013793-1",
+            "utterance_id": "BK22013793.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐든 자유롭게 물어보시면 됩니다.",
+            "turn_id": "BK22013793-1",
+            "utterance_id": "BK22013793.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨상은 언제부터 수여하기 시작했나요? 언제 수상자를 발표하는지도 궁금합니다.",
+            "turn_id": "BK22013793-2",
+            "utterance_id": "BK22013793.3"
+        },
+        {
+            "reference_date": "44096.0",
+            "reference_text": [
+                {
+                    "value": "1901년부터 수여된 노벨상은 생리의학상, 물리학상, 화학상, 평화상, 경제학상, 문학상 수상자를 매년 10월에 발표하고, 12월에 시상식과 연회를 한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0011899259?sid=104",
+            "search_query": "노벨상 수여",
+            "terminate": false,
+            "text": "노벨상은 1901년부터 수여하기 시작했어요. 매년 10월에 생리의학상과 화학상, 물리학상, 경제학상, 평화상, 문학상 수상자를 발표하고요, 시상식과 연회는 12월에 개최합니다.",
+            "turn_id": "BK22013793-2",
+            "utterance_id": "BK22013793.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨상의 역사가 좀 더 궁금한데요. 왜 노벨상이 만들어진 건지 이유를 알 수 있을까요?",
+            "turn_id": "BK22013793-3",
+            "utterance_id": "BK22013793.5"
+        },
+        {
+            "reference_date": "44491.0",
+            "reference_text": [
+                {
+                    "value": "노벨상은 다이너마이트를 발명한 스웨덴의 발명가 알프레드 베른하르드 노벨(1833~1896)이 전 재산을 사회에 환원하며 아래와 같은 유언에 따라 만들어졌습니다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "\"문학, 화학, 물리학, 생리의학, 평화 5개 분야에서 인류에 가장 큰 공헌을 한 사람들에게 매년 상을 수여하라.“",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0004868191?sid=101",
+            "search_query": "노벨상",
+            "terminate": false,
+            "text": "스웨덴의 발명가 알프레드 베른하르트 노벨은 다이너마이트를 발명했던 인물인데요, 노벨은 자신의 전 재산을 사회에 환원하면서 문학, 물리학, 생리의학, 평화, 화학 5개 분야에서 인류에 가장 큰 공헌을 한 사람들에게 매년 상을 주라는 유언을 내립니다. 그의 유언에 따라 노벨상이 만들어지게 된 거죠.",
+            "turn_id": "BK22013793-3",
+            "utterance_id": "BK22013793.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨의 유언에 따라 노벨상이 탄생한 거네요. 또 궁금한 게, 노벨상 상금이 꽤 많다고 들었는데, 상금 규모가 어느 정도 되나요? 공동 수상하는 경우에는 어떻게 상금을 지급하는지도 궁금합니다.",
+            "turn_id": "BK22013793-4",
+            "utterance_id": "BK22013793.7"
+        },
+        {
+            "reference_date": "44476.0",
+            "reference_text": [
+                {
+                    "value": "인류 복지에 공헌한 사람들에게 수여되는 노벨상에는 상금 1000만크로나(약 13억6000만원)가 부상으로 지급된다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "노벨상은 한 분야에 한 사람이 받는 경우도 있으나 2명 이상이 공동으로 수상할 때도 있다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노벨상 주최 측에 따르면 노벨상 상금은 수상자의 기여도를 평가해 차등 배분한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/417/0000741155?sid=104",
+            "search_query": "노벨상 상금",
+            "terminate": false,
+            "text": "노벨상은 인류 복지에 공헌한 사람들에게 주는 만큼 상금 1000만 크로나, 우리 돈으로 약 13억 6000만 원이 지급됩니다. 만약 한 분야에서 2명 이상이 공동으로 수상하게 되는 경우엔 수상자의 기여도를 평가해 상금을 차등해 배분합니다.",
+            "turn_id": "BK22013793-4",
+            "utterance_id": "BK22013793.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상금이 13억 원이 넘는다니 그 규모가 엄청나네요. 또 궁금한 게 우리나라는 노벨상 수상자가 있었나요?",
+            "turn_id": "BK22013793-5",
+            "utterance_id": "BK22013793.9"
+        },
+        {
+            "reference_date": "44473.0",
+            "reference_text": [
+                {
+                    "value": "한국은 2000년 노벨 평화상을 받은 고 김대중 전 대통령 이후 추가 노벨상 수상자를 배출하지 못하고 있다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0005051655?sid=101",
+            "search_query": "한국 노벨상",
+            "terminate": false,
+            "text": "고 김대중 전 대통령이 2000년에 노벨 평화상을 받은 바 있습니다. 그 이후로는 노벨상 수상자가 없는 상태입니다.",
+            "turn_id": "BK22013793-5",
+            "utterance_id": "BK22013793.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 많은 사람이 상을 타면 좋을 텐데요. 이웃 나라 일본은 노벨상 수상자가 몇 명인가요?",
+            "turn_id": "BK22013793-6",
+            "utterance_id": "BK22013793.11"
+        },
+        {
+            "reference_date": "44783.0",
+            "reference_text": [
+                {
+                    "value": "일본은 노벨상 수상자 29명 중 과학(물리, 화학, 생리의학)부문 수상자가 25명이다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0005002585?sid=103",
+            "search_query": "일본 노벨상",
+            "terminate": false,
+            "text": "일본은 노벨상 수상자가 29명이나 되는데요, 그중 물리와 화학, 생리의학 등 과학부문 수상자가 25명을 차지합니다.",
+            "turn_id": "BK22013793-6",
+            "utterance_id": "BK22013793.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본은 노벨상 수상자가 많네요. 우리도 과학 발전을 더욱 중요하게 다뤄야 할 것 같아요. 또 궁금한 게 있는데 노벨상 수상자 결정은 어떤 곳에서 내리나요?",
+            "turn_id": "BK22013793-7",
+            "utterance_id": "BK22013793.13"
+        },
+        {
+            "reference_date": "44703.0",
+            "reference_text": [
+                {
+                    "value": "스웨덴 왕립 과학원이 노벨 물리학상, 노벨 화학상 그리고 1968년도에 제정된 노벨 경제학상('알프레드 노벨을 기념하는 경제학 분야의 스웨덴 중앙은행상'이다)의 수상자를 결정한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카롤린스카 의과대학교 노벨총회에서 노벨 생리학·의학상의 수상자를 결정한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스웨덴 아카데미에서 노벨 문학상을 수여한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다른 상들과 달리 노벨 평화상은 스웨덴의 기구가 아닌 노르웨이 노벨 위원회에서 수여한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B2%A8%EC%83%81",
+            "search_query": "노벨상 수상자 결정",
+            "terminate": false,
+            "text": "노벨상 중 물리학상과 화학상, 1968년 제정된 경제학상의 경우 스웨덴 왕립 과학원이 수상자를 정합니다. 문학상의 경우, 스웨덴 아카데미에서 결정하며, 생리학, 의학상의 경우 카롤린스카 의과대학교 노벨총회에서 수상자를 정합니다. 노벨 평화상만 다른 상과 다르게 스웨덴이 아니라 노르웨이 노벨 위원회에서 수여합니다.",
+            "turn_id": "BK22013793-7",
+            "utterance_id": "BK22013793.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상을 수여하는 주체가 한 곳이 아니라 나뉘어 있네요. 그런데 왜 노벨상 중에 평화상만 노르웨이에서 수여하게 됐나요?",
+            "turn_id": "BK22013793-8",
+            "utterance_id": "BK22013793.15"
+        },
+        {
+            "reference_date": "41194.0",
+            "reference_text": [
+                {
+                    "value": "스웨덴에서 다른 노벨상을 선정하고 시상하는 데 반해 평화상은 노르웨이에서 이뤄진다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 알프레드 노벨 노벨상 창설자가 당시 앙숙이었던 스웨덴과 노르웨이의 화해를 바라는 마음에서 결정한 것이다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/641287",
+            "search_query": "노벨 평화상 노르웨이",
+            "terminate": false,
+            "text": "다른 노벨상을 스웨덴에서 결정하는 것과 다르게 평화상만 노르웨이에서 정하게 된 건 노벨상 창설자인 알프레드 노벨의 결정 때문이에요. 당시 사이가 좋지 않던 스웨덴과 노르웨이가 화해하길 바라는 마음에서 그렇게 결정한 것입니다.",
+            "turn_id": "BK22013793-8",
+            "utterance_id": "BK22013793.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양국의 화해를 바라는 마음 때문이었네요. 마지막으로 한 가지만 더 물어볼게요. 혹시 노벨상 수상자로 결정되고도 수상을 거부한 인물도 있을까요?",
+            "turn_id": "BK22013793-9",
+            "utterance_id": "BK22013793.17"
+        },
+        {
+            "reference_date": "42643.0",
+            "reference_text": [
+                {
+                    "value": "▲6 = 노벨상을 거부한 사람은 6명이다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장 폴 사르트르가 1964년 문학상을, 레득토 베트남 전 총리가 1973년 헨리 키신저 당시 미국 국무장관과의 평화상 공동 수상을 자발적으로 거부했다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일의 리하르트 쿤(1938년 화학상)와 아돌프 부테난트(1939년 화학상), 의사 게르하르트 도마크(1939년 생리의학상)는 당시 나치 정권이 수상을 금지했다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "닥터 지바고'로 잘 알려진 보리스 파스테르나크도 1958년 문학상 수상자로 결정됐으나 정부의 압력에 수상을 거부했다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0008720707?sid=104",
+            "search_query": "노벨상 거부",
+            "terminate": false,
+            "text": "노벨상 수상을 거부한 인물은 6명인데요, 1964년에 장 폴 사르트르가 문학상 수상을 거부한 데 이어 1973년엔 레득토 베트남 전 총리가 당시 미국 국무장관이었던 헨리 키신저와 평화상을 공동으로 수상하는 것을 거부했습니다. 또한 1938년 독일의 리하르트 쿤, 1939년 아돌프 부테난트가 화학상 수상자로, 의사인 게르하르트 도마크가 1939년 생리의학상 수상자로 결정됐으나 당시 나치 정권이 수상을 금지한 바 있습니다. 닥터 지바고로 유명한 보리스 파스테르나크도 정부의 압력으로 1958년 문학상 수상을 거부했습니다.",
+            "turn_id": "BK22013793-9",
+            "utterance_id": "BK22013793.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상금을 생각하면 거절하기 쉽지 않은데 말이죠. 노벨상에 대해 자세히 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013793-10",
+            "utterance_id": "BK22013793.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013793-10",
+            "utterance_id": "BK22013793.20"
+        }
+    ]
+}

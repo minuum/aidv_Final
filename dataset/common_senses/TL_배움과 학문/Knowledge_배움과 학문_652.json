@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000600",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000600",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 보고 있는 그 책 뭐야?",
+            "turn_id": "BK22000600-1",
+            "utterance_id": "BK22000600.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이번주말에 토익 시험보거든. 그래서 영어 공부하고 있어.",
+            "turn_id": "BK22000600-1",
+            "utterance_id": "BK22000600.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익 시험은 처음 들어보는 것 같은데 그게 뭐야?",
+            "turn_id": "BK22000600-2",
+            "utterance_id": "BK22000600.3"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "TOEIC(Test Of English for International Communication, 토익)은 영어가 모국어가 아닌 사람들을 대상으로 의사소통 능력을 평가하는 시험(Standardized Test)이다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익",
+            "terminate": false,
+            "text": "뭐? 살다살다 토익 시험을 모르는 사람은 처음 보는 것 같네. 모국어가 영어가 아닌 우리같은 사람들 있잖아. 토익은 그런 사람들의 의사소통 능력을 평가하는 시험이야.",
+            "turn_id": "BK22000600-2",
+            "utterance_id": "BK22000600.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 모를 수도 있지 왜그래. 토익 시험은 왜 보는건데?",
+            "turn_id": "BK22000600-3",
+            "utterance_id": "BK22000600.5"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "각 시험에 응시한 이유를 묻는 질문(중복 응답)에 △취업에 유리해서(52.8%), △학점 인정 및 졸업 인증을 받기 위해(47.7%), △어학 능력 측정을 위해(35.8%), △유학 또는 대학원 진학을 위해(8.8%), △외국어 면접 준비를 위해(4.8%) 등의 답변이 나왔다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=34755",
+            "search_query": "토익 시험 보는 이유",
+            "terminate": false,
+            "text": "보통 취업에 유리해서 보지. 학점 인정이나 졸업 인증을 받으려고 볼 수도 있고. 단순히 어학 능력을 측정하거나 유학이나 대학원 진학을 위해 보기도 해. 외국어 면접 준비를 위해서 보는 사람도 있어.",
+            "turn_id": "BK22000600-3",
+            "utterance_id": "BK22000600.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너는 왜 보려고 하는거야?",
+            "turn_id": "BK22000600-4",
+            "utterance_id": "BK22000600.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 취업 준비에 도움이 될까 싶어 보는거야.",
+            "turn_id": "BK22000600-4",
+            "utterance_id": "BK22000600.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 나도 이번 학기 끝나면 취업준비 시작하려고 하는데 토익 말고 보통 무슨 자격증을 따?",
+            "turn_id": "BK22000600-5",
+            "utterance_id": "BK22000600.9"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "취업포털 잡코리아 자료를 보면 요즘은 취업 필수 자격증이 9가지 된다고 합니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토익, 토익스피킹, 오픽, 컴퓨터활용능력, 워드프로세서, 한국사능력검정시험, KBS 한국어능력검정시험, 전산세무회계, HSK 등인데요, 방학 때는 인터넷 강의 누리집뿐만 아니라 오프라인 학원 강의실도 북새통이라고 합니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.hani.co.kr/arti/society/society_general/1027897.html#cb",
+            "search_query": "취준 필수 자격증",
+            "terminate": false,
+            "text": "요즘은 취업 필수 자격증이라고 불리는 토익, 토익스피킹, 오픽, 컴퓨터활용능력, 워드프로세서, 한국사능력검정시험, KBS한국어능력검정시험, 전산세무회계, HSK 이렇게 9개 자격증을 많이 따.",
+            "turn_id": "BK22000600-5",
+            "utterance_id": "BK22000600.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설마 9개를 다 따야하는건 아니겠지? 자격증 말고 또 준비할 게 있을까?",
+            "turn_id": "BK22000600-6",
+            "utterance_id": "BK22000600.11"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "취준생이 꼽은 가장 중요한 스펙 유형 1위는 인턴십(39.2%)으로 나타났다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인턴십은 학생들이 기업에서 일정 기간 기업 활동을 체험하면서 실무 역량을 키울 수 있는 제도다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://m.ddaily.co.kr/m/m_article/?no=239863",
+            "search_query": "취업 준비 스펙",
+            "terminate": false,
+            "text": "취준생이 느끼기에 인턴십이 가장 중요한 스펙이야. 기업에서 일정 기간동안 기업 활동을 체험하고 실무 역량을 키울 수 있거든.",
+            "turn_id": "BK22000600-6",
+            "utterance_id": "BK22000600.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 인턴도 한 번 알아봐야겠다. 인턴을 하다가 취업이 되기도 하고 그런가?",
+            "turn_id": "BK22000600-7",
+            "utterance_id": "BK22000600.13"
+        },
+        {
+            "reference_date": "2021-08-30",
+            "reference_text": [
+                {
+                    "value": "수시 채용이 확대되고, 직무 적합성이 강조되면서, 인턴 채용 후, 정규직 전환이라는 프로세스가 확대되고 있습니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202108274270i",
+            "search_query": "채용형 인턴",
+            "terminate": false,
+            "text": "그럼. 요즘은 직무 적합성이 강조되고 수시 채용이 확대됐잖아. 그래서 인턴을 채용한 뒤에 정규직으로 전환되는 채용절차가 늘어나고 있어.",
+            "turn_id": "BK22000600-7",
+            "utterance_id": "BK22000600.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 기업에서도 인턴 경험을 중요하게 생각할까?",
+            "turn_id": "BK22000600-8",
+            "utterance_id": "BK22000600.15"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "특히, 신입지원자들은 직무 경험이 부족하기 때문에, 이를 판단하기 위해, 인턴 경험을 가장 중요하게 보고 있다고 판단할 수 있을 것 같습니다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202112067750i",
+            "search_query": "인턴 경험",
+            "terminate": false,
+            "text": "그럼. 특히 직무 경험이 부족한 신입 지원자를 판단하기 위해서 인턴 경험을 중요하게 보고 있어.",
+            "turn_id": "BK22000600-8",
+            "utterance_id": "BK22000600.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 학점같은 것도 중요할까? 나 학점이 별로 좋지는 않거든.",
+            "turn_id": "BK22000600-9",
+            "utterance_id": "BK22000600.17"
+        },
+        {
+            "reference_date": "2021-11-11",
+            "reference_text": [
+                {
+                    "value": "기업들이 취업준비생들이 ‘주요 스펙’으로 여기는 출신 학교나 학점보다 입사 후 하게 되는 일과 관련된 지식이나 경험 등이 중요하다고 한 것이다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/labor/2021/11/11/S5JBV4AVQVHJHI74SGFKFWRMRQ/",
+            "search_query": "취업 학점",
+            "terminate": false,
+            "text": "꼭 그렇지만은 않아. 기업들은 출신 학교나 학점보다는 입사 후에 하게 될 일이랑 관련있는 지식이나 경험을 더 중요하게 여기거든.",
+            "turn_id": "BK22000600-9",
+            "utterance_id": "BK22000600.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 다행이다. 자격증, 인턴, 스펙 준비하는거 외에도 중요한게 있을까?",
+            "turn_id": "BK22000600-10",
+            "utterance_id": "BK22000600.19"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "‘2022 대한민국 고졸 인재 채용엑스포’에 참가한 주요 기업 인사담당자들은 내신 성적이나 자격증 같은 스펙 쌓기에 신경쓰기보다 본인의 열정과 의지를 잘 드러내는 것이 훨씬 중요하다고 입을 모았다.",
+                    "value_time": "2022-06-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202206020038i",
+            "search_query": "취업 중요한 것",
+            "terminate": false,
+            "text": "스펙 쌓기보다 중요한거 있지. 열정과 의지를 잘 드러내는 거야.",
+            "turn_id": "BK22000600-10",
+            "utterance_id": "BK22000600.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "사실상 그게 제일 어려운 것 같아. 아무튼 토익 시험 좋은 결과 있길 바랄게.",
+            "turn_id": "BK22000600-11",
+            "utterance_id": "BK22000600.21"
+        }
+    ]
+}

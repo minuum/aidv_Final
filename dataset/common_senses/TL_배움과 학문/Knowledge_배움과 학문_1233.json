@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008259",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008259",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 원래는 우주 관련 이야기에 별다른 흥미를 못 느꼈는데, 얼마 전에 제임스 웹이라는 우주 망원경에 관한 소식을 접하고 난 뒤로 우주에 관심이 많이 생겼어. 특히, 수많은 은하가 찍힌 사진을 보고 나니 은하가 너무나도 신기하게 느껴지더라고. 그래서 말인데, 우리은하 주변에서 유명한 은하를 하나만 골라서 이야기를 들려줄래?",
+            "turn_id": "BK22008259-1",
+            "utterance_id": "BK22008259.1"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "안드로메다 은하(영어: Andromeda Galaxy)는 지구로부터 약 780 킬로파섹(250만 광년) 떨어져 있는 나선은하이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 우리은하로부터 가장 가까운 큰 은하(major galaxy)이며, 메시에 31(M31) 또는 NGC 224로 알려져 있기도 하다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "안드로메다 은하의 겉보기 등급은 3.4등급으로 메시에 천체 중에서 가장 밝다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 광공해가 적은 지역에서 달이 없는 밤에 맨눈으로 보일 정도이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98",
+            "search_query": "안드로메다 은하",
+            "terminate": false,
+            "text": "그럼 지구로부터 780 킬로파섹, 그러니까 250만 광년 정도 떨어져 있는 안드로메다은하에 관해 이야기해 줄게. 안드로메다은하는 나선은하이고, 우리은하로부터 가장 가까우면서 큰 은하야. 안드로메다은하는 메시에31이나 NGC 224라고 알려져 있기도 한데, 안드로메다은하는 겉보기 등급이 무려 3.4등급이라서 메시에 천체 중 가장 밝기 때문에, 광공해가 적은 곳에서는 달이 뜨지 않는 밤에 맨눈으로 볼 수 있을 정도지.",
+            "turn_id": "BK22008259-1",
+            "utterance_id": "BK22008259.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안드로메다은하라는 이름 자체는 들어 본 적이 있는데, 그렇게 맨눈으로 볼 수 있을 정도로 밝은 줄은 몰랐어. 그런데 메시에 천체는 뭐야?",
+            "turn_id": "BK22008259-2",
+            "utterance_id": "BK22008259.3"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "메시에 천체(영어: Messier object)는 1771년 프랑스의 천문학자 샤를 메시에가 수록한 110 개의 천체들이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혜성 사냥꾼이었던 메시에는 혜성과 유사한 천체들로 인해 혜성 발견에 지장을 받았었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 그는 그러한 천체들을 구분하는데 시간을 낭비하지 않기 위해 조수였던 피에르 메셍과 함께 따로 그것들을 모아 하나의 목록을 만들었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 일생 동안에 목록에 수록된 천체의 수는 103 개였지만, 이후에 오랜 시간 동안 다른 천문학자들이 메시에가 관측했던 천체 몇 개를 더 추가하여 110 개가 되었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%8B%9C%EC%97%90_%EC%B2%9C%EC%B2%B4",
+            "search_query": "메시에 천체",
+            "terminate": false,
+            "text": "1771년, 프랑스의 천문학자인 샤를 메시에가 수록한 천체 110개를 메시에 천체라고 해. 메시에는 혜성 사냥꾼이었는데, 혜성과 비슷한 천체 때문에 혜성 발견에 차질을 겪었지. 그래서 메시에는 혜성이 아닌 천체들을 구분하는 데에 시간을 낭비하지 않을 수 있도록, 조수인 피에르 메셍과 함께 그 천체들을 모아 목록을 만들었어. 메시에의 삶 동안 목록에 실린 천체 수는 103개였는데, 이후 오랜 시간에 걸쳐 다른 천문학자들이 메시에가 관측했던 천체를 몇 개 더 추가해서 목록은 110개가 됐지.",
+            "turn_id": "BK22008259-2",
+            "utterance_id": "BK22008259.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지 전해지는 목록을 그 시대에 만들었다니, 엄청난 것 같아. 그럼 다시 안드로메다 얘기로 돌아가서, 안드로메다은하는 질량이 어느 정도야?",
+            "turn_id": "BK22008259-3",
+            "utterance_id": "BK22008259.5"
+        },
+        {
+            "reference_date": "2018-02-21",
+            "reference_text": [
+                {
+                    "value": "물론 지구에서 250만 광년 떨어진 외부 은하의 질량을 정확히 측정하는 일은 매우 어렵지만, 여러 가지 간접적인 방법을 통해 과학자들은 안드로메다은하가 우리 은하 질량의 2-3배에 달하는 초대형 은하라고 생각해왔다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "국제 전파 천문학 연구 센터(International Centre for Radio Astronomy Research)의 과학자들은 이 추정치를 검증하기 위해 새로운 방법을 이용했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "은하를 구성하는 모든 별은 각자 고유한 속도와 방향으로 이동하고 있는데, 이 가운데는 속도가 너무 빨라 은하계를 탈출할 만큼 빠른 속도로 이동하는 별이 존재한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 당연히 은하의 중력이 클수록 탈출하는 데 더 빠른 속도가 필요하다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 방법을 이용해서 연구팀은 안드로메다은하의 질량이 우리 은하와 비슷한 태양의 8000억 배라는 결론을 얻었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20180221601003",
+            "search_query": "안드로메다 은하 질량",
+            "terminate": false,
+            "text": "음, 지구로부터 250만 광년 떨어진 은하의 질량을 정확하게 측정하는 것은 몹시 어려운 일이긴 하지만, 과학자들은 여러 간접적인 방법을 통해 안드로메다은하의 질량이 우리은하의 2~3배에 달한다고 추측해 왔어. 그런데 국제 전파 천문학 연구 센터가 이 추정값을 검증하기 위해 새로운 수단을 시도해 보자, 다른 결과가 나왔지. 은하를 구성하는 별은 모두 저마다의 고유한 방향과 속도로 이동하는데, 이 중에는 은하계를 탈출해 버릴 만큼 빠른 속도로 이동하는 별도 있어. 그리고 은하의 중력이 크면 클수록, 은하계에서 탈출하는 데에는 더 빠른 속력이 필요하지. 연구팀은 이 원리를 통해, 안드로메다은하의 질량이 태양의 8000억 배로, 우리은하와 비슷하다는 결론을 얻었어.",
+            "turn_id": "BK22008259-3",
+            "utterance_id": "BK22008259.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양 8천억 개 질량이라는 수치가 너무 커서 상상이 잘 안 가네. 그런데 안드로메다은하가 우리은하랑 그렇게 비슷한 몸집이면서 비교적 가까운 거리에 있다면, 서로 영향을 주진 않으려나?",
+            "turn_id": "BK22008259-4",
+            "utterance_id": "BK22008259.7"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "대부분의 은하가 우리 은하로부터 멀어져 가고 있지만, 국부 은하군 중 가장 큰 은하인 안드로메다 은하는 초속 120킬로미터의 속도로 우리 은하를 향해 접근하고 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약 40억 년 후 안드로메다와 우리 은하는 충돌할 것이며, 조석력이 양측 은하의 나선팔 모양을 거대한 조석 꼬리 형태로 바꾸어 놓을 것이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "결국, 약 45억 년 후 우리 은하와 안드로메다는 완전히 합쳐져서 거대한 타원 은하가 될 것이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "충돌 이후 형성된 은하는 밀코메다 은하(Milkomeda) 라고 불린다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%93%9C%EB%A1%9C%EB%A9%94%EB%8B%A4_%EC%9D%80%ED%95%98%EC%99%80_%EC%9A%B0%EB%A6%AC_%EC%9D%80%ED%95%98%EC%9D%98_%EC%B6%A9%EB%8F%8C",
+            "search_query": "우리은하 안드로메다 충돌",
+            "terminate": false,
+            "text": "물론 영향을 주지. 실제로, 은하 대부분이 우리은하로부터 멀어져 가고 있는 데에 반해, 국부 은하군 중에서 가장 큰 은하인 안드로메다은하는 초속 120킬로미터라는 속도로 우리은하를 향해 접근 중이야. 그렇게 40억 년 정도가 지나면 우리은하와 안드로메다은하는 충돌하고, 조석력이 두 은하의 나선팔 형태를 거대한 조석 꼬리 모양으로 바꾸게 되지. 이후, 약 45억 년 후에는 안드로메다은하와 우리은하가 완전하게 합쳐져서 커다란 타원 은하가 될 거야. 이렇게 만들어지게 될 은하에는 밀코메다 은하라는 이름이 붙어 있지.",
+            "turn_id": "BK22008259-4",
+            "utterance_id": "BK22008259.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 사는 동안에 충돌이 안 일어나서 다행이라는 생각과 충돌하는 모습을 못 봐서 아쉽다는 생각이 동시에 드네. 우리은하와 안드로메다은하의 충돌 외에도, 다른 은하들 사이의 충돌 사례가 있으면 소개해 줄래?",
+            "turn_id": "BK22008259-5",
+            "utterance_id": "BK22008259.9"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "네 번째는 스테판 5중주(Stephan’s Quintet)이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2억9천만 광년 떨어진 밀집된 은하단이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "은하의 충돌과 결합을 볼 수 있는 곳이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스테판 5중주에 속해 있는 NGC 7318A와 NGC 7318B 은하는 서로 충돌하고 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews24.com/view/1499724",
+            "search_query": "스테판 오중주 충돌",
+            "terminate": false,
+            "text": "응, 한 예로 스테판 5중주에서는 은하의 충돌과 결합을 볼 수 있지. 스테판 5중주는 2억 9천만 광년 떨어져 있는 밀집된 은하단인데, 여기에 속한 NGC 7318A와 NGC 7318B 은하가 서로 충돌 중이야.",
+            "turn_id": "BK22008259-5",
+            "utterance_id": "BK22008259.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 두 은하 충돌 관련 사진이 있는지 나중에 따로 찾아봐야겠어. 그나저나 안드로메다은하가 우리은하에 가장 가까우면서 큰 은하라고 했잖아. 안드로메다은하 외에도 우리은하에서 가까운 은하 중에 큰 은하가 더 있을까?",
+            "turn_id": "BK22008259-6",
+            "utterance_id": "BK22008259.11"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "삼각형자리 은하(영어: Triangulum Galaxy)는 지구에서 300만 광년 가량 떨어져 있는 삼각형자리에 위치한 나선 은하이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "삼각형자리 은하는 우리 은하와 안드로메다 은하를 포함하는 국부 은하군에 속해 있는 은하 중 3번째로 크고 무거운 은하이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "삼각형자리 은하는 메시에 천체 목록에 M33으로, 신판일반목록(NGC)에 NGC598로 등록되어 있고, 종종 별칭인 바람개비 은하(Pinwheel Galaxy)라고도 불린다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 육안으로 볼 수 있는 가장 먼 심원천체(Deep Sky Object)이기도 하다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B0%81%ED%98%95%EC%9E%90%EB%A6%AC_%EC%9D%80%ED%95%98",
+            "search_query": "삼각형자리 은하",
+            "terminate": false,
+            "text": "응, 삼각형자리 은하가 있어. 지구로부터 300만 광년 정도 떨어진 삼각형자리에 자리한 나선 은하이고, 안드로메다은하와 우리은하를 포함하는 국부 은하군 내 은하 중에서 세 번째로 무겁고 큰 은하지. 삼각형자리 은하는 메시에 천체 목록 중 M33이고, 신판 일반 목록에서는 NGC598로 등록되어 있는데, 별칭인 바람개비 은하라는 이름으로 불리기도 해. 그리고 맨눈으로 볼 수 있는 천체 중 가장 멀리 있는 심원천체이기도 하지.",
+            "turn_id": "BK22008259-6",
+            "utterance_id": "BK22008259.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언젠가 광공해가 적은 곳에서 안드로메다은하와 삼각형자리 은하를 관측해 보고 싶다. 먼 천체 얘기가 나와서 말인데, 가장 멀고 오래됐다고 알려진 은하를 하나 소개해 줄래?",
+            "turn_id": "BK22008259-7",
+            "utterance_id": "BK22008259.13"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "영국 에든버러대 천문학자들이 중심이 된 미-영-프-덴마크 공동연구진은 제임스웹망원경의 초기 관측 데이터를 분석한 결과, 138억년 전 우주 탄생의 빅뱅이 일어나고 2억3500만년이 지난 시점의 은하를 포착했다고 지난달 25일 사전출판논문 온라인저장소 ‘아카이브’에 제출했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘CEERS-93316’라는 이름이 붙여진 이 은하는 지구에서 350억광년 떨어져 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구진은 “빅뱅 후 2억3500만년은 최초의 은하가 형성되기 시작했다고 생각되는 시기와 가까우며 최초의 별이 태어난지 약 1억3500만년 후로 추정된다”고 밝혔다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/1053850.html",
+            "search_query": "가장 먼 은하",
+            "terminate": false,
+            "text": "영국 에든버러대 천문학자들을 중심으로 한 미-영-프-덴마크 공동 연구진이 제임스 웹 망원경의 초기 관측 자료를 분석하여 올해 7월 25일 사전출판논문 온라인저장소 아카이브에 제출한 바에 따르면, 138억 년 전 빅뱅이 일어나고 2억 3500만 년이 지난 뒤의 은하가 포착됐어. 이 은하는 지구로부터 350억 광년 떨어져 있고, CEERS-93316이라고 이름 붙여졌지. 이 빅뱅 후 2억 3500만 년 후라는 수치는 은하가 처음 생겨나기 시작했다고 예상되는 시기이자, 최초의 별이 생겨난 지 1억 3500만 년이 지난 시기로 추정돼.",
+            "turn_id": "BK22008259-7",
+            "utterance_id": "BK22008259.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 관측하는 것은 과거의 모습인데, 그 은하가 현재는 어떤 모습일지도 궁금해지네. 먼 은하 얘기를 들으니까 이번에는 커다란 은하에 대해서도 궁금해지네. 지금까지 발견된 은하 중에 가장 큰 축에 속하는 은하는 어떤 은하야?",
+            "turn_id": "BK22008259-8",
+            "utterance_id": "BK22008259.15"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "IC 1101은 발견된 은하 중 가장 거대한 은하 중 하나이지만 그러한 은하의 크기가 얼마나 정확한지에 대해서는 천문학 연구에서 논쟁이 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "청색광(확산 헤일로를 제외한 표본 별) 사진건판에서 산출되는 은하의 유효 반지름(전체 방출의 절반을 포함하는 영역의 반지름)은 65 ± 12 kpc(212,000 ± 39,000 ly)이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "IC 1101은 반지름이 600 kpc(200만 광년)만큼 뻗어 있는 매우 낮은 세기의 \"확산광\"(diffuse light)을 방출하는 매우 거대한 헤일로를 가지고 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/IC_1101",
+            "search_query": "IC 1101 은하",
+            "terminate": false,
+            "text": "현재 발견된 은하 중 가장 거대한 은하 중 하나는 바로 IC 1101 은하야. 청색광 사진 건판을 통해 산출했을 때, 이 은하의 유효 반지름은 65kpc에 오차 범위 12kpc이야. 게다가 이 은하는 아주 약한 확산광을 방출하는 거대한 헤일로를 갖고 있는데, 이 헤일로의 크기는 600kpc에 이르지. 다만, 은하의 추정 크기가 얼마나 정확한지에 대해서는 천문학자들 사이에서 논쟁이 이어지고 있어.",
+            "turn_id": "BK22008259-8",
+            "utterance_id": "BK22008259.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 우주 규모의 크기는 내 상상을 아득히 뛰어넘는걸. 참, 혹시 내일 저녁에 시간 돼?",
+            "turn_id": "BK22008259-9",
+            "utterance_id": "BK22008259.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 우주 스케일의 크기는 감히 상상을 못 하겠어. 내일 저녁은 한가한데, 왜?",
+            "turn_id": "BK22008259-9",
+            "utterance_id": "BK22008259.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 제임스 웹 망원경이 최근에 찍은 사진들을 인터넷에서 찾아보면서 같이 감상해 볼래? 괜찮으면 내일 내가 다시 연락할 테니 우리 집으로 와.",
+            "turn_id": "BK22008259-10",
+            "utterance_id": "BK22008259.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나야 우주 사진은 언제든 좋지. 연락 기다리고 있을게. 그럼 내일 저녁때 보자.",
+            "turn_id": "BK22008259-10",
+            "utterance_id": "BK22008259.20"
+        }
+    ]
+}

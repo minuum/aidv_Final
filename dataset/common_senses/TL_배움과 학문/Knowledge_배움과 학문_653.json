@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003977",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003977",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아드님이 올해 대학 들어갔다고 하셨죠? 저희 아들이 올해 고3인데 대학입시 관련해서 좀 여쭤보려고요.",
+            "turn_id": "BK22003977-1",
+            "utterance_id": "BK22003977.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 벌써 아들이 고3이 되었어요? 지원할 곳은 정하셨어요?",
+            "turn_id": "BK22003977-1",
+            "utterance_id": "BK22003977.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 지원할 곳도 못 정했어요. 수시와 정시가 따로 있잖아요. 혹시 원서 지원 횟수에 제한이 있나요?",
+            "turn_id": "BK22003977-2",
+            "utterance_id": "BK22003977.3"
+        },
+        {
+            "reference_date": "2022-01-08",
+            "reference_text": [
+                {
+                    "value": "4년제 대학(교육대학 포함)대부분은 수시 지원 횟수가 6회로 제한하고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정시는 (가), (나), (다) 군별로 1회, 총 3회만 지원할 수 있고 수시에 합격한 학생은 정시지원이 불가능하다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01266086632195752&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "대입원서 지원 횟수",
+            "terminate": false,
+            "text": "교육대학을 포함한 대부분의 4년제 대학은 수시지원은 6번까지고, 정시는 가, 나, 다 군별로 1회씩 해서 총 3번만 지원할 수 있어요. 수시에 합격하게 되면 정시 지원은 불가능하고요.",
+            "turn_id": "BK22003977-2",
+            "utterance_id": "BK22003977.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "횟수에 제한이 있는 거였군요. 아무래도 수시를 먼저 시도해 볼 것 같은데, 전형도 여러 종류가 있더라고요.",
+            "turn_id": "BK22003977-3",
+            "utterance_id": "BK22003977.5"
+        },
+        {
+            "reference_date": "2021-09-02",
+            "reference_text": [
+                {
+                    "value": "수시는 △학생부종합 △학생부교과 △논술 △특기자 등 다양한 전형이 있고 대학과 전형 유형에 따라 다른 방식으로 진행된다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수시를 준비할 때 대학별, 전형별 지원자격과 일정 등을 미리 체크해둬야 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2021082709292393500",
+            "search_query": "수시 전형방법",
+            "terminate": false,
+            "text": "수시 같은 경우는 학생부 종합, 학생부 교과, 논술, 특기자 전형 등 다양하죠. 대학마다 전형 방법에 따라서 진행되는 방식이 달라요. 그래서 수시를 준비한다면 원하는 대학과 지원 가능 자격, 일정 등을 먼저 확인해 두는 게 중요해요.",
+            "turn_id": "BK22003977-3",
+            "utterance_id": "BK22003977.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 미리 체크를 꼭 해야겠네요. 학생부 종합이랑 학생부 교과는 어떻게 다른 건가요?",
+            "turn_id": "BK22003977-4",
+            "utterance_id": "BK22003977.7"
+        },
+        {
+            "reference_date": "2022-01-08",
+            "reference_text": [
+                {
+                    "value": "학생부 교과전형은 내신성적을 정량평가해 학생을 선발한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 내신 등급을 활용하며 대학·학과별로 계산공식이 달라 같은 학생이더라도 지원하는 대학이나 학과에 따라 다른 결과가 나온다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부 종합전형은 교과성적과 함께 학생부 비교과 영역(대학과 전형에 따라 자기소개서를 포함)을 통해 학생의 학업역량, 전공적합성, 인성, 발전가능성을 정성평가한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01266086632195752&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "학생부종합전형 학생부교과전형",
+            "terminate": false,
+            "text": "내신을 정량평가 하는 방식이 학생부교과전형이에요. 보통 내신 등급을 기준으로 하는데, 각 대학과 학과별로 계산방식이 다르기 때문에 각기 다른 지원 결과가 나오죠. 반면에 학생부 종합전형은 정성평가를 하죠. 학생의 교과 성적이랑 학생부의 비교과 영역을 함께 보고, 학업 역량과 전공 적합성, 인성과 발전 가능성을 평가하는 방식이에요.",
+            "turn_id": "BK22003977-4",
+            "utterance_id": "BK22003977.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정량이나 정성이냐 차이네요. 입시에 대해 찾아보다 보니 수능최저학력기준이라는 게 있더라고요. 어떤 건지 좀 알려주세요.",
+            "turn_id": "BK22003977-5",
+            "utterance_id": "BK22003977.9"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "수능 최저학력기준은 특정 대학 학과에서 지원 자격으로 제시하고 있는 수능 등급이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 문턱을 넘으면 접수한 원서가 유효하게 유지되지만, 그렇지 않으면 자동 탈락된다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisa-news.com/news/article.html?no=204558",
+            "search_query": "수능최저학력기준",
+            "terminate": false,
+            "text": "아, 그건 개별 대학 학과에서 지원 자격으로 제시하는 수능등급이에요. 해당 기준을 넘지 못하면 접수한 원서가 자동으로 떨어지게 되는 거죠.",
+            "turn_id": "BK22003977-5",
+            "utterance_id": "BK22003977.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수시는 거의 9월쯤 지원을 하니까, 사실 3학년 2학기 성적은 중요하지 않잖아요. 그래도 혹시 모르니 2학기 성적도 신경을 써줘야 할까요?",
+            "turn_id": "BK22003977-6",
+            "utterance_id": "BK22003977.11"
+        },
+        {
+            "reference_date": "2018-09-20",
+            "reference_text": [
+                {
+                    "value": "고등학교 3학년생은 1학기까지 내신 성적이 반영되지만 재수를 하게 될 경우 수시에서 3학년 2학기 내신 성적까지 반영되기 때문이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대입뿐 아니라 입사 시 고등학교 성적을 요구하는 기업도 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20180920000556",
+            "search_query": "수시 3학년2학기 내신",
+            "terminate": false,
+            "text": "그렇게 생각할 수 있죠. 그런데 현재 3학년생은 1학기까지 내신 성적이 적용되지만, 혹시라도 재수하게 되면 수시 지원할 때 3학년 2학기 내신까지 적용된다는 걸 미리 생각해야 해요. 그리고 나중에 취업하게 되면 입사할 때 고등학교 성적을 요청하는 기업도 있을 수 있고요.",
+            "turn_id": "BK22003977-6",
+            "utterance_id": "BK22003977.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 재수에 취업이라니 생각지도 못한 부분이네요. 요즘 재수하는 학생들이 늘고 있다죠?",
+            "turn_id": "BK22003977-7",
+            "utterance_id": "BK22003977.13"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "대학 입시에서 재수생들의 비율이 갈수록 늘고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정시모집 비율 확대와 문·이과 통합 수능 등의 영향이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/008/0004771163?sid=102",
+            "search_query": "입시 재수 비율",
+            "terminate": false,
+            "text": "네, 재수생들의 비율이 갈수록 높아지고 있어요. 정시모집이 확대된 데다가 문과와 이과 통합 수능으로 인한 것도 있죠.",
+            "turn_id": "BK22003977-7",
+            "utterance_id": "BK22003977.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정시에서는 경쟁이 더 치열해지겠네요. 그래도 정시도 잘 알아놔야 할 것 같아요. 정시모집 전형은 어떻게 되나요?",
+            "turn_id": "BK22003977-8",
+            "utterance_id": "BK22003977.15"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "정시모집에서는 대부분의 대학이 신입생들을 수능성적만으로 선발하고, 일부 대학이 학생부를 수능성적과 합산하여 선발한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학생부의 영향력은 크지 않으며, 합불에 결정적인 영향력을 미치는 것은 수능성적이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.theguru.co.kr/news/article.html?no=33208",
+            "search_query": "정시 수능전형",
+            "terminate": false,
+            "text": "정시모집은 거의 모든 대학이 수능성적만으로 뽑고 있고, 일부 대학에서는 수능성적에 학생부 성적을 합해서 선발하기도 해요. 그래도 학생부보다는 수능성적이 합격 불합격에 결정적인 역할을 하죠.",
+            "turn_id": "BK22003977-8",
+            "utterance_id": "BK22003977.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모의고사 성적을 보면서 수시로 갈지 정시로 갈지 결정해야 할 것 같아요. 수시로 뽑는 비율이 어느 정도 되나요?",
+            "turn_id": "BK22003977-9",
+            "utterance_id": "BK22003977.17"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "결과적으로 전국 대학의 수시모집 비율은 78%로 역대 최고 수준이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 수도권의 주요 대학은 교육부의 정시 확대 정책을 그대로 따르면서 정시 비율을 40%로 일제히 늘렸다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.unn.net/news/articleView.html?idxno=524617",
+            "search_query": "수시모집 비율",
+            "terminate": false,
+            "text": "전국 대학 수시모집 비율은 78퍼센트로 역대 가장 높아요. 그런데 수도권 주요 대학들은 올해 교육부가 주도하는 정시 확대 정책을 따라가고 있어 정시 비율을 40퍼센트로 맞춰 늘렸어요.",
+            "turn_id": "BK22003977-9",
+            "utterance_id": "BK22003977.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수시 비율이 높은 게 우리 아이한테는 다행이겠네요. 오늘 자세히 알려주셔서 정말 감사해요.",
+            "turn_id": "BK22003977-10",
+            "utterance_id": "BK22003977.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "또 궁금한 게 생기시면 언제든지 알려주세요.",
+            "turn_id": "BK22003977-10",
+            "utterance_id": "BK22003977.20"
+        }
+    ]
+}

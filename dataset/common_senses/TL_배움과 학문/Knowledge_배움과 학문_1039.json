@@ -1,0 +1,359 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006812",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006812",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 대전 현충원 갈 일 있어서 갔는데, 마치 봄에 벚꽃이 흔한 것처럼 무궁화가 만발해서 완전 장관이더라고요. 무궁화는 주로 여름에 피나봐요?",
+            "turn_id": "BK22006812-1",
+            "utterance_id": "BK22006812.1"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "무궁화는 여름꽃이다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "7월 초부터 10월 중순까지 무더운 여름 약 100일 동안 매일 수십 송이의 새로운 꽃을 피워낸다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화 여름꽃",
+            "terminate": false,
+            "text": "네, 무궁화는 7월 초부터 10월 중순까지 약 100일 동안의 무더운 여름에 수십 송이의 새로운 꽃을 매일 매일 피워 내는 여름꽃이에요.",
+            "turn_id": "BK22006812-1",
+            "utterance_id": "BK22006812.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 여름꽃이었군요. 그런데, 매일 새로운 꽃을 피워 낸다는 건 무슨 의미예요?",
+            "turn_id": "BK22006812-2",
+            "utterance_id": "BK22006812.3"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "무궁화 한 송이가 피고 지는 시간은 24시간이다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새벽에 꽃이 피고 오후가 되면 오므라들기 시작해 해가 지면 꽃이 떨어진다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화꽃 피고 지는 시간",
+            "terminate": false,
+            "text": "무궁화가 피는 시간은 새벽이고 오후가 되면서 꽃잎이 오므라들다가 저녁에 해가 지고 나면 꽃송이가 떨어져요. 그래서, 한 송이의 무궁화가 피었다가 지는 데 걸리는 시간은 하루 24시간이에요.",
+            "turn_id": "BK22006812-2",
+            "utterance_id": "BK22006812.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그런 사실은 처음 알았어요. 제가 어제 본 송이만 해도 엄청 많던데, 매일 그렇게 새로운 송이가 피었다 지면 여름 내내 피는 무궁화 송이 수는 어느 정도예요?",
+            "turn_id": "BK22006812-3",
+            "utterance_id": "BK22006812.5"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "무궁화는 이렇게 매일 20∼30송이씩, 약 100일간 2000∼3000송이 새로운 꽃을 피운다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "많게는 5000송이까지 피우기도 한다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화 5000송이",
+            "terminate": false,
+            "text": "어제 낮에 많이 피어 있는 것 보셨군요. 보통 하루에 20~30송이씩 무궁화가 피는데, 약 100일 동안에 피는 수를 합하면 2000~3000송이까지 피어요. 많이 피는 경우에는 5000송이까지 될 때도 있고요.",
+            "turn_id": "BK22006812-3",
+            "utterance_id": "BK22006812.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한여름 동안 피는 송이가 정말 엄청나군요. 그런데 그렇게 매일 20송이 이상 피고 지는 무궁화나무의 수명은 어느 정도인지 궁금한데요.",
+            "turn_id": "BK22006812-4",
+            "utterance_id": "BK22006812.7"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "무궁화는 떨기나무로 평균 수명이 40∼50년인데 간혹 100년 이상 장수하는 무궁화도 있다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화 수명",
+            "terminate": false,
+            "text": "떨기나무의 한 종류인 무궁화의 수명은 평균 40~50년이에요. 하지만, 100년 이상 장수한 무궁화도 간혹 있어요.",
+            "turn_id": "BK22006812-4",
+            "utterance_id": "BK22006812.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "100년 이상 장수한 무궁화라면 평균 수명의 2배 이상인데 엄청나게 귀하겠어요.",
+            "turn_id": "BK22006812-5",
+            "utterance_id": "BK22006812.9"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "강릉 사천면 방동리 강릉 박씨 종중 재실에 심어진 무궁화는 심어진지 120년이 넘어 천연기념물 제 520호로 지정돼 보호 중이다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "천연기념물 제 520호",
+            "terminate": false,
+            "text": "그렇죠, 천연기념물 제520호로 지정되어 보호되고 있는 무궁화가 있는데, 심어진 지 120년이 넘은 거예요. 강릉 박씨 종중 재실에 심어진 무궁화인데 강릉 사천면 방동리에 있어요.",
+            "turn_id": "BK22006812-5",
+            "utterance_id": "BK22006812.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "강릉 박씨 종중은 마당에 천연기념물이 있으니 가문의 영광이겠어요.",
+            "turn_id": "BK22006812-6",
+            "utterance_id": "BK22006812.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 무궁화 수명이 계속 이어져서 가문의 영광도 길게 가면 좋겠네요.",
+            "turn_id": "BK22006812-6",
+            "utterance_id": "BK22006812.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 가 본 현충원 무궁화들도 오래오래 살아 있으면 좋겠어요. 그런데, 우리나라 무궁화는 품종이 몇 종류나 있어요?",
+            "turn_id": "BK22006812-7",
+            "utterance_id": "BK22006812.13"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "우리나라에는 100여 품종의 무궁화가 자라고 있으며, 꽃 색깔에 따라 크게 단심계, 배달계, 아사달계 등으로 분류한다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ccdailynews.com/news/articleView.html?idxno=2147571",
+            "search_query": "무궁화 품종",
+            "terminate": false,
+            "text": "우리나라에 자라고 있는 무궁화 품종은 100여 종에 달해요. 꽃잎의 색깔에 따라서 3가지로 크게 분류할 수도 있는데 배달계와 단심계, 아사달계가 있어요.",
+            "turn_id": "BK22006812-7",
+            "utterance_id": "BK22006812.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "100여가지 품종이 다시 색깔로도 나뉘는군요. 전 흰색이랑 분홍색을 봤는데, 그 색깔은 어느 품종으로 들어가요?",
+            "turn_id": "BK22006812-8",
+            "utterance_id": "BK22006812.15"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "중심부에 단심(붉은색)이 없는 순백색은 <배달계>, 중심부에 단심이 있는 꽃은 <단심계>, 흰색 또는 연분홍색 꽃잎 가장자리에 붉은색무늬가 있는 꽃은 <아사달계>다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/news/NEWS/FLD/NWS/360849/view",
+            "search_query": "무궁화 색깔",
+            "terminate": false,
+            "text": "색깔로 나눌 때 중심부를 잘 봐야 하는데, 중심부에 있는 붉은색을 단심이라고 해요. 단심이 없이 꽃잎 전체가 완전히 하얀 순백색은 배달계에 들어가요. 단심계는 꽃의 중심 부분에 붉은색 단심이 있는 것들이죠. 꽃잎이 연분홍색이나 흰색이면서 가장자리에 붉은색 무늬가 있다면 아사달계고요.",
+            "turn_id": "BK22006812-8",
+            "utterance_id": "BK22006812.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중심부에 붉은색이 있는지에 따라서 제가 본 흰색이 배달계일수도 단심계일수도 있는건데, 중심부까지 자세히는 보지 못했네요. 혹시 서울에서 무궁화를 가까이서 자세히 여러 품종 볼만한 곳이 있나요?",
+            "turn_id": "BK22006812-9",
+            "utterance_id": "BK22006812.17"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "지난해 최우수 명소로 뽑힌 ‘서울식물원 무궁화동산’은 민간기업의 지원으로 마곡동 서울식물원 열린숲에 조성됐다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "100여 품종의 다양한 무궁화를 입장료 없이 자유롭게 볼 수 있다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화 명소",
+            "terminate": false,
+            "text": "서울에서 100여개의 다양한 품종의 무궁화를 자유롭게 볼 수 있는 곳을 꼽자면 마곡동 서울식물원 열린 숲이 있어요. 특히 이곳은 2021년에 무궁화 최우수 명소로 뽑힌 서울식물원 무궁화동산이 조성되어 있어서 볼거리도 많고 입장료가 무료라서 맘 편하게 이용 가능해요.",
+            "turn_id": "BK22006812-9",
+            "utterance_id": "BK22006812.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 상까지 받은 명소를 무료로 볼 수 있다니 좋은데요. 그런데 무궁화 명소에 대해서 시상식도 있나 봐요.",
+            "turn_id": "BK22006812-10",
+            "utterance_id": "BK22006812.19"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "산림청은 2014년부터 매년 ‘무궁화 명소’를 선정하고 있다.",
+                    "value_time": "2022-08-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220815511707?OutUrl=naver",
+            "search_query": "무궁화 명소",
+            "terminate": false,
+            "text": "네, 2014년부터 산림청에서는 매해 무궁화 명소를 뽑고 있어요.",
+            "turn_id": "BK22006812-10",
+            "utterance_id": "BK22006812.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 다음에 지방 갈 일 있으면 무궁화 명소인 곳 참고해봐야겠네요. 오늘 무궁화에 대해서 몰랐던 내용들 많이 알게 되어서 정말 즐거운 시간이었어요.",
+            "turn_id": "BK22006812-11",
+            "utterance_id": "BK22006812.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 덕분에 보람차고 즐거운 시간 보냈어요.",
+            "turn_id": "BK22006812-11",
+            "utterance_id": "BK22006812.22"
+        }
+    ]
+}

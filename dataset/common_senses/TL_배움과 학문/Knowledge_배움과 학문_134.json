@@ -1,0 +1,421 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011758",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011758",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 철새공원이 있는 곳으로 이사를 오면서 새를 자주 보다 보니까 새에 관심이 많이 생겼어. 그래서 새에 관해 이것저것 알고 싶어서 말이야. 먼저 궁금한 게, 새는 어떤 진화 과정을 거쳤는지 설명해 줄래?",
+            "turn_id": "BK22011758-1",
+            "utterance_id": "BK22011758.1"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "조류의 진화는 쥐라기 시대에 비롯하였다고 여겨진다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "새와 공룡의 중간형인 시조새의 화석이 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시조새의 화석은 독일의 바바리아 지방에 있는 쥐라기의 지층에서 나온 것으로 학명은 아르카이오프테릭스(Archaeopteyx)이고 3개가 발굴되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중생대 쥐라기에 공룡으로부터 분화된 조류는 신생대 초기에 진화가 완성되었다고 보는데, 그 증거로는 우선 이빨이 없어지고 각질인 부리를 갖게 되었으며, 체온이 일정해졌다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A5%98%EC%9D%98_%EC%A7%84%ED%99%94",
+            "search_query": "조류 진화",
+            "terminate": false,
+            "text": "조류는 쥐라기 때 공룡으로부터 진화했다고 생각되고 있어. 과거의 화석으로는 공룡과 새의 중간 형태로 독일 바바리아 지방의 쥐라기 시기 지층에서 발견된 시조새인 아르카이오프테릭스 화석 3개가 있어. 조류는 중생대 이후 신생대 초반에 지금의 조류로 진화되었다고 보는데, 그 증거로는 이빨이 없어진 점, 각질로 된 부리가 생긴 점, 체온이 일정해진 점 등을 들 수 있어.",
+            "turn_id": "BK22011758-1",
+            "utterance_id": "BK22011758.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공룡으로부터 분리된 게 새라는 게 정말 신기하네. 새의 날개는 예나 지금이나 두 개였을까?",
+            "turn_id": "BK22011758-2",
+            "utterance_id": "BK22011758.3"
+        },
+        {
+            "reference_date": "2013-03-17",
+            "reference_text": [
+                {
+                    "value": "중국 지질학·고생물학 연구소의 고생물학자인 싱 수(Xing Xu) 박사가 이끈 연구팀은 3월15일치 과학저널 <사이언스>에 낸 논문에서 백악기 전기(대략 1억5000만 년 전부터 1억 년 전까지) 지층이 있는 랴오닝성에서 발굴된 원시 새 화석 11종의 다리에서 깃털이 있었음을 보여주는 증거를 찾아냈다고 밝혔다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 앞서 2003년 미크로랍토르(Microraptor)를 비롯해 네 날개 깃털을 지닌 공룡 화석들이 몇 차례 발굴된 적은 있으나, 공룡이 아닌 원시 새가 네 날개를 갖췄음을 보여주는 화석의 발굴 보고는 처음이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구자들의 분석을 보면, 발을 포함해 다리 전체를 덮은 깃털은 처음에 일부 공룡들한테서 나타났고, 이것이 초기 원시 새들에서도 이어졌으며, 그러다가 점차 사라졌을 것으로 여겨진다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/scienceon/578355.html",
+            "search_query": "원시새 날개 네 개",
+            "terminate": false,
+            "text": "아니, 원시 새는 날개가 4개이기도 했어. 지난 2013년 3월 15일 과학저널 사이언스에는 중국 고생물학, 지질학 연구소 고생물학자 싱수 박사의 연구팀이 랴오닝성의 백악기 전기 지층에서 발견된 원시 새 화석 11종의 다리에서 깃털이 존재했던 증거를 찾았다는 논문이 실렸어. 2003년에 미크로랍토르를 포함해 깃털 날개 네 개를 가진 공룡 화석은 몇 번 발견된 적이 있는데, 원시 새한테 날개 네 개가 있었다는 사실을 보여주는 화석은 이게 처음이지. 연구팀의 분석에 따르면, 초기 일부 공룡에게서 발과 다리 전체를 덮는 깃털이 나타났고, 이런 형태가 원시 형태의 새한테도 이어졌다가 이후로 차츰 사라져 갔을 것이라고 여겨져.",
+            "turn_id": "BK22011758-2",
+            "utterance_id": "BK22011758.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날개 4개라니, 직접 그 모습을 못 보는 게 너무 아쉽다. 날개 얘기를 하다가 궁금해진 건데, 새 깃털은 전부 구조가 같아?",
+            "turn_id": "BK22011758-3",
+            "utterance_id": "BK22011758.5"
+        },
+        {
+            "reference_date": "2019-11-29",
+            "reference_text": [
+                {
+                    "value": "연구팀은 서로 다른 양태로 비행하는 오리나 독수리, 참새 같은 새들과 닭같이 땅에 사는 새들을 비교했을 때 깃털 축에 큰 차이가 있다는 사실을 발견했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외형적으로 단단한 깃털 축은 피질이 얇고 무게가 가벼운 반면 축 내부는 뽁뽁이같이 작은 공기주머니가 있는 다공성 세포로 채워져 있었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 함께 비행이 가능하도록 가볍고 속이 빈 부력 구조를 형성했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면 날지 못하는 새들의 깃털은 더 단순하게 견고하고 단단한 밀도 높은 피질로 구성돼 있고, 날아다니는 새들에게서 볼 수 있는 내부 버팀대와 세포들은 적었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%83%88%EC%9D%98-%EA%B9%83%ED%84%B8%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A7%84%ED%99%94%ED%95%B4-%EC%99%94%EB%82%98/",
+            "search_query": "새 깃털 구조",
+            "terminate": false,
+            "text": "아니, 오리, 독수리, 참새 같이 나는 새와 닭 같이 땅에 사는 새는 깃털 축에 큰 차이가 있어. 비행하는 새의 경우, 깃털 축이 외형적으로는 단단하지만, 가볍고 피질이 얇으면서 축 안쪽은 마치 뽁뽁이같이 작은 크기의 공기주머니들로 이루어진 다공성 세포로 채워져 있어. 그리고 날 수 있도록 무게가 가벼우면서 내부가 빈 부력 구조를 이루고 있지. 반면에 날지 못하는 새들의 경우, 깃털이 단단하고 견고하면서 높은 밀도의 피질로 단순한 형태를 이루고 있는데, 비행하는 새에게서 보이는 내부 버팀대나 세포는 적어.",
+            "turn_id": "BK22011758-3",
+            "utterance_id": "BK22011758.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날 수 있느냐 없느냐에 따라 구조가 달라지는구나. 그런데 사람은 나이 먹으면 머리가 하얗게 세는데, 새는 왜 깃털이 하얗게 변하지 않는 걸까?",
+            "turn_id": "BK22011758-4",
+            "utterance_id": "BK22011758.7"
+        },
+        {
+            "reference_date": "2015-12-22",
+            "reference_text": [
+                {
+                    "value": "새들은 왜 나이가 들어도 깃털이 희어지지 않을까?",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새들의 날개 깃털에 있는 미세한 나노스폰지 구멍으로 된 구조가 다양한 빛의 색깔을 반사시켜 주기 때문이었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "과학자들은 어치의 깃털이 인간의 머리카락이나 손톱과 똑같은 케라틴(피부 상피를 구성하는 기본 단백질)으로 돼 있었지만 인간과 달리 스폰지 구조를 갖고 있다는 사실을 확인했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 어치가 날개 깃털에 있는 이 미세한 나노급 스폰지 구조를 바꿈으로써 다양한 밝은 빛을 낼 수 있다는 사실을도 밝혀냈다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20151222000219",
+            "search_query": "새 깃털 하얘지지 않는 이유",
+            "terminate": false,
+            "text": "나이를 먹어도 새의 깃털이 하얗게 세지 않는 이유는 새의 경우, 깃털에 존재하는 미세한 나노 스폰지 구멍으로 이루어진 구조가 빛을 반사해 여러 색깔을 내기 때문이야. 예를 들어, 어치의 깃털은 사람의 손톱이나 머리카락과 마찬가지로 케라틴으로 이루어져 있지만, 사람과는 달리 스폰지 구조가 있지. 어치 깃털에 있는 미세한 나노 스폰지 구조가 달라짐에 따라 여러 가지 색이 나타나는 거야.",
+            "turn_id": "BK22011758-4",
+            "utterance_id": "BK22011758.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘하면 그런 구조를 실생활에 응용할 수도 있겠는걸. 참, 새는 시력이 좋은 걸로 알고 있는데, 새는 왜 그렇게 시력이 좋은 거야?",
+            "turn_id": "BK22011758-5",
+            "utterance_id": "BK22011758.9"
+        },
+        {
+            "reference_date": "2016-04-04",
+            "reference_text": [
+                {
+                    "value": "로이카르트 법칙에 의하면 빠른 속도를 내는 동물일수록 체중에 대비해 큰 눈을 가진다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "왜냐하면 빨리 이동하는 동물들의 경우 장애물을 피하지 못하면 치명적인 충돌사고로 이어질 수 있기 때문이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 피하기 위해서는 뛰어난 시력을 가질 수밖에 없다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 빠른 속도를 내는 조류가 네발 달린 육상동물보다 시력이 좋다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9D%B8%EA%B0%84%EA%B3%BC-%EC%A1%B0%EB%A5%98%EC%9D%98-%EA%B0%80%EC%9E%A5-%EC%98%A4%EB%9E%98%EB%90%9C-%EA%B4%80%EA%B3%84/",
+            "search_query": "로이카르트 법칙",
+            "terminate": false,
+            "text": "로이카르트 법칙이라는 게 있는데, 속도가 빠른 동물일수록 체중 대비 눈 크기가 크다는 법칙이야. 빠르게 움직이는 동물의 경우, 장애물을 회피하지 못하면 자칫 충돌로 인해 큰 사고를 당할 수 있고, 이런 사고를 피하려면 속도가 빠를수록 시력이 좋을 수밖에 없지. 그래서 속도가 빠른 조류는 일반적인 육상동물보다 시력이 좋은 거야.",
+            "turn_id": "BK22011758-5",
+            "utterance_id": "BK22011758.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "속도와 눈 크기 사이에 상관관계가 있을 줄은 몰랐어. 그럼 새 중에서도 시력이 특히 좋은 새는 어떤 새이고, 어떻게 시력이 좋은지 알려줄래?",
+            "turn_id": "BK22011758-6",
+            "utterance_id": "BK22011758.11"
+        },
+        {
+            "reference_date": "2017-07-10",
+            "reference_text": [
+                {
+                    "value": "특히 새 중에서도 육식 조류가 가장 좋은 시력을 갖고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "왕좌로 알려진 이는 단연 매다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매의 시력이 좋은 이유는 망막의 가장 안쪽 중앙에 위치해 시력의 90%를 담당하는 황반 부위에 시세포가 집중적으로 분포돼 있기 때문이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매의 황반에는 사람의 5배가 넘는 시세포가 존재한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 매는 한 눈에 황반이 두 개다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1OIF59HG5J",
+            "search_query": "매 시력",
+            "terminate": false,
+            "text": "새 중에서도 가장 시력이 좋은 건 육식 조류이고, 그중에서도 매가 단연코 으뜸이야. 매의 경우, 망막 최심부 중앙에 있으면서 시력의 90퍼센트를 담당하는 황반 부분에 시각세포가 집중적으로 모여 있는데, 매의 황반에 있는 시각세포는 사람의 5배가 넘어. 게다가 매는 눈 하나당 황반이 두 개씩이지.",
+            "turn_id": "BK22011758-6",
+            "utterance_id": "BK22011758.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람과 비교해 주니 얼마나 차이가 나는지 새삼 실감이 가네. 그나저나 철새공원 근처이다 보니 철새도 자주 보는데, 새들이 항상 V자 모양으로 대형을 만들어서 날아가더라고. 새들이 그렇게 비행하는 이유는 뭘까?",
+            "turn_id": "BK22011758-7",
+            "utterance_id": "BK22011758.13"
+        },
+        {
+            "reference_date": "2014-01-19",
+            "reference_text": [
+                {
+                    "value": "스티븐 포르투갈 영국 왕립수의대 박사 연구팀이 철새가 V자 대형을 이루며 비행하는 것은 앞의 동료 철새가 만드는 ‘상승기류’를 이용하기 때문이라는 사실을 밝힌 연구결과다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀은 오스트리아 빈 인근에서 어린 붉은볼따오기 14마리에게 위성위치확인시스템(GPS)을 설치했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포르투갈 박사는 “새가 날갯짓을 하면 공기가 소용돌이치는 기류인 ‘난류’가 생긴다”며 “난류는 처음에는 아래 방향으로 향하다가 곧 상승기류로 바뀌는데, 뒤따라오는 붉은볼따오기가 이 상승기류를 타기 위해 약간 거리를 두고 나는 것”이라고 설명했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=3514",
+            "search_query": "새 v 비행",
+            "terminate": false,
+            "text": "영국 왕립수의대 박사 스티븐 포르투갈의 연구팀이 발표한 연구 결과에 따르면, 철새가 V자 대형으로 비행하는 이유는 앞쪽에 있는 동료 새가 생성하는 상승 기류를 이용하기 위해서야. 연구팀은 오스트리아 빈 부근에서 어린 붉은볼따오기 14마리에게 위성위치확인시스템을 설치해 연구를 진행했어. 새가 날개를 퍼덕이면 공기가 소용돌이치는 난류라는 기류가 생겨나는데, 이 난류는 생겨난 직후에는 아래쪽을 향하다가 이내 상승 기류로 바뀌어. 앞의 새를 뒤따라가는 붉은볼따오기는 이 상승 기류를 타고 날기 위해 거리를 조금 둔 채 비행하는 것이지.",
+            "turn_id": "BK22011758-7",
+            "utterance_id": "BK22011758.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "V자 대형에는 생각보다 엄청 심오한 이유가 숨어 있었구나. 철새 얘기가 나와서 말인데, 철새는 대체 어떻게 길을 찾아가는 거야?",
+            "turn_id": "BK22011758-8",
+            "utterance_id": "BK22011758.15"
+        },
+        {
+            "reference_date": "2021-02-15",
+            "reference_text": [
+                {
+                    "value": "연구팀은 이 연구에서 유럽과 아프리카, 중동지역을 이동하는 개개비(reed warblers)들이 정상적인 이동경로를 넘어 ‘자기 포지션(magnetic position)’으로 비행하며 올바른 경로를 찾아가는 방법을 기술했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀은 실험을 위해 이동경로와 일반적인 지자기 특성에 익숙한 성체 새들을 단기간 포획한 상태에서, 일반적인 이동경로를 넘어선 수천 마일 떨어진 곳에 있는 것과 같은 지자기 특성 시뮬레이션에 노출시켰다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러자 새들은 물리적으로 포획된 위치에 그대로 있고, 실제 위치에서의 별빛이나 풍경, 냄새 및 소리 등 다른 모든 감각적인 단서들을 경험하고 있음에도 불구하고 자신들이 마치 시뮬레이션으로 유도된 지자기적 특성을 지닌 위치에 실제로 있는 것처럼 다른 곳으로 이동을 시작하려는 충동을 보여주었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%B2%A0%EC%83%88%EB%93%A4%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9D%B4%EB%8F%99%EA%B2%BD%EB%A1%9C-%EC%B0%BE%EC%95%84%EA%B0%88%EA%B9%8C/",
+            "search_query": "철새 이동 원리",
+            "terminate": false,
+            "text": "지자기장을 이용해 찾아가는 거야. 한 연구팀이 아프리카와 중동, 유럽을 이동하는 개개비를 이용해, 정상 이동 경로에서 벗어났을 때 자기 포지션을 이용해 정확한 경로를 찾아가는 과정을 기록했는데, 실험에서 일반적인 지자기 특성과 이동 경로에 익숙한 어른 새들을 짧은 기간 동안 포획한 뒤, 새가 일반적인 이동 경로가 아닌 수천 마일 떨어진 곳에 있는 것처럼 느끼게끔 지자기 특성 시뮬레이션에 노출하는 실험을 진행했어. 그러자 물리적으로 포획된 위치에서 이동하지 않고, 풍경, 소리, 냄새, 별빛 등 다른 감각 단서를 전부 느끼고 있음에도, 새들은 포획된 장소가 아니라, 마치 시뮬레이션으로 유도된 지자기적 특성이 존재하는 장소에 있는 것처럼 행동했지. 그리고 다른 장소로 이동을 시작하려는 충동 행동을 보였지.",
+            "turn_id": "BK22011758-8",
+            "utterance_id": "BK22011758.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지자기장을 느낀다는 게 어떤 것일지 상상이 안 가. 새는 우리 주변에서 흔히 보는 동물인데도, 막상 이렇게 자세히 알아보니 정말 신기한 점이 많네.",
+            "turn_id": "BK22011758-9",
+            "utterance_id": "BK22011758.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 그런 신기한 점들 때문에 조류에 관한 공부를 계속하고 있지.",
+            "turn_id": "BK22011758-9",
+            "utterance_id": "BK22011758.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 여러 가지로 알려줘서 고마워. 그럼 나는 새를 관찰하러 철새공원에 가 볼게.",
+            "turn_id": "BK22011758-10",
+            "utterance_id": "BK22011758.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 관찰하다가 궁금한 게 생기면 연락해. 그럼 다음에 또 보자.",
+            "turn_id": "BK22011758-10",
+            "utterance_id": "BK22011758.20"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006795",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006795",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 한강을 지나다 보니 다리가 굉장히 많더라. 한강에는 몇 개나 되는 다리가 있을까? 다리에 관한 레포트를 쓰려는데, 알고 있는게 있다면 좀 도와줘!",
+            "turn_id": "BK22006795-1",
+            "utterance_id": "BK22006795.1"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "다음 달 완공을 앞둔 월드컵대교를 포함하면 서울 권역에만 31개가 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울시 안에 22개가 놓였고, 경기도에 있거나 서울과 경기도를 연결하는 곳에는 9개의 다리가 놓였다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspost.kr/news/articleView.html?idxno=93810",
+            "search_query": "한강다리 몇 개",
+            "terminate": false,
+            "text": "한강 다리 참 많지? 2021년 8월에 완공되는 월드컵 대교를 포함하면 31개의 다리가 서울 권역에 있어. 31개 중 서울시 안에 놓인 건 22개이고 나머지 9개의 다리는 서울과 경기도를 연결하거나 경기도에 있어.",
+            "turn_id": "BK22006795-1",
+            "utterance_id": "BK22006795.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한강 다리가 31개나 있다니 정말 많다. 그중 제일 먼저 세워진 다리는 뭐야?",
+            "turn_id": "BK22006795-2",
+            "utterance_id": "BK22006795.3"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "가장 오래된 다리는 1900년 열차 통행전용으로 건설된 한강철교입니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220706046800805?input=1195m",
+            "search_query": "최초의 한강다리",
+            "terminate": false,
+            "text": "1900년에 열차 통행 전용으로 만들어진 한강철교가 제일 오래된 다리지.",
+            "turn_id": "BK22006795-2",
+            "utterance_id": "BK22006795.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1900년이라니 생각보다 더 오래되었구나. 그럼 반대로 가장 최근에 세워진 한강다리는 뭐야?",
+            "turn_id": "BK22006795-3",
+            "utterance_id": "BK22006795.5"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "가장 젊은 다리는 2021년 9월 개통된 월드컵 대교입니다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220726076700805?input=1195m",
+            "search_query": "가장 젊은 한강다리",
+            "terminate": false,
+            "text": "월드컵 대교가 가장 젊은 다리지. 2021년 9월에 개통했으니까.",
+            "turn_id": "BK22006795-3",
+            "utterance_id": "BK22006795.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "월드컵 대교가 개통한지 1년도 안되었구나. 그렇다면 한강 다리 중 통행량이 가장 많은 다리는 뭘까?",
+            "turn_id": "BK22006795-4",
+            "utterance_id": "BK22006795.7"
+        },
+        {
+            "reference_date": "2020-10-15",
+            "reference_text": [
+                {
+                    "value": "한남대교가 남향·북향 모두 통행량이 가장 많은 것으로 조사됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "15일 국회 국토교통위원회 소속 문정복 더불어민주당 의원이 서울시에서 받은 국정감사 자료에 따르면 올해 한강 교량별 통행량이 가장 많은 곳은 한남대교로 남향 일일 평균 9만4023대, 북향 9만7016대 등 일일 평균 19만1039대가 통행하는 것으로 집계됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=04683846625933248&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "한강다리 통행량",
+            "terminate": false,
+            "text": "그건 바로 한남대교! 남향, 북향 둘 다 통행량이 가장 많은 곳은 한남대교야. 2020년 10월 15일 서울시 국정감사자료에 보면 2020년 한남대교 남향의 하루 평균 통행량은 9만 4023대였어. 북향은 9만 7016대가 지나간걸로 조사되었으니 하루 평균 19만 1039대가 통행한거지.",
+            "turn_id": "BK22006795-4",
+            "utterance_id": "BK22006795.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하루 평균 19만대 이상이 통행했다니 대단하다. 그럼 통행량이 가장 적은 다리는 어디야?",
+            "turn_id": "BK22006795-5",
+            "utterance_id": "BK22006795.9"
+        },
+        {
+            "reference_date": "2020-10-16",
+            "reference_text": [
+                {
+                    "value": "반면 여의도에 위치한 원효대교(남향)와 서강대교(북향)가 차량 통행량이 가장 적은 것으로 집계됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsworker.co.kr/news/articleView.html?idxno=88369",
+            "search_query": "통행량 적은 한강다리",
+            "terminate": false,
+            "text": "차량 통행량이 가장 적은 것으로 집계된 다리는 여의도에 있는 원효대교 남향과 서강대교 북향이야.",
+            "turn_id": "BK22006795-5",
+            "utterance_id": "BK22006795.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원효대교는 길어서 통행량이 많을 줄 알았는데 아니었네. 원효대교가 한강 다리 중 제일 길지 않아?",
+            "turn_id": "BK22006795-6",
+            "utterance_id": "BK22006795.11"
+        },
+        {
+            "reference_date": "2018-01-15",
+            "reference_text": [
+                {
+                    "value": "마곡대교는 총 길이 2930m로 가장 긴 한강다리에 꼽혔다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2018011514404520462",
+            "search_query": "가장 긴 한강대교",
+            "terminate": false,
+            "text": "아니야, 한강 다리 중 가장 긴 다리는 총 길이 2930m의 마곡대교야.",
+            "turn_id": "BK22006795-6",
+            "utterance_id": "BK22006795.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마곡대교의 길이가 제일 길구나. 그럼 원효대교의 길이는 얼마나 되는데?",
+            "turn_id": "BK22006795-7",
+            "utterance_id": "BK22006795.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "폭은 20미터 (차도폭 15.4미터, 보도폭 4.6미터에, 4차선 규모로 총연장 1,120미터 길이를 지니고 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원효대교는 지보공이 없는 프리스트레스트 콘크리트 장대교량이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%90%ED%9A%A8%EB%8C%80%EA%B5%90",
+            "search_query": "원효대교",
+            "terminate": false,
+            "text": "지보공이 없는 프리스트레스트 콘크리트 장대교량인 원효대교는 4차선 규모로 폭이 20미터, 길이는 1,120미터야. 20미터의 폭 중 보도폭은 4.6미터, 차도폭은 15.4미터야.",
+            "turn_id": "BK22006795-7",
+            "utterance_id": "BK22006795.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 긴 다리라고 생각했었는데 마곡대교의 절반도 안 되네? 그럼 가장 짧은 한강 다리는 어디인지 궁금한걸?",
+            "turn_id": "BK22006795-8",
+            "utterance_id": "BK22006795.15"
+        },
+        {
+            "reference_date": "2018-03-04",
+            "reference_text": [
+                {
+                    "value": "가장 짧은 다리는 795m 길이의 잠수교로 마곡대교에 비하면 약 4분의 1수준에 불과했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울시내 한강다리 중 자전거 도로가 설치된 다리는 마포대교·잠실철교·광진교·한강대교(신교)·한강대교(구교)·잠수교 등 총 6곳이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-economynews.com/news/article.html?no=21642",
+            "search_query": "가장 짧은 한강다리",
+            "terminate": false,
+            "text": "잠수교가 길이 795m로 가장 짧은 다리야. 마곡대교랑 비교하면 길이가 4분의 1밖에 안돼. 그래도 서울시내 한강 다리 중에 자전거 도로가 설치된 6개의 다리 중 1곳이라는 특징도 있어.",
+            "turn_id": "BK22006795-8",
+            "utterance_id": "BK22006795.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울시내 한강 다리 중에 자전거 도로가 설치된 곳이 6개나 되는구나. 너랑 얘기하면 재미있는 정보를 많이 알 수 있어서 정말 좋아.",
+            "turn_id": "BK22006795-9",
+            "utterance_id": "BK22006795.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 너랑 얘기하면 재미있어서 좋아.",
+            "turn_id": "BK22006795-9",
+            "utterance_id": "BK22006795.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 레포트 쉽게 쓸 수 있을 것 같아. 오늘은 그만 가볼게.",
+            "turn_id": "BK22006795-10",
+            "utterance_id": "BK22006795.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다음에도 재미있는 대화 나눌 수 있길 기대할게.",
+            "turn_id": "BK22006795-10",
+            "utterance_id": "BK22006795.20"
+        }
+    ]
+}

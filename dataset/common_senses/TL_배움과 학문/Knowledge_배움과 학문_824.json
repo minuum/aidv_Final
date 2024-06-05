@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005348",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005348",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장마철도 지났는데 요즘 왜 이렇게 비가 자주 오는지 모르겠어. 곧 있으면 가을인데 가을에도 장마가 올 수 있는거야?",
+            "turn_id": "BK22005348-1",
+            "utterance_id": "BK22005348.1"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "보통 6월 하순에서 8월 중순까지 집중적으로 내리는 비를 여름장마라 하고, 초가을인 8월 말부터 10월까지 볼 수 있는 장마를 가을장마라고 한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=188541#0DJY",
+            "search_query": "가을 장마",
+            "terminate": false,
+            "text": "보통 6월 하순부터 8월 중순에 걸쳐 집중적으로 오는 비가 여름 장마라면, 8월 말에서 10월까지 초 가을에는 가을 장마가 와서 그래.",
+            "turn_id": "BK22005348-1",
+            "utterance_id": "BK22005348.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 가을에도 장마가 오긴 오는구나. 그럼 여름 장마처럼 가을 장마도 규칙적으로 매 년 오는거야?",
+            "turn_id": "BK22005348-2",
+            "utterance_id": "BK22005348.3"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "초여름의 장마 때처럼 명확하게 나타나는 현상은 아니며, 해에 따라 강우량도 매우 불규칙하다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 때에 따라 집중호우가 내리거나 열대성 저기압인 태풍이 내습해 결실기에 접어든 농작물에 해를 입히기도 한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.economytalk.kr/news/articleView.html?idxno=224645#09SN",
+            "search_query": "가을 장마 규칙성",
+            "terminate": false,
+            "text": "아니, 초 여름 장마처럼 확실한 현상은 아니고 해 마다 강우량도 불규칙해. 하지만 집중 호우가 내리기도 하고 열대성 저기압인 태풍이 와서 농작물의 결실기에 방해가 되기도 하지.",
+            "turn_id": "BK22005348-2",
+            "utterance_id": "BK22005348.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 가을에는 그냥 태풍만 오는 줄 알았는데, 이 시기에 장마가 왜 또 오게 되는 거야?",
+            "turn_id": "BK22005348-3",
+            "utterance_id": "BK22005348.5"
+        },
+        {
+            "reference_date": "2021-08-31",
+            "reference_text": [
+                {
+                    "value": "남쪽 북태평양 고기압이 확장하며 시작되는 여름 장마와 달리, 가을 장마는 북쪽 찬 공기가 아래로 밀고 내려오면서 시작됩니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여름이 지나고 공기가 선선해지는 가을 무렵 다시 정체전선이 활성화돼 나타나는 현상입니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=5265736",
+            "search_query": "가을 장마 원인",
+            "terminate": false,
+            "text": "그건 북쪽의 찬 공기가 아래로 밀고 내려와서 그래. 보통 여름 장마는 남쪽의 북태평양 고기압의 확장으로 시작되는데, 가을 장마는 여름이 지나면서 공기가 선선해지는 무렵에 정체 전선이 다시 활성화되면서 생기게 되거든.",
+            "turn_id": "BK22005348-3",
+            "utterance_id": "BK22005348.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 여름 장마와는 발생 원인이 다른 거구나. 그런데 이제 가을이니 곧 태풍도 올텐데, 그럼 태풍은 어떤 현상인거야?",
+            "turn_id": "BK22005348-4",
+            "utterance_id": "BK22005348.7"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "태풍(颱風[typhoon)은 북서태평양에서 발생하는 강력한 열대성 저기압의 통칭, 또는 이 저기압대의 이동에 따른 자연재해를 이른다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.economytalk.kr/news/articleView.html?idxno=224591#09SN",
+            "search_query": "태풍이란",
+            "terminate": false,
+            "text": "태풍은 북서태평양으로부터 발생되는 강한 열대성 저기압을 말하지. 이 저기압대가 이동하면서 자연재해를 일으키는 걸 태풍이라고 부르는 거야.",
+            "turn_id": "BK22005348-4",
+            "utterance_id": "BK22005348.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍은 저기압대가 만드는 거구나. 보통 우리나라의 경우 태풍이 9월에 많이 오지?",
+            "turn_id": "BK22005348-5",
+            "utterance_id": "BK22005348.9"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "주로 한여름~초가을인 7월, 8월, 9월에 태풍이 자주 발생한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한반도에 내습하는 태풍들은 거의 7월, 8월, 9월 3달에 집중되어 있으며, 간혹 간접 영향까지는 6월과 10월에 영향을 주는 경우도 일어난다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "심지어 10월은 직접 영향도 있고 상륙도 하기도 한다",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.economytalk.kr/news/articleView.html?idxno=224591#09SN",
+            "search_query": "태풍 오는 시기",
+            "terminate": false,
+            "text": "그렇지. 주로 한여름에서 초가을 시기인 7, 8, 9월에 자주 발생되니까. 보통 한반도에 오는 태풍은 이 세 달에 집중되어 있는데, 6월이나 10월에 영향을 주는 경우도 간혹 있어. 특히 10월은 아예 상륙해서 직접적인 영향을 주기도 하지.",
+            "turn_id": "BK22005348-5",
+            "utterance_id": "BK22005348.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태풍하니까 엄청나게 피해를 입었던 때가 생각난다. 인명피해도 크게 생기고 그랬잖아. 매미였나 난 그게 생각나는데 맞지?",
+            "turn_id": "BK22005348-6",
+            "utterance_id": "BK22005348.11"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "우리나라에 큰 인명·재산 피해를 남겼던 가을 태풍으로는 1959년 9월 '사라'(SARA), 2003년 9월 '매미'(MAEMI), 2007년 9월 '나리'(NARI), 2016년 10월 '차바'(CHABA)다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.economytalk.kr/news/articleView.html?idxno=224591#09SN",
+            "search_query": "태풍 매미",
+            "terminate": false,
+            "text": "맞아. 우리나라에 가을 태풍으로 큰 인명과 재산 피해를 만든 태풍이 몇 개 있는데, 1959년 9월에 사라, 2003년 9월에 매미, 2007년 9월에 나리, 2016년 10월에 차바 등이 그것들이야.",
+            "turn_id": "BK22005348-6",
+            "utterance_id": "BK22005348.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그때 매미라는 태풍 이름이 워낙 특이해서 기억에 남았어. 근데 이런 태풍 이름은 어떻게 만들어지는 거야?",
+            "turn_id": "BK22005348-7",
+            "utterance_id": "BK22005348.13"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "태풍 이름은 1953년 호주 예보관들이 자신이 싫어하는 정치가 이름을 애칭으로 붙이면서 시작됐다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 세계대전 이후, 미 공군과 해군에서 공식적으로 태풍 이름을 붙이기 시작하였는데, 이때는 자신의 아내나 애인 등 여성 이름을 사용하였다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.economytalk.kr/news/articleView.html?idxno=224591#09SN",
+            "search_query": "태풍 이름 유래",
+            "terminate": false,
+            "text": "이렇게 태풍에 이름이 생기기 시작한 건 1953년에 호주 예보관들이 싫어하는 정치인의 이름을 애칭으로 쓰면서부터야. 그 후로 2차 세계 대전 후로는 미국의 공군, 해군에서 아내나 애인의 이름을 딴 여성의 이름을 태풍 이름으로 정식으로 만들어주었어.",
+            "turn_id": "BK22005348-7",
+            "utterance_id": "BK22005348.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 재미있는 유래가 있었네. 근데 지금은 사람 이름이 아니라 고유명사들도 쓰던데 그건 언제부터 쓰게 된 거야?",
+            "turn_id": "BK22005348-8",
+            "utterance_id": "BK22005348.15"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "현재와 같은 태풍 이름은 2000년부터 지어진 것으로, 태풍위원회 14개 회원국이 10개씩 제출한 총 140개의 고유 언어를 5개조로 나누어 태풍이 발생하면 순차적으로 사용하고 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.economytalk.kr/news/articleView.html?idxno=224591#09SN",
+            "search_query": "태풍이름 고유명사",
+            "terminate": false,
+            "text": "지금 사용되는 태풍 이름은 2000년부터 만들어진 거야. 태풍위원회에 소속된 14개 국가에서 각각 10개씩 태풍 이름을 제출해서 140개의 고유 언어가 모였고, 그것을 5개 조로 나누어서 태풍 발생시에 순서대로 쓰게 된 거지.",
+            "turn_id": "BK22005348-8",
+            "utterance_id": "BK22005348.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 태풍 이름에 그런 의미가 있었다니 신기하다. 하기야 이름이 중요한 게 아니라 피해 없이 사라지는 게 더 중요하긴 하지만.",
+            "turn_id": "BK22005348-9",
+            "utterance_id": "BK22005348.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 태풍이 오는 시기를 미리미리 대비해서 피해를 최소화 하는 게 중요하다고 봐.",
+            "turn_id": "BK22005348-9",
+            "utterance_id": "BK22005348.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올 해는 장마도 유난히 긴 것 같은데 태풍 피해라도 적었으면 좋겠다.",
+            "turn_id": "BK22005348-10",
+            "utterance_id": "BK22005348.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 특히 인명피해가 발생하지 않기를 바랄 뿐이네.",
+            "turn_id": "BK22005348-10",
+            "utterance_id": "BK22005348.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나도 같은 생각이야. 어쨌든 오늘 날씨 이야기 재미있었어, 나중에 또 궁금한 거 생기면 물어볼게, 그럼 다음에 보자.",
+            "turn_id": "BK22005348-11",
+            "utterance_id": "BK22005348.21"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007293",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007293",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 송양지인이 무슨 뜻인지 아세요? 친구들끼리 말싸움을 하고 있는데 한 친구가 쓸데없는 정의감은 집어치우라면서 송양지인이라고 일갈하더라고요.",
+            "turn_id": "BK22007293-1",
+            "utterance_id": "BK22007293.1"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "‘송양지인(宋襄之仁)’이라는 말이 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "직역해 옮기면 ‘송나라 양공의 어진 마음’이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 백과사전에는 ‘제 분수도 모르고 쓸데없이 인정을 베풀거나 불필요한 동정이나 배려를 하는 어리석은 행동’을 일컫는 말로 풀이돼 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1114124",
+            "search_query": "송양지인 풀이",
+            "terminate": false,
+            "text": "그대로 해석하자면 송나라 양공의 어진 마음을 뜻해요. 하지만 백과사전에는 본인의 그릇도 모르고 불필요한 인정이나 쓸데없는 동정, 배려 등을 베푸는 어리석은 행위라고 해석되어 있죠.",
+            "turn_id": "BK22007293-1",
+            "utterance_id": "BK22007293.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 듣고 보니 둘이 싸우게 말싸움을 하게 된 상황에 딱 맞는 거 같아요. 그런데 이 사자성어에 나오는 송나라 양공은 어느 시대 사람이었나요?",
+            "turn_id": "BK22007293-2",
+            "utterance_id": "BK22007293.3"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "송 양공(宋襄公, ? ~ 기원전 637년, 재위: 기원전 651년 ~ 기원전 637년)은 중국 춘추시대 송나라의 군주다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성은 자(子), 휘는 자보(茲父), 시호는 양공, 작위는 공작이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "춘추 오패로 여기기도 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%A1_%EC%96%91%EA%B3%B5_(%EC%9E%90%EB%B3%B4)",
+            "search_query": "송 양공 춘추 오패",
+            "terminate": false,
+            "text": "송 양공은 중국 춘추시대인 기원전 651년부터 637년까지 송나라의 군주로 재위하다 죽었어요. 성은 자, 휘는 자보, 시호는 양공, 작위는 공작이었는데 경우에 따라서는 춘추 오패의 하나로 취급하기도 해요.",
+            "turn_id": "BK22007293-2",
+            "utterance_id": "BK22007293.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "춘추전국시대 이야기였군요. 그런데 춘추 오패라면 그 시대의 패자라는 얘기잖아요? 강한 나라도 아닌 송나라의 군주가 어떻게 그게 가능했죠?",
+            "turn_id": "BK22007293-3",
+            "utterance_id": "BK22007293.5"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "소국 송나라가 그런 대접을 받은 것은 그가 예(禮)를 중시하는 출중한 인물로 존경을 받았기 때문이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20210721010005270",
+            "search_query": "송 양공 송나라 예",
+            "terminate": false,
+            "text": "그가 예를 중시하는 비범한 인물로 존경을 받았기 때문에 조그마한 국가인 송나라 역시 존중을 받은 거죠.",
+            "turn_id": "BK22007293-3",
+            "utterance_id": "BK22007293.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀을 듣고 보니 이상하네요. 예를 차리는 인물인데다 춘추오패 중 하나인 송 양공이 어째서 저런 부정적인 사자성어의 주인공이 된 건가요? 어떤 계기가 있었나요?",
+            "turn_id": "BK22007293-4",
+            "utterance_id": "BK22007293.7"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "송나라가 초나라와 전쟁을 벌여 홍수(泓水)라는 강을 사이에 두고 대치하게 되었다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강을 건너오는 초나라 군사들을 발견한 한 장군이 적군이 강을 반쯤 건너올 때를 봐 공격할 것을 건의했다. 송 양공은 “당당한 싸움이 아니다”라며 거부했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20210721010005270",
+            "search_query": "송나라 초나라 홍수 송 양공",
+            "terminate": false,
+            "text": "초나라와 전쟁을 시작한 송나라는 홍수라는 강을 중간에 두고 서로 대치하게 되었어요. 이때 초나라 군사들이 도하를 하자 어떤 장군이 적이 강을 반쯤 건넜을 때 공격을 하자는 의견을 냈어요. 하지만 송양공은 그런 싸움은 정당하지 않다면서 거절했죠.",
+            "turn_id": "BK22007293-4",
+            "utterance_id": "BK22007293.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초나라라면 강국 중의 하나인데 송 양공의 행동이 굉장히 무모해 보이네요. 그럼 초나라 군대가 강을 다 건너왔을 때는 공격했나요?",
+            "turn_id": "BK22007293-5",
+            "utterance_id": "BK22007293.9"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "이번에는 강을 건너온 초나라 군사들이 진지를 치느라 정신이 없을 때 치자는 요청이 올라왔으나 역시 물리쳤다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "군자(君子)는 상대가 어려울 때 공격하지 않는다는 논지였다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20210721010005270",
+            "search_query": "송나라 초나라 송 양공 군자",
+            "terminate": false,
+            "text": "그것도 아니었어요. 도강을 한 초나라 병사들이 진지를 구축하느라 정신 없을 때 공격하자는 요청이 올라왔지만 군자는 상대가 어려울 때 공격하지 않는다는 논리로 거부했어요.",
+            "turn_id": "BK22007293-5",
+            "utterance_id": "BK22007293.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 너무 심했네요. 이쯤되면 송 양공이 초나라 사람인지 송나라 사람인지도 모르겠어요. 초나라와 정면으로 붙은 송나라는 아마 박살이 났겠죠?",
+            "turn_id": "BK22007293-6",
+            "utterance_id": "BK22007293.11"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "곧이어 강을 건너와 전열을 갖춘 초군과의 전투에서 송은 여지없이 대패하고, 양공도 큰 부상을 입어 결국 목숨을 잃고 만다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1114124",
+            "search_query": "송나라 초나라 송 양공 대패 부상",
+            "terminate": false,
+            "text": "맞아요. 강을 건너 전열을 다 갖춘 초나라군은 송을 크게 격파했어요. 이로 인해 양공도 큰 부상을 당해서 결국 죽고 말죠.",
+            "turn_id": "BK22007293-6",
+            "utterance_id": "BK22007293.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "괜히 그놈의 예의를 차리다가 본인의 목숨까지 잃었네요. 그런 사자성어까지 만들어질 정도였으니 후대 사람들이 전부 비웃었겠어요.",
+            "turn_id": "BK22007293-7",
+            "utterance_id": "BK22007293.13"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "'어리석다’는 일반적 평가와 달리 역사가 사마천은 “인의가 무너지는 작금의 현실에서 양공의 인은 칭송받을 만하다”고 했고, 성리학의 대가 주자 등은 양공의 인을 높이 사면서 춘추시대 다섯 패자, 즉 춘추오패(春秋五覇)의 범주에 양공을 포함하기도 했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1114124",
+            "search_query": "송 양공 평가 사마천 주자",
+            "terminate": false,
+            "text": "그게 또 꼭 그렇지는 않아요. 일반적으로는 멍청하다고 평가하지만 역사가 사마천은 인의가 사라지는 현실에서 양공의 인은 칭찬받을 만하다고 평했고 성리학의 거두 주자 등은 양공의 인을 높이 평가하면서 춘추오패의 하나로 포함하기도 했죠.",
+            "turn_id": "BK22007293-7",
+            "utterance_id": "BK22007293.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "송양공을 춘추오패로 포함한 게 성리학의 거두 주자였군요. 확실히 예의를 중시하는 유교적 관점에서는 송 양공의 행동이 꼭 그르다고만 할 수는 없겠네요.",
+            "turn_id": "BK22007293-8",
+            "utterance_id": "BK22007293.15"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "하지만 약육강식의 시대에서도 ‘정정당당한 맞섬’에 큰 가치를 부여했던 양공의 가르침은 새겨볼 만하다는 평가도 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.viva100.com/main/view.php?key=20210721010005270",
+            "search_query": "송 양공 평가 가르침",
+            "terminate": false,
+            "text": "맞아요. 약육강식의 시대에서 정정당당한 대결에 큰 가치를 부여했던 양공의 가르침은 다시 생각해 볼 만하다는 의견도 있고요.",
+            "turn_id": "BK22007293-8",
+            "utterance_id": "BK22007293.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 저는 여전히 이해하기 힘드네요. 제가 송 양공이었다면 병사들의 목숨을 생각해서라도 별의별 방법을 다 동원했을 거 같아요.",
+            "turn_id": "BK22007293-9",
+            "utterance_id": "BK22007293.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당연한 말씀이죠. 하지만 모두가 다 뒤통수만 치고 기습 궁리만 한다면 전쟁에서 더 큰 피해가 나고 서로 믿을 수가 없어서 국가 간의 협상 자체가 불가능해지지 않을까요?",
+            "turn_id": "BK22007293-9",
+            "utterance_id": "BK22007293.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 그 말씀도 일리가 있네요. 아무튼 오늘 송양지인에 대해서 풀이해 주셔서 정말 감사합니다. 다음에도 궁금한 게 있으면 질문드려도 될까요?",
+            "turn_id": "BK22007293-10",
+            "utterance_id": "BK22007293.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이죠. 언제든지 궁금한 게 있으면 주저하지 말고 질문 주세요!",
+            "turn_id": "BK22007293-10",
+            "utterance_id": "BK22007293.20"
+        }
+    ]
+}

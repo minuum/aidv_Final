@@ -1,0 +1,391 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007135",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007135",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 인도 여행을 다녀왔는데 인도의 신화는 정말로 생소해서 어려웠어. 인도 신화에 대해서 알려 줄래?",
+            "turn_id": "BK22007135-1",
+            "utterance_id": "BK22007135.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인도 신화는 엄청 방대해서 어디서 부터 알려주면 좋을까?",
+            "turn_id": "BK22007135-1",
+            "utterance_id": "BK22007135.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 이해하는 단계이니까 먼저 힌두교는 무엇이고 신화를 이루는 주요 신이 누구인지 알려주면 좋겠어.",
+            "turn_id": "BK22007135-2",
+            "utterance_id": "BK22007135.3"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "힌두교(Hinduism, 산스크리트어: हिन्दू धर्म) 또는 사나타나 다르마(산스크리트어: सनातन धर्म)는 인도 신화 및 브라만교를 기반으로 형성된 인도 계통의 다신교로, 인도를 비롯한 남아시아에서 널리 믿는 종교이자 인도의 민족종교 및 최대종교이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "힌두교의 신은 브라흐마(Brahma), 비슈누(Vishnu), 시바(Shiva)의 삼주신(Trimurti,三主神)과 여러 남신, 여신들로 이루어져 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9E%8C%EB%91%90%EA%B5%90",
+            "search_query": "힌두교",
+            "terminate": false,
+            "text": "힌두교는 인도 신화와 브라만교를 바탕으로 생겨난 인도 계통의 다신교야. 인도의 민족종교이자 최대종교이고 인도를 비롯한 남아시아에서도 널리 믿고 있어. 힌두교의 신은 삼주신인 브라흐마, 비슈누, 시바와 함께 여러 남신, 여신이 존재해.",
+            "turn_id": "BK22007135-2",
+            "utterance_id": "BK22007135.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그전에 브라흐마는 브라만이라는 용어와 비슷한데 관계가 있니?",
+            "turn_id": "BK22007135-3",
+            "utterance_id": "BK22007135.5"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "브라만(산스크리트어: ब्राह्मण 브라흐마나)은 인도의 카스트 중 최상위 카스트로 성직자 및 학자 계급이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 인도 철학에서 우주의 근본원리를 가리키는 브라흐만에서 파생된 명사로, 베다의 경전에 의하면 브라만은 브라흐마의 입에서 나왔다고 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EB%A7%8C",
+            "search_query": "브라만",
+            "terminate": false,
+            "text": "추측이 정확했어. 브라만은 성직자나 학자 계급으로 인도의 카스트의 최상위 카스트야. 브라만은 우주 근본원리를 의미하는 브라흐만이라는 단어에서 파생되었어. 베다의 경전에 따르면 브라흐마의 입에서 브라만이 나왔다고 하지.",
+            "turn_id": "BK22007135-3",
+            "utterance_id": "BK22007135.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카스트 제도가 브라흐마라는 신과 관계가 있던 거구나. 이어서 브라흐마에 대해서 알려줘.",
+            "turn_id": "BK22007135-4",
+            "utterance_id": "BK22007135.7"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "브라흐마(산스크리트어: ब्रह्मा) 또는 범천(梵天)은 힌두교에 나오는 창조의 신으로, 유지의 신 비슈누, 파괴의 신 시바와 함께 트리무르티를 이루는 신이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "힌두교에 따르면 브라흐마는 낮에 43억 2천만년 동안 지속되는 우주를 창조했으며 밤이 되어 브라흐마가 잠이 들면 우주는 그의 몸으로 흡수되는데 이러한 과정은 브라흐마의 생애가 끝날 때까지 반복되고 최종적으로는 우주가 타파스(불), 아파스(물), 아카샤(공간), 바유(바람), 프리티비(흙)의 타트바(다섯 가지 요소)로 해체된다고 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%ED%9D%90%EB%A7%88",
+            "search_query": "브라흐마",
+            "terminate": false,
+            "text": "브라흐마는 힌두교 창조의 신이야. 비슈누는 유지의 신이고 시바는 파괴의 신인데 이들과 함께 트리무르티라는 것을 이뤄. 브라흐마만 간략히 설명하면, 브라흐마는 낮에는 43억 2천만년 동안 지속되는 우주를 만들고, 밤에는 잠이 들기 때문에 우주가 그의 몸으로 흡수된다고 해. 이 과정은 브라흐마가 생을 마감할 때까지 반복되는데, 이 과정으로 우주는 불을 의미하는 타파스, 물인 아파스, 공간인 아카샤, 바람인 바유, 흙인 프리티비, 이렇게 다섯 가지 요소라는 의미인 타트바로 해체돼.",
+            "turn_id": "BK22007135-4",
+            "utterance_id": "BK22007135.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "43억이라는 숫자가 등장하다니 그거 정말 놀라워. 그런데 트리무르티는 무슨 뜻이야?",
+            "turn_id": "BK22007135-5",
+            "utterance_id": "BK22007135.9"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "트리무르티(산스크리트어: त्रिमूर्ति Trimūrti)는 힌두교의 교의 중의 하나이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "트리무르티의 문자 그대로의 뜻은 \"세 개의 형상(Three Forms)\"이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "트리무르티는 삼주신(三主神 · Hindu Triad), 힌두교의 삼위일체(三位一體, Hindu Trinity 또는 Great Trinity) 또는 힌두교의 삼신일체(三神一體)라고도 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC%EB%AC%B4%EB%A5%B4%ED%8B%B0",
+            "search_query": "트리무르티",
+            "terminate": false,
+            "text": "트리무르티는 힌두교의 교의 중 하나로 힌두교의 삼위일체라고도 하지. 또는 삼주신, 힌두교의 삼신일체라고도 하는데 문자의 뜻만 봤을 때는 세 개의 형상이라는 의미야.",
+            "turn_id": "BK22007135-5",
+            "utterance_id": "BK22007135.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가톨릭의 삼위일체와 비슷한 거구나. 다시 돌아와서 유지의 신이라는 비슈누에 대해서 간단히 알려줘.",
+            "turn_id": "BK22007135-6",
+            "utterance_id": "BK22007135.11"
+        },
+        {
+            "reference_date": "2021-08-25",
+            "reference_text": [
+                {
+                    "value": "비슈누의 배꼽에서 브라흐마가 나오고, 이마에서 시바가 탄생했다고 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "둘은 서로 다른 대극의 작용을 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "브라흐마가 만들어낸 만유를 시바가 나서서 파괴한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시바의 강력한 위력에 브라흐마는 빛을 잃는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "파괴로부터 세상을 지키고 재생하는 것은 비슈누의 역할이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/well/well_friend/1009008.html",
+            "search_query": "비슈누",
+            "terminate": false,
+            "text": "비슈누가 왜 유지의 신인지만 말해줄게. 브라흐마는 비슈누의 배꼽에서 시바는 이마에서 탄생했어. 브라흐마와 시바는 완전히 반대라서 브라흐마가 만유라는 것을 만들면 시바가 파괴를 하지. 하지만 브라흐마는 시바의 강한 힘에 빛을 잃어. 이런 파괴로부터 세상을 보호하고 다시 회복하는 것이 비슈누의 역할이야.",
+            "turn_id": "BK22007135-6",
+            "utterance_id": "BK22007135.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흔히 창조하는 신으로부터 모두 나왔을 텐데 유지의 신으로부터 신들이 탄생하다니 다른 신화와 비교했을 때 독특한 점인 것 같네. 시바신은 다른 신들에 대한 정보와 함께 알게되었으니 힌두교 신들에 대한 용어를 알려주면 좋을 것 같아. 생소한 신화라서 그런지 말이 너무 어렵더라고.",
+            "turn_id": "BK22007135-7",
+            "utterance_id": "BK22007135.13"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "힌두교의 경전은 힌두교의 신인 천계의 존재들을 천신(天神, 영어: Devas, \"빛나는 존재\"란 뜻)이라고 표현한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "데바는 수라(Sura)라고도 하는데, 데바 또는 수라는 우주의 궁극적 원리인 브라만의 현현들로서의 힌두교의 신들 전체를 의미하기도 하지만, 힌두교의 남신들만을 의미하기도 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 경우 힌두교의 여신들은 데비(Devi)라고 부른다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "데바와 데비는 무시무시한 신들도 있지만 선신(善神)으로 여겨지며, 힌두교의 악신(惡神)은 총칭하여 아수라(Asura)라고 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9E%8C%EB%91%90%EA%B5%90%EC%9D%98_%EC%8B%A0",
+            "search_query": "힌두교의 신",
+            "terminate": false,
+            "text": "힌두교의 경전에서 천계에 사는 신들을 천신이라고 하는데 영어로는 Devas라고 빛나는 존재라는 의미야. 데바는 수라라고도 하는데 우주 궁극 원리인 브라민의 화신으로 나타난 신들 전체를 가리키기도 하지만 힌두교의 남신들을 뜻하기도 해. 남신이 데바라고 했을 때 여신들은 데비라고 하지. 데바와 데비 중 무서운 신들도 많지만 선한 신이고, 악한 신은 총칭해서 아수라라고 해.",
+            "turn_id": "BK22007135-7",
+            "utterance_id": "BK22007135.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아수라에 대해서 조금 더 묻고 싶은 게 있어. 얼마 전에 페르시아 신화에서 아후라라는 신을 봤거든? 언어가 비슷해서 그러는데 연관이 있을까?",
+            "turn_id": "BK22007135-8",
+            "utterance_id": "BK22007135.15"
+        },
+        {
+            "reference_date": "2022-05-02",
+            "reference_text": [
+                {
+                    "value": "인도 신화의 천신과 아수라의 관계는 페르시아에서 널리 받아들여졌던 조로아스터교에서 정확히 반대의 개념으로 표현된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 인도 신화에서는 천신인 데바들이 선한 신들이고 아수라들은 악의 화신이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 조로아스터교에서 천신들은 아후라(Ahura)이고 악신들은 다에바로 표현된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 당시 서로 많은 전쟁을 치렀던 페르시아와 인도의 관계가 신화에 반영된 것으로 추정된다",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%88%98%EB%9D%BC",
+            "search_query": "아수라",
+            "terminate": false,
+            "text": "착각이 아니야. 인도 신화의 천신과 아수라의 관계는 페르시아에서 종교였던 조로아스터교에서 정확히 반대로 표현돼. 인도 신화에서는 데바들이 천신이고 선한 신, 아수라들은 악의 신이지. 하지만 조로아스터교에서 천신은 아후라, 악신은 다에바라고 나타내지. 이를 통해서 당시 서로 간에 많은 전쟁이 있었던 페르시아와 인도의 관계가 신화에 반영된 것으로 추측하고 있어.",
+            "turn_id": "BK22007135-8",
+            "utterance_id": "BK22007135.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "페르시아와 인도가 가까우니까 그럴 수도 있겠다. 마지막으로 학문과 관련된 신이 있을까? 나중에 인도를 방문하면 시험 기간인 학생들이 주로 어느 신전을 찾는지 확인해보고 싶거든.",
+            "turn_id": "BK22007135-9",
+            "utterance_id": "BK22007135.17"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "가네샤는 인도 전통의 복장을 한 남자의 몸에 네개의 팔을 지녔으며 코끼리 머리를 하고 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도에서는 지혜와 재산과 행운을 관장하는 신으로 추앙받고 있어 주로 상업과 학문의 신으로 숭배된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%84%A4%EC%83%A4",
+            "search_query": "가네샤",
+            "terminate": false,
+            "text": "지혜와 재산, 행운을 다스리는 신인 가네샤가 상업과 학문의 신으로 숭배되고 있어. 가네샤는 인도 전통 복장의 남자 몸을 가지고 있지만 머리는 코끼리지. 그리고 팔은 4개야.",
+            "turn_id": "BK22007135-9",
+            "utterance_id": "BK22007135.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리 머리의 신이라면 금방 찾을 수 있겠다. 다음 여행갔을 때 꼭 참고해볼게. 오늘 덕분에 많은 걸 알게 되어 정말 고마워.",
+            "turn_id": "BK22007135-10",
+            "utterance_id": "BK22007135.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에. 다음에 여행에서 찍은 사진을 보여주면 사진 속에 담긴 여러 신화 요소들을 설명해줄게. 그럼 내일 보자.",
+            "turn_id": "BK22007135-10",
+            "utterance_id": "BK22007135.20"
+        }
+    ]
+}

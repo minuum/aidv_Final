@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003835",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003835",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제 자격증을 준비해야 해서 경제 기사를 요새 많이 읽고 있는데 단어를 몰라서 한 문장마다 읽는 걸 멈추고 검색을 해야 하니 시간이 너무 많이 걸리네요.",
+            "turn_id": "BK22003835-1",
+            "utterance_id": "BK22003835.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 도와줄 수 있어요. 뭐에 대해 읽고 있는데요?",
+            "turn_id": "BK22003835-1",
+            "utterance_id": "BK22003835.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기축통화에 관련된 기사인데 이해가 정말 안 돼요. 설명 좀 부탁드릴게요.",
+            "turn_id": "BK22003835-2",
+            "utterance_id": "BK22003835.3"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "과연 기축통화란 무엇인가?",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "국제무역결제, 환율평가, 대외준비자산으로 사용되는 국제통화이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202203241837137219",
+            "search_query": "기축통화",
+            "terminate": false,
+            "text": "기축통화는 환율평가, 국제무역결제, 대외준비자산으로 이용되는 국제통화예요.",
+            "turn_id": "BK22003835-2",
+            "utterance_id": "BK22003835.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 더 자세히 설명해 주실래요?",
+            "turn_id": "BK22003835-3",
+            "utterance_id": "BK22003835.5"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "구체적으로는 ① 국제무역결제에 사용되는 통화 ② 환율 평가 시의 지표가 되는 통화 ③ 대외준비자산으로 보유되는 통화 등의 의미를 포함한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러므로 어떤 나라의 통화가 기축통화가 되기 위해서는 세계적으로 원활히 유통될 수 있도록 유동성이 풍부하여야 하고 거래당사자들이 믿고 사용할 수 있도록 신뢰성을 갖추어야 하며, 국제적으로 경제력은 물론 정치력･군사력까지 인정받는 국가의 통화여야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-economynews.com/news/article.html?no=34233",
+            "search_query": "기축통화란",
+            "terminate": false,
+            "text": "환율 평가 시 지표가 되는 통화, 국제무역결제에 이용되는 통화, 대외준비자산으로 보유되는 통화를 뜻해요. 그렇기 때문에 한 국가의 통화가 기축통화가 되려면 세계적으로 원활하게 유통될 수 있는 풍부한 유동성과 거래당사자가 믿고 쓸 수 있는 신뢰성을 갖춰야 해요. 그 외에도 국제적인 정치력, 군사력, 경제력 모두 인정받는 국가의 통화여야 하죠.",
+            "turn_id": "BK22003835-3",
+            "utterance_id": "BK22003835.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 기축통화로 쓰이는 통화는 뭔가요?",
+            "turn_id": "BK22003835-4",
+            "utterance_id": "BK22003835.7"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "20세기 초까지는 세계 금융경제 중심이었던 영국의 파운드화가 기축통화였지만, 2차 세계대전 이후 미국의 달러화가 기축통화로 인정받고 있다고 한은은 정의하고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022030201031503006001",
+            "search_query": "기축통화로 사용되는 통화",
+            "terminate": false,
+            "text": "한은의 정의에 따르면 2차 세계대전 이전과 이후로 나눠볼 수 있는데요, 이후로는 미국의 달러가 기축통화로 인정받고 있어요. 그리고 20세기 초에는 세계 금융 경제의 중심이었던 영국의 파운드가 기축통화로 쓰였고요.",
+            "turn_id": "BK22003835-4",
+            "utterance_id": "BK22003835.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 미국 달러가 기축통화라는 게 그 말이군요. 그런데 기축통화로 인해 딜레마에 빠지게 된다고 하는데 어떻게 빠지는 건지 알려주세요.",
+            "turn_id": "BK22003835-5",
+            "utterance_id": "BK22003835.9"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "달러가 기축통화가 되려면 전 세계에서 사용해야 하므로 충분한 유동성이 공급돼야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러려면 무역을 통해 달러가 세계로 빠져나가야 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 미국은 무역적자를 유지할 수밖에 없다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 기축통화의 신뢰도가 떨어지는데 신뢰도 회복을 위해 긴축정책을 펴면 경기 침체로 이어져 역시 기축통화의 신뢰를 떨어뜨리는 딜레마에 빠지게 된다는 이론이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.danbinews.com/news/articleView.html?idxno=14236",
+            "search_query": "트리핀의 딜레마",
+            "terminate": false,
+            "text": "아까 설명 드렸듯이 한 국가의 통화가 기축통화가 되려면 전 세계에서 사용할 수 있는 충분한 유동성 공급이 요구되는데 그 말은 무역이라는 행위를 통해 기축통화인 달러가 세계로 흘러야 한다는 거죠. 그렇기 때문에 미국으로서는 무역에서 적자를 유지할 수밖에 없는 거죠. 하지만 그렇게 되면 기축통화의 신뢰도가 하락하고 다시 신뢰 회복을 위해 긴축정책을 시행하면 경기 침체의 결과가 나와 기축통화 신뢰 하락이라는 원점으로 돌아가게 돼요. 그래서 딜레마에 빠진다라고 말해요.",
+            "turn_id": "BK22003835-5",
+            "utterance_id": "BK22003835.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 미국 달러화는 계속 적자만 내겠네요?",
+            "turn_id": "BK22003835-6",
+            "utterance_id": "BK22003835.11"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "하지만 오늘날 기축 통화인 미 달러화는 무역 적자를 시정하지 않고서도 기축 통화로서의 위치를 공고히 하고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국의 국제 수지 적자 폭이 늘어나는 속도보다 세계 시장에서 달러 수요가 창출되는 속도가 더 빠르기 때문이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/business/article/202207235837b",
+            "search_query": "기축통화 미국 달러 흑자",
+            "terminate": false,
+            "text": "세계 시장에서 달러 수요 창출의 속도가 미국의 국제 수지 적자 폭이 증가하는 속도보다 느리기 때문에 현재 미 달러화는 무역 적자를 시정하지 않고 기축통화로서 위치를 지키고 있어요.",
+            "turn_id": "BK22003835-6",
+            "utterance_id": "BK22003835.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미국이 역시 강국이긴 하네요. 그런데 기축통화에 대한 내용을 다루면서 통화스와프에 대한 이야기도 나오던데 통화스와프에 대해서도 설명해주세요.",
+            "turn_id": "BK22003835-7",
+            "utterance_id": "BK22003835.13"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "통화스와프를 맺은 국가끼리는 환율 등 사전에 정한 기준에 따라 양국 화폐를 교환할 수 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/opinion/article/2022071905201",
+            "search_query": "통화스와프",
+            "terminate": false,
+            "text": "통화스와프는 말 그대로 통화스와프를 맺은 국가 간의 화폐 교환을 의미하는데요, 대신 환율 등 사전에 정한 기준에 따라 진행돼요.",
+            "turn_id": "BK22003835-7",
+            "utterance_id": "BK22003835.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화폐 교환을 한다는 것은 이해되는데, 그 외의 통화스와프 기능이 이해가 안 가더라고요. 다른 기능도 설명해주시겠어요?",
+            "turn_id": "BK22003835-8",
+            "utterance_id": "BK22003835.15"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "통화스와프를 통해 외환시장 내 안정화를 도모할 수 있다는 것에는 이견이 없다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통화스와프는 금융시장 불안에 대비해 양국이 통화를 맞바꿀 수 있도록 하는 협정으로 우리 입장에서는 기축통화인 달러를 빌릴 수 있는 일종의 '마이너스 통장' 역할을 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최근 금융시장 불안정성이 높아지고 있는 가운데 달러 통화스와프를 체결한다면 일종의 '경제위기 안전판' 역할을 하는 것이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5789525",
+            "search_query": "통화스와프 역할",
+            "terminate": false,
+            "text": "통화스와프는 외환시장 안정화와 경제위기 안전판 역할을 해요. 그래서 최근 금융시장에 불안정성이 커지면 도움이 되는 게 사실이죠. 그리고 통화스와프는 금융시장 불안에 대비해 두 국가가 통화를 맞바꿀 수 있게 하는 협정이기 때문에 우리 입장에서 통화스와프는 달러를 빌릴 수 있는 마이너스 통장의 역할도 한답니다.",
+            "turn_id": "BK22003835-8",
+            "utterance_id": "BK22003835.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마이너스 통장이면 미국 측에는 불리한 거 아니에요? 그렇다면 우리나라와 미국 간의 통화스와프는 이뤄지지 않겠네요?",
+            "turn_id": "BK22003835-9",
+            "utterance_id": "BK22003835.17"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "원화가치가 계속 약세를 보이고 자본이탈 우려가 심화되면서 한미 양국이 통화스와프(맞교환)를 재개할 수 있다는 기대감이 커지고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220713/114419747/1",
+            "search_query": "통화스와프 체결",
+            "terminate": false,
+            "text": "그렇지 않아요, 한국과 미국 간 통화스와프의 재개 가능성이 커지고 있어요. 원화 가치가 계속해서 약세를 보여 자본 이탈에 대한 우려가 커지고 있기 때문이에요.",
+            "turn_id": "BK22003835-9",
+            "utterance_id": "BK22003835.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제는 너무 어려운 거 같아요. 항상 일어날 수 있는 일과 그 일이 일어나는 이유가 바뀌니까요.",
+            "turn_id": "BK22003835-10",
+            "utterance_id": "BK22003835.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "공부를 계속하다 보면 이해할 수 있을 거예요. 다음에도 모르는 게 생기면 언제든 연락 주세요.",
+            "turn_id": "BK22003835-10",
+            "utterance_id": "BK22003835.20"
+        }
+    ]
+}

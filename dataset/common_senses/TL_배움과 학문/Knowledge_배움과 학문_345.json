@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013413",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013413",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자동차 운전면허를 따볼까 하는데, 운전면허 1종과 2종의 차이가 뭐야?",
+            "turn_id": "BK22013413-1",
+            "utterance_id": "BK22013413.1"
+        },
+        {
+            "reference_date": "2022-08-02",
+            "reference_text": [
+                {
+                    "value": "자동차의 탑승제한 인원수 또는 사업용 차량의 운전여부에 따라 크게 1종과 2종으로 분류된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1종 운전면허에는 1종 대형, 1종 보통, 1종 특수면허가 있으며 2종 운전면허에는 2종 보통, 2종 소형, 2종 원동기장치자전거면허가 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%9E%90%EB%8F%99%EC%B0%A8_%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88",
+            "search_query": "대한민국의 자동차 운전면허",
+            "terminate": false,
+            "text": "자동차에 탈 수 있는 사람의 수나 사업용 차량을 운전하는지에 따라 1종과 2종으로 나뉘어. 1종 대형, 1종 보통 그리고 1종 특수면허는 1종 운전면허에 해당하고 2종 보통, 2종 소형 그리고 2종 원동기장치자전거 면허는 2종 운전면허에 해당돼.",
+            "turn_id": "BK22013413-1",
+            "utterance_id": "BK22013413.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 사업용 차량을 몰 계획은 없고, 1종 보통이나 2종 보통을 따면 될 것 같아. 좀 더 자세히 알 수 있을까?",
+            "turn_id": "BK22013413-2",
+            "utterance_id": "BK22013413.3"
+        },
+        {
+            "reference_date": "2019-07-13",
+            "reference_text": [
+                {
+                    "value": "1종 면허는 주로 트럭이나 대형 자동차를 운전할 경우, 2종은 보통 일반 승용차를 운전할 경우 필요하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다르게 말하면 1종 면허는 기어가 오토매틱이 아닌 클러치가 있는 수동기어 차량이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1종 면허를 딴 운전자는 승용차를 운전할 수 있지만, 2종 면허를 딴 운전자는 트럭을 몰 수 없다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/236260",
+            "search_query": "운전면허 1종 2종 보통",
+            "terminate": false,
+            "text": "트럭이나 대형 자동차를 몰 경우에는 1종을 따면 되고, 일반 승용차를 운전할 경우에는 2종을 따면 돼. 1종 운전면허로는 자동기어가 아닌 클러치가 있는 수동기어 차량을 운전할 수 있어. 또, 1종 면허 소유자는 승용차를 몰 수 있지만, 2종 면허로 트럭을 운전할 수는 없어.",
+            "turn_id": "BK22013413-2",
+            "utterance_id": "BK22013413.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 자동 기어 차량만 운전할 예정이라, 2종 보통을 따야겠다. 운전면허 취득 순서는 어떻게 되니?",
+            "turn_id": "BK22013413-3",
+            "utterance_id": "BK22013413.5"
+        },
+        {
+            "reference_date": "2017-02-11",
+            "reference_text": [
+                {
+                    "value": "운전면허 취득 절차는 △교통안전 교육 △신체검사 △학과접수 △학과시험 △기능접수 △기능시험 △연습면허발급 △도로주행접수 △도로주행시험 △본 면허발급(합격)으로 이루어진다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학과(필기) 시험에 응시하기 위해서는 반드시 교통안전교육을 이수해야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170211091101761826&ckattempt=1",
+            "search_query": "운전면허 순서 시험",
+            "terminate": false,
+            "text": "운전면허 취득을 위해서는 먼저 교통안전교육을 이수해야 해. 교통안전교육을 마치지 않으면 학과 시험에 응시할 수 없어. 교육을 마치면 신체검사를 한 뒤에 학과 시험을 접수하고 응시할 수 있어. 그 뒤에 기능 시험을 접수하고 시험을 보면 연습면허가 나와. 그 뒤 도로주행 시험을 접수하고 시험을 본 뒤 합격 여부에 따라 면허증이 발급이 돼.",
+            "turn_id": "BK22013413-3",
+            "utterance_id": "BK22013413.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "운전면허 취득을 위한 신체검사에서는 어떤 검사를 하니?",
+            "turn_id": "BK22013413-4",
+            "utterance_id": "BK22013413.7"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "또한 신체검사기준에서는 신호등의 색체를 정확히 구분할 수 있어야 하고, 두 눈을 동시에 뜨고 잰 시력이 제1종 면허에서는 0.8 이상, 제2종 면허에서는 0.5 이상이어야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/202103240953306704e8b8a793f7_1/article.html?md=20210324095916_U",
+            "search_query": "운전면허 신체검사",
+            "terminate": false,
+            "text": "양쪽 눈으로 보는 시력검사를 하는데, 1종 면허를 딸 때는 시력이 0.8 이상, 2종 면허를 딸 때는 0.5 이상이어야 해. 그리고 신호등의 색을 구별할 수 있어야 해.",
+            "turn_id": "BK22013413-4",
+            "utterance_id": "BK22013413.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 시력이 좋아서 다행이다. 학과 시험은 어떻게 준비하면 좋을까?",
+            "turn_id": "BK22013413-5",
+            "utterance_id": "BK22013413.9"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "꿀팁은 '운전면허 모의고사' 앱을 사용하는 것이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "운전면허 학과시험은 문제은행 형식이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "똑같은 문제가 출제될 확률이 높다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/339325",
+            "search_query": "운전면허 학과시험",
+            "terminate": false,
+            "text": "학과시험은 문제은행 방식이기 때문에 같은 문제가 나올 확률이 높아. 운전면허 모의고사 앱이 있으니 활용해봐.",
+            "turn_id": "BK22013413-5",
+            "utterance_id": "BK22013413.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학과시험은 몇 점 이상이어야 합격이야? 만약 불합격하면 어떻게 하니?",
+            "turn_id": "BK22013413-6",
+            "utterance_id": "BK22013413.11"
+        },
+        {
+            "reference_date": "2018-11-21",
+            "reference_text": [
+                {
+                    "value": "1종은 70점 이상, 2종은 60점 이상이면 합격한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 시험에서 떨어졌다면, 불합격 다음날부터 재응시가 가능하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=57738",
+            "search_query": "운전면허 학과 점수",
+            "terminate": false,
+            "text": "1종의 경우 70점, 2종은 60점 이상이어야 합격이야. 학과 시험 합격 점수에 미달했을 경우에는 그 다음날부터 재응시를 할 수 있어.",
+            "turn_id": "BK22013413-6",
+            "utterance_id": "BK22013413.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학과 시험에서 떨어지면 바로 재응시가 불가능하구나. 기능 시험에서는 어떤 항목을 평가하니?",
+            "turn_id": "BK22013413-7",
+            "utterance_id": "BK22013413.13"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "제1종 보통, 제2종 보통 운전면허의 경우 평가항목이 경사로와 직각주차, 2개에서 운전장치 조작, 차로준수 · 급정지, 좌 · 우회전, 신호교차로, 전진(가속구간)이 추가되어 7개로 확대됐다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970511&cid=42114&categoryId=42114",
+            "search_query": "자동차운전면허",
+            "terminate": false,
+            "text": "1종, 2종 보통 운전면허의 경우 이전에는 경사로, 직각 주차 2개 항목만 평가했지만 현재는 운전장치 조작, 차도 준수와 급정지, 좌회전과 우회전, 신호교차로, 가속구간 전진 평가가 더해져서 총 7개 항목을 평가해.",
+            "turn_id": "BK22013413-7",
+            "utterance_id": "BK22013413.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기능시험을 합격하면 도로주행을 나갈 수 있는 거지? 빨리 도로주행을 해보고 싶다.",
+            "turn_id": "BK22013413-8",
+            "utterance_id": "BK22013413.15"
+        },
+        {
+            "reference_date": "2016-09-19",
+            "reference_text": [
+                {
+                    "value": "장내기능시험에 합격하면 연습면허증이 발급된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연습면허증도 면허증이기 때문에 연습면허증 소지자는 일반도로에서 '주행연습'이라는 글자를 쓴 종이를 차에 붙이고 2년 이상 운전을 한 동승자와 함께 운전연습을 할 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002244205",
+            "search_query": "운전면허 연습면허",
+            "terminate": false,
+            "text": "기능 시험을 합격하면 연습면허증이 나와. 연습면허를 가지고 도로주행을 할 때에는 차에 주행연습이라고 써 붙여야 해. 그리고 운전 경력이 2년 이상 있는 동승자와 함께 운전연습을 해야 해.",
+            "turn_id": "BK22013413-8",
+            "utterance_id": "BK22013413.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주의하도록 할게. 기능시험과 도로주행 시험의 응시료는 얼마인지 아니?",
+            "turn_id": "BK22013413-9",
+            "utterance_id": "BK22013413.17"
+        },
+        {
+            "reference_date": "2022-01-14",
+            "reference_text": [
+                {
+                    "value": "하지만 도로교통공단 시험장에서 응시하는 경우 응시료는 겨우 장내기능시험 1만 8500원, 도로주행 2만 5000원이라는 점이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학원이라는 점을 고려하더라도 기본 응시료의 약 2배, 혹은 그 이상 차이가 난다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://snaptime.edaily.co.kr/2019/07/%EC%97%AC%EB%A6%84-%EB%B0%A9%ED%95%99-%EC%84%B1%EC%88%98%EA%B8%B0-%EB%85%B8%EB%A6%B0-%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88%ED%95%99%EC%9B%90%EC%9D%98-%ED%9A%A1%ED%8F%AC-%EC%B5%9C%EA%B3%A0-78%EB%A7%8C/",
+            "search_query": "운전면허 시험 응시료",
+            "terminate": false,
+            "text": "도로교통공단 시험장에서 시험을 보는 경우, 기능 시험은 1만 8500원, 도로주행 시험비는 2만 5000원이야. 학원에서 보는 경우 도로교통공단 시험장보다 2배에서 그 이상까지 차이가 나.",
+            "turn_id": "BK22013413-9",
+            "utterance_id": "BK22013413.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험비가 차이가 날 줄은 몰랐어.",
+            "turn_id": "BK22013413-10",
+            "utterance_id": "BK22013413.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래서 잘 따져보고 선택해야 해. 꼭 운전면허를 취득하기를 바랄게.",
+            "turn_id": "BK22013413-10",
+            "utterance_id": "BK22013413.20"
+        }
+    ]
+}

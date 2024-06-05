@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012938",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012938",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남성들에게 많이 나는 수염은 어떠한 털인지 설명 바랍니다.",
+            "turn_id": "BK22012938-1",
+            "utterance_id": "BK22012938.1"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "수염(facial hair, 鬚髥)은 성숙한 남자의 얼굴 하반부에 나는 털이며, 성인 남성의 제2차 성징이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개인차가 많으나 아래턱, 입 둘레, 코 밑, 하악골의 표면, 살쩍 등에 퍼져 있고, 시대와 풍속에 따라 기르기도 한다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%97%BC",
+            "search_query": "수염",
+            "terminate": false,
+            "text": "성인 남성의 2차 성징인 수염은 성숙한 남성의 얼굴 아래쪽에 나는 털이에요. 사람마다 다르지만 보통 아래턱, 입 둘레, 코 밑 등에 퍼져 있고, 살아가는 시대와 풍속에 따라서 수염을 자르거나 기르기도 합니다.",
+            "turn_id": "BK22012938-1",
+            "utterance_id": "BK22012938.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 콧수염은 어떠한 수염인지 설명해주세요.",
+            "turn_id": "BK22012938-2",
+            "utterance_id": "BK22012938.3"
+        },
+        {
+            "reference_date": "44596.0",
+            "reference_text": [
+                {
+                    "value": "콧수염은 수염 중 윗입술의 바로 위에 자라는 것을 가리킨다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만 콧수염도 물론 자주 뽑게 되면 코의 밑에 형성되어 있는 구멍에 혈액이 사출될 수도 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%A7%EC%88%98%EC%97%BC",
+            "search_query": "콧수염",
+            "terminate": false,
+            "text": "윗입술 바로 위에 있는 수염이 콧수염이에요. 콧수염을 자주 뽑을 경우 코 밑에 있는 구멍에서 피가 날 수 있으니 주의하세요.",
+            "turn_id": "BK22012938-2",
+            "utterance_id": "BK22012938.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "콧수염을 뽑으면 좋지 않군요. 턱수염도 뽑으면 좋지 않겠죠?",
+            "turn_id": "BK22012938-3",
+            "utterance_id": "BK22012938.5"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "턱수염(영어: Beard)은 턱과 뺨에서 나는 수염이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만 턱수염을 핀셋을 이용하여 자주 뽑으면 턱이 벌어지거나 늘어나는 문제점이 생길 수도 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%84%B1%EC%88%98%EC%97%BC",
+            "search_query": "턱수염",
+            "terminate": false,
+            "text": "맞아요, 턱과 뺨에서 나는 턱수염을 핀셋으로 자주 뽑으면 턱이 벌어지거나 늘어나는 부작용이 생길 수 있으니 유의하세요.",
+            "turn_id": "BK22012938-3",
+            "utterance_id": "BK22012938.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 지저분한 수염은 어떻게 제거하나요?",
+            "turn_id": "BK22012938-4",
+            "utterance_id": "BK22012938.7"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "면도(面刀)는 흔히 사용되는 제모의 한 방법으로 얼굴이나 몸에 난 수염이나 잔털을 깎는 것을 말한다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 남성이 턱과 입주변의 수염을 면도기나 면도날을 이용해 깎는 것을 말한다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%B4%EB%8F%84",
+            "search_query": "면도",
+            "terminate": false,
+            "text": "얼굴이나 몸에 자란 수염과 잔털을 제거하기 위해 제모의 한 방법인 면도를 하면 돼요. 턱과 입 주변의 수염을 제거할 때 남성들은 면도기나 면도날을 사용하죠.",
+            "turn_id": "BK22012938-4",
+            "utterance_id": "BK22012938.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 면도기라는 건 어떤 도구인데요?",
+            "turn_id": "BK22012938-5",
+            "utterance_id": "BK22012938.9"
+        },
+        {
+            "reference_date": "44715.0",
+            "reference_text": [
+                {
+                    "value": "면도기(面刀器, 영어: razor)는 주로 얼굴의 잔털과 수염을 제거하는 데 사용하는 도구이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1895년 미국의 킹 질레트는 일회용 안전 면도날을 발명했고, 1928년 미국의 군인 출신 발명가 제이콥 쉬크는 전기면도기에 관한 특허를 취득했다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%B4%EB%8F%84%EA%B8%B0",
+            "search_query": "면도기",
+            "terminate": false,
+            "text": "면도기는 얼굴에 난 수염과 잔털을 제거할 때 사용되어요. 1895년에 미국 출신 킹 질레트가 일회용 안전 면도날을 발명하며 만들어졌죠. 또한, 1928년에는 미국의 군인 출신 제이콥 쉬크라는 발명가가 전기 면도기의 특허를 냈어요.",
+            "turn_id": "BK22012938-5",
+            "utterance_id": "BK22012938.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "면도를 위해 오래전부터 만들어진 물건이군요. 매번 제거하기 귀찮은 이런 털은 정확히 어떤 것인지 알고 있나요?",
+            "turn_id": "BK22012938-6",
+            "utterance_id": "BK22012938.11"
+        },
+        {
+            "reference_date": "44618.0",
+            "reference_text": [
+                {
+                    "value": "털(Hair)은 피부(dermis, skin)의 모낭에서 자라는 단백질 섬유이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "털은 포유류를 결정하는 특징 중의 하나이며, 사람의 경우, 털이 없는 피부 영역을 제외하고는, 경모(terminal hair)와 솜털(연모, vellus hair)을 생성하는 모낭으로 덮여 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%84%B8",
+            "search_query": "털",
+            "terminate": false,
+            "text": "털은 피부 모낭에서 증식되는 단백질 섬유랍니다. 또한, 포유류를 결정짓는 기준이 되기도 하고 사람은 털이 없는 피부 영역을 제외하면 경모, 솜털을 만드는 모낭으로 덮여 있죠.",
+            "turn_id": "BK22012938-6",
+            "utterance_id": "BK22012938.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코에 있는 털은 어떤 털인지 알 수 있을까요?",
+            "turn_id": "BK22012938-7",
+            "utterance_id": "BK22012938.13"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "코털은 코 비강에 자라는 굵거나 짧은 털이다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비모(鼻毛)라고도 한다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "코털의 기능은 코에서 공기를 호흡할 때 이물질이 기관지로 침투하는 것을 막으며 수분을 모으는 기능이 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "코털을 뽑게 되면 호흡에 장애가 오는 등 부작용이 생길 수도 있다.",
+                    "value_time": "44794.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%94%ED%84%B8",
+            "search_query": "코털",
+            "terminate": false,
+            "text": "코 비강에서 굵고 짧은 털이 자라나기도 하는데 이것을 코털 또는 비모라고 불러요. 코털은 공기를 호흡할 때 이물질이 기관지로 들어가는 것을 막아주고 수분을 모으는 기능이 있으므로 호흡 장애 등 부작용을 피하려면 코털을 뽑지 않아야 해요.",
+            "turn_id": "BK22012938-7",
+            "utterance_id": "BK22012938.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코털은 이물질이 침투하는 것을 막는 중요한 역할을 하고 있었네요. 머리에 있는 머리카락도 털이라고 볼 수 있나요?",
+            "turn_id": "BK22012938-8",
+            "utterance_id": "BK22012938.15"
+        },
+        {
+            "reference_date": "44762.0",
+            "reference_text": [
+                {
+                    "value": "머리카락은 사람의 머리에 나는 털, 즉 머리털의 낱개이며, 머리칼 또는 간단히 머리, 또는 두발이라고 말하기도 한다.",
+                    "value_time": "44794.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A8%B8%EB%A6%AC%EC%B9%B4%EB%9D%BD",
+            "search_query": "머리카락",
+            "terminate": false,
+            "text": "그렇죠, 사람의 머리에 나는 털을 머리카락이라고 부르고 머리칼, 머리, 두발 등 다양하게 불리죠. 머리털의 낱개가 머리카락이라고 생각하면 돼요.",
+            "turn_id": "BK22012938-8",
+            "utterance_id": "BK22012938.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람의 몸 중 털이 없는 곳을 찾기가 힘드네요.",
+            "turn_id": "BK22012938-9",
+            "utterance_id": "BK22012938.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸에 있는 털이 보기가 싫다면 왁싱을 해보세요.",
+            "turn_id": "BK22012938-9",
+            "utterance_id": "BK22012938.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왁싱은 아프다고 들었는데 미용을 위해서 한 번 해봐야겠네요.",
+            "turn_id": "BK22012938-10",
+            "utterance_id": "BK22012938.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "하다 보면 익숙해져서 아프지 않을 거예요.",
+            "turn_id": "BK22012938-10",
+            "utterance_id": "BK22012938.20"
+        }
+    ]
+}

@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005860",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005860",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 얼마 전에 일본에 우리가 흔히 생각하는 일본인 말고 원래 살던 거주민들이 있다고 들었는데, 혹시 좀 아는 거 있어?",
+            "turn_id": "BK22005860-1",
+            "utterance_id": "BK22005860.1"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "아이누(러시아어: Айны 아이늬 일본어: アイヌ 아이누, [ʔáinu])는 오늘날의 일본 홋카이도와 혼슈의 도호쿠 지방(東北地方), 러시아의 쿠릴 열도, 사할린섬, 캄차카반도에 정착해 살던 선주민이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누",
+            "terminate": false,
+            "text": "아, 아이누족 말하는 거구나. 아이누라고 현재 일본 홋카이도와 혼슈의 도호쿠 지방, 러시아 쿠릴 열도, 사할린섬, 캄차카반도에 원래부터 정착해 살던 선주민이 있어.",
+            "turn_id": "BK22005860-1",
+            "utterance_id": "BK22005860.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 지금의 일본인들과는 아예 다른 종족이 일본에 먼저 있었던 거야?",
+            "turn_id": "BK22005860-2",
+            "utterance_id": "BK22005860.3"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "일본의 주를 이루는 야마토 민족과는 다른 북방계의 민족으로, 역사적으로 개별적인 부족 국가 형태를 지녀왔으며, 독자적 고립어인 아이누어를 사용하였다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 민족",
+            "terminate": false,
+            "text": "응, 야마토 민족이라고 일본의 주를 이르는 민족과 달리 북방계 민족인데 역사적으로도 개별적인 부족 국가 형태로 지내왔고, 아이누어라는 독자적인 고립어를 가지고 있지.",
+            "turn_id": "BK22005860-2",
+            "utterance_id": "BK22005860.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 신기하다, 언어까지 따로 있다니 정말 완전 다른 종족이구나. 지금도 그럼 아이누어를 일본어에서 쓰는 사람이 있나?",
+            "turn_id": "BK22005860-3",
+            "utterance_id": "BK22005860.5"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "일본 내 아이누족은 대부분 일본에 동화되어 일본어를 쓰지만, 홋카이도에 살고 있는 고령자들 중 일부는 여전히 아이누어를 사용하고 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 일본어",
+            "terminate": false,
+            "text": "일단 일본에 있는 아이누족의 대다수는 동화되어 일본어를 쓰고 있어. 하지만 홋카이도에 사는 나이 많은 일부 아이누족은 아이누어를 아직도 사용하고 있지.",
+            "turn_id": "BK22005860-3",
+            "utterance_id": "BK22005860.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 이런 아이누족이 아직도 많이 일본에 남아 았어?",
+            "turn_id": "BK22005860-4",
+            "utterance_id": "BK22005860.7"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "현재, 공식적으로 인정된 일본 내의 아이누족은 약 2만 5천 명이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 숫자",
+            "terminate": false,
+            "text": "현재는 2만 5천명 정도로 공식적으로 일본 안에 있다고 인정되고 있어. 그렇게 많지는 않지.",
+            "turn_id": "BK22005860-4",
+            "utterance_id": "BK22005860.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 어떻게 살고 있는지 궁금하네. 종교 같은 것도 혹시 따로 있나?",
+            "turn_id": "BK22005860-5",
+            "utterance_id": "BK22005860.9"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "종교로는 샤머니즘이 대다수이고, 러시아에는 러시아 정교회로 개종한 아이누족도 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 종교",
+            "terminate": false,
+            "text": "러시아 쪽 아이누들은 러시아 정교회로 개종한 경우도 있는데 대부분은 샤머니즘을 믿지.",
+            "turn_id": "BK22005860-5",
+            "utterance_id": "BK22005860.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 샤머니즘을 믿는구나, 아 근데 이 아이누라는 건 무슨 뜻이야? 일본어는 아닐 거 아니야.",
+            "turn_id": "BK22005860-6",
+            "utterance_id": "BK22005860.11"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "'아이누'는 신성한 존재인 '카무이'와 대비되는 '인간'이라는 의미의 홋카이도 지방의 아이누어에서 비롯되었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 인간",
+            "terminate": false,
+            "text": "응, 훗카이도 지방의 아이누어에서 나온 말인데 인간이라는 뜻이지. 카무이라고 해서 신성한 존재를 뜻하는 단어와 대비적인 의미로 쓰이는 말이야.",
+            "turn_id": "BK22005860-6",
+            "utterance_id": "BK22005860.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간이라는 뜻이었구나, 혹시 일본어로도 따로 부르는 명칭이 있으려나?",
+            "turn_id": "BK22005860-7",
+            "utterance_id": "BK22005860.13"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "일본어로는 '에미시', '에조(蝦夷)'로 불리는데, 이는 사할린 아이누의 '인간'을 뜻하는 '엔츄' 또는 '엔주'에서 비롯된 것으로 추측되기도 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 일본어",
+            "terminate": false,
+            "text": "응, 에미시나 에조라고 부르지. 사실 이 단어는 사할린 쪽 아이누의 인간을 뜻하는 단어 엔츄나 엔주에서 나온 거라고 추측하기도 해.",
+            "turn_id": "BK22005860-7",
+            "utterance_id": "BK22005860.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 다 오늘 처음 들어보는 얘기라 너무 신기해. 현재에는 거의 아이누라는 정체성을 가지고 살아가는 사람들이 적은가 보지?",
+            "turn_id": "BK22005860-8",
+            "utterance_id": "BK22005860.15"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "현대에 들어 아이누의 민족적 정체성과 언어를 부흥시키는 운동이 행하여지기도 하나, 2007년 기준 아이누어의 모어 화자 수가 10명까지 떨어진 것으로 조사되는 등 그 정체성이 거의 소멸에 임박해 있다고 분석된다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%88%84",
+            "search_query": "아이누 정체성",
+            "terminate": false,
+            "text": "그렇지, 2007년 기준으로 아이누어를 모어로 쓰는 화자 수가 10명까지 떨어졌다고 조사되기도 했어. 현대에 와서 그 정체성과 언어를 부흥하자는 운동이 행해지기는 했지만 거의 소멸단계라고 분석할 수 있어.",
+            "turn_id": "BK22005860-8",
+            "utterance_id": "BK22005860.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 들으니까 안타깝기도 하고 그렇네, 소멸해가는 민족이라니 말이야.",
+            "turn_id": "BK22005860-9",
+            "utterance_id": "BK22005860.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그랬지. 그나저나 너 돌아가는 차 시간 다 된 거 아니야?",
+            "turn_id": "BK22005860-9",
+            "utterance_id": "BK22005860.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아, 더 이야기하고 싶은데 벌써 이렇게 됐네. 나 먼저 그럼 가볼게, 안녕!",
+            "turn_id": "BK22005860-10",
+            "utterance_id": "BK22005860.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 다음에 또 보자고, 안녕.",
+            "turn_id": "BK22005860-10",
+            "utterance_id": "BK22005860.20"
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008901",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008901",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 도심에서 야생 너구리가 많다던데 혹시 너구리에 대해 잘 아시나요?",
+            "turn_id": "BK22008901-1",
+            "utterance_id": "BK22008901.1"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "너구리(영어: raccoon dog 라쿤독[*], 일본어: 狸タヌキ 다누키[*], 에벤크어: mangut 망구트[2])는 동아시아에 자생하는 개과 너구리속에 속하는 포유동물이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "학명은 니크테레우테스 프로키오노이데스(학명: Nyctereutes procyonoides).",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%84%88%EA%B5%AC%EB%A6%AC",
+            "search_query": "너구리 개과",
+            "terminate": false,
+            "text": "네, 너구리는 개과 너구리 속에 속하는 포유동물로 동아시아에 자생하죠. 학명은 Nyctereutes procyonoides이고요.",
+            "turn_id": "BK22008901-1",
+            "utterance_id": "BK22008901.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개과 너구리 속에 속하는군요. 그럼 학명의 뜻은 뭔지 아시나요?",
+            "turn_id": "BK22008901-2",
+            "utterance_id": "BK22008901.3"
+        },
+        {
+            "reference_date": "2017-07-29",
+            "reference_text": [
+                {
+                    "value": "너구리의 학명(Nyctereutes procyonoides)에서 ‘Nukt-’는 밤을 뜻하고 ‘ereutes’는 방랑자를 뜻합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종명의 ‘pro’는 ‘작은’을 뜻하며 ‘cyon’은 개를 지칭하는 말이니 결국 너구리의 학명은 ‘밤에 돌아다니는 작은 개’라는 의미가 됩니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201707290469144329",
+            "search_query": "너구리",
+            "terminate": false,
+            "text": "그럼요, Nyctereutes procyonoides에서 Nukt는 밤, ereutes는 방랑자를 의미하고, pro는 작은, cyon는 개를 지칭해요. 곧 밤에 돌아다니는 작은 개라는 뜻이죠.",
+            "turn_id": "BK22008901-2",
+            "utterance_id": "BK22008901.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 뜻이 있었군요, 그런데 너구리는 라쿤과 굉장히 생김새가 유사한데 같은 종인지 궁금해요.",
+            "turn_id": "BK22008901-3",
+            "utterance_id": "BK22008901.5"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "아메리카너구리(라쿤)와 비슷하게 생겼지만 계통적으로는 서로 멀다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어의 너구리 이름 라쿤독(raccoon dog)은 \"라쿤개\"라는 뜻으로, 북미 지역에 서식하는 라쿤과 겉보기에 비슷해서 붙은 이름이지만 라쿤과 너구리는 유전적으로 별로 가깝지 않다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "너구리속의 동물 중 현재까지 생존하고 있는 유일한 종이며, 가장 가까운 동물은 여우다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%84%88%EA%B5%AC%EB%A6%AC",
+            "search_query": "너구리 라쿤",
+            "terminate": false,
+            "text": "라쿤과 너구리는 계통적으로 멀어요. 너구리의 영어 이름은 라쿤 독이라고 지어졌지만, 사실 라쿤과 유전적으로 달라요. 현재 너구리 속의 동물 중 가장 가까운 동물은 여우에요.",
+            "turn_id": "BK22008901-3",
+            "utterance_id": "BK22008901.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "라쿤과 가까운 계통이 아니고, 여유와 가까웠군요. 너구리의 크기와 체중은 어느 정도인지 아시나요?",
+            "turn_id": "BK22008901-4",
+            "utterance_id": "BK22008901.7"
+        },
+        {
+            "reference_date": "2017-07-29",
+            "reference_text": [
+                {
+                    "value": "총 길이는 45~71㎝ 정도이며, 몸체의 3분의 1에 못 미치는 12~18㎝ 정도인 꼬리는 뒷발의 발목관절 정도까지 내려오며 땅에 끌지는 못합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체중은 계절에 따라 변화가 심한데 3월에는 3㎏ 정도였는데 8~9월에는 수컷의 경우 6.5~7㎏에 이르기도 합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201707290469144329",
+            "search_query": "너구리 크기",
+            "terminate": false,
+            "text": "네, 너구리의 총길이는 45센티미터에서 71센티미터 정도예요. 꼬리의 길이는 몸체의 3분의 1에 못 미치는 12센티미터에서 18센티미터에 정도로 뒷발의 발목관절 정도까지 내려와요. 체중은 계절에 따라 다르지만, 3월에는 3킬로그램 정도이고, 8월과 9월 수컷의 무게는 6.5킬로그램에서 7킬로그램까지 나가요.",
+            "turn_id": "BK22008901-4",
+            "utterance_id": "BK22008901.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 너구리가 크네요, 너구리의 털도 예전에 유명했던 걸로 알고 있는데 털이 따뜻한가요?",
+            "turn_id": "BK22008901-5",
+            "utterance_id": "BK22008901.9"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "겨울털은 길고 두텁다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "속털이 빽빽하게 나고, 성긴 겉털은 길이가 120 mm 정도다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 겨울털 덕에 너구리는 영하 20-25 °C의 저온을 견딜 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%84%88%EA%B5%AC%EB%A6%AC",
+            "search_query": "너구리 털",
+            "terminate": false,
+            "text": "네, 너구리의 겨울 털은 길고 두텁기도 하고, 빽빽하게 난 속 털과 성긴 겉 털의 길이가 120밀리미터 정도거든요. 겨울털 덕분에 영하 20도에서 25도에서도 견딜 수 있어요.",
+            "turn_id": "BK22008901-5",
+            "utterance_id": "BK22008901.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영하 25도까지도 견딜 정도라니, 너구리 털이 유명했던 이유를 알겠어요. 그럼 너구리는 뭘 먹고 사나요?",
+            "turn_id": "BK22008901-6",
+            "utterance_id": "BK22008901.11"
+        },
+        {
+            "reference_date": "2017-07-29",
+            "reference_text": [
+                {
+                    "value": "너구리는 곤충부터, 설치류, 식충류, 양서파충류와 조류, 어류, 갑각류와 사체 등까지 먹는 잡식성이지요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기회가 닥치는 대로 아무 것이나 잘 먹는다는 뜻에서 ‘기회적 일반섭식종’이라고도 합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201707290469144329",
+            "search_query": "너구리 잡식성",
+            "terminate": false,
+            "text": "너구리는 잡식성으로 곤충부터 설치류, 식충류, 양서 파충류와 조류, 어류, 갑각류와 사체 등까지 먹어요. 기회가 있는 대로 아무것이나 먹는다는 뜻으로 기회적 일반 섭식 종이라고도 해요.",
+            "turn_id": "BK22008901-6",
+            "utterance_id": "BK22008901.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잡식성이었군요, 너구리도 짖을 수 있는지도 궁금해요. 한 번도 너구리 소리를 들어본 적이 없거든요.",
+            "turn_id": "BK22008901-7",
+            "utterance_id": "BK22008901.13"
+        },
+        {
+            "reference_date": "2017-07-29",
+            "reference_text": [
+                {
+                    "value": "다양한 소리를 내기는 하지만 매우 특징적인 소리는 없습니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대신 끙끙대는 신음소리 같은 소리를 내지요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 공격하거나 방어를 할 때는 매우 날카로운 “꺅-“하는 괴성을 지르기도 합니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201707290469144329",
+            "search_query": "너구리 짖음",
+            "terminate": false,
+            "text": "너구리는 다양한 소리를 내지만, 특징적인 소리는 없어요. 끙끙대는 신음 소리 혹은 공격이나 방어 시 매우 날카로운 괴성을 지르기도 해요.",
+            "turn_id": "BK22008901-7",
+            "utterance_id": "BK22008901.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인터넷 동영상으로 너구리 소리를 들어봐야겠어요. 너구리가 질병을 발생하기도 한다던데 사실인가요?",
+            "turn_id": "BK22008901-8",
+            "utterance_id": "BK22008901.15"
+        },
+        {
+            "reference_date": "2022-05-12",
+            "reference_text": [
+                {
+                    "value": "너구리는 32종의 기생충의 숙주다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "너구리가 유럽으로 유입되면서 너구리에 기생하는 진드기들이 퍼뜨리는 진드기매개뇌염 바이러스도 함께 들어왔다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "볼가강 하류, 보로네즈, 리투아니아에서는 너구리가 광견병을 옮긴 사례가 있으며, 우크라이나와 타타르스탄에서는 바베시아열원충증이 너구리들 사이에 대규모 발병하기도 했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%84%88%EA%B5%AC%EB%A6%AC",
+            "search_query": "너구리 질병",
+            "terminate": false,
+            "text": "네, 너구리는 32종 기생충의 숙주이기도 하고, 너구리가 유럽으로 유입되며 너구리에 기생하는 진드기들이 퍼뜨리는 진드기 매개 뇌염 바이러스도 들어왔어요. 또 볼가강 하류, 보로네즈, 리투아니아에서는 너구리가 광견병을 옮겼고, 우크라이나와 타타르스탄에서는 너구리들 사이에 바베시아열원충증이 대규모로 발생했던 사례가 있죠.",
+            "turn_id": "BK22008901-8",
+            "utterance_id": "BK22008901.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 도심에서 너구리를 보면 도망가는 편이 좋겠어요.",
+            "turn_id": "BK22008901-9",
+            "utterance_id": "BK22008901.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그래서 밤 산책을 갈 때 잘 살피며 걷고 있어요.",
+            "turn_id": "BK22008901-9",
+            "utterance_id": "BK22008901.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 주셔서 너무 감사해요.",
+            "turn_id": "BK22008901-10",
+            "utterance_id": "BK22008901.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 다음에 또 대화 나눠요.",
+            "turn_id": "BK22008901-10",
+            "utterance_id": "BK22008901.20"
+        }
+    ]
+}

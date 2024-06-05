@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012959",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012959",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 궁금해졌는데 사람들은 왜 숨을 쉬고 있나요?",
+            "turn_id": "BK22012959-1",
+            "utterance_id": "BK22012959.1"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "호흡(呼吸)은 일반적으로 활물이 체내에 산소를 받아들이고 이산화탄소를 배출하는 생명 활동이다.[2]",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%ED%9D%A1",
+            "search_query": "호흡",
+            "terminate": false,
+            "text": "생명 활동을 하기 위해서 숨을 쉬는 것이에요. 활물이 체내에 산소를 들이고 이산화탄소를 내보내는 과정이에요.",
+            "turn_id": "BK22012959-1",
+            "utterance_id": "BK22012959.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산소를 공급받지 못하면 문제가 되나요?",
+            "turn_id": "BK22012959-2",
+            "utterance_id": "BK22012959.3"
+        },
+        {
+            "reference_date": "44361.0",
+            "reference_text": [
+                {
+                    "value": "산소 부족을 알리는 대표적인 신호는 두통이다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만성 피로와 무기력증도 체내 산소가 부족하다는 사인이다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24072078#home",
+            "search_query": "산소 부족",
+            "terminate": false,
+            "text": "네, 산소가 부족하면 두통이 찾아와요. 또한 체내 산소가 부족하면 만성 피로와 무기력증을 겪게 돼요.",
+            "turn_id": "BK22012959-2",
+            "utterance_id": "BK22012959.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 숨을 쉬더라도 주변 환경이 산소가 부족한 곳이라면 악영향이 있겠네요?",
+            "turn_id": "BK22012959-3",
+            "utterance_id": "BK22012959.5"
+        },
+        {
+            "reference_date": "44600.0",
+            "reference_text": [
+                {
+                    "value": "건강한 사람이라 할지라도 높은 곳으로 올라갈 때 전신에 저산소증을 경험할 수 있는데, 이는 고산병으로 이어져 심각한 합병증으로 이어질 가능성이 있다",
+                    "value_time": "44811.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%80%EC%82%B0%EC%86%8C%EC%A6%9D",
+            "search_query": "저산소증",
+            "terminate": false,
+            "text": "맞아요, 높은 지대에 올라갈 때 건강한 사람도 저산소증을 경험하는데 이는 고산병으로 이어져 합병증을 유발해요.",
+            "turn_id": "BK22012959-3",
+            "utterance_id": "BK22012959.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고산병은 어떤 질병을 말하는 건가요?",
+            "turn_id": "BK22012959-4",
+            "utterance_id": "BK22012959.7"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "고산병(高山病, altitude sickness)이란 높은 지대에서 저산소 상태에 노출되었을 때에 발생하는 환경 증후군을 말한다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주요 증상으로서는 호흡 곤란, 두통, 현기증, 식욕 부진, 탈진 등이 있다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%82%B0%EB%B3%91",
+            "search_query": "고산병",
+            "terminate": false,
+            "text": "높은 지대의 저산소 상태에 노출되어 호흡 곤란, 두통, 현기증, 식욕 부진, 탈진 등 다양한 환경 증후군이 발생하는 것을 고산병이라고 해요.",
+            "turn_id": "BK22012959-4",
+            "utterance_id": "BK22012959.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산소 부족이 원인이니까 숨을 깊이 들이마시는게 도움이 될까요?",
+            "turn_id": "BK22012959-5",
+            "utterance_id": "BK22012959.9"
+        },
+        {
+            "reference_date": "44601.0",
+            "reference_text": [
+                {
+                    "value": "심호흡(深呼吸)은 의식적으로 허파 속에 공기가 많이 드나들도록 숨 쉬는 호흡의 방법이다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%ED%98%B8%ED%9D%A1",
+            "search_query": "심호흡",
+            "terminate": false,
+            "text": "네, 심호흡을 하면 돼요. 심호흡은 의식적으로 허파 속에 공기를 많이 들여오고 내보내는 호흡 방법이에요.",
+            "turn_id": "BK22012959-5",
+            "utterance_id": "BK22012959.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "등산하다가 고산병 징후가 보이면 심호흡을 해봐야겠네요. 이렇게 산소는 지구에서 호흡할 때 중요한 역할을 하고 있는데 다른 기능도 있는지 궁금해요.",
+            "turn_id": "BK22012959-6",
+            "utterance_id": "BK22012959.11"
+        },
+        {
+            "reference_date": "44710.0",
+            "reference_text": [
+                {
+                    "value": "산소 원자는 그 후 부서지지 않은 산소 분자와 결합하여 오존을 발생시킨다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오존층(ozone layer)은 지구, 화성, 금성 따위의 행성 대기권에서 관찰되는 공기층[1]으로 상대적으로 높은 함량의 오존을 포함한다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구에서, 이 공기층은 단파 자외선을 흡수하는 성질이 있어 실질적으로 지표에 도달하는 자외선량이 급감하여, 그 결과 육상생물이 출현하는 계기가 되었다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%A1%B4%EC%B8%B5",
+            "search_query": "오존층",
+            "terminate": false,
+            "text": "산소 원자는 산소 분자와 결합해서 오존을 발생시키는데 이는 곧 높은 함량의 오존을 포함한 공기층, 즉 오존층을 만들어요. 지구 행성 대기권에 있는 오존층은 단파 자외선을 흡수하고 지표에 도달하는 자외선량을 급격하게 감소시켜요. 이는, 우리와 같은 육상생물이 출현하는 계기가 되었지요.",
+            "turn_id": "BK22012959-6",
+            "utterance_id": "BK22012959.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 육지에서 살아갈 수 있게 큰 역할을 해주었군요. 그럼 산소는 어떻게 만들어지는 건가요?",
+            "turn_id": "BK22012959-7",
+            "utterance_id": "BK22012959.13"
+        },
+        {
+            "reference_date": "44784.0",
+            "reference_text": [
+                {
+                    "value": "광합성은 지구 대기 중의 산소를 생산하고 유지하는데 큰 역할을 하며, 지구상의 생명체에게 필요한 유기 화합물과 대부분의 에너지를 공급한다.[4]",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%A9%EC%84%B1",
+            "search_query": "광합성",
+            "terminate": false,
+            "text": "광합성은 대기 중에 산소를 생산하고 유지하는 일을 해요. 뿐만 아니라 지구에 사는 생명체는 필요한 유기 화합물과 에너지 대다수를 광합성을 통해 공급받죠.",
+            "turn_id": "BK22012959-7",
+            "utterance_id": "BK22012959.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 여태 말씀해주신 것들을 정리해보자면 산소는 많으면 많을수록 좋다는 것이죠?",
+            "turn_id": "BK22012959-8",
+            "utterance_id": "BK22012959.15"
+        },
+        {
+            "reference_date": "44625.0",
+            "reference_text": [
+                {
+                    "value": "산소 중독(酸素中毒, oxygen toxicity)은 고도의 분압에서 분자 산소 (O 2)를 장기간 들이킬 때 악영향을 미치는 증상이다.",
+                    "value_time": "44811.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0%EC%86%8C_%EC%A4%91%EB%8F%85",
+            "search_query": "산소 중독",
+            "terminate": false,
+            "text": "아니에요, 예외의 경우도 있답니다. 고압에서 산소 분자를 오랜 시간 들이키면 산소 중독 증상이 나타나 신체에 악영향을 끼치게 됩니다.",
+            "turn_id": "BK22012959-8",
+            "utterance_id": "BK22012959.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산소 농도가 높은 공기를 공급받는 잠수부들이 산소 중독 현상에 노출되기 쉽겠어요.",
+            "turn_id": "BK22012959-9",
+            "utterance_id": "BK22012959.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 그래서 몸에 쌓인 산소를 빼줘야 해요.",
+            "turn_id": "BK22012959-9",
+            "utterance_id": "BK22012959.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠수부들이 충분한 휴식을 취할 수 있는 방안을 마련해야겠네요.",
+            "turn_id": "BK22012959-10",
+            "utterance_id": "BK22012959.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 추가로 특별 교육 시행으로 부적합한 산소 농도를 사용하지 않도록 조처를 해야겠죠.",
+            "turn_id": "BK22012959-10",
+            "utterance_id": "BK22012959.20"
+        }
+    ]
+}

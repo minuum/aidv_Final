@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014047",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014047",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "TV에서 장항습지에 대한 다큐멘터리를 봤는데, 우리나라에 그런 곳이 있는 줄 몰랐어요.",
+            "turn_id": "BK22014047-1",
+            "utterance_id": "BK22014047.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 아름다운 자연 생태를 보셨군요.",
+            "turn_id": "BK22014047-1",
+            "utterance_id": "BK22014047.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 너무 좋았어요. 그런데 장항습지를 찾아보니 장항습지가 람사르 습지라던데, 람사르 습지라는 게 뭔가요?",
+            "turn_id": "BK22014047-2",
+            "utterance_id": "BK22014047.3"
+        },
+        {
+            "reference_date": "44379.0",
+            "reference_text": [
+                {
+                    "value": "람사르 습지는 1971년 이란의 카스피해 연안도시인 람사르에서 채택된 협약에 근거하여 지정되는 습지이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "람사르 협약은 습지의 보전 및 현명한 이용을 위한 국제협약이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리나라는 조금 뒤늦은 1997년 세계에서 101번째로 가입하였다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/column/article/202107020300055#c2b",
+            "search_query": "람사르 습지란",
+            "terminate": false,
+            "text": "우선 람사르라는 건 이란의 카스피해 연안에 있는 도시의 이름이에요. 1971년 이곳에서 습지의 보전과 현명한 자원 이용을 촉구하는 국제협약이 맺어졌죠. 그 협약을 람사르 협약이라고 하는데요, 람사르 습지란 바로 이 람사르 협약에 근거하여 지정된 습지를 말하는 거예요. 우리나라는 101번째 가입국으로, 1997년에 다소 늦은 가입을 했죠.",
+            "turn_id": "BK22014047-2",
+            "utterance_id": "BK22014047.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "습지라는 게 그런 협약으로 보전해야 할 만큼의 가치가 있나요?",
+            "turn_id": "BK22014047-3",
+            "utterance_id": "BK22014047.5"
+        },
+        {
+            "reference_date": "44826.0",
+            "reference_text": [
+                {
+                    "value": "습지는 세계에서 가장 생산적인 자연환경 중 하나이다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "습지는 생물 다양성의 요람이며, 수많은 동식물 종들의 생존에 필요한 물과 일차적인 생산성을 제공한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "습지는 수많은 조류, 포유류, 파충류, 양서류, 어류 그리고 무척추동물 종의 집단을 지원한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 습지는 식물 유전물질의 중요한 보고이다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jemin.com/news/articleView.html?idxno=743623",
+            "search_query": "습지의 가치",
+            "terminate": false,
+            "text": "그럼요. 습지는 지구상에서 가장 큰 생산성을 가진 자연환경 중 하나예요. 습지는 생물다양성의 보고로서 수없이 많은 동식물의 생존에 필수적인 물을 비롯한 일차적인 자원 생산을 담당하고 있죠. 다양한 종의 조류, 포유류, 어류, 파충류, 양서류 및 무척추동물의 집단 서식을 지원할 뿐만 아니라 식물 유전물질의 중요한 산실이기도 하죠.",
+            "turn_id": "BK22014047-3",
+            "utterance_id": "BK22014047.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "습지가 그렇게 중요한 자연환경인 줄은 전혀 몰랐어요. 그런데 협약까지 맺어 보호해야 한다는 건, 세계적으로 습지가 심각하게 훼손되고 있기 때문이겠죠?",
+            "turn_id": "BK22014047-4",
+            "utterance_id": "BK22014047.7"
+        },
+        {
+            "reference_date": "44595.0",
+            "reference_text": [
+                {
+                    "value": "람사르협약 보고서(2018)에 따르면 1970년부터 2015년까지 전 세계 습지의 35%가 소실됐다고 한다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 습지의 소실은 생물다양성 감소도 가져와 전 세계 생물종의 4분의 1 이상이 멸종위기에 처해 있다고 한다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202202031845115369",
+            "search_query": "습지 소실",
+            "terminate": false,
+            "text": "네, 맞아요. 안타깝게도 2018년 람사르협약 보고서에 의하면 1970년부터 2015에 걸쳐 전 세계 습지의 35%가 소실되었어요. 이에 연쇄적으로 생물다양성 또한 감소되어 전 세계적으로 4분의 1이 넘는 생물종이 멸종위기에 처하게 됐죠.",
+            "turn_id": "BK22014047-4",
+            "utterance_id": "BK22014047.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 그렇게 습지가 점점 사라져가는 이유는 뭔가요?",
+            "turn_id": "BK22014047-5",
+            "utterance_id": "BK22014047.9"
+        },
+        {
+            "reference_date": "40939.0",
+            "reference_text": [
+                {
+                    "value": "아쉽게도 인간의 활동이 습지가 사라지는 중요한 이유인데 농경지, 산업 및 주거용으로 용도를 전환하거나, 환경오염, 폐기물 매립, 채광, 지하수 추출 등이 그 예다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ecomedia.co.kr/news/newsview.php?ncode=179507173064504",
+            "search_query": "습지 사라지는 이유",
+            "terminate": false,
+            "text": "습지 소실의 주요 원인은 바로 인간의 활동이에요. 농경지나 산업 및 주거 목적의 습지 개발, 환경 오염, 채광이나 지하수 추출 등이 습지가 점차 사라져가는 원인이죠.",
+            "turn_id": "BK22014047-5",
+            "utterance_id": "BK22014047.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 결국 사람이 원인이라니 너무 속상하네요. 우리나라에 남아있는 습지들도 앞으로 보전이 잘 되었으면 하는 바람이에요. 우리나라에 어떤 람사르 습지가 있는지 몇 군데 소개해 주시겠어요?",
+            "turn_id": "BK22014047-6",
+            "utterance_id": "BK22014047.11"
+        },
+        {
+            "reference_date": "43249.0",
+            "reference_text": [
+                {
+                    "value": "경남 창녕 우포늪은 국내 최대 자연 내륙 습지다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "축구장 210개와 맞먹는 습지에 1000종이 넘는 생명체가 산다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 가치를 인정받아 1998년 3월 2일 람사르협약 보존 습지로 등록됐고, 유네스코 세계자연유산 잠정 목록에도 등재됐다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/22664298#home",
+            "search_query": "우리나라 람사르 습지",
+            "terminate": false,
+            "text": "경남 창녕의 우포늪을 먼저 소개해 드릴게요. 우포늪은 우리나라에서 제일 큰 자연 내륙 습지인데요, 축구장 210개의 면적과 맞먹는 규모의 습지에 1000여 종 이상의 생명체가 서식하는 곳이에요. 1998년 3월 2일 그 생태적 가치를 인정받아 람사르 습지로 지정되었죠. 그뿐만 아니라 우포늪은 유네스코 세계 자연유산 잠정목록에도 등록되어 있어요.",
+            "turn_id": "BK22014047-6",
+            "utterance_id": "BK22014047.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에 그렇게 큰 규모의 습지가 있다니 반갑네요. 또 어떤 람사르 습지가 있나요?",
+            "turn_id": "BK22014047-7",
+            "utterance_id": "BK22014047.13"
+        },
+        {
+            "reference_date": "43249.0",
+            "reference_text": [
+                {
+                    "value": "강원도 인제군 대암산(1304m) 정상부에 자리 잡은 용늪은 국내에서 유일한 고층습원(식물 군락이 발달한 산 위의 습지)이다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 가치를 인정받아 97년 한국 최초 람사르협약 습지로 등록됐다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/22664298#home",
+            "search_query": "우리나라 람사르 습지",
+            "terminate": false,
+            "text": "그다음으로는 용늪이 있는데요, 용늪은 강원도 인제군에 위치한 대암산 정상에 있어요. 우리나라 유일의 고충 습원으로, 1997년 대한민국 최초로 등록된 람사르 습지예요.",
+            "turn_id": "BK22014047-7",
+            "utterance_id": "BK22014047.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산 정상에 있다지만 언젠가 꼭 한번 보러 가고 싶네요. 마지막으로 한 군데만 더 소개해 주시겠어요?",
+            "turn_id": "BK22014047-8",
+            "utterance_id": "BK22014047.15"
+        },
+        {
+            "reference_date": "44620.0",
+            "reference_text": [
+                {
+                    "value": "장항습지는 지난해 5월 람사르 습지로 지정되면서 생태적 가치를 국제적으로 인정받은 곳이다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고양시 신평동·장항동·법곳동 등 한강하구 강변 7.6km 구간의 도심 속 습지다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바닷물과 강물이 만나는 기수역(汽水域) 구간이어서 다채로운 생태를 보여준다.",
+                    "value_time": "44826.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25051732",
+            "search_query": "람사르 장항습지",
+            "terminate": false,
+            "text": "마지막으로 소개해 드릴 곳은 바로 장항습지예요. 장항습지는 세계적으로 생태적 가치를 인정 받아 바로 작년 5월에 람사르 습지로 지정되었죠. 장항습지는 고양시의 신평동, 장항동, 법곳동 등에 걸쳐 한강하구 강변을 따라 7.6km 길이로 위치한 도심 내 습지예요. 바다와 강이 맞닿는 구간인 기수역으로서 다채로운 생태계를 관찰할 수 있어요.",
+            "turn_id": "BK22014047-8",
+            "utterance_id": "BK22014047.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도심 속에 있다니 접근성이 너무 좋은데요, 장항습지를 탐방할 수 있는 방법이 있을까요?",
+            "turn_id": "BK22014047-9",
+            "utterance_id": "BK22014047.17"
+        },
+        {
+            "reference_date": "44622.0",
+            "reference_text": [
+                {
+                    "value": "경기 고양시(시장 이재준)가 생태 탐방 프로그램 '장항습지 순찰로 탐방, 생명의 길을 걷다'를 내달 8일부터 운영한다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탐조대에서는 장항습지의 우수한 경관을 한눈에 볼 수 있고 운이 좋으면 멸종위기종인 재두루미 등 겨울 철새를 만날 수 있다.",
+                    "value_time": "44826.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.waterjournal.co.kr/news/articleView.html?idxno=60694",
+            "search_query": "장항습지 탐방",
+            "terminate": false,
+            "text": "네, 고양시에서는 올해 4월 8일부터 장항습지 순찰로 탐방, 생명의 길을 걷다라는 생태 탐방 프로그램을 실시하고 있어요. 탐조대를 통해 장항습지의 아름다운 모습을 조망할 수 있고, 운이 아주 좋다면 멸종위기종인 재두루미 같은 겨울 철새들을 볼 수도 있어요.",
+            "turn_id": "BK22014047-9",
+            "utterance_id": "BK22014047.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 이렇게 습지에 대해 중요하고 좋은 설명 해주셔서 감사해요.",
+            "turn_id": "BK22014047-10",
+            "utterance_id": "BK22014047.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저 또한 습지의 소중함에 대해 설명할 수 있는 뜻깊은 시간이었어요. 습지에 대해 또 알고 싶은 게 있다면 언제든 찾아와 주세요.",
+            "turn_id": "BK22014047-10",
+            "utterance_id": "BK22014047.20"
+        }
+    ]
+}

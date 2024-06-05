@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012969",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012969",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스마트폰에 들어가는 전지는 어떤 기기인지 궁금해요.",
+            "turn_id": "BK22012969-1",
+            "utterance_id": "BK22012969.1"
+        },
+        {
+            "reference_date": "44623.0",
+            "reference_text": [
+                {
+                    "value": "전지(電池, 영어: Battery)는 손전등, 스마트폰 및 전기자동차와 같은 전기 장치에 전원을 공급하기 위해 화학적 에너지를 전기로 변환하여 저장하고, 직류 전력을 생산하는, 한 개 이상의 셀로 이루어진 기기((機器/器機)이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A7%80",
+            "search_query": "전지",
+            "terminate": false,
+            "text": "스마트폰, 손전등, 전기자동차 등 전기 장치에 전원을 공급할 때 사용되는 한 개 이상의 셀로 구성된 기기에요. 화학적 에너지를 전기로 변환해서 저장하고 직류 전력을 생산하는 것이에요.",
+            "turn_id": "BK22012969-1",
+            "utterance_id": "BK22012969.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전지는 스스로 방전도 하나요? 핸드폰을 사용 안 해도 배터리가 닳아서 궁금했거든요.",
+            "turn_id": "BK22012969-2",
+            "utterance_id": "BK22012969.3"
+        },
+        {
+            "reference_date": "44623.0",
+            "reference_text": [
+                {
+                    "value": "전지를 산 뒤에 기존의 포장을 그대로 놔두었다고 하더라도 전지는 해마다 2%에서 25%까지 기존의 충전량을 잃을 수 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 양은 여러 요인에 의해 영향을 받으나 특히 온도에 따라서 바뀌며 온도가 높을수록 잃는 양이 더 늘어난다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A7%80",
+            "search_query": "전지의 수명",
+            "terminate": false,
+            "text": "네, 전지를 구매 후 포장 그대로 놔두어도 해마다 2%에서 25%까지 기존의 충전량에서 줄어들어요. 여러 요인에 따라 양의 변화가 있지만, 특히 온도가 높을수록 잃는 양이 더 많아져요.",
+            "turn_id": "BK22012969-2",
+            "utterance_id": "BK22012969.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 배터리가 줄어든 것이군요. 전지에는 일차 전지와 이차 전지가 있다고 들었어요. 일차 전지는 무엇인가요?",
+            "turn_id": "BK22012969-3",
+            "utterance_id": "BK22012969.5"
+        },
+        {
+            "reference_date": "44708.0",
+            "reference_text": [
+                {
+                    "value": "1차 전지(一次電池, 영어: primary cell)는 전지 내의 전기화학반응이 비가역적이기 때문에 한 번 쓰고 버려야 하는 일회용 전지를 일컫는다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EC%B0%A8_%EC%A0%84%EC%A7%80",
+            "search_query": "1차 전지",
+            "terminate": false,
+            "text": "전지 내의 전기 화학반응이 비가역적이어서 한 번만 사용할 수 있는 일회용 전지를 일차 전지라고 해요.",
+            "turn_id": "BK22012969-3",
+            "utterance_id": "BK22012969.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 건전지는 일차 전지에 속하겠네요?",
+            "turn_id": "BK22012969-4",
+            "utterance_id": "BK22012969.7"
+        },
+        {
+            "reference_date": "44682.0",
+            "reference_text": [
+                {
+                    "value": "건전지(乾電池, dry cell)는 \"마른 전지\"라는 뜻으로, 전해질을 수분이 거의 없는 상태로 둔 1차 전지(전기 화학 전지)이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B4%EC%A0%84%EC%A7%80",
+            "search_query": "건전지",
+            "terminate": false,
+            "text": "맞아요, 건전지는 마른 전지라는 뜻을 가진 일차 전지예요. 수분이 거의 없는 상태의 전해질을 가지고 있죠.",
+            "turn_id": "BK22012969-4",
+            "utterance_id": "BK22012969.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수분이 거의 없는 전해질이요? 전해질은 어떤 물질인지 알려주세요.",
+            "turn_id": "BK22012969-5",
+            "utterance_id": "BK22012969.9"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "전해질(電解質, 영어: electrolyte)은 수용액 상태에서 이온으로 쪼개져 전류가 흐르는 물질이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반대로 이온으로 나누어지지 않아서 전류가 통하지 않는 물질을 비전해질이라 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%ED%95%B4%EC%A7%88",
+            "search_query": "전해질",
+            "terminate": false,
+            "text": "수용액 상태에서 이온으로 해리되어 전기가 통하게 된 물질이 전해질이에요. 이와 반대로 이온으로 나누어지지 않고 전류가 흐르지 않는 물질은 비전해질이라고 부르죠.",
+            "turn_id": "BK22012969-5",
+            "utterance_id": "BK22012969.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 이차 전지는 무엇인가요?",
+            "turn_id": "BK22012969-6",
+            "utterance_id": "BK22012969.11"
+        },
+        {
+            "reference_date": "44628.0",
+            "reference_text": [
+                {
+                    "value": "2차 전지(二次電池, 영어: rechargeable battery, storage battery, secondary cell), 이전 명칭 축전지(蓄電池, 영어: accumulator)는 외부의 전기 에너지를 화학 에너지의 형태로 바꾸어 저장해 두었다가 필요할 때에 전기를 만들어 내는 장치를 말한다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%B0%A8_%EC%A0%84%EC%A7%80",
+            "search_query": "2차 전지",
+            "terminate": false,
+            "text": "축전지라고도 불리는 이차 전지는 외부의 전기 에너지를 화학 에너지로 변환하고 저장해서 필요할 때마다 전기를 만들어내는 장치예요.",
+            "turn_id": "BK22012969-6",
+            "utterance_id": "BK22012969.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이차 전지는 일차 전지와 비교해서 어떤 장점이 있나요?",
+            "turn_id": "BK22012969-7",
+            "utterance_id": "BK22012969.13"
+        },
+        {
+            "reference_date": "44708.0",
+            "reference_text": [
+                {
+                    "value": "2차 전지(secondary cell)는 '1차 전지'에 비해 비싸지만 충전하여 여러 번 사용함으로써 더 경제적일 수 있다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EC%B0%A8_%EC%A0%84%EC%A7%80",
+            "search_query": "2차 전지와의 비교",
+            "terminate": false,
+            "text": "일차 전지와 비교해서 이차 전지는 비싸지만 충전하고 여러 번 사용할 수 있다는 점에서 경제적인 장점이 있어요.",
+            "turn_id": "BK22012969-7",
+            "utterance_id": "BK22012969.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 일차 전지에는 건전지가 있었는데 이차 전지에는 어떤 것이 있을까요?",
+            "turn_id": "BK22012969-8",
+            "utterance_id": "BK22012969.15"
+        },
+        {
+            "reference_date": "44612.0",
+            "reference_text": [
+                {
+                    "value": "리튬 이온 전지(-電池, Lithium-ion battery, Li-ion battery)는 이차 전지의 일종으로 방전 과정에서 리튬 이온이 음극에서 양극으로 이동하는 전지이다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "충전시에는 리튬 이온이 양극에서 음극으로 다시 이동하여 제자리를 찾게 된다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8A%AC_%EC%9D%B4%EC%98%A8_%EC%A0%84%EC%A7%80",
+            "search_query": "리튬 이온 전지",
+            "terminate": false,
+            "text": "이차 전지에는 리튬 이온 전지가 있어요. 방전 과정에서 리튬 이온이 음극에서 양극으로 이동해요. 충전 과정에서는 리튬 이온이 다시 양극에서 음극으로 돌아오죠.",
+            "turn_id": "BK22012969-8",
+            "utterance_id": "BK22012969.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "리튬 이온이 양극과 음극을 오가면서 충전과 방전이 이루어지는 것이군요.",
+            "turn_id": "BK22012969-9",
+            "utterance_id": "BK22012969.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 참고로 음극, 양극, 전해질을 어떤 물질로 사용하느냐에 따라 전지의 전압과 수명, 용량, 안정성이 크게 바뀔 수 있어요.",
+            "turn_id": "BK22012969-9",
+            "utterance_id": "BK22012969.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적절한 물질을 사용하는 것이 성능 향상의 관건이겠네요. 전지의 용량은 보통 어떻게 되나요?",
+            "turn_id": "BK22012969-10",
+            "utterance_id": "BK22012969.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "휴대전화에 사용되는 전지의 용량은 3,000mAh에서 4,000mAh 사이가 가장 많아요.",
+            "turn_id": "BK22012969-10",
+            "utterance_id": "BK22012969.20"
+        }
+    ]
+}

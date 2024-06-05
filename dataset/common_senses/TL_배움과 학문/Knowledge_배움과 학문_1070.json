@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007022",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007022",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 전에 사왔던 음식인데 잠깐 깜빡하고 냉장고에 안 넣었더니 벌써 부패해버렸어. 음식이 부패하는 이유는 뭐고 왜 여름에 유독 심한 거야?",
+            "turn_id": "BK22007022-1",
+            "utterance_id": "BK22007022.1"
+        },
+        {
+            "reference_date": "2010-07-08",
+            "reference_text": [
+                {
+                    "value": "부패란 유기물이 미생물의 작용에 의해 악취를 내며 분해되는 현상이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 부패가 여름에 유독 잘 일어나는 이유는 온도와 수분이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세균은 발육 온도에 따라 저온균, 중온균, 고온균 세 가지로 분류 할 수 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 중에서 대부분의 세균과 질병을 일으키는 병원균이 중온균에 속하는데, 중온균은 25~40℃가 최적의 발육 온도이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기에 여름엔 습기가 많아 세균에게 충분한 수분을 공급해 줄 수 있기 때문에 여름철이 되면 음식물들이 금방 부패되는 것이다",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%95%85%EC%B7%A8-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B6%80%ED%8C%A8-%EC%9E%98-%EC%93%B0%EB%A9%B4-%EC%97%90%EB%84%88%EC%A7%80/",
+            "search_query": "음식 상하는 이유 미생물",
+            "terminate": false,
+            "text": "유기물이 미생물의 작용 때문에 악취를 내며 분해되는 현상을 부패라고 해. 여름에 심한 이유는 온도와 수분으로 들 수 있는데 이걸 이해하려면 세균에 대한 약간의 지식이 필요해. 세균은 발육 온도에 따라 저온균, 중온균, 고온균 세 가지로 분류해. 이 중에서 대부분의 세균과 질병을 일으키는 병원균이 중온균에 속하고 25도에서 40도까지가 최적의 발육 온도 지. 여기에 여름에 높아지는 습기로 세균에게 충분한 수분 공급이 되어 여름철이 되면 음식이 금방 부패하는 거지.",
+            "turn_id": "BK22007022-1",
+            "utterance_id": "BK22007022.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세균들이 원인이구나. 그런데 어제 넣어둔 오징어는 왜 상한 줄 모르겠네. 다른 이유가 있을까?",
+            "turn_id": "BK22007022-2",
+            "utterance_id": "BK22007022.3"
+        },
+        {
+            "reference_date": "2018-08-01",
+            "reference_text": [
+                {
+                    "value": "특히 여름철 오징어, 조개, 회 등의 해산물에는 식중독의 원인이 되는 장염 비브리오균과 리스테리아 균이 증식하기 쉽다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 중 리스테리아균은 저온에서도 생존하기 때문에 냉장보관 역시 무용지물일 때가 많다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://realfoods.co.kr/view.php?ud=20180801000549&sec=01-75-06&jeh=0&pos=",
+            "search_query": "냉장 보관 식중독",
+            "terminate": false,
+            "text": "여름철 오징어, 조개 같은 해산물에 식중독의 원인인 장염 비브리오균과 리스테리아 균이 증식하기 쉬워. 그런데 리스테리아균은 저온에서도 생존할 수 있어 냉장 보관을 해도. 음식이 상할 수 있지.",
+            "turn_id": "BK22007022-2",
+            "utterance_id": "BK22007022.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여름에 해산물을 먹을 때 조심하라는 이유가 여기에 있구나. 그럼 음식을 소금에 절이면 왜 썩지 않는 거야?",
+            "turn_id": "BK22007022-3",
+            "utterance_id": "BK22007022.5"
+        },
+        {
+            "reference_date": "2021-07-04",
+            "reference_text": [
+                {
+                    "value": "미생물의 생육이 억제되기 때문이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모든 생명체의 혈액이나 세포 내 염류의 농도는 0.9% 정도다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 농도를 위아래로 벗어나면 생명의 유지가 어렵다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인위적으로 농도를 변화시켜 미생물의 생육을 불가능하게 하는 것이 절임(저장)법인 셈이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2021070321215116970",
+            "search_query": "음식에 소금을 치면",
+            "terminate": false,
+            "text": "간단하게는 미생물이 살 수 없도록 하기 때문이야. 모든 생명체의 혈액이나 세포 내 염류의 농도는 0.9% 정도인데, 이보다 많거나 적으면 생명 유지가 어렵게 돼. 따라서 소금에 절이는 건 인위적으로 농도를 변화시켜 미생물이 살 수 없도록 하는 것이지.",
+            "turn_id": "BK22007022-3",
+            "utterance_id": "BK22007022.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 절임 방법이 과학적인 이유가 있을 줄이야, 정말 놀랍네. 그런데 미생물은 어디나 존재하는 거야?",
+            "turn_id": "BK22007022-4",
+            "utterance_id": "BK22007022.7"
+        },
+        {
+            "reference_date": "2010-08-03",
+            "reference_text": [
+                {
+                    "value": "지구상에 미생물이 존재하지 않다고 할 만큼, 미생물은 자연계에 널리 분포하고 있으며 건강한 흙 1g 속에는 무려 10억 개 가량의 다양한 미생물이 살고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%A7%80%EA%B5%AC%EC%97%90%EC%84%9C-%ED%99%94%EC%84%B1%EA%B9%8C%EC%A7%80-%EB%AF%B8%EC%83%9D%EB%AC%BC-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
+            "search_query": "미생물의 존재",
+            "terminate": false,
+            "text": "지구상의 미생물은 대부분의 자연계에 분포하고 있어. 예를 들어 건강한 흙 1g 속에는 무려 10억 개 정도의 다양한 미생물이 살고 있지.",
+            "turn_id": "BK22007022-4",
+            "utterance_id": "BK22007022.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 우리 몸속에도 미생물이 있는 거야?",
+            "turn_id": "BK22007022-5",
+            "utterance_id": "BK22007022.9"
+        },
+        {
+            "reference_date": "2019-04-16",
+            "reference_text": [
+                {
+                    "value": "인간의 몸속에는 세포 30조 개가 있는데, 박테리아와 바이러스, 균류 같은 미생물은 무려 39조 개나 있습니다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미생물은 크기가 작아서 체중의 1~3%만 차지하지만 인체에 미치는 힘과 영향력은 어마어마합니다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=87508",
+            "search_query": "몸 속 미생물",
+            "terminate": false,
+            "text": "놀라지 마. 사람의 몸에는 30조 개의 세포가 있지만 박테리아와 같은 미생물은 무려 39조 개나 돼! 워낙에 작아서 체중의 1~3%만 차지하지만, 인체에 미치는 힘과 영향력은 엄청나지.",
+            "turn_id": "BK22007022-5",
+            "utterance_id": "BK22007022.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 몸에 그렇게 많다고? 그럼 우리 몸 중 어디에 미생물이 가장 많아?",
+            "turn_id": "BK22007022-6",
+            "utterance_id": "BK22007022.11"
+        },
+        {
+            "reference_date": "2019-07-26",
+            "reference_text": [
+                {
+                    "value": "세균은 일반적으로 생존에 필요한 영양분을 스스로 만들지 못하고 주위 환경으로부터 얻는다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 세균들은 주로 우리 몸의 영양분이 많은 곳에 몰려 있는데, 음식물 찌꺼기나 소화가 안 된 음식이 머무르는 소화 기관에 가장 많다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9A%B0%EB%A6%AC-%EB%AA%B8%EC%9D%98-%EC%84%B8%ED%8F%AC%EC%99%80-%EC%84%B8%EA%B7%A0%EC%9D%80-%EA%B3%B5%EC%83%9D%ED%95%9C%EB%8B%A4/",
+            "search_query": "소화기관 세균",
+            "terminate": false,
+            "text": "보통 세균은 생존에 필요한 영양분을 스스로 만들지 못해. 그래서 주위에서 영양분을 얻기 위해 우리 몸의 영양분이 많은 곳에 몰려 있는데, 음식물 찌꺼기나 소화가 안 된 음식이 머무르는 소화 기관이 여기에 해당되.",
+            "turn_id": "BK22007022-6",
+            "utterance_id": "BK22007022.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위장이나 소장에 있는 세균들이 가끔 말썽을 부려서 염증을 일으키는 게 아닐까? 몸속의 미생물들을 제거하려면 어떻게 해야 해?",
+            "turn_id": "BK22007022-7",
+            "utterance_id": "BK22007022.13"
+        },
+        {
+            "reference_date": "2018-02-05",
+            "reference_text": [
+                {
+                    "value": "우리 몸에 살고 있는 상주 균들이 신체 대사에 미치는 영향은 매우 크다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리의 장에 사는 세균은 우리의 장이 해결 못하는 일들을 해결하는 ‘해결사’와 같은 존재다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리가 알고 있는 유산균은 이런 수많은 장내 세균 중 유익균을 대표하는 좋은 프로바이오틱스다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikunkang.com/news/articleView.html?idxno=22606",
+            "search_query": "장내세균",
+            "terminate": false,
+            "text": "그런 생각은 하지 마. 우리 몸에 사는 균들은 신체 대사에 미치는 영향이 커. 우리의 장에 사는 세균은 장에서 어려움을 겪을 때 해결사 역할을 한다고. 예를 들어 우리가 잘 아는 유산균이 바로 수많은 장내 세균에서 유익균을 대표하는 좋은 프로바이오틱스야.",
+            "turn_id": "BK22007022-7",
+            "utterance_id": "BK22007022.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유산균을 비롯해 프로바이오틱스 영양제를 먹고 있는데 그게 이런 균일 줄은 몰랐네. 미생물이 다른 장점은 없는 걸까?",
+            "turn_id": "BK22007022-8",
+            "utterance_id": "BK22007022.15"
+        },
+        {
+            "reference_date": "2015-06-30",
+            "reference_text": [
+                {
+                    "value": "만약 미생물이 없다면 지구는 죽은 동식물과 쓰레기로 가득 찰 거예요.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 큰 문제는 자원이 순환되지 않는다는 점이에요.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미생물이 분해한 동식물의 사체가 흙과 섞이면 식물은 그것을 양분으로 삼아 자라고, 그 식물은 초식동물의 먹이가 되며 초식동물은 육식동물의 먹이가 되지요.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2015/06/30/2015063000220.html",
+            "search_query": "유용 미생물",
+            "terminate": false,
+            "text": "미생물의 장점은 엄청나. 한 가지만 들면, 미생물이 없으면 지구는 죽은 동식물과 쓰레기로 가득 찰 거야. 여기서 자원이 순환되지 않는 큰 문제가 발생해. 미생물이 분해한 동식물의 사체가 흙과 섞여야 식물은 그것을 양분으로 삼아 자라게 돼. 그리고 식물은 초식동물의 먹이가 되고 초식동물은 육식동물의 먹이가 되지.",
+            "turn_id": "BK22007022-8",
+            "utterance_id": "BK22007022.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 점을 전혀 잊고 있었는데, 부패한다는 건 정말 중요한 것 같아. 미생물에 대해 흥미가 생겨서 그러는데 혹시 미생물과 관련된 색다른 연구가 있을까?",
+            "turn_id": "BK22007022-9",
+            "utterance_id": "BK22007022.17"
+        },
+        {
+            "reference_date": "2016-03-24",
+            "reference_text": [
+                {
+                    "value": "최근 과학자들은 이런 박테리아들이 몸의 건강뿐만 아니라 정신 영역에 영향을 미칠 수 있다는 점에 주목하고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소극적인 성격의 쥐에게 박테리아를 접종한 결과 용감하고 활동력 있는 쥐로 변모했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람들도 이 실험에 참여하고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 일부 연구 결과에서 특별히 부양된 박테리아를 먹은 임상실험 참가자들의 뇌 활동이 활성화됐으며, 특히 스트레스와 걱정을 완화시키는 효과를 가져왔다고 보고하고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%AF%B8%EC%83%9D%EB%AC%BC%EC%9D%B4-%EB%AC%B4%EC%8A%A8-%EC%83%9D%EA%B0%81%EC%9D%84-%ED%95%98%EA%B3%A0-%EC%9E%88%EC%9D%84%EA%B9%8C/",
+            "search_query": "박테리아 연구",
+            "terminate": false,
+            "text": "박테리아들이 몸의 건강뿐만 아니라 정신 영역에도 영향을 줄 수 있다는 최근 연구가 있어. 성격이 소극적인 쥐에게 박테리아를 접종하자 용감하고 활동력 있게 바뀌었어. 이 실험에 사람들도 참여하였는데, 특별히 부양된 박테리아를 먹은 임상실험 참가자들은 뇌 활동이 활성화되고, 스트레스와 걱정을 완화된 효과가 있었지.",
+            "turn_id": "BK22007022-9",
+            "utterance_id": "BK22007022.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거 정말 흥미로운걸? 벌써 저녁이니까 이건 내가 혼자 따로 찾아보고 내일 다시 이야기하자. 오늘 시간 내줘서 정말 고마워.",
+            "turn_id": "BK22007022-10",
+            "utterance_id": "BK22007022.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 난 네가 흥미를 가질만한 새로운 연구도 찾아서 가져와 볼게. 내일 보자.",
+            "turn_id": "BK22007022-10",
+            "utterance_id": "BK22007022.20"
+        }
+    ]
+}

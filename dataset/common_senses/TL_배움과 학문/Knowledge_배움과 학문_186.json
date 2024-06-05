@@ -1,0 +1,385 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012272",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012272",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차를 사니까 다양한 교통수단에 관심이 생겼는데 알려줄 수 있어?",
+            "turn_id": "BK22012272-1",
+            "utterance_id": "BK22012272.1"
+        },
+        {
+            "reference_date": "44604.0",
+            "reference_text": [
+                {
+                    "value": "교통수단(Mode of transport, 交通輸段)은 버스, 택시, 여객선, 항공기, 렌터카, 카풀 등 다양하게 수송할 수 있는 대중교통 체계를 말한다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 동물을 교통수단으로 쓰는 경우는 말, 당나귀, 낙타, 개 등이 대표적이다",
+                    "value_time": "44776.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%90%ED%86%B5%EC%88%98%EB%8B%A8",
+            "search_query": "교통수단",
+            "terminate": false,
+            "text": "버스, 택시, 여객선, 렌터카, 항공기, 카풀 등 무언가를 다양하게 옮길 수 있는 걸 교통수단이라 할 수 있고, 이런 걸 대중교통 체계라고 할 수 있어. 동물들도 교통수단으로 이용이 가능한데, 낙타, 개, 당나귀, 말 등이 있어.",
+            "turn_id": "BK22012272-1",
+            "utterance_id": "BK22012272.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "버스는 언제부터 존재했던 걸까?",
+            "turn_id": "BK22012272-2",
+            "utterance_id": "BK22012272.3"
+        },
+        {
+            "reference_date": "44768.0",
+            "reference_text": [
+                {
+                    "value": "1800년대 초 프랑스 낭트(Nantes) 교외의 한 옥수수 방앗간 주인이 방앗간에서 나오는 부산물(by-product)인 뜨거운 물로 목욕탕 사업을 시작하게 된다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 이 방앗간 주인은 목욕탕 손님을 끌어오기 위해 \"(지금의 버스처럼) 많은 사람들을 마차로\" 낭트 도심에서부터 목욕탕까지 실어오는 일종의 \"셔틀 버스\"를 1826년 운행하게 된다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%84%EC%8A%A4",
+            "search_query": "버스",
+            "terminate": false,
+            "text": "프랑스 낭트라는 곳에서 1800년대 초에 옥수수 방앗간 주인이 방앗간을 운영하면서 나온 뜨거운 물로 목욕탕을 하게 돼. 그리고 1826년 목욕탕에 많은 손님들을 데려오기 위해서 마차를 이용해서 낭트의 도시에서 사람들을 태우고 오게 되는데, 이게 셔틀버스의 시초라고 볼 수 있어.",
+            "turn_id": "BK22012272-2",
+            "utterance_id": "BK22012272.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마차를 버스라고 부르게 된 이유라도 있는 거야?",
+            "turn_id": "BK22012272-3",
+            "utterance_id": "BK22012272.5"
+        },
+        {
+            "reference_date": "44768.0",
+            "reference_text": [
+                {
+                    "value": "이 \"마차\"의 첫 정류장이 대형 모자 가게였는데 그 모자 가게 간판에 \"omnes omnibus(모든 사람들을 위한 모든 것들)\"라는 문구가 적혀 있었다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람들은 이 문구때문에 \"목욕탕 셔틀\"로 사용되는 \"마차\"를 점차 omnibus라고 부르게 되었으며, 나중에는 \"많은 사람을 싣고 다니는 마차나 차량\"이라는 의미로 굳어지게 된다.",
+                    "value_time": "44776.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%84%EC%8A%A4",
+            "search_query": "버스 omnibus",
+            "terminate": false,
+            "text": "마침 그 마차의 첫 정류장이 큰 모자가게 앞이었어. 그 모자가게 간판에는 omnes omnibus라고 적혀있었는데, 그걸 따서 사람들이 그 마차를 omnibus라고 부르기 시작했거든. 그 이름에서부터 유래되었다고 해.",
+            "turn_id": "BK22012272-3",
+            "utterance_id": "BK22012272.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기차나 철도의 기원도 궁금한데 알려줄래?",
+            "turn_id": "BK22012272-4",
+            "utterance_id": "BK22012272.7"
+        },
+        {
+            "reference_date": "43369.0",
+            "reference_text": [
+                {
+                    "value": "철도를 처음으로 상용화한 사람이 조지 스티븐슨이다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 1813년 동료 윌리엄 해들리와 함께 기능적인 증기관차를 발표하고, 이듬해 자신의 모델을 이용해 석탄 광산에서 시속 6.5km의 속도로 30톤의 석탄을 운반하는데 성공했다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.opinionnews.co.kr/news/articleView.html?idxno=11477",
+            "search_query": "시초 증기기관차",
+            "terminate": false,
+            "text": "조지 스티븐슨은 1813년 윌리엄 해들리와 함께 실제 사용 가능한 증기관차에 대해 발표하고, 다음 해에 석탄 광산에서 한 시간에 6.5km를 갈 수 있는 속도의 기관차로 30톤의 석탄을 운송해 철도를 처음으로 상용화하는 데 성공했어.",
+            "turn_id": "BK22012272-4",
+            "utterance_id": "BK22012272.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그때 이용된 철도를 최초의 영업 철도라고 볼 수 있을까?",
+            "turn_id": "BK22012272-5",
+            "utterance_id": "BK22012272.9"
+        },
+        {
+            "reference_date": "43369.0",
+            "reference_text": [
+                {
+                    "value": "1825년 영국 9월 27일 영국 스톡턴-달링턴 구간(Stockton and Darlington Railway)에 철도가 개통해 증기기관차가 레일 위를 달렸다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것이 세계 최초의 기관차에 의한 영업 철도였다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.opinionnews.co.kr/news/articleView.html?idxno=11477",
+            "search_query": "영업 철도 세계 최초",
+            "terminate": false,
+            "text": "아니, 최초로 영업 철도가 운영된 건 그보다 뒤야. 1825년 9월 27일, 영국의 스톡턴에서 달링턴으로 가는 구간에 철도를 개통하였고, 증기기관차를 운용했지. 이걸 세계 최초의 영업 철도로 보고 있어.",
+            "turn_id": "BK22012272-5",
+            "utterance_id": "BK22012272.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선박의 기원도 궁금한데, 고대의 뗏목은 기록이 안 남아 있을 것 같네. 증기 선박의 기원을 알려줄 수 있어?",
+            "turn_id": "BK22012272-6",
+            "utterance_id": "BK22012272.11"
+        },
+        {
+            "reference_date": "42964.0",
+            "reference_text": [
+                {
+                    "value": "1807년 8월17일, 세계 최초의 증기선 ‘클레몬트호’가 시운전에 성공했다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국의 로버트 풀턴은 최고 24마력의 증기기관을 장착한 증기선을 제작, 뉴욕의 허드슨 강변에서 성대한 진수식을 가졌다",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "배는 바람과 파도를 가르며 상류를 거슬러 침착하게 항해했고, 32시간·240㎞의 여정이 끝날 때까지 굴뚝에서는 연기가 뿜어졌다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yeongnam.com/web/view.php?key=20170817.010080721070001",
+            "search_query": "세계 최초 증기선",
+            "terminate": false,
+            "text": "1807년 8월 17일 미국의 로버트 풀턴이 만든 세계 최초의 증기선인 클레몬트호가 시운전에 성공했는데, 이를 증기 선박의 기원이라 할 수 있어. 24마력의 증기기관을 장착한 증기선을 뉴욕의 허드슨강에서 선보였어. 이 배는 상류를 향해 32시간 동안 240km 거리를 거슬러 올라가는 내내 굴뚝에서 연기를 내뿜었어.",
+            "turn_id": "BK22012272-6",
+            "utterance_id": "BK22012272.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 최초의 잠수함도 알 수 있을까? 비록 일반적인 교통수단이라고 하긴 그렇지만 말이야.",
+            "turn_id": "BK22012272-7",
+            "utterance_id": "BK22012272.13"
+        },
+        {
+            "reference_date": "44620.0",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 잠수정은 미국의 데이비드 브쉬넬이 제작한 잠수정 터틀이다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간이 직접 추진력을 발생시키는 수동식의 달걀형의 잠수정이었다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A0%EC%88%98%ED%95%A8%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "최초의 잠수함",
+            "terminate": false,
+            "text": "미국의 데이비드 브쉬넬이 건조한 잠수정 터틀이 세계 최초야. 사람이 직접 추진력을 만들어 움직이는 수동식의 계란 모양의 잠수정이지.",
+            "turn_id": "BK22012272-7",
+            "utterance_id": "BK22012272.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하늘을 움직이는 이동 수단도 궁금한데, 최초의 열기구부터 알려줄래?",
+            "turn_id": "BK22012272-8",
+            "utterance_id": "BK22012272.15"
+        },
+        {
+            "reference_date": "44771.0",
+            "reference_text": [
+                {
+                    "value": "1783년 11월 21일 프랑스의 기술자 장프랑수아 필라트르 드 로지에와 프랑수아 로랑 다를랑드는 파리에서 몽골피에 형제가 설계·제작한 열기구로 세계 최초로 지상에 매인 밧줄 없이 유인 열기구 비행을 실행시켰다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B4%EA%B8%B0%EA%B5%AC",
+            "search_query": "최초 열기구",
+            "terminate": false,
+            "text": "땅에 매인 밧줄 없이 사람이 탄 열기구 비행에 처음 성공한 건 1783년 11월 21일 프랑스의 기술자 장프랑수아 필라트르 드 로지에와 프랑수아 로랑 다를랑드가 파리에서 성공시켰어. 몽골피에 형제가 설계하고 제작한 열기구였지.",
+            "turn_id": "BK22012272-8",
+            "utterance_id": "BK22012272.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비행기도 빼놓을 수 없겠지?",
+            "turn_id": "BK22012272-9",
+            "utterance_id": "BK22012272.17"
+        },
+        {
+            "reference_date": "44761.0",
+            "reference_text": [
+                {
+                    "value": "최초의 동력 비행기는 1903년 12월 17일에 미합중국의 라이트 형제가 발명하였다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%96%89%EA%B8%B0",
+            "search_query": "최초 비행기",
+            "terminate": false,
+            "text": "최초로 동력으로 움직이는 비행기는 미국의 라이트 형제가 1903년 12월 17일에 만들었지.",
+            "turn_id": "BK22012272-9",
+            "utterance_id": "BK22012272.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헬리콥터에 대해서도 알려줄 수 있어?",
+            "turn_id": "BK22012272-10",
+            "utterance_id": "BK22012272.19"
+        },
+        {
+            "reference_date": "44679.0",
+            "reference_text": [
+                {
+                    "value": "비행이 가능한 헬리콥터가 최초로 이륙하는데 성공한 것은 1937년 하인리히 포케가 개발한 포케 울프 Fw 61기였다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%BD%A5%ED%84%B0",
+            "search_query": "최초 이륙 헬리콥터",
+            "terminate": false,
+            "text": "1937년에 하인리히 포케가 개발한 포케 울프 Fw61기는 비행이 가능한 헬리콥터로써는 처음으로 이륙에 성공해.",
+            "turn_id": "BK22012272-10",
+            "utterance_id": "BK22012272.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 다양한 이동 수단을 만든 걸 보면 인간은 참 대단한 거 같아.",
+            "turn_id": "BK22012272-11",
+            "utterance_id": "BK22012272.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러게, 덕분에 우리가 여기저기 빠르고 편하게 다닐 수 있으니 좋지.",
+            "turn_id": "BK22012272-11",
+            "utterance_id": "BK22012272.22"
+        }
+    ]
+}

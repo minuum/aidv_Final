@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011697",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011697",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 판다에 대해 잘 아시나요? 다른 동물에 비해 판다는 희귀한 느낌인데 주로 어느 지역에 서식하는 동물인지 궁금해요. 희귀 동물에 대한 리포트를 쓰려는 데 알고 계신 것들이 있다면 좀 도와주세요.",
+            "turn_id": "BK22011697-1",
+            "utterance_id": "BK22011697.1"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "일반적으로 ‘판다’는 자이언트 판다를 의미한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대왕판다(giant panda)는 주로 중국 쓰촨성과 산시성, 간쑤성과 티베트 고산 지대에 서식하는 곰과의 포유동물이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=6581",
+            "search_query": "판다",
+            "terminate": false,
+            "text": "우리가 말하는 판다는 보통 자이언트 판다를 말하는데요. 주로 중국 쓰촨성과 산시성, 간쑤성과 티베트 고산 지대에 서식해요.",
+            "turn_id": "BK22011697-1",
+            "utterance_id": "BK22011697.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중국에 서식하는군요, 그럼 판다는 곰과 같은 종인가요? 어떤 종류가 있는지 알려주세요.",
+            "turn_id": "BK22011697-2",
+            "utterance_id": "BK22011697.3"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "판다속(Ailuropoda) 또는 판다는 포유류 식육목 곰과에 속하는 속이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "판다속에는 자이언트판다 네 종이 들어 있으나, 세 종은 멸종하여 남아 있는 것은 한 종(Ailuropoda melanoleuca)뿐이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8B%A4%EC%86%8D",
+            "search_query": "판다 팬더",
+            "terminate": false,
+            "text": "네, 판다는 식육목 곰과에 속하는 포유류에요. 판다속은 자이언트판다 네 종이 있지만, 멸종으로 인해 한 종만 남아있어요.",
+            "turn_id": "BK22011697-2",
+            "utterance_id": "BK22011697.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 우리가 알고 있는 검은색과 흰색의 판다만 남은 건가요?",
+            "turn_id": "BK22011697-3",
+            "utterance_id": "BK22011697.5"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "일반적으로 자이언트판다에서 자이언트를 생략하고 판다라고 부르기도 하여 판다는 검은색과 흰색의 자이언트판다를 가리킬 때가 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8B%A4%EC%86%8D",
+            "search_query": "자이언트 판다",
+            "terminate": false,
+            "text": "그렇죠, 그래서 검은색과 흰색의 자이언트판다를 우리는 자이언트를 생략해 그냥 판다라고 하죠.",
+            "turn_id": "BK22011697-3",
+            "utterance_id": "BK22011697.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 혹시 레서판다라는 동물은 판다가 아닌가요?",
+            "turn_id": "BK22011697-4",
+            "utterance_id": "BK22011697.7"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "레서판다는 몸길이가 자이언트판다보다 작고 털의 색깔은 갈색이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "레서판다의 분류에는 논란이 있으나, 판다속에는 속하지 않는다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%90%EB%8B%A4%EC%86%8D",
+            "search_query": "래서판다",
+            "terminate": false,
+            "text": "네, 판다보다 작고 갈색 털을 지닌 레서판다는 분류에 논란이 많지만 판다속에 속하지 않아요.",
+            "turn_id": "BK22011697-4",
+            "utterance_id": "BK22011697.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름 때문에 판다 종류에 속하는 줄 알았어요. 판다의 수가 어느 정도 되는지, 수명은 얼마나 되는지도 궁금해요.",
+            "turn_id": "BK22011697-5",
+            "utterance_id": "BK22011697.9"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "야생 판다는 약 1,000마리 이하며, 중국과 타 국가 동물원에 100마리 정도가 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수명은 야생에서는 14~20년, 사육하면 최대 30년이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=6581",
+            "search_query": "야생 판다",
+            "terminate": false,
+            "text": "네, 야생 판다의 수는 대략 1000마리 이하이고, 중국과 타 국가 동물원에는 100마리 정도가 있어요. 야생에서 14년에서 20년, 사육 환경에서는 최대 30년 동안 살고요.",
+            "turn_id": "BK22011697-5",
+            "utterance_id": "BK22011697.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수명이 그 정도가 되는군요. 무게도 꽤 나갈 거 같은데 어느 정도 되나요?",
+            "turn_id": "BK22011697-6",
+            "utterance_id": "BK22011697.11"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "성체는 꼬리(10~15cm)를 포함 1.2~1.8m이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 100~160 kg정도로 암컷보다 10~20% 더 나간다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=6581",
+            "search_query": "판다 무게",
+            "terminate": false,
+            "text": "네, 판다의 성체는 10센티미터에서 15센티미터인 꼬리 길이를 포함해 1.2미터에서 1.8미터에요. 그리고 수컷은 100킬로그램에서 160킬로그램으로 암컷에 비해 10퍼센트에서 20퍼센트가 더 무겁고요.",
+            "turn_id": "BK22011697-6",
+            "utterance_id": "BK22011697.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무게가 상당하네요, 판다가 하루에 어마어마한 양의 대나무를 먹는다던데 사실인가요?",
+            "turn_id": "BK22011697-7",
+            "utterance_id": "BK22011697.13"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "판다는 하루에 9~38 kg의 대나무를 섭취해도 소량의 에너지와 단백질밖에 얻지 못한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 이유는 판다의 소화기관이 육식동물과 같아서 성분 셀룰로오스를 소화시킬 수 없기 때문이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자신에게 필요한 양분을 얻기위해서는 많은 양의 대나무를 먹어야 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=6581",
+            "search_query": "판다 대나무",
+            "terminate": false,
+            "text": "네, 판다는 대나무를 하루에 9킬로그램에서 38킬로그램가량 섭취해요. 하지만 그렇게 해도 판다의 소화기관이 육식동물처럼 성분 셀룰로오스를 소화할 수 없기 때문에 에너지와 단백질은 소량 얻을 수 있어요. 그래서 최대한 아주 많은 양의 대나무를 먹는 거죠.",
+            "turn_id": "BK22011697-7",
+            "utterance_id": "BK22011697.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었군요, 판다는 대부분 어떻게 생활하는지 궁금해요.",
+            "turn_id": "BK22011697-8",
+            "utterance_id": "BK22011697.15"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "나무 위를 재빨리 오르는 판다는 대부분 일생을 대나무 숲에서 보낸다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혼자 생활하며 자신만의 영역이 있다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히, 암컷은 자기 영역에 타 암컷이 오는 것을 꺼린다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mediafine.co.kr/news/articleView.html?idxno=6581",
+            "search_query": "판다 영역",
+            "terminate": false,
+            "text": "판다는 대부분의 시간을 대나무 숲에서 보내고, 자신만의 영역이 있어 혼자 생활해요. 특히 암컷은 자신의 영역에 다른 암컷이 오는 걸 싫어하고요.",
+            "turn_id": "BK22011697-8",
+            "utterance_id": "BK22011697.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 오늘 판다에 대해 새로운 사실을 많이 알게 되었네요.",
+            "turn_id": "BK22011697-9",
+            "utterance_id": "BK22011697.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제 더 궁금한 건 없으신가요?",
+            "turn_id": "BK22011697-9",
+            "utterance_id": "BK22011697.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 좋은 정보 주셔서 너무 감사해요.",
+            "turn_id": "BK22011697-10",
+            "utterance_id": "BK22011697.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 다음에 또 대화 나눠요.",
+            "turn_id": "BK22011697-10",
+            "utterance_id": "BK22011697.20"
+        }
+    ]
+}

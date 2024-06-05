@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007507",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007507",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 조지 오웰에 대해서 발표해야 하는데 어떻게 준비해야 할지 고민이야.",
+            "turn_id": "BK22007507-1",
+            "utterance_id": "BK22007507.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 요즘 듣는 문학 수업에서 조지 오웰에 대해서 배우고 있는데, 좀 도와줄까?",
+            "turn_id": "BK22007507-1",
+            "utterance_id": "BK22007507.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 나야 정말 좋지! 조지 오웰은 어떤 사람이야?",
+            "turn_id": "BK22007507-2",
+            "utterance_id": "BK22007507.3"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "조지 오웰(영어: George Orwell)이라는 필명으로 널리 알려진 에릭 아서 블레어(영어: Eric Arthur Blair, 1903년 6월 25일 ~ 1950년 1월 21일[1])는 인도 제국에서 태어난 영국 작가이자 언론인이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "명료한 문체로 사회 부조리를 고발하고 전체주의에 대한 비판과 민주사회주의에 대한 지지를 표한 것으로 이름나 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%98%A4%EC%9B%B0",
+            "search_query": "조지 오웰",
+            "terminate": false,
+            "text": "오웰은 인도에서 출생한 영국 언론인이면서 작가야. 뚜렷하고 분명한 문체로 사회의 비리를 폭로하고 전체주의에 대한 문제 제기와 민주사회주의를 옹호한 것으로 유명해.",
+            "turn_id": "BK22007507-2",
+            "utterance_id": "BK22007507.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 오웰이 쓴 책은 뭐가 있어?",
+            "turn_id": "BK22007507-3",
+            "utterance_id": "BK22007507.5"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "《동물농장》(Animal Farm)은 영국의 작가 조지 오웰이 1945년에 출판한 풍자 소설이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전체적인 내용으로는 존스 농장에 살던 동물들이 가혹한 생활에 못이겨 주인을 쫓아내고 직접 농장을 운영하지만, 결국은 혁명을 주도했던 권력층의 독재로 농장이 부패해 버리는 이야기이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%AC%BC_%EB%86%8D%EC%9E%A5",
+            "search_query": "조지 오웰 동물농장",
+            "terminate": false,
+            "text": "1945년에 오웰은 동물농장이라는 풍자 소설을 출판했어. 이 책은 존스 농장에 있는 동물들이 힘든 삶을 견디지 못하고 주인을 몰아내고 직접 농장을 경영하지만, 결국 쿠데타를 일으켰던 권력층이 독재정치를 펼치면서 농장이 타락하는 내용을 담고 있어.",
+            "turn_id": "BK22007507-3",
+            "utterance_id": "BK22007507.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 참신한 소재인 거 같아. 그러면 오웰이 동물농장을 쓰게 된 계기는 뭐야?",
+            "turn_id": "BK22007507-4",
+            "utterance_id": "BK22007507.7"
+        },
+        {
+            "reference_date": "2022-07-08",
+            "reference_text": [
+                {
+                    "value": "1945년 출간된 ‘동물농장’은 조지 오웰이 파시즘에 맞서기 위해 참여한 스페인 내전에서 좌익 정당 내부 권력투쟁을 목격하고 환멸을 느꼈던 경험을 그의 말년, 작은 시골 마을에서 농장을 경영하며 얻은 아이디어에 접목해 구성한 소설이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=91199",
+            "search_query": "조지 오웰 동물농장",
+            "terminate": false,
+            "text": "1945년에 나온 동물농장은 오웰이 파시즘에 대항하기 위해 참전한 스페인 내전에서 좌익 정당 내 권력투쟁을 보고 환상이 깨졌던 경험을 오웰이 말년에 시골에 있는 작은 마을에서 농장을 관리하면서 얻은 영감과 결합해서 쓴 책이야.",
+            "turn_id": "BK22007507-4",
+            "utterance_id": "BK22007507.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오웰의 다양한 경험이 걸작을 만들어냈구나. 그런데 듣다 보니까 동물농장이 언제부터 명성을 얻기 시작한 건지 궁금해.",
+            "turn_id": "BK22007507-5",
+            "utterance_id": "BK22007507.9"
+        },
+        {
+            "reference_date": "2021-11-11",
+            "reference_text": [
+                {
+                    "value": "동물농장 출간 당시 영국과 소련은 협력 관계여서 조국인 영국에서는 환영을 받지 못했다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오히려 소련과 대척점에 있던 미국이 반공 이데올로기를 목적으로 책을 출간하면서 전 세계적으로 유명해졌다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=54389",
+            "search_query": "동물농장 미국",
+            "terminate": false,
+            "text": "사실 동물농장이 나왔을 때는 영국이랑 소련이 우호적인 사이여서 모국인 영국에서는 인기가 없었는데, 오히려 소련과 적대적인 관계였던 미국이 반공 사상을 위해 이 책을 출판하면서 세계적으로 알려졌지.",
+            "turn_id": "BK22007507-5",
+            "utterance_id": "BK22007507.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그리고 오웰이 1984라는 책을 썼다고 알고 있는데, 이 책은 어떤 책이야?",
+            "turn_id": "BK22007507-6",
+            "utterance_id": "BK22007507.11"
+        },
+        {
+            "reference_date": "2019-12-02",
+            "reference_text": [
+                {
+                    "value": "저널리스트들에게 존경받는 20세기 작가 조지 오웰은 가상의 오세아니아를 배경으로 전체주의적 미래사회를 경고하는 대작 ‘1984’를 썼다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gjdream.com/news/articleView.html?idxno=501081",
+            "search_query": "1984 오세아니아",
+            "terminate": false,
+            "text": "1984는 오세아니아라는 가상의 장소를 배경으로 전체주의적 미래사회에 대해 경종을 울리는 작품이지.",
+            "turn_id": "BK22007507-6",
+            "utterance_id": "BK22007507.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 책은 읽어보고 발표에서 자세하게 다뤄야겠어. 그러면 오웰이 1984를 쓸 때 참고했던 모델이 있을까?",
+            "turn_id": "BK22007507-7",
+            "utterance_id": "BK22007507.13"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "1984는 전체주의의 감시를 경고하는 내용을 쓴 디스토피아 소설이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1949년 출판된 이 소설은 나치 독일, 스탈린의 소련 등을 전체주의 정부 모델로 삼은 것으로 전해졌다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011206865?sid=104",
+            "search_query": "조지 오웰 1984",
+            "terminate": false,
+            "text": "1984는 전체주의의 감시에 대해 경각심을 주는 디스토피아 소설인데, 스탈린의 소련이나 나치 독일같이 전체주의 정부를 모델로 해서 쓰였다고 알려져 있어.",
+            "turn_id": "BK22007507-7",
+            "utterance_id": "BK22007507.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정치적으로 의미가 있는 작품이구나. 그러면 오웰의 빅브라더라는 용어가 유명하던데 이건 어떤 뜻이야?",
+            "turn_id": "BK22007507-8",
+            "utterance_id": "BK22007507.15"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "빅브라더는 1949년 조지 오웰의 소설 ‘1984년’에 등장하는 ‘감시자’를 지칭하는 용어에서 비롯된 말로, 일반 정보를 독점함으로써 사회를 감시·통제하는 관리권력 또는 사회체계를 일컫는 말이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=930254",
+            "search_query": "1984 빅브라더",
+            "terminate": false,
+            "text": "빅브라더는 1984에 나오는 감시자를 의미하는 단어에서 유래된 건데, 일반적인 정보를 독차지해서 사회를 감독하고 감시하는 사회 시스템이나 관리 권력을 의미하는 용어야.",
+            "turn_id": "BK22007507-8",
+            "utterance_id": "BK22007507.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 발표에서 다뤄야 하는 중요한 단어 같아. 그리고 생각해보니 오웰의 책 중에 카탈로니아라는 책이 있었던 거 같아. 이 책은 어떤 책이야?",
+            "turn_id": "BK22007507-9",
+            "utterance_id": "BK22007507.17"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "《카탈로니아 찬가》는 전쟁의 어리석음과 스페인 인민들에 대한 애정이 가득 담긴 르포문학의 걸작이다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오웰은 스페인 내전 당시의 정치상활에 대한 분석까지 실어서 스페인 내전을 미시적이면서 거시적인 관점으로 바라볼 수 있는 작품을 내놓았다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%98%A4%EC%9B%B0",
+            "search_query": "조지 오웰 카탈로니아 찬가",
+            "terminate": false,
+            "text": "카탈로니아 찬가는 전쟁의 우둔함과 스페인 사람들에 대한 사랑이 듬뿍 들어있는 르포문학의 명작이야. 오웰이 스페인 내전 시기의 정치 생활을 조사한 내용까지 담아서 스페인 내전을 세부적이면서도 전체적인 시각에서 바라볼 수 있는 책을 출판했다고 볼 수 있지.",
+            "turn_id": "BK22007507-9",
+            "utterance_id": "BK22007507.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얘기를 들어보니 오웰은 정말 휼륭한 사람인 거 같아.",
+            "turn_id": "BK22007507-10",
+            "utterance_id": "BK22007507.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그래서 발표 준비하면서 오웰의 책도 읽어보면 좋을 거야.",
+            "turn_id": "BK22007507-10",
+            "utterance_id": "BK22007507.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러는 게 좋을 거 같아, 덕분에 발표 준비가 수월해졌어.",
+            "turn_id": "BK22007507-11",
+            "utterance_id": "BK22007507.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 발표 준비 열심히 하고 다음에 보자.",
+            "turn_id": "BK22007507-11",
+            "utterance_id": "BK22007507.22"
+        }
+    ]
+}

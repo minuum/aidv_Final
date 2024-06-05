@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005250",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005250",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어젯밤에 산책을 했는데, 밤에 별이 가득하더라. 별자리를 몇 개 찾기도 했는데, 모르는 별자리가 엄청 많더라고. 별자리는 얼마나 있을까?",
+            "turn_id": "BK22005250-1",
+            "utterance_id": "BK22005250.1"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "별자리는 문화권별로 다르며 시대마다 달라지기도 하지만, 현재는 1930년 국제 천문 연맹(IAU)에서 정한 88개의 별자리가 공통으로 쓰이고 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%9E%90%EB%A6%AC",
+            "search_query": "별자리",
+            "terminate": false,
+            "text": "문화나 시대별로 다르긴 한데, 88개가 공통적인 숫자지. 30년대에 국제 천문 연맹에서 지정한 거야.",
+            "turn_id": "BK22005250-1",
+            "utterance_id": "BK22005250.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇구나, 어제 북극성도 봤었는데, 북극성도 별자리야?",
+            "turn_id": "BK22005250-2",
+            "utterance_id": "BK22005250.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "공인된 별자리는 아니지만 북두칠성이나 봄의 삼각형처럼 널리 쓰이는 것은 성군(星群; asterism)이라고 한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%9E%90%EB%A6%AC",
+            "search_query": "별자리 북극성",
+            "terminate": false,
+            "text": "아냐, 북극성은 별자리는 아니고 성군이라는 명칭이 따로 있어. 봄의 별자리나 북극 칠성처럼 많이 쓰이는 것들이지.",
+            "turn_id": "BK22005250-2",
+            "utterance_id": "BK22005250.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "넌 참 많은 것들을 아는구나. 별자리가 언제부터 시작되었는지는 알아?",
+            "turn_id": "BK22005250-3",
+            "utterance_id": "BK22005250.5"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "별자리는 대략 기원전 3천년 바빌로니아부근에서 시작된 것으로 여겨지고 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "맨 처음 생겨난 이후 그리스 로마에게로 전승되었고 별자리에 자신들의 신화에 나온 영웅,동물등의 이름을 넣었다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%9E%90%EB%A6%AC",
+            "search_query": "별자리 기원",
+            "terminate": false,
+            "text": "별자리는 바빌로니아 지역 인근에서 기원전 3000년 전에 시작되었어. 그 다음에 그리스로마 신화에 쓰여져 신화의 영웅이나 동물들을 별자리의 이름으로 썼지.",
+            "turn_id": "BK22005250-3",
+            "utterance_id": "BK22005250.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 별자리들이 모두 그리스로마 신화의 인물이나 동물들의 이름을 썼구나. 음, 그런데 그렇게 쓰이지 않은 것들도 있던데 이름은 어떻게 지어?",
+            "turn_id": "BK22005250-4",
+            "utterance_id": "BK22005250.7"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "현대의 모든 별자리 이름은 라틴어 고유의 이름이거나 단어이며, 몇몇 별들은 위치한 별자리 이름을 따라 소유격이나 탈격('~에서')이 사용되기도 하였다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%84%EC%9E%90%EB%A6%AC",
+            "search_query": "별자리 이름",
+            "terminate": false,
+            "text": "현대의 별자리들은 고유 라틴어의 이름이거나 단어야. 또 어느 별들은 자리한 별자리 이름에 탈격이나 소유격이 사용되었지.",
+            "turn_id": "BK22005250-4",
+            "utterance_id": "BK22005250.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군, 이름은 아까 국제 천문 연맹에서 정한다고 했지? 그 기관에 대해 설명해줄 수 있니?",
+            "turn_id": "BK22005250-5",
+            "utterance_id": "BK22005250.9"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "국제천문연맹(國際天文聯盟, 영어: International Astronomical Union IAU, 프랑스어: Union astronomique internationale UAI)은 천문학의 박사 학위를 가진 천문학자들이 모인 국제적 협회로, 천체(항성, 행성, 소행성 등)의 명칭을 부여하는 국제적으로 인정된 기관의 역할을 하고 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EC%B2%9C%EB%AC%B8%EC%97%B0%EB%A7%B9",
+            "search_query": "국제 천문 연맹",
+            "terminate": false,
+            "text": "국제천문연명은 천문학 박사들이 모인 국제 협회야. 보통 천체에 이름을 붙이는 걸로 국제적으로 인증 받은 기관이지.",
+            "turn_id": "BK22005250-5",
+            "utterance_id": "BK22005250.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 멋있다, 천문학 박사들의 모임이라니. 언제부터 시작되게 되었을까?",
+            "turn_id": "BK22005250-6",
+            "utterance_id": "BK22005250.11"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "국제천문연맹은 1919년 7월 28일 벨기에 브뤼셀에서 개최되었던 국제연구협의회(국제과학협의회)의 회의에서 결성되었다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EC%B2%9C%EB%AC%B8%EC%97%B0%EB%A7%B9",
+            "search_query": "국제천문연맹 시초",
+            "terminate": false,
+            "text": "1919년 7월 28일 벨기에 브뤼셀에서 열린 국제연구협의회에서 열린 회의에서 창설되었어.",
+            "turn_id": "BK22005250-6",
+            "utterance_id": "BK22005250.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 국제천문연맹처럼 별자리를 관리하는 기관이 있을까?",
+            "turn_id": "BK22005250-7",
+            "utterance_id": "BK22005250.13"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "한국천문연구원(韓國天文硏究院, Korea Astronomy and Space Science Institute, KASI)은 1974년 9월 설립된 대한민국 과학기술정보통신부 산하 기타공공기관으로 천문우주과학 분야의 정부출연 연구기관이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%B2%9C%EB%AC%B8%EC%97%B0%EA%B5%AC%EC%9B%90",
+            "search_query": "한국 별자리",
+            "terminate": false,
+            "text": "물론이지, 한국천문연구원이라고 74년 9월에 결성된 과학기술정보통신부 산하 연구기관이 있어. 천문우주과학 분야를 담당하는 정부출연기관이지.",
+            "turn_id": "BK22005250-7",
+            "utterance_id": "BK22005250.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 그런 기관이 있었구나. 어떻게 하다가 설립되게 된 거야?",
+            "turn_id": "BK22005250-8",
+            "utterance_id": "BK22005250.15"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "천문우주과학의 발전에 필요한 학술연구와 기술개발을 종합적으로 수행하고, 그 성과를 보급하기 위해 설립하였다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%B2%9C%EB%AC%B8%EC%97%B0%EA%B5%AC%EC%9B%90",
+            "search_query": "한국천문연구원 설립 이유",
+            "terminate": false,
+            "text": "천문우주과학의 발전을 위한 학술적 연구나 기술을 개발하기 위해 설립되었지. 이렇게 개발된 것을 보급하고.",
+            "turn_id": "BK22005250-8",
+            "utterance_id": "BK22005250.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 너 별자리에 대해 잘 아는 것 같은데 다음에 같이 별자리나 보러 가자.",
+            "turn_id": "BK22005250-9",
+            "utterance_id": "BK22005250.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나야 좋지, 내가 또 좋은 별자리 스팟을 알고 있어.",
+            "turn_id": "BK22005250-9",
+            "utterance_id": "BK22005250.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오오, 좋아, 시간 날 때 언제든 연락줘.",
+            "turn_id": "BK22005250-10",
+            "utterance_id": "BK22005250.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어, 시간이 생기면 연락할게.",
+            "turn_id": "BK22005250-10",
+            "utterance_id": "BK22005250.20"
+        }
+    ]
+}

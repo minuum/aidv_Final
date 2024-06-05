@@ -1,0 +1,359 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013293",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013293",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 임용시험을 준비한다고 하더라고요.",
+            "turn_id": "BK22013293-1",
+            "utterance_id": "BK22013293.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임용고시는 어려운데 걱정이 많으시겠어요.",
+            "turn_id": "BK22013293-1",
+            "utterance_id": "BK22013293.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임용고시가 어떤 시험인지 자세히 알고 계세요?",
+            "turn_id": "BK22013293-2",
+            "utterance_id": "BK22013293.3"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "공립 중등학교 교사 임용 후보자 선정 경쟁시험, 약칭 중등교사 임용시험은 대한민국의 공립 중학교와 고등학교의 교사를 선발하는 시험이다.",
+                    "value_time": "44810.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "교사로서의 전문적인 능력을 평가하는 시험으로 교육공무원법 및 교육공무원임용령(개정 2012.12.11.), 교육공무원임용 후보자 선정 경쟁시험규칙(개정 2014.9.2.) 등의 근거 법령에 의해 시행된다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EB%A6%BD_%EC%A4%91%EB%93%B1%ED%95%99%EA%B5%90_%EA%B5%90%EC%82%AC_%EC%9E%84%EC%9A%A9_%ED%9B%84%EB%B3%B4%EC%9E%90_%EC%84%A0%EC%A0%95_%EA%B2%BD%EC%9F%81%EC%8B%9C%ED%97%98",
+            "search_query": "공립 중등학교 교사 임용 후보자 선정 경쟁시험",
+            "terminate": false,
+            "text": "임용시험은 공립 중등학교 교사 임용 후보자 선정 경쟁시험의 약칭인데요, 국내 공립 중학교, 고등학교의 교사를 선발하고자 전문적인 능력을 평가하는 시험이에요. 교육공무원법과 교육공무원임용령, 교육공무원임용후보자 선정 경쟁시험 규칙 등의 근거 법령에 따라 시행되고요.",
+            "turn_id": "BK22013293-2",
+            "utterance_id": "BK22013293.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 임용시험은 공립학교 선생님이 되기 위한 시험이군요. 그런데 시험 문항이 까다롭나요?",
+            "turn_id": "BK22013293-3",
+            "utterance_id": "BK22013293.5"
+        },
+        {
+            "reference_date": "43452.0",
+            "reference_text": [
+                {
+                    "value": "현행 중등임용시험은 총 3교시(1교시 공통교육학, 2교시 전공A, 3교시 전공B)의 필기시험으로 이루어져 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1교시 교육학은 논술형 1문항(배점 20점), 전공A는 기입형 8문항과 서술형 6문항(배점 40점)으로 구성되어 있으며 전공B는 서술형 7문항에 논술형 1문항(배점 40점)으로 진행되고 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newswire.co.kr/newsRead.php?no=880833",
+            "search_query": "중등임용시험 문항",
+            "terminate": false,
+            "text": "중등 임용시험은 현재 1교시 공통교육학, 2교시와 3교시는 각 전공 A, B로 필기시험 형식으로 치러지고 있어요. 교육학의 경우에는 논술형 1문제를 풀게 되고, 전공 A는 기입형 8문제와 서술형 6문제, 전공 B는 서술형 7문제, 논술형 1문제로 구성돼 있어요.",
+            "turn_id": "BK22013293-3",
+            "utterance_id": "BK22013293.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현재 그럼 임용고시를 보기만 하면 선생님이 될 수 있는 건가요?",
+            "turn_id": "BK22013293-4",
+            "utterance_id": "BK22013293.7"
+        },
+        {
+            "reference_date": "44418.0",
+            "reference_text": [
+                {
+                    "value": "■사범대학 아니면 국·영·수 등 공통과목 교사 될 수 없어 = 현재 중등교사가 되기 위해서는 △사범대학 졸업 △일반학과 교직이수 수료 △교육대학원 졸업 등 총 세 가지 방법이 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.unn.net/news/articleView.html?idxno=513613",
+            "search_query": "중등교사 사범대학",
+            "terminate": false,
+            "text": "아뇨, 중등교사가 되려면 일반학과의 교직 이수를 수료하거나 사범대학을 졸업하거나, 교육대학원을 졸업해야 해요.",
+            "turn_id": "BK22013293-4",
+            "utterance_id": "BK22013293.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 졸업한 다음에 임용시험을 또 합격을 해야 하는 거군요. 그런데 초등학교는 교사 티오가 엄청 줄었던데, 중등에도 영향이 있나요?",
+            "turn_id": "BK22013293-5",
+            "utterance_id": "BK22013293.9"
+        },
+        {
+            "reference_date": "44257.0",
+            "reference_text": [
+                {
+                    "value": "교원양성기관 역량진단에 따라 사범대와 일반대 교육과 130여 명, 교직과정 1800여 명, 교육대학원 1200여 명 등 총 3200여 명의 정원이 감축된다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.unn.net/news/articleView.html?idxno=504849",
+            "search_query": "교원양성기관 역량진단",
+            "terminate": false,
+            "text": "네, 교원양성기관 역량진단에 의해서 교육대학원 1200여 명과 사범대 그리고 일반대 교육과 130여 명, 교직과정 1800여 명까지 총 3200여 명의 정원이 줄어들어요.",
+            "turn_id": "BK22013293-5",
+            "utterance_id": "BK22013293.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 아이들이 줄어든 만큼 교사도 줄어드는 건가 봐요. 정원 감축은 어떤 방식으로 하는데요?",
+            "turn_id": "BK22013293-6",
+            "utterance_id": "BK22013293.11"
+        },
+        {
+            "reference_date": "44418.0",
+            "reference_text": [
+                {
+                    "value": "시안에 따르면 앞으로 일반학과에서 교직이수 과정을 밟거나 교육대학원을 졸업해 교사 자격증을 취득하는 것이 불가능해진다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.unn.net/news/articleView.html?idxno=513613",
+            "search_query": "교사 자격증 취득",
+            "terminate": false,
+            "text": "앞으로 일반학과에서 교직 이수 과정을 듣거나 교육대학원을 나와서 교사 자격증을 따는 게 아예 불가능해져요.",
+            "turn_id": "BK22013293-6",
+            "utterance_id": "BK22013293.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 인원을 줄이는 개념이 아니라 자격증 취득 자체를 못하게 막아 버리는 거군요. 그럼 교육대학원은 아예 없어지게 되나요?",
+            "turn_id": "BK22013293-7",
+            "utterance_id": "BK22013293.13"
+        },
+        {
+            "reference_date": "44540.0",
+            "reference_text": [
+                {
+                    "value": "교육대학원은 현직 교사 재교육 기능을 강화하고 교사 전문성 심화를 위해 교육대학원에 박사과정을 운영할 수 있도록 관련 법령을 정비한다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.veritas-a.com/news/articleView.html?idxno=400415",
+            "search_query": "교육대학원",
+            "terminate": false,
+            "text": "아뇨, 교육대학원의 경우에는 현직에 있는 교사들을 재교육하는 기능을 보강하고, 박사과정을 운영해 교사의 전문성 강화를 위하는 방식으로 관련된 법령을 정리해요.",
+            "turn_id": "BK22013293-7",
+            "utterance_id": "BK22013293.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 교육대학원 개편은 당장 시행되는 정책인가요?",
+            "turn_id": "BK22013293-8",
+            "utterance_id": "BK22013293.15"
+        },
+        {
+            "reference_date": "44390.0",
+            "reference_text": [
+                {
+                    "value": "교육부는 교육대학원 개편 시점을 2024~2025년 사이로 보고 있다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 계획대로라면 1차적으로 교직과정(공통 과목)과 교육대학원에서 5700여 명이 감축 대상이 된다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2021/07/676133/",
+            "search_query": "교육대학원 개편",
+            "terminate": false,
+            "text": "아뇨, 우선 교육부에서는 교육대학원 개편을 2024년부터 2025년 사이에 진행하고자 하고 있어요. 계획대로라면 1차에 교직과정과 교육대학원에서만 5700여 명이 감축돼요.",
+            "turn_id": "BK22013293-8",
+            "utterance_id": "BK22013293.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아예 교사 자격증을 따는 자리를 줄이고, 임용고시 티오도 줄이는 가장 큰 이유는 무엇인가요?",
+            "turn_id": "BK22013293-9",
+            "utterance_id": "BK22013293.17"
+        },
+        {
+            "reference_date": "44655.0",
+            "reference_text": [
+                {
+                    "value": "이러한 변화는 감소하는 학령인구로 인한 교원 숫자의 감축이라는 자연스러운 결과로 보인다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 매년 초·중·고등학교 학생의 숫자는 감소하고 있으며 이러한 감소세는 시간이 지나면서 점점 가속화될 것이라는 게 공공연한 사실이다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.eduinside.kr/news/articleView.html?idxno=11214",
+            "search_query": "교원 숫자 감축",
+            "terminate": false,
+            "text": "학령인구가 감소하니까 자연스럽게 교원 숫자 감축도 이루어지는 게 자연스럽죠. 매년 초중고등학교 학생 수가 감소하고 있는데, 시간이 흐르면서 점점 가속화될 전망이에요.",
+            "turn_id": "BK22013293-9",
+            "utterance_id": "BK22013293.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 임용시험도 어떤 식으로 개편이 될지 궁금하네요.",
+            "turn_id": "BK22013293-10",
+            "utterance_id": "BK22013293.19"
+        },
+        {
+            "reference_date": "44333.0",
+            "reference_text": [
+                {
+                    "value": "교육부는 대신 교‧사대 졸업예정자를 대상으로 국가수준 교원자격검정고시를 실시해, 순위대로 임용을 결정할 계획이다.",
+                    "value_time": "44810.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.eduinnews.co.kr/news/articleView.html?idxno=39399",
+            "search_query": "교원자격검정고시",
+            "terminate": false,
+            "text": "교육부는 교대와 사대 졸업예정자들이 국가 수준의 교원자격검정 고시를 치러서 순위대로 임용되는 방안을 계획하고 있어요.",
+            "turn_id": "BK22013293-10",
+            "utterance_id": "BK22013293.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 유형이나 방식 등이 완전히 달라질 수도 있겠네요. 친구에게 이 소식을 얼른 알려야겠어요.",
+            "turn_id": "BK22013293-11",
+            "utterance_id": "BK22013293.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 도움이 되었으면 좋겠네요.",
+            "turn_id": "BK22013293-11",
+            "utterance_id": "BK22013293.22"
+        }
+    ]
+}

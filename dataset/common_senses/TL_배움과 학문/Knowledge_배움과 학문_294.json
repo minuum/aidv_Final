@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013109",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013109",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 사촌 동생이 법조인이 되기 위해 로스쿨에 도전한다고 그러더군요. 그래서 로스쿨에 대해 궁금해졌는데, 좀 알려주세요. 미국에서 시작되었다던데 맞나요?",
+            "turn_id": "BK22013109-1",
+            "utterance_id": "BK22013109.1"
+        },
+        {
+            "reference_date": "44649.0",
+            "reference_text": [
+                {
+                    "value": "하버드 로스쿨(Harvard Law School, HLS)은 미국 하버드 대학교의 법학전문대학원이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1817년에 설립된 미국에서 가장 오래된 로스쿨이며 세계에서 제일 큰 법률 도서관을 가지고 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%EB%B2%84%EB%93%9C_%EB%B2%95%ED%95%99%EB%8C%80%ED%95%99%EC%9B%90",
+            "search_query": "하버드 로스쿨",
+            "terminate": false,
+            "text": "네, 맞습니다. 1817년에 세워진 미국 하버드 대학교의 하버드 로스쿨이 세계에서 처음으로 등장한 법학전문대학원입니다. 전 세계에서 가장 규모가 있는 법률 도서관도 있고요.",
+            "turn_id": "BK22013109-1",
+            "utterance_id": "BK22013109.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 미국 하버드 로스쿨부터 로스쿨 제도가 시작한 거군요. 듣자 하니 버락 오바마 전 미국 대통령도 여기 출신이라는데 맞나요?",
+            "turn_id": "BK22013109-2",
+            "utterance_id": "BK22013109.3"
+        },
+        {
+            "reference_date": "39518.0",
+            "reference_text": [
+                {
+                    "value": "1988년 하버드 로스쿨에 들어간 뒤 흑인 최초로 <하버드 로 리뷰>의 편집장이 됐다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "91년 졸업한 오바마는 다시 시카고로 돌아와 민권변호사로 활동했고, 결혼과 동시에 시카고대학에서 헌법학 강의를 맡기도 했다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/55192",
+            "search_query": "오바마 하버드 로스쿨",
+            "terminate": false,
+            "text": "네, 맞습니다. 1988년 하버드 로스쿨에 입학하여 흑인 중에 처음으로 하버드 로 리뷰의 편집장을 역임했고요. 1991년 졸업한 후에는 시카고로 되돌아가 민권 변호사로 활동했고요. 또 결혼과 동시에 시카고 대학에서 헌법학을 맡아 강의했습니다.",
+            "turn_id": "BK22013109-2",
+            "utterance_id": "BK22013109.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 뭔가 대단한 엘리트들만 진학하는 학교 같아 보이네요. 그러면 미국하고 한국 외에도 로스쿨 제도가 있는 나라가 있나요?",
+            "turn_id": "BK22013109-3",
+            "utterance_id": "BK22013109.5"
+        },
+        {
+            "reference_date": "43515.0",
+            "reference_text": [
+                {
+                    "value": "일본은 2004년에 로스쿨을 도입했다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이전 사법고시가 ‘시험 기술자’만 양성한다는 비판을 받으면서 로스쿨을 졸업해야 사법시험을 볼 수 있게 했다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20190219/94195317/1",
+            "search_query": "일본 2004년 로스쿨 도입",
+            "terminate": false,
+            "text": "대표적으로 일본이 있습니다. 2004년에 로스쿨이 생겼는데, 이전에 존재하고 있던 사법고시가 시험 기술자만 길러낸다는 비판이 있다 보니, 로스쿨을 졸업한 이들만 사법시험에 응시할 수 있도록 했죠.",
+            "turn_id": "BK22013109-3",
+            "utterance_id": "BK22013109.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 일본도 로스쿨 제도가 있군요. 그러면 한국에는 언제 도입된 건가요?",
+            "turn_id": "BK22013109-4",
+            "utterance_id": "BK22013109.7"
+        },
+        {
+            "reference_date": "43231.0",
+            "reference_text": [
+                {
+                    "value": "법조인 양성제도 개혁안으로 로스쿨 도입을 처음 논의했던 때는 김영삼 정부 때인 1995년이었다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 표류하다가 2007년 7월 관련 법률 통과로 2009년부터 법학전문대학원이 문을 열었다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=47554",
+            "search_query": "한국 로스쿨 도입 2009년",
+            "terminate": false,
+            "text": "법조인 육성 제도를 개혁하는 방안으로 1995년 김영삼 정부 때부터 로스쿨 도입이 논의되기 시작했는데요. 이후에 계속 공전만 거듭하다 2007년 7월에 관련 법률이 통과되면서 2009년부터 로스쿨이 개설되었습니다.",
+            "turn_id": "BK22013109-4",
+            "utterance_id": "BK22013109.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 한국에서 로스쿨에 입학하려면 어떤 조건이 필요한가요? 무슨 시험을 친다고 들었던 것 같아요.",
+            "turn_id": "BK22013109-5",
+            "utterance_id": "BK22013109.9"
+        },
+        {
+            "reference_date": "40277.0",
+            "reference_text": [
+                {
+                    "value": "법학전문대학원 입학을 위한 전제조건은 학사 학위가 필요하고 소정의 공인외국어성적과 법학적성시험(LEET) 성적 제출이다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 로스쿨법령상 의무사항이다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=17895",
+            "search_query": "로스쿨에 입학하려면 학사 LEET",
+            "terminate": false,
+            "text": "로스쿨에 입학하려면 학사 학위와 소정의 공인 외국어 성적, 그리고 법학적성시험 제출이 전제되어야 합니다. 로스쿨 관련 법령에 따라 무조건 따라야 하고요.",
+            "turn_id": "BK22013109-5",
+            "utterance_id": "BK22013109.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4년제 대학을 나오고, 토익이나 토플을 치고, 법학적성시험을 치러야 하는 거군요. 그다음은요? 그냥 외국어 성적과 법학적성시험 성적을 가지고 합격자를 가르나요?",
+            "turn_id": "BK22013109-6",
+            "utterance_id": "BK22013109.11"
+        },
+        {
+            "reference_date": "44778.0",
+            "reference_text": [
+                {
+                    "value": "대부분 로스쿨 입시는 2단계로 구성돼 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1단계 선발에서는 학부 성적, 외국어 성적, 법학적성시험(LEET) 성적 등과 같은 정량적 요소를 기준으로 뽑는다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2단계 선발에서는 자기소개서, 면접 등과 같은 평가자 주관이 개입되는 정성적 요소가 선발 기준이다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사실상 면접이 합격 여부를 결정짓는 구조다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20220803150923120",
+            "search_query": "로스쿨 입시 절차",
+            "terminate": false,
+            "text": "그렇지 않습니다. 로스쿨 입시 과정은 대체로 2단계로 이뤄져 있는데요. 첫 번째 단계에는 학부 성적, 공인 외국어 시험점수, 법학적성시험 성적 등 정량적인 요소를 기준 삼아 선발하고요. 두 번째 단계에는 자기소개서, 면접 등과 같이 평가하는 사람의 주관이 반영되는 정성적 요소를 기준으로 뽑습니다. 사실상 당락은 면접이 좌우하는 구조죠.",
+            "turn_id": "BK22013109-6",
+            "utterance_id": "BK22013109.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 로스쿨에 입학해서 졸업하기만 하면 누구나 법조인이 될 수 있는 건가요?",
+            "turn_id": "BK22013109-7",
+            "utterance_id": "BK22013109.13"
+        },
+        {
+            "reference_date": "44510.0",
+            "reference_text": [
+                {
+                    "value": "변호사가 되는 방법으로는 2017년 사법시험이 폐지되면서 법학전문대학원(로스쿨)을 졸업한 후, 변호사 시험에 합격하여 변호사 자격을 취득하는 방법이 유일하다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "로스쿨 졸업 후 변호사 시험에 합격하더라도 변호사법 제21조의 2, 제31조의 2에 의거하여 6개월 이상의 법정 실무수습을 마쳐야 실질적인 변호사 활동이 가능하다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20047",
+            "search_query": "변호사시험 절차",
+            "terminate": false,
+            "text": "로스쿨을 졸업한 후에 오로지 변호사 시험을 치러 합격해야만 변호사 자격을 획득할 수가 있습니다. 또 로스쿨을 졸업하고 변호사 시험을 통과했다고 해도, 변호사법 제21조의2, 제31조의2에 따라 6개월 이상 법정 실무 수습을 거쳐야만 실제로 변호사로서 활동을 개시할 수 있죠.",
+            "turn_id": "BK22013109-7",
+            "utterance_id": "BK22013109.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 로스쿨만 졸업하면, 합격할 때까지 변호사 시험에 응시할 수 있는 건가요?",
+            "turn_id": "BK22013109-8",
+            "utterance_id": "BK22013109.15"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "변호사시험법 7조에 따르면 로스쿨 석사학위 취득 후 5년 이내에 5회만 응시할 수 있도록 제한한다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/2022073165501",
+            "search_query": "로스쿨 오탈",
+            "terminate": false,
+            "text": "역시 그렇지 않습니다. 변호사시험법 7조에는 로스쿨 석사학위를 딴 후 5년 안에 다섯 차례만 변호사시험을 볼 수 있도록 제한을 두고 있습니다.",
+            "turn_id": "BK22013109-8",
+            "utterance_id": "BK22013109.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 로스쿨을 나와도 변호사가 못될 수 있겠군요.",
+            "turn_id": "BK22013109-9",
+            "utterance_id": "BK22013109.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "13년 동안 다섯 차례의 기회를 소진한 사람들이 속속 등장했죠.",
+            "turn_id": "BK22013109-9",
+            "utterance_id": "BK22013109.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 로스쿨이 뭔지 확실히 알았네요. 그러면 저는 이만 들어가 보겠습니다.",
+            "turn_id": "BK22013109-10",
+            "utterance_id": "BK22013109.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 댁까지 조심해서 들어가세요.",
+            "turn_id": "BK22013109-10",
+            "utterance_id": "BK22013109.20"
+        }
+    ]
+}

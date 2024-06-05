@@ -1,0 +1,407 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006336",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006336",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "TV를 보고 있으면 가끔 정말 신기해. 어떻게 화면이 나오고 소리가 나오는 걸까?",
+            "turn_id": "BK22006336-1",
+            "utterance_id": "BK22006336.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 우리가 보는 TV와 옛날에는 전혀 다르니까 오래 전의 원리를 이해해야 할 거야.",
+            "turn_id": "BK22006336-1",
+            "utterance_id": "BK22006336.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전의 TV라면 그 브라운관 TV인 CRT를 말하는 거지? 그것도 궁금했어. 어떻게 작동하는 거야?",
+            "turn_id": "BK22006336-2",
+            "utterance_id": "BK22006336.3"
+        },
+        {
+            "reference_date": "2016-08-01",
+            "reference_text": [
+                {
+                    "value": "CRT는 형광물질이 칠해진 유리면에 음극 전자가 충돌하며 빛을 내는 원리입니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수많은 전자를 형광면에 충돌시키면 1초에 25개~50개까지 빛에너지를 발광하게 되는데 그 빛을 우리가 화면으로 보게 되는 것입니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정확한 지점에 빛을 나타나게 하기 위해선 진공관이 무척 길어야만 했습니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.lgdisplay.com/kr/2016/08/btp_crt/",
+            "search_query": "CRT 브라운관",
+            "terminate": false,
+            "text": "CRT는 유리면에 형광물질을 칠해 음극 전자를 충돌시켜 빛을 내는 원리야. 엄청 많은 전자를 형광면과 부딪히게 하면 1초에 25개에서 50개까지 빛에너지가 발광해. 이 빛이 화면이 되는 거지. 그런데 정확한 지점에 빛을 만들기 위해서는 진공관이 정말 길어야 했어.",
+            "turn_id": "BK22006336-2",
+            "utterance_id": "BK22006336.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "CRT의 뒤통수가 왜 그렇게 길었는지 알 것 같다. 전에 있던 LCD TV와 지금의 OLED TV와도 작동이 많이 다른 것 같은데, LCD 먼저 알려줘.",
+            "turn_id": "BK22006336-3",
+            "utterance_id": "BK22006336.5"
+        },
+        {
+            "reference_date": "2021-04-05",
+            "reference_text": [
+                {
+                    "value": "전류의 흐름을 조절하면 빛의 통과 정도가 변하는 특성을 이용해 원하는 이미지를 표현하는 것이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 LCD는 빛의 통과 정도를 조절할 뿐 스스로는 빛을 낼 수 없다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 LCD로 TV를 만들기 위해선 액정 뒤편에 ‘백라이트’라 불리는 별도의 장치를 통해 빛을 쏴줘야 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "TV 화면 뒤에 빛을 내는 형광등이 설치돼 있다고 생각하면 된다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 액정은 스스로 색을 표현하지 못해 별도의 컬러 필터도 필요하다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/business/view/2021/04/325040/",
+            "search_query": "LCD",
+            "terminate": false,
+            "text": "LCD는 전류의 흐름을 조절했을 때 빛의 통과 정도가 바뀌는 특성으로 원하는 이미지를 표현하는데, 빛의 통과 정도만 조절할 뿐 스스로 빛을 낼 수 없어. 그래서 액정 뒤에 백라이트라 불리는 별도의 장치를 두고 빛을 쏴야 해. 백라이트란 건 TV 화면 뒤 형광등이 있다고 생각하면 돼. 그런데 액정은 스스로 색을 표현하지 못해서 추가적으로 컬러 필터도 필요로 하지.",
+            "turn_id": "BK22006336-3",
+            "utterance_id": "BK22006336.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 특징이 있었구나. 그럼 OLED는 어떤 거야? 겉으로 봤을 때는 LCD TV보다 더 얇다는 것 외에는 별다른 차이를 모르겠어.",
+            "turn_id": "BK22006336-4",
+            "utterance_id": "BK22006336.7"
+        },
+        {
+            "reference_date": "2021-12-11",
+            "reference_text": [
+                {
+                    "value": "OLED(Organic Light Emitting Diodes)는 유기화합물로 만든 스스로 빛을 내는 소자인데요.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "각 소자에 흐르는 전류를 조절해 원하는 이미지를 표현할 수 있습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 OLED는 각각의 소자가 스스로 빛을 내기 때문에 별도의 백라이트가 필요 없는데요.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 특징 때문에 OLED TV는 LCD TV보다 더욱 얇은 두께의 제품을 만드는 것이 가능합니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2021/12/1129866/",
+            "search_query": "디스플레이 변화",
+            "terminate": false,
+            "text": "OLED는 유기화합물로 만든 자체 발광 소자야. 각 소자에 흐르는 전류를 조절하면 원하는 이미지를 만들 수 있지. 이때 OLED는 자체 발광하기 때문에 백라이트가 필요 없어. 이런 특징으로 OLED TV는 LCD TV보다 얇게 만들 수 있지.",
+            "turn_id": "BK22006336-4",
+            "utterance_id": "BK22006336.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유였구나. 그러고 보니 OLED TV로 돌돌 말리는 것도 본 적이 있어. 그건 어떻게 가능한 거야?",
+            "turn_id": "BK22006336-5",
+            "utterance_id": "BK22006336.9"
+        },
+        {
+            "reference_date": "2019-09-21",
+            "reference_text": [
+                {
+                    "value": "이를 이해하기 위해선 OLED의 이름부터 찬찬히 살펴볼 필요가 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "OLED의 머릿글자 ‘O’는 유기물(Organic)을 뜻한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "뒤의 LED(Light Emitting Diodes)는 발광소자를 뜻하는 것으로 형광등을 대신해 거실과 주방의 조명 역할을 해왔던 그 LED로 이해 하면 된다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 OLED라는 이름에는 발광소자로 실리콘이나, 갈륨, 게르마늄과 같은 금속물질이 아니라 탄소와 수소를 주축으로 하는 유기화합물을 사용한다는 뜻이 내포돼 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘유기물 사용이 뭐가 큰 차이야’라고 할 수도 있겠지만, 유기물질은 금속에 비해 원하는 대로 물성을 조절할 수 있고, 금속이 아니기 때문에 휘거나 말 수 있는 유연성도 확보할 수 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201909181794739966",
+            "search_query": "OLED",
+            "terminate": false,
+            "text": "OLED의 이름으로 쉽게 설명해줄게. OLED의 머릿글자 O는 유기물을, LED는 발광소자를 의미해. 참고로 LED는 거실과 주방의 조명들을 생각하면 돼. 정리하면 실리콘이나 갈륨 같은 금속 물질로 만들었던 발광소자를 탄소와 수소로 주로 이뤄진 유기화합물을 이용해 만든다는 것이지. 유기물 사용이 무슨 차이를 만드냐고 하겠지만, 유기물질은 금속보다 원하는 대로 물질의 성질을 조절할 수 있고 휘게도 할 수 있고 말 수도 있는 유연성도 가질 수 있지.",
+            "turn_id": "BK22006336-5",
+            "utterance_id": "BK22006336.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "OLED TV가 이런 것이구나. 최근 QLED에 대한 기사도 보긴 했었는데 OLED의 업그레이드 버전인가? 뒤에 LED가 붙으니까 유사한 것으로 추측되는 걸?",
+            "turn_id": "BK22006336-6",
+            "utterance_id": "BK22006336.11"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "퀀텀닷 디스플레이(quantum dot display)는 퀀텀닷(QD)이나 반도체 나노 결정을 디스플레이 제조에 사용한 것을 일컫는다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%80%80%ED%85%80%EB%8B%B7_%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4",
+            "search_query": "QLED",
+            "terminate": false,
+            "text": "그렇지 않아. QLED는 퀀텀닷이나 반도체 나노 결정을 디스플레이 제조에 사용한 것을 말해.",
+            "turn_id": "BK22006336-6",
+            "utterance_id": "BK22006336.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양자점을 사용한 TV가 나온 거라고? 그런 게 정말 가능하다는 거야?",
+            "turn_id": "BK22006336-7",
+            "utterance_id": "BK22006336.13"
+        },
+        {
+            "reference_date": "2020-06-30",
+            "reference_text": [
+                {
+                    "value": "● 현재 시중에 판매 중인 모든 ‘QLED TV’는 ‘LCD(액정표시장치) TV’다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "● ‘QLED TV’는 LCD 패널에 단순히 퀀텀닷 필름을 더해 만든 TV로, 아직 상용화되지 않은 QLED 기술과는 전혀 다르다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "● 실제 QLED 기술은 초미세 반도체 결정물질인 퀀텀닷 입자 하나하나가 스스로 빛을 내는 자발광 디스플레이 기술로 아직은 연구개발이 완료되지도 않았다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "● 주요 시장조사업체 HIS 마킷(HIS Markit) 등 업계에서도 ‘QLED TV’를 ‘QD-LCD(퀀텀닷 LCD) TV’로 표현하고 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/It/article/all/20191016/97912314/1",
+            "search_query": "QLED 기술",
+            "terminate": false,
+            "text": "실은 아직 불가능해. QLED 기술인 초미세 반도체 결정물질인 퀀텀닷 입자가 스스로 빛나는 자체발광 디스플레이 기술은 아직 연구 개발 단계야. 그렇다면 시중에 판매 중인 QLED TV는 사실 LCD TV고,LCD 패널에 퀀텀닷 필름을 더해 만든 것으로 아까 말한 QLED와는 완전히 다른 것이지. 주요 시장조사업체인 HIS 마킷 같은 업계에서는 QLED TV를 QD-LCD TV라고 표기하고 있어.",
+            "turn_id": "BK22006336-7",
+            "utterance_id": "BK22006336.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 양자 기술이 많이 발전하지는 않은 걸로 알고 있었거든. 그래도 이런 시도들이 기술을 발전 시키니까 앞으로 더 좋은 TV가 기대된다. 그래서 생각난 건데 TV를 발명한 사람은 누구야?",
+            "turn_id": "BK22006336-8",
+            "utterance_id": "BK22006336.15"
+        },
+        {
+            "reference_date": "2017-03-17",
+            "reference_text": [
+                {
+                    "value": "1884년에 독일의 과학자 닙코프(Paul Nipkow; 1860-1940)가 발명한 ‘닙코프 원판’은 전기신호를 영상으로 바꿀 수 있는 초보적인 장치였다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 바탕으로 실용적인 텔레비전을 처음으로 만들어 낸 사람으로는 영국의 존 로지 베어드(John Logie Baird; 1888-1946)가 꼽힌다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%B5%9C%EC%B4%88%EC%9D%98-%ED%85%94%EB%A0%88%EB%B9%84%EC%A0%84%EC%9D%80-%EC%9B%90%ED%8C%90-%EB%8F%8C%EB%A6%AC%EA%B8%B0-%EB%B0%A9%EC%8B%9D/",
+            "search_query": "TV 발명가",
+            "terminate": false,
+            "text": "1884년 독일 과학자 닙코프가 발명한 닙코프의 원판은 전기 신호를 영상으로 바꿀 수 있는 초보적인 장치였어. 이를 이용해 영국의 존 로지 베어드가 실용적인 텔레비전을 만들어 냈어.",
+            "turn_id": "BK22006336-8",
+            "utterance_id": "BK22006336.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 90년대의 그 CRT가 최초의 TV라고 생각했는데. 그럼 CRT 개발자는 누구야? 브라운관이라고도 많이 불렀는데 설마 브라운은 아니겠지?",
+            "turn_id": "BK22006336-9",
+            "utterance_id": "BK22006336.17"
+        },
+        {
+            "reference_date": "2017-05-19",
+            "reference_text": [
+                {
+                    "value": "CRT(Cathode-ray Tube)는 독일의 물리학자 ‘카를 페르디난트 브라운(Karl Ferdinand Braun)’ 박사가 발명해 사람들의 인식 속에 자리 잡아 흔히 ‘브라운관’으로 불리게 되었습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.lgdisplay.com/kr/2017/05/crt%EB%B6%80%ED%84%B0-oled%EA%B9%8C%EC%A7%80-%EC%A7%80%EA%B8%88%EC%9D%98-%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A5%BC-%EB%A7%8C%EB%93%A0-%EB%B0%9C%EB%AA%85%EA%B0%80/",
+            "search_query": "CRT 개발자",
+            "terminate": false,
+            "text": "사람 이름이 맞아. CRT는 독일의 물리학자 카를 페르디난트 브라운박사가 발명해 흔히 브라운관으로 불리게 되었지.",
+            "turn_id": "BK22006336-9",
+            "utterance_id": "BK22006336.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말로 발명가 이름에서 따왔네. 한편으로 전기 신호 장치에서 저 커다란 화면까지 이어진 걸 보니 역시 작은 발명이 큰 기술을 만드는 것 같아.",
+            "turn_id": "BK22006336-10",
+            "utterance_id": "BK22006336.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "디스플레이 기술이 계속 발전해서 우리의 핸드폰이 발전한 것이니까 기술은 다른 분야까지 확장되는 것 같아. 우리 다음에 핸드폰에 대해서도 공부해 보자고.",
+            "turn_id": "BK22006336-10",
+            "utterance_id": "BK22006336.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "마침 핸드폰도 바꿀 예정이라서 관련된 정보를 알아보며 고르면 좋을 것 같아. 핸드폰 사러 가기 전에 꼭 연락할게.",
+            "turn_id": "BK22006336-11",
+            "utterance_id": "BK22006336.21"
+        }
+    ]
+}

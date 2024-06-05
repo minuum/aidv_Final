@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008294",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008294",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라가 수소차 개발에 앞장서고 있다고 하는데, 수소차라는 건 어떤 차를 말하는 건지 궁금하네요. 혹시 수소차에 대해서 좀 알고 있어요?",
+            "turn_id": "BK22008294-1",
+            "utterance_id": "BK22008294.1"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "흔히 말하는 ‘수소차’의 정확한 이름은 수소 연료전지 자동차(FCEV·Fuel Cell Electric Vehicle)입니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이걸 줄여서 수소전기차라고 부릅니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어 이름에 전기(Electric)가 포함돼 있듯, 수소전기차도 전기차의 한 종류입니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/marketing/878983.html",
+            "search_query": "수소차",
+            "terminate": false,
+            "text": "수소차는 수소 연료전지 자동차를 줄여서 부르는 말이에요. 다른 말로 수소전기차라고 부를 수 있죠. 영어로는 Fuel Cell Electric Vehicle이라는 이름을 사용하는데, Electric이 포함된 것을 보면 알 수 있듯이 전기차의 한 종류라고 할 수 있어요.",
+            "turn_id": "BK22008294-1",
+            "utterance_id": "BK22008294.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 수소차는 전기차랑 완전히 다른 게 아니라 전기차의 한 종류군요. 그럼 전기차랑 수소차는 어떤 차이가 있는 거예요?",
+            "turn_id": "BK22008294-2",
+            "utterance_id": "BK22008294.3"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "리튬 이온 전기차(BEV)가 배터리에서 전기를 얻는다면, 수소전기차는 수소와 산소의 화학 반응에서 생긴 전기를 사용해 모터를 구동합니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/marketing/878983.html",
+            "search_query": "수소차와 전기차 차이",
+            "terminate": false,
+            "text": "배터리에서 전기를 얻는 리튬 이온 전기차와는 다르게 수소전기차의 경우 산소와 수소가 만나 화학반응을 일으키면서 생기는 전기를 활용해서 모터를 구동한다는 차이가 있어요.",
+            "turn_id": "BK22008294-2",
+            "utterance_id": "BK22008294.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산소와 수소가 만나는 걸로 어떻게 차를 움직일 수 있는지 저는 신기하기만 한데요, 이게 어떻게 가능한 거예요?",
+            "turn_id": "BK22008294-3",
+            "utterance_id": "BK22008294.5"
+        },
+        {
+            "reference_date": "2019-01-09",
+            "reference_text": [
+                {
+                    "value": "자동차가 바퀴를 굴려서 이동하려면 일단 큰 에너지가 필요합니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기존 내연기관 차량은 기름을 태워서 이런 에너지를 냈죠.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 수소차는 차에 충전한 수소가 공기 중의 산소와 결합해 화학 반응을 일으키면서 에너지를 냅니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 에너지를 이용해 바퀴를 움직이는 것이죠.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=86875",
+            "search_query": "수소차 작동 원리",
+            "terminate": false,
+            "text": "바퀴를 굴려서 자동차가 움직이려면 큰 에너지가 필요하잖아요. 기존의 차량은 내연 기관에서 기름을 태워 구동 에너지를 얻었지만, 수소차는 차에 수소를 충전하고, 공기 중에 있는 산소가 이 수소와 만났을 때 화학 반응을 일으키면서 만들어내는 에너지를 이용해서 바퀴를 구동하게 되는 거예요.",
+            "turn_id": "BK22008294-3",
+            "utterance_id": "BK22008294.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 기름을 사용하지 않으니까 수소차도 배기가스 같은 오염물질을 만들어내지 않겠네요?",
+            "turn_id": "BK22008294-4",
+            "utterance_id": "BK22008294.7"
+        },
+        {
+            "reference_date": "2019-01-09",
+            "reference_text": [
+                {
+                    "value": "이런 화학적 반응을 거쳐서 수소차가 에너지를 만들고 남은 것은 배기가스가 아니라 수소이온입니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 남은 수소이온은 공기 중의 산소와 결합하여 물을 배출하게 됩니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=86875",
+            "search_query": "수소차 배기가스",
+            "terminate": false,
+            "text": "그렇죠. 수소차는 앞서 말한 화학 반응을 통해 에너지를 만들고 배기가스가 아닌 수소이온만 남기게 되는데, 이 수소이온이 공기 중의 산소와 만나서 물을 배출하게 되거든요.",
+            "turn_id": "BK22008294-4",
+            "utterance_id": "BK22008294.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환경을 오염 시키지 않으니 좋네요. 그런데 전기차도 아직 완전히 대중화되지 않았는데 굳이 수소차를 또 개발하려고 하는 이유가 뭔지 궁금해요. 전기차보다 수소차가 더 좋은 점이 많은가요?",
+            "turn_id": "BK22008294-5",
+            "utterance_id": "BK22008294.9"
+        },
+        {
+            "reference_date": "2019-03-23",
+            "reference_text": [
+                {
+                    "value": "현재 수소차가 전기차보다 우위에 있다고 평가받는 특성은 △긴 주행거리 △짧은 충전시간 △공기정화 기능 등이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2019/03/22/2019032201902.html",
+            "search_query": "수소차가 전기차보다 나은 점",
+            "terminate": false,
+            "text": "수소차는 전기차보다 긴 주행거리를 가지고 있고 충전 시간이 짧으며, 공기정화 기능까지 가지고 있어서 전기차보다 더 우위에 있다고 평가할 수 있죠.",
+            "turn_id": "BK22008294-5",
+            "utterance_id": "BK22008294.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주행거리랑 충전 시간은 이해가 가는데, 수소차에 공기정화 기능이 있다는 건 무슨 의미에서 그런 거예요?",
+            "turn_id": "BK22008294-6",
+            "utterance_id": "BK22008294.11"
+        },
+        {
+            "reference_date": "2019-01-09",
+            "reference_text": [
+                {
+                    "value": "수소이온과 결합하는 산소는 공기 중의 미세먼지를 포함하고 있는 경우가 있습니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 미세먼지를 포함한 산소가 수소차 내부에서 수소이온과 결합하면서 오염물질이 제거된 깨끗한 물만 배출합니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 수소차가 미세먼지를 빨아들여 깨끗한 물만 내놓기 때문에 환경오염은 없고, 대기까지 정화하게 되는 1석 2조의 효과를 볼 수 있습니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=86875",
+            "search_query": "수소차 공기정화 기능",
+            "terminate": false,
+            "text": "공기 중에 있는 산소는 미세먼지를 포함한 상태로 수소이온과 결합할 수 있는데, 수소차 내부로 이렇게 미세먼지를 포함한 산소가 들어와서 수소이온과 결합하면 오염 물질은 제거되고 깨끗한 물만 배출하게 되거든요. 결과적으로 보면 수소차가 미세먼지를 빨아들인 후에 깨끗한 물만 내보내는 것이기 때문에 일거양득의 효과로 환경오염 없이 대기까지 정화하는 기능을 할 수 있게 되는 거죠.",
+            "turn_id": "BK22008294-6",
+            "utterance_id": "BK22008294.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 듣고 보니 그렇겠네요. 오염된 공기 속에서 주행해도 깨끗한 물만 남기니까요. 이렇게 보면 마냥 좋아 보이는 데 혹시 단점도 있나요?",
+            "turn_id": "BK22008294-7",
+            "utterance_id": "BK22008294.13"
+        },
+        {
+            "reference_date": "2019-03-23",
+            "reference_text": [
+                {
+                    "value": "연료전지에서 촉매로 고가의 백금이 사용돼 차량 가격이 비싸다는 점, 전기차보다 월등히 낮은 에너지 효율, 부족한 수소 충전 인프라는 단점으로 꼽힌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2019/03/22/2019032201902.html",
+            "search_query": "수소차 단점",
+            "terminate": false,
+            "text": "수소차의 연료전지 촉매는 고가의 백금이기 때문에 차량의 가격이 비싸죠. 또 전기차보다 에너지 효율이 아주 낮고 수소 충전 인프라가 부족하다는 점이 수소차의 단점이에요.",
+            "turn_id": "BK22008294-7",
+            "utterance_id": "BK22008294.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 아직 전기차도 충전소가 부족한데 수소차 역시 상용화되려면 인프라 구축이 시급하겠네요. 그럼 언제쯤 이 수소차를 우리가 쉽게 이용할 수 있게 될까요?",
+            "turn_id": "BK22008294-8",
+            "utterance_id": "BK22008294.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "정부가 발표한 ‘수소경제 활성화 로드맵’을 보면 정부는 2025년까지 수소차 10만대의 양산 체계를 갖춰 현재의 반값이 3천만원대의 수소차를 구매할 수 있게 한다고 했습니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/economy/marketing/878983.html",
+            "search_query": "수소차 상용화 시기",
+            "terminate": false,
+            "text": "정부는 2025년까지 수소차 10만 대를 양산할 수 있는 체계를 갖추고, 현재 가격의 반값인 3천만 원대 수소차를 살 수 있게 할 거라고 수소경제 활성화 로드맵을 통해서 발표한 바 있어요.",
+            "turn_id": "BK22008294-8",
+            "utterance_id": "BK22008294.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 좀 더 기다려야겠네요. 그래도 뭔가 친환경에 미래지향적인 차를 볼 수 있다고 생각하니 좀 설레는데요?",
+            "turn_id": "BK22008294-9",
+            "utterance_id": "BK22008294.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 하지만 아직 갈 길이 멀기 때문에 개발이 수월하게 이루어지도록 좀 더 지켜봐야 할 것 같아요.",
+            "turn_id": "BK22008294-9",
+            "utterance_id": "BK22008294.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언젠가 수소차가 흔하게 다니는 날이 되면 미세먼지 감소 효과도 볼 수 있게 되면 좋겠네요.",
+            "turn_id": "BK22008294-10",
+            "utterance_id": "BK22008294.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 대기 오염을 완화할 수 있는 기능이 있으니 수소차의 대중화가 기대할 만하네요.",
+            "turn_id": "BK22008294-10",
+            "utterance_id": "BK22008294.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "오늘 수소차에 대한 여러 가지 이야기 같이 나누게 되어서 즐거웠어요. 빨리 수소차를 타보고 싶어지네요. 그럼 다음에 또 이야기 나누도록 해요.",
+            "turn_id": "BK22008294-11",
+            "utterance_id": "BK22008294.21"
+        }
+    ]
+}

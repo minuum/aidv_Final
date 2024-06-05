@@ -1,0 +1,423 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001067",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001067",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "푹 자고 일어나니 상당히 개운하네요. 수면에 대해 궁금한 게 많은데 혹시 수면의 정의가 어떻게 되나요?",
+            "turn_id": "BK22001067-1",
+            "utterance_id": "BK22001067.1"
+        },
+        {
+            "reference_date": "2022-04-03",
+            "reference_text": [
+                {
+                    "value": "잠(영어: Sleep) 또는 수면(睡眠)은 동물이 일정 시간 동안 몸과 마음의 활동을 쉬면서 의식이 없는 상태로 있는 것이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "의식은 없거나 줄어들고, 감각 기관이 상대적으로 활동을 중단하며, 거의 모든 수의근의 움직임이 없는 것이 특징이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A0",
+            "search_query": "수면",
+            "terminate": false,
+            "text": "수면은 우리가 일정 시간 동안 활동을 쉬면서 의식이 없거나 줄어든 상태를 말해요. 수면 상태에서는 감각 기관의 활동이 멈추게 되며 수의근의 움직임도 없답니다.",
+            "turn_id": "BK22001067-1",
+            "utterance_id": "BK22001067.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 사람은 하루에 몇 시간을 자야 적당한 걸까요? 저는 보통 5시간 정도 자는 것 같아요.",
+            "turn_id": "BK22001067-2",
+            "utterance_id": "BK22001067.3"
+        },
+        {
+            "reference_date": "2022-05-09",
+            "reference_text": [
+                {
+                    "value": "세계보건기구에 따르면 일반 성인의 적정 수면 시간은 7~9시간이지만, 나이에 따라 적정 수면 시간이 달라진다고 한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kizmom.hankyung.com/news/view.html?aid=202205091210o",
+            "search_query": "적정 수면 시간",
+            "terminate": false,
+            "text": "5시간 정도 주무신다면 일반 성인의 적정 수면 시간인 7시간에서 9시간에 비해 부족하네요.",
+            "turn_id": "BK22001067-2",
+            "utterance_id": "BK22001067.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네요, 그런데 나이가 많아질수록 권장되는 수면 시간도 줄어들죠?",
+            "turn_id": "BK22001067-3",
+            "utterance_id": "BK22001067.5"
+        },
+        {
+            "reference_date": "2020-07-30",
+            "reference_text": [
+                {
+                    "value": "미국 국립수면재단은 연령대별 권장 수면 시간을 ▲0~3개월 14~17시간 ▲4~11개월 12~15시간 ▲1~2세 11~14시간 ▲3~5세 10~13시간 ▲6~13세 9~11시간 ▲14~17세 8~10시간 ▲18~64세 7~9시간 ▲65세 이상 7~8시간 등으로 제시하고 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200730_0001112461&cID=13101&pID=13100",
+            "search_query": "연령대별 권장 수면 시간",
+            "terminate": false,
+            "text": "네, 3개월 이하의 권장 수면 시간은 14시간에서 17시간이고, 65세 이상은 7시간에서 8시간으로 나이가 들면서 권장 수면 시간도 점점 줄어든답니다.",
+            "turn_id": "BK22001067-3",
+            "utterance_id": "BK22001067.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 최대한 권장하는 수면 시간에 맞추려고 노력해야겠어요. 혹시 수면은 어떤 형태가 있는지 궁금해요.",
+            "turn_id": "BK22001067-4",
+            "utterance_id": "BK22001067.7"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "인간의 수면은 크게 렘(Rapid Eye Movement, REM)수면과 비렘(Non-Rapid Eye Movement, NREM)수면 상태로 나뉜다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "렘수면 상태에선 얕은 잠을, 비렘수면 상태에선 깊은 잠을 잔다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비렘수면이 지속하다 렘수면 상태가 잠깐 나타나는 것이 수면의 한 주기다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801345.html",
+            "search_query": "렘수면 비렘수면",
+            "terminate": false,
+            "text": "수면은 얕은 잠인 렘수면과 깊은 잠인 비렘수면으로 나눌 수 있어요. 수면 시, 비렘수면이 지속되다가 렘수면 상태가 나타나는데 이를 한 주기로 봅니다.",
+            "turn_id": "BK22001067-4",
+            "utterance_id": "BK22001067.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 수면 시에 이 주기를 몇 번이나 반복하게 되나요?",
+            "turn_id": "BK22001067-5",
+            "utterance_id": "BK22001067.9"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "대한수면연구학회에 따르면 보통 자는 동안 이 주기를 약 5번 되풀이하게 된다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비렘수면을 거쳐 렘수면에 다다 르는 수면의 한 주기를 거치는 덴 약 90분이 소요된다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/346/0000050026?sid=103",
+            "search_query": "수면 사이클",
+            "terminate": false,
+            "text": "보통 다섯 번을 반복하게 되고, 한 주기는 약 90분이 소요돼요.",
+            "turn_id": "BK22001067-5",
+            "utterance_id": "BK22001067.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주기가 5번 정도 반복되는군요. 아, 제가 들은 바로는 렘수면이 꿈과 관련 있다고 하던데 맞나요?",
+            "turn_id": "BK22001067-6",
+            "utterance_id": "BK22001067.11"
+        },
+        {
+            "reference_date": "2020-02-26",
+            "reference_text": [
+                {
+                    "value": "눈동자가 빨리 움직이는 렘수면과 비렘수면, 눈동자 움직임이 없는 논렘수면이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "활발한 정신 활동으로 꿈을 꿔 '꿈 수면'이라고도 하며, 정신적인 피로를 회복시킨다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.insightkorea.co.kr/news/articleView.html?idxno=77278",
+            "search_query": "렘수면",
+            "terminate": false,
+            "text": "네, 렘수면 시에는 눈동자가 빨리 움직이며 활발하게 정신 활동을 하는 상태로 꿈 수면이라고도 불린답니다. 그리고 이 상태에서는 정신적인 피로를 해소할 수 있답니다.",
+            "turn_id": "BK22001067-6",
+            "utterance_id": "BK22001067.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 새로운 사실을 알았네요.",
+            "turn_id": "BK22001067-7",
+            "utterance_id": "BK22001067.13"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "렘수면 상태에 들었을 때 잠에서 깨는 게 ‘렘수면 기상법’이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "깊은 잠보다 얕은 잠이 들었을 때 일어나는 게 더 수월하고, 깬 후에도 더 개운하단 것이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/04/18/2022041801345.html",
+            "search_query": "렘수면 기상법",
+            "terminate": false,
+            "text": "렘수면 기상법에 대해서도 들어보셨나요? 렘수면 상태처럼 얕은 잠일 때 깨는 게 더 수월하고 개운하다는 것에서 나온 방법이에요.",
+            "turn_id": "BK22001067-7",
+            "utterance_id": "BK22001067.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얕은 렘수면 상태에서 깨면 더 개운하다니, 90분이 한 주기인 것을 감안해서 시도해 봐야겠어요. 그런데 잠꼬대를 하는 건 어떤 상황인 거예요?",
+            "turn_id": "BK22001067-8",
+            "utterance_id": "BK22001067.15"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "잠꼬대는 사람이 잠을 자면서 자신도 모르게 중얼거리는 음성을 말하는 사건수면이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잠꼬대는 NREM 수면으로부터 일시적으로 깨어나는 동안 일어나는 것이 보통이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A0%EA%BC%AC%EB%8C%80",
+            "search_query": "잠꼬대",
+            "terminate": false,
+            "text": "보통 잠꼬대는 자면서 자신도 모르게 중얼거리거나 음성을 말하는데 비렘수면으로부터 일시적으로 깨어나는 동안 발생해요.",
+            "turn_id": "BK22001067-8",
+            "utterance_id": "BK22001067.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 잠꼬대를 종종 하는 편이거든요. 그런데 제 지인은 잠꼬대가 심해서 옆 사람을 실제로 발로 찬 적도 있다고 들었어요 .",
+            "turn_id": "BK22001067-9",
+            "utterance_id": "BK22001067.17"
+        },
+        {
+            "reference_date": "2021-05-05",
+            "reference_text": [
+                {
+                    "value": "렘 수면의 중요한 특징은 몸의 움직임과 관련된 근육이 마비 상태가 되는 것이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 덕분에 우리는 꿈속에서 맘껏 행동을 할 수 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 렘수면 중 근육이 마비되는 기능에 문제가 생기면 꿈속에서 하는 발길질을 실제 할 수 있다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/05/04/2021050401584.html",
+            "search_query": "렘수면 행동 장애",
+            "terminate": false,
+            "text": "아, 그 경우는 렘수면 행동 장애일 수 있어요. 렘 수면 시에는 몸의 움직임과 관련된 근육이 마비 상태로 움직이지 않기 때문에 꿈속에서 어떤 행동도 할 수 있지만 이러한 근육이 마비되는 기능의 문제가 생길 경우 꿈속에서 하는 행동을 실제로 하게 되는 거예요.",
+            "turn_id": "BK22001067-9",
+            "utterance_id": "BK22001067.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 잠꼬대가 아닐 수 있다는 걸 알려줘야겠어요. 그 외에 다른 점은 어떤 게 있을까요?",
+            "turn_id": "BK22001067-10",
+            "utterance_id": "BK22001067.19"
+        },
+        {
+            "reference_date": "2021-11-08",
+            "reference_text": [
+                {
+                    "value": "잠꼬대의 경우 주로 어린이나 젊은이에게서 관찰되고, 일반적인 대화를 하듯 조용히 말하며, 아침에 일어난 후 거의 기억하지 못한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 렘수면행동장애의 경우 주로 50대 이상에서 발생하고 목소리가 크거나 과격한 행동을 하며, 깨고 난 후 꿈 내용을 기억하는 편이다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20211108010002374",
+            "search_query": "잠꼬대 렘수면 행동 장애",
+            "terminate": false,
+            "text": "잠꼬대는 주로 젊은이에게서 관찰되고 아침에 일어난 후 꿈 내용을 거의 기억하지 못해요. 반면 렘수면 행동 장애는 주로 50대 이상에서 발생하며 깨고 난 후 꿈 내용을 기억하는 편이에요.",
+            "turn_id": "BK22001067-10",
+            "utterance_id": "BK22001067.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 질문하길 잘 했네요. 그런데 동물도 인간과 같은 수면 형태인지 궁금해요.",
+            "turn_id": "BK22001067-11",
+            "utterance_id": "BK22001067.21"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "포유류나 조류 등은 잠을 자고 있는 동안 얕은 수면인 '렘수면'과 깊은 수면인 '논렘수면'을 교차로 반복한다.",
+                    "value_time": "2022-07-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bosa.co.kr/news/articleView.html?idxno=2169218",
+            "search_query": "동물 렘수면",
+            "terminate": false,
+            "text": "네, 포유류나 조류 등의 동물도 잠을 자고 있는 동안 렘수면과 비렘수면을 교차로 반복하는 수면 패턴을 보여요.",
+            "turn_id": "BK22001067-11",
+            "utterance_id": "BK22001067.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물도 인간과 같은 수면 패턴이군요. 오늘은 권장 수면 시간에 맞춰 숙면하도록 노력해야겠어요. 오늘 궁금한 부분에 자세하게 대답해 주셔서 너무 감사해요.",
+            "turn_id": "BK22001067-12",
+            "utterance_id": "BK22001067.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 저도 오늘 무척 즐거운 시간이었어요. 다른 궁금한 게 있으면 언제든 연락 주세요.",
+            "turn_id": "BK22001067-12",
+            "utterance_id": "BK22001067.24"
+        }
+    ]
+}

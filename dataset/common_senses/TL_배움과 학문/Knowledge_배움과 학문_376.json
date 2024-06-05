@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013784",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013784",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국방 분야에 관심이 많은데 몇 가지 물어봐도 될까요?",
+            "turn_id": "BK22013784-1",
+            "utterance_id": "BK22013784.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 무엇이든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013784-1",
+            "utterance_id": "BK22013784.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계에서 군사비를 가장 많이 쓰는 국가가 어떤 곳인가요? 얼마나 지출하는지 규모도 궁금합니다.",
+            "turn_id": "BK22013784-2",
+            "utterance_id": "BK22013784.3"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "2019년 기준 군사비 지출 규모가 가장 큰 나라는 미국으로, 총 7300억 달러(약 975조2800억 원)를 지출한 것으로 나타났다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011373773?sid=104",
+            "search_query": "군사비 지출",
+            "terminate": false,
+            "text": "2019년 기준으로 군사비를 가장 많이 지출한 국가는 미국입니다. 총 7300억 달러, 우리 돈으로 환산하면 975조2800억 원이나 썼습니다.",
+            "turn_id": "BK22013784-2",
+            "utterance_id": "BK22013784.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "군사 예산에 거의 1천조 원을 투입했네요. 그러면 전 세계 무기 수출국 순위는 어떻게 되는지, 어떤 국가가 1위를 차지했는지도 알고 싶습니다.",
+            "turn_id": "BK22013784-3",
+            "utterance_id": "BK22013784.5"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "아울러 미국은 조사 대상 국가 중 지난 11년 간 무기 수출을 가장 많이 한 나라로 나타났다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국의 2009~2019년 무기 수출 규모는 평균 1616억 달러(약 215조8976억 원) 상당이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2위는 러시아로 평균 110억 달러(약 14조6960억 원), 3위는 프랑스로 54억 달러(약 7조21144억 원) 등이었다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국이 39억 달러(약 5조2104억 원), 중국 36억 달러(약 4조8096억 원) 등이다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011373773?sid=104",
+            "search_query": "무기 수출 순위",
+            "terminate": false,
+            "text": "2009년부터 2019년까지 미국이 평균 1616억 달러 상당의 무기를 수출해 1위를 차지했습니다. 러시아가 평균 110억 달러어치 무기를 수출해 2위를 차지했고요, 3위는 54억 달러 상당의 무기를 수출한 프랑스였습니다. 이밖에 영국이 39억 달러, 중국이 36억 달러 등이었습니다.",
+            "turn_id": "BK22013784-3",
+            "utterance_id": "BK22013784.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 전 세계 무기 수입국 순위는 어떻게 되는지도 알려주세요. 어떤 나라가 1위를 차지했는지 우리나라는 몇 등인지도 알고 싶습니다.",
+            "turn_id": "BK22013784-4",
+            "utterance_id": "BK22013784.7"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "무기 수입 기준으로는 일본이 지난 11년간 연평균 264억 달러(약 35조2704억 원)로 1위를 차지했고, 사우디아라비아가 118억 달러(약 15조7648억 원), 영국이 108억 달러(약 14조4288억 원)로 뒤를 따랐다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국이 102억 달러(약 13조6272억 원)로 4위였다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/003/0011373773?sid=104",
+            "search_query": "무기 수입 순위",
+            "terminate": false,
+            "text": "지난 11년을 기준으로 보면 일본이 연평균 264억 달러 상당의 무기를 수입해 1위를 기록했습니다. 사우디아라비아가 118억 달러로 뒤를 이었고, 3위는 108억 달러를 기록한 영국이었습니다. 우리나라는 102억 달러로 4위를 기록했습니다.",
+            "turn_id": "BK22013784-4",
+            "utterance_id": "BK22013784.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국도 무기 수입을 많이 하는군요. 또 궁금한 게 있는데, 군 병력이 가장 많은 국가는 어떤 곳인가요? 대략적인 군 병력 순위도 궁금합니다.",
+            "turn_id": "BK22013784-5",
+            "utterance_id": "BK22013784.9"
+        },
+        {
+            "reference_date": "44793.0",
+            "reference_text": [
+                {
+                    "value": "2009~2019년까지 군대 병력(정규군 기준)이 가장 많은 나라는 중국으로 연평균 194만명이었다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 인도(144만명), 미국(136만명), 북한(117만명), 러시아(91만6000명), 파키스탄(74만3000명), 한국(65만명), 베트남(52만3000명), 미얀마(51만2000명), 이란(50만3000명) 등의 순이었다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/025/0003217943?sid=104",
+            "search_query": "군 병력 순위",
+            "terminate": false,
+            "text": "2009년부터 2019년까지를 기준으로 정규군 기준 군 병력이 가장 많은 국가는 중국이었는데요, 연평균 194만 명을 기록했습니다. 인도가 144만 명, 미국이 136만 명, 북한이 117만 명, 러시아 91만6천 명, 파키스탄이 74만3천이었고요. 우리나라가 65만 명으로 그 뒤를 이었고, 베트남이 52만3천 명, 미얀마가 51만 2천명, 이란이 50만3천 명 순이었습니다.",
+            "turn_id": "BK22013784-5",
+            "utterance_id": "BK22013784.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 우리나라가 징병제라 군 병력이 많네요. 또 궁금한 게 있는데 GDP 대비 군비지출 전 세계 1위는 어떤 국가인가요?",
+            "turn_id": "BK22013784-6",
+            "utterance_id": "BK22013784.11"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "21일 미국 국무부 홈페이지에 게재된 ‘2021년 세계 군사비 및 무기거래 보고서’에 따르면 북한은 2019년 GDP의 14.9~26.4%를 군사비로 지출해 GDP 대비 군비 지출 1위였다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2011~2019년 연평균으로도 13.8~23.5%로 가장 높았다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003295957?sid=104",
+            "search_query": "GDP 군비 지출 1위",
+            "terminate": false,
+            "text": "2022년 8월 21일 미 국무부 웹사이트의 2021년 세계 군사비 및 무기거래 보고서에 의하면 2019년 GDP의 14.9~26.4%를 군사비로 지출한 북한이 GDP 대비 군비지출 1위를 차지했습니다. 북한의 군비지출은 2011년부터 2019년까지 연평균으로 따져봐도 13.8~23.5%로 GDP 대비 가장 높은 비중을 차지했습니다.",
+            "turn_id": "BK22013784-6",
+            "utterance_id": "BK22013784.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 북한은 군사비 지출을 많이 하는군요. 또 궁금한 게 있는데, 요즘 기사를 보면 우리나라도 무기 수출이 늘었다고 하더라고요. 우리나라가 전 세계 무기 수출 시장에서 어느정도의 비중을 차지하는지 궁금합니다.",
+            "turn_id": "BK22013784-7",
+            "utterance_id": "BK22013784.13"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "한국이 세계 무기수출 시장에서 차지하는 비중은 2012~2016년 1%에서 2017~2021년 2.8%로 커지며 세계 8위에 올랐다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/417/0000851022?sid=101",
+            "search_query": "한국 무기수출 비중",
+            "terminate": false,
+            "text": "세계 무기 수출 시장에서 우리나라가 차지하는 비중이 적잖게 증가했습니다. 2012~2016년 1%에서 2017~2021년엔 2.8%를 차지해 세계 8위를 기록했습니다.",
+            "turn_id": "BK22013784-7",
+            "utterance_id": "BK22013784.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 8위면 대단한 발전이네요. 기사를 보니 K2 전차 수출이 많다고 하던데 K2 전차의 성능과 제원에 대해서도 알고 싶습니다.",
+            "turn_id": "BK22013784-8",
+            "utterance_id": "BK22013784.15"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "1500마력 고출력 엔진을 탑재한 K2 전차는 포장도로에서 70㎞/h, 야지에서 50㎞/h의 속도를 낼 수 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유기압 현수장치 적용으로 험준한 지형에서도 다양한 사격 각도를 확보할 수 있는 차체 자세제어 능력을 보유한 것이 특징이다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수심 4.1m까지 잠수도하할 수 있는 능력을 갖춰 하천 지대에서도 작전 수행이 가능하다",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/417/0000851023?sid=101",
+            "search_query": "K2 전차",
+            "terminate": false,
+            "text": "K2 전차는 1500마력을 내는 고출력 엔진을 품었는데요, 포장도로에서 시속 70킬로미터, 야지에서는 시속 50킬로미터의 속도를 낼 수 있습니다. 아울러 유기압 현수장치를 적용해 지형이 험준해도 사격 각도를 다양하게 확보할 수 있는 차체 자세제어 능력을 보유했습니다. 특히 수심 4.1미터까지 잠수도하 할 수 있어 하천 등지에서도 작전을 수행이 가능합니다.",
+            "turn_id": "BK22013784-8",
+            "utterance_id": "BK22013784.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1500마력이라니 힘이 굉장히 좋네요. 마지막으로 한 가지만 더 물어볼게요. K9 자주포도 주된 수출품이라고 하던데 K9 자주포의 성능도 알고 싶습니다.",
+            "turn_id": "BK22013784-9",
+            "utterance_id": "BK22013784.17"
+        },
+        {
+            "reference_date": "44817.0",
+            "reference_text": [
+                {
+                    "value": "1999년 한국군에 첫 실전 배치된 한화디펜스의 K9 자주포는 최대사거리가 40㎞에 달하며 발사속도는 분당 6~8발, 탄약 적재량은 48발이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/417/0000851023?sid=101",
+            "search_query": "K9 자주포 성능",
+            "terminate": false,
+            "text": "K9 자주포는 1999년에 우리 군에 처음으로 실전 배치됐는데요, 최대사거리 40km에 탄약 48발을 적재 가능하며, 분당 6~8발의 발사속도를 갖췄습니다.",
+            "turn_id": "BK22013784-9",
+            "utterance_id": "BK22013784.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라가 무기 수입도 많이 하지만 그래도 수출도 늘고 있어서 뿌듯하네요.",
+            "turn_id": "BK22013784-10",
+            "utterance_id": "BK22013784.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "무기 수출 4강을 목표로 하고 있다고 합니다. 언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013784-10",
+            "utterance_id": "BK22013784.20"
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007978",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007978",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 있으면 추석인데, 이번 보름달은 언제 떠?",
+            "turn_id": "BK22007978-1",
+            "utterance_id": "BK22007978.1"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "한국천문연구원에 따르면 올해 추석 당일인 10일 보름달이 뜨는 시각은 서울 기준 오후 7시 4분이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 높이 떠오르는 시각은 자정을 넘어 11일 오전 0시 47분이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4587",
+            "search_query": "보름달",
+            "terminate": false,
+            "text": "한국천문연구원에 따르면 보름달은 10일에 뜨고, 서울 기준으로 오후 7시 4분에 보일 거야. 자정을 넘은 11일 오전 0시 47분에 가장 높이 뜰 거고.",
+            "turn_id": "BK22007978-1",
+            "utterance_id": "BK22007978.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 7시부터 보름달을 볼 준비를 하면 되겠네. 그런데 보름이라고 해서 꼭 달이 둥글지는 않던데, 그건 왜 그런 거야?",
+            "turn_id": "BK22007978-2",
+            "utterance_id": "BK22007978.3"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "달의 타원궤도로 인해 태양의 반대쪽을 향하는 때까지 실제 걸리는 시간은 일정하지 않기 때문에 완전히 둥근달이 되는, 이른바 망이 되는 정확한 시점은 음력 15일 이전 또는 이후가 될 수 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=4587",
+            "search_query": "보름달 음력",
+            "terminate": false,
+            "text": "달의 타원궤도 때문에 달이 실제로 태양의 반대쪽까지 가는 시간은 일정하지 않아. 그래서 완전히 둥근 달이 되는 시일은 꼭 음력 15일이 아니라 그 전후가 될 수 있어.",
+            "turn_id": "BK22007978-2",
+            "utterance_id": "BK22007978.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 오히려 14일이나 16일이 더 둥글 수도 있겠네. 이번 추석도 완전한 보름달은 못 보는 거야?",
+            "turn_id": "BK22007978-3",
+            "utterance_id": "BK22007978.5"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "오는 10일 추석날에 뜨는 보름달은 완벽히 둥근 형태를 갖추고 뜰 것이라고 충주고구려천문과학관이 6일 밝혔다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과학관에 따르면 달이 가장 둥글 때는 해와 지구, 달이 일직선이 되는 시기다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220906151600064?input=1195m",
+            "search_query": "추석 보름달",
+            "terminate": false,
+            "text": "볼 수 있어. 충주고구려천문과학관은 지난 6일, 추석날에 완벽히 둥근 보름달이 뜰 거라고 말했거든. 과학관에 따르면, 해와 지구와 달이 일직선이 될 때 달이 가장 둥글어.",
+            "turn_id": "BK22007978-3",
+            "utterance_id": "BK22007978.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 이번 보름달은 꼭 봐야겠네! 그런데 가끔 블루문이 뜬다는 말이 들리던데, 블루문은 파란색 달이라는 뜻이야?",
+            "turn_id": "BK22007978-4",
+            "utterance_id": "BK22007978.7"
+        },
+        {
+            "reference_date": "2020-10-30",
+            "reference_text": [
+                {
+                    "value": "블루문의 뜻은 파란 달이지만 실제로 파란색 달이 뜨는 것은 아니다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "블루문은 한 달에 보름달이 두 번 뜰 때 두 번째 보름달을 일컫는 단어이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=420254",
+            "search_query": "블루문",
+            "terminate": false,
+            "text": "블루문이 파란색 달이라는 건 아니고, 보름달이 두 번 뜨는 달에서 두번째 보름달을 뜻하는 말이야.",
+            "turn_id": "BK22007978-4",
+            "utterance_id": "BK22007978.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "색깔을 뜻하는 게 아니었구나. 그런데 어떻게 보름달이 한 달에 두 번 뜰 수가 있어?",
+            "turn_id": "BK22007978-5",
+            "utterance_id": "BK22007978.9"
+        },
+        {
+            "reference_date": "2020-10-30",
+            "reference_text": [
+                {
+                    "value": "다시 말해 음력과 양력은 1년을 정하는데 11일의 차이가 생긴다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 차이가 매년 발생하므로 양력으로 보름달이 뜨는 시기는 매년 11일씩 빨라지는데 그러다 양력으로 1~2일에 보름달이 뜨면 그달 30~31일쯤에 보름달이 한 번 더 뜨고 이 달을 블루문이라고 부른다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=420254",
+            "search_query": "블루문",
+            "terminate": false,
+            "text": "음력과 양력을 정할 때는 11일 간격이 생기게 되는데, 매년 이 차이가 나게 되니까 양력으로 보름달이 뜨는 시기는 해마다 11일씩 당겨져. 그래서 만약 양력으로 1일에 보름달이 뜨면, 같은 달 30일쯤에 보름달이 또 한 번 뜨는 거지.",
+            "turn_id": "BK22007978-5",
+            "utterance_id": "BK22007978.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "11일 차이라니, 신기하네. 그런데 그럼 레드문도 색깔 때문에 붙여진 이름이 아닌 거야?",
+            "turn_id": "BK22007978-6",
+            "utterance_id": "BK22007978.11"
+        },
+        {
+            "reference_date": "2015-09-28",
+            "reference_text": [
+                {
+                    "value": "사진 속 레드문은 지구의 그림자 속에 달이 들어가는 월식 때문에 달이 빨갛게 나타나는 것으로 알려졌다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이처럼 레드문의 원리는 지구 주변에서 햇빛이 굴절돼 달이 붉게 보이는 것이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20150928010006657",
+            "search_query": "레드문",
+            "terminate": false,
+            "text": "그렇지는 않아. 레드문은 월식 때문에 달이 빨갛게 나타나는 건데, 지구 주변에서 햇빛이 굴절되기 때문에 달이 붉어 보이는 현상이니까 말이야.",
+            "turn_id": "BK22007978-6",
+            "utterance_id": "BK22007978.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 진짜 달이 붉어 보여서 레드문이라고 하는 거구나. 그런데 네가 설명해준 부분 중에 월식은 정확히 뭐야?",
+            "turn_id": "BK22007978-7",
+            "utterance_id": "BK22007978.13"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "월식은 지구와 달, 태양이 일직선상에 놓여 지구의 그림자가 달을 가리는 현상을 말한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "달의 전체를 가리면 개기월식, 일부분을 가리면 부분월식이라 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20220517601008&wlog_tag3=naver",
+            "search_query": "월식 정의",
+            "terminate": false,
+            "text": "월식은 일직선상에 지구, 달, 태양이 놓이고, 지구의 그림자가 달을 가리는 것을 뜻해. 이때, 개기월식은 달 전체를 가리키는 거고, 일부분을 가리면 부분월식이라고 하지.",
+            "turn_id": "BK22007978-7",
+            "utterance_id": "BK22007978.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달을 가리는 현상이 월식이라면, 일식은 뭔데?",
+            "turn_id": "BK22007978-8",
+            "utterance_id": "BK22007978.15"
+        },
+        {
+            "reference_date": "2021-12-04",
+            "reference_text": [
+                {
+                    "value": "일식은 태양, 달, 지구가 일직선 상에 놓이면서 달이 태양을 가리는 현상 아주 짧게 관측된다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 일식은 맨눈으로 관측 시 눈에 손상을 입힐 수 있다는 큰 차이점이 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20211204000001",
+            "search_query": "일식 월식",
+            "terminate": false,
+            "text": "일식은 태양, 달, 지구가 일직선상에 놓였다는 점은 똑같지만, 달이 가려지는 게 아니라 달이 태양을 가리는 현상이야. 하지만 일식은 맨눈으로 보면 눈을 크게 다칠 수 있다는 점에서 월식과 다르지.",
+            "turn_id": "BK22007978-8",
+            "utterance_id": "BK22007978.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈이 손상될 수 있다니, 그럼 어떻게 관측해야 돼?",
+            "turn_id": "BK22007978-9",
+            "utterance_id": "BK22007978.17"
+        },
+        {
+            "reference_date": "2020-06-22",
+            "reference_text": [
+                {
+                    "value": "일식 관찰을 위해 가장 좋은 방법은 필터가 장착된 특수안경을 쓰는 것이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "혹은 은박 과자봉지에서 그림이나 글씨가 없는 부분을 잘라 한두 겹 겹치면 일식을 관측할 수 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20200621512399?OutUrl=naver",
+            "search_query": "일식 관측",
+            "terminate": false,
+            "text": "일식을 관찰할 때는 특수안경을 쓰는 게 제일 좋아. 또는, 은박 과자 봉지에서 무늬가 없는 부분을 한두 겹 겹쳐도 일식을 볼 수 있지.",
+            "turn_id": "BK22007978-9",
+            "utterance_id": "BK22007978.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특수안경이 따로 있는 줄은 몰랐네. 궁금했던 게 많았는데 알려줘서 고마워, 오늘은 그만 자야겠어.",
+            "turn_id": "BK22007978-10",
+            "utterance_id": "BK22007978.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다면 다행이야. 잘자고 조만간 만나서 또 얘기하자!",
+            "turn_id": "BK22007978-10",
+            "utterance_id": "BK22007978.20"
+        }
+    ]
+}

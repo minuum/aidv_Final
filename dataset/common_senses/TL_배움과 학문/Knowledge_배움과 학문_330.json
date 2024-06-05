@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013178",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013178",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 오늘은 악어에 대해서 좀 알려주세요.",
+            "turn_id": "BK22013178-1",
+            "utterance_id": "BK22013178.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 무엇이 궁금하신 건가요?",
+            "turn_id": "BK22013178-1",
+            "utterance_id": "BK22013178.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "악어가 사냥하는 모습을 보면, 먹잇감을 문 다음에 빙빙 몸을 돌리던데 왜 그러는 건가요?",
+            "turn_id": "BK22013178-2",
+            "utterance_id": "BK22013178.3"
+        },
+        {
+            "reference_date": "44744.0",
+            "reference_text": [
+                {
+                    "value": "악어는 물을 수는 있어도 씹지는 못하기 때문에 잡은 동물들을 빙글 돌리면서 몸통을 잘라 통째로 먹는다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%85%EC%96%B4",
+            "search_query": "악어",
+            "terminate": false,
+            "text": "악어는 무언가를 물 수는 있는데, 씹지는 못하기 때문입니다. 그래서 잡은 먹잇감을 물고 몸을 회전시키면서 절단한 다음에, 통째로 삼키는 거죠.",
+            "turn_id": "BK22013178-2",
+            "utterance_id": "BK22013178.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그 날카로운 이빨로 먹이를 잘게 씹어먹는 게 아니라 통째로 삼키는 거였군요. 아니 근데 왜 씹지를 못하는 건가요?",
+            "turn_id": "BK22013178-3",
+            "utterance_id": "BK22013178.5"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "아래턱이 좌우로 움직이지 않아 먹이를 씹거나 분쇄할 수 없다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "혀는 입 바닥에 붙어있어 유동성이 거의 없기 때문에 음식물을 식도 쪽으로 이동시키지도 못한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23814772",
+            "search_query": "악어 아래턱 음식물",
+            "terminate": false,
+            "text": "아래턱을 좌우로 움직일 수 없기 때문입니다. 그래서 먹이를 씹지도 못하고, 잘게 부수지도 못하죠. 또 혀가 입 바닥에 붙어있어서 거의 움직이지 못해, 음식물을 식도 쪽으로 옮기지도 못합니다.",
+            "turn_id": "BK22013178-3",
+            "utterance_id": "BK22013178.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 통째로 삼키면 소화가 쉽지 않을 것 같은데, 어떻게 음식물을 소화하는 건가요?",
+            "turn_id": "BK22013178-4",
+            "utterance_id": "BK22013178.7"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "악어의 위에는 모래주머니 같은 부분이 별도로 있어 음식물을 잘게 부수고 강한 산성의 위액이 분비되기 때문에 씹지 않고 삼켜도 소화에 지장이 없다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23814772",
+            "search_query": "악어의 위 모래주머니",
+            "terminate": false,
+            "text": "악어의 위에는 모래주머니 같은 기관이 별도로 존재해서 위로 들어온 음식물을 분쇄해요. 분비되는 위액이 강산성이라 씹지 않고 삼켜도 소화하는 데 문제가 없습니다.",
+            "turn_id": "BK22013178-4",
+            "utterance_id": "BK22013178.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소화기관이 매우 튼튼해서 그냥 삼켜도 되는군요. 그건 그렇고 어떤 악어는 앨리게이터라 부르고 어떤 악어는 크로커다일이라 하던데, 둘의 차이점은 뭔가요?",
+            "turn_id": "BK22013178-5",
+            "utterance_id": "BK22013178.9"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "머리를 위에서 보면 주둥이의 선이 알리게이터는 U자형으로 보이고 크로커다일은 V자형을 보인다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입을 다물었을 때 알리게이터는 아랫니가 윗니의 안쪽으로 들어가 주로 윗니가 보인다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면에 크로커다일은 아래턱의 이빨이 윗니의 바깥쪽으로 뻗어 아랫니와 윗니를 다 볼 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23814772",
+            "search_query": "엘리게이터 크로커다일",
+            "terminate": false,
+            "text": "위에서 머리를 내려다보면 앨리게이터는 주둥이가 U자 모양이고, 크로커다일은 V자 모양입니다. 또 앨리게이터가 입을 다물면 아래턱의 이빨이 윗니의 안쪽으로 들어가 대부분 윗니가 눈에 띄는데, 크로커다일이 입을 다물면 아랫니가 윗니의 바깥쪽으로 나와 윗니와 아랫니가 다 보이죠.",
+            "turn_id": "BK22013178-5",
+            "utterance_id": "BK22013178.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나중에 영상을 보고 직접 비교해봐야겠네요. 그건 그렇고 악어가 사냥할 때 보면 물속에 오래 있다가 갑자기 먹잇감을 덮치던데, 어떻게 그렇게 물속에 있을 수 있는 건가요?",
+            "turn_id": "BK22013178-6",
+            "utterance_id": "BK22013178.11"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "유선형의 몸체와 강한 힘을 가진 긴 꼬리는 물속에서 자유로운 행동을 보장한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈·코·귀는 머리 위쪽에 있어 이들만 내놓고 몸체를 물속에 장시간 숨길 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제3의 눈꺼풀인 순막이 발달되어 물속에서도 눈을 보호하면서 편안하게 볼 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "코는 물속에서 콧구멍을 닫을 수 있으며 귀는 물속에 들어가면 귀의 근육이 입구를 막아 내부를 보호한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 15분간 잠수할 수 있으나 최상의 조건이 맞으면 2시간까지도 호흡을 멈출 수 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23814772",
+            "search_query": "악어 신체조건 수중",
+            "terminate": false,
+            "text": "몸이 유선형인 데다 꼬리의 힘이 강해서 물속을 자유롭게 움직일 수 있습니다. 눈, 코, 귀가 머리 위에 나 있어, 이들만 내놓은 채 오랜 시간 수중에 은신할 수 있어요. 제3의 눈꺼풀인 순막이 발달해 있어, 수중에서도 눈을 보호한 상태로 편안히 시야를 확보할 수 있습니다. 게다가 수중에서 콧구멍을 닫을 수 있고, 귀의 근육이 입구를 닫아 귀 내부를 보호하죠. 대개 잠수 시간은 15분인데, 조건이 적절하면 2시간까지도 숨을 참을 수 있습니다.",
+            "turn_id": "BK22013178-6",
+            "utterance_id": "BK22013178.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 물속에서 사냥하기에 최적화되어 있는 동물이군요. 그러면 악어는 주로 무엇을 먹고사나요?",
+            "turn_id": "BK22013178-7",
+            "utterance_id": "BK22013178.13"
+        },
+        {
+            "reference_date": "44013.0",
+            "reference_text": [
+                {
+                    "value": "종에 따라 차이가 있지만 물고기나 갑각류, 양서류, 조류나 다른 파충류, 포유류 등이 대상이다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "악어는 한 번에 체중의 20%까지 먹을 수 있으며 이렇게 배불리 먹으면 최대 6개월까지 먹지 않고 지낸다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먹고 남는 고기는 저장하기도 하고 배가 고프면 사체를 먹기도 한다.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23814772",
+            "search_query": "악어 육식동물 먹이",
+            "terminate": false,
+            "text": "종에 따라 다르지만, 물고기, 갑각류, 양서류, 조류, 기타 파충류, 포유류 등을 먹잇감으로 삼습니다. 한 번 식사할 때, 몸무게의 20퍼센트가 되는 양까지 섭취할 수 있는데, 이렇게 포식하면 최대 6개월까지 안 먹고 생활할 수 있습니다. 먹다 남은 고기는 저장해두거나 허기가 지면 사체를 먹기도 합니다.",
+            "turn_id": "BK22013178-7",
+            "utterance_id": "BK22013178.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 번에 잔뜩 먹으면 반년 동안 안 먹어도 된다는 게 신기하네요. 그건 그렇고 악어새가 악어 이빨에 낀 고기를 쪼아 먹어서 악어와 악어새가 공생관계라고 알려져 있는데, 잘못된 상식이라면서요?",
+            "turn_id": "BK22013178-8",
+            "utterance_id": "BK22013178.15"
+        },
+        {
+            "reference_date": "44498.0",
+            "reference_text": [
+                {
+                    "value": "또한 악어는 평생 3천개가 넘는 이빨이 빠졌다가 새로 나기를 반복해요.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 굳이 악어새가 이빨에 낀 음식물 찌꺼기를 제거해줄 필요가 없을 뿐만 아니라 이빨과 이빨 사이가 넓어 찌꺼기도 잘 끼지 않아요.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "악어새로 불리는 이집트물떼새 역시 주로 작은 벌레나 식물의 씨앗과 열매 등을 먹기 때문에 굳이 악어 이빨에 낀 고기를 먹지 않죠.",
+                    "value_time": "44829.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "간혹 악어새가 악어의 입에 들어갈 때가 있긴 하지만, 그 원인은 아직까지 밝혀진 바가 없어요",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=37309",
+            "search_query": "악어 악어새",
+            "terminate": false,
+            "text": "네, 그렇습니다. 악어는 죽을 때까지 이빨이 빠졌다가 났다를 반복하는데, 그 수가 3천 개를 넘습니다. 그래서 악어새가 굳이 이빨에 끼어있는 음식물 찌꺼기를 없앨 필요도 없고, 이빨과 이빨 사이의 간격이 넓어서 찌꺼기가 별로 끼지도 않습니다. 악어새로 불리는 새는 이집트물떼새인데, 작은 벌레, 식물의 씨앗과 열매 따위를 먹이로 삼기 때문에, 악어 이빨에 끼어있는 고기를 먹지 않아요. 가끔 악어 입에 악어새가 들어가는 경우가 있는데, 왜 그런지는 아직 밝혀지지 않았습니다.",
+            "turn_id": "BK22013178-8",
+            "utterance_id": "BK22013178.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 동화책에 나오는 악어와 악어새 이야기를 다 바꿔야겠네요. 아직도 보면 악어가죽으로 만든 핸드백이나 지갑이 팔리고 있던데, 혹시 그것 때문에 악어가 멸종위기에 처해있는 것은 아닌가요?",
+            "turn_id": "BK22013178-9",
+            "utterance_id": "BK22013178.17"
+        },
+        {
+            "reference_date": "44322.0",
+            "reference_text": [
+                {
+                    "value": "위험한 맹수라곤 하지만 현재 나일악어는 멸종위기종으로 분류되고 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세계자연보전연맹(IUCN)은 나일악어를 적색목록 중 관심(LC)종으로 지정해 보호하고 있다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "20세기부터 악어가죽이 명품에 희귀성이라는 이유로 나일악어는 마구잡이로 포획돼왔다.",
+                    "value_time": "44829.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.epnnews.com/news/articleView.html?idxno=6524",
+            "search_query": "악어 멸종위기",
+            "terminate": false,
+            "text": "네, 악어 종류 중에 나일악어는 세계자연보전연맹이 지정한 적색목록에서 관심종으로 등재되어 멸종위기종으로 분류되어 보호받고 있죠. 20세기 들어 악어가죽이 희귀하고 명품이라는 이유로, 나일악어가 남획되었기 때문입니다.",
+            "turn_id": "BK22013178-9",
+            "utterance_id": "BK22013178.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 인간의 욕심은 끝이 없네요. 오늘은 덕분에 악어에 관해 공부하고 갑니다. 그러면 안녕히 계세요.",
+            "turn_id": "BK22013178-10",
+            "utterance_id": "BK22013178.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나요.",
+            "turn_id": "BK22013178-10",
+            "utterance_id": "BK22013178.20"
+        }
+    ]
+}

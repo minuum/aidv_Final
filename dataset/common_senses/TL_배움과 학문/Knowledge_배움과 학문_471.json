@@ -1,0 +1,353 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002060",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002060",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 어제 인터넷 뉴스를 보는데, 500년 이상 사는 상어도 있다더라?",
+            "turn_id": "BK22002060-1",
+            "utterance_id": "BK22002060.1"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "북극해에 서식하는 최장수 척추동물인 그린란드 상어(Greenland Shark)는 최대 몸길이가 7.3m에 달하며 평균 200년 이상 사는 것으로 추정되고 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 서식하고 있는 개체 중 일부는 16세기부터 서식하고 있는 것이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "최장수 상어",
+            "terminate": false,
+            "text": "그린란드 상어 말하는가 보구나. 북극 바다에 사는 상어인데, 척추동물 중에 가장 최장수 하는 동물이야. 보통 200년 이상 사는데, 몸길이가 7.3미터 정도까지 자라지. 지금 살아있는 그린란드 상어 중에는 500년 이상 산 개체도 있어.",
+            "turn_id": "BK22002060-1",
+            "utterance_id": "BK22002060.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "500년 이상 살았다니, 믿기지가 않는다. 근데 상어 나이는 어떻게 안 거야?",
+            "turn_id": "BK22002060-2",
+            "utterance_id": "BK22002060.3"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "방사성 탄소연대 측정 결과, 가장 오래된 개체는 392±120세임이 밝혀졌다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어",
+            "terminate": false,
+            "text": "방사선 탄소 연대 측정으로 나이를 계산한 거야. 지금까지 발견된 개체 중 가장 오래 산 건 대략 512살 정도 됐어.",
+            "turn_id": "BK22002060-2",
+            "utterance_id": "BK22002060.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거의 임진왜란 때부터 살아있는 셈이네. 근데 북극 바다처럼 차가운 곳에서 어떻게 먹고사는 거야?",
+            "turn_id": "BK22002060-3",
+            "utterance_id": "BK22002060.5"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "매우 다양한 식성을 가지고 있으며, 물고기뿐 아니라 표범과 북극곰까지 포식한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "익사한 사슴과 북극곰 등의 썩은 고기도 먹는다고 해서 '바다의 독수리'로 불리기도 한다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 식성",
+            "terminate": false,
+            "text": "이것저것 닥치는 대로 먹고살아. 물고기뿐만 아니라 표범이나 북극곰까지 먹고, 익사한 동물의 사체도 먹어. 심지어 썩은 고기도 먹어서, 바다의 독수리라는 별명까지 있어.",
+            "turn_id": "BK22002060-3",
+            "utterance_id": "BK22002060.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 북극곰이나 표범까지 먹는다고? 사냥 솜씨가 좋은 건지, 몸이 엄청 날렵한가 봐.",
+            "turn_id": "BK22002060-4",
+            "utterance_id": "BK22002060.7"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "평균 시속 약 1.6km로 헤엄치며 최고시속은 3km 정도다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람보다도 느린 속도지만, 검정에 가까운 몸 덕분에 다른 물고기에게 들키지 않고 다가가 수월하게 흡입해 포식할 수 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 속도",
+            "terminate": false,
+            "text": "아니야, 그린란드 상어는 보통 시속 1.6킬로미터 정도로 헤엄쳐서 사람보다도 느린 정도야. 아무리 빨리 헤엄쳐야 시속 3킬로미터 정도가 한계고. 대신 몸 색깔이 검은색에 가까워서 다른 물고기들이 눈치채지 못하게 접근해서 사냥해.",
+            "turn_id": "BK22002060-4",
+            "utterance_id": "BK22002060.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 느린 편이구나. 어두워서 발견하기 쉽지 않겠지만, 미리 눈치만 챌 수 있으면 도망가긴 어렵지 않겠네.",
+            "turn_id": "BK22002060-5",
+            "utterance_id": "BK22002060.9"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "그린란드 상어 뇌의 3분의 2는 후각을 위해 사용되는 것으로 추정되고 있으며, 약 1.6km 떨어진 먹이의 냄새를 맡을 수 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 후각",
+            "terminate": false,
+            "text": "근데 그린란드 상어가 후각이 엄청 예민해서 도망가기가 쉽진 않을 거야. 뇌의 3분의 2를 냄새 맡는데 쓸 만큼, 후각이 예민해서 1.6킬로미터 떨어져 있는 먹이의 냄새도 맡을 수 있어.",
+            "turn_id": "BK22002060-5",
+            "utterance_id": "BK22002060.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "후각이 엄청 예민해서 사냥도 잘하는구나. 근데 왜 이렇게 개체 수가 많지 않지?",
+            "turn_id": "BK22002060-6",
+            "utterance_id": "BK22002060.11"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "암컷의 임신 기간은 보통 12년 정도다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "난태생(ovoviviparity)이라는 독특한 번식 형태로, 수정란이 모체의 밖으로 나와 산란되지 않고, 모체 안에서 부화하여 30cm~60cm의 새끼 10마리 정도를 체내에서 발육시킨다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 임신",
+            "terminate": false,
+            "text": "다른 여러 가지 이유도 있겠지만, 그린란드 상어의 임신기간이 길어서 그래. 보통 12년 정도의 임신 기간을 거치는데, 수정란을 밖으로 내보내서 산란하는 방식이 아니라 모체 안에서 30센티미터에서 60센티미터가량 되는 새끼를 10마리 정도 부화시켜 어느 정도 키운 다음 내보내.",
+            "turn_id": "BK22002060-6",
+            "utterance_id": "BK22002060.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통 물고기들은 수정란을 밖에 내보내서 산란시키는데, 어류치고는 독특한 방법으로 새끼를 낳네. 새끼는 언제부터 가질 수 있는 거야?",
+            "turn_id": "BK22002060-7",
+            "utterance_id": "BK22002060.13"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "약 150세에 성적으로 성숙한 이후 수 세기에 걸쳐 새끼를 낳을 수 있다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 임신",
+            "terminate": false,
+            "text": "그린란드 상어는 150살 정도가 되면 성적으로 성숙이 돼서 성체로 보거든. 그래서 그 이후부터 수 세기에 걸쳐 새끼를 낳을 수 있어.",
+            "turn_id": "BK22002060-7",
+            "utterance_id": "BK22002060.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 150살이 되어야 비로소 성체가 되는 거라니 정말 오래 걸린다.",
+            "turn_id": "BK22002060-8",
+            "utterance_id": "BK22002060.15"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "그린란드 상어의 짝짓기와 탄생의 순간도 아직 관찰되지 않았다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1995년까지 사진조차 없었고 처음 영상으로 담긴 것은 2003년이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 짝짓기",
+            "terminate": false,
+            "text": "응, 근데 아직 그린란드 상어가 짝짓기를 하거나, 태어나는 순간도 관찰이 된 적이 없어서 어떤 식으로 낳는지는 몰라. 1995년에 이르러서야 겨우 사진도 찍었고, 2003년에 처음으로 영상을 찍었거든.",
+            "turn_id": "BK22002060-8",
+            "utterance_id": "BK22002060.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 아직 그린란드 상어에 대해 밝혀지지 않은 부분이 많구나.",
+            "turn_id": "BK22002060-9",
+            "utterance_id": "BK22002060.17"
+        },
+        {
+            "reference_date": "2021-01-11",
+            "reference_text": [
+                {
+                    "value": "그린란드 상어의 생태는 거의 알려지지 않았으며 연구도 미흡한 편이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.thedailypost.kr/news/articleView.html?idxno=78687",
+            "search_query": "그린란드 상어 연구",
+            "terminate": false,
+            "text": "앞으로는 모르겠지만 현재로서는 생태에 대해서 거의 알려진 부분이 없다고 봐야지. 연구도 미흡한 편이고.",
+            "turn_id": "BK22002060-9",
+            "utterance_id": "BK22002060.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그린란드 상어에 대한 다큐멘터리나 한번 찾아봐야겠다. 지금까지 알려진 부분이라도 알고 싶어.",
+            "turn_id": "BK22002060-10",
+            "utterance_id": "BK22002060.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 내가 찾아서 보내줄게. 예전에 내가 봤던 다큐멘터리가 있는데, 그게 아마 도움이 될 거야. 메일로 보낼 테니 확인해 봐.",
+            "turn_id": "BK22002060-10",
+            "utterance_id": "BK22002060.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 메일 보내고 나서 연락해 주면 확인할게.",
+            "turn_id": "BK22002060-11",
+            "utterance_id": "BK22002060.21"
+        }
+    ]
+}

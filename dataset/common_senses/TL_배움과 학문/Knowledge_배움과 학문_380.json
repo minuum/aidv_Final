@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001479",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001479",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 날씨 참 좋지? 공원 피크닉 오기 참 좋은 날인 것 같아.",
+            "turn_id": "BK22001479-1",
+            "utterance_id": "BK22001479.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응 벌써 봄도 다 지나가고 이제 6월이야. 6월은 현충일도 있고 6.25 전쟁이 발발한 달이라 역사적 의미가 있는 것 같아.",
+            "turn_id": "BK22001479-1",
+            "utterance_id": "BK22001479.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 6.25 전쟁이라고 부르는 사람이 있고 한국전쟁이라고 부르는 사람이 있잖아. 둘 다 다르지 않은 거지?",
+            "turn_id": "BK22001479-2",
+            "utterance_id": "BK22001479.3"
+        },
+        {
+            "reference_date": "2019-01-26",
+            "reference_text": [
+                {
+                    "value": "대한민국 정부 및 한국사 교과서에서는 공식적으로 ‘6·25전쟁’이라는 명칭을 사용하고 있으나 이는 국제적으로 통용되지 않는 면이 있기에 이와 함께 ‘한국전쟁’을 널리 쓰고 있다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=950516",
+            "search_query": "한국전쟁 명칭",
+            "terminate": false,
+            "text": "한국 정부, 한국사 교과서에는 공식적으로 6.25 전쟁이라는 명칭을 써. 그런데 이 명칭이 국제적으로 통용되기 조금 어려운 부분이 있어서 육이오 전쟁과 한국 전쟁이라는 말을 같이 쓰는 거야.",
+            "turn_id": "BK22001479-2",
+            "utterance_id": "BK22001479.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 한국전쟁에 대해서 말할 때 북침과 남침이라는 말이 참 헷갈리더라. 북한이 남쪽을 침범해서 북침인 건가?",
+            "turn_id": "BK22001479-3",
+            "utterance_id": "BK22001479.5"
+        },
+        {
+            "reference_date": "2020-08-05",
+            "reference_text": [
+                {
+                    "value": "북침이란 남쪽에서 북쪽으로 침략하는 것을 의미한다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반대로 남침은 북쪽에서 남쪽으로 침략함을 뜻한다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "6·25전쟁은 선전포고도 없이 북한의 기습으로 발발한 전쟁이니 남침이 맞다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisajournal-e.com/news/articleView.html?idxno=222024",
+            "search_query": "북침과 남침",
+            "terminate": false,
+            "text": "헷갈리기 쉬운데 북침이란 남쪽에서 북쪽으로 쳐들어가는 걸 말하고, 남침은 북쪽에서 남쪽으로 쳐들어 오는 걸 말해. 6.25 전쟁은 선전포고 없이 북한이 갑자기 쳐들어와서 시작된 전쟁이니 남침이라고 불러야 해.",
+            "turn_id": "BK22001479-3",
+            "utterance_id": "BK22001479.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저번에 신문 기사 보니까 우리나라는 아직 휴전국이라고 하더라고. 어쨌든 몇십 년 동안 전쟁을 쉬고 있으니 전쟁이 끝난 걸로 봐도 되는 거 아닐까?",
+            "turn_id": "BK22001479-4",
+            "utterance_id": "BK22001479.7"
+        },
+        {
+            "reference_date": "2018-09-19",
+            "reference_text": [
+                {
+                    "value": "휴전'은 국제법상 여전히 전쟁 상태를 의미하지만, 당사국 간의 협상을 통해 전투를 잠시 멈춘 상태를 말합니다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종전'은 전쟁이 완전히 끝난 것을 뜻합니다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.ktv.go.kr/program/again/view?content_id=561245",
+            "search_query": "종전과 휴전의 차이",
+            "terminate": false,
+            "text": "휴전은 국제법상 아직도 전쟁 상태이지만 전쟁 중인 양국 간의 협상을 토대로 싸우는 걸 잠시 중지한 상태를 말하고, 종전은 전쟁이 아예 종식된 것을 의미해. 큰 차이가 있어.",
+            "turn_id": "BK22001479-4",
+            "utterance_id": "BK22001479.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참, 볼만한 한국 전쟁영화 있으면 추천 좀 해줘.",
+            "turn_id": "BK22001479-5",
+            "utterance_id": "BK22001479.9"
+        },
+        {
+            "reference_date": "2016-06-26",
+            "reference_text": [
+                {
+                    "value": "‘고지전’은 51년 6월 전선 교착 이후 25개월간 서로 싸우는 이유조차 잊은 채 전쟁이 끝나기만을 바라며 싸우다 죽어간 고지 위 300만 병사들의 이야기를 담은 작품이다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/entertain/article/057/0000982100",
+            "search_query": "한국 전쟁 영화 추천",
+            "terminate": false,
+            "text": "고지전을 추천해. 51년 6월 전선이 교착되고 난 뒤 무려 25개월간 교전하는 병사들의 이야기를 그린 작품이야. 나중에는 서로 교전하는 목적조차 잊은 채 전쟁이 종식되기를 기다리더라.",
+            "turn_id": "BK22001479-5",
+            "utterance_id": "BK22001479.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 고지전 보고 나면 다른 영화도 또 추천해줘.",
+            "turn_id": "BK22001479-6",
+            "utterance_id": "BK22001479.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 전쟁사에 관심 많으니 책이나 영화는 얼마든지 추천해 줄 수 있어.",
+            "turn_id": "BK22001479-6",
+            "utterance_id": "BK22001479.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 혹시 한국전쟁과 관련해서 가볼 만한 유적지나 박물관이 있을까?",
+            "turn_id": "BK22001479-7",
+            "utterance_id": "BK22001479.13"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "총 3층으로 구성된 전쟁기념관을 제대로 살펴보기 위해서는 안내 책자가 필수다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1층 전쟁역사실과 2층 6·25전쟁실을 관람할 때는 문화해설사의 동행 관람을 듣는 게 큰 도움이 된다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/018/0005232595?sid=103",
+            "search_query": "전쟁기념관 전시",
+            "terminate": false,
+            "text": "대표적으로 전쟁기념관이 있지. 전쟁기념관은 3층으로 구성되어 있어서 꼼꼼히 관람하려면 안내 책자가 필요해. 또한 1층 전쟁 역사실과 2층 6.25 전쟁실 관람 시에는 문화해설사와 동행해서 관람하는 걸 추천해.",
+            "turn_id": "BK22001479-7",
+            "utterance_id": "BK22001479.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 어릴 때 우리나라 대통령하고 북한 지도자하고 만나서 회담하는 거 텔레비전으로 보면서 엄청 신기해했는데 혹시 기억나?",
+            "turn_id": "BK22001479-8",
+            "utterance_id": "BK22001479.15"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "지난 2000년 열린 6·15 남북정상회담이 어느덧 22주년을 맞았습니다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상호 존중의 원칙하에 진행된 첫 정상회담은, 이산가족 상봉을 비롯한 인도적 문제와 경제 협력 등 이후 이뤄진 다양한 남북 간 현안 논의의 출발점이 되었다는 평가를 받는데요.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/001/0013248381?sid=100",
+            "search_query": "남북정상회담",
+            "terminate": false,
+            "text": "응, 2000년 6월 15일에 남북정상회담이 열렸었잖아. 상호 존중의 원칙을 세우고 이뤄진 정상회담은 인도적 문제, 경제 협력 등 이후 이뤄낸 여러 남북 간 현안 논의의 시발점이 되었다고 평가돼.",
+            "turn_id": "BK22001479-8",
+            "utterance_id": "BK22001479.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전에는 이산가족 상봉 같은 것도 하고 그랬던 기억이 어렴풋이 나는데 요즘은 통 좋은 소식이 없는 것 같아.",
+            "turn_id": "BK22001479-9",
+            "utterance_id": "BK22001479.17"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "경기 지역 이산가족 신청자가 해마다 감소하는 상황에서 ‘시간이 없는’ 이산가족 문제 해결을 위해 인도주의적 관점이 절실하단 지적이 제기된다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kyeonggi.com/article/20220624580045",
+            "search_query": "이산가족문제",
+            "terminate": false,
+            "text": "요즘 이산가족 신청자가 매해 줄어들고 있어. 시간이 없는 이산가족 문제를 풀려면 인도주의적 관점이 너무나 필요해.",
+            "turn_id": "BK22001479-9",
+            "utterance_id": "BK22001479.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다들 연세가 있으셔서 그렇구나. 시간이 더 흐르기 전에 뭔가 대책이 필요한 것 같아.",
+            "turn_id": "BK22001479-10",
+            "utterance_id": "BK22001479.19"
+        },
+        {
+            "reference_date": "2021-12-12",
+            "reference_text": [
+                {
+                    "value": "이산가족들은 이산가족 문제 해결을 위해 생사 확인을 가장 우선순위에 두는 것으로 나타났다.",
+                    "value_time": "2022-06-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=53446",
+            "search_query": "이산가족 정책",
+            "terminate": false,
+            "text": "이산가족들은 이산가족 문제를 풀기 위해 생사 확인을 최우선 순위로 꼽고 있어. 생사 확인이 제일 먼저 해결해야 할 과제라고 봐.",
+            "turn_id": "BK22001479-10",
+            "utterance_id": "BK22001479.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "참 어려운 문제야. 생각할 거리가 많아지는 대화였어. 이제 배고프니까 얼른 사 온 샌드위치 먹자.",
+            "turn_id": "BK22001479-11",
+            "utterance_id": "BK22001479.21"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007358",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007358",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "로마에 있는 바티칸이 작은 국가라고 하던데, 그럼 이탈리아와 별도로 운영되는 나라인가요?",
+            "turn_id": "BK22007358-1",
+            "utterance_id": "BK22007358.1"
+        },
+        {
+            "reference_date": "2021-11-04",
+            "reference_text": [
+                {
+                    "value": "이탈리아의 수도인 로마 시내에 있고 같은 언어와 화폐를 사용하지만 엄연히 독립된 하나의 국가, 세계에서 가장 작은 나라가 바티칸 시국이다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021110409410002193?did=NA",
+            "search_query": "세계에서 가장 작은 나라 바티칸",
+            "terminate": false,
+            "text": "음, 바티칸 시국은 이탈리아의 수도인 로마 시내에 위치해 있는 세상에서 제일 작은 국가에요. 엄연히 독립된 하나의 나라이지만 이탈리아와 같은 언어와 화폐를 이용하고 있어요.",
+            "turn_id": "BK22007358-1",
+            "utterance_id": "BK22007358.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "같은 화폐를 사용하고 있군요. 그리고 로마 시내에 있는 가장 작은 나라라면, 면적과 인구도 매우 적겠네요?",
+            "turn_id": "BK22007358-2",
+            "utterance_id": "BK22007358.3"
+        },
+        {
+            "reference_date": "2015-08-20",
+            "reference_text": [
+                {
+                    "value": "바티칸 시티는 로마 교황청이 다스리는 국가로 면적은 0.44제곱킬로미터다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인구는 1000명이 채 못 된다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.chosun.com/news/ntype.htm?id=201508210100207670014625&servicedate=20150820",
+            "search_query": "바티칸 면적 인구",
+            "terminate": false,
+            "text": "네, 로마 교황청이 다스리는 나라인 바티칸 시티는 0.44제곱킬로미터의 면적에 인구는 1000명도 안 되는 작은 국가에요.",
+            "turn_id": "BK22007358-2",
+            "utterance_id": "BK22007358.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "면적이 0.44제곱킬로미터군요. 그런데 수치로는 어느 정도로 작은 건지 가늠이 잘 안 되는데, 크기를 비교할 만한 대상이 있을까요?",
+            "turn_id": "BK22007358-3",
+            "utterance_id": "BK22007358.5"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "대한민국의 행정 구역으로 비교하면 바티칸 시국의 면적은 상계5동의 면적과 같다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "서울시 여의도 면적의 대략 1 / 6 정도로 서울시 보라매공원 크기와 비슷하다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%8B%B0%EC%B9%B8_%EC%8B%9C%EA%B5%AD",
+            "search_query": "바티칸 시국",
+            "terminate": false,
+            "text": "바티칸 시국의 면적은 서울에 있는 보라매공원과 크기가 비슷한데, 여의도 면적의 약 6분의 1 정도 돼요. 한국의 행정 구역 면적과 비교할 경우 상계 5동과 크기가 비슷하죠.",
+            "turn_id": "BK22007358-3",
+            "utterance_id": "BK22007358.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보라매공원과 비슷한 크기군요. 그리고 로마 교황청이 다스리는 국가라고 하니까 왠지 모든 복장이 자유롭게 허용되지는 않을 것 같은데, 의상에 신경 써야 하는 부분이 있나요?",
+            "turn_id": "BK22007358-4",
+            "utterance_id": "BK22007358.7"
+        },
+        {
+            "reference_date": "2022-08-17",
+            "reference_text": [
+                {
+                    "value": "바티칸은 일종의 성지(聖地)이기 때문에, 명문화되지는 않지만 복장 규정이 있다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 관광객이라 해도, 바티칸에 입국할 때 복장에 신경쓸 것(반바지 금지 등)을 요구받는다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%8B%B0%EC%B9%B8_%EC%8B%9C%EA%B5%AD",
+            "search_query": "바티칸 시국",
+            "terminate": false,
+            "text": "음, 명문화된 건 아니지만 복장 규정이 있긴 하죠. 일종의 성지이기도 한 바티칸에 입국할 때는 여행자라고 해도 반바지와 같은 의상은 금지되기 때문에 이런 부분은 신경을 써야 해요.",
+            "turn_id": "BK22007358-4",
+            "utterance_id": "BK22007358.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 반바지를 입으면 안 되는군요. 복장 규정 외에도 바티칸이 다른 나라와 차별화된 제도가 더 있을까요?",
+            "turn_id": "BK22007358-5",
+            "utterance_id": "BK22007358.9"
+        },
+        {
+            "reference_date": "2018-02-22",
+            "reference_text": [
+                {
+                    "value": "전 세계에서 바티칸을 제외하고 필리핀이 유일하게 이혼을 합법화하지 않은 국가로 알려졌다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20180222045800084?input=1195m",
+            "search_query": "이혼 제도가 없는 바티칸",
+            "terminate": false,
+            "text": "바티칸은 필리핀과 함께 전 세계에서 유일하게 이혼 제도가 없는 나라로 알려져 있어요.",
+            "turn_id": "BK22007358-5",
+            "utterance_id": "BK22007358.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이혼을 합법화하지 않은 국가군요. 그리고 바티칸의 시민 구성이 어떻게 되나요?",
+            "turn_id": "BK22007358-6",
+            "utterance_id": "BK22007358.11"
+        },
+        {
+            "reference_date": "2013-02-12",
+            "reference_text": [
+                {
+                    "value": "바티칸에 거주하는 시민은 대개 공무를 수행하는 성직자와 치안을 담당하는 근위대로 구성된다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013021211382637591&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "바티칸 시민 대개 공무 수행",
+            "terminate": false,
+            "text": "대개 바티칸에 거주하는 시민은 치안을 책임지는 근위대와 공무를 시행하는 성직자로 이루어져 있어요.",
+            "turn_id": "BK22007358-6",
+            "utterance_id": "BK22007358.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성직자와 근위대로 구성되어 있군요. 그런데 바티칸은 어떻게 독립국가가 된 건가요?",
+            "turn_id": "BK22007358-7",
+            "utterance_id": "BK22007358.13"
+        },
+        {
+            "reference_date": "2015-08-20",
+            "reference_text": [
+                {
+                    "value": "로마를 수도로 하고 이탈리아의 많은 부분을 다스리던 교황국가는 이후 이탈리아에 영토를 빼앗기고 교황궁에 갇혀 사는 신세가 되었는데 훗날 무솔리니와 맺은 ‘라테란 협약’에 의해 바티칸 시티로 승격, 독립국가를 형성하게 되었다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://stoo.com/article.php?aid=17948232379",
+            "search_query": "바티칸 독립 무솔리니",
+            "terminate": false,
+            "text": "원래 교황 국가는 로마를 수도로 이탈리아의 많은 곳을 지배했어요. 이후 이탈리아에 영지를 잃고 교황궁에 감금되는 처지가 되었는데 뒷날 라테란 협약을 무솔리니와 맺어 독립국가를 형성하게 되고 바티칸 시티로 격상되었죠.",
+            "turn_id": "BK22007358-7",
+            "utterance_id": "BK22007358.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무솔리니 때 라테란 협약을 통해 독립국가를 형성하게 되었군요. 그럼 재정 충당은 어떻게 하고 있나요?",
+            "turn_id": "BK22007358-8",
+            "utterance_id": "BK22007358.15"
+        },
+        {
+            "reference_date": "2018-10-18",
+            "reference_text": [
+                {
+                    "value": "이탈리아 정부 보조금, 바티칸 소유 부동산, 바티칸 은행의 투자 수익, 세계 각국 가톨릭 협회의 기부금으로 재정을 충당하고 있다.",
+                    "value_time": "2022-09-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20181018083841090",
+            "search_query": "이탈리아 정부 보조금 바티칸 소유 부동산 재정",
+            "terminate": false,
+            "text": "바티칸에서 소유하고 있는 부동산과 은행의 투자 수익 그리고 이탈리아 정부 보조금과 세계 여러 나라의 가톨릭 협회 기부금으로 재정을 마련하고 있죠.",
+            "turn_id": "BK22007358-8",
+            "utterance_id": "BK22007358.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기부금도 있군요. 오늘 세상에서 제일 작은 나라 바티칸에 대한 이야기 흥미롭고 좋았어요.",
+            "turn_id": "BK22007358-9",
+            "utterance_id": "BK22007358.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 오늘 대화 즐거웠어요.",
+            "turn_id": "BK22007358-9",
+            "utterance_id": "BK22007358.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밖에 비가 오기 시작하는데, 그럼 이만 헤어질까요. 조심히 가시고, 또 뵈어요.",
+            "turn_id": "BK22007358-10",
+            "utterance_id": "BK22007358.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러게요. 빗줄기가 점점 굵어지는 것이 서둘러 집에 가야겠네요. 젖지 않게 조심히 살펴 가시고, 또 뵈어요.",
+            "turn_id": "BK22007358-10",
+            "utterance_id": "BK22007358.20"
+        }
+    ]
+}

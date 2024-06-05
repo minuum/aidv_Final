@@ -1,0 +1,417 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007974",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007974",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스에서 낙동강에 녹조가 심하다고 하는 걸 들었어요. 녹조는 정확하게 뭘 말하는 건가요?",
+            "turn_id": "BK22007974-1",
+            "utterance_id": "BK22007974.1"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "녹조는 다른 말로 남세균(시아노박테리아)이라 칭하는데 이는 식물성 플랑크톤으로 광합성 작용을 통해 탄소를 흡수하고 산소를 발생시키고, 동물성 플랑크톤의 먹이가 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 동물성 플랑크톤을 물고기 등이 먹는 생명순환의 사이클 제일 밑바닥에 있는 생명체로서 하천 환경에 꼭 필요하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 이 남세균이 '너무 과다'하게 폭발적으로 증식하는 것은 여러 가지 문제를 일으킨다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 '녹조 현상'이라고 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002862458&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "녹조",
+            "terminate": false,
+            "text": "녹조는 시아노박테리아 또는 남세균이라고 불리는 식물성 플랑크톤이에요. 광합성 작용을 해서 탄소를 흡수하고 산소를 발생시킬 뿐만 아니라 동물성 플랑크톤의 먹이가 되어 생명순환 사이클의 가장 밑바닥에 있는 필수 생명체이죠. 하지만 이 식물성 플랑크톤이 과하게 증식하게 되면 여러 문제를 일으키게 되고 그것을 녹조현상이라고 해요.",
+            "turn_id": "BK22007974-1",
+            "utterance_id": "BK22007974.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "녹조라는 건 수생생물에게는 꼭 필요한 거지만 과다하게 증식할 경우 문제가 되는 거군요. 현재 낙동강의 녹조현상은 심한가요?",
+            "turn_id": "BK22007974-2",
+            "utterance_id": "BK22007974.3"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "6월 중순부터 시작된 낙동강 녹조 현상은 9월 초까지 이어지고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장맛비가 내렸음에도 녹조는 사라지지 않고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 녹조는 낙동강을 따라 부산 다대포해수욕장을 덮치고 거제도 앞바다를 점령했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "녹조는 강뿐만 아니라 바다까지 오염시키고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002862458&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "녹조",
+            "terminate": false,
+            "text": "네, 올해 6월 중순부터 시작된 낙동강의 녹조현상이 심각해요. 장맛비가 내렸지만, 녹조현상은 9월 초까지도 이어지고 있어요. 녹조는 낙동강을 따라 부산의 다대포 해수욕장과 거제 앞바다까지 오염시키고 있어요.",
+            "turn_id": "BK22007974-2",
+            "utterance_id": "BK22007974.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6월부터 9월 초까지 이어지고 있군요. 게다가 낙동강을 넘어서서 바다까지 오염시키고 있나 보네요. 녹조가 어떤 피해를 주는지 궁금해요.",
+            "turn_id": "BK22007974-3",
+            "utterance_id": "BK22007974.5"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "녹조의 피해가 단순한 수질 오염으로 끝나는 것은 아니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오염지표종인 실지렁이와 붉은 깔따구 유충이 창궐하고, 큰빗이끼벌레라는 흉측한 괴생물체도 등장한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산소 고갈로 수중 생태계가 파괴되고, 은빛 모래톱을 낭만적으로 만들어주는 새들도 사라져 버린다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "녹조가 심각한 유역의 농작물에서는 마이크로시스틴과 같은 독소가 검출되기도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=21846",
+            "search_query": "녹조 피해",
+            "terminate": false,
+            "text": "녹조는 수질오염만 시키는 게 아니에요. 녹조로 인해 수질오염이 되면 오염의 지표가 되는 실지렁이와 붉은 깔따구 유충, 큰빗이끼벌레가 생기게 되죠. 또한 산소가 고갈되어 수중 생태계가 파괴될 뿐만 아니라 새들도 사라져요. 게다가 녹조가 심각한 지역의 농작물에서는 마이크로시스틴이라는 독소가 검출되는 등 여러 피해를 줘요.",
+            "turn_id": "BK22007974-3",
+            "utterance_id": "BK22007974.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "녹조로 인해서 생태계가 파괴되고 독소를 내뿜기도 하는군요. 마이크로시스틴은 얼마나 해로운 건가요?",
+            "turn_id": "BK22007974-4",
+            "utterance_id": "BK22007974.7"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "마이크로시스틴은 녹조에 의해 발생되는 발암물질로 사람의 간과 뇌, 남녀의 생식 기능 등에 치명적인 영향을 끼치는 것으로 알려졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220901/115266565/1",
+            "search_query": "who 마이크로시스틴 발암물질",
+            "terminate": false,
+            "text": "마이크로시스틴은 간과 뇌, 남녀의 생식기능에 치명적인 영향을 주는 발암물질이에요.",
+            "turn_id": "BK22007974-4",
+            "utterance_id": "BK22007974.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마이크로시스틴은 간과 뇌, 생식기능에 영향을 주는 발암물질이군요. 낙동강에 녹조가 심하다고 하셨는데 낙동강에서도 이 발암물질이 발견된 건가요?",
+            "turn_id": "BK22007974-5",
+            "utterance_id": "BK22007974.9"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "올해 최악으로 치달은 낙동강 녹조가 먹는 물까지 영향을 미치고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "강과 농작물, 바다에 이어 일반 주택의 수돗물에서도 간 독성을 가진 녹조 독성물질이 검출됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002861604&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "낙동강 마이크로시스틴",
+            "terminate": false,
+            "text": "네, 낙동강 녹조로 인해 강과 농작물, 바다, 일반 주택의 수돗물에서까지 간독성을 가진 녹조 독성물질이 나왔어요.",
+            "turn_id": "BK22007974-5",
+            "utterance_id": "BK22007974.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "낙동강을 식수로 사용하고 있는 지역이 많은 것 같은데 이미 수돗물에서까지 발암물질이 발견됐다니 큰일이네요. 낙동강의 물을 식수원으로 사용하고 있는 사람들은 몇 명인가요?",
+            "turn_id": "BK22007974-6",
+            "utterance_id": "BK22007974.11"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "낙동강은 1300만 영남인의 식수원이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영남인의 식수원에 독성 남세균이 폭발적으로 증가하고 있다는 데 녹조 문제의 심각성이 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002862458&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "낙동강 식수원으로",
+            "terminate": false,
+            "text": "낙동강 물은 영남지역의 식수원으로 사용되는데, 이 물을 식수원으로 사용하는 사람은 1300만명이나 돼요. 녹조가 심각해지면 식수원에도 독성이 폭발적으로 증가하기 때문에 사태가 심각한 거죠.",
+            "turn_id": "BK22007974-6",
+            "utterance_id": "BK22007974.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1300만명이 낙동강의 물을 마시고 있는데 하루빨리 대책을 세워야겠어요. 녹조는 언제부터 우리나라에서 문제가 되었나요?",
+            "turn_id": "BK22007974-7",
+            "utterance_id": "BK22007974.13"
+        },
+        {
+            "reference_date": "2022-09-06",
+            "reference_text": [
+                {
+                    "value": "4대강사업으로 들어선 보에 물을 채우기 시작한 2012년 여름부터 녹조 현상은 시작됐고, 올해까지 만 10년째 똑같은 현상이 되풀이된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 4대강사업 전에도 녹조는 있었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 그것은 하굿둑으로 막힌 낙동강 하구나 일부 정체된 수역에서 부분적으로 발생한 것이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "4대강사업 후부터는 부분적이 아닌 낙동강 전 구간에서 녹조 현상이 목격된다는 데 문제의 심각성이 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002862458&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "녹조현상 시작은",
+            "terminate": false,
+            "text": "녹조는 2012년에 4대강 사업으로 보에 물을 채운 이후 발생했어요. 올해까지 10년째 반복되고 있고요. 4대강 사업을 하기 전에도 녹조는 있었지만, 물이 정체되는 구역에서 일부만 발생했었고 4대강 사업 이후로는 낙동강 전 구간에서 녹조현상이 발생하고 있어요.",
+            "turn_id": "BK22007974-7",
+            "utterance_id": "BK22007974.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4대강 사업 이후로 10년째 녹조현상이 반복되고 있군요. 4대강 사업으로 보에 물을 채우는 것과 녹조와 무슨 관계가 있는지 궁금하네요.",
+            "turn_id": "BK22007974-8",
+            "utterance_id": "BK22007974.15"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "녹조가 번성할 조건은 높은 수온(25℃ 이상)과 영양염류(오염원으로 주로 인과 질소) 그리고 체류 시간 이렇게 크게 세 가지를 꼽을 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수온과 영양염류는 크게 변동이 없는 반면 체류 시간은 엄청나게 증가했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4대강사업 이전에 비해 10배 이상으로 증가했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보로 막혀 정체된 강이 녹조를 발생시키는 주요 원인이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002846872&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "녹조현상 4대강",
+            "terminate": false,
+            "text": "녹조는 높은 수온, 영양염류, 체류시간의 영향을 받아요. 4대강 사업으로 인해 수온과 영양염류는 큰 변화가 없지만 보로 인해 강물이 정체되어 강물의 체류시간이 10배 이상 증가해 녹조가 발생하게 된거예요.",
+            "turn_id": "BK22007974-8",
+            "utterance_id": "BK22007974.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4대강 사업으로 만들어진 보가 강을 정체되게 만들어 녹조가 심해지는 원인이 되었군요. 그렇다면 물을 흐르게 만들어주면 될 것 같은데 불가능한가요?",
+            "turn_id": "BK22007974-9",
+            "utterance_id": "BK22007974.17"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "따라서 녹조가 창궐한 후 수문을 여는 것이 아니라, 녹조가 창궐하기 전에 수문을 열어놓는다면 낙동강에서 녹조는 더 이상 문제가 되지 않을 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수문을 열기 위해서는 시급히 해야 하는 일이 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시급히 구조를 개선해줘야 하는 취양수장이 낙동강에 132개나 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이걸 위한 예산이 대략 8000억 원 정도 든다고 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002862054&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "녹조현상 4대강 수문",
+            "terminate": false,
+            "text": "맞아요. 하지만 그 전에 해결해야 할 일이 있어요. 녹조가 과하게 발생하기 전에 수문을 열면 녹조문제를 해결할 수 있지만 수문을 열기 전에 취양수장의 구조 개선이 먼저 필요해요. 구조 개선이 필요한 취양수장이 132개나 되고 예산이 8000억이 드는 큰 공사죠.",
+            "turn_id": "BK22007974-9",
+            "utterance_id": "BK22007974.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수문을 열기 전에 취양수장 구조를 개선해야 하는군요. 돈도 많이들고 쉬운 일이 아닐 것 같아요. 덕분에 오늘 녹조에 대해 아주 자세히 배웠네요.",
+            "turn_id": "BK22007974-10",
+            "utterance_id": "BK22007974.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 저도 좋네요. 다음에도 궁금한 게 있으시면 언제든지 말씀해 주세요.",
+            "turn_id": "BK22007974-10",
+            "utterance_id": "BK22007974.20"
+        }
+    ]
+}

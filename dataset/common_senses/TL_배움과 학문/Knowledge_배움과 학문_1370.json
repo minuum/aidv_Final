@@ -1,0 +1,436 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008973",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008973",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 총에 관해 관심이 생기더라고. 특히 총이 연발로 나가는 기관총이 참 신기한데, 기관총은 누가 처음 만들었고, 최초의 기관총은 뭐였어?",
+            "turn_id": "BK22008973-1",
+            "utterance_id": "BK22008973.1"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "최초의 기관총은 개틀링이 개발하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남북전쟁 중 발명가인 개틀링 박사는 총신을 묶어 발사하는 개틀링 건을 발명하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한편, 자동사격을 위해 사람의 힘을 필요로 하지 않는 현대적 기관총인 맥심 기관총은 1883년 발명가인 맥심이 개발하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B4%80%EC%B4%9D",
+            "search_query": "최초 기관총",
+            "terminate": false,
+            "text": "남북 전쟁이 일어나던 중 개틀링 박사라는 발명가가 총신을 묶어 발사되도록 만든 개틀링 건이 최초의 기관총이야. 다만, 인력 없이 자동으로 사격이 이루어지는 현대적 의미의 기관총은 1883년에 맥심이라는 발명가가 만든 맥심 기관총이 최초이지.",
+            "turn_id": "BK22008973-1",
+            "utterance_id": "BK22008973.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 기관총의 역사가 엄청 길구나. 그 맥심 기관총은 어떤 식으로 작동됐을까?",
+            "turn_id": "BK22008973-2",
+            "utterance_id": "BK22008973.3"
+        },
+        {
+            "reference_date": "2014-07-30",
+            "reference_text": [
+                {
+                    "value": "이에 맥심 기관총은 처음에 노리쇠 앞에 달린 갈퀴를 후퇴시켜 탄띠에 끼워져 있는 탄환의 림을 끌어당겨 빼낸 후, 밑에 있는 약실에 떨어뜨린다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이어 노리쇠를 전진시켜 약실로 보내고, 방아쇠로 공이를 때려 발사한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 반동력에 의해 후퇴하는 노리쇠는 다시 한 발의 탄환을 딴 띠에서 빼내고, 이미 빈 탄피는 한 단계 더 밑으로 떨어뜨려 외부로 추출시킨다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물론 동시에 약실에 장전이 이뤄진다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장탄-격발-추출 등의 일련의 동작이 가스 반동력에 의해 동시에 이뤄진다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/1%EC%B0%A8-%EB%8C%80%EC%A0%84%EC%97%90%EC%84%9C-%ED%99%9C%EC%95%BD%ED%95%9C-%EB%A7%A5%EC%8B%AC-%EA%B8%B0%EA%B4%80%EC%B4%9D/",
+            "search_query": "맥심 기관총 원리",
+            "terminate": false,
+            "text": "맥심 기관총의 작동 과정은 노리쇠 앞쪽에 있는 갈퀴를 후퇴시킨 다음, 탄띠에 끼워진 총탄의 림을 당겨서 뺀 뒤, 아래쪽의 약실로 떨어뜨리는 것으로 시작돼. 그다음에는 노리쇠를 앞으로 밀어 약실 쪽으로 보내고, 방아쇠로 공이를 타격해 총탄을 발사하는데, 이때 노리쇠는 반동력 때문에 후퇴해서 다시 총탄 하나를 탄띠에서 빼내고, 비어 버린 탄피는 한 단계 아래로 떨어뜨려서 바깥으로 내보내지. 그리고 동시에 약실에는 장전이 되고. 이렇게 해서 장탄-발사-추출 등 동작 전부가 가스 반동의 힘으로 한 번에 이루어지는 거야.",
+            "turn_id": "BK22008973-2",
+            "utterance_id": "BK22008973.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 방식을 어떻게 생각해낸 건지 정말 놀라워. 그럼 지금 우리나라에서 사용되는 기관총을 하나만 소개해 줄래?",
+            "turn_id": "BK22008973-3",
+            "utterance_id": "BK22008973.5"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "K6 중기관총은 12.7mm 중기관총으로 대한민국 육군의 주력 중기관총으로 사용 중이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "K6은 미국산 M2/QCB 모델을 기본으로 한 것이며, K6이란 이름은 독자 개발한 화기류의 6번째 모델이라는 의미다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 기존 M2(한국 제식명MG50)를 대체하여 보병지원 및 대물 기관총(전차 및 장갑차 등)으로 사용 중이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 현재 해군 군함 기관총으로 사용 중이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/K6_%EA%B8%B0%EA%B4%80%EC%B4%9D",
+            "search_query": "k6 중기관총",
+            "terminate": false,
+            "text": "응, 우리나라 육군에서 주력 중기관총으로 사용 중인 12.7mm 중기관총, K6 중기관총을 예로 들어 줄게. K6는 미국의 M2/QCB를 본바탕으로 해서 만들어진 모델인데, K6라는 이름은 우리나라에서 독자적으로 개발한 화기 중 6번째 것이라는 뜻이야. 기존에 사용되던 M2를 대체해서 현재 대물 기관총이나 보병 지원 용도, 해군 군함의 기관총으로 쓰이고 있어.",
+            "turn_id": "BK22008973-3",
+            "utterance_id": "BK22008973.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "육군뿐 아니라 해군 군함에서도 쓰인다니, 용도가 다양하구나. 중기관총이 있으면 경기관총도 있을 것 같은데, 우리나라에서 사용되는 경기관총이 있으면 하나 알려줄래?",
+            "turn_id": "BK22008973-4",
+            "utterance_id": "BK22008973.7"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "K3 기관총은 5.56 × 45 mm NATO 탄을 사용하는 경기관총이자 분대지원화기이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "M249를 바탕으로 제작된 기관총으로 대한민국 군대에는 1991년부터 배치되기 시작하였고, M60 기관총과 함께 운용되고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "양각대를 총열에서 분리시켜 총몸으로 이동시킴으로써 예비총열의 무게가 줄게 되었다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 총열에 손잡이가 있어 교환시 방열장갑이 필요하지 않다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/K3_%EA%B8%B0%EA%B4%80%EC%B4%9D",
+            "search_query": "k3 경기관총",
+            "terminate": false,
+            "text": "5.56 x 45mm NATO 탄을 쓰는 분대 지원 화기이자 경기관총인 K3 기관총이 있어. K3 기관총은 M249를 바탕으로 만들어졌는데, 1991년부터 우리나라 군대에 배치되기 시작해서 M60 기관총과 같이 사용 중이야. K3 기관총은 총열로부터 양각대를 분리해 총몸 쪽으로 옮겨서 예비 총열의 무게를 줄였고, 총열에 손잡이가 존재해서 교환할 때 방열 장갑이 없어도 된다는 특징이 있어.",
+            "turn_id": "BK22008973-4",
+            "utterance_id": "BK22008973.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 벌써 30년 이상 쓰인 총이구나. 기관총 얘기를 하다 보니까, 기관이라는 단어가 들어가는 기관단총에 관해서도 궁금해지는데, 기관단총은 어떤 총이야?",
+            "turn_id": "BK22008973-5",
+            "utterance_id": "BK22008973.9"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "기관단총(機關短銃; 영어: sub-machine gun; SMG 서브머신건[*]; 독일어: maschinenpistole; MP 마쉬넨피스톨레[*], 러시아어: Пистолет-пулемёт; ПП(PP) 피스딸레뜨 풀레묘뜨[*])은 권총탄을 사용하는 완전자동 사격이 가능한 자동화기를 총칭한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기관단총은 권총 탄을 사용하는 관계로 소총에 비해 여러 면에서 떨어진다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사거리가 짧고 한발 한발의 저지력이 약하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 같은 권총탄을 사용하더라도 총열이 길고 무겁기 때문에 권총에 비해선 유효 사거리가 길고, 자동 사격시 자동소총 보다 반동이 적어 집탄성이 좋다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 관통력이 약하기 때문에 뜻하지 않은 사상자가 발생할 가능성이 비교적 적다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B4%80%EB%8B%A8%EC%B4%9D",
+            "search_query": "기관단총",
+            "terminate": false,
+            "text": "권총탄을 쓰면서 완전 자동 사격이 되는 자동화기를 통틀어서 기관단총이라고 해. 기관단총은 권총용 탄을 쓰기 때문에 여러 부분에서 소총보다 뒤떨어지는데, 총탄 하나하나의 저지력이 강하지 않고, 사정거리가 짧아. 다만, 똑같이 권총용 탄환을 쓰더라도 총열이 무겁고 길기 때문에 권총보다 유효 사거리가 길고, 자동소총보다 자동 사격할 때 반동이 적어서 집탄성이 괜찮다는 장점이 있지. 그리고 관통력이 좋지 못해서 예기치 못한 사상자를 낼 가능성도 적은 편이야.",
+            "turn_id": "BK22008973-5",
+            "utterance_id": "BK22008973.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 권총과 소총의 중간쯤에 위치한 총 같은 느낌이네. 혹시 우리나라에서 개발된 기관단총도 있을까?",
+            "turn_id": "BK22008973-6",
+            "utterance_id": "BK22008973.11"
+        },
+        {
+            "reference_date": "2022-03-19",
+            "reference_text": [
+                {
+                    "value": "K1A 기관단총은 대한민국 최초의 독자 개발 소화기이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대한민국에선 육군 수색대원, 포병, 장갑병, 부사관, 해병대, 청와대 경호처 (실제로 청와대 앞을 가보면 K1A 기관단총으로 무장한 경호원들을 볼 수 있다.) 등의 지급되는 기관단총으로 가볍고 휴대가 간편하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "K1A는 M16 소총처럼 가스 튜브를 쓰는 가스 직동식으로 동작하지만, M16 소총과 달리 장전 손잡이가 노리쇠 뭉치에 직접 달려 있어 노리쇠 전진기가 필요없다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "탄피 배출 방식도 AK 시리즈처럼 고정된 차개로 탄피를 튕겨내는 방식이다",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/K1A_%EA%B8%B0%EA%B4%80%EB%8B%A8%EC%B4%9D",
+            "search_query": "k1a 기관단총",
+            "terminate": false,
+            "text": "응, 우리나라에서 최초로 독자 개발한 소화기인 K1A 기관단총이 있어. 포병, 장갑병, 해병대, 부사관, 육군 수색대원, 청와대 경호처 등에서 쓰는 기관단총이고, 휴대하기 편하고 가벼운 총이지. M16 소총과 마찬가지로 K1A의 작동 방식도 가스 튜브를 사용하는 가스 직동식이지만, M16 소총이랑 다르게 노리쇠 뭉치 쪽에 장전 손잡이가 직접 장착되어 있기 때문에 노리쇠 전진기가 따로 없어도 돼. 탄피 배출은 AK 시리즈랑 똑같이 고정된 차개를 써서 탄피를 튕겨내는 방식으로 동작해.",
+            "turn_id": "BK22008973-6",
+            "utterance_id": "BK22008973.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에서 최초로 개발한 소화기라는 게 참 의미 있는 것 같네. 그나저나 내가 하는 게임에서 흔히 보이는 총 종류 중 하나가 돌격소총인데, 돌격소총은 어떤 총이고, 언제 처음 만들어졌어?",
+            "turn_id": "BK22008973-7",
+            "utterance_id": "BK22008973.13"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "돌격소총(突擊小銃, 독일어: Sturmgewehr 슈트룸게베어[*], 영어: assault rifle 어썰트 라이플[*], 러시아어: Автомат 압따마뜨[*])은 전투소총탄과 권총탄의 중간 정도 위력을 가지는 탄(intermediate-powered ammunition)을 사용하는 자동소총을 말한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 거의 대부분 국가들의 제식소총은 돌격소총이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최초의 돌격소총은 이탈리아에서 1890년대에 개발한 Cei-Rigotti이지만, 군에 채용되지는 못했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%8C%EA%B2%A9%EC%86%8C%EC%B4%9D",
+            "search_query": "돌격소총",
+            "terminate": false,
+            "text": "우선, 권총용 탄과 전투 소총용 탄의 중간쯤 되는 위력을 지니는 탄환을 쓰는 자동소총이 바로 돌격소총이야. 현대에는 대부분 국가에서 제식소총으로 돌격소총을 채용하고 있지. 최초의 돌격소총을 보자면, 1890년대 이탈리아에서 개발된 Cei-Rigotti라는 돌격소총 최초이지만, 이 총은 군대에 채용되지 않았어.",
+            "turn_id": "BK22008973-7",
+            "utterance_id": "BK22008973.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 국가에서 제식소총으로 쓰고 있다 보니 게임에서도 흔히 보이나 보다. 혹시 우리나라에서도 주력 제식소총이 돌격소총일까? 돌격소총이 맞다면 어떤 총인지도 설명해 줄래?",
+            "turn_id": "BK22008973-8",
+            "utterance_id": "BK22008973.15"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "K2 소총은 대한민국 국군의 주력 제식소총으로, 5.56 × 45 mm NATO 탄을 사용하는 돌격소총이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국방과학연구소에서 개발하였고, 1982년부터 현재까지도 S&T모티브(구 대우정밀)에서 생산 중이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "롱 스트로크 가스 피스톤 방식, M16 소총과 유사한 회전 노리쇠 방식을 채용하고 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발사모드 제어 방식은 M16 소총과 유사하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방아쇠뭉치에 3발 점사기구가 있어 단발, 3점사, 연발이 가능하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/K2_%EC%86%8C%EC%B4%9D",
+            "search_query": "k2 소총",
+            "terminate": false,
+            "text": "응, 우리 국군의 주력 제식소총도 돌격소총이야. K2 소총인데, 5.56 x 45 mm NATO 탄을 쓰는 돌격소총이지. K2 소총은 국방과학연구소에서 개발됐는데, 1982년부터 지금까지 S and T 모티브에서 생산하고 있어. K2 소총에는 롱 스트로크 가스 피스톤 방식이나 M16 소총과 비슷한 회전 노리쇠 방식이 쓰이지. 사격 모드를 제어하는 방법은 M16 소총과 비슷한데, 방아쇠 뭉치에 3발 점사기구가 존재해서 연발, 3점사, 단발 사용이 가능해.",
+            "turn_id": "BK22008973-8",
+            "utterance_id": "BK22008973.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 말해 준 K3 기관총이랑 같은 탄을 쓰는구나. 그나저나 총은 종류가 정말 다양해서 다가가기 어렵기도 하지만, 하나씩 알아가는 재미도 있는 것 같아.",
+            "turn_id": "BK22008973-9",
+            "utterance_id": "BK22008973.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 그런 재미 때문에 총기에 관해 하나씩 알아보게 됐어.",
+            "turn_id": "BK22008973-9",
+            "utterance_id": "BK22008973.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 오늘 여러 가지 설명해 줘서 고마워. 나는 이만 공부를 다시 하러 가 볼 건데, 총에 관해 또 궁금한 게 생기면 물어봐도 될까?",
+            "turn_id": "BK22008973-10",
+            "utterance_id": "BK22008973.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이지, 언제든 편하게 물어봐. 최대한 열심히 대답해 줄게. 게임 재미있게 하고 다음에 보자.",
+            "turn_id": "BK22008973-10",
+            "utterance_id": "BK22008973.20"
+        }
+    ]
+}

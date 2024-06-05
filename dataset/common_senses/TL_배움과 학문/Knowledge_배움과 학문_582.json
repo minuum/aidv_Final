@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003321",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003321",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스를 보니 일본에 있는 화산에서 불이 나왔다는데 혹시 알고 계세요?",
+            "turn_id": "BK22003321-1",
+            "utterance_id": "BK22003321.1"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "일본 규슈 남부 가고시마(鹿兒島)현 가고시마시의 섬 사쿠라지마(櫻島)에서 24일 오후 8시 5분경 화산이 분화(噴火)했다고 일본 기상청이 발표했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220724/114631696/1",
+            "search_query": "일본 화산",
+            "terminate": false,
+            "text": "네, 24일 오후에 일본 규수 남부 가고시마현 가고시마시 섬에 있는 사쿠라지마에서 화산이 분화했어요.",
+            "turn_id": "BK22003321-1",
+            "utterance_id": "BK22003321.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 화산 분화라면 구체적으로 어떤 현상이 벌어진 건가요?",
+            "turn_id": "BK22003321-2",
+            "utterance_id": "BK22003321.3"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "보도에 따르면 분화가 발생하면서 분연(噴煙·분화구에서 나오는 연기)이 솟아오르고 분출된 돌이 분화구에서 2.5㎞까지 날아갔다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본 기상청은 사쿠라지마 '분화 속보'를 발령했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220724053600073?input=1195m",
+            "search_query": "일본 화산 분화",
+            "terminate": false,
+            "text": "사쿠라지마 화산 분화구에서 연기인 분연이 솟았고, 또 돌이 분출돼서 분화구에서 2.5㎞까지 날아갔어요. 화산 분화로 인해 일본 기상청은 분화 속보를 발령했어요.",
+            "turn_id": "BK22003321-2",
+            "utterance_id": "BK22003321.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 연기에 돌이 튀어 나간다니 생각만 해도 무서울 것 같아요. 그런데 분화 속보 발령은 무슨 뜻인가요?",
+            "turn_id": "BK22003321-3",
+            "utterance_id": "BK22003321.5"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "'분화 속보'는 일정 기간 분화하지 않은 화산에서 분화가 발생하거나 이미 분화가 발생한 화산에서 더 큰 분화가 발생한 경우 발표된다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220724053600073?input=1195m",
+            "search_query": "분화속보",
+            "terminate": false,
+            "text": "분화 속보는 어느 정도 기간 분화하지 않은 화산이 분화하거나 이미 분화가 발생한 화산에서 더 큰 분화가 일어나는 경우 발표되는 걸 말해요.",
+            "turn_id": "BK22003321-3",
+            "utterance_id": "BK22003321.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 사쿠라지마 화산은 나중에도 더 큰 분화가 생길 수도 있겠네요. 사쿠라지마는 어떤 화산인가요? 도쿄에서 멀리 떨어져 있는 곳인가요?",
+            "turn_id": "BK22003321-4",
+            "utterance_id": "BK22003321.7"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "사쿠라지마 섬은 도쿄에서 남서쪽으로 약 1000㎞ 떨어져 있다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본에서 가장 활동적인 화산 중 하나로, 수십 년 동안 여러 차례 분화했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1914년 대분화로 58명이 숨졌고 가장 최근엔 지난 1월 폭발해 수㎞ 내 화산재 구름을 내뿜었다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220725_0001954205&cID=10101&pID=10100",
+            "search_query": "사쿠라지마 화산",
+            "terminate": false,
+            "text": "사쿠라지마 섬은 도쿄에서 남서쪽 방향으로 약 1000㎞ 떨어져 있는 곳이에요. 사무라지마 화산은 일본에서 제일 활동적인 화산 중 한 곳인데 수십 년 동안 여러 번 분화했어요. 1914년에 발생한 대분화로 58명의 인명피해가 생겼어요. 최근 1월에는 화산이 폭발해 주변 수㎞ 내로 화산재 구름을 분출했어요.",
+            "turn_id": "BK22003321-4",
+            "utterance_id": "BK22003321.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 화산 분화라니 생각하니 정말 무서운 일이네요. 그런데 듣자 하니 활화산도 있고 휴화산도 있던데 둘은 무슨 차이예요?",
+            "turn_id": "BK22003321-5",
+            "utterance_id": "BK22003321.9"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "활화산(活火山)은 현재에도 왕성한 활동을 하는 화산을 말하며, 활동이 가시적이지 않는 경우에는 휴화산으로 세분하기도 한다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%9C%ED%99%94%EC%82%B0",
+            "search_query": "활화산",
+            "terminate": false,
+            "text": "활화산은 지금도 활발한 활동을 하는 화산을 가리켜요. 휴화산은 활동이 눈으로 보이지 않은 화산을 뜻해요.",
+            "turn_id": "BK22003321-5",
+            "utterance_id": "BK22003321.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 화산을 활화산으로 분류하는 기준은 뭔가요? 정식 기준이 있을 것 같은데요.",
+            "turn_id": "BK22003321-6",
+            "utterance_id": "BK22003321.11"
+        },
+        {
+            "reference_date": "2014-09-30",
+            "reference_text": [
+                {
+                    "value": "학술적 기준으로 1만년 이내에 분화 기록이 있으면 현재상태와 관계없이 활화산이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=03230806606225368&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "활화산 분류 기준",
+            "terminate": false,
+            "text": "네, 1만 년 이내에 분화 기록이 있는 화산은 지금 상태와 관련 없이 활화산으로 구분해요.",
+            "turn_id": "BK22003321-6",
+            "utterance_id": "BK22003321.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 한국에도 혹시 활화산이 있나요?",
+            "turn_id": "BK22003321-7",
+            "utterance_id": "BK22003321.13"
+        },
+        {
+            "reference_date": "2022-01-23",
+            "reference_text": [
+                {
+                    "value": "한반도 활화산으로는 백두산·울릉도·제주도가 포함되고, 전문가들이 예의주시하는 곳은 백두산과 울릉도 인근 동해의 해저화산이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022012117124278939",
+            "search_query": "백두산 활화산",
+            "terminate": false,
+            "text": "네, 우리나라의 활화산은 백두산, 울릉도, 제주도가 있어요. 특히 전문가들이 주로 관심을 가지는 곳은 백두산과 울릉도 인근 동해의 해저화산이에요.",
+            "turn_id": "BK22003321-7",
+            "utterance_id": "BK22003321.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 한국도 활화산이 있어서 안전하지만은 않네요. 백두산은 저도 들어본 것 같은데 백두산은 그동안 자주 분화했나요?",
+            "turn_id": "BK22003321-8",
+            "utterance_id": "BK22003321.15"
+        },
+        {
+            "reference_date": "2022-01-31",
+            "reference_text": [
+                {
+                    "value": "31일 기상청에 따르면 900년대부터 현재까지 백두산은 31번 분화했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "백두산이 가장 크게 분화했을 때는 고려 때인 946~947년이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220128099800530?input=1195m",
+            "search_query": "백두산 화산",
+            "terminate": false,
+            "text": "백두산은 900년대부터 지금까지 31번 분화했어요. 백두산이 그 어느 때보다 크게 분화한 시기는 고려 때인 946년에서 947년이에요.",
+            "turn_id": "BK22003321-8",
+            "utterance_id": "BK22003321.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 일본도 한국도 모두 화산 위험을 조심해야겠어요. 특히 백두산은 가까워서 좀 겁이 나네요.",
+            "turn_id": "BK22003321-9",
+            "utterance_id": "BK22003321.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 저도 한때 백두산이 터지는 건 아닐까 잔뜩 겁먹었거든요. 지금은 과학자들이 활화산을 잘 연구하는 게 가장 최선 같아요.",
+            "turn_id": "BK22003321-9",
+            "utterance_id": "BK22003321.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 자연의 힘을 사람이 어떻게 막겠어요. 오늘 알려주신 정보 정말 유익했어요.",
+            "turn_id": "BK22003321-10",
+            "utterance_id": "BK22003321.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 얘기 재밌었어요. 그럼 다음에 또 만나서 수다 떨어요.",
+            "turn_id": "BK22003321-10",
+            "utterance_id": "BK22003321.20"
+        }
+    ]
+}

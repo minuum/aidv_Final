@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002481",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002481",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘에 영국 역사에 관심이 많아져서 이것저것 공부하고 있는데, 되게 로맨틱하면서도 안쓰러운 인물이 있더라고요.",
+            "turn_id": "BK22002481-1",
+            "utterance_id": "BK22002481.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영국사에 흥미로운 인물들이 많잖아요. 방금 말씀하신 건 어떤 역사 인물인가요? 제가 영국사에 대해 잘 알아서 이것저것 알려드릴 수 있어요.",
+            "turn_id": "BK22002481-1",
+            "utterance_id": "BK22002481.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 하노버 왕가 출신의 빅토리아 여왕이에요! 빅토리아 여왕에 대해 잘 아시나요? 아시면 설명해주세요.",
+            "turn_id": "BK22002481-2",
+            "utterance_id": "BK22002481.3"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "빅토리아(Alexandrina Victoria, 1819년 5월 24일 ~ 1901년 1월 22일)는 그레이트브리튼 아일랜드 연합 왕국의 왕 (재위 : 1837년 6월 20일 ~ 1901년 1월 22일)이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%85%ED%86%A0%EB%A6%AC%EC%95%84_%EC%97%AC%EC%99%95_(%EC%98%81%EA%B5%AD)",
+            "search_query": "빅토리아 여왕",
+            "terminate": false,
+            "text": "그레이트브리튼 아일랜드 연합 왕국의 왕이었던 빅토리아 여왕을 말씀하시는군요. 1819년 5월 24일생이고, 서거 일인 1901년 1월 22일까지 생존했었죠. 재위 일은 1837년 6월 20일이고요.",
+            "turn_id": "BK22002481-2",
+            "utterance_id": "BK22002481.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 사실 빅토리아 여왕의 정확한 재위 일까지는 몰랐는데, 말씀해주신 기간을 보니까 빅토리아 여왕의 통치 기간이 정말 길긴 했네요.",
+            "turn_id": "BK22002481-3",
+            "utterance_id": "BK22002481.5"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 2세 여왕은 2015년 9월 고조모인 빅토리아 여왕의 재위 기간인 63년 7개월 2일을 넘어서면서 '영국 최장기간 재위 군주' 기록을 세웠다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/international/article/202206137823Y",
+            "search_query": "빅토리아 여왕 재위 기간",
+            "terminate": false,
+            "text": "그렇죠, 빅토리아 여왕의 재위 기간은 무려 63년 7개월에 달했거든요. 이 기록을 깬 건 2015년 9월, 영국 최장기간 재위 군주 기록을 세운 엘리자베스 2세 여왕이었어요. 빅토리아 여왕은 엘리자베스 2세의 고조모이기도 하죠.",
+            "turn_id": "BK22002481-3",
+            "utterance_id": "BK22002481.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거의 64년가량 한 왕국을 다스렸다니 굉장하네요. 하지만 그렇게 여왕의 재위 기간이 길었던 것에 비해서, 부군이었던 앨버트 공이 너무 일찍 사망했던 것이 안타까웠어요.",
+            "turn_id": "BK22002481-4",
+            "utterance_id": "BK22002481.7"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "색스코버그고타 공자 앨버트(Prince Albert of Saxe-Coburg and Gotha, 1819년 8월 26일 - 1861년 12월 14일)는 영국의 빅토리아의 남편이자 영국의 에드워드 7세의 아버지다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%81%EA%B5%AD_%EC%97%AC%EC%99%95_%EB%B6%80%EA%B5%B0_%EC%95%A8%EB%B2%84%ED%8A%B8",
+            "search_query": "부군 앨버트 공 사망",
+            "terminate": false,
+            "text": "색스코버그고타 공자이자 빅토리아의 남편이었던 앨버트를 말씀하시는 거군요. 1819년 8월 26일생이고, 영국의 에드워드 7세의 아버지였지만 1861년 12월 14일에 서거했잖아요.",
+            "turn_id": "BK22002481-4",
+            "utterance_id": "BK22002481.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 빅토리아 여왕이 남편의 죽음에 너무 크게 충격을 받았다고 하더라고요. 그래서 늘 상복만 입고 다녔다는 이야기를 봤는데, 괜히 저도 마음이 아팠어요.",
+            "turn_id": "BK22002481-5",
+            "utterance_id": "BK22002481.9"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "앨버트가 서거한 후, 빅토리아는 그녀 자신도 뒤따라 죽을 때까지 평생 검은색 상복을 입기를 고집하였다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%81%EA%B5%AD_%EC%97%AC%EC%99%95_%EB%B6%80%EA%B5%B0_%EC%95%A8%EB%B2%84%ED%8A%B8",
+            "search_query": "빅토리아 남편 죽음 상복",
+            "terminate": false,
+            "text": "맞아요, 빅토리아 여왕은 앨버트의 죽음 이후 계속 검은색 상복을 입었죠. 심지어 이 고집을, 빅토리아 본인이 앨버트의 뒤를 따를 때까지 계속 이어가려고 했으니까요.",
+            "turn_id": "BK22002481-5",
+            "utterance_id": "BK22002481.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 안타까운 게, 앨버트 사후에 빅토리아 여왕이 아들이었던 에드워드 7세를 굉장히 미워하게 되었다고 하더라고요. 빅토리아 여왕은 에드워드 7세가 남편의 죽음에 책임이 있다고 생각했던 것 같았어요.",
+            "turn_id": "BK22002481-6",
+            "utterance_id": "BK22002481.11"
+        },
+        {
+            "reference_date": "2012-08-22",
+            "reference_text": [
+                {
+                    "value": "그런데 그해 11월 앨버트는 케임브리지에서 공부하고 있던 장남 에드워드가 더블린에 잠시 머물고 있을 때 그곳의 한 여배우와 동침했다는 사실을 전해 듣는다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장남의 무절제한 행실에 화가 난 앨버트는 즉시 케임브리지로 달려가 아들을 훈계했다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 케임브리지에 다녀온 후 몸 상태가 갑자기 나빠졌다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 유명한 의사 저너(William Jenner·1815~1898)는 장티푸스 진단을 내렸고, 결국 앨버트는 1861년 12월 14일 빅토리아 여왕과의 21년간 결혼생활을 뒤로하고 숨을 거둔다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://shindonga.donga.com/Series/3/990632/13/111417/2",
+            "search_query": "앨버트 공 죽음 에드워드 7세 원망",
+            "terminate": false,
+            "text": "그건 앨버트가 장남이었던 에드워드를 훈계하려고 케임브리지로 급히 갔다 돌아온 이후 급격히 몸 상태가 나빠졌기 때문이에요. 당시의 유명한 의사였던 저너가 진단했던 병명은 장티푸스였어요. 결국 1861년 12월 14일에, 21년간의 결혼생활을 뒤로한 채 앨버트는 빅토리아 여왕의 곁을 떠나고 말았어요. 앨버트는 그저, 에드워드가 더블린에 머물렀을 당시 그곳의 여배우와 동침했다는 사실을 알고선 그런 무절제한 행실을 용납할 수 없어서 훈계하려고 했던 것뿐인데, 이게 그만 죽음으로까지 이어진 거죠.",
+            "turn_id": "BK22002481-6",
+            "utterance_id": "BK22002481.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장티푸스가 정확히 어떤 병이에요? 요즘엔 거의 못 들어본 병인 거 같아요.",
+            "turn_id": "BK22002481-7",
+            "utterance_id": "BK22002481.13"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "장티푸스(腸typhus, typhoid fever,문화어: 장띠뿌쓰)는 살모넬라 균의 일종인 Salmonella enterica serovar Typhi에 의한 급성 전신 감염 질환이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염병(染病), 온역(瘟疫), 장질부사(腸窒扶斯)라고도 한다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A5%ED%8B%B0%ED%91%B8%EC%8A%A4",
+            "search_query": "장티푸스",
+            "terminate": false,
+            "text": "다른 말로는 염병, 온역 내지 장질부사라고도 부르는 병이에요. 급성 전신 감염 질환 중 하나이고, 살모넬라균의 일종인 Salmonella enterica serovar Typhi 때문에 발생하죠.",
+            "turn_id": "BK22002481-7",
+            "utterance_id": "BK22002481.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "급성이라면 정말 갑자기 생긴 병이 맞는 거네요. 장남인 에드워드가 모든 원인을 제공했다고 보기는 좀 애매하지만, 그래도 그런 식으로 갑자기 남편이 죽게 되면 빅토리아 여왕이 아들을 좋게 볼 수는 없을 거 같아요.",
+            "turn_id": "BK22002481-8",
+            "utterance_id": "BK22002481.15"
+        },
+        {
+            "reference_date": "2021-02-09",
+            "reference_text": [
+                {
+                    "value": "여왕은 남편이 죽음이 에드워드의 탓이라 여기고 왕위계승권자인 에드워드가 국정에 일절 간여하지 못하도록 막았다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=827545",
+            "search_query": "빅토리아 여왕 장남 에드워드",
+            "terminate": false,
+            "text": "맞아요, 남편의 죽음에 에드워드가 책임이 있다고 생각한 것으로도 모자라서, 심지어 국정에도 일절 관여하지 못하도록 했으니까요. 에드워드가 자신의 뒤를 이를 왕위계승권자였는데도요.",
+            "turn_id": "BK22002481-8",
+            "utterance_id": "BK22002481.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남편이랑 사이가 굉장히 좋았다는데, 그 남편과의 사이에서 태어난 아들 때문에 남편이 일찍 죽게 되었다니 아이러니해요. 실제로 빅토리아 여왕이 앨버트 공을 엄청 사랑했다면서요.",
+            "turn_id": "BK22002481-9",
+            "utterance_id": "BK22002481.17"
+        },
+        {
+            "reference_date": "2020-06-29",
+            "reference_text": [
+                {
+                    "value": "결혼생활이 안정되면서 앨버트 공의 지적이고 사려 깊은 태도에 무한한 신뢰를 가지게 되었고, 국무회의 때면 언제나 앨버트 대공을 대동하였다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.hankooki.com/news/articleView.html?idxno=6778210",
+            "search_query": "빅토리아 여왕 앨버트 공 사랑",
+            "terminate": false,
+            "text": "실제로도 결혼 생활이 안정된 이후로 앨버트 공을 엄청나게 신뢰하기 시작했는데, 이건 앨버트의 지적이고 사려 깊은 태도 덕분이었어요. 국무회의가 있을 때도 늘 앨버트 공을 대동할 정도였으니까요.",
+            "turn_id": "BK22002481-9",
+            "utterance_id": "BK22002481.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약 앨버트 공이 계속 살아있었다면 어떻게 되었을까, 역사에도 크게 다른 영향을 주었을까 조금 궁금하기도 하네요. 아무튼 흥미로운 이야기를 나눠줘서 고마워요!",
+            "turn_id": "BK22002481-10",
+            "utterance_id": "BK22002481.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 저도 이야기하느라 즐거웠어요. 다음에 또 이야기 나누어요!",
+            "turn_id": "BK22002481-10",
+            "utterance_id": "BK22002481.20"
+        }
+    ]
+}

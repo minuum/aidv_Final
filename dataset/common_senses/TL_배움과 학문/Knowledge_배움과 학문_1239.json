@@ -1,0 +1,441 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008318",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008318",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 판타지 소설을 하나 읽는 중인데, 작가가 소설 내에서 사용되는 문자까지 직접 만들었더라고. 그걸 보니 문득 문자에 대해 관심이 생겨서 말이야. 지금까지 발견된 것 중 가장 오래된 문자는 어떤 걸까?",
+            "turn_id": "BK22008318-1",
+            "utterance_id": "BK22008318.1"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "쐐기 문자(cuneiform) 또는 설형 문자(楔形文字)는 수메르인들이 기원전 3000년경부터 사용했던 상형문자로, 현재 기록/발굴 중 가장 최초의 문자이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "쐐기문자는 점토판에 썼으며, 첨필(스타일러스)이라고 부르는 갈대 가지로 만들었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "첨필 끝을 뾰족하게 만들어 썼다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시간이 지나면서 상형 문자적인 요소는 줄어들고 점점 추상화되었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수메르 문자는 아카드어, 에블라어, 엘람어, 히타이트어(그리고 루비아어), 후르리어에도 쓰였으며, 고대 페르시아어와 우가리트 문자에도 영향을 미쳤다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%90%90%EA%B8%B0_%EB%AC%B8%EC%9E%90",
+            "search_query": "쐐기 문자",
+            "terminate": false,
+            "text": "현재까지 발굴, 기록된 것을 기준으로, 인류 최초의 문자는 쐐기 문자야. 수메르인들이 기원전 3000년경부터 사용했던 상형문자이지. 쐐기 문자는 갈대 가지로 만든 첨필 끝을 뾰족하게 만들어 점토판에 썼는데, 시간이 흐르면서 문자의 상형 문자적인 요소가 줄어들고 점점 추상화되었어. 쐐기 문자는 이후 에블라어, 엘람어, 아카드어, 히타이트어, 후르리어에도 쓰이게 됐고, 고대 페르시아어와 우가리트 문자에까지 영향을 끼쳤지.",
+            "turn_id": "BK22008318-1",
+            "utterance_id": "BK22008318.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수천 년 전부터 문자 개념이 있었다는 게 놀랍네. 그런데 상형 문자라는 게 정확히 뭐야? 그림 문자와는 다른 건가?",
+            "turn_id": "BK22008318-2",
+            "utterance_id": "BK22008318.3"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "상형 문자(象形文字; 문화어: 모양글자)는 그림으로 이루어진 문자이며, 그림 문자로부터 발전하여 태어났다고 여겨진다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그림 문자와 상형문자의 가장 큰 차이는 문자가 낱말에 결합되는지 아닌지에 있다",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그림 문자는 문자와 언어의 관계를 생각하지 않고, 그 그림에 따른 하등의 관념이나 문장을 전하려고 한 것이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면, 상형문자는 문장과 언어를 분석하면서 그 언어와 문자가 대응을 이루는 표어 문자의 하나이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%81%ED%98%95%EB%AC%B8%EC%9E%90",
+            "search_query": "상형 문자",
+            "terminate": false,
+            "text": "응, 상형 문자는 그림 문자와는 달라. 물론 상형 문자도 그림으로 이루어진 문자이고, 그림 문자에서 발전해 생겨났다고 생각되지. 다만, 문자가 낱말에 결합되는지 여부에 따라 그림 문자와 상형 문자가 갈리게 돼. 그림 문자는 언어와 문자의 관계를 고려하지 않고 그저 그림에 따른 문장이나 관념을 전달하는 게 목적인 반면, 상형 문자는 언어와 문장을 분석하고 문자와 언어가 대응하는 표어 문자의 일종이야.",
+            "turn_id": "BK22008318-2",
+            "utterance_id": "BK22008318.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문자와 언어의 연결성에 따라 나눌 수 있는 거구나. 상형 문자가 표어 문자의 일종이라고 했는데, 그럼 표어 문자는 뭐야? 표어 문자에는 예를 들어 어떤 게 있을까?",
+            "turn_id": "BK22008318-3",
+            "utterance_id": "BK22008318.5"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "표어 문자(表語文字, logogram, 단어 문자)는 하나 하나의 문자로 언어의 하나 하나의 말이나 형태소를 나타내는 문자 시스템을 말한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "표어 문자의 상당수는 상형문자에 기원을 둔다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중국어의 각 형태소를 한 문자씩 표기하므로 체계적인 표어 문자의 대표적인 것이라고 말할 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%9C%EC%96%B4%EB%AC%B8%EC%9E%90",
+            "search_query": "표어 문자",
+            "terminate": false,
+            "text": "개별 문자 하나하나로 언어의 단어나 형태소를 표현하는 문자 시스템을 표어 문자라고 해. 표어 문자 대부분은 상형 문자에 그 기원을 두지. 한자의 경우, 문자 하나가 하나의 형태소를 표기하기 때문에 대표적인 표어 문자라고 볼 수 있어.",
+            "turn_id": "BK22008318-3",
+            "utterance_id": "BK22008318.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한자가 바로 표어 문자였구나. 한자 얘기가 나와서 말인데, 한자의 기원이 되는 문자는 뭐야?",
+            "turn_id": "BK22008318-4",
+            "utterance_id": "BK22008318.7"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "갑골문자는 상형문자이고 한자의 초기 문자 형태에 해당한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "갑골문(甲骨文)는 중국 대륙에서 청조 말엽인 1899년에 안양현 소둔촌, 상의 수도였던 은허(殷墟)에서 왕의영(王懿榮)이 최초로 발견한 이후 중국 도처에서 대량으로 발굴된 중국 고대 문자로서 거북이의 배딱지(龜甲)와 짐승의 견갑골(獸骨)에 새긴 상형문자였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거북이 배딱지(腹甲)를 나타내는 갑(甲)자와 짐승의 견갑골을 표현한 골(骨)자를 합하여 갑골문(甲骨文)이라고 명명하였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "발견된 지역 명칭을 따라 은허 문자라고 부르기도 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "발굴된 뼈 연대는 대부분 기원전 1200년에서 기원전 1050년으로 상말기에 해당한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%91%EA%B3%A8_%EB%AC%B8%EC%9E%90",
+            "search_query": "갑골 문자",
+            "terminate": false,
+            "text": "한자의 초기 문자 형태는 갑골 문자라는 상형 문자야. 중국 청조 말엽인 1899년에 안양현 소둔촌, 상나라의 수도였던 은허에서 왕의영이라는 사람이 처음 발견한 뒤로, 중국 곳곳에서 동물의 견갑골과 거북이의 배딱지에 새긴 중국 고대 문자가 발굴됐는데, 이게 바로 갑골문이지. 거북이의 배딱지를 뜻하는 갑에 짐승의 견갑골을 가리키는 골을 합쳐 갑골문이라는 이름이 붙었고, 발견된 지역의 이름을 따라서 은허 문자라고 불리기도 해. 발견된 뼈의 연대는 대부분 기원전 1200년에서 기원전 1050년인데, 상말기에 해당하는 시기야.",
+            "turn_id": "BK22008318-4",
+            "utterance_id": "BK22008318.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물 뼈에 글자를 새겼다는 게 참 흥미롭네. 상형 문자 이야기를 하다 보니까 고대 이집트의 문자가 생각나는데, 고대 이집트 문자는 어떤 문자였는지 소개해 줄래?",
+            "turn_id": "BK22008318-5",
+            "utterance_id": "BK22008318.9"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "신성 문자(神聖文字, Hieroglyph)는 고대 이집트의 돌이나 나무에 새긴 (상형) 문자를 지칭하는 낱말로서, 고대 그리스어 \"히에로글리피카 그람마타\"(Hieroglyphica grammata: \"신성하게 새긴 말\")의 줄인 말이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "글자들은 3가지로 분류할 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "첫 번째는 소리 글자로, 그 모습과 상관없이 단어의 소리를 나타내는 데 쓰인다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 번째는 의미 글자(Determinatives)로, 소리 글자로 이루어진 단어의 맨 뒤에 붙어 그 단어의 뜻을 결정한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세 번째는 소리-의미 글자(Ideograms)인데, 그 자체로 소리와 의미를 모두 가진다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%84%B1%EB%AC%B8%EC%9E%90",
+            "search_query": "이집트 상형 문자",
+            "terminate": false,
+            "text": "응, 고대 이집트의 나무나 돌에 새긴 문자는 Hieroglyph, 그러니까 신성 문자라고 하는데, 고대 그리스어로 신성하게 새긴 말을 뜻하는 히에로글리피카 그람마타의 줄임말이야. 이 신성 문자의 글자들은 글자 모양과 상관없이 단어의 소리를 표기하는 소리 글자, 소리 글자로 이뤄진 단어의 가장 뒤에 붙어서 해당 단어의 뜻을 결정하는 의미 글자, 소리와 의미를 모두 가지는 소리-의미 글자, 이렇게 세 가지로 나눌 수 있어.",
+            "turn_id": "BK22008318-5",
+            "utterance_id": "BK22008318.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 여러 분류의 글자가 있는 걸 보니 상당히 복잡한 문자였을 것 같아. 그러고 보니, 세상에서 가장 널리 쓰이는 문자 중 하나인 알파벳은 대체 언제, 어디서 기원했을까?",
+            "turn_id": "BK22008318-6",
+            "utterance_id": "BK22008318.11"
+        },
+        {
+            "reference_date": "2018-05-17",
+            "reference_text": [
+                {
+                    "value": "17일 ‘라이브 사이언스’에 따르면 영국 컬럼비아 대학의 이집트·소아시아 전문가 토마스 슈나이더(Thomas Schneider) 교수 연구팀이 기원전 3400년 전 고대 이집트에서 제작된 석회암으로 발견했으며 그 안에 알파벳 연상기호가 새겨져 있었다고 전했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그동안 많은 언어학자들 사이에 최초의 알파벳이 기원전 4000년경에 고대 이집트에서 사용돼온 것으로 추정해왔다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 첨단 기술을 통해 인근 지역에 묻혀 있는 돌판 들을 탐사해왔다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지금까지 판독한 가장 오래된 돌판은 기원전 3200년 전의 것이었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번에 발견한 유적은 이전에 발견한 유적보다 200년이 앞서는 것이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/5400%EB%85%84-%EC%A0%84-%EC%95%8C%ED%8C%8C%EB%B2%B3-%ED%8C%90%EB%8F%85-%EC%84%B1%EA%B3%B5/",
+            "search_query": "알파벳 기원",
+            "terminate": false,
+            "text": "2018년 5월 17일 라이브 사이언스에 따르면, 영국 컬럼비아 대학의 이집트, 소아시아 전문가인 토마스 슈나이더 교수 연구팀이 고대 이집트에서 기원전 3400년 전에 만들어진 석회암을 발견했고, 거기에는 알파벳 연상기호가 새겨져 있었어. 많은 언어학자들은 최초의 알파벳이 고대 이집트 지역에서 기원전 4000년경에 쓰였다고 추정하고, 근처 지역에 묻힌 돌판들을 첨단 기술을 이용해 탐사했는데, 토마스 슈나이더 교수 연구팀의 발견 이전에 판독된 가장 오래된 석판은 기원전 3200년 전 것이었어. 그리고 이번에 그것보다 200년 앞서는 유적을 발견한 것이지.",
+            "turn_id": "BK22008318-6",
+            "utterance_id": "BK22008318.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알파벳의 기원도 생각보다 굉장히 오래 전으로 거슬러 올라가는구나. 그럼 이웃 나라 일본에서 쓰이는 히라가나, 가타카나 문자의 기원은 어떤 거였을까?",
+            "turn_id": "BK22008318-7",
+            "utterance_id": "BK22008318.13"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "만요가나(일본어: 万葉仮名)는 가나의 일종으로, 주로 고대 일본어를 표기하기 위해서 한자의 음을 빌려 쓴 문자이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만요가나는, 나라 시대 말에 문자의 모양이 조금씩 바뀌었고 획이 적은 문자를 많이 사용하게 되었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤이안 시대로 오면 그 경향이 계속 나타나면서, 경제적으로는 효율성있고 간략한 문자가 계속 쓰이게 되고, 문자 형태를 계속 간략화(草略)하거나 일부 문자를 생략(省画)해서 만들어졌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇게 해서 \"히라가나\"와 \"가타카나\"가 창조되었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%8C%EC%9A%94%EA%B0%80%EB%82%98",
+            "search_query": "만요가나",
+            "terminate": false,
+            "text": "가나의 일종인 만요가나야. 만요가나는 고대 일본어를 표기하기 위해 한자의 음을 빌려서 적은 문자이지. 나라 시대 말에 만요가나는 문자의 모양이 조금씩 바뀌었고, 획이 적은 문자를 많이 쓰게 됐어. 헤이안 시대에도 그 경향이 계속 나타나면서 간략하고 효율적인 문자가 계속 쓰이게 됐고, 문자 형태가 지속적으로 간략화되고 일부 문자가 생략되었지. 그렇게 해서 히라가나와 가타카나가 만들어진 거야.",
+            "turn_id": "BK22008318-7",
+            "utterance_id": "BK22008318.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마치 이두처럼 한자의 음을 빌려 적은 문자가 그 시초인 거구나. 참, 아까 한자는 표어 문자라고 했는데, 그럼 한글은 어떨까? 한글을 어떤 문자 체계로 분류해야 하는지에 관해 독특한 주장 같은 게 있을까?",
+            "turn_id": "BK22008318-8",
+            "utterance_id": "BK22008318.15"
+        },
+        {
+            "reference_date": "2018-10-09",
+            "reference_text": [
+                {
+                    "value": "1985년 저서 『세계의 문자체계(Writing Systems)』에서 한글은 자질문자라는 주장을 펴 한글이 국제적으로 집중 조명받는 데 기여한 영국의 언어학자 제프리 샘슨(영국 서섹스대 명예교수)도 답변자에 포함됐다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "샘슨의 자질문자론은 한마디로 글자의 소리가 비슷하면 글자 모양도 비슷하다는 주장이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본 자음 글자인 ‘ㄱ’에 획을 가해 ‘ㅋ’을 만들면 거센소리를 표시하도록 한 한글의 문자 특성을 당시 언어 이론으로 설명하지 못하자 ‘자질(features)’이라는 개념을 고안해 해석했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23030974#home",
+            "search_query": "한글 자질문자",
+            "terminate": false,
+            "text": "응, 영국의 언어학자 제프리 샘슨이 1985년 저서인 세계의 문자체계에서 한 주장이 있어. 바로, 한글이 자질문자라는 것이지. 샘슨의 자질문자론은 글자가 나타내는 소리가 비슷하면 글자의 모양도 비슷하다는 주장이야. 예를 들어, 한글에서 기본 자음 글자인 기역에 한 획을 더하면 키읔이 되는데, 이렇게 거센소리를 표기할 수 있도록 만들어진 한글의 문자 특성을 당시 언어 이론으로 설명하지 못했고, 자질이라는 개념을 고안하여 해석한 거야.",
+            "turn_id": "BK22008318-8",
+            "utterance_id": "BK22008318.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 일리가 있는 주장이네. 역시 한글은 대단한 문자 같아. 참, 혹시 다음 달 한글날에 근처에서 행사를 하던데, 관심 있어?",
+            "turn_id": "BK22008318-9",
+            "utterance_id": "BK22008318.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 한글은 알수록 감탄이 나오는 문자더라고. 한글날 행사라니, 꼭 가고 싶어.",
+            "turn_id": "BK22008318-9",
+            "utterance_id": "BK22008318.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 인원 두 명으로 신청 넣고 같이 가야겠다. 나는 그럼 행사 신청하러 가 볼게.",
+            "turn_id": "BK22008318-10",
+            "utterance_id": "BK22008318.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "집에서 쉬어 봐야 심심할 뻔했는데 마침 잘 됐다. 그럼 내 것까지 신청 잘 부탁해.",
+            "turn_id": "BK22008318-10",
+            "utterance_id": "BK22008318.20"
+        }
+    ]
+}

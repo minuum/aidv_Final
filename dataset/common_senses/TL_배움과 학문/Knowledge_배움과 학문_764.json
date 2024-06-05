@@ -1,0 +1,440 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004992",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004992",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일 쉬는 동안 운전면허를 따볼까 해요.",
+            "turn_id": "BK22004992-1",
+            "utterance_id": "BK22004992.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 어떤 걸로 따려고 하시나요? 1종 보통인가요, 아니면 2종 보통인가요?",
+            "turn_id": "BK22004992-1",
+            "utterance_id": "BK22004992.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 못 정했어요. 1종 보통과 2종 보통의 차이가 뭔가요?",
+            "turn_id": "BK22004992-2",
+            "utterance_id": "BK22004992.3"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "1종 보통면허는 15인승 이하 승합차와 적재중량 12톤 미만 화물차를 운전할 수 있고, 2종 보통면허는 10인승 이하 승합차와 적재중량 4톤 미만의 화물차를 운전할 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/202103240953306704e8b8a793f7_1/article.html?md=20210324095916_U",
+            "search_query": "1종면허 2종면허",
+            "terminate": false,
+            "text": "운전할 수 있는 대상이 달라요. 1종 보통면허의 경우 15인승 이하의 승합차와 12톤 미만까지만 실을 수 있는 화물차를 운전할 수 있지만, 2종 보통면허의 경우에는 그것보다 기준이 더 낮아요. 10인승 이하의 승합차와 4톤까지 실을 수 있는 화물차를 운전할 수 있죠.",
+            "turn_id": "BK22004992-2",
+            "utterance_id": "BK22004992.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그럼 저는 2종 보통면허가 낫겠네요. 경차 사서 끌고 다닐 예정이거든요. 면허 취득 절차는 복잡한 편인가요?",
+            "turn_id": "BK22004992-3",
+            "utterance_id": "BK22004992.5"
+        },
+        {
+            "reference_date": "2017-12-31",
+            "reference_text": [
+                {
+                    "value": "운전면허 취득 절차는 교통안전 교육→신체검사→학과접수→학과시험→기능접수→기능시험→연습면허발급→도로주행접수→도로주행시험→본 면허발급(합격)의 순서로 진행된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20171231095541663607",
+            "search_query": "운전면허 취득 절차",
+            "terminate": false,
+            "text": "여러 절차로 진행되고 있어요. 맨 처음엔 교통안전 관련한 교육을 받은 뒤, 면허를 따기 적합한지 신체검사를 하게 돼요. 그리고 학과시험 접수 후 시험을 보게 되죠. 학과시험에 합격하면 기능 시험 접수 후 기능 시험을 보게 되고, 기능 시험까지 합격하면 연습면허가 발급돼요. 그 뒤에 도로주행 시험 접수를 하고, 도로주행 시험 후 합격까지 해야 진짜 면허가 발급되는 순서죠.",
+            "turn_id": "BK22004992-3",
+            "utterance_id": "BK22004992.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험만 보는 게 아니라 신체검사도 하는군요. 신체검사 통과하는 기준이 있는 건가요?",
+            "turn_id": "BK22004992-4",
+            "utterance_id": "BK22004992.7"
+        },
+        {
+            "reference_date": "2017-12-31",
+            "reference_text": [
+                {
+                    "value": "자동차 운전은 사람의 안전과 직결되기 때문에 운전면허를 취득하기 위해선 신체검사 기준을 통과해야만 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2종 면허는 두 눈을 동시에 뜨고 잰 시력이 0.5 이상이면 된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 더해 적색, 녹색, 황색을 구별할 수 있어야 하며 1종 대형면허와 특수면허에 한해 55dB(데시벨)의 소리를 들을 수 있어야 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20171231095541663607",
+            "search_query": "운전면허 신체검사 기준",
+            "terminate": false,
+            "text": "그럼요, 아무래도 사람의 안전과 직결되는 게 자동차 운전이다 보니, 면허 취득을 위한 신체검사 통과 기준이 있어요. 2종 보통면허의 경우엔 두 눈을 동시에 뜬 채로 잰 시력이 0.5를 넘어야 해요. 그리고 신호등의 색깔인 빨간색과 노란색, 초록색을 구분할 수 있어야 하죠. 그리고 이건 그냥 추가로 말씀드리는 거지만, 만약에 1종 대형면허나 특수면허를 따고 싶으면 55데시벨의 소리도 들을 수 있어야 접수가 가능해요.",
+            "turn_id": "BK22004992-4",
+            "utterance_id": "BK22004992.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈에 이상 없는 평범한 사람이라면 문제없이 통과할 수 있겠네요. 그럼 신체검사는 큰 걱정 안 해도 될 것 같고, 혹시 필기시험은 합격 기준이 어떻게 되나요?",
+            "turn_id": "BK22004992-5",
+            "utterance_id": "BK22004992.9"
+        },
+        {
+            "reference_date": "2019-06-26",
+            "reference_text": [
+                {
+                    "value": "필기시험 합격기준은 1종 대형, 특수 면허와 1종 보통이 70점 이상, 2종 보통과 이륜자동차 등은 60점 이상이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbsm.net/news//view.php?idx=246755",
+            "search_query": "운전면허 필기 합격기준",
+            "terminate": false,
+            "text": "2종 보통면허와 이륜차는 60점 이상만 넘으면 돼요. 1종 대형면허와 특수면허, 1종 보통면허는 그것보다 더 높은 70점 이상이고요.",
+            "turn_id": "BK22004992-5",
+            "utterance_id": "BK22004992.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하, 필기는 기준이 아주 높지는 않으니까 외워서 통과하면 될 것 같은데 도로주행이 걱정이네요. 제가 직접 차를 몰고 도로로 나가야 하는 거잖아요.",
+            "turn_id": "BK22004992-6",
+            "utterance_id": "BK22004992.11"
+        },
+        {
+            "reference_date": "2018-11-21",
+            "reference_text": [
+                {
+                    "value": "도로주행 시험은 5km 이상의 거리를 실제 도로에서 주행을 하게 된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총 4개의 코스가 있고, 시험을 볼 때는 4개 중 랜덤하게 선택된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "70점 이상이면 합격한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=57738",
+            "search_query": "운전면허 도로주행",
+            "terminate": false,
+            "text": "맞아요. 5킬로미터 이상 되는 도로를 직접 차를 몰고 운전해야 해요. 도로주행 코스는 총 4가지가 있는데, 실제 시험을 볼 땐 그중에 하나를 랜덤하게 선택해서 진행하죠. 점수 기준은 70점 이상만 받으면 합격이에요.",
+            "turn_id": "BK22004992-6",
+            "utterance_id": "BK22004992.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기준이 50점이어도 왠지 저는 첫 출발부터 실수하면서 불합격할 것 같은 느낌이란 말이죠.",
+            "turn_id": "BK22004992-7",
+            "utterance_id": "BK22004992.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 실제로 해보지 않으면 모르는 거잖아요. 너무 겁먹지는 마세요.",
+            "turn_id": "BK22004992-7",
+            "utterance_id": "BK22004992.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 걱정은 되지만 한번 도전해 볼게요. 그러고 보니 요즘은 운전면허증이 모바일로도 발급이 가능하다면서요?",
+            "turn_id": "BK22004992-8",
+            "utterance_id": "BK22004992.15"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "모바일 운전면허증은 도로교통법에 따라 개인 스마트폰에 발급하는 운전면허증으로, 현행 플라스틱 면허증과 같은 법적 효력을 지닌다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220727173300004?input=1195m",
+            "search_query": "모바일 운전면허증",
+            "terminate": false,
+            "text": "맞아요. 도로교통법에 따라 개인이 사용하는 스마트폰에 발급해 줘요. 스마트폰에 발급하지만, 기존에 사용하던 플라스틱 면허증과 법적 효력이 같아요.",
+            "turn_id": "BK22004992-8",
+            "utterance_id": "BK22004992.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 제가 업무상 스마트폰을 여러 대 사용하는데, 운전면허증을 사용하는 단말기마다 여러 개 발급이 가능한가요?",
+            "turn_id": "BK22004992-9",
+            "utterance_id": "BK22004992.17"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "모바일 운전면허증은 블록체인 기술을 기반으로 각종 개인정보를 본인 소유의 스마트폰에 암호화해 저장함으로써 위·변조가 불가능하고, 본인명의의 단말기 1대에만 발급받을 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022072811031852221",
+            "search_query": "모바일 운전면허증 단말기",
+            "terminate": false,
+            "text": "그건 아니에요. 모바일 운전면허증의 경우, 블록체인 기술을 사용해서 본인이 사용하는 스마트폰에 운전면허증의 정보를 암호화한 후 저장해요. 그래서 위조나 변조가 불가능하지만, 본인 명의의 스마트폰 단말기 1대에서만 발급할 수 있어요.",
+            "turn_id": "BK22004992-9",
+            "utterance_id": "BK22004992.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 주로 사용하는 단말기에 받아야겠네요. 아, 혹시 모바일 운전면허증은 어떤 식으로 발급이 되는 건가요?",
+            "turn_id": "BK22004992-10",
+            "utterance_id": "BK22004992.19"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "첫번째는 IC(집적회로)칩이 탑재된 운전면허증을 발급받는 방법, 두번째는 운전면허시험장을 방문해 QR코드를 촬영해서 발급받는 방법이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022072808595172199",
+            "search_query": "모바일 운전면허증 발급",
+            "terminate": false,
+            "text": "모바일 운전면허증을 발급하는 방법은 두 가지가 있어요. 첫 번째는 IC 칩이 내장된 실물 운전면허증을 발급받는 방법이 있고, 아니면 운전면허 시험장에서 제공하는 QR코드를 통해서 발급받는 방법도 있죠.",
+            "turn_id": "BK22004992-10",
+            "utterance_id": "BK22004992.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 가지가 아니었군요. 그럼 IC 카드로 발급받는 것과 QR코드로 발급받는 건 어떤 차이가 있나요?",
+            "turn_id": "BK22004992-11",
+            "utterance_id": "BK22004992.21"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "QR코드로 발급받을 때는 수수료가 1000원, 유효기간이 3년.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 스마트폰을 잃어버려 모바일 면허증을 재발급받으려면 시험장이나 경찰서 민원실 등 현장을 다시 방문해야 하는 번거로움이 있다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기존 면허증을 아예 새로운 IC 운전면허증으로 교체하면, 수수료는 13∼15배(국문 1만 3000원·영문 1만 5000원, 적성 검사까지 함께 받으면 2만 원)다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수수료는 비싸지만, IC 운전면허증만 갖고 있으면 언제든지 모바일 면허증을 재발급받을 수 있다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idomin.com/news/articleView.html?idxno=800576",
+            "search_query": "모바일 운전면허증 IC카드 QR코드 차이",
+            "terminate": false,
+            "text": "QR코드로 발급받는 경우는 수수료가 천 원으로 저렴하지만, 유효기간이 3년으로 짧은 편이에요. 그리고 혹시나 스마트폰을 잃어버려서 모바일 면허증을 재발급받아야 할 땐 경찰서 민원실 등을 다시 방문해야 가능하다는 단점이 있죠. 반면에 IC 운전면허증의 경우에는 QR코드로 발급할 때보다 수수료가 13배에서 15배 정도 돼요. 국문 운전면허증은 1만 3천 원, 영문은 1만 5천 원, 만약 적성검사까지 같이 진행해야 하는 경우에는 2만 원이에요. 이처럼 수수료는 QR코드 방식에 비해 비싸지만, 재발급할 때 방문 없이 언제든 모바일에서 재발급받을 수 있어요.",
+            "turn_id": "BK22004992-11",
+            "utterance_id": "BK22004992.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 초반에 비용이 들더라도 IC 카드로 선택하는 게 낫겠어요. 발급 비용이 싸다고 QR코드로 신청할 뻔했네요.",
+            "turn_id": "BK22004992-12",
+            "utterance_id": "BK22004992.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐, 주변에 운전면허시험장이나 경찰서가 가까이 있으면 QR코드도 나쁘진 않죠.",
+            "turn_id": "BK22004992-12",
+            "utterance_id": "BK22004992.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가까워도 매번 재발급받을 때마다 가야 한다면 꽤 귀찮을 것 같아요. 뭐, 이것도 운전면허를 따야 겪을 수 있는 거겠지만요.",
+            "turn_id": "BK22004992-13",
+            "utterance_id": "BK22004992.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 그렇네요. 걱정하는 것과 다르게 한 번에 붙을 것 같은데, 열심히 해봐요.",
+            "turn_id": "BK22004992-13",
+            "utterance_id": "BK22004992.26"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 나중에 도로주행 연습할 때 좀 도와주세요. 그때 연락드릴게요.",
+            "turn_id": "BK22004992-14",
+            "utterance_id": "BK22004992.27"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 알겠어요. 제 도움 필요할 때 언제든 연락해 주세요.",
+            "turn_id": "BK22004992-14",
+            "utterance_id": "BK22004992.28"
+        }
+    ]
+}

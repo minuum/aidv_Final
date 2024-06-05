@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008128",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008128",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사촌 누나가 보행지도사와 점역교정사 자격시험을 준비한다던데, 전 둘 다 처음 들어봤어요. 혹시 보행지도사 자격이 어떤 건지 잘 아세요?",
+            "turn_id": "BK22008128-1",
+            "utterance_id": "BK22008128.1"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "② 보행지도사는 흰지팡이를 사용해 시각장애인이 안전하고 독립적으로 보행할 수 있도록 지도하는 전문 자격이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외국에서는 Orientation and Mobility (O&M) Specialist라는 이름으로 운영되고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6550542&cid=42114&categoryId=42114",
+            "search_query": "보행지도사",
+            "terminate": false,
+            "text": "아, 알아요. 흰 지팡이를 사용해서 시각장애인이 독립적이고 안전하게 보행할 수 있게 지도하는 전문 자격을 보행지도사라고 불러요. 해외에서는 Orientation and Mobility Specialist라는 명칭으로 부르고요.",
+            "turn_id": "BK22008128-1",
+            "utterance_id": "BK22008128.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 시각장애인의 보행을 지도하는 전문 자격이었군요. 보행지도사 자격은 민간자격인가요?",
+            "turn_id": "BK22008128-2",
+            "utterance_id": "BK22008128.3"
+        },
+        {
+            "reference_date": "2021-12-06",
+            "reference_text": [
+                {
+                    "value": "① 보행지도사는 2010년부터는 민간자격으로 등록되어 시행하였다가 2021년부터 국가공인 민간자격으로 승격되었다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "① 보행지도사란 응시자격을 갖춘 자가 한국시각장애인연합회에서 시행하는 보행지도사 시험에 합격한 후 자격을 취득한 자를 말한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=6550542&cid=42114&categoryId=42114",
+            "search_query": "보행지도사 국가공인",
+            "terminate": false,
+            "text": "보행지도사는 2010년 등록 당시에는 민간자격이었는데 2021년에 국가 공인 민간자격으로 승격됐어요! 참고로, 이 자격증은 한국시각장애인연합회에서 시행 중이에요.",
+            "turn_id": "BK22008128-2",
+            "utterance_id": "BK22008128.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 국가 공인 민간자격이면 활용하기 좋겠어요. 자격 특성상 필기와 실기시험이 모두 있을 것 같은데, 필기시험에는 어떤 과목들이 있어요?",
+            "turn_id": "BK22008128-3",
+            "utterance_id": "BK22008128.5"
+        },
+        {
+            "reference_date": "2021-05-18",
+            "reference_text": [
+                {
+                    "value": "보행지도사 자격검정은 필기와 실기를 모두 합격해야 자격증이 발급되고, 필기과목은 보행이론, 보행지도법, 시각장애의 이해 3과목으로 실시되며 각 과목에서 40점(100점만점) 이상 전 과목 평균이 60점 이상이면 합격이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ablenews.co.kr/News/NewsContent.aspx?CategoryCode=0034&NewsCode=003420210518135310783405",
+            "search_query": "보행지도사 필기시험",
+            "terminate": false,
+            "text": "생각하신 대로, 보행지도사 자격시험에는 필기시험과 실기시험이 다 있어요. 필기시험에는 3가지 과목이 있는데, 보행 지도법, 보행이론, 시각장애의 이해예요. 100점 만점을 기준으로 각 과목에서 40점 이상을 받고, 전체 과목 평균이 60점 이상이면 합격이에요.",
+            "turn_id": "BK22008128-3",
+            "utterance_id": "BK22008128.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자세히 알려주셔서 감사해요. 그럼, 실기 과목에는 어떤 게 있어요?",
+            "turn_id": "BK22008128-4",
+            "utterance_id": "BK22008128.7"
+        },
+        {
+            "reference_date": "2021-05-18",
+            "reference_text": [
+                {
+                    "value": "실기과목의 경우 보행기초기술, 지팡이보행기술, 실외보행기술 3과목으로 구성되어있으며, 평균 60점 이상인 경우 자격증을 취득할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ablenews.co.kr/News/NewsContent.aspx?CategoryCode=0034&NewsCode=003420210518135310783405",
+            "search_query": "보행지도사 실기시험",
+            "terminate": false,
+            "text": "실기과목에는 지팡이 보행 기술, 보행 기초 기술, 실외 보행 기술이 있어요. 실기 시험에서는 평균 60점 이상을 받아야 합격이고요.",
+            "turn_id": "BK22008128-4",
+            "utterance_id": "BK22008128.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 필기랑 실기 모두 절대평가라 좋네요. 참, 점역교정사는 어떤 일을 하는 사람인지 자세히 아세요?",
+            "turn_id": "BK22008128-5",
+            "utterance_id": "BK22008128.9"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "② 점역교정사는 시각장애인이 촉각을 이용하여 도서를 읽을 수 있도록 일반 문자를 점자로 번역하고 교정하는 사람이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2070041&cid=42114&categoryId=42114",
+            "search_query": "점역교정사",
+            "terminate": false,
+            "text": "일반 문자를 점자로 교정하고 번역해서 시각장애인이 촉각을 통해 도서를 읽을 수 있도록 하는 사람을 점역교정사라고 해요.",
+            "turn_id": "BK22008128-5",
+            "utterance_id": "BK22008128.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사촌 누나가 도전하는 자격증 모두 시각장애인을 도울 수 있는 자격시험이었네요. 우리 고모가 시각장애인인데, 그 영향도 있었나 봐요.",
+            "turn_id": "BK22008128-6",
+            "utterance_id": "BK22008128.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러시구나. 사촌 누나분이 공부 열심히 하셔서 꼭 합격 소식이 들렸으면 좋겠네요.",
+            "turn_id": "BK22008128-6",
+            "utterance_id": "BK22008128.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 감사해요. 참, 점역교정사는 어떤 기관에서 주관하는 시험이에요? 국가 공인 자격이 맞는지도 궁금하고요.",
+            "turn_id": "BK22008128-7",
+            "utterance_id": "BK22008128.13"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "① 점역교정사란 (사)한국시각장애인연합회에서 시행하는 국가공인 민간자격(보건복지부 제2017-01호)으로, 1급과 2급, 3급, 3개 등급으로 나누어진다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2070041&cid=42114&categoryId=42114",
+            "search_query": "점역교정사 국가공인 시행",
+            "terminate": false,
+            "text": "점역교정사도 국가 공인 민간자격이에요! 한국시각장애인연합회에서 시행하는데, 1급, 2급, 3급으로 나누어지죠.",
+            "turn_id": "BK22008128-7",
+            "utterance_id": "BK22008128.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 점역교정사도 보행지도사도 모두 한국시각장애인연합회에서 시행하는 자격시험이었네요. 점역교정사 자격증을 취득하면 어떻게 활용할 수 있어요?",
+            "turn_id": "BK22008128-8",
+            "utterance_id": "BK22008128.15"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "취업 : 점역교정사 자격증 소지자는 시각장애인복지관, 점자도서관, 맹학교, 시각장애인 연합회 산하단체 등에 취업하는 경우 우대한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2070041&cid=42114&categoryId=42114",
+            "search_query": "점역교정사 자격 취득 활용",
+            "terminate": false,
+            "text": "점역교정사 자격증을 취득한 사람은 점자도서관, 시각장애인복지관, 시각장애인 연합회 산하단체, 맹학교 등에 취업 시 우대해줘요.",
+            "turn_id": "BK22008128-8",
+            "utterance_id": "BK22008128.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맹학교에도 취업할 수 있군요. 그럼 점역교정사 시험에는 어떤 과목들이 있어요?",
+            "turn_id": "BK22008128-9",
+            "utterance_id": "BK22008128.17"
+        },
+        {
+            "reference_date": "2021-03-03",
+            "reference_text": [
+                {
+                    "value": "③ 국어와 영어, 수학, 과학, 컴퓨터, 음악 점자를 점역하고 교정할 수 있는 능력의 유무를 검정한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2070041&cid=42114&categoryId=42114",
+            "search_query": "점역교정사 과목",
+            "terminate": false,
+            "text": "현재 국어, 영어, 과학, 컴퓨터, 수학, 음악 점자를 교정하고 점역할 수 있는 능력의 유무를 검정하고 있어요.",
+            "turn_id": "BK22008128-9",
+            "utterance_id": "BK22008128.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 과목이 있네요. 오늘 이것저것 알려주셔서 감사해요. 만약 사촌 누가가 합격하면 꼭 알려드릴게요.",
+            "turn_id": "BK22008128-10",
+            "utterance_id": "BK22008128.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 고마워요! 제가 많이 응원한다고 사촌분께 전해주세요, 하하.",
+            "turn_id": "BK22008128-10",
+            "utterance_id": "BK22008128.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "하하, 그럴게요. 오늘 조심히 들어가시고 주말에 다시 봬요.",
+            "turn_id": "BK22008128-11",
+            "utterance_id": "BK22008128.21"
+        }
+    ]
+}

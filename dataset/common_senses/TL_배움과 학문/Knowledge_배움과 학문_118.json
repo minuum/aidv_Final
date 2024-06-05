@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011668",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011668",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 취업을 위해 IT 자격증을 취득하려고 했는데, 자격증 종류가 너무 많아서 놀랐어. 난 국가 자격과 민간 자격이 뭐가 다른지도 모르겠던데, 넌 알고 있니?",
+            "turn_id": "BK22011668-1",
+            "utterance_id": "BK22011668.1"
+        },
+        {
+            "reference_date": "2019-06-17",
+            "reference_text": [
+                {
+                    "value": "국가자격은 국가기술자격법에 따라 국가가 관리 · 운영하며, 민간자격은 자격기본법에 따라 국가 외 법인·단체·개인이 스스로 만들어서 등록 후 운영하는 자격입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148861725",
+            "search_query": "국가자격 민간자격",
+            "terminate": false,
+            "text": "그럼, 알고 있지. 국가자격은 국가기술자격법에 따라서 국가에서 관리하고 운영하는 자격이고, 민간자격은 자격기본법에 따라서 국가가 아닌 법인이나 단체, 개인이 만들고 등록해 운영하는 자격이야.",
+            "turn_id": "BK22011668-1",
+            "utterance_id": "BK22011668.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 들으니 민간 자격은 별로 신뢰성이 없어 보이는걸. 민간 자격 중에서도 신뢰성 있는 자격인지 어떻게 구분하지?",
+            "turn_id": "BK22011668-2",
+            "utterance_id": "BK22011668.3"
+        },
+        {
+            "reference_date": "2019-06-17",
+            "reference_text": [
+                {
+                    "value": "민간자격 중 공인 민간자격은, 민간자격 등록관리기관에 등록한 자격 중 우수한 자격을 자격정책심의회 심의를 거쳐 국가가 공인한 경우입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공인 민간자격은 다른 민간자격증에 비해 신뢰도가 높지만 대부분 직업자격증이라기보다는 교양이나 직무기초 자격증입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148861725",
+            "search_query": "민간자격 구분",
+            "terminate": false,
+            "text": "민간자격 중에서도 공인 민간자격이라는 것이 있는데, 민간자격 등록관리기관에 등록된 자격 중에서 우수한 자격을 자격정책심의회 심의 결과에 따라 국가에서 공인한 자격이야. 이러한 공인 민간자격은 다른 일반 민간자격증에 비하면 신뢰도가 높다고 할 수 있어. 그렇지만 대부분 직업자격증은 아니고, 교양이나 직무기초 자격인 경우가 많아.",
+            "turn_id": "BK22011668-2",
+            "utterance_id": "BK22011668.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 민간자격을 따려면 공인 민간자격을 취득하는 게 유리하겠다. 국가자격에 대해서도 더 설명해줄 수 있니?",
+            "turn_id": "BK22011668-3",
+            "utterance_id": "BK22011668.5"
+        },
+        {
+            "reference_date": "2019-06-17",
+            "reference_text": [
+                {
+                    "value": "국가자격은 다시 ‘국가자격’과 ‘국가기술자격’으로 나뉘는데요.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국가자격은 자격별 개별 법령에 따라 전문 인력 공급을 목적으로 국가가 관리·운영하는 자격입니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 의사, 변호사, 공인중개사 자격증, 자동차운전면허증 등이 여기에 해당하죠.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국가기술자격은 ‘국가기술자격법’에 따라 고용노동부가 총괄 운영하는 자격으로 기술사, 기능장, 기사, 산업기사, 기능사 등을 말합니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyNewsView.do?newsId=148861725",
+            "search_query": "국가자격 구분",
+            "terminate": false,
+            "text": "국가자격은 그냥 국가자격과 국가기술자격으로 구분할 수 있어. 국가자격의 경우 의사, 변호사, 공인중개사 자격증, 자동차운전면허증처럼 자격별로 개별 법령에 따라 전문 인력을 공급하려는 목적으로 국가에서 관리하고 운영하는 자격이야. 이와 달리, 국가기술자격의 경우 국가기술자격법에 따라 고용노동부에서 총괄 운영을 맡아. 기술사나 기능장, 기사, 산업기사, 기능사가 여기에 해당돼.",
+            "turn_id": "BK22011668-3",
+            "utterance_id": "BK22011668.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "법률에 의해 구분되는 것 같네. 그러면 정보처리기사 같은 기사 자격은 국가기술자격에 해당하는 것 맞지? 나 정보처리기사를 취득해볼까 해서 알아보고 있었는데, 정보처리기사에 대해서도 아니?",
+            "turn_id": "BK22011668-4",
+            "utterance_id": "BK22011668.7"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "정보처리기사란 산업인력공단에서 시행하는 자격으로 컴퓨터를 활용하기 위해서 하드웨어뿐만 아니라 정교한 소프트웨어가 필요하다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 따라 우수한 프로그램을 개발하여 업무의 효율성을 높이고, 궁극적으로 국가발전에 이바지하기 위해서 컴퓨터에 관한 전문적인 지식과 기술을 갖춘 사람을 양성할 목적으로 지정되었다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC",
+            "search_query": "정보처리기사",
+            "terminate": false,
+            "text": "응. 정보처리기사는 산업인력공단에서 주관하는 자격이고, 컴퓨터에 관한 전문적 지식과 기술을 두루 갖춘 사람을 양성하려는 목적으로 시행되고 있어. 컴퓨터 활용을 위해 정교한 소프트웨어가 필요해지면서, 유용한 프로그램을 통해 업무를 효율적으로 처리하고자 등장했지.",
+            "turn_id": "BK22011668-4",
+            "utterance_id": "BK22011668.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 목적으로 도입된 자격이구나. 시험은 어떤 방식으로 진행되는 거야?",
+            "turn_id": "BK22011668-5",
+            "utterance_id": "BK22011668.9"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "정보처리기사의 시험은 필기와 실기로 이루어진다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기는 객관식 4지 택일형으로 과목당 30분씩 20문항이 출제된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실기는 필답형으로 2시간 30분간 진행된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20115",
+            "search_query": "정보처리기사 필기 실기",
+            "terminate": false,
+            "text": "필기와 실기로 이루어지는데, 필기는 4지 택일 객관식이고 한 과목당 20문항, 30분씩이 주어져. 실기는 주관식으로 2시간 30분 동안 실시돼.",
+            "turn_id": "BK22011668-5",
+            "utterance_id": "BK22011668.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실기는 주관식이라니 외울 것이 많겠다. 시험 과목이랑, 몇 점을 넘겨야 합격인지 궁금해.",
+            "turn_id": "BK22011668-6",
+            "utterance_id": "BK22011668.11"
+        },
+        {
+            "reference_date": "2021-11-19",
+            "reference_text": [
+                {
+                    "value": "필기 시험 과목은 5개로 '소프트웨어 설계, 소프트웨어 개발, 데이터베이스 구축, 프로그래밍 언어 활용, 정보시스템 구축 관리'로 구분된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기 합격 기준은 100점 만점에 40점 이상, 전 과목 평균 60점 이상이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실기 합격 기준은 100점 만점을 기준으로 60점 이상이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20115",
+            "search_query": "정보처리기사 과목",
+            "terminate": false,
+            "text": "과목은 소프트웨어 설계, 소프트웨어 개발, 데이터베이스 구축, 프로그래밍 언어 활용, 정보시스템 구축 관리의 5과목이야. 필기는 100점 중 40점 이상을 받아야 하고, 전 과목의 평균이 60점을 넘어야 해. 실기는 100점 중 60점 이상을 받으면 돼.",
+            "turn_id": "BK22011668-6",
+            "utterance_id": "BK22011668.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마나 힘든 건지 느낌이 잘 안 오네. 합격률이 어느 정도인 거야?",
+            "turn_id": "BK22011668-7",
+            "utterance_id": "BK22011668.13"
+        },
+        {
+            "reference_date": "2021-08-03",
+            "reference_text": [
+                {
+                    "value": "2018년부터 2020년까지 평균 약 49% 정도의 합격률을 보였으며 실기시험은 2시간 30분 시험으로 필답형으로 출제된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실기는 2021년 기준 40% 정도로 필기시험보다 합격률이 낮게 나타났다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://gositoday.com/news/view.php?no=726",
+            "search_query": "정보처리기사 합격률",
+            "terminate": false,
+            "text": "필기시험의 경우 2018년부터 2020년까지의 합격률이 평균적으로 약 49% 정도야. 그렇지만 실기 시험은 2021년을 기준으로 합격률이 약 40% 정도여서, 필기시험보다 낮아.",
+            "turn_id": "BK22011668-7",
+            "utterance_id": "BK22011668.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 생각보다 높아서 안심이다. 준비 기간은 어느 정도로 잡으면 될까?",
+            "turn_id": "BK22011668-8",
+            "utterance_id": "BK22011668.15"
+        },
+        {
+            "reference_date": "2021-08-03",
+            "reference_text": [
+                {
+                    "value": "대부분 정보처리기사 자격증 준비 기간을 3개월 미만으로 잡는다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이유는 필기는 50% 이상의 합격률을 보이고, 기출 위주의 암기 과목이므로 단기간 내 파고드는 것이 합격률을 높여주기 때문이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 수험생들마다 기존 가지고 있는 전공지식과 수준이 상이한만큼, 무조건 3개월로 잡지말고 본인의 수준에 맞는 스터디 플랜을 설정하는 게 중요하다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://gositoday.com/news/view.php?no=726",
+            "search_query": "정보처리기사 준비기간",
+            "terminate": false,
+            "text": "보통은 정보처리기사를 준비하는 데 3개월이 안 걸려. 필기시험 합격률이 높은 편인 데다, 기출 위주로 암기하면 단기간에 몰아치는 것이 유리하기 때문이야. 그렇지만 수험생 나름대로 배경지식과 수준이 다르니까, 각자 맞게 공부 계획을 세우는 것이 좋지.",
+            "turn_id": "BK22011668-8",
+            "utterance_id": "BK22011668.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단기간에 암기하는 건 자신 있으니 나도 할 수 있을 것 같아.",
+            "turn_id": "BK22011668-9",
+            "utterance_id": "BK22011668.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "합격률이 크게 낮은 시험이 아니니, 기출 위주로 공부하면 잘할 수 있을 거야.",
+            "turn_id": "BK22011668-9",
+            "utterance_id": "BK22011668.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워, 공부하다가 모르는 게 생기면 물어봐도 되니?",
+            "turn_id": "BK22011668-10",
+            "utterance_id": "BK22011668.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼, 언제든지 편하게 물어 봐.",
+            "turn_id": "BK22011668-10",
+            "utterance_id": "BK22011668.20"
+        }
+    ]
+}

@@ -1,0 +1,437 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009329",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009329",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생물 시간에 눈에 대한 구조를 정리하는 과제를 받았어. 눈의 각 부분을 정리하는데, 먼저 눈은 어떻게 앞을 볼 수 있는 거야? 눈의 구조와 더불어 설명해줘.",
+            "turn_id": "BK22009329-1",
+            "utterance_id": "BK22009329.1"
+        },
+        {
+            "reference_date": "2016-03-22",
+            "reference_text": [
+                {
+                    "value": "눈으로 들어온 빛은 각막, 동공, 수정체, 유리체를 거쳐 망막에 도달해 상을 맺는다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 망막 앞에 상이 맺히면 근시가 돼 원거리 시력이 좋지 않고 망막을 지나 안구 바깥에 상이 맺히면 원시가 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "각막, 공막, 홍채, 동공은 외관상 볼 수 있지만 수정체, 유리체, 망막 등은 보이지 않는다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.k-health.com/news/articleView.html?idxno=24369",
+            "search_query": "눈의 구조",
+            "terminate": false,
+            "text": "눈은 각막, 동공, 수정체, 유리체, 망막이 있는데, 빛이 눈으로 들어가면 앞의 순서대로 거쳐 망막에 상이 맺혀. 각막, 공막, 홍채, 동공은 외부에서 모습을 볼 수 있지만 수정체와 유리체, 망막 같은 것은 볼 수 없지. 참고로 상이 망막 앞에 맺힐 경우 원거리 시력이 좋지 않은 근시가 되고, 망막을 지나 상이 안구 밖에 맺히면 원시가 돼.",
+            "turn_id": "BK22009329-1",
+            "utterance_id": "BK22009329.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각 부분이 어떤 것인지 알아야 망막에 상이 맺히는 과정을 이해할 수 있을 것 같네. 각막이 어떤 건지 설명해줘.",
+            "turn_id": "BK22009329-2",
+            "utterance_id": "BK22009329.3"
+        },
+        {
+            "reference_date": "2022-02-05",
+            "reference_text": [
+                {
+                    "value": "각막(角膜, cornea)은 안구 외막의 1/6을 차지하며 빛을 굴절시켜주는 주된 막 중의 하나이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강막(強膜, sclera)에 이어지며, 안구 앞부분에 있는 투명한 부분.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 투명도가 저하되면 빛이 안구 내부에 들어갈 수 없게 되어 실명한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "투명도의 회복이 어려우며, 건강한 각막과 교환해야만 시력이 회복된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이것이 바로 각막 이식이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%81%EB%A7%89",
+            "search_query": "각막",
+            "terminate": false,
+            "text": "각막은 빛을 굴절시켜주는 주요 막 가운데 하나로 안구 외막의 육분의 일을 차지해. 각막은 안구 앞부분의 투명한 부분으로 강막에 이어져. 여기서 각막의 투명도가 떨어지면 빛이 안구 안으로 들어갈 수 없게 되고 실명하게 돼. 투명도의 회복은 어렵기 때문에 건강한 각막으로 교체해야 시력이 회복될 수 있어. 이것을 각막 이식이라고 하지.",
+            "turn_id": "BK22009329-2",
+            "utterance_id": "BK22009329.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "투명도가 저하되지 않게 조심해야 하겠는데? 그런데 강막은 어떤 거야? 아까 눈의 전체적인 원리를 설명해줄 때 들어보지 못한 것 같아.",
+            "turn_id": "BK22009329-3",
+            "utterance_id": "BK22009329.5"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "공막(鞏膜) 또는 강막(強膜)은 안구 바깥쪽을 에워싸는 튼튼한 교원 섬유질 막으로, 이것에 의해 안구의 모양이 보호된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞면은 투명해져서 각막이 되며, 뒤쪽의 한곳에서 시신경 다발에 연결되어 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "좌우 눈의 움직임에는 강한 연관성이 있어 오른쪽 눈을 오른쪽으로 돌리면 왼쪽 눈도 오른쪽으로 향한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 두 눈을 따로 움직이는 것은 불가능하다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이것을 공동 운동이라 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EB%A7%89",
+            "search_query": "공막",
+            "terminate": false,
+            "text": "아까 말했던 공막이 강막으로 안구 바깥쪽을 에워싸는 교원 섬유질 막으로, 눈의 모양을 지키고 있어. 공막에 대해서 조금 더 설명하자면, 안구 뒤쪽의 한곳에서 시신경 다발에 연결되어 있고, 공막의 앞면은 투명해져서 아까 말했던 각막이 돼. 그리고 공막은 왼쪽 오른쪽 눈의 움직임과 관련되어 있어서 오른쪽 눈을 오른쪽으로 움직이면 왼쪽 눈도 오른쪽으로 향하게 돼. 그래서 양쪽의 눈을 따로 움직일 수 없어. 참고로 이런 것을 공동 운동이라고 해.",
+            "turn_id": "BK22009329-3",
+            "utterance_id": "BK22009329.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 공막이 잘못되었을 때 사시가 될 것 같아. 이어서 동공은 어떤 것이고 역할에 대해 말해줘.",
+            "turn_id": "BK22009329-4",
+            "utterance_id": "BK22009329.7"
+        },
+        {
+            "reference_date": "2022-07-02",
+            "reference_text": [
+                {
+                    "value": "눈동자(-瞳子) 또는 동공(瞳孔)은 안구 한가운데 있으며, 홍채에 둘러싸인 조그맣고 검게 보이는 부분이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 빛이 각막에 부딪히게 할 수 있도록 하는, 눈의 홍채의 중심부에 위치한 검은 구멍이다.[1]",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "빛이 조절되어 들어가는 입구이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%88%EB%8F%99%EC%9E%90",
+            "search_query": "동공",
+            "terminate": false,
+            "text": "동공이 곧 눈동자야. 홍체에 둘러싸여 조그맣고 검게 보이는 부분으로 안구 한가운데에 있지. 빛이 조절되어 들어가는 입구로서 동공은 홍채 중심부에 위치한 검은 구멍으로 각막에 빛이 부딪히게 하는 역할을 해.",
+            "turn_id": "BK22009329-4",
+            "utterance_id": "BK22009329.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리의 눈동자가 동공이구나. 그런데 홍채에 둘러싸여 있다는 건 무슨 말이야? 홍채는 무엇이고 역할에 대해 말해줘.",
+            "turn_id": "BK22009329-5",
+            "utterance_id": "BK22009329.9"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "홍채는 기질로 알려져 있는 색소 유관속 조직으로 이루어져 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기질은 괄약근 근육(괄약근 동공)과 이어져 있어서 동공과 열린 확장근 근육들을 닫히게 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "홍채는 일반적으로 갈색에서 녹색, 파랑, 회색의 진한 안료로 이루어져 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람의 눈색은 실제로는 사람의 홍채색이며 각막은 투명하고 흰 공막은 눈 색깔과는 무관하다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%B1%84",
+            "search_query": "홍채",
+            "terminate": false,
+            "text": "홍채는 기질이라고 알려진 색소 유관속 조직으로 구성되어 있는데, 기질은 괄약근 근육과 이어져 있지. 그래서 동공과 열려있는 확장근 근육들을 닫을 수 있어. 그리고 사람의 눈색이 홍채색이야. 보통 갈색, 녹색, 파랑, 회색의 진한 안료로 되어 있지. 참고로 각막은 투명하고 공막은 하얀색인데 눈 색과는 관계없어.",
+            "turn_id": "BK22009329-5",
+            "utterance_id": "BK22009329.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "괄약근 근육과 이어져 있으니까 홍채는 동공의 크기를 조절한다고 이해하면 되겠다. 수정체는 어떤 거야?",
+            "turn_id": "BK22009329-6",
+            "utterance_id": "BK22009329.11"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "수정체(水晶體, crystalline lens)는 빛을 굴절시켜 망막에 상을 맺히게 하는 눈의 한 부분이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세포가 변화한 섬유로 만들어진 투명한 양면볼록의 구조이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수정체의 투명도를 상실해가는 병을 백내장이라 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%A0%95%EC%B2%B4",
+            "search_query": "수정체",
+            "terminate": false,
+            "text": "빛을 굴절시켜 망막에 상을 맺히게 하는 역할을 하는 것이 수정체야. 수정체는 투명하고 양면볼록의 구조로 세포가 섬유질로 변화해 이 섬유질로 이뤄져 있지. 참고로 백내장이 수정체의 투명도가 저하될 때의 병을 말해.",
+            "turn_id": "BK22009329-6",
+            "utterance_id": "BK22009329.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수정체는 마치 렌즈와 비슷한 것 같아. 유리체의 뭐고 역할은 뭐야?",
+            "turn_id": "BK22009329-7",
+            "utterance_id": "BK22009329.13"
+        },
+        {
+            "reference_date": "2022-04-05",
+            "reference_text": [
+                {
+                    "value": "유리체(琉璃體)는 안구의 기관 중 하나로, 수정체 뒤쪽에 있으며, 내강을 메우는 투명한 젤리 같은 조직이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단백질(콜라겐)으로 이루어져 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 안구 바깥쪽을 덮는 공막과 함께 안구의 형태를 유지하는 역할을 맡는다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A6%AC%EC%B2%B4",
+            "search_query": "유리체",
+            "terminate": false,
+            "text": "단백질로 이루어져 있고 유리체는 내강을 메우는 투명한 젤리 같은 조직으로 수정체 뒤에 있어. 유리체의 역할은 안구 바깥쪽을 덮는 공막과 함께 눈의 모양이 유지되게 하는 거야.",
+            "turn_id": "BK22009329-7",
+            "utterance_id": "BK22009329.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공막이 싸고 있고 안은 유리체가 채우고 있는 거네. 망막은 어떤 역할을 해?",
+            "turn_id": "BK22009329-8",
+            "utterance_id": "BK22009329.15"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "망막은 빛을 감지하는 세포와 신경 세포로 이루어진 막이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "망막은 뇌의 일부가 돌출한 것으로, 그 신경 세포 사이에는 뇌와 마찬가지로 글리아 세포가 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수정체와 마주보고 있는 곳에는 중심와(窩)라는 약간 팬 곳이 있는데, 안저경(眼底鏡)으로 보면 노란색으로 보이기 때문에 황점(황반)이라고 하기도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 부분이 가장 해상력(解像力)이 좋고 예민한 곳으로, 사물을 주시할 때는 여기에 상이 맺힌다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%88_(%EC%9D%B8%EC%B2%B4)",
+            "search_query": "망막",
+            "terminate": false,
+            "text": "빛을 감지하는 세포와 신경 세포로 이루어진 막을 망막이라고 하는데, 망막은 뇌의 일부가 돌출한 거야. 뇌아 마찬가지로 망막의 신경 세포 사이에는 글리아 세포가 있지. 망막과 수정체가 마주 보고 있는 곳에는 황점 또는 황반이라는 것이 있어. 이곳은 중심와라고 하는 약간 패어있는 곳으로 안저경으로 보면 노란색으로 보여서 이름을 그렇게 붙인 거야. 황점은 예민하면서도 가장 해상력이 좋아 사물을 보았을 때 그 상은 여기에 맺히게 돼.",
+            "turn_id": "BK22009329-8",
+            "utterance_id": "BK22009329.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "망막이 뇌의 일부가 돌출한 것이라니 정말 놀랍다. 눈의 구조를 여기서 마무리하려고 하는데 난 책에서 모양체라는 이름을 본 것 같기도 한데 그것도 눈의 기관 중 하나가 맞을까?",
+            "turn_id": "BK22009329-9",
+            "utterance_id": "BK22009329.17"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "수정체를 에워싸는 제방 모양의 구조를 하고 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞쪽은 수정체 앞면을 따라 뻗어나가 홍채(虹彩)가 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모양체 내부에는 앞뒤 방향·고리 모양·방사 방향으로 배열하는 세 가지 근육이 있으며, 이 근육의 수축과 이완에 의해 수정체의 곡률을 변화시킨다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%88_(%EC%9D%B8%EC%B2%B4)",
+            "search_query": "모양체",
+            "terminate": false,
+            "text": "물론이야. 모양체는 제방 모양의 구조로 수정체를 에워싸고 있어. 모양체의 앞쪽은 수정체 앞면을 따라 뻗어나가는데 이건 곧 홍체가 돼. 모양체는 수정체의 곡률을 변화시킬 수 있는데 그 이유로는 내부에는 앞뒤 방향, 고리 모양, 방사 방향으로 배열하는 세 가지 근육이 수축과 이완을 하기 때문이지.",
+            "turn_id": "BK22009329-9",
+            "utterance_id": "BK22009329.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈의 구조는 정말로 놀랍다. 오늘 덕분에 과제를 빨리 끝낼 수 있었던 것 같아. 정말 고마워.",
+            "turn_id": "BK22009329-10",
+            "utterance_id": "BK22009329.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 또 생물 과목 과제가 있으면 언제든 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22009329-10",
+            "utterance_id": "BK22009329.20"
+        }
+    ]
+}

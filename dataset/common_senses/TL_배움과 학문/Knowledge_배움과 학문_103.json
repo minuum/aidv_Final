@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011613",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011613",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스 기사를 보니 며칠 전이 추분이었다고 하더라. 추분은 절기 중 하나라고 하던데, 추분이 어떤 것을 뜻하는지 알고 있어?",
+            "turn_id": "BK22011613-1",
+            "utterance_id": "BK22011613.1"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "추분(秋分)은 24절기의 16번째로 태양 황경이 180도가 되는 때를 말한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추분 이후부터 차츰 밤이 길어져 바야흐로 여름이 지나고 가을이 다가옴을 느낄 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EB%B6%84",
+            "search_query": "추분",
+            "terminate": false,
+            "text": "추분은 24절기 중 하나로, 16번째 절기를 일컫는 말이야. 태양의 황경이 180도가 되는 때를 말하지. 추분이 지나면 차츰 밤이 길어지기 때문에 여름이 가고 가을이 다가오는 것을 체감할 수 있어.",
+            "turn_id": "BK22011613-1",
+            "utterance_id": "BK22011613.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추분을 비롯한 절기는 총 24절기가 있는 모양이구나. 절기가 무엇인지 자세히 설명해줄래?",
+            "turn_id": "BK22011613-2",
+            "utterance_id": "BK22011613.3"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "절기(이십사절기, 24절기, 二十四節氣)는 한국, 중국, 일본 등 동아시아 지역에서 태양년(太陽年)을 태양의 황경(黃經)에 따라 24등분하여 계절을 자세히 나눈 것으로 절후(節候)·시령(時令)이라고도 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%88%EA%B8%B0",
+            "search_query": "절기",
+            "terminate": false,
+            "text": "절기는 동아시아 지역인 한국, 중국, 일본 등에서 태양년을 태양의 황경에 따라 24개로 나눠 계절을 자세히 구분한 것을 말해. 다른 말로는 절후 또는 시령이라고 하지.",
+            "turn_id": "BK22011613-2",
+            "utterance_id": "BK22011613.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양년에 기반하여 만든 것이 절기구나. 추분이 16번째 절기라고 했는데, 그러면 추분 다음으로 오는 17번째 절기는 뭐야?",
+            "turn_id": "BK22011613-3",
+            "utterance_id": "BK22011613.5"
+        },
+        {
+            "reference_date": "2021-10-07",
+            "reference_text": [
+                {
+                    "value": "한로(寒露)는 24절기 가운데 추분(秋分)과 상강(霜降) 사이의 17번째 절기다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기 온도가 점점 내려가서 나뭇잎과 풀잎 등에 맺힌 이슬이 차가워진다는 뜻이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seniormaeil.com/news/articleView.html?idxno=31693",
+            "search_query": "한로",
+            "terminate": false,
+            "text": "24절기 중 추분과 상강 사이의 17번째 절기는 한로야. 나뭇잎이나 풀잎에 맺힌 이슬이 차가워질 만큼 기온이 낮아진다는 뜻이지.",
+            "turn_id": "BK22011613-3",
+            "utterance_id": "BK22011613.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한로가 추분과 상강 사이에 있는 절기구나. 그러면 상강은 어떤 시기를 뜻하는 절기야?",
+            "turn_id": "BK22011613-4",
+            "utterance_id": "BK22011613.7"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "상강(霜降)은 24절기 중 하나이며, 양력으로는 10월 23일 또는 10월 24일경에 해당된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서리가 내린다는 뜻이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이모작이 가능한 남부지방에서는 보리 파종을 하는 시기이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%81%EA%B0%95",
+            "search_query": "상강",
+            "terminate": false,
+            "text": "상강은 양력 10월 23일 혹은 24일경에 해당하는 절기로, 서리가 내린다는 뜻을 담고 있어. 이모작을 하는 남부 지방에서는 보리를 파종하는 시기지.",
+            "turn_id": "BK22011613-4",
+            "utterance_id": "BK22011613.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상강은 서리가 내리는 시기를 뜻하는 절기였네. 그렇다면 겨울의 절기에는 어떤 것들이 있는지도 알아?",
+            "turn_id": "BK22011613-5",
+            "utterance_id": "BK22011613.9"
+        },
+        {
+            "reference_date": "2020-11-06",
+            "reference_text": [
+                {
+                    "value": "겨울 절기로는 겨울이 시작하는 '입동', 얼음이 얼기 시작해 첫눈이 내리는 '소설', 1년 중 눈이 가장 많이 내리는 '대설', 연중 밤이 가장 길고 낮이 가장 짧은 '동지', 작은 추위라는 뜻의 '소한', 큰 추위라는 뜻의 '대한'이 있다.",
+                    "value_time": "2022-10-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20201106045100530?input=1195m",
+            "search_query": "겨울 절기",
+            "terminate": false,
+            "text": "겨울의 절기에는 입동, 소설, 대설, 동지, 소한, 대한이 있어. 입동은 겨울이 시작한다는 뜻을 가지고 있고, 소설은 얼음이 얼기 시작하여 첫 눈이 내리는 시기를 뜻하지. 대설은 1년 중 가장 눈이 많이 내리는 시기를, 동지는 연중 낮이 가장 짧고 밤이 가장 긴 시기를 뜻해. 그리고 소한은 작은 추위, 대한은 큰 추위라는 뜻을 가지고 있지.",
+            "turn_id": "BK22011613-5",
+            "utterance_id": "BK22011613.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "겨울의 절기 중 겨울이 시작한다는 절기가 입동이었구나. 그러면 혹시 입춘대길도 절기와 관련이 있는 말이야?",
+            "turn_id": "BK22011613-6",
+            "utterance_id": "BK22011613.11"
+        },
+        {
+            "reference_date": "2022-02-04",
+            "reference_text": [
+                {
+                    "value": "입춘은 새해의 첫째 절기이기 때문에 농경의례와 관련된 행사가 많아 가정에서는 기복적인 행사로 입춘축(立春祝)을 대문이나 문설주에 붙인다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 입춘대길(立春大吉)이라고 종이에 써서 문에 붙인다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 입춘(立春)을 맞이하여 길운(吉運)을 기원하는 글이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=88754",
+            "search_query": "입춘대길",
+            "terminate": false,
+            "text": "맞아, 입춘대길은 입춘을 맞이해서 길운을 기원하기 위해 종이에 써서 문에 붙이는 글이야. 새해 첫 절기인 입춘에는 특히 농경의례에 관한 행사가 많은데, 각 가정에서는 복을 기원하는 행사로 입춘축을 써서 문설주나 대문에 붙이지.",
+            "turn_id": "BK22011613-6",
+            "utterance_id": "BK22011613.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "입춘에 길운을 기원하는 말이 입춘대길인 거네. 그리고 보통 경칩 하면 개구리를 자주 거론하던데, 경칩과 개구리는 무슨 상관이 있는 거야?",
+            "turn_id": "BK22011613-7",
+            "utterance_id": "BK22011613.13"
+        },
+        {
+            "reference_date": "2021-03-05",
+            "reference_text": [
+                {
+                    "value": "겨울잠을 자던 개구리가 봄이 왔음을 알아채고 짝짓기를 하여 알을 낳는다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개구리가 경칩의 상징이 된 것은 온도 측정이 어려웠던 과거에 온도계 역할을 했기 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기온에 민감한 개구리가 나오는 걸 보고 계절을 예측해 농사를 시작하려는 것이었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seniormaeil.com/news/articleView.html?idxno=27618",
+            "search_query": "경칩 개구리",
+            "terminate": false,
+            "text": "개구리는 보통 봄이 오면 겨울 잠에서 깨어나 짝짓기를 하고 알을 낳아. 옛날에는 온도를 측정하는 것이 어려웠기 때문에 기온에 민감한 개구리가 밖으로 나오는 걸 보고 농사를 시작하려 했지. 즉, 개구리가 경칩의 상징이 된 이유는 바로 계절을 예측하는 온도계의 역할을 했기 때문이야.",
+            "turn_id": "BK22011613-7",
+            "utterance_id": "BK22011613.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 경칩 하면 개구리에 대한 이야기가 많았던 거네. 그러면 여름을 나타내는 절기에는 어떤 것이 있어?",
+            "turn_id": "BK22011613-8",
+            "utterance_id": "BK22011613.15"
+        },
+        {
+            "reference_date": "2017-11-07",
+            "reference_text": [
+                {
+                    "value": "대서는 양력으로는 7월 23일 무렵에 들고, 음력으로 6월에 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양의 황경이 대략 120도 지점을 통과할 때이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 시기는 대개 중복(中伏) 끝난 후로 \"염소뿔도 녹는다.\"라는 속담이 나올 정도로 장마가 끝나고 더위가 가장 심한 때 이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2016/08/25/2016082500675.html",
+            "search_query": "대서",
+            "terminate": false,
+            "text": "태양의 황경이 120도 지점을 통과하는 대서는 양력 7월 23일 무렵에 있는 절기야. 대서는 보통 중복과 장마가 끝난 후에 오기 때문에 염소 뿔도 녹는다는 속담이 나올 정도로 더위가 가장 심한 시기지.",
+            "turn_id": "BK22011613-8",
+            "utterance_id": "BK22011613.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대서가 여름을 나타내는 절기구나. 24절기는 정말 계절을 잘 나타내는 말인 것 같아.",
+            "turn_id": "BK22011613-9",
+            "utterance_id": "BK22011613.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 절기를 잘 살펴보면 계절이 어떻게 변화해가는지 알 수 있지.",
+            "turn_id": "BK22011613-9",
+            "utterance_id": "BK22011613.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유익한 정보들을 알려줘서 고마워. 덕분에 절기에 대해서 많은 걸 배웠어.",
+            "turn_id": "BK22011613-10",
+            "utterance_id": "BK22011613.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언제든 또 궁금한 것이 생기면 물어봐도 좋아!",
+            "turn_id": "BK22011613-10",
+            "utterance_id": "BK22011613.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 물어볼 게 떠오르면 또 연락할게.",
+            "turn_id": "BK22011613-11",
+            "utterance_id": "BK22011613.21"
+        }
+    ]
+}

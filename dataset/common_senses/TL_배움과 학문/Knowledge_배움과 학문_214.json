@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012850",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012850",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 전기 자동차가 많이 유행하네요. 전기 자동차를 구동시키는 전동기는 정확히 무엇을 말하는 것인가요?",
+            "turn_id": "BK22012850-1",
+            "utterance_id": "BK22012850.1"
+        },
+        {
+            "reference_date": "44599.0",
+            "reference_text": [
+                {
+                    "value": "전류에서 돌림힘을 끌어내는 원리는 \"자기장 속을 흐르는 전류에는 자기력이 작용한다\"라는 것이며, 이 자기력의 방향은 자계와 전류 방향에 직각이 된다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 전기에너지를 회전운동에너지로 전환하는 기계다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%8F%99%EA%B8%B0",
+            "search_query": "전동기",
+            "terminate": false,
+            "text": "전동기는 자기장 속을 흐르는 전류에는 자기력이 작용한다는 원리로 전류에서 돌림힘을 끌어내서 회전운동에너지로 전환해요. 이때 자기력의 방향은 전류 방향과 자계에 직각이 되죠. 즉 전기에너지를 회전하는 운동에너지로 바꾸는 기계에요.",
+            "turn_id": "BK22012850-1",
+            "utterance_id": "BK22012850.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 돌림힘의 단위는 어떻게 되나요?",
+            "turn_id": "BK22012850-2",
+            "utterance_id": "BK22012850.3"
+        },
+        {
+            "reference_date": "44765.0",
+            "reference_text": [
+                {
+                    "value": "돌림힘은 힘과 거리를 곱한 차원을 갖고 있으며, 국제 단위는 뉴턴 미터(N·m) 또는 라디안 당 줄(J/rad)이다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%8C%EB%A6%BC%ED%9E%98",
+            "search_query": "돌림힘",
+            "terminate": false,
+            "text": "돌림힘의 국제 단위는 라디안 당 줄 혹은 뉴턴 미터로 정해져 있어요. 돌림힘은 거리에 힘을 곱한 차원으로 이루어져 있죠.",
+            "turn_id": "BK22012850-2",
+            "utterance_id": "BK22012850.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 1뉴턴 미터는 어느 기준으로 작용하는 단위인가요?",
+            "turn_id": "BK22012850-3",
+            "utterance_id": "BK22012850.5"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "뉴턴 미터(newton meter)는 돌림힘의 크기를 나타내는 SI 단위로, 1 뉴턴 미터는 회전축에서 1 미터 떨어진 곳에서 수직 방향으로 1 뉴턴만큼의 힘을 가할 때의 양을 뜻한다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%89%B4%ED%84%B4_%EB%AF%B8%ED%84%B0",
+            "search_query": "뉴턴 미터",
+            "terminate": false,
+            "text": "1뉴턴 미터는 회전축에서 1미터 거리만큼 떨어진 위치에서 수직 방향으로 1뉴턴의 힘이 작용할 때의 양을 기준으로 하는 SI 단위예요.",
+            "turn_id": "BK22012850-3",
+            "utterance_id": "BK22012850.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기 자동차에 관해 이야기할 때 회생 제동이라는 말이 자주 나오는데 그게 무슨 뜻인가요?",
+            "turn_id": "BK22012850-4",
+            "utterance_id": "BK22012850.7"
+        },
+        {
+            "reference_date": "44623.0",
+            "reference_text": [
+                {
+                    "value": "회생 제동(回生制動), 또는 전력 회생 브레이크는 토크력으로 움직이고 있는 전동기가 폐회로 상태가 됐을 때의 관성력을 이용해 바퀴 등에 달려 있는 회전자를 돌려 전동기를 발전기 기능으로 작동하게 함으로써 운동 에너지를 전기 에너지로 변환해 회수하여 제동력을 발휘하는 전기 제동 방법을 통칭하는 말이다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9A%8C%EC%83%9D_%EC%A0%9C%EB%8F%99",
+            "search_query": "회생 제동",
+            "terminate": false,
+            "text": "토크력에 의해 움직이는 전동기의 회로가 폐회로가 되었을 때 관성력이 생겨요. 그 관성력으로 바퀴 등에 달린 회전자를 돌려 전동기로 하여금 발전기 역할을 하게 만들어요. 회생 제동은 방금 말씀드린 과정을 통해 운동에너지를 전기에너지로 전환하고 회수해서 제동력을 발휘하게 하는 전기제동방식이에요.",
+            "turn_id": "BK22012850-4",
+            "utterance_id": "BK22012850.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전동기의 기능을 발전기로 변환시킨다는 게, 그렇다면 전동기가 발전기로 사용이 될 수 있다는 것인가요?",
+            "turn_id": "BK22012850-5",
+            "utterance_id": "BK22012850.9"
+        },
+        {
+            "reference_date": "44599.0",
+            "reference_text": [
+                {
+                    "value": "실제로 전동기는 1873년의 빈의 박람회에서 정지하고 있는 발전기(그람의 발전기)의 전류를 끌어내는 단자(端子)에 전류가 흐르는 도선을 잘못 연결했다가 이 발전기가 돌아간 사실을 계기로 개발된 것이다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%8F%99%EA%B8%B0",
+            "search_query": "전동기",
+            "terminate": false,
+            "text": "네 맞아요. 실제로 1873년 빈의 박람회에서 전류가 흐르는 전선을 정지상태의 발전기의 전류를 끌어내는 회로 끝부분에 잘못 연결했다가 발전기가 작동했던 일을 계기로 전동기가 개발되었어요.",
+            "turn_id": "BK22012850-5",
+            "utterance_id": "BK22012850.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 말인즉슨 물리적인 구조로서 전동기와 발전기는 차이가 없군요. 그렇다면 직류 전동기의 속도는 어떤 영향으로 변화가 이루어지나요?",
+            "turn_id": "BK22012850-6",
+            "utterance_id": "BK22012850.11"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "직류전동기의 속도는 가변 공급 전압 또는 계자 권선의 전류 강도 변화를 사용하여, 넓은 범위에서 제어될 수 있다.",
+                    "value_time": "44775.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%81%EB%A5%98%EC%A0%84%EB%8F%99%EA%B8%B0",
+            "search_query": "직류전동기",
+            "terminate": false,
+            "text": "공급되는 전압의 변화량 또는 계자 권선의 전류 강도 변화를 통해 직류전동기의 속도를 더 큰 범위로 제어할 수 있어요.",
+            "turn_id": "BK22012850-6",
+            "utterance_id": "BK22012850.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 공급되는 전압을 일정하게 유지하는 방식에는 어떤 것이 있을까요?",
+            "turn_id": "BK22012850-7",
+            "utterance_id": "BK22012850.13"
+        },
+        {
+            "reference_date": "44748.0",
+            "reference_text": [
+                {
+                    "value": "전압 조정기(voltage regulator)는 자동으로 일정한 전압 수치를 유지하도록 설계된다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%95%95_%EC%A1%B0%EC%A0%95%EA%B8%B0",
+            "search_query": "전압 조정기",
+            "terminate": false,
+            "text": "전압 조정기를 통해 일정한 전압 수치가 자동으로 유지되도록 할 수 있어요.",
+            "turn_id": "BK22012850-7",
+            "utterance_id": "BK22012850.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전동기는 결국 전류를 회전하는 운동에너지로 바꾸는 장치인데 그렇다면 회전이 아닌 직선운동을 가능케 하는 것도 있을까요?",
+            "turn_id": "BK22012850-8",
+            "utterance_id": "BK22012850.15"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "리니어 모터는 회전 운동 대신에 직선 운동을 한다고 해서 붙여진 이름이며, 자기부상열차와는 아무런 관련이 없다.",
+                    "value_time": "44775.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%91%EC%A0%80%EC%9A%B0_%EC%A7%80%ED%95%98%EC%B2%A0_4%ED%98%B8%EC%84%A0",
+            "search_query": "광저우 지하철 4호선",
+            "terminate": false,
+            "text": "네. 리니어 모터는 기존의 회전 운동이 아닌 직선운동으로 가동해서 붙여진 이름이에요.",
+            "turn_id": "BK22012850-8",
+            "utterance_id": "BK22012850.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전동기가 직접적으로 직선운동을 하다니 상당히 흥미롭네요.",
+            "turn_id": "BK22012850-9",
+            "utterance_id": "BK22012850.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과거에는 볼 스크루나 타이밍 벨트 같은 것을 이용하기도 하였지요.",
+            "turn_id": "BK22012850-9",
+            "utterance_id": "BK22012850.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언제 한번 시간이 되신다면 구동 계통의 부품들에 대한 설명도 부탁 가능할까요?",
+            "turn_id": "BK22012850-10",
+            "utterance_id": "BK22012850.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든지 시간이 되신다면 연락을 주세요.",
+            "turn_id": "BK22012850-10",
+            "utterance_id": "BK22012850.20"
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005863",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005863",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물에 관해 조사해오는 숙제를 받았어. 여러 동물에 대해 광범위하게 조사하라니 조금 막막하네. 너 기린이 서식하는 지역이 어딘지 아니?",
+            "turn_id": "BK22005863-1",
+            "utterance_id": "BK22005863.1"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "기린의 분포 지역은 서아프리카의 차드에서 남아프리카 공화국까지에 이른다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기린은 사바나, 초원 또는 개방된 삼림 지대에 서식하며, 아카시아가 많이 자라는 지역을 좋아한다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 서식지",
+            "terminate": false,
+            "text": "기린은 보통 서아프리카 차드에서 남아프리카 공화국 지역까지 분포되어 있어. 또 기린은 초원이나 개방된 곳에 위치한 숲 등에 서식하고 아카시아가 많이 나는 곳을 선호하지.",
+            "turn_id": "BK22005863-1",
+            "utterance_id": "BK22005863.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그렇구나. 또 하나 궁금한 게 있는데 물어봐도 되나? 기린이란 이름은 어디에서 나온 거야?",
+            "turn_id": "BK22005863-2",
+            "utterance_id": "BK22005863.3"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "‘기린’이란 이름은 명나라 때 붙은 것인데, 정화가 동아프리카에서 기린을 실어 명나라에 가져오자, 사람들이 이를 전설의 생물인 ‘기린(麒麟)’이라 부른 것에서 비롯한다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 어원",
+            "terminate": false,
+            "text": "기린은 중국의 명나라 당시 아프리카에서 정화가 기린을 싣고 명나라로 왔는데, 그때 사람들이 전설의 동물인 기린이라고 불렀었어. 그게 유래된 거지.",
+            "turn_id": "BK22005863-2",
+            "utterance_id": "BK22005863.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 오늘 동물원에 가서 보니 기린이 한 종류만 있는 게 아니던데, 기린의 종류에 대해서도 혹시 알려줄 수 있니?",
+            "turn_id": "BK22005863-3",
+            "utterance_id": "BK22005863.5"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "현재 북부기린, 남부기린, 마사이기린, 그물무늬기린의 4개의 종과 9개의 아종(亞種)이 인정되고 있으며, 색깔, 무늬, 그리고 서식지를 기준으로 분류한다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 분류",
+            "terminate": false,
+            "text": "현재 기린의 종은 남부 기린, 북부 기린 등 4개 종과 9개의 아종이 인정 돼. 이건 색깔, 서식지 등을 기준으로 나누지.",
+            "turn_id": "BK22005863-3",
+            "utterance_id": "BK22005863.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "북부 기린과 남부 기린? 북부 기린은 도대체 뭔지 모르겠는데, 설명해줄 수 있을까?",
+            "turn_id": "BK22005863-4",
+            "utterance_id": "BK22005863.7"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "북부기린(北部麒麟, 학명: Giraffa Camelopardalis)은 기린과의 포유동물로서 기린속의 모식종이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기린이 여러 종으로 구성된 사실이 밝혀지자 본래 기린의 학명을 계승하였다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B6%81%EB%B6%80%EA%B8%B0%EB%A6%B0",
+            "search_query": "북부 기린",
+            "terminate": false,
+            "text": "북부 기린은 기린과의 포유류인데, 기린이 여러 종으로 구성된 것이 알려지자 본래의 학명을 계승했었어. 그리고 북부 기린은 기린속의 모식종이야.",
+            "turn_id": "BK22005863-4",
+            "utterance_id": "BK22005863.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기린속의 모식종이구나, 그럼 남부 기린은 뭔데?",
+            "turn_id": "BK22005863-5",
+            "utterance_id": "BK22005863.9"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "남부기린(南部麒麟, 학명: Giraffa giraffa)은 기린과의 포유동물이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아프리카의 토착종이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아프리카공화국과 앙골라, 나미비아, 보츠와나, 잠비아, 짐바브웨 그리고 모잠비크에 분포한다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EB%B6%80%EA%B8%B0%EB%A6%B0",
+            "search_query": "남부 기린",
+            "terminate": false,
+            "text": "남부 기린도 기린과의 포유류인데, 남아프리카 공화국과 짐바브웨, 모잠비크 등에 흩어져 퍼져 있어. 또 남부 기린은 남아프리카의 토착종이지.",
+            "turn_id": "BK22005863-5",
+            "utterance_id": "BK22005863.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 남부 기린의 특징은 뭐가 있을까?",
+            "turn_id": "BK22005863-6",
+            "utterance_id": "BK22005863.11"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "둥글거나 부스럼 형태의 반점을 갖고 있으며, 일부는 반점이 연한 황갈색 바탕에 별 모양으로 펼쳐져 있으며 불룩한 배까지 아래로 이어진다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EB%B6%80%EA%B8%B0%EB%A6%B0",
+            "search_query": "남부 기린 특징",
+            "terminate": false,
+            "text": "부스럼 모양이거나 둥근 얼룩덜룩한 점이 박혀 있고 몇몇은 반점이 황갈색 배경에 별 모양으로 연하게 나타나 있어. 이런 모양이 불룩한 아래 배까지 연결되어 있지.",
+            "turn_id": "BK22005863-6",
+            "utterance_id": "BK22005863.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "넌 정말 동물에 대해 빠삭하구나. 오늘 기린과 함께 타조도 봤는데, 타조 이야기도 해보고 싶어. 먼저 타조의 어원에 대해 설명해줄 수 있을까?",
+            "turn_id": "BK22005863-7",
+            "utterance_id": "BK22005863.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "타조(駝鳥)는 그 생김새가 낙타와 비슷한 새라고 해서 붙은 이름이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘타조(駝鳥)’라는 말이 처음으로 기록된 것은 《후한서》에 서역에서 온 공물 중 타조가 있었다는 기록이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%A1%B0",
+            "search_query": "타조",
+            "terminate": false,
+            "text": "어원에 참 관심이 많구나. 타조는 생긴 게 낙타랑 유사하게 생겨서 붙은 이름이야. 타조란 용어가 제일 처음 기록된 건 후한서인데, 당시 중국의 서쪽 지역에서 온 공물 중에 타조가 있었지.",
+            "turn_id": "BK22005863-7",
+            "utterance_id": "BK22005863.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 낙타랑 비슷하게 생기긴 했던 거 같아. 그리고 낙타 수컷과 암컷의 생김새가 다르던데, 혹시 수컷과 암컷의 생김새에 대해 설명해줄 수 있어?",
+            "turn_id": "BK22005863-8",
+            "utterance_id": "BK22005863.15"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "수컷의 몸은 검고 날개깃과 꼬리깃은 희며, 머리·목·겨드랑이·넓적다리는 털이 거의 없고 연분홍색을 띤다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷은 수컷보다 작고 새끼와 마찬가지로 몸털·날개짓·꼬리깃이 갈색이며 털이 없는 부위는 담갈색이다.",
+                    "value_time": "2022-08-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%A1%B0",
+            "search_query": "타조 수컷 암컷 생김새",
+            "terminate": false,
+            "text": "암컷은 수컷보다 작은데, 타조 새끼처럼 몸털이나 꼬리깃 등이 갈색이고 털이 없는 부분은 담갈색으로 이루어져 있어. 그리고 수컷은 날개, 꼬리깃은 흰데 몸은 검어. 그리고 넓적다리, 목 등은 연분홍색인데, 털이 거의 없지.",
+            "turn_id": "BK22005863-8",
+            "utterance_id": "BK22005863.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈을 감고 그려보니, 동물원에서 봤던 타조들 중 누가 수컷이고 암컷인지 알 수 있을 것 같아. 공부에 많이 도움 되는 설명해줘서 정말 고마워!",
+            "turn_id": "BK22005863-9",
+            "utterance_id": "BK22005863.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나야 말로 재미있었어. 다음에 또 궁금한 게 있으면 물어봐!",
+            "turn_id": "BK22005863-9",
+            "utterance_id": "BK22005863.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 그럼 다음에 또 이야기하자!",
+            "turn_id": "BK22005863-10",
+            "utterance_id": "BK22005863.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 날만 잡아 달라고.",
+            "turn_id": "BK22005863-10",
+            "utterance_id": "BK22005863.20"
+        }
+    ]
+}

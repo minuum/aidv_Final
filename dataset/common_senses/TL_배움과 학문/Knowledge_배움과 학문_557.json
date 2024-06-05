@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002939",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002939",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취업 준비를 하고 있는데 모든 회사가 토익 점수를 요구하더라고요. 토익이 무슨 시험인가요?",
+            "turn_id": "BK22002939-1",
+            "utterance_id": "BK22002939.1"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "TOEIC(Test Of English for International Communication, 토익)은 영어가 모국어가 아닌 사람들을 대상으로 의사소통 능력을 평가하는 시험(Standardized Test)이다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익",
+            "terminate": false,
+            "text": "토익은 영어가 모국어가 아닌 사람들을 대상으로 하는 영어 의사소통 능력을 평가하는 시험이에요.",
+            "turn_id": "BK22002939-1",
+            "utterance_id": "BK22002939.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영어 의사소통 능력을 평가하는 시험이군요. 토익이라는 시험을 많이 들어보긴 했는데 언제부터 시행된 시험이죠?",
+            "turn_id": "BK22002939-2",
+            "utterance_id": "BK22002939.3"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "1979년 미국 ETS (Educational Testing Service)에서 개발되어, 대한민국에는 1982년 도입되었다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 개발",
+            "terminate": false,
+            "text": "토익 시험은 1979년에 미국의 ETS에서 개발되어서 대한민국에서는 1982년부터 시행하고 있는 시험이에요.",
+            "turn_id": "BK22002939-2",
+            "utterance_id": "BK22002939.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 오래전부터 실시된 영어시험이네요. 기업 지원을 할 때 토익 점수를 왜 이렇게 많이 보는 걸까요?",
+            "turn_id": "BK22002939-3",
+            "utterance_id": "BK22002939.5"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "한국에는 80년대 후반 도입 후 기업들이 채용 심사에서 토익을 평가 자료로 사용하기 시작하였고, 이로 인해 토익 응시자 가운데 한국은 일본에 이어 가장 많은 비율을 차지해왔다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 한국도입",
+            "terminate": false,
+            "text": "토익이 우리나라에 도입된 후, 기업 채용 심사에서 영어 의사소통 능력을 평가하는 자료로 사용되기 시작했어요. 그래서 한국이 일본에 이어 토익 응시자 비율이 가장 많은 국가 중 하나에요.",
+            "turn_id": "BK22002939-3",
+            "utterance_id": "BK22002939.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 주변에서 토익은 한국인들을 위해서 만들어진 시험이라는 말까지 있더라고요.",
+            "turn_id": "BK22002939-4",
+            "utterance_id": "BK22002939.7"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "한편, 거의 90%에 가까운 응시생이 한국 수험생들이라는 편견이 존재하지만, 사실이 아니다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 한국 응시자",
+            "terminate": false,
+            "text": "그런 말들을 굉장히 많이 들어보셨을 거지만 이는 다 편견일 뿐 사실이 아니에요.",
+            "turn_id": "BK22002939-4",
+            "utterance_id": "BK22002939.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 왜 그런 소문들이 무성한 거죠?",
+            "turn_id": "BK22002939-5",
+            "utterance_id": "BK22002939.9"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "이는 일본, 한국의 응시자 수가 각각 200만 명씩 넘기며, 1위, 2위 자리를 서로 바꾸고 있기 때문이다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 1위 응시국가",
+            "terminate": false,
+            "text": "그런 소문들이 나는 이유는 일본과 한국의 토익 응시자 수가 각각 200만 명을 넘기면서 토익 응시율 1위와 2위를 계속 바꾸고 있기 때문이에요.",
+            "turn_id": "BK22002939-5",
+            "utterance_id": "BK22002939.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본도 한국 못지않게 토익을 정말 많이 치는 나라네요! 그건 그렇고 저도 토익을 쳐야 할 것 같아서 공부를 해야 하는데 토익 시험이 어떤 파트로 이루어져 있죠?",
+            "turn_id": "BK22002939-6",
+            "utterance_id": "BK22002939.11"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "TOEIC Listening & Reading는 크게 청해(Listening Comprehension)와 독해(Reading Comprehension) 부분으로 나눌 수 있고, 세부적으로는 총 7개의 PART로 구분한다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 파트",
+            "terminate": false,
+            "text": "토익은 크게 청해와 독해로 이루어져 있고 세부적으로는 7개의 파트로 구분되어 있어요.",
+            "turn_id": "BK22002939-6",
+            "utterance_id": "BK22002939.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 파트가 많이 나뉘어 있네요. 그러면 시험을 생각보다 오래 쳐야겠네요. 파트가 많이 나뉘어 문제 수가 많은 만큼 점수도 높을 것 같은데, 만점이 몇 점인가요?",
+            "turn_id": "BK22002939-7",
+            "utterance_id": "BK22002939.13"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "시험시간은 약 120분이며, 총 200문항으로 점수는 최저 10점에서 최고 990점이다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 점수",
+            "terminate": false,
+            "text": "시험시간은 120분으로 진행하며 총 200문항으로 구성되어 있어요. 성적은 최저 10점에서 최고 990점까지 받을 수 있죠.",
+            "turn_id": "BK22002939-7",
+            "utterance_id": "BK22002939.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "120분 동안 200문항을 푸는 것 자체가 굉장히 어려울 것 같다는 느낌이 드네요. 회사에 입사하기 위해서는 토익을 꼭 쳐야 할 것 같은데 토익이 과연 그렇게나 중요한 시험일까요?",
+            "turn_id": "BK22002939-8",
+            "utterance_id": "BK22002939.15"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "오늘날 토익시험은 전세계에서 매년 700만 명 이상이 응시하는 대표적인 영어시험이 되었다.",
+                    "value_time": "2022-07-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC",
+            "search_query": "토익 응시자",
+            "terminate": false,
+            "text": "지금으로써는 토익이 전 세계에서 매년 700만 명 이상 응시할 정도로 영어 시험 중에서는 가장 유명하고 입지가 다져진 시험이라고 할 수 있죠. 그래서 회사에서도 토익 점수를 요구하는 경우가 많죠.",
+            "turn_id": "BK22002939-8",
+            "utterance_id": "BK22002939.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 생각보다 많은 문항과 짧은 시간에 벌써 진이 빠지는 느낌이 들어요.",
+            "turn_id": "BK22002939-9",
+            "utterance_id": "BK22002939.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 요즘 인터넷 강의를 보면 토익을 어떤 식으로 접근하여 공부해야 할지에 대한 노하우가 담겨 있으니 인터넷 강의의 힘을 빌려 보는 것도 좋은 방법이에요!",
+            "turn_id": "BK22002939-9",
+            "utterance_id": "BK22002939.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘부터 당장 토익 공부를 시작해야겠어요!",
+            "turn_id": "BK22002939-10",
+            "utterance_id": "BK22002939.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 점수 받으셔서 토익 때문에 스트레스받지 않으셨으면 좋겠어요! 그래도 혹여나 토익 때문에 문제가 생긴다면 언제든 연락해주세요.",
+            "turn_id": "BK22002939-10",
+            "utterance_id": "BK22002939.20"
+        }
+    ]
+}

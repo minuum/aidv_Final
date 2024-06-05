@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004944",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004944",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교 과제로 엘리베이터에 대해 조사하고 있는데 막상 알아보려니 잘 모르겠어. 엘리베이터의 정의를 알려줄 수 있니?",
+            "turn_id": "BK22004944-1",
+            "utterance_id": "BK22004944.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "엘리베이터(영어: elevator 또는 lift, 문화어: 수직승강기), 또는 승강기(昇降機)는 동력을 사용하여 빌딩, 대형 선박 또는 고정된 시설물에 설치되어 일정한 경로(승강로)를 따라 사람이나 화물을 승강장으로 나르는 수직 운송 장치(vertical transportation machine)이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0",
+            "search_query": "엘리베이터",
+            "terminate": false,
+            "text": "당연하지. 엘리베이터는 승강기라고도 불러. 이 기계는 동력을 활용하여 빌딩과 대형 선박 혹은 고정된 시설물에 설치되며, 일정한 경로인 승강로를 따라 사람 혹은 화물을 승강장으로 나르는 수직 운송 장치를 일컬어.",
+            "turn_id": "BK22004944-1",
+            "utterance_id": "BK22004944.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 엘리베이터의 정의가 복잡하네. 그렇다면 엘리베이터는 언제부터 사용되었던 거야?",
+            "turn_id": "BK22004944-2",
+            "utterance_id": "BK22004944.3"
+        },
+        {
+            "reference_date": "2018-07-02",
+            "reference_text": [
+                {
+                    "value": "엘리베이터가 고층빌딩에 꼭 필요한 존재이므로 엘리베이터가 현대에 생긴 발명품이라고 생각하기 쉬우나, 엘리베이터의 발명은 고대로 거슬러 올라간다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엘리베이터를 이용하는 아이디어는 고대에 여럿이 있었겠지만, 기록에 남아 있기로는 고대 그리스의 수학자인 아르키메데스가 엘리베이터를 고안하여 이용한 최초의 사람이라고 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기원전 236년 아르키메데스는 원통 바퀴에 밧줄을 감아서 커다란 칸을 수직으로 끌어올리는 장치를 고안해서 실제로 이용했다고 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2018/07/02/society/opinion/6341703.html",
+            "search_query": "기원전 엘리베이터",
+            "terminate": false,
+            "text": "엘리베이터는 고층빌딩에 대부분 설치되어 있어서 현대의 발명품으로 보이지만, 사실 엘리베이터가 발명된 것은 고대야. 당시 고대에는 엘리베이터에 대한 다양한 아이디어가 있었으나, 최초로 엘리베이터를 고안해서 활용한 사람의 기록은 고대 그리스 수학자인 아르키메데스에 관한 것이야. 기원전 236년 아르키메데스는 원통형의 바퀴에다가 밧줄을 이용하여 대형 칸을 수직으로 끌어올리는 장치를 발명하여 실제로 이용했어.",
+            "turn_id": "BK22004944-2",
+            "utterance_id": "BK22004944.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엘리베이터가 고대부터 사용되었다니, 정말 신기하다. 그렇다면 현재와 비슷한 형태의 엘리베이터가 이용된 것은 언제야?",
+            "turn_id": "BK22004944-3",
+            "utterance_id": "BK22004944.5"
+        },
+        {
+            "reference_date": "2016-01-20",
+            "reference_text": [
+                {
+                    "value": "특히 18세기에 프랑스의 루이 15세는 ‘나는 의자(flying chair)’라는 장치는 지금의 승강기의 원리와 매우 유사합니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도르래 모양을 한 플라잉 체어의 줄을 하인들이 잡아당기면 루이 15세 자신은 반대쪽 줄에 매달린 의자를 타고 2층으로 올라가는 식의 기계입니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=31985",
+            "search_query": "루이 15세 엘리베이터",
+            "terminate": false,
+            "text": "18세기경이야. 프랑스의 루이 15세는 나는 의자라는 장치를 이용했는데, 현재의 승강기 원리와 매우 흡사해. 도르래 모양의 플라잉 체어의 줄을 하인들이 당기면 루이 15세는 반대쪽 줄에 설치된 의자를 타고 2층으로 올라갔어.",
+            "turn_id": "BK22004944-3",
+            "utterance_id": "BK22004944.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 의자의 원리가 오늘날 승강기와 흡사하긴 하다. 설명을 듣다 보니 국내 엘리베이터의 역사 또한 궁금해지는데, 우리나라에서 최초로 엘리베이터가 설치된 것은 어디야?",
+            "turn_id": "BK22004944-4",
+            "utterance_id": "BK22004944.7"
+        },
+        {
+            "reference_date": "2022-07-10",
+            "reference_text": [
+                {
+                    "value": "한국은행 화폐박물관 건물은 1981년 국가중요문화재 사적 제280호로 지정됐다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 건물은 철근 콘크리트 구조에 외벽은 화강암으로 마감해 견고함이 느껴진다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리나라 최초로 엘리베이터가 설치됐던 건물이기도 하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022071009231907878",
+            "search_query": "한국 최초의 엘리베이터 설치",
+            "terminate": false,
+            "text": "국내에 최초로 엘리베이터가 설치된 건물은 1981년에 국가중요문화재 사적 제280호가 된 한국은행 화폐박물관이야. 이 건물은 철근 콘크리트 구조고 외벽은 화강암인 견고한 건물이지.",
+            "turn_id": "BK22004944-4",
+            "utterance_id": "BK22004944.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 그곳에 답사를 가고 싶다. 화폐박물관에 대한 자세한 정보가 궁금한데 알려줄 수 있니?",
+            "turn_id": "BK22004944-5",
+            "utterance_id": "BK22004944.9"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "박물관이 위치한 한국은행 구본관은 서울 중구 남대문로에 위치한 대한민국의 사적 제280호로 지정된 건물이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "박물관은 크게 전시 공간과 보조 공간으로 나뉘어 있는데, 전시 공간은 우리의 중앙은행, 화폐의 일생, 돈과 나라경제, 화폐광장, 상평통보갤러리, 금과 화폐실, 화폐기기실, 기증화폐실, 모형금고, 세계의 화폐실, 체험학습실, 기획전시실, 한은갤러리로 구성되어 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보조 공간으로는 자료안내실, 뮤지엄샵, 카페 등을 두어 이용자들이 편안하게 이용할 수 있게 하였다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89_%ED%99%94%ED%8F%90%EB%B0%95%EB%AC%BC%EA%B4%80",
+            "search_query": "화폐박물관",
+            "terminate": false,
+            "text": "사적 제280호로 지정된 서울시 중구 남대문로에 있는 한국은행 구 본관에 화폐 박물관이 있어. 이 박물관은 전시 공간과 보조 공간으로 구성되어 있어. 우선 전시공간에서 우리의 중앙은행, 화폐의 일생, 돈과 나라경제, 화폐광장, 상평통보갤러리, 금과 화폐실, 화폐기기실, 기증화폐실, 모형금고, 세계의 화폐실, 체험학습실, 기획전시실, 한은갤러리를 볼 수 있어. 그리고 보조공간은 자료안내실, 뮤지엄샵, 카페 등이 있어서 관람객들이 안락하게 이용 가능해.",
+            "turn_id": "BK22004944-5",
+            "utterance_id": "BK22004944.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 주말에 다녀와야겠어. 이제 또 다른 종류의 엘리베이터도 궁금해지는데, 세계에서 가장 빠른 엘리베이터는 어디에 있어?",
+            "turn_id": "BK22004944-6",
+            "utterance_id": "BK22004944.11"
+        },
+        {
+            "reference_date": "2016-03-21",
+            "reference_text": [
+                {
+                    "value": "올해 완공 예정인 광저우 ‘CTF 파이낸스센터’(111층·높이 530m) 때문이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 빌딩에 탑재된 엘리베이터는 1초당 20m를 주파한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 엘리베이터를 타면 43초만에 1층에서 95층까지 올라갈 수 있는데 이는 자동차를 타고 시속 70㎞로 달리는 것과 같다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2016032111255240814&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "세계에서 가장 빠른 엘리베이터",
+            "terminate": false,
+            "text": "2016년에 완공된 광저우 CTF 파이낸스센터에 있어. 이 엘리베이터는 1초에 20m를 이동하지. 이 엘리베이터를 타면 43초만에 1층에서 95층으로 갈 수 있는데, 그 속도가 자동차로 시속 70㎞로 달리는 것과 같아.",
+            "turn_id": "BK22004944-6",
+            "utterance_id": "BK22004944.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1분도 안 돼서 95층을 올라갈 수 있다니, 그 엘리베이터를 타면 어지러울 거 같아. 그러고 보니 내가 밀폐된 공간을 싫어하고 사고가 일어날까 봐 무서워서 엘리베이터 타는 것을 그다지 좋아하지 않아. 혹시 엘리베이터에서 실제로 사고가 자주 일어나니?",
+            "turn_id": "BK22004944-7",
+            "utterance_id": "BK22004944.13"
+        },
+        {
+            "reference_date": "2021-10-25",
+            "reference_text": [
+                {
+                    "value": "통계적으로 보면 다중 안전장치가 있어 운행 중인 엘리베이터의 추락은 낙타가 바늘구멍에 들어가는 확률과 비슷할 정도다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20211026.22021004755",
+            "search_query": "엘리베이터 추락",
+            "terminate": false,
+            "text": "그렇지 않아. 엘리베이터에는 다중 안전장치가 설치되어 있어. 통계적으로 엘리베이터 추락은 낙타가 바늘구멍을 통과하는 것과 비슷한 정도의 확률이야.",
+            "turn_id": "BK22004944-7",
+            "utterance_id": "BK22004944.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 말을 들으니까 안심이다. 하지만 어쩌다 한 번이라도 사고가 일어날 수 있잖아? 엘리베이터가 땅에 떨어지기 전에 점프를 하면 되지 않을까?",
+            "turn_id": "BK22004944-8",
+            "utterance_id": "BK22004944.15"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "지면에 닿는 순간을 알고 점프를 하는 것도 불가능하지만 충격을 줄일 수는 없습니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "디스커버리채널과 미국 매사추세츠공과대(MIT), 비즈니스 인사이더, 영국의 더 선 등 각종 매체가 보도한 결과를 요약해보면, 가장 현명한 방법은 엘리베이터 바닥에 등을 대고 큰 대(大)자로 눕거나 납작 엎드리는 것입니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 양팔을 손잡이가 걸치고 두 다리로 바닥을 받치고 기마자세로 버티는 것도 생존 확률을 높여준다고 합니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2018081615110282352",
+            "search_query": "엘리베이터 멈췄을때",
+            "terminate": false,
+            "text": "엘리베이터가 추락할 때, 땅에 닿기 전에 점프를 하는 것은 불가능하고 그렇다고 충격을 줄일 수 있는 것도 아니야. 디스커버리채널, 미국 매사추세츠공과대, 비즈니스 인사이더, 영국의 더 선 등 각종 매체가 언급했던 내용을 요약하면, 그럴 때 가장 적절한 방법은 엘리베이터 바닥에 등을 대고 큰 대자로 눕는 거야. 그리고 납작 엎드리거나, 양팔을 손잡이에 걸친 채 두 다리를 바닥에 붙이고 기마자세로 버티는 것 역시 생존 확률을 높여줘.",
+            "turn_id": "BK22004944-8",
+            "utterance_id": "BK22004944.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기억해 두었다가 혹시 모를 상황에 대비해야겠네. 오늘 네 덕분에 엘리베이터의 역사를 비롯한 많은 것을 알게 되었어.",
+            "turn_id": "BK22004944-9",
+            "utterance_id": "BK22004944.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었다니 내가 더 기쁘다. 혹시 엘리베이터에 대해 더 궁금한 게 있어?",
+            "turn_id": "BK22004944-9",
+            "utterance_id": "BK22004944.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 알려준 정보만으로도 충분해. 혹시 궁금한 게 더 생긴다면 연락해서 물어봐도 괜찮을까?",
+            "turn_id": "BK22004944-10",
+            "utterance_id": "BK22004944.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "당연히 괜찮으니 언제든지 편하게 물어봐 줘. 다음에 또 연락하자.",
+            "turn_id": "BK22004944-10",
+            "utterance_id": "BK22004944.20"
+        }
+    ]
+}

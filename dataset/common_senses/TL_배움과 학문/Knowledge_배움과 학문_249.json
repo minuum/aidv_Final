@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012952",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012952",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계에서 가장 낮은 산은 무엇인가요?",
+            "turn_id": "BK22012952-1",
+            "utterance_id": "BK22012952.1"
+        },
+        {
+            "reference_date": "43280.0",
+            "reference_text": [
+                {
+                    "value": "위키피디아에 따르면 세계에서 가장 낮은 산은 중국 산둥성에 있는 정산靜山, jing mountain이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 산은 높이가 고작 60cm밖에 되지 않아 한 걸음으로 정상에 오를 수 있다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://san.chosun.com/news/articleView.html?idxno=11885",
+            "search_query": "세계에서 가장 낮은 산",
+            "terminate": false,
+            "text": "위키피디아에 의하면 중국 산둥성에 있는 정산이 세계에서 가장 낮은 산이라고 합니다. 높이가 한 걸음으로 정상에 오를 수 있는 60cm밖에 되지 않아요.",
+            "turn_id": "BK22012952-1",
+            "utterance_id": "BK22012952.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "60cm밖에 되지 않는 높이를 산이라고 부른다고요? 산의 정의가 무엇인데요?",
+            "turn_id": "BK22012952-2",
+            "utterance_id": "BK22012952.3"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "산(山)은 주위보다 높이 솟아 있는 지형을 말한다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "언덕보다 높고 험준한 곳을 산이라고 부르지만, 높은 정도에 대한 기준은 명확하지 않다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B0",
+            "search_query": "산",
+            "terminate": false,
+            "text": "주위보다 높이 솟아 있는 지형을 산이라고 불러요. 그러나 높이에 대한 기준은 명확하지 않고 언덕보다 높고 험준한 지형을 산이라고 해요.",
+            "turn_id": "BK22012952-2",
+            "utterance_id": "BK22012952.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기준이 정확히 정해지지 않았군요. 그럼 가장 높은 산은 무엇인가요?",
+            "turn_id": "BK22012952-3",
+            "utterance_id": "BK22012952.5"
+        },
+        {
+            "reference_date": "44764.0",
+            "reference_text": [
+                {
+                    "value": "에베레스트산(영어: Mount Everest)은 높이가 해발 8,848.86 m로 지구에서 가장 높은 산이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지각의 이동 때문에 에베레스트산은 일 년에 5cm씩 높아지고 있다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%B2%A0%EB%A0%88%EC%8A%A4%ED%8A%B8%EC%82%B0",
+            "search_query": "에베레스트산",
+            "terminate": false,
+            "text": "세계에서 가장 높은 산은 해발 8,848.86m의 에베레스트산이에요. 지각의 이동으로 매년 5cm씩 높이가 올라가고 있죠.",
+            "turn_id": "BK22012952-3",
+            "utterance_id": "BK22012952.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "높이가 계속 증가하는 것은 신기하네요. 해발 기준이 아닌 순수 높이로도 에베레스트산이 가장 높나요?",
+            "turn_id": "BK22012952-4",
+            "utterance_id": "BK22012952.7"
+        },
+        {
+            "reference_date": "44742.0",
+            "reference_text": [
+                {
+                    "value": "마우나케아산(Mauna Kea)은 하와이섬에 있는 산 중 하나이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마우나케아산의 전체 높이(해저부터)는 10,205m이며, 이 전체 높이는 에베레스트산보다도 훨씬 더 높다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 마우나케아산이 해수면 위로의 높이가 10,205미터라면 대류권을 돌파하여 성층권까지 도달하게 된다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9A%B0%EB%82%98%EC%BC%80%EC%95%84%EC%82%B0",
+            "search_query": "마우나케아산",
+            "terminate": false,
+            "text": "아니에요, 하와이 섬에 있는 마우나케아산이 전체 높이 10,205m로 에베레스트산보다 더 높아요. 마우나케아산의 해수면 위로부터 높이가 10,205m라면 대류권을 넘어 성층권까지 올라가게 되어요.",
+            "turn_id": "BK22012952-4",
+            "utterance_id": "BK22012952.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산의 많은 부분이 바다 밑으로 감추어져 있군요. 한국에서 가장 높은 산은 무엇인가요?",
+            "turn_id": "BK22012952-5",
+            "utterance_id": "BK22012952.9"
+        },
+        {
+            "reference_date": "44779.0",
+            "reference_text": [
+                {
+                    "value": "한라산(漢拏山)은 대한민국 제주도 중앙부에 있는 해발 1,947.06m, 면적 약 1,820km2의 화산으로, 제주도의 면적 대부분을 차지하고 있다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제주도의 중심부에 솟아 있는 사화산으로, 제주특별자치도는 물론 대한민국이 실효 지배하는 지역에서 가장 높은 산이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%9D%BC%EC%82%B0",
+            "search_query": "한라산",
+            "terminate": false,
+            "text": "대한민국 제주도 중앙에 있는 해발 1,947.06m, 면적 약 1,820제곱킬로미터의 한라산이에요. 제주도 면적의 대부분을 차지하고 있는 이 산은 사화산으로 한국에서 가장 높은 산이랍니다.",
+            "turn_id": "BK22012952-5",
+            "utterance_id": "BK22012952.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어릴 적 제주도 가서 등산한 적이 있는데 한국에서 가장 높은 산이었군요. 근데 북한에도 한라산처럼 높은 산이 있나요?",
+            "turn_id": "BK22012952-6",
+            "utterance_id": "BK22012952.11"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "백두산(白頭山)은 조중 국경(조선민주주의인민공화국-중국 국경)에 있는 화산이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "높이는 2,744m(9003ft)로, 한반도에서 가장 높은 산이다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조선민주주의인민공화국은 출입이 비교적 자유롭지 못하기 때문에, 대한민국을 포함한 대부분의 관광객들은 거의 중화인민공화국 영역을 통해 백두산을 오른다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%91%90%EC%82%B0",
+            "search_query": "백두산",
+            "terminate": false,
+            "text": "네, 북한과 중국 국경에 있는 백두산은 2,744m로 한반도에서 가장 높은 화산이에요. 북한의 출입이 자유롭지 못해서 한국을 포함한 관광객 대부분은 중국을 통해서 백두산을 방문해요.",
+            "turn_id": "BK22012952-6",
+            "utterance_id": "BK22012952.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 백두산을 한번 올라가 보고 싶네요. 근데 화산이라고 하셨는데 폭발 가능성은 없나요?",
+            "turn_id": "BK22012952-7",
+            "utterance_id": "BK22012952.13"
+        },
+        {
+            "reference_date": "44584.0",
+            "reference_text": [
+                {
+                    "value": "21일 과학계에 따르면 매 세기(100년)마다 분화했던 백두산은 1925년을 기점으로 화산 활동을 멈췄다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 화산 분출을 촉진하는 마그마방(마그마가 존재하는 공간)이 백두산 천지 하부 약 4㎞와 15㎞에 존재한다는 사실이 연구를 통해 밝혀지면서 폭발이 임박했다는 분석이 나온다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022012117124278939",
+            "search_query": "백두산 폭발",
+            "terminate": false,
+            "text": "2022년 1월 21일 과학계에 따르면 100년마다 분화했던 백두산이 1925년 이후 화산 활동을 멈췄지만 백두산 천지 아래 약 4km, 15km에 화산 분출을 가속하는 마그마방이 각각 존재한다는 사실이 밝혀지면서 폭발에 가까워졌다는 분석이 나오고 있어요.",
+            "turn_id": "BK22012952-7",
+            "utterance_id": "BK22012952.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백두산이 폭발한다면 한국도 안전하지 못하겠어요. 그럼 화산중에 가장 높은 산은 무엇인가요?",
+            "turn_id": "BK22012952-8",
+            "utterance_id": "BK22012952.15"
+        },
+        {
+            "reference_date": "44672.0",
+            "reference_text": [
+                {
+                    "value": "오호스델살라도산(스페인어: Nevado Ojos del Salado)는 칠레하고 아르헨티나 국경 사이에 위치해 있는 안데스산맥의 높이 6,891m의 화산으로, 화산 중에서 가장 높다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "건조한 기후임에도 산 동쪽 높이 6,390m에는 지름 약 100m의 화산호가 있다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 호수는 지구에서 가장 높은 곳에 위치하는 호수이기도 하다.",
+                    "value_time": "44805.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%98%B8%EC%8A%A4%EB%8D%B8%EC%82%B4%EB%9D%BC%EB%8F%84%EC%82%B0",
+            "search_query": "오호스델살라도산",
+            "terminate": false,
+            "text": "칠레와 아르헨티나 국경 사이에 있는 오호스델살라도산이에요. 안데스산맥에 있는 높이 6,891m의 이 화산은 건조한 기후를 극복하고 동쪽 6,390m 높이에 지름 약 100m의 화산호를 보유하고 있는데 이는 지구에서 가장 높은 곳에 있는 호수예요.",
+            "turn_id": "BK22012952-8",
+            "utterance_id": "BK22012952.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건조한 곳에도 호수가 있을 수 있군요. 이 산은 등산하기 쉽나요?",
+            "turn_id": "BK22012952-9",
+            "utterance_id": "BK22012952.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밧줄을 이용해야 하는 마지막 정상 부근을 제외하고는 대부분 걸어서 올라갈 수 있을 만큼 평탄해요.",
+            "turn_id": "BK22012952-9",
+            "utterance_id": "BK22012952.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 기회가 된다면 올라가 보고 싶어요.",
+            "turn_id": "BK22012952-10",
+            "utterance_id": "BK22012952.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "내년에 저랑 칠레로 가서 한번 등반해 보죠.",
+            "turn_id": "BK22012952-10",
+            "utterance_id": "BK22012952.20"
+        }
+    ]
+}

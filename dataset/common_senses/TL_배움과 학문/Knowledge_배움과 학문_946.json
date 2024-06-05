@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006138",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006138",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 교양 수업을 듣는데 이슬람교 내용이 나왔었어. 자세히 아는 바가 없어서 궁금한 거 몇 가지 물어봐도 돼?",
+            "turn_id": "BK22006138-1",
+            "utterance_id": "BK22006138.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 당연하지. 강의 듣는 데에 언급된 부분이라면 알아두면 훨씬 도움이 될 거야. 어떤 부분이 궁금해서 그래?",
+            "turn_id": "BK22006138-1",
+            "utterance_id": "BK22006138.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이슬람교에도 혹시 여러 종파가 나뉘어져 있어?",
+            "turn_id": "BK22006138-2",
+            "utterance_id": "BK22006138.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "이슬람에는 교리가 상반되는 37여 개의 종파가 있다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전 세계 무슬림의 69% 이상이 수니파에 속한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 외에는 16%의 시아파와 열두이맘파와 다른 파들 그리고 경건주의자수피즘 그리고 오만의 이바디파 알라위파 드루즈파 마흐디파 모로코의 말리키파 동물보호파 왕정이슬람주의 성전주의 바트당 같은 공동체주의파 수도사적인 종파들 등 여러 가지 종파들이 존재한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%8A%AC%EB%9E%8C%EA%B5%90#",
+            "search_query": "이슬람교 분파",
+            "terminate": false,
+            "text": "응, 서로 교리가 상반되는 37여 개의 종파가 있는데, 전체 무슬림의 69% 이상은 수니파라면 그 외 16%는 시아파, 열두이맘파, 경건주의자수피즘, 오만의 이바디파와 알라위파 등 여러 다양한 종파들에 속해.",
+            "turn_id": "BK22006138-2",
+            "utterance_id": "BK22006138.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 종파가 정말 많구나. 수니파와 시아파는 익히 들어봤어. 두 종파의 대립이 오래도록 이어져 온 걸로 알고 있는데, 그 두 종파의 차이는 뭐야?",
+            "turn_id": "BK22006138-3",
+            "utterance_id": "BK22006138.5"
+        },
+        {
+            "reference_date": "2017-07-12",
+            "reference_text": [
+                {
+                    "value": "수니파와 시아파의 가장 큰 차이점은 아들이 없던 무함마드의 계승자를 누구로 보느냐에 따라 다르다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수니파는 역대 칼리파(이슬람 예언자 무함마드를 잇는 계승자, 대리자를 뜻함)를 계승자로 여기는 반면, 시아파는 무함마드의 사촌이자 사위인 알리를 계승자로 여긴다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20170713/1/BBSMSTR_000000010201/view.do",
+            "search_query": "수니파 시아파 차이",
+            "terminate": false,
+            "text": "가장 큰 차이점은 무함마드의 계승자를 누구로 생각하고 따르는가야. 무함마드에겐 아들이 없었거든. 그래서 수니파는 이슬람 예언자인 무함마드를 잇는 계보 쪽 역대 칼리파가 계승자라고 주장하지만, 시아파는 무함마드의 사촌이자 사위인 알리를 계승자로 보지.",
+            "turn_id": "BK22006138-3",
+            "utterance_id": "BK22006138.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 계승자로 어느 쪽을 지지하느냐의 문제네. 어느 쪽이 더 큰 비중을 차지해?",
+            "turn_id": "BK22006138-4",
+            "utterance_id": "BK22006138.7"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "아프가니스탄 전체 인구의 85% 이상을 차지하고 있는 수니파는 시아파를 배교자라 부르며 적대시한다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/448/0000368637?sid=104",
+            "search_query": "수니파 시아파",
+            "terminate": false,
+            "text": "수니파가 아프가니스탄 총 인구의 85% 이상을 차지해서 비중이 더 크지. 수니파는 시아파를 배교자라며 배척해.",
+            "turn_id": "BK22006138-4",
+            "utterance_id": "BK22006138.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "85%면 상당한 비중인데? 중동 국가 중 어느 나라에서 수니파가 우세야?",
+            "turn_id": "BK22006138-5",
+            "utterance_id": "BK22006138.9"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "중동의 아랍국가 중에 인구 1위인 이집트(7천만명)의 인구 절대다수가 수니파이다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%8B%88%ED%8C%8C",
+            "search_query": "수니파",
+            "terminate": false,
+            "text": "음, 이집트의 절대 다수가 수니파라 이집트에서 절대적이라고 볼 수 있어. 이집트 인구 수가 7천만 명 정도인데 중동 아랍국가 중 인구 수로 1위거든.",
+            "turn_id": "BK22006138-5",
+            "utterance_id": "BK22006138.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이집트는 생각도 못 했는데. 다수가 수니파인 국가라면 수니파가 지배하겠지?",
+            "turn_id": "BK22006138-6",
+            "utterance_id": "BK22006138.11"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "시리아에서는 소수 시아파가 다수의 수니파를 지배하고 있으며 바레인에서는 소수의 수니파가 다수의 시아파를 지배하고 있다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%95%84%ED%8C%8C",
+            "search_query": "시아파",
+            "terminate": false,
+            "text": "꼭 그렇지만은 않아. 시리아에선 시아파가 소수인데도 다수의 수니파를 지배하고, 바레인에선 반대로 소수의 수니파가 다수의 시아파를 지배하고 있거든.",
+            "turn_id": "BK22006138-6",
+            "utterance_id": "BK22006138.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 내가 생각이 짧았네. 그러고 보니 기사에서 아슈라라는 행사도 실려 있던데, 그건 무슨 행사야?",
+            "turn_id": "BK22006138-7",
+            "utterance_id": "BK22006138.13"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "아슈라는 주류인 수니파와 소수인 시아파가 나뉜 역사적 사건인 '카르발라의 비극'을 기리는 날이다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/001/0013361859?sid=104",
+            "search_query": "아슈라",
+            "terminate": false,
+            "text": "그건 역사상 있었던 카르발라의 비극을 기리는 행사야. 다수 쪽인 수니파와 소수 쪽인 시아파가 서로 나뉘게 된 비극적인 사건을 이날 기리는 거지.",
+            "turn_id": "BK22006138-7",
+            "utterance_id": "BK22006138.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카르발라의 비극? 두 종파가 갈리게 된 사건이면 뭔가 전투 같은 걸 말하는 건가?",
+            "turn_id": "BK22006138-8",
+            "utterance_id": "BK22006138.15"
+        },
+        {
+            "reference_date": "2017-06-08",
+            "reference_text": [
+                {
+                    "value": "수니파 칼리프 야지드 1세가 이라크의 카르발라에서 시아파 3대 이맘 후세인 이븐 알리와 추종자들을 몰살한 사건이었다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/082/0000713360?sid=102",
+            "search_query": "카르발라의 비극",
+            "terminate": false,
+            "text": "응, 수니파 칼리프 야지드 1세가 시아파 3대 이맘 후세인 이븐 알리와 그를 따르는 이들을 몰살했는데, 이 사건이 일어난 지역이 바로 카르발라거든.",
+            "turn_id": "BK22006138-8",
+            "utterance_id": "BK22006138.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 그런 비극적인 역사가 있을 줄은 몰랐어. 그나저나 강의 때 이슬람교와 기독교가 비슷한 점도 있지만 다른 점도 있다고 들었어. 두 종교의 교리에서 다른 부분이 있는 거야?",
+            "turn_id": "BK22006138-9",
+            "utterance_id": "BK22006138.17"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "기독교와 이슬람교의 가장 커다란 차이점 중의 하나가 ‘대속(代贖) 사상’이다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이슬람교에서는 예수가 십자가에 못 박혀 죽음으로써 인류의 죄를 대신 씻어 구원했다는 대속의 개념이 존재하지 않는다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이슬람교는 아담이 용서받았기에 그의 자손에게 원죄란 있을 수 없다고 한다.",
+                    "value_time": "2022-10-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/opinion/specialist_column/2022/05/31/QPA7GZSAIBBMZJPNOX3EZOYE2U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "이슬람교 기독교 차이",
+            "terminate": false,
+            "text": "응, 기독교와 이슬람교의 가장 큰 차이점을 들자면 대속 사상의 존재 여부야. 이슬람교에선 기독교와 다르게 예수가 인류의 죄를 대신해서 십자가에 못 박혀 죽음을 통해 인류를 구원했다는 대속의 개념이 없어. 왜냐하면 기독교와 달리 아담이 죄를 용서받았기 때문에 대대로 자손에게 원죄라는 건 있을 수 없다고 보거든.",
+            "turn_id": "BK22006138-9",
+            "utterance_id": "BK22006138.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러니까 아담과 이브의 내용에서 기독교는 원죄가 이어진다고 보고 이슬람교는 용서를 받았으니 대대로 죄가 귀속되는 건 아니라고 보는 거구나.",
+            "turn_id": "BK22006138-10",
+            "utterance_id": "BK22006138.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그 부분에서 두 종교의 가장 큰 차이가 드러나지.",
+            "turn_id": "BK22006138-10",
+            "utterance_id": "BK22006138.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 덕분에 이해했어. 다음 시간에 수업 들을 땐 좀 더 이해하기 수월할 것 같아.",
+            "turn_id": "BK22006138-11",
+            "utterance_id": "BK22006138.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 된 것 같아 다행이네. 언제든 궁금한 거 있으면 물어봐.",
+            "turn_id": "BK22006138-11",
+            "utterance_id": "BK22006138.22"
+        }
+    ]
+}

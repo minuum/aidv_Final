@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004920",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004920",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 학교 수업에서 인간을 편리하게 만든 기계들에 대해 공부하고 있어. 부여받은 과제가 에스컬레이터에 대해 조사해 오는 건데 막막해. 여기에 대해 질문해도 괜찮을까?",
+            "turn_id": "BK22004920-1",
+            "utterance_id": "BK22004920.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너의 질문은 언제든지 환영이야! 에스컬레이터랑 엘리베이터에 대해서 어떤 점이 궁금한 거야?",
+            "turn_id": "BK22004920-1",
+            "utterance_id": "BK22004920.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 질문이 있긴 한데, 우선 에스컬레이터의 정의에 대해서 알고 싶어! 에스컬레이터는 정확히 어떤 것을 지칭하는 거야?",
+            "turn_id": "BK22004920-2",
+            "utterance_id": "BK22004920.3"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "에스컬레이터(영어: escalator, 문화어: 계단승강기) 또는 자동계단(自動階段)은 건물이나 지하도 등에서 층과층 사이에 사람을 태우고 운반하는, 움직이는 계단 형태의 수직 이동수단을 말한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "경사도 30도 이하의 장소에 설치되며, 경사도 12도 이하의 평면형 플랫 에스컬레이터는 무빙워크라고 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%EC%BB%AC%EB%A0%88%EC%9D%B4%ED%84%B0",
+            "search_query": "에스컬레이터",
+            "terminate": false,
+            "text": "에스컬레이터는 다른 말로 자동 계단이라고 하고, 건물과 지하도 등에서 층과 층 사이를 사람을 태우고 운반하는 움직이는 계단 형태의 수직 이동 수단을 뜻해. 경사도 30도 이하의 장소에 설치되며, 경사도 12도 이하의 평면형 플랫 에스컬레이터는 무빙워크라는 다른 이름으로 칭해.",
+            "turn_id": "BK22004920-2",
+            "utterance_id": "BK22004920.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터도 나름 정의가 있구나. 에스컬레이터의 경사도가 12도에서 30도 이하인 줄은 처음 알았어. 그렇다면 무빙워크는 에스컬레이터가 아닌 거야?",
+            "turn_id": "BK22004920-3",
+            "utterance_id": "BK22004920.5"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "무빙 워크웨이(영어: moving walkway, moving sidewalk, moving pavement, autowalk, people-mover, travolator, travelator)는 공항이나 지하도 등에서 쓰이는 컨베이어 벨트 구조의 기계장치로, 경사진 길이나 평면을 천천히 움직이므로 탑승자는 장치 위에 걷거나 서서 이동할 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대한민국에는 환승 역사의 긴 환승통로에 주로 설치되는 추세다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%B9%99%EC%9B%8C%ED%81%AC",
+            "search_query": "무빙워크",
+            "terminate": false,
+            "text": "다른 거야. 무빙워크의 정식 이름은 무빙 워크웨이. 공항, 지하도 등에서 사용되는 컨베이어 벨트 구조의 기계지. 평면 혹은 완만한 경사를 느리게 움직이기 때문에 탑승자는 장치 위에 걷거나 서서 이동이 가능해. 한국의 경우 환승 역사의 긴 환승 통로에 설치되는 경향이 있어.",
+            "turn_id": "BK22004920-3",
+            "utterance_id": "BK22004920.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터와 무빙워크는 약간 다르구나. 그렇다면 에스컬레이터를 최초로 만든 사람은 누구야?",
+            "turn_id": "BK22004920-4",
+            "utterance_id": "BK22004920.7"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "1892년 8월 2일에 제시 라노와 조지 휠러가 프로토타입의 특허를 취득했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1898년 오티스 엘리베이터 회사와 제휴한 찰스 시버거가 이 특허권을 사들여 1900년에 필라델피아의 짐벨 가게에 최초의 에스컬레이터를 설치하였다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EC%8A%A4%EC%BB%AC%EB%A0%88%EC%9D%B4%ED%84%B0",
+            "search_query": "에스컬레이터",
+            "terminate": false,
+            "text": "제시 라노와 조지 휠러야. 이 둘은 1892년 8월 2일에 프로토타입의 특허를 취득하였어. 그리고 오티스 엘리베이터 회사와 제휴한 찰스 시버거가 1898년 이 특허권을 구매하여 1900년 필라델피아의 짐벨 가게에 에스컬레이터를 최초로 설치했지.",
+            "turn_id": "BK22004920-4",
+            "utterance_id": "BK22004920.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제로 에스컬레이터가 설치된 것은 1900년이구나. 그런데 설명해 준 내용 중에 잘 모르는 단어가 있었는데, 프로토타입이 뭐야?",
+            "turn_id": "BK22004920-5",
+            "utterance_id": "BK22004920.9"
+        },
+        {
+            "reference_date": "2022-05-27",
+            "reference_text": [
+                {
+                    "value": "시제품이 나오기 전의 제품의 원형으로 개발 검증과 양산 검증을 거쳐야 시제품이 될 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "프로토타입은 '정보시스템의 미완성 버전 또는 중요한 기능들이 포함되어 있는 시스템의 초기모델'이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프로토타입이라는 낱말은 원초적 형태라는 뜻의 그리스어 낱말 πρωτότυπον (프로토타이폰)에서 왔다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85",
+            "search_query": "프로토 타입",
+            "terminate": false,
+            "text": "프로토타입이란 단어는 원초적 형태라는 뜻의 그리스어 단어 프로토타이폰에서 유래하였어. 이 경우 프로토타입은 정보시스템의 미완성 버전 또는 주요 기능들이 포함된 시스템 초기모델을 지칭해. 즉 시제품 출시 전 상태의 제품 원형이며, 이 단계에서 개발 검증과 양산 검증을 거쳐야만 시제품이 될 수 있어.",
+            "turn_id": "BK22004920-5",
+            "utterance_id": "BK22004920.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제품이 되기 전의 기초 단계를 뜻하는 거구나. 그렇다면 이러한 에스컬레이터는 어떻게 실용화되었어?",
+            "turn_id": "BK22004920-6",
+            "utterance_id": "BK22004920.11"
+        },
+        {
+            "reference_date": "2019-02-21",
+            "reference_text": [
+                {
+                    "value": "그러나 이것이 실용화된 것은 1896년 뉴욕 코니아일랜드의 부두에 설치된 것이 처음이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국의 실업가 ‘레노’라는 사람이 고안해 만들어졌다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "발을 올려놓은 곳은 널빤지, 손잡이 쪽은 고무제품으로 만들었는데 움직이는 계단이라 해서 인기를 끌었다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "백화점에 설치된 것은 1898년 런던의 해로드 백화점이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 이걸 타고 나서 기분이 나빠지거나 정신을 잃는 고객이 간혹 있었는데 이런 사람들에게 정신이 나게끔 브랜디를 한잔씩 마시게 했다는 웃지 못 할 촌극이 벌어지기도 했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.100ssd.co.kr/news/articleView.html?idxno=59567",
+            "search_query": "에스컬레이터의 실용화",
+            "terminate": false,
+            "text": "엘리베이터의 실용화가 이루어진 곳은 1896년의 뉴욕 코니아일랜드의 부두였어. 미국의 실업가 레노가 고안하여서 발을 두는 곳은 널빤지로, 손잡이는 고무로 만들었어. 이것은 움직이는 계단이라 하여 사람들에게 많은 인기를 끌었지. 한편 2년 뒤인 1898년 영국 런던의 해로드 백화점에도 에스컬레이터가 설치되었는데, 당시 이걸 타고서 정신을 잃거나 기분이 나빠지는 고객도 종종 있었고, 이들이 정신을 차릴 수 있도록 브랜디를 마시도록 하는 웃지 못할 일도 있었지.",
+            "turn_id": "BK22004920-6",
+            "utterance_id": "BK22004920.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에 런던으로 여행 갔을 때 해로드 백화점에 갔었는데, 그곳의 엘리베이터에 이런 숨은 이야기가 있었구나! 그런데 부두 다음에 에스컬레이터가 생긴 곳이 백화점이라는 신기한데, 여기에 설치되어야만 했던 특별한 이유가 있는 거야?",
+            "turn_id": "BK22004920-7",
+            "utterance_id": "BK22004920.13"
+        },
+        {
+            "reference_date": "2019-10-15",
+            "reference_text": [
+                {
+                    "value": "당시 엘리베이터는 너무 느려서 사람들이 타기를 싫어했고 바깥풍경이 보이지 않는 좁은 상자 안에 모르는 사람들과 함께 있는 경험은 유쾌하지 않았다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 나온 해결책이 1882년 미국의 ‘제시 레노’가 발명한 에스컬레이터다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "에스컬레이터 덕분에 사람들은 걸을 때 느끼는 변화의 속도로 백화점 내부 풍경을 체험할 수 있게 되었고 자연스럽게 상층부의 가게로 이동하였다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23601802",
+            "search_query": "에스컬레이터 백화점의 탄생",
+            "terminate": false,
+            "text": "사람들을 자연스럽게 다른 층으로 이동시킬 필요가 있었거든. 당시 엘리베이터의 속도는 너무 느렸고, 사람들은 밀폐된 좁은 상자에 모르는 사람들과 머무르길 원치 않았어. 이때 나온 해결책이 미국의 제시 레노가 1882년에 발명한 에스컬레이터였어. 덕분에 사람들은 걸을 때와 비슷한 속도로 백화점 내부를 볼 수 있었고, 자연스럽게 상층부의 가게로도 이동 가능했어.",
+            "turn_id": "BK22004920-7",
+            "utterance_id": "BK22004920.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터 없는 백화점은 상상할 수도 없지. 우리나라는 일제강점기에 백화점이 들어온 것으로 아는데, 그 당시의 백화점도 에스컬레이터가 있었니?",
+            "turn_id": "BK22004920-8",
+            "utterance_id": "BK22004920.15"
+        },
+        {
+            "reference_date": "2021-10-15",
+            "reference_text": [
+                {
+                    "value": "1931년 박흥식은 화신상회를 인수한 후 3층 건물로 재건축해 백화점을 차렸다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "승승장구하던 1935년 1월 화신백화점은 화재로 전소되는 사고를 겪었다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 지하 1층~지상 6층 규모의 건물로 재건해 1937년 11월에 다시 문을 열었다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 건물에는 에스컬레이터 2대와 엘리베이터 4대가 설치됐고, 5층에는 고급 한식당이 있어 나들이 코스로 유명세를 탔다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bizhankook.com/bk/article/22694",
+            "search_query": "한국 최초 백화점 에스컬레이터 설치",
+            "terminate": false,
+            "text": "응. 화신백화점이란 곳에 있었는데, 이 곳은 1931년 박흥식이란 사람이 화신상회를 인수한 후에 3층 건물로 재건축하여 만든 백화점이야. 승승장구하던 이 백화점은 1935년 1월 화재로 전소되었고, 이후 1937년 11월에 지하 1층~지상 6층의 건물 규모로 재개장을 했어. 여기에 에스컬레이터 2대, 엘리베이터 4대가 설치되어 있었고, 5층에 고급 한식당집도 있어서 나들이코스로도 유명했지.",
+            "turn_id": "BK22004920-8",
+            "utterance_id": "BK22004920.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터 2대에 엘리베이터 4대라니, 당시 사람들에게 엄청난 규모로 다가왔을 거 같아. 그런데 화신백화점을 만든 박흥식은 내가 잘 모르는 사람이야. 이 사람에 대해 설명해 줄 수 있니?",
+            "turn_id": "BK22004920-9",
+            "utterance_id": "BK22004920.17"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "박흥식(朴興植, 1903년 8월 6일 ~ 1994년 5월 10일)은 일제 강점기의 대표적인 기업인이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화신백화점 사장으로 잘 알려져 있으며, 제1공화국에서 반민족행위특별조사위원회가 조직되었을 때 첫 번째로 체포된 인물이기도 하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%95%ED%9D%A5%EC%8B%9D_(1903%EB%85%84)",
+            "search_query": "박흥식",
+            "terminate": false,
+            "text": "박흥식은 일제 강점기의 주된 기업인 중 한 명이야. 1903년생이고, 1994년에 사망했어. 방금 설명한 화신백화점 사장으로 잘 알려진 인물이야. 또한 제1공화국의 반민족행위특별조사위원회가 선두로 체포해 간 인물이기도 해.",
+            "turn_id": "BK22004920-9",
+            "utterance_id": "BK22004920.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 오늘 네 덕분에 에스컬레이터에 대한 전반적인 정보뿐만 아니라, 예전부터 한국의 백화점에 에스컬레이터가 있었단 사실도 알게 되었어. 정말 고마워!",
+            "turn_id": "BK22004920-10",
+            "utterance_id": "BK22004920.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "너에게 도움이 되었다니 정말 다행이야. 혹시 나중에라도 궁금한 것이 더 생긴다면 언제든지 물어봐도 괜찮아! 다음에 보자.",
+            "turn_id": "BK22004920-10",
+            "utterance_id": "BK22004920.20"
+        }
+    ]
+}

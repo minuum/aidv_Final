@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005752",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005752",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 기후는 사계절의 구분이 나타나는 것이 특징이잖아. 그런데 이 사계절의 변화는 왜 나타나는 거야?",
+            "turn_id": "BK22005752-1",
+            "utterance_id": "BK22005752.1"
+        },
+        {
+            "reference_date": "2020-06-30",
+            "reference_text": [
+                {
+                    "value": "지구의 자전축이 기울어지지 않은 채로 자전과 공전을 하면 계절 변화는 생기지 않는다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 지구는 자전축이 23.5도 기운 상태로 태양 주변을 공전하기 때문에 계절에 따라 태양빛을 받는 시간과 양이 달라진다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과, 사계절이 나타나는 것이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%95%84%EB%A6%84%EB%8B%B5%EA%B3%A0-%EB%86%80%EB%9D%BC%EC%9A%B4-%EC%A7%80%EA%B5%AC%EC%9D%98-%EC%82%AC%EA%B3%84%EC%A0%88/",
+            "search_query": "사계절이 생기는 이유",
+            "terminate": false,
+            "text": "그건 지구의 자전축이 23.5도 기울어진 상태로 태양 주변을 공전하기 때문에 그래. 만약 자전축이 기울어지지 않고 자전과 공전을 했다면 계절의 변화는 없었겠지만, 기울어진 상태로 돌기 때문에 계절에 따라서 태양 빛을 받는 시간과 양이 달라지기 때문이지. 그래서 사계절이 생기는 거야.",
+            "turn_id": "BK22005752-1",
+            "utterance_id": "BK22005752.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 사계절은 무엇을 기준으로 결정되는 거야? 계절을 나누는 데 어떤 기준이라도 있는 건가?",
+            "turn_id": "BK22005752-2",
+            "utterance_id": "BK22005752.3"
+        },
+        {
+            "reference_date": "2019-05-17",
+            "reference_text": [
+                {
+                    "value": "기상청은 봄의 시작을 “일 평균기온이 5℃ 이상 올라간 후 다시 떨어지지 않는 첫날”로 정의하고 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마찬가지로 여름은 “일 평균기온이 20℃ 이상 올라간 후 다시 떨어지지 않는 첫날”, 가을은 “일 평균기온이 20℃ 미만으로 내려간 후 다시 올라가지 않는 첫날”, 겨울은 “일 평균기온이 5℃ 미만으로 내려간 후 다시 올라가지 않는 첫날”로 규정된다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11940",
+            "search_query": "사계절을 구분하는 기준",
+            "terminate": false,
+            "text": "기상청에서 정해 놓은 봄의 시작은 일 평균 기온이 5도C 이상 올라간 후 다시 떨어지지 않는 첫날이야. 또 여름의 시작은 일 평균기온이 20도C 이상 올라간 후 다시 떨어지지 않는 첫날이고, 가을은 일 평균기온이 20도C미만으로 내려간 후 다시 올라가지 않는 날을 첫날로 규정하고 있지. 마지막으로 겨울의 시작 기준은 일 평균기온이 5도C미만으로 내려간 후 다시 올라가지 않는 첫날이야.",
+            "turn_id": "BK22005752-2",
+            "utterance_id": "BK22005752.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 기준이 있구나. 그런데 예전에 비하면 우리나라의 사계절 구분이 점점 희미해지는 것 같아. 체감하기로는 여름은 엄청 길고 봄이랑 가을은 짧아진 것 같은데 진짜 그렇게 변한 게 맞아?",
+            "turn_id": "BK22005752-3",
+            "utterance_id": "BK22005752.5"
+        },
+        {
+            "reference_date": "2019-05-17",
+            "reference_text": [
+                {
+                    "value": "국립기상과학원이 과거 30년(1912~1941)과 최근 30년(1988~2017)을 비교한 결과 봄과 가을은 각각 88일→85일, 73일→69일로 소폭 감소했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 3~4일의 변화가 “계절이 짧아졌다”는 주장의 근거가 되기는 어렵다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11940",
+            "search_query": "봄과 가을 짧아짐",
+            "terminate": false,
+            "text": "국립기상과학원에서 1912년부터 1941년까지 과거 30년과 1988년부터 2017년까지의 최근 30년을 비교했는데, 봄은 88일에서 85일로, 가을은 73일에서 69일로 조금 감소한 것으로 나타나긴 했어. 하지만 3일에서 4일 정도 줄어든 것을 계절이 짧아졌다는 근거로 보기는 어렵지.",
+            "turn_id": "BK22005752-3",
+            "utterance_id": "BK22005752.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고작 그것밖에 차이가 안 난다고? 체감하기로는 훨씬 줄어든 것 같았는데. 그냥 기분탓인 거야?",
+            "turn_id": "BK22005752-4",
+            "utterance_id": "BK22005752.7"
+        },
+        {
+            "reference_date": "2019-05-17",
+            "reference_text": [
+                {
+                    "value": "이유는 여름이 길어졌기 때문이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국립기상과학원이 과거 30년과 최근 30년의 여름길이를 비교한 결과 98일에서 117일로 19일이 길어졌다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "긴 여름으로 인해 선선한 봄가을 날씨를 즐길 시간이 줄어든 것처럼 느껴지는 셈이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11940",
+            "search_query": "봄 가을 짧아짐 체감",
+            "terminate": false,
+            "text": "그건 여름이 길어져서 그래. 국립기상과학원이 과거 30년과 최근 30년간의 여름 길이를 비교했는데, 예전에 98일이었던 것이 최근에는 117일로 늘어났거든. 여름이 길어지니까 봄과 가을의 선선한 날씨를 즐길 시간이 줄어들었다고 느끼기 쉬운 거지.",
+            "turn_id": "BK22005752-4",
+            "utterance_id": "BK22005752.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 여름이 길어지니까 상대적으로 그렇게 느껴지는 거구나. 그럼 겨울은? 여름이 길어진 만큼 겨울도 짧아졌어?",
+            "turn_id": "BK22005752-5",
+            "utterance_id": "BK22005752.9"
+        },
+        {
+            "reference_date": "2019-05-17",
+            "reference_text": [
+                {
+                    "value": "국립기상과학원에 따르면 같은 기간 겨울은 109일에서 91일로 18일 줄어들었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기간 뿐만이 아니라 겨울철 평균 기온도 상승했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11940",
+            "search_query": "겨울 기간 짧아짐",
+            "terminate": false,
+            "text": "국립기상과학원에서 같은 기간 동안 겨울의 변화도 조사했는데, 겨울은 109일이었던 것이 91일로 줄어든 것으로 조사되었어. 또 기간의 변화뿐 아니라 겨울철 평균 기온도 상승한 것으로 변화되었어.",
+            "turn_id": "BK22005752-5",
+            "utterance_id": "BK22005752.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래? 어쩐지, 최근 들어 겨울이 어릴 때처럼 그렇게 지독하게 춥다는 느낌이 없더라고. 최근 겨울 기온이 영상권인 날이 많아지지 않았어?",
+            "turn_id": "BK22005752-6",
+            "utterance_id": "BK22005752.11"
+        },
+        {
+            "reference_date": "2021-04-29",
+            "reference_text": [
+                {
+                    "value": "최근 들어서는 1월의 소한(小寒)과 대한(大寒)도 영상권의 기온을 보일 정도다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통상 가장 추운 절기로 여겨지던 건 1월 후반의 대한이었지만, 겨울 후반부의 기온 상승이 빨라지면서 1월 초의 소한이 가장 추운 절기가 됐다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24046402#home",
+            "search_query": "최근 겨울 기온",
+            "terminate": false,
+            "text": "맞아, 1월에 있는 소한과 대한도 최근에는 영상권일 정도야. 그동안은 1월 후반에 오는 대한이 가장 추운 절기로 여겨졌지만, 이제는 소한이 제일 추운 절기가 되었지. 1월 후반부에 기온 상승이 빨라졌거든.",
+            "turn_id": "BK22005752-6",
+            "utterance_id": "BK22005752.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래? 그럼 최근 들어와서 어느 정도로 기온이 상승하고 있는 거야?",
+            "turn_id": "BK22005752-7",
+            "utterance_id": "BK22005752.13"
+        },
+        {
+            "reference_date": "2021-04-29",
+            "reference_text": [
+                {
+                    "value": "1912~1940년과 가장 최근의 30년(1991~2020)을 비교한 결과 연평균기온은 1.6도 올랐다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "10년마다 0.2도씩 오른 셈이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24046402#home",
+            "search_query": "최근의 기온상승",
+            "terminate": false,
+            "text": "1912년에서 1940년까지 기간과 1991년에서 2020년의 가장 최근 30년을 비교해보면 평균기온이 1.6도로 올랐어. 따지고 보면 10년마다 0.2도씩 오르는 추세지.",
+            "turn_id": "BK22005752-7",
+            "utterance_id": "BK22005752.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꾸준히 상승한다는 게 너무 걱정스럽다. 아무래도 기후변화로 인한 피해가 인류에게 직접적인 영향을 줄 것 같은데. 혹시 최근에 폭우가 내린 것도 이것과 관련이 있는 건가?",
+            "turn_id": "BK22005752-8",
+            "utterance_id": "BK22005752.15"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "지구온난화로 평균 기온이 1도 상승하면 대기 중 수중기량이 약 7% 증가한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 한꺼번에 많은 비가 쏟아지는 현상들이 늘어날 수밖에 없다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022081015120005607",
+            "search_query": "기온상승으로 인한 폭우",
+            "terminate": false,
+            "text": "맞아. 평균기온이 지구온난화로 인해 1도만 상승해도 대기 중의 수증기가 약 7퍼센트나 증가하게 되거든. 그래서 한 번에 쏟아지는 비의 양이 많아지는 현상도 증가하게 되는 거야.",
+            "turn_id": "BK22005752-8",
+            "utterance_id": "BK22005752.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 앞으로도 이렇게 기온 상승이 이어지면 강수량도 계속 증가하게 되는 거야?",
+            "turn_id": "BK22005752-9",
+            "utterance_id": "BK22005752.17"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "국토연구원이 지난달 발행한 보고서에 따르면 일일 강수량은 단기(2021~2040년)적으로 17.7%, 장기(2081~2100년)적으로는 20.6%까지 늘어날 것으로 추정된다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/269QC9IF7H",
+            "search_query": "기온 상승으로 인한 강수량 증가",
+            "terminate": false,
+            "text": "그렇지. 국토연구원에서 지난달 발행한 보고서를 보면, 2021년부터 2040년까지 단기적으로는 17.7퍼센트 늘 것으로 보고 있어. 또 2081년부터 2100년까지 장기적으로 보면 20.6퍼센트까지 증가할 것으로 예측되지.",
+            "turn_id": "BK22005752-9",
+            "utterance_id": "BK22005752.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 계속 강수량이 늘어나게 되는구나. 벌써 지구온난화로 인한 이상기후 현상들도 종종 발생하고 있잖아. 최근에 듣기로는 꿀벌들이 사라지고 있다던데?",
+            "turn_id": "BK22005752-10",
+            "utterance_id": "BK22005752.19"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "이상기후 현상으로 높은 기온에 일찍 개화하며 전남·경남 지역에서는 꿀벌이 사라지는 기현상도 발생했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남부지방은 이미 아열대기후에 진입했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/269QC9IF7H",
+            "search_query": "지구 온난화 이상기후 현상",
+            "terminate": false,
+            "text": "맞아, 전남과 경남 지역에서는 이상기후 현상으로 인해서 기온이 높아지면서 꽃들이 일찍 피어서 꿀벌이 사라지는 이상 현상이 발생하기도 했어. 남부지방 같은 경우는 벌써 아열대기후로 진입하기도 했고.",
+            "turn_id": "BK22005752-10",
+            "utterance_id": "BK22005752.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "휴, 이상 징후들이 한둘씩 생겨나고 있는 걸 보니 지구온난화가 계절은 물론이고 우리 생활에도 막대한 영향을 미치고 있다고 느껴지는걸.",
+            "turn_id": "BK22005752-11",
+            "utterance_id": "BK22005752.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지. 이런 이상 기후 현상이 계속되는 것을 막기 위해서라도 환경에 많은 관심을 가져야 할 것 같아.",
+            "turn_id": "BK22005752-11",
+            "utterance_id": "BK22005752.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아, 우리 모두 이 문제에 대해서 심각하게 생각해야겠어. 오늘 계절과 기후에 관한 대화 여러모로 유익했어, 그럼 다음에 또 보자.",
+            "turn_id": "BK22005752-12",
+            "utterance_id": "BK22005752.23"
+        }
+    ]
+}

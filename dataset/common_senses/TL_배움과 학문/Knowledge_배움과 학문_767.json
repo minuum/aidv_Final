@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005005",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005005",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "출근하면서 뉴스를 보니 우주로 뭐가 발사됐다고 하더라고요. 뭐가 발사된거고 목표 궤도에 가는데 어느정도 걸려요?",
+            "turn_id": "BK22005005-1",
+            "utterance_id": "BK22005005.1"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "5일 오전(한국시간) 미국 케이프커내버럴 우주군기지에서 발사될 한국의 첫 달 탐사 궤도선 '다누리'(KPLO·Korea Pathfinder Lunar Orbiter)가 발사 후 목표 궤도에 실제로 안착하는 데는 거의 5개월이 걸릴 예정이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355691?rc=N&ntype=RANKING",
+            "search_query": "한국의 첫 달 탐사 궤도선",
+            "terminate": false,
+            "text": "다누리는 한국의 첫 달 탐사 궤도선이에요. 미국 케이프커내버럴 우주기지국에서 발사됐는데 목표 궤도에 안착하는데 5개월이 걸려요.",
+            "turn_id": "BK22005005-1",
+            "utterance_id": "BK22005005.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국의 첫 달 탐사 궤도선이라니, 몰랐던 사실이네요. 근데 원래 달 탐사선은 목표 궤도에 안착하는 데 거의 5개월 정도 걸리는 편인가요?",
+            "turn_id": "BK22005005-2",
+            "utterance_id": "BK22005005.3"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "이는 1969년 새턴 V 로켓에 실려 발사된지 사흘만에 달 궤도에 진입한 아폴로 11호보다 훨씬 오래 걸리는 것이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355691?rc=N&ntype=RANKING",
+            "search_query": "역대 달 궤도 진입 시간",
+            "terminate": false,
+            "text": "1969년 아폴로 11호는 사흘만에 달 궤도에 진입하기도 했어요. 아폴로 11호는 새턴 V 로켓에 실려 발사됐는데, 다누리보다 훨씬 진입 기간이 짧은거죠.",
+            "turn_id": "BK22005005-2",
+            "utterance_id": "BK22005005.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사흘과 5개월 차이는 정말 크네요. 지금까지 달 탐사선을 몇 개국에서 보냈어요?",
+            "turn_id": "BK22005005-3",
+            "utterance_id": "BK22005005.5"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "지금까지 달 궤도선이나 달 착륙선 등 달 탐사선을 보낸 나라는 러시아, 미국, 일본, 유럽, 중국, 인도 등 6개국이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355784?rc=N&ntype=RANKING",
+            "search_query": "달 탐사선을 보낸 나라",
+            "terminate": false,
+            "text": "달 궤도선이나 달 착륙선 등 달 탐사선을 보낸 나라는 6개국이에요. 러시아, 미국, 일본, 유럽, 중국, 인도가 보냈었죠.",
+            "turn_id": "BK22005005-3",
+            "utterance_id": "BK22005005.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라가 성공하면 7개국에 기록되겠네요. 달 탐사 궤도선을 보낸 의의는 뭘까요?",
+            "turn_id": "BK22005005-4",
+            "utterance_id": "BK22005005.7"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "달 탐사 궤도선을 보내는 것은 지구-달의 거리 수준 이상을 탐사하는 '심우주 탐사'의 첫걸음이기도 하다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355784?rc=N&ntype=RANKING",
+            "search_query": "심우주 탐사",
+            "terminate": false,
+            "text": "지구와 달의 거리 수준을 뛰어넘어 심우주 탐사를 하는 첫걸음을 나타낸다고 봐요.",
+            "turn_id": "BK22005005-4",
+            "utterance_id": "BK22005005.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫걸음을 떼는 거니 의미가 있네요. 다누리는 달에 어떤 방식으로 접근하나요?",
+            "turn_id": "BK22005005-5",
+            "utterance_id": "BK22005005.9"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "다누리는 지구에서 약 38만km 떨어진 달로 곧장 가지 않고 일단 태양 쪽의 먼 우주로 가서 최대 156만km까지 거리를 벌렸다가, 나비 모양, 혹은 '∞' 꼴의 궤적을 그리면서 다시 지구 쪽으로 돌아와서 달에 접근할 예정이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355784?rc=N&ntype=RANKING",
+            "search_query": "다누리 달 접근 방법",
+            "terminate": false,
+            "text": "지구에서 달까지의 거리가 약 38만km인데요. 다누리는 달까지 바로 가지 않고 태양 쪽의 먼 우주로 가서 최대 156km까지 거리를 벌렸다가 나비 모양, 혹은 무한대꼴의 궤적을 그리며 다시 지구에 돌아왔다가 또 다시 달에 접근 하는 방식으로 궤도에 진입해요.",
+            "turn_id": "BK22005005-5",
+            "utterance_id": "BK22005005.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무한대꼴의 궤적으로 그리며 접근한다니 정말 신기하네요. 이런 방식을 칭하는 용어가 있나요?",
+            "turn_id": "BK22005005-6",
+            "utterance_id": "BK22005005.11"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "이런 방식으로 달 궤도에 진입하는 방식을 '탄도형 달 전이방식'(BLT·Ballistic Lunar Transfer)이라고 부른다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355691?rc=N&ntype=RANKING",
+            "search_query": "탄도형 달 전이방식",
+            "terminate": false,
+            "text": "최대 156만km까지 거리를 벌렸다가 다시 좁혀서 지구에서 38만 km의 달로 진입하는 이런 방식을 탄도형 달 전이방식으로 불러요.",
+            "turn_id": "BK22005005-6",
+            "utterance_id": "BK22005005.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 방식을 탄도형 달 전이방식으로 부르는군요! 이전에 탄도형 달 전이방식으로 보냈던 달 탐사선이 있나요?",
+            "turn_id": "BK22005005-7",
+            "utterance_id": "BK22005005.13"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "과거 달 탐사선 중 1990년 일본의 '히텐'과 2011년 미국의 '그레일'이 이런 궤적을 그리며 달로 갔다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355691?rc=N&ntype=RANKING",
+            "search_query": "역대 탄도형 달 전이방식 달 탐사선",
+            "terminate": false,
+            "text": "1990년 일본에서 보낸 히텐, 2011년 미국에서 보낸 그레일이 이런 궤적으로 달에 진입했었어요.",
+            "turn_id": "BK22005005-7",
+            "utterance_id": "BK22005005.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성공 사례가 있으니 우리나라에서도 탄도형 달 전이방식으로 성공했으면 좋겠네요. 다누리는 5개월 뒤 쯤 목표궤도에 진입한다고 했는데 12월의 세부 일정은 어떻게 되죠?",
+            "turn_id": "BK22005005-8",
+            "utterance_id": "BK22005005.15"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "다누리는 12월 16일에서야 달 주변을 도는 궤도에 들어서며, 이후 약 보름간 다섯 차례의 감속기동을 거쳐 조금씩 달에 접근한다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해 마지막 날인 12월 31일에 목표 궤도인 달 상공 100㎞에 진입한 뒤 내년부터 임무 수행을 시작하면 비로소 '성공'이 확인된다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0013355784?rc=N&ntype=RANKING",
+            "search_query": "다누리 성공 여부 확인 날짜",
+            "terminate": false,
+            "text": "12월 31일에 달 상공 100km에 진입하고 임무 수행을 시작하는 내년에 성공 여부가 파악이 돼요. 다누리는 12일 16일에 달 주변을 도는 궤도에 들어서고 연말까지 다섯 차례의 감속기동을 거쳐서 달에 조금씩 접근하거든요.",
+            "turn_id": "BK22005005-8",
+            "utterance_id": "BK22005005.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연말에 다누리가 좋은 소식을 들려줬으면 좋겠네요.",
+            "turn_id": "BK22005005-9",
+            "utterance_id": "BK22005005.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리호에 이어 다누리도 성공 여부가 판단되면 올해는 우리나라의 우주탐사 원년으로 기록돼야죠.",
+            "turn_id": "BK22005005-9",
+            "utterance_id": "BK22005005.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 문과여서 이런 분야는 잘 모르는데 달 탐사선에 대해 여러 방면으로 알려주셔서 재미있었어요.",
+            "turn_id": "BK22005005-10",
+            "utterance_id": "BK22005005.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언제든 이런 분야에 대해 알고 싶으면 연락주세요. 저도 오랜만에 봐서 좋았어요. 저는 회의가 있어서 이만 들어가 볼게요.",
+            "turn_id": "BK22005005-10",
+            "utterance_id": "BK22005005.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 이만 가 볼게요.",
+            "turn_id": "BK22005005-11",
+            "utterance_id": "BK22005005.21"
+        }
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001290",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001290",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 취직을 준비하고 있는 중인데 모스 자격증을 가진 지원자를 원하는 곳이 많더라고. 모스 자격증이라는 게 정확히 어떤 거야?",
+            "turn_id": "BK22001290-1",
+            "utterance_id": "BK22001290.1"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "이전 이름은 Microsoft Office User Specialist, 곧 MOUS로도 불렸다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 자격증은 비즈니스 응용의 마이크로소프트 오피스 제품군을 사용하는 자격증이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8_%EC%9D%B8%EC%A6%9D_%ED%94%84%EB%A1%9C%ED%8E%98%EC%85%94%EB%84%90#Microsoft_Office_Specialist_(MOS)",
+            "search_query": "마이크로소프트 인증",
+            "terminate": false,
+            "text": "MOS는 Microsoft Certified Specialist의 약자인데, 마이크로소프트 오피스 제품을 사용할 수 있음을 증명하는 자격증이야. 예전에는 Microsoft Office User Specialist, 즉 MOUS로 불렸지.",
+            "turn_id": "BK22001290-1",
+            "utterance_id": "BK22001290.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마이크로소프트 오피라면 컴퓨터 프로그램 아니야? 정확히 무슨 과목을 시험 보는 거야?",
+            "turn_id": "BK22001290-2",
+            "utterance_id": "BK22001290.3"
+        },
+        {
+            "reference_date": "2021-07-16",
+            "reference_text": [
+                {
+                    "value": "MOS 시험 과목은 △Excel △Word △Power Point △Access △Outlook이 있고, 특정 요건을 갖추면 ‘MOS Master’ 인증서를 받을 수 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20210716102537479310",
+            "search_query": "MOS 시험 과목",
+            "terminate": false,
+            "text": "MOS의 시험 과목에는 엑셀, 워드, 파워포인트, 엑세스, 아웃룩이 있어. 그리고 특정 요건을 충족하면 MOS Master 인증도 받을 수 있지.",
+            "turn_id": "BK22001290-2",
+            "utterance_id": "BK22001290.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "MOS Master를 받을 수 있는 조건이 뭔데?",
+            "turn_id": "BK22001290-3",
+            "utterance_id": "BK22001290.5"
+        },
+        {
+            "reference_date": "2021-07-16",
+            "reference_text": [
+                {
+                    "value": "‘MOS Master 2016’은 엑셀 Expert, 워드 Expert, 파워포인트를 필수 취득하고, 아웃룩과 엑세스 중 한 개를 선택 취득하면 주어진다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/job-joy/article/202107165716d",
+            "search_query": "MOS master 취득 요건",
+            "terminate": false,
+            "text": "MOS Master 2016의 경우에는 엑셀 엑스퍼드, 워드 엑스퍼드, 파워포인트를 모두 취득하고 아웃룩이나 엑세스 중 한 개를 추가로 취득하면 돼.",
+            "turn_id": "BK22001290-3",
+            "utterance_id": "BK22001290.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 MOS Master 뒤에 2016은 왜 붙는 거야?",
+            "turn_id": "BK22001290-4",
+            "utterance_id": "BK22001290.7"
+        },
+        {
+            "reference_date": "2017-07-28",
+            "reference_text": [
+                {
+                    "value": "한편 YBM은 MOS 2016 버전 이외에도 MOS 2010, 2013 버전 시험을 시행 하고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수험자는 본인이 활용하는 MS오피스 프로그램 버전의 MOS시험을 선택해서 응시하면 된다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.betanews.net/article/724521",
+            "search_query": "MOS 2016 버전",
+            "terminate": false,
+            "text": "2016은 MS 오피스 프로그램 버전의 종류야. 2016 외에도 2010, 2013 버전이 있는데, 수험자는 자신이 활용하는 프로그램의 버전이 붙은 시험을 선택해서 응시하면 돼.",
+            "turn_id": "BK22001290-4",
+            "utterance_id": "BK22001290.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 자신이 어떤 버전의 프로그램을 쓰고 있는지를 꼭 확인한 다음에 시험을 선택해야겠네. 그런데 MOS 자격증에도 유효 기간이 있어?",
+            "turn_id": "BK22001290-5",
+            "utterance_id": "BK22001290.9"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "MOS 자격증은 유효 기간과 갱신이 필요없다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160270799890772",
+            "search_query": "MOS 유효 기간",
+            "terminate": false,
+            "text": "아니, MOS 자격증에는 유효 기간이 없어. 그래서 갱신할 필요도 없지.",
+            "turn_id": "BK22001290-5",
+            "utterance_id": "BK22001290.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유효 기간이 없다니 너무 좋다. 어학 시험의 경우에는 맨날 시험을 다시 봐야 하잖아.",
+            "turn_id": "BK22001290-6",
+            "utterance_id": "BK22001290.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, MOS는 그런 면에서 한 번 따면 계속 자격증을 소유할 수 있어서 편리하지.",
+            "turn_id": "BK22001290-6",
+            "utterance_id": "BK22001290.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "취업을 위해 MOS는 따 놓으면 기업에서만 활용할 수 있는 건가?",
+            "turn_id": "BK22001290-7",
+            "utterance_id": "BK22001290.13"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "국내에서는 다양한 공공기관, 기업 등에서 활용되고 있으며 취업 준비생들이 취업을 위해 준비하는 등 다양하게 활용되고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=938883",
+            "search_query": "MOS 활용",
+            "terminate": false,
+            "text": "아니, 국내에서 기업에 입사할 때 외에도 다양한 공공기관에서 활용할 수 있어.",
+            "turn_id": "BK22001290-7",
+            "utterance_id": "BK22001290.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유효 기간도 없는데 다양한 곳에서도 활용할 수 있다니, 이번에 따놔야겠다. 그런데 MOS는 시험 시간이 얼마나 돼?",
+            "turn_id": "BK22001290-8",
+            "utterance_id": "BK22001290.15"
+        },
+        {
+            "reference_date": "2019-12-30",
+            "reference_text": [
+                {
+                    "value": "과목당 15~40문제로 구성되어 있고 Core(일반), Expert(상급) 모두 50분간 시험이 진행된다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "100% 컴퓨터상에서 실기 시험으로 이루어지며 채점 또한 컴퓨터로 진행된다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=1964",
+            "search_query": "MOS 시험 구성",
+            "terminate": false,
+            "text": "일반 시험인 코어와 상급 시험인 엑스퍼드 모두 50분간 시험이 진행 돼. 과목 당 15문제에서 40문제로 구성되어 있고, 100퍼센트 컴퓨터로 실기 시험이 이뤄지지. 채점 또한 컴퓨터가 해.",
+            "turn_id": "BK22001290-8",
+            "utterance_id": "BK22001290.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 시간이 50분이라니 너무 길지 않아서 좋네. 그럼 시험 비용은 얼마야?",
+            "turn_id": "BK22001290-9",
+            "utterance_id": "BK22001290.17"
+        },
+        {
+            "reference_date": "2020-06-04",
+            "reference_text": [
+                {
+                    "value": "하지만 응시비용은 MOS가 7만9,000원으로 컴퓨터활용능력(필기·실기 합 4만8,800원)보다 비싸다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1Z3WAZAOZM",
+            "search_query": "MOS 비용",
+            "terminate": false,
+            "text": "MOS는 응시료가 7만 9,000원이야. 비슷한 종류의 자격증인 컴퓨터활용능력이 4만 8,800인데 비해 비싼 감이 없지 않아 있지.",
+            "turn_id": "BK22001290-9",
+            "utterance_id": "BK22001290.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터 자격증도 하나만 있는 게 아니었구나. 그러고 보니 컴활이라고 줄여서 부르는 걸 많이 들은 것 같아.",
+            "turn_id": "BK22001290-10",
+            "utterance_id": "BK22001290.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 줄여서 컴활이라고 많이 부르지.",
+            "turn_id": "BK22001290-10",
+            "utterance_id": "BK22001290.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 나는 집에 가서 컴활에 대해서도 한 번 찾아봐야겠다. MOS를 볼 것 같긴 하지만 혹시 모르니까 말이야.",
+            "turn_id": "BK22001290-11",
+            "utterance_id": "BK22001290.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 가서 찾아보다가 또 궁금한 거 있으면 연락하고.",
+            "turn_id": "BK22001290-11",
+            "utterance_id": "BK22001290.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "항상 친절하게 대답해줘서 고마워. 그럼 다음에 또 보자.",
+            "turn_id": "BK22001290-12",
+            "utterance_id": "BK22001290.23"
+        }
+    ]
+}

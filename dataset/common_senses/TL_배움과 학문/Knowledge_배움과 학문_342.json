@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013351",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013351",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 누리호 2차 발사가 성공했잖아요. 실시간 영상으로 봤는데 정말 뜻깊더라고요.",
+            "turn_id": "BK22013351-1",
+            "utterance_id": "BK22013351.1"
+        },
+        {
+            "reference_date": "44733.0",
+            "reference_text": [
+                {
+                    "value": "누리호의 성공적 발사로 대한민국은 세계 7번째로 1톤(t) 이상의 실용적인공위성을 우주 발사체에 실어 자체 기술로 쏘아올린 우주 강국 반열에 오르게됐다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/2022062161857",
+            "search_query": "누리호 2차 발사",
+            "terminate": false,
+            "text": "맞아요, 이번 성공으로 우리나라가 1톤 이상의 실용적 인공위성을 발사체에 실어서 자체 기술로 쏘아올린 7번째 나라가 됐어요.",
+            "turn_id": "BK22013351-1",
+            "utterance_id": "BK22013351.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 역사적인 날인 것 같아요. 그런데 어떤 목적에서 누리호를 발사한 건가요?",
+            "turn_id": "BK22013351-2",
+            "utterance_id": "BK22013351.3"
+        },
+        {
+            "reference_date": "44755.0",
+            "reference_text": [
+                {
+                    "value": "위성을 탑재해 띄우는 게 목적이다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총 180㎏인 위성은 성능 검증 위성과 여기 부착된 큐브 위성 4기로 나뉜다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "성능 검증 위성은 매일 지구를 14.6바퀴 돌며, 국내에서 개발한 우주 기기들이 정상 작동하는지 점검한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "큐브 위성은 한반도 지표와 대기를 관측한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=47885",
+            "search_query": "누리호 목적",
+            "terminate": false,
+            "text": "누리호는 성능 검증 위성과 여기에 부착된 큐브 위성을 탑재한 위성을 띄우는 걸 목적으로 발사했어요. 성능 검증 위성은 우리나라에서 만든 우주 기기들이 제대로 작동하고 있는지 확인하고, 큐브 위성은 한반도의 지표를 관측하고 대기의 상태를 파악하는 일을 해요.",
+            "turn_id": "BK22013351-2",
+            "utterance_id": "BK22013351.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리호가 엄청난 역할을 떠안고 발사된 거네요. 큐브 위성에 관해서도 얘기가 많더라고요.",
+            "turn_id": "BK22013351-3",
+            "utterance_id": "BK22013351.5"
+        },
+        {
+            "reference_date": "44733.0",
+            "reference_text": [
+                {
+                    "value": "성능검증위성이 궤도에 안착한지 8일째 되는 날부터 성능검증위성의 안정화를 위해 이틀 간격으로 4대의 큐브위성이 순차적으로 사출된다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내에서 자체 개발한 큐브위성 발사관을 통해 위성에서 위성을 사출하는 건 세계 최초로 시도되는 일이다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.todaykorea.co.kr/news/articleView.html?idxno=299957",
+            "search_query": "세계 최초 큐브위성",
+            "terminate": false,
+            "text": "맞아요, 성능검증위성이 궤도에 자리를 잡은 지 8일째 되는 날부터 2일 간격으로 큐브위성을 순서대로 내보내게 되는데요. 이렇게 위성에서 위성을 내보내는 것은 전 세계에서 처음으로 시도하는 일이에요.",
+            "turn_id": "BK22013351-3",
+            "utterance_id": "BK22013351.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위성에서 위성을 사출하는 첫 시도로 인해서 앞으로 어떤 걸 기대할 수 있는 건가요?",
+            "turn_id": "BK22013351-4",
+            "utterance_id": "BK22013351.7"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "이처럼 우주 궤도 내 위성으로부터 하위 위성이 추가로 분리되는 방식은 세계 최초 도전으로, 앞으로 여러 대의 위성을 원하는 궤도나 시간에 투입할 수 있는 기술을 확보할 수 있을 전망이다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그뿐만 아니라 민간 초소형 위성 시대 전성기를 여는 신호탄으로도 작용한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etnews.com/20220704000176",
+            "search_query": "위성 사출 전망",
+            "terminate": false,
+            "text": "원하는 궤도나 시간대에 여러 대의 위성을 투입할 수 있는 기술을 확보할 수 있고, 민간 초소형 위성 시대가 열릴 수 있어요.",
+            "turn_id": "BK22013351-4",
+            "utterance_id": "BK22013351.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 기대되는 부분이네요. 그런데 큐브위성을 제작한 4군데의 대학 중에서 조선대학교가 유일한 지방대라고 적힌 글을 봤는데, 조금 더 얘기해주세요.",
+            "turn_id": "BK22013351-5",
+            "utterance_id": "BK22013351.9"
+        },
+        {
+            "reference_date": "44749.0",
+            "reference_text": [
+                {
+                    "value": "조선대 연구팀은 2019년 9월 과학기술정보통신부의 공모를 통해 지방대 중 유일하게 누리호 큐브 위성 제작 대학으로 최종 선정됐다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선대가 개발한 ‘스텝 큐브 랩-Ⅱ(빛고을 2호)’는 서울대와 카이스트, 연세대 연구팀이 개발한 위성과 함께 지난달 21일 누리호 성능검증 위성에 실려 우주로 날아갔다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구팀은 빛고을 2호 위성을 개발하면서 부품의 50% 이상을 국산화했다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우주 선진국이 판매하는 부품을 이용할 수도 있었지만, 핵심부품 국산화를 통해 우주 기술 자립화를 목표로 했기 때문이다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/people/people-general/article/202207071524001",
+            "search_query": "큐브위성 조선대",
+            "terminate": false,
+            "text": "말씀하신 것처럼 조선대학교는 누리호에 탑재된 큐브 위성을 만든 4개의 대학 중에서 유일한 지방대예요. 조선대학교 연구팀이 개발한 위성은 빛고을 2호 위성인데요. 외국 기술에 의존하지 않고 우리 스스로 일어서는 것을 목표로 잡았기 때문에 빛고을 2호 위성의 핵심적인 부품 절반 이상은 우리나라에서 만든 부품을 사용했어요.",
+            "turn_id": "BK22013351-5",
+            "utterance_id": "BK22013351.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에서 만든 부품을 사용해서 위성을 만든 만큼 의미가 남다른 것 같아요. 그러면 이제 누리호의 2차 발사 다음으로 어떤 계획들을 하고 있나요?",
+            "turn_id": "BK22013351-6",
+            "utterance_id": "BK22013351.11"
+        },
+        {
+            "reference_date": "44754.0",
+            "reference_text": [
+                {
+                    "value": "8월에는 우리가 제작한 달 탐사선 ‘다누리호’도 미국 플로리다에서 달을 향한 4달 반의 긴 장정을 시작한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유인 달 탐사를 목표로 하는 미국 NASA(항공우주국)의 아르테미스 프로젝트에도 참여한다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2031년에는 우리도 달에 착륙선을 보낸다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=21149",
+            "search_query": "다누리호",
+            "terminate": false,
+            "text": "8월에는 우리가 제작한 달 탐사선 다누리호가 미국에서 발사될 예정이고, 나사에서 유인 달 탐사를 목표로 진행하고 있는 프로젝트에도 참여해요. 그리고 2031년에는 우리도 달에 착륙선을 보낼 계획에 있어요.",
+            "turn_id": "BK22013351-6",
+            "utterance_id": "BK22013351.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 이렇게 우주에 관해서 많은 진행들이 이루어지고 있는데 정책적인 면에서는 어떻게 흘러가고 있는지 궁금해요.",
+            "turn_id": "BK22013351-7",
+            "utterance_id": "BK22013351.13"
+        },
+        {
+            "reference_date": "44744.0",
+            "reference_text": [
+                {
+                    "value": "민간 기업의 우주 산업 참여 기회를 넓히기 위한 우주개발진흥법 개정안도 지난 6월 7일 국무회의에서 통과됐다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 법안에는 우주개발 기반 시설 확충과 개방 확대, 우주개발 사업에 계약 방식 도입, 우주 신기술 지정 및 기술이전 촉진 등의 내용이 담겼다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022070114415813843",
+            "search_query": "우주개발진흥법 개정안",
+            "terminate": false,
+            "text": "6월 7일 국무회의에서 우주개발진흥법 개정안이 통과가 되었어요. 우주개발진흥법 개정안에는 우주 개발을 위한 기반 시설을 확충하고 개방하여 확대하며, 우주 개발과 관련한 사업에 관해서는 계약 방식을 적용한다는 내용이 들어있어요. 그리고 우주의 새로운 기술을 정하고 기술을 옮기는 것을 촉진한다는 내용도 포함되어 있어요.",
+            "turn_id": "BK22013351-7",
+            "utterance_id": "BK22013351.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우주산업을 위한 국가적 노력이 이루어지고 있네요. 어쨌든 누리호 1차 발사는 실패였지만, 2차 발사 성공 후 긍정적인 변화가 생기니까 좋네요.",
+            "turn_id": "BK22013351-8",
+            "utterance_id": "BK22013351.15"
+        },
+        {
+            "reference_date": "44733.0",
+            "reference_text": [
+                {
+                    "value": "누리호 발사 성공은 1차 발사의 실패와 2차 발사 때 두 번의 연기 끝에 이룬 성과다. 지난해 10월 1차 발사 당시엔 마지막에 작동하는 3단엔진의 연소시간이 46초 부족해 목표속도(초속 7.5km)가 모자랐고, 실려 있던 모형 위성을 궤도에 올리지 못했다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2차 발사도 순탄치만은 않았다.",
+                    "value_time": "44755.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이달 15일 발사대에 섰던 누리호는 1단 산화제 탱크 센서에서 이상이 발견돼 조립동으로 돌아가 재점검을 받은 바 있다.",
+                    "value_time": "44755.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062113010001421?did=NA",
+            "search_query": "누리호 1차 발사 실패",
+            "terminate": false,
+            "text": "맞아요, 1차 발사 당시 3단 엔진의 연소시간이 부족했다보니 실려있던 위성을 궤도에 올리지 못했어요. 2차 발사하기 전에도 1단 산화제 탱크 센서에 이상이 생겨서 재점검을 받았어요. 우여곡절이 있었지만, 일이 좋은 방향으로 흘러가는 것 같아서 다행이에요.",
+            "turn_id": "BK22013351-8",
+            "utterance_id": "BK22013351.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리호 2차는 순조롭게 잘 진행된 줄 알았는데 재점검을 받았었군요.",
+            "turn_id": "BK22013351-9",
+            "utterance_id": "BK22013351.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그래서 누리호의 2차 발사 성공이 더욱 뭉클하게 다가오더라고요.",
+            "turn_id": "BK22013351-9",
+            "utterance_id": "BK22013351.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네요, 얘기하다보니 시간이 벌써 이렇게 됐네요. 다음에도 만나서 재미있는 얘기 나눠요.",
+            "turn_id": "BK22013351-10",
+            "utterance_id": "BK22013351.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아요, 조심히 들어가시고 연락드릴게요.",
+            "turn_id": "BK22013351-10",
+            "utterance_id": "BK22013351.20"
+        }
+    ]
+}

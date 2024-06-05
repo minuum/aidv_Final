@@ -1,0 +1,377 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007534",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007534",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "빵은 참 든든하고 맛있고 여러모로 좋은 점이 많은 것 같아요. 아주 옛날부터 인류는 빵을 먹었다고 들었던 것 같은데, 인류 최초의 빵은 언제 만들어졌나요?",
+            "turn_id": "BK22007534-1",
+            "utterance_id": "BK22007534.1"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "빵은 오래전부터 만들어진 음식 중 하나이며, 빵의 역사는 신석기 시대까지 거슬러 올라갈 만큼 오래되었다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최초의 빵은 우연으로 만든 것인지 혹은 계획된 실험에 의해서 만들어졌는지는 모르지만 아마도 곡물 낱알 가루를 물과 섞어 만든 반죽을 익혀서 만들었을 것이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 초기의 빵은 전 세계에서 여러 가지 곡물들을 사용하여 토르티야, 난과 같은 형태로 만들어졌다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%B5%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "인류 최초 빵",
+            "terminate": false,
+            "text": "빵은 신석기 시대부터 만들어 먹었던 기록이 있을 정도로 오래된 역사를 가지고 있어요. 최초의 빵은 우연으로 만들어진 건지, 계획된 실험으로 만들어졌는지는 아직 모르지만, 곡물 낱알 가루와 물을 섞어 반죽을 만들고 익혔을 것으로 추정해요. 초기의 빵은 전 세계에서 여러 가지 곡물을 이용해 만들었고 토르티야나 난 같은 모양이었어요.",
+            "turn_id": "BK22007534-1",
+            "utterance_id": "BK22007534.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신석기 시대라니 진짜 오래된 음식이네요. 혹시 그 당시 빵을 만들었다는 증거가 발견되기도 했나요?",
+            "turn_id": "BK22007534-2",
+            "utterance_id": "BK22007534.3"
+        },
+        {
+            "reference_date": "2018-07-17",
+            "reference_text": [
+                {
+                    "value": "1만4400여 년 전 살았던 집터 화로 유적에서 숯으로 변한 빵조각들이 다수 발견됐다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "16일 ‘가디언’ 지에 따르면 수 mm 크기의 숯으로 변한 빵 조각들이 발견된 곳은 요르단 북동쪽 블랙 데저트(Black Desert)다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화로를 발견한 덴마크 코펜하겐 대학 연구팀은 방사성연대측정법에 의해 이 화로가 1만4400여 년 전에 사용됐음을 확인했다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/1%EB%A7%8C4400%EB%85%84-%EC%A0%84-%EB%B9%B5-%EC%9C%A0%EC%A0%81-%EB%B0%9C%EA%B5%B4/",
+            "search_query": "신석기시대 빵 유물",
+            "terminate": false,
+            "text": "2018년 7월 16일 가디언지에 실린 내용을 보면 1만4400여 년 전의 집터 화로 유적에서 숯이 돼버린 빵조각들이 여러 개 발견되었어요. 이 유적이 발견된 곳은 요르단 북동쪽 블랙 데저트인데요, 화로를 발견한건 덴마크 코펜하겐 대학 연구팀이었죠. 연구팀은 방사성연대측정법을 통해 이 화로가 1만 4400여 년 전에 쓰였음을 확인했어요.",
+            "turn_id": "BK22007534-2",
+            "utterance_id": "BK22007534.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가늠도 하기 어려울 정도의 옛날이네요. 그때에도 빵을 만들어 먹었다니 정말 신기해요. 그 당시에는 빵을 발효해서 만들지는 않았을 것 같은데, 발효 빵은 언제부터 시작됐을까요?",
+            "turn_id": "BK22007534-3",
+            "utterance_id": "BK22007534.5"
+        },
+        {
+            "reference_date": "2018-09-28",
+            "reference_text": [
+                {
+                    "value": "최초의 발효 빵은 고대 이집트지역에서 나타났다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 이집트의 한 소년이 빵을 굽고 남은 반죽을 그대로 두었는데 이것이 공기 중의 효모균에 의해 자연 발효되어 부풀어 올랐다고 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 계기로 이집트에서는 빵 만드는 방법과 효모배양법이 발전하게 됐다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0924012182",
+            "search_query": "최초의 발효빵",
+            "terminate": false,
+            "text": "최초의 발효 빵은 우연한 기회에 고대 이집트 지역에서 만들어졌어요. 당시 이집트에 살던 한 소년이 빵을 굽고 남은 반죽을 그대로 방치했는데, 공기 중에 있던 효모균으로 인해 자연 발효가 되어 부풀어 오른 거에요. 이 일이 계기가 되어 이집트에서 빵 만드는 방법과 효모배양법이 발전하게 돼요.",
+            "turn_id": "BK22007534-3",
+            "utterance_id": "BK22007534.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "위대한 발명은 우연도 따라줘야 하는 것 같아요. 지금은 빵을 전문으로 만드는 제빵사가 있는데, 옛날에도 제빵사라는 직업이 있었나요?",
+            "turn_id": "BK22007534-4",
+            "utterance_id": "BK22007534.7"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "5세기 아테네와 로마에선 빵 가게에서 빵을 살 수 있었으며, 그리스 제빵사들은 BC 2세기 동안 등장하여, 헬레니즘화된 아시아 속주와 로마의 속주에서 활동하였다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%B5%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "제빵사 역사",
+            "terminate": false,
+            "text": "5세기 아테네와 로마에서는 빵 가게에서 빵을 구입할 수 있었어요. 그리스의 제빵사들은 BC 2세기 동안 등장해, 헬레니즘화된 아시아 속주와 로마의 속주에서 활동했었죠.",
+            "turn_id": "BK22007534-4",
+            "utterance_id": "BK22007534.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제빵사도 역사가 깊은 직업이었군요. 저는 빵 중에서 크로와상을 가장 좋아하는데, 크루와상을 처음 만든 건 어느 나라였는지 아시나요?",
+            "turn_id": "BK22007534-5",
+            "utterance_id": "BK22007534.9"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "크루아상은 기록상 13세기 오스트리아의 킵펠(Kipferl)로 거슬러 올라가는데, 이 빵 역시 초승달 모양이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현대적 의미의 크루아상은 1839년 말 오스트리아의 포병 장교였던 아우구스트 창이 프랑스 파리에 개업한 오스트리아 빈 풍의 빵집에서 시작되었다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A3%A8%EC%95%84%EC%83%81",
+            "search_query": "최초의 크로와상",
+            "terminate": false,
+            "text": "기록된 바에 따르면, 크로와상의 기원은 13세기 오스트리아의 킵펠인데, 초승달 모양을 하고 있거든요. 현대의 크로와상은 1839년 말 오스트리아의 포병 장교로 근무했던 아우구스트 창이 프랑스 파리에서 오스트리아 빈 스타일의 빵집을 만들며 시작되었어요.",
+            "turn_id": "BK22007534-5",
+            "utterance_id": "BK22007534.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 제가 사 먹는 크로와상은 역사가 짧은 편이군요. 우리나라는 밥을 주식으로 먹으니까 빵이 들어온 건 비교적 최근일 것 같은데 맞나요?",
+            "turn_id": "BK22007534-6",
+            "utterance_id": "BK22007534.11"
+        },
+        {
+            "reference_date": "2020-10-01",
+            "reference_text": [
+                {
+                    "value": "10월 2일 방송하는 KBS 1TV 교양 프로그램 'KBS 다큐 On'은 대한민국에 정착한 빵의 역사와 발전상을 소개한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제작진에 따르면 우리 역사에 기록된 최초 빵에 대한 기록은 1702년이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경종의 왕위 계승을 알리기 위해 북경을 방문한 사신 이기지는 예수회 성당을 방문했다가 포르투갈 신부로부터 빵을 대접받는다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.wsnews.co.kr/59036",
+            "search_query": "한국 최초의 빵",
+            "terminate": false,
+            "text": "2020년 10월 2일에 방송되었던 KBS 1TV 교양 프로그램인 KBS 다큐멘터리 On에서 우리나라에 정착한 빵의 역사와 발전상을 소개한 적 있는데 여기서 우리나라 최초의 빵에 대한 기록이 나와요. 1702년 경종의 왕위 계승을 알리기 위해 사신 이기지가 북경에 갔는데 그때 예수회 성당을 방문했다가 포르투갈 신부에게 빵을 대접 받았다는 것이 우리나라 최초의 빵 기록이에요.",
+            "turn_id": "BK22007534-6",
+            "utterance_id": "BK22007534.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경종 시대라니 제 생각보다는 엄청 옛날이네요. 그럼 우리나라 최초의 빵집에 대한 기록도 있나요?",
+            "turn_id": "BK22007534-7",
+            "utterance_id": "BK22007534.13"
+        },
+        {
+            "reference_date": "2017-03-10",
+            "reference_text": [
+                {
+                    "value": "전북 군산의 대표 빵집으로 불리는 우리나라 최초의 빵집 ‘이성당’은 1910년 히로세 야스타로라는 일본인이 운영하던 화과점 ‘이즈모야’를 모태로 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1945년 해방 이후 한국인 이석우 씨가 인수해 이성당으로 이름을 바꿨고 지금까지 약 70여 년의 역사를 이어오고 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sobilife.com/news/articleView.html?idxno=11967",
+            "search_query": "한국 최초 제과점",
+            "terminate": false,
+            "text": "우리나라 최초의 빵집은 전북 군산을 대표하는 이성당이에요. 1910년 히로세 야스타로라는 일본인이 영업했던 이즈모야가 시초에요. 1945년 우리나라가 해방되고 한국인 이석우 씨가 인수 했죠. 이후 이성당으로 상호 변경을 하고 지금까지 대략 70년의 역사를 이어가고 있어요.",
+            "turn_id": "BK22007534-7",
+            "utterance_id": "BK22007534.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이성당이 오랜 역사를 가지고 있다는 건 들었는데 최초인 건 오늘 처음 알았네요. 그럼 우리나라에서 제일 오래된 빵집도 이성당인가요?",
+            "turn_id": "BK22007534-8",
+            "utterance_id": "BK22007534.15"
+        },
+        {
+            "reference_date": "2018-12-05",
+            "reference_text": [
+                {
+                    "value": "우리나라에서 가장 오래된 빵집, 군산에 오면 반드시 들러야 할 곳, 카카오내비가 집계한 전국에서 가장 많이 찾은 맛집 분야 1위.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모두 ‘이성당’을 수식하는 말들이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ppss.kr/archives/181233",
+            "search_query": "한국 제일 오래된 제과점",
+            "terminate": false,
+            "text": "네, 맞아요. 우리나라에서 제일 오래된 빵집이자 군산에서 꼭 들려야 하는 곳, 카카오내비가 집계한 전국에서 제일 방문객이 많은 맛집 분야 1위까지 모두 이성당을 가리키는 말이에요.",
+            "turn_id": "BK22007534-8",
+            "utterance_id": "BK22007534.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 태어나기도 전에 문을 열어 아직도 영업 하는 빵집이 있다니 흥미로워요. 혹시 서울에서 제일 오래된 빵집도 아시나요?",
+            "turn_id": "BK22007534-9",
+            "utterance_id": "BK22007534.17"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "태극당(太極堂)은 1946년에 개점한 서울특별시 중구 장충동에 위치한 빵집이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘서울에서 가장 오래된 빵집’으로 불린다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%EA%B7%B9%EB%8B%B9",
+            "search_query": "서울 제일 오래된 제과점",
+            "terminate": false,
+            "text": "1946년 서울 중구 장충동에서 오픈하고 지금까지 운영중인 태극당이에요. 이곳은 서울에서 가장 오래된 빵집으로 불리고 있죠.",
+            "turn_id": "BK22007534-9",
+            "utterance_id": "BK22007534.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울은 항상 시시때때로 바뀌는 느낌이라 이성당만큼 오래된 빵집은 없을 줄 알았는데 역사가 무척 깊네요. 요즘 일상이 조금 무료했는데 흥미로운 부분이 생겼으니 빵집 탐방이라도 좀 다녀봐야겠어요.",
+            "turn_id": "BK22007534-10",
+            "utterance_id": "BK22007534.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "우리나라는 주식이 밥이다 보니 빵은 비교적 역사가 짧지만 짧은 사이에 큰 발전을 이뤘기 때문에 맛을 비교해보며 여행하는 것도 재미있을 거에요. 다녀오시면 어땠는지 꼭 말씀해주세요. 그럼 다음에 또 만나요.",
+            "turn_id": "BK22007534-10",
+            "utterance_id": "BK22007534.20"
+        }
+    ]
+}

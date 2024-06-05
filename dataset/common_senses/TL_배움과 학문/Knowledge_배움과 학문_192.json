@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012315",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012315",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커피를 좋아해서 커피에 관련된 일을 하고 싶은데 바리스타는 어떤 일을 하는 직업인가요?",
+            "turn_id": "BK22012315-1",
+            "utterance_id": "BK22012315.1"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "기본적으로 커피라고 생각하면 떠오르는 직업이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바 안에서 일하는 사람'이라는 뜻을 갖고 있으며, 에스프레소를 추출하고 그 안에 물이나 우유, 시럽 등을 추가하여 음료를 만드는 직업이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "바리스타",
+            "terminate": false,
+            "text": "바리스타는 커피 하면 가장 먼저 생각 나는 직업이죠. 바리스타는 바 안에서 일하는 사람이라는 뜻인데 에스프레소를 추출해서 물, 우유, 시럽 등을 추가해 음료를 만드는 일을 합니다.",
+            "turn_id": "BK22012315-1",
+            "utterance_id": "BK22012315.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문적으로 커피를 제조하는 직업이군요. 바리스타가 되기 위한 자격증도 있나요?",
+            "turn_id": "BK22012315-2",
+            "utterance_id": "BK22012315.3"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "바리스타가 되기 위해 여러 자격증들이 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 바리스타 1, 2급을 들 수 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 앞의 자격증을 포함하여 대부분의 자격증이 민간자격증이라는 것이 아쉬울 따름이다.[31]",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "바리스타 자격증",
+            "terminate": false,
+            "text": "바리스타 관련 자격증은 여러 종류가 있는데 민간에서 운영하는 바리스타 1급, 2급 자격증이 대표적이에요. 바리스타 자격증은 대부분 민간 자격증으로 발급하고 있어요.",
+            "turn_id": "BK22012315-2",
+            "utterance_id": "BK22012315.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바리스타 말고 로스터도 커피를 다루는 직업이라고 들었는데 로스터는 어떤 일을 하나요?",
+            "turn_id": "BK22012315-3",
+            "utterance_id": "BK22012315.5"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "커피를 볶는 사람'이라는 뜻이며 커피를 추출해 내기 위해 가장 기본이 되는 원두를 만드는 사람이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로스터는 아직 가공되지 않은 커피콩 즉, 생두를 원두로 만들기 위해 거치는 과정 로스팅을 하는 사람이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "로스터",
+            "terminate": false,
+            "text": "로스터는 쉽게 말해 커피를 볶는 사람이에요. 생두라고 부르는 수확한 커피콩을 로스팅해서 커피 추출에 기본이 되는 원두로 만드는 일을 하죠.",
+            "turn_id": "BK22012315-3",
+            "utterance_id": "BK22012315.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커피를 볶기만 하면 되는 직업이라면 전문지식은 필요 없을 것 같은데 로스터가 되기 위해 전문지식을 갖춰야 하나요?",
+            "turn_id": "BK22012315-4",
+            "utterance_id": "BK22012315.7"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "로스터가 되기 위해선 생두의 수확시기, 수분 함량, 조밀도, 종자, 가공방법, 특성 등에 대한 전문지식을 잘 파악하고 있어야 한다.[32]",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "로스터 전문지식",
+            "terminate": false,
+            "text": "네. 로스터가 되기 위해서는 생두에 관한 전문지식이 필요해요. 생두를 언제 수확하는지, 수분 함량은 어떻게 되는지 뿐 아니라 원두별로 특징, 조밀도와 종자, 가공 방법 등에 대해 정확히 파악하고 있어야 해요.",
+            "turn_id": "BK22012315-4",
+            "utterance_id": "BK22012315.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 원두를 다루는 직업으로 블렌더라는 직업도 있던데 이 직업은 어떤 일을 하는지 궁금해요.",
+            "turn_id": "BK22012315-5",
+            "utterance_id": "BK22012315.9"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "커피는 원두의 종류가 다양하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "블렌더란 그 다양한 맛과 특성을 고려해 여러 종류의 원두를 혼합하여 맛을 내는 사람이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 로스팅을 하면서 블렌딩도 같이 하기 때문에 로스터와 블렌더는 같이 일을 하거나 한 사람이 두 가지 일을 하는 경우가 많다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "블렌더",
+            "terminate": false,
+            "text": "원두는 종류가 다양한 만큼 각기 본연의 맛과 특성이 있는데 블렌더는 이를 고려해 여러 종류의 원두를 혼합해서 커피 맛을 내는 직업이에요. 로스터와 블렌더 모두 원두를 다루는 직업이기 때문에 같이 일을 하거나 한 사람이 두 가지 일을 모두 하는 경우가 많아요.",
+            "turn_id": "BK22012315-5",
+            "utterance_id": "BK22012315.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "로스터와 블랜더 두 가지 일을 모두 할 줄 알면 일을 구할 때 더 경쟁력이 있겠네요. 예민한 감각이 필요한 커퍼라는 직업도 있다고 들었는데 어떤 일을 하나요?",
+            "turn_id": "BK22012315-6",
+            "utterance_id": "BK22012315.11"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "커퍼란 커피의 맛과 향, 특성이나 개성을 파악해 내는 사람이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생두의 등급을 매기는 일도 겸하며, 원산지를 구별해 내는 작업도 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 후각이나 미각의 의존도가 높다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "커퍼",
+            "terminate": false,
+            "text": "커피가 가지고 있는 맛과 향, 개성과 특성을 알아내는 사람이에요. 커퍼는 후각과 미각을 사용하여 생두를 평가해서 등급을 내리기도 하고 원산지를 구별하는 일을 하기도 해요.",
+            "turn_id": "BK22012315-6",
+            "utterance_id": "BK22012315.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커퍼가 되려면 감각도 뛰어나야 하겠지만 많은 훈련이 필요할 것 같네요. 커퍼가 하는 일뿐만 아니라 커피의 로스팅까지 총괄하는 직업도 있다고 하던데 어떤 건지 알 수 있을까요?",
+            "turn_id": "BK22012315-7",
+            "utterance_id": "BK22012315.13"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "생두부터 로스팅이 끝난 원두까지의 전반적인 일을 총괄하는 직업군이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "커퍼가 필요로 하는 등급을 매기거나 원산지를 구별하는 작업도 겸하며 생두부터 원두까지의 전체적인 등급을 매기는 사람이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "큐그레이더",
+            "terminate": false,
+            "text": "큐 그레이더는 생두부터 로스팅을 거친 원두가 되기까지의 과정을 총괄하고 커피의 등급을 매기는 일을 해요. 생두의 등급을 매기거나 원산지를 구별하는 커퍼의 일도 겸하는 직업이죠.",
+            "turn_id": "BK22012315-7",
+            "utterance_id": "BK22012315.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커피가 되기까지의 전반적인 과정을 총괄하는 직업이라서 큐그레이더가 될 수 있는 조건이 쉽지 않을 것 같은데 어떤가요?",
+            "turn_id": "BK22012315-8",
+            "utterance_id": "BK22012315.15"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "가장 포괄적으로 일하는 직업이니 만큼 자격조건이 까다로우며, 미국스페셜티커피협회의 커피품질연구소(CQI: Coffee Quality Institute)에서 내는 아주 까다로운 시험을 거쳐야 자격증을 받을 수 있다.[33]",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC",
+            "search_query": "큐그레이더 자격증",
+            "terminate": false,
+            "text": "맞아요, 포괄적인 일을 담당하는 직업이다 보니 큐그레이더가 되는 과정이 쉽지는 않아요. 미국 스페셜티커피협회의 커피 품질연구소인 CQI라는 단체에서 공인하는 시험을 통과해야 큐그레이더 자격이 주어집니다.",
+            "turn_id": "BK22012315-8",
+            "utterance_id": "BK22012315.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 커피 관련 색다른 직업에 도전해 보고 싶어서 알아보니 커피머신 관리사라는 직업도 있더라고요. 어떤 일을 하는 직업인지 알 수 있을까요?",
+            "turn_id": "BK22012315-9",
+            "utterance_id": "BK22012315.17"
+        },
+        {
+            "reference_date": "2019-01-23",
+            "reference_text": [
+                {
+                    "value": "커피머신관리사란 카페 매장에서 발생할 수 있는 커피머신 고장 상황에 대해 적절히 대처하고 커피머신 분해 및 조립을 수행할 수 있는 전문 엔지니어다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아직은 다소 생소하지만 카페 운영에 꼭 필요해 전망이 밝은 분야로 꼽힌다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nspna.com/news/?mode=view&newsid=334232",
+            "search_query": "커피머신 관리사",
+            "terminate": false,
+            "text": "커피머신 관리사는 커피 머신 분해와 조립을 할 수 있는 전문 엔지니어인데 커피를 판매하는 매장에서 커피머신에 문제가 발생할 경우 수리를 해주는 직업이에요. 대중적으로 덜 알려진 직업이지만 카페 운영에 꼭 필요한 직업이라 전망이 밝은 분야로 평가받고 있어요.",
+            "turn_id": "BK22012315-9",
+            "utterance_id": "BK22012315.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "커피 관련 직업은 맛에 관련된 일들만 있는 줄 알았는데 커피머신을 전문적으로 관리해주는 직업도 있네요. 기계 쪽 분야에도 관심이 많은데 커피머신 관리사 쪽으로 진로를 알아봐야겠어요.",
+            "turn_id": "BK22012315-10",
+            "utterance_id": "BK22012315.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이네요. 커피도 좋아하고 기계에도 흥미가 있으시면 커피머신 관리사가 적성에 잘 맞으실 것 같아요.",
+            "turn_id": "BK22012315-10",
+            "utterance_id": "BK22012315.20"
+        }
+    ]
+}

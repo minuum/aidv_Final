@@ -1,0 +1,392 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004332",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004332",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 얼마 전에 햄스터를 키우기 시작했다고 사진을 보내왔어. 몸에 회색 줄무늬가 있는 게 너무 귀엽더라고.",
+            "turn_id": "BK22004332-1",
+            "utterance_id": "BK22004332.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말? 햄스터는 내가 가장 좋아하는 동물인데, 정말 귀여웠겠다.",
+            "turn_id": "BK22004332-1",
+            "utterance_id": "BK22004332.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나는 햄스터라고 하면 쥐라고 생각해서 거부감을 느꼈는데 쥐랑 또 다른 느낌이더라고. 근데 쥐나 햄스터나 같은 설치류지? 설치류에는 햄스터랑 쥐 말고 어떤 것들이 있어?",
+            "turn_id": "BK22004332-2",
+            "utterance_id": "BK22004332.3"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "설치류(齧齒類)는 쥐목(설치목)에 속하는 포유류의 총칭이다",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다람쥐·비버·쥐·호저·카피바라·집쥐·생쥐·햄스터·레밍·하늘다람쥐·날다람쥐·프레리도그·기니피그·사향뒤쥐·친칠라를 비롯하여 1,730여 종이 알려져 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%A4%EC%B9%98%EB%A5%98",
+            "search_query": "쥐목",
+            "terminate": false,
+            "text": "설치류에는 쥐와 햄스터뿐만 아니라 다람쥐, 비버, 호저, 카피바라, 날다람쥐, 친칠라 등 1730종이 알려져 있어. 설치류는 쥐목, 즉, 설치목에 속하는 포유류를 통틀어 말하는 단어야.",
+            "turn_id": "BK22004332-2",
+            "utterance_id": "BK22004332.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설치류엔 다양한 종류의 동물이 있네. 그런데 비버가 큰 이빨로 가지를 모아 집 짓는 동물이 맞지?",
+            "turn_id": "BK22004332-3",
+            "utterance_id": "BK22004332.5"
+        },
+        {
+            "reference_date": "2022-01-16",
+            "reference_text": [
+                {
+                    "value": "주로 하천이나 늪 같이 습기가 많은 지역에 사는 비버의 주특기는 ‘나무 갉기’.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "위아래로 난 앞니는 평생 자라기 때문에 이빨이 닳아 없어질 걱정도 없다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지름 30㎝인 나무도 10분이면 갉아서 쓰러뜨리는 비버는 하천에 나무와 나뭇가지를 잔뜩 엮어 집을 짓고 그 안에 들어가 산다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220116132701648517",
+            "search_query": "비버 이빨",
+            "terminate": false,
+            "text": "맞아. 비버는 나무 갉기를 정말 잘하는데, 그 장점을 통해서 재료를 얻고 집을 지어. 위아래로 앞니가 나 있는데 평생 자라기 때문에 이빨이 닳을 걱정은 안 해도 돼. 지름이 30센티미터인 나무도 금방 갉아서 쓰러뜨릴 수 있을 정도야. 비버는 이렇게 얻은 나무와 나뭇가지를 엮어서 하천이나 늪과 같이 습기가 많은 곳에 보금자리를 만들고 그 안에서 살아.",
+            "turn_id": "BK22004332-3",
+            "utterance_id": "BK22004332.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비버의 앞니가 도드라진 게 참 튼튼해 보이긴 해. 그나저나 비버는 얼만큼 자라는 설치류야?",
+            "turn_id": "BK22004332-4",
+            "utterance_id": "BK22004332.7"
+        },
+        {
+            "reference_date": "2022-04-11",
+            "reference_text": [
+                {
+                    "value": "몸길이 60-73cm, 꼬리길이 33-44cm, 몸무게는 20–27 kg 정도이다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸빛깔은 밤색에서 옅은 검은색까지 변화가 많다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "외형은 거대한 땅다람쥐와 비슷하지만 귀는 작고 꼬리는 배의 노와 같이 편평하고 비늘로 덮여 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%B2%84",
+            "search_query": "비버 외형",
+            "terminate": false,
+            "text": "보통의 비버는 몸 길이는 60센티미터에서 73센티미터, 꼬리 길이는 33센티미터에서 44센티미터, 몸무게는 20킬로그램에서 27킬로그램 정도야. 참고로 비버의 털 색깔은 밤색에서 연한 검은색까지 다양한 색을 가지고 있어. 생긴 건 큰 땅다람쥐랑 비슷하지만 귀는 작고 꼬리는 편평하고 비늘로 덮여있어.",
+            "turn_id": "BK22004332-4",
+            "utterance_id": "BK22004332.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이빨이 엄청 강하구나. 그럼 비버 꼬리는 어떻게 생겼어? 털이 없는 꼬리가 내가 알고 있는 동물과는 다르더라고.",
+            "turn_id": "BK22004332-5",
+            "utterance_id": "BK22004332.9"
+        },
+        {
+            "reference_date": "2022-01-16",
+            "reference_text": [
+                {
+                    "value": "몸통과 달리 꼬리에는 털이 없고 넓고 평평한 모양이다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수영할 때 비버의 꼬리는 마치 노와 같이 추진력을 내는 역할을 한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 적이 나타나면 꼬리로 물 표면을 강하게 내리쳐 상대를 위협하고 동료에 위험신호를 보낸다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220116132701648517",
+            "search_query": "비버 꼬리",
+            "terminate": false,
+            "text": "비버의 꼬리는 털이 없고 넓으면서 넓적한 모양이야. 이 꼬리는 마치 배의 노처럼 추진력을 내는 역할을 해. 그리고 적이 나타난다면 꼬리로 물 표면을 강하게 내려쳐서 큰 소리를 내어 상대에게 겁을 주고 동료에게 위험 신호를 보내기도 해.",
+            "turn_id": "BK22004332-5",
+            "utterance_id": "BK22004332.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꼬리가 다양한 역할을 하네. 그나저나 비버와 바닐라 아이스크림과 관련이 있다던데, 이건 무슨 이야기야?",
+            "turn_id": "BK22004332-6",
+            "utterance_id": "BK22004332.11"
+        },
+        {
+            "reference_date": "2019-02-09",
+            "reference_text": [
+                {
+                    "value": "바닐라 아이스크림의 향료로 알려진 '캐스토리움'은 비버의 생식선과 항문 근처에 있는 주머니(낭)에서 나오는 오일 형태의 분비물에서 추출된다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘캐스토리움’을 만들기 위해선 비버의 생식선 주머니를 절단한 뒤 건조시키는 과정을 거쳐야 한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동물 학대 논란이 일면서 최근에는 천연 캐스토리움 대신, 인공 합성 향료를 사용하는 추세다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20190209132945293",
+            "search_query": "비버 바닐라",
+            "terminate": false,
+            "text": "바닐라 아이스크림의 향료인 캐스토리움이는 것이 비버의 생식선과 항문 근처에 있는 낭에서 나오는 분비물에서 추출되거든. 그래서 둘이 관련 있다는 이야기를 들어본 적 있을 거야. 이것에 대해 더 설명하자면 비버의 낭을 절단하고 건조하는 과정을 거쳐 캐스토리움을 만들어. 하지만 이런 방식에 대한 동물 학대 논란이 일면서 최근엔 인공 합성 향료가 캐스토리움을 대체하고 있어.",
+            "turn_id": "BK22004332-6",
+            "utterance_id": "BK22004332.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인공 합성 향료로 대체되어서 정말 다행이다. 나 비버의 댐에 대해서 좀 더 알고 싶은데 알려줄 수 있어?",
+            "turn_id": "BK22004332-7",
+            "utterance_id": "BK22004332.13"
+        },
+        {
+            "reference_date": "2022-04-11",
+            "reference_text": [
+                {
+                    "value": "하천이나 늪에 살며, 하천 가까운 곳에 있는 나무를 갉아 넘어뜨린 다음 쌓인 흙이나 돌을 첨가하여 댐을 만든다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "댐의 높이는 일정하고 댐의 길이는 20-30m가 보통이나 때에 따라서는 650m나 되는 것도 있다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%B2%84",
+            "search_query": "비버 댐",
+            "terminate": false,
+            "text": "비버는 하천이나 늪에 살거든. 그래서 가까운 하천에서 나무를 얻고 흙과 돌을 더해 댐을 만드는 거야. 보통 댐의 높이는 일정하고 길이는 20미터에서 30미터가 돼. 그런데 때에 따라서는 650미터나 되는 긴 댐도 있어.",
+            "turn_id": "BK22004332-7",
+            "utterance_id": "BK22004332.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 그 댐 안에서 비버 가족이 살겠구나. 비버는 가족 구성이 어떻게 돼?",
+            "turn_id": "BK22004332-8",
+            "utterance_id": "BK22004332.15"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "아메리카비버는 암수 1쌍과 새끼들로 가족을 이룬다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아메리카비버는 1년에 1번 번식해 평균 2~4마리를 낳는다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부모가 새끼들을 약 3개월간 양육한다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=26046&groupCode=AB130AD130",
+            "search_query": "비버 번식",
+            "terminate": false,
+            "text": "아메리카 비버의 경우엔 암수 한 쌍과 새끼들로 가족을 구성하고 있어. 1년에 한 번 번식하고 평균적으로 두 마리에서 네 마리 정도 새끼를 낳아. 보통 부모 비버는 새끼 비버를 3개월 정도 양육해.",
+            "turn_id": "BK22004332-8",
+            "utterance_id": "BK22004332.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비버 가족이 댐에 사는 모습을 상상해봤는데 정말 신기하기도 하고 귀여울 것 같아. 그나저나 비버가 댐을 만들어서 땅을 파고 다니면 땅 위가 좀 불안정해지지 않을까?",
+            "turn_id": "BK22004332-9",
+            "utterance_id": "BK22004332.17"
+        },
+        {
+            "reference_date": "2021-12-18",
+            "reference_text": [
+                {
+                    "value": "비버는 하천이나 늪지대에 보금자리를 마련하면서 댐과 수로를 만들어냅니다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 댐은 폭우 때 물을 저장하고, 가뭄 때 물을 흐르게 해서 홍수로 인한 피해를 막아주는 역할을 합니다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2018년 영국 정부는 상습 홍수 피해 지역인 리드브룩에 비버 가족을 방사하기도 했습니다.",
+                    "value_time": "2022-07-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=5351587&ref=A",
+            "search_query": "비버 홍수예방",
+            "terminate": false,
+            "text": "오히려 그 반대야. 비버는 하천이나 늪지대에 집을 만들면서 댐과 수로도 만들고 다니잖아. 비버의 댐은 폭우가 오면 비를 저장하고 가뭄에는 물을 흐르게 해. 그래서 홍수를 막아주기도 하지. 그래서 2018년엔 영국 정부가 홍수가 잦은 지역에 비버 가족을 방사한 적도 있어.",
+            "turn_id": "BK22004332-9",
+            "utterance_id": "BK22004332.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그건 몰랐던 사실이네. 나는 비버가 땅을 뚫고 다니니까 땅이 무너지지 않을까 걱정했거든. 네 덕분에 잘 알게 되었어.",
+            "turn_id": "BK22004332-10",
+            "utterance_id": "BK22004332.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 덕분에 비버에 대해 잘 알게 되었다니 기뻐.",
+            "turn_id": "BK22004332-10",
+            "utterance_id": "BK22004332.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 또 궁금한 것이 생기면 너에게 바로 물어볼게. 그럼 나는 이만 가볼게.",
+            "turn_id": "BK22004332-11",
+            "utterance_id": "BK22004332.21"
+        }
+    ]
+}

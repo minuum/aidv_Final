@@ -1,0 +1,377 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013849",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013849",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국 문화에 아주 관심이 많은 외국인 친구가 있는데, 우리나라의 명절인 추석에 대해 궁금해하더라고요. 근데 저도 알고 있는 게 별로 없다 보니 알려줄 게 없어서 조금 부끄러웠어요. 추석은 매년 날짜가 다른데 정확히 언제 쇠는 건가요?",
+            "turn_id": "BK22013849-1",
+            "utterance_id": "BK22013849.1"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "추석(秋夕) 또는 한가위는 음력 8월 15일에 치르는 행사로 설날과 더불어 한국의 주요 연휴이자 민족 최대의 명절이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가배일(嘉俳日), 한가위, 팔월 대보름 등으로도 부른다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석",
+            "terminate": false,
+            "text": "추석은 음력 8월 15일을 기준으로 날짜를 정해요. 설날과 함께 우리 민족 최대의 명절이자 중요한 연휴기도 하죠. 추석은 다른 말로 가배일이나 한가위 또는 팔월 대보름이라고도 불러요.",
+            "turn_id": "BK22013849-1",
+            "utterance_id": "BK22013849.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한가위만 같아라 할 때 그 한가위 말씀이시죠? 한가위가 무슨 뜻인가요?",
+            "turn_id": "BK22013849-2",
+            "utterance_id": "BK22013849.3"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "또 추석을 우리 고유의 표현으로는 ‘한가위’라고도 부르는데 ‘한가위’의 어원은 먼저 ‘가위’는 음력 8월 또는 가을 한가운데를 의미하며 ‘한’은 어떤 낱말 앞에 붙어서 크다는 뜻을 더해 주는 우리의 고유의 말이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jejutwn.com/news/article.html?no=144686",
+            "search_query": "한가위 뜻",
+            "terminate": false,
+            "text": "한가위는 추석의 우리 고유 표현이에요. 한가위의 어원 중 우선 가위는 음력 8월이나 가을의 한가운데를 뜻하고, 한은 특정 낱말 앞에 붙어 크다는 의미를 더해주는 우리말 표현이에요.",
+            "turn_id": "BK22013849-2",
+            "utterance_id": "BK22013849.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 큰 가을의 한가운데, 뭐 이런 뜻이 되는 거네요. 추석이라는 명절이 생긴 유래도 궁금해요.",
+            "turn_id": "BK22013849-3",
+            "utterance_id": "BK22013849.5"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "추석의 유래는 신라시대로 거슬러 ‘삼국사기’에 의하면 유리왕 때 수도 안의 여인들이 두 패로 나뉘어 7월 15일부터 한 달간 천을 짜는 대결을 펼쳤는데 마지막 날인 8월 15일, 심사를 통해 진 팀은 더 멋진 천을 짠 승자 팀에게 음식을 대접하고 노래를 부르며 즐긴데서 추석이 유래 되었다는 설이 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jndn.com/article.php?aid=1661925874343840042",
+            "search_query": "추석 유래",
+            "terminate": false,
+            "text": "추석의 유래는 신라시대로 거슬러 올라가요. 삼국사기에 따르면 유리왕 때 도성 안의 여인들이 편을 둘로 나눠 7월 15일부터 한 달간 천 짜기 대결을 벌이고 8월 15일인 마지막 날에 심사를 받았어요. 이때, 진 편은 더 훌륭한 천을 짜낸 이긴 편을 위해 음식을 준비하고 다 같이 노래를 부르며 즐긴 데서 추석이 시작되었다는 설이 있죠.",
+            "turn_id": "BK22013849-3",
+            "utterance_id": "BK22013849.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 설이 맞다면 정말 오래된 문화로군요. 그럼 현재 대표적인 추석 풍습에는 간단히 어떤 게 있나요?",
+            "turn_id": "BK22013849-4",
+            "utterance_id": "BK22013849.7"
+        },
+        {
+            "reference_date": "44808.0",
+            "reference_text": [
+                {
+                    "value": "추석에는 한복을 입고 햅쌀로 빚은 송편과 여러 가지 햇과일·토란국 등 음식들을 장만하여 추수를 감사하는 차례를 지낸다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%84%9D",
+            "search_query": "추석",
+            "terminate": false,
+            "text": "추석에는 한복을 차려입고 햅쌀로 만든 송편과 갖가지 햇과일들 그리고 토란국 같은 음식들을 준비해서 한 해의 추수를 감사드리는 차례를 지내죠.",
+            "turn_id": "BK22013849-4",
+            "utterance_id": "BK22013849.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 맞아요! 제 외국인 친구도 송편에 대해 궁금해하던데, 추석에 먹는 송편의 유래는 뭔가요?",
+            "turn_id": "BK22013849-5",
+            "utterance_id": "BK22013849.9"
+        },
+        {
+            "reference_date": "44104.0",
+            "reference_text": [
+                {
+                    "value": "추석 때 햇곡식으로 빚는 명절떡으로, 떡을 찔 때 서로 달라붙는 것을 막기 위해 사이사이에 솔잎을 깔았기 때문에 송편이라는 이름이 붙은 것으로 전해진다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "송편을 언제부터 만들어 먹었는지는 확실하지 않지만, 기록은 지난 17세기부터 보인다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1680년 ‘요록(要錄)’에서 송편은 ‘백미가루로 떡을 만들어 솔잎과 켜켜로 쪄서 물에 씻어낸다’고 하였고, ‘성호사설’에서는 ‘멥쌀, 콩으로 만든다’고 기록돼 있다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sports.khan.co.kr/bizlife/sk_index.html?art_id=202009300700013&sec_id=561901&pt=nv",
+            "search_query": "추석 송편 유래",
+            "terminate": false,
+            "text": "송편은 추석 때 햇곡식으로 만드는 명절 떡이에요. 찔 때 떡끼리 달라붙는 것을 방지하기 위해 솔잎을 사이사이 깔아둔 데서 송편이라는 이름이 붙은 것으로 전해져요. 우리 민족이 언제부터 송편을 먹기 시작했는지는 명확하지 않지만, 문헌 기록에는 17세기부터 나타나 있어요. 1680년 요록을 보면 송편은 백미가루로 떡을 만들어 솔잎과 켜켜로 쪄서 물에 씻어낸다고 한 것을 비롯하여 성호사설에도 멥쌀과 콩으로 만든다는 내용이 적혀있죠.",
+            "turn_id": "BK22013849-5",
+            "utterance_id": "BK22013849.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "솔잎을 넣어서 쪄서 소나무 송자를 따와 송편이라고 하는 거군요. 아까 말씀 중에 토란국을 먹는 것도 추석 풍습이라고 하셨는데 저는 처음 들어봐요. 추석에 토란국을 먹게 된 이유는 뭔가요?",
+            "turn_id": "BK22013849-6",
+            "utterance_id": "BK22013849.11"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "토란국의 유래는 우리 조상들이 ‘흙의 알’이란 뜻을 지닌 토란으로 국을 끓여 한가위 차례상에 올렸다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "차례를 지낸 후엔 가족들끼리 모여 토란국을 나누어 먹었다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먹을 것이 풍족하지 않았던 옛날에는 토란이 쌀만큼 중요한 양식이었다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "무엇보다 토란은 추석 무렵이 제철로, 이때가 영양과 맛이 최고라 더할 나위 없는 최상의 식재료였다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongang.tv/news/articleView.html?idxno=56489",
+            "search_query": "추석 토란국 유래",
+            "terminate": false,
+            "text": "토란은 흙의 알이란 뜻인데 우리 조상들은 이 토란으로 국을 끓여 추석 차례상에 올리고 차례가 끝나면 가족들끼리 나눠 먹었어요. 옛날에는 먹을 것이 부족했기 때문에 토란이 쌀처럼 귀한 양식이기도 했고, 토란의 제철이 추석 무렵이기도 해서 그때 최상의 맛과 영양을 자랑하는 식재료이기도 했고요.",
+            "turn_id": "BK22013849-6",
+            "utterance_id": "BK22013849.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에는 토란이 귀한 음식이었나 봐요. 추석에 지내는 차례에 필요한 차례상은 전통적인 규범이 따로 정해져 있나요?",
+            "turn_id": "BK22013849-7",
+            "utterance_id": "BK22013849.13"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "성균관이 추석을 앞두고 차례상 표준안을 발표했습니다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "송편과 나물, 고기산적, 나박김치, 사과·배·곶감·밤 등 과실과 술 등입니다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "음식 종류는 최대 9개면 충분하고 전 부치느라 고생할 필요 없다는 것이 골자입니다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "애초에 기름진 음식을 제사에 쓰는 것은 예가 아니라고 했습니다.",
+                    "value_time": "44809.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조선의 유학자인 사계 김장생 선생의 '사계전서' 제41권 의례문해에 나오는 내용입니다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mbn.co.kr/news/culture/4837092",
+            "search_query": "추석 차례상",
+            "terminate": false,
+            "text": "안 그래도 최근 성균관에서 올해 추석을 앞두고 차례상 표준안을 내놨는데, 차례상 음식은 송편과 나물, 고기산적, 나박김치를 비롯해 사과와 배, 곶감, 밤 등의 과실과 술 등이라고 발표했죠. 차례상에 올리는 음식의 가짓수는 최대 9개면 족하고 전을 부치느라 애써 고생하지 않아도 된다는 것이 주된 내용인데, 조선시대 유학자였던 사계 김장생 선생의 사계전서 제41권 의례문해에 제사에 기름진 음식을 올리는 것이 애초에 예가 아니라는 내용이 나와 있기 때문이에요.",
+            "turn_id": "BK22013849-7",
+            "utterance_id": "BK22013849.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절마다 어머니가 전 부치느라 고생하셨는데 이제 안 그래도 되겠네요. 그러면 흔히들 차례상 음식 얘기를 할 때 말하는 홍동백서 같은 것도 안 지켜도 되나요?",
+            "turn_id": "BK22013849-8",
+            "utterance_id": "BK22013849.15"
+        },
+        {
+            "reference_date": "44809.0",
+            "reference_text": [
+                {
+                    "value": "홍동백서(紅東白西·붉은 과일은 동쪽에 흰 과일은 서쪽에)'·'조율이시(棗栗梨枾·대추·밤·배·감)' 등 차례 예법으로 여겼던 관행은 옛 문헌에는 없는 표현이라고 설명했습니다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mbn.co.kr/news/culture/4837092",
+            "search_query": "추석 차례상 홍동백서",
+            "terminate": false,
+            "text": "우리가 흔히 차례 예법이라고 알고 있는 붉은 과일은 동쪽에 두고 흰 과일은 서쪽에 두라는 의미의 홍동백서를 비롯하여 차례상에 반드시 올려야 하는 대추, 밤, 배, 감을 이르는 조율이시 같은 관행도 옛 문헌에는 없는 내용이랍니다.",
+            "turn_id": "BK22013849-8",
+            "utterance_id": "BK22013849.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 절차나 규칙보다 차례상을 준비하는 정성과 마음이 가장 중요한 거죠. 참, 추석에는 보통 전통 민속놀이로 강강술래를 떠올리잖아요. 강강술래에 대해서도 궁금해요.",
+            "turn_id": "BK22013849-9",
+            "utterance_id": "BK22013849.17"
+        },
+        {
+            "reference_date": "43007.0",
+            "reference_text": [
+                {
+                    "value": "강강술래는 풍작과 풍요를 기원하는 풍속의 하나다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밝은 보름달이 뜬 밤에 수십 명의 마을 처녀들이 모여서 손을 맞잡아 둥그렇게 원을 만들어 돌며, 한 사람이 ‘강강술래’의 앞부분을 선창(先唱)하면 뒷소리를 하는 여러 사람이 이어받아 노래를 부른다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "손에 손잡고 도는 강강술래는 전라남도 해안 지역에서 전해져 내려오던 민속놀이로 우리 고유의 정서와 말과 리듬이 잘 담겨있는 무형 문화유산이다.",
+                    "value_time": "44809.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?mod=news&act=articleView&idxno=1197601",
+            "search_query": "추석 강강술래 유래",
+            "terminate": false,
+            "text": "강강술래는 보름달이 밝게 뜬 밤에 마을 처녀들 수십 명이 모여 손을 맞잡고 둥근 원을 만든 후, 한 사람이 앞부분을 먼저 부르고 여러 명이 뒷소리를 이어받아 부르면서 돌며 노래하는 놀이인데, 강강술래는 전라남도 해안 지역에서 전해지던 민속놀이로 풍작과 풍요를 기원하는 풍속의 하나예요. 우리 민족의 정서와 말, 그리고 가락이 담겨있는 무형 문화유산이기도 하고요.",
+            "turn_id": "BK22013849-9",
+            "utterance_id": "BK22013849.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "명절에 여럿이 모여 추석의 보름달 밤의 여흥을 즐기기에 알 맞춤인 것 같네요. 덕분에 외국인 친구에게 추석에 대해 이것저것 잘 알려줄 수 있을 것 같아요.",
+            "turn_id": "BK22013849-10",
+            "utterance_id": "BK22013849.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "한국 문화에 관심이 많은 외국인들에게 우리 전통 명절을 널리 알리는 계기가 되기를 바라요.",
+            "turn_id": "BK22013849-10",
+            "utterance_id": "BK22013849.20"
+        }
+    ]
+}

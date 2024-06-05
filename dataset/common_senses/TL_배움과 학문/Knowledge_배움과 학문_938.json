@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006062",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006062",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장 보러 갔는데 씨 없는 수박을 팔길래 사 왔어. 잘라보니까 정말 씨가 없더라고.",
+            "turn_id": "BK22006062-1",
+            "utterance_id": "BK22006062.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "씨 없는 수박이 있는 건 알았지만 사 먹어 본 적은 없는데, 맛이 어때?",
+            "turn_id": "BK22006062-1",
+            "utterance_id": "BK22006062.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맛도 일반 수박이랑 다를 게 없이 정말 맛있어. 수박을 먹으면서 씨를 발라먹는 게 귀찮았는데, 이런 수박은 누가 개량한 걸까?",
+            "turn_id": "BK22006062-2",
+            "utterance_id": "BK22006062.3"
+        },
+        {
+            "reference_date": "2016-10-11",
+            "reference_text": [
+                {
+                    "value": "수박' 하면 떠오르는 사람을 물어보면 열에 아홉 '우장춘 박사'를 떠올린다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "씨없는 수박을 만든 인물로 알려져 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사실 씨없는 수박은 일본인 기하라 히토시 박사가 만든 수박 재배방법이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?2797548",
+            "search_query": "우장춘 박사",
+            "terminate": false,
+            "text": "씨 없는 수박을 만든 인물로 알려져 있기 때문에 수박와 연관지어 떠오르는 사람을 우장춘 박사라고 대답하는 경우가 있어. 그렇지만 사실 씨 없는 수박을 만든 사람은 일본인 기하라 히토시 박사야.",
+            "turn_id": "BK22006062-2",
+            "utterance_id": "BK22006062.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우장춘 박사의 이름은 들어본 적 있는데, 기하라 히토시 박사의 이름은 처음 들어보네. 기하라 히토시 박사가 씨 없는 수박을 만들었구나. 그런데 우장춘 박사는 왜 씨 없는 수박을 만들었다는 오해를 받았을까?",
+            "turn_id": "BK22006062-3",
+            "utterance_id": "BK22006062.5"
+        },
+        {
+            "reference_date": "2017-05-30",
+            "reference_text": [
+                {
+                    "value": "우장춘은 일본에서 기하라와 친밀하게 지내며 그의 연구에 대해서도 잘 알고 있었고, 한국에 온 뒤에는 농민이나 기자들에게 과학적 육종의 위력을 보여주기 위한 시범사례로 씨 없는 수박을 여러 번 활용했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 자세한 내용을 모르는 기자들이 ‘우장춘 박사가 개발한 씨 없는 수박’이라고 보도하는 바람에 씨 없는 수박이 우장춘의 발명인 양 항간에 알려지게 되었던 것이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.khan.co.kr/khnm.html?mode=view&code=116&artid=201705221657531&pt=nv",
+            "search_query": "우장춘 박사 오해",
+            "terminate": false,
+            "text": "우장춘 박사는 일본에서 지내면서 기하라 히토시 박사와 가깝게 지냈어. 그러면서 자연스럽게 기하라 박사의 연구에 대해서도 잘 알게 되었는데, 한국에 오고 나선 농민이나 기자들에겐 과학적인 육종의 대단함을 보여주려고 그 예로 씨 없는 수박을 활용한 적이 있어. 그런데 자세한 내용을 모르는 기자들이 우장춘 박사가 씨 없는 수박을 만들었다고 보도하는 바람에 그런 오해를 받게 된 거야.",
+            "turn_id": "BK22006062-3",
+            "utterance_id": "BK22006062.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 그런 오해를 받게 되었구나. 그럼 우장춘 박사와 씨 없는 수박은 아예 관계가 없는 거겠네?",
+            "turn_id": "BK22006062-4",
+            "utterance_id": "BK22006062.7"
+        },
+        {
+            "reference_date": "2018-04-18",
+            "reference_text": [
+                {
+                    "value": "우 박사는 한국농업과학연구소(현재 농촌진흥청 국립원예특작과학원) 초대 소장입니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흔히 우 박사 하면 ‘씨 없는 수박’을 만든 사람으로 알고 있지만 육종학자로서 우 박사의 대표적인 업적은 찰스 다윈의 ‘종의 기원’ 이론을 보완한 ‘종의 합성’ 이론을 만들고 이를 바탕으로 한 배추속(屬) 작물의 유전 연구와 품종 개량입니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기하라 박사가 씨 없는 수박을 만들 수 있었던 것도 사실은 우 박사의 ‘종의 합성 이론’ 덕분이기도 합니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20180418024002&wlog_tag3=naver",
+            "search_query": "우장춘 박사 업적",
+            "terminate": false,
+            "text": "꼭 그렇지만은 않아. 기하라 박사가 씨 없는 수박을 만들 수 있었던 건 우장춘 박사의 종의 합성 이론 덕분이야. 육종학자인 우장춘 박사의 종의 합성 이론은 찰스 다윈의 종의 기원 이론을 보완한 것인데, 이를 바탕으로 배추속 작물의 유전 연구와 품종개량을 한 업적이 있어. 참고로 우장춘 박사는 한국농업과학연구소, 그러니까 현재는 농촌진흥청 국립원예특작과학원이라고 불리는 연구소의 초대 소장이었어.",
+            "turn_id": "BK22006062-4",
+            "utterance_id": "BK22006062.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름만 알고 있었지, 이렇게 엄청난 분인 건 몰랐네. 대단한 육종학자였으니까 한국에서 많은 존경을 받았겠네?",
+            "turn_id": "BK22006062-5",
+            "utterance_id": "BK22006062.9"
+        },
+        {
+            "reference_date": "2020-08-21",
+            "reference_text": [
+                {
+                    "value": "세계적인 육종학자 우장춘 박사, 그러나 그는 을미사변에 가담한 조선인 장교 우범선의 아들이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본에서 태어나 조선에서는 역적의 아들, 일본에서는 조센징으로 불리며 학대와 설움 속에서 자랐다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 귀국이 추진될 당시에도 반대가 있었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1959년 8월 7일, 병상에 누운 그에게 최고의 훈장인 문화포장이 수여되었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "떨리는 손으로 살며시 포장을 쥐고서 “조국이 나를 인정해줘서 고맙습니다”라고 말하며 눈물을 흘렸다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020082010380002915?did=NA",
+            "search_query": "우장춘 박사 문화포장",
+            "terminate": false,
+            "text": "지금은 그렇지만 우장춘 박사가 살아있던 시절엔 그렇지 못했어. 세계적인 육종학자지만 우장춘 박사의 아버지는 을미사변에 가담한 조선인 장교인 우범선이거든. 그래서 조선에서는 역적의 아들로 불렸고, 일본에서 태어났지만 일본에선 조센징이라고 놀림 받으며 학대와 설움 속에서 자랐어. 우장춘 박사의 귀국이 추진될 때도 반대 여론이 있었지만, 1959년 8월 7일에 병상에 누워있던 우장춘 박사에게 최고의 훈장인 문화포장이 수여되었어. 그 포장을 받은 우장춘 박사는 조국이 자신을 인정해줘서 고맙다는 말을 하며 눈물을 흘리는 모습을 보였어.",
+            "turn_id": "BK22006062-5",
+            "utterance_id": "BK22006062.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포장을 받은 건 나라에서 인정을 해줬다는 것인데, 그동안 설움을 받다가 조국의 인정을 받았다니 나 같아도 눈물이 흐를 것 같아. 우장춘 박사가 그만큼 나라를 위해 열심히 일하셨다는 거겠지?",
+            "turn_id": "BK22006062-6",
+            "utterance_id": "BK22006062.11"
+        },
+        {
+            "reference_date": "2022-03-29",
+            "reference_text": [
+                {
+                    "value": "일본은 우장춘을 대마도와도 바꾸지 않겠다고 했다는 설이 돌 정도로 우장춘의 업적과 능력을 인정했지만, 세계 최고수준의 농학자로 성장한 우장춘은 자신의 학문적 업적 쌓기를 포기하고 한국으로 돌아와 한국의 육종학과 농업 발전의 기틀을 다졌다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.agrinet.co.kr/news/articleView.html?idxno=308205",
+            "search_query": "우장춘 박사 농업 발전",
+            "terminate": false,
+            "text": "맞아. 일본은 우장춘 박사를 대마도와도 바꾸지 않겠다고 말했다는 설이 있을 정도로 우장춘 박사의 업적과 능력을 높게 샀어. 하지만 세계 최고 수준의 농학자가 된 우장춘 박사는 학문적인 업적을 쌓기보다는 조국으로 돌아와서 한국의 육종학과 농업 발전의 기반을 다졌어.",
+            "turn_id": "BK22006062-6",
+            "utterance_id": "BK22006062.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 들으면 들을수록 우장춘 박사가 정말 대단하게 느껴져. 아까 얘기 했던 우장춘 박사의 배추속 작물 연구에 대해서 관심이 생기는데, 좀 더 알 수 있을까?",
+            "turn_id": "BK22006062-7",
+            "utterance_id": "BK22006062.13"
+        },
+        {
+            "reference_date": "2019-05-19",
+            "reference_text": [
+                {
+                    "value": "대표적인 연구 업적으로는 배추속 식물의 게놈분석을 시도해 다른 종(種) 간의 교배에 성공한 '종의 합성' 논문이 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 세계적 반향을 불러일으켰으며, 다윈의 이론 중 '종은 자연도태의 결과로 성립된다'는 설을 보충하는 이론이 됐다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 수입에 의존하던 배추와 무의 대량 생산 연구와 바이러스 감염에 취약한 강원도 감자 개량, 제주도 환경에 알맞은 감귤 재배 등 채소 종자 자급과 식량난 해결에 크게 기여했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20190519000005",
+            "search_query": "우장춘 박사 농업 기여",
+            "terminate": false,
+            "text": "우장춘 박사의 대표 연구 업적은 배추속 식물의 게놈을 분석해서 다른 종 간 교배에 성공한 종의 합성 논문이 있어. 이 논문은 세계적 반향을 불러일으켰을 뿐만 아니라 다윈의 이론 중에 종은 자연도태의 결과로 성립된다는 설이 있는데, 이 설을 보충하는 이론이 되었어. 그뿐만 아니라 수입에 의존해왔던 배추와 무의 대량 생산 연구, 바이러스 감염에 약했던 강원도 감자 개량, 제주도 환경에 맞춘 감귤 재배 등 채소 종자의 자급과 식량난 해결에 엄청난 기여를 했어.",
+            "turn_id": "BK22006062-7",
+            "utterance_id": "BK22006062.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우장춘 박사의 업적을 들어보니 종자에 대한 연구 의미를 다시 한번 느끼게 되네. 그나저나 씨 없는 수박은 먹기 편해서 좋겠단 생각은 했는데, 보통 씨가 건강에 좋다고 하니까 성분이 궁금해진다. 알려줄 수 있을까?",
+            "turn_id": "BK22006062-8",
+            "utterance_id": "BK22006062.15"
+        },
+        {
+            "reference_date": "2021-07-09",
+            "reference_text": [
+                {
+                    "value": "오히려 수박씨는 영양이 풍부하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 건강 매체 '프리벤션'에 따르면 수박씨 30mL(소주 컵 반 잔)에 마그네슘이 하루 권장 섭취량의 30%가 들어있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "항산화물질 라이코펜이 풍부하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토마토, 붉은 고추, 당근 등에 든 성분인데 관상동맥질환, 암 등을 예방하고 노화를 지연하는 효과가 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/296/0000050737?sid=103",
+            "search_query": "수박씨 영양",
+            "terminate": false,
+            "text": "수박씨는 영양소가 풍부하게 들어있어. 미국 건강 매체인 프리벤션에 따르면 수박씨 30밀리리터에 들어있는 마그네슘은 하루 권장량의 30퍼센트나 들어 있다고 밝혔어. 그리고 항산화 물질인 라이코펜이 풍부한데, 라이코펜은 수박씨 뿐만 아니라 토마토, 붉은 고추, 당근 등에도 들어있거든. 이 성분은 관상동맥질환과 암 등을 예방할 뿐만 아니라 노화를 지연하는 효과까지 가지고 있어.",
+            "turn_id": "BK22006062-8",
+            "utterance_id": "BK22006062.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수박씨에 영양분이 많이 들어 있구나. 그런데 날로 먹어도 괜찮은 걸까?",
+            "turn_id": "BK22006062-9",
+            "utterance_id": "BK22006062.17"
+        },
+        {
+            "reference_date": "2021-07-09",
+            "reference_text": [
+                {
+                    "value": "수박씨를 날로 먹으면 까만 껍질 때문에 소화가 잘 안 된다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 소화기가 예민한 사람은 수박씨를 너무 많이 먹으면 배에 가스가 차고 더부룩할 수도 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수박씨의 영양분을 제대로 섭취하려면 가공해야 한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "싹을 틔우거나 요리해야 하는데 볶는 게 제일 편하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/296/0000050737?sid=103",
+            "search_query": "수박씨 섭취",
+            "terminate": false,
+            "text": "수박씨를 날로 섭취하게 되면 껍질 때문에 소화가 어려울 수 있어. 소화기가 예민하다면 수박씨를 많이 섭취했을 땐 배에 가스가 차거나 더부룩할 수도 있지. 수박씨의 영양분을 잘 섭취하고 싶다면 싹을 틔우거나 요리하는 것처럼 가공해야 하는데, 그중에서 제일 편한 방법은 수박씨를 볶는 거야.",
+            "turn_id": "BK22006062-9",
+            "utterance_id": "BK22006062.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "씨가 있는 수박을 먹을 땐 씨를 다 버렸는데, 씨를 먹을 경우가 생기면 손질하면서 씨를 따로 모아 볶아봐야겠네. 좋은 정보 알려줘서 정말 고마워. 그럼 나는 이만 남은 수박을 먹으러 가볼게.",
+            "turn_id": "BK22006062-10",
+            "utterance_id": "BK22006062.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래. 수박 맛있게 먹고 다음에 또 유익한 이야기 하자. 오늘 대화 재미있었어.",
+            "turn_id": "BK22006062-10",
+            "utterance_id": "BK22006062.20"
+        }
+    ]
+}

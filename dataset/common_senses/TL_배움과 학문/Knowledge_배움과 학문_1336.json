@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008835",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008835",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스를 보면 종종 펭귄 효과라는 말을 사용하던데, 펭귄 효과가 무슨 효과를 말하는 건지 알아?",
+            "turn_id": "BK22008835-1",
+            "utterance_id": "BK22008835.1"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "펭귄 효과는 펭귄의 습성에서 유래된 말로, 펭귄들은 먹잇감을 구하기 위해 바다에 뛰어들어야 하지만 바다표범과 같은 천적들이 있어 잠시 주저한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 그중 한 마리가 먼저 바다로 뛰어들면 나머지 펭귄들도 그 첫째 펭귄을 따라 바다로 뛰어드는데, 이를 빗대 만들어진 말이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://magazine.hankyung.com/business/article/202205039378b",
+            "search_query": "펭귄 효과",
+            "terminate": false,
+            "text": "펭귄 효과는 실제 펭귄들의 습성에서 나온 말이야. 펭귄들은 바닷속으로 들어가 먹이를 구해야 하는데, 그 속에는 바다표범과 같은 천적들이 살기 때문에 잠시 주춤하게 돼. 그때 무리 중 한 마리가 바닷속으로 먼저 뛰어들면 나머지 펭귄들도 뒤따라 들어가는데, 이러한 습성에서 유래된 용어가 펭귄 효과지.",
+            "turn_id": "BK22008835-1",
+            "utterance_id": "BK22008835.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펭귄 효과가 펭귄의 실제 습성에서 비롯된 말이었구나. 그렇다면 펭귄은 주로 어디서 살아?",
+            "turn_id": "BK22008835-2",
+            "utterance_id": "BK22008835.3"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "모든 펭귄 종의 고향이 남반구이기는 하지만, 통념과 달리, 남극과 같이 추운 기후에서만 서식하지는 않는다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "3종은 열대 지방에 살며, 그 가운데 갈라파고스 제도에 사는 한 종은 먹이를 찾다가 적도를 건너기도 한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%AD%EA%B7%84",
+            "search_query": "펭귄 서식지",
+            "terminate": false,
+            "text": "모든 펭귄 종의 고향은 남반구지만, 그렇다고 알려진 바와 같이 펭귄들이 모두 남극처럼 추운 기후에서만 살지는 않아. 펭귄 중 3종은 열대 지방에 사는데, 그중 갈라파고스 제도에 사는 펭귄들은 먹이를 찾아 적도를 넘어가기도 하지.",
+            "turn_id": "BK22008835-2",
+            "utterance_id": "BK22008835.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "펭귄이 남극 뿐만 아니라 여러 나라에서 서식하고 있구나. 그러면 펭귄의 종류에는 어떤 것들이 있어?",
+            "turn_id": "BK22008835-3",
+            "utterance_id": "BK22008835.5"
+        },
+        {
+            "reference_date": "2015-07-06",
+            "reference_text": [
+                {
+                    "value": "마젤란 펭귄 외에도 황제펭귄, 임금펭귄, 아델리 펭귄, 마카로니펭귄, 쇠푸른펭귄, 노란펭귄, 젠투펭귄 등 펭귄은 총 17~18종이 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01269366609431240&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "펭귄의 종류",
+            "terminate": false,
+            "text": "펭귄은 대략 17종에서 18종 정도가 있는데, 그 중에는 황제펭귄과 마젤란펭귄, 아델리펭귄 등이 있어.",
+            "turn_id": "BK22008835-3",
+            "utterance_id": "BK22008835.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 펭귄의 종류가 다양하네. 18여 종의 펭귄들 중에서 가장 크기가 큰 펭귄은 누구야?",
+            "turn_id": "BK22008835-4",
+            "utterance_id": "BK22008835.7"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "황제펭귄(Aptenodytes forsteri)은 지구상에 생존하는 모든 펭귄들 중에서 가장 키가 크고 체중이 많이 나가는 종이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "암컷과 수컷은 덩치와 깃털 무늬가 비슷하며, 성체는 최고 120센티미터에 몸무게는 23~45킬로그램까지 나간다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%9C%ED%8E%AD%EA%B7%84",
+            "search_query": "황제펭귄",
+            "terminate": false,
+            "text": "지구 상의 모든 펭귄들 중에서 가장 무게가 많이 나가고, 키가 큰 펭귄은 황제펭귄이야. 성체는 최고 120cm까지 크고, 몸무게도 23kg에서 45kg까지 나가지.",
+            "turn_id": "BK22008835-4",
+            "utterance_id": "BK22008835.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 120cm라니, 생각보다 키가 크네? 그렇다면 황제펭귄은 얼마나 오래 살아?",
+            "turn_id": "BK22008835-5",
+            "utterance_id": "BK22008835.9"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "황제펭귄의 수명은 야생에서 보통 20년 정도이지만, 기록에 따르면 일부 개체들은 50년까지 살 수 있다고 한다.",
+                    "value_time": "2022-09-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%A0%9C%ED%8E%AD%EA%B7%84",
+            "search_query": "황제펭귄 수명",
+            "terminate": false,
+            "text": "야생에 사는 황제펭귄의 경우에는 대개 20년 정도 살아. 그러나 몇몇 개체들은 50년까지도 살 수 있는 것으로 기록되어있지.",
+            "turn_id": "BK22008835-5",
+            "utterance_id": "BK22008835.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수명이 보통 20년이라니, 혹한의 서식 환경에서도 수명이 꽤 긴 것 같아. 혹시 펭귄이 주로 무엇을 먹고 사는지도 알고 있어?",
+            "turn_id": "BK22008835-6",
+            "utterance_id": "BK22008835.11"
+        },
+        {
+            "reference_date": "2022-03-25",
+            "reference_text": [
+                {
+                    "value": "남극에 무리 지어 사는 펭귄의 먹이는 크릴새우나 물고기, 오징어 등 바닷속에 살고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 펭귄은 평소 얼음 위에 살지만, 먹고살기 위해서는 반드시 바다에 뛰어들어야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.electimes.com/news/articleView.html?idxno=302425",
+            "search_query": "펭귄 먹이",
+            "terminate": false,
+            "text": "펭귄들은 주로 바닷속에 있는 물고기나 오징어, 크릴새우 등을 먹고 살아. 그래서 평소에는 얼음 위에서 지내다가 먹이를 구할 때 바닷속으로 들어가지.",
+            "turn_id": "BK22008835-6",
+            "utterance_id": "BK22008835.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 크릴새우를 먹는 줄은 몰랐어. 펭귄과 관련된 다큐멘터리를 찾아보니 펭귄들은 항상 우르르 몰려 다니더라고. 펭귄은 무리 생활을 하는 동물이야?",
+            "turn_id": "BK22008835-7",
+            "utterance_id": "BK22008835.13"
+        },
+        {
+            "reference_date": "2019-02-12",
+            "reference_text": [
+                {
+                    "value": "펭귄들은 얼음 위에서 영하 60도의 추위와 눈보라를 이겨내기 위해 무리를 짓고, 다닥다닥 붙어서 안쪽과 바깥쪽이 교대로 돌아가면서 체온 유지를 위해 협력한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ujeil.com/news/articleView.html?idxno=225463",
+            "search_query": "펭귄 무리",
+            "terminate": false,
+            "text": "맞아, 펭귄들은 무리를 짓고 협력하여 영하 60도의 강추위와 눈보라를 견뎌내지. 추울 때 서로 체온을 유지하기 위해 다닥다닥 붙어있는데, 안쪽의 펭귄과 바깥쪽의 펭귄이 서로 위치를 번갈아가며 함께 체온을 유지할 수 있도록 협력하지.",
+            "turn_id": "BK22008835-7",
+            "utterance_id": "BK22008835.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추운 환경에서 생존하기 위해서 무리를 형성하는 거네. 그런데 펭귄도 멸종 위기의 동물이라고 하더라고. 펭귄이 왜 멸종 위기에 놓이게 된 거야?",
+            "turn_id": "BK22008835-8",
+            "utterance_id": "BK22008835.15"
+        },
+        {
+            "reference_date": "2022-04-28",
+            "reference_text": [
+                {
+                    "value": "해빙 위에서 번식하는 펭귄의 경우, 지구온난화의 영향을 얼음이 사라지며 번식지를 잃게 됐는데 그 대표적인 예가 황제펭귄이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "황제펭귄 2만 여쌍은 2016~2018년 3년 연속 번식에 실패해 결국 지난해 미국 어류야생동물관리국(USFWS) 멸종위기종으로 지정되기도 했다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/1040256.html",
+            "search_query": "펭귄 멸종 위기",
+            "terminate": false,
+            "text": "펭귄은 바다의 빙하 위에서 주로 번식을 하는데, 지구온난화로 빙하가 녹으면서 번식지를 잃어가고 있어. 실제로 2016년부터 3년 연속 황제펭귄 2만 여쌍이 번식에 실패한 것으로 확인되었지. 그래서 2021년 미국의 어류야생동물관리국에서는 황제펭귄을 멸종 위기 종으로 지정했어.",
+            "turn_id": "BK22008835-8",
+            "utterance_id": "BK22008835.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 펭귄이 멸종되지 않았으면 좋겠는데. 우리가 펭귄을 보호하는 데 도움되는 방법은 없을까?",
+            "turn_id": "BK22008835-9",
+            "utterance_id": "BK22008835.17"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "영국 옥스퍼드대학교에서 진행하고 있는 펭귄와치(Penguin Watch) 프로젝트는 일반 사람들이 직접 펭귄 모니터링에 참여할 수 있는 기회를 제공하고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 모니터링 및 연구 자료를 토대로 펭귄을 보호할 수 있는 정책을 마련하는 것을 목표로 하고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기후위기, 해양오염, 지나친 어업 활동 등으로 펭귄 개체 수와 번식 시기가 영향을 받는지 여부를 파악하기 위해서는 성체 펭귄, 새끼 펭귄, 알 개수를 파악하는 모니터링 자료가 필요하다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구팀은 바로 이 작업에 시민들의 도움을 요청하고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspenguin.com/news/articleView.html?idxno=11253",
+            "search_query": "펭귄 와치 프로젝트",
+            "terminate": false,
+            "text": "영국의 옥스퍼드 대학교에서 실시하는 펭귄 와치 프로젝트에는 일반인들도 참여할 수 있어. 이 프로젝트는 연구 및 모니터링 자료를 통해 펭귄 보호 정책을 마련하고자 하는 목적을 가지고 있지. 모니터링 자료의 경우 성체 펭귄이나 새끼 펭귄, 알 개수 등을 확인하여 기후 위기나 해양 오염 등이 펭귄의 개체 수와 번식 시기에 영향을 미치는지 파악하기 위해 필요해. 해당 연구팀은 이 작업을 수행하는 데 있어서 일반인들의 도움을 구하고 있지.",
+            "turn_id": "BK22008835-9",
+            "utterance_id": "BK22008835.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제로 직접 참여할 수 있는 펭귄 보호 프로젝트가 있다니 좋네! 꼭 한 번 참여해 볼게. 유익한 정보들을 많이 알려줘서 고마워.",
+            "turn_id": "BK22008835-10",
+            "utterance_id": "BK22008835.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 또 궁금한 게 있으면 언제든 물어봐!",
+            "turn_id": "BK22008835-10",
+            "utterance_id": "BK22008835.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 펭귄에 대해 공부해 보다가 모르는 게 생기면 다시 연락할게!",
+            "turn_id": "BK22008835-11",
+            "utterance_id": "BK22008835.21"
+        }
+    ]
+}

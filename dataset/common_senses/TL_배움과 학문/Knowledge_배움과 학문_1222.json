@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008160",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008160",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아빠가 홍어를 좋아하셔서 오랜만에 홍어를 먹으러 갔는데, 누구는 간재미라고 하고 누구는 가오리라고 하고 엄청나게 헷갈리더라. 셋이 구분된 기준표 같은 게 없나?",
+            "turn_id": "BK22008160-1",
+            "utterance_id": "BK22008160.1"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "이러한 혼용을 방지하기 위해 국립수산과학원에서는 지역별로 나오는 가오리, 간재미, 홍어를 어획해 유전자 식별정보를 정리해 표준명을 제시하기도 했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.suhyupnews.co.kr/news/articleView.html?idxno=29312",
+            "search_query": "가오리 간재미 홍어",
+            "terminate": false,
+            "text": "안 그래도 이런 혼동을 막기 위해서 국립수산과학원이 유전자 식별정보를 정리했어. 지역별로 나오는 가오리, 간재미, 홍어를 어획해서 유전자 정보를 통해 표준명을 제시했지.",
+            "turn_id": "BK22008160-1",
+            "utterance_id": "BK22008160.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 훨씬 구분도 되고 헷갈릴 일이 없겠는걸. 가오리는 정확히 뭘 말하는 거야?",
+            "turn_id": "BK22008160-2",
+            "utterance_id": "BK22008160.3"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "가오리는 가오리상목(Batoidea)에 속하는 연골어류의 총칭이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%98%A4%EB%A6%AC",
+            "search_query": "가오리",
+            "terminate": false,
+            "text": "가오리는 사실 하나의 물고기를 특정하는 게 아니라 가오리상목에 속하는 연골어류를 총칭하는 말이야.",
+            "turn_id": "BK22008160-2",
+            "utterance_id": "BK22008160.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 홍어랑 간재미는 뭐야?",
+            "turn_id": "BK22008160-3",
+            "utterance_id": "BK22008160.5"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "우리가 앞에서 써온 홍어(흑산도 홍어)의 진짜 이름은 참홍어다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍어·상어가오리·간재미·갱게미라고 부르는 것은 표준명이 홍어(학명 Okamejei kenojei)다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/353/0000041879?sid=103",
+            "search_query": "간재미 홍어",
+            "terminate": false,
+            "text": "우리가 지금까지 써온 홍어라는 건 사실 진짜 이름이 따로 있는데, 참홍어라고 해. 홍어, 상어가오리, 간재미, 갱게미라고 하는 건 표준명이 홍어지.",
+            "turn_id": "BK22008160-3",
+            "utterance_id": "BK22008160.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그럼 여태 알고 있던 건 참홍어고 간재미가 결국 홍어인 거네. 참홍어는 주로 어디서 서식해?",
+            "turn_id": "BK22008160-4",
+            "utterance_id": "BK22008160.7"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "홍어는 홍어목 가오릿과에 속하는 바닷물고기로, 원래 이름은 ‘참홍어’다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "홍어는 우리나라 연해 80~100m 수심의 바닥에 서식하는데 서해 대청도에서 흑산도 울릉도 독도 등에 분포하고 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/658/0000002268?sid=103",
+            "search_query": "흑산도 홍어",
+            "terminate": false,
+            "text": "홍어목 가오릿과에 속하는 바닷물고기인 참홍어는 우리나라 연해 80~100m 수심 바닥에 서식하는데, 주로 서해 대청도, 흑산도, 울릉도, 독도 등에 분포하고 있어.",
+            "turn_id": "BK22008160-4",
+            "utterance_id": "BK22008160.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "울릉도랑 독도에서도 사는구나. 가오리랑 간재미랑 참홍어를 생김새로 구분할 수 있어?",
+            "turn_id": "BK22008160-5",
+            "utterance_id": "BK22008160.9"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "이 고기들의 구분은 코 라인으로 구별하는데 가오리는 선이 밋밋한 데 비해 간재미는 코가 돌출된 특징이 있고 참 홍어는 간재미의 코보다 더 뾰족한 것이 특징이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hidomin.com/news/articleView.html?idxno=491182",
+            "search_query": "참홍어 독도",
+            "terminate": false,
+            "text": "응, 코 라인을 보면 구별할 수 있어. 가오리는 선이 밋밋한데, 간재미는 코가 돌출되어 있지. 참홍어는 간재미의 코보다 더 뾰족하다는 특징이 있어.",
+            "turn_id": "BK22008160-5",
+            "utterance_id": "BK22008160.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외견에서도 차이가 있네. 아빠한테 듣기로는 흑산도에서 난 홍어가 유명하다는데, 흑산도에서 홍어가 제일 많이 잡히나?",
+            "turn_id": "BK22008160-6",
+            "utterance_id": "BK22008160.11"
+        },
+        {
+            "reference_date": "2021-10-18",
+            "reference_text": [
+                {
+                    "value": "지난 30여년간 홍어 어획량 1위 고장은 목포 앞바다 흑산도가 아니라 인천 앞바다 대청도이기 때문이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/025/0003143127?sid=103",
+            "search_query": "전라도 삭힌 홍어",
+            "terminate": false,
+            "text": "그건 아냐. 지난 30여년간 홍어 어획량 1위는 흔히 알려진 목포 앞바다 흑산도가 아닌 인천 앞바다 대청도거든.",
+            "turn_id": "BK22008160-6",
+            "utterance_id": "BK22008160.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흑산도가 아니라 대청도라니 의외인걸. 근데 왜 대청보다 흑산도가 홍어로 더 유명해진 걸까?",
+            "turn_id": "BK22008160-7",
+            "utterance_id": "BK22008160.13"
+        },
+        {
+            "reference_date": "2021-05-31",
+            "reference_text": [
+                {
+                    "value": "그런데도 흑산도가 주산지로 널리 알려진 것은 일단 전라도 지역민들이 오래 전부터 홍어 삭힌 것을 제삿상에 올리는 것을 도리라 생각할 정도로 즐겨 풍부한 시장이 형성된 데다 대청도 홍어를 자체 브랜드로 키우지 못한 까닭이 겹쳐진다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/081/0003190257?sid=102",
+            "search_query": "대청도 홍어",
+            "terminate": false,
+            "text": "흔히 흑산도가 홍어의 주산지라고 알려져 있는데, 전라도 주민들이 오래전부터 삭힌 홍어를 제사상에 올리는 게 도리라고 여길 정도로 즐겨 먹어서 시장이 풍부하게 형성된 데에도 이유가 있고, 대청도 홍어를 자체 브랜드로 키우지 못한 것도 이유가 될 수 있지.",
+            "turn_id": "BK22008160-7",
+            "utterance_id": "BK22008160.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 대청도에서도 그럼 홍어를 삭혀서 먹나?",
+            "turn_id": "BK22008160-8",
+            "utterance_id": "BK22008160.15"
+        },
+        {
+            "reference_date": "2021-10-28",
+            "reference_text": [
+                {
+                    "value": "대청도에선 홍어를 삭히지 않는다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생홍어회를 먹거나 말린 뒤 쪄 먹는다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/025/0003146160?sid=103",
+            "search_query": "대청도 생홍어",
+            "terminate": false,
+            "text": "아니, 대청도에서는 홍어를 삭히지 않고 생홍어회로 먹거나 말려서 쪄 먹곤 해.",
+            "turn_id": "BK22008160-8",
+            "utterance_id": "BK22008160.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생홍어회라니 맛이 상상이 안 가는데.",
+            "turn_id": "BK22008160-9",
+            "utterance_id": "BK22008160.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대청도에 가면 먹어볼 수 있지 않을까 싶다.",
+            "turn_id": "BK22008160-9",
+            "utterance_id": "BK22008160.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 아무튼 덕분에 여러모로 유용한 정보 알아간다. 나중에 또 궁금한 거 생기면 물어볼게.",
+            "turn_id": "BK22008160-10",
+            "utterance_id": "BK22008160.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 언제든 편하게 물어봐.",
+            "turn_id": "BK22008160-10",
+            "utterance_id": "BK22008160.20"
+        }
+    ]
+}

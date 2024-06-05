@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002540",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002540",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 나온 제임스 웹 우주망원경 뉴스 보셨나요?",
+            "turn_id": "BK22002540-1",
+            "utterance_id": "BK22002540.1"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "NASA는 아울러 웹 망원경을 통해 지구에서 1천150광년 떨어진 외계행성 WASP-96 b의 분광 자료를 분석한 결과, 수증기 형태의 물을 확인했다고 밝혔습니다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006820608&plink=ORI&cooper=NAVER",
+            "search_query": "제임스 웹 망원경",
+            "terminate": false,
+            "text": "NASA가 발표한 거 맞죠? 네, 1천 150광년 떨어진 외계행성의 분광 자료를 분석했는데 수증기 형태의 물이 있다고 해요.",
+            "turn_id": "BK22002540-1",
+            "utterance_id": "BK22002540.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구가 아닌 다른 행성에 물이 있다니 신기하네요.",
+            "turn_id": "BK22002540-2",
+            "utterance_id": "BK22002540.3"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "이와 관련 NASA는 2024년 발사 및 2030년 도착·탐사를 목표로 물이 얼음 상태로 존재하고 있을 것으로 예상되는 목성 위성 '유로파(Europa)' 탐사 프로젝트(유로파 클리퍼(Clipper))를 진행 중이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022070110384071472",
+            "search_query": "유로파 행성 얼음",
+            "terminate": false,
+            "text": "사실 물은 흔한 물질이에요. 목성의 위성 유로파에도 물이 얼음 상태로 존재할 것이라고 추측돼요. 그래서 NASA는 유로파 탐사 프로젝트를 준비하고 있죠.",
+            "turn_id": "BK22002540-2",
+            "utterance_id": "BK22002540.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요, 유로파는 어떤 행성인가요?",
+            "turn_id": "BK22002540-3",
+            "utterance_id": "BK22002540.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "유로파는 목성의 위성 중 여섯 번째로 목성에 가까우며, 갈릴레이 위성 중 가장 작지만 태양계의 모든 위성 중에서는 여섯 번째로 크다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A1%9C%ED%8C%8C_(%EC%9C%84%EC%84%B1)",
+            "search_query": "유로파",
+            "terminate": false,
+            "text": "유로파는 목성의 위성 중 목성에서 6번째로 가까운 위성이고 갈릴레이 위성 중에서는 가장 작지만, 태양계의 위성 중에서는 6번째로 큰 위성이에요.",
+            "turn_id": "BK22002540-3",
+            "utterance_id": "BK22002540.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갈릴레이 위성 이라는 게 뭐죠?",
+            "turn_id": "BK22002540-4",
+            "utterance_id": "BK22002540.7"
+        },
+        {
+            "reference_date": "2020-12-21",
+            "reference_text": [
+                {
+                    "value": "목성과 4대 위성은 17세기 갈릴레오 갈릴레이가 발견한 위성이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 인류가 육안이 아니라 망원경으로 확인한 최초의 천체라는 점에서 역사적 의미가 있어 갈릴레이 위성이라고도 부른다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4156581",
+            "search_query": "갈릴레이 위성",
+            "terminate": false,
+            "text": "갈릴레이 위성은 목성의 4대 위성이에요. 갈릴레이가 17세기에 육안이 아닌 망원경으로 발견했죠. 인류가 망원경으로 발견한 최초의 천체여서 의미가 커요.",
+            "turn_id": "BK22002540-4",
+            "utterance_id": "BK22002540.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 거기에 유로파도 속하는 거고요?",
+            "turn_id": "BK22002540-5",
+            "utterance_id": "BK22002540.9"
+        },
+        {
+            "reference_date": "2021-08-07",
+            "reference_text": [
+                {
+                    "value": "가니메데는 1610년 갈릴레오 갈릴레이가 자작 망원경으로 발견한 목성 4대 위성 중 하나로, 나머지 셋인 칼리스토, 이오, 유로파 등과 함께 갈릴레이 위성으로 불린다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20210807601003&wlog_tag3=naver",
+            "search_query": "목성 4대 위성",
+            "terminate": false,
+            "text": "네 맞아요, 유로파, 가니메데, 칼리스토, 이오가 목성의 4대 위성이에요.",
+            "turn_id": "BK22002540-5",
+            "utterance_id": "BK22002540.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요, 유로파에 대해 더 알고 싶은데 어떤 특징이 더 있죠?",
+            "turn_id": "BK22002540-6",
+            "utterance_id": "BK22002540.11"
+        },
+        {
+            "reference_date": "2020-11-10",
+            "reference_text": [
+                {
+                    "value": "목성의 4대 위성(달) 중 하나로 태양계에서 생명체가 있을 가능성이 가장 높은 곳 중 하나로 꼽히는 '유로파'(Europa)가 어둠 속에서도 빛을 낼 수 있다는 연구 결과가 나왔습니다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.sbs.co.kr/news/endPage.do?news_id=N1006066896&plink=ORI&cooper=NAVER",
+            "search_query": "유로파 발광",
+            "terminate": false,
+            "text": "유로파는 어두운 우주 속에서 빛을 낼 수 있을 수도 있다는 연구 결과가 있어요.",
+            "turn_id": "BK22002540-6",
+            "utterance_id": "BK22002540.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 혹시 생명체가 살 수 있는 가능성도 올라가나요? 아니면 그것과 전혀 관계가 없는 건가요?",
+            "turn_id": "BK22002540-7",
+            "utterance_id": "BK22002540.13"
+        },
+        {
+            "reference_date": "2021-10-15",
+            "reference_text": [
+                {
+                    "value": "NASA가 준비 중인 '유로파 클리퍼'와 유럽우주국(ESA)의 '목성 얼음 위성 탐사선'은 현장 탐사를 통해 태양에서 약 8억㎞ 떨어진 곳에서도 생명체가 존재할 수 있는지 확인하게 된다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20211015061900009?input=1195m",
+            "search_query": "유로파 클리퍼",
+            "terminate": false,
+            "text": "아까 말했듯 NASA와 유럽 우주국 등 다양한 단체에서 현장 탐사를 통해 태양에서 8억km 떨어진 곳에서 생명체가 살 수 있는지 확인하려고 노력 중이에요. 대표적으로는 유로파 클리퍼와 목성 얼음 위성 탐사선 프로젝트가 있죠.",
+            "turn_id": "BK22002540-7",
+            "utterance_id": "BK22002540.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요, 그런데 생명체가 살 가능성이 있는 행성은 유로파가 끝일까요?",
+            "turn_id": "BK22002540-8",
+            "utterance_id": "BK22002540.15"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "이어 생명체 발견 가능성이 큰 엔셀라두스 탐사가 2순위로 꼽혔다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/economy/science/2022/06/08/P7FZ3ARTY5ESJAST4EDFCU5LTA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "엔셀라두스 생명체",
+            "terminate": false,
+            "text": "아니요, 엔셀라두스도 생명체 발견 가능성이 커요. 그래서 탐사 2순위로 꼽히기도 했죠.",
+            "turn_id": "BK22002540-8",
+            "utterance_id": "BK22002540.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엔셀라두스는 처음 들어보는 이름인데요.",
+            "turn_id": "BK22002540-9",
+            "utterance_id": "BK22002540.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토성의 위성인데 이 이야기는 나중에 설명해드릴게요.",
+            "turn_id": "BK22002540-9",
+            "utterance_id": "BK22002540.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그러면 다음 주 이 시간에 여기서 봬요.",
+            "turn_id": "BK22002540-10",
+            "utterance_id": "BK22002540.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 그래요, 그땐 더 재밌게 이야기해드릴게요.",
+            "turn_id": "BK22002540-10",
+            "utterance_id": "BK22002540.20"
+        }
+    ]
+}

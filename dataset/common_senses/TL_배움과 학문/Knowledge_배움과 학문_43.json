@@ -1,0 +1,456 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009267",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009267",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 고려를 배경으로 한 웹소설을 보는 중인데, 소설은 재미있지만, 배경 설명이 따로 없어서 역사를 모르면 이해가 안 가는 부분이 꽤 되더라고. 그래서 소설의 배경인 고려 초기 역사에 관해 좀 공부해보고 싶어. 우선, 어떤 주변 상황에서 고려라는 나라가 만들어진 건지 좀 설명해 줄래?",
+            "turn_id": "BK22009267-1",
+            "utterance_id": "BK22009267.1"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "10세기 초 신라에서는 왕위 쟁탈전이 빈번히 발생하여 정치가 혼란해졌고 전국 각지에서는 조세 수취에 반발하여 농민 봉기가 발생하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 가운데 지방 호족들이 신라 조정으로부터 독립하여 각자 자신의 세력을 키웠는데 그 중에서도 신라 진골 왕족이었던 궁예와 신라의 장수였던 견훤이 강한 세력을 구축하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "견훤이 먼저 후백제를 자칭했고, 곧 궁예가 고려를 세웠다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 궁예가 실정을 거듭하여, 민심을 잃고 쫓겨났다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 918년 통일신라 송악 지방의 유망한 신라 호족이었던 왕건은 신하들의 추대를 받아 임금의 자리에 올라 국호를 고려, 연호를 천수(天授)라고 하고, 919년 송악(개성)으로 도읍을 옮겼다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4",
+            "search_query": "고려 배경",
+            "terminate": false,
+            "text": "10세기 초반이 되자, 신라에서는 왕위를 쟁탈하는 일이 자주 발생하면서 혼란스러운 정치 상황이 이어지고, 전국 각지에서 조세 수취에 반발하는 농민들이 봉기를 일으켰어. 이런 상황에서, 지방에 있던 호족들이 신라로부터 독립해 자신들만의 세력을 만들었는데, 그중에서도 신라의 장수였던 견훤과 신라의 진골 왕족이었던 궁예가 특히 세력을 강하게 규합했지. 이후 견훤이 먼저 후백제를 자처해 나섰고, 곧이어 궁예는 고려를 건국했어. 그런데 궁예는 실정에 실정을 이어나갔고, 결국 민심을 잃어 쫓겨났지. 그리고 918년, 송악 일대에서 유망했던 신라 호족 왕건이 신하들의 지지로 왕위에 오르면서 연호를 천수, 국호를 고려로 정하는 한편, 919년에는 송악으로 수도를 옮긴 거야.",
+            "turn_id": "BK22009267-1",
+            "utterance_id": "BK22009267.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통일신라가 혼란스러워지면서 분할된 세력 중 하나가 세운 게 고려인 거구나. 호족이라는 말을 들으니 새삼 궁금해진 건데, 왕건은 많은 호족을 어떻게 자기편으로 끌어들였을까?",
+            "turn_id": "BK22009267-2",
+            "utterance_id": "BK22009267.3"
+        },
+        {
+            "reference_date": "2018-03-24",
+            "reference_text": [
+                {
+                    "value": "왕건은 지방 호족들의 힘을 하나로 모아 견훤과 전쟁을 벌여나가기로 했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "왕건은 유력 호족들의 딸과 결혼하고 또 결혼했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지방 세력의 힘을 빌리려면 담보가 필요했는데, 당시로선 정략결혼만큼 확실한 보장이 없었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2018032019214086090",
+            "search_query": "왕건 통일 정략결혼",
+            "terminate": false,
+            "text": "지방 호족들의 세력을 하나로 합쳐 견훤과 싸워나가기로 결정한 왕건은 유력한 호족들의 딸과 계속해서 혼인을 이어갔어. 지방 호족 세력의 힘을 빌리려면 아무래도 담보가 있어야 했는데, 그 당시로서는 정략결혼이 가장 확실하게 약속을 보장하는 수단이었거든.",
+            "turn_id": "BK22009267-2",
+            "utterance_id": "BK22009267.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동맹을 맺고 싶은 상대 집안과 결혼으로 가족을 구성한 거구나. 그나저나 바로 이전 왕이었던 궁예가 쫓겨나고 왕건이 왕위에 오른 만큼, 반란의 위험이 있었을 것 같은데, 실제로 반란이 일어나기도 했으려나?",
+            "turn_id": "BK22009267-3",
+            "utterance_id": "BK22009267.5"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "왕건은 고려를 건국한 지 4일만에 반란이 일어나 죽을 고비를 넘긴다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반란을 일으킨 사람은 마군장군 환선길이었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 틈을 노려 환선길은 50여 명의 병사들과 함께 내전에 침입하여 신하들과 회의를 하고 있던 왕건에게 칼을 겨눈다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 그는 근위병들의 추격을 받아 잡혀 처형당하고, 그의 동생 환향식도 같은 혐의로 잡혀 죽었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4_%ED%83%9C%EC%A1%B0",
+            "search_query": "고려 태조",
+            "terminate": false,
+            "text": "응, 왕건은 고려를 세운 지 고작 나흘 만에 반란 때문에 죽을 뻔했지. 반란을 도모한 사람은 마군장군 환선길이었는데, 환선길은 병사 50여 명과 같이 내전에 쳐들어가 신하들과 회의 중이었던 왕건을 향해 칼을 겨누지. 하지만 환선길은 결국 근위병들의 추격을 피하지 못하고 붙잡혀 처형당하고, 동생인 환향식도 형과 같은 혐의를 받아 붙잡혀 처형돼.",
+            "turn_id": "BK22009267-3",
+            "utterance_id": "BK22009267.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건국 4일 만에 반란이라니 무섭네. 반란은 그걸로 끝이었을까, 아니면 태조 왕건 이후 왕 때도 또 일어났을까?",
+            "turn_id": "BK22009267-4",
+            "utterance_id": "BK22009267.7"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "왕규의 난(王規之亂)은 고려 2대 국왕 혜종(惠宗) 때의 왕위 계승을 둘러싸고 왕실의 외척 왕규(王規)가 자신의 손자인 광주원군(廣州院君)을 왕위에 등극시키기 위해 일으킨 반란으로 왕권이 미약한 데에서 발생하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그해(945년)에 혜종이 세상을 떠나고 동생 요(堯)가 왕위에 오르니, 곧 정종(定宗)이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러자 혜종을 살해하려다 실패했던 왕규는 정종이 즉위하자 반란을 일으켰다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 정종은 전부터 왕규의 동태를 알고 있던 터라 혜종의 병이 위독하자 서경(西京)의 수비대장 왕식렴(王式廉, 태조의 사촌동생)과 미리부터 연락을 해두었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 왕식렴은 왕규를 붙잡아 갑곶(甲串)에 귀양 보냈다가 사람을 보내 죽여 버리고 그의 일당 3백여 명을 처형하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%95%EA%B7%9C%EC%9D%98_%EB%82%9C",
+            "search_query": "왕규의 난",
+            "terminate": false,
+            "text": "다음 왕인 2대 국왕 혜종의 생전에는 아니지만, 혜종이 죽은 직후에 반란이 또 있었어. 왕규의 난이라고 불리는 반란인데, 미약한 왕권을 노리고 왕실 외척인 왕규가 자기 손자인 광주원군을 왕으로 올리기 위해 일으킨 반란이지. 945년에 혜종이 승하하고 동생인 요, 그러니까 정종이 왕위에 오르는데, 혜종을 죽이려다가 실패했던 왕규가 정종 즉위 후 반란을 도모해. 하지만 정종은 이전부터 왕규의 행동을 알고 있었기 때문에, 혜종의 병이 위독할 때 미리 서경의 수비대장이던 왕식렴에게 언질을 해 두었고, 왕식렴은 왕규를 체포해 갑곶으로 귀양을 보낸 뒤, 사람을 보내 살해해. 그리고 왕규의 일당이었던 3백여 명도 함께 죽여 버리지.",
+            "turn_id": "BK22009267-4",
+            "utterance_id": "BK22009267.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연이은 반란에 사람도 그렇게 많이 죽었다는 게 그저 끔찍하네. 그럼 3대 왕은 누구이고, 특별한 일은 어떤 게 있었어?",
+            "turn_id": "BK22009267-5",
+            "utterance_id": "BK22009267.9"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "정종(定宗, 923년 ~ 949년 4월 13일(음력 3월 13일)은 고려의 제3대 국왕(재위: 945년 10월 23일~949년 4월 13일)이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 임금으로 즉위하자마자 고구려의 옛 땅을 회복과 개경의 귀족 세력들을 견제하여 왕권을 강화하기 위해 서경으로의 천도를 천명했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이러한 조치는 오히려 개경의 호족들과 옛 공신들의 불만을 고조시키는 결과만을 초래했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개경의 민호(民戶)를 서경의 역부로 삼아 백성들에게 원망을 사게 되었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 죽음으로 서경으로의 천도계획은 그의 동생 광종에 의해 즉각 백지화 된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4_%EC%A0%95%EC%A2%85_(3%EB%8C%80)",
+            "search_query": "고려 정종",
+            "terminate": false,
+            "text": "고려의 3번째 왕은 정종인데, 정종은 왕으로 즉위하자마자 서경으로 도읍을 옮기겠다고 천명해. 개경에 있는 귀족 세력을 견제하고 고구려의 옛 땅을 회복하기 위함이었지. 하지만, 이런 선언은 되려 개경의 호족은 물론 이전 공신들의 불만까지 키우게 돼. 게다가 개경에 있는 민호에서 부역과 조세를 거둬 서경의 것으로 삼기도 했는데, 이것 때문에 백성들로부터 원망도 많이 샀지. 결국 정종이 죽은 뒤, 정종의 동생 광종은 서경 천도 계획을 즉각 철회해.",
+            "turn_id": "BK22009267-5",
+            "utterance_id": "BK22009267.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나름의 이유는 있었을지 몰라도, 서경 천도라는 괜한 일을 강행한 게 참 안타깝네. 광종 얘기가 나와서 말인데, 광종의 업적으로는 어떤 것들이 있어?",
+            "turn_id": "BK22009267-6",
+            "utterance_id": "BK22009267.11"
+        },
+        {
+            "reference_date": "2022-09-22",
+            "reference_text": [
+                {
+                    "value": "광종은 고려 왕조 성립 초기의 공신들과 호족들의 세력을 약화시켜 왕권의 강화와 중앙집권적 국가체제 확립, 국가의 재정 기반 안정을 위한 과감한 개혁 정책을 추진하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "광종은 정치적 역량과 대외적 위상을 제고하는 것 이외에도 민심 안정에 많은 노력을 기울였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "광종은 민심 안정책을 불교를 통해 추진하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "956년에는 노비안검법(奴婢按檢法)을 실시하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노비안검법 실시로 호족의 힘이 약화되고 상대적으로 왕권이 강화되자 광종은 958년 '과거제 도입'이라는 폭탄선언을 하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4_%EA%B4%91%EC%A2%85",
+            "search_query": "고려 광종",
+            "terminate": false,
+            "text": "광종은 고려 왕조를 세운 개국 공신과 호족들의 힘을 약하게 하고 왕권을 강화함으로써 중앙 집권적인 국가 체제를 만들고, 나라의 재정 기반을 안정화하기 위한 개혁 정책을 과감히 밀어붙였어. 그뿐만 아니라, 이러한 대외적 위상과 정치적 역량을 제고하면서, 불교를 이용해 민심 안정에도 신경을 많이 썼지. 또, 956년에는 노비안검법을 시행했는데, 이 법의 실시로 호족 세력이 약해지고 왕권이 상대적으로 강해지자, 958년에 광종은 과거 제도를 도입한다는 파격적인 선언을 해.",
+            "turn_id": "BK22009267-6",
+            "utterance_id": "BK22009267.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지로 과감한 개혁을 추진한 왕이었구나. 그럼 다음 왕인 5대 왕은 누구이고, 어떤 일들이 있었어?",
+            "turn_id": "BK22009267-7",
+            "utterance_id": "BK22009267.13"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "경종(景宗, 955년 11월 9일(음력 윤 9월 22일) ~ 981년 8월 13일(음력 7월 11일[1]))은 고려 제5대 국왕(재위: 975년 ~ 981년)이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 보복법이라는 것을 제정하여 모함을 당한 사람들이 무고자를 찾아 고발하거나 처벌하는 제도를 신설하였는데, 이 과정에서 태조의 서자이자 유력 왕위 계승자였던 효성태자와 원녕태자가 살해되는 사태가 발생하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 경종은 보복법을 취소하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전시과(田柴科)를 제정하여 고려의 토지제도의 시초를 마련하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "송나라와의 우호관계를 돈독히 하여 사신의 왕래가 잦았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4_%EA%B2%BD%EC%A2%85",
+            "search_query": "고려 경종",
+            "terminate": false,
+            "text": "고려의 제5대 국왕은 경종이야. 경종은 무고하게 모함을 당한 사람이 모함한 사람을 찾아 고발, 혹은 처벌하는 제도인 보복법을 제정했어. 그런데 그 과정에서 유력한 왕위 계승자이자 태조의 서자였던 원녕태자와 효성 태자가 살해되는 사건이 일어나고, 경종은 보복법 제정을 취소했지. 그 외에, 경종은 고려 토지 제도의 시초라고 할 수 있는 전시과를 제정하기도 하고, 송나라와 우호적인 관계를 유지해서 사신이 자주 오가기도 했어.",
+            "turn_id": "BK22009267-7",
+            "utterance_id": "BK22009267.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토지 제도의 기틀도 마련하고 외교 관계도 좋았으니 괜찮은 왕이었던 것 같네. 경종 다음 왕은 어떤 업적들이 있어?",
+            "turn_id": "BK22009267-8",
+            "utterance_id": "BK22009267.15"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "성종(成宗, 961년 1월 15일 (960년 음력 12월 26일) ~ 997년 11월 29일(음력 10월 27일)[1])은 고려의 제6대 국왕(재위: 981년 ~ 997년)이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "993년(성종 12년) 거란이 세운 요나라의 대군이 고려로 침략하자 친히 안북부(안주)까지 나아갔다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 서희를 적진에 보내 외교담판으로 요나라의 군대를 물러가게 하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 여진족이 차지하고 있던 압록강 동쪽 땅에 강동 6주를 설치하여 영토를 넓혔다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "불교 중심 사회에서 유교 중심 사회로의 전환을 꾀하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4_%EC%84%B1%EC%A2%85",
+            "search_query": "고려 성종",
+            "terminate": false,
+            "text": "고려의 6번째 국왕은 성종인데, 993년에 거란이 건국한 요나라가 대군을 끌고 고려로 쳐들어오자 직접 안북부까지 나아가기도 했어. 이후에는 적진으로 서희를 보내 외교적인 담판을 지어 요나라가 군대를 물리게 했지. 또, 여진족이 점령 중이던 압록강 동부 지역에 강동 6주를 설치해 영토를 확장했어. 그리고 성종은 불교를 중심으로 한 사회에서 유교를 중심으로 하는 사회로 전환을 시도한 왕이기도 해.",
+            "turn_id": "BK22009267-8",
+            "utterance_id": "BK22009267.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유교라고 하면 조선 시대부터라고만 생각하고 있었는데, 고려 때 왕도 유교로의 전환을 시도했구나. 조선 시대나 삼국 시대에는 관심이 있었지만, 고려에는 별달리 흥미가 없었는데, 막상 이렇게 이야기를 들어 보니 고려의 역사도 굉장히 재미있네.",
+            "turn_id": "BK22009267-9",
+            "utterance_id": "BK22009267.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그래서 나는 오히려 고려의 역사를 깊게 공부하기도 했지.",
+            "turn_id": "BK22009267-9",
+            "utterance_id": "BK22009267.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나, 나도 더 공부해 보고 싶다는 열망이 솟아나는걸. 그럼, 말 나온 김에 도서관에 가서 고려 역사에 관한 책을 좀 찾아볼게. 나중에 또 만나자.",
+            "turn_id": "BK22009267-10",
+            "utterance_id": "BK22009267.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 도움 필요하면 언제든 연락하고. 그럼 다음에 또 보자.",
+            "turn_id": "BK22009267-10",
+            "utterance_id": "BK22009267.20"
+        }
+    ]
+}

@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005202",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005202",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 공부하다 모르는게 있어서 그런데, 조선시대는 계급 사회였잖아요. 노비는 전체 인구의 몇 퍼센트 정도였나요?",
+            "turn_id": "BK22005202-1",
+            "utterance_id": "BK22005202.1"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "기록에 의하면 놀랍게도 전체 인구의 약 40%를 차지했다고 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선시대 인구가 대략 1,000만 정도였으니까 400만명 정도가 노비였을 것으로 추산된다고 하니 대단한 숫자가 아닐 수 없다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.yanews.net/news/articleView.html?idxno=35506",
+            "search_query": "조선시대 노비 비율",
+            "terminate": false,
+            "text": "기록을 보면 전체 인구의 약 40퍼센트 정도가 노비였어요. 조선시대의 인구는 약 천만 정도였으니 이 중 사백만 명정도는 노비였던거죠. 인구수 대비 노비가 꽤 많았다는 것을 알 수 있어요.",
+            "turn_id": "BK22005202-1",
+            "utterance_id": "BK22005202.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 꽤 많았네요. 신분이 있다보니 혼인에도 제약이 있었을 것 같은데, 노비는 노비하고만 결혼을 해야 했나요?",
+            "turn_id": "BK22005202-2",
+            "utterance_id": "BK22005202.3"
+        },
+        {
+            "reference_date": "2018-10-06",
+            "reference_text": [
+                {
+                    "value": "노비의 신분은 세습됐다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세습의 원리는 부모 어느 한쪽이 노비면 그 자식은 죄다 노비가 되는 종천법(從賤法)이었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 노(奴)가 양녀(良女)와 결혼하면, 또 비(婢)가 양부(良夫)와 결혼하면, 다음 세대의 노비 인구는 두 배가 된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 식으로 노비가 인구의 30~40%까지 많아졌다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2018100569481",
+            "search_query": "조선시대 노비 결혼",
+            "terminate": false,
+            "text": "꼭 그런건 아니지만 노비 신분이 세습되었어요. 부모 중 한 명이 노비라면 그들의 자녀들은 모두 노비가 되는 종천법이 있었거든요. 그래서 노비가 양인 남, 녀와 혼인하게 된다면, 다음 세대의 노비는 두배로 늘어나게 되죠. 이런 현상으로 노비 인구가 30에서 40퍼센트까지 늘어나게 됐었어요.",
+            "turn_id": "BK22005202-2",
+            "utterance_id": "BK22005202.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양인과 결혼하면 신분이 상승하는게 아니라 양인이 떨어지는 방식이었군요. 그럼 조선시대의 노비들은 어떤 생활을 했었나요?",
+            "turn_id": "BK22005202-3",
+            "utterance_id": "BK22005202.5"
+        },
+        {
+            "reference_date": "2019-03-24",
+            "reference_text": [
+                {
+                    "value": "대부분 성씨가 아닌 이름만을 가질 수 있었던 노비들은 각종 청소와 밭일 등을 맡으며 양반의 수발을 들었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "별다른 세제가 없던 이들은 삭힌 소변과 잿물을 섞어 빨래를 했으며, 불을 피우기 위해 4시간 동안 부싯돌을 떼야 할 때도 있었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소를 산책시키며 나온 소똥도 직접 풀을 뜯어 치워야 했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/218384",
+            "search_query": "조선시대 노비 생활",
+            "terminate": false,
+            "text": "노비들은 대부분 성을 가질 수 없어서 이름으로 불렸어요. 집안의 각종 청소, 밭일을 도맡아 했고 양반의 수발을 들며 살았죠. 특별한 세제가 없던 시대였기에 삭힌 소변에 잿물을 섞어 빨래를 했고, 불을 피우기 위해서 4시간 동안 부싯돌을 떼야 하기도 했죠. 소를 산책시킬 때 똥을 싸면 직접 풀을 뜯어와 치워야 했고요.",
+            "turn_id": "BK22005202-3",
+            "utterance_id": "BK22005202.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "간단히 말만들어도 삶이 녹록치 않았을 것 같아요. 양반에게 부당한 일을 당해도 신고하거나 처벌받게 할 수 없었는지도 설명해 주시겠어요?",
+            "turn_id": "BK22005202-4",
+            "utterance_id": "BK22005202.7"
+        },
+        {
+            "reference_date": "2018-10-06",
+            "reference_text": [
+                {
+                    "value": "1422년, 역시 세종조의 일이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노비는 주인을 고소할 수 없으며, 고소하면 교형(絞刑)에 처한다는 법이 제정됐다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주인의 가혹한 형벌로 대수롭지 않게 죽어간 노비들의 슬픈 이야기는 조선왕조가 남긴 사료에서 그 수를 헤아리기 힘들 정도다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2018100569481",
+            "search_query": "조선시대 노비 양발 고발",
+            "terminate": false,
+            "text": "1422년 세종때, 노비는 주인을 고소할 수 없고, 만약 고소한다면 교형에 처해지는 법이 만들어졌어요. 이 후 노비들은 대수롭지 않게 죽어갔어요. 주인이 내리는 심한 형벌때문이었죠. 이런 슬픈 이야기들은 조선왕조의 기록에서 무척 많이 찾아볼 수 있어요.",
+            "turn_id": "BK22005202-4",
+            "utterance_id": "BK22005202.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "허드랫일부터 주인의 형벌까지 버티기 어려웠을 것 같아요. 당시 노비들도 신분 상승의 꿈을 꿀 수 있었나요?",
+            "turn_id": "BK22005202-5",
+            "utterance_id": "BK22005202.9"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "노비가 상민으로 면천하는 방법 중에는 국가의 기득권을 위협할 만한 전쟁이나 자연재해 같은 특수한 상황에서 활약하는 방법, 나라에 큰 돈을 기부하는 방법이 있었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 그런 사건은 일생에 여러번 있는 것이 아니었기 때문에 현실적으로 노비가 면천할 수 있는 방법은 막혀 있었던 셈이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B9%84",
+            "search_query": "노비",
+            "terminate": false,
+            "text": "있긴 했지만 불가능에 가까웠어요. 노비가 상민으로 면천하려면 나라의 큰 위험이 있는 전쟁이나 자연재해 같은 특별한 상황에서 활약해야 했어요. 아니면 나라에 큰 돈을 기부해야 했고요. 하지만 이런 일들은 평생 한 번 있을까말까한 이벤트였으니 현실적으로 봤을 때 노비가 신분을 바꿀 수 있는 방법은 거의 없다고 볼 수 있었죠.",
+            "turn_id": "BK22005202-5",
+            "utterance_id": "BK22005202.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 노비로 태어났다면 한 평생 노비로 살다 죽는 사람들이 더 많았을 것 같아요. 노비는 보통 주인집에서 함께 사는데, 가족의 일원으로 받아들여졌었나요?",
+            "turn_id": "BK22005202-6",
+            "utterance_id": "BK22005202.11"
+        },
+        {
+            "reference_date": "2020-07-30",
+            "reference_text": [
+                {
+                    "value": "신분제 사회 조선에서 노비는 재산으로 취급됐고, 명문가의 경우 노비를 얼마나 거느리고 있는지에 따라 부의 척도를 가늠했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/1Z5I6OKOG3",
+            "search_query": "조선시대 노비 재산취급",
+            "terminate": false,
+            "text": "아니요. 신분제 사회인 조선시대에서 노비는 가족이 아닌 재산이었어요. 그래서 명문가는 거느리고 있는 노비의 수에 따라 부를 가늠할 수 있었죠.",
+            "turn_id": "BK22005202-6",
+            "utterance_id": "BK22005202.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서글프네요. 사람이 사람을 재산으로 본다니, 그럼 양반들끼리 노비를 사고 팔기도 했었나요?",
+            "turn_id": "BK22005202-7",
+            "utterance_id": "BK22005202.13"
+        },
+        {
+            "reference_date": "2014-06-09",
+            "reference_text": [
+                {
+                    "value": "노비의 공정가격은 『경국대전』(1485년)에 저화(楮貨·종이 돈) 4000장(쌀 20석, 면포 40필)이었는데 당시 말 한 마리 가격과 비슷한 수준이었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "『속대전』(續大典, 1746년)에서도 공정가격은 100냥(쌀 20~30석)이었으므로 큰 변화가 없었지만, 18세기에 노비가격은 폭락하여 공정가격의 1/10에 불과한 10냥 전후에 불과하게 되었다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2014060504341",
+            "search_query": "조선시대 노비 가격",
+            "terminate": false,
+            "text": "1485년에 쓰여진 경국대전에서는 노비의 공정가격을 명시해두었는데, 종이 돈인 저화 4000장이었어요. 쌀 20석, 면포 40필 정도에 해당하는데 그 시대의 말 한 마리 가격과 비슷했죠. 1746년에 쓰여진 속대전에서도 쌀 20에서 30석 정도의 100냥으로 큰 차이가 없었지만, 18세기에 들어서 노비 가격이 폭락하기 시작했어요. 공정가격의 10분의 1에 밖에 안되는 10냥 전후가 되었거든요.",
+            "turn_id": "BK22005202-7",
+            "utterance_id": "BK22005202.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시대가 흐르면서 노비의 가격이 많이 떨어졌네요. 이유가 뭔가요?",
+            "turn_id": "BK22005202-8",
+            "utterance_id": "BK22005202.15"
+        },
+        {
+            "reference_date": "2019-12-19",
+            "reference_text": [
+                {
+                    "value": "18세기 노비제 감소의 원인은 첫째, 노비에게도 군역이 부과된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "둘째, ‘영조’에 의해 추노(追奴) 행위가 제한된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "셋째, ‘노비제’를 대체하는 소농경영에 기초한, 지주-소작제가 확대된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "넷째, 1730년 어머니가 양인인 경우, 어머니 쪽 신분을 따르도록 노비법이 완화된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ppss.kr/archives/207832",
+            "search_query": "노비 가격 떨어진 이유",
+            "terminate": false,
+            "text": "몇 가지 이유가 있는데, 하나는 노비에게도 군역의 의무가 생겼어요. 그리고 영조시대에 추노가 제한되었고, 노비를 대신할 수 있는 소농경영에 기초한 지주, 소작제가 확대되었죠. 마지막으로 1730년에 어머니가 양인이라면, 어머니의 신분을 따라가도록 노비법이 완화되었기 때문이에요.",
+            "turn_id": "BK22005202-8",
+            "utterance_id": "BK22005202.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자각하지 못했는데 꽤 최근까지도 노비가 있었던 거네요. 우리나라는 노비제도가 언제 폐지되었나요?",
+            "turn_id": "BK22005202-9",
+            "utterance_id": "BK22005202.17"
+        },
+        {
+            "reference_date": "2020-09-09",
+            "reference_text": [
+                {
+                    "value": "이후 조선 시대가 되어 관료들의 부정부패와 수탈이 점점 심해졌고 세도 정치를 통해 삼정의 문란이 시작되며 농민들이 봉기하기 시작하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 급진개화파가 갑신정변을 통해 개혁 정강을 발표하는데 그들은 계층과 상관없이 능력 있는 인재를 뽑아야 한다는 이유로 신분제 폐지를 요구하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "동학농민운동에서는 폐정 개혁안으로 신분 차별 폐지를 주장하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 제1차 갑오개혁 때 김홍집 내각을 중심으로 신분제 폐지를 주도하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.goeonair.com/mobile/article.html?no=17908",
+            "search_query": "신분제 폐지 갑오개혁",
+            "terminate": false,
+            "text": "조선 시대에는 관료들이 부정부패를 일삼고 수탈이 갈수록 심해졌어요. 세도 정치로 인해 삼정의 문란이 시작되며 농민들이 들고 일어나기 시작했죠. 이 후 급진개화파가 갑신정변을 일으키고 개혁 정강을 발표하는데, 여기서 신분제 폐지를 요구하게되요. 신분과 상관없이 능력을 가진 인재를 등용해야한다는 이유였죠. 동학농민운동에서는 폐정 개혁안으로 신분 차별 폐지를 주장했고, 이후 제 1차 갑오개혁 때 김홍집 내각을 중심으로 해서 신분제 폐지가 이루어졌어요.",
+            "turn_id": "BK22005202-9",
+            "utterance_id": "BK22005202.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평민들이 이루어낸 결과였네요. 조상님들이 이루어주신 세상에 감사하며 살아야겠어요. 오늘 덕분에 공부하는데 굉장히 도움 받았어요.",
+            "turn_id": "BK22005202-10",
+            "utterance_id": "BK22005202.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "여전히 신분제가 있다고 주장하는 사람들이 있지만, 적어도 우리는 누군가의 재산이 되지는 않으니 힘내서 살아가야죠. 그럼 공부 마저 잘 하시고, 내일 봐요.",
+            "turn_id": "BK22005202-10",
+            "utterance_id": "BK22005202.20"
+        }
+    ]
+}

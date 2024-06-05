@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007213",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007213",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 얼마 전에 자기부상열차가 있다고 들었는데 좀 신기하더라고요. 혹시 이것에 대해 좀 잘 아시나요?",
+            "turn_id": "BK22007213-1",
+            "utterance_id": "BK22007213.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "자기부상열차(磁氣浮上列車, 영어: maglev levitation train, magnetic levitation)는 전기로 발생된 자기력으로 레일에서 낮은 높이로 부상해서 바퀴를 사용하지 않고 직접 차량을 추진시켜 달리는 열차를 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0%EB%B6%80%EC%83%81%EC%97%B4%EC%B0%A8",
+            "search_query": "자기부상열차",
+            "terminate": false,
+            "text": "자기부상열차요? 그건 바퀴를 사용하지 않고 전기로 발생한 자력을 사용해서 레일에서 낮게 부상하여 직접 차량을 추진 해 달리는 열차죠.",
+            "turn_id": "BK22007213-1",
+            "utterance_id": "BK22007213.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그럼 어떻게 바퀴 없이 기차가 달릴 수 있는지 그 원리에 대해서도 아세요?",
+            "turn_id": "BK22007213-2",
+            "utterance_id": "BK22007213.3"
+        },
+        {
+            "reference_date": "2022-07-16",
+            "reference_text": [
+                {
+                    "value": "자기부상열차는 같은 극은 밀어내고 다른 극은 잡아당기는 자석의 원리를 추진력으로 이용한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "웬만한 자석으로는 어림없었지만 전기저항이 없는 초전도체로 만든 초전도자석이 개발되면서 현실이 됐다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0924255340&code=11171211&stg=ws_real",
+            "search_query": "자기부상열차 원리",
+            "terminate": false,
+            "text": "자기부상열차는 자석의 원리인 같은 극은 밀어내고 다른 극은 잡아당기는 성질을 추진력으로 이용해요. 사실 웬만한 자석으로는 어림없는 일이지만, 전기 저항을 받지 않는 초전도체로 만든 초전도자석의 개발로 현실에서 볼 수 있게 된 거죠.",
+            "turn_id": "BK22007213-2",
+            "utterance_id": "BK22007213.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 이렇게 만들어진 자기부상열차는 기존 열차와 달리 어떤 점이 장점이에요?",
+            "turn_id": "BK22007213-3",
+            "utterance_id": "BK22007213.5"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "장점으로는 바퀴가 없기 때문에 마찰 저항이 거의 없고 그로 인해 낮은 동력으로 높은 속도를 얻을 수 있고 진동과 소음이 거의 없어 승차감이 쾌적하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 곡선 주행 시 안전하며 차체가 궤도를 감싸는 안전한 구조이므로 일반적으로 탈선 가능성이 거의 없다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0%EB%B6%80%EC%83%81%EC%97%B4%EC%B0%A8",
+            "search_query": "자기부상열차 장점",
+            "terminate": false,
+            "text": "자기부상열차는 바퀴가 없어서 마찰 저항도 거의 없거든요. 그래서 높은 속도를 낮은 동력으로도 얻을 수가 있고, 소음과 진동도 거의 없어서 쾌적한 승차감을 느낄 수 있어요. 또 곡선을 주행할 때도 안전하고, 구조도 차체가 궤도를 감싸는 식이라서 탈선 가능성이 희박하죠.",
+            "turn_id": "BK22007213-3",
+            "utterance_id": "BK22007213.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일반 열차보다 장점이 많네요. 기술력이 높아야 했을 것 같은데, 그럼 자기부상열차는 언제부터 개발되기 시작했어요?",
+            "turn_id": "BK22007213-4",
+            "utterance_id": "BK22007213.7"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "독일이 1969년부터 개발을 시작하여 1971년 Prinzipfahrzeug이 처음으로 유인 주행에 성공했고, 이후 일본, 대한민국 순으로 개발을 시작했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0%EB%B6%80%EC%83%81%EC%97%B4%EC%B0%A8",
+            "search_query": "자기부상 열차 개발 시기",
+            "terminate": false,
+            "text": "1969년부터 독일에서 개발을 시작했어요. 처음으로 유인 주행에 성공한 건 1971년에 Prinzipfahrzeug이었고, 그 후로 일본과 대한민국의 순서로 개발에 들어갔죠.",
+            "turn_id": "BK22007213-4",
+            "utterance_id": "BK22007213.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 독일에서 만든 최초의 자기부상열차는 아직도 운행하고 있나요?",
+            "turn_id": "BK22007213-5",
+            "utterance_id": "BK22007213.9"
+        },
+        {
+            "reference_date": "2018-06-09",
+            "reference_text": [
+                {
+                    "value": "세계 최초 초고속 자기부상열차인 독일 트랜스래피드(흡인식)만 해도 궤도 위를 10㎜ 떠서 시속 430㎞로 달릴 수 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 열차는 중국 상하이 푸동(浦東)공항에서 시내 중심부를 잇는 약 30㎞ 구간에 운행 중이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201806071667387772",
+            "search_query": "최초의 자기부상 열차 운행",
+            "terminate": false,
+            "text": "네. 독일의 트랜스래피드가 세계 최초의 초고속 자기부상열차인데, 이 기차는 궤도 위를 10mm 뜬 상태로 430km의 시속으로 달리고 있죠. 현재도 중국 상하이의 푸동공항과 시내 중심부를 이으며 약 30km 구간을 운행하고 있어요.",
+            "turn_id": "BK22007213-5",
+            "utterance_id": "BK22007213.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와. 실제로 상용화되어 운행 중이라니 실물이 더 궁금해지네요. 그럼 중국 말고 다른 나라에도 운행하는 자기부상열차가 또 있나요?",
+            "turn_id": "BK22007213-6",
+            "utterance_id": "BK22007213.11"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "현재 상하이 트란스라피드와 HSST의 아이치 고속 교통 100L형(리니모)이 실용 노선에서 영업운전을 하고 있으며, 일본의 초전도 리니어에 의한 주오 신칸센이 도쿄-나고야 간에서 2027년의 개업, 또 도쿄-신오사카 간에서 2045년 전 노선 개업을 목표로 계획이 진행되고 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0%EB%B6%80%EC%83%81%EC%97%B4%EC%B0%A8",
+            "search_query": "현재 운행중인 자기부상열차",
+            "terminate": false,
+            "text": "그럼요. 실용 노선에서 운행 중인 자기부상열차로는 상하이의 트란스라피드, HSST의 아이치 고속 교통 100L형이 있어요. 또 일본에서는 초전도 리니어에 의한 도쿄와 나고야 간의 주오 신칸센이 2027년 개업을 앞두고 있고, 도쿄와 신 오사카 구간은 2045년에 전 노선의 개업을 목표로 한 계획을 진행 중이기도 해요.",
+            "turn_id": "BK22007213-6",
+            "utterance_id": "BK22007213.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본도 있구나. 그럼 우리나라에서는 언제 자기부상열차를 운행하게 된 거예요?",
+            "turn_id": "BK22007213-7",
+            "utterance_id": "BK22007213.13"
+        },
+        {
+            "reference_date": "2016-02-02",
+            "reference_text": [
+                {
+                    "value": "한국기계연구원은 지난 1989년 처음으로 자기부상열차 개발에 착수했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1993년 대전 엑스포 전시용 차량을 최초 개발한 뒤 2006년 실용화 모델 개발을 추진했고 2012년 인천국제공항에 시범노선을 건설했다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2016/02/02/2016020200827.html",
+            "search_query": "우리나라 자기부상열차 운행",
+            "terminate": false,
+            "text": "우리나라는 1989년에 처음으로 한국기계연구원에서 자기부상열차 개발을 시작했어요. 그 후 1993년에 열린 대전 엑스포에서 전시용 차량을 선보였고, 2006년에는 실용화 모델 개발을 추진해서 2012년에 시범 노선을 인천국제공항에 건설했어요.",
+            "turn_id": "BK22007213-7",
+            "utterance_id": "BK22007213.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 지금 인천국제공항에서 자기부상열차가 운행 중인 거예요?",
+            "turn_id": "BK22007213-8",
+            "utterance_id": "BK22007213.15"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "인천국제공항 교통센터에서 인천 용유동 관광단지까지 6.4㎞ 구간을 오가는 인천공항 자기부상철도는 2005년 ‘도시형 자기부상열차 실용화사업 시범노선 건설사업’에 따라 국가 연구개발 과제 선정돼 2016년부터 운영에 들어갔으나 지난달 14일부터 운영을 중단한 상태다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/economy/industry-trade/article/202208221544001#c2b",
+            "search_query": "인천국제공항 자기부상열차",
+            "terminate": false,
+            "text": "원래 2005년에 도시형 자기부상열차 실용화사업 시범노선 건설사업에 의해서 국가 연구개발 과제에 선정되어 2016년부터 인천국제공항 교통센터에서 인천 용유동 관광단지까지 6.4㎞의 구간을 오가며 운영되었지만, 아쉽게도 2022년 7월 14일부터는 운영을 중단한 상태에요.",
+            "turn_id": "BK22007213-8",
+            "utterance_id": "BK22007213.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜요? 무슨 이유가 있길래 운행되던 열차를 중단시킨 건데요?",
+            "turn_id": "BK22007213-9",
+            "utterance_id": "BK22007213.17"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "경제성 분석이나 사전 타당성 조사도 없이 서둘러 사업을 밀어붙이다 보니 적자만 낳는 애물단지가 되어버린 것이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/area/capital/1053436.html",
+            "search_query": "인천국제공항 자기부상열차 중단 이유",
+            "terminate": false,
+            "text": "서둘러서 사업을 밀어붙이느라 경제성 분석이나 사전 타당성 조사 없이 하다 보니 적자를 면치 못하는 애물단지가 되어 버렸거든요.",
+            "turn_id": "BK22007213-9",
+            "utterance_id": "BK22007213.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있다니 정말 안타깝네요. 전 아직 한번 타보지도 못했는데 아쉽게 되었네요.",
+            "turn_id": "BK22007213-10",
+            "utterance_id": "BK22007213.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요. 향후 이 사업이 어떻게 될지 지켜봐야 할 것 같아요.",
+            "turn_id": "BK22007213-10",
+            "utterance_id": "BK22007213.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래도 오늘 자기부상열차에 대한 궁금증은 해소되어 좋네요. 답변 고마웠어요. 그럼 다음에 또 만나요.",
+            "turn_id": "BK22007213-11",
+            "utterance_id": "BK22007213.21"
+        }
+    ]
+}

@@ -1,0 +1,423 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005609",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005609",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "햄스터에 대한 글을 봤는데, 겨울에 난방을 제대로 안 해주면 집에서 키우는 햄스터여도 동면에 들어간다고 하더라고. 정말 신기했어.",
+            "turn_id": "BK22005609-1",
+            "utterance_id": "BK22005609.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "야생에서 겨울잠을 자던 동물들은 아무리 가축화가 되어있다고 해도 그 습성이 남아있나 봐.",
+            "turn_id": "BK22005609-1",
+            "utterance_id": "BK22005609.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 말이야. 그나저나 동물들이 겨울잠을 자는 이유는 뭘까?",
+            "turn_id": "BK22005609-2",
+            "utterance_id": "BK22005609.3"
+        },
+        {
+            "reference_date": "2019-01-30",
+            "reference_text": [
+                {
+                    "value": "학술적으로 보면, 변온동물은 스스로 체온을 조절할 수 있는 능력이 없기 때문에 겨울에는 가사 상태로 잠에 빠진다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 에너지 절약 차원이 아니라 체온이 0℃ 이하로 내려갈 경우 얼어 죽을 수 있기 때문에 어쩔 수 없이 겨울잠을 잔다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "변온동물은 양서류, 파충류 등이 이에 해당한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간을 포함한 정(항)온 동물은 항상 일정한 온도로 체온을 유지하지만 추운 겨울에 먹을 것을 찾기 어려워 일반적으로 겨울잠을 잔다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대개 땅 속이나 나무 밑이나 속, 바위틈 등이 겨울잠을 자는 대상지다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://san.chosun.com/news/articleView.html?idxno=12418",
+            "search_query": "겨울잠 자는 이유",
+            "terminate": false,
+            "text": "동물이 겨울잠에 드는 이유엔 변온동물과 항온동물 간에 차이가 있어서 하나씩 설명해줄게. 변온동물은 스스로 체온 조절을 할 수가 없어서 체온이 0도 이하로 내려갈 경우엔 목숨을 잃을 수도 있어. 그래서 에너지 절약 차원이 아니라 어쩔 수 없이 겨울에 가사 상태로 겨울잠을 자는데, 변온동물에는 양서류 파충류 등이 있어. 정온동물이라고도 하는 항온동물은 인간도 포함되는데, 항상 일정한 체온을 유지하지만, 겨울엔 먹을 것을 구하기 어려워서 겨울잠을 자. 보통은 땅속, 나무 밑이나 속, 바위틈에서 겨울잠을 자.",
+            "turn_id": "BK22005609-2",
+            "utterance_id": "BK22005609.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 곰도 항온 동물 중 하나니까 먹이를 구하기 힘들어 잠을 자는 거겠네.",
+            "turn_id": "BK22005609-3",
+            "utterance_id": "BK22005609.5"
+        },
+        {
+            "reference_date": "2019-01-30",
+            "reference_text": [
+                {
+                    "value": "반면 곰과 같은 항온동물은 얕은 겨울잠을 잔다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "곰의 체온은 저하되지 않고 얕은 수면상태로 가을에 저장한 지방을 소모하며, 암컷은 이 기간 동안 새끼를 낳아 봄까지 먹지 않고 젖을 먹인다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://san.chosun.com/news/articleView.html?idxno=12418",
+            "search_query": "곰 겨울잠",
+            "terminate": false,
+            "text": "맞아. 곰은 항온동물인데, 항온동물은 겨울잠을 얕게 자는 특징이 있어. 그리고 곰은 체온이 내려가지 않고 얕은 수면 상태로 겨울을 보내면서 그동안 가을에 저장한 지방을 써. 참고로 암컷 곰은 얕게 겨울잠을 자는 추운 겨울 동안, 새끼를 낳고 먹이를 먹지 않으면서 새끼에게 젖을 주는 특징을 가지고 있어.",
+            "turn_id": "BK22005609-3",
+            "utterance_id": "BK22005609.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 다른 동물 중에 궁금한 게 있는데, 다람쥐도 겨울잠을 자지?",
+            "turn_id": "BK22005609-4",
+            "utterance_id": "BK22005609.7"
+        },
+        {
+            "reference_date": "2018-02-13",
+            "reference_text": [
+                {
+                    "value": "다람쥐를 예로 들면 평소에는 체온이 38도, 심장박동수가 분당 150회이지만, 겨울잠 동안에는 체온을 2~8도, 심장박동이 분당 5회로 급격히 떨어뜨린다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거의 죽음에 가까운 상태로 돌입한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체온과 심장박동과 호흡을 생존에 필요한 최소한의 에너지를 사용한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "축적된 체내 지방으로 겨울 내내 쓰며 생존할 수 있는 것이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://uberin.mk.co.kr/view.php?year=2018&no=103014",
+            "search_query": "다람쥐 겨울잠",
+            "terminate": false,
+            "text": "다람쥐도 겨울잠을 자. 다람쥐는 평소 체온이 38도, 심장박동수는 분당 150회인데, 겨울잠에 들어가게 되면 체온은 2도에서 8도, 심장박동수는 분당 5회로 떨어뜨려. 상태만 보면 거의 죽은 것과 비슷해. 체온은 낮추고 심장박동과 호흡을 적게 하면서 최소한의 에너지를 사용하는 거야. 그러면서 축적된 체내 지방을 겨울 동안 쓰며 생존하는 거야.",
+            "turn_id": "BK22005609-4",
+            "utterance_id": "BK22005609.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "죽은 상태와 비슷하게 겨울을 나다니 신기하네. 그럼 동굴에 사는 박쥐는 어떤 식으로 겨울을 나?",
+            "turn_id": "BK22005609-5",
+            "utterance_id": "BK22005609.9"
+        },
+        {
+            "reference_date": "2016-12-14",
+            "reference_text": [
+                {
+                    "value": "박쥐는 겨울잠을 자다가 너무 추우면 잠에서 깨서 활동을 재개한다고 해요.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 활동을 통해 체온을 높아지면 다시 동면에 들어갑니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201612141091027461",
+            "search_query": "박쥐 겨울잠",
+            "terminate": false,
+            "text": "박쥐는 겨울 동안 잠을 자다가 너무 춥다고 느껴지면 오히려 일어나서 활동을 시작해. 그리고 활동을 하면서 체온이 올라가면 다시 겨울잠에 들어.",
+            "turn_id": "BK22005609-5",
+            "utterance_id": "BK22005609.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "박쥐는 추우면 체온을 올리려고 하는구나. 근데 개구리는 원래 체온이 낮은데 겨울이면 꽁꽁 얼지 않을까? 어떻게 겨울을 날 수 있는 거지?",
+            "turn_id": "BK22005609-6",
+            "utterance_id": "BK22005609.11"
+        },
+        {
+            "reference_date": "2016-03-09",
+            "reference_text": [
+                {
+                    "value": "개구리는 몸의 기능을 정지시킨 상태에서 겨울잠을 잔다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "개구리의 몸 속에는 파이브리노젠이라는 부동액과 같은 성분이 있어서 몸이 얼지 않고 최소한의 생명 유지를 가능하게 한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/03/09/society/opinion/4082093.html",
+            "search_query": "개구리 겨울잠",
+            "terminate": false,
+            "text": "개구리는 겨울잠을 잘 때 몸의 기능을 정지시킨 상태를 유지해. 그리고 개구리는 몸 안에 파이브리노젠이라는 부동액 같은 성분이 있기 때문에 몸이 얼지 않고 최소한의 생명 유지가 가능한 거야.",
+            "turn_id": "BK22005609-6",
+            "utterance_id": "BK22005609.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 동물들이 겨울 나는 방법이 다 제각각이네. 그럼 곤충의 경우도 겨울잠을 잘까?",
+            "turn_id": "BK22005609-7",
+            "utterance_id": "BK22005609.13"
+        },
+        {
+            "reference_date": "2017-03-06",
+            "reference_text": [
+                {
+                    "value": "겨울잠을 자는 곤충으로는 불나방애벌레, 무당벌레, 줄박각시류 번데기, 노래기, 매미나방알, 사마귀알집 등이 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "늦가을이면 가로수 등의 줄기에 짚으로 밴드처럼 감아놓은 것을 볼 수 있는데, 겨울잠을 자는 해충들이 이 곳에서 칩거하도록 유도하기 위한 것이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "곤충들이 깨어나는 경칩 이전에 짚을 거둬 태우면 해충들을 박멸할 수 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ksilbo.co.kr/news/articleView.html?idxno=581769",
+            "search_query": "곤충 겨울잠",
+            "terminate": false,
+            "text": "물론이지. 불나방 애벌레, 무당벌레, 줄박각시류 번데기, 노래기 등이 겨울잠을 자. 참고로 늦가을에 가로수를 보면 짚으로 띠를 감아두는데, 본 적이 있을 거야. 이게 무엇이냐면 겨울잠을 자는 해충이 겨울 동안 그곳에 머물도록 하기 위한 거야. 그리고 곤충이 깨어나는 경칩 전에 짚을 싹 회수하고 태워서 해충을 없애.",
+            "turn_id": "BK22005609-7",
+            "utterance_id": "BK22005609.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나무에 감겨있던 짚으로 만든 띠가 뭔지 궁금했는데 해충을 박멸하기 위한 거구나. 그런데 왜 여름에는 여름잠을 안 잘까? 내가 동물이라면 여름은 너무 더워서 더위를 피하려고 여름잠을 잘 것 같아.",
+            "turn_id": "BK22005609-8",
+            "utterance_id": "BK22005609.15"
+        },
+        {
+            "reference_date": "2018-11-28",
+            "reference_text": [
+                {
+                    "value": "마다가스카르 섬에서는 하면(夏眠)에 들어가는 영장류가 발견됐다고 해요.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 섬에 사는 여우원숭이들은 너무 덥거나 먹이가 원활하게 공급되지 않으면 하면에 돌입합니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 하면하는 동물들은 무더운 아열대 지방이나 열대 지방에서 찾아볼 수 있습니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달팽이 등은 너무 더울 때 몸이 마르지 않도록 껍데기 속으로 쏙 숨어들어가 여름잠을 잔다고 하는데요.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 껍데기 속으로 열기가 들어오지 못하도록 입구를 점액으로 막는다고 합니다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=86563",
+            "search_query": "여름잠 자는 동물",
+            "terminate": false,
+            "text": "마다가스카르섬에는 여름잠을 자는 영장류도 있어. 이 섬에 사는 여우원숭이들은 날이 덥거나 먹이를 구하기 쉽지 않으면 여름잠에 들어가. 보통 여름잠을 자는 동물은 아열대 지방이나 열대 지방처럼 무더운 곳에서 볼 수 있어. 마다가스카르섬의 여우원숭이 말고도 여름잠에 드는 동물은 달팽이가 있는데, 날이 더우면 껍데기 속에 들어가서 몸의 수분을 유지해. 그때 달팽이는 껍데기 안에 바깥의 더운 열기가 들어가지 못하게 입구를 점액으로 막는 모습을 보여.",
+            "turn_id": "BK22005609-8",
+            "utterance_id": "BK22005609.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하다. 그런데 사람들은 여름과 겨울에 먹이도 충분하고 체온을 적당하게 유지하기도 유리하니까 겨울잠을 안자는 거겠지? 그래도 사람도 동물이니까 겨울잠을 자는 유전자는 있을 것 같아.",
+            "turn_id": "BK22005609-9",
+            "utterance_id": "BK22005609.17"
+        },
+        {
+            "reference_date": "2013-12-27",
+            "reference_text": [
+                {
+                    "value": "인간도 겨울잠 능력은 있지만, 겨울잠을 자기 시작할 때 필수적인 아데노신 같은 물질이 대량생산되지 않기 때문에 겨울잠을 자지 않는다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "도메니코 투폰 미국 오리건보건과학대 교수팀은 쥐에 특정 물질을 주입해 겨울잠 회로를 켜는 실험에 성공해 올해 9월 ‘뉴로사이언스’에 발표했다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "쥐는 원래 겨울잠을 자지 않지만, 아데노신을 투입하자 체온과 물질대사, 심장박동, 호흡 수치가 낮아지고 주요 대사물질이 탄수화물에서 지질로 바뀌는 등 겨울잠에 빠질 때와 똑같은 변화가 일어나는 것이 관찰됐다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20131227/59810584/1",
+            "search_query": "사람 겨울잠",
+            "terminate": false,
+            "text": "맞아, 인간도 겨울잠을 잘 수 있어. 그러나 겨울잠을 잘 때 필요한 아데노신같은 물질이 몸에서 대량으로 나오지 않기 때문에 겨울잠에 들 수 없는 거야. 도메니코 투폰 미국 오리건보건과학대 교수팀이 쥐에 특정 물질을 주입해 겨울잠 실험에 성공한 내용을 뉴로사이언스에 발표했어. 쥐는 원래 겨울잠을 자지 않는 동물인데, 아데노신을 투입하니까 체온, 물질대사, 심장박동, 호흡 수치가 낮아지고 주요 대사물질도 탄수화물에서 지질로 바뀌는 모습을 보였어. 이 모습은 겨울잠에 빠질 때와 동일한 변화인데, 아데노신이 겨울잠에 중요한 역할을 한다는 걸 알 수 있어.",
+            "turn_id": "BK22005609-9",
+            "utterance_id": "BK22005609.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 사람도 겨울잠을 잘 수 있다니 신기해. 나는 내가 겨울에 유독 졸려서 장난으로 겨울잠을 자야 할 것 같다고 했는데, 애초에 아데노신이 잘 분비되지 않아서 인간은 겨울잠을 안자는 거였어.",
+            "turn_id": "BK22005609-10",
+            "utterance_id": "BK22005609.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피곤엔 여러 가지 이유가 있으니까, 먼저 주말에 한번 푹 쉬어보는 것도 좋을 것 같아.",
+            "turn_id": "BK22005609-10",
+            "utterance_id": "BK22005609.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러다가 정말 겨울잠에 들면 어쩌지? 하여튼 오늘 정말 유익한 이야기 많이 나눴어. 다음에도 이런 이야기 또 나누자.",
+            "turn_id": "BK22005609-11",
+            "utterance_id": "BK22005609.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아. 오늘 푹 쉬고 다음에 또 이야기 나누자. 궁금한 게 있다면 언제든지 물어봐도 돼.",
+            "turn_id": "BK22005609-11",
+            "utterance_id": "BK22005609.22"
+        }
+    ]
+}

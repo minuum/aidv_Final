@@ -1,0 +1,382 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003397",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003397",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 B형 간염 주사를 맞고 왔어.",
+            "turn_id": "BK22003397-1",
+            "utterance_id": "BK22003397.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백신 주사를 미리 맞으면 안전하지.",
+            "turn_id": "BK22003397-1",
+            "utterance_id": "BK22003397.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날 사람들은 이런 걸 어떻게 알고 예방접종을 시작하게 된 걸까?",
+            "turn_id": "BK22003397-2",
+            "utterance_id": "BK22003397.3"
+        },
+        {
+            "reference_date": "2021-06-25",
+            "reference_text": [
+                {
+                    "value": "기원전 430년, 그리스 역사학자인 투키디데스는 필로폰네소스 전쟁을 기록하면서 “전염병에 걸렸다가 회복된 사람만이 같은 병에 걸린 환자를 간호할 수 있다.”라고 적었다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이미 한 번 질병에 걸려 나아본(싸워본) 인간은 다시 그 병에 걸리지 않는다는 현상을 통해 인간은 이미 백신의 기본 원리를 어렴풋이 알고 있었던 것이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.tech42.co.kr/%EC%B2%9C%EC%97%B0%EB%91%90%EB%B6%80%ED%84%B0-%EC%BD%94%EB%A1%9C%EB%82%98-19%EA%B9%8C%EC%A7%80-%EC%A0%84%EC%97%BC%EB%B3%91%EA%B3%BC%EC%9D%98-%EC%A0%84%EC%9F%81-%EB%B0%B1%EC%8B%A0%EC%9D%98-%EC%97%AD/",
+            "search_query": "최초의 전염병",
+            "terminate": false,
+            "text": "필로폰네소스 전쟁 기록을 보면 전염병에 걸렸다 회복된 사람만이 같은 병을 가진 환자를 간호할 수 있다고 적혀있어. 한 번 질병에 걸려서 회복된 사람은 다시는 그 병에 걸리지 않는다는 점을 보고 사람들은 백신의 기본 원리를 어느 정도 파악하게 된 거야.",
+            "turn_id": "BK22003397-2",
+            "utterance_id": "BK22003397.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 신기하네. 병에 걸린 경험을 통해서 백신이 생겨난 거구나?",
+            "turn_id": "BK22003397-3",
+            "utterance_id": "BK22003397.5"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "두창(천연두, 마마)은 두창 바이러스에 의해 발생하며 인간이외에 다른 동물 숙주는 없다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대시대부터 존재했던 감염병으로 전파력이 높아 팬데믹이 자주 나타났고 20세기에만 두창 팬데믹으로 3-5억명이 사망한 것으로 추정될 정도로 사망률도 높았다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고대부터 다양한 두창 예방법이 시도되었고, 두창 환자의 고름이나 피부 딱지를 가루로 만들어 코로 흡입하는 인두법이 일부 효과가 있었으나 한계가 있었다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bokuennews.com/news/article.html?no=216965",
+            "search_query": "천연두 인두법",
+            "terminate": false,
+            "text": "그렇지. 천연두 백신도 그렇게 개발한 거야. 천연두는 두창 바이러스에 의해 생기고 인간만이 이 바이러스의 숙주가 될 수 있었어. 고대 시대부터 존재했던 감염병인데 전파력이 높고 사망률도 높았어. 그래서 이걸 예방하기 위해 여러 방법이 사용됐는데 두창 환자의 고름이나 딱지를 가루로 만들어 코로 흡입하는 방식의 인두 법이 약간의 효과를 보였지.",
+            "turn_id": "BK22003397-3",
+            "utterance_id": "BK22003397.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 어떻게 됐어? 그 후에 어떻게 해서 천연두 백신이 만들어진 거야?",
+            "turn_id": "BK22003397-4",
+            "utterance_id": "BK22003397.7"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "1796년 영국의 의사 에드워드 제너가 우두에 걸린 사람은 두창에 잘 걸리지 않는 현상에 착안해 우두에 감염된 사람의 고름을 접종하는 우두법을 활용한 세계 최초 두창 백신을 개발했다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.inews24.com/view/1484366",
+            "search_query": "천연두 우두법",
+            "terminate": false,
+            "text": "그 후 1796년 영국 의사인 제너가 우두에 걸린 사람은 천연두에 걸리지 않는다는 것에서 아이디어를 얻었어. 그래서 우두에 감염된 사람의 고름을 사람의 몸에 접종하는 우두법을 활용한 최초의 천연두 백신을 만들어 낸 거야.",
+            "turn_id": "BK22003397-4",
+            "utterance_id": "BK22003397.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단한 사람이다. 이런 분들 덕분에 우리가 안전하게 살 수 있는 거라고 생각해. 그 이후의 백신 개발은 어떻게 진행 된 거야?",
+            "turn_id": "BK22003397-5",
+            "utterance_id": "BK22003397.9"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "이런 예방의학에서 처음 종두법을 시행한 것은 영국의 제너였으나, 질병의 원인이 되는 병원체를 분리 배양해 인공적으로 백신을 만든 건 프랑스의 과학자 파스퇴르이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1880년 프랑스에는 닭 콜레라가 창궐했고, 파스퇴르는 원인균을 찾아내기 위해 닭 콜레라균을 배양해 건강한 닭에 투입하는 실험을 계속했다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러다가 우연히 몇 주일 방치된 콜레라균을 닭에 주입하게 됐는데 놀랍게도 이 닭은 죽지 않고 살아남았고, 이후 더 강한 균을 주사해도 죽지 않는다는 것을 발견했다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kihoilbo.co.kr/news/articleView.html?idxno=979748",
+            "search_query": "파스퇴르 백신",
+            "terminate": false,
+            "text": "프랑스의 과학자 파스퇴르를 들어본 적이 있을 거야. 파스퇴르가 최초로 질병의 원인이 되는 병원체를 분리하고 배양해서 인공적으로 백신을 만들어냈어. 파스퇴르가 살던 시절엔 닭 콜레라로 사람들이 많이 힘들어했는데, 파스퇴르는 원인균을 찾기 위해 닭 콜레라균을 건강한 닭에 주입하는 실험을 했어. 그러다 우연히 몇 주일 방치된 콜레라균을 닭에게 주사 했음에도 닭이 죽지 않았다는 걸 알게 됐어. 그리고 더 강한 균을 주입해도 닭이 죽지 않는 걸 알아냈지.",
+            "turn_id": "BK22003397-5",
+            "utterance_id": "BK22003397.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 이런 이야기는 들으면 들을수록 정말 흥미로워. 백신 개발을 통해서 질병을 예방한 다른 경우도 있나?",
+            "turn_id": "BK22003397-6",
+            "utterance_id": "BK22003397.11"
+        },
+        {
+            "reference_date": "2022-04-29",
+            "reference_text": [
+                {
+                    "value": "대규모 예방접종의 힘으로 천연두는 인류가 사상 최초로 종식시킨 인간 질병이 되었다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로 소아마비의 완전한 박멸이다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소아마비는 소아마비 바이러스에 의해 신경계가 감염되면서 일어나는 전염병으로, 주로 5세 이하의 아동에게 치명적인 신체 마비를 일으킨다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1955년 조너스 소크 박사가 최초의 소아마비 백신을 개발했지만 1980년대까지만 해도 매년 전 세계 125개국에서 35만 건이 넘는 소아마비가 발병했다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 세계보건기구, 국제로타리, 미국 질병관리센터(CDC), 유니세프 등이 1988년 출범시킨 ‘소아마비 퇴치를 위한 글로벌 이니셔티브’는 지금까지 약 30억 명의 아동에게 백신을 접종했고, 2021년에는 야생 소아마비 바이러스에 의한 발병 국가는 아프가니스탄과 파키스탄, 말라위 단 3개국이며 발병 건수도 단 6건만이 보고되었고, 2022년 현재 아프카니스탄에서 1건이 보고 되었다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220429000538",
+            "search_query": "소아마비 백신",
+            "terminate": false,
+            "text": "천연두가 백신의 힘을 빌려 인류가 사상 최초로 종식시킨 질병이라면 소아마비도 그와 비슷한 길을 걷고 있어. 소아마비는 소아마비 바이러스에 의해서 생기는 전염병인데 5세 이하의 아동에게 주로 생기고 치명적인 신체 마비를 동반해. 1955년 소크 박사가 소아마비 백신을 최초로 개발했지만 1980년대까지도 100개국 이상에서 35만건이 넘는 소아마비가 발생했어. 그러나 소아마비 퇴치를 위한 글로벌 이니셔티브라는 단체가 많은 아동에게 소아마비 백신을 접종했고 2021년에는 단 세 곳의 나라에서 6건만 보고 되었어.",
+            "turn_id": "BK22003397-6",
+            "utterance_id": "BK22003397.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예방접종 덕분에 천연두와 소아마비가 우리 주변에서 볼 수 없게 됐구나.",
+            "turn_id": "BK22003397-7",
+            "utterance_id": "BK22003397.13"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "미국에서 소아마비가 자연 발생한 것은 1979년이 마지막이었으며, CDC가 확인한 것은 2013년 이후 이번이 9년 만이다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 환자는 뉴욕주 로클랜드 카운티 거주자로, 예방 접종을 맞지 않았던 20살 남성이라고 이날 지역 보건 당국이 밝혔다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220722061400009?input=1195m",
+            "search_query": "미국 소아마비 환자",
+            "terminate": false,
+            "text": "그렇지. 그런데 요 근래에도 소아마비가 발생한 적이 있어. 미국에서 발생했는데 예방 접종을 하지 않은 20살 남성이 소아마비에 걸린 거야.",
+            "turn_id": "BK22003397-7",
+            "utterance_id": "BK22003397.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백신을 맞은 사람이 걸렸을까 봐 걱정했는데 맞지 않은 사람이 걸린 거구나. 어쨌든 백신을 맞으면 안전하단 거네.",
+            "turn_id": "BK22003397-8",
+            "utterance_id": "BK22003397.15"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "백신이 보급된 지 2년 만인 1957년 소아마비는 90% 이상 줄었고, 세계 각지에서 절멸을 앞두고 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022072001033003325001",
+            "search_query": "소아마비 백신 배포",
+            "terminate": false,
+            "text": "응. 소아마비 백신이 보급된 지 2년 만에 소아마비는 90퍼센트 이상 줄었고 이제는 거의 볼 수 없게 되었어.",
+            "turn_id": "BK22003397-8",
+            "utterance_id": "BK22003397.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들으면 들을수록 예방접종을 하는 건 정말 중요한 것 같아.",
+            "turn_id": "BK22003397-9",
+            "utterance_id": "BK22003397.17"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "충분히 많은 인구가 백신을 접종했을 때 집단 면역이 발생한다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예방 접종은 전염병을 예방하는 가장 효과적인 방법으로 사용되고 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예방 접종으로 인한 광범위한 집단 면역은 전 세계적으로 천연두의 근절과 소아마비, 홍역 및 파상풍 같은 질병의 확산을 막고 있다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85",
+            "search_query": "예방접종 효과",
+            "terminate": false,
+            "text": "그렇지. 많은 인구가 접종을 하게 되면 집단 면역이 발생해. 이건 전염병을 예방하는 가장 크고 효과적인 방법이야. 아까도 이야기했지만, 접종 덕에 천연두는 근절됐고 소아마비, 홍역, 파상풍 같은 질병이 퍼지지 않게 됐지.",
+            "turn_id": "BK22003397-9",
+            "utterance_id": "BK22003397.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 사람들이 자기가 맞지 않은 백신을 확인해서 꼭 예방접종을 했으면 좋겠어.",
+            "turn_id": "BK22003397-10",
+            "utterance_id": "BK22003397.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 예방접종을 철저히 해야지 집단 면역에 도움이 되니까 말이야.",
+            "turn_id": "BK22003397-10",
+            "utterance_id": "BK22003397.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나는 주사를 맞았더니 피곤해서 좀 쉬러 갈게. 다음에 또 유익한 이야기 하자.",
+            "turn_id": "BK22003397-11",
+            "utterance_id": "BK22003397.21"
+        }
+    ]
+}

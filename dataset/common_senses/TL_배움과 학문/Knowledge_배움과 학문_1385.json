@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009024",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009024",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 고민이 있어요. 제가 건설 현장에서 일용직 노동자로 오래 일했잖아요. 일용직으로만 일하다 보니 많이 지쳐서, 건설 현장에서 좀 더 전문성이 있는 일을 해야 되겠다는 생각이 들더라고요.",
+            "turn_id": "BK22009024-1",
+            "utterance_id": "BK22009024.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러셨군요, 그런데 구체적으로 어떤 일을 하셔야 되겠다는 생각을 하셨어요?",
+            "turn_id": "BK22009024-1",
+            "utterance_id": "BK22009024.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 그게 고민이에요. 그래서 말인데 혹시 건설 현장에서 일하는 전문적인 직무 중에 추천해 주실 만 한 게 있나요?",
+            "turn_id": "BK22009024-2",
+            "utterance_id": "BK22009024.3"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "굴삭기는 토사 등을 굴착하는 토공용 건설기계로 주로 도로, 주택, 농지정리,준설 등 각종 건설 공사나 광산 작업 등에 쓰입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건설 기계 중 가장 많이 활용되고 있죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "굴삭기운전기능사는 응시자격에 제한이 없습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연령, 학력, 경력, 성별, 지역 등에 제한을 두지 않고 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사",
+            "terminate": false,
+            "text": "굴삭기운전기능사 자격증을 따셔서 굴삭기 운전을 하시는 건 어떠세요? 굴삭기는 토사 등을 착굴하는 땅을 파는 건설기계로 주로 도로, 주택, 농지정리, 준설 등 각종 건설 공사나 광산 작업 등에 사용돼요. 건설 기계 중에 제일 많이 사용되고 있죠. 게다가 굴삭기운전기능사는 응시 자격에 제한을 두고 있지 않아요. 즉, 연령, 학력, 경력, 성별, 지역 등에 제약 없이 취득할 수 있는 자격증이에요.",
+            "turn_id": "BK22009024-2",
+            "utterance_id": "BK22009024.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응시 자격에 제한이 없다니 솔깃하네요. 그런데 굴삭기운전기능사 자격은 정확히 어떤 작업 능력을 평가하는 건가요?",
+            "turn_id": "BK22009024-3",
+            "utterance_id": "BK22009024.5"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "굴삭기운전기능사 자격은 건설 토목 공사 현장에서 장비를 조종해 터파기·깎기·상차·쌓기·메우기 등의 작업을 수행하는 업무 능력을 평가합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "굴삭기의 일상점검과 예방정비를 하는 업무도 포함합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 업무 능력",
+            "terminate": false,
+            "text": "굴삭기운전기능사 자격은 건설 토목 공사 현장에서 장비를 조종해 터파기, 깎기, 상차, 쌓기, 메우기 등의 일을 실행하는 업무 능력을 평가해요. 또 굴삭기의 일상점검과 예방정비를 하는 일도 함께 평가해요.",
+            "turn_id": "BK22009024-3",
+            "utterance_id": "BK22009024.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 자격증을 가지고 있으면 어디에 주로 취업하게 되나요?",
+            "turn_id": "BK22009024-4",
+            "utterance_id": "BK22009024.7"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "건설업체, 건설기계대여업체, 건설기계제조업체, 건설기계정비업체 등에 진출할 수 있죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제조업체나 물류업체, 광산, 항만, 시·도 건설사업소 등에도 취업할 수 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 취업",
+            "terminate": false,
+            "text": "건설업체, 건설기계대여업체, 건설기계제조업체, 건설기계정비업체 등에 취업할 수 있어요. 제조업체나 물류업체, 광산, 항만, 시, 도 건설사업소 등에도 진출할 수 있어요.",
+            "turn_id": "BK22009024-4",
+            "utterance_id": "BK22009024.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진출할 수 있는 곳이 다양하네요. 그런데 혹시 자격증을 가지고 있으면 우대사항도 있나요?",
+            "turn_id": "BK22009024-5",
+            "utterance_id": "BK22009024.9"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "국가기술자격법에 의해 공공기관 및 일반기업 채용 시 그리고 보수, 승진, 전보, 신분보장 등에 있어서 우대받을 수 있죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "6급 이하 및 기술직 공무원 채용 시험 시 공업직렬의 운전 직렬에서 3%의 가산점(공무원임용시행령 31조)이 부여되고, 공공기관 및 일반기업 채용시 보수, 승진, 전보, 신분보장 등에 있어서 우대(국가공무원법 36조)를 받을 수 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 우대사항",
+            "terminate": false,
+            "text": "국가기술자격법에 의해 공공기관 및 사기업 고용 시 그리고 보수, 승진, 전보, 신분보장 등에 있어서 잘 대우 받을 수 있죠. 6급 이하 및 기술직 공무원 채용 시험 시 공무원임용시행령 31조에 따라 공업 직렬의 운전 직렬에서 3%의 가산점이 더해지고, 국가공무원법 36조에 따라 공공기관 및 일반기업 채용 시 보수, 승진, 전보, 신분보장 등에 있어서 우대를 받을 수 있어요.",
+            "turn_id": "BK22009024-5",
+            "utterance_id": "BK22009024.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 취업하면 월급은 어느 정도 수준인가요?",
+            "turn_id": "BK22009024-6",
+            "utterance_id": "BK22009024.11"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "자격증 취득 후 취업을 하게 되면 첫 월급은 평균 150만원 정도를 받는다고 하네요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "업무 숙련도에 따라 최대 400만원까지 받는 사람도 있다고 합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 월급",
+            "terminate": false,
+            "text": "자격증 취득 후 취업을 하게 되면 첫 월급은 평균 150만원 정도에요. 그리고 업무의 능숙함에 따라 최대 400만원까지 받는 사람도 있어요.",
+            "turn_id": "BK22009024-6",
+            "utterance_id": "BK22009024.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 근데 지인에게 들었는데 개인 굴삭기를 가지고 있으면 창업도 할 수 있다던데 맞나요?",
+            "turn_id": "BK22009024-7",
+            "utterance_id": "BK22009024.13"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "먼저 굴삭기를 소유하면 대여업체를 창업할 수 있고, 소유한 굴삭기로 직접 일을 할 수도 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현장에선 이를 지입이라고 부르죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해당 업체와 계약을 맺고 자신의 굴삭기를 이용해 개인적으로 일을 하는 것이죠.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 창업",
+            "terminate": false,
+            "text": "네, 맞아요. 굴삭기를 가지고 있으면 대여 업체를 창업할 수 있어요. 창업 외에도 가지고 있는 굴삭기로 직접 일을 할 수도 있어요. 현장에선 이를 지입이라고 하는데요, 해당 업체와 계약을 맺고 자신이 소유한 굴삭기를 사용해 개인적으로 일을 하는 거예요.",
+            "turn_id": "BK22009024-7",
+            "utterance_id": "BK22009024.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "창업이 되는 게 맞았군요. 그런데 굴삭운전기능사의 직업 전망은 어떤가요? 건설경기가 하도 어렵다고 해서요.",
+            "turn_id": "BK22009024-8",
+            "utterance_id": "BK22009024.15"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "굴삭운전기능사들의 향후 직업 전망도 밝은 편입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "산업인력공단에 따르면 향후 10년 간 건설기계운전원의 취업자 수는 현 상태를 유지(-1% 초과 혹은 +1%미만 증가)할 것으로 전망됩니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 직업 전망",
+            "terminate": false,
+            "text": "굴삭운전기능사들의 향후 직업 전망도 좋은 편이에요. 산업인력공단은 향후 10년 간 건설기계운전원의 취업자 수는 현 상태를 유지할 것으로 전망했거든요.",
+            "turn_id": "BK22009024-8",
+            "utterance_id": "BK22009024.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그런데 자격증 시험은 어떻게 구성되어 있나요?",
+            "turn_id": "BK22009024-9",
+            "utterance_id": "BK22009024.17"
+        },
+        {
+            "reference_date": "2021-05-25",
+            "reference_text": [
+                {
+                    "value": "응시자는 필기시험과 실기시험을 통과해야 합니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기시험은 객관식, 실기시험은 작업형으로 실시됩니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기시험 과목은 ▲건설기계기관 ▲전기 및 작업장치 ▲유압일반 ▲건설기계관리법규 및 도로통행방법 ▲안전관리 등 총 5개이며 60문항이 출제됩니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "작업형인 실기시험은 굴삭기운전작업 및 도로주행으로 진행되고요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sedaily.com/NewsView/22JWONBXF6",
+            "search_query": "굴삭기운전기능사 시험",
+            "terminate": false,
+            "text": "자격증 시험은 필기시험과 실기시험으로 나누어져 있어요. 필기시험은 객관식으로 건설기계기관, 전기 및 작업장치, 유압일반, 건설기계관리법규 및 도로통행방법, 안전관리 총 5개 과목으로 60문항을 풀어야 해요. 작업형인 실기시험은 굴삭기운전작업 및 도로 주행을 통과해야 해요.",
+            "turn_id": "BK22009024-9",
+            "utterance_id": "BK22009024.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 알려주셔서 감사했어요. 진지하게 자격증 따는 걸 고민해봐야겠어요.",
+            "turn_id": "BK22009024-10",
+            "utterance_id": "BK22009024.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 기운 내시고 현명한 선택 하시길 바랄게요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22009024-10",
+            "utterance_id": "BK22009024.20"
+        }
+    ]
+}

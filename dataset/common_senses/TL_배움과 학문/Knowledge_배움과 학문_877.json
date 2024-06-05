@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005651",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005651",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 전문가님, 저 별 좀 보세요. 어쩜 저렇게 푸를까요? 저 옆에 별은 노란색인데 종류가 다른 건가요?",
+            "turn_id": "BK22005651-1",
+            "utterance_id": "BK22005651.1"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "별은 온도가 높을수록 푸른색으로 빛나요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 온도가 내려가면서 흰색, 노란색, 주황색, 붉은색 순으로 빛나지요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "별 온도에 따른 색",
+            "terminate": false,
+            "text": "와, 별 정말 예쁘네요. 아, 별은 온도에 따라 색이 달라지는데, 푸른색은 온도가 높다는 뜻이에요. 그다음으로 흰색, 노란색, 주황색, 붉은색 순서로 온도가 높고요.",
+            "turn_id": "BK22005651-1",
+            "utterance_id": "BK22005651.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 온도에 따라 색이 달라지는군요! 그럼 클수록 더 밝은가요? 저 환한 별은 유달리 크게 보여요!",
+            "turn_id": "BK22005651-2",
+            "utterance_id": "BK22005651.3"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "우주에 있는 별들은 거리가 제각각이기 때문에 지구에서 본 밝기가 꼭 크기와 관계있는 것은 아니에요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아무리 큰 별도 멀리 있으면 어두워 보이고, 작은 별이라도 가까이 있으면 밝아 보이기 때문이지요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "별 밝기와 거리의 관계",
+            "terminate": false,
+            "text": "꼭 그렇진 않아요. 별들은 우주에 제각기 흩어져 있기 때문에 지구에서 보이는 밝기랑은 큰 연관이 없죠. 아무리 커도 지구와 멀리 떨어져 있으면 어둡게 보이고, 작아도 가깝게 있으면 밝게 보여요.",
+            "turn_id": "BK22005651-2",
+            "utterance_id": "BK22005651.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 거리가 다 다르니까 서로 연관이 없군요. 그럼 별의 등급 같은 경우는 별 자체의 밝기를 측정해서 정하나요?",
+            "turn_id": "BK22005651-3",
+            "utterance_id": "BK22005651.5"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "이렇게 별의 크기나 거리와 관계없이 지구에서 보이는 대로 별의 밝기를 측정하고 이것을 등급으로 나타낸 것을 '겉보기 등급'이라고 해요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "등급이 낮을수록 밝게 빛나는 별이지요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "별 겉보기 등급",
+            "terminate": false,
+            "text": "맞아요. 겉보기 등급이라고 해서, 별의 크기, 거리는 무시하고 지구를 기준으로 밝기를 계산하는 거예요. 등급이 아래일수록 밝은 거죠.",
+            "turn_id": "BK22005651-3",
+            "utterance_id": "BK22005651.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 왠지 그 방법은 너무 지구 기준인 것 같아요. 별의 밝기를 좀 더 공정하게 계산한 등급은 없나요?",
+            "turn_id": "BK22005651-4",
+            "utterance_id": "BK22005651.7"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "그래서 천문학자들은 별의 거리를 하나하나 알아낸 뒤, 별들을 지구로부터 모두 같은 10파섹(32.6광년) 떨어진 곳에 놓았다고 상상하고 등급을 계산했어요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 모두 같은 거리에 놓고 원래 밝기를 계산해 등급으로 나타낸 것을 '절대 등급'이라고 해요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "별 절대 등급",
+            "terminate": false,
+            "text": "물론 있죠. 절대 등급이라고 해서, 별들이 모두 같은 거리에 있다고 치고 해당 별의 원 밝기를 측정해 등급을 매기는 거예요. 천문학자들이 일단 별이 지구에서 얼마나 떨어져 있는지 계산한 다음에, 그 별들이 모두 10파섹, 즉 32.6광년 떨어져 있다고 가정해 밝기를 계산하는 거죠.",
+            "turn_id": "BK22005651-4",
+            "utterance_id": "BK22005651.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 재니까 좀 더 나은 계산법인 것 같아요. 그럼 태양은 등급으로 나타내면 어떻게 돼요?",
+            "turn_id": "BK22005651-5",
+            "utterance_id": "BK22005651.9"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "지구와 약 1억5000만㎞ 떨어진 곳에 있는 태양은 겉보기 등급이 -26.7 등급이지만, 10파섹 거리로 밀어 놓은 절대 등급은 4.8등급이죠.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "태양의 밝기 등급",
+            "terminate": false,
+            "text": "태양의 겉보기 등급은 마이너스 26.7등급이고, 절대 등급은 10파섹 떨어져 있다고 가정했을 때 4.8등급이에요. 참고로 태양은 지구에서 약 1억 5000만km 떨어져 있고요.",
+            "turn_id": "BK22005651-5",
+            "utterance_id": "BK22005651.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그런 식으로 달라지는군요. 그런데 별이 얼마나 떨어져 있는지는 무슨 수로 알죠?",
+            "turn_id": "BK22005651-6",
+            "utterance_id": "BK22005651.11"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "천문학자들은 6개월에 한 번 같은 별의 사진을 찍어요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 두 사진 사이에 나타난 별 위치 차이(시차)를 이용해 별의 거리를 구해요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 '연주시차'(年周視差)라고 하는데요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "연주시차",
+            "terminate": false,
+            "text": "천문학자들은 연주시차를 구해서 거리를 파악해요. 6개월마다 별 사진을 찍고, 그 사진들에 담긴 별의 위치가 어떻게 바뀌었는지 확인하는 거죠.",
+            "turn_id": "BK22005651-6",
+            "utterance_id": "BK22005651.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 좀 어려운데 좀 더 자세히 설명해주실 수 있나요? 거리 차이는 뭘 기준으로 두나요?",
+            "turn_id": "BK22005651-7",
+            "utterance_id": "BK22005651.13"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "지구는 1년에 한 번 태양을 중심으로 공전해요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구가 태양 왼쪽에 있을 때 관측한 별의 위치와 지구가 반년 후 태양 오른쪽에 있을 때 관측한 별의 위치는 달라지겠죠.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천문학자들은 이 위치 차이와 달라진 별의 배경을 보면서 별의 거리를 가늠해요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "연주시차 재는 법",
+            "terminate": false,
+            "text": "그 기준은 바로 태양이에요. 지구는 1년 주기로 태양을 중심으로 해 공전하잖아요. 천문학자들은 이걸 이용해서, 지구가 태양의 왼쪽에 위치할 때 별의 위치를 먼저 관찰하고, 6개월 후에 지구가 태양의 오른쪽에 위치할 때 같은 별이 어느 위치에 있는지 파악해요. 그리고 별의 배경이 어떻게 달라졌는지도 파악해서 두 요소를 놓고 별의 거리를 재는 거죠.",
+            "turn_id": "BK22005651-7",
+            "utterance_id": "BK22005651.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 식으로 구하는 거군요! 그럼 연주시차가 크면 가까이 있는 건가요?",
+            "turn_id": "BK22005651-8",
+            "utterance_id": "BK22005651.15"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "연주시차가 크면 가까이 있는 별이고, 작으면 멀리 있는 별이에요.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/05/16/2022051602264.html",
+            "search_query": "연주시차에 따른 별의 거리",
+            "terminate": false,
+            "text": "맞아요! 연주시차가 크면 지구와 가까운 곳에 있는 거고, 작으면 지구와 멀리 있다고 보죠.",
+            "turn_id": "BK22005651-8",
+            "utterance_id": "BK22005651.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 맞췄다니 좀 뿌듯한데요? 그런데 그냥 눈으로 볼 땐 마냥 예쁘기만 했는데 이야기를 듣고 다니까 별이 다르게 보이기 시작하는 게 참 신기하네요.",
+            "turn_id": "BK22005651-9",
+            "utterance_id": "BK22005651.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐든지 좀 더 알고 보면 확실히 느낌이 다르죠. 눈에 보이는 것도 더 많고요.",
+            "turn_id": "BK22005651-9",
+            "utterance_id": "BK22005651.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 학자의 시각으로 생각해 보게 되는 것 같아요. 앞으로 별 볼 때마다 저 별은 등급이 어떻고, 연주시차가 어떻고 하게 될 것 같아요. 왠지 별을 관찰하는 학자가 된 것 같은 기분이 들어서 재밌네요!",
+            "turn_id": "BK22005651-10",
+            "utterance_id": "BK22005651.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금이님이 재밌어하시니 저도 기분이 좋네요. 다음에도 별에 관한 이야기 함께 나눠봐요. 시간이 많이 늦었는데 조심히 들어가요!",
+            "turn_id": "BK22005651-10",
+            "utterance_id": "BK22005651.20"
+        }
+    ]
+}

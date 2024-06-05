@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009185",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009185",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 안락사가 정확히 뭔지 아시나요? 우연히 이 단어를 듣게 됐는데 궁금하더라고요.",
+            "turn_id": "BK22009185-1",
+            "utterance_id": "BK22009185.1"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "안락사(安樂死, euthanasia, 그리스어: ευθανασία →good death, 아름다운 죽음)란 불치의 중병에 걸린 등의 이유로 치료 및 생명 유지가 무의미하다고 판단되는 생물 또는 사람에 대하여 직·간접적 방법으로 생물을 고통없이 죽음에 이르게 만드는 행위를 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "안락사란",
+            "terminate": false,
+            "text": "안락사는 아름다운 죽음이라고도 하는데, 불치병에 걸리거나 해서 치료나 생명 유지 행위가 의미 없다고 판단되는 생물이나 사람에게 직접적, 간접적인 방식으로 고통 없이 죽음에 이르게 하는 행위를 뜻해요.",
+            "turn_id": "BK22009185-1",
+            "utterance_id": "BK22009185.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "으흠, 안락사가 그런 뜻이군요. 안락사를 수행하는 방법이 여러 가진가요?",
+            "turn_id": "BK22009185-2",
+            "utterance_id": "BK22009185.3"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "죽음에 이르게 하는 수단에 따라 적극적 안락사(積極的安樂死, active euthanasia)와 소극적 안락사(消極的安樂死, passive euthanasia)로 나눈다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소극적 안락사를 존엄사라고 하는데, 전문가에 따라 이를 존엄사와 구분하기도 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "적극적 안락사와 소극적 안락사",
+            "terminate": false,
+            "text": "죽음에 다다르게 하는 수단이 어떤 것이냐에 따라 적극적 안락사와 소극적 안락사로 구분할 수 있어요. 소극적 안락사는 존엄사라고 부르기도 하는데, 전문가에 따라서는 존엄사와 구분해서 부르기도 하죠.",
+            "turn_id": "BK22009185-2",
+            "utterance_id": "BK22009185.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구분한다면 어떤 식으로 나눈다는 건가요?",
+            "turn_id": "BK22009185-3",
+            "utterance_id": "BK22009185.5"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "'존엄사'는 소생이 불가능한 환자에 대해 의학적으로 더 이상 의미가 없는 치료의 중단을 의미하고, '소극적 안락사'는 환자의 소생 가능성과는 무관하게 환자나 가족의 요청에 따라 생명유지에 필요한 영양공급, 약물투여를 중단해 죽음에 이르도록 하는 행위라고 구분한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "존엄사와 소극적 안락사",
+            "terminate": false,
+            "text": "존엄사는 살리는 것이 불가능하다고 판단된 환자에게 의학적으로 의미가 없는 치료를 중단한다는 거예요. 소극적 안락사는 환자가 살아날 가능성이 있는지는 고려하지 않고, 환자나 가족이 요청하면 생명을 유지하는 데 필요한 영양분과 약물 지급을 중단하고 죽음에 닿도록 하는 행위라고 볼 수 있죠.",
+            "turn_id": "BK22009185-3",
+            "utterance_id": "BK22009185.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저한테는 좀 어려운데, 좀 더 쉽게 말해주실 수 있나요?",
+            "turn_id": "BK22009185-4",
+            "utterance_id": "BK22009185.7"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "다시말해 존엄사는 치료가 불가능한 환자의 자연적인 죽음이지만, 소극적 안락사는 의도된 죽음이라는 결정적인 차이가 있다는 것이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "존엄사와 소극적 안락사의 차이",
+            "terminate": false,
+            "text": "다시 말하면, 존엄사는 치료가 더 이상 의미 없는 환자가 자연적으로 죽음을 맞이하는 것이지만, 소극적 안락사는 의도한 죽음이라는 점이 결정적인 차이죠.",
+            "turn_id": "BK22009185-4",
+            "utterance_id": "BK22009185.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이제 이해가 가네요. 그럼 적극적 안락사는 어떤 방식이에요?",
+            "turn_id": "BK22009185-5",
+            "utterance_id": "BK22009185.9"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "적극적 안락사(active euthanasia)는 안락사를 수행하는 사람이 불치병의 환자나, 아주 심한 고통의 환자, 의식이 없는 환자의 삶을 단축시킬 것을 의도하여 구체적인 행위를 능동적으로 행하는 안락사의 한 형태이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어, 치사량의 약물이나 독극물을 직접적으로 주사하여 환자를 죽음으로 이끄는 경우이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "적극적 안락사",
+            "terminate": false,
+            "text": "적극적 안락사는 안락사를 이행하는 담당자가 불치병에 걸린 환자나 고통이 심한 환자, 의식이 남아 있지 않은 환자의 삶을 단축하는 행위를 의도해서, 구체적인 행동을 능동적으로 하는 형태예요. 쉽게 예를 들면, 치사량에 해당하는 약물이나 독극물을 환자에게 직접적으로 투여해서 죽음에 다다르게 하는 거죠.",
+            "turn_id": "BK22009185-5",
+            "utterance_id": "BK22009185.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말로만 들으면 상당히 섬뜩하네요. 그런데 의식이 없는 환자는 어떤 식으로 안락사를 결정하죠?",
+            "turn_id": "BK22009185-6",
+            "utterance_id": "BK22009185.11"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "동의 여부에 따라 안락사는 자발적 안락사(自發的安樂死, voluntary euthanasia)와 비자발적 안락사(非自發的安樂死, involuntary euthanasia)로 나뉜다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자발적 안락사는 환자의 직접적인 동의가 있을 경우 환자를 죽음에 이르게 하는 행위이고, 비자발적 안락사는 환자의 직접적인 동의에 없음에도 불구하고 가족의 요구 혹은 국가의 요구에 의해 환자를 죽음에 이르게 하는 행위를 일컫는다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%9D%BD%EC%82%AC",
+            "search_query": "자발적 안락사와 비자발적 안락사",
+            "terminate": false,
+            "text": "그래서 동의 여부를 기준으로 자발적 안락사와 비자발적 안락사로 구분하기도 해요. 자발적 안락사는 환자가 직접적으로 동의를 한 경우 해당 환자를 죽음에 닿게 하는 행위를 뜻하고, 비자발적 안락사는 환자가 직접적으로 동의하지 않았더라도 가족들이나 국가에서 요구한 바에 따라 환자를 죽음에 닿게 하는 행위죠.",
+            "turn_id": "BK22009185-6",
+            "utterance_id": "BK22009185.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 식으로 나누기도 하는군요. 혹시 우리나라에서도 안락사가 이루어지고 있나요?",
+            "turn_id": "BK22009185-7",
+            "utterance_id": "BK22009185.13"
+        },
+        {
+            "reference_date": "2022-03-27",
+            "reference_text": [
+                {
+                    "value": "한국에서 안락사를 도우면 처벌 받는다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "형법상 촉탁살인죄, 자살방조죄 등으로 1년 이상 10년 이하의 징역형에 처해진다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/incident/2022/03/27/R4NVYHYBWNC5RJ7DSXCL5LLTGM/?outputType=amp",
+            "search_query": "한국 안락사 처벌",
+            "terminate": false,
+            "text": "한국에서는 안락사 행위를 도우면 처벌 대상이에요. 형법상으로 촉탁살인죄, 자살방조죄 등에 해당돼서 1년 이상, 10년 이하의 징역형을 받을 수 있죠.",
+            "turn_id": "BK22009185-7",
+            "utterance_id": "BK22009185.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 우리나라에서는 범법 행위에 해당하는군요. 근데 환자 치료를 중단하는 경우도 종종 있지 않나요? 관련 뉴스를 몇 번 본 것 같거든요.",
+            "turn_id": "BK22009185-8",
+            "utterance_id": "BK22009185.15"
+        },
+        {
+            "reference_date": "2022-06-02",
+            "reference_text": [
+                {
+                    "value": "다만 2018년 2월부터 '호스피스·완화의료 및 임종과정에 있는 환자의 연명의료결정에 관한 법률(연명의료결정법)’이 시행되면서 의학적으로 무의미한 연명의료 중단이 합법화됐다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220601_0001892868",
+            "search_query": "연명의료 중단 가능",
+            "terminate": false,
+            "text": "맞아요, 그와 관련된 법이 2018년 2월부터 시행 중이에요. 호스피스, 완화의료 및 임종 과정에 있는 환자의 연명의료 결정에 관한 법률이라고, 줄여서 연명의료결정법이라고 부르는데 이 법이 시행된 뒤 의학적으로 봤을 때 의미가 없는 연명의료는 중단해도 합법이에요.",
+            "turn_id": "BK22009185-8",
+            "utterance_id": "BK22009185.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시행된 지가 그렇게 오래된 건 아니군요. 이야기를 듣다 보니 안락사에 대해 많은 생각을 하게 되네요.",
+            "turn_id": "BK22009185-9",
+            "utterance_id": "BK22009185.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이전에는 사람의 생명을 논하는 게 금기처럼 여겨졌지만, 이제는 시각이 많이 달라진 것 같아요.",
+            "turn_id": "BK22009185-9",
+            "utterance_id": "BK22009185.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게요, 이렇게 용어가 정의되어 있다는 것부터가 어떤 시작점처럼 느껴지네요. 오늘 이렇게 이야기 나눌 수 있어서 너무 좋았네요, 알려주셔서 감사해요!",
+            "turn_id": "BK22009185-10",
+            "utterance_id": "BK22009185.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 궁금이님이랑 이야기 나눠서 즐거웠어요. 다음에 또 이야기 나눠요!",
+            "turn_id": "BK22009185-10",
+            "utterance_id": "BK22009185.20"
+        }
+    ]
+}

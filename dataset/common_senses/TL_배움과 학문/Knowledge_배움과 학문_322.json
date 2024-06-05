@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013168",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013168",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 부산에 사는 제 친구가 사진을 하나 보내줬는데, 여우가 찍혀있더라고요.",
+            "turn_id": "BK22013168-1",
+            "utterance_id": "BK22013168.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 달 정도 전에 소백산에 방사한 여우가 부산에서 발견되어서 뉴스에 났던 적이 있죠.",
+            "turn_id": "BK22013168-1",
+            "utterance_id": "BK22013168.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 말인데 오늘은 여우에 대해서 알려주세요. 먼저 우리나라에 사는 여우는 어떤 여우인가요?",
+            "turn_id": "BK22013168-2",
+            "utterance_id": "BK22013168.3"
+        },
+        {
+            "reference_date": "44083.0",
+            "reference_text": [
+                {
+                    "value": "그중에서 붉은여우(red fox, Vulpes vulpes)는 북반구의 대륙에 널리 분포하고 개체 수도 많아 여우를 대표하는 종이다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "분포지역이 넓은 만큼 아종도 45개에 이른다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한반도에 서식하는 아종은 한국여우(Vulpes vulpes peculiosa)로 분류한다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23868025",
+            "search_query": "붉은여우 한국여우",
+            "terminate": false,
+            "text": "한반도에서 사는 여우는 붉은여우의 아종인 한국여우입니다. 참고로 붉은여우는 여우를 대표하는 종으로서 북반구 대륙에 널리 퍼져 살고 개체 수도 많은데요. 분포지가 광범위하다 보니 아종도 45종이나 있습니다.",
+            "turn_id": "BK22013168-2",
+            "utterance_id": "BK22013168.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국에 사는 여우는 붉은여우의 아종이군요. 우리나라 여우의 기본 특징으로는 어떤 게 있나요?",
+            "turn_id": "BK22013168-3",
+            "utterance_id": "BK22013168.5"
+        },
+        {
+            "reference_date": "44083.0",
+            "reference_text": [
+                {
+                    "value": "한반도 종은 몸길이 66~68cm, 꼬리 길이 42~44cm, 체중 4.1~5.9kg으로 중간크기다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모색은 황갈색에서 진한 적색까지 다양하고 변이도 많다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23868025",
+            "search_query": "한국여우 몸길이 모색",
+            "terminate": false,
+            "text": "한반도에 사는 종은 몸길이가 66에서 68센티미터이고, 꼬리 길이는 42에서 44센티미터입니다. 몸무게는 4.1에서 5.9킬로그램까지 나가는데, 여우 중에 중간크기고요. 털 색깔은 황갈색에서 진한 적색까지 여러 종류가 있고 변이도 많습니다.",
+            "turn_id": "BK22013168-3",
+            "utterance_id": "BK22013168.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "붉은여우는 보통 어떤 곳에서 서식하나요?",
+            "turn_id": "BK22013168-4",
+            "utterance_id": "BK22013168.7"
+        },
+        {
+            "reference_date": "44083.0",
+            "reference_text": [
+                {
+                    "value": "서식지는 깊은 삼림 지역부터 북극 지역의 툰드라, 평원, 민가와 경작지 주변 등 넓은 분포영역을 가진다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때로는 도시의 주택가에도 먹이를 찾으려 나타난다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23868025",
+            "search_query": "여우 서식지",
+            "terminate": false,
+            "text": "붉은여우는 깊은 삼림 지대부터 북극 지역의 툰드라, 평원, 주택가와 농경지 주위 등 광범위한 영역에 분포되어 삽니다. 가끔 도시의 민가에 먹이를 구하러 오기도 하고요.",
+            "turn_id": "BK22013168-4",
+            "utterance_id": "BK22013168.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 분포된 범위가 넓군요. 여우 하면 굴이 떠오르는데, 붉은여우는 굴을 어떤 식으로 만드나요?",
+            "turn_id": "BK22013168-5",
+            "utterance_id": "BK22013168.9"
+        },
+        {
+            "reference_date": "44083.0",
+            "reference_text": [
+                {
+                    "value": "보통 땅속에 굴을 파서 은신처로 삼고 큰 굴은 새끼를 키울 때 이용한다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "굴은 앞발로 파고 뒷발로는 파낸 흙을 밖으로 밀어낸다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1~3m의 깊이에 10m 정도 길이의 굴을 파고 내부 통로는 여러 갈래로 분기된다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "굴에 여러 개의 통로와 출입구를 만들어 유사시 쉽게 피할 수 있도록 한 것은 약삭빠른 일면이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23868025",
+            "search_query": "여우 굴 여러 개의 통로 출입구",
+            "terminate": false,
+            "text": "네, 붉은여우는 보통 굴을 파서 땅속을 은신처로 활용하고, 커다란 굴은 새끼를 양육할 때 활용하죠. 앞발로 땅을 파고, 파낸 흙은 뒷발을 사용해서 굴 밖으로 밀어냅니다. 깊이는 1미터에서 3미터이고, 길이가 10미터 정도 되는 굴을 만드는데, 내부 통로는 여러 방향으로 갈라집니다. 굴에 다수의 통로와 출입구를 둬서 위기가 닥치면 금방 피할 수 있게 해놓은 걸 통해 붉은여우의 영리함이 드러나죠.",
+            "turn_id": "BK22013168-5",
+            "utterance_id": "BK22013168.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 붉은여우는 주로 무엇을 먹고사나요?",
+            "turn_id": "BK22013168-6",
+            "utterance_id": "BK22013168.11"
+        },
+        {
+            "reference_date": "44083.0",
+            "reference_text": [
+                {
+                    "value": "붉은여우는 들쥐·생쥐·다람쥐 등 설치류가 주식이고 토끼·파충류·곤충·과일 등 다양한 식단을 가진 잡식성이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사냥할 때는 시각과 후각 청각 모두 활용하나 청각이 압권이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "100m 떨어진 곳에서 쥐가 움직이는 소리를 들을 수 있는 청력이다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23868025",
+            "search_query": "붉은여우 주식",
+            "terminate": false,
+            "text": "붉은여우는 주식이 들쥐, 생쥐, 다람쥐 같은 설치류입니다. 하지만 토끼, 파충류, 곤충, 과일 등 다양하게 섭취하는 잡식성이기도 해요. 시각, 후각, 청각 전부 활용해서 사냥하는데, 이중 청각이 압권입니다. 청력이 100미터 떨어진 데서 쥐가 움직이는 소리를 감지하는 수준이죠.",
+            "turn_id": "BK22013168-6",
+            "utterance_id": "BK22013168.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청력이 정말 장난이 아니군요. 그런데 붉은여우 개체수가 많다고 하셨는데, 우리나라에서는 왜 이렇게 여우를 보기 힘든 건가요?",
+            "turn_id": "BK22013168-7",
+            "utterance_id": "BK22013168.13"
+        },
+        {
+            "reference_date": "44712.0",
+            "reference_text": [
+                {
+                    "value": "한때 한반도 전역에 분포했던 여우는 마을 근처에서도 흔히 볼 수 있었지만, 지금은 멸종위기 야생동물 1급으로 지정돼 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1960년대 대대적인 쥐잡기 운동으로 여우의 주요 먹이인 쥐가 거의 사라지면서 여우 개체 수가 급감했다.",
+                    "value_time": "44827.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/environment/1045201.html",
+            "search_query": "여우 멸종위기 이유",
+            "terminate": false,
+            "text": "한때 한반도 전역에 여우가 널리 퍼져 살아서, 마을 부근에서도 쉽게 목격되었는데요. 현재 멸종위기 야생동물 1급으로 등재돼 있습니다. 1960년대 쥐잡기 운동이 대대적으로 전개되면서, 여우의 주식인 쥐가 거의 없어지게 되었죠. 그래서 여우 개체 수가 급격히 줄어들었어요.",
+            "turn_id": "BK22013168-7",
+            "utterance_id": "BK22013168.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먹잇감이 부족해지니까 자연스럽게 자취를 감춘 셈이군요. 그러면 여우 개체수를 늘리기 위해 정부 차원에서는 어떤 노력을 하는 중인가요?",
+            "turn_id": "BK22013168-8",
+            "utterance_id": "BK22013168.15"
+        },
+        {
+            "reference_date": "44712.0",
+            "reference_text": [
+                {
+                    "value": "국립공원공단은 2012년부터 소백산에서 여우 복원사업을 벌였다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국립공원공단은 현재까지 도입·자체증식·자연출생 등으로 여우 총 262마리를 복원했고, 현재 148마리가 생존해 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 가운데 76마리는 자연에서 지내고 있고, 나머지는 생태학습장에 있다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/environment/1045201.html",
+            "search_query": "여우 멸종위기 이유",
+            "terminate": false,
+            "text": "2012년부터 국립공원공단은 소백산에서 여우 복원사업을 펼치고 있습니다. 지금까지 도입, 자체 증식, 자연 출생 등으로 총 262마리의 여우를 복원하는 데 성공했고, 2022년 5월, 148마리가 사는 중이죠. 이 중 자연에 생존해 있는 여우는 76마리고, 나머지는 생태학습장에서 살고 있습니다.",
+            "turn_id": "BK22013168-8",
+            "utterance_id": "BK22013168.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 친구가 부산에서 본 여우도 76마리 중에 한 마리였겠군요. 복원사업이 순조롭게 진행되면 여우 개체수도 불어날 텐데, 만약 길을 가다가 여우를 마주치면 어떻게 행동해야 하나요?",
+            "turn_id": "BK22013168-9",
+            "utterance_id": "BK22013168.17"
+        },
+        {
+            "reference_date": "44749.0",
+            "reference_text": [
+                {
+                    "value": "외국 사례를 보면 여우가 사람을 공격한 적이 거의 없지만, 여우와 마주쳤을 경우 소리를 지르거나 먹이 주는 등의 행동을 하지 말고 그 공간을 조용히 벗어나야 한다고 환경부는 당부했다.",
+                    "value_time": "44827.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/wild_animal/1049781.html",
+            "search_query": "여우와 마주쳤을 경우",
+            "terminate": false,
+            "text": "외국 사례를 참조하면 여우가 사람을 공격하는 사례는 극히 드뭅니다. 하지만 여우와 마주치게 되면 소리를 지르거나 먹이를 주는 것 같은 행동은 지양하고, 그 공간을 조용히 떠나야 한다고 환경부에서 권고하고 있어요.",
+            "turn_id": "BK22013168-9",
+            "utterance_id": "BK22013168.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다시 한국에서 여우를 흔하게 보게 되면 좋겠네요. 그러면 이제 저는 돌아가 보겠습니다. 여우 이야기 잘 듣고 갑니다.",
+            "turn_id": "BK22013168-10",
+            "utterance_id": "BK22013168.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에도 재밌는 대화 나눠요.",
+            "turn_id": "BK22013168-10",
+            "utterance_id": "BK22013168.20"
+        }
+    ]
+}

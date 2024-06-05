@@ -1,0 +1,343 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002839",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002839",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 초한지라는 소설 아세요? 삼국지는 많이 들어봤는데 초한지는 처음 들어봐요.",
+            "turn_id": "BK22002839-1",
+            "utterance_id": "BK22002839.1"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "초한지(楚漢志), 초한연의(楚漢演義)는 중국의 역사 소설이며 명나라 때 종산거사 견위가 쓴 서한연의가 원본이라고 하나 원저자와 저작물의 진위 여부는 분명하지 않다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진나라 말기 초나라 항우와 한나라 유방의 기나긴 대립을 묘사하고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B4%88%ED%95%9C%EC%A7%80",
+            "search_query": "초한지",
+            "terminate": false,
+            "text": "초한지는 초나라 항우와 한나라 유방의 기나긴 싸움을 그린 이야기에요. 명나라 시대 견위가 쓴 서한연의가 원본이라는 말이 있는데 그게 진짜인지는 분명하지 않아요.",
+            "turn_id": "BK22002839-1",
+            "utterance_id": "BK22002839.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초나라와 한나라면 대체 얼마나 오래된 거예요?",
+            "turn_id": "BK22002839-2",
+            "utterance_id": "BK22002839.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "끝내 한나라가 이긴다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초한지는 기원전 200년도 쯤에 발생했던 일로 주인공들은 패왕 항우와 고조 유방이다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B4%88%ED%95%9C%EC%A7%80",
+            "search_query": "초한지 기원전 200년",
+            "terminate": false,
+            "text": "대략 기원전 200년쯤의 일이에요. 둘의 싸움은 결국 한나라의 승리로 끝나죠.",
+            "turn_id": "BK22002839-2",
+            "utterance_id": "BK22002839.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼국지보다 더 과거에 일어난 일이네요. 그럼 한나라가 승리한 이후의 역사는 어떻게 되나요?",
+            "turn_id": "BK22002839-3",
+            "utterance_id": "BK22002839.5"
+        },
+        {
+            "reference_date": "2021-07-25",
+            "reference_text": [
+                {
+                    "value": "결국 최후의 승자는 유방이었고, 유방이 세운 한나라는 고조선과 베트남을 정벌하며 동아시아의 패권 국가가 됐다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisaon.co.kr/news/articleView.html?idxno=129779",
+            "search_query": "유방 한나라 패권",
+            "terminate": false,
+            "text": "그 전쟁에서 최후의 승자였던 유방이 세운 한나라는 이후 고조선, 베트남을 정벌하면서 동아시아의 패권을 차지하게 돼요.",
+            "turn_id": "BK22002839-3",
+            "utterance_id": "BK22002839.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하! 그래서 중국 역사에서 한나라가 그렇게 유명한 거였네요?",
+            "turn_id": "BK22002839-4",
+            "utterance_id": "BK22002839.7"
+        },
+        {
+            "reference_date": "2020-04-01",
+            "reference_text": [
+                {
+                    "value": "중국인들을 스스로를 한족(漢族)이라 말하며 한족 정체성의 출발점인 한나라(BC 206~AD 220)를 중국 역대 왕조 중에서 가장 자랑스럽게 인식하고 있다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2020/04/28079/",
+            "search_query": "한족 한나라 정체성",
+            "terminate": false,
+            "text": "그렇죠. 다수의 중국인이 자신을 한족으로 일컫는데 그 정체성의 시작이 바로 한나라거든요. 그래서 특히 여러 왕조 중에 한나라를 자랑스러워해요.",
+            "turn_id": "BK22002839-4",
+            "utterance_id": "BK22002839.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그 대단한 한나라를 세운 유방이란 인물에 대해 궁금해지네요.",
+            "turn_id": "BK22002839-5",
+            "utterance_id": "BK22002839.9"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "진 말기 농민 반란에 가담하기 전의 유방은 소위 '협객(狹客)'으로서, 가업은 뒷전이고 주색에 빠져 살고 있었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%ED%95%9C_%EA%B3%A0%EC%A0%9C",
+            "search_query": "유방 주색",
+            "terminate": false,
+            "text": "유방이 참 재밌는 인물이에요. 농민 반란에 참여하기 전엔 집안일은 젖혀두고 술과 여자에 빠져 살던 한심한 사람이었거든요.",
+            "turn_id": "BK22002839-5",
+            "utterance_id": "BK22002839.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 인물이 위대한 제국을 세웠다고요? 역사란 참 아이러니하군요. 이런 유방이 대체 어떻게 반란에 가담하게 된 거예요?",
+            "turn_id": "BK22002839-6",
+            "utterance_id": "BK22002839.11"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "유방은 정장으로서 황릉 공사에 동원될 인부를 함양으로 데리고 가지만, 진의 가혹한 노동과 형벌을 두려워한 인부들은 차례차례로 도망쳤고 난처해진 유방은 술을 퍼마시고 만취한 상태로 남은 모든 인부들까지 도망치게하고서 자신도 다른 갈 길이 없는 인부들과 함께 소택(沼澤)에 숨었다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%ED%95%9C_%EA%B3%A0%EC%A0%9C",
+            "search_query": "유방 인부 도망",
+            "terminate": false,
+            "text": "유방이 마을 정장으로서 진시황릉 공사에 쓸 인부들을 진나라 함양으로 데리고 가는데 진나라의 노동과 형벌이 두려웠던 인부들이 차례로 도망을 가요. 당황한 유방이 술을 퍼마시고 만취한 상태로 남은 사람들도 도망가게 한 뒤 인부 몇몇과 함께 습지에 숨어버리면서 일탈이 시작되는 거죠.",
+            "turn_id": "BK22002839-6",
+            "utterance_id": "BK22002839.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 가담하게 된 과정이 웃기네요. 그럼 유방과 맞선 항우는요? 그도 유방과 비슷한 인물이었나요?",
+            "turn_id": "BK22002839-7",
+            "utterance_id": "BK22002839.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "항우의 가족으로 초나라 장군이었던 할아버지 항연과 숙부 항량(項梁) 등이 있으며 그외에도 항우의 가문에는 초나라 군인이 많았다고 한다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%AD%EC%9A%B0",
+            "search_query": "항우 가문 항연",
+            "terminate": false,
+            "text": "전혀 아니에요. 항우는 초나라의 군인 가문 출신으로서 초나라 장군이었던 항연의 손자이자 항량의 조카였어요.",
+            "turn_id": "BK22002839-7",
+            "utterance_id": "BK22002839.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 둘이 굉장히 대비되네요. 동네 한량과 장군의 손자 대결이라니.",
+            "turn_id": "BK22002839-8",
+            "utterance_id": "BK22002839.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그게 재미있는 점이죠. 하지만 지나치게 자부심이 강하고 오만했던 항우는 결국 자만심을 버리지 못하다가 패배하고 말죠.",
+            "turn_id": "BK22002839-8",
+            "utterance_id": "BK22002839.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그 자부심이 강한 항우는 한나라에게 결국 어떻게 지게 되나요?",
+            "turn_id": "BK22002839-9",
+            "utterance_id": "BK22002839.17"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "항우의 군대가 진격해 오자 한신의 군대는 불리해서 퇴각했는데, 측면을 맡은 공취와 진하가 초나라 군대를 공격하니 거꾸로 초나라 군대가 불리해졌고, 물러선 한신이 그 틈에 초나라 군대를 치니 초나라 군대는 대패했다.",
+                    "value_time": "2022-07-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B4%ED%95%98_%EC%A0%84%ED%88%AC",
+            "search_query": "항우 초나라 한신",
+            "terminate": false,
+            "text": "항우의 군대가 진격하자 한나라측의 한신이라는 인물이 군대를 잠시 물렸다가 공취와 진하의 협공으로 초나라 군대가 불리해지자 그 틈에 초나라를 쳤어요. 이 때문에 초나라는 결국 크게 지고 맙니다.",
+            "turn_id": "BK22002839-9",
+            "utterance_id": "BK22002839.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그게 초나라의 최후였군요. 중국 역사도 참 다이나믹하고 재밌네요.",
+            "turn_id": "BK22002839-10",
+            "utterance_id": "BK22002839.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠? 사실 중국 역사는 이외에도 재밌는 장면이 매우 많아요.",
+            "turn_id": "BK22002839-10",
+            "utterance_id": "BK22002839.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 다음에 또 얘기하면 재밌는 얘기 많이 들려주세요.",
+            "turn_id": "BK22002839-11",
+            "utterance_id": "BK22002839.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어휴 당연히 그래야죠. 그럼 다음에는 제가 먼저 연락할게요!",
+            "turn_id": "BK22002839-11",
+            "utterance_id": "BK22002839.22"
+        }
+    ]
+}

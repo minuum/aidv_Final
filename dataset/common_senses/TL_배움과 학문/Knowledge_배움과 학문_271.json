@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013052",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013052",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님, 노래 부르는 것 좋아하세요?",
+            "turn_id": "BK22013052-1",
+            "utterance_id": "BK22013052.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 일주일에 한두 번씩은 코인노래방에 가요.",
+            "turn_id": "BK22013052-1",
+            "utterance_id": "BK22013052.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 노래방에 즐겨 가시는구나. 그건 그렇고 노래방이라고도 부르고 노래연습장이라고도 부르는데, 둘의 차이가 뭔가요?",
+            "turn_id": "BK22013052-2",
+            "utterance_id": "BK22013052.3"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "노래방(-房, 문화어: 화면반주음악실, 일본어: カラオケ(ボックス), 영어: karaoke (box), 타갈로그어: videoke)은 음악을 따라 부르는 장소를 말하거나 그런 서비스를 제공하는 유흥업소를 뜻한다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노래연습장'은 반주에 맞추어 노래를 부를 수 있도록 하는 영상 또는 무영상 반주장치 등의 시설을 갖추는 것이 허용되며, 주류는 판매할 수 없다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%9E%98%EB%B0%A9",
+            "search_query": "노래방",
+            "terminate": false,
+            "text": "반주기에 맞춰 노래를 부를 수 있거나, 노래를 부를 수 있는 유흥업소를 통칭해서 노래방이라 부르고요. 노래연습장은 그 중 반주 기계를 통해 나오는 반주에 맞춰 노래할 수 있는 시설이 갖춰진 곳을 의미하고, 술은 팔지 않습니다.",
+            "turn_id": "BK22013052-2",
+            "utterance_id": "BK22013052.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 보통 노래방이라고 하면 노래연습장을 의미하는 거겠군요. 그럼 이런 노래방은 어디서 유래했나요?",
+            "turn_id": "BK22013052-3",
+            "utterance_id": "BK22013052.5"
+        },
+        {
+            "reference_date": "44225.0",
+            "reference_text": [
+                {
+                    "value": "우리나라 노래방 역사의 시작은 1990년대 초, 일본의 ‘가라오케’가 들어오면서부터다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본의 노래방이라 할 수 있는 가라오케는 우리나라에 들어와 ‘노래연습장’ 혹은 ‘단란주점’이라는 대중문화공간으로 빠르게 자리잡았다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rwn.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "노래방 시작",
+            "terminate": false,
+            "text": "우리나라의 노래방 역사는 1990년대 초, 일본의 가라오케가 유입되면서 시작되었어요. 가라오케는 일본의 노래방 격이라 볼 수 있는데, 한국에서는 노래연습장이나 단란주점 같은 공간으로 단시간에 정착하였습니다.",
+            "turn_id": "BK22013052-3",
+            "utterance_id": "BK22013052.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 그럼 일본이 원조인 거네요? 그런데 가라오케가 대체 무슨 뜻인가요?",
+            "turn_id": "BK22013052-4",
+            "utterance_id": "BK22013052.7"
+        },
+        {
+            "reference_date": "44225.0",
+            "reference_text": [
+                {
+                    "value": "‘가라오케’는 ‘비어 있다’는 뜻의 ‘가라(空)’와 ‘오케스트라’의 ‘오케’를 따서 만든 합성어다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노래방이라는 공간의 의미보다는 노래가 들어있지 않은 ‘반주기계’의 의미가 더 강하다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rwn.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "가라오케 뜻",
+            "terminate": false,
+            "text": "가라는 비어있다는 뜻의 일본어이고, 오케는 오케스트라를 줄인 말이에요. 가라오케는 이 둘을 합쳐 만든 단어인데, 노래 부르는 공간으로서 노래방이라는 뜻보다는 노래가 들리지 않는 반주기계라는 뜻에 더 가깝답니다.",
+            "turn_id": "BK22013052-4",
+            "utterance_id": "BK22013052.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 가라오케는 노래방 반주기라는 뜻으로 보면 되겠군요. 그렇다면 이 가라오케는 언제 만들어졌나요?",
+            "turn_id": "BK22013052-5",
+            "utterance_id": "BK22013052.9"
+        },
+        {
+            "reference_date": "43141.0",
+            "reference_text": [
+                {
+                    "value": "일본의 무명 밴드 드러머였던 이노우에 다이스케는 1971년 세계 최초로 반주기계인 ‘가라오케’를 발명했다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20180209003811?OutUrl=naver",
+            "search_query": "가라오케 발명",
+            "terminate": false,
+            "text": "세계 최초의 반주기계인 가라오케는 1971년 세상에 나왔는데, 발명자는 당시 무명 밴드 드럼연주자였던 이노우에 다이스케였습니다.",
+            "turn_id": "BK22013052-5",
+            "utterance_id": "BK22013052.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이노우에 다이스케가 노래방의 발명자라고 볼 수도 있겠네요. 그렇다면 한국 최초의 노래방은 어디인가요?",
+            "turn_id": "BK22013052-6",
+            "utterance_id": "BK22013052.11"
+        },
+        {
+            "reference_date": "43986.0",
+            "reference_text": [
+                {
+                    "value": "이런 노래방이 국내에 처음 소개된 것은 지금으로부터 대략 30년 전이 1991년 4월이다.",
+                    "value_time": "44786.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부산 사하구 동아대 앞 ‘로얄전자오락실’ 내부에 1.6평의 별도 공간을 마련하고 동전 300원을 넣으면 반주가 나오는 기기가 설치됐다.",
+                    "value_time": "44786.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200603155323964",
+            "search_query": "한국 최초 노래방",
+            "terminate": false,
+            "text": "대략 30년 전인 1991년 4월 부산 사하구 동아대 앞에 있었던 로얄 전자오락실에 처음으로 등장했습니다. 오락실 안에 1.6평이 되는 별도의 공간이 설치되었고, 그 안에 300원을 넣으면 노래 반주가 나오는 기계가 입고되었죠.",
+            "turn_id": "BK22013052-6",
+            "utterance_id": "BK22013052.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 최초로 노래연습장으로 사업자등록이 된 곳은 어딘가요?",
+            "turn_id": "BK22013052-7",
+            "utterance_id": "BK22013052.13"
+        },
+        {
+            "reference_date": "44225.0",
+            "reference_text": [
+                {
+                    "value": "전국에서 최초로 상업적으로 등록한, 말하자면 노래방 등록 제1호점은 1991년 부산 광안리해수욕장에 있던 ‘하와이안 비치노래방’이었다.",
+                    "value_time": "44782.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.rwn.co.kr/news/articleView.html?idxno=58714",
+            "search_query": "노래방 등록 1호",
+            "terminate": false,
+            "text": "1991년 광안리해수욕장 근처에 있던 하와이안 비치 노래방이, 한국에서 첫 번째로 노래방으로 등록한 곳이었습니다.",
+            "turn_id": "BK22013052-7",
+            "utterance_id": "BK22013052.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옛날에는 노래방이 청소년 출입 금지 업소였던 적도 있다던데, 언제부터 출입할 수 있었나요?",
+            "turn_id": "BK22013052-8",
+            "utterance_id": "BK22013052.15"
+        },
+        {
+            "reference_date": "43675.0",
+            "reference_text": [
+                {
+                    "value": "1999년에는 오후 10시 이전 청소년 출입이 자유로워지면서 노래방이 '국민 여가시설'로 자리 잡았다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2019/07/29/2019072900041.html?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "청소년 노래방",
+            "terminate": false,
+            "text": "1999년입니다. 오후 10시까지 청소년 출입이 자유롭게 됐는데요. 덕분에 노래방이 전 국민이 애용하는 오락시설로 자리 잡게 됩니다.",
+            "turn_id": "BK22013052-8",
+            "utterance_id": "BK22013052.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 노래방이 점점 줄어들고 있다면서요?",
+            "turn_id": "BK22013052-9",
+            "utterance_id": "BK22013052.17"
+        },
+        {
+            "reference_date": "43676.0",
+            "reference_text": [
+                {
+                    "value": "2011년 3만5000여 개로 정점을 찍은 전국의 노래방 수는 코인노래방 창업 열풍이 일던 2015년과 2016년을 제외하곤 내리막길을 걸어왔다.",
+                    "value_time": "44782.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20190730/96750267/1",
+            "search_query": "노래방 쇠퇴",
+            "terminate": false,
+            "text": "한국의 노래방 수는 2011년에 3만 5천여 개로 정점을 찍은 후, 2015년과 2016년에 동전 노래방 창업이 유행하면서 잠시 늘어난 것을 제외하면 줄곧 하락세입니다.",
+            "turn_id": "BK22013052-9",
+            "utterance_id": "BK22013052.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 저녁에는 오래간만에 동전 노래방에 갔다 와야겠어요. 오늘도 좋은 말씀 잘 들었습니다. 안녕히 가세요.",
+            "turn_id": "BK22013052-10",
+            "utterance_id": "BK22013052.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 노래 잘 부르시고요. 저는 다음에 또 뵙겠습니다!",
+            "turn_id": "BK22013052-10",
+            "utterance_id": "BK22013052.20"
+        }
+    ]
+}

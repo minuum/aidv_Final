@@ -1,0 +1,427 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009327",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009327",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토론 동아리에서 근대철학이라는 정말 어려운 주제로 토론을 하게 되었어. 혹시 인식론에 대해서 알고 있니?",
+            "turn_id": "BK22009327-1",
+            "utterance_id": "BK22009327.1"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "인식론(認識論, 영어: Epistemology)은 지식에 대한 제반 사항을 다루는 철학의 한 분야로서 지식의 본질, 신념의 합리성과 정당성 등을 연구한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "근대에서 인식의 기원에 관한 주장으로는 이성론과 경험론이 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "칸트는 이 양자를 종합하려고 선험적 관념론을 주장했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다음으로 인식의 본질에 관해서는 '인식의 대상'이 관념적이라는 관념론과 실재적이라는 실재론이 대립한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8B%9D%EB%A1%A0",
+            "search_query": "인식론",
+            "terminate": false,
+            "text": "인식론이란 지식의 본질, 신념의 정당성과 합리성 등을 연구하면서 지식과 관련한 모든 사항을 다루는 철학의 분야를 말해. 근대에는 이성론과 경험론을 통해 인식의 기원에 대해 주장하려고 했는데 칸트는 이 두 이론을 종합하기 위해 선험적 관념론을 주장했지. 그 후, 인식의 대상은 관념적이라고 주장하는 관념론과 실재적이라는 실재론이 대립하면서 인식의 본질에 대한 논쟁이 이어졌지.",
+            "turn_id": "BK22009327-1",
+            "utterance_id": "BK22009327.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각했던 것 보다 포괄적인 개념이구나. 칸트에 대해서 간단히 설명해 줄래?",
+            "turn_id": "BK22009327-2",
+            "utterance_id": "BK22009327.3"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "이마누엘 칸트(독일어: Immanuel Kant [ɪˈmaːnu̯eːl kant], 1724년 4월 22일 ~ 1804년 2월 12일)는 근대 계몽주의를 정점에 올려놓았고 독일 관념철학의 기반을 확립한 프로이센의 철학자이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "칸트는 18세기 철학에 있어 가장 절대적인 영향력을 끼친 인물로 평가 받는다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특정한 사상가에게 준 구체적인 영향을 넘어서, 칸트는 그가 살았던 시대에서부터 지금까지에 이르는 철학연구가 칸트 이전으로 돌아갈 수 없을 정도로 철학의 틀 구조를 바꾸었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 전환은 공리주의에서 후기 칸트학파의 사상에 이르는 혁신과 밀접하게 연관된 채로 철학과 사회과학, 인문학 분야 모두에서 유지되었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A7%88%EB%88%84%EC%97%98_%EC%B9%B8%ED%8A%B8",
+            "search_query": "칸트",
+            "terminate": false,
+            "text": "이마누엘 칸트는 프로이센의 철학자인데 18세기 철학에 있어 절대적인 영향력을 끼친 인물로서 근대 계몽주의를 정점으로 올렸고 독일 관념철학의 기반을 확립했어. 그의 영향력은 특정한 사상가뿐만 아니라 전반적인 철학의 틀 구조를 바꾸었는데 18세기에서부터 현대까지의 철학연구는 칸트 이전으로 돌아갈 수 없을 정도라고 평가해. 칸트의 철학 구조의 전환은 철학과 인문학, 사회과학 모든 분야에서 공리주의에서 후기 칸트학파의 사상까지의 개혁과 연관된 채 유지되었어.",
+            "turn_id": "BK22009327-2",
+            "utterance_id": "BK22009327.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칸트의 영향력이 대단하다고는 들었는데 정말이었구나. 공리주의에 대해서는 묻고싶었는데 잘됐다 마침 얘기가 나온 것 같아! 공리주의에 대해서 구체적으로 가르쳐줘.",
+            "turn_id": "BK22009327-3",
+            "utterance_id": "BK22009327.5"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "공리주의(功利主義, 영어: Utilitarianism)는 19세기 이래 영국을 중심으로 발달한 윤리적 사상이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간 행위의 윤리적 기초를 개인의 이익과 쾌락의 추구에 두고, 무엇이 이익인가를 결정하는 것은 개인의 행복이라고 하며, '도덕은 최대 다수의 최대 행복을 목적으로 한다.'고 주장한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 최대행복의 원리(Greatest Happiness Principle)라고 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 사상은 근대 시민사회의 윤리적 기준이 되었을 뿐만 아니라 영국 고전경제학의 사상적 기초와 자본주의 질서 구축의 토대가 되었다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EB%A6%AC%EC%A3%BC%EC%9D%98",
+            "search_query": "공리주의",
+            "terminate": false,
+            "text": "공리주의는 19세기 영국을 중심으로 발전한 윤리적 사상으로 최대행복의 원리를 기반으로 하고 있어. 최대행복의 원리란 개인의 이익과 쾌락의 추구에 인간 행위의 윤리적 기초를 두고, 개인의 행복에 대해 무엇이 이익인지 결정하는 것이라고 하며 도덕은 최대 다수의 최대 행복을 목적으로 한다고 주장했지. 이러한 공리주의는 영국 고전경제학의 사상적 기초와 자본주의 질서를 구축하는 토대가 된 동시에 근대 시민 사회의 윤리적 기준이 되었어.",
+            "turn_id": "BK22009327-3",
+            "utterance_id": "BK22009327.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공리주의가 무엇인지 이제 잘 알 것 같아! 공리주의 철학자도 함께 정리하면 이 부분은 완벽하겠는데? 공리주의 철학자를 알고 있으면 같이 설명해줄래?",
+            "turn_id": "BK22009327-4",
+            "utterance_id": "BK22009327.7"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "제러미 벤담(영어: Jeremy Bentham 제러미 벤섬, 영국식 영어 발음: /ˈbɛnθəm/ , 1748년 2월 15일 ~ 1832년 6월 6일)은 영국의 법학자·철학자이자, 변호사이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "“최대 다수의 최대 행복”을 추구하는 공리주의를 표방했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그가 공리주의에 끼친 영향은 막대한데, 그 까닭은 공리주의 체계에 큰 기여를 하였고, 존 스튜어트 밀(벤담의 제자 제임스 밀의 아들)과 같은 공리주의 철학자를 배출해낸 인물이기 때문이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%9F%AC%EB%AF%B8_%EB%B2%A4%EB%8B%B4",
+            "search_query": "제러미 벤담",
+            "terminate": false,
+            "text": "최대 다수의 최대 행복을 추구하는 공리주의를 표방했던 제러미 벤담은 영국의 철학자이자 법학자였고 변호사였어. 그는 공리주의 체계를 다지는데 크게 기여하는 등 공리주의에 막대한 영향을 끼쳤지. 그의 영향으로 존 스튜어트 밀같은 공리주의 철학자들도 등장했어.",
+            "turn_id": "BK22009327-4",
+            "utterance_id": "BK22009327.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금씩 궁금했던 것들이 해결되고 있어. 이제는 칸트주의 윤리학을 알아야 할 것 같아!",
+            "turn_id": "BK22009327-5",
+            "utterance_id": "BK22009327.9"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "칸트주의 윤리학은 동기나 최종 목표보다는 주체를 둘러싼 의무들을 강조하는 의무론적 윤리학이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 관점에 따르면 모든 행위는 서로 근원적으로 다른 기본 원리에 의해 이루어지며, 이에 따라 어떠한 행위의 도덕성이 판별된다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 관점에서 칸트주의 윤리학은 규범주의라고 할 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B8%ED%8A%B8%EC%A3%BC%EC%9D%98_%EC%9C%A4%EB%A6%AC%ED%95%99",
+            "search_query": "칸트주의 윤리학",
+            "terminate": false,
+            "text": "칸트주의 윤리학은 주체를 둘러싼 의무를 동기나 최종 목표보다 더 강조하는 의무론적 윤리학으로서 규범주의 윤리학이야. 근원적으로 다른 기본 원리에 의해 모든 행위가 이뤄지고 이에 따라 행위에 대한 도덕성이 판별된다고 하는 관점 때문이지.",
+            "turn_id": "BK22009327-5",
+            "utterance_id": "BK22009327.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칸트를 정리하면서 함께 정리해야겠어. 이어서 신칸트주의에 대해서도 설명해줄래?",
+            "turn_id": "BK22009327-6",
+            "utterance_id": "BK22009327.11"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "이와 같이 헤겔 학파가 좌·우·중간파로 분열되어 혼선을 일으키고 자연주의·실증주의·통속적 유물론이 한편에서 유행하기 시작하자 이들 양자를 모두 불신하고 오히려 칸트의 담백한 이성비판(理性批判)으로 돌아가 지식·과학의 기초를 새로 정립하려는 움직임이 나타났으니 이것이 바로 신칸트학파(혹은 신칸트주의)이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그들은 19세기 후반부터 20세기 초에 걸쳐 칸트 철학을 그의 비판주의(批判主義)에 연결지어 그 정신을 부활·발전시키려고 한 것이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0_%EC%B9%B8%ED%8A%B8_%ED%95%99%ED%8C%8C",
+            "search_query": "신칸트주의",
+            "terminate": false,
+            "text": "헤겔 학파가 3개의 파로 분열되면서 혼선이 일어났는데 이 무렵, 자연주의와 실증주의 그리고 통속적 유물론도 유행하기 시작했어. 여기에 대해 부정하고 과거의 칸트의 이성비판으로 돌아가 지식과 과학의 기초를 새로 정립하고자 했던 학파가 바로 신칸트주의였지. 신칸트주의는 그들의 비판주의와 칸트철학을 연결지어 19세기 후반에서 20세기 초에 걸쳐서 칸트정신을 부활시키고 발전시키려고 했어.",
+            "turn_id": "BK22009327-6",
+            "utterance_id": "BK22009327.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤겔에 대해서도 알아야 하겠는걸! 그에 대해서도 자세히 알려줘!",
+            "turn_id": "BK22009327-7",
+            "utterance_id": "BK22009327.13"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "게오르크 빌헬름 프리드리히 헤겔(Georg Wilhelm Friedrich Hegel, 1770년 8월 27일~1831년 11월 14일)은 독일 관념론을 완성한 것으로 평가받는 프로이센의 철학자이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "칸트의 이념과 현실의 이원론을 극복하여 일원화하고, 정신이 변증법적 과정을 경유해서 자연·역사·사회·국가 등의 현실이 되어 자기 발전을 해가는 체계를 종합 정리하였다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%8C%EC%98%A4%EB%A5%B4%ED%81%AC_%EB%B9%8C%ED%97%AC%EB%A6%84_%ED%94%84%EB%A6%AC%EB%93%9C%EB%A6%AC%ED%9E%88_%ED%97%A4%EA%B2%94",
+            "search_query": "헤겔",
+            "terminate": false,
+            "text": "프로이센의 철학자였던 게오르크 빌헬름 프리드리히 헤겔은 변증법적 과정을 통해 정신이 자연, 역사그리고 사회, 국가 등의 현실이 되어 자기 발전 해나가는 체계를 종합적으로 정리하고 칸트의 이념과 현실의 이원론을 극복하여 일원화하면서 독일 관념론을 완성했다고 평가받고 있어.",
+            "turn_id": "BK22009327-7",
+            "utterance_id": "BK22009327.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헤겔과 쇼펜하우어가 충돌한 것으로 알고 있는데 쇼펜하우어에 대해서도 알려줄래?",
+            "turn_id": "BK22009327-8",
+            "utterance_id": "BK22009327.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "아르투어 쇼펜하우어(독일어: Arthur Schopenhauer, 독일어 발음: [ˈaɐ̯tʊɐ̯ ˈʃoːpənˌhaʊ̯ɐ]) 1788년 2월 22일 ~ 1860년 9월 21일)는 독일의 철학자다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "쇼펜하우어는 자신이 칸트의 사상을 비판적으로 받아들였으며 칸트의 사상을 올바르게 계승했다고 확신했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당대의 인기 학자였던 헤겔, 피히테, 셸링 등에 대해서는 칸트의 사상을 왜곡하여 사이비이론을 펼친다며 비판했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먼 과거의 동양 사상가들이 서양과는 전혀 다른 환경, 언어, 문화 속에서 근대적인 서양철학의 과제에 대해서 같은 결론을 말하고 있다고 생각했다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "쇼펜하우어는 서양철학과 동양철학 간의 유사성을 말한 철학자이자 자신이 무신론자임을 노골적으로 표명한 독창적인 철학자로 손꼽힌다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%88%AC%EC%96%B4_%EC%87%BC%ED%8E%9C%ED%95%98%EC%9A%B0%EC%96%B4",
+            "search_query": "쇼펜하우어",
+            "terminate": false,
+            "text": "독일의 철학자였던 아르투어 쇼펜하우어는 헤겔, 피히테, 셸링 등이 칸트의 사상을 왜곡하고 사이비 이론을 주장한다고 비판하면서 자신은 칸트의 사상을 비판적으로 수용하면서 바르게 계승하고 있다고 생각했어. 그는 자신이 무신론자라는 사실을 강하게 표명하고 서양과는 전혀 다른 환경과 문화 속에 살고 있던 동양 사상가들이 근대적인 서양철학의 과제에 대해 동일한 결론에 이르렀다고 생각하며 서양철학과 동양철학의 유사성을 주장했지. 이러한 점에서 쇼펜하우어는 독창적인 철학자라고 평가받아.",
+            "turn_id": "BK22009327-8",
+            "utterance_id": "BK22009327.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쇼펜하우어가 남다른 철학자라고는 들은적이 있는데 정말이었네. 마지막으로 경험론을 정리해야 해. 존 로크에 대해서도 설명 부탁해.",
+            "turn_id": "BK22009327-9",
+            "utterance_id": "BK22009327.17"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "로크는 영국의 첫 경험론 철학자로 평가를 받지만, 사회계약론도 동등하게 중요한 평가를 받고 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그는 가장 영향력있는 계몽주의 사상가이자 자유주의 이론가의 하나로 널리 알려져 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그의 저서들은 볼테르와 루소에게 영향을 주었으며, 미국 혁명뿐만 아니라 여러 스코틀랜드 계몽주의 사상가들에게도 영향을 미쳤다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그의 영향은 미국 독립 선언문에 반영되어 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A1%9C%ED%81%AC",
+            "search_query": "존 로크",
+            "terminate": false,
+            "text": "가장 영향력 있는 계몽주의 사상가이자 자유주의 이론가 중 한명인 로크는 영국의 최초 경험론 철학자로 알려져 있으며 그가 주장한 사회계약론도 매우 중요하게 여겨 지지. 로크의 저서는 미국 혁명과 미국 독립 선언문에도 반영 되었고 스코틀랜드의 계몽주의 사상가들에게 뿐만 아니라 볼테르와 루소에게 영향을 주었지.",
+            "turn_id": "BK22009327-9",
+            "utterance_id": "BK22009327.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 설명 덕분에 궁금한 점이 해결돼서 토론을 잘 할 수 있을 것 같아.",
+            "turn_id": "BK22009327-10",
+            "utterance_id": "BK22009327.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "큰 테두리만 이야기 해줬던 건데 해결되었다니 다행이다. 더 자세히 알고 싶으면 또 얘기해.",
+            "turn_id": "BK22009327-10",
+            "utterance_id": "BK22009327.20"
+        }
+    ]
+}

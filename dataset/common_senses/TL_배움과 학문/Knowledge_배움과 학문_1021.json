@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006705",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006705",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 남부지방 가뭄 때문에 난리네요. 조선시대에도 가뭄 때문에 많이 고생했나요?",
+            "turn_id": "BK22006705-1",
+            "utterance_id": "BK22006705.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "경신 대기근(庚辛大飢饉)은 조선 현종 재위기간인 1670년(경술년)과 1671년(신해년)에 있었던 대기근이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한국 역사상 전대미문의 기아 사태였으며, 그 결과는 파멸적이었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%8B%A0_%EB%8C%80%EA%B8%B0%EA%B7%BC",
+            "search_query": "경신 대기근 현종",
+            "terminate": false,
+            "text": "당연하죠. 특히 조선 현종 시기인 1670년과 1671년 사이에 지속됐던 경신 대기근은 한국 역사상 전에는 없던 파멸적인 기아 사태였어요.",
+            "turn_id": "BK22006705-1",
+            "utterance_id": "BK22006705.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가뭄에 대기근이라는 이름을 붙일 정도였으니 어마어마했겠네요. 경신 대기근이 일어난 이유는 뭔가요?",
+            "turn_id": "BK22006705-2",
+            "utterance_id": "BK22006705.3"
+        },
+        {
+            "reference_date": "2016-03-07",
+            "reference_text": [
+                {
+                    "value": "17세기, 태양의 흑점 운동에 생긴 변화로 인해 태양 에너지가 지구에 덜 전해지게 되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 따라 지구 평균 온도가 내려가고, 동아시아를 비롯한 다양한 곳에서 이상기후와 재해가 끊이지 않게 되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002187631",
+            "search_query": "경신 대기근 이상기후 태양 흑점 운동",
+            "terminate": false,
+            "text": "1600년대에 태양의 흑점 운동에 변화가 생기면서 지구에 도달하는 태양 에너지가 줄어들어요. 이로 인해서 지구의 평균 기온이 내려갔고 동아시아 등 각처에서 이상기후와 재해가 끊임없이 발생했어요.",
+            "turn_id": "BK22006705-2",
+            "utterance_id": "BK22006705.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 인간이 어쩔 도리가 없는 재앙이었네요. 처음 대기근의 조짐을 보인 건 언제였나요?",
+            "turn_id": "BK22006705-3",
+            "utterance_id": "BK22006705.5"
+        },
+        {
+            "reference_date": "2016-03-07",
+            "reference_text": [
+                {
+                    "value": "그런데 갑자기 1670년 봄부터 이상한 모습이 보이기 시작한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "갑자기 봄에 농사를 지어야 하는데 가뭄이 든 것이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "씨를 뿌려야 하는데도 물이 없으니 앞으로 농사 지을 일이 막막했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002187631",
+            "search_query": "경신 대기근 1670년 가뭄",
+            "terminate": false,
+            "text": "1670년 봄부터 이상한 일이 발생했죠. 농사를 지어야 하는데 봄에 가뭄이 든 거예요. 파종을 하려고 해도 물이 없어서 농사를 짓기 막막해진 거죠.",
+            "turn_id": "BK22006705-3",
+            "utterance_id": "BK22006705.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그때 조선은 농업국가 아닌가요? 비가 안 온다면 정말 큰 일인데 당시 정부의 대처는 무엇이었나요?",
+            "turn_id": "BK22006705-4",
+            "utterance_id": "BK22006705.7"
+        },
+        {
+            "reference_date": "2016-03-07",
+            "reference_text": [
+                {
+                    "value": "그런데 이 당시에는 동시에 거대한 우박이 떨어지고 있었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가뭄과 우박이 동시에 떨어지는 재해에 현종은 위기감을 느끼고 기우제를 지낸다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002187631",
+            "search_query": "경신 대기근 가뭄 우박 현종 기우제",
+            "terminate": false,
+            "text": "당시 가뭄만 든 게 아니고 큼직한 우박까지 떨어졌는데 이러한 재해들이 동시에 찾아오는 걸 본 현종은 위기감을 느끼고 기우제를 지냈어요.",
+            "turn_id": "BK22006705-4",
+            "utterance_id": "BK22006705.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 전근대 시대다 보니 미신을 믿는 건 어쩔 수 없네요. 당시의 기우제가 효과가 있었나요?",
+            "turn_id": "BK22006705-5",
+            "utterance_id": "BK22006705.9"
+        },
+        {
+            "reference_date": "2016-03-07",
+            "reference_text": [
+                {
+                    "value": "그러자 비가 내리기 시작했는데, 이번엔 또 비가 미친 듯이 내리기 시작했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러자 현종은 이번엔 날이 맑기를 바라며 기청제를 지낸다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비가 좀 오라고 제사를 지냈더니 사람이 물에 떠내려가서 다시 맑기를 비는 황당한 판국이었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002187631",
+            "search_query": "경신 대기근 현종 기청제",
+            "terminate": false,
+            "text": "기우제가 효과가 있었는지는 모르겠지만 비가 오긴 왔어요. 문제는 비가 너무 많이 와서 사람이 물에 떠내려갈 지경이었죠. 그래서 현종은 날이 다시 풀리기를 바라면서 기청제를 지내야 했어요.",
+            "turn_id": "BK22006705-5",
+            "utterance_id": "BK22006705.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 웃기면서도 슬프네요. 그 정도로 날씨가 정상이 아니었으니 백성들의 피해가 엄청났겠어요.",
+            "turn_id": "BK22006705-6",
+            "utterance_id": "BK22006705.11"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "조선 8도 전체의 흉작이라는 초유의 사태가 발생했으며, 당시 조선 인구의 1200~1400만 명중 약 최소 15만에서 최대 85만 명이 사망하는 피해를 입었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%8B%A0_%EB%8C%80%EA%B8%B0%EA%B7%BC",
+            "search_query": "경신 대기근 조선 인구 사망",
+            "terminate": false,
+            "text": "맞아요. 조선 8도가 모두 흉작이라는 처음 겪는 사태가 발생했죠. 당시 조선 인구가 1200만에서 1400만 명 정도였는데 이로 인해 최소 15만에서 최대 85만 명이 죽어버렸어요.",
+            "turn_id": "BK22006705-6",
+            "utterance_id": "BK22006705.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상황이 그 지경이 됐다면 식량이 엄청나게 부족했겠네요. 백성들은 어떻게 대처했나요?",
+            "turn_id": "BK22006705-7",
+            "utterance_id": "BK22006705.13"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "이 때 사람들은 농사기구인 소를 관청에 신고하지 않고 도살했으며, 심하면 사람고기까지 먹었다고 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 나라는 처벌도 하지 못했다고 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%8B%A0_%EB%8C%80%EA%B8%B0%EA%B7%BC",
+            "search_query": "경신 대기근 사람고기",
+            "terminate": false,
+            "text": "사람들은 농사기구 노릇을 하는 소를 관청의 허가도 받지 않고 마음대로 도살해서 먹었어요. 심지어 심한 경우에는 사람고기까지 먹었죠. 하지만 상황이 상황인지라 국가는 이를 처벌할 수가 없었어요.",
+            "turn_id": "BK22006705-7",
+            "utterance_id": "BK22006705.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람고기까지 먹었다고요? 정말 끔찍하네요. 그 정도로 어마어마했던 기근이라면 후대에도 엄청난 영향을 끼쳤을 거 같아요.",
+            "turn_id": "BK22006705-8",
+            "utterance_id": "BK22006705.15"
+        },
+        {
+            "reference_date": "2016-03-07",
+            "reference_text": [
+                {
+                    "value": "재해에 대처하는 과정에서 조선 사회에 큰 변화가 생기게 되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "워낙 많은 사람이 죽어갔고 공명첩이 발행된 탓에 신분 질서가 흔들렸고, 지방의 인구 구조가 크게 변형되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/047/0002109127?sid=103",
+            "search_query": "경신 대기근 조선 사회 변화",
+            "terminate": false,
+            "text": "예리하시네요. 재난에 대응하는 과정에서 조선 사회는 엄청난 변혁을 겪어요. 너무 많은 사람이 사망하고 공명첩이 발행되는 통에 신분 체제가 흔들리고 지방의 인구 구조가 크게 변하게 되죠.",
+            "turn_id": "BK22006705-8",
+            "utterance_id": "BK22006705.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많은 변화가 있었네요. 그런데 공명첩이라는 게 대체 뭔가요?",
+            "turn_id": "BK22006705-9",
+            "utterance_id": "BK22006705.17"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "공명첩(空名帖)은 나라의 재정을 보충하려고 부유층으로부터 돈이나 곡식을 받고 팔았던 허직(명예직) 임명장(벼슬 문서)이며, 공명(空名)이란 “받는 자의 이름을 기재하지 않은”이란 뜻이며, 첩(帖)은 사령장 또는 임명장을 뜻한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EB%AA%85%EC%B2%A9",
+            "search_query": "공명첩 임명장",
+            "terminate": false,
+            "text": "국가의 재정을 채우기 위해 돈이 있는 사람들에게 돈, 곡식 등을 받고 매매했던 명예직 임명장이에요. 공명은 받는 사람의 이름을 써넣지 않았다는 뜻이고 첩은 사령장이나 임명장을 뜻하죠.",
+            "turn_id": "BK22006705-9",
+            "utterance_id": "BK22006705.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한편으로는 이해가 되는 게 그렇게라도 하지 않으면 정부가 버틸 수가 없었을 거 같네요. 아무튼 오늘도 질문에 답해주셔서 감사합니다. 다음에도 재미있는 역사 지식 가르쳐 주실 거죠?",
+            "turn_id": "BK22006705-10",
+            "utterance_id": "BK22006705.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이죠. 다음에도 궁금한 게 있으면 부담 갖지 말고 언제든지 질문 주세요.",
+            "turn_id": "BK22006705-10",
+            "utterance_id": "BK22006705.20"
+        }
+    ]
+}

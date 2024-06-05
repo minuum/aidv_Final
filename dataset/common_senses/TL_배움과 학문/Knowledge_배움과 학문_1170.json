@@ -1,0 +1,396 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007787",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007787",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 주인공 일행이 은하계를 종횡무진 누비는 내용의 SF 소설을 하나 읽었는데, 읽다 보니까 문득 궁금증이 생기더라고. 우리은하는 크기가 어느 정도일까?",
+            "turn_id": "BK22007787-1",
+            "utterance_id": "BK22007787.1"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "우리은하의 지름은 약 10만 광년으로 중심핵은 직경이 약 10,000 광년, 두께는 약 15,000광년이며, 나선팔의 두께는 별들의 영역만을 고려할 경우 약 1,000광년이지만 최근의 관측 결과 가스 등을 포함한 전체 디스크의 두께는 약 12,000 광년으로 기존의 추정치인 6,000광년의 두 배에 달할 것으로 예상된다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리은하를 둘러싸고 있는 헤일로는 지름이 약 200,000 광년 정도로 추정되었으나, 일부 구상성단이 은하 중심으로부터 400,000광년 거리에서 발견되는 점, 최근 우리의 이웃은하인 안드로메다 은하의 헤일로가 기존보다 휠씬 먼 400,000광년 이상까지 뻗어있다는 것이 확인됨에 따라 우리은하 헤일로의 규모도 당초 예상보다 훨씬 멀리까지 뻗어있을 가능성이 크다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A6%AC%EC%9D%80%ED%95%98",
+            "search_query": "우리 은하",
+            "terminate": false,
+            "text": "우리은하의 지름은 10만광년 정도이고, 중심핵의 직경은 약 10,000광년, 두께는 약 15,000광년이야. 나선팔의 경우, 별이 있는 영역만을 생각하면 약 1,000광년이지만, 최근에 관측한 결과, 가스 등을 포함한 디스크 전체 두께는 약 12,000광년이어서 기존 추정치였던 6,000광년의 두 배에 육박할 것이라고 예상돼. 우리은하를 둘러싼 헤일로는 원래 200,000광년 정도로 추정되었는데, 최근 우리은하의 이웃 은하인 안드로메다의 헤일로가 기존 알던 것보다 훨씬 먼 400,000광년 이상까지 뻗어 있는 것이 발견된 점과 일부 구상성단이 은하 중심으로부터 400,000광년 떨어진 곳에서 발견되는 점을 보아 우리은하의 헤일로 규모가 예상보다 훨씬 먼 곳까지 뻗어 있을 가능성이 커.",
+            "turn_id": "BK22007787-1",
+            "utterance_id": "BK22007787.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말이지, 상상조차 할 수 없는 크기네. 그럼 우리은하의 나이는 어느 정도일까? 역시 오래됐겠지?",
+            "turn_id": "BK22007787-2",
+            "utterance_id": "BK22007787.3"
+        },
+        {
+            "reference_date": "2016-10-31",
+            "reference_text": [
+                {
+                    "value": "우선 구상성단의 나이로 우리은하의 나이를 추정해 볼 수 있습니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구상성단들은 우리은하에서 가장 나이가 많은 '연장자' 천체들이므로 이 구상성단들의 나이를 구하면 우리은하 나이의 최솟값을 알아낼 수 있습니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 방법으로 밝혀진 우리은하의 대략적인 나이는 120억 년 이상입니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://scienceon.hani.co.kr/446067",
+            "search_query": "우리 은하 나이",
+            "terminate": false,
+            "text": "응, 아주 오래됐지. 우선, 우리은하의 나이는 구상성단의 나이로 추정할 수 있어. 구상성단은 우리은하에서 나이가 가장 많은 연장자 천체들이기 때문에 이런 구상성단들의 나이를 알아내면 우리은하의 최소 나이를 구할 수 있지. 이 방식을 통해 알아낸 우리은하의 나이는 대략 120억 년 이상이야.",
+            "turn_id": "BK22007787-2",
+            "utterance_id": "BK22007787.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "억 단위 나이라니, 정말 놀라워. 그나저나, 우리은하의 상상도 이미지를 흔히 볼 수 있잖아. 우리은하의 모양은 어떻게 알아낸 걸까?",
+            "turn_id": "BK22007787-3",
+            "utterance_id": "BK22007787.5"
+        },
+        {
+            "reference_date": "2018-10-06",
+            "reference_text": [
+                {
+                    "value": "1940년대 들어 전파천문학이 발전함에 따라 천문학자들은 전파의 각 파장대의 특성을 이용한 관측으로 우리은하에 네 개의 주요 나선팔이 있으며, 이들이 어떤 분포를 하고 있는지를 알아냈다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2005년 스피처 적외선 우주망원경이 마침내 은하 중심을 육박했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 스피츠의 관측에 의해 우리은하 중심부에 2만7000광년 길이의 막대구조가 들어앉아 있음을 공식 확인했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 우리은하의 팔도 막대구조 끝에서 뻗어나온 2개의 나선팔과, 여기서 가지치기한 2개의 작은 나선팔이 더 있는 전형적인 막대나선은하 형태임이 밝혀졌다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20181005601011",
+            "search_query": "우리 은하 형태",
+            "terminate": false,
+            "text": "먼저, 1940년대에 들어서면서 전파천문학이 발전하고, 천문학자들은 전파의 각 파장대가 지니는 특성을 이용해 우리은하에 주요 나선팔이 네 개 있고, 이 나선팔들이 어떤 분포를 하고 있는지 관측해 냈어. 그 후, 2005년에 스피처 적외선 우주 망원경이 은하 중심을 관측했는데, 이 망원경의 관측 덕에, 우리은하 중심부에 2만7000 광년 길이의 막대 구조가 있다는 사실이 공식적으로 확인됐지. 그뿐만 아니라, 우리은하의 팔도 막대 구조 끝부분에서 뻗어 나온 나선팔 2개와 여기서 가지치기하여 나온 작은 나선팔 2개가 있는 형태로, 전형적인 막대나선은하 형태라는 사실이 드러났어.",
+            "turn_id": "BK22007787-3",
+            "utterance_id": "BK22007787.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜 세월 여러 관측을 통해 알아낸 것이구나. 그럼 우리 지구가 속한 태양계는 우리은하의 어디쯤 있는 걸까?",
+            "turn_id": "BK22007787-4",
+            "utterance_id": "BK22007787.7"
+        },
+        {
+            "reference_date": "2020-03-26",
+            "reference_text": [
+                {
+                    "value": "태양에서 은하 중심까지의 더 정확한 거리도 밝혀졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "새로 측정된 거리는 수십 년 전 국제천문연맹이 권고한 8500파섹(약 2만 7700광년)보다 조금 가까운 8150 ± 150 파섹(약 2만 6600광년)이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9D%80%ED%95%98%EA%B3%84-%EC%A7%80%EB%8F%84-%EB%93%B1%EC%9E%A5%ED%95%98%EB%82%98/",
+            "search_query": "우리 은하 태양계 위치",
+            "terminate": false,
+            "text": "수십 년 전에 국제천문연맹이 권고한 태양에서 은하 중심까지의 거리는 8500파섹인데, 더 정확하게 밝혀진 거리는 조금 더 가까운 8150파섹이야. 오차 범위는 150파섹이고.",
+            "turn_id": "BK22007787-4",
+            "utterance_id": "BK22007787.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "은하 중심으로부터 상당히 멀리 떨어져 있는 거구나. 태양계 이야기가 나와서 말인데, 우리은하에는 태양 외에도 별이 아주 많잖아. 대체 우리은하에 있는 항성은 얼마나 되는 걸까?",
+            "turn_id": "BK22007787-5",
+            "utterance_id": "BK22007787.9"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "우리은하를 맵핑하는 가이아 임무를 수행하는 유럽우주국(ESA)의 과학자 조스 더 브라우너에 따르면, 현재 우리은하 별의 추정치는 1000억에서 4000억 개 사이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더 브라우니는 명확한 수치를 알기는 어려울 것이라고 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2013년부터 궤도를 돌고 있는 가이아 탐사선은 326광년 거리까지 태양 주변에 있는 17억 개의 별 위치를 매핑하는 데 성공했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천문학자들은 이 수치를 근거로 전체 은하계를 모델링할 수 있지만, 가이아조차도 가장 희미하고 작은 별을 보는 데 어려움을 겪고 있는 만큼 완벽한 수치를 결정하기는 어렵다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20220301601003",
+            "search_query": "우리 은하 항성 수",
+            "terminate": false,
+            "text": "유럽우주국에서는 우리은하를 맵핑하는 가이아 임무를 수행 중인데, 이곳의 과학자 조스 더 브라우너에 따르면, 우리은하의 현재 별 개수는 1000억에서 4000억 개 사이로 추정돼. 다만, 정확한 수치를 알아내기는 어려워. 2013년부터 궤도를 공전 중인 가이아 탐사선이 태양 주변 326광년 거리까지 별 위치를 17억 개 매핑했고, 천문학자들은 이 수치를 근거로 해서 은하계 전체를 모델링할 수는 있지만, 가이아도 가장 작고 희미한 별들을 관측하는 것은 어렵다 보니, 수치를 완벽하게 결정하는 것은 힘들거든.",
+            "turn_id": "BK22007787-5",
+            "utterance_id": "BK22007787.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어찌 됐든 최소 1000억 개 이상으로 예상된다니, 엄청난 수치에 그저 입이 벌어질 따름이야. 참, 그런데 지구가 태양을 돌고 태양이 은하를 돌듯이, 우리은하 주위를 도는 은하도 있을까?",
+            "turn_id": "BK22007787-6",
+            "utterance_id": "BK22007787.11"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "은하수 준은하군(영어: Milky way subgroup)의 일부로서, 우리 은하는 우리 은하의 중력으로 속박된 몇 개의 작은 은하들을 가지고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리 은하로부터 420 kpc(~140만 광년) 내에 있는 것으로 확인된 14개에서 26개 사이의 작은 은하들이 있는데, 이들 모두 꼭 궤도 운동을 하는 것은 아니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들 중에서, 육안으로도 보일 수 있는 것은 선사시대부터 관측되어온 대마젤란 은하와 소마젤란 은하 밖에 없다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2006년에 허블 우주 망원경을 통한 측정은 마젤란 은하들이 우리 은하를 매우 빠르게 공전하고 있음을 시사한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A6%AC%EC%9D%80%ED%95%98%EC%9D%98_%EC%9C%84%EC%84%B1%EC%9D%80%ED%95%98_%EB%AA%A9%EB%A1%9D",
+            "search_query": "우리 은하 위성 은하",
+            "terminate": false,
+            "text": "응, 그런 은하들이 있어. 우리은하는 은하수 준은하군의 일부로 우리은하의 중력에 묶인 작은 은하를 몇 개 가지고 있지. 우리은하로부터 420kpc 범위 내에서 확인된 작은 은하들이 14~26개 있어. 다만, 이 은하들이 반드시 궤도 운동을 하는 중인 것은 아니야. 이 은하 중에서 맨눈으로도 보이는 것은 선사시대부터 관측된 소마젤란은하와 대마젤란은하뿐인데, 허블 우주 망원경으로 2006년에 측정한 결과, 이 마젤란은하들은 우리은하 주위를 아주 빠르게 공전 중이야.",
+            "turn_id": "BK22007787-6",
+            "utterance_id": "BK22007787.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "은하도 은하 주위를 도는구나. 그런데 그렇게 빠르게 공전하는 중이면 우리은하랑 부딪히거나 하지는 않을까?",
+            "turn_id": "BK22007787-7",
+            "utterance_id": "BK22007787.13"
+        },
+        {
+            "reference_date": "2019-01-04",
+            "reference_text": [
+                {
+                    "value": "우리 은하의 위성 은하인 `대마젤란은하(LMC)`가 충돌코스로 우리 은하에 돌진 중이며, 이는 지구가 속한 태양계를 성간 우주로 날려 보낼 수도 있는 것으로 나타났다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국 더럼대학 우주전산연구소(ICC) 천문학 연구팀은 LMC가 20억년 내에 우리 은하와 충돌할 것이라는 슈퍼컴퓨터 시뮬레이션 결과를 영국왕립 천문학회 월보(MNRAS)에 내놓았다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2019/01/7636/",
+            "search_query": "우리 은하 대마젤란 은하 충돌",
+            "terminate": false,
+            "text": "그게 사실, 먼 미래에 부딪힐 예정이야. 우리은하의 위성 은하인 대마젤란은하가 우리은하를 향해 충돌경로로 돌진 중이고, 이에 따라 우리 지구가 속한 태양계가 성간 우주로 날아갈 가능성이 있는 것으로 밝혀졌거든. 영국 더럼대학 우주전산연구소 천문학 연구팀이 영국왕립천문학회 월보에 낸 슈퍼컴퓨터 시뮬레이션 결과에 따르면, 대마젤란은하는 20억 년 이내에 우리은하와 충돌해.",
+            "turn_id": "BK22007787-7",
+            "utterance_id": "BK22007787.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 충돌 예정이라니 무섭긴 하지만, 먼 미래라서 조금 안도가 되네. 그럼 소마젤란은하는 어때? 이 은하도 설마 우리은하랑 부딪혀?",
+            "turn_id": "BK22007787-8",
+            "utterance_id": "BK22007787.15"
+        },
+        {
+            "reference_date": "2018-10-27",
+            "reference_text": [
+                {
+                    "value": "우리은하는 약 30개 정도의 위성은하를 지니고 있는데, 대표적인 위성은하인 대, 소 마젤란은하(마젤란운)가 서로 충돌하고 있다는 사실이 새롭게 밝혀졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대, 소 마젤란은란의 충돌은 이번이 처음이 아닐 가능성이 높다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기존 연구에 따르면 약 1~2억 년 전에 충돌했다 튕겨 나온 흔적이 현재의 모습이기 때문이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 연구가 맞다면, 현재 소마젤란은하는 다시 한번 충돌하기 위해 대마젤란은하에 접근하는 중이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=24672",
+            "search_query": "소마젤란 은하 충돌",
+            "terminate": false,
+            "text": "아니, 우리은하에 있는 30개 정도의 위성은하 중, 소마젤란은하는 대마젤란은하와 서로 충돌 중이야. 게다가, 이 두 은하의 충돌은 이번이 최초가 아닐 가능성이 높아. 기존 연구에 따르면, 현재의 모습은 약 1~2억 년 전에 서로 충돌했다가 퉁겨져 나온 흔적이거든. 이 연구가 옳다면, 지금 소마젤란은하는 또 한 번의 충돌을 위해 대마젤란은하를 향해 접근 중인 것이지.",
+            "turn_id": "BK22007787-8",
+            "utterance_id": "BK22007787.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밤하늘을 올려다보면 그저 평온해 보이는데 실상은 그렇게 역동적인 일이 벌어지고 있는 거구나. 은하 얘기가 나와서 말인데, 같이 은하수 보러 갈래?",
+            "turn_id": "BK22007787-9",
+            "utterance_id": "BK22007787.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "은하수 보러 가는 거 좋지. 바로 쫓아갈 테니 언제든 불러만 줘.",
+            "turn_id": "BK22007787-9",
+            "utterance_id": "BK22007787.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다음 주 토요일에 날씨 맑으면 사설 천문대 찾아가 보자.",
+            "turn_id": "BK22007787-10",
+            "utterance_id": "BK22007787.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 그럼 다음 주 토요일에 보자. 만나기 전에 미리 연락해.",
+            "turn_id": "BK22007787-10",
+            "utterance_id": "BK22007787.20"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004757",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004757",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 영화 한산을 봤는데 거북선의 활약이 엄청나더라고요. 거북선은 이순신 장군이 처음 만든 건가요?",
+            "turn_id": "BK22004757-1",
+            "utterance_id": "BK22004757.1"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "거북선은 고려 때부터 있었던 것으로 추정되며 적함과 충돌하여 결정적인 해전의 승리를 이끌어내는 돌격선의 역할을 하는 견고한 함선이었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 고려 시대",
+            "terminate": false,
+            "text": "아, 그건 아니에요. 거북선은 고려 시대부터 존재한 걸로 추정되고 있어요. 주로 적함과 충돌을 하는 돌격선 역할을 맡았던 튼튼한 함선이었죠.",
+            "turn_id": "BK22004757-1",
+            "utterance_id": "BK22004757.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 역사가 오래됐네요? 그럼 고려시대 때의 거북선이 그대로 조선시대까지 쓰인 건가요?",
+            "turn_id": "BK22004757-2",
+            "utterance_id": "BK22004757.3"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "거북선은 본래 한쪽에 8문의 대포와 40명씩의 노군이 있는 약 100~150명이 승선하는 비교적 작은 배였다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 임진왜란 이후에는 대형화되어 2층에서 3층으로 확장되고 선체도 길어지는 경향이 생겨났으며, 기존의 배를 개량하여 제작된 경우도 있었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 임진왜란",
+            "terminate": false,
+            "text": "아니요. 원래의 거북선은 대포 8문에 노 젓는 사람이 40명 정도, 총 승선 인원은 100에서 150명 정도의 비교적 소형선이었어요. 하지만 임진왜란 이후 대형화되어 2층이었던 것이 3층으로 확장되고 배의 길이도 길어졌죠. 기존의 함선을 개조해서 만드는 경우도 있었고요.",
+            "turn_id": "BK22004757-2",
+            "utterance_id": "BK22004757.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 영화에서 보니까 거북선이 일본 배를 들이박으면 일본 배는 부서지는데 거북선은 멀쩡하더라고요. 어떻게 그게 가능한 거죠?",
+            "turn_id": "BK22004757-3",
+            "utterance_id": "BK22004757.5"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "거북선 지붕은 철못이나 칼을 박은 목갑으로 덮여 있었기 때문에 근접전에서 조총이나 화살 등의 무기를 막는 데 뛰어났다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본 군함에 비해 튼튼한 구조와 재질로 충돌 전법 시에도 충분히 버틸 수 있었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 지붕 구조 재질",
+            "terminate": false,
+            "text": "거북선의 지붕은 철못과 칼을 꽂은 목갑으로 무장되어 있어서 근접 전투에서 조총이나 화살 등의 공격을 막는 데 유리했어요. 또한 구조나 목재의 견고함 자체가 일본 전함에 비해 튼튼해서 충돌 작전에도 충분히 버텼던 거죠.",
+            "turn_id": "BK22004757-3",
+            "utterance_id": "BK22004757.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 거북선은 돌격 대장 노릇을 하는 배니까 속도도 엄청 빨랐겠죠?",
+            "turn_id": "BK22004757-4",
+            "utterance_id": "BK22004757.7"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "배 밑 부분은 평평한 형태인 평저형이기 때문에 한반도의 남해, 서해와 같은 조수간만의 차가 심한 곳에서 기동하기에 알맞았으며 이동 중에도 급속으로 180도 회전이나 좌 우측으로 방향 전환이 가능했다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 평저형 기동 방향 전환",
+            "terminate": false,
+            "text": "그럼요. 배 아랫부분이 평저형이라서 우리나라 남해, 황해 같은 조수간만의 차가 심한 바다에서 움직이기 적합했어요. 이동 중에도 급속으로 180도 돌거나 왼쪽, 오른쪽으로 방향 전환도 가능했죠.",
+            "turn_id": "BK22004757-4",
+            "utterance_id": "BK22004757.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 지금까지도 이름이 남을 만 하네요. 그런데 왜 지붕에 그렇게 뾰족한 걸 많이 꽂은 거죠?",
+            "turn_id": "BK22004757-5",
+            "utterance_id": "BK22004757.9"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "윗 갑판을 덮고 칼과 창으로 방어하여 일본 수군의 특기이던 접근하여 승선한 후 백병전을 벌이는 전법이 통하지 않았다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 방어 백병전",
+            "terminate": false,
+            "text": "당시 일본 수군은 배에 올라타서 백병전을 벌이는 전술에 능했거든요. 그래서 갑판 상부를 덮어버리고 칼과 창으로 수비를 한 거죠.",
+            "turn_id": "BK22004757-5",
+            "utterance_id": "BK22004757.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 조상의 지혜가 있었네요. 그럼 임진왜란 이후에도 거북선은 계속 쓰이나요?",
+            "turn_id": "BK22004757-6",
+            "utterance_id": "BK22004757.11"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "거북선은 임진왜란 뒤에도 군제상 중요시되었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "《만기요람》에 따라 거북선의 배치를 보면, 삼도통어사영(三道統禦使營)에 1, 경상좌수영(慶尙左水營) 1, 속진(屬鎭)에 2, 공충(公忠 : 충청) 수영에 1, 속진에 4, 전라좌수영 속진에 1, 우수영에 2, 속진에 5이었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 군제 만기요람",
+            "terminate": false,
+            "text": "네. 그 이후에도 중요시됐어요. 만기요람을 보면 삼도통어사영에 1척, 경상좌수영에 1척, 경상좌수영의 속진에 2척, 충청 수영에 1척, 충청 수영의 속진에 4척, 전라 좌수영의 속진에 1척, 전라 우수영에 2척, 전라 우수영의 속진에 5척이 배치되어 있었다고 나와요.",
+            "turn_id": "BK22004757-6",
+            "utterance_id": "BK22004757.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임진왜란이 끝난 후에도 생각보다 많은 함선을 운용했군요. 그런데 지금은 거북선이 한 척도 안 남아 있어서 아쉬워요.",
+            "turn_id": "BK22004757-7",
+            "utterance_id": "BK22004757.13"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "현재 경상남도청과 21세기 이순신 연구회에서는 400여 년 전 칠천도 앞 바다에 수장된 것으로 여겨지는 거북선을 발굴하기 위해 몇 년째 지속적인 탐사 작업을 진행해오고 있으나 근처에 양식장이 있어 주민들의 생업에 지장을 줄 수 있다는 이유와 막대한 탐사 비용, 탐사 장비의 부족, 정확한 위치 추정 불가능 등 여러 이유로 탐사 작업이 난관에 부딪혔다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 탐사 작업",
+            "terminate": false,
+            "text": "그래서 경상남도청과 21세기 이순신 연구회가 칠천도 앞 바다에 400여 년 전에 침몰한 거북선을 인양하려고 계속 탐사 작업을 해오고 있지만 근처에 주민들의 양식장이 있는 데다 비용과 장비의 부족, 정확한 위치 유추 불가능 등의 사유로 어려움을 겪고 있어요.",
+            "turn_id": "BK22004757-7",
+            "utterance_id": "BK22004757.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 안타까운 일이네요. 그런데 왜 칠천도 앞 바다만 뒤지는 건가요? 임진왜란 당시 거북선은 여기저기서 활약했잖아요?",
+            "turn_id": "BK22004757-8",
+            "utterance_id": "BK22004757.15"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "1597년 음력 7월 16일 새벽 칠천량 해전에서 일본군에 의해 모두 침몰되었다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%B6%81%EC%84%A0",
+            "search_query": "거북선 칠천량 해전",
+            "terminate": false,
+            "text": "안타깝지만 1597년 음력 7월 16일 새벽에 칠천량 해전에서 일본 병력에 의해 전부 수장되거든요.",
+            "turn_id": "BK22004757-8",
+            "utterance_id": "BK22004757.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그때 다 침몰한 거군요. 당시 지휘관이 원균 아니었나요? 저는 원균이 개인적으로 싫더라고요!",
+            "turn_id": "BK22004757-9",
+            "utterance_id": "BK22004757.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흥분을 가라앉히세요. 이미 지나간 역사니까요. 중요한 건 역사로부터 어떤 교훈을 얻느냐 아닐까요?",
+            "turn_id": "BK22004757-9",
+            "utterance_id": "BK22004757.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 그렇긴 하죠. 오늘도 정말 재미있게 역사 지식을 가르쳐 주셔서 감사합니다. 다음에 또 궁금한 게 있으면 물어볼게요.",
+            "turn_id": "BK22004757-10",
+            "utterance_id": "BK22004757.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "재미있으셨다니 저도 뿌듯하네요. 언제든지 궁금한 점 있으면 편하게 질문 주세요!",
+            "turn_id": "BK22004757-10",
+            "utterance_id": "BK22004757.20"
+        }
+    ]
+}

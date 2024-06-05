@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.5,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.5,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001166",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001166",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 뉴스에서 유엔에 대한 보도가 나오는 걸 봤어.",
+            "turn_id": "BK22001166-1",
+            "utterance_id": "BK22001166.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 요즘 유엔에 대해 공부하고 있어서 뉴스나 기사를 열심히 보고 있어.",
+            "turn_id": "BK22001166-1",
+            "utterance_id": "BK22001166.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 유엔에 대해서 좀 알려줘. 유엔이 정확히 어떤 거야?",
+            "turn_id": "BK22001166-2",
+            "utterance_id": "BK22001166.3"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "유엔(UN) 또는 국제 연합(國際聯合)은 국제 평화와 안전을 보장하고, 국제 협력 증진, 인권 개선 등의 활동을 통해 세계의 번영을 추구하는 국제 기구이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 UN은 전세계 거의 모든 국가를 아우르는 국제 기구이며, 1945년 10월 24일에 제2차 세계대전 종전 이후 출범했다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94",
+            "search_query": "유엔",
+            "terminate": false,
+            "text": "유엔은 국제 평화와 안전을 지키고, 국제 협력을 늘리고, 인권 개선 같은 활동으로 세계의 발전을 추구하는 국제 기구야. 1945년 10월 24일에 2차 세계대전이 끝나고 만들어졌지. 그리고 전세계 거의 모든 나라를 모아둔 국제 기구기도 하고.",
+            "turn_id": "BK22001166-2",
+            "utterance_id": "BK22001166.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유엔이 국제 기구였구나. 그러면 유엔 본부는 어디에 있어?",
+            "turn_id": "BK22001166-3",
+            "utterance_id": "BK22001166.5"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "유엔본부는 아시아 지역에 한 군데도 없다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국에 1개(뉴욕), 유럽에 2개(제네바, 빈), 아프리카에 1개(나이로비)가 설치되어 있다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/2133223",
+            "search_query": "유엔 본부",
+            "terminate": false,
+            "text": "미국에 1개, 유럽에 2개, 아프리카에 1개가 있어. 그렇지만 아시아에는 한 개도 없고.",
+            "turn_id": "BK22001166-3",
+            "utterance_id": "BK22001166.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아시아에는 아예 없구나. 그러면 유엔 회원국의 분담금은 어떻게 책정돼?",
+            "turn_id": "BK22001166-4",
+            "utterance_id": "BK22001166.7"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "유엔은 회원국들의 분담금을 정해 자발적으로 일종의 회비를 걷는다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 2년 단위로 예산을 측정하며 유엔 총회에서 정한 분담 비율에 따라 국가에 따라 부과된다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정기 총회에서는 예산을 측정하는 과정에서 각 회원국 간 분담금을 정하기도 한다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%97%94",
+            "search_query": "유엔 분담금",
+            "terminate": false,
+            "text": "유엔은 회원국들의 분담금을 정해서 자발적으로, 일종의 회비치럼 걷어. 보통 2년 단위로 예산을 정하고 총회에서 정한 분담 비율에 따라 각 국가에 부과되지. 정기 총회에서 예산을 정하면서 분담금을 정하기도 하고.",
+            "turn_id": "BK22001166-4",
+            "utterance_id": "BK22001166.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 방식으로 운영이 되고 있구나. 그런데 최근에 러시아가 유엔에서 퇴출당했다며?",
+            "turn_id": "BK22001166-5",
+            "utterance_id": "BK22001166.9"
+        },
+        {
+            "reference_date": "2022-04-09",
+            "reference_text": [
+                {
+                    "value": "러시아가 유엔(UN) 핵심 기구 중 하나인 인권이사회에서 퇴출됐다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우크라이나를 침공한 러시아군의 민간인 대량 학살에 대해 세계가 강력한 분노를 표시한 결과였다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1945년 유엔 창설의 주역이자 안전보장이사회 상임이사국으로 전 세계에 막강한 영향력을 가진 국가가 유엔 산하 기구에서 퇴출된 것은 77년 유엔사(史)에서 전례가 없는 일이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/international/international_general/2022/04/09/SEQWPYC7GZCB7KAISRT7TID2DI/",
+            "search_query": "유엔 러시아",
+            "terminate": false,
+            "text": "러시아가 유엔 인권이사회에서 퇴출됐어. 우크라이나를 공격한 러시아군이 민간인을 대량 학살해서 전 세계가 강력한 분노를 나타낸거지. 1945년 유엔을 만들 때 핵심 국가였고 안전보장이사회 상임이사국이고, 또 엄청난 영향력이 있는 국가가 쫓겨난 건 77년 유엔 역사에 처음 있는 일이지.",
+            "turn_id": "BK22001166-5",
+            "utterance_id": "BK22001166.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 러시아를 퇴출시켰구나. 그러면 최근에 유엔은 어떤 일을 하고 있어?",
+            "turn_id": "BK22001166-6",
+            "utterance_id": "BK22001166.11"
+        },
+        {
+            "reference_date": "2022-01-13",
+            "reference_text": [
+                {
+                    "value": "유엔(UN)이 11일(현지 시각) 올해 아프가니스탄의 인도주의적 위기 해결을 위해 국제 사회에 50억달러(약 5조 9600억원) 지원을 요청했다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/international/international_general/2022/01/13/K3NGJ4QOAFESJLQ5TTRXQICLZ4/",
+            "search_query": "유엔 지원",
+            "terminate": false,
+            "text": "최근에는 아프가니스탄의 기아나 난민 문제 같은 인도주의적 위기를 해결하려고 여러 나라들에 50억달러의 지원을 요청하고 있어.",
+            "turn_id": "BK22001166-6",
+            "utterance_id": "BK22001166.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 위기 상황인 국가들을 도와주려고 하는구나. 그런데 유엔의 문제점은 없어?",
+            "turn_id": "BK22001166-7",
+            "utterance_id": "BK22001166.13"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "지지부진한 논의를 이어오던 유엔 개혁 문제가 러시아의 우크라이나 침공을 계기로 다시 주목을 받고 있다고 AFP통신이 10일(현지시간) 보도했다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 예고된 전쟁조차 막지 못한 유엔 안전보장이사회(안보리)의 무능, 계속 되풀이되는 안보리 상임이사국의 일방주의 행태, 지역적으로 불균등한 권한 배분을 둘러싸고 개혁 필요성 제기가 분출하고 있다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220410055600009",
+            "search_query": "유엔 문제",
+            "terminate": false,
+            "text": "그동안 해결되지 못하고 있었던 유엔 개혁 문제가 러시아가 우크라이나를 공격하면서 다시 주목받고 있어. 특히 예고된 전쟁을 막지 못한 유엔 안전보장이사회의 무능, 반복되는 안보리 상임이사국의 일방주의적인 행동, 지역적으로 공평하지 않은 권한 배분 때문에 개혁 논의가 다시 나오고 있지.",
+            "turn_id": "BK22001166-7",
+            "utterance_id": "BK22001166.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러가지 문제가 있구나. 그러면 한국도 유엔에 가입해 있지?",
+            "turn_id": "BK22001166-8",
+            "utterance_id": "BK22001166.15"
+        },
+        {
+            "reference_date": "2021-09-17",
+            "reference_text": [
+                {
+                    "value": "대한민국이 유엔에 가입한 것은 1991년 9월 17일이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/reporterView.do?newsId=148893047",
+            "search_query": "유엔 한국 가입",
+            "terminate": false,
+            "text": "맞아, 한국은 1991년 9월 17일에 유엔에 가입했어.",
+            "turn_id": "BK22001166-8",
+            "utterance_id": "BK22001166.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1990년대에 가입했구나. 그러면 유엔 고위직에 있는 한국인도 있어?",
+            "turn_id": "BK22001166-9",
+            "utterance_id": "BK22001166.17"
+        },
+        {
+            "reference_date": "2017-01-12",
+            "reference_text": [
+                {
+                    "value": "반기문 전 총장은 2006년 2월 14일에 유엔 차기 사무총장 선거에 공식적으로 출마 선언을 한 뒤 2006년 10월 14일에 한국인으로서는 최초로 코피 아난의 뒤를 이어 차기 유엔 사무총장에 당선됐다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/politics/article/201701115841g",
+            "search_query": "유엔 한국 반기문",
+            "terminate": false,
+            "text": "반기문 씨가 유엔 사무총장 선거에 출마해서 2006년 10월 14일에 한국인 최초로 코피 아난의 후임자로 유엔 사무총장에 당선됐었어.",
+            "turn_id": "BK22001166-9",
+            "utterance_id": "BK22001166.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국인이 총장을 하기도 했구나. 오늘 덕분에 정말 유익한 정보를 많이 알게 됐어.",
+            "turn_id": "BK22001166-10",
+            "utterance_id": "BK22001166.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 조심히 가고 다음에 보자.",
+            "turn_id": "BK22001166-10",
+            "utterance_id": "BK22001166.20"
+        }
+    ]
+}

@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007616",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007616",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엊그제 오랜만에 영화 300을 다시 보다가 문득 고대 그리스 역사에 관해 관심이 생기더라. 그리스 지역에서 최초의 문명은 어떤 것이었을까?",
+            "turn_id": "BK22007616-1",
+            "utterance_id": "BK22007616.1"
+        },
+        {
+            "reference_date": "2022-07-18",
+            "reference_text": [
+                {
+                    "value": "고대 그리스 세계에서 가장 오래된 문명은 미노아 문명이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미노아는 크레타섬에서 기원전 2,700년경부터 기원전 1450년까지 존속하였다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미노아는 기원전 1400년경 있었던 미케네의 침략과 테라섬의 화산 폭발로 멸망하였다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A6%AC%EC%8A%A4%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "그리스 최초 문명",
+            "terminate": false,
+            "text": "미노아 문명이 고대 그리스 세계에서 가장 오래된 문명이야. 미노아 문명은 기원전 약 2,700년부터 기원전 1,450년까지 크레타섬에 존재했는데, 기원전 1,400년경에 발생한 테라섬의 화산 폭발과 미케네의 침략으로 인해 멸망했지.",
+            "turn_id": "BK22007616-1",
+            "utterance_id": "BK22007616.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기원전 2700년경이라니, 정말 오래됐네. 그럼 그 미노스 문명이 다른 문명에 준 영향이라든가, 유명한 유적 같은 건 뭐가 있을까?",
+            "turn_id": "BK22007616-2",
+            "utterance_id": "BK22007616.3"
+        },
+        {
+            "reference_date": "2022-07-14",
+            "reference_text": [
+                {
+                    "value": "미노스 문명(Minoan civilization, 기원전 3650년경~기원전 1170년경), 미노아 문명 또는 크레타 문명은 그리스의 크레타섬에 있었던 그리스 청동기 시대의 고대 문명이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미노스 문명의 궁전들은 이 섬에서 발굴된 유적 중 가장 유명한 건물이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고고학자들이 발굴한 거대한 장서고를 통해 이 곳이 행정 기능을 담당하는 건물임을 알 수 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "궁전은 내외부 계단, 작은 우물, 육중한 기둥, 창고와 정원을 갖춘 다층 건물도 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미노스 사람들은 미케네 그리스인들에게 큰 영향을 주었는데, 가령 초기 그리스의 문자인 선문자 B는 미노스 문명의 선문자 A를 받아들인 것이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%85%B8%EC%8A%A4_%EB%AC%B8%EB%AA%85",
+            "search_query": "미노스 문명",
+            "terminate": false,
+            "text": "크레타 섬의 그리스 청동기 시대 고대 문명인 미노스 문명은 미노아 문명, 혹은 크레타 문명이라고도 불려. 섬에서 발굴된 유적 중에서는 궁전들이 가장 유명한 건축물인데, 고고학자들이 발견한 큰 규모의 장서고를 통해 이곳이 행정 기능을 맡는 건물이라는 점을 알 수 있지. 궁전에는 작은 우물과 육중한 기둥, 내외부 계단을 비롯해, 정원과 창고가 있는 다층 건물도 존재해. 미노스 사람들은 미케네 그리스인들에게 상당한 영향을 끼쳤는데, 예를 들어, 초기 그리스의 문자인 선문자 B는 미노스 문명의 선문자 A를 받아들인 결과야.",
+            "turn_id": "BK22007616-2",
+            "utterance_id": "BK22007616.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미노스 문명의 궁전이라, 언젠가 꼭 한 번 가서 보고 싶네. 그건 그렇고, 선문자는 좀 생소한 단어인데, 선문자 A는 어떤 문자야? 해독은 된 상태야?",
+            "turn_id": "BK22007616-3",
+            "utterance_id": "BK22007616.5"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "선형문자 A(그리스어: Γραμμική Α, 영어: Linear A)는 고대 크레타 섬에서 사용한 문자이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "선형문자 A는 크레타 각지에서 넓은 범위에 걸쳐 출토되어, 크레타 공통의 문자로 추정된다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같이 발견된 선형문자 B는 1950년대 마이클 벤트리스에 의해 미케네 그리스어로 해독되었지만, 선형문자 A는 고대 그리스어와는 다른 언어를 기록하고 있어서 음가를 비교할 수 있는 대조군이 없기에 아직 해독되지 않았다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조각된 점토판의 품질이 좋지 않고 발견된 수도 적은 것도 해독이 되지 않은 이유 중 하나이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95%EB%AC%B8%EC%9E%90_A",
+            "search_query": "선형문자 a",
+            "terminate": false,
+            "text": "고대 크레타 섬에서 사용된 문자가 선형문자 A이고, 크레타 각지, 넓은 범위의 지역에 걸쳐 출토되는 것으로 보아 크레타의 공통 문자로 추정되지. 다만, 함께 발견되었던 선형문자 B가 1950년대에 마이클 벤트리스 덕에 미케네 그리스어로 해독된 반면, 고대 그리스어와 다른 언어를 기록하고 있는 선형문자 A는 음가를 비교할 대조군이 없어서 여태 해독되지 않았어. 문자가 조각된 점토판의 상태가 안 좋은 데다가 발견된 숫자도 적은 점도 해독을 힘들게 하는 이유 중 하나지.",
+            "turn_id": "BK22007616-3",
+            "utterance_id": "BK22007616.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 해독이 되지 않았다는 게 참 아쉽네. 그럼 선형문자 B는 어떤 문자이고, 어느 시기에, 어디에서 쓰였어?",
+            "turn_id": "BK22007616-4",
+            "utterance_id": "BK22007616.7"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "선형문자 B(그리스어: Γραμμική Β, 영어: Linear B)는 기록되어 전해지는 가장 이른 시기의 그리스어인 미케네 그리스어를 기록하는데 쓰인 음절문자이며, 기원전 15세기에서 13세기 경까지 크레타 섬과 대륙의 여러 도시에서 사용되었다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "선형문자 B에는 약 이백여 개의 기호가 있으며, 이 기호들은 음가를 가지는 음절기호와 뜻을 가지고 있는 표의문자로 구성되어 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95%EB%AC%B8%EC%9E%90_B",
+            "search_query": "선형문자 b",
+            "terminate": false,
+            "text": "기록이 전해지는 가장 이른 시기의 그리스어, 미케네 그리스어를 기록하는 데에 쓰인 음절 문자가 바로 선형문자 B이고, 크레타 섬과 대륙의 여러 도시에서 기원전 15~13세기경에 걸쳐 쓰였어. 선형문자 B는 대략 200여 개의 기호가 포함되어 있는데, 이 기호들은 뜻을 가지고 있는 표의 문자와 음가를 가지는 음절 기호로 구성되어 있지.",
+            "turn_id": "BK22007616-4",
+            "utterance_id": "BK22007616.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "표의 문자와 음절 기호가 섞여 있다는 점이 정말 독특한걸. 그나저나 아까 미노스 문명이 멸망 원인 중 하나가 미케네의 침략이라고 했잖아. 미케네는 어떤 문명이었어?",
+            "turn_id": "BK22007616-5",
+            "utterance_id": "BK22007616.9"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "뮈케나이 문명 또는 미케네 문명은 그리스 남부 펠로폰네소스 반도에 있는 북동부 아르골리스의 미케네의 유적지에서 이름을 따온 고대 그리스의 문화를 일컫는다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아테나이, 필로스, 테바이, 티린스도 미케네 문명의 주요 영역이었다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미케네 문명은 헬라도스 문화(Helladic culture)가 미노스 문명의 영향으로 발달하던 3700년 전부터 동부 지중해에서 청동기 문명이 쇠퇴하던 3200년 전까지 번성했다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 그리스의 청동기 시대 말기는 호메로스의 서사시 등 고대 그리스의 문학과 신화가 탄생한 시기이며, 고대 그리스의 최대 전성기에 해당한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미케네의 멸망은 흔히 도리아인의 침략 때문이라고 보는데, 그 밖에 화산 분화로 인한 자연 재해나 기후 변화 같은 가설도 제기되고 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%BC%80%EB%84%A4_%EB%AC%B8%EB%AA%85",
+            "search_query": "미케네 문명",
+            "terminate": false,
+            "text": "그리스 남부 펠로폰네소스 반도에 위치한 북동부 아르골리스 미케네의 유적지에서 이름을 딴 미케네 문명은 미퀘나이 문명이라고도 불리는 고대 그리스의 문화야. 미케네 문명의 주요 영역 중에는 아테나이, 필로스, 테바이, 티린스가 있고, 이 문명은 미노스 문명의 영향으로 헬라도스 문화가 발달하던 3700년 전부터 동부 지중해에서 청동기 문명이 사라지는 3200년 전까지 번성했지. 이 청동기 시대 말기는 호메로스의 서사시 같은 고대 그리스의 신화와 문학이 태어난 시기이고, 고대 그리스의 최전성기에 해당해. 흔히, 미케네는 도리아인의 침략 때문에 멸망했다고 보는데, 화산 분화 같은 자연 재해나 기후 변화 때문에 멸망했다는 가설도 제기되고 있어.",
+            "turn_id": "BK22007616-5",
+            "utterance_id": "BK22007616.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호메로스의 서사시는 나도 들어본 적이 있는데, 그게 미케네 문명과 관련이 있었다니 신기하네. 그럼 그 도리아인은 대체 어떤 민족이었어?",
+            "turn_id": "BK22007616-6",
+            "utterance_id": "BK22007616.11"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "도리스인( -人, Dorians /ˈdɔːriənz/,그리스어: Δωριεῖς) 또는 도리아인은 기원전 16세기에서 기원전 12세기 무렵에 그리스 반도로 남하하여 스파르타, 코린토스 등의 폴리스를 건설한 민족이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도유럽어 분파 중에서 원시 그리스어에서 파생된 언어를 사용한 아카이아인이 남부 그리스에 정착해 미케네 문명을 새웠다면, 나머지 그리스 분파는 북부에 남아 도리스인이 되었다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리스 암흑시기인 기원전 8세기|-6세기경 급격한 인구증가로 다른 그리스 종족들과 함께 흑해 북부, 터키 남부, 스페인, 이탈리아, 북아프리카 등지에 도시를 건설한 세력으로서, 아카이아인들과 함께 가장 큰 세력을 이룬 민족이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A6%AC%EC%8A%A4%EC%9D%B8",
+            "search_query": "도리아인",
+            "terminate": false,
+            "text": "도리아인은 도리스인이라고도 불리고, 기원전 16~12세기 무렵 그리스 반도로 남하해 코린토스, 스파르타 같은 폴리스를 만든 민족이야. 인도유럽어 분파 중 원시 그리스어에서 갈라져 나온 언어를 쓰던 아카이아인이 그리스 남부에 정착해 미케네 문명을 세우고, 나머지 그리스 분파는 북부에 남아 도리스인이 된 것이지. 그리스 암흑 시기라고 불리는 기원전 8~6세기경 인구가 급격히 늘어나면서 다른 그리스 민족과 함께 터키 남부, 스페인, 이탈리아, 흑해 북부, 북아프리카 등에 도시를 건설한 세력이자, 아카이아인과 함께 가장 거대한 세력을 이룬 민족이야.",
+            "turn_id": "BK22007616-6",
+            "utterance_id": "BK22007616.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 스파르타를 세운 민족이 바로 도리아인이었구나. 그럼 도리아인의 침략이라는 건 대체 어떤 사건이었어?",
+            "turn_id": "BK22007616-7",
+            "utterance_id": "BK22007616.13"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "'도리스인의 침입'이라는 의미는 확실히 규명되지 않았다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리스 고전기 이전의 고대 그리스 남부(특히, 펠로폰네소스 반도)에서 쓰이던 언어와 전통을 대체한 그리스 고전기의 언어와 전통은 서로 간에 현격한 차이가 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "도리스인의 침입(Dorian invasion) 또는 도리스인의 이동(Dorian migration)이라는 개념은 이러한 현격한 문화 대체가 발생하게 된 이유를 합당하게 설명하기 위해 고대 그리스를 연구하는 역사가들이 제안한 가설 또는 이론이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "200년 가까이 연구가 이어졌지만, '도리스인의 침입'이 실제로 일어난 역사인지는 증명되지 않았다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도리스인이 그리스를 침공했다는 가설이 실제로 일어났을 가능성은 아직 열려있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A6%AC%EC%8A%A4%EC%9D%B8%EC%9D%98_%EC%B9%A8%EC%9E%85",
+            "search_query": "도리아인 침입",
+            "terminate": false,
+            "text": "우선, 도리아인의 침입이라는 사건의 의미는 아직 확실하게 규명된 바가 없어. 그리스 고전기 이전 고대 그리스 남부의 전통과 언어와, 이를 대체한 그리스 고전기의 언어와 전통 사이에는 상당한 차이가 있는데, 이러한 문화 대체가 일어난 이유를 합리적으로 설명하기 위해 고대 그리스를 연구하는 역사가들이 내놓은 가설, 혹은 이론이 도리스인의 침입이거든. 지금껏 200년 가까이 연구가 이루어졌지만, 도리스인의 침입이 실제로 발생한 역사적 사실인지는 증명되지 않았어. 물론, 도리스인이 실제로 그리스를 침공했을 가능성은 아직 열려 있지.",
+            "turn_id": "BK22007616-7",
+            "utterance_id": "BK22007616.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 확실한 이론은 아니지만, 적어도 전통과 언어가 급격히 변한 사실을 잘 설명하는 이론 같아. 그런데 고대 그리스의 전통과 문화가 그리스 고전기에 대체되었다고 했잖아. 이 그리스 고전기는 어느 시기를 가리키고, 어떤 특징이 있었어?",
+            "turn_id": "BK22007616-8",
+            "utterance_id": "BK22007616.15"
+        },
+        {
+            "reference_date": "2022-02-02",
+            "reference_text": [
+                {
+                    "value": "고대 그리스의 예술, 건축, 문화의 측면에서 고전기란 기원전 6세기 대부분, 5세기, 4세기의 시대를 이른다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 기원전 510년에 아테나이의 마지막 참주가 몰락한 시대부터 알렉산드로스 대왕이 죽은 기원전 323년까지의 시대로 잡는다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고전기 그리스는 매우 발전된 문명으로서, 고대 로마와 서구 세계 전반에 심대한 영향을 끼쳤다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대 정치, 예술 사상, 과학 사상, 문학, 철학의 상당 부분이 그리스 고전기에서 유래하였다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%84%EA%B8%B0_%EA%B7%B8%EB%A6%AC%EC%8A%A4",
+            "search_query": "그리스 고전기",
+            "terminate": false,
+            "text": "건축, 예술, 문화적 측면에서 고대 그리스의 고전기는 기원전 6세기 시기 대부분을 포함해, 5세기와 4세기 시대를 가리켜. 보통 아테나이의 마지막 참주가 몰락한 기원전 510년부터 알렉산드로스 대왕이 죽은 기원전 323년까지를 그 시기로 잡지. 고전기 그리스는 발전이 아주 많이 된 문명이었고, 고대 로마를 비롯해 서구 세계 전반에 아주 큰 영향을 미쳤어. 그뿐만 아니라, 현대 정치, 과학 사상, 예술 사상, 철학과 문학의 상당 부분이 바로 이 그리스 고전기에서 유래했지.",
+            "turn_id": "BK22007616-8",
+            "utterance_id": "BK22007616.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 듣기만 해도 영향이 지대한 문명이었다는 게 느껴지네. 그리스 역사는 정말 알면 알수록 매력적인 것 같아. 참, 혹시 이번 토요일에 시간 돼?",
+            "turn_id": "BK22007616-9",
+            "utterance_id": "BK22007616.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그 매력에 빠져서 그리스 역사를 공부하게 됐어. 이번 주말은 토요일, 일요일 전부 시간 되는데, 왜?",
+            "turn_id": "BK22007616-9",
+            "utterance_id": "BK22007616.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도서관에서 서양 고대사에 관한 책을 빌리려는데 도와줄 수 있나 해서. 괜찮으면 내가 토요일에 다시 연락할게.",
+            "turn_id": "BK22007616-10",
+            "utterance_id": "BK22007616.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇지 않아도 도서관에 가려고 했는데, 마침 잘 됐네. 그럼 토요일에 보자.",
+            "turn_id": "BK22007616-10",
+            "utterance_id": "BK22007616.20"
+        }
+    ]
+}

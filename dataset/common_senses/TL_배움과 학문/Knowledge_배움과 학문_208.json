@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012841",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012841",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요새 넷플릭스에서 재미있는 영화를 발견했어요. 제목이 헨리 5세였어요.",
+            "turn_id": "BK22012841-1",
+            "utterance_id": "BK22012841.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헨리 5세 라면 역사적으로도 유명한 왕이죠.",
+            "turn_id": "BK22012841-1",
+            "utterance_id": "BK22012841.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 유명한 왕인가요? 그냥 전투 장면만 몰입해서 봤는데, 어느 나라의 왕이었나요?",
+            "turn_id": "BK22012841-2",
+            "utterance_id": "BK22012841.3"
+        },
+        {
+            "reference_date": "2022-06-23",
+            "reference_text": [
+                {
+                    "value": "헨리 5세(웨일스어: Harri V; 1386년 9월 16일 - 1422년 8월 31일)는 1413년부터 사망할 때까지 잉글랜드의 왕이였다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC_5%EC%84%B8",
+            "search_query": "헨리5세",
+            "terminate": false,
+            "text": "헨리 5세는 잉글랜드 왕국의 왕이었어요. 그는 1413년부터 1422년에 죽을 때까지 잉글랜드의 왕이었지요.",
+            "turn_id": "BK22012841-2",
+            "utterance_id": "BK22012841.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잉글랜드 왕국이라고 하면, 영국이 아닌 다른 국가인가요?",
+            "turn_id": "BK22012841-3",
+            "utterance_id": "BK22012841.5"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "1707년에 잉글랜드 왕국과 스코틀랜드 왕국은 그레이트브리튼 왕국으로 통합되었다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%81%EA%B5%AD",
+            "search_query": "영국",
+            "terminate": false,
+            "text": "과거에 잉글랜드 왕국과 스코틀랜드 왕국이 있었는데, 후에 1707년 두 왕국이 합쳐 그레이트브리튼 왕국이 되었어요.",
+            "turn_id": "BK22012841-3",
+            "utterance_id": "BK22012841.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇군요. 그럼 헨리 5세가 치른 백년전쟁은 스코틀랜드 왕국과의 전쟁이었나요?",
+            "turn_id": "BK22012841-4",
+            "utterance_id": "BK22012841.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "백년 전쟁(영어: the Hundred Years' War, 프랑스어: la guerre de Cent Ans)은 1337년부터 1453년까지 116년이라는 기간동안 잉글랜드 왕국의 플랜태저넷 가와 프랑스 왕국의 발루아 가 사이에 프랑스 왕위 계승 문제를 놓고 일어난 일련의 분쟁들을 총체적으로 부르는 이름이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%85%84_%EC%A0%84%EC%9F%81",
+            "search_query": "백년전쟁",
+            "terminate": false,
+            "text": "아니요. 헨리 5세가 치른 백년전쟁은 잉글랜드 왕국의 플랜태저넷 가문과 프랑스 왕국의 발루아 가문이 프랑스 왕위를 놓고 다툰 전쟁이에요. 1337년부터 1453년까지 116년 동안의 분쟁들이 합쳐서 백년전쟁이라고 지칭하게 되었죠.",
+            "turn_id": "BK22012841-4",
+            "utterance_id": "BK22012841.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잉글랜드의 왕이 프랑스 왕국의 왕위를 놓고 싸우다니 흥미롭네요. 그럼 백년전쟁 중에서 헨리 5세가 치른 유명한 전투는 무엇이 있나요?",
+            "turn_id": "BK22012841-5",
+            "utterance_id": "BK22012841.9"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "이 전투에서 잉글랜드의 헨리 5세(Henry V)는 프랑스 측에 막대한 손실을 입히면서 승리하였고, 이 전투 이후 헨리 5세가 프랑스의 공주와 결혼하면서 그의 아들 헨리 6세가 프랑스의 왕위 계승권을 가지게 되었다 (그러나 나중에 프랑스는 헨리 6세의 왕위 계승권을 무시하였다).",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아쟁쿠르 전투는 백년전쟁(Hundred Years' War)의 전투 중 하나로 1415년 10월 25일 금요일 북부 프랑스의 아쟁쿠르에서 벌어졌다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9F%81%EC%BF%A0%EB%A5%B4_%EC%A0%84%ED%88%AC",
+            "search_query": "아쟁쿠르 전투",
+            "terminate": false,
+            "text": "1415년 10월 25일 금요일에 프랑스 북쪽에서 벌어진 아쟁쿠르 전투예요.이때 헨리 5세가 프랑스군에게 막대한 손해를 입혔고 그 대가로 프랑스 공주와의 혼인을 통해, 자기 자식 헨리 6세에게 프랑스의 왕위 계승권이 주어지도록 했어요. 하지만 프랑스는 이후에 헨리 6세의 왕위 계승권을 인정하지 않았죠.",
+            "turn_id": "BK22012841-5",
+            "utterance_id": "BK22012841.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잉글랜드의 왕이 프랑스 왕국의 왕위 계승권을 가지게 되었다는 게 흥미롭네요. 그럼 헨리6세는 프랑스의 왕이 되었나요?",
+            "turn_id": "BK22012841-6",
+            "utterance_id": "BK22012841.11"
+        },
+        {
+            "reference_date": "2022-03-31",
+            "reference_text": [
+                {
+                    "value": "이로 인해 헨리 6세는 1470년 복위했지만 워릭 백작이 전쟁에서 패배하면서 반년도 되지 않아 다시 런던 탑에 유폐되었고, 1471년 5월 사망했다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공식적으로는 우울증으로 인해 죽었다고 발표되었으나 실제로는 암살되었다고 여겨진다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC_6%EC%84%B8",
+            "search_query": "헨리 6세",
+            "terminate": false,
+            "text": "아니요. 안타깝게도 헨리 6세는 프랑스 왕이 되기는커녕 오히려 워릭 백작이 전쟁에서 패전하면서 1470년에 복위한 지 6개월도 채 되지 않아 런던탑에 가둬졌어요. 결국 1471년 5월에 죽게 되었는데 암살이 되었다는 말이 있어요. 공식적으로는 우울증으로 죽었다고 발표는 되었지만요.",
+            "turn_id": "BK22012841-6",
+            "utterance_id": "BK22012841.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아버지는 전투에서 크게 이겨 왕위 계승권을 가져왔는데, 그 아들은 암살당하다니 아이러니하네요. 그럼 백년전쟁은 잉글랜드의 승리로 끝이 난 것인가요?",
+            "turn_id": "BK22012841-7",
+            "utterance_id": "BK22012841.13"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "프랑스를 구하라는 천사의 계시를 받은 후 백년 전쟁에 참전하였다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여러차례에 걸쳐 프랑스군을 승리로 이끌었으며 이를 통해 샤를 7세가 프랑스 국왕으로서 대관식을 치를 수 있게 도와주었다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잔 다르크(프랑스어: Jeanne d'Arc, 문화어: 쟝느 다르크, 1412년 1월 6일 ~ 1431년 5월 30일) 또는 아르크의 성녀 요안나(라틴어: Sancta Ioanna Arcensis)는 프랑스의 국민적 영웅이자 로마 가톨릭교회의 성인이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%94_%EB%8B%A4%EB%A5%B4%ED%81%AC",
+            "search_query": "잔다르크",
+            "terminate": false,
+            "text": "아니요. 이 때 프랑스에 천사의 계시를 받은 프랑스의 국민적 영웅이자 로마 카톨릭교회의 성인인 잔 다르크가 나타나, 여러 차례 밀리던 프랑스군에 승리하게 하며, 샤를 7세가 왕으로 등극할 수 있게 만들었어요.",
+            "turn_id": "BK22012841-7",
+            "utterance_id": "BK22012841.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잔 다르크요? 그럼 프랑스의 영웅인 잔 다르크는 왕위 등극을 도운 샤를 7세에게 좋은 대우를 받았겠군요?",
+            "turn_id": "BK22012841-8",
+            "utterance_id": "BK22012841.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "자신과의 생각과 입장이 전혀 반대인 강경입장을 취하고 있는 그녀가 잉글랜드군에 잡혀 포로가 되자 기다렸다는 듯이 매몰차게 버렸던 것이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 잔 다르크는 잉글랜드에서 마녀라는 혐의를 받아 1431년 5월 화형을 당하게 된다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%A4%EB%A5%BC_7%EC%84%B8",
+            "search_query": "샤를 7세",
+            "terminate": false,
+            "text": "안타깝게도 샤를 7세는, 강경 입장으로 자신과 반대를 한 잔 다르크를 잉글랜드에 포로가 되었을 때 버렸어요. 포로가 된 잔 다르크는 끝내 마녀라는 혐의로 잉글랜드에서 1431년 5월 화형을 당하지만, 이때도 외면했지요.",
+            "turn_id": "BK22012841-8",
+            "utterance_id": "BK22012841.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자신을 도운 사람을 그렇게 외면하다니 너무 안타깝네요. 혹시 관련된 영화가 있을까요?",
+            "turn_id": "BK22012841-9",
+            "utterance_id": "BK22012841.17"
+        },
+        {
+            "reference_date": "2022-02-09",
+            "reference_text": [
+                {
+                    "value": "《잔 다르크의 수난》(La Passion de Jeanne d'Arc)은 1928년에 만들어진 프랑스의 무성영화이자 흑백영화이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 영화는 잔 다르크의 실제 재판 문서 기록을 바탕으로 만들어졌다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%94_%EB%8B%A4%EB%A5%B4%ED%81%AC%EC%9D%98_%EC%88%98%EB%82%9C",
+            "search_query": "잔 다르크의 수난",
+            "terminate": false,
+            "text": "네, 조금은 오래된 흑백 영화이긴 한데, 1928년에 나온 잔 다르크의 수난이라는 프랑스 영화가 있어요. 무성영화로 조용하지만 잔 다르크의 재판 문서를 바탕으로 만들어져 사실감이 높아요.",
+            "turn_id": "BK22012841-9",
+            "utterance_id": "BK22012841.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헨리 5세를 알다가 덕분에 잔 다르크도 알게 되었네요. 알려주신 영화도 한번 봐야겠어요.",
+            "turn_id": "BK22012841-10",
+            "utterance_id": "BK22012841.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "꼭 한번 보세요. 오래된 영화이지만 아직도 볼만한 작품이에요.",
+            "turn_id": "BK22012841-10",
+            "utterance_id": "BK22012841.20"
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008248",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008248",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 메이지 유신에 대해 잘 아시나요? 일본 근대 역사에서 가장 중요한 사건이라고 하던데 대체 언제 일어난 사건인가요?",
+            "turn_id": "BK22008248-1",
+            "utterance_id": "BK22008248.1"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "메이지 유신의 개시 시기는 1868년이며 종료 시기는 1871년 폐번치현(廢藩置縣), 1873년 지조개정(地租改正), 1877년 세이난 전쟁(西南戰爭), 1889년 헌법 발표 등 여러 설이 있으며 정설은 확립되지 않았다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%9C%A0%EC%8B%A0",
+            "search_query": "메이지 유신 폐번치현",
+            "terminate": false,
+            "text": "메이지 유신의 시작 시기는 1868년이지만 끝난 시기에 대해서는 여러 가지 설이 있어요. 빠르게는 1871년의 폐번치현부터 느리게는 헌법 발표가 이루어진 1889년까지도 봐요. 이외에도 1873년의 지조개정이나 1877년의 세이난 전쟁 등을 종료 시기로 보기도 하지만 정설은 없어요.",
+            "turn_id": "BK22008248-1",
+            "utterance_id": "BK22008248.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 굉장히 여러 사건이 한데 합쳐진 느낌이네요. 그런데 폐번치현이라는 건 대체 어떤 사건인가요?",
+            "turn_id": "BK22008248-2",
+            "utterance_id": "BK22008248.3"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "폐번치현(일본어: 廃藩置県 하이한치켄[*])은 메이지 유신 시기인 1871년 8월 29일(메이지 4년 7월 14일)에, 이전까지 지방 통치를 담당하였던 번을 폐지하고, 지방 통치 기관을 중앙 정부가 통제하는 부(府)와 현(縣)으로 일원화한 행정 개혁이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%90%EB%B2%88%EC%B9%98%ED%98%84#%EA%B7%9C%EC%8A%88",
+            "search_query": "폐번치현 번 부 현 행정",
+            "terminate": false,
+            "text": "폐번치현은 1871년 8월 29일에 일어난 사건이에요. 과거 지방 통치를 맡았던 번을 폐지하고 중앙 정부가 지방 통치 기관을 통솔하기 위해 부와 현으로 단일화한 행정 개혁이죠.",
+            "turn_id": "BK22008248-2",
+            "utterance_id": "BK22008248.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 당시 폐번치현이 발생하게 된 이유는 뭔가요? 어떠한 계기가 있었을 거 같은데요.",
+            "turn_id": "BK22008248-3",
+            "utterance_id": "BK22008248.5"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "1868년 1월 3일에 일어났던 왕정복고의 쿠데타를 통해서 일어난 변화는 사실상 중앙정부의 대권이 도쿠가와 막부에서 조정으로 옮겨가는 변화 이외에는 없었기 때문에, 중앙집권을 위해서는 각 지역에 남아 있는 영지(번)의 존재를 어떻게든 처리해야만 하였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%90%EB%B2%88%EC%B9%98%ED%98%84",
+            "search_query": "폐번치현 왕정복고 영지 처리",
+            "terminate": false,
+            "text": "1868년 1월 3일에 왕정복고 쿠데타가 일어나지만 사실 도쿠가와 막부에서 조정으로 중앙정부의 대권이 이동한 것 외에 다른 변화는 전무했어요. 그래서 중앙집권을 위해서 각 지역에 잔존하던 영지들을 어떻게든 처리해야만 했죠.",
+            "turn_id": "BK22008248-3",
+            "utterance_id": "BK22008248.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 지방분권제를 중앙집권제로 바꾼 거네요. 당시 권력 시스템의 개혁 외에 다른 사회적 개혁들은 없었나요?",
+            "turn_id": "BK22008248-4",
+            "utterance_id": "BK22008248.7"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "신분 제도에서는, 에도 막부 아래의 '사농공상'의 구별을 폐지, 구 무사 계급을 사족, 그 이외를 평민으로 하여, '사민평등'을 구가하는 한편, 구 구게, 다이묘나 일부 승려 등을 새롭게 화족으로서 특권 계급으로 함과 동시에, 궁내성 지배 아래로 두게 되었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%9C%A0%EC%8B%A0",
+            "search_query": "메이지유신 신분 사족 화족",
+            "terminate": false,
+            "text": "있었죠. 기존에는 에도 막부 밑으로 사농공상의 구별이 있었는데 이를 폐지했죠. 즉, 과거의 무사 계급은 사족, 그 이외에는 평민으로 정한 뒤 사민평등을 구가했어요. 한편으로는 과거의 구게, 다이묘, 일부 스님들을 궁내성의 지배 아래에 두고 화족이라는 특권 계급으로 정했고요.",
+            "turn_id": "BK22008248-4",
+            "utterance_id": "BK22008248.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신분 제도를 간소화를 통해 사회 시스템을 근대화하려 한 거군요. 사회 시스템 말고 실물 경제 분야에서는 어떤 발전이 있었나요?",
+            "turn_id": "BK22008248-5",
+            "utterance_id": "BK22008248.9"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "경제 산업분야에선, 부국강병, 식산흥업의 슬로건 아래, 도미오카 제사장을 비롯한 관영공장이 만들어지는 등, 정부 주도의 산업 육성이 시작되어, 서양식 공업 기술이 도입되었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%9C%A0%EC%8B%A0",
+            "search_query": "메이지 유신 경제 관영공장",
+            "terminate": false,
+            "text": "부국강병, 식산흥업이라는 슬로건을 걸고, 도미오카 제사장 같은 정부가 운영하는 공장을 설립함으로써 정부 주도의 산업 육성을 시작했어요. 이 과정에서 서양 방식의 공업 기술도 들어왔고요.",
+            "turn_id": "BK22008248-5",
+            "utterance_id": "BK22008248.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도미오카 제사장이 뭔가요? 저 방금 신에게 제사를 지내는 제사장이 운영하는 공장을 상상해버렸어요. 설마 그런 건 아니겠죠?",
+            "turn_id": "BK22008248-6",
+            "utterance_id": "BK22008248.11"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "도미오카 제사장(富岡製糸場)은 군마현 도미오카에 설립된 일본의 첫 본격적인 명주실 생산 방적 공장이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1872년 (메이지 5년) 당시에 세워진 공장 건물 및 누에 창고 등이 현재에도 보존되어 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%AF%B8%EC%98%A4%EC%B9%B4_%EC%A0%9C%EC%82%AC%EC%9E%A5",
+            "search_query": "도미오카 제사장",
+            "terminate": false,
+            "text": "역시 유머 감각이 탁월하시네요. 도미오카 제사장은 제사장이 운영하는 공장이 아니고 명주실을 만드는 방적 공장이에요. 1872년에 군마현 도미오카에 설립됐죠. 그 시절 건립된 공장 건물과 누에 창고 등은 아직까지도 보존되어 있어요.",
+            "turn_id": "BK22008248-6",
+            "utterance_id": "BK22008248.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 제사가 실을 만든다는 의미의 제사였군요. 그런데 왜 하필 명주실 공장을 세운 건가요?",
+            "turn_id": "BK22008248-7",
+            "utterance_id": "BK22008248.13"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "에도 시대 말기에 개국에 나선 일본은, 실이 중요한 수출품이었으나, 제품의 질이 낮은 이유로 국제적 평가를 잃고 있던 시기였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때문에 관영 실 공장 건설 계획이 진행되었으며, 1872년 프랑스의 기술을 도입하여 관영 모범 공장으로 도미오카 제사장이 세워졌다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%AF%B8%EC%98%A4%EC%B9%B4_%EC%A0%9C%EC%82%AC%EC%9E%A5",
+            "search_query": "도미오카 제사장 일본 실 수출품",
+            "terminate": false,
+            "text": "에도 시대 말기에 국가의 문을 연 일본의 주요 수출품은 실이었거든요. 그런데 생산품의 품질이 낮아서 세계에서 평가가 추락하고 있던 시기였어요. 그래서 정부가 운영하는 실 공장 계획이 진행됐고 마침내 1872년에 프랑스와의 기술 제휴로 관영 모범 공장 도미오카 제사장이 세워진 거죠.",
+            "turn_id": "BK22008248-7",
+            "utterance_id": "BK22008248.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시의 일본 입장에서는 한마디로 국가의 명운을 건 프로젝트였겠군요. 그렇다면 고대부터 신으로 떠받들어지던 일본 천황의 황실도 근대화가 됐나요?",
+            "turn_id": "BK22008248-8",
+            "utterance_id": "BK22008248.15"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "거의 동시에 궁중 개혁도 이루어져, 구래의 궁중직이나 궁녀 폐지, 사족을 중심으로 한 시종 등이 메이지 천황을 개혁 군주에 어울리는 천황으로 양육하게 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B4%EC%A7%80_%EC%9C%A0%EC%8B%A0",
+            "search_query": "메이지 유신 궁중 개혁 천황",
+            "terminate": false,
+            "text": "과거부터 전해오던 궁중직과 궁녀 역시 폐지됐죠. 사족 중심으로 이루어진 시종 등이 메이지 덴노를 개혁 군주에 걸맞은 천황으로 육성했고요.",
+            "turn_id": "BK22008248-8",
+            "utterance_id": "BK22008248.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본 천황이라면 일본에서는 신적 존재라고 알고 있는데 정말 근대화하기로 단단히 마음먹은 거네요.",
+            "turn_id": "BK22008248-9",
+            "utterance_id": "BK22008248.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 인정할 건 인정해야죠. 개인적으로 조선도 이 시기에 개혁을 했다면 한국과 일본의 역사가 바뀌었을 텐데 참 안타까워요.",
+            "turn_id": "BK22008248-9",
+            "utterance_id": "BK22008248.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 항상 역사에서 이 시기가 가장 안타깝더라고요. 그래도 이제는 대한민국도 선진국이 됐으니 다행이네요. 오늘도 질문에 친절하게 답변해 주셔서 정말 감사합니다.",
+            "turn_id": "BK22008248-10",
+            "utterance_id": "BK22008248.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제가 도움이 된 거 같아서 기쁘네요. 다음에도 모르는 게 있으면 질문해 주세요!",
+            "turn_id": "BK22008248-10",
+            "utterance_id": "BK22008248.20"
+        }
+    ]
+}

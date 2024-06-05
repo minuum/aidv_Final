@@ -1,0 +1,409 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004174",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004174",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장마가 끝나도 강한 소나기가 내리는 곳이 많아 주의가 필요하다고 하는데, 소나기와 장맛비는 어떤 점이 다른 걸까요?",
+            "turn_id": "BK22004174-1",
+            "utterance_id": "BK22004174.1"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "통상 소나기는 뜨거운 햇볕에 의해 지표면이 가열돼 대기 상층보다 하층 공기가 뜨거워지면서 대기가 불안정해지고, 이에 따라 비구름이 형성돼 짧고 강하게 내리는 비다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장맛비는 정체전선의 영향으로 내리는 비를 칭하는데, 소낙성 강우는 정체전선과 상관없어 장맛비와 구분된다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022072215020003850?did=NA",
+            "search_query": "장마 소나기",
+            "terminate": false,
+            "text": "소나기는 지구의 표면이 태양에 의해 가열돼 대기 상층보다 하층 공기의 온도가 높아지면서 대기가 불안정해지고, 그로 인해 비구름이 만들어져 강하고 짧게 쏟아지는 비를 말하죠. 그리고 정체전선과 무관한 소나기와 달리 장맛비는 정체전선의 영향으로 내리는 비라서 소나기와 구분돼요.",
+            "turn_id": "BK22004174-1",
+            "utterance_id": "BK22004174.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소나기와 장맛비는 형성 과정이 다르다는 거군요. 그런데 정체전선이 뭐죠?",
+            "turn_id": "BK22004174-2",
+            "utterance_id": "BK22004174.3"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "정체전선(停滯前線, 영어: stationary front, quasi-stationary front)은 찬 기단과 따뜻한 기단의 양쪽 세력이 비슷하여 거의 이동하지 않고 계속 일정한 자리에 머물러 있는 전선을 말한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북반구를 기준으로 보통 정체전선이 동서로 길게 발생한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정체전선 근처에서는 날씨가 흐리고 비가 오는 시간도 길어지는데, 여름철 한반도에 걸치는 장마전선이 대표적인 예이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%B2%B4%EC%A0%84%EC%84%A0",
+            "search_query": "정체전선",
+            "terminate": false,
+            "text": "비슷한 양쪽 세력인 찬 기단과 따뜻한 기단이 거의 움직이지 않고 일정한 곳에 계속 자리해 있는 전선을 정체전선이라고 하죠. 이 정체전선의 대표적인 예가 바로 여름에 한반도에 걸치는 장마전선인데, 대개 북반구를 기준으로 동서로 길게 생겨나요. 그리고 이 근처에서는 일기가 흐리고 비가 내리는 시간도 길어지죠.",
+            "turn_id": "BK22004174-2",
+            "utterance_id": "BK22004174.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "찬 기단과 따뜻한 기단이요? 날씨 뉴스에도 기단이라는 단어가 나와 낯설지는 않는데, 기단의 정확한 의미는 모르겠어요.",
+            "turn_id": "BK22004174-3",
+            "utterance_id": "BK22004174.5"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "기단은 바다나 대륙과 같이 같은 성질의 지표면과 대기가 오랫동안 접촉하고 있으면 열 또는 수증기를 교환해서 같은 성질을 가진 거대한 공기의 덩어리 즉 기단이 된다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기가 지표면과 오래 접촉하려면 바람이 약해야 한다는 것이 중요조건이 된다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 같은 조건에 맞는 곳은 고기압권 내이므로 기단의 명칭은 고기압의 이름과 일치되는 수가 많다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들면 북태평양 기단 · 오호츠크해 기단 · 시베리아 기단 등을 들 수 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%8B%A8",
+            "search_query": "기단",
+            "terminate": false,
+            "text": "육지나 해양과 같이 동일한 성질의 지구의 표면과 대기가 긴 기간 동안 서로 맞닿아 있으면서 수증기나 열을 서로 바꾸며 비교적 일정한 성질을 갖는 거대한 공기 덩어리가 되는 것을 기단이라고 하죠. 그리고 바람이 약해야 대기가 지구의 표면과 긴 기간 접촉해 거대하고 일정한 성질의 공기 덩어리인 기단을 만들 조건이 가능해지기 때문에 보통 바람이 약한 고기압권 내에서 기단이 형성돼요. 그래서 기단의 명칭은 고기압의 이름과 일치하는 경우가 많은데, 시베리아 기단과 북태평양 기단 그리고 오호츠크해 기단이 그 예죠.",
+            "turn_id": "BK22004174-3",
+            "utterance_id": "BK22004174.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장마철 일기 예보에서 말씀하신 북태평양 기단에 대해 들었던 것 같아요.",
+            "turn_id": "BK22004174-4",
+            "utterance_id": "BK22004174.7"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "늦봄에서 초여름으로 넘어가는 시기에 한냉습윤한 오츠크해 기단과 고온다습한 북태평양 기단에서 생기는 전선이 장마전선이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 기단의 세력이 비슷하여 우리나라에 비교적 오래 정체하게 되는데 이 기간동안 내리는 비가 장맛비다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=932456",
+            "search_query": "고온다습 북태평양 기단",
+            "terminate": false,
+            "text": "고온 다습한 북태평양 기단과 한랭 습윤한 오호츠크 해 기단에서 생기는 장마전선은 늦은 봄에서 이른 여름으로 옮겨가는 때에 발생하죠. 이 시기에 내리는 비가 장맛비인데, 비슷한 양쪽 기단의 세력이 한국에 비교적 오래 정체하게 돼요.",
+            "turn_id": "BK22004174-4",
+            "utterance_id": "BK22004174.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세력이 비슷한 찬 기단과 따뜻한 기단이 오츠크해 기단과 북태평양 기단인 거네요. 고온다습한 북태평양 기단 때문에 여름이 더 무더운 거죠?",
+            "turn_id": "BK22004174-5",
+            "utterance_id": "BK22004174.9"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "우리나라의 여름이 힘든 이유는 기온이 높아서이기도 하지만 무엇보다 높은 습도 때문이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고온다습한 북태평양 기단의 영향으로 그냥 더운 것이 아니라 마치 비닐하우스에 들어간 것처럼 숨이 턱턱 막힌다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밤에도 열기가 식지 않는 열대야가 발생한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/2022071511010045531?utm_source=naver&utm_medium=search",
+            "search_query": "여름 북태평양 기단",
+            "terminate": false,
+            "text": "네, 기온이 높기도 하지만 고온다습한 북태평양 기단의 영향으로 습도가 높은 한국의 여름은 마치 비닐하우스 내부처럼 숨막히는 더위에 더해 열대야로 밤까지 더운 기가 없어지지 않아 더 힘들죠.",
+            "turn_id": "BK22004174-5",
+            "utterance_id": "BK22004174.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밤잠 설치게 하는 열대야는 정말 힘든 것 같아요. 그런데 열대야의 정확한 기준이 뭔가요?",
+            "turn_id": "BK22004174-6",
+            "utterance_id": "BK22004174.11"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "대한민국 기상청에서는 2009년 7월 24일부터 밤 최저기온(오후 7시 1분 ~ 다음날 오전 9시)이 25°C 이상인 날을 열대야로 지칭하고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종전에는 대한민국 기상청에서도 열대야를 일본기상청과 마찬가지로 일 최저기온이 25°C 이상인 날로 정의하였었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B4%EB%8C%80%EC%95%BC",
+            "search_query": "열대야",
+            "terminate": false,
+            "text": "이전에는 한국 기상청이 일본 기상청 같은 기준으로 해서 하루 중 가장 낮은 기온이 25도 이상인 때를 열대야라고 했는데, 2009년 7월 24일부터는 밤의 가장 낮은 기온이 25도 이상인 때를 열대야라고 하죠.",
+            "turn_id": "BK22004174-6",
+            "utterance_id": "BK22004174.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 정말 밤낮으로 기온이 심각하게 높아지는 것 같아요. 유럽은 40도가 넘는 폭염이라는데, 블로킹 현상 때문이라고 하더군요.",
+            "turn_id": "BK22004174-7",
+            "utterance_id": "BK22004174.13"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "최근 유럽과 미국을 덮친 극단적 폭염의 원인으로 '블로킹 현상'이 지목됩니다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'막다', '차단하다'라는 의미의 영어 단어 블로킹은 익숙하죠.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'블로킹 현상'은 대기의 흐름이 꽉 막혀 움직이지 않는 상태를 말합니다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022072614364784444",
+            "search_query": "블로킹 현상",
+            "terminate": false,
+            "text": "네, 최근 블로킹 현상을 미국과 유럽의 심각한 폭염의 원인으로 보고 있는데, 영단어 막다라는 의미와 같이 공기 흐름을 완전히 막아 정체시킨 거죠.",
+            "turn_id": "BK22004174-7",
+            "utterance_id": "BK22004174.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 좀 전에 기단에 대해 설명해 주실 때 보통 고기압권 내에서는 바람이 약해 공기층이 오래 머물러 있다고 했죠? 거대한 고기압이 오랫동안 머물러 있으면서 더운 공기가 빠져나가지 못하고 정체돼서 폭염을 유발하는 건가요?",
+            "turn_id": "BK22004174-8",
+            "utterance_id": "BK22004174.15"
+        },
+        {
+            "reference_date": "2021-07-05",
+            "reference_text": [
+                {
+                    "value": "올해 한반도 장마와 북미 폭염은 모두 블로킹 현상 결과라는 공통점이 있다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "블로킹 현상으로 공기 순환이 제대로 이뤄지지 않고 일부 지역에 장마전선이 정체된다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202107050057&t=NN",
+            "search_query": "기후변화 블로킹 현상",
+            "terminate": false,
+            "text": "네, 이해하신 게 맞아요. 그리고 북미 폭염은 물론 작년 한반도 장마도 전부 블로킹 현상에 의한 결과인데, 공기 순환이 잘되지 않는 블로킹 현상이 일부 지역의 장마전선까지 정체시킨 거죠.",
+            "turn_id": "BK22004174-8",
+            "utterance_id": "BK22004174.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "폭염에 이어 장마까지 정말 더 심각해지면 안 될 텐데 걱정이네요.",
+            "turn_id": "BK22004174-9",
+            "utterance_id": "BK22004174.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 지금 우리가 겪고 있는 기후변화는 자연스럽고 안전한 상황이 아니죠. 지구가 보내는 경고에 주의를 기울여야 할 때인 것 같아요.",
+            "turn_id": "BK22004174-9",
+            "utterance_id": "BK22004174.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞아요. 그리고 오늘 잘 설명해 주신 덕분에 자연 현상을 더 잘 이해하고 막연하게 생각했던 기상이변에 더 경각심을 갖게 된 것 같아요. 학창 시절 지구과학 시간에 이렇게 흥미를 갖고 들었으면 더 좋았을 걸 하는 생각도 드네요.",
+            "turn_id": "BK22004174-10",
+            "utterance_id": "BK22004174.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 학창 시절 무심했던 학문 가운데 졸업하고 나서 오히려 더 관심 갖고 찾아보게 되는 정보가 많은 것 같아요. 아무래도 학생 때는 시험을 보기 위한 것일 뿐 실제 생활에 적용되는 필요성을 크게 체감할 수 없기 때문인 것 같아요.",
+            "turn_id": "BK22004174-10",
+            "utterance_id": "BK22004174.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 그 점에 공감이 가요. 오늘 친절한 설명 감사해요.",
+            "turn_id": "BK22004174-11",
+            "utterance_id": "BK22004174.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 오늘 좋은 대화 나눠 좋았어요.",
+            "turn_id": "BK22004174-11",
+            "utterance_id": "BK22004174.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 조심히 가시고, 다음 또 뵐게요.",
+            "turn_id": "BK22004174-12",
+            "utterance_id": "BK22004174.23"
+        }
+    ]
+}

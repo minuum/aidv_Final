@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001084",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001084",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 취업하는데 필요한 자격증을 찾아보고 있어요. 도움 될만한게 뭐가 있을까요?",
+            "turn_id": "BK22001084-1",
+            "utterance_id": "BK22001084.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어학 관련 자격증은 어때요?",
+            "turn_id": "BK22001084-1",
+            "utterance_id": "BK22001084.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어학 관련 자격증이요? 글쎄요, 뭐가 있는지 잘 몰라요.",
+            "turn_id": "BK22001084-2",
+            "utterance_id": "BK22001084.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 회사에서 어학관련 자격증을 요구하기도 하잖아요.",
+            "turn_id": "BK22001084-2",
+            "utterance_id": "BK22001084.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 그게 좋을 듯해요, 그럼 어학관련 자격증엔 뭐가 있을까요?",
+            "turn_id": "BK22001084-3",
+            "utterance_id": "BK22001084.5"
+        },
+        {
+            "reference_date": "2022-05-16",
+            "reference_text": [
+                {
+                    "value": "IELTS : 영국 문화원이 개발한 시험이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "TOEIC : 1979년 에듀케이셔널 테스팅 서비스가 일본 경제 단체 연합회의 요청에 따라 개발한 시험이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "TOEFL : 에듀케이셔널 테스팅 서비스가 개발한 시험이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%81%EC%96%B4_%EC%8B%9C%ED%97%98_%EB%AA%A9%EB%A1%9D",
+            "search_query": "영어시험종류",
+            "terminate": false,
+            "text": "대표적으로 TOEIC, TOEFL, IELTS 등이 있어요. IELTS같은 경우는 영국 문화원에서 만든거고 TOEFL은 에듀케이셔널 테스팅 서비스라는 곳에서, 아 TOEIC도 같은 곳에서 일본 경단연 요청을 받아서 만든거예요.",
+            "turn_id": "BK22001084-3",
+            "utterance_id": "BK22001084.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇군요. 근데 TOEIC 일본 요청을 받아 만든거지 미국에서 만든 건 맞는거죠?",
+            "turn_id": "BK22001084-4",
+            "utterance_id": "BK22001084.7"
+        },
+        {
+            "reference_date": "2021-12-31",
+            "reference_text": [
+                {
+                    "value": "한편 토익(Test of English for International Communication)은 미교육평가위원회(ETS: Educational Testing Service)가 상업 및 국제적 공용어로서의 영어 숙달정도를 측정하기 위해 개발한 시험 제도의 상표명이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=85381",
+            "search_query": "토익 개발",
+            "terminate": false,
+            "text": "잘 알고 계시네요. 아까 말한 에듀케이셔널 테스팅 서비스라는게 바로 미교육평가위원회예요. 거기서 국제적 공용어로서 영어 숙달 정도를 측정하려고 만든거죠.",
+            "turn_id": "BK22001084-4",
+            "utterance_id": "BK22001084.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 문제 유형은 듣기와 독해인걸로 들었어요. 시험 주제는 무엇인지 잘 모르겠네요.",
+            "turn_id": "BK22001084-5",
+            "utterance_id": "BK22001084.9"
+        },
+        {
+            "reference_date": "2022-01-20",
+            "reference_text": [
+                {
+                    "value": "비즈니스 수행에 필요한 기본적인 여행·식사·사무생활 대화 등을 다룬다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "200 문항으로 듣기·독해 평가가 50%씩이며 990점 만점이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=87407",
+            "search_query": "토익시험",
+            "terminate": false,
+            "text": "맞아요. 시험 유형은 듣기와 독해로 이루어져있고 990점 만점이에요. 시험 주제는 기본적인 여행, 식사, 사무생활, 대화 등을 다뤄요.",
+            "turn_id": "BK22001084-5",
+            "utterance_id": "BK22001084.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워요. 저는 TOEIC으로 시험 보고 싶어졌어요. 그런데 시험일정과 제 일정이 맞을 지 모르겠네요.",
+            "turn_id": "BK22001084-6",
+            "utterance_id": "BK22001084.11"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "토익 시험은 연간 24회 매월 시행되며 지원자격에 제한이 없으며, 횟수 제한도 없다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=99119",
+            "search_query": "토익시험일정",
+            "terminate": false,
+            "text": "TOEIC 시험은 연간 24회 매월 시행되고 있으니 개인 일정을 확인 후 신청하면 돼요. 어디서 응시하는 지 알고 계세요?",
+            "turn_id": "BK22001084-6",
+            "utterance_id": "BK22001084.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "TOEIC 홈페이지에서 신청하면 되나요?",
+            "turn_id": "BK22001084-7",
+            "utterance_id": "BK22001084.13"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "시험 접수는 YBM시사 어학시험 홈페이지에서 하면 된다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=97821",
+            "search_query": "토익 시험 접수",
+            "terminate": false,
+            "text": "YBM사 어학시험 홈페이지에서 시험 접수를 할 수 있어요.",
+            "turn_id": "BK22001084-7",
+            "utterance_id": "BK22001084.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한번 확인해볼게요. 준비물도 잘 확인해봐야겠어요. 전자시계 들고 갔다가 곤란한 일이 있었단 이야기를 들어본 적 있거든요.",
+            "turn_id": "BK22001084-8",
+            "utterance_id": "BK22001084.15"
+        },
+        {
+            "reference_date": "2020-01-31",
+            "reference_text": [
+                {
+                    "value": "이후 체크해야 할 준비물은 바로 아날로그 손목시계이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전자 손목시계는 금물이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=104664",
+            "search_query": "토익 주의사항",
+            "terminate": false,
+            "text": "TOEIC 시험 주의사항엔 여러가지가 있는데 그중 시계 관련 사항도 있지요. 아날로그 손목시계만 가능하고 전자 손목시계는 금물이에요.",
+            "turn_id": "BK22001084-8",
+            "utterance_id": "BK22001084.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 외에 주의해야 할 점은 있나요?",
+            "turn_id": "BK22001084-9",
+            "utterance_id": "BK22001084.17"
+        },
+        {
+            "reference_date": "2022-05-29",
+            "reference_text": [
+                {
+                    "value": "토익 시험 당일 꼭 가져가야하는 준비물은 연필(볼펜 및 사인펜 금지), 지우개, 규정신분증, 아날로그 손목시계(전자시계는 반입불가)이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=98075",
+            "search_query": "토익 준비물",
+            "terminate": false,
+            "text": "물론 있죠. 볼펜과 사인펜은 안되니 연필을 챙겨야하고 지우개와 신분증을 챙겨야해요.",
+            "turn_id": "BK22001084-9",
+            "utterance_id": "BK22001084.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신분증은 여권으로 챙겨야겠어요, 지갑을 분실했거든요.",
+            "turn_id": "BK22001084-10",
+            "utterance_id": "BK22001084.19"
+        },
+        {
+            "reference_date": "2021-01-24",
+            "reference_text": [
+                {
+                    "value": "규정된 신분증은 주민등록증, 운전면허증, 기간 만료전 여권, 공무원증, 장애인 복지카드 등이다.",
+                    "value_time": "2022-06-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thekpm.com/news/articleView.html?idxno=72460",
+            "search_query": "토익 신분증",
+            "terminate": false,
+            "text": "지갑을 분실해서 속상하시겠어요. 신분증으로 여권도 가능해요. 규정된 신분증은 주민등록증, 운전면허증, 기간 만료가 안된 여권, 공무원증, 장애인 복지카드 등이 있어요.",
+            "turn_id": "BK22001084-10",
+            "utterance_id": "BK22001084.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "시험 보기 전에 준비물과 주의사항을 꼼꼼하게 살펴봐야겠어요. 고마워요.",
+            "turn_id": "BK22001084-11",
+            "utterance_id": "BK22001084.21"
+        }
+    ]
+}

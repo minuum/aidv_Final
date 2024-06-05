@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012871",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012871",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 거래처에서 RS 232 통신을 쓰는데, 신호가 제대로 뜨지 않는다고 하네요. 거리가 15m쯤 되는 데 문제가 있을까요?",
+            "turn_id": "BK22012871-1",
+            "utterance_id": "BK22012871.1"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 한 케이블에 10m 정도까지는 정상적으로 데이터를 통신할 수 있게 되어 있다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/RS-232",
+            "search_query": "RS-232",
+            "terminate": false,
+            "text": "RS 232 통신이 정상적으로 통신하려면 케이블 10m 정도까지만 가능해요.",
+            "turn_id": "BK22012871-1",
+            "utterance_id": "BK22012871.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 단순 기기라서 RS 232로 추천을 드렸는데 혹시 EIA-485의 거리에 따른 속도는 어느 정도 인가요?",
+            "turn_id": "BK22012871-2",
+            "utterance_id": "BK22012871.3"
+        },
+        {
+            "reference_date": "44664.0",
+            "reference_text": [
+                {
+                    "value": "이 규격은 고속 데이터 통신 속도를 낼 수 있는데 10m까지는 35M bit/s, 1200m 에서는 100kbit/s이다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/EIA-485",
+            "search_query": "EIA-485",
+            "terminate": false,
+            "text": "10m까지는 35M 비트 퍼 세크의 속도를 내지만 1,200m에서는 100k 비트 퍼 세크의 속도로 고속 데이터로 통신속도를 내죠.",
+            "turn_id": "BK22012871-2",
+            "utterance_id": "BK22012871.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 접지도 별도로 연결해야 하나요?",
+            "turn_id": "BK22012871-3",
+            "utterance_id": "BK22012871.5"
+        },
+        {
+            "reference_date": "44664.0",
+            "reference_text": [
+                {
+                    "value": "EIA-485와 EIA-422 네트워크 연결시에 반드시 그라운드를 연결하여야 하며 만일 연결하지 않는 경우에는 연결된 각 장비 사이의 그라운드 전위가 발생하여 잡음이 발생하거나 드라이버가 파손될 수 있다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/EIA-485",
+            "search_query": "EIA-485",
+            "terminate": false,
+            "text": "그라운드를 연결하지 않으면 장비 사이 그라운드 전압 발생으로 인해 잡음 발생 혹은 드라이버가 망가질 수 있어요. 반드시 EIA-485와 EIA-422는 네트워크 연결시 그라운드를 연결해야 해요.",
+            "turn_id": "BK22012871-3",
+            "utterance_id": "BK22012871.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "케이블링은 어떻게 할까요? 트위스티드 페어가 노이즈 필터링에 좋을까요?",
+            "turn_id": "BK22012871-4",
+            "utterance_id": "BK22012871.7"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "연선(撚線→꼬인 선) 방식 또는 트위스티드 페어(twisted pair→꼬인 한 쌍(雙)의) 케이블링은 두 줄의 동선을 꼬아 하나의 도선에 피복한 방식을 일컬으며 외부 원천으로부터 오는 전자파 장애(EMI)를 억제하는 것이 그 목적이다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%84%A0",
+            "search_query": "연선",
+            "terminate": false,
+            "text": "연선방식이나 두 줄의 동선을 꼬아 하나의 도선에 피복한 트위스티드 페어 방식이 외부 원천으로부터 발생하는 전자파 장애를 억제하는 목적이니 그게 좋겠어요.",
+            "turn_id": "BK22012871-4",
+            "utterance_id": "BK22012871.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 RS 232통신 포트가 어떤 단자를 사용하죠? 변경 가능한지 확인해봐야겠어요.",
+            "turn_id": "BK22012871-5",
+            "utterance_id": "BK22012871.9"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "9핀 (DE-9 단자) RS-232를 비롯한 직렬 포트로 쓰인다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/D-sub",
+            "search_query": "d-sub",
+            "terminate": false,
+            "text": "RS 232 통신은 디 서브 9핀 단자를 사용해요.",
+            "turn_id": "BK22012871-5",
+            "utterance_id": "BK22012871.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "업체 측에서 만일 다른 통신 프로토콜로 모드버스를 쓰면 몇 개 정도의 기기를 연결할 수 있을까요? 온습도 센서도 꽤 있어서 통합으로 사용이 가능할까 싶어서요.",
+            "turn_id": "BK22012871-6",
+            "utterance_id": "BK22012871.11"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "모드버스는 약 240개의 장비들을 서로 연결할 수 있다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들면, 온도와 습도를 측정하는 여러 장비들이 모니터링 서버로 현재 상태를 보고하도록 할 수 있다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%93%9C%EB%B2%84%EC%8A%A4",
+            "search_query": "모드버스",
+            "terminate": false,
+            "text": "통신 프로토콜이 모드버스라면 약 240개 기기는 서로 연결할 수 있죠. 온도 습도 측정 장비의 현재 상태를 모니터링 서버로 보고 할 수 있어요.",
+            "turn_id": "BK22012871-6",
+            "utterance_id": "BK22012871.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그러면 혹시 CANOPEN 프로토콜의 입출력 명세는 어디에 있나요? 업체에서 위치 제어 신호를 받는데 주소를 못 찾아 애를 먹더라고요.",
+            "turn_id": "BK22012871-7",
+            "utterance_id": "BK22012871.13"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "예로 입출력 모듈을 위한 명세는 CiA 401에 모션 제어를 위한 명세는 CiA 402에서 찾을 수 있다.",
+                    "value_time": "44779.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/CANopen",
+            "search_query": "CANOPEN",
+            "terminate": false,
+            "text": "모션 제어를 명세는 CiA 402, 입출력 모듈 명세는 CiA 401에서 발견할 수 있어요.",
+            "turn_id": "BK22012871-7",
+            "utterance_id": "BK22012871.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 이더넷 기반의 프로토콜 시스템을 찾으려고 하는데 어느 프로토콜이 있나요?",
+            "turn_id": "BK22012871-8",
+            "utterance_id": "BK22012871.15"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "EtherCAT (이더캣, Ethernet for Control Automation Technology)은 벡호프 오토메이션에서 개발된 이더넷 기반의 필드버스 시스템이다.",
+                    "value_time": "44779.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/EtherCAT",
+            "search_query": "ETHERCAT",
+            "terminate": false,
+            "text": "벡호프오토메이션에서 개발된 이더캣을 추천해 드려요. 이더넷 기반의 필드 버스 구조에요.",
+            "turn_id": "BK22012871-8",
+            "utterance_id": "BK22012871.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한번 벡호프오토메이션사의 기술 서적을 참고해봐야겠어요.",
+            "turn_id": "BK22012871-9",
+            "utterance_id": "BK22012871.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음에 보시면 목차부터 확인해보시는 게 시간 단축에 도움이 되실 거예요.",
+            "turn_id": "BK22012871-9",
+            "utterance_id": "BK22012871.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그전에도 그냥 목차를 건너뛰고 메모리 주소값을 찾았는데 꽤 시간이 걸렸어요.",
+            "turn_id": "BK22012871-10",
+            "utterance_id": "BK22012871.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저런 기술 서적들은 반드시 목차부터 보셔야 해요. 그래야 이해가 되는 부분이 많거든요. 그럼, 도움이 필요하시면 연락 주세요.",
+            "turn_id": "BK22012871-10",
+            "utterance_id": "BK22012871.20"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012922",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012922",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터를 할 때 키보드가 없으면 얼마나 불편할지 생각해봤어요. 키보드는 어디서 유래된 건가요?",
+            "turn_id": "BK22012922-1",
+            "utterance_id": "BK22012922.1"
+        },
+        {
+            "reference_date": "44627.0",
+            "reference_text": [
+                {
+                    "value": "타자기가 모든 키 기반 텍스트 엔트리 장치의 조상이지만 전자기계식 데이터 입력 및 통신을 위한 장치로서의 컴퓨터 자판은 2개의 장치의 이용에서 비롯되었다: 전신타자기, 천공기.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EC%9E%90%ED%8C%90",
+            "search_query": "컴퓨터 자판",
+            "terminate": false,
+            "text": "타자기는 키 기반의 텍스트 엔트리 장치의 시초이지만 키보드는 전자기계식 데이터를 입력하고 통신하기 위한 장치로 전신타자기와 천공기의 이용에서 시작되었어요.",
+            "turn_id": "BK22012922-1",
+            "utterance_id": "BK22012922.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "타자기와 전신타자기가 무엇인지 알려주세요.",
+            "turn_id": "BK22012922-2",
+            "utterance_id": "BK22012922.3"
+        },
+        {
+            "reference_date": "44773.0",
+            "reference_text": [
+                {
+                    "value": "타자기(打字機)는 글자를 찍어 글을 쓰기 위해 사용하는 기계이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기계식, 전자기계식 혹은 전자식으로 글쇠를 주로 종이 위에 잉크로 찍어 출력을 한다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이중 전자식은 수정액이나 테이프를 사용해야 하는 기계식에 비해서, 수정이 편리하고 작업내용을 저장할 수 있는 장점이 있다.",
+                    "value_time": "44783.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EC%9E%90%EA%B8%B0",
+            "search_query": "타자기",
+            "terminate": false,
+            "text": "우선 타자기부터 설명해줄게요. 글자를 찍어서 글을 쓰기 위해 사용하는 기계인 타자기는 기계식, 전자기계식, 전자식과 같은 방식으로 글쇠를 종이에 잉크로 찍어서 출력해요. 기계식은 수정액이나 테이프를 사용해야 하는 데 전자식은 수정이 편하고 작업내용을 저장할 수 있는 이점이 있어요.",
+            "turn_id": "BK22012922-2",
+            "utterance_id": "BK22012922.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 전신타자기는 어떠한 키보드인가요?",
+            "turn_id": "BK22012922-3",
+            "utterance_id": "BK22012922.5"
+        },
+        {
+            "reference_date": "44703.0",
+            "reference_text": [
+                {
+                    "value": "전신타자기(電信打字機, 영어: teletypewriter; TTY 텔레타이프라이터) 또는 전신인자기(電信印字機, 영어: teleprinter 텔레프린터)는 일대일, 일대다 통신에서 사용된 전기식 타자기로, 간단한 선줄 연결부터 라디오나 마이크로파를 이용한 통신에 이르기까지 여러 통신 경로에서 광범위하게 사용되었다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오늘날 전신타자기는 거의 쓰이지 않지만, 항공 산업 일각(AFTN과 항공 전신 인자 체계)에서는 여전히 쓰이고 있으며, 청각 장애인을 위한 통신 장치(TDDs) 같은 변형은 청각 장애인들에게 전화 내용을 인쇄해 주는 용도로 사용되고 있다.",
+                    "value_time": "44783.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%8B%A0%ED%83%80%EC%9E%90%EA%B8%B0",
+            "search_query": "전신타자기",
+            "terminate": false,
+            "text": "일대일, 일대다 통신에서 사용되는 전기식 타자기인 전신타자기는 선줄 연결과 마이크로파를 이용한 통신 같은 다양한 통신 경로에 활용되어요. 최근에는 전신타자기가 거의 안 쓰이지만 일부 항공산업에는 여전히 쓰이고 있고 전화 내용을 인쇄해주는 방식으로 청각 장애인을 위한 통신 장치로도 사용되고 있어요.",
+            "turn_id": "BK22012922-3",
+            "utterance_id": "BK22012922.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자판기마다 모양이 다른 것은 왜 그런 건가요?",
+            "turn_id": "BK22012922-4",
+            "utterance_id": "BK22012922.7"
+        },
+        {
+            "reference_date": "44615.0",
+            "reference_text": [
+                {
+                    "value": "자판 배열(字板配列), 키보드 레이아웃(영어: keyboard layout)은 타자기, 전신 인자기, 컴퓨터 등의 자판의 문자 시퀀스이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "키 배열은 키보드에 어떤 위치 관계에 키를 설치 하느냐 \"물리적 배열\", 설정된 물리적 배열에 어떤 문자 (기능 키 등)를 어떤 순서로 배열 할 것인가의 \"논리적 배열\"로 대별된다.",
+                    "value_time": "44783.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8C%90_%EB%B0%B0%EC%97%B4",
+            "search_query": "자판 배열",
+            "terminate": false,
+            "text": "타자기, 컴퓨터 등 자판 문자 시퀀스인 자판 배열은 키의 위치 관계가 중요한 물리적 배열, 물리적 배열에 키를 배열하는 순서가 중요한 논리적 배열로 구분되기 때문이에요.",
+            "turn_id": "BK22012922-4",
+            "utterance_id": "BK22012922.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자판마다 목적에 따라서 모양이 다르겠군요. 한글 자판에는 두벌식 자판과 세벌식 자판이 있는 것으로 알고 있어요. 두 자판에 관해서 설명해주세요.",
+            "turn_id": "BK22012922-5",
+            "utterance_id": "BK22012922.9"
+        },
+        {
+            "reference_date": "44632.0",
+            "reference_text": [
+                {
+                    "value": "두벌식 자판은 닿소리와 홀소리가 서로 다른 글쇠에 배치된 한글 자판이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 대한민국과 조선민주주의인민공화국의 국가 표준은 모두 두벌식 자판 기반이며, 두벌식이라고만 하면 이 표준 두벌식 자판들을 가리키기도 한다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%91%90%EB%B2%8C%EC%8B%9D_%EC%9E%90%ED%8C%90",
+            "search_query": "두벌식 자판",
+            "terminate": false,
+            "text": "두벌식 자판은 닿소리와 홀소리를 서로 다른 곳에 배치한 한글 자판이에요. 대한민국과 북한 모두 두벌식 자판을 국가 표준으로 지정하였고 두벌식이라고만 말하면 이 두벌식 자판을 뜻하는 것이에요.",
+            "turn_id": "BK22012922-5",
+            "utterance_id": "BK22012922.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두벌식 자판이 우리나라 표준이군요. 세벌식 자판은 어떠한 자판인가요?",
+            "turn_id": "BK22012922-6",
+            "utterance_id": "BK22012922.11"
+        },
+        {
+            "reference_date": "44597.0",
+            "reference_text": [
+                {
+                    "value": "세벌식 자판은 한글 낱자를 3벌(첫소리 1벌, 가운뎃소리 1벌, 끝소리 1벌)로 나누고, 벌이 다른 낱자는 서로 다른 글쇠 자리에서 넣거나 서로 다른 입력 방법으로 넣게 한 한글 자판이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EB%B2%8C%EC%8B%9D_%EC%9E%90%ED%8C%90",
+            "search_query": "세벌식 자판",
+            "terminate": false,
+            "text": "세벌식 자판은 한글 낱낱의 글자를 첫소리, 가운뎃소리, 끝소리와 같이 3벌로 나누고 벌이 다른 낱자는 서로 다른 곳에 위치시키거나 서로 다른 입력 방법을 사용하게 한 자판이에요.",
+            "turn_id": "BK22012922-6",
+            "utterance_id": "BK22012922.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 제가 주로 쓰고 있는 쿼티 자판도 어떤 자판인지 궁금해요.",
+            "turn_id": "BK22012922-7",
+            "utterance_id": "BK22012922.13"
+        },
+        {
+            "reference_date": "44740.0",
+            "reference_text": [
+                {
+                    "value": "QWERTY 자판(쿼티 자판)은 영어 타자기나 컴퓨터 자판에서 가장 널리 쓰이는 자판 배열이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자판의 왼쪽 상단의 여섯 글자를 따서 이름 붙여졌다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "효율 면에서 드보락 자판에 비해 떨어진다는 평가가 있으나 가장 널리 쓰이는 영문 자판이며 이를 기초로 많은 독일어의 QWERTZ 자판, 프랑스어의 AZERTY 자판 같은 다른 언어를 위한 자판이 만들어졌다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/QWERTY_%EC%9E%90%ED%8C%90",
+            "search_query": "QWERTY",
+            "terminate": false,
+            "text": "QWERTY 자판은 왼쪽 위 여섯 글자를 따서 이름을 붙였고 영어 타자기나 컴퓨터 자판에서 가장 많이 쓰이는 자판이에요. 드보락 자판이 효율이 더 높다는 평가가 있지만, QWERTY 자판을 토대로 독일어의 QWERTZ 자판, 프랑스어의 AZERTY 자판 등의 여러 언어의 자판이 만들어졌어요.",
+            "turn_id": "BK22012922-7",
+            "utterance_id": "BK22012922.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "QWERTY 자판과 QWERTZ 자판의 차이는 무엇인가요?",
+            "turn_id": "BK22012922-8",
+            "utterance_id": "BK22012922.15"
+        },
+        {
+            "reference_date": "44630.0",
+            "reference_text": [
+                {
+                    "value": "QWERTZ 자판(쿼즈 자판)은 독일어권에서 사용되는 타자기/컴퓨터 자판 배열이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "QWERTY 자판에서 Z가 Y보다 많이 쓰이고, 또 Z와 A가 연달아 나오는 경우가 많아 자판의 배열을 바꾼 것이다.",
+                    "value_time": "44783.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일어에서 \"Z\"는 \"Y\"보다 훨씬 많이 쓰인 문자였다.",
+                    "value_time": "44783.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/QWERTZ_%EC%9E%90%ED%8C%90",
+            "search_query": "QWERTZ",
+            "terminate": false,
+            "text": "QWERTZ 자판은 독일어권에서 사용되는 컴퓨터 자판으로 독일어에서 Y보다 Z가 훨씬 많이 쓰이고 QWERTY 자판에서 Z와 A가 연달아 나오는 경우가 많으므로 두 문자의 배열을 바꾼 것이에요.",
+            "turn_id": "BK22012922-8",
+            "utterance_id": "BK22012922.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사용 빈도에 따라 배열을 다르게 한 것이군요.",
+            "turn_id": "BK22012922-9",
+            "utterance_id": "BK22012922.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 사람들이 사용하기 편리하게 바뀐 것이지요.",
+            "turn_id": "BK22012922-9",
+            "utterance_id": "BK22012922.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조상들의 노력으로 저희가 이렇게 편리하게 생활하고 있네요.",
+            "turn_id": "BK22012922-10",
+            "utterance_id": "BK22012922.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저희도 다음 세대를 위해 간편한 물건을 만들어봅시다.",
+            "turn_id": "BK22012922-10",
+            "utterance_id": "BK22012922.20"
+        }
+    ]
+}

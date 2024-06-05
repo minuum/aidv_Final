@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014170",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014170",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가끔 바다나 강을 보면서 느끼는 건데, 저 물속에는 우리 눈으로 볼 수 없는 미생물들도 정말 많겠죠?",
+            "turn_id": "BK22014170-1",
+            "utterance_id": "BK22014170.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 대표적으로는 플랑크톤 같은 것들을 꼽을 수 있겠네요.",
+            "turn_id": "BK22014170-1",
+            "utterance_id": "BK22014170.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "플랑크톤은 어떠한 생물들을 말하는 것인가요?",
+            "turn_id": "BK22014170-2",
+            "utterance_id": "BK22014170.3"
+        },
+        {
+            "reference_date": "44638.0",
+            "reference_text": [
+                {
+                    "value": "플랑크톤(Plankton, 浮遊生物)은 바다에 부유하는 생물들로, 각종 동물, 식물, 세균 등을 포함하며, 바다, 원양, 또는 담수에서 서식한다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어디까지나 \"부유하는 것\"이라는 개념이므로, 대형 생물도 해파리 등 유영 능력이 매우 낮은 것도 포함된다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%91%ED%81%AC%ED%86%A4",
+            "search_query": "플랑크톤",
+            "terminate": false,
+            "text": "플랑크톤은 바다에 떠다니는 생물들을 말해요. 바다나 담수에서 주로 서식하죠. 플랑크톤은 말 그대로 떠다니는 생물의 개념이므로, 각종 동물이나 식물, 균등은 물론, 해파리 같이 유영 능력이 떨어지는 대형 생물들도 엄밀히는 플랑크톤이라 말할 수 있어요.",
+            "turn_id": "BK22014170-2",
+            "utterance_id": "BK22014170.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해파리가 플랑크톤으로 분류할 수도 있군요. 그렇다면 플랑크톤은 어떻게 분류할 수 있을까요?",
+            "turn_id": "BK22014170-3",
+            "utterance_id": "BK22014170.5"
+        },
+        {
+            "reference_date": "44638.0",
+            "reference_text": [
+                {
+                    "value": "일반적으로 광합성에 의한 것을 식물 플랑크톤(Phytoplankton), 섭식에 의한 것을 동물 플랑크톤(Zooplankton)라고 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%91%ED%81%AC%ED%86%A4",
+            "search_query": "플랑크톤 종류",
+            "terminate": false,
+            "text": "광합성으로 영양분을 얻는 플랑크톤을 식물 플랑크톤, 섭식으로 영양분을 얻는 플랑크톤을 동물 플랑크톤이라 하죠.",
+            "turn_id": "BK22014170-3",
+            "utterance_id": "BK22014170.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물성 플랑크톤은 어떤 특성을 가지고 있나요?",
+            "turn_id": "BK22014170-4",
+            "utterance_id": "BK22014170.7"
+        },
+        {
+            "reference_date": "44688.0",
+            "reference_text": [
+                {
+                    "value": "이것은 식물성 플랑크톤이 태양으로부터 오는 빛을 가지고 있어야 한다는 것을 의미하며, 바다와 호수의 잘 빛나는 표면층(수광대)에서 산다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 식물성 플랑크톤은 너무 작아서 일일이 맨눈으로 볼 수 없다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 많은 수가 나타날 때에는 녹색 얼룩의 물이 나타날 수 있는데 이는 세포에 엽록소가 존재하기 때문이다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9D%EB%AC%BC%EC%84%B1_%ED%94%8C%EB%9E%91%ED%81%AC%ED%86%A4",
+            "search_query": "식물성 플랑크톤",
+            "terminate": false,
+            "text": "식물성 플랑크톤은 태양빛이 필요하기 때문에, 빛이 잘 드는 바다나 호수의 표면에 주로 서식해요. 대체로 정말 작아서 육안으로는 자세히 보이지 않는데요, 세포에 엽록소가 존재해서 수가 많을 때는 녹색으로 얼룩진 물이 보일 수 있어요.",
+            "turn_id": "BK22014170-4",
+            "utterance_id": "BK22014170.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 동물성 플랑크톤은 어떤 특성을 가졌나요?",
+            "turn_id": "BK22014170-5",
+            "utterance_id": "BK22014170.9"
+        },
+        {
+            "reference_date": "44772.0",
+            "reference_text": [
+                {
+                    "value": "동물성 플랑크톤(Zooplankton)은 스스로 에너지를 합성하지 못하는 수생 갑각류를 총칭하는 말이다.",
+                    "value_time": "44812.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "광합성으로 에너지를 합성할 수 있는 식물성 플랑크톤과는 구별되며, 대부분은 육안으로 보기에는 너무 작다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EB%AC%BC%EC%84%B1_%ED%94%8C%EB%9E%91%ED%81%AC%ED%86%A4",
+            "search_query": "동물성 플랑크톤",
+            "terminate": false,
+            "text": "동물성 플랑크톤은 광합성으로 에너지를 합성할 수 있는 식물성 플랑크톤과는 달리, 스스로 양분을 만들어낼 수 없어요. 동물성 플랑크톤 역시 대부분은 크기가 너무 작아서 눈으로 보는 것은 힘들어요.",
+            "turn_id": "BK22014170-5",
+            "utterance_id": "BK22014170.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 플랑크톤은 바다에서 굉장히 흔한 것으로 알고 있는데, 생태계에서 어떤 역할을 할까요?",
+            "turn_id": "BK22014170-6",
+            "utterance_id": "BK22014170.11"
+        },
+        {
+            "reference_date": "44638.0",
+            "reference_text": [
+                {
+                    "value": "소형 플랑크톤은 수계의 생태계를 구성하는 먹이 사슬의 가장 하부에 위치하므로, 어류나 고래와 같은 더 큰 동물의 먹이로서 중요한 역할을 담당하고 있다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%91%ED%81%AC%ED%86%A4",
+            "search_query": "플랑크톤 역할",
+            "terminate": false,
+            "text": "작은 플랑크톤들은 바다의 생태계 먹이 사슬의 가장 최하위에 자리를 잡고 있어요. 그래서 어류나 고래들 같은 바다 생물들에게 주요한 양식이 되죠.",
+            "turn_id": "BK22014170-6",
+            "utterance_id": "BK22014170.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생태계의 먹이사슬에 있어서 중요한 역할을 하는군요. 또 다른 역할은 없나요?",
+            "turn_id": "BK22014170-7",
+            "utterance_id": "BK22014170.13"
+        },
+        {
+            "reference_date": "44396.0",
+            "reference_text": [
+                {
+                    "value": "또한 지구에서 가장 작은 생명체인 식물성 플랑크톤 또한 탄소를 포집하는 역할을 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "플랑크톤은 대기 중 산소의 50% 이상을 생산하며 이산화탄소를 약 370억 톤가량 포집하는 것으로 알려졌다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/349164",
+            "search_query": "플랑크톤 역할",
+            "terminate": false,
+            "text": "식물성 플랑크톤은 탄소를 끌어들이는 역할을 하기도 하는데, 약 370억 톤가량의 이산화탄소를 포집해요. 또 대기 중 산소의 50% 이상을 플랑크톤들이 생산해내고 있기도 하죠.",
+            "turn_id": "BK22014170-7",
+            "utterance_id": "BK22014170.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 바다에 플랑크톤들이 많으면 많을수록 좋은 것 아닌가요?",
+            "turn_id": "BK22014170-8",
+            "utterance_id": "BK22014170.15"
+        },
+        {
+            "reference_date": "42246.0",
+            "reference_text": [
+                {
+                    "value": "바다가 붉게 물드는 '적조'와 담수가 녹색으로 변하는 '녹조'는 모두 식물플랑크톤의 대량 번식으로 발생한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식물플랑크톤이 과해지면 해양생태계에는 비상이 걸린다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "플랑크톤이 물고기 아가미에 붙어 호흡을 방해하고, 때론 강한 독으로 어패류를 죽이기 때문이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.chosun.com/site/data/html_dir/2015/08/31/2015083100766.html",
+            "search_query": "플랑크톤 대량번식",
+            "terminate": false,
+            "text": "그건 또 아닌 게, 식물 플랑크톤이 과해진다면 플랑크톤들이 물고기의 아가미에 붙어서 숨 쉬는 것을 막고, 독이 들어 있는 플랑크톤들은 어패류들을 죽이기까지 해요. 또 바다가 붉게 물드는 적조 현상이나 녹색으로 변하는 녹조 현상 역시 식물 플랑크톤이 대량으로 번식하면서 생기는 현상이죠.",
+            "turn_id": "BK22014170-8",
+            "utterance_id": "BK22014170.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 제가 듣기로는 지구 온난화가 바다의 생태계에 많은 영향을 끼치고 있다 들었는데 플랑크톤도 역시 그 영향을 피해 갈 수 없을까요?",
+            "turn_id": "BK22014170-9",
+            "utterance_id": "BK22014170.17"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "장기간 비정상적으로 해수온도가 높아지는 현상을 '해양열파' 또는 '해양폭염'이라고 한다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미래에 지구온난화가 가속화된다면 해양열파 빈도는 훨씬 더 자주 일어나게 될 것이다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해양열파가 특정해역에 나타나면 표층의 온도가 급격히 증가하고 심지어 한달 이상 고수온이 지속된다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해양생태계의 근간인 식물플랑크톤은 해양열파에 의한 수온상승 쇼크를 견디지 못해 집단폐사하게 된다.",
+                    "value_time": "44812.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=431472",
+            "search_query": "플랑크톤 온난화",
+            "terminate": false,
+            "text": "지구 온난화가 가속화되면서 장기간 해수 온도가 이례적인 수준으로 높아지는 해양 열파가 갈수록 잦아지고 있어요. 그 현상이 특정 바다에 나타나면 바다의 표면 온도가 증가하고, 한 달 이상 고수온을 유지해요. 그렇게 되면 식물 플랑크톤들 역시 갑작스러운 수온 상승을 견디지 못하고 엄청난 양이 폐사할 수밖에 없어요.",
+            "turn_id": "BK22014170-9",
+            "utterance_id": "BK22014170.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에휴, 이놈의 기후 문제는 또 등장하네요. 시급히 이런 문제에 대처할 수 있도록 이제는 모두가 힘을 합쳐야 할 필요가 있을 것 같아요. 오늘 이야기 잘 들었습니다.",
+            "turn_id": "BK22014170-10",
+            "utterance_id": "BK22014170.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "동감해요. 지금이라도 지구의 바다를 지켜나가야 미래도 있는 것이죠. 오늘 이야기 들어주셔서 감사하고, 다음번에 뵐게요.",
+            "turn_id": "BK22014170-10",
+            "utterance_id": "BK22014170.20"
+        }
+    ]
+}

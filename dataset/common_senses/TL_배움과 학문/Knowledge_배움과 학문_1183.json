@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007851",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007851",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 전쟁사에 대해 흥미가 생겨서 열심히 공부하고 있어요. 혹시 근대 전쟁에서 가장 위대했던 저격수는 누구인가요?",
+            "turn_id": "BK22007851-1",
+            "utterance_id": "BK22007851.1"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "시모 해위해(핀란드어: Simo Häyhä [ˈsimɔ ˈhæy̯hæ], 1905년 12월 17일 ~ 2002년 4월 1일)는 핀란드의 군인이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "역사상 가장 많은 전과를 올린 저격수로, 3개월간 소련군 병사 최대 542명을 사살했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%AA%A8_%ED%95%B4%EC%9C%84%ED%95%B4",
+            "search_query": "시모 해위해 핀란드 소련군",
+            "terminate": false,
+            "text": "그 기준이 전과라면 시모 해위해가 최고의 저격수죠. 1905년 12월 17일에 태어나서 2002년 4월 1일에 사망한 그는 핀란드의 군인으로서 3달 동안 소련군 병사를 최대 542명 사살했어요.",
+            "turn_id": "BK22007851-1",
+            "utterance_id": "BK22007851.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3달 동안 542명을 사살하다니 정말 전설에 남을 만한 저격수였네요. 당시 소련군은 그를 막으려고 어떤 노력을 했나요?",
+            "turn_id": "BK22007851-2",
+            "utterance_id": "BK22007851.3"
+        },
+        {
+            "reference_date": "2020-12-17",
+            "reference_text": [
+                {
+                    "value": "소련군은 설상 위장복을 입은 그를 '하얀 사신(White Death)'이라 부르며 그를 잡기 위한 저격 소대를 운용했지만 실패했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020121312570000382?did=NA",
+            "search_query": "시모 해위해 하얀 사신",
+            "terminate": false,
+            "text": "소련군은 설상 위장복을 착용했던 그를 하얀 사신이라고 칭하면서 그를 잡으려고 저격 소대까지 동원했어요. 하지만 실패했죠.",
+            "turn_id": "BK22007851-2",
+            "utterance_id": "BK22007851.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 대체 어떤 식으로 사격했길래 소련군에게 공포의 대상이 될 수 있었던 건가요?",
+            "turn_id": "BK22007851-3",
+            "utterance_id": "BK22007851.5"
+        },
+        {
+            "reference_date": "2020-12-17",
+            "reference_text": [
+                {
+                    "value": "뛰어난 사냥꾼이었던 그는 사격 솜씨를 인정받아 저격수가 됐지만, 특이하게도 조준경을 쓰지 않았다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈밭의 렌즈 반사광 때문에 위치가 노출될 수 있어서였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020121312570000382?did=NA",
+            "search_query": "시모 해위해 조준경",
+            "terminate": false,
+            "text": "원래 뛰어난 사냥꾼이었다가 사격 실력을 인정받아서 저격수가 된 그는 조준경을 쓰지 않았어요. 렌즈의 빛이 눈에 반사되면 위치를 들킨다는 이유 때문이었죠.",
+            "turn_id": "BK22007851-3",
+            "utterance_id": "BK22007851.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저격수가 조준경을 쓰지 않고 사격을 하는 게 가능하다니 정말 놀랍네요. 시모 해위해가 쓴 총은 뭐였나요?",
+            "turn_id": "BK22007851-4",
+            "utterance_id": "BK22007851.7"
+        },
+        {
+            "reference_date": "2020-12-17",
+            "reference_text": [
+                {
+                    "value": "그는 입김을 감추기 위해 눈을 입에 머금고 저격했고, M28 소총 총렬 아래의 눈을 얼음처럼 다져 발포 압력에 눈이 날리는 것을 피했다고 한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020121312570000382?did=NA",
+            "search_query": "시모 해위해 M28 소총",
+            "terminate": false,
+            "text": "M28 소총이었어요. 그는 M28의 발포 압력에 눈이 날리는 것을 막기 위해 총열 하부의 눈을 얼음처럼 다지는 치밀함까지 보였죠.",
+            "turn_id": "BK22007851-4",
+            "utterance_id": "BK22007851.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 저격수는 아무나 하는 게 아니네요. 결국 그는 전쟁이 끝날 때까지 생존했나요?",
+            "turn_id": "BK22007851-5",
+            "utterance_id": "BK22007851.9"
+        },
+        {
+            "reference_date": "2020-12-17",
+            "reference_text": [
+                {
+                    "value": "해위해는 1940년 3월 6일 전투에서 총알 파편에 왼쪽 턱을 관통당하는 중상을 입었지만, 1주일 뒤 평화조약으로 전쟁이 끝났다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 5계급 특진한 소위 계급장을 달고 제대했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2020121312570000382?did=NA",
+            "search_query": "시모 해위해 총알 파편 중상",
+            "terminate": false,
+            "text": "네. 무려 5계급 특진한 소위 계급장을 달고 군에서 나왔죠. 하지만 평화조약 1주일 전인 1940년 3월 6일 전투에서 총알 파편에 왼쪽 턱을 뚫리는 큰 부상을 당하고 말았어요.",
+            "turn_id": "BK22007851-5",
+            "utterance_id": "BK22007851.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시모 해위해 입장에서는 정말 아쉽겠네요. 그래도 나름대로 전쟁사에 이름을 남길 정도로 활약했으니 여한은 없었을 거 같아요. 아, 그런데 제가 게임을 해보면 여성 저격수들이 많이 나오던데 혹시 실제 역사에도 유명했던 여성 저격수가 있었나요?",
+            "turn_id": "BK22007851-6",
+            "utterance_id": "BK22007851.11"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "류드밀라 미하일로브나 파블리첸코(러시아어: Людми́ла Миха́йловна Павличе́нко, 우크라이나어: Людмила Михайлівна Павличенко 류드밀라 미하일리우나 파울리첸코, 혼전 성씨: 벨로바·Бело́ва·Бєлова, 1916년 7월 16일 ~ 1974년 10월 10일)는 우크라이나 출신의 소련 여군이자, 제2차 세계 대전 중 붉은 군대 저격수였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 세계 대전에서 309명 병사를 사살하여 \"죽음의 여인\"이라는 별명으로 부를 정도로 최고 저격수 가운데 한 사람으로 간주한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A5%98%EB%93%9C%EB%B0%80%EB%9D%BC_%ED%8C%8C%EB%B8%94%EB%A6%AC%EC%B2%B8%EC%BD%94",
+            "search_query": "류드밀라 파블리첸코 저격수",
+            "terminate": false,
+            "text": "있었죠. 제2차 세계 대전 당시 붉은 군대의 저격수로 참전했던 우크라이나 태생의 소비에트 연방 여군 류드밀라 미하일로브나 파블리첸코가 대표적이에요. 제2차 세계 대전 기간 동안 309명의 군인을 죽여서 죽음의 여인이라는 별명까지 얻었죠. 그래서 그녀는 최고의 저격수 중 한 명으로 간주되고 있어요.",
+            "turn_id": "BK22007851-6",
+            "utterance_id": "BK22007851.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시모 해위해에는 못 미치지만 정말 대단하네요. 류드밀라 파블리첸코는 어떻게 그런 사격 솜씨를 얻게 된 건가요?",
+            "turn_id": "BK22007851-7",
+            "utterance_id": "BK22007851.13"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "준군사조직 산하 사격부에 가입하면서 아마추어 사격 선수로 활동하는 한편 키예프에 위치한 무기고에서 분쇄기 전문 노동자로 근무했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A5%98%EB%93%9C%EB%B0%80%EB%9D%BC_%ED%8C%8C%EB%B8%94%EB%A6%AC%EC%B2%B8%EC%BD%94",
+            "search_query": "류드밀라 파블리첸코 사격 선수",
+            "terminate": false,
+            "text": "준군사조직 산하에 있는 사격부에 가입하면서 아마추어 사격 선수로 활약했거든요. 게다가 키예프에 있는 무기고에서 분쇄기 전문 노동자로 일하기도 했고요.",
+            "turn_id": "BK22007851-7",
+            "utterance_id": "BK22007851.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 원래 사격에 재능이 있던 여성이었군요. 파블리첸코는 언제 처음 2차 대전에 투입됐나요?",
+            "turn_id": "BK22007851-8",
+            "utterance_id": "BK22007851.15"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "신체 검사와 저격수 적성 시험에 합격한 파블리첸코는 1941년 8월에 일어난 오데사 포위전에 참전했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 과정에서 파블리첸코는 오데사 인근에서 187명의 적군 병사들을 사살했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A5%98%EB%93%9C%EB%B0%80%EB%9D%BC_%ED%8C%8C%EB%B8%94%EB%A6%AC%EC%B2%B8%EC%BD%94",
+            "search_query": "류드밀라 파블리첸코 오데사 포위전",
+            "terminate": false,
+            "text": "신체검사 및 저격수 적성 시험에 합격한 뒤 1941년 8월에 발발한 오데사 포위전에 참전했죠. 오데사 부근에서 그녀는 187명의 적군 병사를 사살했어요.",
+            "turn_id": "BK22007851-8",
+            "utterance_id": "BK22007851.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "첫 투입부터 그야말로 놀라운 전과네요. 전쟁이 끝난 이후 그녀는 어떤 삶을 살았나요?",
+            "turn_id": "BK22007851-9",
+            "utterance_id": "BK22007851.17"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "1937년에는 보흐단 흐멜니츠키의 생애에 관한 논문을 통해 키예프 대학교로부터 역사학 석사학위를 받았다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "파블리첸코는 제2차 세계 대전의 종식과 함께 키예프 대학교 역사학과를 졸업하면서 역사학자로 활동했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A5%98%EB%93%9C%EB%B0%80%EB%9D%BC_%ED%8C%8C%EB%B8%94%EB%A6%AC%EC%B2%B8%EC%BD%94",
+            "search_query": "류드밀라 파블리첸코 역사학자",
+            "terminate": false,
+            "text": "2차 대전이 끝나자 키예프 대학교 역사학과를 졸업하고 역사학자로 활약했어요. 원래 그녀는 1937년에 키예프 대학교에서 보흐단 흐멜니츠키의 생애에 관한 논문으로 역사학 석사학위를 받은 역사학도였거든요.",
+            "turn_id": "BK22007851-9",
+            "utterance_id": "BK22007851.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 재능을 가진 여성이었군요. 오늘도 재미있는 전쟁사 이야기 들려주셔서 감사합니다. 덕분에 오늘도 지식이 하나 더 늘었네요.",
+            "turn_id": "BK22007851-10",
+            "utterance_id": "BK22007851.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제가 도움이 된 거 같아서 기쁘네요. 다음에도 모르는 게 있으면 주저 말고 질문 주세요.",
+            "turn_id": "BK22007851-10",
+            "utterance_id": "BK22007851.20"
+        }
+    ]
+}

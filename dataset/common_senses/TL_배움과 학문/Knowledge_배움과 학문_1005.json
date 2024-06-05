@@ -1,0 +1,435 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006601",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006601",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 이상한 변호사 우영우를 보면서 자폐 스펙트럼에 대해 궁금해졌어요. 자폐는 다른 장애와는 다르게 스펙트럼이라는 말이 붙은 건가요?",
+            "turn_id": "BK22006601-1",
+            "utterance_id": "BK22006601.1"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼 장애(Autism Spectrum Disorder·ASD)는 신경 발달 장애의 한 종류다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자신만의 세상에 갇혀 있는 자폐, 부모와 의사소통은 가능한 고기능 자폐, 공감 능력이 떨어지는 아스퍼거증후군 등 유사한 유형을 통틀어 일컫는다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘스펙트럼’이란 이름처럼 워낙 양상이 다양하다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2022/08/03/society/opinion/20220803213756836.html",
+            "search_query": "자폐 스펙트럼이라 부르는 이유",
+            "terminate": false,
+            "text": "스펙트럼이라는 말이 붙은 이유는 그 모습이 무척 다양하기때문이에요. 자폐 스펙트럼 장애는 신경 발달 장애의 하나인데, 자기만의 세상에 갇혀 있는 자폐, 부모님과 의사소통을 할 수 있는 고기능 자폐, 공감 능력이 떨어진 상태인 아스퍼거 증후군 등 여러 유사한 유형을 모두 포함하고 있어요.",
+            "turn_id": "BK22006601-1",
+            "utterance_id": "BK22006601.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자폐에도 다양한 증상들이 있다는 말이군요. 자폐는 보통 언제 발견되나요?",
+            "turn_id": "BK22006601-2",
+            "utterance_id": "BK22006601.3"
+        },
+        {
+            "reference_date": "2019-04-30",
+            "reference_text": [
+                {
+                    "value": "자폐아가 진단되는 시기는 보통 3~4살 때이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 자폐아 진단이 가능한 최적 시기는 한 살이 조금 지난 생후 14~16개월이라는 연구결과가 나왔다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국 샌디에이고 캘리포니아대학 자폐증 센터(Autism Center)의 카렌 피어스 신경과학 교수 연구팀은 자폐아는 생후 14~16개월 때 자폐증 전문가에 의해 90%에 가까운 정확도로 진단이 가능하다는 연구결과를 발표했다고 메디컬 익스프레스가 29일 보도했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20190430066000009",
+            "search_query": "자폐 스펙트럼 진단 시기",
+            "terminate": false,
+            "text": "자폐는 보통 3~4세즈음 확진 받게 되지만, 자폐를 발견하는 가장 최적의 시기는 한 살이 조금 지난 생후 14~16개월이라는 연구 결과가 있어요. 메디컬 익스프레스의 2019년 4월 29일 보도 내용을 보면 미국 샌디에이고 캘리포니아대학 자폐증 센터의 카렌 피어스 신경과학 교수 연구팀에서 진행한 연구 결과가 있어요. 태어난 후 14~16개월쯤 자폐증 전문가의 판단으로 자폐아의 유무를 알 수 있는데, 그 정확도가 90% 정도 된다는 내용이에요.",
+            "turn_id": "BK22006601-2",
+            "utterance_id": "BK22006601.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진단 시기도 점점 빨라지고 있네요. 빨리 발견하면 예후도 좋은 편인가요?",
+            "turn_id": "BK22006601-3",
+            "utterance_id": "BK22006601.5"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "자폐스펙트럼장애는 완치될 수는 없지만 치료시기가 빠를수록 아이의 정서적 측면, 사회성, 학업 능력 발달까지 향상시킬 수 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 중요한 것은 조기 발견이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가능한 빨리 발견해 개인에 맞춘 치료를 실시하면 보다 긍정적인 치료 예후를 기대할 수 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthinnews.co.kr/news/articleView.html?idxno=31990",
+            "search_query": "자폐 스펙트럼 빨리 진단",
+            "terminate": false,
+            "text": "네, 맞아요. 자폐 스펙트럼 장애는 완치 가능성은 없지만 치료를 빨리할수록 아이의 정서적인 면이나 사회성, 학업 능력 발달까지 높일 수 있거든요. 그래서 조기 발견을 가장 중요해요. 가급적 빨리 발견해서 아이에게 맞춤 치료를 진행하면 긍정적인 치료 효과를 기대할 수 있죠.",
+            "turn_id": "BK22006601-3",
+            "utterance_id": "BK22006601.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료 효과를 기대할 수 있다니 너무 다행이에요. 혹시 자폐 스펙트럼 장애가 특정 성별에서 더 많이 나타나기도 하나요?",
+            "turn_id": "BK22006601-4",
+            "utterance_id": "BK22006601.7"
+        },
+        {
+            "reference_date": "2018-09-12",
+            "reference_text": [
+                {
+                    "value": "자폐증은 전 세계 인구 중 1%에게서 나타나는 정신질환이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 여성보다 유독 남성에게서 4배나 더 많이 보이는 특징을 갖고 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23911",
+            "search_query": "자폐 스펙트럼 성별",
+            "terminate": false,
+            "text": "전 세계 인구 중 1% 정도에서 자폐증이 발병하는데, 여성보다는 남성의 발병률이 4배나 높은 특징을 가지고 있어요.",
+            "turn_id": "BK22006601-4",
+            "utterance_id": "BK22006601.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그냥 우연히 걸리는 질병일 뿐인데, 남성에게서 발병률이 높은 이유가 있을까요?",
+            "turn_id": "BK22006601-5",
+            "utterance_id": "BK22006601.9"
+        },
+        {
+            "reference_date": "2018-09-12",
+            "reference_text": [
+                {
+                    "value": "김은준 기초과학연구원(IBS) 시냅스 뇌질환 연구단장팀은 여성에게서 자폐증 발병률이 더 낮은 원인을 과학적으로 밝혀냈다고 12일 밝혔다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구진은 유전자 전달물질인 ‘RNA’를 분석한 결과, 여성이 자폐증 발병이 낮은 건, 자폐증을 유발하는 유전자가 고장나더라도 정상적인 행동을 할 수 있도록 다른 유전자들이 서로 협력해 그 기능을 대신한다는 사실을 처음으로 밝혀냈다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자폐증이 생긴 수컷 생쥐는 흥분성 뉴런과 억제성 뉴런 사이의 균형이 무너져 이상행동을 보이는 반면, 반대로 암컷 생쥐는 CHD8 변이에 대응해 특이적 유전자들을 발현을 증가시켰고, 결국 균형 시스템이 지켜져 정상적으로 행동했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23911",
+            "search_query": "자폐 스펙트럼 남자 발병률 높은 이유",
+            "terminate": false,
+            "text": "그 이유는 김은준 기초과학연구원 시냅스 뇌 질환 연구단장팀이 밝혀냈어요. 여성의 자폐증 발병률이 낮은 원인을 과학적으로 밝혀냈다는 사실을 2018년 9월 12일에 발표한 거에요. 연구진은 유전자 전달물질인 RNA를 분석했고, 여성의 경우 자폐증을 발생시키는 유전자에 문제가 생기더라도 정상적으로 행동할 수 있도록 다른 유전자들이 서로 도와 그 기능을 대신한다는 사실을 처음으로 알아낸 거에요. 자폐증이 발생한 수컷 생쥐는 흥분성 뉴런과 억제성 뉴런 사이의 밸런스가 깨지면서 비정상적인 행동을 보였지만, 암컷 생쥐는 CHD8 변이에 반응하면서 특이적 유전자들의 생성을 높였고, 결국 균형 시스템이 유지되면서 정상적인 행동을 한 거에요.",
+            "turn_id": "BK22006601-5",
+            "utterance_id": "BK22006601.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에는 몰랐던 사실들이 하나씩 밝혀지니 미래에는 치료법도 기대해볼 수 있겠네요. 그럼 자폐 스펙트럼 장애가 왜 생기는 건지 원인은 밝혀졌나요?",
+            "turn_id": "BK22006601-6",
+            "utterance_id": "BK22006601.11"
+        },
+        {
+            "reference_date": "2018-02-22",
+            "reference_text": [
+                {
+                    "value": "자폐스펙트럼장애의 원인은 아직 다 밝혀지지 않았다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 뇌 발달 이상을 가져온 가장 주된 사유를 ‘유전적 원인’으로 본다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자폐증은 특정 유전자(FMR1, Neurexin, SHANK3 등) 변이와 연관된 것으로 밝혀져 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 유전자 변이가 ASD를 다 설명해주지는 못한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2018/02/22/2018022201185.html",
+            "search_query": "자폐 스펙트럼 원인",
+            "terminate": false,
+            "text": "아직 자폐스펙트럼장애의 원인은 전부 밝혀지진 않았어요. 다만 뇌 발달 이상을 불러오는 주된 이유를 유전적 원인으로 보고는 있어요. 자폐증은 FMR1, Neurexin, SHANK3 등 특정 유전자의 변이와 관련되어있다는 것이 밝혀져 있거든요. 하지만 이런 유전자 변이가 모든 자폐스펙트럼장애를 설명해주는 건 아니에요.",
+            "turn_id": "BK22006601-6",
+            "utterance_id": "BK22006601.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 가족력도 영향을 주는 걸까요? 가족이나 친척 중 자폐 스펙트럼 장애가 있다면 영향을 받을 수 있는 건지 궁금해요.",
+            "turn_id": "BK22006601-7",
+            "utterance_id": "BK22006601.13"
+        },
+        {
+            "reference_date": "2020-05-20",
+            "reference_text": [
+                {
+                    "value": "부모의 형제자매 중에 자폐스펙트럼장애(ASD: 자폐증) 환자가 있어도 자폐증 위험이 높아진다는 연구 결과가 나왔다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 워싱턴대학 아동병원 정신의학 실장 존 콘스탄티노 박사 연구팀이 스웨덴에서 2003~2012년 사이에 태어난 아동과 그 가족 약 85만명의 의료기록을 분석한 결과 이 같은 사실이 밝혀졌다고 메디컬 익스프레스(MedicalXpress)가 19일 보도했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부모의 형제자매 중 자폐증 환자가 있는 아이는 자폐증 진단율이 3~5%로 다른 일반 아이들의 1.5%보다 2~3배 높은 것으로 나타났다고 연구팀은 밝혔다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202005206795Y",
+            "search_query": "자폐 스펙트럼 가족력",
+            "terminate": false,
+            "text": "네. 부모님의 형제 혹은 자매 중 자폐스펙트럼장애 환자가 있는 경우 자폐증에 걸릴 확률이 증가한다는 연구 결과가 있어요. 미국 워싱턴대학 아동병원 정신의학 실장 존 콘스탄티노 박사 연구팀이 스웨덴에서 2003~2012년 사이에 태어난 아이와 그 가족인 약 85만 명의 의료기록을 분석해본 거에요. 결과는 부모의 형제자매 중 자폐증 환자가 있는 경우 아이의 자폐증 진단율이 3~5%였는데, 다른 일반 아이들이 가지는 1.5%의 확률보다 2~3배 더 높은 것으로 나타난 거죠. 이 연구 결과는 메디컬 익스프레스에서 2020년 5월 19일에 보도된 내용이에요.",
+            "turn_id": "BK22006601-7",
+            "utterance_id": "BK22006601.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가족력도 영향을 끼치는군요. 만약 가족력이 있다면 부모님들은 아이를 더 면밀하게 살펴야겠어요. 육아를 하며 자폐스펙트럼장애를 의심해볼 수 있는 증상들이 있을까요?",
+            "turn_id": "BK22006601-8",
+            "utterance_id": "BK22006601.15"
+        },
+        {
+            "reference_date": "2022-03-28",
+            "reference_text": [
+                {
+                    "value": "18개월에서 24개월 전후, 청력에 이상이 없는데 이름을 불렀을 때 아이가 10번 중 7번은 반응하지 않거나 상대방의 눈을 맞추지 않을 때 자폐스펙트럼장애를 의심할 수 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말이 유창하진 않더라도 몸짓으로 소통이 어렵고, 하고 싶은 말을 하지만 대화는 원활히 진행되지 않는 경우도 자폐스펙트럼장애의 증상이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mkhealth.co.kr/news/articleView.html?idxno=57050",
+            "search_query": "자폐 스펙트럼장애 신호",
+            "terminate": false,
+            "text": "18~24개월 전후로 청력에는 문제가 없는데 아이의 이름을 불렀을 때 10번 중 7번 정도 반응하지 않거나 상대의 눈을 바라보지 않는다면 자폐스펙트럼장애를 의심해볼 수 있어요. 말을 잘 하지 않더라도 몸짓으로도 소통하기가 어렵고, 하고 싶은 말을 하긴 하는데 대화가 잘 진행되지 않는 것도 자폐 스펙트럼 장애의 증상이에요.",
+            "turn_id": "BK22006601-8",
+            "utterance_id": "BK22006601.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이와 함께하며 잘 살펴보는 것이 중요하겠네요. 만약 자폐스펙트럼장애를 진단받는다면 어떤 치료들을 할 수 있나요?",
+            "turn_id": "BK22006601-9",
+            "utterance_id": "BK22006601.17"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼의 관리는 완치보다는 증상 완화와 삶의 질 개선에 중점을 둔다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어 상담을 통해 가족 등 주변인과의 불화를 낮추고, 약물이나 심리치료로 여러 증상을 줄이고, 행동 교정을 통해 사회적, 직업적 문제를 최소화하는 시도가 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대체로 지능이 높을수록 치료가 비교적 효과적이고 예후가 좋다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐스펙트럼 치료",
+            "terminate": false,
+            "text": "자폐스펙트럼장애는 완치에 목적을 두는 것이 아닌 증상 완화, 삶의 질 개선에 포인트를 두고 있어요. 그래서 상담을 하며 가족과 같이 주변 사람들과의 트러블을 줄이고, 약물 혹은 심리치료를 통해 다양한 증상들을 관리하게 돼요. 또 행동 교정으로 사회적, 직업적인 문제가 최대한 생기지 않도록 노력해볼 수 있어요. 지능이 높은 경우에는 치료 효과가 좋고 이후에도 잘 생활할 수 있어요.",
+            "turn_id": "BK22006601-9",
+            "utterance_id": "BK22006601.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "완치가 안되는 만큼 비용도 상당히 들어갈 것 같은데, 우리나라에서는 자폐 스펙트럼 장애아들에게 충분한 지원을 하고 있나요?",
+            "turn_id": "BK22006601-10",
+            "utterance_id": "BK22006601.19"
+        },
+        {
+            "reference_date": "2022-03-24",
+            "reference_text": [
+                {
+                    "value": "국가의 도움도 받을 수 있는데 현재 자폐스펙트럼장애장애아동을 위한 다양한 지원서비스가 시행되고 있다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "알아두면 유용한 국가지원서비스는 ▲발달재활서비스 ▲특수교육대상자서비스 ▲청소년 발달장애학생 방과후활동서비스 ▲발달장애인 부모상담지원사업 ▲발달장애인 가족휴식지원 등이 대표적이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/life/health/article/202203240938002?www",
+            "search_query": "자폐스펙트럼 국가 지원",
+            "terminate": false,
+            "text": "우리나라에서는 현재 자폐스펙트럼장애 아동들을 위해 여러 가지 지원 서비스를 마련해두고 있어요. 자폐증 환자가 가족인 경우 받을 수 있는 국가지원 서비스는 발달 재활서비스, 특수교육대상자 서비스, 청소년 발달장애 학생 방과 후 활동서비스, 발달장애인 부모 상담 지원 사업, 발달장애인 가족 휴식 지원 등이 대표적이에요.",
+            "turn_id": "BK22006601-10",
+            "utterance_id": "BK22006601.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다양한 국가지원이 있으니 다행이네요. 언제 누구에게 닥칠지 모르는 일이니 이런 것들을 알아두는 것도 좋은 방법인 것 같아요.",
+            "turn_id": "BK22006601-11",
+            "utterance_id": "BK22006601.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요. 내 가족, 내 주변 지인들에게도 일어날 수 있는 일이니 자세히 알아두면 언젠가는 도움이 될 거에요. 그렇다고 해서 너무 몰입해서 걱정하지 마시고 이런 게 있다 정도로만 알아두세요. 그럼 조심히 들어가시고 다음에 또 만나요.",
+            "turn_id": "BK22006601-11",
+            "utterance_id": "BK22006601.22"
+        }
+    ]
+}

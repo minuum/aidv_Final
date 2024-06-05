@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003952",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003952",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과제 때문에 한국 영화에 대해 조사하고 있어. 궁금한 게 있는데 물어봐도 될까?",
+            "turn_id": "BK22003952-1",
+            "utterance_id": "BK22003952.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "편하게 물어봐도 괜찮아. 궁금한 게 구체적으로 어떤 거야?",
+            "turn_id": "BK22003952-1",
+            "utterance_id": "BK22003952.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국 영화의 역사에 대해 알아보고 있어. 가장 오래된 영화는 뭐야?",
+            "turn_id": "BK22003952-2",
+            "utterance_id": "BK22003952.3"
+        },
+        {
+            "reference_date": "2019-10-25",
+            "reference_text": [
+                {
+                    "value": "오는 10월27일은 1919년 한국 최초의 영화 '의리적 구토'가 상연된지 딱 100년 되는 날이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국영화 100주년의 기점이 된 영화지만 영화를 본 사람은 없다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아니, 생존해 있지 않다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://movie.v.daum.net/v/20191025131037225",
+            "search_query": "한국 최초의 영화",
+            "terminate": false,
+            "text": "한국 최초의 영화는 의리적 구토야. 1919년에 개봉했어. 10월 27일은 의리적 구토 상영 100주년이지만, 정작 한국 영화 100주년의 기점인 이 영화를 관람한 사람 중 생존자는 없어.",
+            "turn_id": "BK22003952-2",
+            "utterance_id": "BK22003952.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "직접 영화를 본 사람이 있더라면 후기를 들을 수 있었을 텐데 아쉽네. 그렇다면 영화 정보라도 자세히 알아둬야겠네. 이 영화는 어느 영화관에서 개봉했어?",
+            "turn_id": "BK22003952-3",
+            "utterance_id": "BK22003952.5"
+        },
+        {
+            "reference_date": "2021-09-05",
+            "reference_text": [
+                {
+                    "value": "최초의 한국 영화 ‘의리적 구토’ 역시 1919년 10월27일 단성사에서 처음 개봉했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "입장료는 특등석 1원 50전, 1등석 1원, 2등석 60전, 3등석 40전으로(당시 연극 관람료는 40전 정도) 비싼 가격이었음에도 10만 관객이 들 정도로 크게 흥행했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210902519688?OutUrl=naver",
+            "search_query": "의리적 구토 개봉관",
+            "terminate": false,
+            "text": "1919년 10월 27일 단성사에서 개봉했어. 입장료는 특등석 1원 50전, 1등석 1원, 2등석 60전, 3등석 40전이었어. 당시 연극 관람료는 40전으로, 영화 관람료는 상당히 비싼 가격이었어. 그러나 10만 관객이 영화를 봤을 정도로 흥행했지.",
+            "turn_id": "BK22003952-3",
+            "utterance_id": "BK22003952.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단성사라는 영화관은 어디에 있어? 지금도 영화를 상영하는 극장이야?",
+            "turn_id": "BK22003952-4",
+            "utterance_id": "BK22003952.7"
+        },
+        {
+            "reference_date": "2020-09-07",
+            "reference_text": [
+                {
+                    "value": "1907년 서울 종로3가에 문을 연 극장 단성사는 개관 101년 되던 해인 2008년 부도를 맞았다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "백성학 영안모자 회장은 단성사 내부의 상영관 한 곳을 보존하고 지하 2층에 영화역사관을 만들어 영화 포스트와 영화 제작 장비 등 5500여점을 전시하고 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20200907030002&wlog_tag3=naver",
+            "search_query": "단성사",
+            "terminate": false,
+            "text": "단성사는 서울 종로 3가에 있었어. 1907년에 개관했고 2008년에 문을 닫았지. 이후 백성학 영안모자 회장이 단성사의 상영관 한 곳을 보존하면서 건물 지하에 영화역사관을 만들었어. 영화 포스터, 영화 장비 등 5,500여 점이 전시 중이야.",
+            "turn_id": "BK22003952-4",
+            "utterance_id": "BK22003952.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "극장이 온전히 남아 있었으면 좋았을 텐데. 참 아쉽다. 영화역사관의 전시품은 구체적으로 뭐야?",
+            "turn_id": "BK22003952-5",
+            "utterance_id": "BK22003952.9"
+        },
+        {
+            "reference_date": "2019-10-24",
+            "reference_text": [
+                {
+                    "value": "역사관에는 1930년대 개봉 당시 영화 포스터, 전단, 시나리오, 촬영장 스틸컷 등 원본 자료와 영화 장비 등 5500여점을 전시한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단성사 최초 목조건물이 화재로 소실된 뒤인 1934년 신축한 극장 건물의 벽돌과 사진도 만날 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://en.seoul.co.kr/news/newsView.php?id=20191024025004&wlog_tag3=naver",
+            "search_query": "단성사 영화역사관",
+            "terminate": false,
+            "text": "1930년대 개봉 당시 영화 포스터, 전단, 시나리오 등의 자료와 영화 장비를 소장하고 있어. 그리고 단성사의 사진과 벽돌도 보관 중이야. 최초의 단성사는 목조 건물이었고 화재로 소실된 후 1934년에 신축했거든. 신축 건물의 벽돌과 사진을 소장 중이지.",
+            "turn_id": "BK22003952-5",
+            "utterance_id": "BK22003952.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가 봐야겠다. 혹시 의리적 구토와 비슷한 시기에 개봉한 다른 영화가 있어?",
+            "turn_id": "BK22003952-6",
+            "utterance_id": "BK22003952.11"
+        },
+        {
+            "reference_date": "2019-03-15",
+            "reference_text": [
+                {
+                    "value": "1924년에는 온전히 조선인들의 힘으로 제작한 최초의 영화 <장화홍련전>이 단성사에서 개봉, 10일간 성황리에 상영된 뒤 순회 흥행하면서 인기를 끌었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jungle.co.kr/magazine/200940",
+            "search_query": "1920년대 단성사 개봉 영화",
+            "terminate": false,
+            "text": "1924년에 장화홍련전이 단성사에서 개봉했는데, 이 영화는 오로지 조선인들의 노력으로 만들어진 최초의 영화였어. 장화홍련전은 단성사에서 10일 동안 성공리에 상영한 뒤 성황리에 순회했어.",
+            "turn_id": "BK22003952-6",
+            "utterance_id": "BK22003952.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장화홍련전이 영화로 만들어진 것은 처음 알았어. 그런데 혹시 나운규가 누구인 줄 아니? 조사하는 과정에서 자주 언급되었던 사람인데 잘 몰라서 말이야.",
+            "turn_id": "BK22003952-7",
+            "utterance_id": "BK22003952.13"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "1926년에는 무성 영화인 《아리랑》을 제작함으로써 대한민국 영화계의 선구자로 강행군을 하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 작품은 나운규 자신이 각본을 쓰고 감독에다 주연까지 겸하여 뛰어난 재능을 발휘하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%9A%B4%EA%B7%9C",
+            "search_query": "나운규",
+            "terminate": false,
+            "text": "나운규는 영화감독이자 각본가, 영화배우였어. 1926년 무성 영화 아리랑을 만들면서 대한민국 영화계의 선구자가 되었어. 각본을 쓰고 감독에 주연까지 할 정도로 재능이 뛰어난 사람이었지.",
+            "turn_id": "BK22003952-7",
+            "utterance_id": "BK22003952.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "능력 있는 사람이었네. 그러면 아리랑 이후에도 나운규는 영화를 제작했니?",
+            "turn_id": "BK22003952-8",
+            "utterance_id": "BK22003952.15"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "작품으로 《금붕어》, 《들쥐》, 《벙어리 삼룡》, 《오몽녀》, 《임자 없는 나룻배》 등이 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "안타깝게도 그가 제작한 영화 필름들은 대일본제국을 조롱했다는 사유로 일본 순사들에 의해 강제 소각, 폐기 조치되고 말았다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%9A%B4%EA%B7%9C",
+            "search_query": "나운규",
+            "terminate": false,
+            "text": "응. 금붕어, 들쥐, 벙어리 삼룡, 오몽녀, 임자 없는 나룻배 등 여러 작품을 만들었어. 그런데 이 필름들은 일제에 의해 폐기되어서 없어. 일본을 조롱했다는 이유로 강제로 소각, 폐기되었지.",
+            "turn_id": "BK22003952-8",
+            "utterance_id": "BK22003952.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아쉽다. 당시 영화 자료를 찾기 어렵네. 과제에 참고할 또 다른 정보가 있을까?",
+            "turn_id": "BK22003952-9",
+            "utterance_id": "BK22003952.17"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "한국영상자료원이 김기영 감독 영화에 대한 검열자료와 문헌자료 컬렉션을 17일 온라인 '한국영화데이터베이스(KMDb)'를 통해 공개했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘김기영 감독 검열자료 컬렉션’에서는 32편의 연출작 중 24편의 영화에 대한 검열 관련 서류들을 원문으로 열람할 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.interview365.com/news/articleView.html?idxno=102600",
+            "search_query": "한국 영화사",
+            "terminate": false,
+            "text": "김기영 감독의 검열자료 컬렉션을 추천해. 한국영상자료원은 김기영 감독 영화 관련 검열자료와 문헌자료를 정리한 컬렉션을 한국영화데이터베이스인 KMDb를 통해 17일 공개했어. 이 데이터베이스를 통해 그가 연출한 영화 32편 중 24편의 검열 관련 서류를 원문으로 열람할 수 있지.",
+            "turn_id": "BK22003952-9",
+            "utterance_id": "BK22003952.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네가 알려주지 않았으면 몰랐을 자료였네. 과제에 도움이 많이 될 거 같아. 고마워.",
+            "turn_id": "BK22003952-10",
+            "utterance_id": "BK22003952.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "예전 영화의 필름이 남아 있으면 좋았을 텐데. 추가로 궁금한 거 있으면 물어봐!",
+            "turn_id": "BK22003952-10",
+            "utterance_id": "BK22003952.20"
+        }
+    ]
+}

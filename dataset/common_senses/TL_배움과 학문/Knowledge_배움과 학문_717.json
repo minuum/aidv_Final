@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004544",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004544",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 노벨상에 대해서 아세요? 노벨상, 노벨상, 말은 많이 들어봤지만 자세히 아는 게 없어서 궁금해요. 누가 맨 처음 만들었나요?",
+            "turn_id": "BK22004544-1",
+            "utterance_id": "BK22004544.1"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "노벨상(스웨덴어: Nobelpriset, 노르웨이어: Nobelprisen, 영어: Nobel Prize)은 다이너마이트의 발명가인 스웨덴의 알프레드 노벨이 1895년 작성한 유언에 따라 매년 인류의 평화를 위해 과학적으로 헌신한 사람에게 시상을 하며, 세계적으로 아주 권위있는 상이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B2%A8%EC%83%81",
+            "search_query": "노벨상 유래",
+            "terminate": false,
+            "text": "노벨상은 스웨덴의 알프레드 노벨이라는 사람이 1895년에 쓴 유언에 따라 시작되었어요. 알프레드 노벨은 다이너마이트를 발명한 사람이에요. 인류의 평화를 위해 과학적으로 기여한 인물에게 매년 시상해요. 잘 아시다시피 굉장히 권위 있는 상이죠.",
+            "turn_id": "BK22004544-1",
+            "utterance_id": "BK22004544.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 유언을 남긴 알프레드 노벨이라는 사람의 이름을 따서 노벨상이라고 부르는 거군요. 실물로 상을 주는 거죠? 어디에서 주나요?",
+            "turn_id": "BK22004544-2",
+            "utterance_id": "BK22004544.3"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "다른 상들은 스웨덴의 스톡홀름에서 수여되는 반면, 노벨 평화상은 노르웨이의 오슬로에서 수여된다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B2%A8%EC%83%81",
+            "search_query": "노벨상 시상",
+            "terminate": false,
+            "text": "노벨 평화상은 노르웨이 오슬로에서요. 노벨 평화상 외에는 스웨덴 스톡홀름에서 수여하고요.",
+            "turn_id": "BK22004544-2",
+            "utterance_id": "BK22004544.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오슬로와 스톡홀름에서 주는군요. 근데 평화상 말고 다른 종류가 또 있어요?",
+            "turn_id": "BK22004544-3",
+            "utterance_id": "BK22004544.5"
+        },
+        {
+            "reference_date": "2020-10-13",
+            "reference_text": [
+                {
+                    "value": "스웨덴의 알프레드 노벨(1833~1896)의 유언에 따라 인류의 복지에 공헌한 사람이나 단체에게 수여되는 상으로, 6개 부문(문학, 화학, 물리학, 생리학 또는 의학, 평화, 경제학)에 대한 수상이 이뤄진다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=928507&cid=43667&categoryId=43667",
+            "search_query": "노벨상 부문",
+            "terminate": false,
+            "text": "총 6개 부문이 있어요. 문학상, 화학상, 물리학상, 생리학상 또는 의학상, 평화상과 경제학상이죠.",
+            "turn_id": "BK22004544-3",
+            "utterance_id": "BK22004544.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨 문학상, 노벨 경제학상 등으로 불리는 게 이 6개 부문을 말하는 거였군요. 근데 노벨상을 받을 대상자는 누가 선정해요?",
+            "turn_id": "BK22004544-4",
+            "utterance_id": "BK22004544.7"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "스웨덴 왕립 과학원이 노벨 물리학상, 노벨 화학상 그리고 1968년도에 제정된 노벨 경제학상('알프레드 노벨을 기념하는 경제학 분야의 스웨덴 중앙은행상'이다)의 수상자를 결정한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카롤린스카 의과대학교 노벨총회에서 노벨 생리학·의학상의 수상자를 결정한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스웨덴 아카데미에서 노벨 문학상을 수여한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다른 상들과 달리 노벨 평화상은 스웨덴의 기구가 아닌 노르웨이 노벨 위원회에서 수여한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B2%A8%EC%83%81",
+            "search_query": "노벨상 수상자 선정",
+            "terminate": false,
+            "text": "물리학상과 과학상, 경제학상은 스웨덴 왕립 과학원이 결정하고요, 생리학상과 의학상의 수상자는 카롤린스카 의대 노벨총회에서 결정해요. 스웨덴 아카데미는 문학상을 맡았고, 평화상은 노르웨이 노벨 위원회에서 맡았죠.",
+            "turn_id": "BK22004544-4",
+            "utterance_id": "BK22004544.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평화상은 노르웨이에서 결정하고 나머지는 다 스웨덴에서 결정하는 거네요. 근데 이렇게 대단한 상을 안 받겠다고 거절한 사람도 있다고 들은 것 같아요. 이게 사실인가요?",
+            "turn_id": "BK22004544-5",
+            "utterance_id": "BK22004544.9"
+        },
+        {
+            "reference_date": "2022-05-22",
+            "reference_text": [
+                {
+                    "value": "장폴 사르트르는 1964년 문학상을, 레득토는 1973년 평화상을 거절했다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1958년, 소련의 보리스 파스테르나크는 정부의 압력으로 노벨 문학상 수상을 거부했다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%B2%A8%EC%83%81",
+            "search_query": "노벨상 수상 거절",
+            "terminate": false,
+            "text": "네, 정말 수상을 거부한 사람이 있어요. 장폴 사르트르는 1964년에 문학상 수상을 거부했고, 1973년에 레득토가 평화상을 거절했어요. 또 있는데, 1958년 보리스 파스테르나크는 당시 소련 정부의 압력 때문에 문학상 수상을 거부했어요.",
+            "turn_id": "BK22004544-5",
+            "utterance_id": "BK22004544.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 상을 놓치다니 제 생각엔 너무 아쉬울 것 같은데 다 저마다의 이유가 있었겠죠. 노벨상을 받을 때 상금도 받는다던데 상금은 어디서 나오나요?",
+            "turn_id": "BK22004544-6",
+            "utterance_id": "BK22004544.11"
+        },
+        {
+            "reference_date": "2018-10-04",
+            "reference_text": [
+                {
+                    "value": "노벨상 상금은 노벨이 남긴 유산을 기금으로 노벨재단이 1년 동안 운영한 이자 등의 수입에서 나온다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=66979&cid=43667&categoryId=43667",
+            "search_query": "노벨상 상금",
+            "terminate": false,
+            "text": "노벨이 남긴 유산을 기금으로 하죠. 노벨 재단이 1년간 재단을 운영하여 발생한 이자 수입에서 상금이 나와요.",
+            "turn_id": "BK22004544-6",
+            "utterance_id": "BK22004544.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노벨이 남겨놓은 유산이 씨앗이 되어서 계속 인재를 발굴해내는 거였군요. 상금의 금액이 어느 정도 되는 거예요?",
+            "turn_id": "BK22004544-7",
+            "utterance_id": "BK22004544.13"
+        },
+        {
+            "reference_date": "2020-10-13",
+            "reference_text": [
+                {
+                    "value": "수상자에게는 900만 크로나(약 13억 원)의 상금과 금메달, 상장이 주어진다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=928507&cid=43667&categoryId=43667",
+            "search_query": "노벨상 상금 금액",
+            "terminate": false,
+            "text": "상금은 900만 크로나예요. 우리 돈으로 환산하면 약 13억 원 정도죠. 상금과 함께 금메달과 상장을 주고요.",
+            "turn_id": "BK22004544-7",
+            "utterance_id": "BK22004544.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "13억이라니 금액이 어마어마하네요. 아까 노벨상 시상을 매년 한다고 하셨는데, 해마다 같은 일자에 시상하나요?",
+            "turn_id": "BK22004544-8",
+            "utterance_id": "BK22004544.15"
+        },
+        {
+            "reference_date": "2020-10-13",
+            "reference_text": [
+                {
+                    "value": "노벨상 수상자 발표는 매년 10월에 이뤄지고, 시상식은 노벨이 사망한 날인 12월 10일에 열린다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=928507&cid=43667&categoryId=43667",
+            "search_query": "노벨상 시상식",
+            "terminate": false,
+            "text": "네, 12월 10일에요. 이날이 노벨이 사망한 날이에요. 참고로 그보다 앞선 10월에 수상자 발표를 해요.",
+            "turn_id": "BK22004544-8",
+            "utterance_id": "BK22004544.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "두 달이나 앞서 발표하는군요. 매년 수상 후보자를 찾고 수상에 적합한 인물을 선정하려면 1년이 모자랄 것 같아요. 우리나라에도 수상자가 있죠?",
+            "turn_id": "BK22004544-9",
+            "utterance_id": "BK22004544.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 2000년에 김대중 전 대통령이 노벨 평화상을 수상했어요. 우리나라에선 유일한 수상자였어요.",
+            "turn_id": "BK22004544-9",
+            "utterance_id": "BK22004544.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에서 또 수상자가 나왔으면 좋겠네요. 여러 가지 궁금한 것이 많은데 나중에 또 여쭤봐도 되죠?",
+            "turn_id": "BK22004544-10",
+            "utterance_id": "BK22004544.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 물론이요. 언제든지 궁금한 게 있으시면 저한테 연락해주세요.",
+            "turn_id": "BK22004544-10",
+            "utterance_id": "BK22004544.20"
+        }
+    ]
+}

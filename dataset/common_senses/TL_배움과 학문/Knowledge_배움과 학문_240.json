@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012934",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012934",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마에서 고래가 나오는 것을 보았어요. 고래는 어떤 생물인지 알 수 있을까요?",
+            "turn_id": "BK22012934-1",
+            "utterance_id": "BK22012934.1"
+        },
+        {
+            "reference_date": "44732.0",
+            "reference_text": [
+                {
+                    "value": "고래(鯨)는 고래목(학명: Cetacea)에 속하는 포유류의 총칭으로, 수염고래류와 이빨고래류으로 나뉜다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸은 유선형으로 헤엄치기에 적합한 형태를 이루고 있다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "눈은 몸의 양 측면에 있다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98",
+            "search_query": "고래",
+            "terminate": false,
+            "text": "고래는 수염고래류와 이빨고래류로 나뉘는데 모두 고래목에 포함되는 포유류를 말해요. 고래의 몸은 헤엄치기에 적당한 유선형의 형태로 되어있고 눈은 몸의 양쪽에 있죠.",
+            "turn_id": "BK22012934-1",
+            "utterance_id": "BK22012934.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래를 잡아서 먹기도 하나요?",
+            "turn_id": "BK22012934-2",
+            "utterance_id": "BK22012934.3"
+        },
+        {
+            "reference_date": "44597.0",
+            "reference_text": [
+                {
+                    "value": "과거 서유럽이나 식민지 시절의 미국, 일부 해안 지역의 국가에서는 염장을 한 고래고기가 많이 섭취되었으나, 현대에 들어서는 동물권 등으로 인해 상당수의 국가에서 고래잡이가 금지되어 규제를 받는데다 독성도의 문제 등으로 인해 절대다수의 국가에서 금기 식품으로 자리잡게 되었다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98%EA%B3%A0%EA%B8%B0",
+            "search_query": "고래고기",
+            "terminate": false,
+            "text": "네, 과거의 서유럽과 식민지 시절의 미국 및 일부 해안 지역 국가는 소금에 절인 고래고기를 많이 먹었으나 현대에는 동물에게 주어지는 기본적인 권리를 이유로 많은 국가에서 고래잡이가 금지되어 규제를 받고 있어요. 또한, 고래의 독성 문제가 있어서 많은 국가에서 금기 식품으로 취급되고 외면받고 있죠.",
+            "turn_id": "BK22012934-2",
+            "utterance_id": "BK22012934.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래잡이의 규제는 언제부터 시작되었나요?",
+            "turn_id": "BK22012934-3",
+            "utterance_id": "BK22012934.5"
+        },
+        {
+            "reference_date": "44624.0",
+            "reference_text": [
+                {
+                    "value": "포경을 규제하기 위한 국제적인 움직임은 1931년에 시작되었으며, 1946년에 미국 워싱턴 D.C.에서 국제포경규제협약 (International Convention for the Regulation of Whaling, ICRW)이 서명되기에 이르렀다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 기준의 목표는 \"고래개체수의 적절한 보존을 함으로써 포경을 지속, 발전되게 한다\"였다",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EA%B2%BD",
+            "search_query": "고래잡이",
+            "terminate": false,
+            "text": "1931년부터 국제적으로 고래잡이의 규제가 시작되었고 1946년에 미국 워싱턴 D.C.에서 국제포경규제협약에 서명했어요. 그것의 목표는 고래의 수를 적절히 유지해서 고래잡이를 지속 및 발전시키는 것이었죠.",
+            "turn_id": "BK22012934-3",
+            "utterance_id": "BK22012934.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수산물 섭취가 많은 일본은 규제에 거부적인 반응을 보였겠네요?",
+            "turn_id": "BK22012934-4",
+            "utterance_id": "BK22012934.7"
+        },
+        {
+            "reference_date": "44624.0",
+            "reference_text": [
+                {
+                    "value": "1982년 IWC가 상업적 포경을 금지시키려고 했을 때 일본은 공식적으로 반대하였다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나, 미국의 수산물 수입 쿼터 축소 압력에 의해서 결국 1987년에 반대 입장을 철회했다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EA%B2%BD",
+            "search_query": "포경",
+            "terminate": false,
+            "text": "맞아요, 일본은 1982년에 IWC가 금지시킨 상업적 포경을 거부했어요. 하지만 미국의 수산물 수입 쿼터 축소 압박으로 1987년에 입장을 번복하고 IWC의 뜻을 따르기로 했죠.",
+            "turn_id": "BK22012934-4",
+            "utterance_id": "BK22012934.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본의 고래잡이는 언제부터 시작되었나요?",
+            "turn_id": "BK22012934-5",
+            "utterance_id": "BK22012934.9"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "일본의 고래잡이는 선사 시대부터 고래잡이가 이루어지고 있으며 서양의 고래잡이와는 달리 단독적인 고래잡이 기술을 발전시켜 왔다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1986년 고래의 상업 포경이 금지 된 이후, 일본은 과학적 연구를 위해 포경을 허용하는 제도인 과학포경을 이용해 고래잡이를 계속하였다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본의 포경을 막으려 과학 포경 철회를 요구하는 캠페인을 열었지만 전 세계의 비난에도 불구하고 27년 동안 과학 조사를 명목으로 포경을 지속하였다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%ED%8F%AC%EA%B2%BD",
+            "search_query": "일본의 고래잡이",
+            "terminate": false,
+            "text": "일본의 고래잡이는 선사 시대부터 시작되었어요. 서양과는 달리 단독적으로 기술을 발전시킨 일본은 1986년에 고래의 상업 포경이 금지되고 나서도 과학적인 연구를 위해 포경을 허용하는 과학 포경을 악용해서 고래잡이를 이어갔어요. 이러한 일본의 고래잡이를 중단시키려고 과학 포경 철회 요구 캠페인을 열고 전 세계가 비난했지만 27년 동안 고래잡이를 이어갔어요.",
+            "turn_id": "BK22012934-5",
+            "utterance_id": "BK22012934.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과학 포경을 하는 나라가 많나요?",
+            "turn_id": "BK22012934-6",
+            "utterance_id": "BK22012934.11"
+        },
+        {
+            "reference_date": "44623.0",
+            "reference_text": [
+                {
+                    "value": "전 세계에서 유일하게 과학 포경을 하는 나라는 일본이다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일본의 첫 과학 포경 프로그램인 JARPA는 18년 동안 자연사망률을 밝히는 명목으로 6,778 마리의 밍크고래를 살상했다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%BC%ED%95%99_%ED%8F%AC%EA%B2%BD",
+            "search_query": "과학 포경",
+            "terminate": false,
+            "text": "아니요, 유일하게 일본만 과학 포경을 하고 있어요. 심지어 일본 최초의 과학 포경 프로그램 JARPA는 자연 사망률을 밝힌다는 핑계로 18년 동안 6,778 마리의 밍크고래를 죽이거나 상처를 입혔어요.",
+            "turn_id": "BK22012934-6",
+            "utterance_id": "BK22012934.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본에 대한 제재가 필요하겠네요. 그런데 고래잡이의 규제하는 것을 보니 고래의 수가 많이 적나 보네요?",
+            "turn_id": "BK22012934-7",
+            "utterance_id": "BK22012934.13"
+        },
+        {
+            "reference_date": "44116.0",
+            "reference_text": [
+                {
+                    "value": "40개국 과학자와 환경 보호론자 350여 명이 고래와 돌고래가 멸종할 위기에 처했다면서 이를 보호하기 위한 전세계 공동 대응을 촉구하는 서한에 서명했다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서한은 모든 종의 절반 이상이 보호와 관심이 필요한 상태라며 그 가운데 고래와 돌고래를 보호하기 위한 조처가 너무 미미하고 늦었다며, 멸종이 임박했다고 경고했다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/international-54506943",
+            "search_query": "고래 멸종위기",
+            "terminate": false,
+            "text": "그렇죠, 40개국의 과학자와 환경 보호론자 350여 명이 고래와 돌고래의 멸종을 경고하고 전 세계 공동 대응 촉구 서한에 서명하며 고래를 보호하기 위해 움직였어요. 이러한 서한에는 모든 종의 절반 이상이 보호와 관심의 대상이고 그 중 고래, 돌고래 보호 조치가 잘 이루어지지 않는다며 멸종이 머지않았다는 경고의 글이 적혀있죠.",
+            "turn_id": "BK22012934-7",
+            "utterance_id": "BK22012934.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래잡이 외에도 의문사하는 고래들이 많나요?",
+            "turn_id": "BK22012934-8",
+            "utterance_id": "BK22012934.15"
+        },
+        {
+            "reference_date": "44096.0",
+            "reference_text": [
+                {
+                    "value": "호주 태즈메이니아섬의 해변에 갇힌 270마리의 고래 중 최소 90마리가 죽었고 앞으로 더 죽을 수 있다고 현지 구조대원들이 말했다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고래들이 무엇 때문에 해변까지 다가왔는지는 알려지지 않았다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bbc.com/korean/international-54246755",
+            "search_query": "고래 떼죽음",
+            "terminate": false,
+            "text": "네, 실제로 고래들이 호주 태즈메이니아 섬의 해변에 270마리의 고래가 갇혔고 이 중 약 90마리가 죽었는데 더 죽을 수 있다고 호주의 구조대원이 전한 적이 있는데 고래들이 해변으로 다가온 이유는 의문으로 남아있죠.",
+            "turn_id": "BK22012934-8",
+            "utterance_id": "BK22012934.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼른 이유가 밝혀져서 같은 일이 발생하지 않도록 조처를 해야 할 텐데 걱정이네요.",
+            "turn_id": "BK22012934-9",
+            "utterance_id": "BK22012934.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이에요, 고래뿐만 아니라 다른 멸종 위기종들에도 관심을 둘 필요가 느껴지네요.",
+            "turn_id": "BK22012934-9",
+            "utterance_id": "BK22012934.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공감합니다, 다른 멸종 위기종은 무엇이 있는지 확인해볼게요.",
+            "turn_id": "BK22012934-10",
+            "utterance_id": "BK22012934.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저랑 같이 찾아보시죠, 제가 도와드릴게요.",
+            "turn_id": "BK22012934-10",
+            "utterance_id": "BK22012934.20"
+        }
+    ]
+}

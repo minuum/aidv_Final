@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006440",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006440",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "핵전쟁에 관련된 영화를 본 적이 있어. 핵폭탄에 대해서 궁금하더라고. 핵폭탄이 정확히 뭘까?",
+            "turn_id": "BK22006440-1",
+            "utterance_id": "BK22006440.1"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "핵무기(核武器)는 핵분열에서 발생하는 방대한 에너지를 이용하여 살상 또는 파괴하는 무기의 총칭이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B5%EB%AC%B4%EA%B8%B0",
+            "search_query": "핵무기",
+            "terminate": false,
+            "text": "핵무기는 핵분열에서 발생하는 방대한 에너지를 사용한 살상이나 파괴하기 위한 무기를 말해.",
+            "turn_id": "BK22006440-1",
+            "utterance_id": "BK22006440.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "핵무기에 대한 정의 말고 약간의 원리를 포함해서 알려줄 수 있어?",
+            "turn_id": "BK22006440-2",
+            "utterance_id": "BK22006440.3"
+        },
+        {
+            "reference_date": "2022-05-21",
+            "reference_text": [
+                {
+                    "value": "핵폭발(核爆發)은 핵반응이 빠르게 일어나 급작스럽게 에너지가 터져버리는 것을 뜻한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "종류는 핵분열과 핵융합으로 나눌 수 있고, 대기권에서의 핵폭발은 버섯구름을 만들고, 주변을 광범위하게 방사선과 방사능 입자로 오염시킨다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B5%ED%8F%AD%EB%B0%9C",
+            "search_query": "핵폭발",
+            "terminate": false,
+            "text": "핵폭발에 대해서 알면 좋을 것 같다. 핵폭발은 빠르게 일어나는 핵반응으로 급작스럽게 에너지가 폭발하는 것을 의미하는데, 종류로는 핵분열과 핵융합이 있지. 대기권에서 핵폭발이 일어나면 버섯구름을 만들고 방사선과 방사능 입자로 엄청난 범위로 주변을 오염시켜.",
+            "turn_id": "BK22006440-2",
+            "utterance_id": "BK22006440.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐, 방사선과 방사능이 항상 헷갈렸어. 두 용어에는 차이가 있을까?",
+            "turn_id": "BK22006440-3",
+            "utterance_id": "BK22006440.5"
+        },
+        {
+            "reference_date": "2016-05-16",
+            "reference_text": [
+                {
+                    "value": "방사선이 방사성 물질이 내는 에너지 흐름이라면, 방사능은 방사성 물질의 능력, 즉 방사선을 내는 강도를 뜻한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "방사선은 에너지의 흐름이기 때문에 눈에 보이지 않으며 냄새나 맛도 없다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148815222",
+            "search_query": "방사선 방사능 차이",
+            "terminate": false,
+            "text": "방사선은 방사성 물질에서 흐르는 에너지야. 에너지의 흐름이기 때문에 눈에 보이지도 않고 냄새도 맛도 없지. 그리고 방사성 물질의 능력을 방사능이라고 하는데 이는 방사선을 내는 강도를 말해.",
+            "turn_id": "BK22006440-3",
+            "utterance_id": "BK22006440.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 방사선 물질이 아니라 방사성 물질이라고 하는 구나. 다시 돌아와서, 핵폭탄의 연료는 뭐야?",
+            "turn_id": "BK22006440-4",
+            "utterance_id": "BK22006440.7"
+        },
+        {
+            "reference_date": "2015-07-20",
+            "reference_text": [
+                {
+                    "value": "핵연료 물질은 우라늄(U), 플루토늄(Pu), 토륨(Th)의 3가지 원소가 해당되며, 동위원소에 따라 크게 핵분열성 물질(fissile material)과 핵원료성 물질(fertile material)로 구분할 수 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mdportal.kaeri.re.kr/posts/d20150016/",
+            "search_query": "핵연료 물질",
+            "terminate": false,
+            "text": "핵연료 물질은 우라늄과 플루토늄, 그리고 토륨, 3가지 원소가 해당해. 동위원소에 따라 크게 핵분열성 물질과 핵원료성 물질로 구분하지.",
+            "turn_id": "BK22006440-4",
+            "utterance_id": "BK22006440.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "핵연료 물질에 대해서는 어디선가 들어봤던 것 같아. 그런데 동위원소라는 건 전혀 모르겠네. 동위원소가 뭐야?",
+            "turn_id": "BK22006440-5",
+            "utterance_id": "BK22006440.9"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "동위 원소 (同位元素, Isotope)는 원자 번호가 같지만 질량수가 다른 원소를 말한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어떤 원소의 동위원소는 그 원소와 같은 수의 양성자와 전자를 가지지만, 다른 수의 중성자를 가진다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원소의 화학적 성질은 양성자와 전자의 수에 의해 결정되므로 동위 원소의 화학적 성질은 원래 원소와 같다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 중성자의 수가 달라서 질량이 다르므로 물리적 방법으로 분리할 수 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%9C%84_%EC%9B%90%EC%86%8C",
+            "search_query": "동위원소",
+            "terminate": false,
+            "text": "동위 원소란 원자 번호가 같지만, 질량수가 다른 원소를 말해. 한 원소의 동위원소는 그 원소와 같은 수의 양성자와 전자를 가지지만 중성자의 수가 다르지. 원소의 화학적 성질은 양성자와 전자의 수에 의해 결정되기 때문에 원래 원소와 동위 원소의 화학적 성질은 같아. 하지만 중성자의 수가 달라서 질량도 달라 물리적 방법으로 분리할 수 있지.",
+            "turn_id": "BK22006440-5",
+            "utterance_id": "BK22006440.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 용어가 엄청 많다. 질량수라는 게 엄청 중요한 것 같은데 질량수가 뭐야?",
+            "turn_id": "BK22006440-6",
+            "utterance_id": "BK22006440.11"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "질량수（質量數）란 임의의 원소에서 그 원소의 원자핵을 구성하고 있는 양성자수와 중성자수를 합친 것,즉 양성자와 중성자의 전체 수이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%88%EB%9F%89%EC%88%98",
+            "search_query": "질량수",
+            "terminate": false,
+            "text": "질량수는 어떤 원소에서 원자핵을 구성하고 있는 양성자 수와 중성자 수를 합친 것을 말해. 양성자와 중성자의 전체 수지.",
+            "turn_id": "BK22006440-6",
+            "utterance_id": "BK22006440.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크기가 크거나 수가 많으면 에너지가 많아지잖아? 같은 원리로 질량수가 큰 원소들이 핵분열에 사용되는 거 맞지?",
+            "turn_id": "BK22006440-7",
+            "utterance_id": "BK22006440.13"
+        },
+        {
+            "reference_date": "2022-06-13",
+            "reference_text": [
+                {
+                    "value": "핵분열(核分裂, 영어: nuclear fission, 문화어: 핵분렬)은 보통 우라늄, 플루토늄같이 질량수가 큰 원자핵이 중성자와 충돌해 가벼운 원자핵 2개(핵분열 생성물)로 쪼개지는 핵반응의 한 유형이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "핵분열 물질이 핵분열을 통해 가벼운 원자핵들로 쪼개지는 방법은 40가지 이상으로, 주로 질량수 90~100과 130~140에 속한 원자들에 집중된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B5%EB%B6%84%EC%97%B4",
+            "search_query": "핵분열",
+            "terminate": false,
+            "text": "정확했어. 핵분열이라는 건 하나의 원자핵을 가벼운 원자핵 2개로 쪼개는 핵반응인데, 주로 우라늄, 플루토늄같이 질량수가 큰 원자핵을 중성자와 충돌시켜 쪼개지도록 해. 핵분열을 이용해 핵물질을 가벼운 원자핵들로 쪼개는 방법은 40가지가 넘지. 주로 질량수 90에서 100, 130에서 140에 속한 원자들이 해당해.",
+            "turn_id": "BK22006440-7",
+            "utterance_id": "BK22006440.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이걸로 원자 폭탄의 원리에 대해서도 어느 정도는 이해할 수 있겠어. 그런데 또 궁금한 건, 수소폭탄은 뭐야? 핵무기와 같은 걸까?",
+            "turn_id": "BK22006440-8",
+            "utterance_id": "BK22006440.15"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "수소폭탄(水素爆彈, hydrogen bomb), 소위 수폭(水爆, H-bomb)이란 일반 핵폭탄을 이용해 수소 핵융합을 일으켜 폭발력을 증가시킨 핵폭탄을 말한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "열핵폭탄(熱核爆彈, thermonuclear weapon) 또는 핵융합 폭탄(核融合爆彈)이라고도 한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%86%8C%ED%8F%AD%ED%83%84",
+            "search_query": "수소폭탄",
+            "terminate": false,
+            "text": "수소폭탄은 소위 수폭이라고도 하는데, 일반 핵폭탄을 이용해 수소 핵융합을 일으켜 폭발력을 증가시킨 핵폭탄이야. 열핵폭탄 또는 핵융합 폭탄이라고 하지.",
+            "turn_id": "BK22006440-8",
+            "utterance_id": "BK22006440.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 가장 강력한 핵폭탄은 수소 폭탄이겠네?",
+            "turn_id": "BK22006440-9",
+            "utterance_id": "BK22006440.17"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "차르 봄바(러시아어: Царь-бомба 차리 봄바[*]→황제 폭탄, 영어: Tsar Bomba, Tsar-bomb)는 소비에트 연방의 수소 폭탄이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재까지 개발한 것 중 가장 큰 폭탄으로, 현재까지 성능 시험을 마친 것 중 가장 강력한 무기이기도 하다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%A5%B4_%EB%B4%84%EB%B0%94",
+            "search_query": "차르 봄바",
+            "terminate": false,
+            "text": "맞아. 소비에트 연방의 수소 폭탄인 차르 봄바라는 폭탄이 있는데, 현재까지 개발한 것 중 가장 크고 성능 시험을 마친 것 중 가장 강력하지.",
+            "turn_id": "BK22006440-9",
+            "utterance_id": "BK22006440.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성능을 마친 것 중이라고 했으니 아직도 연구 개발 중이고 성능 시험이 안 된 것도 꽤 있겠다. 잘못하면 영화처럼 핵전쟁이 있을 수도 있겠어.",
+            "turn_id": "BK22006440-10",
+            "utterance_id": "BK22006440.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "국제적으로 핵무기에 대한 목소리를 높여 개발을 막아야 한다고 생각해. 핵무기 반대에 대한 우리들의 의견을 모을 수 있는 방법을 알아보자. 난 뒤에 수업이 있어서 바로 가봐야 할 것 같아. 그럼 내일 봐!",
+            "turn_id": "BK22006440-10",
+            "utterance_id": "BK22006440.20"
+        }
+    ]
+}

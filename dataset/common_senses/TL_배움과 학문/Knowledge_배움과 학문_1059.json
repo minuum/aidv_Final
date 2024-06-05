@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006925",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006925",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 기술 시간에 전기에 대해 배우고 있는데 하나도 이해가 가지 않아. 모두 익숙한 용어인데도 막상 식이나 회로에 응용하니까 전혀 감이 안오더라고.",
+            "turn_id": "BK22006925-1",
+            "utterance_id": "BK22006925.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 차근차근 짚으면서 식과 연결해보자.",
+            "turn_id": "BK22006925-1",
+            "utterance_id": "BK22006925.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고마워. 우선 전류, 전압, 저항 같은 용어의 뜻을 알면 좋겠어. 전류부터 알려줄래?",
+            "turn_id": "BK22006925-2",
+            "utterance_id": "BK22006925.3"
+        },
+        {
+            "reference_date": "2022-04-28",
+            "reference_text": [
+                {
+                    "value": "전류(電流, electric current)는 전하의 흐름으로, 단위 시간 동안에 흐른 전하의 양으로 정의된다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A5%98",
+            "search_query": "전류",
+            "terminate": false,
+            "text": "단위 시간 동안 흐른 전하의 양으로 전류는 전하의 흐름이라고 생각하면 돼.",
+            "turn_id": "BK22006925-2",
+            "utterance_id": "BK22006925.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이것도 궁금했는데 마침 잘 됐다. 전하와 전자는 같은 거야?",
+            "turn_id": "BK22006925-3",
+            "utterance_id": "BK22006925.5"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "기본 전하(基本電荷, 영어: elementary charge)는 양성자 하나가 지니고 있는 전하이며, 또한 전자 하나가 지니고 있는 전하의 절댓값이기도 하다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 기호 e를 사용하여 표현되며, 간혹 q로 표현되기도 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%B3%B8_%EC%A0%84%ED%95%98",
+            "search_query": "기본 전하",
+            "terminate": false,
+            "text": "기본 전하는 양성자 하나가 지니고 있는 전하이며 전자 하나가 지니고 있는 전하의 절댓값이기도 해. 일반적으로 기호 e를 사용하여 표현되며, 간혹 q로 표현되지.",
+            "turn_id": "BK22006925-3",
+            "utterance_id": "BK22006925.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전하는 그럼 양성자와 전자를 이루는 것이라고 생각하면 되겠다. 기술 시간에 전하를 q로 표현하는 것도 이해했어. 다시 돌아와서 그럼 전압은 뭘까?",
+            "turn_id": "BK22006925-4",
+            "utterance_id": "BK22006925.7"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "전압(電壓, electric pressure) 또는 전위차(電位差, electric potential difference)는 전기장 안에서 전하가 갖는 전위의 차이이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 일반적인 영어 명칭은 voltage이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전기 회로에서는 회로의 두 지점 사이의 전위차를 뜻하며 전기가 흐르게 하는 원인이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%95%95",
+            "search_query": "전압",
+            "terminate": false,
+            "text": "전압은 전위차라고도 하는데 전기장 안에서 전하가 갖는 전위의 차이야. 전기 회로에서 회로의 두 지점 사이의 전위차를 뜻하고 전기가 흐르게 되는 원인이지. 가장 일반적인 영어 명칭은 voltage야.",
+            "turn_id": "BK22006925-4",
+            "utterance_id": "BK22006925.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐만 전위차에 대해서 조금 더 설명해줄래? 전위라는 용어에 전혀 감이 오지 않아서 조금 더 쉽게 풀어서 설명해주면 좋을 것 같아.",
+            "turn_id": "BK22006925-5",
+            "utterance_id": "BK22006925.9"
+        },
+        {
+            "reference_date": "2020-05-20",
+            "reference_text": [
+                {
+                    "value": "전위는 전기적 위치 에너지를 말하는데, 요즘에는 위치 에너지라는 표현보다 퍼텐셜 에너지를 더 많이 사용한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "높은 곳에 있는 물체일수록 퍼텐셜 에너지가 커서 더 많은 일을 할 수 있는 것처럼 전기에서도 전위가 높을수록 큰 전기 에너지를 얻을 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전지의 플러스(+) 극과 마이너스(-) 극 양 끝의 전위의 차이를 전위차라고 하고 이것을 전기 회로에서 비공식적으로 전압이라고 부른다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.samsungdisplay.com/23109",
+            "search_query": "전위",
+            "terminate": false,
+            "text": "전위는 전기적 위치 에너지를 말해. 요즘에는 위치 에너지라는 표현보다 퍼텐셜 에너지를 더 많이 사용해서 퍼텐셜 에너지라고 할게. 높은 곳에 있는 물체일수록 퍼텐셜 에너지가 커서 더 많은 일을 할 수 있는 것처럼 전기도 전위가 높을 수록 큰 전기 에너지를 얻을 수 있어. 이처럼 전지의 플러스극과 마이너스극의 차이를 전위차라고 하고, 전기 회로에서 비공식적으로 전압이라고 하는 거야.",
+            "turn_id": "BK22006925-5",
+            "utterance_id": "BK22006925.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전위에 대해서 어느 정도 이해가 간다. 그런데 전위차가 전기 에너지를 얻게 만드는 것이면 기전력은 뭐야? 기전력이 전기 에너지의 공급원으로서 여기서 전류가 뿜어져 나온다고 생각했거든.",
+            "turn_id": "BK22006925-6",
+            "utterance_id": "BK22006925.11"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "기전력(起電力, 영어: electromotive force, electromotance)은 역학적 에너지(또는 화학변화의 에너지)에 의해서 어떤 전위차를 만들어내는 것 같은 전원(電源)의 작용을 말한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 도체 양끝에서 일정한 전위차를 계속 유지시킬 수 있는 능력을 기전력이라 한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%A0%84%EB%A0%A5",
+            "search_query": "기전력",
+            "terminate": false,
+            "text": "기전력은 역학적 에너지나 화학변화의 에너지에 의해 어떤 전위차를 만들어 내는 전원의 작용을 말하는데, 도체 양끝에서 일정한 전위차를 계속 유지시킬 수 있는 능력이지.",
+            "turn_id": "BK22006925-6",
+            "utterance_id": "BK22006925.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "건전지에서 발생하는 힘이 기전력이 될 수 있겠다. 그럼 저항은 뭐야?",
+            "turn_id": "BK22006925-7",
+            "utterance_id": "BK22006925.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "전기저항(電氣抵抗, electrical resistance)은 도체에서 전류의 흐름을 방해하는 정도를 나타내는 물리량이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%A0%80%ED%95%AD",
+            "search_query": "전기저항",
+            "terminate": false,
+            "text": "정확히는 전기저항이지. 전기저항은 물리량으로 도체에서 전류의 흐름을 방해하는 정도를 나타내.",
+            "turn_id": "BK22006925-7",
+            "utterance_id": "BK22006925.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고무나 천이 전기저항이 높다라고 하는 건 전류의 흐름을 방해하는 정도가 크다는 거겠다. 그럼 저항이 크면 전류가 약해지는데 전압은 어떻게 돼? 이걸 정리해주면 좋겠다.",
+            "turn_id": "BK22006925-8",
+            "utterance_id": "BK22006925.15"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "옴의 법칙(Ohm's law)은 도체의 두 지점사이에 나타나는 전위차(전압)에 의해 흐르는 전류가 일정한 법칙에 따르는 것을 말한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 지점 사이의 도체에 일정한 전위차가 존재할 때, 도체의 저항(resistance)의 크기와 전류의 크기는 반비례한다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%B4%EC%9D%98_%EB%B2%95%EC%B9%99",
+            "search_query": "옴의 법칙",
+            "terminate": false,
+            "text": "그걸 옴의 법칙이라 하는데, 도체의 두 지점사이에 나타나는 전위차에 의해 흐르는 전류가 일정한 법칙에 따르는 것을 말하지. 두 지점 사이의 도체에 전위차가 일정할 때, 도체의 저항의 크기와 전류의 크기는 반비례해.",
+            "turn_id": "BK22006925-8",
+            "utterance_id": "BK22006925.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "V는 IR이라는 공식을 본 적이 있는데 이 법칙이었구나. 전류와 저항이 클수록 더 큰 전압이 필요한 거 맞지? 그럼 전력 공식은 어떻게 돼?",
+            "turn_id": "BK22006925-9",
+            "utterance_id": "BK22006925.17"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "따라서 전력은 전압과 전류의 곱으로 나타낼 수 있다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%A0%A5",
+            "search_query": "전력",
+            "terminate": false,
+            "text": "전력은 전압과 전류의 곱이야.",
+            "turn_id": "BK22006925-9",
+            "utterance_id": "BK22006925.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 수업 시간에 전력 문제가 나오는데 유용할 것 같아. 오늘 많이 알려줘서 기술 시간에 헤매지도 않을 것 같아. 시간내줘서 정말 고맙다.",
+            "turn_id": "BK22006925-10",
+            "utterance_id": "BK22006925.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에, 앞으로 어려운 문제도 많이 나올테니까 언제든 물어보라고.",
+            "turn_id": "BK22006925-10",
+            "utterance_id": "BK22006925.20"
+        }
+    ]
+}

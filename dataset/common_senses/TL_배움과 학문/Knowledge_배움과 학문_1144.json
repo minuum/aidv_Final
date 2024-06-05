@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007615",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007615",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 성경의 출애굽기를 다룬 영화를 봤는데 역사적 바탕이 궁금하더라고. 그리고 이스라엘 왕국은 언제 세웠는지도 궁금했어. 도와줄 수 있을까?",
+            "turn_id": "BK22007615-1",
+            "utterance_id": "BK22007615.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론이지. 출애굽기부터 보면 좋을 것 같은데 워낙 방대해서 무엇부터 가르쳐 주면 좋을까?",
+            "turn_id": "BK22007615-1",
+            "utterance_id": "BK22007615.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 출애굽기에 등장하는 파라오는 누구고 이집트에 왜 이스라엘 민족 조상들이 있었는지 궁금해.",
+            "turn_id": "BK22007615-2",
+            "utterance_id": "BK22007615.3"
+        },
+        {
+            "reference_date": "2022-04-09",
+            "reference_text": [
+                {
+                    "value": "이스라엘 민족의 조상은 메소포타미아로부터 가나안 지방으로 이동하였던 것이나, 요셉을 중심으로 한 일부가 힉소스 지배(B.C.1730 ~ B.C.1570)의 이집트(영어: Egypt, 한국 한자: 埃及-애급)에 들어가 나일강의 델타 지역 동쪽에 머물러 살게 되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 학자들은 출애굽기에 등장하는 파라오를 람세스 2세로 보는 견해가 지배적이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 그보다 2세기 앞선 투트모세 3세 혹은, 훨씬 전이나 후에 일어난 파라오로 추정하기도 한다",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%9C%EC%95%A0%EA%B5%BD%EA%B8%B0",
+            "search_query": "출애굽기",
+            "terminate": false,
+            "text": "이스라엘 민족의 조상은 메소포타미아에서 가나안 지방으로 이동하고 있었어. 그런데 요셉을 중심으로 한 일부가 힉소스 지배에 있던 이집트로 향해 나일강의 델타 지역 동쪽에 정착했어. 그리고 출애굽기에 등장하는 파라오는 람세스 2세라는 의견이 가장 많지만 2세기 앞선 투트모세 3세라고 보기도 하고, 훨씬 전이나 후의 파라오로도 추측하고 있어.",
+            "turn_id": "BK22007615-2",
+            "utterance_id": "BK22007615.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 정확하게 밝혀진 건 없다는 거네. 모세는 어떤 인물이고 이집트에서 탈출한 뒤 어떻게 되었어?",
+            "turn_id": "BK22007615-3",
+            "utterance_id": "BK22007615.5"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "모세(히브리어: מֹשֶׁה, 영어: Moses, Moshe Rabbeinu)는 유대교에서 가장 중요하게 여기는 예언자이며,[1][2] 아브라함 종교인 기독교, 이슬람교, 바하이, 드루즈의 위대한 예언자 중 하나이다.[3][4]",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구약성서의 출애굽기, 레위기, 민수기, 신명기에 등장하는 예언자이며, 이스라엘 민족의 지도자이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이집트에서 탈출한 모세는 불평불만이 심한 백성들과 논쟁을 벌이며, 광야생활을 해야 했다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모세는 가나안에 들어가지는 못했는데, 모세가 해야 할 일은 민족을 구원하는 일이었지 가나안 입성이 아니었기 때문이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가나안의 입성은 후계자 여호수아가 이루어냈다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%84%B8",
+            "search_query": "모세",
+            "terminate": false,
+            "text": "모세는 유대교와 아브라함 종교인 기독교, 이슬람교, 바하이, 드루즈에서 중요하게 여겨지는 예언자야. 구약성서의 출애굽기, 레위기, 민수기, 신명기에 등장했고 이스라엘 민족의 지도자이기도 하지. 이집트에서 탈출한 이후에는 불만이 많은 백성들과 논쟁을 벌이면서 광야생활을 보냈어. 광야생활 이후 모세는 민족만 구원해오는 소명만 있었기 때문에 가나안에 들어가지는 못했어. 가나안 입성은 후계자인 여호수아에 의해 이뤄졌어.",
+            "turn_id": "BK22007615-3",
+            "utterance_id": "BK22007615.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가나안에 들어간 이후 이스라엘이 세워진 것 같은데 이스라엘을 세운 사람은 여호수아일까?",
+            "turn_id": "BK22007615-4",
+            "utterance_id": "BK22007615.7"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "성서에 따르면 판관 사무엘에 의해서 사울이 이스라엘 민족의 왕이 되어 나라를 세웠다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사울은 치세초기 외적들을 격파했지만 아말렉의 왕 아각의 처분을 놓고 사무엘과 불화를 일으켰고, 사무엘은 사울 몰래 베들레헴에서 다윗에게 기름을 부어주며 새 왕으로 세웠다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98_%EC%99%95%EA%B5%AD",
+            "search_query": "이스라엘 왕국",
+            "terminate": false,
+            "text": "그렇지 않아. 성경에 의하면 판관 사무엘로 인해 사울이 이스라엘 민족의 왕이 되어 왕국을 건설했어. 치세초기 사울은 외적들을 무너뜨렸지만 아말렉의 왕 아각의 처분에 대한 의견이 갈려 사무엘과 불화가 생겼어. 이후 사무엘은 사울 모르게 베들레헴에서 다윗에게 기름을 부어주고 새로운 왕으로 세웠지.",
+            "turn_id": "BK22007615-4",
+            "utterance_id": "BK22007615.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가나안 땅 정복이 이스라엘 건국이 아니구나. 사울은 언제 사람이고 역사학계에서는 어떻게 보고 있어?",
+            "turn_id": "BK22007615-5",
+            "utterance_id": "BK22007615.9"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "사울(히브리어: שָׁאוּל 샤울)은 구약성경에 등장하는 이스라엘 왕국의 초대 멜렉(군주)이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원전 11세기 후반에 통치한 것으로 이해되어왔는데, 이스라엘과 유다가 흩어져 살던 부족 사회에서 조직적인 국가 지위로의 전환기를 다스린 인물로 이해된다",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "역사학계에서는 사울의 통치에 대한 성경 외적 근거가 불충분하다는 등의 이유로 '이스라엘의 통치자'로서의 사울의 존재를 인정하지 않는 것이 일반적이다.[21][22][23]:50ff",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%B8",
+            "search_query": "사울",
+            "terminate": false,
+            "text": "이스라엘 왕국의 초대 군주인 사울은 구약성경에 등장하고 BC 11세기 후반에 통치한 것으로 보고 있지만, 이스라엘과 유다가 흩어져 있던 부족 사회에서 조직적인 국가로 전환될 때를 다스린 사람으로 이해되고 있어. 하지만 역사학계에서는 사울 통치에 대한 성경 외적 근거가 부족하다고 보고 사울을 이스라엘 통치자로 인정하지 않고 있어.",
+            "turn_id": "BK22007615-5",
+            "utterance_id": "BK22007615.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오래된 역사일수록 남아있는 기록이 부족하니까 어쩔 수 없는 것 같아. 이스라엘 왕국을 세운 인물과 대략적인 시대도 알았으니 나중에 이집트의 기록도 찾아보고 싶어. 그전에 파라오에 대해 알아보려고 하는데, 먼저 람세스 2세는 언제 때 인물이고 어떤 파라오야?",
+            "turn_id": "BK22007615-6",
+            "utterance_id": "BK22007615.11"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "람세스 2세(世)(Ramesses II, 기원전 1303년 ~ 기원전 1213년)는 이집트 신왕국 제19왕조 제3대 파라오(재위:기원전 1279년 ~ 기원전 1213년)이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 치세 동안 이집트는 리비아, 누비아, 팔레스타인까지 세력을 확장해 번영하였다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 호전적인 히타이트와 전쟁에서 명성을 얻었는데, 그 후 그들과 평화롭게 되었다.[1]",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9E%8C%EC%84%B8%EC%8A%A4_2%EC%84%B8",
+            "search_query": "람세스 2세",
+            "terminate": false,
+            "text": "람세스 2세는 기원전 1279년 ~ 기원전 1213년까지 재위했던 이집트 신왕국 제19왕조의 제3대 파라오야. 그는 리비아, 누비아, 팔레스타인까지 세력을 확장해 이집트의 번영을 이끌었어. 그리고 히타이트와 전쟁에서 명성을 얻고 히타이트와 평화를 유지하며 지냈지.",
+            "turn_id": "BK22007615-6",
+            "utterance_id": "BK22007615.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "람세스 2세때가 이집트가 발전한 시기구나. 전혀 몰랐네. 성경의 파라오로 추측되는 다른 파라오 투트모세 3세는 어떤 파라오야?",
+            "turn_id": "BK22007615-7",
+            "utterance_id": "BK22007615.13"
+        },
+        {
+            "reference_date": "2022-03-25",
+            "reference_text": [
+                {
+                    "value": "투트모세 3세(Thutmose III, ? ~ 기원전 1450년)는 이집트 제18왕조의 제6대 파라오로 투트모세 2세의 아들이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "투트모세 3세는 시리아, 누비아를 필두로 대규모의 군사 정복을 통하여 이집트의 영토를 최대로 넓혔다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%88%AC%ED%8A%B8%EB%AA%A8%EC%84%B8_3%EC%84%B8",
+            "search_query": "투트모세 3세",
+            "terminate": false,
+            "text": "투트모세 2세의 아들인 투트모세 3세는 이집트 제18왕조의 제6대 파라오로 시리아, 누비아를 필두로 대규모 군사 정복을 일으켜 이집트의 영토를 가장 넓힌 인물이야.",
+            "turn_id": "BK22007615-7",
+            "utterance_id": "BK22007615.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이집트 18왕조면 람세스 2세 바로 전의 왕조네. 투트모세 2세 다음 파라오도 알려주면 좋겠어.",
+            "turn_id": "BK22007615-8",
+            "utterance_id": "BK22007615.15"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "아멘호테프 2세(Amenhotep II)는 이집트 신왕국 제18왕조의 제7대 파라오이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아멘호테프 2세는 기원전 1450년 아시아로 1차 원정을 떠났고 기원전 1446년 팔레스타인으로 2차 원정을 떠났는데 공교롭게도 1446년은 구약성경의 모세가 이스라엘 백성들을 이끌고 이집트를 탈출한 때여서 2차 원정은 이스라엘 백성을 추격한 것으로 보인다.[3]",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%98%ED%98%B8%ED%85%8C%ED%94%84_2%EC%84%B8",
+            "search_query": "아멘호테프 2세",
+            "terminate": false,
+            "text": "이집트의 신왕국 18왕조의 제7대 파라오는 아멘호테프 2세야. 한 가지 놀라운 건, 아멘호테프 2세는 두 번의 원정을 했는데, BC 1450년에 아시아로 1차 원정을 떠났고, 2차 원정은 BC 1446년으로 팔레스타인으로 향했지. 그런데 1446년은 구약성경의 모세가 이스라엘 백성을 데리고 이집트를 탈출하던 시기라 2차 원정은 이스라엘 백성을 추격한 것으로 추정하고 있어.",
+            "turn_id": "BK22007615-8",
+            "utterance_id": "BK22007615.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시기나 여러 기록을 통해 유사한 사례들이 나와서 그러는지 몰라도 정확한 기록이 없으니 성경의 파라오가 여러 명으로 추정되는 데는 이유가 있는 것 같아. 그런데 아멘호테프라는 이름은 어디서 들어봤는데 혹시 아케나텐이라는 인물과 연관이 있을까? 이집트의 유일신을 데려온 파라오라는 특징 때문에 기억에 남았던 것 같아.",
+            "turn_id": "BK22007615-9",
+            "utterance_id": "BK22007615.17"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "아케나텐(Akhnaton) 또는 아크나톤(Akhenaten)은 고대 이집트 제18왕조의 파라오로, 출생명 아멘호테프는 '아멘이 만족한다'라는 뜻이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아크나톤은 아멘(Amen, 테베의 수호신)에게 제사 지내는 신관들의 세력이 왕권을 억제할 정도로 커지는 것을 감지하고 그것을 제어하려 했다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 다신교인 종래의 이집트의 종교를 금지하고 태양신 아톤을 유일신으로 숭배하는 새로운 일신교를 도입했다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%81%AC%EB%82%98%ED%86%A4",
+            "search_query": "아크나톤",
+            "terminate": false,
+            "text": "정확했어. 고대 이집트 제18왕조의 파라오인 아케나텐은 아크나톤이라고도 하는데, 출생명이 아멘이 만족한다는 의미의 아멘호테프야. 아크나톤은 테베의 수호신인 아멘에게 제사 지내는 신관들의 세력이 왕권에 간섭할 정도로 강해지는 것을 감지해 억제하려고 했어. 이 때문에 이집트는 다신교였지만 이를 금하고 태양신 아톤을 유일신으로 숭배하는 일신교를 가져왔어.",
+            "turn_id": "BK22007615-9",
+            "utterance_id": "BK22007615.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일신교라는 점은 이스라엘 민족의 종교와 유사해 보여서 좀 더 조사해보면 좋을 것 같기도 해. 덕분에 오늘 많이 알게 되었어. 정말 고마워.",
+            "turn_id": "BK22007615-10",
+            "utterance_id": "BK22007615.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "앞으로 더 궁금한 것이 있으면 연락하라고. 내일 보자.",
+            "turn_id": "BK22007615-10",
+            "utterance_id": "BK22007615.20"
+        }
+    ]
+}

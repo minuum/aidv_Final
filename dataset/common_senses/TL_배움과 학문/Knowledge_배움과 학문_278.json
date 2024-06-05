@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013085",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013085",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님 오늘은 하이에나에 대해서 가르쳐주세요. 하이에나에는 어떤 종류가 있나요?",
+            "turn_id": "BK22013085-1",
+            "utterance_id": "BK22013085.1"
+        },
+        {
+            "reference_date": "42866.0",
+            "reference_text": [
+                {
+                    "value": "하이에나는 크게 세 종류가 있어요. 몸에 검은 반점이 흩뿌려져 있는 점박이하이에나, 등부터 배까지 검은 줄이 나있는 줄무늬하이에나, 몸이 갈색인 일반 하이에나가 있어요.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2017/05/10/2017051000037.html",
+            "search_query": "하이에나 종류",
+            "terminate": false,
+            "text": "하이에나는 크게 세 종류로 나눕니다. 몸에 까만 반점이 여기저기 흩어져 있는 점박이하이에나, 등에서 배까지 까만 줄이 나타나 있는 줄무늬하이에나, 갈색의 몸을 가진 일반 하이에나로 분류돼요.",
+            "turn_id": "BK22013085-1",
+            "utterance_id": "BK22013085.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하이에나는 썩은 고기만 먹는다고 알려져 있는데, 맞나요?",
+            "turn_id": "BK22013085-2",
+            "utterance_id": "BK22013085.3"
+        },
+        {
+            "reference_date": "44423.0",
+            "reference_text": [
+                {
+                    "value": "하이에나는 먹이의 상당 부분을 직접 사냥해서 먹는다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다른 맹수가 잡은 먹이를 빼앗아 먹는 경우도 있는데 이는 먹이 서열이 높은 맹수의 당연한 권한이다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "치타나 표범이 잡은 먹이는 하이에나가 뺏고, 하이에나가 잡은 먹이는 사자가 뺏는 식이다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20210813000811",
+            "search_query": "하이에나 먹이",
+            "terminate": false,
+            "text": "그렇지 않습니다. 하이에나가 구하는 먹이 중에 직접 사냥하는 비중이 꽤 높아요. 다른 짐승들이 사냥한 먹이를 빼앗아 먹기도 하는데, 먹이 서열이 높은 짐승이라면 당연히 하는 일입니다. 하이에나는 치타나 표범이 사냥한 먹잇감을 뺏고, 사자는 하이에나가 사냥한 먹잇감을 뺏는 식이죠.",
+            "turn_id": "BK22013085-2",
+            "utterance_id": "BK22013085.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 하이에나는 아프리카의 초원의 청소부라고도 불리잖아요. 부패한 먹이도 먹는다는 뜻인데, 어떻게 그게 가능하죠?",
+            "turn_id": "BK22013085-3",
+            "utterance_id": "BK22013085.5"
+        },
+        {
+            "reference_date": "44423.0",
+            "reference_text": [
+                {
+                    "value": "원인은 하이에나의 위산이 매우 강력해 오염된 음식이 몸속에 들어오더라도 이를 병에 걸리지 않고 소화할 수 있기 때문이다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하이에나의 위는 매우 강한 산성을 띄는 위산도 견딜 수 있을만큼 튼튼하다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20210813000811",
+            "search_query": "하이에나 위산",
+            "terminate": false,
+            "text": "하이에나에게서 분비되는 위산이 몹시 강력한 까닭에, 부패한 음식이 몸 안으로 들어와도 아무런 병에 걸리지 않은 채 이를 소화해 내기 때문입니다. 하이에나의 위는 아주 강한 산성인 위산에도 버틸 수 있을 만큼 강하고요.",
+            "turn_id": "BK22013085-3",
+            "utterance_id": "BK22013085.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 소화기관이 튼튼해서 가능한 거였군요. 그건 그렇고 하이에나를 보면 무리 생활도 하고 개랑도 닮아있는데, 갯과 동물인가요?",
+            "turn_id": "BK22013085-4",
+            "utterance_id": "BK22013085.7"
+        },
+        {
+            "reference_date": "42156.0",
+            "reference_text": [
+                {
+                    "value": "하이에나의 외모는 개와 비슷하지만 개과동물이 아니다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하이에나는 계통분류학적으로 식육목-하이에나과에 속하는 독립된 위치를 가지고 있다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "솔직히 이야기하면 하이에나는 개보다 고양이와 혈연적으로 더 관계가 깊다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=893",
+            "search_query": "하이에나 개과동물",
+            "terminate": false,
+            "text": "그렇지 않습니다. 하이에나의 용모는 개와 닮았지만, 갯과 동물에 속하지 않습니다. 계통분류학으로 따지면 식육목 하이에나과에 해당하는 독립적인 위치에 있고요. 엄밀히 말하자면 개보다는 고양이와 혈연 상으로 더 깊은 관계입니다.",
+            "turn_id": "BK22013085-4",
+            "utterance_id": "BK22013085.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개가 아니라 고양이에 가까운 거였군요. 참, 하이에나는 암수 구분이 어렵다고 들었는데 왜 그런 건가요?",
+            "turn_id": "BK22013085-5",
+            "utterance_id": "BK22013085.9"
+        },
+        {
+            "reference_date": "43450.0",
+            "reference_text": [
+                {
+                    "value": "현존하는 하이에나 중 몸집이 가장 큰 점박이 하이에나의 암컷은 길이 18㎝에 직경 2.5㎝의 클리토리스를 지니고 있다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷 성기 길이의 90%에 이르며 굵기는 거의 같은 셈이다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "생식기의 겉모습만으로는 도저히 암수를 구별하기 힘든데, 왜 암컷 하이에나가 이런 생식기를 지녔는지는 동물학자들에게도 미스터리로 남아 있다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%ED%95%98%EC%9D%B4%EC%97%90%EB%82%98%EA%B0%80-%ED%8E%98%EB%AF%B8%EB%8B%88%EC%8A%A4%ED%8A%B8%EC%9D%B8-%EA%B9%8C%EB%8B%AD%EC%9D%80/",
+            "search_query": "하이에나 생식기",
+            "terminate": false,
+            "text": "생식기의 겉모습만으로 암컷과 수컷을 도무지 구별하기 어렵기 때문입니다. 현재 존재하는 하이에나 중에서 가장 몸이 큰 점박이하이에나의 경우 암컷의 클리토리스는 길이 18센티미터, 직경 2.5센티미터입니다. 이는 수컷이 가진 성기 길이의 90퍼센트에 달하며, 굵기는 거의 차이가 나지 않죠. 왜 하이에나 암컷의 생식기가 이런지는, 동물학자들도 아직 규명하지 못하고 있습니다.",
+            "turn_id": "BK22013085-5",
+            "utterance_id": "BK22013085.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하이에나는 암컷도 수컷처럼 성기가 달린 것처럼 보이겠군요. 하이에나의 지능은 어떤 수준인가요?",
+            "turn_id": "BK22013085-6",
+            "utterance_id": "BK22013085.11"
+        },
+        {
+            "reference_date": "42866.0",
+            "reference_text": [
+                {
+                    "value": "더불어 침팬지만큼 두뇌가 발달해 지능이 높고 사회성이 아주 발달한 동물이기도 합니다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2017/05/10/2017051000037.html",
+            "search_query": "하이에나 지능",
+            "terminate": false,
+            "text": "침팬지 정도로 뇌가 발달해서 높은 지능을 가지고 있고, 사회성이 매우 발달해 있습니다.",
+            "turn_id": "BK22013085-6",
+            "utterance_id": "BK22013085.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "침팬지보다 영리한 면이 있군요. 그건 그렇고 하이에나도 사자 무리처럼 모계 사회를 이루나요?",
+            "turn_id": "BK22013085-7",
+            "utterance_id": "BK22013085.13"
+        },
+        {
+            "reference_date": "41700.0",
+            "reference_text": [
+                {
+                    "value": "보통 10여 마리로 군집 생활을 하며 우두머리는 암컷이 차지한다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "철저하게 서열화돼 있으며 새끼들도 어릴 적부터 힘에 의해 서열화돼 있다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jnilbo.com/view/media/view?code=20140303000000437461344",
+            "search_query": "하이에나 우두머리 암컷",
+            "terminate": false,
+            "text": "네, 그렇습니다. 일반적으로 10여 마리가 무리를 이뤄 생활은 하는데, 암컷이 우두머리를 맡습니다. 서열이 철저하게 나뉘어 있으며, 새끼들도 힘에 따라 어릴 때부터 서열이 나뉘어 있고요.",
+            "turn_id": "BK22013085-7",
+            "utterance_id": "BK22013085.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하이에나가 어떻게 번식하는지 알려주세요.",
+            "turn_id": "BK22013085-8",
+            "utterance_id": "BK22013085.15"
+        },
+        {
+            "reference_date": "41700.0",
+            "reference_text": [
+                {
+                    "value": "여러 번에 걸쳐 교미하며 임신 기간은 98~110일로 한배에 1~5마리 새끼를 낳는다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태어날 때 이미 성숙한 형태를 띠며 1년 정도가 되면 암컷은 무리에 남고, 수컷은 무리를 떠나 다른 무리에 합류하거나 단독 생활을 한다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jnilbo.com/view/media/view?code=20140303000000437461344",
+            "search_query": "하이에나 교미",
+            "terminate": false,
+            "text": "짝짓기를 여러 번에 걸쳐서 하고요. 임신 기간은 98일에서 110일 사이입니다. 새끼는 한 마리에서 다섯 마리까지 한배에서 태어나고요. 새끼가 태어나는 순간 이미 형태가 성숙해있고 1년 정도가 되면 암컷은 집단에 잔류하고, 수컷은 집단을 떠나 다른 집단으로 이동하거나 혼자 살게 됩니다.",
+            "turn_id": "BK22013085-8",
+            "utterance_id": "BK22013085.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모계 사회를 이루는 동물답게, 수컷들은 때가 되면 무리에서 이탈하는군요.",
+            "turn_id": "BK22013085-9",
+            "utterance_id": "BK22013085.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암컷이 수컷보다 더 세기 때문에 그런 거죠.",
+            "turn_id": "BK22013085-9",
+            "utterance_id": "BK22013085.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘도 좋은 말씀 잘 듣고 갑니다. 그러면 안녕히 가세요.",
+            "turn_id": "BK22013085-10",
+            "utterance_id": "BK22013085.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나요!",
+            "turn_id": "BK22013085-10",
+            "utterance_id": "BK22013085.20"
+        }
+    ]
+}

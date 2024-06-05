@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009108",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009108",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 지진을 주제로 한 발표를 준비해야 하는데요. 최근에 발생했던 주요 지진 현상을 조사해서 포함하면 좋을 것 같아서요. 혹시 최근 지진이 일어났던 사례 중 아시는 것이 있다면 알고 싶은데, 이에 대해 설명 부탁드려도 될까요?",
+            "turn_id": "BK22009108-1",
+            "utterance_id": "BK22009108.1"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "19일(현지시간) 멕시코에서 규모 7.6 강진이 발생해 인명·재산 피해가 속출했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대만, 일본에 이어 환태평양 지진대에 속한 ‘불의 고리’ 국가에서 연이어 지진이 발생하면서 대규모 지진 전조가 아니냐는 우려가 나온다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/082/0001175176?sid=104",
+            "search_query": "멕시코 지진",
+            "terminate": false,
+            "text": "네, 9월 19일 멕시코에서 규모 7.6의 강진이 발생하여 여러 피해가 발생했던 일이 있었어요. 대만과 일본에 이어 환태평양 지진대에 속한 불의 고리 지역에서 지진이 연속적으로 발생하고 있죠.",
+            "turn_id": "BK22009108-1",
+            "utterance_id": "BK22009108.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 멕시코에서 큰 지진이 발생했군요. 불의 고리 지역이라고 말씀해주셨는데, 불의 고리가 무엇인지 알고 싶어졌어요. 불의 고리에 대해서 좀 더 자세히 설명해 주실 수 있나요?",
+            "turn_id": "BK22009108-2",
+            "utterance_id": "BK22009108.3"
+        },
+        {
+            "reference_date": "2016-05-03",
+            "reference_text": [
+                {
+                    "value": "세계 주요 지진대와 화산대 활동이 중첩된 지역인 환태평양 조산대를 칭하는 말이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서쪽의 일본·대만·동남아, 북쪽의 러시아 캄차카와 미국의 알래스카, 동쪽의 미주 대륙 서부와 남미 해안 지역, 그리고 뉴질랜드 등 태평양 연안지역을 아우르는 고리 모양의 지진·화산대인 환태평양 조산대를 이르는 말이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "불의 고리는 판구조론에서 말하는 지각을 덮는 여러 판들 중 가장 큰 판인 태평양판이 유라시아판, 인도-호주판 등과 맞물리는 경계선이어서 지각 활동이 활발하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2412195&cid=43667&categoryId=43667",
+            "search_query": "불의 고리",
+            "terminate": false,
+            "text": "불의 고리는 세계 주요 지진대와 화산대 활동이 중첩된 지역을 의미해요. 쉽게 말해 불의 고리는 환태평양 조산대를 이르는 말이죠. 불의 고리에는 서쪽의 일본, 대만, 동남아, 북쪽의 러시아 캄차카, 미국의 알래스카 등이 고리 모양으로 환태평양 조산대를 이루고 있어요. 불의 고리 중 가장 큰 판인 태평양판이 유라시아판, 인도와 호주판 등과 맞물리는 경계선이어서 지각 활동이 활발한 곳이에요.",
+            "turn_id": "BK22009108-2",
+            "utterance_id": "BK22009108.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환태평양 조산대를 불의 고리라고 칭하는군요. 그렇다면 지진이 대체 왜 생기는 것인지 궁금해지는데요. 지진이 일어나는 원인은 무엇인가요?",
+            "turn_id": "BK22009108-3",
+            "utterance_id": "BK22009108.5"
+        },
+        {
+            "reference_date": "2018-05-03",
+            "reference_text": [
+                {
+                    "value": "지진의 원인에 대해서는 다양한 학설이 있지만 아직은 확실하게 하나로 정립돼 있지는 않다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 지구 내부 암석권에 있는 판이 이리저리 움직이면서 서로 충돌을 일으키는 것이 직접적인 원인이라는 '판구조론'이 현재 가장 유력한 지위를 점하고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 지진의 원인에 대한 학설은 크게 탄성반발설과 판구조론의 두 가지 학설로 나뉘는데, 이 두 학설을 살펴보면 다음과 같다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=72409&cid=43667&categoryId=43667",
+            "search_query": "지진",
+            "terminate": false,
+            "text": "지진의 원인은 아직 정확하게 판명 나지 않았어요. 하지만, 현재의 지진 원인에 대한 학설은 크게 탄성반발설과 판구조론의 두 가지 학설로 나뉘고 있는데, 이중 판구조론이 가장 유력한 지진의 원인으로 꼽히고 있어요.",
+            "turn_id": "BK22009108-3",
+            "utterance_id": "BK22009108.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지진의 원인이 정확하게 규명되지 않았군요. 그렇다면 현재 유력한 판구조론에 관해서 설명해 주실 수 있나요?",
+            "turn_id": "BK22009108-4",
+            "utterance_id": "BK22009108.7"
+        },
+        {
+            "reference_date": "2011-03-15",
+            "reference_text": [
+                {
+                    "value": "지진이 단층운동으로 인해 발생한다고 할 때 단층을 움직이는 근본적 힘을 설명해 주는 이론이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 따르면 지구 표층이라고 하는 암석권이, 유라시아판, 태평양판, 북미판 등 10여 개 판으로 나뉘는데 이들은 각각 서로 부딪치거나 밀리고 포개지기도 하면서 매년 수 센티미터(cm) 속도로 맨틀 위를 이동하고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2075510&cid=42107&categoryId=42107",
+            "search_query": "판 구조론",
+            "terminate": false,
+            "text": "판구조론은 지진이 단층운동으로 인해 발생한다고 가정하고 단층을 움직이는 근본적 힘에 대한 설명을 포함한 이론이에요. 판 구조론에 따르면 지구 표층이라는 암석권이 유라시아판, 태평양판 등 10여 개의 판으로 나뉘게 되는데요. 이들이 서로 부딪치거나 밀리고 겹치면서 매년 수 센티미터의 속도로 맨틀 위를 이동하고 있는 것이죠.",
+            "turn_id": "BK22009108-4",
+            "utterance_id": "BK22009108.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "판 구조론에 의해서 판들이 맨틀 위를 이동하는 거군요. 어려운 이론이지만 흥미롭네요. 그렇다면, 지진에도 다양한 종류가 있을 것 같은데, 이에 관해서 설명해 주실 수 있나요?",
+            "turn_id": "BK22009108-5",
+            "utterance_id": "BK22009108.9"
+        },
+        {
+            "reference_date": "2019-03-21",
+            "reference_text": [
+                {
+                    "value": "지진은 그 형태와 발생 원인에 따라 단층지진, 화산지진, 맨틀 내의 지진, 함몰지진, 인공지진 등으로 나뉜다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 그 진원의 깊이에 따라 천발지진, 중발지진, 심발지진 등으로 나뉜다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단층이 처음 생성될 때나 이미 형성된 단층을 따라 새로운 파괴가 일어나면서 발생하는 지진으로 단층이 엇갈리는 방법에 따라 정단층, 역단층, 주향이동단층 지진 등으로 나뉜다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5749394&cid=43667&categoryId=43667",
+            "search_query": "지진의 종류",
+            "terminate": false,
+            "text": "네, 지진은 그 형태와 발생 원인에 따라 나뉘는데, 단층지진, 맨틀 내의 지진, 함몰지진, 인공지진 등이 있어요. 또한, 그 진원의 깊이에 따라 천발지진, 중발지진 등으로 나뉘어요. 대표적으로 단층지진에 말씀드려보자면, 단층이 처음 생성될 때나 이미 형성된 단층을 따라 새로운 파괴가 발생하면서 일어나는 지진을 단층지진이라고 해요. 이는 다시 단층이 엇갈리는 방법에 따라 정단층, 역단층 등으로 구분되죠.",
+            "turn_id": "BK22009108-5",
+            "utterance_id": "BK22009108.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발생 원인이나 진원의 깊이에 따라 다양하게 나뉘는군요. 지진의 피해를 줄이기 위해 미리 지진 발생을 예측하면 좋을 것 같은데요. 지진의 전조증상은 어떻게 되나요?",
+            "turn_id": "BK22009108-6",
+            "utterance_id": "BK22009108.11"
+        },
+        {
+            "reference_date": "2019-03-21",
+            "reference_text": [
+                {
+                    "value": "지진 발생 전에 나타나는 현상으로, 지진이 발생하기 수일~수개월 또는 수년 전부터 시작되는 것으로 알려져 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금까지 알려져 있는 지진 전조 현상으로는 동물들의 이상 행동이나 지하수 수위 변화, 특정 전파 발생, 지진광 등이 있지만 이 현상들이 지진과 직접적 관련이 있다는 과학적 입증은 아직 이뤄지지 못했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 지진 전조 현상으로 인해 실제 지진이 나타난다 해도, 언제 어디서 지진이 발생할지 현재 과학으로는 알아내기 어렵다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5749396&cid=43667&categoryId=43667",
+            "search_query": "지진 전조증상",
+            "terminate": false,
+            "text": "지진의 전조증상은 지진 발생 전 수일에서 수개월, 수년 전부터 시작돼요. 현재까지 알려진 지진의 전조증상은 동물들의 이상 행동이나 지하수 수위의 변화, 특정 전파 발생 등이 있어요. 하지만, 이러한 전조 현상들은 아직 과학적으로 입증되지 못했어요. 또한, 지진의 전조증상을 확인했다 하더라도 언제 어디서 지진이 발생할 것인지 알아내기가 쉽지 않죠.",
+            "turn_id": "BK22009108-6",
+            "utterance_id": "BK22009108.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전조 현상이 아직 정확하게 밝혀진 건 없군요. 아, 지진 관련 기사들을 보면 규모 몇 정도의 지진이 발생했다고 하잖아요. 여기서 지진의 규모는 어떤 기준으로 산출된 숫자인가요?",
+            "turn_id": "BK22009108-7",
+            "utterance_id": "BK22009108.13"
+        },
+        {
+            "reference_date": "2018-05-03",
+            "reference_text": [
+                {
+                    "value": "'진도'와 함께 지진의 크기를 나타내는 척도 중 하나로, 진도가 상대적 개념인 반면 규모는 절대적 개념이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지진 규모는 지진파로 인해 발생한 총에너지의 크기로 계측 관측에 의해 계산된 객관적 지수이며, 지진계에 기록된 지진파의 진폭, 주기, 진앙 등을 계산해 산출된다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=72412&cid=43667&categoryId=43667",
+            "search_query": "지진 규모",
+            "terminate": false,
+            "text": "규모는 지진의 크기를 나타내는 척도 중 하나로 절대적인 개념이에요. 지진파로 인해 발생한 총에너지의 크기를 관측하여 계산된 객관적인 지수이죠. 이것은 지진파의 진폭, 주기, 진앙 등을 계산하여 산출되는 수치이죠.",
+            "turn_id": "BK22009108-7",
+            "utterance_id": "BK22009108.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "규모가 절대적인 크기를 나타내는군요. 그렇다면 규모와 항상 헷갈리는 게, 지진의 진도인데요. 이 진도는 어떤 수치를 의미하는 건가요?",
+            "turn_id": "BK22009108-8",
+            "utterance_id": "BK22009108.15"
+        },
+        {
+            "reference_date": "2018-05-03",
+            "reference_text": [
+                {
+                    "value": "지표상 한 지점에서의 인체에 느껴지는 진동의 세기 또는 이에 수반하는 피해에 관한 상대적 척도를 말한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지진의 크기를 나타내는 척도로는 절대적 개념의 '규모'와 상대적 개념의 '진도'가 사용되는데, 하나의 지진은 규모는 같으나 진도는 장소에 따라 달라질 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진도는 어느 한 점에서 인체에 미치는 감각이나 자연계와 구조물 등에 미친 피해 상황에 의하여 지진의 세기를 표시하는 것으로, 진원이나 진앙과 멀리 떨어져 있는 지역은 진도가 낮게 나타난다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=72415&cid=43667&categoryId=43667",
+            "search_query": "지진의 진도",
+            "terminate": false,
+            "text": "진도는 지표상 한 지점에서 인체로 느껴지는 진동의 세기와 지진으로 인한 피해에 관한 상대적 개념의 지진 척도에요. 진도는 어느 한 점에서 인체에 도달되는 감각이나 자연계, 구조물 등에 미친 피해 정도에 따라 표시되기 때문에 진원이나 진앙과 멀리 떨어진 지역은 진도가 낮게 나타나죠. 쉽게 말해, 하나의 지진은 규모는 일정하나 장소에 따라 진도는 달라지는 것이죠.",
+            "turn_id": "BK22009108-8",
+            "utterance_id": "BK22009108.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "규모와 진도가 그런 차이가 있군요. 오늘 너무 유익한 정보 많이 배워가는 것 같아요. 곧 있을 발표에도 도움이 정말 많이 될 것 같아요.",
+            "turn_id": "BK22009108-9",
+            "utterance_id": "BK22009108.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되셨으면 정말 다행이네요. 다음에 또 즐거운 이야기 나누어요. 제가 오늘은 선약이 있어 먼저 일어나보겠습니다.",
+            "turn_id": "BK22009108-9",
+            "utterance_id": "BK22009108.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 다음에 또 뵈어요.",
+            "turn_id": "BK22009108-10",
+            "utterance_id": "BK22009108.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "밤길이 어두우니 조심히 들어가세요.",
+            "turn_id": "BK22009108-10",
+            "utterance_id": "BK22009108.20"
+        }
+    ]
+}

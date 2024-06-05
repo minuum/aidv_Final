@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011969",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011969",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주 교양강의에서 서양 미술사 하나를 소개해야 하는데 미술사에 대해 잘 몰라 막막하네요.",
+            "turn_id": "BK22011969-1",
+            "utterance_id": "BK22011969.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 벌써 개강을 하셨군요. 혹시 대강 선택해놓으신 주제가 있나요?",
+            "turn_id": "BK22011969-1",
+            "utterance_id": "BK22011969.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 요즘 익숙해진 단어인 미니멀리즘을 선택했는데요. 혹시 미니멀리즘이 정확히 어떤 건지 아세요?",
+            "turn_id": "BK22011969-2",
+            "utterance_id": "BK22011969.3"
+        },
+        {
+            "reference_date": "2020-04-14",
+            "reference_text": [
+                {
+                    "value": "미니멀리즘은 1960년대 시각 예술 분야에서 시작해 건축과 패션 철학 등 여러 영역으로 확대된 개념이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘최소한’이라는 의미의 미니멀(minimal)과 ‘주의’라는 뜻의 이즘(ism)을 결합한 단어로, 포털사이트 국어사전에서는 ‘되도록 소수의 단순한 요소로 최대 효과를 이루려는 사고방식’이라고 정의한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.greenpostkorea.co.kr/news/articleView.html?idxno=116447",
+            "search_query": "미니멀리즘",
+            "terminate": false,
+            "text": "네, 미니멀리즘은 최소한이라는 뜻의 미니멀과 주의라는 뜻의 이즘을 결합한 말이에요. 즉, 단순한 요소로 최대효과를 얻기 위한 사고방식이라고 정의 되기도 하죠. 미니멀리즘의 개념은 1960년대 시각 예술 분야로부터 출발했고 이후에 건축, 패션, 철학 등 다양한 영역으로 확장됐죠.",
+            "turn_id": "BK22011969-2",
+            "utterance_id": "BK22011969.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 미술사에서 그런 뜻을 가지고 있군요. 그렇다면 최근에 들어와서 미니멀리즘을 강조하는 분야는 무엇인가요?",
+            "turn_id": "BK22011969-3",
+            "utterance_id": "BK22011969.5"
+        },
+        {
+            "reference_date": "2020-04-14",
+            "reference_text": [
+                {
+                    "value": "최근에는 인테리어와 디자인 분야에서 주로 주목을 받았다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1인가구가 늘고 ‘작은집 인테리어’가 주목을 받으면서 공간을 효과적으로 활용하는 기술의 하나로 미니멀리즘이 떠올랐다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정리 정돈의 중요성을 말하면서 미니멀리즘을 내세우는 경우도 많았다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가볍고 단순하게 사는 생활신조를 해당 단어로 표현하거나 ‘힐링’등의 가치를 설명할 때 미니멀리즘을 권하는 목소리도 많다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.greenpostkorea.co.kr/news/articleView.html?idxno=116447",
+            "search_query": "최근의 미니멀리즘",
+            "terminate": false,
+            "text": "미니멀리즘은 최근에 인테리어나 디자인 분야에서 대두되었는데요. 1인가구와 작은 집 인테리어가 주목을 받으면서 공간을 미니멀리즘으로 활용하는 기술의 하나로 떠오르게 된 거죠. 또 한 가지 예로, 정리 정돈이나 가볍고 단출하게 사는 삶으로 강조되기도 해요.",
+            "turn_id": "BK22011969-3",
+            "utterance_id": "BK22011969.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 라이프 스타일이나 인테리어에 영향을 미쳤다는 말씀이시군요. 그렇다면 혹시 미술사에서 미니멀리즘이 어떤 계기로 쇠퇴했는지 알 수 있을까요?",
+            "turn_id": "BK22011969-4",
+            "utterance_id": "BK22011969.7"
+        },
+        {
+            "reference_date": "2022-09-27",
+            "reference_text": [
+                {
+                    "value": "1960년대 중반부터 본격적으로 시작된 미니멀리즘은 후반에 들어서며 쇠퇴하기 시작했다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 미국 예술계에서의 탈모더니즘에 대한 강한 열망은 포스트미니멀 경향의 여러 미술 사조들을 일으켰다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4814728",
+            "search_query": "미니멀리즘 쇠퇴",
+            "terminate": false,
+            "text": "미니멀리즘 쇠퇴시기는 1960년대 후반인데요. 예술계에서 탈모더니즘에 대한 강한 열망과 포스트미니멀 경향의 여러 미술 사조들을 계기로 쇠퇴되었죠.",
+            "turn_id": "BK22011969-4",
+            "utterance_id": "BK22011969.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 미니멀리즘은 포스트 미니멀리즘이 등장하면서 후퇴했군요. 그렇다면 미니멀리즘을 대표하는 작품은 어떤 것이 있나요?",
+            "turn_id": "BK22011969-5",
+            "utterance_id": "BK22011969.9"
+        },
+        {
+            "reference_date": "2022-01-11",
+            "reference_text": [
+                {
+                    "value": "안드레의 <지렛대>(1966·1969)는 137개의 벽돌을 벽돌의 좁은 면이 위를 향하도록 한 줄로 길게 늘어놓은 작품이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.worklaw.co.kr/view/view.asp?accessSite=Naver&accessMethod=Search&accessMenu=News&in_cate=119&in_cate2=0&gopage=1&bi_pidx=33651",
+            "search_query": "미니멀리즘 대표작가",
+            "terminate": false,
+            "text": "대표작가로 작가 안드레의 지렛대가 있어요. 이 작품은 137개의 벽돌을 한 줄로 길게 늘어놓은 작품이죠.",
+            "turn_id": "BK22011969-5",
+            "utterance_id": "BK22011969.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 벽돌로 만든 작업이 있다니 신기하네요. 그렇다면 이 작품에서 강조하는 건 뭔가요?",
+            "turn_id": "BK22011969-6",
+            "utterance_id": "BK22011969.11"
+        },
+        {
+            "reference_date": "2022-03-27",
+            "reference_text": [
+                {
+                    "value": "마치 로버트 모리스나 칼 안드레의 작품들처럼 책의 형상을 가장 미니멀한 형태로 환원시키고 책장의 흔적만을 남긴 이번 작품은, 미니멀리즘 작품들처럼 이들이 놓인 공간과의 관계와 상황 속에서 관람객의 지각을 강조한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "책이라는 소재를 통해 표현할 수 있는 다양한 시선과 사유, 그리고 그의 모든 예술적 의도는 미니멀리즘 조각처럼 가장 단순한 형태 안에 담겨 있으므로, 결국은 관람객이 작품을 마주 대하는 지각의 순간마다 서로 다르게 떠오른다",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://sjbnews.com/news/news.php?number=740321",
+            "search_query": "미니멀리즘 강조",
+            "terminate": false,
+            "text": "벽돌이 놓인 상황과 관람객의 지각 사이의 관계를 강조하죠. 미니멀리즘 조각처럼 단순한 형태로부터 관람객이 작품을 마주하는 순간마다 작품이 다르게 보인다는 점이죠.",
+            "turn_id": "BK22011969-6",
+            "utterance_id": "BK22011969.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 부분을 강조한다는 거군요. 그렇다면 미니멀리즘의 특징에는 또 뭐가 있을까요?",
+            "turn_id": "BK22011969-7",
+            "utterance_id": "BK22011969.13"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "미국에서 시작한 사조로서는 최초로 국제적인 양식이 된 미니멀리즘 조각은 몇 가지 원리에 따른다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미니멀리즘 조각은 산업재료를 사용하고 그 재료를 조작하지 않고 단일하면서도 규칙적이고 대칭적이며 색채는 건조하고 직설적인 것을 특징으로 한다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208111804497823",
+            "search_query": "미니멀리즘의 원리",
+            "terminate": false,
+            "text": "미니멀리즘 조각은 산업재료를 활용한다는 점이 특징이에요. 그리고 그 재료를 변형하지 않고 규칙, 대칭, 단순함을 원리로 하죠. 참고로 색채 또한 건조한 것을 쓰는 것도 특징이죠.",
+            "turn_id": "BK22011969-7",
+            "utterance_id": "BK22011969.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 특징이 있군요. 미니멀리즘이 미술을 비롯해 다양한 방면에 영향을 끼친 것처럼 현대음악에도 미니멀리즘 원칙이 있을까요?",
+            "turn_id": "BK22011969-8",
+            "utterance_id": "BK22011969.15"
+        },
+        {
+            "reference_date": "2016-05-25",
+            "reference_text": [
+                {
+                    "value": "현대음악 미니멀리즘에서는 두 가지 기본원칙을 내세우는데 첫째는 단순화, 둘째는 반복이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대음악에서 빼놓을 수 없는 작곡가 필립 글래스는 기교나 꾸밈을 사용하지 않고 단순함과 반복되는 선율을 통해 점점 커지는 불안감과 긴장감을 미묘하게 표현한 작품들을 창작했다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/05/25/life/artculture/4297288.html",
+            "search_query": "현대음악 미니멀리즘",
+            "terminate": false,
+            "text": "네, 현대음악 미니멀리즘 또한 두 가지 기본 원칙이 있어요. 단순화와 반복을 강조하죠. 이 두 가지를 강조하는 작곡가 중 필립 글래스가 대표적이죠. 참고로 그의 작품은 미니멀리즘의 원리처럼 기교나 꾸밈이 없고 단순함과 반복되는 선율을 통해 증폭되는 불안감과 긴장감을 미세하게 표현했죠.",
+            "turn_id": "BK22011969-8",
+            "utterance_id": "BK22011969.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 단순화를 한다는 점에서 미술과 공통점이 있네요. 그렇다면 국내에서 미니멀리즘을 대표하는 현대미술 작가는 누가 있나요?",
+            "turn_id": "BK22011969-9",
+            "utterance_id": "BK22011969.17"
+        },
+        {
+            "reference_date": "2016-08-11",
+            "reference_text": [
+                {
+                    "value": "이러한 사조는 서구 예술계뿐만 아니라 동아시아권에서도 현상학과 함께 동양의 고유정신을 자신의 작업에 활용한 작가가 있는데, 그 대표적 작가가 이우환이다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "점과 선으로 회화의 본질까지 파고드는 문제 제기는 새로운 충격으로 화면에 등장하였고, 자기만의 양식을 확립하여 자기의 생각을 현상화시키는 예술세계를 구축하였다는 평가를 들으며 거장이 되었다.",
+                    "value_time": "2022-09-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.knnews.co.kr/news/articleView.php?idxno=1188559",
+            "search_query": "국내 미니멀리즘 작가",
+            "terminate": false,
+            "text": "국내 미니멀리즘을 대표하는 작가로 이우환이 있어요. 그는 현상학과 함께 동양의 고유정신을 자신의 작업에 활용했죠. 그의 작품은 점과 선만으로 회화의 본질을 파고드는 것을 내세웠고, 이는 국내 미술사에서 새로운 충격이었죠. 또한, 자기만의 생각을 현상화시켜 예술세계를 구축했다는 평가를 받으며 국내에서 거장이 된 거예요.",
+            "turn_id": "BK22011969-9",
+            "utterance_id": "BK22011969.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 국내에는 이우환이라는 작가가 있군요. 덕분에 미니멀리즘에 대해 잘 알게 되었어요. 친절히 설명해주셔서 정말 감사합니다.",
+            "turn_id": "BK22011969-10",
+            "utterance_id": "BK22011969.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 미니멀리즘에 대해 설명하게 되어 뿌듯한 시간이었습니다. 그럼 안녕히 계세요!",
+            "turn_id": "BK22011969-10",
+            "utterance_id": "BK22011969.20"
+        }
+    ]
+}

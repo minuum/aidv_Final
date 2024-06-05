@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013772",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013772",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 비행기에 관심이 많아서 자꾸 이것저것 물어보네요.",
+            "turn_id": "BK22013772-1",
+            "utterance_id": "BK22013772.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 나이 아이들이 비행기를 좋아하죠.",
+            "turn_id": "BK22013772-1",
+            "utterance_id": "BK22013772.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 궁금해하던데 항공기가 최초로 비행한 게 혹시 언제인지 아세요?",
+            "turn_id": "BK22013772-2",
+            "utterance_id": "BK22013772.3"
+        },
+        {
+            "reference_date": "44300.0",
+            "reference_text": [
+                {
+                    "value": "라이트 형제는 노스캐롤라이나 주에 있던 작은 마을 키티 호크를 연구거점으로 삼아 3년 간 실험을 진행했다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1903년 12월 17일 라이트 형제는 최초의 동력 비행기 플라이어 1호로 약 12초 동안 비행을 하는데 성공했다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0004900992?sid=101",
+            "search_query": "최초의 비행",
+            "terminate": false,
+            "text": "라이트 형제가 1903년 12월 17일 최초의 동력 비행기인 플라이어 1호를 타고 12초 동안 비행에 성공했어요. 3년 동안 노스캐롤라이나주의 작은 마을 키티 호크에서 연구하고 실험한 성과였죠.",
+            "turn_id": "BK22013772-2",
+            "utterance_id": "BK22013772.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보니 저도 어린 시절에 라이트 형제 이름을 들어봤네요. 그러면 최초의 제트기는 언제 탄생했는지 아세요? 요즘 여객기나 전투기는 대부분 제트기잖아요.",
+            "turn_id": "BK22013772-3",
+            "utterance_id": "BK22013772.5"
+        },
+        {
+            "reference_date": "44300.0",
+            "reference_text": [
+                {
+                    "value": "1937년 독일의 항공기 제조사 하인켈에서 일하던 한스 폰 오하인은 ‘He 178’이라는 세계 최초의 제트기를 개발하는데 성공했다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1944년엔 메서슈미트 사의 제트 전투기 ‘Me 262’가 실전에 배치됐지만 연합군 측으로 기운 전쟁의 향배를 뒤돌리기엔 역부족이었다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/018/0004900992?sid=101",
+            "search_query": "최초 제트기",
+            "terminate": false,
+            "text": "독일 항공기 제조사 하인켈에서 근무하던 한스 폰 오하인이 1937년에 세계 최초의 제트기인 He 178 개발에 성공했어요. 7년 후인 1944년엔 메서슈미트 사에서 만든 제트 전투기 Me 262가 실전에 투입되기도 했는데, 당시 연합군이 잡은 승기를 되돌리기엔 역부족이었죠.",
+            "turn_id": "BK22013772-3",
+            "utterance_id": "BK22013772.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1937년에 첫 제트기가 만들어졌다니 놀랍네요. 또 한 가지 궁금한 게 있는데요, 제트 여객기의 첫 운행이 언제였는지도 알려주세요.",
+            "turn_id": "BK22013772-4",
+            "utterance_id": "BK22013772.7"
+        },
+        {
+            "reference_date": "40294.0",
+            "reference_text": [
+                {
+                    "value": "1952년 5월 2일은 제트여객기의 하늘길이 열린 날이다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이날 영국해외항공(BOAC) 소속 코멧(Comet) 여객기가 런던을 이륙, 요하네스버그로 향하는 정기항로에 투입되어 운항을 개시했다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "드 하빌랜드사가 설계·제작한 세계 최초의 제트여객기 코멧이 1949년 7월 27일 초도비행을 한지 3년만의 정식 데뷔였다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/082/0000253207?sid=110",
+            "search_query": "첫 제트 여객기",
+            "terminate": false,
+            "text": "드 하빌랜드사가 설계와 제작까지 맡은 세계 최초의 제트 여객기 코멧은 1949년 7월 27일에 초도 비행을 했는데요. 그로부터 3년 후인 1952년 5월 2일, 영국해외항공 소속이던 코멧 여객기가 런던으로부터 요하네스버그로 향하는 정기항로에 투입돼 운항을 시작했어요.",
+            "turn_id": "BK22013772-4",
+            "utterance_id": "BK22013772.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제트 여객기의 운행이 개시된 지도 70년이 되었네요. 또 한 가지 궁금한 게 있는데요, 오늘날 유인항공기와 무인항공기를 통틀어 가장 빠른 항공기는 어떤 항공기인가요?",
+            "turn_id": "BK22013772-5",
+            "utterance_id": "BK22013772.9"
+        },
+        {
+            "reference_date": "44601.0",
+            "reference_text": [
+                {
+                    "value": "가장 빠른 속도를 자랑하는 무인항공기는 미국 항공우주국(NASA)에서 개발한 ‘X-43A’다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 무인항공기는 지난 2004년 11월 음속의 10배인 마하 10(시속 약 1만 1000㎞)를 기록했다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 빠른 제트항공기인 블랙버드 정찰기(SR-71)의 속도인 시속 3500㎞에 비해 세배에 이른다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/277/0005041052?sid=100",
+            "search_query": "가장 빠른 항공기",
+            "terminate": false,
+            "text": "미국 항공우주국 NASA에서 만든 무인 항공기 X-43A가 가장 빠른 속도를 내는 항공기입니다. 이 무인 항공기는 2004년 11월 음속의 10배인 마하 10을 기록한 바 있는데요, 시속 약 1만 1,000킬로미터에 달하는 속도입니다. 가장 빠른 제트항공기인 블랙버드 정찰기 SR-71이 기록했던 시속 3,500킬로미터와 비교해 세 배나 빠릅니다.",
+            "turn_id": "BK22013772-5",
+            "utterance_id": "BK22013772.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마하 10이라고 설명해주셨는데 혹시 마하가 무슨 뜻인가요? 마하가 얼마나 빠른 속도인지 알고 싶습니다.",
+            "turn_id": "BK22013772-6",
+            "utterance_id": "BK22013772.11"
+        },
+        {
+            "reference_date": "44468.0",
+            "reference_text": [
+                {
+                    "value": "마하 1은 소리 속도인 음속(초속 340m·시속 1224㎞)이다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마하 1~5까지는 초음속, 마하 5부터는 극초음속이다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마하 5 이상이면 서울에서 평양 상공까지 1분15초에 도달할 수 있다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002561906?sid=100",
+            "search_query": "마하 속도",
+            "terminate": false,
+            "text": "마하 1은 음속, 즉 소리의 속도를 말하는데요. 초속 340미터, 시속으로 환산하면 1,224킬로미터입니다. 마하 1에서 마하 5까지는 초음속, 마하 5에 달하면 극초음속으로 분류합니다. 마하 5 이상이면 서울에서 평양까지 1분 15초 만에 도달합니다.",
+            "turn_id": "BK22013772-6",
+            "utterance_id": "BK22013772.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울에서 평양까지 1분 15초라니 엄청나네요. 혹시 우리나라가 만든 KF-21도 마하 1이 넘는 비행 속도를 낼 수 있나요?",
+            "turn_id": "BK22013772-7",
+            "utterance_id": "BK22013772.13"
+        },
+        {
+            "reference_date": "44297.0",
+            "reference_text": [
+                {
+                    "value": "마하 1.8에 달하는 비행 속도, 7.7톤의 무장탑재력을 갖춘 KF-21은 전천후 기동성과 전투능력을 발휘할 것으로 예상된다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 다양한 무장을 탑재할 수 있기 때문에 공중 교전은 물론 육로나 해로를 통한 침투 세력의 무력화, 원거리 방공망 타격 등 우리 군이 요구하는 많은 작전을 수행할 수 있을 것이란 평가를 받고 있다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20210412/1/BBSMSTR_000000010027/view.do",
+            "search_query": "우리나라 마하 속도",
+            "terminate": false,
+            "text": "KF-21은 비행 속도 마하 1.8에 7.7톤의 무장 탑재력도 갖추고 있습니다. 전천후 전투 능력과 기동성을 발휘할 수 있고요, 다양한 무장까지 탑재 가능해 공중 교전을 비롯해 원거리 방공망 타격이나 해로나 육로를 통한 침투 세력을 무력화하는 등 우리 군이 필요로 하는 많은 작전을 수행할 수 있습니다.",
+            "turn_id": "BK22013772-7",
+            "utterance_id": "BK22013772.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 훌륭한 비행기를 만들 수 있네요. 또 궁금한 게 전 세계에서 가장 큰 항공기는 어떤 건가요? 아들이 큰 비행기를 좋아해서요.",
+            "turn_id": "BK22013772-8",
+            "utterance_id": "BK22013772.15"
+        },
+        {
+            "reference_date": "43243.0",
+            "reference_text": [
+                {
+                    "value": "가장 크고 무거운 화물을 실을 수 있는 항공기는 우크라이나의 '안토노프 AN-225기'입니다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1988년 구 소련(우크라이나)서 제작한 6개의 제트엔진 장착한 안토노프 AN-225기는 구 소련의 우주왕복선과 장비 수송을 위해 2대의 제작을 의뢰 받았으나 1대만 만들어졌습니다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기체 무게만 285t(톤), 최대 적재량 640t.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "날개길이 84.4m의 엄청난 크기로 그에 상응하는 무게의 화물을 실을 수 있습니다.",
+                    "value_time": "44814.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/277/0004225131?sid=105",
+            "search_query": "가장 큰 항공기",
+            "terminate": false,
+            "text": "우크라이나의 안토노프 AN-225 기종이 가장 크고 무거운 화물을 실을 수 있는 항공기입니다. 이 기종은 1988년 구소련에서 만든 6개의 제트엔진을 장착했는데요, 구소련의 우주왕복선 및 장비를 나르기 위해 2대 생산을 의뢰받았지만 1대만 제작됐습니다. 기체 무게만 285톤에 최대 적재량 640톤, 날개 길이는 84.4미터를 자랑하며 엄청난 양의 화물을 수송할 수 있습니다.",
+            "turn_id": "BK22013772-8",
+            "utterance_id": "BK22013772.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우주선을 실을 수 있는 화물기니 엄청난 크기네요. 그러면 여객기 중 가장 많은 승객을 실어 나르는 항공기는 어떤 기종인가요?",
+            "turn_id": "BK22013772-9",
+            "utterance_id": "BK22013772.17"
+        },
+        {
+            "reference_date": "43243.0",
+            "reference_text": [
+                {
+                    "value": "현재 운항 중인 항공기 중에서 가장 많은 승객을 실어 날을 수 있는 항공기는 'A380-800'입니다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세계에서 가장 큰 여객기인 A380-800은 2층 구조로 돼 있으며, 꼬리까지의 높이가 건물의 8층 높이입니다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본 좌석이 555석인데, 내부 구조를 변경할 경우 최대 853명 탑승할 수 있다고 합니다.",
+                    "value_time": "44814.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/277/0004225131?sid=105",
+            "search_query": "가장 많은 승객 항공기",
+            "terminate": false,
+            "text": "오늘날 운항 중인 항공기 중 가장 많은 승객이 탑승 가능한 항공기는 A380-800 모델입니다. 이 기종은 2층 구조인데, 꼬리까지의 높이가 건물 8층 높이에 달합니다. 아울러 기본 좌석 555석에 내부 구조 변경 시 최대 853명까지 탑승 가능합니다.",
+            "turn_id": "BK22013772-9",
+            "utterance_id": "BK22013772.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "항공기에 대해 많이 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013772-10",
+            "utterance_id": "BK22013772.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아들한테 잘 설명해주세요, 언제든 궁금한 게 있으면 말씀 주시고요.",
+            "turn_id": "BK22013772-10",
+            "utterance_id": "BK22013772.20"
+        }
+    ]
+}

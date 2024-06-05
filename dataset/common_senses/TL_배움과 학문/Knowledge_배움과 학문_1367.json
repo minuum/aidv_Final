@@ -1,0 +1,405 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008963",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008963",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아는 언니 아들이 과학고에 원서를 냈다는데 이번 과고 경쟁률은 작년에 비해서 어떻게 나왔어요?",
+            "turn_id": "BK22008963-1",
+            "utterance_id": "BK22008963.1"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "13일 전북과고를 끝으로 전국 20개 과고가 발표한 최종 경쟁률은 정원내 기준 3.5대1로 나타났다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해에는 동일한 규모 모집에 5065명이 지원해 최종 경쟁률 3.09대1을 기록했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 최종 경쟁률",
+            "terminate": false,
+            "text": "전북 과학고등학교가 13일에 마지막 접수를 마침으로써 20개 과학고등학교의 최종 경쟁률은 3.5대1로 나왔어요. 작년에는 5065명이 동일한 규모의 모집에 지원해서 3.09대1 이었으니 작년보다는 상승했어요.",
+            "turn_id": "BK22008963-1",
+            "utterance_id": "BK22008963.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "작년보다 경쟁률이 올라갔군요. 20개 학교의 경쟁률이 하락한 곳 없이 모두 상승한 거에요?",
+            "turn_id": "BK22008963-2",
+            "utterance_id": "BK22008963.3"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "경쟁률이 하락한 과고는 인천(3.34대1) 충남(2.63대1) 경북(1.9대1)의 세 곳뿐이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경북과고의 경우 모집인원을 올해 20명 확대한 영향으로 경쟁률은 전년 대비 하락했지만 지원자 수는 증가했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "경쟁률 하락한 과고",
+            "terminate": false,
+            "text": "모두 상승한 것은 아니고, 충남은 2.63대1, 인천은 3.34대1, 경북 과고는 1.9대1로 3곳의 경쟁률은 하락했어요. 경북과고는 올해 모집인원을 20명 확대한 거라서 전년 대비 경쟁률은 하락했지만, 지원자 수는 증가했어요.",
+            "turn_id": "BK22008963-2",
+            "utterance_id": "BK22008963.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하락했다 하더라도 거의 2대1 내외라서 안심할 수 없는 경쟁률이네요. 혹시 경쟁률이 높은 곳들은 어느 정도인지 아세요?",
+            "turn_id": "BK22008963-3",
+            "utterance_id": "BK22008963.5"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "올해의 과고 최고 경쟁률은 경기북과고가 기록했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "100명 모집에 800명이 지원하며 8대1로 마감했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 번째로 높은 한성과고 경쟁률(4.91대1)보다 월등히 높은 수치다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 경쟁률 순위",
+            "terminate": false,
+            "text": "올해 과고 원서접수 최고 경쟁률은 8대1로, 100명 모집에 800명이 지원한 경기북과고에요. 한성과고 경쟁률이 4.9대1을 보였는데, 경북과고의 경쟁률은 한성과고보다도 월등히 높은 수치에요. 이어서 4.19대1의 대전동신, 4.01대1의 세종, 3.34대의 인천과고가 경쟁률 높은 순위 5곳이에요.",
+            "turn_id": "BK22008963-3",
+            "utterance_id": "BK22008963.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서울에 있는 한성과고가 가장 높을 줄 알았는데, 의외네요. 경기북과고가 월등히 높은 경쟁률을 나타내는 이유가 있을까요?",
+            "turn_id": "BK22008963-4",
+            "utterance_id": "BK22008963.7"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "광역 모집을 실시하는 과고는 거주지 인근 과고에만 지원할 수 있는데, 경기는 중3 학생 수가 전국에서 가장 많지만 과고는 경기북 한 곳인 데다 정원도 100명으로 적다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2022학년을 기준으로 비교해 보면, 경기의 과고 정원 1인당 학생 수는 1314명으로 서울의 242명보다 5배 이상 많다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "경기북과고 경쟁률",
+            "terminate": false,
+            "text": "경기북과고가 다른 과고들보다 경쟁률이 월등히 높은 이유는 모집하는 방법과 중3 학생 대비 정원수가 적어서 그래요. 광역 모집으로 신입생을 선발하는 과고는 거주지 근처의 과고에만 지원 가능한데, 경기에 있는 과고는 경기북 한 곳이에요. 거기에 정원도 100명으로 적은데, 중3 학생 수는 전국에서 가장 많아요. 2022학년을 기준으로 볼 때, 과고의 1인당 학생 수가 서울은 242명인데, 경기는 5배나 많은 1314명이거든요.",
+            "turn_id": "BK22008963-4",
+            "utterance_id": "BK22008963.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경기도에 거주하는 중3 학생이 과고를 가려면 정말 엄청난 경쟁률을 뚫어야겠군요. 그런데, 과고의 경쟁률이 높아진 이유가 따로 있나요?",
+            "turn_id": "BK22008963-5",
+            "utterance_id": "BK22008963.9"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "이공계열에게 유리한 방향으로 변화된 대입 지형이 고입 판도에 그대로 반영됐다는 분석이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지난해 처음 실시한 문이과 통합수능은 ‘수학 한 줄 세우기’ 식의 입시 결과를 여실히 드러내면서, 이공계열 최상위 인재로 구분되는 과고와 영재학교 학생들이 정시까지 입지를 확대한 상황이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기에 반도체를 포함한 4차산업 학과의 모집단위가 대폭 증가하며 이공계열의 대입 문호도 넓어졌다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 경쟁률 상승 원인",
+            "terminate": false,
+            "text": "과고의 경쟁률이 상승한 이유는 일단 대입이 이공계열에게 유리한 방향으로 변화되었기 때문이에요. 특히 작년에 처음 실시된 수학 한줄 세우기식의 문이과 통합 수능으로 인해서, 과고와 영재학교에 재학 중인 이공계열 최상위 학생들이 정시까지도 우위를 자치하게 된 거죠. 이런 입시제도에다 대학에서 모집하는 단위 중에서 반도체를 포함한 4차산업 학과 정원이 엄청나게 늘어나서 이공계열 수험생들에게는 대학에 입학하는 문이 한결 넓어졌거든요.",
+            "turn_id": "BK22008963-5",
+            "utterance_id": "BK22008963.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수학을 못 하면 대입 자체가 불리한데다 이공계열에게 유리한 학과들 정원은 더 늘어났으니, 이공계열의 최고 두뇌라 할 수 있는 과고 입시도 덩달아 높아질 수밖에 없군요.",
+            "turn_id": "BK22008963-6",
+            "utterance_id": "BK22008963.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 아무래도 고등학교에서 우위를 점하면 이후 대입에서도 유리하니까요.",
+            "turn_id": "BK22008963-6",
+            "utterance_id": "BK22008963.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대입에 유리한 과학고가 원서 접수를 이렇게 빨리한 것 보면 신입생 뽑는 과정이 꽤나 복잡할 것 같은데, 과고는 입학 전형이 어떻게 돼요?",
+            "turn_id": "BK22008963-7",
+            "utterance_id": "BK22008963.13"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "지역별로 약간씩 차이가 있지만 큰 틀에서 1단계 서류평가, 2단계 면접의 틀을 벗어나지 않는다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2단계 전형방법은 자사고 외고 국제고와 동일하지만, 1단계에서 서류평가와 함께 실시하는 면담은 과고 입시에서만 존재한다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 입학전형",
+            "terminate": false,
+            "text": "입학전형은 지역별로 조금씩 차이는 있지만 대체로 1단계 서류평가와 2단계 면접으로 이루어져요. 2단계 전형 방법을 진행하는 것은 국제고나 외고, 자사고와 같지만, 1단계에서 서류평가와 면담을 함께 실시하는 것은 과고 입시에만 있는 특징이에요.",
+            "turn_id": "BK22008963-7",
+            "utterance_id": "BK22008963.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2단계 면접 이전에 1차에서 면담을 한다니 정말 독특하네요. 면담은 어떻게 이루어져요?",
+            "turn_id": "BK22008963-8",
+            "utterance_id": "BK22008963.15"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "과고는 지원자와 소속 중학교 교사, 학교장을 대상으로 면담을 실시해 보다 면밀한 서류평가를 추구한다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출석(소집)면담은 지원자가 과고에 출석하는 방식이며, 방문면담은 입학담당관이 지원자의 소속 중학교에 방문하는 방식이다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 면담",
+            "terminate": false,
+            "text": "과고는 보다 면밀한 서류평가를 위해서 지원자는 물론, 소속 중학교 선생님과 학교장을 대상으로도 면담을 실시해요. 면담하는 방법은 2가지가 있는데 지원자가 과고에 출석하는 방식인 출석 면담과 지원자의 소속 중학교에 입학담당관이 방문하는 방식이 있어요.",
+            "turn_id": "BK22008963-8",
+            "utterance_id": "BK22008963.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선생님들까지 면담을 한다고 하니 학교에서 어느 정도 인정되는 인재들만 원서를 접수하겠군요. 면담이나 면접 등 전형 과정이 복잡해 보이는데 과고 입시는 언제 끝나요?",
+            "turn_id": "BK22008963-9",
+            "utterance_id": "BK22008963.17"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "최종 합격자는 11월 말부터 공개된다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "11월23일 충남부터 시작해 12월9일 대전동신 부산 부산일 발표를 마지막으로 2023학년 과고 입시가 막을 내린다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=428637",
+            "search_query": "과고 합격자발표",
+            "terminate": false,
+            "text": "학교마다 합격자 발표 날짜는 다르지만 11월 말부터 발표를 시작해요. 충남이 11월 23일로 가장 먼저 시작하고 12월 9일에 대전동신, 부산과고와 부산일과고가 발표를 함으로써 2023학년도 과고 입시가 마무리돼요.",
+            "turn_id": "BK22008963-9",
+            "utterance_id": "BK22008963.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "9월 원서접수부터 12월 9일 사이에 과고 입시 일정이 끝나는군요. 12월에 일반고 접수를 시작하니 그 이전에는 마쳐야겠군요.",
+            "turn_id": "BK22008963-10",
+            "utterance_id": "BK22008963.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 중3 학생들의 고등학교 지원에 지장이 없어야 하니까요. 아는 언니 아들이 과고에 지원해서 입시에 관심이 많으신가 봐요.",
+            "turn_id": "BK22008963-10",
+            "utterance_id": "BK22008963.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇기도 하고, 저희 아이가 이번에 중학생 되니까 겸사겸사 고등학교 입학에 관심이 많아요. 오늘 덕분에 과학고등학교 입시에 대해서 정보 많이 알게 되어서 정말 감사해요.",
+            "turn_id": "BK22008963-11",
+            "utterance_id": "BK22008963.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "감사는요, 도움이 되었다니 저도 기뻐요.",
+            "turn_id": "BK22008963-11",
+            "utterance_id": "BK22008963.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 갈 시간 되어서 일어나야 하는데, 다음 만날 때 입시에 대해서 또 여쭤봐도 될까요?",
+            "turn_id": "BK22008963-12",
+            "utterance_id": "BK22008963.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 궁금한 것 있으면 뭐든지 물어보세요. 다음에 뵐게요.",
+            "turn_id": "BK22008963-12",
+            "utterance_id": "BK22008963.24"
+        }
+    ]
+}

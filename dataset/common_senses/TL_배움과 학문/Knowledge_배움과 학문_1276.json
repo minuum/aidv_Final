@@ -1,0 +1,426 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008528",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008528",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 우연히 회사 동료 집에 갔는데, 앵무새를 키우고 있더라고. 말도 좀 가르쳤는지 친구가 하는 말을 몇 개인가 따라 하는 게 참 신기했어. 앵무새는 어떻게 그렇게 말을 잘 따라 할 수 있는 걸까?",
+            "turn_id": "BK22008528-1",
+            "utterance_id": "BK22008528.1"
+        },
+        {
+            "reference_date": "2012-10-30",
+            "reference_text": [
+                {
+                    "value": "앵무새가 사람처럼 말을 할 수 있는 비결은 바로 '혀'에 있어요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앵무새의 혀는 사람의 혀와 비슷하게 부드럽고 연한 특징이 있지요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구강 구조가 사람과 비슷하다는 점도 한몫 한답니다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기다 작은 소리를 잘 들을 수 있는 청각 능력이 보태져 다양한 소리를 따라 내는 성대모사의 달인이 될 수 있죠.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kid.chosun.com/site/data/html_dir/2012/10/29/2012102901918.html",
+            "search_query": "앵무새 혀 구강 구조",
+            "terminate": false,
+            "text": "앵무새는 혀가 인간의 혀처럼 연하고 부드러운 데다가, 구강 내부 구조도 인간과 유사하거든. 그리고 청각 능력도 좋아서 조그마한 소리도 잘 듣기 때문에 여러 소리를 잘 따라 할 수 있는 거야.",
+            "turn_id": "BK22008528-1",
+            "utterance_id": "BK22008528.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혀나 입 내부 구조가 전체적으로 사람 말을 잘 따라할 수 있는 형태인 거구나. 앵무새 외에도 사람 말을 따라 할 수 있는 새가 있을까?",
+            "turn_id": "BK22008528-2",
+            "utterance_id": "BK22008528.3"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "구관조(九官鳥, hill myna)는 찌르레기과의 새로, 사람의 말을 잘 흉내낸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "야생 상태에서는 보통 크고 날카로운 휘파람 같은 울음소리를 내지만, 다른 종류의 새소리를 잘 모방하며, 심지어 원숭이류의 울음소리와 사람의 말을 흉내내기도 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EA%B4%80%EC%A1%B0",
+            "search_query": "구관조",
+            "terminate": false,
+            "text": "응, 찌르레깃과에 속하는 구관조도 인간의 말을 잘 따라 해. 야생에서는 일반적으로 날카롭고 큰 휘파람 소리 같은 울음소리를 내는데, 다른 새들의 울음을 잘 따라 하기도 하고, 원숭이 울음소리나 사람 말까지 따라 하지.",
+            "turn_id": "BK22008528-2",
+            "utterance_id": "BK22008528.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성대모사의 달인 같은 새네. 그런데 말을 따라 하려면 그 말을 기억해야 하니까 지능도 중요할 것 같은데, 앵무새 지능은 어느 정도야?",
+            "turn_id": "BK22008528-3",
+            "utterance_id": "BK22008528.5"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "앵무새 지능은 동물 중 높은 편에 속한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개체에 따라 다르지만 3~5세 지능을 갖고 있다고 알려져 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "따라서 훈련을 동반하면 간단한 단어를 기억해 말할 수 있고, 사회적인 동물이기 때문에 사람과의 교감도 뛰어난 편이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022060818252897821",
+            "search_query": "앵무새 지능",
+            "terminate": false,
+            "text": "앵무새는 동물 중에서 지능이 높은 축에 속해. 종에 따라 다르긴 하지만, 지능이 보통 3~5세 어린아이 수준이라고 알려져 있지. 그래서 앵무새는 훈련을 통해 간단한 단어들을 기억하는 게 가능하고, 사회적인 동물이라서 인간과 교감도 곧잘 해.",
+            "turn_id": "BK22008528-3",
+            "utterance_id": "BK22008528.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 지능이 상당하구나. 똑똑하고 교감도 잘 되는 만큼 키우는 사람 입장에서 더욱 오랜 기간 함께하고 싶을 것 같은데, 앵무새 수명은 어느 정도야?",
+            "turn_id": "BK22008528-4",
+            "utterance_id": "BK22008528.7"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "앵무새의 수명은 대형앵무일수록 길다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "중소형 앵무새의 평균수명은 20살~30살까지이나 대형 앵무새의 수명은 70살~80살까지로, 어떠한 앵무새는 심지어 120살까지 살았다는 기록이 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 독수리와 학보다도 더 긴 것으로, 앵무새가 오래 살 수 있는 조류이라는 것을 알 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%B5%EB%AC%B4%EC%83%88",
+            "search_query": "앵무새",
+            "terminate": false,
+            "text": "앵무새는 대형 앵무새일수록 오래 사는데, 중소형 앵무새의 경우에는 평균 수명이 20~30살 정도이고, 대형 앵무새는 70~80살 정도야. 심지어 120살까지 산 앵무새가 있다는 기록도 존재하지. 이 정도 수명은 학이나 독수리보다 긴 수준이라서 앵무새가 장수하는 조류라는 점은 분명하지.",
+            "turn_id": "BK22008528-4",
+            "utterance_id": "BK22008528.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수명이 긴 앵무새는 죽을 때까지 함께할 수도 있겠네. 참, 회사 동료네 앵무새를 보면서 이상했던 게, 먹던 먹이를 막 버리던데 왜 그러는 걸까? 앵무새의 습성 같은 걸까?",
+            "turn_id": "BK22008528-5",
+            "utterance_id": "BK22008528.9"
+        },
+        {
+            "reference_date": "2019-11-04",
+            "reference_text": [
+                {
+                    "value": "앵무새는 야생이든 집에서 기르는 개체이든 음식을 낭비한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "에스터 세바스티안-곤살레스 스페인 미겔 헤르난데스대 생물학자 등 국제 연구진은 이런 질문의 답을 찾기 위해 세계 5개 대륙 17개국의 앵무새 103종을 조사했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앵무새가 먹다 버린 먹이로 생태계의 순환이 촉진되고 식물도 혜택을 본다면, 앵무새에게 돌아오는 이득은 무얼까.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구자들은 “솎아내기 효과”가 있을 것으로 추정했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과수원에서 크고 양질의 과일을 얻기 위해 꽃과 어린 열매를 솎아내는 것처럼 앵무새도 자신의 ‘과수원’을 가꾸는 행동을 하는 것 아니냐는 생각이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/ecology_evolution/915692.html",
+            "search_query": "앵무새 먹이 낭비",
+            "terminate": false,
+            "text": "응, 집에서 기르는 앵무새이든 야생에 사는 앵무새이든 앵무새는 원래 음식을 낭비해. 이 현상을 알아보기 위해서 에스터 세바스티안-곤살레스 스페인 미겔 헤르난데스대의 생물학자를 포함해 국제 연구진이 지구상 5개 대륙, 17개 나라에서 130종의 앵무새를 조사했어. 앵무새가 먹이를 먹다가 버리는 행위는 생태계가 잘 순환되도록 하고, 식물도 이득을 보는데, 앵무새 또한 솎아내기 효과라는 혜택을 얻을 수 있다고 연구진은 추측했어. 마치 과수원에서 알이 크고 품질이 좋은 과일을 수확하기 위해 어린 열매나 꽃을 솎아내는 것처럼, 앵무새도 먹이를 버림으로써 자신만의 과수원을 가꾼다는 것이지.",
+            "turn_id": "BK22008528-5",
+            "utterance_id": "BK22008528.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 추측이 맞다면 먹이를 버리는 건 똑똑한 행동인 거네. 그건 그렇고, 앵무새 종에 따른 특징도 좀 알고 싶은데, 우선 한 종 소개해 줄래?",
+            "turn_id": "BK22008528-6",
+            "utterance_id": "BK22008528.11"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "회색앵무(Grey Parrot)는 앵무과의 동물이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "야생종은 아프리카 중부지역에 주로 분포하고 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이름 답게 몸의 깃털이 회색이나, 꼬리부분은 붉은 색을 띈다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "새 중에서 지능이 뛰어나다고 알려진 앵무과 중에서도 가장 지능이 뛰어난 종으로 알려져 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "높은 지능으로 인해 스트레스가 심하게 쌓이면 자해를 하는 경우도 있어서, 회색앵무를 키우는 경우 주의를 요하고 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9A%8C%EC%83%89%EC%95%B5%EB%AC%B4",
+            "search_query": "회색앵무",
+            "terminate": false,
+            "text": "그럼 앵무과에 속하는 회색앵무에 관해 이야기해 줄게. 회색앵무 야생종은 주로 아프리카 중부 지역에 서식하는데, 몸통 깃털은 이름 그대로 회색이지만, 꼬리 쪽은 빨간색이야. 앵무과는 조류 중에서도 지능이 높은데, 그중에서도 회색앵무는 지능이 가장 높은 종이야. 다만, 이런 높은 지능 때문에 스트레스를 많이 받으면 자해를 하기도 해서 키우는 경우에는 조심해야 하지.",
+            "turn_id": "BK22008528-6",
+            "utterance_id": "BK22008528.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스트레스 때문에 자해까지 한다니, 똑똑한 만큼 고민도 많고 생각도 많이 하나 보다. 또 다른 앵무새로는 뭐가 있을까?",
+            "turn_id": "BK22008528-7",
+            "utterance_id": "BK22008528.13"
+        },
+        {
+            "reference_date": "2022-09-15",
+            "reference_text": [
+                {
+                    "value": "모란앵무(Agapornis lilianae, Lilian's lovebird, Nyasa lovebird)는 러브버드속에 속하는 아프리카의 조그마한 앵무새 종이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모란앵무는 말라위, 모잠비크, 탄자니아, 잠비아, 짐바브웨에 서식한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 빛깔은 녹색이며 윗가슴과 머리는 오렌지색을 이룬다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "길이는 13센티미터(5인치)이며 아프리카 본토에서는 가장 작은 앵무새이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%9E%80%EC%95%B5%EB%AC%B4",
+            "search_query": "모란앵무",
+            "terminate": false,
+            "text": "러브버드속에 속하는 모란앵무라는 앵무새도 있어. 아프리카 모잠비크, 말라위, 잠비아, 탄자니아, 짐바브웨에 사는 소형 앵무새 종이지. 모란앵무는 보통 녹색빛을 띠는데, 가슴 위쪽과 머리 부분은 주황색이야. 몸길이는 13센티미터 정도이고, 아프리카 대륙의 앵무새 중 가장 작아.",
+            "turn_id": "BK22008528-7",
+            "utterance_id": "BK22008528.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "색도 그렇고 크기도 그렇고 귀여운 앵무새일 것 같아. 어제 본 앵무새는 귓가에 빨간 점에 있고, 우관이 나 있는 종이었는데, 이건 어떤 앵무새일까?",
+            "turn_id": "BK22008528-8",
+            "utterance_id": "BK22008528.15"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "왕관앵무(Cockatiel)는 관앵무과의 동물로서, 유일한 Nymphicus속이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "야생종은 오스트레일리아 지역에서만 분포하고 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "크기는 30cm 정도의 중소형 앵무이며, 관앵무과에서는 상당히 작은 축에 속한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관앵무과의 주요 특징인 우관 또한 가지고 있으며, 우관은 감정을 나타내는 용도로 사용된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 귓가에 빨간 점이 있으나 아종에 따라서 나타나지 않는 경우도 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%95%EA%B4%80%EC%95%B5%EB%AC%B4",
+            "search_query": "왕관앵무",
+            "terminate": false,
+            "text": "관앵무과에 속하는 왕관앵무야. Nymphicus속 중에서 유일한 종인데, 왕관앵무 야생종은 오스트레일리아에만 서식하고, 크기는 30cm 정도로 중소형이야. 다만, 관앵무과 앵무새 중에서는 꽤나 작은 편이지. 관앵무과에 속하는 만큼, 왕관앵무 또한 관앵무과의 주된 특징인 우관을 갖고 있고, 감정을 나타내기 위해 써. 왕관앵무의 귓가 부분에는 붉은색 점이 있는데, 아종에 따라서는 발현되지 않기도 해.",
+            "turn_id": "BK22008528-8",
+            "utterance_id": "BK22008528.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우관을 감정 표현을 위해 사용한다는 게 너무 귀엽다. 얘기를 듣다 보니, 나도 앵무새를 한 번 키워볼까 하는 생각이 드네.",
+            "turn_id": "BK22008528-9",
+            "utterance_id": "BK22008528.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "키울 앵무새 찾으러 갈 거면 나도 도와줄게.",
+            "turn_id": "BK22008528-9",
+            "utterance_id": "BK22008528.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래 주면 정말 고맙지. 그럼, 말 나온 김에 이번 토요일에 갈까? 괜찮으면 내가 토요일에 다시 연락할게.",
+            "turn_id": "BK22008528-10",
+            "utterance_id": "BK22008528.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 토요일 시간 돼. 그럼 토요일에 같이 앵무새 보러 가 보자. 연락 기다리고 있을게.",
+            "turn_id": "BK22008528-10",
+            "utterance_id": "BK22008528.20"
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005233",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005233",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 휴가로 섬 투어를 했는데 뱀이 상당히 많아서 놀랐어요. 섬에 왜 이렇게 뱀이 많죠?",
+            "turn_id": "BK22005233-1",
+            "utterance_id": "BK22005233.1"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "섬에 왜 뱀이 많을까.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천적이 줄면서 뱀 개체수가 늘었기 때문이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "독수리·매 등 맹금류와 오소리·족제비 등이 뱀의 천적인데 모두 희귀종이 돼버린 탓이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "섬에 뱀이 많은 이유",
+            "terminate": false,
+            "text": "휴가 다녀오셨군요! 뱀 때문에 힘드셨나 봐요. 원래 독수리나 매 같은 맹금류와 오소리, 족제비 같은 동물이 뱀한테 천적인데 그 수가 줄어서 희귀종이 돼서 그래요. 천적이 줄어드니 뱀의 수가 많아질 수밖에 없죠.",
+            "turn_id": "BK22005233-1",
+            "utterance_id": "BK22005233.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 이야기를 들으니 왠지 안타까운 마음이 드네요. 그럼 섬마다 뱀이 엄청 많아졌겠네요?",
+            "turn_id": "BK22005233-2",
+            "utterance_id": "BK22005233.3"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "모든 섬에 뱀이 많은 건 아니다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "울릉도엔 뱀이 없다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "뱀 없는 섬",
+            "terminate": false,
+            "text": "그런데 모든 섬마다 뱀이 늘어난 건 또 아니에요. 울릉도에는 뱀이 안 살거든요.",
+            "turn_id": "BK22005233-2",
+            "utterance_id": "BK22005233.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 울릉도에는 왜 뱀이 없죠?",
+            "turn_id": "BK22005233-3",
+            "utterance_id": "BK22005233.5"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "서남해안의 섬들은 육지에서 갈라져 나간 것이지만, 울릉도 독도는 화산섬이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "울릉도는 1만년 전까지 분화했다고 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "뱀을 일부러 가져가지 않는 이상 뱀이 나올 수 없는 섬이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "울릉도 뱀 없는 이유",
+            "terminate": false,
+            "text": "보통 서남해안에 위치한 섬은 육지로부터 떨어져 나간 건데, 울릉도와 그 옆에 자리한 독도는 화산섬이거든요. 울릉도 같은 경우는 1만 년 전까지 분화 활동이 활발했었어서 일부러 뱀을 유입시키지 않는 이상 뱀이 살 수 없죠.",
+            "turn_id": "BK22005233-3",
+            "utterance_id": "BK22005233.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "울릉도가 화산섬이었다는 건 처음 알았네요. 근데 육지에서 떨어져 나간 땅을 섬이라고 한다면 지구는 그냥 섬으로만 이루어져 있다고 볼 수도 있겠네요!",
+            "turn_id": "BK22005233-4",
+            "utterance_id": "BK22005233.7"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "물론 거대한 대륙도 바다에 둘러싸여 있기는 하지만 섬으로 부르지는 않는다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지리학적으로 그린란드(북미의 덴마크령)보다 규모가 작으면 통상 섬으로 규정된다고 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "섬 분류 규정",
+            "terminate": false,
+            "text": "물론 우리가 사는 이 대륙도 바다랑 접해 있으니 어마어마하게 크긴 해도 섬으로 생각해볼 순 있죠. 하지만 우리가 대륙을 섬이라 부르지 않는 이유는, 지리학적으로 따졌을 때 그린란드보다 작아야 섬이라고 부를 수 있게 되어 있어서 그래요.",
+            "turn_id": "BK22005233-4",
+            "utterance_id": "BK22005233.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 섬에 대한 나름의 규정이 있었군요. 그럼 우리나라에는 현재 섬이 몇 개예요?",
+            "turn_id": "BK22005233-5",
+            "utterance_id": "BK22005233.9"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "유인도는 행정안전부가, 무인도는 해양수산부가 맡는다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "두 기관에 따르면 남한의 유인도는 제주도를 포함해 473개(2016년 9월 기준), 무인도는 2876개(2012년 기준)다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "우리나라 섬의 수",
+            "terminate": false,
+            "text": "섬은 유인도와 무인도로 나눌 수 있는데, 유인도는 행정안전부가 관리하고 무인도는 해양수산부가 관리해요. 이 기관들에 따르면 2016년 기준 우리나라의 유인도 수는 제주도까지 합쳐서 473개예요. 무인도는 2012년 기준으로 2876개이고요.",
+            "turn_id": "BK22005233-5",
+            "utterance_id": "BK22005233.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 섬이 정말 많네요! 그런데 다리를 지어서 육지랑 연결된 섬도 섬으로 치나요?",
+            "turn_id": "BK22005233-6",
+            "utterance_id": "BK22005233.11"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "행정안전부에 따르면, 다리로 연결된 연륙도는 10년 뒤엔 도서개발촉진법상 섬에서 제외되는 것이 원칙이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 관행상 도서지역으로 관리된다고 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "연륙도는 섬일까",
+            "terminate": false,
+            "text": "행정안전부에서 말한 바에 의하면, 다리로 섬과 육지가 연결된 연륙도는 도서개발 촉진법상 10년이 지나면 섬에서 빠져야 해요. 관행에 따라 도서 지역으로 분류해 관리하긴 하지만요.",
+            "turn_id": "BK22005233-6",
+            "utterance_id": "BK22005233.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 시간이 흐르면 섬이 아니게 되는 거군요. 문득 궁금해졌는데, 북한에도 섬이 있나요?",
+            "turn_id": "BK22005233-7",
+            "utterance_id": "BK22005233.13"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "북한의 섬 대부분은 서해안 쪽에 몰려 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "곳곳에서 간척사업이 진행돼 섬과 해안지형이 바뀐 곳이 많다고 한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "북한의 섬 분포",
+            "terminate": false,
+            "text": "그럼요. 북한은 서해안 쪽에 대부분의 섬이 자리하고 있어요. 간척사업이 이루어진 곳들이 많아서 해안지형과 섬이 처음 모습과 달라진 부분이 많아요.",
+            "turn_id": "BK22005233-7",
+            "utterance_id": "BK22005233.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 북한의 섬은 어떤 모습일지 궁금하네요. 제일 큰 섬은 어떤 거예요?",
+            "turn_id": "BK22005233-8",
+            "utterance_id": "BK22005233.15"
+        },
+        {
+            "reference_date": "2017-08-31",
+            "reference_text": [
+                {
+                    "value": "북한에서 가장 큰 섬은 압록강 하구 서쪽 중국 접경의 삼각주 섬인 신도(비단섬)다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경도상 한반도의 가장 서쪽 끝이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/specialsection/esc_section/809057.html",
+            "search_query": "북한 신도",
+            "terminate": false,
+            "text": "북한에서 가장 크기가 큰 섬은 삼각주로 이루어진 신도예요. 비단섬이라고도 부르는데, 압록강 하구의 서쪽에 위치해 있어서 중국이랑 가깝죠. 경도로 따지면 한반도에서 서쪽 제일 끝에 위치한 거라고 보면 돼요.",
+            "turn_id": "BK22005233-8",
+            "utterance_id": "BK22005233.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 이야기로 들으니 더욱 호기심이 생기네요. 언젠가 가볼 수 있으면 참 좋겠어요.",
+            "turn_id": "BK22005233-9",
+            "utterance_id": "BK22005233.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에 있는 섬들이랑은 느낌이 또 다를 것 같죠?",
+            "turn_id": "BK22005233-9",
+            "utterance_id": "BK22005233.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 섬 투어 해보니까 재밌던데 색다른 경험이 될 것 같아요. 일단 내년에는 뱀이 없는 울릉도로 휴가를 가야겠고요!",
+            "turn_id": "BK22005233-10",
+            "utterance_id": "BK22005233.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "울릉도도 관광하기 너무 좋죠. 내년에도 재밌는 섬 투어하길 바랄게요!",
+            "turn_id": "BK22005233-10",
+            "utterance_id": "BK22005233.20"
+        }
+    ]
+}

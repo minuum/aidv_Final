@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006730",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006730",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 이번 학기에 국제학 과목을 신청했어. 요새 브렉시트에 관해서 공부하는 중이야.",
+            "turn_id": "BK22006730-1",
+            "utterance_id": "BK22006730.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 지난 학기부터 듣고 싶다고 하더니 드디어 신청했구나. 재미있어?",
+            "turn_id": "BK22006730-1",
+            "utterance_id": "BK22006730.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 그래, 너 만나면 여러 가지 물어보려던 참이었어. 특히 북아일랜드에 관한 이슈들이 너무 복잡해서 이해가 잘 안 가. 북아일랜드에는 영국을 선호하는 파와 아일랜드를 선호하는 파가 있는 거지?",
+            "turn_id": "BK22006730-2",
+            "utterance_id": "BK22006730.3"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "이후 북아일랜드는 가톨릭을 믿으며 민족적·정서적으로 아일랜드와 가까운 이른바 ‘신페인’, 그리고 개신교를 신봉하며 영국에 친밀감을 느끼는 이른바 ‘얼스터’, 두 진영으로 갈라져 반목을 거듭해왔다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220726504763?OutUrl=naver",
+            "search_query": "북아일랜드 신페인 얼스터",
+            "terminate": false,
+            "text": "응, 맞아. 북아일랜드에는 서로 사이가 안 좋은 두 진영이 있어. 민족적, 정서적으로 아일랜드와 더 가깝고 가톨릭을 믿는 신페인, 그리고 영국과 더 가깝고 개신교를 믿는 얼스터지.",
+            "turn_id": "BK22006730-2",
+            "utterance_id": "BK22006730.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신페인과 얼스터라고 부르는구나. 예전에는 북아일랜드에서 테러도 있었던 것 같은데, 이제는 그런 무력 분쟁은 끝난 거야?",
+            "turn_id": "BK22006730-3",
+            "utterance_id": "BK22006730.5"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "북아일랜드 분쟁을 종식시킨 것은 1998년에 체결된 '벨파스트 평화협정'이었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "금요일에 체결돼 '굿 프라이데이 협정'으로 불리는 이 협정으로 아일랜드 민족주의자들과 친영국 연합주의들 간에 타협이 이뤄졌다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5765228",
+            "search_query": "영국 북아일랜드 역사",
+            "terminate": false,
+            "text": "응, 1998년 체결된 벨파스트 평화협정으로 인해서 북아일랜드 분쟁은 끝났어. 이 협정은 금요일에 체결이 되었기 때문에 굿 프라이데이 협정이라는 이름으로도 불리는데, 아일랜드 민족주의자들과 친영국 연합주의 사이의 타협을 이루어냈지.",
+            "turn_id": "BK22006730-3",
+            "utterance_id": "BK22006730.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1998년이면 정말 얼마 안 됐구나. 벨파스트 협정 이전에 주요 무력 분쟁으로는 어떤 것들이 있었어?",
+            "turn_id": "BK22006730-4",
+            "utterance_id": "BK22006730.7"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "이 협정 체결 이전까지 영국령 북아일랜드는 ‘피의 일요일’과 ‘피의 금요일’ 사건(1972)이 연이어 발생하는 등, 그야말로 바람 앞의 촛불이었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘피의 일요일’ 사건은 영국군이 발포, ‘피의 금요일’은 약 반년 후 IRA가 일으킨 테러로 무고한 시민이 희생됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25079217",
+            "search_query": "북아일랜드 ira",
+            "terminate": false,
+            "text": "벨파스트 협정이 체결되기 전까지 영국령 북아일랜드에서는 1972년 피의 일요일, 피의 금요일 사건 등이 연이어 발생했었지. 마치 바람 앞의 촛불 같았어. 피의 일요일은 영국군이 발포했던 사건이고, 피의 금요일은 그로부터 약 반년 후에 IRA가 일으킨 테러 사건이야.",
+            "turn_id": "BK22006730-4",
+            "utterance_id": "BK22006730.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 협정이 있어서 다행이네. 협정의 구체적인 내용이 뭔데?",
+            "turn_id": "BK22006730-5",
+            "utterance_id": "BK22006730.9"
+        },
+        {
+            "reference_date": "2019-01-28",
+            "reference_text": [
+                {
+                    "value": "벨파스트 협정에서 영국은 아일랜드와 북아일랜드 간 자유로운 통행과 무역을 보장했고, 아일랜드는 북아일랜드 6개 주에 대한 영유권 주장을 포기하기로 했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2019/01/28/2019012800144.html?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "벨파스트 협정 국경",
+            "terminate": false,
+            "text": "벨파스트 협정을 통해서 영국은 아일랜드와 북아일랜드 사이에 통행과 무역의 자유를 보장했어. 아일랜드는 북아일랜드 6개 주에 대해서 영유권을 주장하는 일을 그만두기로 결정했지.",
+            "turn_id": "BK22006730-5",
+            "utterance_id": "BK22006730.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아일랜드와 북아일랜드의 관계를 인정해 줌으로써 타협을 한 거네. 그럼 브렉시트가 큰 문제가 되지 않아? 아일랜드는 EU에 속해 있고 북아일랜드는 더 이상 EU가 아닌데, 아일랜드와 북아일랜드가 아직도 자유롭게 교역할 수 있어?",
+            "turn_id": "BK22006730-6",
+            "utterance_id": "BK22006730.11"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "영국과 EU는 브렉시트 이후에도 북아일랜드를 EU 단일시장에 남겨두기로 하고 북아일랜드 협약을 맺었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북아일랜드가 영국의 일부이지만 아일랜드와 국경이 맞닿은 특수성 등을 고려한 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220511002600085?input=1195m",
+            "search_query": "브렉시트 북아일랜드 협약",
+            "terminate": false,
+            "text": "응, 영국과 EU는 북아일랜드 협약을 맺음으로써 브렉시트 후에도 북아일랜드가 EU 단일시장에 남아있을 수 있도록 했어. 북아일랜드가 아일랜드와 국경이 맞닿아 있는 영국 영토이니, 그 특수성을 고려한 거지.",
+            "turn_id": "BK22006730-6",
+            "utterance_id": "BK22006730.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영국은 EU가 아닌데 영국령 북아일랜드만 아직도 EU에 속하다니, 특이한 방식이네. 북아일랜드 내 영국 지지 세력은 이에 대해 불만이 있을 것 같은데, 어때?",
+            "turn_id": "BK22006730-7",
+            "utterance_id": "BK22006730.13"
+        },
+        {
+            "reference_date": "2022-05-17",
+            "reference_text": [
+                {
+                    "value": "그러나 북아일랜드 협약에 따라 영국 본토에서 북아일랜드로 건너오는 상품이 통관과 검역을 거치게 되자 북아일랜드 연방주의자들은 본토와 사이에 새로운 장벽이 생긴 데 큰 불만을 품게 됐고 민족주의자 진영과 충돌했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220517006800085?input=1195m",
+            "search_query": "북아일랜드 협약 EU",
+            "terminate": false,
+            "text": "네 말이 맞아. 북아일랜드 연방주의자들은 북아일랜드 협약 때문에 영국 본토에서 북아일랜드로 들어오는 상품들이 통관과 검역을 거치는 등 본토와 북아일랜드 사이에 하나의 장벽이 생긴 데 대해서 불만의 목소리가 커.",
+            "turn_id": "BK22006730-7",
+            "utterance_id": "BK22006730.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 꽤 큰 문제 같은데, 영국은 여기에 대해서 뭔가 조치를 취하고 있어?",
+            "turn_id": "BK22006730-8",
+            "utterance_id": "BK22006730.15"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "보리스 존슨 영국 총리가 브렉시트 합의의 일부였던 북아일랜드 협약을 무효화하는 법안을 추진하고 있는 것으로 알려졌다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/2141340",
+            "search_query": "영국 무효화 북아일랜드",
+            "terminate": false,
+            "text": "응, 보리스 존슨 영국 총리는 브렉시트 합의 사항 중 하나였던 북아일랜드 협약을 무효화하려고 하고 있어. 관련 법안을 준비하고 있는 것으로 알려졌지.",
+            "turn_id": "BK22006730-8",
+            "utterance_id": "BK22006730.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "협약을 무효화하다니, 쉽지 않은 과정이 되겠네. 북아일랜드 쪽의 정치 상황은 어때?",
+            "turn_id": "BK22006730-9",
+            "utterance_id": "BK22006730.17"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "오랫동안 준군사조직인 아일랜드공화국군(IRA)와 연관돼 있던 신페인은 북아일랜드 의회 90석 중 27석을 확보해 민족주의 정당으로서 처음으로 다수당이 됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국과의 연합을 지향하며 지난 20년 간 다수당이었던 민주연합당은 25석, 연합과 독립된 통일 공화국 어느 쪽도 지지하지 않는 중립파인 북아일랜드연합당은 17석을 차지했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://vop.co.kr/A00001612620.html",
+            "search_query": "북아일랜드 신페인",
+            "terminate": false,
+            "text": "준군사조직인 IRA와 연관된 민족주의 정당 신페인이 역사상 처음으로 다수당이 됐어. 북아일랜드 의회 90석 중 27석을 확보했거든. 지난 20년간 다수당이었던 민주연합당이 영국과의 연합을 지향하는 당인데 25석을 차지했고, 연합이나 독립된 통일 공화국 둘 다를 특별히 지지하지 않는 중립인 북아일랜드연합당은 17석을 차지했어.",
+            "turn_id": "BK22006730-9",
+            "utterance_id": "BK22006730.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립을 지지하는 당이 역사상 처음으로 다수당이 됐다니, 앞으로 영국과 아일랜드는 국제사회의 주시 대상이겠구나. 덕분에 많이 배웠어. 이제 수업 들어가 봐야겠어.",
+            "turn_id": "BK22006730-10",
+            "utterance_id": "BK22006730.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 가. 또 궁금한 거 있으면 문자해도 돼.",
+            "turn_id": "BK22006730-10",
+            "utterance_id": "BK22006730.20"
+        }
+    ]
+}

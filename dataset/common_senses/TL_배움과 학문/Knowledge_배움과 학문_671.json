@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004201",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004201",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 손이 닿는 곳마다 정전기가 나서 너무 스트레스를 받고 있어. 도대체 정전기는 왜 생기는 거야?",
+            "turn_id": "BK22004201-1",
+            "utterance_id": "BK22004201.1"
+        },
+        {
+            "reference_date": "2019-10-01",
+            "reference_text": [
+                {
+                    "value": "정전기가 발생하는 이유는 마찰 때문이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생활하면서 신체가 물체와 접촉할 때 전자를 주고받게 되는데 이 과정에서 전기가 조금씩 저장된다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러다가 적정 한도 이상으로 전기가 쌓였을 때 적절한 유도체에 닿게 되면 쌓였던 전기가 순식간에 불꽃을 튀기며 이동하게 되는데 이것이 정전기 현상이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2019093013371755911",
+            "search_query": "정전기 이유",
+            "terminate": false,
+            "text": "정전기를 일으키는 원인은 마찰이야. 신체가 어떤 물체와 닿게 되면 서로 전자를 교환하는데 이 과정에서 전기가 조금씩 쌓이게 되거든. 이렇게 저장된 전기가 적정한 한도 이상이 되면 적절한 유도체와 접촉했을 때 저장되었던 전기가 순식간에 불꽃을 일으키며 이동하게 되는데 이를 가리켜서 정전기 현상이라고 부르는 거야.",
+            "turn_id": "BK22004201-1",
+            "utterance_id": "BK22004201.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 전기가 이동할 때 전압도 생길 것 같은데, 정전기의 전압은 어떻게 돼?",
+            "turn_id": "BK22004201-2",
+            "utterance_id": "BK22004201.3"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "이 때 발생하는 정전기의 전압은 2000~5000V(볼트)의 고압이지만 전류가 약해 감전은 걱정하지 않아도 된다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220530500084&wlog_tag3=naver",
+            "search_query": "정전기 전압",
+            "terminate": false,
+            "text": "정전기가 발생할 때 2000에서 5000볼트 정도의 고전압이 흐르지만 전류는 약한 편이기 때문에 감전에 대한 걱정은 안 해도 돼.",
+            "turn_id": "BK22004201-2",
+            "utterance_id": "BK22004201.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 흔히 쓰는 전기의 전압이 220볼트인 걸 생각해 보면 정전기의 전압이 엄청 높구나. 그래도 감전될 일이 없다고 하니 다행이네.",
+            "turn_id": "BK22004201-3",
+            "utterance_id": "BK22004201.5"
+        },
+        {
+            "reference_date": "2018-01-26",
+            "reference_text": [
+                {
+                    "value": "정전기는 전류량이 거의 없고 매우 짧은 시간만 흐르기 때문에 짜릿한 느낌은 있으나 감전되는 일은 없습니다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "단 불이 붙기 쉬운 기름이나 가스 등과 닿는다면 화재나 폭발이 일어날 수 있으니 주의하세요.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsway.co.kr/news/view?tp=1&ud=2018012615270376454",
+            "search_query": "정전기 폭발",
+            "terminate": false,
+            "text": "응, 앞서 말했듯이 전류의 양이 아주 적고 정전기가 흐르는 시간 또한 짧기 때문에 짜릿한 느낌만 경험하게 되는 거야. 그래서 감전 걱정은 할 필요가 없지만 가스나 기름같이 발화하기 쉬운 물체와 접촉하는 경우에는 폭발이 발생할 수도 있어서 조심해야 해.",
+            "turn_id": "BK22004201-3",
+            "utterance_id": "BK22004201.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그 부분은 미처 생각하지 못했네. 그럼 혹시 정전기를 예방하는 방법에 대해서도 알고 있어?",
+            "turn_id": "BK22004201-4",
+            "utterance_id": "BK22004201.7"
+        },
+        {
+            "reference_date": "2016-01-20",
+            "reference_text": [
+                {
+                    "value": "정전기는 건조할 때 잘 생기므로 이를 줄이기 위해서는 적절한 습도를 유지하는 것이 좋다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2016/01/20/2016012001323.html",
+            "search_query": "정전기 습도",
+            "terminate": false,
+            "text": "일반적으로 건조한 상황에서 정전기가 잘 발생하기 때문에 정전기 발생을 줄이기 위해서는 적절하게 습도를 유지해 주는 게 좋아.",
+            "turn_id": "BK22004201-4",
+            "utterance_id": "BK22004201.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "습도 유지가 중요한 거였구나. 그런데 정전기는 왜 건조한 환경에서 잘 생기는 거야?",
+            "turn_id": "BK22004201-5",
+            "utterance_id": "BK22004201.9"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "정전기는 건조한 상태에서 잘 발생한다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정전기가 빠져나갈 통로인 수분이 부족하기 때문이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러므로 피부 자체가 건조한 사람은 정전기를 자주 겪을 수밖에 없다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/03/02/2022030201883.html",
+            "search_query": "정전기 건조 수분",
+            "terminate": false,
+            "text": "건조한 상태에서 정전기가 더 잘 일어나게 되는 건 수분이 정전기가 빠져나가는 통로로 사용되기 때문이야. 피부가 건조해서 수분이 부족한 상태가 되면 그만큼 정전기가 더 자주 생기게 되는 거지.",
+            "turn_id": "BK22004201-5",
+            "utterance_id": "BK22004201.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 건조하지 않게 습도를 조절하는 것 이외에 또 어떤 것을 통해 정전기를 예방할 수 있어?",
+            "turn_id": "BK22004201-6",
+            "utterance_id": "BK22004201.11"
+        },
+        {
+            "reference_date": "2019-01-17",
+            "reference_text": [
+                {
+                    "value": "특히 의류 세탁 시에는 마지막 헹굼단계에 섬유유연제를 사용하면 섬유를 부드럽게 해 정전기 예방에 도움을 줍니다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20190117135645729",
+            "search_query": "정전기 예방 섬유유연제",
+            "terminate": false,
+            "text": "옷을 세탁할 때 섬유유연제를 마지막 헹굼 단계에서 넣어주면 섬유유연제가 섬유를 부드럽게 만들어 주기 때문에 정전기를 방지하는 데 도움이 될 수 있어.",
+            "turn_id": "BK22004201-6",
+            "utterance_id": "BK22004201.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "섬유유연제만으로도 효과를 볼 수 있다니 정말 간편한 방법인걸? 정전기를 방지하는 또 다른 방법도 있으면 알려줄래?",
+            "turn_id": "BK22004201-7",
+            "utterance_id": "BK22004201.13"
+        },
+        {
+            "reference_date": "2019-01-23",
+            "reference_text": [
+                {
+                    "value": "옷을 벗을 때는 상의가 아닌 양말부터 벗으면 정전기를 막을 수 있고, 옷에 옷핀을 꽂아두는 것도 효과적이다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20190123.99099009680",
+            "search_query": "정전기 옷핀",
+            "terminate": false,
+            "text": "옷핀을 옷에 꽂아두는 것도 정전기 방지에 효과적이야. 그리고 탈의 시 상의보다 양말을 먼저 벗는 것 또한 정전기 발생을 막을 수 있지.",
+            "turn_id": "BK22004201-7",
+            "utterance_id": "BK22004201.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실생활에 적용하기 쉬운 방법들이네. 혹시 정전기로 인해 치마가 다리에 자꾸 들러붙을 때는 어떻게 하는 게 좋을까? 출근할 때마다 다리에 찰싹 붙어서 스트레스를 받고 있거든.",
+            "turn_id": "BK22004201-8",
+            "utterance_id": "BK22004201.15"
+        },
+        {
+            "reference_date": "2019-10-01",
+            "reference_text": [
+                {
+                    "value": "외출 시 스커트나 바지가 몸에 달라붙으면 로션이나 크림을 다리나 스타킹에 발라주면 정전기를 없앨 수 있다.",
+                    "value_time": "2022-07-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2019093013371755911",
+            "search_query": "정전기 다리 로션",
+            "terminate": false,
+            "text": "외출 시에 크림이나 로션을 다리 혹은 스타킹에 발라주면 정전기로 인해 스커트나 바지가 정전기로 몸에 붙는 문제를 해결할 수 있지.",
+            "turn_id": "BK22004201-8",
+            "utterance_id": "BK22004201.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하! 이 방법은 내일 당장 출근할 때 사용해 봐야겠어.",
+            "turn_id": "BK22004201-9",
+            "utterance_id": "BK22004201.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 정전기에 대해 더 궁금한 점이 있어?",
+            "turn_id": "BK22004201-9",
+            "utterance_id": "BK22004201.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아냐, 오늘 알려준 것만으로도 충분할 것 같아. 정말 고마워!",
+            "turn_id": "BK22004201-10",
+            "utterance_id": "BK22004201.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 나중에 또 궁금한 게 있으면 편하게 물어봐!",
+            "turn_id": "BK22004201-10",
+            "utterance_id": "BK22004201.20"
+        }
+    ]
+}

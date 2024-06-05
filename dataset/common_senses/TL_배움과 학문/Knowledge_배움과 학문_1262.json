@@ -1,0 +1,452 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001072",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001072",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 꿀벌에 대해 잘 알고 계시나요? 요즘 양봉에 관심이 생기고 있는데 꿀벌에 대한 지식이 없네요.",
+            "turn_id": "BK22001072-1",
+            "utterance_id": "BK22001072.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 제가 평소에 곤충을 좋아해서 꿀벌에 대해 잘 알고 있어요.",
+            "turn_id": "BK22001072-1",
+            "utterance_id": "BK22001072.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 몇 가지 궁금한 부분 여쭤볼게요. 혹시 꿀벌을 어떻게 정의하면 될까요?",
+            "turn_id": "BK22001072-2",
+            "utterance_id": "BK22001072.3"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "꿀벌은 꿀벌속(Apis)에 속하는 곤충의 총칭으로, 꿀벌과에 속한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 꿀벌은 이름 그대로 꿀을 저장하고 생산하는 벌으로, 꿀벌로부터 채취한 꿀을 벌꿀이라고 부른다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%BF%80%EB%B2%8C",
+            "search_query": "꿀벌",
+            "terminate": false,
+            "text": "꿀벌은 꿀벌과에 속하는 곤충이고, 이름처럼 꿀을 저장하고 생산하는 벌이라고 정의할 수 있어요. 그리고 꿀벌이 채취한 꿀을 벌꿀이라고 하죠.",
+            "turn_id": "BK22001072-2",
+            "utterance_id": "BK22001072.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 꿀벌이 꽃을 누비면서 하는 일은 무엇인가요?",
+            "turn_id": "BK22001072-3",
+            "utterance_id": "BK22001072.5"
+        },
+        {
+            "reference_date": "2019-07-17",
+            "reference_text": [
+                {
+                    "value": "벌은 식물의 수분(가루받이·수술의 꽃가루가 암술에 옮겨지게 하는 과정)을 돕는다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식물은 이 가루받이가 이뤄져야 열매를 맺고 번식할 수 있기 때문에 수분 매개자로서 벌과 같은 곤충의 역할은 상당히 중요하다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리가 일상에서 먹는 농작물 중 3분의 1(약 17만종)이 벌의 도움으로 만들어진다고 한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2019/07/530047/",
+            "search_query": "식물 수분",
+            "terminate": false,
+            "text": "일단 꿀벌은 식물의 수분을 도와 식물이 열매를 맺고 번식할 수 있게 해주는 역할을 하죠. 농작물 중 3분의 1 가량이 벌의 도움으로 만들어지는 정도랍니다.",
+            "turn_id": "BK22001072-3",
+            "utterance_id": "BK22001072.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꿀벌이 굉장히 중요한 역할을 하는군요. 꿀은 그럼 어떻게 만들어지나요?",
+            "turn_id": "BK22001072-4",
+            "utterance_id": "BK22001072.7"
+        },
+        {
+            "reference_date": "2021-06-08",
+            "reference_text": [
+                {
+                    "value": "꿀벌은 꽃과 꽃 사이를 누비며 꽃 속의 꽃가루를 물어다 모은다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모아둔 꽃가루를 다시 삼키고 뱉으며 배 속에서 분비된 효소를 혼합하면, 단물 속의 자당이 과당과 포도당으로 분해되고 벌의 타액 속의 다양한 효소까지 혼합되면 달콤한 꿀이 된다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.iusm.co.kr/news/articleView.html?idxno=913116",
+            "search_query": "꿀벌 꿀",
+            "terminate": false,
+            "text": "네, 꿀벌은 꽃을 누비며 꽃 속의 꽃가루를 모으죠. 모은 꽃가루를 다시 삼키고 뱉으며 배 속에서 분비된 효소를 혼합해 꿀을 만든답니다.",
+            "turn_id": "BK22001072-4",
+            "utterance_id": "BK22001072.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 꿀이 되는군요. 아, 꿀벌이 계급 생활을 한다고 하는데 맞는지 궁금해요.",
+            "turn_id": "BK22001072-5",
+            "utterance_id": "BK22001072.9"
+        },
+        {
+            "reference_date": "2021-10-13",
+            "reference_text": [
+                {
+                    "value": "벌집에는 이렇게 꽃꿀을 따오는 일벌과, 새로운 벌을 생산하는 여왕벌, 그리고 여왕벌의 번식을 돕는 수벌 등 세 종류의 벌이 산다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/10/968907/",
+            "search_query": "벌집",
+            "terminate": false,
+            "text": "네, 일단 벌집에는 벌을 생산하는 여왕벌, 꽃꿀을 따오는 일벌, 여왕벌의 번식을 돕는 수벌이 살아요.",
+            "turn_id": "BK22001072-5",
+            "utterance_id": "BK22001072.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 담당하는 역할이 다르다니, 신기하네요.",
+            "turn_id": "BK22001072-6",
+            "utterance_id": "BK22001072.11"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "꿀벌은 계급사회를 형성하여 생활하는데, 일벌이 먹이가 있는 곳을 팔(8)자모양의 춤으로 알려주어서 공유할만큼 공동체의식이 강하다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여왕벌은 수벌과의 번식을 통해 대를 잇는데, 할일이 끝난 수벌은 공동체 유지를 위해 무리에서 추방당하거나 살해당한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여왕벌이 알을 낳아서 애벌레가 부화하면 일벌은 로열 젤리를 먹이로 제공하여 성숙하도록 한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중에서 여왕벌이 될 예정인 애벌레에게 보다 많은 양의 로열 젤리를 장기간 제공한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 통해 지정된 애벌레는 난소 등의 생식 기관을 발달시킬 수 있게되어 성충이 되었을 때, 여왕벌이 될 능력을 갖추게 된다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%BF%80%EB%B2%8C",
+            "search_query": "꿀벌 사회",
+            "terminate": false,
+            "text": "네, 꿀벌의 계급 사회는 정말 신기하죠. 일벌이 먹이가 있는 곳을 알려주며 공유할 만큼 공동체의식이 강하답니다. 여왕벌은 수벌과의 번식을 통해 대를 잇고, 할 일이 끝난 수벌은 무리에서 추방당하거나 살해당해요. 여왕벌이 알을 낳고 애벌레가 부화하면 일벌이 제공하는 로열 젤리를 먹죠. 이 중 여왕벌이 될 애벌레에게 보다 많은 양의 로열 젤리를 제공하게 되고, 여왕벌이 될 능력을 갖추게 돼요.",
+            "turn_id": "BK22001072-6",
+            "utterance_id": "BK22001072.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌집 안에서 그런 일이 벌어지는군요. 혹시 꿀벌들의 침은 다 같은가요?",
+            "turn_id": "BK22001072-7",
+            "utterance_id": "BK22001072.13"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "일벌과 여왕벌은 독침을 가지고 있으나 수벌은 독침이 없다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일벌의 독침은 천적을 만나면 사용한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 거꾸로 된 가시가 있어서 사람 같은 포유류나 조류들에게 침을 박으면 침이 내장과 함께 빠져나가면서 죽는데, 사실 이 거꾸로된 가시는 곤충들에게 침을 박을 때 쉽게 빼려고 있는 것이다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여왕벌의 독침은 다른 여왕벌과 싸울 때만 사용한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "거꾸로된 가시가 없어서 침을 쏜다고 내장이 빠져나가 죽지 않는다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%BF%80%EB%B2%8C",
+            "search_query": "일벌 독침",
+            "terminate": false,
+            "text": "수벌을 제외하고 여왕벌과 일벌은 독침을 갖고 있어요. 일벌은 천적을 만나면 독침을 사용하는데 가시가 거꾸로 되어 있어 곤충들에게 침을 박은 후 쉽게 뺄 수 있지만 포유류나 조류의 경우 침을 빼면서 내장도 함께 빠져 죽는답니다. 반면 여왕벌은 다른 여왕벌과 싸울 때만 독침을 사용하고, 가시가 거꾸로 되어 있지 않아서 일벌처럼 죽지 않아요.",
+            "turn_id": "BK22001072-7",
+            "utterance_id": "BK22001072.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "침에도 그런 차이가 있었는지 몰랐어요. 꿀벌의 천적에 대해서도 궁금해요.",
+            "turn_id": "BK22001072-8",
+            "utterance_id": "BK22001072.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "천적으로는 말벌과 개미, 사마귀, 거미, 잠자리 등이 있다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 말벌은 벌꿀과 애벌레, 꿀벌을 약탈하고 포획하기 위해서 꿀벌의 집을 습격하는 가장 무서운 적이다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%BF%80%EB%B2%8C",
+            "search_query": "꿀벌 천적",
+            "terminate": false,
+            "text": "꿀벌의 천적은 말벌과 개미, 거미 등이 있어요. 그중에서도 말벌은 벌꿀과 애벌레, 꿀벌을 약탈하려고 하기 때문에 가장 천적이라고 할 수 있죠.",
+            "turn_id": "BK22001072-8",
+            "utterance_id": "BK22001072.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유에서 꿀벌 집을 습격하는군요. 꿀벌 집에 큰 말벌이 꼭 몇 마리씩 있다는 걸 본 적 있어요. 그럴 때 꿀벌은 말벌에게 당하는 건가요?",
+            "turn_id": "BK22001072-9",
+            "utterance_id": "BK22001072.17"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "그런데 아무리 나약한 꿀벌이지만 막무가내로 말벌에게 당하고만 있지 않는다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "집을 지키는 늙은 일벌인 문지기꿀벌(entrance guard bees)들이 인해전술로 말벌을 공처럼 둘러싸서 죽이기 때문에 말벌도 조심한다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56880",
+            "search_query": "꿀벌 공격",
+            "terminate": false,
+            "text": "꿀벌이 나약하지만, 당하고 있지는 않아요. 늙은 일벌인 문지기 꿀벌들이 인해전술로 말벌을 공처럼 둘러싸서 죽일 수 있어요.",
+            "turn_id": "BK22001072-9",
+            "utterance_id": "BK22001072.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘러싸서 죽인다니, 더 자세하게 알려주세요.",
+            "turn_id": "BK22001072-10",
+            "utterance_id": "BK22001072.19"
+        },
+        {
+            "reference_date": "2020-09-25",
+            "reference_text": [
+                {
+                    "value": "꿀벌은 집단으로 말벌에 달려들어 봉구(峰球,bee ball)를 만들어 그 안의 온도를 46℃까지 끌어올린다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "말벌들은 주변 온도가 46℃이상 되면 못 버티고 죽지만, 꿀벌은 48℃까지 버틸 수 있다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=56880",
+            "search_query": "꿀벌 온도",
+            "terminate": false,
+            "text": "말벌을 공처럼 둘러싸서 그 안의 온도를 46도까지 끌어올려 죽이는 거예요. 말벌들은 온도가 46도 이상 되면 못 버티거든요. 반면 꿀벌은 48도까지 버틸 수 있답니다.",
+            "turn_id": "BK22001072-10",
+            "utterance_id": "BK22001072.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꿀벌이 그런 기술을 사용해 말벌을 처치한다니, 대단하네요. 마지막으로 꿀벌과 관련해서 꿀은 알겠는데 로열 젤리와 프로폴리스가 다른지 같은지 궁금해요.",
+            "turn_id": "BK22001072-11",
+            "utterance_id": "BK22001072.21"
+        },
+        {
+            "reference_date": "2016-10-28",
+            "reference_text": [
+                {
+                    "value": "프로폴리스, 꿀, 로열젤리는 모두 꿀벌과 관계 있지만 성분은 다르다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로열젤리는 벌들이 사용하는 영양제, 프로폴리스는 벌들이 사용하는 항생제이며 로열젤리는 꿀벌 중 일벌이 유충을 기르는 동안에만 분비하는 일종의 꿀벌의 젖과 같은 물질로 여왕벌이 될 유충에게 로열젤리를 통해 집중적으로 영양을 공급, 여왕벌의 형태를 갖추는 것을 돕는다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프로폴리스의 경우 벌들이 각종 식물에서 채집한 물질을 자신의 효소, 침 등을 섞어 만드는 항생제로 벌집의 틈이 난 곳에 프로폴리스를 발라 병균, 바이러스로부터 스스로를 보호하고 말벌이나 쥐와 같은 적의 침입을 막는다.",
+                    "value_time": "2022-07-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/10/28/society/generalsociety/4721094.html",
+            "search_query": "프로폴리스 로열젤리",
+            "terminate": false,
+            "text": "아, 로열 젤리와 프로폴리스의 성분은 달라요. 이전에 말씀드렸듯이 로열젤리는 일벌이 여왕벌이 될 유충에게 집중적으로 공급하는 영양분이에요. 프로폴리스는 벌들이 식물에서 채집한 물질을 자신의 효소 등을 섞어 만든 항생제로 벌집의 틈에 발라 병균으로부터 보호하거나 적의 침입을 막을 때 쓰죠.",
+            "turn_id": "BK22001072-11",
+            "utterance_id": "BK22001072.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 차이가 있었군요. 좋은 정보 주셔서 감사해요. 덕분에 오늘 새로운 사실을 많이 알게 되었네요.",
+            "turn_id": "BK22001072-12",
+            "utterance_id": "BK22001072.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 또 궁금한 게 있으시면 언제든 연락주세요.",
+            "turn_id": "BK22001072-12",
+            "utterance_id": "BK22001072.24"
+        }
+    ]
+}

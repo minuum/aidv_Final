@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005861",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005861",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 무협지를 보는데 전설의 동물이라며 기린이 등장하더라고, 찾아보니까 정말 전설 속의 동물로 정말 기린이 있던데 이게 내가 아는 진짜 기린이랑 이름만 같은 거야?",
+            "turn_id": "BK22005861-1",
+            "utterance_id": "BK22005861.1"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "‘기린’이란 이름은 명나라 때 붙은 것인데, 정화가 동아프리카에서 기린을 실어 명나라에 가져오자, 사람들이 이를 전설의 생물인 ‘기린(麒麟)’이라 부른 것에서 비롯한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린",
+            "terminate": false,
+            "text": "우리가 아는 기린이 바로 이 전설의 기린에서 이름을 따온 거야. 명나라 때 정화가 동아프리카에서 명나라로 기린을 실어 왔는데 사람들이 그걸 보고 전설의 동물과 닮았다며 그 이름을 따와서 기린이라고 부른 거지.",
+            "turn_id": "BK22005861-1",
+            "utterance_id": "BK22005861.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇게 된 거구나, 나도 기린이 항상 신기하게 생겼다고 생각하긴 했어. 목도 엄청 길고 크잖아, 정확히 덩치가 얼마나 되는 거지?",
+            "turn_id": "BK22005861-2",
+            "utterance_id": "BK22005861.3"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "목이 긴 육상 동물이며 또한 가장 큰 반추 동물이기도 하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수컷은 키가 4.8m~5.5m이며 몸무게는 1700kg까지 나간다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 키",
+            "terminate": false,
+            "text": "반추 동물 중에서 제일 큰데 수컷의 경우 키가 4.8미터에서 5.5미터까지 자라고 몸무게는 1700킬로 까지 나가.",
+            "turn_id": "BK22005861-2",
+            "utterance_id": "BK22005861.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 내 생각보다 훨씬 컸구나. 무늬도 특이하던데 무슨 색이었지?",
+            "turn_id": "BK22005861-3",
+            "utterance_id": "BK22005861.5"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "몸 색깔은 대개 주황색이 도는 갈색, 적갈색 또는 검은색의 패치 모양의 얼룩이, 크림색이 도는 엷은 황색의 그물눈에 의해 구획되어 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 색",
+            "terminate": false,
+            "text": "아, 몸 색깔은 보통 주황색이 도는 갈색이나 적갈색 혹은 검은색 패치모양 얼룩이, 크림색이 도는 연한 황색 그물눈 무늬로 나누어져 있지.",
+            "turn_id": "BK22005861-3",
+            "utterance_id": "BK22005861.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그나저나 기린이 얼굴만 보면 뿔도 있고 사슴처럼 생기긴 했던데 생물학적으로 관련이 있으려나?",
+            "turn_id": "BK22005861-4",
+            "utterance_id": "BK22005861.7"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "기린은 사슴 및 소와 생물학상 관계가 있으며, 기린과 오카피 단 두 속만으로 구성되는 기린과에 속한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 과",
+            "terminate": false,
+            "text": "과로 따지면 기린은 오카피와 기린 두 가지 속만으로 구성된 기린과 이지만 사슴이랑 소랑도 생물학적으로 관계가 있지.",
+            "turn_id": "BK22005861-4",
+            "utterance_id": "BK22005861.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 생긴 것만 보고 판단하면 안 되는구나. 그럼 기린들은 주로 어디 살려나, 티비에 나오는 거 생각해보면 아프리카?",
+            "turn_id": "BK22005861-5",
+            "utterance_id": "BK22005861.9"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "기린의 분포 지역은 서아프리카의 차드에서 남아프리카 공화국까지에 이른다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기린은 사바나, 초원 또는 개방된 삼림 지대에 서식하며, 아카시아가 많이 자라는 지역을 좋아한다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 분포",
+            "terminate": false,
+            "text": "응, 분포 지역을 보자면 서아프리카 차드에서 남아프리카 공화국까지 뻗어있지. 사바나나 초원, 아니면 넓게 열려있는 삼림 지대에 사는데, 아카시아가 많이 자라는 지역을 좋아해.",
+            "turn_id": "BK22005861-5",
+            "utterance_id": "BK22005861.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 아프리카 쪽에 사는구나. 그쪽에 오래된 동물들이 많이 사는 거 같더라고, 그럼 기린은 어떤 조상에서 진화한 거야? 조상들도 덩치가 컸으려나?",
+            "turn_id": "BK22005861-6",
+            "utterance_id": "BK22005861.11"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "기린은 약 300-500만 년 전 유럽과 아시아에 서식하던 큰 영양과 비슷한 3m 정도 크기의 포유류에서부터 진화했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 진화",
+            "terminate": false,
+            "text": "지금처럼 크지는 않았어. 한 300에서 500만년 전 쯤에 3미터 크기 정도 되는 큰 영양과 비슷한 포유류에서 진화한 게 기린이거든. 그때는 아프리카가 아니라 유럽과 아시아 쪽에 서식했지.",
+            "turn_id": "BK22005861-6",
+            "utterance_id": "BK22005861.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 역시 사슴이랑 관련이 있다더니 조상들은 영양을 닮았구나. 그럼 최초로 기린이라고 부를만한 동물이 등장한 건?",
+            "turn_id": "BK22005861-7",
+            "utterance_id": "BK22005861.13"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "최초의 기린은 신생대(新生代) 제3기 중의 한 시대인 초기 중신세(中新世, Miocene)에 나타난 Climacoceras이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외양은 사슴과 비슷하고, 머리에 사슴뿔과 비슷한 인각(麟角, Ossicone)이 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 최초",
+            "terminate": false,
+            "text": "신생대 제 3기 초기 중신세에 등장했지. Climacoceras라고 부르는데 그때도 생긴 건 사슴이랑 비슷했고 머리에도 사슴뿔 같은 인각이 있었지.",
+            "turn_id": "BK22005861-7",
+            "utterance_id": "BK22005861.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그때의 기린들은 목이 길지는 않았나 보네? 그럼 지금처럼 목이 긴 모습의 기린은 언제 나타난 거야?",
+            "turn_id": "BK22005861-8",
+            "utterance_id": "BK22005861.15"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "현대의 목이 긴 기린인 Giraffa camelopardalis는 1백만 년 전에 처음으로 나타났다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EB%A6%B0",
+            "search_query": "기린 현대",
+            "terminate": false,
+            "text": "그건 백만년 전이라고 생각하면 돼. 현대처럼 목이 긴 Giraffa camelopardalis라는 기린이 처음 나타났지.",
+            "turn_id": "BK22005861-8",
+            "utterance_id": "BK22005861.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 오늘도 이것저것 많이 알아간다, 매번 고마워.",
+            "turn_id": "BK22005861-9",
+            "utterance_id": "BK22005861.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고맙긴, 그나저나 이제 가야 될 시간 아니야?",
+            "turn_id": "BK22005861-9",
+            "utterance_id": "BK22005861.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞다, 깜빡하고 차 놓칠 뻔했네, 나 일어날게!",
+            "turn_id": "BK22005861-10",
+            "utterance_id": "BK22005861.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 조심해서 들어가고, 안녕!",
+            "turn_id": "BK22005861-10",
+            "utterance_id": "BK22005861.20"
+        }
+    ]
+}

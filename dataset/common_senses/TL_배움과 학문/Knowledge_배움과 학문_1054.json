@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006884",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006884",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 영어 공부를 해보려고 하는데, 토익은 이미 점수가 있어요. 그래서 조금 더 어렵다는 토플을 하려고 하는데, 토플은 정확히 어떤 시험인가요?",
+            "turn_id": "BK22006884-1",
+            "utterance_id": "BK22006884.1"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "TOEFL은 대학생 수준의 표준 영어를 이해하고 사용하는 능력을 측정하는 시험이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "Test of English as a Foreign Language의 약자이며, 토플이라고 읽는다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEFL",
+            "search_query": "토플",
+            "terminate": false,
+            "text": "토플은 Test of English as a Foreign Language의 약자로, 대학생 수준의 영어를 얼마나 이해하고 사용할 수 있는지를 측정하는 시험이에요.",
+            "turn_id": "BK22006884-1",
+            "utterance_id": "BK22006884.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대학생 수준이란 어느 정도인가요? 보통 대학생들이 많이 보나 보죠?",
+            "turn_id": "BK22006884-2",
+            "utterance_id": "BK22006884.3"
+        },
+        {
+            "reference_date": "2019-11-15",
+            "reference_text": [
+                {
+                    "value": "토플은 영어권 국가의 유학을 목적으로 하는 영어를 쓰지 않는 나라의 학생들이 치는 시험이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대학에서 수업을 따라올 수 있을지를 평가하는 바탕이 되므로 대체로 미국, 캐나다 대학에서 중요하게 보는 입학요소 중 하나다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=79523",
+            "search_query": "토플 목적",
+            "terminate": false,
+            "text": "네, 토플은 보통 영어권 국가에 유학 가기를 원하는 비영어권 나라의 학생들이 치는 시험이거든요. 가려는 대학교의 수업을 제대로 들을 수 있는지가 중요하죠. 흔히 미국이나 캐나다 대학교에서 중요하게 보는 입학 요소 중의 하나이기도 하고요.",
+            "turn_id": "BK22006884-2",
+            "utterance_id": "BK22006884.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 대학교 수준의 영어라는 말이 들어가 있는 거군요. 그런데 저는 토익밖에 본 적이 없는데, 토플은 시험이 어떤 식으로 구성되어 있나요?",
+            "turn_id": "BK22006884-3",
+            "utterance_id": "BK22006884.5"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "이러한 토플은 일반적으로 많이 응시하는 토익 등의 시험과 달리 난이도가 훨씬 높은데, 이는 토익이 R/C와 L/C 두 영역으로 나눠져 있는 것과 달리 토플은 크게 읽기, 듣기, 말하기, 쓰기 4개의 영역으로 구성돼 있으며, 보다 더 학술적인 지문의 형식, 듣기의 지문 역시 평균 5분에 달하는지라 기존의 영어 모의고사나 토익에만 익숙한 경우 토플은 독학으로 고득점을 얻기란 쉽지 않은 편이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=102404",
+            "search_query": "토플 시험 구성",
+            "terminate": false,
+            "text": "토익은 보통 듣기와 읽고 나뉘어 있는 반면에 토플은 읽기, 듣기, 말하기, 쓰기 4개로 나뉘어 있는지라 토익보다 훨씬 어려워요. 게다가 지문의 형식도 더 학술적이고, 듣기 지문은 평균적으로 5분 정도에 달하죠. 토익이나 영어 모의고사 등에만 익숙한 경우에는 더 어렵게 느껴질 수도 있어요.",
+            "turn_id": "BK22006884-3",
+            "utterance_id": "BK22006884.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣기 지문이 5분이라고요? 저는 항상 짧은 지문만 들었기 때문에 어려울 수도 있겠네요. 아, 그리고 점수는 어떻게 구성되어 있나요?",
+            "turn_id": "BK22006884-4",
+            "utterance_id": "BK22006884.7"
+        },
+        {
+            "reference_date": "2020-07-17",
+            "reference_text": [
+                {
+                    "value": "150개국 1만1000개 이상의 기관에서 토플 점수를 인정하고 점수는 0~120점까지 있습니다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1918753",
+            "search_query": "토플 점수 구성",
+            "terminate": false,
+            "text": "토플의 점수는 0점에서 120점까지이고, 이 점수는 150개국의 11,000개 이상의 기관에서 인증되는 점수예요. ",
+            "turn_id": "BK22006884-4",
+            "utterance_id": "BK22006884.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "150개국에서 인정되는 점수라면 토플은 좀 어려워도 따놓는 것도 나쁘지 않을 것 같네요. 그런데 한국 사람들은 보통 토플을 몇 점이나 맞나요?",
+            "turn_id": "BK22006884-5",
+            "utterance_id": "BK22006884.9"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "YBM 한국TOEIC위원회는 2021년 전 세계 TOEFL 시행 국가 중 우리나라의 평균 성적은 86점으로(120점 만점), 성적 분석 대상 171개국 중 81위를 기록했다고 1일 밝혔다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=35116",
+            "search_query": "토플 한국 평균 점수",
+            "terminate": false,
+            "text": "YBM 한국TOEIC위원회가 발표한 바에 따르면, 2021년 기준 우리나라의 토플 평균 점수는 120점 만점에 86점이에요. 이번 조사의 대상인 171개국 중에서는 81위를 기록했죠.",
+            "turn_id": "BK22006884-5",
+            "utterance_id": "BK22006884.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "171개국 중에서 81위면 딱 중간 정도네요. 저는 한국 사람들이 영어를 엄청나게 잘한다고 생각했는데 또 그것도 아닌가 보군요. 그렇다면 상위권에 든 나라들은 어떤 나라들이었나요?",
+            "turn_id": "BK22006884-6",
+            "utterance_id": "BK22006884.11"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "전체 국가 성적을 보면 오스트리아와 트리니다드토바고, 몰타가 102점으로 가장 높았고 △독일과 슬로베니아, 스위스 100점 △네덜란드 99점 순이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4728938",
+            "search_query": "토플 나라별 평균 점수",
+            "terminate": false,
+            "text": "오스트리아와 트리니다드토바고, 몰타의 점수가 가장 높았는데, 102점이었어요. 그다음으로는 독일, 슬로베니아, 스위스가 100점, 네덜란드가 99점이었죠.",
+            "turn_id": "BK22006884-6",
+            "utterance_id": "BK22006884.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상위권은 유럽 쪽 나라들이 다 가져갔네요. 아시아 국가들도 분발해야겠어요. 그런데 토플은 응시료가 꽤 비싼 걸로 알고 있는데, 얼마인가요?",
+            "turn_id": "BK22006884-7",
+            "utterance_id": "BK22006884.13"
+        },
+        {
+            "reference_date": "2019-07-01",
+            "reference_text": [
+                {
+                    "value": "현재 공인어학시험의 응시료는 토익 4만4500원, 토익스피킹 7만7000원, 오픽 7만8100원, 토플 200달러, 텝스 3만9000원, 아이엘츠(IELTS) 26만 원, HSK 2만5000원~9만8000원(급수에 따라 상이)이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/1771879",
+            "search_query": "토플 응시 비용",
+            "terminate": false,
+            "text": "2019년 기준으로 토플의 응시료는 200달러예요. 다른 공인어학시험의 응시료는 토익이 44,500원, 텝스가 39,000원 등이니까 그에 비하면 비싸죠. 하지만 26만 원인 아이엘츠에 비해서는 싸니까요.",
+            "turn_id": "BK22006884-7",
+            "utterance_id": "BK22006884.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 200달러면 시험을 여러 번 보는 건 무리일 것 같네요. 그런데 토플도 다른 어학 성적들처럼 유효 기간이 있는 거죠?",
+            "turn_id": "BK22006884-8",
+            "utterance_id": "BK22006884.15"
+        },
+        {
+            "reference_date": "2017-02-09",
+            "reference_text": [
+                {
+                    "value": "토익을 비롯한 토익 스피킹, 오픽, 신한어수평고시(HSK), 토플, 텝스 등 취준생이 많이 응시하는 어학시험의 유효기간은 대부분 2년이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2017/02/94047/",
+            "search_query": "토플 유효 기간",
+            "terminate": false,
+            "text": "네, 토익, 텝스 등 다른 어학 시험이 그러하듯이 토플도 유효 기간이 2년이에요.",
+            "turn_id": "BK22006884-8",
+            "utterance_id": "BK22006884.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 어학 성적에 유효 기간이 필요하다는 건 이해하지만, 2년은 사실 좀 짧은 게 아닌가 싶어요.",
+            "turn_id": "BK22006884-9",
+            "utterance_id": "BK22006884.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각하긴 하지만 어쩔 수 없죠.",
+            "turn_id": "BK22006884-9",
+            "utterance_id": "BK22006884.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어쩌면 나중에 필요할 때 시험을 보는 게 나을 수도 있겠다는 생각이 드네요. 응시료도 꽤 비싸고 말이에요.",
+            "turn_id": "BK22006884-10",
+            "utterance_id": "BK22006884.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 나쁘지 않은 생각이네요. 혹시나 그때 가서 또 궁금한 게 있으면 언제든지 찾아오시고요.",
+            "turn_id": "BK22006884-10",
+            "utterance_id": "BK22006884.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아무래도 지금 당장 토플 시험을 보는 건 좀 생각해봐야겠네요. 그럼 오늘도 친절한 답변 감사드립니다. 다음에도 궁금한 게 있으면 연락드릴게요.",
+            "turn_id": "BK22006884-11",
+            "utterance_id": "BK22006884.21"
+        }
+    ]
+}

@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006986",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006986",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아빠가 편백나무에 대해서 좀 알아보라고 하는데, 혹시 편백나무에 대해서 잘 아세요?",
+            "turn_id": "BK22006986-1",
+            "utterance_id": "BK22006986.1"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "편백(扁柏)은 일본 원산의 상록교목으로 회목(檜木) 또는 노송나무라고도 일컫는다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "높이 30~40m, 폭 1~2m 가량이며, 나무 껍질은 적갈색이고, 작은 바늘 모양의 잎이 가지에 밀생한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%B8%EB%B0%B1",
+            "search_query": "편백",
+            "terminate": false,
+            "text": "네, 잘 알죠. 편백나무는 상록교목에 속하고 노송나무 또는 회목이라고도 불리워요. 원산지는 일본으로 30~40센티미터 정도까지 자라고, 폭은 1~2미터 정도 돼요. 나무 껍질은 적갈색을 띄고, 잎 모양은 작은 바늘처럼 생겼는데 가지에 아주 빽빽하게 붙어 있어요. 그런데, 아버님이 왜 알아보라고 하신거에요?",
+            "turn_id": "BK22006986-1",
+            "utterance_id": "BK22006986.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아빠가 요즘 건강이 좀 안좋아지셨는데 그 나무가 건강에 좋다고 들으셨대요. 편백나무가 진짜 건강에 좋아요?",
+            "turn_id": "BK22006986-2",
+            "utterance_id": "BK22006986.3"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "편백나무는 일반 수목에 비해 피톤치드와 음이온을 5배 이상 내뿜기 때문에 아토피와 같은 각종 환경성질환 치유와 스트레스 해소, 심신안정에 탁월한 효과가 있는 것으로 알려져 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kwangju.co.kr/article.php?aid=1650433500737146144",
+            "search_query": "편백나무 건강",
+            "terminate": false,
+            "text": "그러셨군요. 편백나무는 음이온과 피톤치드 성분을 일반 수목에 비해 5배나 많이 방출 하고 있어서 건강에 여러 가지 좋은 효과가 있어요. 스트레스를 해소해주기도 하고 심신안정에도 도움이 되며, 아토피와 같은 각종 환경성질환을 치유하는데에도 효과가 있죠.",
+            "turn_id": "BK22006986-2",
+            "utterance_id": "BK22006986.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 피톤치드라는 성분이 건강에 좋은 영향을 주는가보네요. 피톤치드라는 성분이 구체적으로 뭘 말하는거에요?",
+            "turn_id": "BK22006986-3",
+            "utterance_id": "BK22006986.5"
+        },
+        {
+            "reference_date": "2022-07-21",
+            "reference_text": [
+                {
+                    "value": "먼저, 피톤치드(Phytoncide)란 식물(phyton)을 의미하는 그리스어와 죽이다(cide)를 의미하는 라틴어의 조어(造語)로 ‘식물로부터 방출되어 다른 생물을 죽이는 물질’을 의미하나 현재는 생리활성을 포함해 식물이 만들어내는 휘발성 및 비휘발성 물질을 포괄하는 넓은 의미로 사용된다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.woodkorea.co.kr/news/articleView.html?idxno=60099",
+            "search_query": "피톤치드",
+            "terminate": false,
+            "text": "Phytoncide라는 말은 그리스어의 식물을 뜻하는 phyton과 라틴어에 있는 죽인다는 것을 의미하는 cide를 합해서 새롭게 만들어진 단어에요. 즉, 단어가 의미하는 것은 식물로부터 방출되어 다른 생물을 죽이는 물질이라는 뜻인데, 현재는 생리활성은 물론, 식물이 방출해내는 비휘발성과 휘발성 물질을 모두 포함해서 말해요.",
+            "turn_id": "BK22006986-3",
+            "utterance_id": "BK22006986.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 피톤치드는 식물이 자기를 방어 하려고 내뿜어서 항균 효과가 있다는 건데, 이것이 사람들에게까지 이로운 효과를 주는거군요. 피톤치드가 많은 편백나무는 주로 어느 지역에 많이 있어요?",
+            "turn_id": "BK22006986-4",
+            "utterance_id": "BK22006986.7"
+        },
+        {
+            "reference_date": "2020-06-02",
+            "reference_text": [
+                {
+                    "value": "편백은 온난대 기후에서 잘 자라는 수종으로 우리나라는 남부지방과 제주도 등지에 주로 분포한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "편백은 추위에 약한 수종인 관계로 우리나라 중부지역 이북에 조림할시 동해를 입기 쉬우며, 제대로 된 생육이 어렵다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200602_0001044729&cID=10812&pID=10800",
+            "search_query": "편백나무 분포",
+            "terminate": false,
+            "text": "편백은 추위에 약해서 중부지방 이북에 심을 경우, 동해를 입기 쉬워서 제대로 생육을 하려면 따뜻한 온난대 기후 지역에 심어야 해요. 우리나라에는 주로 제주도와 남부지방에 많이 분포 되어 있어요.",
+            "turn_id": "BK22006986-4",
+            "utterance_id": "BK22006986.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "편백이 따뜻한 곳에서 잘 자라는 식물이군요. 그래도 건강에 좋다면 다른 곳도 심을 것 같은데, 혹시 중부지방 위로는 편백숲이 아예 없어요?",
+            "turn_id": "BK22006986-5",
+            "utterance_id": "BK22006986.9"
+        },
+        {
+            "reference_date": "2020-06-02",
+            "reference_text": [
+                {
+                    "value": "하지만 피톤치드를 내뿜어 건강을 이롭게 한다는 장점이 있어 치유를 위한 공간 조성 등의 목적으로 중부 및 북부지방까지도 편백을 조림하는 실정이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 지자체 및 산주들은 지역을 불문하고 조림시 가장 선호하는 편백을 식재하고 있어 편백식재 가능지역의 정립이 필요한 시점이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200602_0001044729&cID=10812&pID=10800",
+            "search_query": "편백나무 분포",
+            "terminate": false,
+            "text": "아주 정확히 잘 짚으셨어요. 현재 피톤치드가 건강에 좋다는 장점 때문에, 산의 주인들과 지방자치단체들이 지역 상관없이 편백나무를 가장 선호해서 중부나 북부지방까지도 편백나무가 심어지고 있고 치유 공간 등으로 조성 하고 있어요.",
+            "turn_id": "BK22006986-5",
+            "utterance_id": "BK22006986.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래, 건강에 좋다고 하면 사람들이 물불 가리지 않잖아요. 실패 하더라도 막 심을 것 같은데, 그러면 편백나무 자라는 곳이 엄청 많이 늘어났겠네요.",
+            "turn_id": "BK22006986-6",
+            "utterance_id": "BK22006986.11"
+        },
+        {
+            "reference_date": "2020-06-02",
+            "reference_text": [
+                {
+                    "value": "산림청 통계에 따르면 2008년에 편백 조림 면적은 1622ha였으나 2018년에는 5746ha까지 늘어난 것으로 확인됐다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20200602_0001044729&cID=10812&pID=10800",
+            "search_query": "편백나무 면적",
+            "terminate": false,
+            "text": "네, 산림청에서 발표한 통계를 보면, 편백나무를 심은 면적이 2008년에는 1622ha였던 것이 2018년에는 5746ha로 증가했어요.",
+            "turn_id": "BK22006986-6",
+            "utterance_id": "BK22006986.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 그럴 것 같았어요. 만약에 편백 숲 가게 되면 저희는 웬만하면 중부 아래 쪽으로 가야겠어요. 잘 자란 편백이 삼림욕 효과도 좋을 것 같아요.",
+            "turn_id": "BK22006986-7",
+            "utterance_id": "BK22006986.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러세요, 중부 아래 쪽이 서울에서 좀 거리가 있더라도 마음 편한 곳으로 가야죠.",
+            "turn_id": "BK22006986-7",
+            "utterance_id": "BK22006986.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 그런데 편백이 좋고 마음이 편하다고 해서 매번 편백숲을 갈 수는 없을 것 같은데, 편백나무로 만드는 제품은 따로 없어요?",
+            "turn_id": "BK22006986-8",
+            "utterance_id": "BK22006986.15"
+        },
+        {
+            "reference_date": "2022-04-04",
+            "reference_text": [
+                {
+                    "value": "편백수 스프레이, 편백나무 칩, 편백나무베개, 히노끼욕조 등 제품의 종류도 각양각색이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또는 아토피 및 새집증후군 억제 등에 목적을 두고 벽지로 활용하는 경우도 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59028",
+            "search_query": "편백나무 제품",
+            "terminate": false,
+            "text": "시중에 편백을 이용한 다양한 종류의 제품들이 있어요. 스프레이 형태의 편백수도 있고, 편백나무를 이용한 베개와 히노끼 욕조, 편백나무 칩도 있죠. 또, 벽지에도 활용하는데 아토피나 새집증후군 억제에 도움을 주거든요.",
+            "turn_id": "BK22006986-8",
+            "utterance_id": "BK22006986.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 제품들이 이미 있군요. 다른 제품들은 이해가 잘 가는데 편백나무칩이라는건 뭐에요?",
+            "turn_id": "BK22006986-9",
+            "utterance_id": "BK22006986.17"
+        },
+        {
+            "reference_date": "2022-04-04",
+            "reference_text": [
+                {
+                    "value": "편백나무칩은 말 그대로 편백나무를 손톱 정도 크기의 칩으로 만든 제품이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칩을 향주머니에 담아 벽이나 차안에 걸어두면 은은한 편백나무 향이 나는 방향제로 사용할 수 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=59028",
+            "search_query": "편백나무 칩",
+            "terminate": false,
+            "text": "편백나무칩이라는 제품이 좀 생소하시죠. 편백나무를 손톱 크기 정도로 작게 만들어서 편백나무칩이라고 부르는데, 향주머니에 담아서 방향제로 사용 할 수 있는 제품이에요. 차안이나 벽에 걸어두면 편백나무의 향을 은은하게 느낄 수 있죠.",
+            "turn_id": "BK22006986-9",
+            "utterance_id": "BK22006986.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나무를 가공해서 작게 만든 것에서 향을 느낄 수 있다니 신기하네요. 바로 효과는 없겠지만 일단, 아빠를 위해서 편백나무칩을 선물해드려야겠어요.",
+            "turn_id": "BK22006986-10",
+            "utterance_id": "BK22006986.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 큰 효과가 없더라도 아버님이 정성에 좋아하시겠어요.",
+            "turn_id": "BK22006986-10",
+            "utterance_id": "BK22006986.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다, 오늘 많은 정보 알려주신 덕분이죠. 다음에 편백나무 숲 가게 되면 미리 궁금한 점 여쭤봐도 될까요?",
+            "turn_id": "BK22006986-11",
+            "utterance_id": "BK22006986.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 궁금한 것 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22006986-11",
+            "utterance_id": "BK22006986.22"
+        }
+    ]
+}

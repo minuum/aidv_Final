@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009161",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009161",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내일 담임 선생님이랑 진로 상담이 있는데, 전 아직 별다른 장래 희망이 없어요.",
+            "turn_id": "BK22009161-1",
+            "utterance_id": "BK22009161.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 혹시 조금이라도 관심 있는 분야나 직업은 없을까?",
+            "turn_id": "BK22009161-1",
+            "utterance_id": "BK22009161.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 관세사라는 직업은 좀 궁금해요. 관세사 자격증도 따로 있던데, 관세사는 어떤 일을 해요?",
+            "turn_id": "BK22009161-2",
+            "utterance_id": "BK22009161.3"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "② 관세사는 화물의 주인인 화주로부터 위탁을 받아 수출입 통관 업무를 대행한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주로 무역관련 업무절차를 대행하거나 물류관련 연계서비스를 제공한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970429&cid=42114&categoryId=42114",
+            "search_query": "관세사 업무",
+            "terminate": false,
+            "text": "관세사는 화주, 그러니까 화물의 주인에게 위탁받아 수출입 통관 업무를 대행하는 사람이야. 대개 물류 관련 연계 서비스를 제공하거나 무역 관련 업무절차를 대행한단다.",
+            "turn_id": "BK22009161-2",
+            "utterance_id": "BK22009161.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 멋있네요. 그럼 관세사 자격을 취득한 사람은 통관업을 바로 시작할 수 있어요?",
+            "turn_id": "BK22009161-3",
+            "utterance_id": "BK22009161.5"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "③ 관세사의 자격이 있는 사람이 통관업을 하고자 하는 경우에는 대통령령으로 정하는 바에 따라 6개월 이상의 실무수습을 마친 후에 관세청장에게 등록하여야 한다(관세사법 제7조제1항).",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970429&cid=42114&categoryId=42114",
+            "search_query": "관세사 자격 통관업",
+            "terminate": false,
+            "text": "그렇진 않아. 관세사 자격을 갖춘 사람이 통관업을 희망하는 경우엔 대통령령으로 정한 바에 따라 실무 수습을 6개월 이상 한 후 관세청장에게 등록까지 해야 해.",
+            "turn_id": "BK22009161-3",
+            "utterance_id": "BK22009161.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 통관업무를 할 수 있는 건 아니었네요. 관세사 자격증의 응시 자격은 어떻게 되고 시험은 어떻게 구성되어 있어요?",
+            "turn_id": "BK22009161-4",
+            "utterance_id": "BK22009161.7"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "응시자격에는 제한이 없다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관세사 시험은 1차 시험과 2차 시험으로 이루어지며, 1차 시험은 객관식으로 2차 시험은 논술형으로 실시된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970429&cid=42114&categoryId=42114",
+            "search_query": "관세사 응시자격 시험",
+            "terminate": false,
+            "text": "응시 자격에는 제한이 없어서 누구나 도전할 수 있어. 그리고 관세사 시험은 1차와 2차 시험으로 구성되어 있는데, 1차 시험은 객관식이고 2차 시험은 논술형 시험이야.",
+            "turn_id": "BK22009161-4",
+            "utterance_id": "BK22009161.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 제가 논술형 시험에는 약한데! 합격 기준은 어떻게 돼요?",
+            "turn_id": "BK22009161-5",
+            "utterance_id": "BK22009161.9"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "1, 2차 시험 공통 매 과목 100점을 만점으로 하여 매 과목 40점 이상, 전 과목 평균 60점 이상 득점하면 합격한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "① 관세사 자격시험은 관세청(산업인력공단 위탁)이 실시하며, 최소합격인원 제도가 적용되고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최소합격인원 제도는 2차 시험 성적기준을 넘은 합격자가 일정기준을 밑돌 경우, 총득점이 높은 순대로 최소합격인원까지 추가 합격시키는 제도를 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970429&cid=42114&categoryId=42114",
+            "search_query": "관세사 시험 합격 점수",
+            "terminate": false,
+            "text": "1차 시험, 2차 시험 공통으로 매 과목 40점 이상을 받고, 전 과목 평균 점수가 60점 이상이면 합격이야. 모든 과목은 100점 만점이 기준이고. 아, 참고로 관세사 자격시험은 관세청에서 실시하고 있는데, 최소 합격 인원이라는 제도가 적용 중이야. 2차 시험 성적 기준을 넘긴 합격자가 일정한 기준에 미치지 못할 경우, 최소 합격 인원까지 총득점이 높은 순서대로 합격시켜주는 제도지.",
+            "turn_id": "BK22009161-5",
+            "utterance_id": "BK22009161.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우아 최소 합격 인원 제도라는 거 좋은데요? 근데 관세사 자격을 갖추면 어떤 곳에서 일할 수 있어요?",
+            "turn_id": "BK22009161-6",
+            "utterance_id": "BK22009161.11"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "(2) 취업 : 관세사는 FTA시대에 따라 대형화 되고 있는 관세법인, 합동사무소, 통관취급법인이나 무역관련 기업체나 관세청 산하기관에서도 근무할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=970429&cid=42114&categoryId=42114",
+            "search_query": "관세사 활용정보",
+            "terminate": false,
+            "text": "관세사는 FTA 시대에 맞춰 확장되고 있는 관세법인, 통관취급법인, 합동사무소, 무역 관련 기업체나 관세청 산하기관 등에서 일할 수 있어!",
+            "turn_id": "BK22009161-6",
+            "utterance_id": "BK22009161.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우아 관세사가 되어서 관세청 밑의 기관에서 일하면 너무 멋있을 것 같아요. 관세사 자격시험의 합격률은 어느 정도 돼요?",
+            "turn_id": "BK22009161-7",
+            "utterance_id": "BK22009161.13"
+        },
+        {
+            "reference_date": "2021-09-15",
+            "reference_text": [
+                {
+                    "value": "최근 2020년도 최종 합격률은 19.9%로 다른 일반 자격증에 비해 관세사 자격증의 합격률은 낮은 편이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이를 대비하기 위해서는 체계적이고 철저한 학습이 요구된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.job-post.co.kr/news/articleView.html?idxno=34904",
+            "search_query": "관세사 합격률",
+            "terminate": false,
+            "text": "2020년도 기준으로 알려줄게. 최종 합격률은 19.9%였어. 관세사 자격증의 합격률은 다른 자격시험과 비교하면 낮은 편인데, 그만큼 체계적이고 철저한 학습이 필요해.",
+            "turn_id": "BK22009161-7",
+            "utterance_id": "BK22009161.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 쉽지 않네요. 그러고 보니 관세사라는 직업은 세무사랑 비슷한 느낌이에요. 세무사는 어떤 직업이고, 어떤 업무를 수행하는지도 알려줄 수 있어요?",
+            "turn_id": "BK22009161-8",
+            "utterance_id": "BK22009161.15"
+        },
+        {
+            "reference_date": "2018-03-19",
+            "reference_text": [
+                {
+                    "value": "① 세무사란 한국산업인력공단에서 시행하는 세무사시험에 합격하여 그 자격을 취득한 자를 말한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "② 납세자의 위임에 의하여 조세에 대한 신고 · 신청 · 청구(이의신청 · 심사청구 및 심판청구를 포함한다)등의 대리, 세무조정계산서 기타 세무관련 서류의 작성, 조세에 관한 상담 또는 자문을 하는 자이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "관세사 : 세무사의 경우 관세사와 업무가 유사하고, 시험과목도 세법, 회계 등은 유사한 것 같지만, 관세사가 관세에 관한 업무만을 수행하는 데 비해, 세무사의 경우 내국세와 지방세에 관한 업무를 수행한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=1834748&ref=y&cid=42114&categoryId=42114",
+            "search_query": "세무사 업무 관세사",
+            "terminate": false,
+            "text": "그럼. 우선 세무사는 한국산업인력공단에서 주관하는 세무사 시험에 합격해 자격을 취득한 사람을 말해. 세무사들은 납세자의 위임에 의하여 조세에 대한 신청, 신고, 청구 등의 대리, 또 조세에 관한 상담 또는 자문, 세무조정계산서 기타 세무 관련 서류의 작성 등의 업무를 수행하지. 네가 생각한 것처럼 확실히 세무사와 관세사는 유사한 업무가 많아. 게다가 회계나 세법 등 시험과목도 비슷한 것 같지만, 사실 관세에 관한 업무만 수행하는 관세사와 달리 세무사는 지방세와 내국세에 관한 업무를 수행하는 차이가 있어.",
+            "turn_id": "BK22009161-8",
+            "utterance_id": "BK22009161.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 두 직업의 차이를 좀 알 것 같아요. 그럼 세무사도 응시 자격 제한은 따로 없나요? 시험은 어떻게 구성되어 있는지도 궁금해요.",
+            "turn_id": "BK22009161-9",
+            "utterance_id": "BK22009161.17"
+        },
+        {
+            "reference_date": "2018-03-19",
+            "reference_text": [
+                {
+                    "value": "응시자격에는 제한이 없다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세무사 시험은 1차, 2차 시험으로 구성된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1차 시험은 객관식으로 과목당 100점을 만점으로 하여 각 과목 40점 이상, 전 과목 평균점수가 60점 이상인 사람을 합격자로 결정한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2차 시험은 논술형으로 과목당 100점을 만점으로 하여 각 과목 40점 이상 전 과목 평균점수가 60점 이상인 사람을 합격자로 결정한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=1834748&ref=y&cid=42114&categoryId=42114",
+            "search_query": "세무사 응시자격 시험 구성",
+            "terminate": false,
+            "text": "세무사 시험도 응시 자격에 제한은 없고, 1차 시험과 2차 시험으로 구성되어 있어. 1차 시험은 객관식 시험인데, 각 과목의 점수가 40점 이상이면서 전체 과목의 평균 점수가 60점 이상인 사람이 합격이야. 2차 시험은 논술 시험이고, 각 과목 점수가 40점 이상이면서 전체 과목 평균이 60점 이상이면 합격이고. 1차 시험과 2차 시험 모두 과목당 100점을 만점으로 해.",
+            "turn_id": "BK22009161-9",
+            "utterance_id": "BK22009161.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 자세히 알려주셔서 감사해요. 일단 내일 선생님이랑 진로 상담할 때 관세사랑 세무사 이야기를 좀 해봐야겠어요.",
+            "turn_id": "BK22009161-10",
+            "utterance_id": "BK22009161.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래. 선생님과 잘 대화해 보고, 다른 궁금한 게 있거나 도움이 필요하면 연락하렴.",
+            "turn_id": "BK22009161-10",
+            "utterance_id": "BK22009161.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 진짜 감사합니다! 오늘은 이만 학원 갈 시간이라 전화 끊을게요.",
+            "turn_id": "BK22009161-11",
+            "utterance_id": "BK22009161.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 수업 열심히 들어라.",
+            "turn_id": "BK22009161-11",
+            "utterance_id": "BK22009161.22"
+        }
+    ]
+}

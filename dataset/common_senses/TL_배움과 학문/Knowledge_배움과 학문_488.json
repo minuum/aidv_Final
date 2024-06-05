@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002180",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002180",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 더워서 땀 냄새가 날 것 같아서 향수에 신경 쓰고 있어. 그러다 보니 향수의 기원이 궁금해지더라.",
+            "turn_id": "BK22002180-1",
+            "utterance_id": "BK22002180.1"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "향수의 기원은 종교적 의식, 곧 신과 인간과의 교감을 위한 매개체로부터 출발하는데, 그 역사는 메소포타미아 문명과 고대 이집트 문명 시기인 약 5,000년 전으로 거슬러 올라간다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신을 신성하게 여겨온 고대의 사람들은 신에게 제사를 지낼 때 몸을 청결히 하고, 향기가 풍기는 나뭇가지를 태우고, 향나무잎으로 즙을 내어 몸에 발랐다고 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "향수 기원",
+            "terminate": false,
+            "text": "종교적 의식으로부터 출발한 향수의 기원은 약 5000년 전 메소포타미아 문명과 이집트 문명시기까지 거슬러 올라가. 신을 신성하게 여긴 고대의 사람들이 신께 제사를 지낼 때 몸을 청결히 하고, 향기가 나는 나뭇가지를 태우고, 향나무 잎의 즙을 몸에 바르던 것이 향수의 기원이라고 할 수 있어.",
+            "turn_id": "BK22002180-1",
+            "utterance_id": "BK22002180.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기원전의 일이라니 정말 오래됐다. 향수라는 말의 어원도 궁금해.",
+            "turn_id": "BK22002180-2",
+            "utterance_id": "BK22002180.3"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "향수라는 뜻의 perfume은 '연기를 내어 통과한다'라는 의미의 라틴어인 perfumare에서 나왔다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "향수 어원",
+            "terminate": false,
+            "text": "향수를 뜻하는 퍼퓸은 연기를 내어 통과한다라는 의미의 라틴어에서 유래했어.",
+            "turn_id": "BK22002180-2",
+            "utterance_id": "BK22002180.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 종교적인 느낌이 있다. 그럼 현재 발견된 세계에서 제일 오래된 향수는 뭐야?",
+            "turn_id": "BK22002180-3",
+            "utterance_id": "BK22002180.5"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "2004년과 2005년에 고고학자들은 키프로스(사이프로스) 피르고스 지방에서 세계에서 가장 오래된 향수를 발견했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 향수는 4000년 전 것이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그들은 4000평방미터의 작업장을 발견했는데, 적어도 60개의 증류기, 섞는 그릇, 굴뚝, 향수 통이 있었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "가장 오래된 향수",
+            "terminate": false,
+            "text": "고고학자들이 2004년과 2005년에 키프로스 피르고스 지방에서 발견한 4000년 전의 향수가 세계에서 가장 오래된 향수야. 향수와 함께 4000평방미터의 작업장도 발견되었는데, 그곳에는 증류기, 섞는 그릇, 굴뚝, 향수 통도 함께 있었어.",
+            "turn_id": "BK22002180-3",
+            "utterance_id": "BK22002180.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4000년 전의 향수를 만드는 작업장이라니 정말 신비하다. 우리나라 사람들은 언제부터 향수를 쓰기 시작했을까? 4000년 전은 아닐 거고.",
+            "turn_id": "BK22002180-4",
+            "utterance_id": "BK22002180.7"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "한국에서도 오래 전에 향수가 보급되었는데 372년에 고구려의 승려가, 382년에 백제의 승려가 각각 중국에 파견되었다가 돌아오면서 향료도 함께 수입하였다고 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "한국 향수",
+            "terminate": false,
+            "text": "4000년 전 만큼은 아니지만 한국에서도 오래전부터 향수가 보급되었어. 372년에는 고구려의 승려가, 382년에는 백제의 승려가 중국에 다녀오며 향료도 함께 수입해왔거든.",
+            "turn_id": "BK22002180-4",
+            "utterance_id": "BK22002180.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 종교적인 느낌과는 먼 근현대의 향수에 가까운 향수는 언제부터 사용됐어?",
+            "turn_id": "BK22002180-5",
+            "utterance_id": "BK22002180.9"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "근대적 의미의 향수가 나온 시기는 1370년경으로서, 지금의 ‘오 드 트왈렛’풍의 향수인 ‘헝가리 워터’가 발명되었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 헝가리의 왕비인 엘리자베스를 위해 만들어진 것으로서 증류향수이며, 최초의 알코올 향수이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "근대 향수",
+            "terminate": false,
+            "text": "음, 현재의 오 드 트왈렛 풍의 향수인 헝가리 워터가 1370년에 나왔어. 그건 헝가리 왕비 엘리자베스를 위해 만들어진 증류향수고, 알코올로 만들어진 최초의 향수야.",
+            "turn_id": "BK22002180-5",
+            "utterance_id": "BK22002180.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 나는 향수가 프랑스에서 먼저 보급되었을 거라고 생각했어.",
+            "turn_id": "BK22002180-6",
+            "utterance_id": "BK22002180.11"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "향수가 산업으로서 발전하기 시작한 시기는 17세기 프랑스의 루이 14세 시대부터라고 할 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당시에는 피혁제품이 주류를 이루고 있었는데, 무두질 기술(가죽을 부드럽게 다루는 일)이 보급되어 있지 않았기 때문에 가죽에서 나는 특유의 악취를 없애기 위한 향료와 향수가 필수품이었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "프랑스 향수",
+            "terminate": false,
+            "text": "아, 프랑스의 루이 14세 시대 때부터 향수가 산업으로 발전하기 시작하긴 했어. 피혁제품이 주류였던 당시에 가죽에서 나는 특유의 악취를 없애기 위해 향료, 향수가 필수품으로 사용됐거든.",
+            "turn_id": "BK22002180-6",
+            "utterance_id": "BK22002180.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 향수하면 프랑스가 떠올랐던 거구나. 그리고 현대의 향수에는 노트라는 개념이 있지?",
+            "turn_id": "BK22002180-7",
+            "utterance_id": "BK22002180.13"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "향수는 생성부터 소멸까지 단계별로 발향이 되는 특징을 지니고 있는데 이 단계를 탑노트 미들노트 베이스노트로 구분하고 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "향수 노트",
+            "terminate": false,
+            "text": "응, 향수는 단계별로 발향이 되는 특징이 있잖아. 이 단계를 노트라는 명칭으로 구분해. 향수의 노트는 크게 탑노트, 미들노트, 베이스노트가 있어.",
+            "turn_id": "BK22002180-7",
+            "utterance_id": "BK22002180.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노트 별로 어떤 특징이 있는 건지 설명해 줄 수 있을까?",
+            "turn_id": "BK22002180-8",
+            "utterance_id": "BK22002180.15"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "발향의 시작과 동시에 맡을 수 있는 향이 탑노트(top note), 뿌린 후 30 분에서 1 시간 정도 지난 뒤 시작되는 미들노트(middle note), 그리고 그 후 향이 사라지기 전까지 남아있는 ‘잔향’으로 알려진 베이스노트(base note)로 나누어 말할 수 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%96%A5%EC%88%98",
+            "search_query": "향수 노트 구분",
+            "terminate": false,
+            "text": "그럼, 향수를 뿌림과 동시에 나는 향이 탑노트고, 뿌린 후 30분에서 1시간 정도 지난 뒤에 맡을 수 있는 향이 미들노트, 마지막으로 잔향이라고 할 수 있는 베이스노트가 있어.",
+            "turn_id": "BK22002180-8",
+            "utterance_id": "BK22002180.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이렇게 쉽게 설명해주니 이제 알겠다. 이제 향수 사러가서 시향할 때 바로 나는 향만 맡지 말고 시간을 두고 결정해야겠어.",
+            "turn_id": "BK22002180-9",
+            "utterance_id": "BK22002180.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 사람마다 가진 살냄새도 다르다 보니 향수를 뿌린 후 시간을 가지고 자기 살냄새와도 어떤 조화가 있는지 살펴보면 좋아.",
+            "turn_id": "BK22002180-9",
+            "utterance_id": "BK22002180.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 향수 쇼핑하러 갈 때 같이 가줄래? 네가 같이 가주면 더 잘 고를 수 있을 것 같은데.",
+            "turn_id": "BK22002180-10",
+            "utterance_id": "BK22002180.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 나는 향수 시향해보는 걸 좋아해. 다음에 시간 맞춰 같이 가보자!",
+            "turn_id": "BK22002180-10",
+            "utterance_id": "BK22002180.20"
+        }
+    ]
+}

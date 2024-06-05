@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006194",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006194",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 전혀 과학에 관심이 없는데 요즘 영화 중 이해할 수 없는 부분이 있어 곤란해.",
+            "turn_id": "BK22006194-1",
+            "utterance_id": "BK22006194.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네가 좋아하는 영화는 거의 판타지 영화잖아. 허구라고 받아들이면 되는 것 아닌가?",
+            "turn_id": "BK22006194-1",
+            "utterance_id": "BK22006194.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 그렇지, 요즘 히어로 영화에서도 평행 우주라는 세계관이 나오거든. 도대체 평행 우주가 뭐야?",
+            "turn_id": "BK22006194-2",
+            "utterance_id": "BK22006194.3"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "평행우주(平行宇宙, 영어: Parallel Universe) 또는 패러렐 월드(영어: Parallel World)는 평행 우주설에 의한 가상의 우주 모형으로, 같은 모습을 가지고 같은 시간을 공유하는 수없이 많은 우주다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%89%ED%96%89%EC%9A%B0%EC%A3%BC",
+            "search_query": "평행우주",
+            "terminate": false,
+            "text": "평행우주는 평행 우주설에 의한 가상의 우주 모형이야. 동일한 모습을 가지고 같은 시간을 공유하는 수 많은 우주지.",
+            "turn_id": "BK22006194-2",
+            "utterance_id": "BK22006194.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 영화에서 같은 모습을 가진 세상이 등장한 거구나. 비슷한 걸로 다중우주는 뭐야?",
+            "turn_id": "BK22006194-3",
+            "utterance_id": "BK22006194.5"
+        },
+        {
+            "reference_date": "2016-05-04",
+            "reference_text": [
+                {
+                    "value": "분명 하나로 연결된 시간에 존재하지만 서로 다른 '나'가 존재하는 것을 평행우주라고 한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2000년대 들어오면서 조금씩 이론이 정립되고 있는 평행우주는 이보다 상위 개념인 '다중우주'의 한 갈래에 속한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다중우주란 넓디넓은 우주의 또 다른 저편에 우리가 알지 못하는 '세계'가 존재하고 있다고 설명한다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2016/05/324211/",
+            "search_query": "다중 우주",
+            "terminate": false,
+            "text": "광대한 우주의 또 다른 저편에 우리가 알지 못하는 세계가 존재한다는 것이 다중우주야. 평행우주는 시간이 하나로 연결되어 존재하지만 서로 다른 자신이 존재하는 것을 말하는 것처럼 다중우주의 한 갈래에 속해.",
+            "turn_id": "BK22006194-3",
+            "utterance_id": "BK22006194.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평행 우주와 다중 우주에 그런 차이가 있구나. 차원은 뭐야? 흔히 차원 이동이라고 하잖아.",
+            "turn_id": "BK22006194-4",
+            "utterance_id": "BK22006194.7"
+        },
+        {
+            "reference_date": "2022-06-01",
+            "reference_text": [
+                {
+                    "value": "차원(次元)은 수학에서 공간 내에 있는 점 등의 위치를 나타내기 위해 필요한 축의 개수를 말한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "0차원 점이 움직여 1차원 선이 되고, 선이 움직여 2차원 면이 되고,면이 움직여 3차원 입체가 되고, 입체가 움직여 4차원 초입체가 된다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%9B%90",
+            "search_query": "차원",
+            "terminate": false,
+            "text": "차원은 본래 공간 내에 있는 점 같은 어떤 위치를 표시하기 위해 필요한 축의 개수를 말해. 예를 들면 0차원은 점이잖아. 점이 이동해서 1차원인 선이 되고, 선이 이동해 2차원 면, 면이 이동해 3차원 입체가 돼. 그리고 입체가 이동해서 4차원 초입체가 되지.",
+            "turn_id": "BK22006194-4",
+            "utterance_id": "BK22006194.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 수학시간에 배웠던 3차원 그래프 때 사용되었던 그대로 그 차원인 거네. 하지만 아직도 시공간 4차원을 뛰어넘는다는 이야기는 이해할 수가 없어.",
+            "turn_id": "BK22006194-5",
+            "utterance_id": "BK22006194.9"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "물리학에서 시공간(時空間, spacetime)은 3차원 공간과 1차원 시간을 하나의 4차원 다양체manifold로 결합하는 수학적 모형이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시공간 다이어그램(spacetime diagram)은 사건event이 발생하는 장소와 시기에 서로 다른 관찰자observer가 다르게 인식하는 이유와 같은 상대론적 효과를 시각화하는 데 사용될 수 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B3%B5%EA%B0%84",
+            "search_query": "시공간",
+            "terminate": false,
+            "text": "공간은 3차원 시간은 1차원이야. 이걸 4차원 다양체 하나로 결합했을 때 시공간이라고 하는 거지. 그리고 시공간 다이어그램이라는 것이 있어. 사건이 발생하는 장소와 시간에 있는 사람들이 서로 다르게 인식한다는 것이 상대론적 효과인데 이걸 시각화하는 데 사용하고 있지.",
+            "turn_id": "BK22006194-5",
+            "utterance_id": "BK22006194.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "차원은 조금 이해가 갔어. 그런데 방금 알려준 상대론적 효과에 대해서 좀 더 가르쳐 줘. 영화에서 상대성 이론이라는 말을 들었거든.",
+            "turn_id": "BK22006194-6",
+            "utterance_id": "BK22006194.11"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "상대성이론(相對性理論, 독일어: Relativitätstheorie, 영어: theory of relativity)또는 상대론(독일어: Relativität, 영어: relativity, 문화어: 상대성)은 알베르트 아인슈타인, 헨드릭 로런츠 등의 여러 물리학자들과 앙리 푸앵카레, 헤르만 민코프스키, 다비트 힐베르트, 마르셀 그로스만 등 여러 수학자들에 의해 완성된 이론으로, 시간과 공간에 대한 물리 이론이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상대성 이론에 따르면, 서로 다른 상대 속도로 움직이는 관측자들은 같은 사건에 대해 서로 다른 시간과 공간에서 일어난 것으로 측정하며, 그 대신 물리 법칙의 내용은 관측자 모두에 대해 서로 동일하다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%81%EB%8C%80%EC%84%B1%EC%9D%B4%EB%A1%A0",
+            "search_query": "상대성 이론",
+            "terminate": false,
+            "text": "상대성 이론은 시간과 공간에 대한 이론으로 알베르트 아인슈타인을 포함한 여러 물리학자들과 수학자들에 의해 만들어졌어. 상대성 이론에 의하면 관측을 하고 있는 사람들이 서로 다른 상대 속도로 움직이면 동일한 사건에 놓여 있어도 서로 다른 시간과 공간에서 발생한 것으로 측정해. 대신에 관측하고 있는 모든 사람에게 동일한 물리 법칙 내용이 적용돼.",
+            "turn_id": "BK22006194-6",
+            "utterance_id": "BK22006194.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 양자장론은 뭐야? 영화에서 양자역학, 양자도약, 양자얽힘, 알 수 없는 단어들을 들어본 적이 있는데 전혀 알 수가 없어. ",
+            "turn_id": "BK22006194-7",
+            "utterance_id": "BK22006194.13"
+        },
+        {
+            "reference_date": "2022-07-28",
+            "reference_text": [
+                {
+                    "value": "역사적으로, 양자장론은 양자역학과 특수 상대성 이론을 결합하려는 시도에서 비롯되었다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%9E%90%EC%9E%A5%EB%A1%A0",
+            "search_query": "양자장론",
+            "terminate": false,
+            "text": "양자장론과 양자역학, 비슷한 단어를 써서 헷갈리지? 양자장론은 양자역학과 특수 상대성 이론을 합치려는 시도에서 만들어진 거야.",
+            "turn_id": "BK22006194-7",
+            "utterance_id": "BK22006194.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 양자도약과 같은 생소한 단어들은 양자역학과 관련이 있는 거지? 먼저 양자라는 걸 가르쳐 주면 좋겠어.",
+            "turn_id": "BK22006194-8",
+            "utterance_id": "BK22006194.15"
+        },
+        {
+            "reference_date": "2022-01-10",
+            "reference_text": [
+                {
+                    "value": "물리학에서 양자화(quantization)는 연속적으로 보이는 양을 자연수로 셀 수 있는 양으로 재해석하는 것을 이야기한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정보 이론에서 양자화는 아날로그 데이터, 즉 연속적인 값을 디지털 데이터, 즉 띄엄띄엄한 값으로 바꾸어 근사하는 과정을 뜻한다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%9E%90%ED%99%94",
+            "search_query": "양자화",
+            "terminate": false,
+            "text": "양자역학을 이해하기 위해서는 양자화라는 걸 알아야 해서 마침 설명하려고 했어. 연속으로 보이는 양을 자연수로 셀 수 있는 양으로 바꾸는 것을 양자화라고 해. 용어만 들으면 어렵지? 데이터를 예로 들어 줄게. 연속적인 값을 가지는 디지털 데이터를 아날로그 데이터라고 하는데, 여기서 양자화를 한다는 의미는 이걸 띄엄띄엄한 값으로 바꾸어 근사하는 과정을 말하지.",
+            "turn_id": "BK22006194-8",
+            "utterance_id": "BK22006194.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "셀 수 있는 양으로 바꾸는 것이 띄엄띄엄이라는 게 핵심이네. 그럼 양자역학은 띄엄띄엄 있는 역학이야?",
+            "turn_id": "BK22006194-9",
+            "utterance_id": "BK22006194.17"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "‘양자(量子)’로 번역된 영어의 quantum은 양을 의미하는 quantity에서 온 말로, 무엇인가 띄엄띄엄 떨어진 양으로 있는 것을 가리키는 말이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘역학(力學)’은 말 그대로는 ‘힘의 학문’이지만, 실제로는 ‘이러저러한 힘을 받는 물체가 어떤 운동을 하게 되는지 밝히는 물리학의 한 이론’이라고 할 수 있다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "간단히 말해 ‘힘과 운동’의 이론이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇듯 양자역학이란 띄엄띄엄 떨어진 양으로 있는 것이 이러저러한 힘을 받으면 어떤 운동을 하게 되는지 밝히는 이론이라고 할 수 있다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%9E%90%EC%97%AD%ED%95%99",
+            "search_query": "양자역학",
+            "terminate": false,
+            "text": "양자역학의 이름을 살펴보면 쉽게 이해할 수 있어. 양자는 아까 말한 것처럼 무엇인가 띄엄띄엄 떨어진 양을 의미해. 양자는 영어로 quantum인데 양이라는 뜻의 quantity에서 유래했지. 그리고 역학은 어떠한 힘을 받는 물체가 어떤 운동을 하는지 밝히는 힘과 운동의 이론이니까, 이걸 종합하면 양자역학은 띄엄띄엄 떨어진 양으로 있는 것이 어떠한 힘을 받으면 어떤 운동을 하는지 밝히는 이론이라고 할 수 있어.",
+            "turn_id": "BK22006194-9",
+            "utterance_id": "BK22006194.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이해했어. 앞으로 영화를 볼 때 이해가 잘 될 것 같아. SF 영화도 앞으로 찾아봐야겠다.",
+            "turn_id": "BK22006194-10",
+            "utterance_id": "BK22006194.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "영화를 보다가 궁금한 것이 있으면 언제든 연락해. 그럼 내일 봐.",
+            "turn_id": "BK22006194-10",
+            "utterance_id": "BK22006194.20"
+        }
+    ]
+}

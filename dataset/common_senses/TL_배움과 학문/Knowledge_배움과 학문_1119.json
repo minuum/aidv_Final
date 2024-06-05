@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007421",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007421",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다큐멘터리를 봤는데 지하철의 역사가 엄청 오래됐더라. 과연 세계 최초의 지하철은 어느 나라에서 운행했을까?",
+            "turn_id": "BK22007421-1",
+            "utterance_id": "BK22007421.1"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 지하철은 1863년 1월 10일에 영국 런던 교통공사에서 운영하기 시작한 런던 지하철(London Underground)이다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnnews.co.kr/news/articleView.html?idxno=500230",
+            "search_query": "세계 최초의 지하철",
+            "terminate": false,
+            "text": "영국 런던 교통공사에서 1863년 1월 10일에 운영을 시작한 런던 지하철인 London Underground가 세계 최초의 지하철이야.",
+            "turn_id": "BK22007421-1",
+            "utterance_id": "BK22007421.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영국이 최초로 지하철이 생긴 나라구나. 그럼 영국 다음에는 어느 나라에서 지하철이 생겼어?",
+            "turn_id": "BK22007421-2",
+            "utterance_id": "BK22007421.3"
+        },
+        {
+            "reference_date": "2018-01-09",
+            "reference_text": [
+                {
+                    "value": "증기기관으로 운전되다 1890년에 전철화, 1896년 헝가리 부다페스트, 1898년 오스트리아 빈, 1900년 프랑스 파리, 1901년 미국 보스턴, 1902년 독일 베를린, 1904년 미국 뉴욕, 1906년 독일 함부르크에 차례로 지하철 생김",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.civicnews.com/news/articleView.html?idxno=12767",
+            "search_query": "영국 지하철 개통",
+            "terminate": false,
+            "text": "그건 바로 1896년에 헝가리 부다페스트에 생긴 지하철이야. 헝가리 이후 오스트리아 빈에 지하철이 생긴 건 1898년, 프랑스 파리는 1900년, 미국 보스턴 1901년, 독일 베를린 1902년, 미국 뉴욕 1904년, 독일 함부르크는 1906년, 이렇게 차례대로 지하철이 생겼어.",
+            "turn_id": "BK22007421-2",
+            "utterance_id": "BK22007421.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지하철의 역사가 100년이 훌쩍 넘었구나. 그렇다면 우리나라 지하철은 언제 생긴 거야?",
+            "turn_id": "BK22007421-3",
+            "utterance_id": "BK22007421.5"
+        },
+        {
+            "reference_date": "2022-01-10",
+            "reference_text": [
+                {
+                    "value": "우리나라에서는 1974년 지하철이 처음 등장했습니다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서울 지하철 1호선(서울 ~ 청량리)인데요.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1971년 4월 12일 착공해 1974년 8월 15일 개통했습니다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220104138600797?input=1195m",
+            "search_query": "우리나라 최초의 지하철",
+            "terminate": false,
+            "text": "우리나라에 지하철이 처음 생긴 건 1974년이야. 1971년 4월 12일에 착공해서 1974년 8월 15일에 개통한 서울 지하철 1호선이 그 주인공이지.",
+            "turn_id": "BK22007421-3",
+            "utterance_id": "BK22007421.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1974년에 국내 최초의 지하철이 생겼구나. 지하철역 중에 이용객이 가장 많은 역은 어디일까?",
+            "turn_id": "BK22007421-4",
+            "utterance_id": "BK22007421.7"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "이용객이 가장 많은 지하철역은 2호선 강남역, 이용객이 가장 많았던 버스 정류장은 고속터미널로 나타났다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이용객이 많은 역은 강남, 잠실, 신림, 구로디지털단지역 등 순으로 모두 2호선이었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220511000029",
+            "search_query": "지하철 이용객 1위",
+            "terminate": false,
+            "text": "지하철역 중 이용객이 제일 많은 곳은 2호선의 강남역이야. 그다음으로는 잠실, 신림, 구로디지털단지역 등의 순인데 전부 다 2호선에 위치한 역들이야.",
+            "turn_id": "BK22007421-4",
+            "utterance_id": "BK22007421.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 강남역 이용한 적 있는데 정말 사람이 많았었어. 그렇다면 하루에 지하철을 이용하는 건수는 얼마나 될까?",
+            "turn_id": "BK22007421-5",
+            "utterance_id": "BK22007421.9"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "서울 시내버스 일평균 이용수는 약 390만건이었으며 6577개 정류소 중 이용량이 가장 많았던 지점은 고속터미널이었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지하철 일평균 이용수는 461만건으로 서울 주요지점을 순환하는 2호선이 가장 많았으며 강남역이 가장 붐비는 지하철역으로 꼽혔다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISI20220511_0018790896",
+            "search_query": "지하철 일평균 이용수",
+            "terminate": false,
+            "text": "하루 평균 지하철 이용수는 461만 건 정도 돼. 서울 시내버스의 하루 평균 이용객 수가 약 390만 건인 것에 비하면 지하철 이용객이 70만 명 정도 더 많은 거지.",
+            "turn_id": "BK22007421-5",
+            "utterance_id": "BK22007421.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 많은 사람이 지하철을 이용하고 있구나. 우리나라에 지하철역이 많은데 그중 출구가 가장 많은 지하철역은 어디일까?",
+            "turn_id": "BK22007421-6",
+            "utterance_id": "BK22007421.11"
+        },
+        {
+            "reference_date": "2022-08-15",
+            "reference_text": [
+                {
+                    "value": "이 중 출구가 가장 많은 지하철역은 대구도시철도 1호선과 2호선이 교차하는 반월당역으로, 출구가 무려 23개에 달하는데요.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지하철역과 연결된 지하 쇼핑센터의 비공식 출입구를 포함하면 40개가 넘는다고 합니다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220810145600797?input=1195m",
+            "search_query": "출구가 가장 많은 지하철역",
+            "terminate": false,
+            "text": "그건 바로 대구도시철도 1호선, 2호선이 교차하는 반월당역이지. 출구가 자그마치 23개나 되거든. 지하 쇼핑센터가 지하철역과 연결되어 있는데 비공식 출입구를 포함하면 출구는 40개가 넘을 수도 있어.",
+            "turn_id": "BK22007421-6",
+            "utterance_id": "BK22007421.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지하철 출구가 40개가 넘을 수 있다니 굉장하다. 그럼 우리나라에서 가장 깊은 지하철역은 어디인지 알고 있어?",
+            "turn_id": "BK22007421-7",
+            "utterance_id": "BK22007421.13"
+        },
+        {
+            "reference_date": "2022-07-19",
+            "reference_text": [
+                {
+                    "value": "부산 도시철도 3호선 만덕역은 국내에서 가장 깊은 곳에 위치한 지하철역이다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "승강장에서 지표면까지 깊이만 무려 64.25m다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4745509",
+            "search_query": "가장 깊은 지하철역",
+            "terminate": false,
+            "text": "당연하지, 승강장에서 지표면까지의 깊이만 무려 64.25m에 달하는 부산 도시철도 3호선 만덕역이 우리나라에서 제일 깊은 곳에 있는 지하철역이야.",
+            "turn_id": "BK22007421-7",
+            "utterance_id": "BK22007421.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "64.25m 아래에 위치한 지하철역이라니 너무 신기하다. 그럼 이 만덕역이 지구상에서 가장 깊은 역이야?",
+            "turn_id": "BK22007421-8",
+            "utterance_id": "BK22007421.15"
+        },
+        {
+            "reference_date": "2021-02-16",
+            "reference_text": [
+                {
+                    "value": "지구상에서 가장 깊은 역은 우크라이나의 수도 키예프의 아스날나 역으로, 깊이가 105.5m인 지하에 파묻혀 있다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/02/151101/",
+            "search_query": "지구상에서 가장 깊은 역",
+            "terminate": false,
+            "text": "그건 아니야, 깊이 105.5m 지하에 파묻힌 우크라이나 수도 키예프에 있는 아스날나 역이 지구상에서 제일 깊은 역이거든.",
+            "turn_id": "BK22007421-8",
+            "utterance_id": "BK22007421.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지하 105m에 있는 지하철역이라니 상상만 해도 무서워.",
+            "turn_id": "BK22007421-9",
+            "utterance_id": "BK22007421.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "100m 달리기할 때의 거리만큼 지하로 내려간다고 생각하면 아찔하지?",
+            "turn_id": "BK22007421-9",
+            "utterance_id": "BK22007421.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지만 얼마나 깊을지 조금 궁금하기도 한걸? 다음 주 부산 여행 갈 건데 그때 만덕역에라도 가봐야겠다.",
+            "turn_id": "BK22007421-10",
+            "utterance_id": "BK22007421.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거 좋은 생각이다. 다음 주 부산 여행 잘 다녀오고 또 재미있는 대화 나누자.",
+            "turn_id": "BK22007421-10",
+            "utterance_id": "BK22007421.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 너도 잘 지내고 조만간 다시 만나자.",
+            "turn_id": "BK22007421-11",
+            "utterance_id": "BK22007421.21"
+        }
+    ]
+}

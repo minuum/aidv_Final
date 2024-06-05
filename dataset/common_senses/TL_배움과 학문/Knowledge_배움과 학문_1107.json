@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000961",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000961",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중력파라는 말을 들었는데 중력도 소리처럼 파동이라는 말인가?",
+            "turn_id": "BK22000961-1",
+            "utterance_id": "BK22000961.1"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "중력파(重力波, 영어: gravitational waves)는 움직이는 물체(질량)에 의하여 시공간 중력장의 곡률(뒤틀림)에 발생한 요동이 광속으로 진행하는 파동을 말한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파",
+            "terminate": false,
+            "text": "비슷하지, 질량때문에 시간과 공간의 중력장이 뒤틀리면 요동이 생기면서 광속으로 진행되는데 그게 바로 중력파야.",
+            "turn_id": "BK22000961-1",
+            "utterance_id": "BK22000961.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 질량 때문에도 파동이 생기는구나. 이런 걸 사람들은 어떻게 알았대?",
+            "turn_id": "BK22000961-2",
+            "utterance_id": "BK22000961.3"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "1905년에 프랑스 수학자 앙리 푸앵카레가 중력파를 처음 제안하였고 1916년에 알베르트 아인슈타인의 일반 상대성 이론에서 중력파의 존재가 예측된 이래로 간접적으로만 그 존재가 확인되었으나, 2016년 2월 레이저 간섭계 중력파 관측소(LIGO)에서 직접적으로 그 존재를 관측하는 데 성공하였다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 관측",
+            "terminate": false,
+            "text": "1905년에 푸앵카레가 제일 먼저 이런게 있지않을까 제안을 했고, 십여년 뒤에 아인슈타인의 상대성 이론에서 중력파가 예측이 되었어. 그 뒤에 간접적으로만 확인이 되고 있다가 2016년에 LIGO에서 직접 관측하는데 성공했지.",
+            "turn_id": "BK22000961-2",
+            "utterance_id": "BK22000961.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그런데 상대성 이론에서 어떻게 중력파가 예측이 된거지?",
+            "turn_id": "BK22000961-3",
+            "utterance_id": "BK22000961.5"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "아인슈타인의 일반 상대성 이론에 의하면, 중력은 시공간의 곡률(뒤틀림)에 의하여 발생한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시공간의 곡률은 질량에 의하여 발생하므로, 질량을 가지는 물체가 시공간에서 이동하면 시공간의 곡률도 변동이 된다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "질량을 가지는 물체가 가속운동을 하면 시공간의 곡률 변동이 파동의 형태로 전파하는데 이를 중력파라고 한다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 상대성 이론",
+            "terminate": false,
+            "text": "상대성 이론에서는 중력은 시공간의 뒤틀림으로 생기는 거잖아. 이 뒤틀림, 즉 곡률은 질량에 의해 발생하는 거거든. 그러니까 질량을 가진 물체가 시공간에서 움직이면 시공간의 곡률도 달라지겠지? 이처럼 질량을 가진 물체가 가속운동을 하면 시공간의 곡률이 바뀌는 게 파동의 형태로 전개되는데 바로 이걸 중력파라고 할 수 있는 거야.",
+            "turn_id": "BK22000961-3",
+            "utterance_id": "BK22000961.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 중력파도 소리의 속도처럼 정해진 속도가 있겠네?",
+            "turn_id": "BK22000961-4",
+            "utterance_id": "BK22000961.7"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "중력파의 속도는 빛(전자기파)의 속도와 같다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 속도",
+            "terminate": false,
+            "text": "응, 그렇지. 중력파의 속도는 전자기파, 그러니까 빛의 속도와 똑같아.",
+            "turn_id": "BK22000961-4",
+            "utterance_id": "BK22000961.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떻게 보면 중력이 작용하는데에도 시간이 걸린다는 얘기니까 굉장히 신기하다.",
+            "turn_id": "BK22000961-5",
+            "utterance_id": "BK22000961.9"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "반면 아인슈타인의 상대성 이론이 등장하기 전, 물리학계를 지배했던 이른바 뉴턴 물리학(고전 역학)에서는 중력장의 전파에 시간이 걸리지 않으므로, 중력파라는 것이 존재할 수 없다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 뉴턴",
+            "terminate": false,
+            "text": "맞아, 상대성 이론 전 뉴턴 물리학이 물리학계의 중심이었을때는 중력파라는 개념이 없었어. 왜냐면 중력장이 영향을 미치는데 시간이 걸리지 않는다고 생각했으니까 말야.",
+            "turn_id": "BK22000961-5",
+            "utterance_id": "BK22000961.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소리는 공기를 진동시키면서 움직이잖아. 중력파는 그럼 어떤식으로 움직이는 거야?",
+            "turn_id": "BK22000961-6",
+            "utterance_id": "BK22000961.11"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "음파가 공기를 압축·확장하듯이 중력파는 공간을 수축 및 팽창시키는 것으로 알려져 있다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 음파",
+            "terminate": false,
+            "text": "응, 소리, 그러니까 음파가 공기를 압축하고 확장하듯이 중력파는 공간 자체를 수축하고 팽창시키는거야.",
+            "turn_id": "BK22000961-6",
+            "utterance_id": "BK22000961.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 엄청 큰 물질이 움직이면 엄청 큰 중력파가 생기겠어.",
+            "turn_id": "BK22000961-7",
+            "utterance_id": "BK22000961.13"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "중력파를 방출하는 계(system)의 대표적인 예는 백색왜성, 또는 중성자별이나 블랙홀을 포함한 이중성계이다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 블랙홀",
+            "terminate": false,
+            "text": "그렇지, 그래서 중력파를 방출하는 계의 대표적인 예로 백색왜성이나, 중성자별 블랙홀을 포함한 이중성계가 꼽히지.",
+            "turn_id": "BK22000961-7",
+            "utterance_id": "BK22000961.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 우주단위의 관측이 필요한 일이구나. 이걸 관측해낸 사람도 대단하다.",
+            "turn_id": "BK22000961-8",
+            "utterance_id": "BK22000961.15"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "중력파를 처음 발견한 3명(라이너 바이스, 배리 배리시, 킵 손)은 2017년 10월 노벨물리학상을 수상하였다.",
+                    "value_time": "2022-06-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5%ED%8C%8C",
+            "search_query": "중력파 노벨상",
+            "terminate": false,
+            "text": "라이너 바이스, 배리 배리시, 킵 손 이렇게 세 명이 바로 그 업적으로 노벨물리학상을 받았어.",
+            "turn_id": "BK22000961-8",
+            "utterance_id": "BK22000961.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기 듣고 보니까 충분히 받을만 하다고 생각이 들어.",
+            "turn_id": "BK22000961-9",
+            "utterance_id": "BK22000961.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단한 일이지, 엄청난 수고와 노력이 들었을거야.",
+            "turn_id": "BK22000961-9",
+            "utterance_id": "BK22000961.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 생각할수록 더 굉장한 일인것 같아. 관련해서 다큐멘터리라도 찾아볼까봐.",
+            "turn_id": "BK22000961-10",
+            "utterance_id": "BK22000961.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 내가 추천해줄게 있는데 지금 제목이 생각이 안나네.",
+            "turn_id": "BK22000961-10",
+            "utterance_id": "BK22000961.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음 만날 때까지 꼭 기억해오도록 해. 오늘은 이만 가볼게, 안녕!",
+            "turn_id": "BK22000961-11",
+            "utterance_id": "BK22000961.21"
+        }
+    ]
+}

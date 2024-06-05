@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005487",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005487",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 어떤 기사를 읽었는데, 남극에 관한 이야기가 있어서 흥미롭게 읽었어요. 남극에는 원주민이 없다는 게 정말인가요?",
+            "turn_id": "BK22005487-1",
+            "utterance_id": "BK22005487.1"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "가장 중요한 차이점은 북극에는 원주민이 있지만, 남극에는 원주민이 없습니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "극한의 추위로 사람이 살 수 없기 때문입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "북극에는 '이누이트(Innuit)'라는 원주민들이 아직도 살고 있지만, 남극에는 연구를 위한 과학자들만 일부 거주하고 있습니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019092015074512920",
+            "search_query": "남극 사람거주",
+            "terminate": false,
+            "text": "맞아요. 남극에는 원주민이 없어요. 극한의 추위에서 사람이 살아남을 수 없기 때문이죠. 북극과 비교했을 때 가장 중요한 차이점이 바로 이거예요. 북극에는 이누이트라는 원주민이 살고 있는데, 남극에는 과학자들만이 일부 거주하며 남극 연구를 하고 있거든요.",
+            "turn_id": "BK22005487-1",
+            "utterance_id": "BK22005487.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 남극과 북극이 추운 것도 비슷하고 사람도 사는 줄 알았어요. 남극은 추워서 사람이 살 수 없다고 하셨는데, 그럼 혹시 남극과 북극의 기온도 차이가 나나요?",
+            "turn_id": "BK22005487-2",
+            "utterance_id": "BK22005487.3"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "북극 지방의 연평균 기온은 영하 35~40℃이지만, 남극 지방의 연평균 기온은 영하 55℃나 됩니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019092015074512920",
+            "search_query": "북극 남극 기온",
+            "terminate": false,
+            "text": "네, 남극이 더 추워요. 연평균 기온으로 비교해보면 북극은 영하 35도에서 40도인데, 남극은 영하 55도거든요. 차이가 있죠.",
+            "turn_id": "BK22005487-2",
+            "utterance_id": "BK22005487.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연평균 기온이 저 정도라면 꽤 많은 차이가 나는 것 같아요. 남극은 가장 추울 땐 어느 정도 될까요?",
+            "turn_id": "BK22005487-3",
+            "utterance_id": "BK22005487.5"
+        },
+        {
+            "reference_date": "2022-01-22",
+            "reference_text": [
+                {
+                    "value": "1983년 7월 보스토크 기지에서는 영하 89.2도가 관측됐다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 인류가 직접 측정한 최저 기온이다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220121512841?OutUrl=naver",
+            "search_query": "남극 최저기온",
+            "terminate": false,
+            "text": "1983년 7월에 잰 기록이 있어요. 보스토크 기지에서 측정한 건데, 영하 89.2도요. 인류가 직접 측정한 온도 중에 최저온도예요.",
+            "turn_id": "BK22005487-3",
+            "utterance_id": "BK22005487.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영하 89.2도요? 영하 8도, 9도도 추운데 89도가량은 상상조차 안 되네요. 혹시 남극이랑 북극이 다른 점이 또 있나요?",
+            "turn_id": "BK22005487-4",
+            "utterance_id": "BK22005487.7"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "남극은 이처럼 육지로 이뤄진 대륙입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 북극은 북극점 주위의 얼어붙은 바다입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "북극은 땅 위에 얼음이 언 곳 남극과 달리 바다가 얼어서 생긴 얼음땅이라고 할 수 있습니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019092015074512920",
+            "search_query": "북극 남극 차이",
+            "terminate": false,
+            "text": "하나는 육지고 하나는 바다예요. 남극이 육지로 이루어진 대륙이고, 북극은 북극점 주위에서 언 바다예요. 다 얼어있는 곳이지만, 남극은 땅 위의 얼음이 얼어있는 것이고, 북극은 바다가 얼었으니 땅 자체가 얼음이죠.",
+            "turn_id": "BK22005487-4",
+            "utterance_id": "BK22005487.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 정말요? 둘 다 땅이 있고 그 위에 얼음이 쌓여있는 줄로만 알았어요. 이렇게 환경이 다른데 혹시 사는 동물도 다른가요?",
+            "turn_id": "BK22005487-5",
+            "utterance_id": "BK22005487.9"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "남극의 대표적인 동물은 펭귄이고, 북극의 대표는 북극곰입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남극은 원래 아프리카 대륙과 붙어 있었기 때문에 그곳에 살던 조류들이 대륙 분리와 함께 옮겨와 살면서 남극의 추위를 이기기 위해 지금의 펭귄으로 진화한 것입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "북극의 북극곰은 북반구 대륙에 살던 곰들이 먹이를 찾아 얼음을 타고 이동하다가 북극에 정착한 것입니다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2019092015074512920",
+            "search_query": "남극펭귄 북극곰",
+            "terminate": false,
+            "text": "북극은 북극곰이 대표 동물이고, 남극은 펭귄이 대표 동물이예요. 이게 왜 그러냐면, 남극이 원래 아프리카 대륙과 맞닿아 있었던 시대에 아프리카에 살던 조류들이 대륙 분리 때 함께 이주해서 지금까지 살고 있는 거예요. 근데 기후가 춥다 보니 그걸 이겨내기 위해서 지금의 펭귄으로 진화한 거죠. 북극곰은 북반구에 살던 곰들이 먹이를 구하려고 얼음 사이를 이동하다가 북극에 정착해서 살게 된 거고요.",
+            "turn_id": "BK22005487-5",
+            "utterance_id": "BK22005487.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 북극곰 얘기는 들어봤지만 남극곰이라는 건 들어본 적 없잖아요. 펭귄이 새에서 진화한 개체인 것도 흥미롭네요. 혹시 남극에 얼음이 없는 곳도 있을까요?",
+            "turn_id": "BK22005487-6",
+            "utterance_id": "BK22005487.11"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "대부분 얼음으로 뒤덮여있지만 남극점에서 가까운 일부지역에 얼음이 없는 곳도 존재한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳을 드라이밸리(dry valleys)라 한다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B7%B9",
+            "search_query": "드라이밸리",
+            "terminate": false,
+            "text": "신기하게도 얼음이 없는 곳도 있어요. 대부분은 얼음이지만 남극점에서 멀지 않은 위치에 일부 있죠. 바로 드라이밸리라는 곳이에요.",
+            "turn_id": "BK22005487-6",
+            "utterance_id": "BK22005487.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼음이 없는 남극이라, 상상해보니 어색한데요. 근데 남극은 어느나라 땅이에요?",
+            "turn_id": "BK22005487-7",
+            "utterance_id": "BK22005487.13"
+        },
+        {
+            "reference_date": "2021-12-25",
+            "reference_text": [
+                {
+                    "value": "다행인 것은 1959년 12개국이 남극에 대한 영유권 선언을 금지하고 군사행동과 광물자원 채굴을 금지하는 남극조약을 체결했고, 이후 지금까지 46개국이 이 조약에 서명했다는 사실이다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20211224510023?OutUrl=naver",
+            "search_query": "남극조약 영유권",
+            "terminate": false,
+            "text": "남극은 어느 나라의 땅도 아니에요. 1959년에 남극조약이라는 것을 체결했는데, 이 조약에 남극에 대한 영유권 선언 금지 조항이 있거든요. 군사행동도, 광물 자원 채굴도 금지하는 조항도 포함되어 있어요. 최초에 12개국이 조약을 체결했는데, 현재는 46개국이 서명한 상태예요.",
+            "turn_id": "BK22005487-7",
+            "utterance_id": "BK22005487.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 남극조약이 있어서 어느 나라에도 귀속되지 않은 땅으로 남아있는 것이군요. 근데 혹시 일반인이 남극 여행을 하는 것이 가능한가요?",
+            "turn_id": "BK22005487-8",
+            "utterance_id": "BK22005487.15"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "남극활동 및 환경보호에 관한 법률에 의거, 일반인이 남극을 체험하기 위해서는 단순 관광일지라도 외교부 장관의 승인을 받아야 하는데, 그 승인 절차가 매우 까다롭다.",
+                    "value_time": "2022-08-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EA%B7%B9",
+            "search_query": "일반인 남극여행",
+            "terminate": false,
+            "text": "네, 가능해요. 그렇지만 일반인이 남극 체험을 하려면 외교부 장관의 승인을 받아야 해요. 남극활동 및 환경보호에 관한 법률이 제정되어 있고, 이 법에 따라서 단순 관광이라도 승인이 필요하거든요. 근데 그 절차가 까다로워요.",
+            "turn_id": "BK22005487-8",
+            "utterance_id": "BK22005487.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "까다로운 승인의 절차를 거쳐야 남극 방문이 가능하군요. 법률의 이름을 보니 남극 보호를 위해서 방문객을 제한하나 봐요. 궁금한 것이 많아서 책을 찾아서 읽어보려고요.",
+            "turn_id": "BK22005487-9",
+            "utterance_id": "BK22005487.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 생각이에요. 책을 찾아보면 여러 가지 정보를 얻으실 수 있어요.",
+            "turn_id": "BK22005487-9",
+            "utterance_id": "BK22005487.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 더 알고 싶은 것이 생기면 연락드려도 되죠?",
+            "turn_id": "BK22005487-10",
+            "utterance_id": "BK22005487.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼요, 언제든지 연락해주세요. 그럼 오늘도 좋은 하루 보내시길 바랄게요.",
+            "turn_id": "BK22005487-10",
+            "utterance_id": "BK22005487.20"
+        }
+    ]
+}

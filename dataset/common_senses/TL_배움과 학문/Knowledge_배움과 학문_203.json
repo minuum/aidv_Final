@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012580",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012580",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방학을 맞이하여 경복궁을 견학하려고 합니다. 미리 공부하고 가려는데 언제 지어졌는지 알려주세요.",
+            "turn_id": "BK22012580-1",
+            "utterance_id": "BK22012580.1"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "경복궁은 1394년(태조3년)에 궁궐 조성을 시작해 다음해에 준공한 법궁이다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=19449",
+            "search_query": "경복궁 지어진 시기",
+            "terminate": false,
+            "text": "경복궁은 태조 3년에 만들어지기 시작해 1395년에 완성된 임금이 살았던 궁궐입니다.",
+            "turn_id": "BK22012580-1",
+            "utterance_id": "BK22012580.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태조면 조선인데, 조선시대 세종 때의 경복궁은 어땠나요?",
+            "turn_id": "BK22012580-2",
+            "utterance_id": "BK22012580.3"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "조선 세종은 경복궁 후원으로 조성했다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 건립된 서현정, 취로정, 관저전, 충순당 등은 임진왜란 때 소실됐다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022051911020063473",
+            "search_query": "세종 경복궁",
+            "terminate": false,
+            "text": "세종은 경복궁 후원을 만들었고 그때 만들어진 건물로는 관저전, 취로정, 충순당, 서현정 등이 있습니다. 하지만 이 건물들은 임진왜란 때 불에 타서 사라졌습니다.",
+            "turn_id": "BK22012580-2",
+            "utterance_id": "BK22012580.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "임진왜란 때 무슨 일로 불에 타 없어졌나요?",
+            "turn_id": "BK22012580-3",
+            "utterance_id": "BK22012580.5"
+        },
+        {
+            "reference_date": "44739.0",
+            "reference_text": [
+                {
+                    "value": "4월 28일에 충주 탄금대에서 배수진을 친 신립이 전사하자, 선조는 30일 새벽에 폭우를 맞으며 한양을 버리고 북으로 도망쳤다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성난 백성들은 장예원의 노비문서를 불태우고 경복궁과 창덕궁에 불을 질렀다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.siminsori.com/news/articleView.html?idxno=231347",
+            "search_query": "임진왜란 경복궁",
+            "terminate": false,
+            "text": "왜군의 침입을 충주 탄금대에서 막고 있던 조선시대 무장인 신립장군이 죽자 선조가 한양을 버리고 북으로 도망쳐 이에 화가 난 백성들이 경복궁과 창덕궁도 불 지르고 장예원의 노비문서도 불태웠습니다.",
+            "turn_id": "BK22012580-3",
+            "utterance_id": "BK22012580.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 언제 복원이 시작됐나요?",
+            "turn_id": "BK22012580-4",
+            "utterance_id": "BK22012580.7"
+        },
+        {
+            "reference_date": "44540.0",
+            "reference_text": [
+                {
+                    "value": "복원이 시작된 건 광복 50주년을 목전에 둔 1991년이었다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강녕전과 교태전을 시작으로 진행된 복원 작업은 광화문·동궁·흥례문·태원전·건청궁·소주방 등의 재건으로 이어졌고, 궁궐은 제법 장대한 외양을 갖추게 됐다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2021/12/10/society/opinion/20211210184022679.html",
+            "search_query": "경복궁 복원",
+            "terminate": false,
+            "text": "1991년 광복 50주년을 눈 앞에 두고 시작됐는데 처음에는 강녕전과 교태전을 복원 했으며 동궁, 흥례문, 광화문, 소주방, 태원전, 건청궁 등을 다시 세움으로써 궁궐 모습은 장관을 이루게 됩니다.",
+            "turn_id": "BK22012580-4",
+            "utterance_id": "BK22012580.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "복원 사업 중에 근래에 유물이 발굴된 게 있나요?",
+            "turn_id": "BK22012580-5",
+            "utterance_id": "BK22012580.9"
+        },
+        {
+            "reference_date": "44385.0",
+            "reference_text": [
+                {
+                    "value": "궁궐 내부에서 화장실 유구가 나온 것은 처음 있는 일이다.",
+                    "value_time": "44763.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이번 경복궁 화장실 유구의 발굴은 그동안 관심이 적었던 조선 시대 궁궐의 생활사 복원에 많은 도움이 될 것으로 기대된다.",
+                    "value_time": "44763.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20210707_0001504572&cID=10701&pID=10700",
+            "search_query": "경복궁 화장실",
+            "terminate": false,
+            "text": "네. 처음으로 화장실 유구가 나왔는데 그동안 관심 밖에 있던 조선 시대 궁궐의 생활사 복원에 큰 도움이 되고 있습니다.",
+            "turn_id": "BK22012580-5",
+            "utterance_id": "BK22012580.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀해주신 덕분에 직접 가서 보면 더 기억에 남을 거 같아요. 지하철을 이용해서 갈 건데 몇호선을 타고 가면 되나요?",
+            "turn_id": "BK22012580-6",
+            "utterance_id": "BK22012580.11"
+        },
+        {
+            "reference_date": "42882.0",
+            "reference_text": [
+                {
+                    "value": "▲대중교통: 지하철3호선 경복궁역 5번출구가 근처에 있고, 5호선 광화문역 2번출구에서도 10분 이내에 도착합니다.",
+                    "value_time": "44763.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsq.co.kr/news/articleView.html?idxno=239576",
+            "search_query": "경복궁 대중교통",
+            "terminate": false,
+            "text": "지하철3, 5호선을 이용할 수 있는데 3호선은 경복궁역 5번출구로 나오시면 되고요. 5호선은 광화문역 2번출구에서 10분정도 소요됩니다.",
+            "turn_id": "BK22012580-6",
+            "utterance_id": "BK22012580.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 입장료 없이 무료 입장도 가능한가요?",
+            "turn_id": "BK22012580-7",
+            "utterance_id": "BK22012580.13"
+        },
+        {
+            "reference_date": "44717.0",
+            "reference_text": [
+                {
+                    "value": "입장료는 내국인은 만25∼64세 3000원, 외국인은 만19∼64세 3000원, 만7∼18세 1000원이다.",
+                    "value_time": "44763.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한복을 입었다면 무료로 입장이 가능하다.",
+                    "value_time": "44763.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/TRV/356736/view",
+            "search_query": "경복궁 입장료",
+            "terminate": false,
+            "text": "한복을 입었다면 무료 입장이 가능하지만 그렇지 않은 경우는 만25세에서 64세까지 내국인과 만19세에서 64세까지의 외국인은 3000원, 만7세에서 18세까지 1000원의 입장료를 내셔야 합니다.",
+            "turn_id": "BK22012580-7",
+            "utterance_id": "BK22012580.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 야간 입장도 가능한가요?",
+            "turn_id": "BK22012580-8",
+            "utterance_id": "BK22012580.15"
+        },
+        {
+            "reference_date": "44674.0",
+            "reference_text": [
+                {
+                    "value": "한편 올해 상반기 경복궁 야간 개장은 오늘부터 5월 29일까지 진행되며 관람 시간은 오후 7시부터 9시 30분까지다.",
+                    "value_time": "44763.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4658332",
+            "search_query": "경복궁 야간개장",
+            "terminate": false,
+            "text": "올해 상반기 야간개장은 5월 29일까지 진행되며 야간에 이용할 수 있는 시간은 오후 7시부터 9시 30분까지입니다.",
+            "turn_id": "BK22012580-8",
+            "utterance_id": "BK22012580.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 아쉽지만 야간 입장은 다음번으로 미뤄야겠군요.",
+            "turn_id": "BK22012580-9",
+            "utterance_id": "BK22012580.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경복궁은 언제 가서 보아도 아름다운 곳이니 너무 아쉬워 마세요.",
+            "turn_id": "BK22012580-9",
+            "utterance_id": "BK22012580.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 경복궁 견학을 시작으로 서울 다른 궁들도 견학할 생각입니다.",
+            "turn_id": "BK22012580-10",
+            "utterance_id": "BK22012580.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다른 궁에 가시기 전 연락주시면 더 많은 정보 알려드리겠습니다.",
+            "turn_id": "BK22012580-10",
+            "utterance_id": "BK22012580.20"
+        }
+    ]
+}

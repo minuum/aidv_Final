@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007706",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007706",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이번에 운전면허를 취득해보려고 해요. 점점 운전을 해야 할 일이 생기더라구요. 혹시 운전면허 취득 조건이 어떻게 되나요?",
+            "turn_id": "BK22007706-1",
+            "utterance_id": "BK22007706.1"
+        },
+        {
+            "reference_date": "2021-03-24",
+            "reference_text": [
+                {
+                    "value": "만 18세 이상이 되면 제1종 보통면허, 제2종 보통면허, 제2종 소형면허를 응시할 수 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 신체검사기준에서는 신호등의 색체를 정확히 구분할 수 있어야 하고, 두 눈을 동시에 뜨고 잰 시력이 제1종 면허에서는 0.8 이상, 제2종 면허에서는 0.5 이상이어야 한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/202103240953306704e8b8a793f7_1/article.html?md=20210324095916_U",
+            "search_query": "운전면허 응시자격",
+            "terminate": false,
+            "text": "나이가 만 18세 이상이 되면 1종, 2종 면허에 응시할 수 있어요. 나이 기준을 충족하고 나면 신체검사 기준도 통과해야 하는데 신호등의 색을 정확히 구분할 수 있어야 하고, 두 눈을 동시에 뜬 시력이 1종은 0.8이상, 2종은 0.5이상이면 되요.",
+            "turn_id": "BK22007706-1",
+            "utterance_id": "BK22007706.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 운전면허에는 1종과 2종이 있는 것으로 알고 있는데 두 종이 어떤 차이가 있나요? 어떤 것으로 응시해야 할지 헷갈리네요.",
+            "turn_id": "BK22007706-2",
+            "utterance_id": "BK22007706.3"
+        },
+        {
+            "reference_date": "2019-07-13",
+            "reference_text": [
+                {
+                    "value": "1종 면허는 주로 트럭이나 대형 자동차를 운전할 경우, 2종은 보통 일반 승용차를 운전할 경우 필요하다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다르게 말하면 1종 면허는 기어가 오토매틱이 아닌 클러치가 있는 수동기어 차량이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1종 면허를 딴 운전자는 승용차를 운전할 수 있지만, 2종 면허를 딴 운전자는 트럭을 몰 수 없다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/236260",
+            "search_query": "운전면허 시험 종류",
+            "terminate": false,
+            "text": "1종 면허는 주로 트럭 같은 대형 자동차를 운전할 경우에 필요하고, 일반 승용차를 운전하는 경우에는 2종 면허만 있어도 돼요. 즉, 1종 면허는 자동기어가 아닌 클러치가 있는 수동기어 차량을 운전할 수 있어야 하는 거죠. 따라서 1종 면허를 딴 운전자는 자동기어가 적용된 승용차도 운전할 수 있지만, 2종 면허를 딴 운전자는 트럭 같은 수동기어 차량을 몰 수 없어요.",
+            "turn_id": "BK22007706-2",
+            "utterance_id": "BK22007706.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하! 저는 일반 승용차 위주로 운전할 예정이라 2종 면허만 따도 충분할 것 같아요. 그런데 혹시 2종 면허를 따면 오토바이 운전까지 할 수 있나요?",
+            "turn_id": "BK22007706-3",
+            "utterance_id": "BK22007706.5"
+        },
+        {
+            "reference_date": "2019-01-07",
+            "reference_text": [
+                {
+                    "value": "오토바이 면허는 원동기와 2종 소형 면허 두 가지로 나뉜다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원동기 면허는 125cc까지 운전할 수 있으며 원동기 면허가 없다고 해도 자동차 운전면허가 있으면 운전할 수 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 2종 보통 면허 보유자는 수동 기어가 장착된 오토바이는 운전할 수 없다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "125cc를 초과하면 2종 소형 면허를 따로 취득해야 한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.enewstoday.co.kr/news/articleView.html?idxno=1260803",
+            "search_query": "2종 보통면허로 오토바이",
+            "terminate": false,
+            "text": "오토바이가 어떤 것인지에 따라 달라져요. 오토바이 면허는 원동기랑 2종 소형 면허 이렇게 2가지가 있는데 배기량 125cc까지는 원동기 면허 뿐만 아니라 자동차 면허만 있으면 운전할 수 있어요. 하지만 배기량이 125cc를 초과하는 경우에는 2종 소형 면허를 따로 취득해야 하죠.",
+            "turn_id": "BK22007706-3",
+            "utterance_id": "BK22007706.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 스쿠터만 탈 수 있겠군요. 승용차 위주로 운전을 해야겠네요. 2종 보통 시험을 치려면 절차가 어떻게 되는지도 알려주실 수 있나요?",
+            "turn_id": "BK22007706-4",
+            "utterance_id": "BK22007706.7"
+        },
+        {
+            "reference_date": "2017-12-31",
+            "reference_text": [
+                {
+                    "value": "운전면허 취득 절차는 교통안전 교육→신체검사→학과접수→학과시험→기능접수→기능시험→연습면허발급→도로주행접수→도로주행시험→본 면허발급(합격)의 순서로 진행된다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소위 ‘필기시험’으로 불리는 학과시험에 응시하기 위해서는 반드시 1시간의 교통안전교육을 이수해야 한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기능시험에 합격하면 연습면허를 발급 받을 수 있고, 정식 운전면허를 취득하기 위한 도로주행시험을 치러야 한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20171231095541663607",
+            "search_query": "운전면허 취득절차",
+            "terminate": false,
+            "text": "운전면허를 취득하려면 먼저 학과시험을 치르기 위해 반드시 해야하는 1시간의 교통 안전교육을 이수하고 신체검사를 마쳐야해요. 신체검사 후에는 학과시험을 접수해서 시험을 치르고 합격한다면 기능시험을 접수하고 치르게 되죠. 기능시험에 합격하면 연습면허가 나오는데 연습면허를 발급 받으면 도로주행이 가능해요. 연습면허로 도로주행시험을 접수하고 시험을 쳐서 합격을 하면 면허를 발급 받을 수 있어요.",
+            "turn_id": "BK22007706-4",
+            "utterance_id": "BK22007706.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 학과시험 합격이 첫번째 관문이네요. 학과시험은 어떻게 치르나요? 합격기준이랑 시험 유효기간도 설명해주세요.",
+            "turn_id": "BK22007706-5",
+            "utterance_id": "BK22007706.9"
+        },
+        {
+            "reference_date": "2018-11-21",
+            "reference_text": [
+                {
+                    "value": "학과시험장에 들어가 PC를 이용해 총 40문제를 40분 동안 푼다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험을 끝내자마자 합격 여부가 나온다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1종은 70점 이상, 2종은 60점 이상이면 합격한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학과시험 합격은 1년 동안 유효하다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 1년 이내에 기능시험에 합격해야 한다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=57738",
+            "search_query": "학과시험 합격기준",
+            "terminate": false,
+            "text": "학과시험은 시험장에서 PC를 이용해서 치르게 되요. 총 40문제를 40분동안 푸는데 제출하자마자 합격여부를 알 수 있죠. 1종은 70점 이상, 2종은 60점 이상이 합격기준이고, 합격은 1년동안 유효해서 이 기간 내에 기능시험에 합격하면 되요.",
+            "turn_id": "BK22007706-5",
+            "utterance_id": "BK22007706.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 기능시험이 많이 어려워졌다고 들었는데 혹시 코스가 어떻게 되어있는지 알고 계신가요? 왜 갑자기 어려워진 건지 궁금하네요.",
+            "turn_id": "BK22007706-6",
+            "utterance_id": "BK22007706.11"
+        },
+        {
+            "reference_date": "2016-01-29",
+            "reference_text": [
+                {
+                    "value": "현재는 50ｍ를 주행하면서 차량 조작 능력과 차로 준수 여부, 급정지 등만 평가하지만 앞으로는 주행거리가 300ｍ 이상으로 길어지고 좌·우회전, 신호교차로, 경사로, 전진(가속), 직각주차(T자 코스) 등 5개 평가항목이 늘어납니다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장내기능시험을 어렵게 한 것은 도로주행 연습에 앞서 장내기능에서 운전에 필요한 항목을 충분히 숙달하게 함으로써 초보운전자의 도로 적응력을 높이기 위한 취지라고 경찰은 설명했습니다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mbn.co.kr/news/society/2762703",
+            "search_query": "2종보통 장내기능시험",
+            "terminate": false,
+            "text": "예전에는 50M를 주행하면서 차량 조작 능력과 함께 차로를 준수 하고 있는지, 급정지는 없는지 정도만 평가했다면, 2016년 변경된 기준은 주행거리가 300M로 늘어났어요. 그리고 좌회전, 우회전, 신호 교차로, 경사로, 가속구간, 직각주차코스까지 5개의 평가항목이 추가됐죠. 기능시험이 어려워진 이유는 도로주행을 연습하기 전에 운전에 필요한 항목을 충분히 익힘으로써 도로적응력을 높여 주기 위해서예요.",
+            "turn_id": "BK22007706-6",
+            "utterance_id": "BK22007706.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 이렇게 다 배우고 도로주행을 하면 좀 익숙해질 수 있겠네요. 근데 제 친구한테 들어보니 시험을 합격하고 나서도 몇 년 뒤에 검사를 또 해야 한다고 하던데 그건 어떤 검사인가요? 언제 하는 걸까요?",
+            "turn_id": "BK22007706-7",
+            "utterance_id": "BK22007706.13"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "운전면허 적성검사란 운전자 자신이 정상적으로 운전을 할 수 있는지 확인하는 절차다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "운전면허증을 취득한 시기에 따라서 적성검사(면허갱신) 주기 및 기간이 다르다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2종 면허 적성검사는 2011년 12월 9일 이후 면허취득자·적성검사자는 10년 주기·1년 기간이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1년기간 산정은 시험합격 또는 갱신 받은날로부터 10년이 되는 날이 속하는 해의 1월 1일부터 12월 31일까지다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nbntv.co.kr/news/articleView.html?idxno=989179",
+            "search_query": "운전면허 적성검사 갱신기간",
+            "terminate": false,
+            "text": "그건 적성검사라고 하는데 운전자가 정상적으로 운전을 할 수 있는지 확인하는 간단한 절차에요. 운전면허를 언제 취득했는지에 따라 주기랑 기간이 다른데, 이번에 취득하실 예정이니까 10년 주기로 하시면 돼요. 운전면허를 취득한날 또는 갱신받은 날부터 10년이 되는 날이 속하는 해의 1월 1일 부터 12월 31일까지만 하면 되거든요.",
+            "turn_id": "BK22007706-7",
+            "utterance_id": "BK22007706.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 합격하고 10년 뒤에 하면 되겠군요! 이번에 면허를 꼭 따야하는데 걱정이에요. 친구랑 중요한 일을 앞두고 있어서 떨어지면 안되거든요.",
+            "turn_id": "BK22007706-8",
+            "utterance_id": "BK22007706.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "열심히 준비하셔야겠네요. 집 근처에 있는 운전면허 학원을 다니면 많은 도움을 받을 수 있을 거예요. 면허가 있어야만 할 수 있는 일을 계획 중이신가 봐요?",
+            "turn_id": "BK22007706-8",
+            "utterance_id": "BK22007706.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구랑 해외여행을 계획하고 있는데 그 곳이 반드시 운전을 해야만 편하게 여행을 할 수 있는 나라라서 미리 따놓기로 했거든요. 우리나라 운전면허만 있어도 해외에서 운전할 수 있겠죠?",
+            "turn_id": "BK22007706-9",
+            "utterance_id": "BK22007706.17"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "체류 기간이 짧은 단기 여행에서 차를 운전하려면 ‘국제운전면허증’과 ‘영문운전면허증’이 필요하다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국제운전면허증은 국내 면허증만 있으면 해외여행을 떠나기 전에 발급받을 수 있다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "유효기간은 발급일로부터 1년이고 사용할 수 있는 나라는 일본, 태국, 아르헨티나, 프랑스를 비롯해 무려 103곳이나 된다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영문운전면허증은 기존 운전면허증 뒷면에 운전자의 인적사항과 운전할 수 있는 차종 등이 영어로 표기된 면허증이다.",
+                    "value_time": "2022-09-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ujeil.com/news/articleView.html?idxno=302548",
+            "search_query": "운전면허 해외운전",
+            "terminate": false,
+            "text": "짧은 여행에서 차를 운전할 때는 국제운전면허증이랑 영문운전면허증이 필요해요. 국제운전면허증은 국내 면허증만 있으면 해외여행 가기 전에 발급 받을 수 있고, 일본, 태국 등 103개국에서 사용할 수 있어요. 유효기간은 발급일로부터 1년이구요. 그리고 영문운전면허증은 기존 운전면허증 뒷면에 운전자의 인적사항과 운전 가능 차종등이 영어로 표기되어 있는 걸 뜻해요.",
+            "turn_id": "BK22007706-9",
+            "utterance_id": "BK22007706.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여행 가기 전에 반드시 미리 챙겨야겠네요. 오늘 예비 운전자에게 많은 정보를 알려주셔서 너무 감사합니다. 합격하면 제가 맛있는 커피 사들고 놀러올게요.",
+            "turn_id": "BK22007706-10",
+            "utterance_id": "BK22007706.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이에요. 이번 시험에서 면허를 꼭 취득할 수 있도록 기도할게요. 조심해서 들어가세요.",
+            "turn_id": "BK22007706-10",
+            "utterance_id": "BK22007706.20"
+        }
+    ]
+}

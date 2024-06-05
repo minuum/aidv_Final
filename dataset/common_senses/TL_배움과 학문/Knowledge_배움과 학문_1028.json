@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006760",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006760",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갑자기 매일 타고 다니는 시설물에 대해 갑자기 궁금해졌어요. 먼저, 엘리베이터는 어떤 원리로 움직이는지 여쭤봐도 될까요?",
+            "turn_id": "BK22006760-1",
+            "utterance_id": "BK22006760.1"
+        },
+        {
+            "reference_date": "2013-12-17",
+            "reference_text": [
+                {
+                    "value": "엘리베이터는 기본적으로 도르래, 줄, 카, 평형추, 그리고 3만여 개의 부품으로 구성되어 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "엘리베이터가 운행하는 길의 가장 위에는 고정도르래가 있으며 이 고정도르래에 두꺼운 쇠줄(로프)이 연결돼 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 쇠줄의 한쪽 끝에는 사람이나 화물이 탈 수 있는 카(car)가 연결되어 있으며, 전동기가 쇠줄을 풀었다 감았다 하면서 카를 움직인다",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=910405",
+            "search_query": "엘리베이터 도르래 원리",
+            "terminate": false,
+            "text": "물론이죠, 엘리베이터는 도르래, 줄, 카, 평형추 외의 3만여 개의 부품으로 이뤄져 있어요. 고정 도르래가 맨 위에 설치되어 있고 고정도르래에 두꺼운 쇠줄이 연결되어 있어요. 쇠줄의 한쪽 끝에는 우리가 타는 카가 연결되어 있고 전동기가 쇠줄을 풀거나 감으면서 카를 움직이는 방식이죠.",
+            "turn_id": "BK22006760-1",
+            "utterance_id": "BK22006760.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엘리베이터도 도르래의 원리로 움직이는 거군요. 영화에서 보면 엘리베이터가 좌우로 이동도 하던데 그런 엘리베이터는 없나요?",
+            "turn_id": "BK22006760-2",
+            "utterance_id": "BK22006760.3"
+        },
+        {
+            "reference_date": "2014-12-02",
+            "reference_text": [
+                {
+                    "value": "지난달 27일(현지시각) 독일의 철강기술기업 티센크루프는 성명을 통해 자기 부상 열차와 같은 원리를 이용해 엘리베이터 운송 시스템인 '멀티'를 개발했다고 발표했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'멀티'는 엘리베이터 차체에 자기 부상 열차에 사용되는 리니어 모터를 장착, 엘리베이터 통로를 마치 선로처럼 활용하며 상하좌우로 이동할 수 있게 만든 시스템이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatoday.co.kr/view.php?key=20141202001114589",
+            "search_query": "엘리베이터 좌우",
+            "terminate": false,
+            "text": "2014년 11월 27일 독일의 티센크루프라는 철강기술기업에서 자기부상열차의 원리로 새로운 엘리베이터 운동 시스템 멀티를 개발했어요. 멀티는 엘리베이터 차체에 리니어 모터를 장착해서 통로를 선로처럼 활용해 상하좌우 모든 방면으로 이동할 수 있죠.",
+            "turn_id": "BK22006760-2",
+            "utterance_id": "BK22006760.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기술이 많이 발달해서 케이블 없이 좌우로 움직이는 엘리베이터도 개발됐던 거군요. 근데 엘리베이터를 탈 때마다 하는 생각인데, 엘리베이터는 추락할 확률이 얼마나 되나요?",
+            "turn_id": "BK22006760-3",
+            "utterance_id": "BK22006760.5"
+        },
+        {
+            "reference_date": "2021-10-25",
+            "reference_text": [
+                {
+                    "value": "통계적으로 보면 다중 안전장치가 있어 운행 중인 엘리베이터의 추락은 낙타가 바늘구멍에 들어가는 확률과 비슷할 정도다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20211026.22021004755",
+            "search_query": "엘리베이터 추락 확률",
+            "terminate": false,
+            "text": "엘리베이터는 다중 안전장치가 있어서 추락할 확률은 통계적으로 낙타가 바늘구멍에 들어가는 확률과 비슷해요.",
+            "turn_id": "BK22006760-3",
+            "utterance_id": "BK22006760.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 추락할 확률은 높지 않군요. 그럼 어떤 안전장치가 되어 있는지 궁금해요.",
+            "turn_id": "BK22006760-4",
+            "utterance_id": "BK22006760.7"
+        },
+        {
+            "reference_date": "2018-06-20",
+            "reference_text": [
+                {
+                    "value": "엘리베이터에는 많은 안전장치가 설치돼 있는데 로프브레이크, 비상정지장치, 조속기 등 추락을 방지해주는 장치가 설치돼 있기 때문에 추락할 염려는 없다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://fpn119.co.kr/sub_read.html?uid=98537&section=sc102",
+            "search_query": "엘리베이터 추락 안전장치",
+            "terminate": false,
+            "text": "엘리베이터에는 로프 브레이크, 비상정지장치, 조속기 같은 다양한 추락방지 장치가 있어요. 그러니까 추락할 염려는 하지 않아도 되는 거죠.",
+            "turn_id": "BK22006760-4",
+            "utterance_id": "BK22006760.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추락을 방지해주는 여러 장치가 설치되어 있다니 조금 안심되네요. 근데 아주 만약에 엘리베이터가 추락한다면 어떻게 해야 하나요?",
+            "turn_id": "BK22006760-5",
+            "utterance_id": "BK22006760.9"
+        },
+        {
+            "reference_date": "2019-08-16",
+            "reference_text": [
+                {
+                    "value": "만약 승강기가 바닥으로 추락할 경우 승강기 바닥 중앙에 대자로 눕는다면 살아남을 가능성은 높다고 할 수 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 자세는 승강기가 바닥에 부딪힐 때 우리가 받는 충격을 온몸으로 분산시켜 전달하기 때문에 살아남을 확률을 높여준다는 것이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://fpn119.co.kr/120721",
+            "search_query": "승강기사고 추락",
+            "terminate": false,
+            "text": "만약에 엘리베이터가 추락한다면 바닥 중앙에 대자로 눕는 게 살아남을 가능성이 높아요. 바닥 중앙에 대자로 누우면 엘리베이터가 바닥에 부딪힐 때 충격을 온몸으로 분산해서 받을 수 있기 때문에 살아남을 확률이 높은 거죠.",
+            "turn_id": "BK22006760-5",
+            "utterance_id": "BK22006760.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대자로 누워서 충격을 몸 전체로 분산시키는 게 좋군요. 바닥에 떨어질 때 타이밍에 맞춰 점프하면 된다고도 들었는데 이건 그냥 농담인 건가요?",
+            "turn_id": "BK22006760-6",
+            "utterance_id": "BK22006760.11"
+        },
+        {
+            "reference_date": "2020-02-04",
+            "reference_text": [
+                {
+                    "value": "떨어지는 엘리베이터에서 점프를 하면 엘리베이터 천장에 머리를 처박고 다시 바닥에 내동댕이쳐 집니다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과학적으로 분석해보면 전혀 논리적이지 않은 나쁜 결론입니다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지면에 닿는 순간을 알고 점프를 하는 것도 불가능하지만 충격을 줄일 수는 없습니다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2018081615110282352",
+            "search_query": "엘리베이터 추락 점프",
+            "terminate": false,
+            "text": "네, 엘리베이터가 추락할 때 점프하면 된다는 건 과학적으로 전혀 논리적이지 않아요. 지면에 닿는 순간을 알아채고 점프하는 것도 불가능하지만 만약 점프한다고 해도 충격을 줄일 수는 없어요. 떨어지는 엘리베이터에서 점프하게 되면 천장에 머리를 박고 다시 바닥에 내동댕이쳐질 거에요.",
+            "turn_id": "BK22006760-6",
+            "utterance_id": "BK22006760.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 전혀 근거 없는 이야기군요. 엘리베이터에는 말씀해주신 다중 안전장치가 있다면, 에스컬레이터에도 안전장치가 마련되어 있나요?",
+            "turn_id": "BK22006760-7",
+            "utterance_id": "BK22006760.13"
+        },
+        {
+            "reference_date": "2014-07-08",
+            "reference_text": [
+                {
+                    "value": "다중이 이용하는 에스컬레이터는 역주행 방지장치와 안전솔 설치, 근린생활시설 승강장 도어이탈 방지장치를 의무적으로 둬야 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20140708163623880",
+            "search_query": "에스컬레이터 안전장치",
+            "terminate": false,
+            "text": "그럼요. 에스컬레이터는 역주행 방지 장치와 안전 솔 설치를 의무적으로 하게 되어 있어요.",
+            "turn_id": "BK22006760-7",
+            "utterance_id": "BK22006760.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터도 엘리베이터처럼 다양한 안전장치가 설치되어 있는 거군요. 근데 에스컬레이터 사고는 빈번한 편인가요?",
+            "turn_id": "BK22006760-8",
+            "utterance_id": "BK22006760.15"
+        },
+        {
+            "reference_date": "2015-09-02",
+            "reference_text": [
+                {
+                    "value": "최근 5년간 에스컬레이터 사고현황을 살펴보면 ▲2010년 109건 ▲2011년 77건 ▲2012년 105건 ▲2013년 59건 ▲2014년 49건 등 총 399건이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사고 원인으로는 이용자과실이 376건(94%)으로 가장 많았다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관리부실·작업자과실·제조 및 보수 불량에 따른 사고 건수는 극히 미미했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.electimes.com/news/articleView.html?idxno=126839",
+            "search_query": "에스컬레이터 사고 현황",
+            "terminate": false,
+            "text": "네, 2010년에 109건, 2011년에 77건, 2012년에 105건, 2013년에 59건 그리고 2014년에 49건의 에스컬레이터 사고가 발생했었기 때문에 빈번한 편이죠. 사고 원인은 이용자 과실이 94퍼센트나 되어서 관리 부실이나 작업자 과실, 제조와 보수 불량으로 인한 사고는 적었고요.",
+            "turn_id": "BK22006760-8",
+            "utterance_id": "BK22006760.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에스컬레이터 자체의 안전문제보다는 이용자가 안전하게 사용하지 않아서 발생하는 사고가 대부분이었던 거군요. 근데 듣기로는, 에스컬레이터의 한 줄 서기가 에스컬레이터에 가해지는 무게를 다르게 만들어서 안 좋다고 하더라고요. 한 줄은 걷고 한 줄은 서있으면 위험한 건가요?",
+            "turn_id": "BK22006760-9",
+            "utterance_id": "BK22006760.17"
+        },
+        {
+            "reference_date": "2022-01-18",
+            "reference_text": [
+                {
+                    "value": "한 줄 서기를 하게 될 경우 하중이 한 쪽으로 솔려 에스컬레이터 고장의 원인이 되고 갑작스러운 고장이 발생하게 될 경우 인명피해로 이어질 수 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=891535",
+            "search_query": "에스컬레이터 한줄 두줄",
+            "terminate": false,
+            "text": "한 줄로 서면 에스컬레이터의 하중에 한쪽에만 쏠려서 고장의 원인이 될 수 있어요. 고장이 나면 인명피해가 날 수 있으니 균등한 하중이 되도록 주의해야 하는 거죠.",
+            "turn_id": "BK22006760-9",
+            "utterance_id": "BK22006760.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안전을 생각하면 두 줄로 서서 가는 게 좋겠네요. 오늘 이야기를 나누면서 엘리베이터와 에스컬레이터 시설물 안전장치와 사고 원인에 대해 알게 되어서 앞으로 조금 덜 불안해하면서 탈 수 있겠어요.",
+            "turn_id": "BK22006760-10",
+            "utterance_id": "BK22006760.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었다니 다행이에요. 다음번에 또 궁금한 게 있으시면 언제든지 말씀해주세요.",
+            "turn_id": "BK22006760-10",
+            "utterance_id": "BK22006760.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에도 궁금한 게 있으면 말씀드릴게요. 조만간 또 이야기 나누면 좋겠네요. 그럼 다음에 봬요!",
+            "turn_id": "BK22006760-11",
+            "utterance_id": "BK22006760.21"
+        }
+    ]
+}

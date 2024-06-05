@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011552",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011552",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 아까 역사 다큐멘터리를 봤는데, 조선이 유교의 영향을 강하게 받은 나라라는 생각을 새삼스럽게 하게 됐어. 근데 생각해보니 내가 유교에 대해 아는 게 별로 없더라고. 유교가 뭔지 설명해줄 수 있니?",
+            "turn_id": "BK22011552-1",
+            "utterance_id": "BK22011552.1"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "유교(儒敎)는 중국 춘추시대(기원전 770~403) 말기에 공자(孔子)가 체계화한 사상인 유학(儒學)의 학문을 이르는 말로, 동아시아 특유의 종교 및 철학 체계이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시조 공자의 이름을 따서 공교(孔敎)라고도 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교사상",
+            "terminate": false,
+            "text": "그럼, 유교는 중국의 춘추전국시대 말기에 등장한 유학의 학문을 칭하는 말로, 공자가 체계화했어. 사실 조선 뿐만 아니라 동아시아 전반에 영향을 준 종교 및 철학 체계라고 할 수 있지. 공자가 시조이기 때문에 공자의 이름을 따 공교라고도 불러.",
+            "turn_id": "BK22011552-1",
+            "utterance_id": "BK22011552.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공교라고도 불리는 줄은 몰랐어. 그런데 춘추전국 시대에 등장한 여러 학파 중 어쩌다가 유교가 우세하게 된 거야?",
+            "turn_id": "BK22011552-2",
+            "utterance_id": "BK22011552.3"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "유교(儒敎) · 유가(儒家) 또는 유학(儒學)은 본래 춘추시대 말부터 전국시대에 걸쳐서 배출된 제자백가(諸子百家) 중의 한 학파에 불과했으나 한나라(漢) 왕조의 권력 안정과 함께 그 통치를 정당화하는 이론으로서 중시되어 중국의 정치사상 중에서 정통적 지위를 차지하게 되었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교 기원",
+            "terminate": false,
+            "text": "네 말대로 유교는 원래 춘추시대 말에서 전국시대에 이르기까지 등장했던 제자백가의 한 학파였지만, 권력이 안정되었던 한나라 때 통치를 정당화하는 이론으로 채택되면서 정통적 지위를 차지하게 된 거야.",
+            "turn_id": "BK22011552-2",
+            "utterance_id": "BK22011552.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 역사가 있는 줄 몰랐네. 유교의 핵심적인 사상은 뭐야?",
+            "turn_id": "BK22011552-3",
+            "utterance_id": "BK22011552.5"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "유교의 특징 또는 핵심 사상은 수기치인(修己治人)으로, 유교가 실현하고자 하는 진리 구현의 방식이 수기치인이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수기치인은 자신의 몸과 마음을 닦은 후에 남을 다스리는 것으로서 위정자가 갖추어야 할 덕목이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교 핵심 사상",
+            "terminate": false,
+            "text": "핵심 사상은 수기치인이라고 할 수 있는데, 유교에서 실현하려 하는 진리를 구현하는 방식이야. 수기치인의 뜻은 스스로의 몸과 마음을 닦은 후 남을 다스리라는 것으로, 보통 위정자에게 요구되는 덕목이지.",
+            "turn_id": "BK22011552-3",
+            "utterance_id": "BK22011552.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣기에는 바르고 좋은 말로 들려. 그런데 유교 사상 때문에 여성이 억압당하거나 계급 체제가 공고화된 것 아니야?",
+            "turn_id": "BK22011552-4",
+            "utterance_id": "BK22011552.7"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "그러나 명나라 시대와 같이 여성의 평생 순결을 강조하거나, 지나친 계급 체제의 합리화는 유교에 존재하지 않았다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교 악습",
+            "terminate": false,
+            "text": "여성이 평생 순결할 것을 요구했던 건 명나라 시대의 일인데, 이건 본래 유교에는 존재하지 않던 거야. 지나치게 계급 체제를 옹호하고 합리화한 것도 원래 유교 사상에는 없었어.",
+            "turn_id": "BK22011552-4",
+            "utterance_id": "BK22011552.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 알고 있던 것들은 시간이 지나며 변질된 유교의 내용이었나 봐. 그러면 명나라 때는 왜 유교 사상이 변한 거야?",
+            "turn_id": "BK22011552-5",
+            "utterance_id": "BK22011552.9"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "성리학은 유교를 바탕으로 하고 있으나, 본질적으로 다른 요소가 포함된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유교 추종자들은 공자의 이상을 교리화하고 강제해야 한다는 믿음을 가졌던 것으로 이해되며, 성리학으로 발전 시킨다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 명나라 시대에는 권력자에게 충성을 다하고, 지배 체제를 강화화기 위하여 성리학 이론을 이용하게 되었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교 성리학",
+            "terminate": false,
+            "text": "명나라 때는 지배 체제를 공고히 하고 권력자에게 충성을 다하는 사회를 만들기 위해 성리학을 이용하고자 했거든. 유교의 추종자들이 공자의 사상을 교리화해서 강제하고자 발전시킨 것이 성리학이어서, 성리학의 바탕이 유교이긴 하지만 근본적으로 조금 다른 요소들이 포함되어 있어.",
+            "turn_id": "BK22011552-5",
+            "utterance_id": "BK22011552.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성리학이 주된 사상이 되면서 통치에 이용된 거구나. 그러면 조선에 들어온 것도 성리학이야?",
+            "turn_id": "BK22011552-6",
+            "utterance_id": "BK22011552.11"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "명나라는 성리학을 이용하여 사회를 통제하기를 원했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 현상은 조선도 마찬가지였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성리학이 고려 후기 혼란스러운 상황을 정리하는데 도움이 되었으나, 후기로 갈수록 지나치게 계급화되고 교리화는 문제가 발생하였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 여성에게 가혹한 법칙들이 생겨났다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "성리학 조선",
+            "terminate": false,
+            "text": "맞아, 명나라에서 성리학을 통해 사회를 통제하고자 했던 것처럼, 조선도 그랬거든. 고려 후기에 혼란스러웠던 당시 상황을 통제하는 데 성리학이 보탬이 되었던 건 사실이지만, 점차 계급화 및 교리화되는 문제가 생겼어. 여성을 억압하는 법칙들도 이때 생겨났지.",
+            "turn_id": "BK22011552-6",
+            "utterance_id": "BK22011552.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사실 난 그런 점 때문에 유교를 별로 좋아하지 않았는데, 성리학이 조선에 들어오면서 생긴 일들이었구나. 유교가 우리나라 뿐 아니라 다른 나라에도 많이 영향을 주었니?",
+            "turn_id": "BK22011552-7",
+            "utterance_id": "BK22011552.13"
+        },
+        {
+            "reference_date": "2020-05-26",
+            "reference_text": [
+                {
+                    "value": "동아시아 문화권은 유형무형의 문화요소를 공유하고 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 가운데 특히 중요한 요소는 율령과 유교, 한자, 불교다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들 요소는 발생 시기나 체계화된 과정이 다르지만, 동아시아 각국에서 서로 융합된 문화로 정착되었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kor.theasian.asia/archives/262190",
+            "search_query": "유교 동아시아",
+            "terminate": false,
+            "text": "맞아, 동아시아 전반에 영향을 주었기 때문에 오죽하면 동아시아 문화권을 분류하는 기준으로 유교, 율령, 한자, 불교의 여부를 따져. 이 요소들은 발생한 시기와 체계화된 과정이 다를지언정 동아시아 각국에서 공유하는 유무형의 문화요소로 인정받고 있거든.",
+            "turn_id": "BK22011552-7",
+            "utterance_id": "BK22011552.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동아시아를 분류하는 기준이 되는 줄은 몰랐네. 시대에 따라 유교가 어떻게 달라졌는지도 궁금해.",
+            "turn_id": "BK22011552-8",
+            "utterance_id": "BK22011552.15"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "유교의 주류는 전국시대에는 맹자로 대표되는 내성파의 학문과 순자로 대표되는 숭례파의 학문, 한나라와 당나라 시대의 훈고학과 경학, 송나라 시대의 성리학, 명나라 시대의 양명학, 청나라 시대의 고증학 등으로 발전 또는 변천되었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B5%90",
+            "search_query": "유교 변천",
+            "terminate": false,
+            "text": "전국시대에는 맹자를 필두로 한 내성파, 순자를 내세운 숭례파가 주류였고, 이후 한나라와 당나라 때는 훈고학과 경학, 송나라 때는 성리학, 명나라 때는 양명학, 청나라 때 고증학으로 변천되었어.",
+            "turn_id": "BK22011552-8",
+            "utterance_id": "BK22011552.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 오랜 기간 주류 이념이었던 것을 보면 사람들에게 매력적으로 느껴지는 요소가 있었긴 했나 봐.",
+            "turn_id": "BK22011552-9",
+            "utterance_id": "BK22011552.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과거의 중국이 강대국이었던 점을 감안해도, 유교가 여러 나라에 전파된 것을 보면 그랬던 것 같아.",
+            "turn_id": "BK22011552-9",
+            "utterance_id": "BK22011552.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유교에 대해 잘 몰랐는데 알려줘서 고마워. 깊게 파고들면 복잡한 내용이 많은 것 같으니 혼자 책을 보며 더 공부해 봐야겠어.",
+            "turn_id": "BK22011552-10",
+            "utterance_id": "BK22011552.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 공부하다가 모르는 내용이 있으면 또 물어 봐.",
+            "turn_id": "BK22011552-10",
+            "utterance_id": "BK22011552.20"
+        }
+    ]
+}

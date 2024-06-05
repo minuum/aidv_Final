@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008155",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008155",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신재생에너지 관련 잡지를 본 적이 있는데 생각보다 흥미로웠어.",
+            "turn_id": "BK22008155-1",
+            "utterance_id": "BK22008155.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과학 잡지 같은 거였나 보네.",
+            "turn_id": "BK22008155-1",
+            "utterance_id": "BK22008155.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 핵융합이랑 핵분열 에너지라든지 수소 에너지라든지 간단하게 소개하는 내용이었어. 내가 잘 이해를 못한 것 같은데, 핵융합엔 수소를 사용하는 거지?",
+            "turn_id": "BK22008155-2",
+            "utterance_id": "BK22008155.3"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "발전에 쓰이는 핵융합은 거칠게는 '수소를 헬륨으로 변환하는 과정'으로 요약할 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수소 1㎏가 핵융합 과정을 마치면 1㎏보다 몇ｇ 부족한 헬륨이 생성된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 질량 차이가 에너지로 전환되면서 강력한 열을 방출한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/001/0013402177?sid=104",
+            "search_query": "핵융합에너지 원리",
+            "terminate": false,
+            "text": "그렇지, 핵융합은 간단히 말하면 수소를 헬륨으로 변환하는 과정이라고 할 수 있는데, 수소 1kg이 핵융합을 거치면 그보다 질량이 약간 부족한 헬륨이 생성돼. 그 질량 차이가 에너지로 바뀌면서 엄청난 열을 방출하지.",
+            "turn_id": "BK22008155-2",
+            "utterance_id": "BK22008155.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 에너지양이 가늠이 잘 안 가는데. 핵융합에 쓰이는 수소는 수소면 다 가능한가?",
+            "turn_id": "BK22008155-3",
+            "utterance_id": "BK22008155.5"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "핵융합에 쓰이는 건 중수소와 삼중수소다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/028/0002602908?sid=102",
+            "search_query": "핵융합 핵분열",
+            "terminate": false,
+            "text": "아니, 수소라고 전부 다 쓰이는 건 아니고 수소 중에서 중수소와 삼중수소가 핵융합에 쓰여.",
+            "turn_id": "BK22008155-3",
+            "utterance_id": "BK22008155.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 수소 에너지 파트에서 중수소와 삼중수소에 대해 본 것 같아. 원자력은 핵융합이 아니라 핵분열이지?",
+            "turn_id": "BK22008155-4",
+            "utterance_id": "BK22008155.7"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "핵에너지 생성의 3가지 유형인 핵분열, 핵융합, 방사성 붕괴 중에서 현재 원자력발전에 이용되는 것은 핵분열 방식이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%90%EC%9E%90%EB%A0%A5",
+            "search_query": "원자력에너지",
+            "terminate": false,
+            "text": "응, 핵에너지를 생성하는 데엔 핵분열, 핵융합, 방사성 붕괴, 이렇게 3가지 유형이 있는데, 원자력 발전에 이용되는 건 핵분열 방식이야.",
+            "turn_id": "BK22008155-4",
+            "utterance_id": "BK22008155.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 핵융합이 핵분열보다 에너지가 상당하다던데 차이가 커?",
+            "turn_id": "BK22008155-5",
+            "utterance_id": "BK22008155.9"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "우라늄-235의 1kg이 핵분열을 할 때 내놓는 에너지는 200억kcal 정도인 반면, 수소 1kg이 핵융합을 할 때 내놓는 에너지는 1500억kcal 정도이니 7배 이상의 에너지 차이가 나는 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsquest.co.kr/news/articleView.html?idxno=100031",
+            "search_query": "핵융합에너지",
+            "terminate": false,
+            "text": "그렇지, 예를 들어 우라늄235 1kg을 핵분열할 때 내놓는 에너지는 200억kcal 정도라면, 수소 1kg을 핵융합할 때 내놓는 에너지는 1500억kcal 정도로 약 7배 이상의 에너지가 차이 나니까.",
+            "turn_id": "BK22008155-5",
+            "utterance_id": "BK22008155.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 차이가 상당하네! 원자력에 쓰이는 핵분열 방식은 어떻게 이루어지는 거야?",
+            "turn_id": "BK22008155-6",
+            "utterance_id": "BK22008155.11"
+        },
+        {
+            "reference_date": "2022-06-01",
+            "reference_text": [
+                {
+                    "value": "핵분열은 우리가 흔히 알고 있는 원자력발전의 원리다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우라늄이나 플루토늄 같은 무거운 원자핵에 중성자를 충돌시키면 가벼운 원자핵 2개로 분열되고, 이때 에너지가 나온다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/037/0000030903?sid=105",
+            "search_query": "핵분열 원리",
+            "terminate": false,
+            "text": "원자력 발전의 원리인 핵분열에선 우라늄이나 플루토늄과 같은 무거운 원자핵에 중성자를 충돌시켜. 그러면 가벼운 원자핵 2개로 분열되면서 에너지가 방출되지.",
+            "turn_id": "BK22008155-6",
+            "utterance_id": "BK22008155.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 근데 원자력 같은 경우엔 폐기물이 발생해서 문제가 될 텐데, 원전에서 발생하는 폐기물 양도 상당할 것 같은데?",
+            "turn_id": "BK22008155-7",
+            "utterance_id": "BK22008155.13"
+        },
+        {
+            "reference_date": "2022-09-04",
+            "reference_text": [
+                {
+                    "value": "고준위 방사성 폐기물은 열과 방사능 수준이 높은 폐기물이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원전 연료로 사용되고 난 후의 핵연료 물질이 대부분 고준위 방사성 폐기물에 속한다고 보면 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난 40여 년 원전 발전을 하면서 발생한 사용후핵연료로 우리나라에 발생한 고준위 방사성 폐기물은 이미 1만8000여 t에 이른다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/article/021/0002529488?sid=101",
+            "search_query": "핵분열 핵폐기물",
+            "terminate": false,
+            "text": "맞아, 원전 연료로 사용된 후의 핵연료 물질 대부분은 고준위 방사성 폐기물이라고 보면 되는데, 이게 열과 방사능 수준이 높거든. 지난 40여년간 우리나라에서 원전 발전을 진행하면서 생긴 사용후핵연료로 발생한 고준위 방사성 폐기물은 벌써 1만 8천여 톤에 달해.",
+            "turn_id": "BK22008155-7",
+            "utterance_id": "BK22008155.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 폐기물이 그렇게나 많이 발생했다니 충격이다. 그나저나 핵융합과 핵분열 에너지 차이가 상당하면 세계적으로도 핵융합에 열중하겠는걸. 잡지에서 보니까 중국에서도 핵융합과 관련해서 열을 쏟고 있는 것 같던데?",
+            "turn_id": "BK22008155-8",
+            "utterance_id": "BK22008155.15"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "2020년 12월, 베이징은 ‘인공 태양’ 핵융합로를 처음으로 효과적으로 충전했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.g-enews.com/view.php?ud=2022072616275128966ed0c62d49_1&mobile=1",
+            "search_query": "핵융합 발전",
+            "terminate": false,
+            "text": "응, 중국 베이징에서 2020년 12월에 인공 태양 핵융합로를 충전했는데, 처음으로 효과적으로 충전에 성공했지.",
+            "turn_id": "BK22008155-8",
+            "utterance_id": "BK22008155.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 미국에서도 최근에 핵융합로로 뭔가 결과를 낸 것 같던걸?",
+            "turn_id": "BK22008155-9",
+            "utterance_id": "BK22008155.17"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "미국 매사추세츠공대(MIT)에서 설립한 벤처사 커먼웰스퓨전시스템(CFS)은 최근 자체 개발한 핵융합로 스파크(SPARC)를 통해 '순 에너지' 달성 가능성을 보였다고 WP는 전했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "순에너지는 투입한 에너지보다 얻어낸 에너지가 더 많다는 의미다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.getnews.co.kr/news/articleView.html?idxno=596673",
+            "search_query": "핵융합 연구",
+            "terminate": false,
+            "text": "맞아, WP에 따르면, 미국 MIT에서 설립한 커먼웰스퓨전시스템이란 벤처사가 있는데, 거기서 최근에 자체 개발한 핵융합로 스파크를 통해 순 에너지 달성 가능성을 보였어. 여기서 순 에너지는 인풋 에너지보다 아웃풋 에너지가 더 많다는 뜻이야.",
+            "turn_id": "BK22008155-9",
+            "utterance_id": "BK22008155.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 확실히 핵융합 발전과 관련해선 좋은 소식이네. 덕분에 이것저것 많이 알게 됐어.",
+            "turn_id": "BK22008155-10",
+            "utterance_id": "BK22008155.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 된 것 같아 다행이네. 혹시라도 궁금한 거 생기면 또 물어봐.",
+            "turn_id": "BK22008155-10",
+            "utterance_id": "BK22008155.20"
+        }
+    ]
+}

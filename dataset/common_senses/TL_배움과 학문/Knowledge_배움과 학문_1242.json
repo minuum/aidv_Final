@@ -1,0 +1,422 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008331",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008331",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계 2차 대전에 대해서 공부하고 있는데 오늘은 원인과 관련 인물에 대해서 정리하면 좋을 것 같아. 좀 도와주겠어? 먼저 제2차 세계대전에 대해서 간단히 설명해줘.",
+            "turn_id": "BK22008331-1",
+            "utterance_id": "BK22008331.1"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "제2차 세계 대전(第二次世界大戰, 영어: World War II, WWII)은 1939년 9월 1일부터 1945년 9월 2일까지 2,194일, 즉 6년 하고도 1일 동안 인류 역사상 가장 많은 인명 피해와 재산 피해를 남긴 전쟁이었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 세계 대전의 전사자는 약 2,500만 명이고, 민간인 희생자도 약 3천만 명에 달했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 세계 대전은 크게 서부 전선, 동부 전선과 태평양 전쟁으로 구분할 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에도 아시아, 아메리카, 오세아니아, 아프리카, 중동, 대서양 해역과 인도양 해역 등에서 벌어진 기타 하위 전선도 제2차 세계 대전의 전역에 포함된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EC%84%B8%EA%B3%84_%EB%8C%80%EC%A0%84",
+            "search_query": "제2차 세계 대전",
+            "terminate": false,
+            "text": "제2차 세계대전은 1939년 9월 1일부터 1945년 9월 2일까지 일어났어. 6년하고 1일 동안, 총 2194일간 지속된 이 전쟁은 인류 역사상 가장 많은 인명 피해와 재산 피해를 남겼지. 제2차 세계 대전은 크게 서부 전선, 동부 전선과 태평양 전쟁으로 나뉘는데, 이외에도 아시아, 아메리카, 오세아니아, 아프리카, 중동, 대서양 해역과 인도양 해역 등에서 발생한 기타 하위 전선도 제2차 세계 대전의 전역에 속해. 전쟁으로 인한 전사자만 해도 약 2,500만 명이고, 민간인 희생자도 약 3천만 명에 육박해.",
+            "turn_id": "BK22008331-1",
+            "utterance_id": "BK22008331.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6년이라니 엄청 오래 전쟁을 했다. 전쟁의 원인은 어떻게 돼?",
+            "turn_id": "BK22008331-2",
+            "utterance_id": "BK22008331.3"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "제2차 세계 대전의 원인은 국가 간 긴장, 제1차 세계 대전에서 해결되지 않은 과제, 전간기 기간의 분개, 1930년대 대공황 등 여러 사건이 복합적으로 이루어졌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "많은 사람들은 제2차 세계 대전을 제1차 세계 대전으로 인해 발생한 것으로 본다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EC%B0%A8_%EC%84%B8%EA%B3%84_%EB%8C%80%EC%A0%84%EC%9D%98_%EC%9B%90%EC%9D%B8",
+            "search_query": "제2차 세계대전 원인",
+            "terminate": false,
+            "text": "제2차 세계 대전의 원인은 긴장되어 있는 국가의 관계, 제1차 세계 대전에서 해결되지 않은 과제, 전간기 기간의 분개, 1930년대에 발생한 대공황 등 여러가지가 얽혀있는데, 대부분이 제1차 세계 대전 때문이라고 보고 있어.",
+            "turn_id": "BK22008331-2",
+            "utterance_id": "BK22008331.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제1차 세계대전이 역시 많은 영향을 줬구나. 제1차 세계대전 당시에는 전 유럽이 외교적 문제가 많이 얽혀 있으니까 제2차 세계대전의 원인이 된 배경은 엄청 다양할 것 같은데 그중에서 영향이 가장 큰 것은 어떤 게 있을까? 하나만 예로 들어주면 좋겠어.",
+            "turn_id": "BK22008331-3",
+            "utterance_id": "BK22008331.5"
+        },
+        {
+            "reference_date": "2022-09-10",
+            "reference_text": [
+                {
+                    "value": "베르사유 조약(영어: Treaty of Versailles, 프랑스어: Traité de Versailles, 독일어: Friedensvertrag von Versailles)은 1919년 6월 독일 제국과 연합국 사이 맺은 제1차 세계 대전의 평화협정이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조약은 국제 연맹의 탄생과 독일 제재에 관한 규정을 포함한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "재건을 위해 바이마르 공화국에게 막대한 비용을 부담했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일에서는 재건사업이 오랜기간동안 정치적 논쟁거리가 되었고 강렬한 복수심을 조장했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1933년 나치가 독일 권력을 잡고 재건에 관한 모든 것을 거부한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EC%82%AC%EC%9C%A0_%EC%A1%B0%EC%95%BD",
+            "search_query": "베르사유 조약",
+            "terminate": false,
+            "text": "1919년 6월 독일 제국과 연합국 사이에서 베르세유 조약이라고 맺어지는데, 이 조약은 제1차 세계 대전의 평화협정이야. 조약에는 국제 연맹의 탄생과 독일 제재에 대한 규정이 담겨 있었어. 그리고 바이마르 공화국에게 재건을 위한 막대한 비용을 요청했고, 독일에서는 재건사업에 대한 정치적 논쟁이 오래 이어지며 이로 인해 복수심이 조장되었지. 이후 1933년 독일의 권력을 나치가 잡으면서 재건에 관한 모든 사항이 거부돼.",
+            "turn_id": "BK22008331-3",
+            "utterance_id": "BK22008331.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제1차 세계대전 이후 그런 일이 있었구나. 그런데 나치는 어떤 세력이야?",
+            "turn_id": "BK22008331-4",
+            "utterance_id": "BK22008331.7"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "나치즘은 파시즘과 인종주의를 조합한 사상이며, 그를 뒷받침하는 우생학을 필두로 한 전체주의 사상의 일부이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치즘은 생물학적 인종차별과 반유대주의가 섞인 독특한 전체주의였다.[5]",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치는 히틀러와 그를 추종하는 자들에 의해 만들어진 정치 집단이었으며, 국가사회당의 정치적 성격은 좌익도 우익도 아닌 집단이라는 의견도 있다.[8][9][10][11]",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치는 우수한 인종이 지배하는 동안 사회적 열등요소를 제거하는 것이 권리이자 목표로 간주하였다.[12]",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EC%B9%98%EC%A6%98",
+            "search_query": "나치",
+            "terminate": false,
+            "text": "나치는 히틀러와 그를 추종하는 자들이 세운 정치 집단인데, 참고로 국가사회당의 정치적 성격은 좌익도 우익도 아니라는 의견이 있어. 전체주의 사상의 일부인 나치즘은 파시즘과 인종주의가 조합된 사상인데, 우생학으로 이념을 뒷받침하고 있었어. 나치즘은 독특하게도 생물학적 인종차별과 반유대주의가 섞여 있었거든. 거기다 그들은 우수한 인종이 사회를 지배하는 동안에는 사회적 열등요소를 제거하는 것이라고 했고 이를 권리로 간주하며 목표로 두었어.",
+            "turn_id": "BK22008331-4",
+            "utterance_id": "BK22008331.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 무서운 집단인 것 같아. 그런데 우생학이라는 게 어떤 걸까?",
+            "turn_id": "BK22008331-5",
+            "utterance_id": "BK22008331.9"
+        },
+        {
+            "reference_date": "2022-09-11",
+            "reference_text": [
+                {
+                    "value": "우생학(優生學)은 종의 개량을 목적으로 인간의 선발육종을 찬성하는 생각이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인류를 유전학적으로 개량할 것을 목적으로 하여 여러 가지 조건과 인자 등을 연구하는 학문으로 1883년 영국의 프랜시스 골턴이 처음으로 창시했는데, 가를 꾀하고 열악한 유전자를 가진 인구의 증가를 방지하는 것이 목적이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%83%9D%ED%95%99",
+            "search_query": "우생학",
+            "terminate": false,
+            "text": "우생학은 인간의 선발육종을 찬성하는 것으로 종의 개량을 목적으로 가지고 있지. 1883년 영국의 프랜시스 골턴이 처음으로 창시했고, 인류를 유전학적으로 개량할 것을 목적으로 두고 여러 가지 조건과 인자 등을 연구하는 학문이지. 골턴은 이 학문을 통해 열악한 유전자를 가진 인구의 증가를 방지하고자 했어.",
+            "turn_id": "BK22008331-5",
+            "utterance_id": "BK22008331.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 학문이 있다는 게 충격이야. 다시 돌아와서 나치를 창시한 히틀러라는 인물은 어떤 사람이야?",
+            "turn_id": "BK22008331-6",
+            "utterance_id": "BK22008331.11"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "아돌프 히틀러(독일어: Adolf Hitler, 1889년 4월 20일 ~ 1945년 4월 30일)는 국가 사회주의 독일 노동자당의 지도자이자 나치 독일의 초대 퓌러다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "뛰어난 웅변술과 감각의 소유자였던 히틀러는 제1차 세계 대전의 패전국으로 인하여 독일이 서약한 베르사유 체제, 대공황 이후 정권을 잡았다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "히틀러는 군대를 대량 모집하여 취업률을 올렸고, 전쟁 자금이나 국가 민족의 희생양으로 유대인을 지목하여 독일의 게르만족의 지지를 얻었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 독일 민족 생존권 수립 정책을 주장하며 자를란트의 영유권 회복과 오스트리아 병합, 체코슬로바키아 점령, 폴란드 침공 등을 일으키며 제2차 세계 대전을 일으켰다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%8F%8C%ED%94%84_%ED%9E%88%ED%8B%80%EB%9F%AC",
+            "search_query": "히틀러",
+            "terminate": false,
+            "text": "나치 독일의 초대 퓌러인 아돌프 히틀러는 국가 사회주의 독일 노동자당의 지도자야. 그는 뛰어난 웅변술과 감각을 가지고 있었고, 정권은 독일이 제1차 세계 대전에서 패전하여 서약한 베르사유 체제, 대공황 이후에 잡았어. 히틀러는 유대인을 전쟁 자금이나 국가 민족의 희생양의 원인으로 지목하며 독일의 게르만족의 지지를 얻었고, 군대를 대량 모집하여 취업률도 올렸어. 이후에는 독일 민족 생존권 수립 정책을 주장하며 자를란트의 영유권 회복과 오스트리아 병합, 그리고 체코슬로바키아를 점령하고, 폴란드를 침공하는 등 제2차 세계 대전을 발발시켰어.",
+            "turn_id": "BK22008331-6",
+            "utterance_id": "BK22008331.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "히틀러가 왜 무시무시하다고 하는지는 알 것 같아. 히틀러의 측근 중에서 유명한 사람 몇 사람만 가르쳐줘.",
+            "turn_id": "BK22008331-7",
+            "utterance_id": "BK22008331.13"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "파울 요제프 괴벨스(독일어: Paul Joseph Goebbels, 문화어: 파울 요제프 겝벨스, 1897년 10월 29일 ~ 1945년 5월 1일)는 나치 독일에서 국가대중계몽선전장관의 자리에 앉아 나치 선전 및 미화를 책임졌던 인물이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "히틀러의 최측근 역할을 했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치당의 두뇌라고 불릴만큼 나치당의 지식인이었던 그는 나치당의 제복 대신 양복을 주로 입었고 선전 방법뿐만 아니라 유창한 말솜씨 또한 가지고 있었으며, 사람들을 선전하다 못해 광신적인 신도들로 만들었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%94%EC%A0%9C%ED%94%84_%EA%B4%B4%EB%B2%A8%EC%8A%A4",
+            "search_query": "괴벨스",
+            "terminate": false,
+            "text": "파울 요제프 괴벨스라고 있어. 히틀러의 최측근으로 나치 독일에서 국가대중계몽선전장관의 자리에 앉아 나치 선전 및 미화를 책임졌지. 그는 나치당의 지식인으로서 나치당의 두뇌라고 불렸고, 그만큼 나치당의 제복 대신 양복을 주로 입었지. 괴벨스는 선전 방법뿐만 아니라 말솜씨 또한 정말 유창해 선전을 넘어서 사람들을 광신적인 신도로 만들었어.",
+            "turn_id": "BK22008331-7",
+            "utterance_id": "BK22008331.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "측근 또한 엄청 무서운 사람 같아. 군사적 일과 관련된 인물은 없을까? 역할로 분류해 인물을 정리해두고 싶거든.",
+            "turn_id": "BK22008331-8",
+            "utterance_id": "BK22008331.15"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "하인리히 루이트폴트 힘러(독일어: Heinrich Luitpold Himmler, 이 소리의 정보듣기 (도움말·정보), 문화어: 하인리히 히믈러, 1900년 10월 7일 ~ 1945년 5월 23일)는 SS로 약칭되는 친위대 SS국가지도자로서 SS와 게슈타포를 지휘했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "힘러는 유대인 대학살의 실무를 주도한 최고 책임자였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나치 강제수용소와 학살대인 특수작전집단을 창설한 사람이자, 최종 지휘 책임자로서, 600만에서 1200만에 이르는 사람들을 산업적 규모로 학살한 것에 대한 책임이 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B8%EB%A6%AC%ED%9E%88_%ED%9E%98%EB%9F%AC",
+            "search_query": "하인리히 힘러",
+            "terminate": false,
+            "text": "SS로 약칭되는 친위대 SS국가지도자인 하인리히 루이트폴트 힘러가 있어. SS국가지도자로서 SS와 게슈타포를 지휘한 힘러는 유대인 대학살의 실무를 주도한 최고 책임자였어. 여기에 그치지 않고 나치 강제수용소와 학살대인 특수작전집단을 만들었고 그곳의 최종 지휘 책임자로서, 600만에서 1200만에 육박하는 사람들을 산업적 규모로 학살하였어.",
+            "turn_id": "BK22008331-8",
+            "utterance_id": "BK22008331.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "끔찍하다. 나치 인물에 대해서는 여기까지만 정리하고 마무리하면 될 것 같은데 나치의 잘못을 인정한 나치 정치인은 한 명도 없는 거야?",
+            "turn_id": "BK22008331-9",
+            "utterance_id": "BK22008331.17"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "베르톨트 콘라트 헤르만 알베르트 슈페어(독일어: Berthold Konrad Hermann Albert Speer, 1905년 3월 19일 ~ 1981년 9월 1일)은 독일의 정치가이자 건축가이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "슈페어는 히틀러의 측근으로서 나치 독일의 군수장관을 지냈으며, 후에 뉘른베르크 재판에 전범으로 회부되었고, 20년의 복역후 석방되었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "슈페어는 한스 프랑크와 함께 자신의 과오와 책임을 시인하고 사죄한 단 두 명의 나치 고위직이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%8A%88%ED%8E%98%EC%96%B4",
+            "search_query": "알베르트 슈페어",
+            "terminate": false,
+            "text": "베르톨트 콘라트 헤르만 알베르트 슈페어라고 있어. 한스 프랑크와 함께 자신의 잘못을 인정하고 사죄한 나치 고위직이야. 슈페어에 대해서 짧게 소개하자면, 그는 독일의 정치가이자 건축가이며 히틀러의 측근이었어. 나치 독일의 군수장관으로 있었고 전쟁이 끝난 뒤에는 뉘른베르크 재판에 전범으로 회부되어 20년간 복역한 뒤 석방되었지.",
+            "turn_id": "BK22008331-9",
+            "utterance_id": "BK22008331.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사죄한 인물이 있어서 그나마 다행이지만, 이런 전쟁이 다시는 일어나지 않게 전 세계가 과거를 보며 노력해야 할 것 같아. 오늘 덕분에 많은 것을 배웠어.",
+            "turn_id": "BK22008331-10",
+            "utterance_id": "BK22008331.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 것이 있으면 언제든 연락해. 그럼 다음에 보자.",
+            "turn_id": "BK22008331-10",
+            "utterance_id": "BK22008331.20"
+        }
+    ]
+}

@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004298",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004298",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1920년대 나온 SF소설을 보는데 천공 카드로 작동하는 로보트가 나오는 장면이 있더라고. 천공카드가 뭔지 몰라서 상상이 잘 안됐어. 천공카드가 뭔지 설명해 줄 수 있어?",
+            "turn_id": "BK22004298-1",
+            "utterance_id": "BK22004298.1"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "천공 카드(穿孔-, punched card)는 데이터를 표현하기 위해 규칙에 따라 직사각형 모양의 구멍을 뚫어 사용하는 종이 카드로서 초기의 저장매체이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드",
+            "terminate": false,
+            "text": "아, 천공카드는 초기의 저장매체야. 종이 카드에 일정한 규칙에 따라 직사각형 구멍을 뚫어서 데이터를 표현할 수 있게 한 저장 방식이지.",
+            "turn_id": "BK22004298-1",
+            "utterance_id": "BK22004298.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종이에 구멍을 뚫어서 저장한다고? 어떤 방식인지 잘 이해가 안 가, 조금 더 설명해 줘봐.",
+            "turn_id": "BK22004298-2",
+            "utterance_id": "BK22004298.3"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "천공 위치에 구멍을 뚫거나 뚫지 않음으로서 하나의 비트를 나타날 수 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 구멍",
+            "terminate": false,
+            "text": "천공, 그러니까 구멍 위치에 구멍을 뚫거나, 뚫지 않거나 이 두 가지 상태 값으로 하나의 비트를 나타내는 방식인 거야.",
+            "turn_id": "BK22004298-2",
+            "utterance_id": "BK22004298.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 기본적인 접근법이네. 이 천공 카드를 예전에는 정말 많이들 사용한 거야?",
+            "turn_id": "BK22004298-3",
+            "utterance_id": "BK22004298.5"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "초기의 디지털 컴퓨터는 천공 카드를 키펀치 기기에 대한 오프라인 자료 기입을 취하는 컴퓨터 프로그램과 데이터를 위한 주된 매개체로 사용하였다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 매개체",
+            "terminate": false,
+            "text": "그렇지, 초기 디지털 컴퓨터에서 주된 저장 매개체로 많이 썼지. 주로 키 펀치 기기에 대한 오프라인 자료를 기입하는 프로그램과 데이터를 위한 용도로 말이야.",
+            "turn_id": "BK22004298-3",
+            "utterance_id": "BK22004298.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "초기 컴퓨터에서 저장 방식으로 쓰였던 거구나. 혹시 그럼 지금은 다른 데에 쓰이나?",
+            "turn_id": "BK22004298-4",
+            "utterance_id": "BK22004298.7"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "일부 투표 기기에서도 천공 카드를 사용한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 투표",
+            "terminate": false,
+            "text": "아, 일부 투표 기기에서는 이 천공 카드라는 걸 사용하고 있지.",
+            "turn_id": "BK22004298-4",
+            "utterance_id": "BK22004298.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군, 이게 저장매체니까 규격도 정해져 있었겠네? 규격은 어떻게 됐어?",
+            "turn_id": "BK22004298-5",
+            "utterance_id": "BK22004298.9"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "표준 천공 카드의 크기는 가로 187.32mm, 세로 82.5mm이며, 천공 위치는 가로 80자리, 세로 12자리가 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 표준",
+            "terminate": false,
+            "text": "표준 천공 카드라면 가로는 187.32밀리미터, 세로는 82.5 밀리미터였고 구멍을 뚫을 수 있는 위치는 가로 80군데, 세로로는 12군데가 있었지.",
+            "turn_id": "BK22004298-5",
+            "utterance_id": "BK22004298.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이십 센티가 채 안 됐으면 생각보다 작았구나. 어디서 처음 쓰기 시작한 거야?",
+            "turn_id": "BK22004298-6",
+            "utterance_id": "BK22004298.11"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "천공 카드는 1725년 즈음에 Basile Bouchon와 Jean-Baptiste Falcon가 더 튼튼한 형태의 천공 종이말이로서 처음 사용하였고 나중에 프랑스에서 직조기를 제어하는 데 이용하였다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 직조기",
+            "terminate": false,
+            "text": "원래는 카드가 아니라 더 튼튼한 형식의 종이 말이로 1725년 쯤에 Basile Bouchon랑 Jean Baptiste Falcon이라는 사람들이 처음 사용한 거고 나중에 프랑스로 넘어가서 직조기를 쓰는 데 이용되었어.",
+            "turn_id": "BK22004298-6",
+            "utterance_id": "BK22004298.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 컴퓨터에 활용되기 전에 직조기에서 먼저 쓰인 거구나. 직조기에 천공카드를 발전시킨 사람도 있겠네?",
+            "turn_id": "BK22004298-7",
+            "utterance_id": "BK22004298.13"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "이 기술은 1801년에 조제프 마리 자카드(Joseph Marie Jacquard)가 그의 자카드식 직조기에서 크게 개선하였다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 마리 자카드",
+            "terminate": false,
+            "text": "응, 1801년에 조제프 마리 자카드라는 사람이 개발한 자카드식 직조기에 이용되면서 크게 개선되었지.",
+            "turn_id": "BK22004298-7",
+            "utterance_id": "BK22004298.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "19세기부터 쓰였다니 생각해보니 유서 깊은 기술이구나, 아까 말한 투표 기계 같은 거 말고는 거의 쓰는 데가 없겠지?",
+            "turn_id": "BK22004298-8",
+            "utterance_id": "BK22004298.15"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "오늘날 천공 카드는 거의 쓰이지 않으며 (일부 오래된 시스템이나 오래된 전문 응용 프로그램 쪽을 제외하고) 다른 기억 매체가 이를 대체하였다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EA%B3%B5_%EC%B9%B4%EB%93%9C",
+            "search_query": "천공 카드 기억 매체",
+            "terminate": false,
+            "text": "응, 오늘날에는 거의 쓰이지 않지. 대체할 만한 다른 기억 매체들이 많으니까 말이야. 근데 일부 아주 오래된 시스템이나 전문 응용프로그램에서 제한적으로 쓰고 있어.",
+            "turn_id": "BK22004298-8",
+            "utterance_id": "BK22004298.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "플로피 디스크만 해도 구시대의 유물 같은데 천공 카드를 아직도 쓰는 데가 있다니 대단하다.",
+            "turn_id": "BK22004298-9",
+            "utterance_id": "BK22004298.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 기술이라는 게 한번 등장하면 쉽게 없어지지는 않지.",
+            "turn_id": "BK22004298-9",
+            "utterance_id": "BK22004298.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무튼 오늘도 귀찮아하지 않고 많이 알려줘서 고맙다.",
+            "turn_id": "BK22004298-10",
+            "utterance_id": "BK22004298.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙기는 무슨, 나도 재밌었어, 다음에 또 보자고, 안녕!",
+            "turn_id": "BK22004298-10",
+            "utterance_id": "BK22004298.20"
+        }
+    ]
+}

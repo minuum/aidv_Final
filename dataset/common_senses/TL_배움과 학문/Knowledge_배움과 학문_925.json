@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005943",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005943",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터의 역사라는 수업을 듣는데 앞부분을 놓쳤지 뭐야. 차분기관이라는 게 자꾸 나오던데 설명 좀 해줄 수 있어?",
+            "turn_id": "BK22005943-1",
+            "utterance_id": "BK22005943.1"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "차분기관(差分機關, 영어: difference engine)은 다항함수를 계산하기 위한 기계식 디지털 계산기이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관",
+            "terminate": false,
+            "text": "응, 차분기관이라는 건 기계식 디지털 계산긴데 다항함수를 계산하기 위한 장치야. 영어로는 difference engine이라고 부르고.",
+            "turn_id": "BK22005943-1",
+            "utterance_id": "BK22005943.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 다항함수가 계산이 되면 꽤 폭넓게 쓸 수 있겠는걸?",
+            "turn_id": "BK22005943-2",
+            "utterance_id": "BK22005943.3"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "다항함수로 로그함수와 삼각함수도 근사할 수 있기 때문에 이 계산기는 범용으로 사용될 가능성이 충분하다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 범용",
+            "terminate": false,
+            "text": "그렇지, 다항함수로 로그함수나 삼각함수도 비슷하게 계산할 수 있으니까 아주 폭넓게 범용으로 쓸만한 가능성이 있지.",
+            "turn_id": "BK22005943-2",
+            "utterance_id": "BK22005943.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 유용했건는 걸? 이 차분 기간이란 거 그럼 누가 처음 만든 거지?",
+            "turn_id": "BK22005943-3",
+            "utterance_id": "BK22005943.5"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "최초의 차분기관은 1786년 J.H. 뮐러가 제안하였지만 만들어지지는 못했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 후 차분기관은 한 동안 잊혔다가 1822년 찰스 배비지가 이 기관을 다시 발명하였다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 뮐러",
+            "terminate": false,
+            "text": "최초로는 1786년에 J.H 뮐러가 개념을 제안한 건데 실제로 만들어지지는 않았어. 이후로 한동안 잊혀져있다가 찰스 배비지가 다시 이 기관을 발명하게 된 거지. 1822년에 말이야.",
+            "turn_id": "BK22005943-3",
+            "utterance_id": "BK22005943.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1822년이면 내가 생각했던 것보다 훨씬 오래된 발명품이구나. 처음부터 차분기관이라는 이름은 베비지가 직접 만들어서 발표한 거야? 이름만 듣고는 당시에는 이게 뭐 하는 기계인지 몰랐을 거 같은걸.",
+            "turn_id": "BK22005943-4",
+            "utterance_id": "BK22005943.7"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "그는 영국 왕립 천문학회에 \"매우 큰 수학적 표를 계산하는 기계적인 방법\"이라는 제목으로 이 내용을 발표했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 십진법",
+            "terminate": false,
+            "text": "아니, 베비지는 영국 왕립 천문학회에 매우 큰 수학적 표를 계산하는 기계적인 방법이라는 제목으로 발표했었어.",
+            "turn_id": "BK22005943-4",
+            "utterance_id": "BK22005943.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 매우 거창한 제목인걸? 꽤 돈이 들어가는 프로젝트였을 거 같은데 어디서 지원 같은걸 받았나? 그때는 막 재력가들이 발명가들을 지원해주고 그랬잖아.",
+            "turn_id": "BK22005943-5",
+            "utterance_id": "BK22005943.9"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "영국 정부는 처음에는 이 연구를 지원했지만 배비지가 이 기계를 만들지는 않고 계속 추가 지원금을 요구하자 지원을 철회하였다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 영국 정부",
+            "terminate": false,
+            "text": "영국 정부가 처음에는 지원했었지. 근데 배비지가 기계를 만들지는 않고 계속해서 추가 지원금만 요구하다 보니 결국엔 지원을 철회하게 되었어.",
+            "turn_id": "BK22005943-5",
+            "utterance_id": "BK22005943.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말 돈이 많이 들어가긴 했나 보다. 차분기관이 어떻게 발전됐는지 더 설명해 줄 수 있어?",
+            "turn_id": "BK22005943-6",
+            "utterance_id": "BK22005943.11"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "배비지는 더 일반적인 연산이 가능한 해석기관의 연구를 계속했지만 1847년부터 1849년 사이에는 차분기관의 설계를 발전시켜 \"차분기관 2호\"를 설계했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "Per Georg Scheutz는 배비지의 설계에 영향을 받아 1855년부터 몇 대의 차분기관을 만들어 1859년 이 중 한 대를 영국 정부에 판매했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 해석기관",
+            "terminate": false,
+            "text": "응, 더 일반적인 연산이 가능한 해석기관을 연구하려고 배비지가 계속 노력했지. 1847년에서 1849년 사이에는 차분기관의 설계를 발전시켜서 차분기관 2호의 설계를 내놓았어. Per Georg Scheutz 는 이런 베지지의 설계에 영향을 받아서 1855년부터 몇 대의 차분기관을 만들어 냈는데 1859년에 이것 중에 한대를 영국 정부에 판매하기도 했어.",
+            "turn_id": "BK22005943-6",
+            "utterance_id": "BK22005943.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 베비지는 주로 설계했지 혼자 온전히 기계 전체를 만들어 낸 건 아니구나. 이렇게 얘기 들으니까 실물을 한 번 보고 싶긴 하네. 혹시 현재에도 이 기계가 남아있으려나?",
+            "turn_id": "BK22005943-7",
+            "utterance_id": "BK22005943.13"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "1989년부터 1991년까지 런던 과학 박물관에서는 배비지의 탄생 200주년을 기념하기 위해 배비지의 원래 설계를 그대로 따라 차분기관 2호를 만들었다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 200주년",
+            "terminate": false,
+            "text": "런던 과학 박물관에 가면 있지. 1989년 부터 1991년까지 배비지 탄생 200주년을 기념하면서 원래 설계를 그대로 따라서 차분기관 2호를 만들었거든.",
+            "turn_id": "BK22005943-7",
+            "utterance_id": "BK22005943.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 게 있었구나, 배비지의 원안 그대로 만들었다니 대단하다. 혹시 현대에 와서 기술이 발전하면서 배비지의 설계 그대로를 이제야 재현할 수 있게 된 건가?",
+            "turn_id": "BK22005943-8",
+            "utterance_id": "BK22005943.15"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "배비지가 차분기관을 설계만 하고 제작하지 못한 것은 빅토리아 시대의 공학 기술로는 이렇게 정교한 기계를 제작하는 것이 불가능했기 때문이라는 주장이 많았다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이 기계를 재현하면서 19세기의 기술로 이 기계를 제작하는 것이 충분히 가능하다는 것이 알려졌고, 이제 제작이 불가능하다는 주장은 사라졌다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EB%B6%84%EA%B8%B0%EA%B4%80",
+            "search_query": "차분기관 기술",
+            "terminate": false,
+            "text": "어, 말한 대로 배비지가 차분기관을 설계는 했는데 제작하지 못한 것이 빅토리아 시대의 공학 기술이 부족해서라는 말이 있었어. 이렇게 정교한 기계를 제작하는 건 불가능했다고 말이야. 그런데 이번에 이 기계를 재현하면서 19세기 빅토리아 시대 기술로도 충분히 가능하다는게 밝혀졌지. 제작이 불가능했다는 주장은 쏙 들어가게 된 거지.",
+            "turn_id": "BK22005943-8",
+            "utterance_id": "BK22005943.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 가능했었던 거구나. 역시 예나 지금이나 인간은 똑똑하다니까.",
+            "turn_id": "BK22005943-9",
+            "utterance_id": "BK22005943.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 근데 벌써 어두워진다, 가야하는 시간 아니야?",
+            "turn_id": "BK22005943-9",
+            "utterance_id": "BK22005943.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네, 어느새 어두워졌네. 난 먼저 일어나야겠다, 오늘 재밌었어.",
+            "turn_id": "BK22005943-10",
+            "utterance_id": "BK22005943.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 들어가, 다음에 또 보자고, 안녕!",
+            "turn_id": "BK22005943-10",
+            "utterance_id": "BK22005943.20"
+        }
+    ]
+}

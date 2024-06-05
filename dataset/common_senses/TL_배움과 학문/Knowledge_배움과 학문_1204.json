@@ -1,0 +1,416 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008007",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008007",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산에 갔다가 뱀에 물렸는데, 다행히 독사는 아니어서 간단히 치료를 받고 파상풍 주사를 맞는 정도로 끝났어. 그런데 치료를 마치고 나니까, 독사였으면 정말 큰 일이었겠다는 생각이 들면서 문득 독사에 관심이 생기더라. 그래서 말인데, 세상에 있는 독사 종류는 어느 정도나 되고, 유명한 독사로는 뭐가 있을까?",
+            "turn_id": "BK22008007-1",
+            "utterance_id": "BK22008007.1"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "사람에게 치명적이거나 약간의 해를 입히는 독사는 약 270종이 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "독사에는 아시아에 사는 킹코브라, 아프리카에 사는 검은맘바와 가시북살무사, 오스트레일리아에 사는 타이판이 유명하다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B1%80",
+            "search_query": "독사 수",
+            "terminate": false,
+            "text": "약하든 치명적이든, 사람에게 피해를 입히는 독사는 대략 270종이 있어. 유명한 독사로는 아시아에 서식하는 킹코브라, 아프리카에 서식하는 블랙맘바와 가시북살무사, 호주에 서식하는 타이판 등이 있지.",
+            "turn_id": "BK22008007-1",
+            "utterance_id": "BK22008007.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "270종이라니, 종류가 정말 많네. 그럼 먼저, 킹코브라는 어떤 뱀이고, 어떤 독을 가지고 있어?",
+            "turn_id": "BK22008007-2",
+            "utterance_id": "BK22008007.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "킹코브라(학명: Ophiophagus hannah)는 세계에서 가장 긴 독사로서,[2] 길이가 최대 5.85미터(19.2ft)에 무게가 9kg까지 자란다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 뱀의 독은 주로 신경독으로 되어 있으며, 한 번 무는 것으로 사람을 충분히 죽일 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "치사율은 75%까지 이른다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%82%B9%EC%BD%94%EB%B8%8C%EB%9D%BC",
+            "search_query": "킹코브라",
+            "terminate": false,
+            "text": "킹코브라는 세상에서 몸길이가 가장 긴 독사야. 길이는 최대 5.85 미터에 몸무게는 9kg까지 자라지. 킹코브라의 독은 주로 신경독으로 되어 있는데, 한 번 무는 것만으로도 충분히 사람을 죽이는 게 가능해. 치사율이 무려 75%에 육박하지.",
+            "turn_id": "BK22008007-2",
+            "utterance_id": "BK22008007.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명을 듣는 것만으로 소름이 끼치는 무시무시한 뱀이네. 신경독이라는 말을 했는데, 신경독은 어떤 독이고 어떤 식으로 작용해?",
+            "turn_id": "BK22008007-3",
+            "utterance_id": "BK22008007.5"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "신경독(神経毒, Neurotoxin)은 신경조직을 파괴하거나 신경에 독성이 있는 물질이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "맹독성의 신경독은 극미량으로도 사람을 살해할 수 있으며, 타살 흔적이 남지 않는게 보통이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신경독은 세포 막을 건너는 이온의 집중에 대한 신경세포 조절을 막거나,[4] 시냅스를 건너는 신경세포 사이의 연락을 못하게 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EA%B2%BD%EB%8F%85",
+            "search_query": "신경독",
+            "terminate": false,
+            "text": "신경독은 신경에 독성을 미치거나 신경 조직을 파괴하는 물질이야. 맹독성을 띤 신경독이 경우, 아주 적은 양으로도 사람을 죽일 수 있고, 타살 흔적이 잘 남지 않는 것이 보통이지. 신경독은 세포막을 건너가는 이온의 집중에 관한 신경 세포 조절을 막거나, 시냅스를 건너가는 신경 세포간의 연락이 이루어지지 못하게 막아.",
+            "turn_id": "BK22008007-3",
+            "utterance_id": "BK22008007.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 무서운 물질을 생물이 지니고 있다는 사실이 무섭기도 하고 놀랍기도 해. 그럼 이번에는 블랙맘바에 관해 이야기해 줄래? 블랙맘바는 어떤 뱀이고 어떤 독을 가지고 있어?",
+            "turn_id": "BK22008007-4",
+            "utterance_id": "BK22008007.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "블랙맘바(영어: Black mamba)는 아프리카에 서식하는 독사의 한 종류이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세계에서 가장 빠른 뱀 중 하나이며, 한 번에 나오는 독의 양은 성인 10명을 죽일 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "블랙맘바의 독액에는 파스키쿨린과 덴드로톡신이라는 신경독이 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 물질은 신경신호전달계를 폭주시켜 과잉 신호를 일으켜 전신에 경련과 발작을 유발하고, 신호 수용기를 과부하로 박살 내어 수의근들이 아예 움직이라는 신호를 못 받게 만들어, 최종적으로 호흡근이 마비되어 질식사하게 만든다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 블랙맘바의 독액에는 심장독 성분도 있는데, 심장에 도달하면 즉시 심근에 전달돼야 할 수축 신호를 차단해서 급성심부전 및 심정지를 일으킨다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%80%EC%9D%80%EB%A7%98%EB%B0%94",
+            "search_query": "블랙맘바",
+            "terminate": false,
+            "text": "블랙맘바는 아프리카에 사는 독사 중 하나야. 세상에서 가장 움직임이 빠른 뱀 중 하나이고, 한 번에 나오는 독으로 성인 10명을 죽이는 게 가능하지. 블랙맘바의 독액에는 덴드로톡신과 파스키쿨린이라는 신경독이 포함되어 있는데, 이 두 물질은 신경 신호 전달계를 폭주하게 만들어 과잉 신호를 일으키고, 전신에 발작과 경련을 유발해. 또, 신호 수용기를 과부하로 망가뜨려서 수의근으로 하여금 움직이라는 신호를 아예 받지 못하도록 만들기 때문에, 최종적으로는 호흡근이 마비되어 질식사하게끔 만들지. 여기서 끝이 아니라, 블랙맘바의 독에는 심장독 성분도 있어서, 이 물질이 심장에 도달하면 심근에 전달되는 수축 신호를 즉시 차단하게 되고, 급성 심부전이나 심정지를 일으켜.",
+            "turn_id": "BK22008007-4",
+            "utterance_id": "BK22008007.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 부분에 동시다발적으로 문제를 일으키는 게 너무 무섭다. 그럼 가시북살무사는 어때? 이 뱀은 어떤 독을 가지고 있어?",
+            "turn_id": "BK22008007-5",
+            "utterance_id": "BK22008007.9"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "가시북살무사의 독은 출혈독이 아닌 신경독이며 물리면 마비를 일으키게 되고 어지럼증을 느끼게 된다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독은 8ml정도로 넣는다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2종류에 맹독을 가지고 있으며 물린 부분은 하나도 아프지 않지만 1~2분 후에 마비 증상, 어지럼증, 정신이 나간 상태로 변하는 증상을 보인다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%8B%9C%EB%B6%81%EC%82%B4%EB%AC%B4%EC%82%AC",
+            "search_query": "가시북살무사",
+            "terminate": false,
+            "text": "가시북살무사의 독 또한 출혈독이 아니라 신경독이야. 물리면 마비와 어지럼증을 유발하지. 독 주입량은 약 8mL에, 2종류의 맹독이 들어 있어. 물린 부분에는 전혀 통증이 느껴지지 않다가 1~2분 후 어지럼증, 마비 증상, 정신이 나간 상태가 되는 증상 등을 보이게 돼.",
+            "turn_id": "BK22008007-5",
+            "utterance_id": "BK22008007.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대표적인 독사들이라서 그런가, 독이 역시 하나같이 끔찍하네. 그건 그렇고, 우리나라에는 독사가 몇 종류 정도 있어? 그리고 일반인이 독사와 독 없는 뱀을 구별하는 방법 같은 게 있을까?",
+            "turn_id": "BK22008007-6",
+            "utterance_id": "BK22008007.11"
+        },
+        {
+            "reference_date": "2012-10-25",
+            "reference_text": [
+                {
+                    "value": "우리나라에는 살모사나, 유혈목이, 쇠살모사(불독사), 까치살모사 같은 4가지 종류의 독사가 서식하고 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "독사와 독이 없는 뱀은 머리 모양과 이빨 자국을 통해 구분할 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "먼저 머리 모양을 살펴보면 독이 없는 뱀은 머리 모양이 둥글고 가늘지만, 독사의 대부분은 머리 모양이 삼각형이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물린 이빨자국을 보고도 독사인지 아닌지 구별할 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독사의 경우 두 줄로 난 윗니 자국 외에도, 두개의 송곳니 같은 이빨 자국이 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.anjunj.com/news/articleView.html?idxno=6325",
+            "search_query": "우리나라 독사 종류",
+            "terminate": false,
+            "text": "우리나라에 사는 독사로는 유혈목이, 살모사, 쇠살모사, 까치살모사 등 4가지 종류가 있어. 독이 없는 뱀과 독사는 이빨 자국과 뱀의 머리 모양을 보고 구별할 수 있지. 우선, 머리 모양의 경우, 독이 없는 뱀은 머리 형태가 가늘고 둥근 데 비해, 독사는 대부분 머리 형태가 삼각형이야. 물린 이빨 자국의 경우, 독사에 물린 자국에는 두 줄로 난 윗니 자국 외에 송곳니 같은 이빨 자국 두 개가 더 남지.",
+            "turn_id": "BK22008007-6",
+            "utterance_id": "BK22008007.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내심 우리나라에는 독사가 없다는 대답을 듣고 안심하고 싶었는데, 우리나라에도 독사가 있구나. 그러고 보니, 까치살모사는 어디선가 들어본 듯도 한데, 이 뱀은 어떤 뱀이야?",
+            "turn_id": "BK22008007-7",
+            "utterance_id": "BK22008007.13"
+        },
+        {
+            "reference_date": "2021-04-22",
+            "reference_text": [
+                {
+                    "value": "예로부터 까치살모사에게 물리면 일곱 걸음 전에 죽는다고 하여 칠보사(七步蛇), 머리에 일곱 개의 반점이 위치한다고 하여 칠점사(七点蛇)라고도 불렸다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "총 길이는 40~70cm로 황색의 등면에는 흑색의 줄무늬들이 새겨져 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "살모사, 쇠살모사와 다르게 눈 뒤에 눈썹 무늬가 없고, 머리 뒤에 화살촉 무늬를 가진 것이 특징이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독액에는 혈액독(hematotoxin)과 신경독(neurotoxin)이 함유되어 있는데, 방출되는 독액의 양이 많고 신경계통을 마비시켜 물리면 치명적이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210422514917",
+            "search_query": "우리나라 까치살모사 독",
+            "terminate": false,
+            "text": "까치살모사는 예로부터 물리면 일곱 걸음을 걷기 전에 죽는다고 해서 칠보사, 또는 머리에 반점이 일곱 개 있다고 해서 칠점사라고 불렸지. 몸 길이는 40~70cm이고 황색 몸통의 등면에는 검은 줄무늬들이 있어. 쇠살모사나 살모사랑 달리 눈 뒤쪽에 눈썹 모양 무늬가 없고, 머리 뒤편에 화살촉 모양 무늬가 있는 게 특징이야. 까치살모사의 독액에는 혈액독과 신경독이 들어 있는 데다가 방출되는 독액의 양도 많고 신경 계통을 마비시키기 때문에 물리면 치명적이야.",
+            "turn_id": "BK22008007-7",
+            "utterance_id": "BK22008007.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마나 치명적이면 예로부터 칠보사라는 별명이 붙었을까 싶네. 유혈목이라는 이름은 좀 생소한데, 이 독사 독의 특징은 뭐야?",
+            "turn_id": "BK22008007-8",
+            "utterance_id": "BK22008007.15"
+        },
+        {
+            "reference_date": "2021-03-30",
+            "reference_text": [
+                {
+                    "value": "유혈목이의 독이 살모사 같은 독사류보다 더 위험한 이유는 살모사의 독은 치료 혈청이 개발돼 있지만, 유혈목이의 독에 대한 혈청은 아직 개발돼 있지 않기 때문이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사실 유혈목이는 우리가 흔히 알고 있는 독사류처럼 스스로 독을 만들지 않는다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다만 먹이로 하는 두꺼비와 반딧불이(유충)의 독을 입 뒤 독샘에 보관하고 있다가 입안 깊숙이 있는 두 쌍의 독니를 통해 먹이 체내로 주입한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘부파디에놀라이드’라는 독성 스테로이드로 피부세포를 괴사시키고, 심장에 위험해 생명까지 앗아갈 수 있는 매우 위험한 독이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.usjournal.kr/news/newsview.php?ncode=1065587675290071&dt=m",
+            "search_query": "유혈목이 독",
+            "terminate": false,
+            "text": "우선, 치료 혈청이 개발된 살모사 독과 달리 유혈목이 독에 대한 혈청은 아직 개발이 되어 있지 않아서, 유혈목이 독은 살모사 같은 독사류의 독보다 더 위험해. 유혈목이는 일반적인 독사들과 다르게 스스로 독을 만들지 않고, 먹이로 먹는 반딧불이 유충과 두꺼비의 독을 독샘에 보관해 뒀다가 입 안 깊숙이 자리한 독니 두 쌍을 이용해 먹이 몸 속으로 주입하지. 유혈목이의 독에는 부파디에놀라이드라는 독성 스테로이드 성분이 있는데, 피부 세포를 괴사시키고 심장에도 위험해서 자칫 생명을 잃게 할 수 있을 정도로 아주 위험한 독이야.",
+            "turn_id": "BK22008007-8",
+            "utterance_id": "BK22008007.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에 사는 독사들도 해외 독사들 못지않게 무서운 독을 갖고 있구나. 독사에 절대 물리지 않게 조심해야겠어.",
+            "turn_id": "BK22008007-9",
+            "utterance_id": "BK22008007.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 역시 애초에 물리지 않는 게 최고겠지.",
+            "turn_id": "BK22008007-9",
+            "utterance_id": "BK22008007.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 여러 가지를 알려줘서 고마워. 다음에 산행 나갈 때는 뱀에 대한 대비를 더 철저히 하고 가야겠어. 말 나온 김에, 관련 안전 장비가 있나 찾으러 등산용품 전문점에 가 볼게, 다음에 보자.",
+            "turn_id": "BK22008007-10",
+            "utterance_id": "BK22008007.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 원하는 안전 장비를 찾을 수 있으면 좋겠다. 그럼 다음에 봐.",
+            "turn_id": "BK22008007-10",
+            "utterance_id": "BK22008007.20"
+        }
+    ]
+}

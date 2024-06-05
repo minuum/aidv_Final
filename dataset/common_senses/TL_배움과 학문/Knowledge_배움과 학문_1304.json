@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008678",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008678",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진화론에 대해서 공부하고 있는데 도와줄래? 진화는 어떤 것이고 어떻게 일어나는 거야?",
+            "turn_id": "BK22008678-1",
+            "utterance_id": "BK22008678.1"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "진화는 세대에서 세대로 유전형질이 전달되는 도중에 일어나는 유전자의 변화가 누적된 결과이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진화가 일어나는 주요 작동 기제는, 생물 집단과 환경의 상호 관계에 의해 유전형질이 선택되는 자연선택과, 집단 안에서 이루어지는 유전자 부동이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%ED%99%94",
+            "search_query": "진화론",
+            "terminate": false,
+            "text": "진화라는 것은 세대에서 세대로 유전형질이 전달되는 도중에 유전자의 변화 일어나 이게 누적된 결과를 말해. 진화가 발생하는 주요 원인은 두 가지야. 한 가지는 집단 안에서 이루어지는 유전자 부동이고 다른 한 가지는 생물 집단과 환경의 상호 관계에 의해 유전형질이 선택되는 자연선택이지.",
+            "turn_id": "BK22008678-1",
+            "utterance_id": "BK22008678.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "용어가 어려워서 이해하기가 힘드네. 먼저 유전형질에 대해서 간단히 설명해주겠어?",
+            "turn_id": "BK22008678-2",
+            "utterance_id": "BK22008678.3"
+        },
+        {
+            "reference_date": "2022-04-10",
+            "reference_text": [
+                {
+                    "value": "유전자형(遺傳子型, 영어: genotype)은 세포, 생물, 개체 등에서 발현된 유전적 특성을 뜻하는 유전학 용어이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 종의 특성을 나타내는 형질을 뜻한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유전형질(遺傳形質)이라고도 한다.[1]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%A0%84%ED%98%95",
+            "search_query": "유전형질",
+            "terminate": false,
+            "text": "유전형질은 유전자형이라고도 해. 세포나 생물, 개체 등에서 발현된 유전적 특성을 의미하지. 보통 종의 특성을 나타내는 형질을 의미하기도 해.",
+            "turn_id": "BK22008678-2",
+            "utterance_id": "BK22008678.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유전으로 인한 특성이라고 이해하면 되겠다. 다시 진화에 대해 돌아와서 유전적 부동이라는 건 무엇일까?",
+            "turn_id": "BK22008678-3",
+            "utterance_id": "BK22008678.5"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "유전적 부동(遺傳的浮動, 영어: genetic drift)은 생물 집단의 생식 과정에서 유전자의 무작위 표집으로 나타나는 대립형질의 발현 빈도 변화를 가리키는 생물학 용어이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유전적 부동의 결과 자식 세대는 무작위적으로 선택된 부모 세대의 유전형질을 물려받으며 이로써 발현된 유전형질은 생존과 재생산을 할 수 있는 새로운 기회를 얻게 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%A0%84%EC%A0%81_%EB%B6%80%EB%8F%99",
+            "search_query": "유전적 부동",
+            "terminate": false,
+            "text": "생물 집단의 생식 과정에서 유전자의 무작위 표집으로 나타나는 대립형질의 발현 빈도 변화를 유전적 부동이라고 해. 유전적 부동으로 인해 자식은 부모에게서 무작위적으로 선택된 유전형질을 물려받고, 이때 발현된 유전형질은 생존과 재생산을 할 수 있는 새로운 기회를 가지지.",
+            "turn_id": "BK22008678-3",
+            "utterance_id": "BK22008678.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 가지의 설명을 들으면 또 어려운 단어가 나오는 것 같아. 대립형질에 대해서 간단히 설명해줘.",
+            "turn_id": "BK22008678-4",
+            "utterance_id": "BK22008678.7"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "대립유전자(對立遺傳子, 영어: allele) 상동 염색체의 같은 위치에 존재하며, 같은 형질을 결정하는 유전자이다.[1]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 대립유전자는 대립 형질을 지배하는 한 쌍의 유전자를 가리키기도 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염색체 상의 같은 유전자좌(유전자자리, locus)에 위치하며, 서로 우성(優性)과 열성(劣性) 관계에 있는 것이 보통이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A6%BD%EC%9C%A0%EC%A0%84%EC%9E%90",
+            "search_query": "대립형질",
+            "terminate": false,
+            "text": "상동 염색체의 같은 위치에 존재하고 같은 형질을 결정하는 유전자를 대립유전자라고 하는데, 보통 대립 형질을 지배하는 한 쌍의 유전자를 가리키지. 염색체 상의 같은 유전자 자리에 위치하는 대립유전자는 보통 서로 우성과 열성 관계에 있어.",
+            "turn_id": "BK22008678-4",
+            "utterance_id": "BK22008678.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대립형질의 발현 빈도는 우성 열성에 대한 빈도라고 우선 이해하면 될 것 같아. 그리고 이 발생빈도가 진화하는 데 중요한 역할을 한다는 거겠지? 그럼 자연 선택은 어떤 것일까?",
+            "turn_id": "BK22008678-5",
+            "utterance_id": "BK22008678.9"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "자연선택(自然選擇, 영어: natural selection)이란 특수한 환경 하에서 생존에 적합한 형질을 지닌 개체군이, 그 환경 하에서 생존에 부적합한 형질을 지닌 개체군에 비해 '생존'과 '번식'에서 이익을 본다는 이론이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 이론은 진화 메커니즘의 핵심이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자연선택은 찰스 다윈과 알프레드 러셀 월리스가 1858년 처음으로 각각 동시에 제기하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다윈은 이를, 같은 종이라도 다른 격리된 환경에 적응하면서 개체변이가 생기는데, 이러한 변이 중 생존에 유리한 변이가 살아남고, 이러한 변이가 생존경쟁과 자연선택이 일어나는 과정에서 후대로 전해져서 진화가 일어난다고 설명하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%84%A0%ED%83%9D",
+            "search_query": "자연선택",
+            "terminate": false,
+            "text": "자연선택은 진화 메커니즘의 핵심으로 특수한 환경 속에서 생존에 적합한 형질을 지닌 개체군이 생존에 부적합한 형질을 지닌 개체군에 보다 생존과 번식에서 이익을 본다는 이론이지. 1858년 찰스 다윈과 알프레드 러셀 윌리스가 각각 동시에 자연선택을 처음 제기했어. 다윈이 말하는 자연선택은 같은 종이라도 다른 격리된 환경에 적응하면서 개체변이가 생기고 변이된 개체 중에서도 생존에 유리한 변이가 살아남으며, 이런 개체변이가 생존경쟁 과정과 자연선택이 일어나는 과정에서 후대로 전해지며 진화가 발생한다고 했어.",
+            "turn_id": "BK22008678-5",
+            "utterance_id": "BK22008678.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개체변이라는 말이 여기서 나오는 거구나. 진화론의 책 단원만 살펴보다가 개체변이가 다형성이라는 내용을 본 적이 있어 물어보려던 참이었는데, 다형성에 대해서 설명해줄래?",
+            "turn_id": "BK22008678-6",
+            "utterance_id": "BK22008678.11"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "다형성(多形性, polymorphism[1]), 다형(多形), 다형 현상은 생물학과 동물학에서 동종 개체들 가운데에서 2개 이상의 대립 형질이 뚜렷이 구별되어 나타나는 것을 말한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8B%A4%ED%98%95%EC%84%B1_(%EC%83%9D%EB%AC%BC%ED%95%99)",
+            "search_query": "다형성",
+            "terminate": false,
+            "text": "관련으로 다형성에 대해서 설명해줄게. 다형성이라는 건 같은 종인 개체 안에서 두 개 이상의 대립 형질이 뚜렷하게 구분되는 것을 말해.",
+            "turn_id": "BK22008678-6",
+            "utterance_id": "BK22008678.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이해했어. 다형성이 동일한 개체에서 뚜렷하게 구분되는 대립 형질이라고 했으니까, 다윈이 같은 종이라도 개체 변이가 생긴다고 말한 것은 북극여우와 사막여우 같은 것이라고 이해하면 되겠네. 그럼 돌연변이는 어떤 거야?",
+            "turn_id": "BK22008678-7",
+            "utterance_id": "BK22008678.13"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "돌연변이(突然變異, 문화어: 갑작변이)란 유전정보가 기록된 DNA분자가 여러 가지 요인 (예: 전자기파, 방사선, 화학물질, 외부/내부 유전자 등)에 의하여 원본과 달라지는 것을 말한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "돌연변이가 일어나면 그 유전자에 의해 생산되는 단백질에 변화가 생기고, 이는 유전형질의 변화를 불러오게 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 돌연변이의 축적은 유전자 집단 안에 다양한 유전적 변이를 축적시키게 되며, 이렇게 만들어진 유전적 변이는 자연선택에 의해 진화의 가능성을 주게 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%8C%EC%97%B0%EB%B3%80%EC%9D%B4",
+            "search_query": "돌연변이",
+            "terminate": false,
+            "text": "유전정보가 기록된 DNA 분자가 전자기파나 방사선, 화학물질 같은 여러 가지 요인으로 본래의 상태에서 달라지는 것을 돌연변이라고 해. 돌연변이가 발생하면 유전자가 만드는 단백질에 변화가 생기고, 단백질의 변화는 유전형질의 변화를 일으키지. 돌연변이가 축적되면 다양한 유전적 변이가 유전자 집단에 축적되고, 축적된 유전적 변이는 자연선택에 의해 진화의 가능성을 주지.",
+            "turn_id": "BK22008678-7",
+            "utterance_id": "BK22008678.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "돌연변이는 유전자가 완전히 달라진다고 생각하면 되겠다. 그런데 전에 적응이라는 걸 본적 있어. 진화와 비슷한 것 같은데 적응에 관해 자세히 설명해줄래?",
+            "turn_id": "BK22008678-8",
+            "utterance_id": "BK22008678.15"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "적응(適應, 영어: adaptation)은 생물이 서식 환경에 보다 유리하도록 변화하는 과정[1]을 나타내는 생물학의 기본 개념이다.[2]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "적응은 생물 생존의 가장 중요한 요인 가운데 하나로 꼽힌다.[3]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "적응의 사례로 말의 경우를 보면 풀을 씹기에 알맞은 어금니, 포식자로부터 재빨리 도망칠 수 있는 다리와 같은 것을 들 수 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다양한 생물 집단은 처해진 환경에 의해 발생하는 자연선택에 의해 생존에 적합한 개체만이 살아남은 결과 서식 환경에 적응하게 된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%81%EC%9D%91",
+            "search_query": "적응",
+            "terminate": false,
+            "text": "생물이 서식 환경에 보다 유리하도록 변화하는 과정을 적응이라고 하는데, 생물 생존에 있어 중요한 요소지. 예를 하나 들면 말의 경우 풀을 씹기에 알맞은 어금니와 포식자로부터 빠르게 달아날 수 있는 다리가 있지. 이렇듯 다양한 생물 집단은 그 생물 집단이 놓여진 환경에 의해 발생하는 자연선택에서 생존에 적합한 개체만이 살아남고 서식 환경에 적응하게 되지.",
+            "turn_id": "BK22008678-8",
+            "utterance_id": "BK22008678.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 아까 자연선택을 설명해줄 때 적응과 비슷한 면이 있었거든. 마지막으로 다윈과 동시에 자연선택을 주장했던 알프레드 러셀 윌리스에 대해서 말해줘.",
+            "turn_id": "BK22008678-9",
+            "utterance_id": "BK22008678.17"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "앨프리드 러셀 월리스(Alfred Russel Wallace, OM, FRS, 1823년 1월 8일~1913년 11월 7일)는 영국의 자연주의자, 탐험가, 지리학자, 인류학자이자 생물학자이다.[1]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "찰스 다윈과 독립적으로 자연선택을 통한 진화의 개념을 만들었다.[2]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 동물의 경고색과 종의 분리를 설명하는 월리스 효과 등을 발달시켜 19세기 동안 진화론의 발달에 큰 기여를 하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 이러한 동물 종의 분포와 지리학의 연관 연구에 대한 기여로 \"생물지리학의 아버지\"로 불렸다.[3]",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%A8%ED%94%84%EB%A6%AC%EB%93%9C_%EB%9F%AC%EC%85%80_%EC%9B%94%EB%A6%AC%EC%8A%A4",
+            "search_query": "알프레드 러셀 윌리스",
+            "terminate": false,
+            "text": "영국의 자연주의자인 알프레드 러셀 월리스는 탐험가였고 지리학자이며 인류학자, 생물학자야. 자연선택을 통한 진화의 개념을 찰스 다윈과 독립적으로 만든 인물이지. 알프레드는 19세기 동안 진화론의 발달에 큰 기여를 한 인물이기도 해. 그의 업적 하나를 예로 들면 동물의 경고색과 종의 분리를 설명하는 윌리스 효과가 있지. 그는 동물 종의 분포와 지리학의 연관 연구도 해서 생물지리학의 아버지라고 불렸지.",
+            "turn_id": "BK22008678-9",
+            "utterance_id": "BK22008678.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알프레드라는 인물도 정말 대단한 사람이구나! 오늘 진화에 대해서 많이 알게 되었어. 정말 고마워.",
+            "turn_id": "BK22008678-10",
+            "utterance_id": "BK22008678.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "더 궁금한 것이 있으면 언제든 연락해줘. 그럼 내일 보자.",
+            "turn_id": "BK22008678-10",
+            "utterance_id": "BK22008678.20"
+        }
+    ]
+}

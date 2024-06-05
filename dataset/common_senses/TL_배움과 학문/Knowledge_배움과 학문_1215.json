@@ -1,0 +1,357 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008091",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008091",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 친구랑 신기술에 대해서 얘기했거든. 그러다 하이퍼루프라는 기술이 있다는 말을 들었는데, 이게 정확히 어떤 거야?",
+            "turn_id": "BK22008091-1",
+            "utterance_id": "BK22008091.1"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "하이퍼루프는 항공기 속도에 열차의 도심 접근성을 동시에 충족시키는 차세대 교통수단이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공기저항이 거의 없는 아진공(0.001기압) 상태 튜브 안에서 시속 1200㎞까지 주행이 가능하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202208191703424670",
+            "search_query": "하이퍼루프",
+            "terminate": false,
+            "text": "하이퍼루프는 차세대 교통수단으로, 속도는 항공기 급이고, 접근성은 열차에 비할 만 해. 하이퍼루프는 아진공 상태인 튜브 속에서 시속 1200km까지 주행할 수 있지.",
+            "turn_id": "BK22008091-1",
+            "utterance_id": "BK22008091.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시속 1200km라고 하니까 별로 실감이 나지 않는데, 지금 ktx가 시속 몇이야? 한번 비교해보고 싶어.",
+            "turn_id": "BK22008091-2",
+            "utterance_id": "BK22008091.3"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "이는 미국이나 유럽지역 등을 다니는 국제선 항공기 속도(시속 800~1000km)보다 빠른 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 최고속도가 시속 330km인 KTX 열차와 비교하면 3배 가까이 차이가 난다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220616/113959193/1",
+            "search_query": "하이퍼루프 ktx 시속",
+            "terminate": false,
+            "text": "ktx는 최고 속도가 330km이니까 하이퍼루프가 그보다 3배나 빠른 거지. 또, 이 속도는 미국이나 유럽지역 등을 날아다니는 국제선 항공기보다도 빨라.",
+            "turn_id": "BK22008091-2",
+            "utterance_id": "BK22008091.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비행기 속도보다 빠르게 달리는 열차라니, 상상이 되지 않네. 어떻게 그런 속도를 낼 수 있는 거야?",
+            "turn_id": "BK22008091-3",
+            "utterance_id": "BK22008091.5"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "이런 일은 공기 저항 때문에 속도를 내는 데 지장이 없도록 튜브 안을 진공상태로 만들기 때문에 가능하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기에 빠른 속도를 내는 데 방해가 되는 마찰력을 없앤 자기부상열차도 큰 몫을 차지한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220616/113959193/1",
+            "search_query": "하이퍼루프 원리",
+            "terminate": false,
+            "text": "우선, 튜브 속을 진공상태로 만들어서 공기 저항을 없애고 속도를 낼 수 있도록 만들었기 때문이야. 또, 마찰력을 없앤 자기부상열차라서 빠른 속도를 더할 수 있는 거지.",
+            "turn_id": "BK22008091-3",
+            "utterance_id": "BK22008091.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마찰력이 없는 진공 열차인 셈이구나. 실제로 우리나라에 설치된다면, 이동 시간을 많이 줄일 수 있을 것 같아. 서울에서 부산까지 가는 데 얼마나 걸릴까?",
+            "turn_id": "BK22008091-4",
+            "utterance_id": "BK22008091.7"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "이론대로라면 서울에서 부산까지 20분 정도 걸린다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "약 370km 거리의 워싱턴DC에서 뉴욕까지도 비슷한 시간 안에 주파한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220522/113557458/1",
+            "search_query": "하이퍼루프 시간",
+            "terminate": false,
+            "text": "이론에 따르면, 20분이면 갈 수 있어. 워싱턴DC에서 뉴욕까지가 약 370km인데, 그것도 비슷한 시간 안에 도착할 수 있지.",
+            "turn_id": "BK22008091-4",
+            "utterance_id": "BK22008091.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부산까지 20분이라니, 부산이 정말 가깝게 느껴지겠다. 하지만 아직 다른 나라 이야기처럼 들리는데, 우리나라에서도 개발하고 있어?",
+            "turn_id": "BK22008091-5",
+            "utterance_id": "BK22008091.9"
+        },
+        {
+            "reference_date": "2018-05-31",
+            "reference_text": [
+                {
+                    "value": "UNIST, 한양대와 한국철도기술연구원, 기계연구원 등 6개 정부출연연구기관은 2017년부터 한국형 하이퍼루프인 ‘하이퍼튜브익스프레스(HTX)’를 개발하고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2026년 시범 운행이 목표다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=22626",
+            "search_query": "하이퍼루프 연구",
+            "terminate": false,
+            "text": "당연하지. UNIST, 한양대와 한국철도기술연구원, 기계연구원 등을 포함하는 정부출연연구기관 6곳에서는 2017년부터 한국형 하이퍼루프라고 하는 하이퍼튜브익스프레스를 개발하고 있었어. 목표는 2026년 시범 운행을 하는 거야.",
+            "turn_id": "BK22008091-5",
+            "utterance_id": "BK22008091.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2026년이라면 얼마 남지 않았네! 한국형 하이퍼루프라고 하니까 멋지게만 들리는데, 애로사항도 있겠지?",
+            "turn_id": "BK22008091-6",
+            "utterance_id": "BK22008091.11"
+        },
+        {
+            "reference_date": "2018-05-31",
+            "reference_text": [
+                {
+                    "value": "탑승객이 빠른 시간 안에 편안히 목적지에 다다르기 위해서 최대한 직선 트랙으로 이어주는 것이 유리하다는 얘기다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 우리나라는 산지가 많아 지상에 수백 km의 직선 트랙을 설치하기란 불가능하다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=22626",
+            "search_query": "하이퍼루프 한계",
+            "terminate": false,
+            "text": "하이퍼루프는 최대한 직선 트랙으로 이어야 빠른 시간 안에 편안히 도착할 수 있는데, 우리나라는 산이 많아서 땅 위에 직선 트랙을 수백 km 설치하는 건 불가능해.",
+            "turn_id": "BK22008091-6",
+            "utterance_id": "BK22008091.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 우리나라는 산지가 많긴 하지. 하이퍼루프 기술을 상용하기 전에 해결해야 할 문제점도 궁금해.",
+            "turn_id": "BK22008091-7",
+            "utterance_id": "BK22008091.13"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "음속에 가까운 속도로 달릴 때 나타나는 진동 문제를 해결할 방법을 여전히 찾고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "홍수와 같은 기상재해에 대처할 방안도 찾아야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220522/113557458/1",
+            "search_query": "하이퍼루프 한계",
+            "terminate": false,
+            "text": "하이퍼루프가 거의 음속의 속도로 달릴 때 진동이 생겨서 이 문제를 해결할 방법을 찾고 있어. 또, 홍수 같은 자연재해에도 대처할 방법을 연구해야 하지.",
+            "turn_id": "BK22008091-7",
+            "utterance_id": "BK22008091.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진동과 자연재해가 아직 변수겠구나. 그런데도 이 기술을 개발해야 하는 하이퍼루프만의 장점이 있을까?",
+            "turn_id": "BK22008091-8",
+            "utterance_id": "BK22008091.15"
+        },
+        {
+            "reference_date": "2021-01-06",
+            "reference_text": [
+                {
+                    "value": "에너지 소비량이 항공기의 8%, 고속철도의 30% 수준이며 이산화탄소와 소음이 발생하지 않아 차세대 친환경 교통수단으로 각광받고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ccreview.co.kr/news/articleView.html?idxno=301275",
+            "search_query": "하이퍼루프 장점",
+            "terminate": false,
+            "text": "하이퍼루프는 에너지 소비량이 항공기의 8%, 고속철도의 30% 정도고, 또 소음과 이산화탄소가 없다는 게 장점이야.",
+            "turn_id": "BK22008091-8",
+            "utterance_id": "BK22008091.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소음이 없다는 게 최대 장점일 것 같아. 하이퍼루프는 언제 상용화될 수 있을까?",
+            "turn_id": "BK22008091-9",
+            "utterance_id": "BK22008091.17"
+        },
+        {
+            "reference_date": "2021-05-07",
+            "reference_text": [
+                {
+                    "value": "버진하이퍼루프가 내다보는 하이퍼루프 상용화 시기는 10년 후인 2030년이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국의 최신기술 전문리서치 업체인 '럭스리서치'는 하이퍼루프의 상용화 시기를 이르면 2040년이 될 것으로 봤다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4295238",
+            "search_query": "하이퍼루프 상용화",
+            "terminate": false,
+            "text": "정확히 예상할 수는 없지만, 버진하이퍼루프는 10년 후인 2030년으로 내다보고 있어. 반면, 미국의 최신기술 전문 리서치 업체인 럭스리서치는 2040년을 상용화 시기로 예상하지.",
+            "turn_id": "BK22008091-9",
+            "utterance_id": "BK22008091.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "10년 혹은 20년이라, 아직은 꿈의 교통수단이구나. 오늘 새로운 정보를 알려줘서 고마워, 난 이제 그만 가봐야겠다.",
+            "turn_id": "BK22008091-10",
+            "utterance_id": "BK22008091.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 도움이 됐으면 좋겠어. 조만간 또 만나서 다른 주제로 얘기해보자!",
+            "turn_id": "BK22008091-10",
+            "utterance_id": "BK22008091.20"
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001437",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001437",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텔레비전 역사 채널에서 우연히 광개토대왕릉비를 보게 됐어. 중국에 위치하고 있는 줄은 몰랐는데, 신기하더라고.",
+            "turn_id": "BK22001437-1",
+            "utterance_id": "BK22001437.1"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "광개토대왕릉비(廣開土大王陵碑)는 현재 중화인민공화국 지린성 지안 시(集安市) 태왕진(太王鎭, 중국어 간체자: 太王镇)에 있는 고구려 제19대 광개토대왕의 능비이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%91%EA%B0%9C%ED%86%A0%EB%8C%80%EC%99%95%EB%A6%89%EB%B9%84",
+            "search_query": "광개토대왕릉비",
+            "terminate": false,
+            "text": "맞아, 광개토대왕릉비는 중국 지린성 지역에 위치하고 있어. 고구려의 19번째 왕인 광개토대왕의 능 앞에 세워진 비석이지.",
+            "turn_id": "BK22001437-1",
+            "utterance_id": "BK22001437.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 티비에서 고구려 역사를 보다보니까 문득 유적지에 가보고 싶다는 생각도 들었어. 한국 안에도 고구려의 유적이 많이 남아 있어?",
+            "turn_id": "BK22001437-2",
+            "utterance_id": "BK22001437.3"
+        },
+        {
+            "reference_date": "2021-06-07",
+            "reference_text": [
+                {
+                    "value": "고구려 유적은 경기도가 63곳으로 가장 많고, 서울 14곳, 강원 7곳, 대전 1곳에 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 경기 북부에만 62곳의 유적이 몰려 있어 남한에선 최대다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20210607010001284",
+            "search_query": "경기도 고구려 유적",
+            "terminate": false,
+            "text": "남한에서는 경기 북부에 가장 많은 고구려 유적이 있어. 경기도 전체에 63곳이 있는데, 북부에만 62곳이 몰려있지. 다음으로 많은 곳은 14곳이 있는 서울이야. 그 외로는 대전에 한 곳, 강원도에 일곱 군데가 있어.",
+            "turn_id": "BK22001437-2",
+            "utterance_id": "BK22001437.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경기도에 유적이 그렇게 많은 줄은 몰랐네. 그나저나, 중국에서는 광개토대왕릉비에 대해서 역사를 왜곡한 적도 있다던데.",
+            "turn_id": "BK22001437-3",
+            "utterance_id": "BK22001437.5"
+        },
+        {
+            "reference_date": "2017-07-10",
+            "reference_text": [
+                {
+                    "value": "중국 정부가 지린(吉林)성 지안(集安)시의 고구려 문화재 유적 안내판에 “광개토대왕비는 중화민족의 비석”이라고 최근 새로 기술한 사실이 본보 취재를 통해 드러났다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20170710/85274398/1",
+            "search_query": "광개토대왕 유적",
+            "terminate": false,
+            "text": "사실이야, 광개토대왕비에 가면 고구려 문화재 유적 안내판이 있거든. 그 안내판에 광개토대왕비가 중화민족의 비석이라고 새로 적어둔거지.",
+            "turn_id": "BK22001437-3",
+            "utterance_id": "BK22001437.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각했던 것보다 훨씬 더 노골적이고 직설적으로 적어놨네. 그런 행동들을 보면, 동북공정은 끝나도 끝난 게 아닌 것 같아.",
+            "turn_id": "BK22001437-4",
+            "utterance_id": "BK22001437.7"
+        },
+        {
+            "reference_date": "2022-06-17",
+            "reference_text": [
+                {
+                    "value": "중국 역사학계가 2007년 동북공정(東北工程)을 종료한 이후에도 자국 중심으로 한국사를 왜곡하는 패권적 역사 인식을 지속·심화한 것으로 분석됐다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/scholarship-heritage/article/202206171727001",
+            "search_query": "2007년 동북공정",
+            "terminate": false,
+            "text": "틀린 말도 아닌게, 동북공정은 사실 2007년에 종료되었잖아. 하지만 그 이후에도 패권적인 역사 인식은 오히려 더 심화되었어. 동북공정 이후로도 지속적으로 한국사를 왜곡했지.",
+            "turn_id": "BK22001437-4",
+            "utterance_id": "BK22001437.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참, 들을수록 심각한 문제인 것 같네. 광개토대왕이 걸어온 모든 길이 중국의 역사 속으로 흡수된다면 너무 슬플 것 같아.",
+            "turn_id": "BK22001437-5",
+            "utterance_id": "BK22001437.9"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "백제와의 전쟁과 더불어, 거란을 정벌하여 소수림왕 8년(378년)에 거란의 침입으로 잡혀갔던 1만 여 명의 백성들을 되찾는다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%91%EA%B0%9C%ED%86%A0%EB%8C%80%EC%99%95",
+            "search_query": "광개토대왕",
+            "terminate": false,
+            "text": "정말 대단한 업적을 가진 왕이었지. 백제와의 전쟁은 물론이고 거란까지 격퇴했잖아. 특히, 378년에 거란의 침입으로 잡혀갔었던 백성들을 되찾아 온 업적이 가장 인상적이야. 그때 잡혀간 백성들의 수가 약 1만여 명에 달하거든.",
+            "turn_id": "BK22001437-5",
+            "utterance_id": "BK22001437.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 업적까지 있었구나, 영리하면서도 화려한 통치 실력을 가진 왕이었네.",
+            "turn_id": "BK22001437-6",
+            "utterance_id": "BK22001437.11"
+        },
+        {
+            "reference_date": "2021-12-17",
+            "reference_text": [
+                {
+                    "value": "세종대왕과 광개토대왕의 생애와 업적이 음악극으로 펼쳐진다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mtn.co.kr/news-detail/2021121713450993051",
+            "search_query": "광개토대왕 업적",
+            "terminate": false,
+            "text": "현재까지도 그 업적에 대한 인정은 이어지고 있어. 지난해에는 광개토대왕과 세종대왕의 업적을 음악극으로 표현한 공연도 열렸었거든.",
+            "turn_id": "BK22001437-6",
+            "utterance_id": "BK22001437.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 의미있는 공연이었겠네, 알았다면 나도 가봤을 텐데. 그나저나, 광개토대왕의 왕위 계승은 맏아들이 받았었나?",
+            "turn_id": "BK22001437-7",
+            "utterance_id": "BK22001437.13"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "장수왕은 광개토왕의 맏아들로 394년에 태어났으며, 모후에 대한 기록은 남아 있지 않다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "장수왕(長壽王, 394년 ~ 491년)은 고구려의 제20대 국왕(재위 : 412년 음력 10월 ~ 491년 음력 12월)이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%88%98%EC%99%95",
+            "search_query": "장수왕",
+            "terminate": false,
+            "text": "맞아, 광개토대왕의 맏아들이었던 장수왕이 20대 왕이 되었어. 어머니에 대한 기록은 없지만, 394년도에 태어난 걸로 기록되어있지. 19살의 나이였던 412년도부터 왕의 자리에 올랐고.",
+            "turn_id": "BK22001437-7",
+            "utterance_id": "BK22001437.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 광개토대왕의 아들이 장수왕이었구나. 두 왕 모두 유명하지만, 부자 지간인 줄은 몰랐네. 그나저나 장수왕은 얼마나 오래 살았길래 이름이 장수왕일까?",
+            "turn_id": "BK22001437-8",
+            "utterance_id": "BK22001437.15"
+        },
+        {
+            "reference_date": "2021-10-15",
+            "reference_text": [
+                {
+                    "value": "97세까지 산 장수왕은 재위기간이 무려 79년입니다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25015226",
+            "search_query": "장수왕 나이",
+            "terminate": false,
+            "text": "장수왕은 97세까지 살았고, 임금의 자리에 있었던 기간만 무려 79년이나 돼.",
+            "turn_id": "BK22001437-8",
+            "utterance_id": "BK22001437.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현대 사회에서도 90세 이상은 장수로 치는데, 그 옛날에 97세였으면 정말 장수왕 맞네. 장수왕이 남진 정책을 추진했던 왕 맞지?",
+            "turn_id": "BK22001437-9",
+            "utterance_id": "BK22001437.17"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "고구려의 전성기를 이어갔으며 평양으로 천도하여 남진정책을 추진하였고 중국의 남북조와 등거리 외교를 통해 안정을 구가한 국왕이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%88%98%EC%99%95",
+            "search_query": "남진정책",
+            "terminate": false,
+            "text": "맞아, 남진정책을 추진해 평양으로 천도했지. 또한, 중국 남북조와 척을 지지 않고 등거리 외교술을 펼치며 안정을 도모하기도 했어.",
+            "turn_id": "BK22001437-9",
+            "utterance_id": "BK22001437.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중국과의 관계를 온화하게 유지하려고 했구나. 덕분에 오늘 몰랐던 역사 지식을 많이 배울 수 있었네, 고마웠어.",
+            "turn_id": "BK22001437-10",
+            "utterance_id": "BK22001437.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별 말씀을, 필요하면 언제든지 물어봐도 좋아. 다음에 또 즐거운 대화 나누자.",
+            "turn_id": "BK22001437-10",
+            "utterance_id": "BK22001437.20"
+        }
+    ]
+}

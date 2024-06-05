@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011431",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011431",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 머리가 아파서 두통약을 먹다가 문득 진통제 성분에 관해 궁금해지더라고. 아스피린의 성분인 아세틸살리실산은 누가, 언제 처음 만들었어?",
+            "turn_id": "BK22011431-1",
+            "utterance_id": "BK22011431.1"
+        },
+        {
+            "reference_date": "2021-07-31",
+            "reference_text": [
+                {
+                    "value": "독일의 제약회사 바이엘에 근무하던 펠릭스 호프만은 살리실산을 개선한 진통제를 만들기로 마음 먹었습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1897년 8월 10일 호프만은 같은 연구소의 수석 화학자였던 아서 아이첸그룬과 함께 연구를 진행해 살리실산을 개량한 ‘아세틸살리실산’을 만듭니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사실 아세틸살리실산은 약 40년 전에 이미 합성된 적이 있었지만 진통제로서의 약효를 검증한 것은 이들이 처음이었습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=48370",
+            "search_query": "아세틸살리실산",
+            "terminate": false,
+            "text": "아세틸살리실산은 독일의 제약회사인 바이엘에서 일하던 펠릭스 호프만이 살리실산을 개량한 진통제를 제조하기로 결심하고, 같은 연구소에서 일하던 수석 화학자 아서 아이첸그룬과 같이 연구한 끝에 1897년 8월 10일에 만들어졌어. 아세틸살리실산 자체는 더 이전인 40여년 전에도 합성된 적이 있었지만, 아세틸살리실산에 진통제 효과가 있다는 사실을 확인한 것은 이 둘이 최초였지.",
+            "turn_id": "BK22011431-1",
+            "utterance_id": "BK22011431.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 100년도 더 전에 만들어 낸 약 성분이었구나. 살리실산을 개량해서 아세틸살리실산을 만든 걸 보면 살리실산은 아세틸살리실산 이전부터 쓰였던 것 같은데, 살리실산의 역사에 관해 이야기해 줄래?",
+            "turn_id": "BK22011431-2",
+            "utterance_id": "BK22011431.3"
+        },
+        {
+            "reference_date": "2016-01-04",
+            "reference_text": [
+                {
+                    "value": "파피루스의 기록에 의하면 그 무렵 이집트인들은 다치거나 병들었을 때 버드나무를 이용해 치료하곤 했다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 그리스 의학자 히포크라테스도 버드나무 껍질을 진통제로 사용했다고 전한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현대 화학이 발달하기 시작했던 19세기 이후 과학자들은 버드나무 껍질의 효능이 ‘살리실산’이라는 화학물질 때문임을 밝혀냈다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1829년 프랑스의 화학자 앙리 르루는 버드나무 껍질에서 약 25g의 살리신 결정을 추출하는 데 성공했으며, 1838년 이탈리아 화학자 라파엘레 피리아는 살리신 결정에서 효능이 더 강한 산을 추출해 살리실산이라고 명명한 것.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B3%A0%EB%8C%80%EB%B6%80%ED%84%B0-%EC%A0%84%ED%95%B4%EC%98%A8-%EC%8B%A0%EC%95%BD%EC%9D%98-%EB%B0%94%EC%9D%B4%EB%B8%94/",
+            "search_query": "라파엘레 피리아",
+            "terminate": false,
+            "text": "옛날 이집트에서는 상처를 입거나 병에 걸렸을 때 버드나무를 써서 치료했다는 기록이 파피루스에 남아 있고, 고대 그리스의 의학자였던 히포크라테스 또한 진통제로서 버드나무 껍질을 썼다고 전해지는데, 19세기 이후 현대적인 화학이 발전하면서 과학자들은 이 버드나무 껍질이 지닌 효능이 살리실산이라는 화학 물질 때문이라는 사실을 알아냈어. 1829년에는 프랑스 화학자 앙리 르루가 버드나무 껍질을 이용해 살리신 결정 25g 정도를 뽑아내는 데에 성공했고, 1838년에는 이탈리아 화학자인 라파엘레 피리아가 살리신 결정으로부터 더욱 강한 산을 뽑아내 살리실산이라고 이름 지었지.",
+            "turn_id": "BK22011431-2",
+            "utterance_id": "BK22011431.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고대 이집트나 그리스까지 역사를 거슬러 올라갈 줄은 상상도 못 했네. 그런데 이 아세틸살리실산으로 만든 아스피린은 진통에만 효과가 있는 걸까, 아니면 다른 기능도 있는 걸까?",
+            "turn_id": "BK22011431-3",
+            "utterance_id": "BK22011431.5"
+        },
+        {
+            "reference_date": "2020-01-07",
+            "reference_text": [
+                {
+                    "value": "아스피린이 대장암 세포의 사멸을 유도한다는 연구 결과가 나왔다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미국 시티 오브 호프(City of Hope) 연구소 진단분자생물학과장 이하일 고엘 박사팀이 쥐 실험으로 이 같은 사실을 밝혔다고 영국 데일리 메일, 메디컬 익스프레스가 6일 보도했다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀은 대장암 세포주로 대장암을 유발시킨 432마리의 쥐를, 아무 것도 투여하지 않은 대조군, 저용량 아스피린(15mg/kg), 중용량 아스피린(50mg/kg), 고용량 아스피린(100mg/kg) 투여군 총 4가지 그룹으로 나눴다. ",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 결과, 아스피린이 투여된 쥐는 모든 세포주에서 암세포의 자연 사멸이 증가했고, 아스피린 투여량이 많을수록 암세포의 분열 속도가 감소하며 사멸하거나 증식하지 않을 가능성이 더 높았다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2020/01/07/2020010702323.html",
+            "search_query": "아스피린 항암",
+            "terminate": false,
+            "text": "다른 기능도 있어. 지난 2020년 1월 6일 영국 데일리 메일과 메디컬 익스프레스가 보도한 내용에 따르면, 미국 시티 오브 호프 연구소의 진단분자생물학과장 이하일 고엘 박사팀이 쥐 실험을 통해 아스피린이 대장암 세포가 사멸하도록 유도한다는 연구 결과를 발표했거든. 연구팀은 대장암 세포주를 이용해 쥐 432마리에 대장암을 유발한 뒤, 이 쥐들을 고용량 아스피린 투여군, 중용량 아스피린 투여군, 저용량 아스피린 투여군, 아무것도 투여 안 한 대조군, 이렇게 네 그룹으로 나눈 뒤 관찰했는데, 아스피린을 투여받은 쥐는 모든 세포주에서 암세포의 자연 사멸량이 늘었고, 아스피린을 많이 투여할수록 암세포의 분열 속도는 줄고, 암세포가 증식하지 않거나 죽을 가능성은 높아졌어.",
+            "turn_id": "BK22011431-3",
+            "utterance_id": "BK22011431.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진통제로만 알고 있었는데 그런 연구 결과가 있다니 놀랍네. 그럼 이번에는 또 다른 진통제 성분인 아세트아미노펜에 관해 알아보고 싶은데, 아세트아미노펜은 어떻게 합성할 수 있을까?",
+            "turn_id": "BK22011431-4",
+            "utterance_id": "BK22011431.7"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "실험실에서 아세트아미노펜을 만들기 위해서는 페놀에 묽은 황산과 함께 질산나트륨을 첨가하면 페놀의 벤젠 고리가 니트로화 반응을 하여 p-니트로페놀(p-nitrophenol)과 부산물로 o-니트로페놀(o-nitrophenol)이 생성된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "p-니트로페놀을 정제하여 수소화붕소나트륨(sodium borohydride)을 첨가하면 4-아미노페놀(4-aminophenol)로 환원된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기에 무수아세트산(acetic anhydride)을 넣으면 아미노기와 반응하여 아세트아미노펜이 된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%84%B8%ED%8A%B8%EC%95%84%EB%AF%B8%EB%85%B8%ED%8E%9C",
+            "search_query": "아세트아미노펜",
+            "terminate": false,
+            "text": "우선 페놀에 묽은 황산과 같이 질산나트륨을 첨가해. 그러면 페놀에 있는 벤젠 고리가 니트로화 반응을 일으켜 p-니트로페놀과 부산물인 o-니트로페놀이 만들어지는데, 여기서 p-니트로페놀을 정제한 뒤, 수소화붕소나트륨을 넣으면 4-아미노페놀로 환원되지. 그런 다음, 이번에는 여기에 무수아세트산을 첨가하면 아미노기와 반응을 일으켜 아세트아미노펜이 생성돼.",
+            "turn_id": "BK22011431-4",
+            "utterance_id": "BK22011431.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실험실에서 한 번 시도해 봐야겠는걸. 그런데 아세트아미노펜은 어떤 식으로 작용하는 걸까?",
+            "turn_id": "BK22011431-5",
+            "utterance_id": "BK22011431.9"
+        },
+        {
+            "reference_date": "2021-01-21",
+            "reference_text": [
+                {
+                    "value": "아세트아미노펜의 해열 진통 작용에 대한 정확한 기전은 밝혀지지 않았는데요.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재까지 연구에 따르면 아세트아미노펜은 발열, 통증을 일으키는 프로스타글란딘의 생성에 관여하는 효소인 사이클로옥시게나제(COX)를 경로를 억제하고, 중추신경계의 세로토닌이라는 신경물질을 조절해 진통 효과를 나타내는 것으로 알려져 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해열의 경우 뇌의 열 조절 중추에 직접 작용해 열을 내리는 것으로 알려져 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsroom.daewoong.co.kr/archives/9768",
+            "search_query": "아세트아미노펜 원리",
+            "terminate": false,
+            "text": "아세트아미노펜이 해열이나 진통 작용을 하는 정확한 원리는 아직 밝혀지지 않았어. 다만, 지금까지 이루어진 연구에 따르면, 우리 몸에는 사이클로옥시게나제라는 효소가 있어서 통증이나 발열을 유발하는 프로스타글란딘의 생성에 관여하는데, 아세트아미노펜은 이 사이클로옥시게나제의 경로를 억제하면서, 세로토닌이라는 중추신경계의 신경 물질을 조절해 진통 효과를 내는 거야. 해열 작용의 경우, 뇌에 있는 열 조절 중추에 직접 관여해 열을 떨어뜨리는 것으로 알려져있지.",
+            "turn_id": "BK22011431-5",
+            "utterance_id": "BK22011431.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약 성분이 작용하는 원리를 모두 파악한 상태에서 사용되는 게 아니었구나. 아세틸살리실산이나 아세트아미노펜 외에도 진통제로 쓰이는 물질이 있으면 하나 소개해 줄래?",
+            "turn_id": "BK22011431-6",
+            "utterance_id": "BK22011431.11"
+        },
+        {
+            "reference_date": "2022-09-26",
+            "reference_text": [
+                {
+                    "value": "이부프로펜(Ibuprofen, 이전 이름: 이소 부틸 프로판 페놀산)은 비스테로이드 항염증제이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진통, 관절염 제거, 해열에, 특히 이들 증상이 염증을 동반하는 경우에 쓴다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이부프로펜은 1960년대 동안 부츠 그룹의 연구 부문에 의해 프로피온산에서 추출된 것이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%B6%80%ED%94%84%EB%A1%9C%ED%8E%9C",
+            "search_query": "이부프로펜",
+            "terminate": false,
+            "text": "비스테로이드 항염증제인 이부프로펜을 소개해 줄게. 이부프로펜은 진통이나 관절염, 발열 또는 이런 증상들로 인해 염증까지 나타날 때 사용하는데, 1960년대 부츠 그룹의 연구 부문이 프로피온산에서 추출해 만들었어.",
+            "turn_id": "BK22011431-6",
+            "utterance_id": "BK22011431.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이건 아세틸살리실산에 비해 비교적 최근에 만들어졌네. 이부프로펜은 우리 몸에서 어떤 식으로 작용해?",
+            "turn_id": "BK22011431-7",
+            "utterance_id": "BK22011431.13"
+        },
+        {
+            "reference_date": "2020-09-23",
+            "reference_text": [
+                {
+                    "value": "이부프로펜은 비스테로이드성 소염진통제(NSAIDs*)로 분류합니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염증, 발열, 통증을 일으키는 프로스타글란딘(prostaglandin)의 생성에 관여하는 효소 사이클로옥시게나제 1과 2(COX-1, COX-2)를 억제하기 때문에 항염, 해열, 진통 작용을 나타냅니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통증을 일으키는 물질이 생성되는 것을 억제해 염증이나 발열, 통증과 같은 증상을 완화합니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsroom.daewoong.co.kr/archives/8490",
+            "search_query": "이부프로펜 원리",
+            "terminate": false,
+            "text": "이부프로펜은 발열, 통증, 염증을 유발하는 프로스타글란딘 생성에 관여하는 효소 사이클로옥시게나제 1과 사이클로옥시게나제 2를 억제해 해열, 진통, 항염 작용을 해. 통증을 유발하는 물질의 생성 자체를 막아 발열이나 염증, 통증 같은 증상을 줄이는 것이지.",
+            "turn_id": "BK22011431-7",
+            "utterance_id": "BK22011431.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근본 작용 원리는 아세트아미노펜과 비슷한 것 같네. 지금까지 말해 준 것들 외에 진통제로 쓰이는 성분이 있으면 하나만 더 알려줄 수 있을까?",
+            "turn_id": "BK22011431-8",
+            "utterance_id": "BK22011431.15"
+        },
+        {
+            "reference_date": "2022-09-26",
+            "reference_text": [
+                {
+                    "value": "나프록센(naproxen, 브랜드명: Aleve, Naprosyn 등)은 통증, 월경통, 또 류머티스 관절염, 발열 등의 염증을 치료하기 위해 사용되는 비스테로이드 항염증제(NSAID)이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프로피온산계의 약물에 속한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "나프록센은 무차별적(nonselective) 사이클로옥시게나제(COX) 억제제이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "NSAID로서, 나프록센은 프로스타글란딘이라는 이름의 염증 매개체의 생성을 감소시킴으로써 소염제 반응을 발휘하는 것으로 보인다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%94%84%EB%A1%9D%EC%84%BC",
+            "search_query": "나프록센",
+            "terminate": false,
+            "text": "물론이지, 프로피온산 계통에 속하는 약물인 나프록센에 관해 이야기해 줄게. 나프록센은 생리통, 통증, 류머티스 관절염, 발열 등 염증 치료에 사용되는 비스테로이드 항염증제야. 나프록센은 무차별적인 사이클로옥시게나제 억제제인데, 조금 전에 말한 이부프로펜과 마찬가지로 염증 매개체인 프로스타글란딘 생성을 억제해 소염 작용을 하는 것으로 추정돼.",
+            "turn_id": "BK22011431-8",
+            "utterance_id": "BK22011431.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 성분이 있는데 작용하는 원리는 대체로 비슷하다는 게 신기하네. 그리고 이런 성분들을 발견하고 만들어내는 데에 얼마나 많은 노력과 시간이 들었을지 생각하면 참 대단하고 감사하게 느껴져.",
+            "turn_id": "BK22011431-9",
+            "utterance_id": "BK22011431.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 진통제를 먹을 때면 항상 비슷한 생각이 들더라.",
+            "turn_id": "BK22011431-9",
+            "utterance_id": "BK22011431.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나만 그렇게 느끼는 게 아니었구나. 그럼 나는 설명해 준 걸 바탕으로 아세트아미노펜 합성 실험을 하러 가 볼게.",
+            "turn_id": "BK22011431-10",
+            "utterance_id": "BK22011431.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 실험 성공적으로 이루어지길 바라. 성공하면 나한테도 꼭 알려주고, 다음에 또 보자.",
+            "turn_id": "BK22011431-10",
+            "utterance_id": "BK22011431.20"
+        }
+    ]
+}

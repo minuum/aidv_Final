@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006054",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006054",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 드라마 선덕여왕을 보기 시작했어요. 옛날 드라마라서 시시할 줄 알았는데 진짜 재밌네요. 그런데 거기 나오는 미실도 실제 역사 인물인가요?",
+            "turn_id": "BK22006054-1",
+            "utterance_id": "BK22006054.1"
+        },
+        {
+            "reference_date": "2016-11-08",
+            "reference_text": [
+                {
+                    "value": "미실의 경우 삼국사기나 삼국유사에는 전하지 않고 화랑세기 필사본에만 등장해 역사학계에서는 존재 자체를 인정하지 않는 인물이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=398654",
+            "search_query": "화랑세기 미실 삼국사기 삼국유사",
+            "terminate": false,
+            "text": "미실에 대한 기록은 삼국사기와 삼국유사에는 전무하고 화랑세기라는 책의 필사본에서만 찾아볼 수 있어요. 그래서 사학계에서는 미실이라는 존재 자체를 부정하고 있죠.",
+            "turn_id": "BK22006054-1",
+            "utterance_id": "BK22006054.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 정식 역사서에는 없지만 화랑세기라는 책에는 있다는 거네요. 화랑세기는 대체 누가 어느 시대에 지은 책인가요?",
+            "turn_id": "BK22006054-2",
+            "utterance_id": "BK22006054.3"
+        },
+        {
+            "reference_date": "2017-10-18",
+            "reference_text": [
+                {
+                    "value": "화랑세기는 통일신라시대인 704년 한산주 도독을 지낸 진골 출신 김대문이 썼다는 역사서다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20171017169700005?input=1195m",
+            "search_query": "화랑세기 김대문",
+            "terminate": false,
+            "text": "한산주 도독을 역임한 김대문이라는 사람이 통일신라 시대인 704년에 지은 역사책이 화랑세기예요.",
+            "turn_id": "BK22006054-2",
+            "utterance_id": "BK22006054.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통일신라시대라면 고려시대에 지어진 삼국사기나 삼국유사보다 훨씬 앞에 지어진 책이네요? 대체 누가 발견해서 필사본을 만든 건가요?",
+            "turn_id": "BK22006054-3",
+            "utterance_id": "BK22006054.5"
+        },
+        {
+            "reference_date": "2022-02-18",
+            "reference_text": [
+                {
+                    "value": "박창화(朴昌和.1889 ~ 1962)는 화랑세기 필사본을 남긴 재야 사학자다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1930~1940년대 일본 궁내성 왕실도서관(도서료.오늘날의 서릉부)에서 사무 촉탁으로 근무한 것으로 알려졌다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%B0%BD%ED%99%94",
+            "search_query": "화랑세기 박창화 필사본 일본 궁내성",
+            "terminate": false,
+            "text": "박창화라는 재야 사학자예요. 1889년에 태어나 1962년에 죽은 그는 1930년대부터 1940년대 사이에 일본 궁내성 황실도서관에서 사무 촉탁으로 재직했던 것으로 알려져 있어요.",
+            "turn_id": "BK22006054-3",
+            "utterance_id": "BK22006054.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "필사본을 정식 사학자가 만든 게 아니었네요? 일본 궁내성 황실도서관 사무 촉탁이었던 사람이 어떻게 신라시대에 지었다는 책의 필사본을 만든 거죠?",
+            "turn_id": "BK22006054-4",
+            "utterance_id": "BK22006054.7"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "1989년 2월에 남당 박창화가 일본 천황가의 보물창고인 일본 궁내청 서릉부에서 필사했다고 주장하는 《화랑세기》 한문 필사본이 김해에서 발견되었다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EB%9E%91%EC%84%B8%EA%B8%B0",
+            "search_query": "화랑세기 박창화 필사본 천황가 보물창고",
+            "terminate": false,
+            "text": "그는 일본 덴노가문의 보물창고인 일본 궁내청 서릉부에서 베껴 썼다고 주장했어요. 그가 베껴 썼다는 화랑세기 한문 필사본은 1989년 2월, 김해에서 발견됐고요.",
+            "turn_id": "BK22006054-4",
+            "utterance_id": "BK22006054.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 원본은 일본 덴노가문의 창고에 있다는 거네요? 원본이 아니라 베껴 쓴 거라고 하니 뭔가 좀 꺼림칙한데요? 역사학계의 반응은 어땠나요?",
+            "turn_id": "BK22006054-5",
+            "utterance_id": "BK22006054.9"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "필사되었다고 주장되는 《화랑세기》는 유교적 가치관과 사뭇 다른 신라인에 대한 기록이라는 점에서 주목받고 있지만, 현재까지 박창화가 필사한 원본이 발견되지 않았기 때문에 위작 시비가 끊이지 않고 있다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EB%9E%91%EC%84%B8%EA%B8%B0",
+            "search_query": "화랑세기 유교",
+            "terminate": false,
+            "text": "신라인에 대한 기록이 유교적인 관념과는 조금 달라서 관심을 많이 받았었죠. 하지만 결국 박창화가 베껴 썼다는 원본이 발견되지 않아서 아직까지도 가짜 시비가 계속되고 있어요.",
+            "turn_id": "BK22006054-5",
+            "utterance_id": "BK22006054.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 원본이 없으니까 사기라는 의심을 피하기 힘들겠네요. 맞다, 방금 화랑세기가 유교적인 관념과는 좀 다른 기록이라고 하셨는데 그건 대체 어떤 의미인가요?",
+            "turn_id": "BK22006054-6",
+            "utterance_id": "BK22006054.11"
+        },
+        {
+            "reference_date": "2016-09-21",
+            "reference_text": [
+                {
+                    "value": "화랑세기는 다른 역사서에서는 찾아볼 수 없는 신라의 생생한 역사가 담겨져 있지만 화랑들의 문란한 성관계와 내부의 암투에 집중해 위작 시비가 끊이지 않는다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화랑세기는 화랑의 남녀 관계, 근친혼, 처첩 관계 등이 주류를 이루고 있다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2016/09/16178/",
+            "search_query": "화랑세기 성관계 암투 근친혼",
+            "terminate": false,
+            "text": "다른 역사서와 달리 당시 신라의 생생한 역사, 즉 화랑들의 문란한 성행위, 남녀 관계, 근친혼, 처첩 관계 및 내부의 알력 다툼을 주로 그리고 있거든요. 그래서 위작 시비가 끊이지 않는 거고요.",
+            "turn_id": "BK22006054-6",
+            "utterance_id": "BK22006054.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 실제로 책을 읽어보면 얼굴이 엄청 화끈거리겠네요. 하기야 그 시대에는 아직 유교가 자리잡기 전이었으니 당연한 건지도 모르겠어요. 혹시 화랑세기를 진본이라고 볼 수 있는 근거들은 없나요?",
+            "turn_id": "BK22006054-7",
+            "utterance_id": "BK22006054.13"
+        },
+        {
+            "reference_date": "2016-09-21",
+            "reference_text": [
+                {
+                    "value": "이에 반해 미실이 지은 향가는 상당한 수준의 문학작품이어서 필사자가 창작했다고 보기 힘들며 책에 언급된 '구지'(왕궁인 월성 주변의 해자)가 1980년대 후반에 와서야 처음 발굴된 점을 들어 위작이 아니라는 반박도 만만찮다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2016/09/16178/",
+            "search_query": "화랑세기 미실 향가 구지",
+            "terminate": false,
+            "text": "책에서 미실이 지었다는 향가의 수준이 높아서 박창화가 직접 지었다고 보기에는 무리가 있다는 견해도 있어요. 또한 화랑세기에 언급된 월성 왕궁 주변 해자인 구지가 80년대 후반이 되어서야 처음 발굴된 것도 위작이 아니라고 보는 측이 내세우는 근거 중 하나고요.",
+            "turn_id": "BK22006054-7",
+            "utterance_id": "BK22006054.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 반론 측이 제시하는 근거도 생각보다 꽤 만만하지 않은데요? 아무래도 너무 편찬 시기가 오래된 책이다 보니 확인하기가 힘들어서 논란이 끊이지 않는 거 같네요. 아, 혹시 화랑세기가 삼국시대에 지어진 유일한 역사서인가요?",
+            "turn_id": "BK22006054-8",
+            "utterance_id": "BK22006054.15"
+        },
+        {
+            "reference_date": "2016-09-21",
+            "reference_text": [
+                {
+                    "value": "고구려의 '유기'나 '신집', 백제의 '서기', 신라의 '국사' 등 삼국시대 각 국별로 역사서들이 작성됐지만 현전하는 것은 하나도 없다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/premium/special-report/view/2016/09/16178/",
+            "search_query": "화랑세기 유기 신집 서기 국사",
+            "terminate": false,
+            "text": "그건 아니에요. 고구려에는 유기, 신집이라는 역사서가 있었고 백제에는 서기, 신라에도 국사라는 역사책이 따로 있었지만, 지금까지 전해 내려오는 책은 하나도 없어요.",
+            "turn_id": "BK22006054-8",
+            "utterance_id": "BK22006054.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 우리나라 고대 역사서들은 전부 실전된 거네요. 너무 아쉬워서 그나마 논란이 되는 화랑세기라도 진짜라면 좋겠어요.",
+            "turn_id": "BK22006054-9",
+            "utterance_id": "BK22006054.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 진짜라면 개인적으로 우리나라 역사학이 근본부터 뒤집어지지 않을까 생각해요.",
+            "turn_id": "BK22006054-9",
+            "utterance_id": "BK22006054.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그것도 그것 나름 재미있을 거 같아요. 아무튼 오늘도 제 질문에 친절하게 답변해주셔서 너무 감사합니다. 덕분에 화랑세기가 무슨 책인지 알게 됐네요.",
+            "turn_id": "BK22006054-10",
+            "utterance_id": "BK22006054.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 된 거 같아서 다행이네요. 다음에도 모르는 게 있으면 편하게 질문주세요!",
+            "turn_id": "BK22006054-10",
+            "utterance_id": "BK22006054.20"
+        }
+    ]
+}

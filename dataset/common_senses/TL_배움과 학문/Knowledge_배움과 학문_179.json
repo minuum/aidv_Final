@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012224",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012224",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 일반 음료보다 제로 칼로리 음료를 자주 마시고 있어.",
+            "turn_id": "BK22012224-1",
+            "utterance_id": "BK22012224.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그래. 제로 칼로리 음료는 종류도 다양해서 좋아.",
+            "turn_id": "BK22012224-1",
+            "utterance_id": "BK22012224.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제로 칼로리라고 해서 맛이 없을 줄 알았어. 그런데 제로 칼로리 탄산음료를 마시면 단 맛이 느껴지던데 이유가 뭘까?",
+            "turn_id": "BK22012224-2",
+            "utterance_id": "BK22012224.3"
+        },
+        {
+            "reference_date": "44713.0",
+            "reference_text": [
+                {
+                    "value": "제로 칼로리 탄산음료는 설탕 대신 인공감미료로 단맛을 구현해 칼로리가 거의 없다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아스파탐, 수크랄로스 등 인공 감미료는 설탕보다 수백 배의 단맛을 내지만 당분이 아니기 때문에 열량은 거의 없다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newstomato.com/ReadNews.aspx?no=1126303&inflow=N",
+            "search_query": "제로 칼로리 설탕 대신",
+            "terminate": false,
+            "text": "제로 칼로리 탄산음료에 설탕은 안 들어가지만 아스파탐, 수크랄로스 등의 인공감미료로 단맛을 내. 이러한 인공감미료는 설탕보다 단맛이 수백 배 더 강하지만, 당분이 아니라서 열량이 거의 없는 거야.",
+            "turn_id": "BK22012224-2",
+            "utterance_id": "BK22012224.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아스파탐과 수크랄로스에는 어떤 특징이 있어?",
+            "turn_id": "BK22012224-3",
+            "utterance_id": "BK22012224.5"
+        },
+        {
+            "reference_date": "44754.0",
+            "reference_text": [
+                {
+                    "value": "수크랄로스 역시 0kcal로 표기되면서 설탕 대비 600배의 단맛을 낸다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아스파탐의 열량은 1g당 4kcal로, 설탕과 같은 수준이다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk202207110164",
+            "search_query": "아스파탐 수크랄로스",
+            "terminate": false,
+            "text": "수크랄로스는 0킬로칼로리로 표기되는데, 설탕에 비해 600배나 더 강한 단맛이 나. 한편, 아스파탐은 1그램당 4킬로칼로리인데 이 수치는 설탕과 같아.",
+            "turn_id": "BK22012224-3",
+            "utterance_id": "BK22012224.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4킬로칼로리라면, 제로 칼로리는 아니지 않아?",
+            "turn_id": "BK22012224-4",
+            "utterance_id": "BK22012224.7"
+        },
+        {
+            "reference_date": "44278.0",
+            "reference_text": [
+                {
+                    "value": "제로 칼로리는 열량이 없다고 표기되는 식품으로, 식품위생법에 따르면 100㎖당 5kcal 미만일 경우 0kcal로 표기가 가능하다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.withinnews.co.kr/news/view.html?section=1&category=97&item=&no=24350",
+            "search_query": "제로 칼로리 표시",
+            "terminate": false,
+            "text": "식품위생법에 의하면 100밀리리터당 5킬로칼로리 미만일 경우에는 0킬로칼로리로 표기할 수 있어. 그래서 열량이 없는 식품이라는 뜻의 제로 칼로리로 표기하는 거지.",
+            "turn_id": "BK22012224-4",
+            "utterance_id": "BK22012224.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄밀히 따지면 제로 칼로리는 아니겠구나. 제로 칼로리 음료를 자주 먹는데 걱정이네. 수크랄로스와 아스파탐의 적정한 섭취량은 얼마나 돼?",
+            "turn_id": "BK22012224-5",
+            "utterance_id": "BK22012224.9"
+        },
+        {
+            "reference_date": "44750.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 감미료의 권장 섭취량을 살펴보면 수크랄로스는 체중 1㎏당 15㎎, 아스파탐은 40㎎이다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "60㎏ 성인 기준 일일 섭취 허용량은 900㎎ 정도다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "같은 체중을 기준으로 아스파탐은 2400㎎까지 먹어도 무방하다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220707519837?OutUrl=naver",
+            "search_query": "인공감미료 섭취량",
+            "terminate": false,
+            "text": "수크랄로의 권장 섭취량은 체중 1킬로그램당 15밀리그램으로, 60킬로그램 성인 기준 하루에 900밀리그램까지 섭취가 허용돼. 그리고 아스파탐은 체중 1킬로그램당 40밀리그램이 권장 섭취량이라서, 60킬로그램 성인은 하루에 2400밀리그램까지 먹어도 문제가 없어.",
+            "turn_id": "BK22012224-5",
+            "utterance_id": "BK22012224.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아스파탐의 권장 섭취량이 더 많구나. 제로 칼로리 음료 말고 제로 과자도 있잖아. 여기엔 뭐가 들어가?",
+            "turn_id": "BK22012224-6",
+            "utterance_id": "BK22012224.11"
+        },
+        {
+            "reference_date": "44796.0",
+            "reference_text": [
+                {
+                    "value": "제로 과자는 설탕 대신 에리스리톨, 말티톨과 같은 인공감미료를 사용해 단 맛을 낸 디저트다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "에리스리톨과 말티톨은 ‘당 알코올’의 일종이다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당 알코올은 칼로리가 있는 인공감미료로, 설탕의 최대 75%에 달하는 칼로리를 낸다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/08/23/2022082302024.html",
+            "search_query": "제로 칼로리 과자",
+            "terminate": false,
+            "text": "제로 과자에는 설탕 대신 당 알코올에 속하는 에리스리톨이나 말티톨을 사용해서 단맛을 내. 당 알코올은 설탕의 최대 75퍼센트에 미치는 칼로리를 내는 인공감미료야.",
+            "turn_id": "BK22012224-6",
+            "utterance_id": "BK22012224.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 제로 과자에서도 단맛이 나는 거였구나. 에리스리톨과 말티톨에 대해서 알려줘.",
+            "turn_id": "BK22012224-7",
+            "utterance_id": "BK22012224.13"
+        },
+        {
+            "reference_date": "44794.0",
+            "reference_text": [
+                {
+                    "value": "이 중에서도 에리스리톨은 설탕과 가장 유사한 맛을 내는 데다 열량과 혈당지수 모두 0에 가까워 인기를 모으고 있습니다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면, 말티톨은 가공 형태에 따라 혈당을 높일 수 있어 당뇨나 비만 환자가 주의해야 하는 원료입니다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 무설탕을 내세운 제품 중엔 말티톨이 포함된 제품이 많으니 구매 전 확인이 필수입니다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/consumer/2022/08/18/0018",
+            "search_query": "에리스리톨 말티톨",
+            "terminate": false,
+            "text": "에리스리톨은 설탕과 가장 흡사한 맛을 내는데, 열량과 혈당지수가 0에 육박해서 인기가 많아. 하지만 말티톨은 어떻게 가공을 하느냐에 따라서 혈당을 높일 위험이 있어. 그렇기 때문에 당뇨나 비만 환자는 말티톨을 조심해야 하고, 실제로 무설탕이라고 표기하는 제품 중에 말티톨이 함유된 제품이 많으니까 구매하기 전 꼭 확인해야 해.",
+            "turn_id": "BK22012224-7",
+            "utterance_id": "BK22012224.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기왕이면 말티톨 대신에 에리스리톨이 함유된 과자를 먹어야겠구나. 단맛을 내는 것 중에 천연감미료도 있잖아. 천연감미료는 당뇨병과 상관없어?",
+            "turn_id": "BK22012224-8",
+            "utterance_id": "BK22012224.15"
+        },
+        {
+            "reference_date": "42395.0",
+            "reference_text": [
+                {
+                    "value": "자일리톨은 식물에서 추출한 천연감미료로, 설탕과 비슷한 단맛이 나고 당도도 설탕과 비슷하다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "천연 감미료인 자일리톨은 인슐린과는 관계가 없어 혈당치에 영향을 주지 않는다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 당뇨병 환자에게 설탕 대용품으로 이용되기도 한다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20160126000744",
+            "search_query": "천연감미료 당뇨병",
+            "terminate": false,
+            "text": "천연감미료 중 식물에서 추출한 자일리톨은 단맛이 나고 당도도 설탕과 비슷하지만, 인슐린과 연관이 없어서 혈당 수치에 영향을 주지 않아. 그렇기 때문에 당뇨병 환자에게 설탕을 대신하는 용도로 쓰이기도 하지.",
+            "turn_id": "BK22012224-8",
+            "utterance_id": "BK22012224.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 천연감미료를 먹는 것이 좋겠네. 천연감미료 중에 자일리톨 말고 또 뭐가 있어?",
+            "turn_id": "BK22012224-9",
+            "utterance_id": "BK22012224.17"
+        },
+        {
+            "reference_date": "44036.0",
+            "reference_text": [
+                {
+                    "value": "주로 남미에서 서식하는 식물로, 잎에서 단맛이 나 예부터 감미료로 널리 활용된 스테비아.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그중에서도 스테비아가 ‘설탕초’라고 불리며 유독 인기를 끄는 이유는 당도가 설탕의 150배에 가까우면서도 체내에 흡수되지 않아 칼로리가 거의 없기 때문이다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.elle.co.kr/article/47834",
+            "search_query": "천연감미료 스테비아",
+            "terminate": false,
+            "text": "천연감미료에는 자일리톨 외에도 설탕초라고 불리는 스테비아가 있어. 남미에서 서식하는 식물의 잎에서 추출한 것인데, 단맛이 나서 예전부터 감미료로 이용했어. 특히나 인기가 많은 이유는 설탕의 150배에 가까운 당도를 가지고 있으면서 체내 흡수가 되지 않아 칼로리가 거의 없다는 장점 때문이야.",
+            "turn_id": "BK22012224-9",
+            "utterance_id": "BK22012224.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스테비아가 진정한 제로 칼로리였구나. 인공감미료와 천연감미료에 대해 알려줘서 고마워.",
+            "turn_id": "BK22012224-10",
+            "utterance_id": "BK22012224.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "음료나 과자를 먹을 때, 감미료를 확인하고 먹으면 건강에도 좋을 거야.",
+            "turn_id": "BK22012224-10",
+            "utterance_id": "BK22012224.20"
+        }
+    ]
+}

@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008047",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008047",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올해 수시 모집 기간이 언제인지 알아? 사촌 동생 수시 접수하는 것 좀 점검해 주려고 하는데. 애가 공부는 잘하는데 좀 덜렁대서 말이지.",
+            "turn_id": "BK22008047-1",
+            "utterance_id": "BK22008047.1"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "2023학년도 대입 수시지원은 오는 13일부터 시작된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "4년제 대학교는 오는 17일까지, 전문대학은 10월6일까지다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문대학의 경우 11월 2차 수시모집도 진행한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수험생은 원서접수 마감 기일도 대학마다 달라 주의가 필요하다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022091208311013125",
+            "search_query": "수시 모집 기간",
+            "terminate": false,
+            "text": "13일인 오늘부터 2023학년도 대입 수시 지원 접수가 시작됐어. 접수 기한은 4년제 대학교와 전문대학이 다른데 4년제는 17일까지야. 전문대학의 경우에는 10월 6일까지인데, 2차 접수가 11월에 또 있을 예정이고. 단, 명심해야 할 점이 있는데 대학별로 접수 마감 기한이 달라.",
+            "turn_id": "BK22008047-1",
+            "utterance_id": "BK22008047.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일률적으로 같은 날에 마감하는 게 아니라는 거야?",
+            "turn_id": "BK22008047-2",
+            "utterance_id": "BK22008047.3"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "4년제 대학의 경우 접수기간은 13~17일이지만, 각 대학은 이 중 3일 동안 자율적인 모집기간을 운영하기 때문이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가령 서울대, 연세대, 고려대 모두 오는 15일 수시지원을 마감하지만, 오후 5시(연세·고려대) 및 오후 6시(서울대) 등 마감 시간이 다르다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "진학사에 따르면 서울 소재 대학 중에는 삼육대가 오는 17일 오후 9시 마감까지 지원자를 모집한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022091208311013125",
+            "search_query": "2023 수시 모집 기간 대학별",
+            "terminate": false,
+            "text": "어, 맞아. 4년제 대학은 13일에서 17일까지가 접수 기한이지만, 이 중에서 3일 동안 자율적으로 모집 기간을 정하거든. 그래서 서울대, 연세대, 고려대는 17일이 아닌 15일에 접수를 마감해. 마감 시간도 서울대는 오후 6시까지인데 연세대와 고려대는 오후 5시까지로 차이가 있고. 진학사에 따르면 삼육대는 17일 오후 9시에 접수를 마감하니 대학마다 접수 기간이 다른 거지.",
+            "turn_id": "BK22008047-2",
+            "utterance_id": "BK22008047.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그럼 지원 예정 대학부터 물어봐야겠구나. 근데 수시에는 총 몇 군데나 지원할 수 있는 거야?",
+            "turn_id": "BK22008047-3",
+            "utterance_id": "BK22008047.5"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "수시지원에 일반대학은 6회까지 지원 가능하며 특수목적대, 산업대, 전문대학은 횟수에 포함되지 않으므로 횟수에 포함되지 않는 대학을 적절하게 활용하는 것도 중요하다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/4800197",
+            "search_query": "2023 수시 모집 지원 가능 횟수",
+            "terminate": false,
+            "text": "수시 지원할 때에는 일반 대학에 최대 6번까지 지원할 수 있어. 단, 특수 목적대나 산업대, 전문대학은 일반 대학에 포함되지 않기 때문에 제한이 없지. 그러니 이들 대학을 적절히 활용해서 지원할 필요가 있어.",
+            "turn_id": "BK22008047-3",
+            "utterance_id": "BK22008047.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 내 사촌 동생은 4년제 진학 예정이니까 기본적으로는 6번에 플러스알파가 되겠네. 아, 수시 지원할 때 제출해야 할 서류는 뭐가 있어?",
+            "turn_id": "BK22008047-4",
+            "utterance_id": "BK22008047.7"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "인적사항 등이 적힌 서류전형 지원서 외에도 학생부종합전형 지원자들은 자기소개서, 수상이력 등이 요구되는 경우가 많다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 수상경력을 제출하려는 수험생들은 홈에듀 민원서비스에서 '대입전형용 고등학교 수상경력 확인서'를 이용해야한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기서 발급받아 수상경력을 제출해야한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수상경력 중 학기당 1건, 최대 6건의 수상경력만 입력이 가능하고 지원하는 모든 대학에 동일한 내용으로 제출해야한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://moneys.mt.co.kr/news/mwView.php?no=2022091208311013125",
+            "search_query": "2023 수시 모집 지원 서류",
+            "terminate": false,
+            "text": "일단 인적 사항 등을 적은 서류전형 지원서가 필요해. 그 외에도 학생부 종합 전형 지원자들은 자기소개서나 수상 이력 등을 제출해야 하는 경우가 대부분이고. 수상 이력은 홈에듀 민원 서비스에서 대입 전형용 고등학교 수상 경력 확인서를 발급받아 제출하면 돼. 주의해야 할 점은 수상 경력은 학기당 1건, 최대 6건까지만 기재할 수 있다는 것과 지원하는 대학 모든 곳에 동일한 내용으로 제출하는 게 원칙이라는 거야.",
+            "turn_id": "BK22008047-4",
+            "utterance_id": "BK22008047.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 수상 경력이 많을 경우 잘 추려내야 한다는 소리네. 그건 물어봐서 같이 의논하면 될 것 같은데 자기소개서는 어떻게 제출하는 거야? 지원할 때 작성해서 내는 건가?",
+            "turn_id": "BK22008047-5",
+            "utterance_id": "BK22008047.9"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "자기소개서는 '공통원서 서비스'를 활용하면 보다 수월하게 제출할 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원서접수 대행사인 유웨이어플라이 또는 진학어플라이 중 한 곳에 '통합회원'으로 가입한 뒤 자기소개서 내용을 사전에 작성해뒀다가 실제 지원시 그 내용을 불러오면 되는 방식이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisa-news.com/news/article.html?no=211944",
+            "search_query": "2023 수시 모집 지원 자기소개서",
+            "terminate": false,
+            "text": "그래도 되지만 공통원서 서비스를 이용하면 자기소개서를 미리 작성해둘 수 있어. 유웨이어플라이와 진학어플라이가 원서접수 대행사이니 이 둘 중 한 군데에 통합회원으로 가입해서 적어두면 돼. 실제 지원할 때는 작성해둔 걸 불러오기만 하면 되니 간편하지.",
+            "turn_id": "BK22008047-5",
+            "utterance_id": "BK22008047.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 미리 작성해두는 게 낫겠네. 근데 수시 모집에서 자기소개서를 보는 대학이 많아?",
+            "turn_id": "BK22008047-6",
+            "utterance_id": "BK22008047.11"
+        },
+        {
+            "reference_date": "2022-08-02",
+            "reference_text": [
+                {
+                    "value": "2023학년도 수시 모집의 경우 학생부종합 전형을 실시하는 133개 대학 가운데 자기소개서는 경희대ㆍ서울대ㆍ중앙대 등 37개 대학에서 제출을 요구하고, 부산대ㆍ서강대ㆍ한양대 등 96개 대학은 자기소개서 제출을 요구하지 않는다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "참고로 2022학년도 수시 모집에서는 53개 대학, 2021학년도 수시 모집에서는 94개 대학이 자기소개서 제출을 요구했었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.chosun.com/site/data/html_dir/2022/08/01/2022080101405.html",
+            "search_query": "2023 수시 모집 자기소개서",
+            "terminate": false,
+            "text": "2023학년도 수시 모집에서 학생부 종합 전형을 실시하는 대학은 총 133개인데 자기소개서를 제출해야 하는 곳은 경희대, 서울대, 중앙대를 포함해서 총 37개 대학이야. 부산대, 서강대, 한양대를 포함한 96개 대학은 자기소개서를 제출할 필요가 없어. 2021학년도 수시 모집에서 자기소개서를 요구한 대학은 94개, 2022학년도에는 53개였는데 점차 줄어들었지.",
+            "turn_id": "BK22008047-6",
+            "utterance_id": "BK22008047.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2년 사이에 많이 줄었네. 어쨌든 수험생 입장에서는 부담이 덜 할 것 같다. 그나저나 자기소개서 항목은 대학별로 다른 거야, 같은 거야?",
+            "turn_id": "BK22008047-7",
+            "utterance_id": "BK22008047.13"
+        },
+        {
+            "reference_date": "2022-08-02",
+            "reference_text": [
+                {
+                    "value": "2023학년도 대학입시에서 자기소개서는 한국대학교육협의회의 공통 문항 2개와 대학 자율 문항 1개로 구성되어 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2023학년도 수시 모집 학생부종합 전형에서 자기소개서 제출을 요구하는 37개 대학은 모두 공통 문항 2개를 작성하여 제출해야 하고, 이 중 경희대ㆍ성균관대ㆍ홍익대 등 25개 대학은 대학 자율 문항을 추가적으로 작성하여 제출해야 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.chosun.com/site/data/html_dir/2022/08/01/2022080101405.html",
+            "search_query": "2023 수시 모집 자기소개서 항목",
+            "terminate": false,
+            "text": "같은 부분도 있고 다른 부분도 있어. 2023학년도 대학입시에서 자기소개서는 총 3개 문항으로 구성되어 있는데 2개는 한국대학교육협의회의 공통 문항이고, 1개는 대학 자율 문항이거든. 자율 문항을 요구하지 않는 대학은 공통 문항만 적으면 되고 요구하는 대학은 자율 문항까지 적어야만 해. 2023학년도 수시 모집 학생부 종합 전형에서는 경희대, 성균관대, 홍익대를 포함한 25개 대학에서 자율 문항을 요구하고 있지.",
+            "turn_id": "BK22008047-7",
+            "utterance_id": "BK22008047.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이것도 잘 체크해야겠네. 혹시 자기소개서 쓸 때 주의사항 같은 거 있어?",
+            "turn_id": "BK22008047-8",
+            "utterance_id": "BK22008047.15"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "자소서 작성에 앞서 확인해야 할 내용은 ‘기재 금지’ 항목이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "공인 어학성적이나 수학·과학·외국어 교과에 대한 교외 수상실적을 기재하면 불합격 처리된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 지원자 본인의 강점을 부각하기 위해 작성하는 것이므로 지원자의 성명, 출신 고교나 부모의 실명을 포함한 사회적·경제적 지위를 암시하는 내용을 기재할 경우 지원자가 어떤 의도성을 가지지 않았다고 하더라도 평가에 불이익을 받을 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 제출된 자기소개서의 표절, 대리 작성, 허위사실 기재, 기타 부정한 사실 등이 발견될 경우 지원자는 불합격 처리되며, 합격 이후에도 입학이 취소될 수 있다는 사실을 명심하자!",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nextplay.kr/news/articleView.html?idxno=4063",
+            "search_query": "2023 수시 모집 자기소개서 주의사항",
+            "terminate": false,
+            "text": "응, 자기소개서에 적어서는 안 되는 내용들이 있으니 주의해서 적어야 해. 공인 어학성적이나 수학, 과학, 외국어 교과에 대한 교외 수상실적, 지원자의 성명, 출신 고교, 부모의 실명을 포함한 사회적, 경제적 지위를 암시하는 내용들을 적으면 의도성 여부와 상관없이 불이익을 당할 수 있어. 또 자기소개서를 표절하거나 타인이 작성하게 하거나 허위 사실을 적거나 그 외 자기소개서와 관련된 부정한 사실을 한 게 발각이 되면 불합격 처리가 돼버려. 설사 합격을 한 이후라고 해도 입학이 취소될 수 있으니 이 부분을 반드시 잘 지켜서 적어야 해.",
+            "turn_id": "BK22008047-8",
+            "utterance_id": "BK22008047.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적으면 안 되는 내용들이 많구나. 이것도 내가 잘 확인해 줘야겠다. 나는 정시로 대학에 가서 수시에 대해서는 잘 몰랐는데 점검해야 할 게 꽤 많네.",
+            "turn_id": "BK22008047-9",
+            "utterance_id": "BK22008047.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇긴 한데 네 사촌 동생은 남들보다 한결 편하겠다. 사촌 언니가 다시 한번 체크해 주니 말이지.",
+            "turn_id": "BK22008047-9",
+            "utterance_id": "BK22008047.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수험 생활 힘든 거 뻔히 아는데 이런 거라도 도와줘야지. 여하튼 오늘 고마웠고 나는 이만 사촌 동생한테 가볼게. 그럼 주말에 또 보자.",
+            "turn_id": "BK22008047-10",
+            "utterance_id": "BK22008047.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "어, 얼른 가보고 주말에 봐.",
+            "turn_id": "BK22008047-10",
+            "utterance_id": "BK22008047.20"
+        }
+    ]
+}

@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012058",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012058",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영화에서 너무 귀여운 범고래를 봤어요! 범고래는 실제로도 사람과 잘 지내나요?",
+            "turn_id": "BK22012058-1",
+            "utterance_id": "BK22012058.1"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "범고래가 사람을 직접적으로 공격해 사망에 이르게 한 사건은 아직 발생하지 않았다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 범고래의 범선 공격은 증가하는 추세다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난 7월 포르투갈 앞바다에서 범고래의 공격에 의해 배가 침몰한 일이 있었다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/772688/",
+            "search_query": "범고래 공격",
+            "terminate": false,
+            "text": "범고래가 사람을 직접적으로 공격하여 사망까지 이르게 하지는 않았지만, 범고래에 의한 어선 공격은 증가하고 있어요. 2022년 7월에는 포르투칼의 앞바다에서 범고래가 공격하여 배가 침몰했었죠.",
+            "turn_id": "BK22012058-1",
+            "utterance_id": "BK22012058.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왜 범고래가 어선을 공격하는 과격한 행동을 하나요?",
+            "turn_id": "BK22012058-2",
+            "utterance_id": "BK22012058.3"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "다만 과학자들은 범고래가 배의 프로펠러에서 생성되는 수압을 즐긴다는 가설을 제기한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/772688/",
+            "search_query": "범고래 어선 공격",
+            "terminate": false,
+            "text": "범고래가 배의 프로펠러에서 생성되는 수압을 즐긴다는 가설도 있어요.",
+            "turn_id": "BK22012058-2",
+            "utterance_id": "BK22012058.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 범고래는 생김새가 흰수염고래와 다르네요. 두 종에 어떤 차이가 있나요?",
+            "turn_id": "BK22012058-3",
+            "utterance_id": "BK22012058.5"
+        },
+        {
+            "reference_date": "44650.0",
+            "reference_text": [
+                {
+                    "value": "이빨고래에 속하는 범고래, 돌고래 등은 날카로운 이빨을 이용해 먹이를 잡아 통째로 삼킨다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수염고래에 속하는 밍크고래, 흰수염고래 등은 바닷물을 빨아들인 다음 물과 함께 딸려온 작은 고기나 새우 등 해양생물을 입천장에 붙은 뻣뻣한 수염을 통해 걸러먹는 것.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220330131955750126",
+            "search_query": "수염고래 이빨고래",
+            "terminate": false,
+            "text": "범고래는 돌고래와 같은 이빨고래는 날카로운 이빨로 먹이를 통째로 씹어서 삼켜요. 밍크고래와 흰수염고래 등은 수염고래에 속하는데 바닷물을 빨아들이면서 물과 함께 딸려 들어온 작은 고기와 새우등을 수염을 통해 걸러서 먹어요.",
+            "turn_id": "BK22012058-3",
+            "utterance_id": "BK22012058.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수염고래가 무엇을 먹었는지는 어떻게 아나요?",
+            "turn_id": "BK22012058-4",
+            "utterance_id": "BK22012058.7"
+        },
+        {
+            "reference_date": "44650.0",
+            "reference_text": [
+                {
+                    "value": "고래들이 수염을 통해 먹이를 걸러낼 때 해양생물들의 생화학적 신호가 수염에 남는데, 이 신호는 시간이 지나도 사라지지 않는다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수염이 자라면서 이 신호들 역시 층층이 수염에 갇히게 되는 것.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220330131955750126",
+            "search_query": "수염고래 먹이 신호",
+            "terminate": false,
+            "text": "수염고래가 먹이를 수염을 통해서 걸러낼 때는 섭취하는 해양 생물이 생화학적 신호를 남기게 되죠. 이 신호는 사라지지 않고 수염에 흔적을 남기게 되어요. 수염이 점점 자라며 신호들은 층층이 수염 내부에 갇히게 되죠.",
+            "turn_id": "BK22012058-4",
+            "utterance_id": "BK22012058.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수염의 연구를 통해 먹이의 종류 말고 어떤 정보를 얻을 수 있었나요?",
+            "turn_id": "BK22012058-5",
+            "utterance_id": "BK22012058.9"
+        },
+        {
+            "reference_date": "44642.0",
+            "reference_text": [
+                {
+                    "value": "고래가 주요 먹이로 삼는 남극 크릴은 얼음이 있는 찬 바다에서 번성하는데 라니냐 현상 뒤에는 얼음이 줄면서 크릴이 풍부하지 않게 된다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220322124700009?input=1195m",
+            "search_query": "고래 크릴 새우 수염",
+            "terminate": false,
+            "text": "고래가 주로 먹는 남극의 크릴 새우는 얼음이 있는 차가운 바다에서 번성하는데, 기후변화로 라니냐가 발생한 다음에는 크릴이 풍부하지 않았어요.",
+            "turn_id": "BK22012058-5",
+            "utterance_id": "BK22012058.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래가 주로 차가운 곳에 사는 새우를 먹으면, 남극에 있지 않을 때는 먹지 않나요?",
+            "turn_id": "BK22012058-6",
+            "utterance_id": "BK22012058.11"
+        },
+        {
+            "reference_date": "44642.0",
+            "reference_text": [
+                {
+                    "value": "혹등고래는 여름에 남극 주변에서 먹이활동을 하다 겨울 번식을 위해 따뜻한 열대 수역으로 이동하는데, 이때는 안정적인 먹이원 없이 체내 영양분이나 어쩌다 얻어걸리는 먹잇감에만 의존해 남극 바다에서 충분히 영양을 섭취해둬야 한다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220322124700009?input=1195m",
+            "search_query": "혹등고래 남극 크릴",
+            "terminate": false,
+            "text": "혹등고래의 경우 여름에는 차가운 남극 주변에서 먹이를 먹으며 활동하다가, 겨울이 되면 번식을 위해 따뜻한 열대 수역으로 내려와요. 이때는 안정적으로 공급되는 먹이원 없이 체내 영양분으로 활동하거나 우연히 먹는 영양분에 의존하죠. 그래서 남극에서 충분히 영양을 섭취해야 해요.",
+            "turn_id": "BK22012058-6",
+            "utterance_id": "BK22012058.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 한국에는 어떤 고래가 서식하나요?",
+            "turn_id": "BK22012058-7",
+            "utterance_id": "BK22012058.13"
+        },
+        {
+            "reference_date": "44594.0",
+            "reference_text": [
+                {
+                    "value": "상괭이는 한국 토종 돌고래입니다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "둥근 머리와 작은 눈, 등과 지느러미가 없는 것이 특징입니다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제주도를 포함해 국내에서는 서해안과 남해안, 동해안 등에서 발견되고 있습니다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jibs.co.kr/news/articles/articlesDetail/20359?feed=na",
+            "search_query": "한국 상괭이",
+            "terminate": false,
+            "text": "한국의 대표적 토종 돌고래로 상괭이가 있어요. 상괭이는 둥근 머리와 작은 눈, 지느러미가 없다는 외적 특징이 있어요. 국내에서는 서해안, 남해안, 동해안, 제주도 등의 전역에서 발견되고 있죠.",
+            "turn_id": "BK22012058-7",
+            "utterance_id": "BK22012058.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상괭이라니 아주 귀여운 이름이네요. 한국에 서식하는 고래라고 하니 바다에 가면 쉽게 만날 수 있나요?",
+            "turn_id": "BK22012058-8",
+            "utterance_id": "BK22012058.15"
+        },
+        {
+            "reference_date": "44753.0",
+            "reference_text": [
+                {
+                    "value": "하지만 최근 들어 상괭이의 개체수는 크게 줄어들고 있는 추세다.",
+                    "value_time": "44819.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해양수산부에 따르면 지난 2004년 기준 약 3만6,000여 마리였던 상괭이의 개체수는 2016년 1만7,000여 마리로 12년새 무려 53%나 감소했다.",
+                    "value_time": "44819.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sisaweek.com/news/curationView.html?idxno=154794",
+            "search_query": "상괭이 멸종위기",
+            "terminate": false,
+            "text": "글쎄요, 상괭이의 개체수는 최근 크게 줄어들고 있거든요. 상괭이의 개체수는 2004년 3만 6천마리에서 2016년에는 1만 7000마리로 12년 사이에 53% 감소했어요.",
+            "turn_id": "BK22012058-8",
+            "utterance_id": "BK22012058.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상괭이의 개체수가 줄어들고 있다니, 마음이 아프네요.",
+            "turn_id": "BK22012058-9",
+            "utterance_id": "BK22012058.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상괭이만이 아니고 자연과 환경이 많이 위협받고 있죠.",
+            "turn_id": "BK22012058-9",
+            "utterance_id": "BK22012058.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 아는 것이 힘이라고 고래에 대해 아니까 관심과 애정이 생겨요.",
+            "turn_id": "BK22012058-10",
+            "utterance_id": "BK22012058.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래에 대해서 애정이 생긴다니 저도 기쁘네요.",
+            "turn_id": "BK22012058-10",
+            "utterance_id": "BK22012058.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 다음엔 우리 바다에 쓰레기를 주우러 가요.",
+            "turn_id": "BK22012058-11",
+            "utterance_id": "BK22012058.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아요, 고래들이 알면 기뻐하겠네요.",
+            "turn_id": "BK22012058-11",
+            "utterance_id": "BK22012058.22"
+        }
+    ]
+}

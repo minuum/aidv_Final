@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003785",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003785",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 인터넷에서 봤는데요, 일리피카라는 동물이 피카츄의 모델이라던데 정말인가요?",
+            "turn_id": "BK22003785-1",
+            "utterance_id": "BK22003785.1"
+        },
+        {
+            "reference_date": "2015-03-25",
+            "reference_text": [
+                {
+                    "value": "내셔널지오그래픽에 따르면 톈산 토착종인 일리피카는 1983년 중국 정부가 생태연구를 위해 신장에 파견한 리웨이둥에 의해 처음 세상에 알려졌다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연 구 결과 북아메리카 등지에 서식하는 토끼목 동물이자 일본의 인기 만화 캐릭터 피카츄의 실제 모델로 알려진 ‘피카’(우는토끼·학명:Ochotona hyperborea)와 비슷한 동물이라는 것이 밝혀졌다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bizn.donga.com/3/all/20150325/70312753/3",
+            "search_query": "일리피카 피카츄",
+            "terminate": false,
+            "text": "그건 잘못된 정보예요. 피카츄의 모델로 알려진 건 북아메리카 등지에 서식하는 토끼 목의 피카라는 동물이거든요. 일리피카는 내셔널지오그래픽에 따르면 1983년 중국 정부가 생태연구를 위해 신장에 파견한 리웨이둥에 의해 처음 발견된 피카와 비슷하게 생긴 톈산 토착종 동물이고요.",
+            "turn_id": "BK22003785-1",
+            "utterance_id": "BK22003785.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그렇구나. 피카라는 동물은 처음 들어 보는데, 더 알려주실래요?",
+            "turn_id": "BK22003785-2",
+            "utterance_id": "BK22003785.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "우는토끼 또는 피카는 토끼목의 우는토끼과(Ochotonidae)에 속하는 포유류 동물로, 30개의 종으로 구성되어 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "몸집이 작고 팔다리가 짧으며 둥근 귀를 가지고 있으며 꼬리는 드러나지 않는다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우는토끼라는 이름은 주위를 경계할 때 내는 고음의 울음소리에서 유래되었으며, 생김새가 설치류의 몇몇 종과 유사하기 때문에 \"쥐토끼\"라고도 불린다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%8A%94%ED%86%A0%EB%81%BC%EA%B3%BC",
+            "search_query": "우는토끼과",
+            "terminate": false,
+            "text": "피카는 주위를 경계하기 위해 고음의 울음소리를 내기 때문에 우는 토끼라고도 불리고 생김새는 설치류 같아서 쥐토끼라고 불리기도 해요. 30개의 종이 있는 토끼 목, 우는토끼 과의 포유류 동물이고, 생김새는 팔다리가 짧고 몸집이 작으면서 둥근 귀와 보이지 않는 꼬리를 가지고 있어요.",
+            "turn_id": "BK22003785-2",
+            "utterance_id": "BK22003785.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와 생김새가 듣기만 해도 너무 귀여워요! 우는 토끼 과에는 대표적으로 어떤 동물이 있어요? 더 자세히 알고 싶어요.",
+            "turn_id": "BK22003785-3",
+            "utterance_id": "BK22003785.5"
+        },
+        {
+            "reference_date": "2021-05-19",
+            "reference_text": [
+                {
+                    "value": "이처럼 독특한 습성을 가진 새앙토끼는 우리가 익히 보던 햄스터와 매우 닮았지만 이름처럼 우는토끼과에 속하는 야생 토끼다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해발고도 2,000m까지의 고지대에 가장 좋아하는 메뉴는 바로 꽃이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/339117",
+            "search_query": "우는 토끼",
+            "terminate": false,
+            "text": "햄스터와 매우 닮은 외형에 독특한 습성을 가진 새앙토끼의 경우에도 우는 토끼과의 야생 토끼예요. 그리고 새앙토끼는 해발고도 2,000m의 고지대에 사는데, 가장 좋아하는 먹이가 꽃이에요. 참 귀엽죠?",
+            "turn_id": "BK22003785-3",
+            "utterance_id": "BK22003785.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽃을 먹는 토끼라니, 너무 귀여워서 못 참겠네요! 근데 혹시 쿼카도 우는 토끼과의 동물인가요? 생김새가 귀여운 게 새앙토끼랑 비슷한 것 같아서요.",
+            "turn_id": "BK22003785-4",
+            "utterance_id": "BK22003785.7"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "쿼카 또는 쿠아카왈라비(Quokka)는 캥거루과의 소형 동물이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "캥거루과 동물답게 배주머니가 있고, 새끼를 배주머니에서 키우고 함께 이동한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BF%BC%EC%B9%B4",
+            "search_query": "쿼카",
+            "terminate": false,
+            "text": "아니에요. 쿠아카왈라비라고도 불리는 쿼카는 캥거루과의 소형 동물이에요. 그래서 캥거루답게 새끼도 배 주머니 안에서 키워요.",
+            "turn_id": "BK22003785-4",
+            "utterance_id": "BK22003785.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 작은 애가 배 주머니도 있어요? 제가 알기론 쿼카가 아주 작은 동물인데요?",
+            "turn_id": "BK22003785-5",
+            "utterance_id": "BK22003785.9"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "몸무게 2.5~5kg, 크기는 40-90cm, 꼬리길이는 25-30cm로 둥근 땅딸막한 귀를 가지고 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "새끼는 7개월동안 어미의 배주머니에서 있다가 3 ~ 4개월동안은 배주머니에서 나와서 어미와 함께 산다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BF%BC%EC%B9%B4",
+            "search_query": "쿼카",
+            "terminate": false,
+            "text": "쿼카는 25~30cm의 꼬리와 둥글고 짧은 귀를 가진 동물로, 몸무게는 2.5~5kg이고 크기는 40~90cm 정도로 작지만, 7개월 동안 배 주머니에서 새끼를 키울 수 있어요. 3~ 4개월간은 배 주머니 밖에서도 새끼를 키우고요.",
+            "turn_id": "BK22003785-5",
+            "utterance_id": "BK22003785.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 알고 나니까 더 작고 소중하게 느껴지네요. 그러고 보니 생각났는데, 혹시 코끼리땃쥐에 대해서 아세요? 그 동물도 정말 작고 귀여운데.",
+            "turn_id": "BK22003785-6",
+            "utterance_id": "BK22003785.11"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "코끼리땃쥐 또는 도약땃쥐는 코끼리땃쥐목(Macroscelidea)의 코끼리땃쥐과(Macroscelididae)에 속해 있는 아프리카에 원산지를 둔 주로 벌레를 잡아먹는 작은 포유류이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%81%BC%EB%A6%AC%EB%95%83%EC%A5%90",
+            "search_query": "코끼리땃쥐",
+            "terminate": false,
+            "text": "코끼리땃쥐라면 도약땃쥐라고도 불리는 포유류죠. 종은 코끼리땃쥐목의 코끼리땃쥐과이고 아프리카에서 살면서 주로 벌레를 먹이로 하고요.",
+            "turn_id": "BK22003785-6",
+            "utterance_id": "BK22003785.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 코끼리땃쥐의 이름은 왜 코끼리땃쥐인거예요?",
+            "turn_id": "BK22003785-7",
+            "utterance_id": "BK22003785.13"
+        },
+        {
+            "reference_date": "2020-08-20",
+            "reference_text": [
+                {
+                    "value": "코끼리와 같이 긴 코를 가졌지만 쥐와 비슷한 크기의 포유류 코끼리땃쥐는 ‘세상에서 제일 작은 코끼리’라는 별명을 가지고 있으며 아프리카에 서식한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20200820135558987585",
+            "search_query": "코끼리땃쥐 코",
+            "terminate": false,
+            "text": "코끼리 땃쥐가 코끼리처럼 긴 코를 가졌기 때문이에요. 그래서 세상에서 가장 작은 코끼리라는 별명도 있죠.",
+            "turn_id": "BK22003785-7",
+            "utterance_id": "BK22003785.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 진짜 코끼리랑은 생김새 말고는 관련이 없는 거군요?",
+            "turn_id": "BK22003785-8",
+            "utterance_id": "BK22003785.15"
+        },
+        {
+            "reference_date": "2020-11-24",
+            "reference_text": [
+                {
+                    "value": "정확히는 코끼리 조상의 DNA와 관계가 있는데 현생 코끼리와 공통의 조상으로부터 진화된 생물 분류군에 속하므로, 코끼리와 먼 친척이라 볼 수 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더욱 흥미로운 점은 코끼리땃쥐라는 특이한 이름을 가진 이 동물이 실제로 코끼리와도 '친척관계'라는 사실이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20200819601005&wlog_tag3=naver",
+            "search_query": "코끼리땃쥐 코끼리",
+            "terminate": false,
+            "text": "그렇지는 않아요. 코끼리땃쥐의 DNA가 코끼리와 관련이 있거든요. 코끼리땃쥐의 DNA를 살펴보면, 코끼리땃쥐의 조상과 코끼리의 조상이 공통되고, 같은 조상으로부터 진화한 생물 분류에 속한다는 걸 발견할 수 있어요. 따라서 둘은 사실 먼 친척 관계라고 할 수 있는 거죠.",
+            "turn_id": "BK22003785-8",
+            "utterance_id": "BK22003785.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 유전자적인 관계가 있는 거였군요! 너무 신기한 사실이네요.",
+            "turn_id": "BK22003785-9",
+            "utterance_id": "BK22003785.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그렇게 생각해요. 작은 쥐와 커다란 코끼리에게 그런 관계가 있는 건 흔한 경우가 아니니까요.",
+            "turn_id": "BK22003785-9",
+            "utterance_id": "BK22003785.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 그래서 더 신기한 것 같아요. 오늘 귀여운 동물들에 대해서 알려주셔서 감사해요. 덕분에 의문점이 다 풀렸어요.",
+            "turn_id": "BK22003785-10",
+            "utterance_id": "BK22003785.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이네요. 더 궁금한 점이 있다면 언제든 또 물어봐도 좋아요.",
+            "turn_id": "BK22003785-10",
+            "utterance_id": "BK22003785.20"
+        }
+    ]
+}

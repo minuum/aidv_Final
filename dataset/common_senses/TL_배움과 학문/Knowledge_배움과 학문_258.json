@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001385",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001385",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 고등학생인데 꿈이 바리스타라고 해서, 좀 더 큰 꿈을 꾸라고는 했는데, 제가 자세히 좀 알아봐야겠어요.",
+            "turn_id": "BK22001385-1",
+            "utterance_id": "BK22001385.1"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "바리스타(이탈리아어: barista) 또는 커피 전문가는 에스프레소 커피를 중심으로 커피에 대한 높은 수준의 경험과 지식을 가지고, 원두 로스팅, 그라인딩, 커피 추출, 라떼 아트 등 전문적으로 커피를 만들어 내 는 일을 하는 사람을 말한다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A6%AC%EC%8A%A4%ED%83%80",
+            "search_query": "바리스타",
+            "terminate": false,
+            "text": "동생 진로에 대해 많이 걱정해주시는군요. 바리스타는 커피에 대한 전문가라고 생각하셔야 해요. 커피에 대한 높은 수준의 경험과 지식을 가지고, 원두 로스팅, 그라인딩, 커피추출, 라떼아트등 전문적으로 커피를 만들어내는 직업이에요.",
+            "turn_id": "BK22001385-1",
+            "utterance_id": "BK22001385.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바리스타 되려면 특별한 자격조건들이 있나요?",
+            "turn_id": "BK22001385-2",
+            "utterance_id": "BK22001385.3"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "학력에는 제한이 없다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일부 사설학원이나 직업전문학교에 교육 훈련과정을 이수할 수 있다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A6%AC%EC%8A%A4%ED%83%80",
+            "search_query": "바리스타",
+            "terminate": false,
+            "text": "바리스타 되기 위해서 특별한 조건이 있지는 않아요. 학력도 상관없고요. 사설학원이나 직업전문학교에서 교육 훈련과정을 이수할 수도 있어요.",
+            "turn_id": "BK22001385-2",
+            "utterance_id": "BK22001385.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바리스타 되는 문턱이 높은건 아니군요. 바리스타 자격증도 딸거라는데 시험은 어떤걸 봐요?",
+            "turn_id": "BK22001385-3",
+            "utterance_id": "BK22001385.5"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "필기시험은 응시 제한이 없으며, 실기시험은 해당 종목의 필기시험을 합격한 후에 실기시험 시행일까지 2년이 경과하지 않은 바리스팅 전공자가 응시할 수 있다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A6%AC%EC%8A%A4%ED%83%80_%EC%9E%90%EA%B2%A9%EC%8B%9C%ED%97%98",
+            "search_query": "바리스타 자격시험",
+            "terminate": false,
+            "text": "필기와 실기로 나누어져 있어요. 필기시험 합격해야 실기시험 볼 수 있는데, 실기시험은 필기시험 합격하면 2년까지 볼 수 있어요.",
+            "turn_id": "BK22001385-3",
+            "utterance_id": "BK22001385.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "필기와 실기가 있는것 보면 문턱이 낫다고 해서 시험이 단순한건 아닌가 보네요.",
+            "turn_id": "BK22001385-4",
+            "utterance_id": "BK22001385.7"
+        },
+        {
+            "reference_date": "2016-07-21",
+            "reference_text": [
+                {
+                    "value": "필기, 실기로 치러지는 바리스타 자격증 시험은 크게 2급과 1급으로 나뉘며 2급 자격증 취득 후 1급 시험 응시가 가능한 형태다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2급에서 커피관련 이론 및 기본 기술을 익힌다면 1급에서는 에스프레소 머신에 대한 이해, 원두커피의 다양성 및 특징을 파악하는 형태다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003681464?sid=102",
+            "search_query": "바리스타 자격증 시험",
+            "terminate": false,
+            "text": "필기와 실기로 나누어져 있는데다, 자격증은 2급과 1급이 있어요. 1급은 2급 자격증 취득한 사람만 시험 볼 수 있죠. 2급에서는 커피관련 이론과 기본기술정도를 시험보고, 1급에서는 에스프레소 머신에 대한 이해, 원두커피의 다양성 및 특징을 파악하는 형태에요.",
+            "turn_id": "BK22001385-4",
+            "utterance_id": "BK22001385.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "완전 전문가 되려면 1급까지 따야 겠군요. 바리스타 되는데 비용은 얼마나 들까요?",
+            "turn_id": "BK22001385-5",
+            "utterance_id": "BK22001385.9"
+        },
+        {
+            "reference_date": "2016-07-21",
+            "reference_text": [
+                {
+                    "value": "필기와 실기를 보려면 각각 3만~4만원, 5만~11만원의 응시료를 내야 한다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "게다가 자격증 준비 과정을 가르치는 학원의 수강료는 수십만원에 이른다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "물론 국비지원 과정 등을 통해 정가보다 저렴한 가격에 교육받을 수 있지만 여전히 부담되는 비용이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003681464?sid=102",
+            "search_query": "바리스타 자격증 시험비용",
+            "terminate": false,
+            "text": "시험 응시료는 3만원에서 4만원, 5만원에서 11만원까지도 있어요. 응시료보다도, 자격증 준비과정을 배우는 학원 수강료가 수십만원이라 그게 부담이 커요. 나라에서 지원하는 국비지원으로 하면 훨씬 저렴하게 배울 수는 있어요.",
+            "turn_id": "BK22001385-5",
+            "utterance_id": "BK22001385.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 응시료가 각각 다르다는건, 나라에서 보는 자격증이 아닌가보네요. 공신력이 별로 없겠어요.",
+            "turn_id": "BK22001385-6",
+            "utterance_id": "BK22001385.11"
+        },
+        {
+            "reference_date": "2016-07-21",
+            "reference_text": [
+                {
+                    "value": "올해에만 신규 등록된 바리스타 자격증이 33개에 이른다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들 자격증은 대부분 국가공인이 아니라 협회.평생교육원 등에서 발급하는 민간 자격증이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카페 취업.창업 수요가 늘면서 바리스타 자격증이 남발되고 있다는 지적이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003681464?sid=102",
+            "search_query": "바리스타 자격증 공신력",
+            "terminate": false,
+            "text": "바리스타 자격증은 국가공인 자격증이 아니라, 협회나 평생교육원 등에서 발급하는 민간 자격증이라서 공신력은 없어요. 한 해에 신규로 등록된 자격증이 33개인적도 있었어요. 카페 취업이나 창업 수요가 많으니까 자격증이 남발되고 있는게 문제에요.",
+            "turn_id": "BK22001385-6",
+            "utterance_id": "BK22001385.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공신력 없는 민간 자격증이라서, 취업 경쟁력이 좋지는 않겠네요.",
+            "turn_id": "BK22001385-7",
+            "utterance_id": "BK22001385.13"
+        },
+        {
+            "reference_date": "2016-07-21",
+            "reference_text": [
+                {
+                    "value": "문제는 바리스타 자격증을 취득했다고 취업이나 창업에 별로 도움이 되지 않는다는 점이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다수 프랜차이즈 커피업체들은 바리스타 자격증 여부와 무관하게 인력을 채용하고 있다는 것이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/014/0003681464?sid=102",
+            "search_query": "바리스타 자격증 취업",
+            "terminate": false,
+            "text": "카페는 취업이나 창업때 바리스타 자격증이 필수인게 아니라서, 프랜차이즈 커피업체에서 직원 채용할 때에 바리스타 자격증 여부와 무관하게 채용하는 경우가 있기는 해요.",
+            "turn_id": "BK22001385-7",
+            "utterance_id": "BK22001385.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카페 취업에 바리스타 자격증이 필수 아닌데, 굳이 대학을 바리스타관련 대학 가야할까요?",
+            "turn_id": "BK22001385-8",
+            "utterance_id": "BK22001385.15"
+        },
+        {
+            "reference_date": "2021-06-16",
+            "reference_text": [
+                {
+                    "value": "바리스타, 핸드드립, 로스팅, 라떼아트 등 커피와 관련된 자격증은 꼭 커피관련학과를 진학 할 필요 없이 학원에서도 손쉽게 취득은 가능하다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 취업에 있어서는 커피 이외에 다양한 식음료 자격증 및 전문성을 인정 받을 수 있는 관련 학위 취득하는 것이 좋기 때문에 바리스타학과대학교에 진학을 하는 경우가 많다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.job-post.co.kr/news/articleView.html?idxno=25505",
+            "search_query": "커피 바리스타 학과",
+            "terminate": false,
+            "text": "바리스타, 핸드드립, 로스팅, 라떼아트 등 커피와 관련된 자격증은 커피관련학과 진학 없이 학원 등에서도 손쉽게 취득 가능하죠. 그런데, 바리스타학과 대학교에 진학하면 커피 뿐 아니라, 다양한 식음료 자격증 및 전문성을 인정 받을 수 있는 관련 학위를 취득하기 때문에 취업에 유리하게 하기 위해서 가는 경우가 많아요.",
+            "turn_id": "BK22001385-8",
+            "utterance_id": "BK22001385.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바리스타 하면 카페 직원만 생각했는데, 바리스타학과에서는 취업에 유리한 다른 것들도 복합적으로 가르치나보네요.",
+            "turn_id": "BK22001385-9",
+            "utterance_id": "BK22001385.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 복합적인 실습과 학위가 있으니 호텔이나 레스토랑같은 외식업계 취업에 유리하고 강사활동도 가능해요.",
+            "turn_id": "BK22001385-9",
+            "utterance_id": "BK22001385.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바리스타라고 해서 그냥 단순한건줄 알았는데, 자기 가치를 높이기 위해 많은 노력이 필요한 직업이네요.",
+            "turn_id": "BK22001385-10",
+            "utterance_id": "BK22001385.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 한가지 자격증만으로 성공하는 시대가 아니니까요.",
+            "turn_id": "BK22001385-10",
+            "utterance_id": "BK22001385.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 덕분에 바리스타 현실도 알게 되고, 어떤 노력들 해야 하는지 알게 되서 정말 감사해요.",
+            "turn_id": "BK22001385-11",
+            "utterance_id": "BK22001385.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "동생과 대화 잘 나누어서 최선의 진로 선택 되길 바래요.",
+            "turn_id": "BK22001385-11",
+            "utterance_id": "BK22001385.22"
+        }
+    ]
+}

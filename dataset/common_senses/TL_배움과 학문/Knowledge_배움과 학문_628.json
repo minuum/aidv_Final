@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003727",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003727",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "필리핀에서 지진 났다는 소식 들었어? 지진 강도가 꽤 컸던데?",
+            "turn_id": "BK22003727-1",
+            "utterance_id": "BK22003727.1"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "필리핀 북부에서 리히터 규모 7.1의 강진이 발생했다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이번 지진은 진앙으로부터 300여㎞ 떨어진 수도 마닐라까지 영향을 미쳤다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000688404?sid=104",
+            "search_query": "필리핀 지진",
+            "terminate": false,
+            "text": "필리핀 북부에서 발생한 지진 말하는 거지? 리히터 규모 7.1의 강진이었어. 지진이 시작된 곳으로부터 300여km 떨어져 위치한 필리핀의 수도 마닐라까지 영향을 미쳤으니 강도가 매우 컸다고 볼 수 있지.",
+            "turn_id": "BK22003727-1",
+            "utterance_id": "BK22003727.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들 많이 다쳤어? 이번 지진 때문에 쓰나미 오는 거 아니야?",
+            "turn_id": "BK22003727-2",
+            "utterance_id": "BK22003727.3"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "다행히 지진으로 인한 쓰나미까진 발생하지 않았지만, 건물 붕괴로 인한 사상자는 속출하고 있다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000688404?sid=104",
+            "search_query": "필리핀 쓰나미",
+            "terminate": false,
+            "text": "아직 지진으로 인한 쓰나미는 발생하지 않아서 다행인데, 건물이 많이 무너져서 다친 사람들이 속출하고 있어.",
+            "turn_id": "BK22003727-2",
+            "utterance_id": "BK22003727.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들이 많이 다쳤다니 너무 안타깝다. 필리핀은 지진이 자주 있는 지역이야?",
+            "turn_id": "BK22003727-3",
+            "utterance_id": "BK22003727.5"
+        },
+        {
+            "reference_date": "2022-07-27",
+            "reference_text": [
+                {
+                    "value": "'불의 고리'로 불리는 환태평양 지진대에 자리 잡은 필리핀은 연중 크고 작은 지진이 잦다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지난 2013년 10월에는 필리핀 중부에서 진도 7.1의 강진이 발생해 220명이 숨졌으며, 2019년에도 남부에서 진도 6.8 전후의 지진이 5차례 발생한 바 있다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000688404?sid=104",
+            "search_query": "필리핀 지진",
+            "terminate": false,
+            "text": "필리핀은 불의 고리라고 불리는 환태평양 지진대에 위치해있어. 그래서 크고 작은 지진이 많이 일어나. 2013년에도 진도 7.1의 강진이 발생해서 220명이 목숨을 잃었고, 2019년에도 진도 6.8 전후의 지진이 5차례나 발생했었어.",
+            "turn_id": "BK22003727-3",
+            "utterance_id": "BK22003727.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환태평양 지진대라는 단어가 너무 어려운데 그 의미가 뭐야?",
+            "turn_id": "BK22003727-4",
+            "utterance_id": "BK22003727.7"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "환태평양 조산대(環太平洋造山帶, 영어: circum-Pacific belt)는 태평양 주변의, 지진과 화산 활동이 자주 일어나는 지역들을 가리키는 말이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태평양을 둘러싸고 있는 고리 모양이기 때문에 이런 이름이 붙었다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "환태평양 화산대(環太平洋火山帶)나 환태평양 지진대(環太平洋地震帶)라고도 하며, 불의 고리(영어: Ring of Fire 링 오브 파이어[*])라고도 불린다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%98%ED%83%9C%ED%8F%89%EC%96%91_%EC%A1%B0%EC%82%B0%EB%8C%80",
+            "search_query": "환대평양지진대",
+            "terminate": false,
+            "text": "환태평양 지진대, 환대평양 화산대, 환대평양 조산대, 불의 고리 다 같은 의미야. 태평양 주변의 지진과 화산 활동이 자주 일어나는 지역들을 묶어서 말하는 거지. 태평양을 둘러싸고 있는 고리 모양이라서 이런 이름들이 붙여졌어.",
+            "turn_id": "BK22003727-4",
+            "utterance_id": "BK22003727.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그럼 이 불의 고리에 위치한 나라들이 지진과 화산이 많이 일어난다는 뜻이구나?",
+            "turn_id": "BK22003727-5",
+            "utterance_id": "BK22003727.9"
+        },
+        {
+            "reference_date": "2016-05-03",
+            "reference_text": [
+                {
+                    "value": "세계 활화산과 휴화산의 75%가 불의 고리 지역에 몰려 있으며, 전 세계 지진의 80~90%도 이곳에서 발생한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=2412195&cid=43667&categoryId=43667",
+            "search_query": "불의고리",
+            "terminate": false,
+            "text": "응, 전세계에서 발생되는 지진의 80에서 90퍼센트가 이 불의 고리 지역에서 일어나고 있어. 또 세계 활화산과 휴화산의 75퍼센트가 이 지역에 몰려 있기도 하고.",
+            "turn_id": "BK22003727-5",
+            "utterance_id": "BK22003727.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 우리나라도 거기에 속하는 건 아니지? 불의 고리에 위치한 나라들은 어디 어디가 있어?",
+            "turn_id": "BK22003727-6",
+            "utterance_id": "BK22003727.11"
+        },
+        {
+            "reference_date": "2022-06-05",
+            "reference_text": [
+                {
+                    "value": "미국·멕시코·칠레 서해안, 일본, 대만, 필리핀, 인도네시아, 뉴질랜드가 ‘불의 고리’를 형성하고 있다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017148745&code=61131511&cp=nv",
+            "search_query": "불의고리 형성나라",
+            "terminate": false,
+            "text": "다행히 우리나라는 속하지 않지만 옆 나라 일본이 속하고 있어. 그 외에 미국, 멕시코, 칠레 서해안, 대만, 필리핀, 인도네시아, 뉴질랜드가 이 불의 고리에 속하는 나라들이지.",
+            "turn_id": "BK22003727-6",
+            "utterance_id": "BK22003727.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본이 불의 고리에 속하는 나라구나. 기억이 잘 안 나긴 하지만 일본이 지진과 쓰나미로 큰 피해를 입은 적이 있지 않아?",
+            "turn_id": "BK22003727-7",
+            "utterance_id": "BK22003727.13"
+        },
+        {
+            "reference_date": "2022-07-02",
+            "reference_text": [
+                {
+                    "value": "도호쿠 지방 태평양 해역 지진(東北地方太平洋沖地震とうほくちほうたいへいようおきじしん 도호쿠 지호 다이헤이요오키 지신) 또는 흔히 동일본대지진(東日本大地震ひがしにほんだいじしん 히가시니혼 다이지신)은 2011년(헤이세이 23년) 3월 11일 금요일 14시 46분 10초 JST (05:46 UTC)에 일본 산리쿠 연안 태평양 앞바다에서 일어난 해저 거대지진이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지진의 규모는 Mw 9.0-9.1로 일본 근대 지진 관측 사상 최대 규모의 지진이자 1900년 근대적 지진관측이 시작된 이후로 4번째로 가장 강한 지진이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지진 및 그 이후 닥친 쓰나미, 여진 등으로 도호쿠 지방과 간토 지방 사이 동일본 일대가 막대한 피해를 보았다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세계은행은 이 자연재해로 발생한 피해액이 대략 미화 2,350억 달러로, 역사상 최악의 재산 피해를 입힌 자연재해라고 하였다",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%98%B8%EC%BF%A0_%EC%A7%80%EB%B0%A9_%ED%83%9C%ED%8F%89%EC%96%91_%ED%95%B4%EC%97%AD_%EC%A7%80%EC%A7%84",
+            "search_query": "동일본 대지진",
+            "terminate": false,
+            "text": "2011년 3월 11일에 일어났던 동일본 대지진을 말하는 거지? 일본 산리쿠 연안 태평양 바다에서 일어난 해저 거대 지진이야. 일본 근대에 지진 관측 사상 최대 규모의 지진인 9.0에서 9.1 강도의 지진으로 1900년대 근대적 지진 관측이 시작된 이후로 전 세계에서 4번째로 가장 강한 지진이었어. 지진과 그 이후에 생긴 쓰나미, 여진 때문에 동일본 일대의 도호쿠 지방과 간토 지방이 막대한 피해를 입게 되었어. 세계은행에서는 동일본대지진 때문에 발생한 피해 금액이 대략 2,350달러로 역사상 최악의 재산 피해를 입힌 자연재해라고 말할 정도였지.",
+            "turn_id": "BK22003727-7",
+            "utterance_id": "BK22003727.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동일본대지진이 4번째로 가장 강한 지진이었다면 9.1보다 더 강한 지진이 일어난 적이 있다는 거네?",
+            "turn_id": "BK22003727-8",
+            "utterance_id": "BK22003727.15"
+        },
+        {
+            "reference_date": "2022-03-28",
+            "reference_text": [
+                {
+                    "value": "3월 11일 발생한 동일본 대지진은 1995년 6000여 명이 희생된 한신(阪神)대지진(규모 7.3)의 180배 위력이자, ▷1960년 발생했던 규모 9.5의 칠레 대지진 ▷1964년 규모 9.2의 알래스카 지진 ▷2004년 규모 9.1의 인도네시아 수마트라 지진에 이어 1900년 이후 전 세계에서 발생한 네 번째로 강력한 지진으로 기록됐다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=938134&cid=43667&categoryId=43667",
+            "search_query": "가장 강력한 지진 순위",
+            "terminate": false,
+            "text": "당연하지, 1900년대 이후 세계에서 가장 강력했던 지진은 1960년에 일어났던 규모 9.6의 칠레 대지진이었고 그다음이 1964년에 발생했던 규모 9.2 강도의 알래스카 지진이야. 그리고 2004년 규모 9.1의 인도네시아 수마트라 지진이 3번째로 강력한 지진이었고 3월 11에 발생한 동일본 대지진이 네 번째로 강력한 지진이었지. 이 동일본 대지진은 1995년 6000명이 사망한 규모 7.3의 한신 대지진의 180배 위력을 자랑했어.",
+            "turn_id": "BK22003727-8",
+            "utterance_id": "BK22003727.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 9.0 강도의 지진이 이렇게나 자주 발생했었어? 어느 정도로 강력한지 상상도 하지 못하겠는걸. 우리나라가 불의 고리에 포함되지 않았다는 사실을 감사해야겠어.",
+            "turn_id": "BK22003727-9",
+            "utterance_id": "BK22003727.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 우리는 일본에 비하면 지진 강도도 약하고 적게 발생하니 감사해야 할 것 같아.",
+            "turn_id": "BK22003727-9",
+            "utterance_id": "BK22003727.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응 오늘 얘기 유익하고 너무 재밌었다. 다음에 만나도 좋은 정보 많이 알려줘.",
+            "turn_id": "BK22003727-10",
+            "utterance_id": "BK22003727.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 덕분에 나도 즐거웠어. 다음에 만날 때까지 몸조심하고 나중에 또 연락하자!",
+            "turn_id": "BK22003727-10",
+            "utterance_id": "BK22003727.20"
+        }
+    ]
+}

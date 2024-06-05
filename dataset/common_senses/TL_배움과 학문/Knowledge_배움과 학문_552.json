@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000519",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000519",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기차는 들어봤는데 요즘 수소 자동차도 있다고 하더라고요. 혹시 들어보셨어요?",
+            "turn_id": "BK22000519-1",
+            "utterance_id": "BK22000519.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 수소 자동차가 있다는 건 저도 들어봤어요. 휘발유나 경유 대신 수소로 움직이는 자동차라니 신기하죠?",
+            "turn_id": "BK22000519-1",
+            "utterance_id": "BK22000519.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그런데 수소는 듣기만 해봤지 직접 사용해 본 적이 없는데 어떤 원료인가요?",
+            "turn_id": "BK22000519-2",
+            "utterance_id": "BK22000519.3"
+        },
+        {
+            "reference_date": "2022-05-25",
+            "reference_text": [
+                {
+                    "value": "표준 원자량은 1.008로, 질량 기준으로 우주의 75%를 구성하고있는 우주에서 가장 흔한 원소이기도 하다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%86%8C",
+            "search_query": "수소",
+            "terminate": false,
+            "text": "수소는 질량 기준으로 보면 우주의 75퍼센트를 차지하고 있는 원소예요. 우주에서 가장 흔한 원소인 수소는 표준 원자량이 1.008이나 돼요.",
+            "turn_id": "BK22000519-2",
+            "utterance_id": "BK22000519.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 우주에서 가장 흔한 원소가 수소라니 처음 알았어요. 그럼 우주는 어떤 물질들로 이루어져 있을지 궁금하네요. 우주라 하면 행성들 밖에 모르거든요.",
+            "turn_id": "BK22000519-3",
+            "utterance_id": "BK22000519.5"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "우주는 대부분 암흑 에너지와 암흑 물질, 그리고 일반적인 물질로 구성되어 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A3%BC",
+            "search_query": "우주",
+            "terminate": false,
+            "text": "저도 우주라 하면 태양이나 토성 같은 행성만 떠올라요. 하지만 우주는 암흑 에너지와 암흑 물질로 이루어져 있고, 또 일반적인 물질이 우주를 구성하고 있어요.",
+            "turn_id": "BK22000519-3",
+            "utterance_id": "BK22000519.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암흑 에너지라니 설마 단순하게 어두워서 그렇게 부르는 건 아니겠죠?",
+            "turn_id": "BK22000519-4",
+            "utterance_id": "BK22000519.7"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "물리 우주론과 천문학에서 암흑 에너지(暗黑 energy, dark energy)는 가장 큰 규모의 우주에 영향을 미치는 알려지지 않은 에너지 형태이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그것의 존재에 대한 최초의 관측 증거는 우주가 일정한 속도로 팽창하지 않는다는 것을 보여주는 초신성의 측정에서 나왔다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%ED%9D%91_%EC%97%90%EB%84%88%EC%A7%80",
+            "search_query": "암흑 에너지",
+            "terminate": false,
+            "text": "아, 단어만 들으면 그렇게 생각할 수도 있겠어요. 하지만 암흑 에너지는 초신성을 측정하면서 나왔어요. 초신성이 뭔지 궁금하시죠? 초신성은 우주가 일정한 속도로 팽창하지 않는다는 걸 보여주는 부분인데, 암흑에너지는 우주에 영향을 미치지만 알려지지 않은 에너지 형태라고 보시면 돼요.",
+            "turn_id": "BK22000519-4",
+            "utterance_id": "BK22000519.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 암흑에너지처럼 우리에게 아직 알려지지 않은 에너지가 있는 걸 보면 우주는 참 알면 알수록 신기한 존재 같아요.",
+            "turn_id": "BK22000519-5",
+            "utterance_id": "BK22000519.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 전 블랙홀에 관심이 많은데 최근에 블랙홀의 실제 이미지가 포착됐다고 해요. 들어보셨어요?",
+            "turn_id": "BK22000519-5",
+            "utterance_id": "BK22000519.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 블랙홀이 정확히 뭔지 모르는데 블랙홀은 우주에 있는 현상인 거죠?",
+            "turn_id": "BK22000519-6",
+            "utterance_id": "BK22000519.11"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "‘검은 구멍’이라는 뜻의 블랙홀은 중력이 매우 강한 물질이 만들어 내는 현상이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 현상이 발생하는 이유는 그 중심의 중력이 너무나도 강해 빛조차도 빠져나올 수 없기 때문이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220627/114150853/1",
+            "search_query": "블랙홀",
+            "terminate": false,
+            "text": "블랙홀은 빛도 가둘 만큼 중력이 강한 물질 현상을 말하는 검은 구멍을 말해요. 얼마나 중력이 강하면 빛도 빠져나올 수 없을까요. 생각해 보면 무섭지 않아요?",
+            "turn_id": "BK22000519-6",
+            "utterance_id": "BK22000519.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 그러네요. 빛조차 빠져나올 수 없다고 하니 중력이 어마어마한 거네요. 그런데 그런 블랙홀을 진짜로 보게 됐다는 건가요?",
+            "turn_id": "BK22000519-7",
+            "utterance_id": "BK22000519.13"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "우리 은하 중심에 있는 블랙홀의 실제 이미지가 최근 포착됐다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국천문연구원, 경북대, 서울대, 연세대의 국내 천문학자들도 참여하고 있는 ‘사건지평선망원경(EHT·Event Horizon Telescope)’ 국제공동연구팀이 이루어 낸 성과다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220627/114150853/1",
+            "search_query": "블랙홀 관측",
+            "terminate": false,
+            "text": "네, 국내 한국천문연구원과 여러 대학들의 국내 천문학자들이 국제공동연구팀인 사건지평선망원경 팀과 함께 블랙홀의 실제 이미지를 포착했다고 해요. 그리고 사건지평선망원경 팀은 줄여서 EHT라고 불리고 있어요.",
+            "turn_id": "BK22000519-7",
+            "utterance_id": "BK22000519.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단한 성과네요. 이번에 블랙홀 포착에 성공했다는 거 보면 그동안 볼 수 없었다는 거잖아요. 블랙홀은 왜 볼 수 없었던 건가요?",
+            "turn_id": "BK22000519-8",
+            "utterance_id": "BK22000519.15"
+        },
+        {
+            "reference_date": "2022-05-13",
+            "reference_text": [
+                {
+                    "value": "사람의 눈은 물체가 반사한 빛을 받아들여 사물을 인식한다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "블랙홀은 너무 강력한 중력 때문에 빛도 빠져나오지 못하기 때문에 눈으로 볼 수 없다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/202205132962i",
+            "search_query": "블랙홀 포착 어려움",
+            "terminate": false,
+            "text": "블랙홀은 강력한 중력으로 인해서 빛이 빠져나올 수 없다고 했잖아요. 우리의 눈은 물체가 반사한 빛을 받아들여서 대상을 인식해요. 그래서 블랙홀을 눈으로 직접 볼 수 없었던 거죠.",
+            "turn_id": "BK22000519-8",
+            "utterance_id": "BK22000519.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 눈으로 볼 수 없는 블랙홀을 이번에는 어떻게 볼 수 있었어요?",
+            "turn_id": "BK22000519-9",
+            "utterance_id": "BK22000519.17"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "EHT 연구팀은 이를 위해 전 세계에 퍼져 있는 여러 개의 전파망원경을 연결해 지구 크기에 해당하는 전파간섭계 시스템을 구축했다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 가상의 거대한 전파망원경을 통해 마침내 블랙홀의 이미지를 얻어낼 수 있었다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220627/114150853/1",
+            "search_query": "블랙홀 관측 성공",
+            "terminate": false,
+            "text": "EHT 연구팀은 전 세계에 있는 여러 개의 전파 망원경을 연결했어요. 지구 크기만 한 전파간섭계 시스템을 만들었고, 이 가상의 커다란 전파망원경을 통해 블랙홀 관측에 성공하게 된 거죠.",
+            "turn_id": "BK22000519-9",
+            "utterance_id": "BK22000519.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전 세계적인 협력으로 드디어 성공하게 된 거네요. 그럼 이번에 포착한 블랙홀은 어떤 블랙홀이에요?",
+            "turn_id": "BK22000519-10",
+            "utterance_id": "BK22000519.19"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "우리은하 ‘궁수자리A 블랙홀’은 사건지평선망원경(Event Horizon Telescope·EHT) 연구팀이 인류 최초로 포착했다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "궁수자리A 블랙홀은 인류가 직접 관측한 블랙홀 중 가장 가까운 블랙홀로, 지구에서 약 2만7000광년 떨어져 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=20491",
+            "search_query": "궁수자리A 블랙홀",
+            "terminate": false,
+            "text": "사건지평선망원경 연구팀이 인류 최초로 궁수자리 A 블랙홀을 포착했어요. 궁수자리 A 블랙홀은 지구에서 약 2만 7천 광년 떨어져 있지만 우리 인간이 관측한 블랙홀 중 가장 가까운 블랙홀이에요.",
+            "turn_id": "BK22000519-10",
+            "utterance_id": "BK22000519.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구와 가장 가까운 블랙홀이라니 어떤 모습일지 당장 찾아봐야겠어요.",
+            "turn_id": "BK22000519-11",
+            "utterance_id": "BK22000519.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저도 찾아봤는데 미리 얘기할 수 없으니 내일 다시 또 얘기 나눠요.",
+            "turn_id": "BK22000519-11",
+            "utterance_id": "BK22000519.22"
+        }
+    ]
+}

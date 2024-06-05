@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006276",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006276",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 백신에 대한 기사를 보고 있는데 하나도 이해가 안 가. 차근차근 설명 좀 해줄 수 있겠어?",
+            "turn_id": "BK22006276-1",
+            "utterance_id": "BK22006276.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고등학생이 되면 배우는 부분도 많으니까 어렵긴 하지. 하나씩 물어봐.",
+            "turn_id": "BK22006276-1",
+            "utterance_id": "BK22006276.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 백신이 어떤 걸까? 백신은 치료제 같은 것이라고 생각하면 될까?",
+            "turn_id": "BK22006276-2",
+            "utterance_id": "BK22006276.3"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "백신(← 영어: vaccine, 문화어: 왁찐 ← 일본어: ワクチン ← 독일어: vakzin) 또는 예방주사(豫防注射)는 항원, 즉 병원체를 처리하여 보다 기능을 약하게 만들어 인체에 주입하거나 또는 인체가 항원에 대한 정보를 습득하도록 적절히 처리된 단백질 또는 핵산을 인체에 투여하여 항체를 형성하게 함으로써 그 질병에 저항하는 후천 면역이 생기도록 하는 물질이며 이러한 의약품을 가리키기도 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "병을 예방하는 목적으로 백신을 주사하는 것을 예방 접종(豫防接種)이라고 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%8B%A0",
+            "search_query": "백신의 정의",
+            "terminate": false,
+            "text": "백신은 흔히 예방주사라고 하는 거야. 항원, 즉 병원체를 처리해 기능을 약하게 만들어 인체에 주입하거나, 인체가 항원에 대한 정보를 습득할 수 있게 적절히 처리해서 단백질이나 핵산을 인체에 넣어. 백신은 이런 방식으로 항체를 만들게 해서 그 질병에 저항하는 후천 면역이 생기도록 하는 물질이지. 이러한 의약품을 가리키기도 해. 그리고 병을 예방하는 목적으로 백신을 주사하는 걸 예방 접종이라 하는 거고.",
+            "turn_id": "BK22006276-2",
+            "utterance_id": "BK22006276.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병원체는 병에 걸리게 하는 그런 물질인 건가?",
+            "turn_id": "BK22006276-3",
+            "utterance_id": "BK22006276.5"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "병원체(病原體, 영어: pathogen, infectious agent, germ)는 바이러스, 세균, 기생충, 리케차, 원생동물 등 사람이나 동물의 체내에서 병을 일으키는 미생물을 가리킨다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생물학에서 병원체는 감염원 혹은 병균으로도 알려져 있으며 가장 오래되고 넓은 범위에서 병원체는 질병을 일으킬 수 있는 모든 것을 의미한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%91%EC%9B%90%EC%B2%B4",
+            "search_query": "병원체",
+            "terminate": false,
+            "text": "정확했어. 병원체는 바이러스, 세균, 기생충 같은 사람이나 동물의 체내에서 병을 일으키는 미생물을 말해. 감염원이나 병균이로도 하지. 가장 오래되고 넓은 범위에서는 병원체는 질병을 일으킬 수 있는 모든 것을 의미해.",
+            "turn_id": "BK22006276-3",
+            "utterance_id": "BK22006276.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 단백질이나 핵산을 인체에 넣는다는 건 뭐야? 단백질은 우리가 흔히 먹는 거잖아? 우선 이거 먼저 설명해줘.",
+            "turn_id": "BK22006276-4",
+            "utterance_id": "BK22006276.7"
+        },
+        {
+            "reference_date": "2021-04-26",
+            "reference_text": [
+                {
+                    "value": "몸에 들어온 병원체를 흔히 ‘항원’이라고 하는데, 정확하게 말하면 바이러스나 세균과 같은 병원체가 가지고 있는 특정 모양의 단백질을 뜻한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%A9%B4%EC%97%AD%EC%9D%84-%EC%95%8C%EB%A9%B4-%EB%B0%B1%EC%8B%A0%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4/",
+            "search_query": "항원 단백질",
+            "terminate": false,
+            "text": "병원체가 몸에 들어오면 흔히 항원이라고 하고 이건 바이러스나 세균과 같은 병원체가 가지고 있는 특정 모양의 단백질을 의미하지.",
+            "turn_id": "BK22006276-4",
+            "utterance_id": "BK22006276.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특정 모양의 단백질? 그러고 보니 난 단백질에 대해서 아는 것이 하나도 없네. 단백질이 어떤 거야?",
+            "turn_id": "BK22006276-5",
+            "utterance_id": "BK22006276.9"
+        },
+        {
+            "reference_date": "2022-03-23",
+            "reference_text": [
+                {
+                    "value": "단백질은 생명 유지에 필수적인 영양소로서 효소, 호르몬, 항체 등의 주요 생체 기능을 수행하고 근육 등의 체조직을 구성합니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "산-염기 균형유지에 도움을 줍니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체내에서 영양소 등 여러 물질을 운반합니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hadong.go.kr/01868/01959/02072.web",
+            "search_query": "단백질 기능",
+            "terminate": false,
+            "text": "필수적인 영양소인 단백질은 효소, 호르몬, 항체 등 주요 생체 기능을 수행하고 근육 등의 체조직을 구성해. 그리고 산과 염기의 균형을 유지해주고 영양소 같은 몸 안의 여러 물질도 운반하지.",
+            "turn_id": "BK22006276-5",
+            "utterance_id": "BK22006276.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단백질의 기능이 그렇게 다양할 줄 몰랐네. 핵산은 어떤 것일까?",
+            "turn_id": "BK22006276-6",
+            "utterance_id": "BK22006276.11"
+        },
+        {
+            "reference_date": "2022-04-17",
+            "reference_text": [
+                {
+                    "value": "핵산(核酸, 영어: nucleic acid)은 알려져 있는 모든 생명체에 필수적인 생체고분자 또는 작은 생체분자이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "핵산이라는 용어는 DNA와 RNA를 모두 포함한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B5%EC%82%B0",
+            "search_query": "핵산",
+            "terminate": false,
+            "text": "핵산은 DNA와 RNA를 모두 포함하는 용어이고 이것들은 모든 생명체에 필수적인 생체고분자 또는 작은 생체분자를 뜻해.",
+            "turn_id": "BK22006276-6",
+            "utterance_id": "BK22006276.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바이러스에도 핵산이 있는 건가?",
+            "turn_id": "BK22006276-7",
+            "utterance_id": "BK22006276.13"
+        },
+        {
+            "reference_date": "2020-05-02",
+            "reference_text": [
+                {
+                    "value": "바이러스는 한 마디로 ‘단백질로 둘러싸인 핵산’이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "핵산의 종류에 따라 ‘DNA 바이러스’와 ‘RNA 바이러스’로 나뉘는데, 그중에서도 RNA 바이러스들은 유난히 말썽을 피우는 악동들이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://mdon.co.kr/news/article.html?no=27067",
+            "search_query": "바이러스 핵산",
+            "terminate": false,
+            "text": "바이러스란 건 단백질로 둘러싸인 핵산을 말해. 핵산의 종류에 따라 DNA 바이러스와 RNA 바이러스로 나뉘지. 그중에서도 이 RNA 바이러스가 유난히 문제가 돼.",
+            "turn_id": "BK22006276-7",
+            "utterance_id": "BK22006276.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이해했어. 그런데 아까부터 DNA와 RNA라는 용어가 나오는 데 우선 DNA 먼저 가르쳐 줄 수 있을까?",
+            "turn_id": "BK22006276-8",
+            "utterance_id": "BK22006276.15"
+        },
+        {
+            "reference_date": "2021-07-13",
+            "reference_text": [
+                {
+                    "value": "DNA(데옥시리보핵산)는 세포의 유전 물질로 세포핵과 미토콘드리아 내의 염색체에 들어 있습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.msdmanuals.com/ko-kr/%ED%99%88/%EA%B8%B0%EC%B4%88/%EC%9C%A0%EC%A0%84%ED%95%99/%EC%9C%A0%EC%A0%84%EC%9E%90%EC%99%80-%EC%97%BC%EC%83%89%EC%B2%B4",
+            "search_query": "DNA",
+            "terminate": false,
+            "text": "DNA는 데옥시리보핵산을 말하고 세포의 유전 물질이지. 세포핵과 미토콘드리아 내의 염색체에 있어.",
+            "turn_id": "BK22006276-8",
+            "utterance_id": "BK22006276.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유전 물질이라면 우리가 부모님으로부터 유전되는 정보를 담고 있는 거지? 그건 들어 본 적이 있어. RNA는 어떤 걸까?",
+            "turn_id": "BK22006276-9",
+            "utterance_id": "BK22006276.17"
+        },
+        {
+            "reference_date": "2020-12-18",
+            "reference_text": [
+                {
+                    "value": "세포핵 안에 있는 DNA 정보(염기서열)가 어떻게 전달되는지에 따라 그 생명체의 모양과 속성이 결정된다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 과정에서 맹활약을 하고 있는 것이 RNA다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "DNA와 더불어 핵산이라 불리는 이 RNA는 DNA의 유전정보를 핵 바깥에 있는 세포 소기관에 전달한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EB%A9%94%EC%8B%A0%EC%A0%80-rna-%EC%B9%98%EB%A3%8C%EC%A0%9C%EB%8F%84-%EB%93%B1%EC%9E%A5%ED%96%88%EB%8B%A4/",
+            "search_query": "RNA",
+            "terminate": false,
+            "text": "핵산들의 역할을 알면 쉽게 이해할 수 있어. 세포핵 안에 있는 DNA 정보가 어떻게 전달되는지에 따라 그 생명체의 모양과 속성이 결정되는데 이 과정에서 중요한 것이 RNA이야. RNA는 DNA의 유전정보를 핵 바깥에 있는 세포 소기관에 전달해.",
+            "turn_id": "BK22006276-9",
+            "utterance_id": "BK22006276.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "RNA는 메신저 같은 역할인 거네. 이제야 백신에 관련된 자료를 볼 때 이해할 수 있을 것 같아. 아직 더 많이 공부해야 하지만.",
+            "turn_id": "BK22006276-10",
+            "utterance_id": "BK22006276.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나에게 관련된 좋은 책들이 많아. 다음에 집에 놀러오면 함께 보자고.",
+            "turn_id": "BK22006276-10",
+            "utterance_id": "BK22006276.20"
+        }
+    ]
+}

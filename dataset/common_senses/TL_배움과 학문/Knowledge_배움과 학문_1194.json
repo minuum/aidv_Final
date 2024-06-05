@@ -1,0 +1,455 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007947",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007947",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "켈트 신화에 대한 과제를 해야 하는데 도와주겠어? 난 아일랜드 신화를 조사하기로 했는데 그 전에 켈트 신화는 무엇이고 어디에서 시작된 거야?",
+            "turn_id": "BK22007947-1",
+            "utterance_id": "BK22007947.1"
+        },
+        {
+            "reference_date": "2022-05-16",
+            "reference_text": [
+                {
+                    "value": "켈트 신화는 고대 켈트족이 믿던 켈트 다신교와 관련된 신화이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "철기 시대에 존속하고 있던 갈리아나 켈트 이베리아와 같은 유럽 대륙의 부족들은 동시대의 고대 로마와는 다른 다신교를 숭배하고 있었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 이들의 신앙은 로마 제국의 팽창과 기독교의 전파로 인해 점차 사라지게 되었고, 중세에 들어서자 고이델어와 브리소닉어의 사용자들 사이에서 잊혀진 옛 조상의 신앙으로만 여겨지게 되었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%88%ED%8A%B8_%EC%8B%A0%ED%99%94",
+            "search_query": "켈트 신화",
+            "terminate": false,
+            "text": "켈트 신화는 고대 켈트족의 종교인 켈트 다신교와 관련되어 있어. 갈리아나, 유럽 대륙의 켈트 이베리아와 같은 철기시대에 존속하고 있던 부족들은 같은 시대의 나라인 고대 로마와는 다른 다신교를 가지고 있었어. 하지만 고대 켈트족 신앙은 로마 제국의 팽창과 기독교가 전파하면서 점점 사라졌고, 중세에는 고이델어와 브리소닉어를 사용하는 사람들에게 오랜 옛날의 잊혀진 조상의 종교로 남게 되었지.",
+            "turn_id": "BK22007947-1",
+            "utterance_id": "BK22007947.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 켈트 다신교에 대해서 알면 되겠다. 켈트 다신교라는 건 어떤 거야?",
+            "turn_id": "BK22007947-2",
+            "utterance_id": "BK22007947.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "켈트 다신교는 스스로를 부르는 이름이 없었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로마인들은 그저 이교도로 불렀다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "뒷날 켈트 다신교의 승려 드루이드를 이들 종교의 대표적인 특징으로 보아 드루이드교라는 이름이 생겼다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "드루이드는 인도유럽어족에서 나무를 뜻하는 어근인 드르(DR)에서 파생된 것으로 많은 학자들은 드루이드란 낱말이 나무의 왕에 대한 존경에서 생겨난 것으로 파악하고 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "켈트 다신교는 여러 남성과 여성으로 구분되는 여러 신들을 숭배하는 다신교였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%88%ED%8A%B8_%EB%8B%A4%EC%8B%A0%EA%B5%90",
+            "search_query": "켈트 다신교",
+            "terminate": false,
+            "text": "켈트 다신교는 남성과 여성으로 이뤄진 여러 신을 숭배하는 다신교야. 켈트 다신교는 스스로를 가리키는 명칭이 없고 로마인들은 켈트 다신교를 이교도라고만 했어. 이후 켈트 다신교의 종교적 특징을 켈트 다신교의 승려인 드루이드로 여기고 드루이드교라고 불렀어. 참고로 학자들은 인도유럽어족에서 나무를 뜻하는 어근인 드르에서 파생된 것으로 보고 드루이드란 단어는 나무의 왕에 대한 존경에서 나타난 것으로 추측하고 있어.",
+            "turn_id": "BK22007947-2",
+            "utterance_id": "BK22007947.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "켈트 다신교에서는 나무가 중요하겠다. 켈트 신화의 신들에 대해서도 알고 싶은데 기독교 팽창으로 점차 사라졌다니 그 기록이 자세히 남아있지 않을 것 같아. 켈트 신들에 대한 기록이 남아있는 것이 있을까?",
+            "turn_id": "BK22007947-3",
+            "utterance_id": "BK22007947.5"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "켈트 만신전의 여럿 신은 문헌상의 켈트 신화를 비롯해 고대의 숭배 장소, 조각, 조판, 숭배 대상 또는 인물의 이름이나 지명의 어원으로 그 흔적이 남아 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "갈리아의 켈트 신 중 6명의 신들은 율리우스 카이사르가 《갈리아 전기》(Commentarii de Bello Gallico, 기원전 52년 ~ 51년)에서 그들의 로마식 이름과 역할을 밝혀 두었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "카이사르가 전형적인 로마 방식에 따라 이 켈트 신들의 원래 이름은 표기하지 않고 각기 신들에 대응되는 역할의 로마 신들의 이름을 사용했으며 신과 신의 역할에 대해 단촐하게 개략적 균등화를 하는 경향이 있었기 때문에 카이사르가 기록한 신들이 어느 켈트 신들과 대응되는지 확실히 밝히는 것과 전문적·학술적 고증에는 어려움이 따른다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%88%ED%8A%B8_%EB%A7%8C%EC%8B%A0%EC%A0%84",
+            "search_query": "켈트 신",
+            "terminate": false,
+            "text": "문헌상의 켈트 신화와 고대의 숭배 장소, 조각, 조판, 숭배 대상 또는 인물의 이름이나 지명의 어원에 켈트 신화의 신들의 흔적이 남아 있는데, 율리우스 카이사르가 갈리아 전기에 갈리아의 켈트 신 중 6명의 신들의 이름과 역할을 로마식으로 밝혀 두었어. 카이사르는 로마의 전형적인 방식을 사용해 켈트 신들의 본래 이름은 표기하지 않은 채 켈트 신들의 역할과 대응되는 역할의 로마 신들의 이름을 넣어 두었어. 카이사르는 신과 신의 역할에 대해 간단히 추려내 균등화하려는 경향이 있었기 때문에 기록된 신들이 어느 켈트 신들과 대응되는지 확실하게는 알 수 없고 전문적·학술적 고증에도 어려움이 있어.",
+            "turn_id": "BK22007947-3",
+            "utterance_id": "BK22007947.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 같은 시기에 기록된 자료니까 그만한 가치는 있을 것 같아. 알려져 있는 신 몇 가지만 예를 들어주면 좋을 것 같은데, 먼저 그리스 로마 신화의 주신으로 여겨지는 제우스처럼 켈트 신화에서의 주신을 가르쳐 주면 좋겠어.",
+            "turn_id": "BK22007947-4",
+            "utterance_id": "BK22007947.7"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "메르쿠리우스(라틴어: Mercurius 이 소리의 정보듣기 (도움말·정보), 영어: Mercury)는 로마 신화에서 상업과 이익 추구, 교역의 신이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리스 신화의 헤르메스와 에트루리아 신화의 투름스(Turms)와 매우 유사하다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "켈트 인들은 메르쿠리우스를 그들의 주신 루구스(Lugus)와 동일시하였고 게르만 인들은 오딘과 동일시하였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "날개 달린 모자를 쓰고 날개 달린 신을 신은 모습으로 그려졌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A5%B4%EC%BF%A0%EB%A6%AC%EC%9A%B0%EC%8A%A4",
+            "search_query": "메르쿠리우스",
+            "terminate": false,
+            "text": "켈트 인의 주신은 루구스라는 신인데, 메르쿠리우스와 동일시 하였어. 참고로 게르만 인들은 오딘과 메르쿠리우스를 동일시 했지. 메르쿠리우스는 상업과 이익 추구, 교역의 신으로 로마 신화의 신이야. 날개 달린 모자를 쓰고 날개가 달린 신발을 신고 있는 모습이고 그리스 신화의 헤르메스와 에트루리아 신화의 투름스와 유사해.",
+            "turn_id": "BK22007947-4",
+            "utterance_id": "BK22007947.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생소한 신화에서 익숙한 이름이 나오니까 놀라운데? 갈리아 전기에 등장하는 로마 신화와 동일시되는 신 말고 조각이나 그 밖의 기록에 있는 신들도 있을까? 유명한 것으로 예를 하나 들어주면 좋을 것 같아.",
+            "turn_id": "BK22007947-5",
+            "utterance_id": "BK22007947.9"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "케르눈노스(Cernunnos)는 켈트 다신교에서 나타나는 \"뿔 난 남신\"을 가리키는 켈트학의 관습적인 이름이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "케르눈노스라는 이름 자체는 1세기 유물인 뱃사람의 기둥에만 나타날 뿐이지만, 뿔 또는 가지진 뿔이 난 존재의 모습은 다른 곳에서도 익히 볼 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 존재는 가부좌를 틀고 앉았으며, 토크를 착용하거나 들고 있고, 동물들과 연관되는 경우가 많다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 신이 어떤 신인지 문헌상에는 남아있는 것이 아무것도 없다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정확한 이름이 무엇인지, 켈트 종교에서 이 신의 숭배 또는 그 존재가 얼마나 중요한 위치를 차지하고 있었는지도 알 수 없다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%80%EB%A5%B4%EB%88%88%EB%85%B8%EC%8A%A4",
+            "search_query": "케르눈소스",
+            "terminate": false,
+            "text": "1세기 유물인 뱃사람의 기둥에서 등장한 케르눈노스라고 있어. 이름 자체는 이 유물에서만 등장하지만 뿔이나 나무처럼 가지가 져 있는 형태로 뿔이 난 모습을 한 존재는 다른 곳에서도 흔히 볼 수 있지. 케르눈노스는 뿔 난 남신을 가리키는 켈트학의 관습적인 이름으로, 가부좌를 틀고 앉은 모습이며 토크를 들고 있거나 착용하고 있지. 보통 동물들과 연관되는데 이 신이 어떤 신인지 문헌으로 남은 건 없어. 정확한 이름도, 이 신의 숭배가 얼마나 중요한지, 그리고 이 신이 얼마나 중요한 위치를 차지하고 있는지 아무것도 알 수 없지.",
+            "turn_id": "BK22007947-5",
+            "utterance_id": "BK22007947.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뿔이라는 게 드루이드에서 말하는 나무와 연관이 있을 것 같은데, 이 추측도 기록이 없으니 확인이 불가능하네. 다른 신들의 경우도 비슷할 것 같아서 무작정 신들을 정리하기보다는 켈트 신화 중 가장 보존이 잘 되어 있는 신화에 대해서만 정리하면 좋을 것 같아. 그런 신화가 있을까?",
+            "turn_id": "BK22007947-6",
+            "utterance_id": "BK22007947.11"
+        },
+        {
+            "reference_date": "2022-02-09",
+            "reference_text": [
+                {
+                    "value": "아일랜드 신화(아일랜드어: miotaseolaíocht na nGael)는 기독교의 침식으로부터 온전히 보존되지 못했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 많은 전승이 중세 아일랜드어 문학의 형태로 보존되었으며, 켈트 신화 중에서 그나마 잘 보존되어 있는 축에 속한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당대 필사본들 중 오늘날까지 남아있는 것의 수는 많지 않고, 아예 글로 쓰여지지 않은 전승도 많지만, 아일랜드 신화는 크게 네 개의 대계로 나눌 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신화 대계, 얼스터 대계, 피니언 대계, 열왕 대계가 그것이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C_%EC%8B%A0%ED%99%94",
+            "search_query": "아일랜드 신화",
+            "terminate": false,
+            "text": "켈트 신화 중에서 그나마 잘 보존되어 있는 신화는 아일랜드 신화야. 기독교에 의해 온전히 보존되지 못했지만 많은 전승이 중세 아일랜드어 문학의 형태로 남아있어. 당대 필사본들 중 오늘날까지 남아있는 수는 정말 적고, 글로 남아있지 않은 전승도 많지만. 아일랜드 신화를 정리하면 신화 대계, 얼스터 대계, 피니언 대계, 열왕 대계로 크게 네 개의 대계로 나눌 수 있어.",
+            "turn_id": "BK22007947-6",
+            "utterance_id": "BK22007947.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아일랜드 신화에 대해서 정리하면 좋겠다. 신화 대계는 무엇이고 어떤 내용을 담고 있어?",
+            "turn_id": "BK22007947-7",
+            "utterance_id": "BK22007947.13"
+        },
+        {
+            "reference_date": "2022-02-03",
+            "reference_text": [
+                {
+                    "value": "신화 대계(프랑스어: cycle mythologique, 영어: Mythological Cycle, 아일랜드어: Scéalta Miotaseolaíochta)는 아일랜드 신화를 크게 네 대계로 나눌 때 그 중 하나다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신적 능력을 가진 일곱 민족들(카사르인, 파르홀론인, 포모르, 네메드인, 피르 볼그, 투어허 데 다넌, 밀레시안) 이 순서대로 에린 섬에 도래하고 축출되며 다음 민족으로 교체되는 과정을 이야기한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 고대의 민족들은 기독교가 도래한 이후 과거 켈트족의 신들이 격하된 것으로 대개 해석되지만, 일단 신화 문헌 원전에는 신적 능력을 가진 \"민족\"들일 뿐, 그들은 신이 아니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%ED%99%94_%EB%8C%80%EA%B3%84",
+            "search_query": "신화대계",
+            "terminate": false,
+            "text": "아일랜드 신화를 네 대계로 나눴을 때의 하나인 신화 대계는 신적 능력을 가진 일곱 민족의 이야기야. 카사르인, 파르홀론인, 포모르, 네메드인, 피르 볼그, 투어허 데 다넌, 밀레시안 순서대로 에린 섬에 도래하고 축출되며 다음 민족으로 교체되는 과정을 그리지. 보통 기독교가 도래한 이후 신화에 등장하는 이 고대의 민족들은 과거 켈트족의 신들이 격하된 것으로 해석하지만, 신화 문헌 원전에는 신적 능력을 가진 민족들이라고 등장하기 때문에, 신이 아니야.",
+            "turn_id": "BK22007947-7",
+            "utterance_id": "BK22007947.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신의 능력을 가진 민족이라니 오늘날 히어로 영화에 등장하는 영웅들 같아. 얼스터 대계는 어떤 내용이야?",
+            "turn_id": "BK22007947-8",
+            "utterance_id": "BK22007947.15"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "얼스터 대계(아일랜드어: Rúraíocht 루라오크트, 영어: Ulster Cycle 얼스터 사이클[*]), 또는 붉은 가지 대계(Red Branch Cycle)란 아일랜드 신화의 네 가지 대계 중 하나로서, 현재의 얼스터 동부와 렌스터 북부에 해당하는 울라 지방의 영웅들(쿠 훌린 등)의 이야기가 여기에 해당한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%BC%EC%8A%A4%ED%84%B0_%EB%8C%80%EA%B3%84",
+            "search_query": "얼스터 대계",
+            "terminate": false,
+            "text": "얼스터 대계는 붉은 가지 대계라고도 해. 오늘날 얼스터 동부와 렌스터 북부인 울라 지방의 쿠 훌린 같은 영웅들의 이야기가 담겨 있지.",
+            "turn_id": "BK22007947-8",
+            "utterance_id": "BK22007947.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영웅의 서사가 등장하구나. 피니언 대계는 어떤 이야기를 담고 있어? 얼스터 대계처럼 영웅의 이야기가 지속될 것 같아.",
+            "turn_id": "BK22007947-9",
+            "utterance_id": "BK22007947.17"
+        },
+        {
+            "reference_date": "2022-02-13",
+            "reference_text": [
+                {
+                    "value": "피니언 대계(아일랜드어: Fhiannaíocht 피어니흐트, 영어: Fenian Cycle 피니언 사이클[*]) 또는 오신 대계(Ossianic Cycle)는 영웅 핀 막 쿠월과 그를 따르는 피어너 전사들을 중심으로 한 이야기로, 아일랜드 신화의 4가지 대계 중 하나이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EB%8B%88%EC%96%B8_%EB%8C%80%EA%B3%84",
+            "search_query": "피니언 대계",
+            "terminate": false,
+            "text": "맞아. 피니언 대계는 오신 대계라고도 하는데, 핀 막 쿠월이라는 영웅과 그를 따르는 피어너 전사들을 중심으로 펼쳐지는 이야기야.",
+            "turn_id": "BK22007947-9",
+            "utterance_id": "BK22007947.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이랜드 신화의 4가지 중에서 2개가 영웅의 이야기니까 다음 열왕 대계는 왕들의 이야기일 것 같아. 열왕 대계의 이야기는 어떤 걸 담고 있어?",
+            "turn_id": "BK22007947-10",
+            "utterance_id": "BK22007947.19"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "열왕 대계(Kings' Cycles) 또는 역사 대계(Historical Cycle)는 고중세 아일랜드 문학의 일부이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소위 아일랜드 신화의 마지막 부분으로서, 코르막 막 아르트, 니얼 노이기얼러흐, 오간 모르, 코날 코르크, 구어레 아드네 막 콜만, 디어르마트 막 케르발, 루가드 막 콘, 콘 케드커하크, 로에가레 막 니얼, 크림한 막 피다그, 브리안 보루마 등 아일랜드의 전설적인 왕들에 대해서 다룬다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "열왕 대계에 등장하는 왕들 중에는 라브라드 렝세크처럼 완전히 창작의 존재인 것도 있고, 브리안 보루마처럼 완전한 실존인물도 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B4%EC%99%95_%EB%8C%80%EA%B3%84",
+            "search_query": "열왕대계",
+            "terminate": false,
+            "text": "열왕 대계는 역사 대계라고도 하는데, 아일랜드 신화의 마지막 부분으로서 아일랜드의 전설적인 왕들에 대해서 다뤄. 등장하는 왕들로는 코르막 막 아르트, 니얼 노이기얼러흐, 오간 모르, 코날 코르크, 구어레 아드네 막 콜만, 디어르마트 막 케르발, 루가드 막 콘, 콘 케드커하크, 로에가레 막 니얼, 크림한 막 피다그, 브리안 보루마 등이 있고, 왕들 중에서는 라브라드 렝세크처럼 창작된 것도 있고 브리안 보루마처럼 실존인물도 있어.",
+            "turn_id": "BK22007947-10",
+            "utterance_id": "BK22007947.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 왕들의 이야기구나. 이를 바탕으로 다음에 신화를 더 조사해봐야겠어. 오늘 많이 알려줘서 고마워.",
+            "turn_id": "BK22007947-11",
+            "utterance_id": "BK22007947.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "관련된 자료도 많으니까 도움이 필요하면 언제든 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22007947-11",
+            "utterance_id": "BK22007947.22"
+        }
+    ]
+}

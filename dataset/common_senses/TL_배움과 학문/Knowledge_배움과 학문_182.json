@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012231",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012231",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 태풍이 온다는 뉴스속보 봤어? 지난달에도 태풍 소식을 본 거 같은데, 일 년에 태풍이 몇 개나 발생해?",
+            "turn_id": "BK22012231-1",
+            "utterance_id": "BK22012231.1"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "태풍은 해마다 20~30개가 발생하는데 우리나라에 영향을 미치는 태풍은 연평균 3.1개다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "평균적으로 여름철에 약 2개, 가을철에 약 1개 정도의 태풍이 영향을 미친다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=189882#0DJY",
+            "search_query": "태풍 개수",
+            "terminate": false,
+            "text": "태풍은 일 년에 20개에서 30개 정도 발생하는데, 그중 우리나라에 영향을 주는 건 일 년에 평균적으로 3.1개 정도야. 여름철에 약 2개, 가을철에 약 1개의 태풍이 우리나라에 영향을 주고 있어.",
+            "turn_id": "BK22012231-1",
+            "utterance_id": "BK22012231.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가을에도 태풍의 영향을 받는구나. 원래 태풍이 가을에 오나?",
+            "turn_id": "BK22012231-2",
+            "utterance_id": "BK22012231.3"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "통상 태풍은 고기압을 뚫고 지나갈 수 없어, 북태평양 고기압이 한반도를 덮고 있는 여름철에는 우리나라 쪽으로 올라오기 어렵다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 여름이 끝나 북태평양 고기압이 수축해 태풍의 길이 열리면, 수온이 최고조에 오른 필리핀 동쪽 해상에서 발생한 태풍이 우리 쪽으로 향할 수 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022082213260004516?did=NA",
+            "search_query": "가을 태풍",
+            "terminate": false,
+            "text": "태풍은 보통 고기압을 뚫고 지나가는 것이 불가능해서 북태평양 고기압이 우리나라를 감싸고 있는 여름철에는 우리나라로 북상하기 어려워. 하지만 여름이 지나가고 북태평양 고기압이 수축하면 태풍의 길이 열려. 수온이 최대로 높아진 필리핀 동쪽 해상에서 만들어진 태풍이 가을이면 우리나라로 향할 수 있다는 뜻이야.",
+            "turn_id": "BK22012231-2",
+            "utterance_id": "BK22012231.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 가을에 태풍이 많이 올라왔어?",
+            "turn_id": "BK22012231-3",
+            "utterance_id": "BK22012231.5"
+        },
+        {
+            "reference_date": "44801.0",
+            "reference_text": [
+                {
+                    "value": "역사적으로도 우리나라에 영향을 미친 주요 태풍 중에는 가을 태풍이 많았다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "행정안전부의 '2020년 재해연보'를 보면 1987년부터 그해까지 34년간 주요 영향태풍으로 분류된 32개 중 소멸일이 9, 10월인 태풍이 18개로 절반 이상이다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "막대한 피해를 입힌 루사(2002년 8월 23일 발생, 9월 1일 소멸)와 매미(2003년 9월 6일 발생, 14일 소멸)도 여기에 포함된다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022082610460001648?did=NA",
+            "search_query": "역대 가을 태풍",
+            "terminate": false,
+            "text": "우리나라에 영향을 준 대표적인 태풍에도 가을 태풍이 많아. 행정안전부가 발표한 2020년 재해연보에 의하면, 1987년부터 2020년까지 34년 동안 주요 영향 태풍으로 분류된 것이 32개이고, 그중에 9월과 10월에 소멸한 것이 18개야. 큰 피해를 준 루사와 매미도 18개의 태풍에 포함돼.",
+            "turn_id": "BK22012231-3",
+            "utterance_id": "BK22012231.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에 큰 피해를 준 매미는 어떤 태풍이었어?",
+            "turn_id": "BK22012231-4",
+            "utterance_id": "BK22012231.7"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "지난 2003년 발생한 태풍 ‘매미’는 중심기압 954hPa(헥토파스칼), 최대 풍속 초속 60m에 달했다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "순간 풍속이 역대 1위로 기상관측사의 슈퍼태풍으로 기록됐다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당시 매미는 한반도를 휩쓸며 역대급 피해를 남겼다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "117명이 사망하고 13명이 실종됐으며 재산 피해액이 약 4조2000억원에 달했다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kado.net/news/articleView.html?idxno=1142849",
+            "search_query": "태풍 매미 영향",
+            "terminate": false,
+            "text": "태풍 매미는 2003년에 발생했는데, 중심기압이 954헥토파스칼이었고 최대 풍속은 초속 60미터에 육박했어. 순간 풍속은 역대 1위를 차지하며 기상관측사의 슈퍼태풍으로 기록됐어. 당시에 우리나라 사망자는 117명, 실종자는 13명이었고 재산 피해액만 대략 4조2000억 원에 달하면서 역대급 피해를 남겼어.",
+            "turn_id": "BK22012231-4",
+            "utterance_id": "BK22012231.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 무서운 태풍의 이름이 매미였다고? 태풍 이름은 어떻게 짓는 거야?",
+            "turn_id": "BK22012231-5",
+            "utterance_id": "BK22012231.9"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "2000년 이후 태풍의 영향 반경에 위치한 14개 지역으로 이뤄진 태풍위원회에서 이름을 결정합니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "각 회원국에서 10개씩 제출한 140개 이름을 토대로 목록을 만들고, 태풍이 발생한 순서대로 일본 기상청이 이 목록을 참고해 번호와 이름을 붙입니다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2022090214300930563",
+            "search_query": "태풍 이름",
+            "terminate": false,
+            "text": "태풍 이름은 태풍위원회에서 결정하는 거야. 태풍위원회는 2000년 이후 태풍의 영향을 받는 14개 지역으로 이뤄져 있고, 각 회원국에서 이름을 10개씩 제출해서 140개의 목록을 만들어. 그리고 이 목록을 참고하여 태풍의 발생 순서에 따라 일본 기상청이 번호와 이름을 붙여.",
+            "turn_id": "BK22012231-5",
+            "utterance_id": "BK22012231.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 짓는 거구나. 올해 붙여진 태풍 이름은 뭐가 있어?",
+            "turn_id": "BK22012231-6",
+            "utterance_id": "BK22012231.11"
+        },
+        {
+            "reference_date": "44803.0",
+            "reference_text": [
+                {
+                    "value": "2022년 태풍은 1호 말라카스, 2호 메기, 3호 차바, 4호 에어리, 5호 송다, 6호 트라세, 7호 무란, 8호 메아리, 9호 망온, 10호 도카게, 11호 힌남노 등이 발생했다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.pinpointnews.co.kr/news/articleView.html?idxno=138941",
+            "search_query": "2022년 태풍 이름",
+            "terminate": false,
+            "text": "2022년에는 11개의 태풍이 있었는데, 1호는 말라카스, 2호는 메기였어. 이어서 3호 차바, 4호 에어리, 5호 송다, 그리고 6호 트라세, 7호 무란이 있어. 또 8호 메아리와 9호 망온, 10호 도카게와 11호 힌남노가 태풍 번호와 이름이야.",
+            "turn_id": "BK22012231-6",
+            "utterance_id": "BK22012231.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 한번 제출된 태풍 이름은 계속 쓰는 거야?",
+            "turn_id": "BK22012231-7",
+            "utterance_id": "BK22012231.13"
+        },
+        {
+            "reference_date": "44068.0",
+            "reference_text": [
+                {
+                    "value": "특히 우리나라에 최악의 피해를 입힌 태풍 ‘루사’와 ‘매미’는 퇴출당해 현재는 사용되지 않고 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태풍의 큰 피해를 끼친 경우 앞으로 유사한 피해가 일어나지 않길 바라는 의미에서 해당 태풍의 이름은 폐기시키고 다른 이름으로 변경한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02391126625870928&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "태풍 이름 퇴출",
+            "terminate": false,
+            "text": "태풍이 막대한 피해를 끼쳤을 때는 해당 태풍의 이름을 폐기하고 다른 이름으로 교체해. 앞으로 비슷한 피해가 일어나지 않길 바란다는 뜻이 담겨있지. 우리나라에 역대급 피해를 준 태풍 루사와 매미가 퇴출당해서 그 이름을 현재 사용하지 않고 있어.",
+            "turn_id": "BK22012231-7",
+            "utterance_id": "BK22012231.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피해가 큰 태풍의 이름을 쓰지 않는다니, 어떤 마음인지 이해가 간다.",
+            "turn_id": "BK22012231-8",
+            "utterance_id": "BK22012231.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앞으로 퇴출당할 만큼 무서운 태풍이 오지 않았으면 좋겠다.",
+            "turn_id": "BK22012231-8",
+            "utterance_id": "BK22012231.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 태풍은 어떻게 될지 걱정이네. 태풍을 미리 대비할 수 있는 방법은 뭐가 있을까?",
+            "turn_id": "BK22012231-9",
+            "utterance_id": "BK22012231.17"
+        },
+        {
+            "reference_date": "44806.0",
+            "reference_text": [
+                {
+                    "value": "가정집에서는 창과 창틀 사이를 테이프로 붙이거나, 종이를 두껍게 접어 창틀에 고정하는 등 창문 떨림을 방지하는 것이 중요하다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기존에 알려진 유리창에 'X자'로 테이프를 붙이거나 신문지를 붙이는 방법 등은 태풍 강도에 따라 효과가 작게 나타날 수 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "저지대 및 상습 침수 지역 거주민들은 태풍에 대비해 미리 안전한 곳으로 대피하는 것이 좋다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022090213563512670",
+            "search_query": "태풍 대비 방법",
+            "terminate": false,
+            "text": "가정집에서는 창문이 흔들리지 않도록 대비해야 해. 창과 창틀 사이를 테이프로 고정하거나, 종이를 두껍게 접어 창틀에 끼워두는 것이 방법이야. 유리창에 테이프를 X 형태로 붙이거나 신문지를 붙이는 방법이 잘 알려져 있는데, 이 방법은 태풍 강도에 따라 효과가 미미할 수 있어. 그리고 집이 저지대나 상습 침수 지역에 있다면, 미리 안전한 곳으로 대피하는 것이 좋아.",
+            "turn_id": "BK22012231-9",
+            "utterance_id": "BK22012231.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "테이프를 X자로 붙이는 방법만 알고 있었는데, 창틀을 고정하는 것이 중요하구나.",
+            "turn_id": "BK22012231-10",
+            "utterance_id": "BK22012231.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 맞아. 태풍이 강력할 수도 있으니까 창틀을 잘 고정해놔.",
+            "turn_id": "BK22012231-10",
+            "utterance_id": "BK22012231.20"
+        }
+    ]
+}

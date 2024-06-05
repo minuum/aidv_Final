@@ -1,0 +1,338 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004899",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004899",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문득 궁금한 것이 있는데, 오토바이는 영어로 모터사이클이잖아요? 그런데 왜 오토바이라고 부를까요?",
+            "turn_id": "BK22004899-1",
+            "utterance_id": "BK22004899.1"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "영어의 \"auto\"와 \"bicycle\"을 합성한 일본어 \"オートバイ (오토바이)\"를 그대로 받아 쓰는 말이며, 현재 표준국어대사전에 수록된 표준어이자 전형적인 일본어식 영어(Janglish)에 속한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이",
+            "terminate": false,
+            "text": "오토바이는 영어의 auto와 bicycle의 합성어로, 본래 일본어예요. 표준어가 아닌 것 같지만, 표준국어대사전에도 등록된 표준어이고 일본식 영어 표현에 속하죠.",
+            "turn_id": "BK22004899-1",
+            "utterance_id": "BK22004899.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 일본어였군요. 일본에서는 왜 모터사이클을 왜 오토바이로 부르게 된 걸까요?",
+            "turn_id": "BK22004899-2",
+            "utterance_id": "BK22004899.3"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "1902년 미국에서 제작된 엔진자전거 \"토머스\"가 일본에 들어온 당시의 일본에서는 영어와 동일하게 \"모터사이클\"이라고 불렀다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 1923년 일본에서 모터사이클 잡지 \"월간 오토바이\"가 시판된 이래 \"오토바이\"라고 부르는 법이 일본인에게 널리 인지되게 되었으며, 이후 \"오토바이\"라는 단어가 한국으로 들어온 것으로 보인다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이 명칭 이름",
+            "terminate": false,
+            "text": "원래는 1902년 일본에 토머스라는 이름의 엔진 자전거가 들어왔을 때만 해도 모터사이클이라고 불렀는데, 1923년에 월간 오토바이라는 잡지가 출시된 이후로 일본에서 오토바이라는 명칭이 굳어지게 되었죠. 그 후에 오토바이란 명칭이 한국으로 넘어왔고요.",
+            "turn_id": "BK22004899-2",
+            "utterance_id": "BK22004899.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나름의 이유가 있었군요. 오토바이란 이름이 넘어오면서 한국에서도 오토바이를 탔을까요? 그럼 한국에 오토바이가 일본에서 넘어온 건가요?",
+            "turn_id": "BK22004899-3",
+            "utterance_id": "BK22004899.5"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "대한민국 최초의 모터사이클은 일제 강점기였던 1915년, 한국에 개신교(장로교회)를 전파하고 연희전문학교(현 연세대학교)를 세운 원두우(호러스 그랜트 언더우드)의 아들인 원한경(호러스 호톤 언더우드)이 미국에서 처음 들여온 것이 시초였다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이 한국 최초",
+            "terminate": false,
+            "text": "그건 아니에요. 한국에 오토바이는 1915년 일제강점기 때 개신교를 전파하고 연희전문학교를 설립한 원두우 님의 아들인 원한경 님이 미국에서 처음으로 들어온 것이 처음이었어요.",
+            "turn_id": "BK22004899-3",
+            "utterance_id": "BK22004899.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오토바이 역사가 꽤 오래되었네요? 당시 들여왔던 건 외국에서 제조한 오토바이였을 것 같은데, 한국에서 만든 최초의 오토바이는 뭐였나요?",
+            "turn_id": "BK22004899-4",
+            "utterance_id": "BK22004899.7"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "대한민국에서 최초로 생산한 모터사이클은 1962년, 기아산업(현 기아자동차, 모터사이클 부문은 대림자동차)이 일본 혼다와 제휴를 맺어 만든 기아혼다(대림의 전신) C100이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "한국 최초 생산 오토바이",
+            "terminate": false,
+            "text": "한국에서는 1962년에 처음으로 오토바이를 만들었어요. 당시 기아산업에서 일본 혼다랑 제휴를 맺어 기아혼다란 이름으로 C100이란 오토바이를 생산했죠.",
+            "turn_id": "BK22004899-4",
+            "utterance_id": "BK22004899.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본과 기술 제휴를 맺어 생산한 게 신기한 부분이네요. 이쯤 되니까 세계 최초 오토바이도 궁금해지는데요? 아시는 것이 있나요?",
+            "turn_id": "BK22004899-5",
+            "utterance_id": "BK22004899.9"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 모터사이클은 고틀리프 다임러(Gottlieb Daimler)와 빌헬름 마이바흐(Wilhelm Maybach)가 1886년에 발명한 라이트바겐(Reitwagen, 아인스퍼라고도 부름)이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "최초 오토바이",
+            "terminate": false,
+            "text": "물론이죠. 세계 최초의 오토바이는 빌헬름 마이바흐와 고틀리프 다임러가 만든 라이트바겐이에요. 1866년에 만들어졌죠.",
+            "turn_id": "BK22004899-5",
+            "utterance_id": "BK22004899.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 이렇게 오토바이의 역사에 대한 이야기를 듣고 나니 더 재미있게 탈 수 있을 것 같아요.",
+            "turn_id": "BK22004899-6",
+            "utterance_id": "BK22004899.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오토바이를 타시나 봐요? 아무래도 요새 오토바이 타기 딱 좋은 날씨기는 하죠.",
+            "turn_id": "BK22004899-6",
+            "utterance_id": "BK22004899.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그런데 얼마 전 오토바이를 타다가 고속도로로 잘못 들어가서 벌금을 물었어요. 한국은 고속도로에 오토바이 출입이 아예 불가능하죠?",
+            "turn_id": "BK22004899-7",
+            "utterance_id": "BK22004899.13"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "한국의 경우 긴급자동차로 지정된 이륜자동차(싸이카 및 소방용 모터사이클 등)에 한해 통행이 가능하며, 나머지 이륜자동차는 배기량에 관계없이 통행이 불가능하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이 고속도로",
+            "terminate": false,
+            "text": "네, 맞아요. 한국에서는 배기량과는 상관없이 오토바이의 고속도로 출입이 금지되어 있어요. 다만 긴급 자동차로 분류된 오토바이들은 출입할 수 있죠.",
+            "turn_id": "BK22004899-7",
+            "utterance_id": "BK22004899.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 고속도로 출입을 못 하는군요. 이건 한국만 그러나요, 아니면 다른 외국도 그러나요?",
+            "turn_id": "BK22004899-8",
+            "utterance_id": "BK22004899.15"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "현재 대부분의 국가는 일정 배기량 이상의 이륜자동차에 한해 고속도로의 통행이 가능하다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이 고속도로 외국",
+            "terminate": false,
+            "text": "대부분의 나라들에서는 일정 배기량보다 많으면 고속도로 출입이 가능한 편이에요.",
+            "turn_id": "BK22004899-8",
+            "utterance_id": "BK22004899.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 일반적이지 않은 경우였군요. 저는 오토바이도 나름 자동차라고 생각하거든요. 법적으로도 오토바이가 자동차로 분류되기는 하죠?",
+            "turn_id": "BK22004899-9",
+            "utterance_id": "BK22004899.17"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "대한민국 자동차관리법 제3조에서는 자동차를 승용자동차, 승합자동차, 화물자동차, 특수자동차, 이륜자동차로 구별한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A8%ED%84%B0%EC%82%AC%EC%9D%B4%ED%81%B4",
+            "search_query": "오토바이 자동차",
+            "terminate": false,
+            "text": "네, 한국 자동차관리법 제3조를 보면 자동차에 승용자동차, 화물자동차 등이 있는데, 거기 이륜자동차도 있어요.",
+            "turn_id": "BK22004899-9",
+            "utterance_id": "BK22004899.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자동차에 포함되는군요. 그럼 자동차와 동일하게 대하든, 아예 분류해서 따로 대하든 해야 이런저런 혼란이 없을 것 같아요.",
+            "turn_id": "BK22004899-10",
+            "utterance_id": "BK22004899.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 제가 봤을 때도 정리가 좀 필요한 것 같기는 해요.",
+            "turn_id": "BK22004899-10",
+            "utterance_id": "BK22004899.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하여튼 오늘 대화 즐거웠어요. 다음에도 재미있는 이야기 많이 해주세요.",
+            "turn_id": "BK22004899-11",
+            "utterance_id": "BK22004899.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어요. 재미있는 이야기 많이 준비해 올 테니 다음에 뵈어요.",
+            "turn_id": "BK22004899-11",
+            "utterance_id": "BK22004899.22"
+        }
+    ]
+}

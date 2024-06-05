@@ -1,0 +1,376 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006499",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006499",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인류가 시작되기 이전에 정말 공룡이나 매머드 같은 동물이 살았을까 하는 의문이 가끔 들어.",
+            "turn_id": "BK22006499-1",
+            "utterance_id": "BK22006499.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많은 화석이 증명해주고 있으니까 의문을 가질 필요는 없지.",
+            "turn_id": "BK22006499-1",
+            "utterance_id": "BK22006499.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화석이 무엇이길래 증거가 된다고 하는 거야?",
+            "turn_id": "BK22006499-2",
+            "utterance_id": "BK22006499.3"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "화석(化石)은 지질 시대에 살았던 고생물의 유해나 흔적이 남아 있는 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지질시대에 살았던 생물의 유해인 체화석과, 발자국 등의 흔적인 생흔화석으로 분류된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화석을 살핌으로써 생물체의 구조나 생활 환경을 알아볼 수 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%84%9D",
+            "search_query": "화석이란",
+            "terminate": false,
+            "text": "화석이란 지질 시대에 살았던 고생물의 유해나 흔적이 남아 있는 것으로, 생물의 유해인 체화석과, 발자국 등의 흔적인 생흔화석으로 분류해. 화석을 통해 생물체의 구조나 생활 환경을 알 수 있어.",
+            "turn_id": "BK22006499-2",
+            "utterance_id": "BK22006499.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 용어가 나오긴 했는데, 그전에 옛날에 살았던 모든 동물들이 화석으로 남는 거야?",
+            "turn_id": "BK22006499-3",
+            "utterance_id": "BK22006499.5"
+        },
+        {
+            "reference_date": "2013-09-02",
+            "reference_text": [
+                {
+                    "value": "고생물들이 모두 화석으로 남는 것은 아니다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화석으로 남기 위해서는 몇 가지 조건이 충족돼야 한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 당시에 그 생물이 번성해야 하고, 생물이 죽은 후 바로 퇴적물 속에 묻혀 분해되지 않아야 하며, 껍질이나 골격 등 딱딱한 부분이 있어야 한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/601782.html",
+            "search_query": "화석 조건",
+            "terminate": false,
+            "text": "고생물들이 모두 화석으로 남는 건 아니야. 화석으로 남기 위해서는 몇 가지 조건이 필요하지. 당시에 그 생물이 많아야 하고, 생물이 죽은 후 바로 퇴적물 속에 묻혀 분해되지 않아야 해. 그리고 껍질이나 골격 등 딱딱한 부분이 있어야 하지.",
+            "turn_id": "BK22006499-3",
+            "utterance_id": "BK22006499.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리들이 죽어서 화석으로 남는 건 어려울 수도 있겠다. 아까 궁금했던 지질시대에 대해서 가르쳐줘.",
+            "turn_id": "BK22006499-4",
+            "utterance_id": "BK22006499.7"
+        },
+        {
+            "reference_date": "2018-10-01",
+            "reference_text": [
+                {
+                    "value": "‘지질시대(Geological time)’는 지구상에서 가장 오래된 암석의 시기부터 현재까지를 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지질시대는 누대(累代, eon), 대(代, era), 기(紀, period)의 단위로 구분된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "누대는 ‘시생누대’, ‘원생누대’, ‘현생누대’ 세 가지로 나눈다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 생물의 출현과 번성, 멸종을 기준으로 ‘선캄브리아 시대’ ‘고생대’ ‘중생대’ ‘신생대’로 구분한다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2018092848961",
+            "search_query": "지질시대",
+            "terminate": false,
+            "text": "지구상에서 가장 오래된 암석의 시기부터 오늘날까지를 지질시대라고 하며 누대, 대, 기의 단위로 나뉘어. 간단하게 몇 가지만 설명하자면, 누대는 신생누대, 원생누대, 현생누대, 3가지로 구분하고, 생물이 출현해 번성과 멸종한 것을 기준으로 선캄브리아 시대, 고생대, 중생대, 신생대로 나누지.",
+            "turn_id": "BK22006499-4",
+            "utterance_id": "BK22006499.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구의 역사가 이렇게 복잡한 줄은 몰랐네. 중생대도 구분하는 건가? 난 쥬라기 공원이라는 영화의 제목이 시대라고 알고 있거든.",
+            "turn_id": "BK22006499-5",
+            "utterance_id": "BK22006499.9"
+        },
+        {
+            "reference_date": "2022-05-16",
+            "reference_text": [
+                {
+                    "value": "중생대는 크게 트라이아스기, 쥐라기, 백악기로 나뉘며, 대략 2억 5300만 년 전부터 6600만 년 전까지의 시기이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%83%9D%EB%8C%80#%EA%B0%99%EC%9D%B4_%EB%B3%B4%EA%B8%B0",
+            "search_query": "중생대",
+            "terminate": false,
+            "text": "맞아. 중생대는 크게 트라이아스기, 쥐라기, 백악기로 나뉘어. 약 2억 5300만 년 전부터 6600만 년 전까지를 말하지.",
+            "turn_id": "BK22006499-5",
+            "utterance_id": "BK22006499.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "2억년이라고? 공룡의 화석도 있을 텐데 그럼 모두 2억년이나 6000만년 전의 것이네? 가장 오래된 생물의 화석이 뭐야?",
+            "turn_id": "BK22006499-6",
+            "utterance_id": "BK22006499.11"
+        },
+        {
+            "reference_date": "2016-09-01",
+            "reference_text": [
+                {
+                    "value": "지구 상에서 가장 오래된 37억년 전의 화석들이 그린란드에서 발견됐다고 호주연구팀이 밝혔다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "호주 울릉공대학 앨런 너트먼 교수가 이끄는 연구팀은 1일 과학 학술지 네이처를 통해 그린란드의 오지에서 37억년 된 스트로마톨라이트(stromatolite) 화석을 찾아냈다고 소개했다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스트로마톨라이트는 박테리아 남조류 집단이 층을 이룬 퇴적 구조로 되어 있다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20160901069200093",
+            "search_query": "가장 오래된 화석",
+            "terminate": false,
+            "text": "너는 조금 어이가 없을 수도 있겠다. 호주 울릉공대학 앨런 너트먼 교수의 연구팀이 지구상에서 가장 오래된 37억년 전의 화석들이 그린란드에서 발견했어. 그린란드의 오지에서 37억년 된 스트로마톨라이트 화석을 발견한 거지. 이 스트로마톨라이트는 박테리아 남조류 집단이 층을 이룬 퇴적 구조야.",
+            "turn_id": "BK22006499-6",
+            "utterance_id": "BK22006499.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "박테리아도 화석으로 남는다는 게 충격이다. 박테리아 말고 오래된 공룡 화석은 없어?",
+            "turn_id": "BK22006499-7",
+            "utterance_id": "BK22006499.13"
+        },
+        {
+            "reference_date": "2012-12-05",
+            "reference_text": [
+                {
+                    "value": "영국 BBC, 디스커버리뉴스 등 해외 언론에 따르면 전문가들은 1930년대 남아프리카 탄자니아 지역에서 발견된 뒤 남아프리카박물관에서 보관 중이던 미스터리 동물의 화석이 최초 공룡의 화석일 가능성이 있다고 설명했다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 공룡은 ‘나아사사우르스 패링토니’(Nyasasaurus parringtoni·이하 N 패링토니)로, 2억 4300만년 전 살았던 것으로 추정된다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 지금까지 알려진 최초의 공룡 탄생 시기보다 1500만~1000만 년 더 빠른 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20121205601013",
+            "search_query": "가장 오래된 공룡 화석",
+            "terminate": false,
+            "text": "해외 언론에서 발표되었는데, 1930년대 남아프리카 탄자니아 지역에서 발견되어 뒤 남아프리카박물관에서 보관 중이던 미스터리 동물의 화석이 최초 공룡의 화석일 가능성이 있다고 했어. 나아사사우르스 패링토니이라는 공룡으로 2억 4300만년 전 살았던 것으로 추정하지. 그런데 이건 지금까지 알려진 최초의 공룡 탄생 시기보다 1500만 년에서 1000만 년 더 빨라.",
+            "turn_id": "BK22006499-7",
+            "utterance_id": "BK22006499.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "박물관에 있던 화석이 또다시 연구 대상이 되기도 하구나. 우리나라에서 가장 오래된 공룡 화석은 뭐야?",
+            "turn_id": "BK22006499-8",
+            "utterance_id": "BK22006499.15"
+        },
+        {
+            "reference_date": "2015-01-25",
+            "reference_text": [
+                {
+                    "value": "칠곡군과 진주교대 부설 한국지질유산연구소는 25일 칠곡군 왜관읍 낙산리 금무봉에서 1억3000만년 전에 생존한 것으로 추정되는 공룡화석을 발견했다고 밝혔다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금까지 국내에서 발견된 가장 오랜 공룡화석은 1억2000만년 전에 형성된 ‘하산동층’에서 나온 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/science/science-general/article/201501252210145?www",
+            "search_query": "우리나라 오래된 공룡 화석",
+            "terminate": false,
+            "text": "지금까지 국내에서 발견된 가장 오랜 공룡화석은 1억2000만년 전에 형성된 하산동층에서 나온 건데, 칠곡군과 진주교대 부설 한국지질유산연구소가 25일 칠곡군 왜관읍 낙산리 금무봉에서 1억3000만년 전에 생존한 것으로 추정되는 공룡화석을 발견했어.",
+            "turn_id": "BK22006499-8",
+            "utterance_id": "BK22006499.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오래된 화석이 계속 바뀌는 걸 보니 우리나라도 화석 연구도 활발히 진행되는 것 같아. 인간의 화석은 정말 없는 거야?",
+            "turn_id": "BK22006499-9",
+            "utterance_id": "BK22006499.17"
+        },
+        {
+            "reference_date": "2017-06-08",
+            "reference_text": [
+                {
+                    "value": "모로코 고대 유적지에서 현생 인류의 조상인 30만년 전의 호모 사피엔스(Homo sapiens) 화석이 발견됐다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 화석은 지금까지 발견된 호모 사피엔스 화석 가운데 가장 오래된 것이다.",
+                    "value_time": "2022-08-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B0%80%EC%9E%A5-%EC%98%A4%EB%9E%98%EB%90%9C-%ED%98%84%EC%83%9D-%EC%9D%B8%EB%A5%98-%ED%99%94%EC%84%9D-%EB%B0%9C%EA%B2%AC/",
+            "search_query": "인간의 화석",
+            "terminate": false,
+            "text": "그렇지 않아. 가장 오래된 인간의 화석도 있는걸? 모로코 고대 유적지에서 30만년 전의 호모 사피엔스 화석이 발견되었어. 호모 사피엔스는 현생 인류의 조상이야. 이 화석은 지금까지 발견된 것 중 가장 오래된 것이지.",
+            "turn_id": "BK22006499-9",
+            "utterance_id": "BK22006499.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "놀라운걸? 진화 과정의 다른 인류의 화석도 있겠다. 화석에 대해서 더 알아보고 싶다는 생각이 들어.",
+            "turn_id": "BK22006499-10",
+            "utterance_id": "BK22006499.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나중에 박물관에 같이 가자. 눈으로 직접 보며 공부하면 더 유익할 테니까.",
+            "turn_id": "BK22006499-10",
+            "utterance_id": "BK22006499.20"
+        }
+    ]
+}

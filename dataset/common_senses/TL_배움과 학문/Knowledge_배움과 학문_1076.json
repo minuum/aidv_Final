@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007058",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007058",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 유레카가 무슨 뜻인지 아세요? 제가 친구에게 수학 문제 푸는 법을 알려 줬더니 친구가 유레카라고 외치더라고요.",
+            "turn_id": "BK22007058-1",
+            "utterance_id": "BK22007058.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "벌써 그런 말을 쓰다니 굉장히 똑똑한 친구구나. 혹시 친구가 단어의 의미를 말 안 해줬니?",
+            "turn_id": "BK22007058-1",
+            "utterance_id": "BK22007058.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알고 싶으면 스스로 찾아보라고 하더라고요. 은혜를 이렇게 갚다니 정말 치사해요. 제발 좀 알려주세요.",
+            "turn_id": "BK22007058-2",
+            "utterance_id": "BK22007058.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "유레카(Eureka)는 뜻 밖의 발견을 했을 때 외치는 단어이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아르키메데스가 목욕을 하던 중 욕조에 들어가서 욕조의 물이 넘쳤을 때 외친 것을 기원으로 보고 있다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "\"유레카\"의 의미는 \"나는 (그것)을 찾았었다\"이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%A0%88%EC%B9%B4",
+            "search_query": "유레카 아르키메데스",
+            "terminate": false,
+            "text": "유레카는 나는 찾았다 라는 뜻이야. 즉, 예상하지 못했던 발견을 했을 때 주로 쓰이는 단어지. 아르키메데스라는 사람이 목욕을 하다가 욕조의 물이 넘쳤을 때 외친 게 그 시작이었어.",
+            "turn_id": "BK22007058-2",
+            "utterance_id": "BK22007058.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 유레카라는 단어를 썼던 거군요. 그런데 아르키메데스가 누구예요?",
+            "turn_id": "BK22007058-3",
+            "utterance_id": "BK22007058.5"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "아르키메데스(고대 그리스어: Ἀρχιμήδης, 현대 그리스어: Αρχιμήδης 아르히미디스, 기원전 287년 경 ~ 기원전 212년 경)는 고대 그리스 마그나 그라이키아의 일부였던 시라쿠사 출신의 철학자, 수학자, 천문학자, 물리학자 겸 공학자이다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%82%A4%EB%A9%94%EB%8D%B0%EC%8A%A4",
+            "search_query": "아르키메데스 시라쿠사",
+            "terminate": false,
+            "text": "고대 그리스 마그나 그라이키아의 일부였던 시라쿠사에서 태어난 아르키메데스는 기원전 287년에 태어나서 기원전 212년에 죽은 철학자이자, 수학자, 천문학자, 물리학자 겸 공학자야.",
+            "turn_id": "BK22007058-3",
+            "utterance_id": "BK22007058.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 엄청나게 직업이 많은 사람이었네요. 그런데 그런 사람이 목욕하다가 유레카를 외친 이유가 뭔가요?",
+            "turn_id": "BK22007058-4",
+            "utterance_id": "BK22007058.7"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "당시 왕이었던 히에론 2세는 왕관을 만드는 금세공사에게 순금으로 금관을 만들게 했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 그 금관이 과연 순금으로 만든 것인지 의심을 품은 왕은 아르키메데스를 불러 금관의 순도를 알아내도록 의뢰했다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "며칠 동안 고민하던 아르키메데스는 어느 날 목욕탕 욕조에 몸을 넣자 물이 차오르는 것을 보고 아이디어가 떠올라 옷도 입지 않은 채 “유레카! 유레카”를 외치며 뛰쳐나갔다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=131406",
+            "search_query": "아르키메데스 히에론 2세 금관",
+            "terminate": false,
+            "text": "당시 왕은 히에론 2세였는데 왕관을 만드는 금세공 장인에게 순금으로 금관을 만들라고 명령했어. 하지만 금관이 과연 순금인지 의심이 된 왕은 아르키메데스에게 금관의 순도를 밝혀낼 것을 의뢰하게 돼. 며칠 동안 고민하던 아르키메데스는 목욕탕 욕조에 몸을 넣자 물이 차오르는 걸 보고 좋은 생각이 떠올라서 나체로 유레카를 외치면서 뛰어나가 버렸어.",
+            "turn_id": "BK22007058-4",
+            "utterance_id": "BK22007058.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 너무 부끄럽네요. 대체 목욕탕에서 뭘 깨달았길래 그렇게 홀딱 벗고 뛰어나간 거예요?",
+            "turn_id": "BK22007058-5",
+            "utterance_id": "BK22007058.9"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "아르키메데스는 사람이 욕조에 들어가면 물이 차오르는 것에 착안하여 물질의 밀도에 따라 비중이 다르다는 것을 발견하였다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%82%A4%EB%A9%94%EB%8D%B0%EC%8A%A4",
+            "search_query": "아르키메데스 욕조 밀도 비중",
+            "terminate": false,
+            "text": "사람이 욕조에 들어가면 목욕물이 차오르잖아. 여기서 아르키메데스는 물질은 밀도에 따라 비중이 다르다는 걸 알아냈어.",
+            "turn_id": "BK22007058-5",
+            "utterance_id": "BK22007058.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 과학 시간에 물질은 각각 밀도가 다르다고 배운 거 같아요. 아르키메데스는 어떻게 왕관 문제를 해결했나요?",
+            "turn_id": "BK22007058-6",
+            "utterance_id": "BK22007058.11"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "왕관과 똑같은 무게의 금 견본을 준비해 각각을 물에 담가서 넘쳐흐르는 물의 양을 비교해 불순물이 섞여있다는 사실을 밝혀냈다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=131406",
+            "search_query": "아르키메데스 왕관 불순물",
+            "terminate": false,
+            "text": "그는 왕관과 똑같은 중량을 가진 금 견본을 준비해서 각각을 물에 담갔어. 그리고 흘러나오는 물의 양을 비교해서 왕관에 불순물이 함유되어 있다는 걸 증명해냈지.",
+            "turn_id": "BK22007058-6",
+            "utterance_id": "BK22007058.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 머리가 좋은 사람이었네요! 혹시 또 다른 업적은 없나요?",
+            "turn_id": "BK22007058-7",
+            "utterance_id": "BK22007058.13"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "그는 기하학을 연구하여 구분구적법을 창안하였는데 이는 위대한 수학자이자 물리학자인 뉴턴의 미적분학보다 무려 2천여 년 앞선 것으로 적분의 시초가 되었다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=131406",
+            "search_query": "아르키메데스 구분구적법 미적분학",
+            "terminate": false,
+            "text": "그는 기하학 연구를 통해 물리학자이자 수학자인 뉴턴의 미적분학보다 2천여 년이나 먼저 구분구적법을 만들어냈어. 그리고 구분구적법이 바로 적분의 시초가 되지.",
+            "turn_id": "BK22007058-7",
+            "utterance_id": "BK22007058.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 저 이과라서 요즘 학교에서 적분을 배우고 있는데 시초가 이 사람이었군요. 아르키메데스의 구분구적법은 어떻게 오늘날의 적분이 된 거예요?",
+            "turn_id": "BK22007058-8",
+            "utterance_id": "BK22007058.15"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "구적법 문제는 이후 오랫동안 별다른 진전을 보이지 못하였다가 르네상스 시기에 이르러 보나벤투라 카발리에리가 무한의 개념을 도입하면서 진전이 있었다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%81%EB%B6%84",
+            "search_query": "아르키메데스 보나벤투라 카발리에",
+            "terminate": false,
+            "text": "오랜 세월 동안 별다른 진전이 없었다가 르네상스 시대에 도달하자 보나벤투라 카발리에리가 무한이라는 개념을 도입하면서 마침내 진전을 보게 돼.",
+            "turn_id": "BK22007058-8",
+            "utterance_id": "BK22007058.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고대 그리스라면 2천년도 넘은 옛날인데 정말 엄청난 거 같아요. 그럼 아르키메데스는 역사 속에서 어느 정도로 평가를 받고 있나요?",
+            "turn_id": "BK22007058-9",
+            "utterance_id": "BK22007058.17"
+        },
+        {
+            "reference_date": "2020-10-03",
+            "reference_text": [
+                {
+                    "value": "그의 업적은 그리스수학을 더욱 진전시켰으며 뉴턴, 가우스 등과 함께 역사상 위대한 3대 과학자로 여겨진다.",
+                    "value_time": "2022-08-31",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=131406",
+            "search_query": "아르키메데스 업적 그리스수학",
+            "terminate": false,
+            "text": "그리스수학을 엄청나게 발전시킨 그는 뉴턴, 가우스와 함께 역사상 위대한 3대 과학자로 추앙받고 있어.",
+            "turn_id": "BK22007058-9",
+            "utterance_id": "BK22007058.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 3대 과학자로 거론될 정도로 유명했다니 제가 잘 몰라봤네요. 궁금했던 점 알려주셔서 너무 고맙습니다.",
+            "turn_id": "BK22007058-10",
+            "utterance_id": "BK22007058.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴 뭘. 다음에도 모르는 거 있으면 친절하게 알려줄게.",
+            "turn_id": "BK22007058-10",
+            "utterance_id": "BK22007058.20"
+        }
+    ]
+}

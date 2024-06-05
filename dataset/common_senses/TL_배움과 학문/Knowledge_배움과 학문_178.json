@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012214",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012214",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 드라마를 보다가 천연기념물에 대해서 처음 알게 됐어. 정확하게 천연기념물이 뭐야?",
+            "turn_id": "BK22012214-1",
+            "utterance_id": "BK22012214.1"
+        },
+        {
+            "reference_date": "44504.0",
+            "reference_text": [
+                {
+                    "value": "국가지정문화재의 한 종류로, 문화재보호법에 따르면 학술적으로나 관상적으로 그 가치가 높아 그 보호와 보존을 법률로 지정한 동물(그 서식지), 식물(그 자생지), 및 지질, 광물들을 일컬어 천연기념물이라 한다.",
+                    "value_time": "44799.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=935016&cid=43667&categoryId=43667",
+            "search_query": "천연기념물",
+            "terminate": false,
+            "text": "천연기념물은 국가지정문화재 중 하나를 말해. 문화재보호법에 의하면 학술적 및 관상적으로 가치가 커서 보호와 보존해야 한다는 것을 법률로 지정한 것이야. 천연기념물에는 동물과 그 서식지, 식물과 그 자생지, 그리고 지질 및 광물들이 해당돼.",
+            "turn_id": "BK22012214-1",
+            "utterance_id": "BK22012214.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천연기념물에 대해 처음 알게 됐네. 우리나라 국보 1호는 숭례문이잖아. 그러면 천연기념물 1호는 뭐야?",
+            "turn_id": "BK22012214-2",
+            "utterance_id": "BK22012214.3"
+        },
+        {
+            "reference_date": "42751.0",
+            "reference_text": [
+                {
+                    "value": "우리나라 천연기념물 1호는 바로 대구시 도동에 있는 측백나무숲이다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "측백나무는 높이 25m, 직경 1m까지 자라는 늘푸른 큰키나무이다.",
+                    "value_time": "44799.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20170115010004651",
+            "search_query": "천연기념물 1호",
+            "terminate": false,
+            "text": "우리나라 천연기념물 1호는 대구시 도동에 위치한 측백나무숲이야. 여기서 측백나무란 높이는 25미터, 직경은 1미터까지 자라는 늘푸른 큰 키나무를 말해.",
+            "turn_id": "BK22012214-2",
+            "utterance_id": "BK22012214.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나무가 천연기념물 1호구나. 국내에 천연기념물은 총 몇 개나 있어?",
+            "turn_id": "BK22012214-3",
+            "utterance_id": "BK22012214.5"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "우리나라 천연기념물은 대구 도동 측백나무숲(1호)을 시작으로 현재까지 500호가 넘게 지정되었으나 21년 6월을 기준으로 재지정 취소 또는 가치 상실, 미수복지역에 있었다는 사유 등에 의해 천연기념물 지위에서 사라져 약 400여 개에 이르고 있다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jndn.com/article.php?aid=1661391933343389193",
+            "search_query": "천연기념물 몇개",
+            "terminate": false,
+            "text": "우리나라 천연기념물의 개수는 대략 400개야. 원래 1호 대구 도동 측백나무숲을 비롯해서 500호가 넘게 있었는데, 2021년 6월 기준으로 재지정이 취소되었거나, 가치가 상실했거나, 또 미수복지역에 있었다는 이유로 인해 천연기념물 지위를 잃은 것들이 있어서 개수가 줄어들었어.",
+            "turn_id": "BK22012214-3",
+            "utterance_id": "BK22012214.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가치가 사라지면 천연기념물 지위가 사라지기도 하는구나.",
+            "turn_id": "BK22012214-4",
+            "utterance_id": "BK22012214.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 천연기념물을 보호하는 것이 중요하지.",
+            "turn_id": "BK22012214-4",
+            "utterance_id": "BK22012214.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 그렇겠다. 그런데 드라마에 나온 나무가 실제로 천연기념물이 됐다는게 사실이야?",
+            "turn_id": "BK22012214-5",
+            "utterance_id": "BK22012214.9"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "문화재청이 '이상한 변호사 우영우'의 '창원 북부리 팽나무'를 오는 30일 국가지정문화재인 천연기념물로 지정 예고하기로 했다.",
+                    "value_time": "44804.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "창원 북부리 팽나무는 ENA 수목드라마 '이상한 변호사 우영우'(이하 '우영우')를 통해 '소덕동 팽나무'로 국민들에게 널리 알려지며 화제가 됐다.",
+                    "value_time": "44804.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5807153",
+            "search_query": "드라마 천연기념물",
+            "terminate": false,
+            "text": "아, ENA 수목드라마 이상한 변호사 우영우에 나온 창원 북부리 팽나무를 말하는 거구나. 드라마 때문에 소덕동 팽나무라고 불리고 있는데, 문화재청이 팽나무를 2022년 8월 30일에 국가지정문화재인 천연기념물로 지정한다고 발표했어.",
+            "turn_id": "BK22012214-5",
+            "utterance_id": "BK22012214.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마가 큰 영향을 줬네. 이렇게 천연기념물로 지정되면 뭐가 달라져?",
+            "turn_id": "BK22012214-6",
+            "utterance_id": "BK22012214.11"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "천연기념물로 지정된 후엔 국가 차원의 보존·관리를 받게 되며 국민들의 원활한 문화재 관람을 위해 도로 정비나 화장실 설치 등 주변 환경을 개선할 수 있는 예산도 확대될 것으로 보인다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나무를 보호하기 위한 기본 정비뿐만 아니라 문화재 활용과 관련한 예산이 투입될 수 있다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022082509523802596",
+            "search_query": "천연기념물 지정되면",
+            "terminate": false,
+            "text": "천연기념물로 지정되면 국가가 보존 및 관리를 해줘. 국민들이 문화재를 순조롭게 관람할 수 있도록 도로를 정리하고 화장실을 설치하는 등 근처 환경을 개선할 수 있도록 예산을 확대해 주기도 하지. 그리고 나무를 보호하기 위한 기본적인 정비뿐 아니라 문화재로 활용할 수 있도록 관련한 예산을 투입할 수도 있어.",
+            "turn_id": "BK22012214-6",
+            "utterance_id": "BK22012214.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천연기념물로 지정되면 국가의 관리를 받는 거구나? 나무 말고 다른 것도 궁금한데, 천연기념물로 지정된 동물에는 어떤 동물이 있어?",
+            "turn_id": "BK22012214-7",
+            "utterance_id": "BK22012214.13"
+        },
+        {
+            "reference_date": "43383.0",
+            "reference_text": [
+                {
+                    "value": "천연기념물로 지정된 가축은 5종 7계통으로 진도의 진돗개(제53호), 연산 화악리의 오계(제265호), 제주의 제주마(제347호), 경산의 삽살개(제368호), 제주흑돼지(제550호), 경주개 동경이(제540호), 제주흑우(제546호)이다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kenews.co.kr/news/article.html?no=9631",
+            "search_query": "천연기념물 동물",
+            "terminate": false,
+            "text": "몇 가지만 예를 들자면, 천연기념물로 지정된 가축은 5종 7계통이 있어. 진도의 진돗개, 경산의 삽살개, 경주개 동경이가 이에 해당되는 개야. 그리고 제주에는 제주마, 흑돼지, 흑우가 있어. 이 외에 연산 하악리의 오계도 천연기념물로 지정된 동물이야.",
+            "turn_id": "BK22012214-7",
+            "utterance_id": "BK22012214.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 천연기념물은 현재 살아있는 것만 해당되는 거야?",
+            "turn_id": "BK22012214-8",
+            "utterance_id": "BK22012214.15"
+        },
+        {
+            "reference_date": "44795.0",
+            "reference_text": [
+                {
+                    "value": "1억2000만 년 전 중생대 백악기 전기에 한반도에 살았던 뿔공룡의 뼈 화석이 천연기념물이 된다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문화재청은 22일 “우리나라에서 처음 발견된 신종 각룡류(角龍類) 뼈 화석인 ‘화성 뿔공룡(Koreaceratops hwaseongensis·코리아케라톱스 화성엔시스) 골격 화석’을 국가지정문화재 천연기념물로 지정 예고한다”고 밝혔다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2022082201030212050001",
+            "search_query": "천연기념물 화석",
+            "terminate": false,
+            "text": "2022년 8월 22일 문화재청은 우리나라에서 최초로 발견된 신종 각룡류 뼈 화석인 화성 뿔공룡 골격 화석을 국가지정문화재 천연기념물로 지정 예고한다고 말했어. 이 화성 뿔공룡은 1억 2,000만 년 전 중생대 백악기 전기에 한반도에서 살았던 뿔공룡이지.",
+            "turn_id": "BK22012214-8",
+            "utterance_id": "BK22012214.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 신기하다. 아까 동식물이 사는 서식지도 천연기념물에 해당된다고 했는데, 장소가 천연기념물이 되기도 해?",
+            "turn_id": "BK22012214-9",
+            "utterance_id": "BK22012214.17"
+        },
+        {
+            "reference_date": "44799.0",
+            "reference_text": [
+                {
+                    "value": "우포늪 권역은 2011년 천연기념물 제524호 ‘창녕 우포늪 천연보호구역’으로 지정되었으며 지난 2018년에는 세계 최초로 ‘람사르 습지도시’로 인증받았다.",
+                    "value_time": "44799.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우포늪은 한반도 지형과 함께 생겨난 대한민국 최대의 내륙 습지다.",
+                    "value_time": "44799.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsseoul.com/news/read/1154505?ref=naver",
+            "search_query": "천연기념물 천연보호구역",
+            "terminate": false,
+            "text": "한반도 땅 모양과 함께 생긴 대한민국 최대 크기의 내륙 습지인 우포늪 권역이 그런 경우야. 2018년에 세계에서 처음으로 람사르 습지도시 인증받은 바 있는 우포늪 권역은 그보다 앞서 2011년에 천연기념물 제524호 창녕 우포늪 천연보호구역으로 지정되었어.",
+            "turn_id": "BK22012214-9",
+            "utterance_id": "BK22012214.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "언젠가 꼭 천연기념물이 있는 곳에 여행을 가고 싶어.",
+            "turn_id": "BK22012214-10",
+            "utterance_id": "BK22012214.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이야. 우리나라의 천연기념물을 직접 보면 그 의미가 남다를 거야.",
+            "turn_id": "BK22012214-10",
+            "utterance_id": "BK22012214.20"
+        }
+    ]
+}

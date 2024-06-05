@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011771",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011771",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기차에 대해서 좀 알고 싶은데 내 주변에 전기차에 대해서 잘 아는 사람이 너밖에 없다. 나한테 설명 좀 해 줄 수 있을까?",
+            "turn_id": "BK22011771-1",
+            "utterance_id": "BK22011771.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼, 전기차에 관해선 내가 전문가야. 뭐든지 물어보면 다 대답해 줄게.",
+            "turn_id": "BK22011771-1",
+            "utterance_id": "BK22011771.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일단 개념 정립부터 해야 할 것 같은데 전기차가 뭔지부터 설명해줘.",
+            "turn_id": "BK22011771-2",
+            "utterance_id": "BK22011771.3"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "전기자동차(電氣自動車, 영어: electric car, battery electric car, all-electric car) 또는 줄여서 전기차(電氣車)는 전기를 동력원으로 삼아 운행하는 자동차를 일컫는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전기 자동차는 내연기관 대신 전기 모터를 사용해 운동 에너지를 얻는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차",
+            "terminate": false,
+            "text": "전기차는 전기자동차라고도 말해. 동력원으로 전기를 이용하여 운행하는 자동차를 말하지. 일반 자동차는 내연기관을 사용해 운동에너지를 얻지만, 전기자동차는 전기모터를 사용해서 운동에너지를 얻어.",
+            "turn_id": "BK22011771-2",
+            "utterance_id": "BK22011771.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기모터를 이용해서 움직이는 게 전기자동차구나. 전기 자동차는 언제 처음 만들어졌어?",
+            "turn_id": "BK22011771-3",
+            "utterance_id": "BK22011771.5"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "전기 자동차는 1873년에 가솔린 자동차보다 먼저 제작되었으나, 배터리의 중량이 무겁고 충전 시간이 너무 길다는 문제가 있어 대중화되지 못하였다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차 제작시기",
+            "terminate": false,
+            "text": "사실 전기자동차는 가솔린 자동차보다 먼저 만들어졌어. 1873년에 말야. 그치만 배터리 무게가 무겁고 충전시간이 너무 길어서 대중화되지 못했지.",
+            "turn_id": "BK22011771-3",
+            "utterance_id": "BK22011771.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1873년에 전기자동차가 만들어졌다고? 전기자동차가 최근에 만들어진 게 아니라 생각보다 엄청 오래전부터 있었던 자동차였구나. 그럼 중간에 소량으로 만들어서 판매하기도 했겠다, 그치?",
+            "turn_id": "BK22011771-4",
+            "utterance_id": "BK22011771.7"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "미국에서는 구조가 간단하고 내구성(耐久性)이 크며 운전하기가 쉬운 등 장점을 살려 주로 여성용으로 1920년대 중반까지 소량 생산되기도 하였다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "미국 전기자동차",
+            "terminate": false,
+            "text": "응 맞아. 특히 미국에서 1920년대 중반까지 전기차를 소량 생산하기도 했어. 구조가 간단하고 내구성도 크고 운전하기 쉬운 장점을 살린 여성용 전기차로 말이지.",
+            "turn_id": "BK22011771-4",
+            "utterance_id": "BK22011771.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에 전기차가 만들어졌음에도 불구하고 상용화되지 않았다는 건 별로 쓸모가 없었다는 얘기인 것 같은데 왜 갑자기 현대에 와서 전기차가 뜨게 된 거지?",
+            "turn_id": "BK22011771-5",
+            "utterance_id": "BK22011771.9"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "1990년대 이후 공해 문제가 심각해지며 전기 자동차 개발도 다시 활발해지기 시작하였다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차 현대 개발",
+            "terminate": false,
+            "text": "1990년대 이후에 전 세계적으로 공해 문제가 심각해지고 있잖아. 그래서 전기 자동차 개발도 다시 활발해지기 시작한 거야.",
+            "turn_id": "BK22011771-5",
+            "utterance_id": "BK22011771.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 내연기관을 사용하는 자동차의 배기가스가 환경 문제를 일으킨다는 건 예전부터 문제가 되어 왔었지. 그럼 전기자동차 에너지 효율성은 어때?",
+            "turn_id": "BK22011771-6",
+            "utterance_id": "BK22011771.11"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "따라서 전기 자동차의 에너지 효율성은 휘발유자동차의 에너지 효율성보다 좋고, 심지어 하이브리드 자동차의 에너지 효율성보다 뛰어나다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차 에너지 효율",
+            "terminate": false,
+            "text": "전기차 에너지 효율성은 상당히 좋아. 다른 자동차랑 비교하자면 휘발유 자동차의 에너지 효율성보다 좋고, 심지어 하이브리드 자동차의 에너지 효율성보다도 뛰어나.",
+            "turn_id": "BK22011771-6",
+            "utterance_id": "BK22011771.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기차 에너지 효율성이 다른 자동차보다 뛰어나구나. 근데 하이브리드 자동차는 어떤 자동차야?",
+            "turn_id": "BK22011771-7",
+            "utterance_id": "BK22011771.13"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "하이브리드란 2종류 이상의 요소를 조합했음을 의미하는 말로, 자동차에서는 두 가지 동력원을 가졌음을 나타낸다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기존에는 가솔린 엔진뿐이었던 자동차에 모터를 동력으로 추가한 하이브리드 자동차는 엔진과 모터의 장점을 동시에 이용해 연비향상을 실현한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%B0%A8%EB%9F%89",
+            "search_query": "하이브리드 자동차",
+            "terminate": false,
+            "text": "하이브리드 자동차를 처음 들어봤구나. 하이브리드란 2종류의 요소를 결합했다는 의미의 단어야. 그래서 자동차에서의 하이브리드는 두 가지 동력을 가졌다고 보면 되는데 기존에 가솔린 엔진뿐이었던 자동차에 모터를 동력으로 추가했다고 볼 수 있어. 엔진과 모터의 장점을 동시에 이용해서 연비를 높일 수 있지.",
+            "turn_id": "BK22011771-7",
+            "utterance_id": "BK22011771.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 내연기관과 전기모터를 두 개 다 가지고 있는 차가 하이브리드 차구나. 단어는 많이 들어봤는데 정확히 어떤 건지는 몰랐는데 이제 확실히 알 수 있을 것 같아. 전기자동차가 근데 일반 자동차보다 안전하다고 볼 수 있을까?",
+            "turn_id": "BK22011771-8",
+            "utterance_id": "BK22011771.15"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "운전자의 측면에서 볼때, 전기 자동차의 안전성은 높다고 할 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "배터리의 큰 질량으로 인해 전기 자동차는 같은 크기의 가스 자동차보다 질량이 많이 나간다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자동차 충돌 사고 시 무거운 차량의 운전자가 입는 피해는 평균적으로 가벼운 차량의 운전자보다 적다는 것을 고려한다면 그 안전성은 가스 자동차보다 높다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차 안전성",
+            "terminate": false,
+            "text": "운전자 측면에서는 안전성이 높다고 할 수 있지. 배터리의 질량이 크기 때문에 같은 크기의 가스 자동차보다 전기자동차가 질량이 많이 나가. 자동차 충돌 사고가 있는 경우에는 무거운 차량의 운전자보다 가벼운 차량의 운전자 피해가 평균적으로 크기 때문에 가스 자동차보다 안전하다고 볼 수 있어.",
+            "turn_id": "BK22011771-8",
+            "utterance_id": "BK22011771.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전기자동차가 일반 자동차보다 더 무거워서 안전하다고 생각하면 되는 거지? 그럼 보행자 입장에서는 안전하지 못한 거야?",
+            "turn_id": "BK22011771-9",
+            "utterance_id": "BK22011771.17"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "보행자의 입장에서 보자면, 안전하다고는 보기 힘들다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전기 자동차는 내부연소엔진을 갖춘 차량에 비해 소음이 적다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전기 자동차의 적은 소음은 표면적으론 장점일 수 있으나, 이면적으로 봤을 때 보행자가 자동차 운행 소리를 듣지 못하고 자동차를 피하지 않아 예기치 못한 사고가 발생할 가능성이 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EA%B8%B0%EC%9E%90%EB%8F%99%EC%B0%A8",
+            "search_query": "전기자동차 사고 발생가능성",
+            "terminate": false,
+            "text": "응, 보행자 입장에서 전기자동차는 안전하다고 보기는 어려워. 전기 자동차의 경우 내부 연소 엔진을 사용하는 일반자동차보다 소음이 적어. 이게 표면적으로는 또 하나의 장점이 될 수 있지만, 보행자 입장에서는 자동차 운행 소리를 듣지 못하고 피하지 못하기 때문에 예상치 못한 사고가 발생할 가능성이 높아.",
+            "turn_id": "BK22011771-9",
+            "utterance_id": "BK22011771.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각해보면 전기자동차 탈 때는 정말 조용하더라. 오늘, 네 덕분에 좋은 정보들을 알고 잘 이해하게 됐어. 나 바빠서 먼저 가봐야 할 것 같은데 다음에 보자.",
+            "turn_id": "BK22011771-10",
+            "utterance_id": "BK22011771.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 됐다니 다행이다. 더 궁금한 거 있으면 전화로 물어봐. 조심히 가고 나중에 보자!",
+            "turn_id": "BK22011771-10",
+            "utterance_id": "BK22011771.20"
+        }
+    ]
+}

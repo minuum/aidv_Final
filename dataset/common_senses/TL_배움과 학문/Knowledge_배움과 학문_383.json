@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013795",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013795",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들이 전기는 어떻게 만드는지 물어보는데, 혹시 발전소에 대해서 잘 아세요?",
+            "turn_id": "BK22013795-1",
+            "utterance_id": "BK22013795.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발전소에 관하여 뭐든 물어보세요.",
+            "turn_id": "BK22013795-1",
+            "utterance_id": "BK22013795.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘됐네요, 발전소의 역사에 대해 먼저 알고 싶은데요. 최초의 발전소는 언제 어디에 만들었는지 궁금합니다.",
+            "turn_id": "BK22013795-2",
+            "utterance_id": "BK22013795.3"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "1868년 잉글랜드의 암스트롱 남작은 그가 소유한 호수에 지멘스 다이너모를 설치해 수력발전소를 만들었다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최초의 화력발전소는 1878년 지그문드 스추커트(Sigmund Schuckert)가 바이에른주 에탈에 세운 것이다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 발전소는 린더호프 궁전에 전력을 공급하기 위한 것이었고, 스팀 엔진을 이용한 24개의 발전기로 구성되어 있었다.[2]",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%9C%EC%A0%84%EC%86%8C",
+            "search_query": "최초 발전소",
+            "terminate": false,
+            "text": "잉글랜드의 암스트롱 남작이 1868년 본인 소유의 호수에 지멘스 다이너모를 설치해 수력 발전소를 세웠습니다. 최초의 화력발전소는 그로부터 10년 뒤인 1878년에 지그문드 스추커트가 바이에른주 에탈에 만든 것입니다. 스팀 엔진을 이용한 24개의 발전기로 구성된 이 발전소는 린더호프 궁전에 전력을 공급하기 위해 만든 것이었습니다.",
+            "turn_id": "BK22013795-2",
+            "utterance_id": "BK22013795.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "1800년대에 이미 발전소가 있었다니 놀랍네요. 발전소의 종류도 궁금한데, 어떤 발전소가 있는지 종류별로 말씀해주세요.",
+            "turn_id": "BK22013795-3",
+            "utterance_id": "BK22013795.5"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "발전소는 이용하는 에너지원과 발전 방법에 따라 화력 발전소, 원자력 발전소, 태양광 발전소, 수력 발전소, 양수 발전소, 풍력 발전소, 지열 발전소, 조력 발전소 등으로 나뉜다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%9C%EC%A0%84%EC%86%8C",
+            "search_query": "발전소",
+            "terminate": false,
+            "text": "에너지원과 발전 방법에 따라 나눌 수 있습니다. 화력 발전소, 태양광 발전소, 원자력 발전소, 양수 발전소, 수력 발전소, 조력 발전소, 풍력 발전소, 지열 발전소 등 다양한 종류의 발전소가 있습니다.",
+            "turn_id": "BK22013795-3",
+            "utterance_id": "BK22013795.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원자력 발전소 관련해서 궁금한 게 있는데요. 세계에서 최초로 가동된 원자력 발전소는 언제 어떤 곳에 지어졌나요?",
+            "turn_id": "BK22013795-4",
+            "utterance_id": "BK22013795.7"
+        },
+        {
+            "reference_date": "40177.0",
+            "reference_text": [
+                {
+                    "value": "세계 최초의 상업용 원자력발전소는 1954년 6월 전기생산을 시작한 소련의 5MW급 오브닌스크 원전이다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2002년 4월까지 48년간 가동된 이 원전은 세계 최장수 원전이기도 하다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 앞서 1951년 미국이 아이다호주 국립원자력시험장 내 EBR-1이라는 실험로에서 세계 최초로 원자력발전에 성공했지만 상용이 아닌 연구목적이었다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/088/0000149536?sid=102",
+            "search_query": "최초 원자력 발전소",
+            "terminate": false,
+            "text": "1951년 미국이 아이다호주 국립원자력 시험장 내에 있는 EBR-1이라는 실험로에서 세계 최초로 원자력발전에 성공했는데요, 상용 발전소가 아닌 연구목적이었습니다. 그로부터 3년 후인 1954년 6월, 처음 전기를 만들기 시작한 소련의 5메가와트급 오브닌스크 원자력 발전소가 세계 최초의 상업용 원자력 발전소입니다. 이 원자력 발전소는 2002년 4월까지 무려 48년이나 가동돼 세계 최장수 원전이라는 기록도 세웠습니다.",
+            "turn_id": "BK22013795-4",
+            "utterance_id": "BK22013795.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이미 1950년대에 원자력 발전소가 있었다니 역사가 짧지 않네요. 원자력은 그런데 사고가 날까 무서워하는 사람들도 있는 것 같아요. 체르노빌 원자력 발전소 사고에 대해 들어본 적이 있는데, 이 사고로 인한 피해 규모는 어느 정도 되나요?",
+            "turn_id": "BK22013795-5",
+            "utterance_id": "BK22013795.9"
+        },
+        {
+            "reference_date": "44312.0",
+            "reference_text": [
+                {
+                    "value": "체르노빌 원전 사고는 1986년 4월 26일 새벽 1시 24분 옛 소련의 우크라이나 체르노빌 북서쪽 원전 지구에서 발생했다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강력한 폭발로 대량의 방사성 물질이 대기 중에 누출되며 20만 명 이상이 피폭됐고 2만 5000명 이상이 목숨을 잃었다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/584/0000013976?sid=103",
+            "search_query": "체르노빌 피해",
+            "terminate": false,
+            "text": "체르노빌 원전 사고는 1986년 4월 26일 새벽 1시 24분 옛 소련이었던 우크라이나 체르노빌 북서쪽 원자력 발전소에서 일어난 사고를 말하는데요. 강한 폭발로 인해 많은 양의 방사성 물질이 대기 중에 누출되면서 20만 명이 넘는 사람들이 피폭됐고, 사망자만 해도 2만 5000명이 넘었습니다.",
+            "turn_id": "BK22013795-5",
+            "utterance_id": "BK22013795.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "체르노빌 사고 피해 규모가 정말 엄청났네요. 또 궁금한 게 있는데, 이번엔 화력발전소에 관해 알고 싶은 게 있어요. 화력발전소의 작동 개념에 대해서도 알고 싶어요.",
+            "turn_id": "BK22013795-6",
+            "utterance_id": "BK22013795.11"
+        },
+        {
+            "reference_date": "44736.0",
+            "reference_text": [
+                {
+                    "value": "화력 발전소(火力發電所, 문화어: 화력발전기지; 영어: Thermal Power Station)는 물을 끓인 증기를 이용하여 터빈을 돌려 화력 발전을 하는 발전소이다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "터빈을 지난 물은 복수기에서 냉각된 후에 다시 사용된다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EB%A0%A5_%EB%B0%9C%EC%A0%84%EC%86%8C",
+            "search_query": "화력발전소",
+            "terminate": false,
+            "text": "물을 끓인 증기를 이용해 터빈을 돌리고 화력 발전을 하는 발전소를 화력발전소라고 합니다. 물은 터빈을 지난 뒤 복수기에서 냉각돼 다시 발전에 사용됩니다.",
+            "turn_id": "BK22013795-6",
+            "utterance_id": "BK22013795.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘엔 친환경 발전에 관한 관심이 높은 것 같은데 특히 태양광 발전을 많이 하는 것 같더라고요. 태양광 발전의 개념에 대해 간략히 알려주세요.",
+            "turn_id": "BK22013795-7",
+            "utterance_id": "BK22013795.13"
+        },
+        {
+            "reference_date": "44625.0",
+            "reference_text": [
+                {
+                    "value": "태양광 발전(太陽光發電, photovoltaics, PV)은 햇빛을 직류 전기로 바꾸어 전력을 생산하는 발전 방법이다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양광 발전은 여러개의 태양 전지들이 붙어있는 태양광 패널을 이용한다.",
+                    "value_time": "44821.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "재생가능 에너지에 대한 수요가 증가함에 따라, 태양 전지와 태양광 어레이의 생산도 크게 늘어나고 있는 추세이다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%EC%96%91%EA%B4%91_%EB%B0%9C%EC%A0%84",
+            "search_query": "태양광 발전",
+            "terminate": false,
+            "text": "햇빛을 직류 전기로 변환해 전력을 만드는 발전 방법을 태양광 발전이라고 합니다. 태양 전지 여러 개가 붙어있는 태양광 패널을 발전에 이용하는데 재생가능 에너지 수요가 늘어남에 따라 태양 전지와 태양광 어레이 생산량도 많이 증가하고 있습니다.",
+            "turn_id": "BK22013795-7",
+            "utterance_id": "BK22013795.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요, 태양광 등 신재생에너지의 등장이 우리나라에도 영향을 끼쳤을 것 같은데 우리나라의 발전량 비중은 종류별로 어떻게 되나요?",
+            "turn_id": "BK22013795-8",
+            "utterance_id": "BK22013795.15"
+        },
+        {
+            "reference_date": "44819.0",
+            "reference_text": [
+                {
+                    "value": "태양광을 포함해 신재생에너지 전체 발전량을 따져봐도 비중은 7.5%에 그쳤다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 기준 유연탄(34%), 액화천연가스(LNG·29.2%) 같은 화석연료와 원자력(27.4%) 발전 비중이 절대적이다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/025/0003223774?sid=101",
+            "search_query": "발전량 비중",
+            "terminate": false,
+            "text": "2021년 기준으로 발전량 비중 34%를 기록한 유연탄, 29.2%를 차지한 액화천연가스 등 화석연료를 이용한 발전이 다수를 이뤘고 원자력발전도 27.4%를 기록해 차지하는 비중이 높습니다. 태양광을 포함한 신재생에너지의 경우 발전량에서 7.5%의 비중을 차지하는 데 그쳤습니다.",
+            "turn_id": "BK22013795-8",
+            "utterance_id": "BK22013795.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직은 태양광 등 신재생에너지의 비중이 높지 않은 상황이네요. 발전소 종류별 이산화탄소 배출량은 어떻게 되나요? 어떤 게 좀 더 환경에 도움이 되는 발전 방식인지 궁금합니다.",
+            "turn_id": "BK22013795-9",
+            "utterance_id": "BK22013795.17"
+        },
+        {
+            "reference_date": "40177.0",
+            "reference_text": [
+                {
+                    "value": "발전원별 이산화탄소 배출량(g/㎾h)은 석탄 991, 석유 782, LNG 549이며 클린에너지라고 하는 태양광은 57, 풍력은 14이다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 원자력은 10에 불과하다.",
+                    "value_time": "44821.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/088/0000149536?sid=102",
+            "search_query": "발전 이산화탄소 배출량",
+            "terminate": false,
+            "text": "발전원별 이산화탄소 배출량을 말씀드릴게요. 석탄이 킬로와트시 당 991그램, 석유는 782그램이고 LNG는 549그램입니다. 친환경에너지로 꼽히는 태양광은 57그램, 풍력은 14그램이며 원자력은 10그램에 불과합니다.",
+            "turn_id": "BK22013795-9",
+            "utterance_id": "BK22013795.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "발전소에 관한 다양한 부분을 알려주셔서 고맙습니다. 발전소에 대한 궁금증이 해결되었어요.",
+            "turn_id": "BK22013795-10",
+            "utterance_id": "BK22013795.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22013795-10",
+            "utterance_id": "BK22013795.20"
+        }
+    ]
+}

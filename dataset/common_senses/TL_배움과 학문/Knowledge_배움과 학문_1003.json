@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006593",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006593",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 중세 세계사를 공부하면서 궁금한 것들이 생겼어요., 대항해시대는 정확히 몇 년도를 말하는건가요?",
+            "turn_id": "BK22006593-1",
+            "utterance_id": "BK22006593.1"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "대항해시대(大航海時代, 포르투갈어: Era das Grandes Navegações, 영어: Age of Discovery, Age of Exploration)는 유럽사에서 대략 15세기에서 17세기까지를 가리키는 말이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시대사적으로 근세에 해당하며, 기술사적으로는 범선 시대와 거의 겹친다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%AD%ED%95%B4%EC%8B%9C%EB%8C%80",
+            "search_query": "대항해시대",
+            "terminate": false,
+            "text": "대항해시대는 유럽의 역사에서 약 15세기부터 17세기까지의 시기를 말해요. 시대사적으로는 근세에 해당하고, 기술사적으로 보면 범선 시대와 겹치죠.",
+            "turn_id": "BK22006593-1",
+            "utterance_id": "BK22006593.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랫동안 바다를 여행하는 것이 어렵고 힘들었을텐데, 왜 대항해시대가 열린걸까요?",
+            "turn_id": "BK22006593-2",
+            "utterance_id": "BK22006593.3"
+        },
+        {
+            "reference_date": "2022-04-12",
+            "reference_text": [
+                {
+                    "value": "포르투갈 탐험가 바스쿠 다 가마는 1497년 아프리카 서해안을 따라 남쪽으로 항해하며 희망봉을 돌았다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 유럽인들이 앞다퉈 새 항로를 개척하고 미지의 대륙을 발견한 대항해시대가 열렸다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220412103800005",
+            "search_query": "대항해시대가 열린 계기",
+            "terminate": false,
+            "text": "포르투갈의 탐험가 바스쿠 다 가마가 1497년에 아프리카 서해안을 따라 남쪽을 향해 항해하며 희망봉을 돌았어요. 그 후 유럽인들은 앞다퉈 새 항로를 개척했고 미지의 대륙을 발견하게 되며 대항해시대가 시작된거예요.",
+            "turn_id": "BK22006593-2",
+            "utterance_id": "BK22006593.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금처럼 전 세계의 지도를 볼 수 있었던 시대가 아니니 모험을 할 수밖에 없었던거네요. 그 당시 오랫동안 항해를 하면서 선원들은 괴혈병에 시달렸다고 하던데 이게 뭔가요?",
+            "turn_id": "BK22006593-3",
+            "utterance_id": "BK22006593.5"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "괴혈병(壞血病, 영어: scurvy)은 비타민 C의 부족으로 출혈 장애가 체내의 각 기관에서 발생하는 질병이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "16세기에서 18세기의 대항해 시대에는 이 질병의 원인을 알 수 없었기 때문에, 해적 이상으로 두려워 했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비타민 C는 체내의 단백질을 구성하는 아미노산의 하나인 수산화프롤린의 합성에 필요하므로 이것이 부족하면 조직 사이를 연결하는 콜라겐과 상아질, 뼈 사이 충전 조직의 생성과 유지에 장애를 유발한다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%B4%ED%98%88%EB%B3%91",
+            "search_query": "대항해시대 괴혈병",
+            "terminate": false,
+            "text": "괴혈병은 비타민 C가 부족해 생기는 병이고 몸안의 여러 기관에서 출혈 문제가 생기는 병이에요. 우리 몸 안에는 단백질을 구성하는 수산화프롤린이 있는데 일종의 아미노산이거든요. 비타민 C가 이 수산화플롤린의 합성에 필요해요. 그래서 비타민 C가 결핍되면 조직과 조직을 연결하는 콜라겐, 상아질, 뼈 사이 충전 조직의 생성과 유지하는데 장애를 유발하게 되죠. 16세기에서 18세기 사이의 대항해시대에는 괴혈병이 왜 생기는지 알 수 없어서, 해적보다 더 두려워하기도 했어요.",
+            "turn_id": "BK22006593-3",
+            "utterance_id": "BK22006593.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비타민 C가 부족해지며 생기는 병이군요. 선원들이 괴혈병에 잘 걸렸던 이유가 있나요?",
+            "turn_id": "BK22006593-4",
+            "utterance_id": "BK22006593.7"
+        },
+        {
+            "reference_date": "2020-07-01",
+            "reference_text": [
+                {
+                    "value": "하지만 선박 건조 기술도, 동력 기술도, 의학적 지식도 부족했던 당시, 최대한 부피가 작고 오래가는 마른 비스킷과 육포, 술을 식량으로 실었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "신선한 야채와 과일, 그리고 물은 장기간 보관이 힘들었기 때문이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런 긴 시간동안 음식이라곤 사람 이빨보다 단단한 비스킷, 가죽구두보다 질긴 육포가 전부였다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "덕분에 해군이든 무역선이든 모두 괴혈병으로 인해 고생했고, 그에 대한 답을 찾기 위해서 긴 시간을 찾아 헤맸다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthumer.com/news/articleView.html?idxno=3936",
+            "search_query": "대항해시대 선원 괴혈병 원인",
+            "terminate": false,
+            "text": "그 당시에는 선박 건조 기술, 동력 기술, 의학적 지식도 부족했기때문에 최대한 자리를 차지 않고 크기가 작으면서 오래 보관할 수 있는 마른 비스킷, 육포, 술을 식량으로 삼았어요. 신선한 야채나 과일, 물은 오랫동안 보관하지 어려웠기때문이에요. 그렇다보니 선원들은 긴 시간동안 치아보다 딱딱한 비스킷, 가죽신발보다도 질긴 육포를 먹고 생활했고 해군, 무역선 할 것 없이 괴혈병을 무서워했던거에요. 답을 찾는데도 오랜 시간이 걸렸죠.",
+            "turn_id": "BK22006593-4",
+            "utterance_id": "BK22006593.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "괴혈병은 유럽인들만 걸리는건 아니었을텐데, 다른 대륙들의 사정도 비슷했나요?",
+            "turn_id": "BK22006593-5",
+            "utterance_id": "BK22006593.9"
+        },
+        {
+            "reference_date": "2020-03-04",
+            "reference_text": [
+                {
+                    "value": "이렇게 유럽에서 괴혈병의 원인조차 모르고 있을 때 놀랍게도 지구 다른 편에서는 치료법을 알고 있었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "5세기 원거리를 항해했던 중국인은 배 안에 생강을 재배하여 먹고 병을 예방하였다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 16세기 북아메리카에 유럽인이 도착했을 때 그곳 원주민은 솔잎을 우려낸 물을 마시게 하여 괴혈병을 치료하는 것이었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.baccro.com/news/articleView.html?idxno=19338",
+            "search_query": "대항해시대 괴혈병 해결",
+            "terminate": false,
+            "text": "그렇지 않아요. 유럽은 괴혈병이 왜 생기는지도 몰랐지만 지구 반대쪽에서는 치료법을 알고 시행하고 있었거든요. 훨씬 더 옛날인 5세기에 장거리 항해를 했던 중국인들은 배에서 생강을 재배했고 그 것을 먹으며 병을 예방했어요. 또 16세기 즈음 유럽인이 북아메리카에 도착했을 때 그 곳의 원주민들은 솔잎을 우린 물을 마시게해 괴혈병을 치료했었고요.",
+            "turn_id": "BK22006593-5",
+            "utterance_id": "BK22006593.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 때는 지금처럼 정보 교류가 활발하지 못했을테니, 알고 있는 것도 많이 달랐네요. 유럽에서는 괴혈병을 어떻게 예방하게 되나요?",
+            "turn_id": "BK22006593-6",
+            "utterance_id": "BK22006593.11"
+        },
+        {
+            "reference_date": "2021-11-08",
+            "reference_text": [
+                {
+                    "value": "18세기 영국 해군 군의관 제임스 린드는 괴혈병이 비타민C 부족 때문이라는 사실을 확인하고 해군들에게 라임 주스와 라임 절임을 공급할 것을 제안했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제임스 쿡 선장은 린드의 발견을 실천해서 괴혈병에 걸리는 선원 한 명 없이 남극해와 북극해를 성공적으로 탐험했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영국은 1795년부터 해군들에게 라임 배급을 의무화했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/opinion/columnists/view/2021/11/1058481/",
+            "search_query": "대항해시대 괴혈병 라임",
+            "terminate": false,
+            "text": "18세기 영국 해군 군의관으로 근무했던 제임스 린드가 괴혈병의 원인이 비타민 C 부족이라는 것을 확인하고 해군들에게 라임 주스와 라임 절임을 줄 것을 제안해요. 그리고 제임스 쿡 선장이 이 의견을 받아들여 행동에 옮겼고 괴혈병에 걸린 선원 없이 남극해, 북극해를 성공적으로 탐험하죠. 그래서 1795년부터 영국에서는 해군들에게 라임 배급을 의무화하며 이겨낼 수 있었어요.",
+            "turn_id": "BK22006593-6",
+            "utterance_id": "BK22006593.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 해결이 되어서 다행이네요. 대항해시대는 뭔가 대단한 모험의 시기라고 느껴지는데 피해를 봤던 나라들도 있었겠죠?",
+            "turn_id": "BK22006593-7",
+            "utterance_id": "BK22006593.13"
+        },
+        {
+            "reference_date": "2021-11-02",
+            "reference_text": [
+                {
+                    "value": "서구 열강이 아메리카대륙을 발견하며 식민지를 개척하기 시작했던 15~16세기 대항해시대에는 노예무역이 성행했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식민도시를 개척하기 위해 많은 노동력이 필요했던 포르투갈과 스페인은 아프리카에서 노동력을 조달했다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마닐라, 마카오, 나가사키 등 아시아로도 진출한 이들은 일본인을 비롯한 아시아인들도 헐값에 노예로 사들였다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/11/1037268/",
+            "search_query": "대항해시대 식민지",
+            "terminate": false,
+            "text": "맞아요. 15에서 16세기의 대항해시대에는 서구 열강이 아메리카대륙을 발견했고 식민지 개척을 위해 노예무역도 함께 성행했어요. 식민도시를 만들기 위해서 포르투갈과 스페인은 필요한 노동력을 아프리카에서 조달했죠. 마닐라, 마카오, 나가사키 등 아시아까지 진출하며 일본인과 아시아인들도 아주 싼 값에 노예로 삼았어요.",
+            "turn_id": "BK22006593-7",
+            "utterance_id": "BK22006593.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 역사는 어느 한 쪽만 볼 수는 없는 것 같아요. 혹시 당시 조선인들도 노예로 팔려갔었나요?",
+            "turn_id": "BK22006593-8",
+            "utterance_id": "BK22006593.15"
+        },
+        {
+            "reference_date": "2021-11-02",
+            "reference_text": [
+                {
+                    "value": "조선인들도 노예로 살았다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주로 임진왜란 때 일본에 끌려간 그들은 시장에서 비싼 값을 받는 귀중한 노동력인 젊은이들과 어린 포로들이 많았다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20211102083800005",
+            "search_query": "대항해시대 조선인 노예",
+            "terminate": false,
+            "text": "네. 주로 임진왜란 때 일본으로 끌려간 조선인들이었어요. 그 당시에는 젊은이들과 어린 포로들을 귀한 노동력으로 여겼는데 조선인 포로들은 젊고 어린 사람들이 많아 비싼 값에 팔렸었죠.",
+            "turn_id": "BK22006593-8",
+            "utterance_id": "BK22006593.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어느 곳에서는 멋진 모험의 시대였고, 어느 곳에서는 뼈아프고 서글픈 시대로 기억되겠네요. 대항해시대가 역사적으로 갖는 의미가 있을까요?",
+            "turn_id": "BK22006593-9",
+            "utterance_id": "BK22006593.17"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "대항해시대는 전지구적 국제무역(global trade)을 가능하게 했고 그로써 유럽 식민제국을 탄생시켰으며, 동반구(구대륙)와 서반구(신대륙) 사이에 물적, 인적(노예를 포함해서) 교류를 촉발시켰다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%AD%ED%95%B4%EC%8B%9C%EB%8C%80",
+            "search_query": "대항해시대 역사적 의미",
+            "terminate": false,
+            "text": "대항해시대는 전 세계의 국제무역을 가능하게 만들었고, 그로 인해 유럽의 식민제국을 탄생시켰어요. 구대륙인 동반구와 신대륙인 서반구를 연결하며 물적인 교류뿐아니라 노예를 포함한 인적 교류를 촉발시킨 의미가 있죠.",
+            "turn_id": "BK22006593-9",
+            "utterance_id": "BK22006593.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대항해시대로 전 세계가 연결되었다라고 이해하면 되겠네요. 무조건 멋진 시대로 기억하기 보다는 선원들의 고충이나 역사적인 사실들도 제대로 알고 있어야 할 것 같아요.",
+            "turn_id": "BK22006593-10",
+            "utterance_id": "BK22006593.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요. 좋은 면만 보기보다는 다양한 시각에서 역사를 바라보고 배우는 것이 중요하죠. 다음에 또 흥미로운 주제가 생각나면 들려주세요. 조심히 들어가시고요.",
+            "turn_id": "BK22006593-10",
+            "utterance_id": "BK22006593.20"
+        }
+    ]
+}

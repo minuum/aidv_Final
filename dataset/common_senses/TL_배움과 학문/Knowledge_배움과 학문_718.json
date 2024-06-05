@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000699",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000699",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 인터넷에서 혈액형으로 보는 성격검사 한 번 해봤는데, 진짜 신기하게도 결과가 나랑 엄청 잘 맞더라!",
+            "turn_id": "BK22000699-1",
+            "utterance_id": "BK22000699.1"
+        },
+        {
+            "reference_date": "2020-05-12",
+            "reference_text": [
+                {
+                    "value": "성격은 엄마의 뱃속에서부터의 환경, 자라난 환경 등에 영향을 받지만, 혈액형의 종류와는 과학적인 상관관계가 없다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://monthly.chosun.com/client/mdaily/daily_view.asp?idx=9479&Newsnumb=2020059479",
+            "search_query": "혈액형과 성격의 상관관계",
+            "terminate": false,
+            "text": "혈액형의 종류와 사람의 성격은 과학적인 상관관계가 없어. 성격은 자라난 환경 등에 주로 영향을 받는 것이거든.",
+            "turn_id": "BK22000699-1",
+            "utterance_id": "BK22000699.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래? 성격검사 결과는 진짜 딱 나랑 똑같이 나왔는데, 신기하네.",
+            "turn_id": "BK22000699-2",
+            "utterance_id": "BK22000699.3"
+        },
+        {
+            "reference_date": "2021-07-26",
+            "reference_text": [
+                {
+                    "value": "바넘 효과는 사람들이 일반적으로 가지고 있는 성격이나 심리적 특징을 자신만의 특성으로 여기며, 일치한다고 믿으려는 심리 현상이다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.incheonilbo.com/news/articleView.html?idxno=1093477",
+            "search_query": "바넘 효과",
+            "terminate": false,
+            "text": "사람들이 일반적으로 가지고 있는 성격을 자신만의 특성으로 여기면서 일치한다고 믿으려는 바넘 효과 같은데? 보통 심리테스트 같은 게 잘 맞아 떨어진다는 생각은 대부분 이 효과에서 기인하거든.",
+            "turn_id": "BK22000699-2",
+            "utterance_id": "BK22000699.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 거구나? 그러면 점집 같은 곳 가서 사주 보면 엄청 정확하다고 생각되는 것도 바넘 효과 때문인 거야?",
+            "turn_id": "BK22000699-3",
+            "utterance_id": "BK22000699.5"
+        },
+        {
+            "reference_date": "2017-04-12",
+            "reference_text": [
+                {
+                    "value": "실제로 무속인들 같은 경우에는 놀라운 부분이 있는 게 그 사람에 대한 아무런 사전 정보가 없는 상태에서 그 사람이 보여주는 억양이라든지 비언어적 표현, 헤어스타일, 취향을 보고 거기서 그 사람에 대한 마음을 읽어 내는 거죠.",
+                    "value_time": "2022-06-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 그 경우에 적용되는 심리 법칙이 '콜드 리딩'이라는 심리학적 기술을 씁니다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "콜드 리딩'이라는 것은 사실 그 사람에게 어떤 사전 정보가 없는 데도 그 특성을 읽어내는 거죠.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&s_hcd=0013&key=201704121603126140",
+            "search_query": "무속인 콜드 리딩",
+            "terminate": false,
+            "text": "무속인들 같은 경우는 바넘 효과보다는 콜드 리딩이라는 심리학적 기술을 쓰는 거야. 아무런 사전 정보가 없는 상태에서 그 사람이 보여주는 억양이나 비언어적 표현을 통해 그 사람의 마음을 읽어내는 거지.",
+            "turn_id": "BK22000699-3",
+            "utterance_id": "BK22000699.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 진짜 신기한 것들이 많네. 평소에도 내가 모르게 작용한 심리 효과나 심리 기술들이 엄청 많았겠구나?",
+            "turn_id": "BK22000699-4",
+            "utterance_id": "BK22000699.7"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "바넘 효과는 마케팅업계에서 애용하는 전략의 하나로 자리 잡았다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2022030437571",
+            "search_query": "바넘 효과 마케팅",
+            "terminate": false,
+            "text": "물론이지! 요즘에는 이런 심리효과들을 마케팅할 때도 자주 쓰는 걸? 아까 말해준 바넘 효과만 해도 마케팅업계에서는 엄청 애용하고 있어.",
+            "turn_id": "BK22000699-4",
+            "utterance_id": "BK22000699.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그러면 자주 쓰이는 심리효과는 뭐가 있어? 좀 알아두면 속지 않을 수 있겠지?",
+            "turn_id": "BK22000699-5",
+            "utterance_id": "BK22000699.9"
+        },
+        {
+            "reference_date": "2021-11-04",
+            "reference_text": [
+                {
+                    "value": "처음에는 싫어하거나 무관심했지만 대상에 대한 반복 노출이 거듭될수록 호감도가 증가하는 현상을 말할 때 쓰는 표현이다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잡음을 일으켜 구설수에 오르게 하는 노이즈 마케팅도 에펠탑 효과의 일종이다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kbmaeil.com/news/articleView.html?idxno=913075",
+            "search_query": "에펠탑 효과 마케팅",
+            "terminate": false,
+            "text": "요즘 잡음을 일으켜 구설수에 오르게 하는 노이즈 마케팅 있지? 그건 에펠탑 효과의 일종이야. 처음에는 싫어했어도 반복 노출이 거듭될수록 호감도가 높아지게 되거든.",
+            "turn_id": "BK22000699-5",
+            "utterance_id": "BK22000699.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그런 경험 있는 것 같아! 아무리 싫어해도 자주 보다보면 호감이 가는 경우! 근데 그게 왜 이름이 에펠탑 효과인 거야?",
+            "turn_id": "BK22000699-6",
+            "utterance_id": "BK22000699.11"
+        },
+        {
+            "reference_date": "2020-02-12",
+            "reference_text": [
+                {
+                    "value": "1만5000여개의 금속을 250만개의 나사못으로 연결시키는 7000t의 철골구조물은 파리 예술에 대한 모독이며 고풍스러운 파리 분위기를 망쳐놓을 것이라며 결사적으로 반대했습니다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시민들이 눈만 뜨면 커다란 탑을 보게 되니 처음에는 별 관심이 없다가 차츰 호감을 갖게 된 것입니다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리는 이를 에펠탑 효과(Eiffel Tower Effect)라 부릅니다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.asiae.co.kr/news/view.htm?idxno=2010011910352240570",
+            "search_query": "에펠탑 효과 유래",
+            "terminate": false,
+            "text": "처음에는 7000t의 철골구조물이 파리에 세워진다고 하자 파리 예술에 대한 모독이며 파리 분위기를 망쳐놓을 것이라며 시민들이 결사적으로 반대했었거든. 그런데 시간이 지나면서 탑을 자주 보게 되자, 차츰 호감을 갖게되었어. 그래서 이런 현상을 에펠탑 효과라고 부르게 된 거지.",
+            "turn_id": "BK22000699-6",
+            "utterance_id": "BK22000699.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런 정보들만 잘 알아놔도 앞으로 마트가서 과소비 할 일은 없겠는데? 요즘에 안 그래도 엄마가 자꾸 마트에서 쓸 데 없는 물건들 많이 사온다고 핀잔 주거든.",
+            "turn_id": "BK22000699-7",
+            "utterance_id": "BK22000699.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마트에서 과소비를 줄이려면 앵커링 효과를 잘 알아놔야 할걸?",
+            "turn_id": "BK22000699-7",
+            "utterance_id": "BK22000699.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마트에서는 지금까지 말해준 효과들보다는 앵커링 효과가 마케팅에 많이 쓰이나 보네? 앵커링 효과는 무슨 효과인데?",
+            "turn_id": "BK22000699-8",
+            "utterance_id": "BK22000699.15"
+        },
+        {
+            "reference_date": "2016-10-27",
+            "reference_text": [
+                {
+                    "value": "홈쇼핑을 보다보면 자주 나오는 \"원래 30,000원인데, 오늘 초특가 29,000원에 드립니다\"라는 표현.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 설명을 듣다보면 왠지 모르게 “어머 저건 사야해”라는 생각이 들게 마련인데, 이는 이러한 가격 마케팅 정책에 숨어있는 한 심리효과가 작용한 것으로 이를 ‘앵커링 효과’ 또는 ‘정박효과’라고 한다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=43713",
+            "search_query": "앵커링 효과 마케팅",
+            "terminate": false,
+            "text": "예를 들면 원래 30,000 원인 물건을 오늘만 29,000 원에 준다고 하면 왠지 모르게 저 물건은 사야한다고 느껴지지? 그런 가격 마케팅 정책에 쓰이는 걸 앵커링 효과라고 불러.",
+            "turn_id": "BK22000699-8",
+            "utterance_id": "BK22000699.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 진짜 가격표에서 세일하는 흔적 있으면 난 무작정 사고 보는데, 그것조차도 마케팅에 쓰이는 심리효과의 일종이었단 말이야?",
+            "turn_id": "BK22000699-9",
+            "utterance_id": "BK22000699.17"
+        },
+        {
+            "reference_date": "2016-10-27",
+            "reference_text": [
+                {
+                    "value": "이를 비롯해 앵커링 효과는 법정에서, 가정에서, 직장에서 등 기존의 이미지가 후의 평가에 상당한 영향을 미치는 형태로 나타나고 있다.",
+                    "value_time": "2022-06-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=43713",
+            "search_query": "앵커링 효과 영향",
+            "terminate": false,
+            "text": "앵커링 효과 같은 경우는 마케팅 분야 이외에도 법정에서, 가정에서, 직장에서 등 기존의 이미지가 이후의 평가에 상당한 영향을 미치는 형태로 나타나고 있어. 우리 생활 속 깊이 스며들어 있다는 뜻이지.",
+            "turn_id": "BK22000699-9",
+            "utterance_id": "BK22000699.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 너무 선입견 가지지 말고 좀 유연한 형태로 생각하는 태도를 길러서 이런 효과에 잘 빠지지 않도록 해야겠다!",
+            "turn_id": "BK22000699-10",
+            "utterance_id": "BK22000699.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러는 게 좋지! 특히 마트 갔을 때 앵커링 효과를 잘 피해서 과소비를 줄이면 더더욱 좋고!",
+            "turn_id": "BK22000699-10",
+            "utterance_id": "BK22000699.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "덕분에 앞으로 돈 좀 절약할 수 있게 됐네! 정말 고마워!",
+            "turn_id": "BK22000699-11",
+            "utterance_id": "BK22000699.21"
+        }
+    ]
+}

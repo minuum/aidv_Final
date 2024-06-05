@@ -1,0 +1,363 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004364",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004364",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "갱년기에 대해서 레포트를 써야 하는데 어떤 내용부터 시작해야 할까?",
+            "turn_id": "BK22004364-1",
+            "utterance_id": "BK22004364.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 내가 며칠 전에 갱년기에 대한 책을 좀 읽었어.",
+            "turn_id": "BK22004364-1",
+            "utterance_id": "BK22004364.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 잘 됐다. 일단 갱년기가 정확히 어떤 건지 알려 줄 수 있어?",
+            "turn_id": "BK22004364-2",
+            "utterance_id": "BK22004364.3"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "갱년기는 노년기로 접어드는 시기에 발생하는 신체적인 변화를 말한다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남녀 모두에게서 나타날 수 있지만 주로 여성들이 갱년기 장애로 많은 어려움을 경험하게 된다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/19/2022011900958.html",
+            "search_query": "갱년기",
+            "terminate": false,
+            "text": "갱년기는 나이가 점점 들어 늙어서 생기는 신체적인 변화를 의미해. 남자, 여자 모두 나타날 수 있지만 대부분 여자들이 갱년기 문제로 어려움을 겪지.",
+            "turn_id": "BK22004364-2",
+            "utterance_id": "BK22004364.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보통 여자들이 많이 겪는구나. 그러면 갱년기 증상은 뭐가 있어?",
+            "turn_id": "BK22004364-3",
+            "utterance_id": "BK22004364.5"
+        },
+        {
+            "reference_date": "2022-04-27",
+            "reference_text": [
+                {
+                    "value": "대표적인 갱년기 증상으로는 안면홍조, 비정상적인 발열, 요실금증상, 배뇨통, 골다공증, 우울감, 신경과민, 수면장애 등이 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.healthinnews.co.kr/news/articleView.html?idxno=29594",
+            "search_query": "갱년기 증상",
+            "terminate": false,
+            "text": "갱년기 증상에는 안면홍조, 우울감, 신경과민, 수면장애 등이 있어.",
+            "turn_id": "BK22004364-3",
+            "utterance_id": "BK22004364.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 증상이 나타나는구나. 그런데 갱년기는 구체적으로 원인이 뭐야?",
+            "turn_id": "BK22004364-4",
+            "utterance_id": "BK22004364.7"
+        },
+        {
+            "reference_date": "2022-01-19",
+            "reference_text": [
+                {
+                    "value": "갱년기 증상의 원인은 여성의 생식기관인 난소의 노화와 관련이 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "난소에서 생성되는 여성호르몬인 에스트로겐과 프로게스테론은 월경을 조절하고 뼈 건강을 유지하는 등 여성 건강과 밀접한 관련을 맺는다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 이 같은 여성호르몬이 노화로 인해 생성과 분비가 줄어들면서 몸 상태의 변화가 느껴지게 된다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/19/2022011900958.html",
+            "search_query": "갱년기 원인",
+            "terminate": false,
+            "text": "갱년기의 원인은 난소의 노화라고 할 수 있어. 난소는 여자의 생식기관인데, 이 난소에서 만들어지는 여성호르몬인 에스트로겐과 프로게스테론은 생리를 조절하고 뼈의 건강을 유지해 줘서 여자들의 건강에 중요해. 그런데 이 여성호르몬이 노화 때문에 줄어들면서 몸의 변화를 느끼게 되는 거지.",
+            "turn_id": "BK22004364-4",
+            "utterance_id": "BK22004364.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그런데 여자 갱년기랑 남자 갱년기와는 어떤 차이가 있어?",
+            "turn_id": "BK22004364-5",
+            "utterance_id": "BK22004364.9"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "여성 갱년기는 호르몬 수치가 급격하게 떨어지는 반면, 남성 갱년기는 수치가 서서히 줄어든다는 점에서 차이가 생긴다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1391036/",
+            "search_query": "갱년기 남녀차이",
+            "terminate": false,
+            "text": "여자들이 갱년기를 겪을 때는 호르몬 수치가 빠르게 줄어드는데, 남자들이 갱년기를 겪을 때는 수치가 조금씩 줄어들어.",
+            "turn_id": "BK22004364-5",
+            "utterance_id": "BK22004364.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 차이가 있구나. 그러면 갱년기는 치료할 수 있어?",
+            "turn_id": "BK22004364-6",
+            "utterance_id": "BK22004364.11"
+        },
+        {
+            "reference_date": "2022-02-11",
+            "reference_text": [
+                {
+                    "value": "갱년기 치료는 ‘호르몬제 보충요법’이 일반적이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "에스트로겐, 프로게스테론 등 부족해진 호르몬을 경구용 치료제 복용이나 바르는 치료제 도포로 보충하는 방식이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/economy/view/2022/101921",
+            "search_query": "갱년기 치료",
+            "terminate": false,
+            "text": "응, 갱년기 치료는 호르몬제로 호르몬을 보충하는 게 일반적인 방법이야. 에스트로겐이나 프로게스테론 같이 부족한 호르몬을 경구용 치료제로 먹거나 바르는 치료제로 보충하지.",
+            "turn_id": "BK22004364-6",
+            "utterance_id": "BK22004364.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "약으로 치료할 수 있구나. 그런데 남자 갱년기는 어떤 특징이 있어?",
+            "turn_id": "BK22004364-7",
+            "utterance_id": "BK22004364.13"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "남성갱년기는 테스토스테론 저하로 장기 기능이 떨어지면서 나타나는 다양한 증상과 성기능 장애가 동시에 나타나는 질환이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.whosaeng.com/135167",
+            "search_query": "갱년기 남성 치료",
+            "terminate": false,
+            "text": "남자 갱년기는 테스토스테론이 줄어들어서 장기 기능이 떨어지는데, 이 때 여러 가지 증상이랑 성기능 장애가 함께 나타나는 특징이 있어.",
+            "turn_id": "BK22004364-7",
+            "utterance_id": "BK22004364.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "테스토스테론 때문에 생기는구나. 그러면 갱년기에 좋은 음식은 뭐가 있어?",
+            "turn_id": "BK22004364-8",
+            "utterance_id": "BK22004364.15"
+        },
+        {
+            "reference_date": "2019-10-14",
+            "reference_text": [
+                {
+                    "value": "갱년기 증상이 있을 때는 여성호르몬의 분비가 줄어드는 만큼 먹거리로 부족한 호르몬을 보충하는 것이 좋다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가장 널리 알려진 먹거리로는 식물성 에스트로겐 성분을 많이 함유하고 있는 '석류'가 널리 알려져 있다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=73839",
+            "search_query": "갱년기 석류",
+            "terminate": false,
+            "text": "갱년기가 올 때는 여성호르몬이 줄어드니까 먹는 걸로 호르몬을 보충해 주면 좋아. 제일 유명한 건 식물성 에스트로겐이 많이 들어있는 석류가 있지.",
+            "turn_id": "BK22004364-8",
+            "utterance_id": "BK22004364.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 석류를 먹으면 좋구나. 그럼 운동을 하는건 갱년기에 어때?",
+            "turn_id": "BK22004364-9",
+            "utterance_id": "BK22004364.17"
+        },
+        {
+            "reference_date": "2022-01-06",
+            "reference_text": [
+                {
+                    "value": "근력·유산소 운동을 규칙적으로 하면 갱년기 증상 개선에 도움이 된다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빠르게 걷기, 계단 오르내리기와 같은 유산소 운동은 간편하면서도 골밀도 향상에 효과적이다.",
+                    "value_time": "2022-07-30",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/01/06/2022010601902.html",
+            "search_query": "갱년기 운동",
+            "terminate": false,
+            "text": "근력 운동이나 유산소 운동을 규칙적으로 하면 갱년기 증상이 줄어들 수 있어. 빠르게 걷기, 계단 오르내리기 같은 유산소 운동은 간단하고 골밀도도 증가해서 좋고.",
+            "turn_id": "BK22004364-9",
+            "utterance_id": "BK22004364.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이 부분도 레포트에 꼭 추가해야겠다.",
+            "turn_id": "BK22004364-10",
+            "utterance_id": "BK22004364.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 갱년기에 대해서 다양하게 다루면 좋을 거 같아.",
+            "turn_id": "BK22004364-10",
+            "utterance_id": "BK22004364.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 레포트를 훨씬 수월하게 쓸 수 있게 됐어.",
+            "turn_id": "BK22004364-11",
+            "utterance_id": "BK22004364.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 집에 조심히 가고 다음에 보자.",
+            "turn_id": "BK22004364-11",
+            "utterance_id": "BK22004364.22"
+        }
+    ]
+}

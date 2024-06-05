@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005455",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005455",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 누나가 감자녹말을 사 오라는데 문득 녹말이라는 말이 너무 낯설게 느껴지는 거야. 평소에 많이 쓰는데 무슨 뜻인지를 내가 모르고 있더라고. 녹말이란 게 뭐야?",
+            "turn_id": "BK22005455-1",
+            "utterance_id": "BK22005455.1"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "녹말(綠末, 영어: starch, 라틴어: amylum) 또는 전분(澱粉)은 많은 수의 포도당 단위체들이 글리코사이드 결합으로 연결된 중합체 탄수화물이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말",
+            "terminate": false,
+            "text": "녹말은 전분이라고도 부르는 물질이야. 많은 포도당 단위체들이 클리코사이드 결합이라는 방식으로 연결된 중합체 탄수화물이지.",
+            "turn_id": "BK22005455-1",
+            "utterance_id": "BK22005455.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 전분이 녹말이구나. 그럼 녹말이란 물질은 어디에서 나는 거야? 화합물은 아닌 거 같은데 말이지.",
+            "turn_id": "BK22005455-2",
+            "utterance_id": "BK22005455.3"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "녹말은 대부분의 녹색 식물에서 에너지를 저장하기 위해 생성되며, 식물의 종자나 뿌리 등에 많이 포함되어 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 식물",
+            "terminate": false,
+            "text": "녹말은 대부분의 녹색 식물들이 에너지를 저장하려고 만들어 내. 주로 식물의 종자나 뿌리에 많이 들어가 있지.",
+            "turn_id": "BK22005455-2",
+            "utterance_id": "BK22005455.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 식물에서 나오는 거구나. 나는 식물이 포도당으로 양분을 저장하는지 알았는데 그게 아닌가 봐?",
+            "turn_id": "BK22005455-3",
+            "utterance_id": "BK22005455.5"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "대부분의 녹색 식물들은 에너지 저장 형태로 녹말을 사용한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식물에서 여분의 포도당은 포도당보다 더 복잡한 형태인 녹말로 변환된다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 포도당",
+            "terminate": false,
+            "text": "응, 대부분 녹색식물은 녹말을 에너지 저장 형태로 사용해. 사용하고 남는 포도당이 있으면 더 복잡한 구조의 녹말로 변환해서 저장하는 거지.",
+            "turn_id": "BK22005455-3",
+            "utterance_id": "BK22005455.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 대부분의 식물이면 내가 아는 감자녹말 말고도 다른 음식에도 많겠어. 또 어디 들어가 있어?",
+            "turn_id": "BK22005455-4",
+            "utterance_id": "BK22005455.7"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "녹말은 사람의 식단에서 가장 흔한 탄수화물이며, 감자, 밀, 옥수수, 쌀, 카사바와 같은 주요 음식물에 다량으로 함유되어 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 탄수화물",
+            "terminate": false,
+            "text": "아까 녹말이 탄수화물이라고 했잖아, 사람이 먹는 탄수화물 중에 가장 흔한 게 바로 녹말이야. 감자 말고도 밀, 옥수수, 쌀, 카사바 같은 주요 음식물에 많이 들어가 있어.",
+            "turn_id": "BK22005455-4",
+            "utterance_id": "BK22005455.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 좋아하는 음식들이 다 녹말이었네? 근데 녹말이란 말 외래어 아니지? 이거 어디서 온 말이야?",
+            "turn_id": "BK22005455-5",
+            "utterance_id": "BK22005455.9"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "\"녹말(綠末)\"이라는 낱말은 원래 \"녹두가루(녹두에서 얻은 녹말가루)\"를 뜻하는 말이었으나, 의미가 확장되며 다른 식물에서 얻은 녹말도 아울러 지칭하게 되었다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 녹두",
+            "terminate": false,
+            "text": "원래는 녹두 가루를 뜻하는 말이야. 더 정확히는 녹두에서 얻은 녹말가루. 근데 점점 의미를 확장해서 쓰다 보니까 녹두가 아닌 다른 식물에서 얻은 것들도 다 녹말이라고 부르게 된 거지.",
+            "turn_id": "BK22005455-5",
+            "utterance_id": "BK22005455.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 원래 녹두 가루인 거구나. 근데 나 마트에서 녹두 전분은 거의 못 본 거 같아. 제품으로 나오는 녹말들은 요즘 뭐로 만들지?",
+            "turn_id": "BK22005455-6",
+            "utterance_id": "BK22005455.11"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "오늘날 주된 상업적인 정제 녹말은 옥수수, 카사바, 애로루트, 밀, 쌀, 감자의 녹말이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 상업적",
+            "terminate": false,
+            "text": "오늘날 상업적으로 이용하는 건 옥수수, 카사바, 애로루트, 밀, 쌀, 감자의 정제 녹말을 이용하고 있어.",
+            "turn_id": "BK22005455-6",
+            "utterance_id": "BK22005455.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 이제 녹두 녹말은 안 나오는 거야?",
+            "turn_id": "BK22005455-7",
+            "utterance_id": "BK22005455.13"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "좀 더 소량의 정제 녹말 공급원으로 고구마, 사고, 녹두가 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 소량 정제",
+            "terminate": false,
+            "text": "안 나오는 건 아니고 고구마나 사고와 함께 소량의 정제 녹말 공급원으로 녹두가 이용되고 있어.",
+            "turn_id": "BK22005455-7",
+            "utterance_id": "BK22005455.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그런 거구나. 혹시 녹말을 먹는 거 말고 딴 데에도 쓸 수 있나? 이렇게 많은 식물에서 추출해서 쓰는 거면 다른 사용처도 있을 거 같아서 말이야.",
+            "turn_id": "BK22005455-8",
+            "utterance_id": "BK22005455.15"
+        },
+        {
+            "reference_date": "2022-07-17",
+            "reference_text": [
+                {
+                    "value": "골판지 접착제는 전세계적으로 식품이 아닌 분야에서 녹말의 가장 큰 사용처 중 하나이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EB%A7%90",
+            "search_query": "녹말 접착제",
+            "terminate": false,
+            "text": "아, 골판지 접착제로도 사용하고 있어. 식품이 아닌 녹말의 사용처 중에서는 가장 많이 쓰는 부문이야.",
+            "turn_id": "BK22005455-8",
+            "utterance_id": "BK22005455.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러고 보니 도배할 때 녹말풀을 쓰는 걸 예전에 본 거 같기도 하네. 재미있는 거 알려줘서 고마워.",
+            "turn_id": "BK22005455-9",
+            "utterance_id": "BK22005455.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니야, 나도 대화하는 거 재밌었어. 근데 약속이 있어서 이만 가봐야겠다.",
+            "turn_id": "BK22005455-9",
+            "utterance_id": "BK22005455.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응응, 어서 가봐. 나도 이제 들어가 봐야지, 벌써 어두워지네.",
+            "turn_id": "BK22005455-10",
+            "utterance_id": "BK22005455.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 그럼 다음에 또 보자고, 안녕!",
+            "turn_id": "BK22005455-10",
+            "utterance_id": "BK22005455.20"
+        }
+    ]
+}

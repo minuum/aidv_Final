@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000518",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000518",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구가 그러는데 요즘 중국어는 다들 배워야 한다고 하더라고요.",
+            "turn_id": "BK22000518-1",
+            "utterance_id": "BK22000518.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 주변에도 많이들 배우러 다니더라고요. 영어는 필수고 중국어도 당연히 배워야 하는 게 되고 있는 것 같아요. G2 시대라고들 하잖아요.",
+            "turn_id": "BK22000518-1",
+            "utterance_id": "BK22000518.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "G2 시대요? 처음 듣는 말인데 G2라면 설마 중국과 미국을 말하는 건가요?",
+            "turn_id": "BK22000518-2",
+            "utterance_id": "BK22000518.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "G2(영어: Group of Two, 그룹 오브 투) 또는 양국집단(중국어: 两国集团, 량궈지투안)은 미국과 중화인민공화국의 대립 구도를 이르는 말이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "G7이나 G20 등의 다자 정상회담과는 달리 정기적 협의체를 의미하는 것은 아니며, 선진국의 지표와도 구별된다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국은 현재 세계를 이끌어나가는 초강대국이고, 중화인민공화국은 신흥 경제 강국이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/G2",
+            "search_query": "G2",
+            "terminate": false,
+            "text": "네, G7이나 G20은 다자 정상회담을 말하는 거니 종종 뉴스에서 들어보셨을 거예요. G2는 정기적 협의 단체를 뜻하는 것은 아니고 미국과 중국의 대립 구도를 가리키는 말이에요. 미국은 전 세계가 인정할 만큼 초강대국이고, 또 중국은 새롭게 떠오르는 신흥 경제 강국이잖아요.",
+            "turn_id": "BK22000518-2",
+            "utterance_id": "BK22000518.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그런 깊은 뜻이 있었군요. 왜 다들 중국어를 배우는지 이제 이해가 됐어요.",
+            "turn_id": "BK22000518-3",
+            "utterance_id": "BK22000518.5"
+        },
+        {
+            "reference_date": "2022-04-12",
+            "reference_text": [
+                {
+                    "value": "한어수평고시 (중국어 간체자: 汉语水平考试, 정체자: 漢語水平考試, 병음: Hànyǔ Shuǐpíng Kǎoshì, HSK)는 중국어 시험 중 하나이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "약자로 HSK라고 불리며 외국인을 위한 중국어 시험으로 가장 권위가 있다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%96%B4%EC%88%98%ED%8F%89%EA%B3%A0%EC%8B%9C",
+            "search_query": "HSK",
+            "terminate": false,
+            "text": "네, 전 중국어 어학 시험인 HSK를 목표로 공부하고 있어요. HSK는 한어수평고시인데 중국어 시험 중 하나에요. 다들 줄여서 HSK로 많이 부르는데 들어보셨을 거예요. 중국어 시험 중에 가장 권위가 있는 게 바로 HSK에요.",
+            "turn_id": "BK22000518-3",
+            "utterance_id": "BK22000518.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "HSK는 저도 언뜻 들어본 것 같아요. 중국어는 배울 때 어려운 게 성조 때문이라고 하잖아요. 성조가 정확히 뭘 말하는지 알고 있어요?",
+            "turn_id": "BK22000518-4",
+            "utterance_id": "BK22000518.7"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "성조(聲調, 영어: tone)는 말소리의 높이가 어휘 의미의 변별 기능을 수행하며, 음운론의 층위에서 낱말의 각 음절에 자질로서 부과되는 것을 말한다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B1%EC%A1%B0",
+            "search_query": "성조",
+            "terminate": false,
+            "text": "성조란 말소리의 높이가 어휘의 뜻을 변별하는 기능을 맡으며, 음운론의 층위에서 낱말의 각 음절에 자질로서 부여되는 것을 뜻해요.",
+            "turn_id": "BK22000518-4",
+            "utterance_id": "BK22000518.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 성조란 그런 뜻이었군요. 중국어는 어순이 영어와 똑같다는 말이 있던데 맞아요?",
+            "turn_id": "BK22000518-5",
+            "utterance_id": "BK22000518.9"
+        },
+        {
+            "reference_date": "2018-07-02",
+            "reference_text": [
+                {
+                    "value": "중국어가 영어와 똑같다고 말할 수 있는 제일 기본적인 내용은 바로 '어순'이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어의 기본적인 어순은 바로 주어+서술+목적어이며 중국어 역시 이 어순으로 발화해야 하기 때문에 '중국어는 영어랑 똑같다'라는 속설이 생기게 된 가장 큰 배경이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 중국어의 기본 문형의 순서를 제외하고 문장이 확장되었을 경우의 어순은 되려 한국말과 비슷하다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://uberin.mk.co.kr/view.php?year=2018&no=415096",
+            "search_query": "중국어 어순",
+            "terminate": false,
+            "text": "그런 말들이 많죠. 영어의 어순이 주어와 서술 목적어인데 중국어도 영어의 어순과 마찬가지로 말하니 어순이 똑같다는 속설이 생겼어요. 하지만 중국어는 기본 문형의 순서만 영어의 어순과 똑같을 뿐 문장이 확장되면 한국말과 비슷한 어순을 가졌어요.",
+            "turn_id": "BK22000518-5",
+            "utterance_id": "BK22000518.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어순이 영어와 비슷하지만 오히려 한국어와 비슷하다니 몰랐던 사실이네요. 그런데 중국어는 말하기 시험도 따로 있는 거죠?",
+            "turn_id": "BK22000518-6",
+            "utterance_id": "BK22000518.11"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "TSC는 국내 최초로 CBT(Computer Based Test)와 MBT(Mobile Based Test)방식을 도입해 원하는 날짜와 장소에서 다수의 인원이 동시에 볼 수 있는 시험이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "동일한 질문이지만 응시자의 답변에 따라 1~10등급으로 나눠 평가를 받는다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=393425",
+            "search_query": "중국어 말하기 시험",
+            "terminate": false,
+            "text": "네, 중국어 말하기 시험은 TSC인데 원하는 날짜와 장소에서 여러 명의 사람이 동시에 볼 수 있어요. 시험 방식은 CBT와 MBT 방식으로 이뤄져요. 중국어 말하기 시험은 질문은 같지만 응시자의 답변에 따라서 등급을 나눠 평가받는데 1등급에서 10등급까지 평가를 받아요.",
+            "turn_id": "BK22000518-6",
+            "utterance_id": "BK22000518.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 문제는 같아도 말하는 실력은 다르니 등급 받는 게 차이가 생길 수밖에 없겠어요. 질문은 난이도가 어느 정도예요?",
+            "turn_id": "BK22000518-7",
+            "utterance_id": "BK22000518.13"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "문제는 인터뷰 형식의 평가 방식으로 쉬운 문제부터 출발해서 뒤로 갈수록 난이도가 올라간다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=393425",
+            "search_query": "중국어 TSC 난이도",
+            "terminate": false,
+            "text": "중국어 말하기 시험의 난이도는 그리 쉽지 않아요. 평가는 인터뷰 형식인데 시작은 쉬운 문제지만 뒤로 갈수록 점점 어려워져요.",
+            "turn_id": "BK22000518-7",
+            "utterance_id": "BK22000518.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 인터뷰 형식이라 실력이 바로 드러나겠어요. 우리 같은 회사원들은 회화가 중요하긴 한데 회화 시험도 따로 있어요?",
+            "turn_id": "BK22000518-8",
+            "utterance_id": "BK22000518.15"
+        },
+        {
+            "reference_date": "2021-07-22",
+            "reference_text": [
+                {
+                    "value": "BCT는 비즈니스 활동에 필요한 중국어와 일상생활, 사회활동 중 요구되는 전반적인 중국어실력을 측정하는 중국어 활용능력 시험이다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=393425",
+            "search_query": "중국어 회화 시험",
+            "terminate": false,
+            "text": "네, 중국어 회화 시험으로 BCT가 있어요. BCT는 사회 활동에서 요구하는 중국어 실력을 측정하니 저희에게 딱 맞는 시험이죠. 비즈니스를 하면서 필요한 중국어와 사회 활동에 맞는 중국어를 평가하니 직장인이라면 BCT를 준비하는 게 좋죠.",
+            "turn_id": "BK22000518-8",
+            "utterance_id": "BK22000518.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 회화는 그런데 막상 하려면 너무 어려울 것 같아요. 일단 학생의 마음으로 돌아가서 HSK부터 해볼까 해요. HSK는 시험은 일 년에 몇 번씩 보는 거예요?",
+            "turn_id": "BK22000518-9",
+            "utterance_id": "BK22000518.17"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "한국에서도 HSK 한국 사무국에서 매월 HSK 시험을 실시하고 있으며, OMR카드 방식의 PBT시험과 컴퓨터 방식의 IBT 두가지 방식으로 시행되는데, 두 시험 성적의 효력은 동일하다.",
+                    "value_time": "2022-06-26",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20220330154458588354",
+            "search_query": "HSK 시험일정",
+            "terminate": false,
+            "text": "일 년에 몇 번씩 밖에 시험이 없으면 기간에 쫓겨서 힘들텐데 다행히 매월 시험이 있어요. 시험 방식은 두 가지인데 OMR 카드 방식의 PBT와 컴퓨터 방식의 IBT가 있는데 성적의 효력은 두 방식 모두 동일하게 보고 있어요.",
+            "turn_id": "BK22000518-9",
+            "utterance_id": "BK22000518.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 매월 시험을 칠 수 있는 건 좋네요. 일단은 중국 드라마라도 보면서 중국어에 대한 흥미를 키워야겠어요.",
+            "turn_id": "BK22000518-10",
+            "utterance_id": "BK22000518.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그래서 요즘 중국 드라마 보고 있는데 다 보면 재밌는 걸로 몇 개 추천해 줄게요.",
+            "turn_id": "BK22000518-10",
+            "utterance_id": "BK22000518.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "정말요? 그럼 몇 개 알려주시면 꼭 챙겨 볼게요. 그럼 다음에 만나서 또 얘기해요.",
+            "turn_id": "BK22000518-11",
+            "utterance_id": "BK22000518.21"
+        }
+    ]
+}

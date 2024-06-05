@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005706",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005706",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 어제 영화 300을 봤어요. 거기 보면 긴 창을 든 그리스 군인들이 따닥따닥 붙어서 전진을 하던데 그렇게 빽빽하게 가면 당시 전쟁에서 장점이 있었나요?",
+            "turn_id": "BK22005706-1",
+            "utterance_id": "BK22005706.1"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "당시 그리스 중장보병들은 밀집대형을 이루어 전투를 수행하였는데 이를 일컬어 ‘팔랑크스(Phalanx)’라고 한다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "빈틈 없이 빽빽이 늘어선 장창의 대오는 방진을 갖추지 못한 적 보병은 물론 기병 심지어는 하늘로 날아오는 적의 화살과 돌팔매 같은 원거리 무기에 대해서도 효과적인 방어책이 될 수 있었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "그리스 중장보병 팔랑크스",
+            "terminate": false,
+            "text": "팔랑크스를 말씀하시는 거군요. 밀집대형을 이룬 그리스 중장보병들을 팔랑크스라고 하거든요. 그런 식으로 빈틈을 주지 않아야 진형을 갖추지 못한 적 보병이나 기병, 심지어 공중에서 날아드는 적의 화살이나 돌팔매 등의 원거리 무기에 대해 효과적으로 방어할 수 있었기 때문이에요.",
+            "turn_id": "BK22005706-1",
+            "utterance_id": "BK22005706.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그게 팔랑크스라고 하는 거군요. 팔랑크스는 보통 몇 명 정도로 구성되었나요?",
+            "turn_id": "BK22005706-2",
+            "utterance_id": "BK22005706.3"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "마케도니아를 기준으로 보통 하나의 방진은 16 x 16의 대형을 이루었는데 앞 열은 대체로 나이가 어린 신병, 뒤 열은 전투 경험이 많은 고참급 병사들이 위치했다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "팔랑크스 방진 신병 고참",
+            "terminate": false,
+            "text": "마케도니아를 기준으로 볼 때 하나의 대형은 16 곱하기 16으로 구성됐어요. 앞쪽은 보통 젊은 신참, 뒤쪽은 전투 경험이 풍부한 고참들이 위치했죠.",
+            "turn_id": "BK22005706-2",
+            "utterance_id": "BK22005706.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "16 곱하기 16이면 256명이네요. 그런데 그렇게 빽빽하게 뭉쳐 다니면 개인의 움직임이 굉장히 제한되지 않나요?",
+            "turn_id": "BK22005706-3",
+            "utterance_id": "BK22005706.5"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "즉, 그리스의 보병은 훈련받은 우수한 병사라기보다는 무장을 갖춘 시민들의 집단이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 개개인의 무용이나 현재와 같은 전술적 움직임 대신, 시민단 전체의 유기적인 연결에 집중하게 된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%80%EC%A7%91_%EC%9E%A5%EC%B0%BD_%EB%B3%B4%EB%B3%91%EB%8C%80",
+            "search_query": "그리스 중장보병 시민 집단",
+            "terminate": false,
+            "text": "물론 개인의 무력을 발휘하기도 어렵고 요즘 같은 전술적인 움직임을 보여주기도 어렵죠. 하지만 그리스의 보병은 훈련받은 군인이 아니라 무기를 장비한 시민 집단이었거든요. 그래서 시민단 전체의 유기적인 연결에 중점을 맞춘 거죠.",
+            "turn_id": "BK22005706-3",
+            "utterance_id": "BK22005706.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 말씀대로 군인이 아니었다면 꼭 전쟁에 참여할 의무는 없었을 텐데 순순히 전쟁에 참가한 이유는 뭔가요?",
+            "turn_id": "BK22005706-4",
+            "utterance_id": "BK22005706.7"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "이렇게 그리스 병사들이 자발적으로 돈을 지불하여 무장을 구입하고 고된 훈련을 마치고 목숨을 걸고 전투에 참가 했던 이유는 시민으로 정치적 발언권을 인정 받기 위해서였던 것이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "그리스 팔랑크스 시민 발언권",
+            "terminate": false,
+            "text": "자비로 무기를 사고 힘든 훈련을 거쳐서 생명을 걸고 전쟁에 참여했던 이유는 시민으로서의 정치적 발언권을 얻기 위해서였어요.",
+            "turn_id": "BK22005706-4",
+            "utterance_id": "BK22005706.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시민으로서의 권리를 확보하기 위해서는 죽음도 마다하지 않았다는 거군요. 그게 팔랑크스가 강했던 이유 중에 하나겠네요. 그럼 이 막강했던 팔랑크스에 단점은 없었나요?",
+            "turn_id": "BK22005706-5",
+            "utterance_id": "BK22005706.9"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "열과 오를 맞춘 정방형의 방진은 산악지대나 수풀이 우거진 지역 또는 습지처럼 대규모 병력의 기동이 힘든 지역 또는 대형을 이루는 것 자체가 힘든 지형에서는 무용지물과 다름 없었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "그리스 팔랑크스 방진 지형",
+            "terminate": false,
+            "text": "열과 오를 맞춘 정사각형의 방진이라서 산악지대나 수풀이 우거진 지역, 습지 등의 지형에서 취약했어요. 그런 지형에서는 대형을 짜는 것 자체가 힘든 데다 대규모 병력이 움직일 수 없었거든요.",
+            "turn_id": "BK22005706-5",
+            "utterance_id": "BK22005706.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 지형적인 제약을 많이 받았군요. 제가 영화를 보니까 창이 너무 길어보이던데 혹시 그로 인해서 파생되는 문제는 없었나요?",
+            "turn_id": "BK22005706-6",
+            "utterance_id": "BK22005706.11"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "중장보병의 도리는 평균 2.5 ~ 3m 에 달하였고, 필리포스 2세 치하의 마케도니아 시대로 가면 그 길이가 6m에 달할 정도로 그 길이가 길어졌다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 장창은 최소 3명 이상의 앞사람까지 도달할 정도였고 이로 인해 신속한 방향전환이 어려웠다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "팔랑크스 도리 마케도니아 방향전환",
+            "terminate": false,
+            "text": "중장보병의 장창인 도리는 평균 길이가 2.5에서 3m였고 필리포스 2세 시대의 마케도니아에서는 6m까지도 길어졌죠. 길이가 앞으로 3번째 사람까지 도달할 정도였으니 당연히 방향전환이 굉장히 느릴 수 밖에 없었고요.",
+            "turn_id": "BK22005706-6",
+            "utterance_id": "BK22005706.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결속은 강하지만 유연성이 많이 부족했던 전술이네요. 팔랑크스 전술이 사라지게 된 계기는 뭔가요?",
+            "turn_id": "BK22005706-7",
+            "utterance_id": "BK22005706.13"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "이러한 단점들에도 불구하고 그리스 폴리스들만큼의 체계적인 무장이나 전술이 전무했던 이민족 군대를 상대로는 팔랑크스가 막대한 위력을 발휘 할 수 있었으나, 기원전 168년 마케도니아와 로마 사이에 벌어진 피드나 전투에서 마케도니아군이 전멸에 가까운 타격을 입으면서 팔랑크스의 시대도 막을 내리게 된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "팔랑크스 로마 피드나 전투 전멸",
+            "terminate": false,
+            "text": "그리스 폴리스보다 체계적인 무장과 전술이 부족했던 이민족 상대로는 막강한 위력을 발휘할 수 있었지만 기원전 168년에 마케도니아와 로마가 벌였던 피드나 전투에서 마케도니아군이 궤멸하는 사건이 발생해요. 이로 인해 팔랑크스의 시대는 끝이 나게 되죠.",
+            "turn_id": "BK22005706-7",
+            "utterance_id": "BK22005706.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 로마는 흔하디 흔한 다른 이민족들이랑은 달랐나 보네요. 로마는 어떻게 팔랑크스에게 그런 큰 타격을 줄 수 있었던 건가요?",
+            "turn_id": "BK22005706-8",
+            "utterance_id": "BK22005706.15"
+        },
+        {
+            "reference_date": "2014-10-13",
+            "reference_text": [
+                {
+                    "value": "전투 초 중반까지 마케도니아군의 위력적인 팔랑크스의 위세에 짓눌린 로마군은 섣불리 공격을 하지 못하였으나 암석지대를 기동하면서 틈이 벌어진 팔랑크스의 약점을 놓치지 않고 공격을 가해 대승을 거두었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2014/10/1305090/",
+            "search_query": "팔랑크스 암석지대 피드나 전투",
+            "terminate": false,
+            "text": "전투 초중반까지는 마케도니아군의 팔랑크스가 큰 위력을 발휘해서 로마군이 감히 공격을 못했어요. 하지만 암석지대를 지나면서 팔랑크스에 틈이 벌어졌고 로마는 이를 놓치지 않고 공격을 했죠. 그 결과 로마의 압승으로 끝났어요.",
+            "turn_id": "BK22005706-8",
+            "utterance_id": "BK22005706.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 지형이 발목을 잡은 거군요. 환경의 영향을 많이 받는 군대는 아무리 막강한 전력을 지녔더라도 결국 패배하는 것 같아요.",
+            "turn_id": "BK22005706-9",
+            "utterance_id": "BK22005706.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 모든 상황에 대응할 수 있는 유연성이 중요한거죠.",
+            "turn_id": "BK22005706-9",
+            "utterance_id": "BK22005706.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 저도 직장에서 살아남으려면 어떤 업무환경에서도 적응할 수 있는 유연성을 길러야겠다는 생각을 했어요. 오늘도 질문에 친절하게 답변해주셔서 감사합니다.",
+            "turn_id": "BK22005706-10",
+            "utterance_id": "BK22005706.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 다음에도 모르는 게 있으면 편하게 질문 주세요!",
+            "turn_id": "BK22005706-10",
+            "utterance_id": "BK22005706.20"
+        }
+    ]
+}

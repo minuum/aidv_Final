@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006198",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006198",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 우연히 닐 암스트롱이 달을 걸어 다니는 영상을 봤는데, 아직 달에 사람을 보낸 나라는 미국뿐인가요?",
+            "turn_id": "BK22006198-1",
+            "utterance_id": "BK22006198.1"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "현재까지 유인 달 착륙에 성공한 나라는 미국이 유일하다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "러시아와 중국은 무인 달 착륙에 성공했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "미국 달 착륙 유일",
+            "terminate": false,
+            "text": "맞아요. 현재까지 달에 사람을 보내 착륙시킨 나라는 미국밖에 없어요. 러시아와 중국은 무인으로 달 착륙에 성공했고요.",
+            "turn_id": "BK22006198-1",
+            "utterance_id": "BK22006198.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달에 사람을 보내는 게 무척 어려운 일이었군요. 그런데 달 탐사는 언제부터 시작된 거예요?",
+            "turn_id": "BK22006198-2",
+            "utterance_id": "BK22006198.3"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "인류 달 탐사 역사는 1959년 러시아(구 소련)가 달 충돌선 루나(LUNA) 1호를 통해 세계 최초로 달 근접 비행에 성공하며 서막이 올랐다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "러시아 달 탐사 역사",
+            "terminate": false,
+            "text": "우리 인류가 달을 탐사하기 시작한 건 1959년으로 거슬러 올라가야 해요. 당시 소련이라 불리던 러시아가 세계 최초로 달 충돌선인 루나 1호를 만들어 달에 근접하게 비행하는 데 성공했죠.",
+            "turn_id": "BK22006198-2",
+            "utterance_id": "BK22006198.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미국이 아니라 러시아가 시작했다니 완전 의외네요. 당시 러시아가 기술력이 좋았나 봐요.",
+            "turn_id": "BK22006198-3",
+            "utterance_id": "BK22006198.5"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "초기 달 탐사는 러시아가 주도했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "러시아는 1959년부터 1976까지 루나 프로그램을 가동해 총 24회 중 15회를 성공했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "러시아 달 탐사 강국",
+            "terminate": false,
+            "text": "맞아요. 러시아는 1959년부터 루나 프로그램을 진행해, 1976년에 이르기까지 총 24번 중 15번이나 달 근접 비행에 성공했거든요. 초기에는 러시아가 달 탐사 사업을 주도한 셈이죠.",
+            "turn_id": "BK22006198-3",
+            "utterance_id": "BK22006198.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 미국은 러시아에 자극받아서 우주 산업을 시작한 건가요?",
+            "turn_id": "BK22006198-4",
+            "utterance_id": "BK22006198.7"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "러시아가 세계 최초의 인공위성 발사, 우주인 배출 등 우주 경쟁에서 앞서 나가자, 큰 위기감을 느낀 미국은 그 타개책으로 유인 달 탐사 계획인 아폴로 프로그램에 착수했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "미국 달 탐사 시작",
+            "terminate": false,
+            "text": "그렇죠. 러시아가 우주 산업에서 뛰어난 면을 자주 보였거든요. 세계에서 맨 처음으로 인공위성을 발사하기도 하고 우주인을 배출해내기도 하고요. 그래서 미국이 위기의식을 느껴 그 대안으로 사람을 달에 보낸다는 아폴로 프로그램을 계획해 착수했죠.",
+            "turn_id": "BK22006198-4",
+            "utterance_id": "BK22006198.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 제대로 경쟁이 붙은 거네요. 그럼 그때 만들어진 게 아폴로 11혼가요?",
+            "turn_id": "BK22006198-5",
+            "utterance_id": "BK22006198.9"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "가장 대표적인 성과는 1969년 7월 아폴로 11호로 인류가 달에 발자국을 남기는 데 성공한 것이다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "아폴로 11호 성공",
+            "terminate": false,
+            "text": "맞아요! 아폴로 프로그램의 가장 대표 성과죠. 1969년 7월에 아폴로 11호로 달에 착륙해 사람의 발자국을 찍는 데 성공했어요.",
+            "turn_id": "BK22006198-5",
+            "utterance_id": "BK22006198.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 그 이후로 아직 어떤 나라도 달에 사람을 보내지 못했다는 게 새삼 놀랍네요. 미국의 기술력이 장난 아니군요. 그럼, 미국과 러시아 외에 다른 나라들도 달 탐사에 관심을 가지고 있나요?",
+            "turn_id": "BK22006198-6",
+            "utterance_id": "BK22006198.11"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "2000년대에 진입하며 중국, 인도, 유럽, 일본 등 주요 우주 선진국들이 본격적으로 달 탐사를 추진하기 시작했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "우주 선진국 달 탐사 시도",
+            "terminate": false,
+            "text": "2000년대에 들어서면서부터 여러 나라들이 달 탐사 사업을 진행하고 있어요. 대부분 중국, 인도, 유럽, 일본 같은 우주 선진국들이죠.",
+            "turn_id": "BK22006198-6",
+            "utterance_id": "BK22006198.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 중국이랑 일본도 우주 산업에 강하군요. 일본도 달에 우주선을 쏘아 보낸 적이 있나요?",
+            "turn_id": "BK22006198-7",
+            "utterance_id": "BK22006198.13"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "일본은 1990년에 일본 최초의 달궤도선인 '히텐'(Hiten)을 발사했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국과 소련 이후 다른 국가에서 발사된 최초의 달 탐사선이었다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 10번의 달 선회 비행 후 달과 충돌해 임무를 완수하지 못했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "일본 달 탐사 기록",
+            "terminate": false,
+            "text": "일본은 1990년에 처음으로 달궤도선인 히텐을 우주로 쏘아 올렸어요. 당시에는 미국과 러시아 외에 다른 나라가 달 탐사선을 보낸 걸로는 최초였죠. 그런데 히텐은 달을 10번 정도 선회 비행한 뒤 달과 부딪히면서 제대로 임무를 마치진 못했어요.",
+            "turn_id": "BK22006198-7",
+            "utterance_id": "BK22006198.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달에 우주선을 보내는 것 자체도 쉬운 일은 아닌가 보네요. 중국 같은 경우는 어떤 상황인가요?",
+            "turn_id": "BK22006198-8",
+            "utterance_id": "BK22006198.15"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "중국은 2007년 10월 중국 최초의 달궤도선 창어 1호를 통해 달 표면 3차원 지도를 작성한 데 이어 창호 2호(2010년 1월)로 달 착륙 예정지 지도를 완성했다.",
+                    "value_time": "2022-08-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsis.com/view/?id=NISX20220803_0001966911",
+            "search_query": "중국 달 탐사 기록",
+            "terminate": false,
+            "text": "중국은 2007년 10월에 달궤도선인 창어 1호를 처음 쏘아 올렸고, 달 표면을 3차원 지도로 작성하는 데 성공했어요. 2010년 1월에는 창호 2호를 보내 착륙하기 적합한 위치를 지도로 완성했고요.",
+            "turn_id": "BK22006198-8",
+            "utterance_id": "BK22006198.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 중국이 우주 산업에서 선전하고 있었다니 의외네요.",
+            "turn_id": "BK22006198-9",
+            "utterance_id": "BK22006198.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 관심을 가지지 않으면 자세히 알긴 어려운 분야긴 하죠.",
+            "turn_id": "BK22006198-9",
+            "utterance_id": "BK22006198.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 이번에 우리나라가 달에 우주선을 쏘아 보내서 관심을 가진 거긴 해요. 그래도 덕분에 이렇게 달 탐사 역사에 대해 알게 되니 좋네요. 생각했던 것보다 더 흥미로운걸요?",
+            "turn_id": "BK22006198-10",
+            "utterance_id": "BK22006198.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "우주는 우리가 모르는 미지의 세계라 이야기를 듣는 것만으로도 재밌죠. 궁금이님이 흥미롭게 느끼셨다니 다행이에요. 다음에 또 이야기 나눠 봐요!",
+            "turn_id": "BK22006198-10",
+            "utterance_id": "BK22006198.20"
+        }
+    ]
+}

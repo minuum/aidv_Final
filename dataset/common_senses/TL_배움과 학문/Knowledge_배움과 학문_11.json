@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009096",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009096",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텔레비전 여행 프로그램에서 크로아티아의 도시들이 나왔어. 특히 자다르라는 곳이 아름답던데 어떤 곳인지 설명해 줄래?",
+            "turn_id": "BK22009096-1",
+            "utterance_id": "BK22009096.1"
+        },
+        {
+            "reference_date": "2016-03-20",
+            "reference_text": [
+                {
+                    "value": "자다르는 크로아티아 달마티아 지역의 주도이다, 고대 로마시대의 흔적을 그대로 간직하고 있는 도시이며, 중세시대에는 로마교황청에서 직접 관리했을 정도로 중요한 도시였다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "푸른 아드리아 해를 그대로 품고 있는 항구도시이자 교통의 요충지로, 크로아티아 사람들은 물론이고 전 세계인들에게 사랑받는 휴양 명소이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201603200915364727242_1/article.html?md=20170208220407_U",
+            "search_query": "자다르",
+            "terminate": false,
+            "text": "크로아티아의 달마티아 지역의 주도인 자다르는 고대 로마의 흔적이 남아 있는 곳이야. 중세에는 로마교황청의 직접 관리를 받는 주요 도시였어. 현재는 아드리아해를 품고 있는 항구도시면서 교통의 중심지로 많은 사람들이 사랑하는 휴양지야.",
+            "turn_id": "BK22009096-1",
+            "utterance_id": "BK22009096.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "로마의 흔적이 남아 있는 아름다운 도시가 자다르구나. 로마의 유물이 남아 있다고 하니 자다르라는 오래된 도시 같은데, 도시의 역사를 알려 줄래?",
+            "turn_id": "BK22009096-2",
+            "utterance_id": "BK22009096.3"
+        },
+        {
+            "reference_date": "2016-03-24",
+            "reference_text": [
+                {
+                    "value": "자다르는 역사적으로 고대 로마의 식민지가 되기 이전에는 일리리아인이 세운 도시였다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "812년 아헨 조약으로 비잔티움 제국령으로 귀속되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "12세기 후반에 헝가리 왕국이 이 도시를 점령했지만, 1202년 베네치아 공화국령으로 다시 귀속되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 세계 대전 뒤 1947년 이탈리아와 연합국 사이의 평화 조약으로 유고슬라비아령이 되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1991년 크로아티아 독립전쟁에서 세르비아군의 공격으로 큰 피해를 입었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201603241802112310642_1/article.html?md=20170208220418_U",
+            "search_query": "자다르 역사",
+            "terminate": false,
+            "text": "자다르는 일리리아인이 세운 도시였다가 812년 아헨 조약에 의해 비잔티움 제국령으로 편입되었어. 그 후 12세기 후반에는 헝가리 왕국에 의해 점령당했다가 1202년 다시 베네치아 공화국령이 되었어. 그리고, 2차 세계 대전 이후 1947년 이탈리아와 연합국의 평화조약으로 유고슬라비아령으로 귀속되었어. 또, 1991년에는 크로아티아의 독립전쟁으로 세르비아군에 의해 큰 공격을 받기도 했어.",
+            "turn_id": "BK22009096-2",
+            "utterance_id": "BK22009096.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사적으로 많은 수난을 겪은 도시구나. 그래도, 그 수난을 이겨내서 사람들이 많이 찾는 휴양지가 되었구나. 근데, 자다르에 어떤 볼 것이 있어서 사람들이 많이 찾는지 궁금한데 자다르의 볼거리를 알려줄래?",
+            "turn_id": "BK22009096-3",
+            "utterance_id": "BK22009096.5"
+        },
+        {
+            "reference_date": "2016-03-28",
+            "reference_text": [
+                {
+                    "value": "이곳에는 '해야 안녕; The Greeting to the Sun/Pozdrav Suncu'이라는 제목의 설치예술이 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태양으로부터 명왕성에 이르기까지 태양계를 크기와 거리의 비례에 맞추어 배열해 놓았다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 낮 시간 동안 태양에 깔아놓은 태양전지를 통하여 얻은 전기에너지로 밤에는 빛의 마술이 펼쳐진다고 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medicaltimes.com/News/1103554",
+            "search_query": "자다르 해야 안녕",
+            "terminate": false,
+            "text": "자다르에는 설치 예술품인 해야 안녕이 있어. 태양계의 행성들을 태양부터 명왕성까지 크기와 거리의 비에 맞춰 배열해 놓았어. 해야 안녕은 낮 시간 동안 태양전지를 통해 얻은 전기에너지로 밤에는 빛의 마술이 펼쳐지는 곳이야.",
+            "turn_id": "BK22009096-3",
+            "utterance_id": "BK22009096.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해야 안녕이 밤에 어떤 모습인지 궁금하다. 근데 여행 프로그램에서 보니 자다르의 명물은 바다 오르간이라던데 맞아?",
+            "turn_id": "BK22009096-4",
+            "utterance_id": "BK22009096.7"
+        },
+        {
+            "reference_date": "2017-07-14",
+            "reference_text": [
+                {
+                    "value": "자다르를 대표하는 랜드 마크인 독특한 바다 오르간(Moske Orgulje)은 파도의 움직임에 따라 아름다운 자연의 음악을 연주한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코발트 빛 바다로 향하는 돌계단에 구멍을 뚫어 만든 자연이 연주하는 악기인 바다 오르간은 파이프와 호루라기의 원리를 응용해 건축가 니콜라 바시치가 2005년에 디자인해 만든 세계 최초의 파이프 오르간이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/4815760",
+            "search_query": "자다르 바다 오르간",
+            "terminate": false,
+            "text": "맞아, 자다르의 랜드마크는 바다 오르간이야. 파도의 움직임에 맞춰 아름다운 음악을 들을 수 있는 곳이지. 2005년에 니콜라 바시치가 호루라기의 원리를 이용해 건축한 돌계단에 구멍을 뚫어서 만든 자연이 연주하는 세계 최초의 파이프 오르간이야.",
+            "turn_id": "BK22009096-4",
+            "utterance_id": "BK22009096.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파도가 연주하는 오르간이 들려주는 소리가 궁금하네. 자다르는 오래된 도시니 유적도 많을 것 같은데 뭐가 있어?",
+            "turn_id": "BK22009096-5",
+            "utterance_id": "BK22009096.9"
+        },
+        {
+            "reference_date": "2016-03-31",
+            "reference_text": [
+                {
+                    "value": "해변을 따라 걸어서 자다르의 구시가지로 들어간다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지금은 바다 쪽으로는 열려 있지만, 자다르의 구시가지는 로마 줄리우스 시저와 아우구스투스황제 시절에 건설되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시가지 서쪽으로는 로마 광장, 성당, 사원 등이 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medicaltimes.com/News/1103636",
+            "search_query": "자다르 관광",
+            "terminate": false,
+            "text": "해변을 따라 걸으면 구시가지가 나오는 데 이곳은 로마 줄리우스 시저와 아우구스투스가 황제 시절에 만든 곳이야. 구시가의 서쪽에는 로마 광장, 성당, 사원이 있어.",
+            "turn_id": "BK22009096-5",
+            "utterance_id": "BK22009096.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구시가에 가면 오래된 건물을 볼 수 있구나. 또 자다르에서 볼 수 있는 유적은 뭐가 있어?",
+            "turn_id": "BK22009096-6",
+            "utterance_id": "BK22009096.11"
+        },
+        {
+            "reference_date": "2021-11-10",
+            "reference_text": [
+                {
+                    "value": "16세기 베네치아 인들이 오스만 투르크의 공격을 대비해 만든 식수원이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "19세기까지 이용된 다섯 개 우물은 지금까지 잘 보존되고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 여름 이곳에선 음악회가 열린다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=91188",
+            "search_query": "자다르 다섯개의 우물",
+            "terminate": false,
+            "text": "16세기에 베네치아인들이 오스만튀르크의 공격을 대비해서 만든 다섯 개의 우물이 남아 있어. 이 우물들은 19세기까지 사용되었고, 지금까지 잘 보존되어 있어. 이곳에서는 한 여름에 음악회가 열려.",
+            "turn_id": "BK22009096-6",
+            "utterance_id": "BK22009096.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우물 옆에서 열리는 음악회도 운치 있겠네. 프로그램에서 보니 자다르의 성당도 유명하다던데 어떤 곳이야?",
+            "turn_id": "BK22009096-7",
+            "utterance_id": "BK22009096.13"
+        },
+        {
+            "reference_date": "2016-03-21",
+            "reference_text": [
+                {
+                    "value": "로마시대 포럼 유적지에 건축된 성 도나트 성당은 자다르를 대표하는 비잔틴 양식의 건축물이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "원래는 삼위일체성당으로 불렸으나 건축 600년 후 이 성당을 세운 도나트 주교에게 경의를 표하기 위해 성 도나트 성당으로 개명되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/201603211128135917024_1/article.html?md=20170208220417_U",
+            "search_query": "자다르 성 도나트 성당",
+            "terminate": false,
+            "text": "성 도나트 성당이 자다르를 대표하는 성당이야. 이곳은 로마시대 포럼 유적지에 건축된 비잔틴 양식의 건축물이야. 예전에는 삼위일체 성당이었는데 건축 600년 후에 성당을 세운 도나트 주교에 대한 경의의 표현으로 성 도나트 성당으로 이름을 바꿨어.",
+            "turn_id": "BK22009096-7",
+            "utterance_id": "BK22009096.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성 도나트 성당은 그런 곳이구나. 또 다른 관광할 만한 곳 더 알려줘.",
+            "turn_id": "BK22009096-8",
+            "utterance_id": "BK22009096.15"
+        },
+        {
+            "reference_date": "2021-11-10",
+            "reference_text": [
+                {
+                    "value": "바로 옆에는 1543년에 건축된 육지의 문이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "승리를 상징하는 3개의 아치로 구성되어 있는 문 위에는 베네치안 공국을 상징하는 날개 달린 사자상이 눈길을 끈다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 문은 당대 베네치아 유명 건축가인 미켈레 산미켈리(Michele Sanmicheli, 1484~1559)의 작품으로 자다르에서 가장 아름다운 르네상스 시대의 건축물로 손꼽는다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woman.chosun.com/news/articleView.html?idxno=91188",
+            "search_query": "자다르 육지의 문",
+            "terminate": false,
+            "text": "1543년 베네치아의 유명 건축가인 미켈레산미켈리에 의해 지어진 육지의 문도 있어. 승리를 의미하는 3개의 아치로 만들어진 문의 위쪽에는 베네치아 공국의 상징인 날개 달린 사자상이 자리하고 있어. 이 문은 자다르에서 가장 아름다운 르네상스 건축물로 손에 꼽혀.",
+            "turn_id": "BK22009096-8",
+            "utterance_id": "BK22009096.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 자다르의 건축물이나 유물들은 다양한 나라와 시대의 특징이 고스란히 남아 있는 것 같아.",
+            "turn_id": "BK22009096-9",
+            "utterance_id": "BK22009096.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 많은 나라의 침입과 통치를 받아서 그렇지.",
+            "turn_id": "BK22009096-9",
+            "utterance_id": "BK22009096.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자다르에 가서 그런 것들을 직접 보고 싶다. 오늘 자다르에 대해 자세히 설명해 줘서 고마워.",
+            "turn_id": "BK22009096-10",
+            "utterance_id": "BK22009096.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 언제든지 궁금한 건 물어보고. 우리는 다음에 만나자, 안녕.",
+            "turn_id": "BK22009096-10",
+            "utterance_id": "BK22009096.20"
+        }
+    ]
+}

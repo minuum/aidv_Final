@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006395",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006395",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 학교에서 진짜 열 받아 죽는 줄 알았어요. 제가 음식 메뉴를 빨리 못 고르니까 친구들이 소심하다며 제가 내시라고 놀리더라고요. 실제 역사에서의 내시는 대체 어떤 직업이었나요?",
+            "turn_id": "BK22006395-1",
+            "utterance_id": "BK22006395.1"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "내시(內侍)는 고려 때와 조선 때 궁궐 안에서의 잡무를 보는 관직 또는 임금을 옆에서 모시는 중요한 관직이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%B4%EC%8B%9C",
+            "search_query": "내시 조선 관직",
+            "terminate": false,
+            "text": "하하, 내시가 친구들에게는 그리 좋지 않은 이미지인가 보네요. 하지만 내시는 나름대로 궁궐에서 각종 업무를 보거나 왕을 옆에서 모시기 때문에 중요한 관직이었어요.",
+            "turn_id": "BK22006395-1",
+            "utterance_id": "BK22006395.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 하지만 아무래도 내시의 이미지 자체가 소인배 혹은 간신의 느낌이 강하잖아요. 혹시 제 고정관념과는 달랐던 내시도 있었나요?",
+            "turn_id": "BK22006395-2",
+            "utterance_id": "BK22006395.3"
+        },
+        {
+            "reference_date": "2013-05-25",
+            "reference_text": [
+                {
+                    "value": "1505년 김처선이란 조선시대 내관이 왕 연산군에게 ‘잘렸다’.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "김처선은 연산군에게 규간(規諫)하다 왕이 진노해 팔다리 잘려 죽었다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201305250010",
+            "search_query": "내관 김처선 연산군",
+            "terminate": false,
+            "text": "김처선이라는 인물이 있었죠. 조선시대의 내시였던 김처선은 1505년에 연산군에게 규간을 하다가 왕의 분노를 사서 팔다리가 잘린 채로 죽었어요.",
+            "turn_id": "BK22006395-2",
+            "utterance_id": "BK22006395.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말씀 중에 죄송한데 혹시 규간이 뭐예요? 조선왕조실록에 있는 단어 같은데 저에게는 너무 어려운 단어네요.",
+            "turn_id": "BK22006395-3",
+            "utterance_id": "BK22006395.5"
+        },
+        {
+            "reference_date": "2013-05-25",
+            "reference_text": [
+                {
+                    "value": "규간은 ‘옳은 도리나 이치로써 왕의 잘못을 고치도록 진언’하는 것을 말한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201305250010",
+            "search_query": "규간 왕 진언",
+            "terminate": false,
+            "text": "아. 규간이라는 단어는 왕이 잘못을 고치도록 옳은 도리나 이치를 간언하는 것을 의미해요.",
+            "turn_id": "BK22006395-3",
+            "utterance_id": "BK22006395.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 연산군이라면 유명한 폭군이잖아요. 일개 내시인 김처선이 목숨을 걸고 한 간언은 어떤 내용이었나요?",
+            "turn_id": "BK22006395-4",
+            "utterance_id": "BK22006395.7"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "1505년(연산군 11)에 연산군이 궁중에서 자신이 창안한 처용희(處容戱)를 베풀고 음란한 거동을 벌이자 \"이 늙은 신이 네 임금을 섬겼고, 경서와 사서를 대강 통하지만 고금에 상감과 같은 짓을 하는 이는 없었다\"고 직간하다가, 연산군에게 직접 다리와 혀를 잘리고 죽임을 당했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%B2%98%EC%84%A0#%EB%93%9C%EB%9D%BC%EB%A7%88",
+            "search_query": "연산군 처용희 김처선",
+            "terminate": false,
+            "text": "연산군 11년인 1505년에 궁중에서 연산군 본인이 만든 처용희를 베풀면서 음란한 행동을 하자 김처선은 자신이 4명의 왕을 모셨고 경서와 사서를 어느 정도 알지만, 역사상 연산군과 같은 행동을 하는 일은 없었다고 직접 간언했어요. 결국 연산군이 직접 다리와 혀를 잘라서 죽여 버리죠.",
+            "turn_id": "BK22006395-4",
+            "utterance_id": "BK22006395.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 끔찍하네요. 연산군처럼 잔인한 왕이라면 거기서 끝나지 않았을 것 같은데요? 김처선의 주변 사람들은 무사했나요?",
+            "turn_id": "BK22006395-5",
+            "utterance_id": "BK22006395.9"
+        },
+        {
+            "reference_date": "2013-05-25",
+            "reference_text": [
+                {
+                    "value": "처선의 자식을 죽이고, 그의 집을 부수어 못을 팠다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부모의 무덤도 뒤집어 버렸다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.kukinews.com/newsView/kuk201305250010",
+            "search_query": "연산군 김처선 자식 무덤",
+            "terminate": false,
+            "text": "그럴리가 없죠. 연산군은 김처선의 자녀를 죽이고 그의 집을 부숴서 연못으로 만들었어요. 거기에 부모의 무덤까지 뒤집어 파헤쳐 버렸죠.",
+            "turn_id": "BK22006395-5",
+            "utterance_id": "BK22006395.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "김처선이 진짜 밉기는 엄청나게 미웠나 보네요. 당시 김처선의 직책이 정확히 뭐였나요?",
+            "turn_id": "BK22006395-6",
+            "utterance_id": "BK22006395.11"
+        },
+        {
+            "reference_date": "2016-12-14",
+            "reference_text": [
+                {
+                    "value": "김처선은 상선내시로 임금의 수라와 내시들의 규율감찰을 하는 직책에 있었다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?mod=news&act=articleView&idxno=1123812",
+            "search_query": "김처선 상선내시",
+            "terminate": false,
+            "text": "상선내시였어요. 당시 상선내시는 왕의 식사와 내관들의 규율을 감찰하는 일을 했죠.",
+            "turn_id": "BK22006395-6",
+            "utterance_id": "BK22006395.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "왕의 식사와 내관의 규율을 감찰하는 일이라면 굉장히 중요한 일 같은데요. 그렇다면 연산군의 총애를 받던 내시라는 뜻 아닌가요?",
+            "turn_id": "BK22006395-7",
+            "utterance_id": "BK22006395.13"
+        },
+        {
+            "reference_date": "2016-12-14",
+            "reference_text": [
+                {
+                    "value": "또한 내시들 중 가장 높은 직책이기도 했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "임금의 수라를 담당하는 가장 높은 내관을 연산군이 아무나 앉혔을 리 없다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금으로 치면 비서실장 정도의 역할이었다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?mod=news&act=articleView&idxno=1123812",
+            "search_query": "김처선 연산군 비서실장",
+            "terminate": false,
+            "text": "맞아요. 왕의 식사를 맡은 최고위직 내관을 연산군이 아무나 임명했을리는 없죠. 그는 내관 중에서 가장 높은 직책에 있었기에 지금으로 치면 비서실장 같은 역할을 담당했어요.",
+            "turn_id": "BK22006395-7",
+            "utterance_id": "BK22006395.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼에도 불구하고 죽음을 각오한 직언을 했기에 지금까지도 그 이름이 남은 거군요. 연산군 당시에는 당연히 역적으로 불렸을 텐데 김처선이 역사에서 인정받는 것은 언제부터인가요?",
+            "turn_id": "BK22006395-8",
+            "utterance_id": "BK22006395.15"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "연산군이 폐위된 뒤 1512년(중종 7) 김처선의 행적을 《속삼강행실》에 수록하려 하였으나 환관의 힘이 세질 것을 두려워했던 중종은 마음 속에만 묻어두고 이를 거절하였다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 1751년(영조 27) 2월 3일 나라에서 충신의 정문이 내려 그의 공을 인정하였다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%B2%98%EC%84%A0",
+            "search_query": "연산군 김처선 중종 영조",
+            "terminate": false,
+            "text": "연산군이 폐위된 후 중종 7년인 1512년에 김처선의 행적을 속상감행실에 기록하려고 했지만 내시의 권력이 강해질까봐 중종이 거절하죠. 하지만 영조 27년인 1751년 2월 3일에 드디어 국가에서 충신의 정문을 내려서 그의 공을 인정해요.",
+            "turn_id": "BK22006395-8",
+            "utterance_id": "BK22006395.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "250년 만에 인정을 받은 거군요. 비록 비참하게 죽었지만, 역사 속에서 충신으로 남았으니 어찌 보면 가치 있었던 용기 같아요.",
+            "turn_id": "BK22006395-9",
+            "utterance_id": "BK22006395.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 동의해요. 세상에는 김처선처럼 자신이 몸담은 조직에 쓴 소리를 하는 사람이 가끔 필요하다는 생각이 드네요.",
+            "turn_id": "BK22006395-9",
+            "utterance_id": "BK22006395.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 사람이 정말 드문 게 현실이죠. 특히나 김처선처럼 목숨을 건 경우는 거의 없으니까 김처선이 지금까지도 유명한 거겠죠. 아무튼 오늘도 재미있는 역사 지식 가르쳐 주셔서 감사합니다.",
+            "turn_id": "BK22006395-10",
+            "utterance_id": "BK22006395.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제가 도움이 된 거 같아서 기쁘네요. 다음에도 모르는 게 있으면 편하게 질문 주세요.",
+            "turn_id": "BK22006395-10",
+            "utterance_id": "BK22006395.20"
+        }
+    ]
+}

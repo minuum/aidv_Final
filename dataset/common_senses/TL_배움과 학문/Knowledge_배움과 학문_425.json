@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014106",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014106",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 심해에 관련된 다큐멘터리를 봤는데, 정말 미지의 세계 같아요. 심해는 어떤 곳인가요?",
+            "turn_id": "BK22014106-1",
+            "utterance_id": "BK22014106.1"
+        },
+        {
+            "reference_date": "44619.0",
+            "reference_text": [
+                {
+                    "value": "심해(深海, 영어: deep sea 또는 deep layer)는 해양학에서 대략 수심 2km(또는 1,800m) 이상의 깊은 바다로, 사람이 수압 때문에 견딜 수 없는 공간을 뜻한다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%ED%95%B4",
+            "search_query": "심해",
+            "terminate": false,
+            "text": "해양학에선 보통 바다에서 2km 이상의 깊이까지 내려가면 심해로 분류해요. 이 정도의 깊이는 수압이 너무 세서 사람은 버틸 수가 없죠.",
+            "turn_id": "BK22014106-1",
+            "utterance_id": "BK22014106.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도의 깊이는 탐사도 어렵겠는데요.",
+            "turn_id": "BK22014106-2",
+            "utterance_id": "BK22014106.3"
+        },
+        {
+            "reference_date": "44751.0",
+            "reference_text": [
+                {
+                    "value": "심해 탐사는 다른 지구물리학 연구 분야에 비해 비교적 최근의 인간 활동으로 간주된다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%AC%ED%95%B4%ED%83%90%EC%82%AC",
+            "search_query": "심해 탐사",
+            "terminate": false,
+            "text": "그래서 심해 탐사는 지구물리학에서도 다른 분야보다 더 늦게 연구가 시작됐어요.",
+            "turn_id": "BK22014106-2",
+            "utterance_id": "BK22014106.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탐사도 어려울 정도면 심해의 환경은 생물이 살기 정말 힘들 것 같은데 말이죠.",
+            "turn_id": "BK22014106-3",
+            "utterance_id": "BK22014106.5"
+        },
+        {
+            "reference_date": "43119.0",
+            "reference_text": [
+                {
+                    "value": "심해는 햇빛이 들어오지 않아 완전한 암흑지대이며 이에 따라 플랑크톤이 서식하기 어렵다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "플랑크톤이 없으니 바닷물 속에는 용존 산소도 매우 부족하다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/201801191425399343",
+            "search_query": "심해 환경",
+            "terminate": false,
+            "text": "일단 심해에는 빛이 들어오지 않으니 모든 것이 깜깜한 곳이죠. 그래서 플랑크톤도 살기 어렵고 플랑크톤이 있지 않으니 물속의 산소도 거의 없죠.",
+            "turn_id": "BK22014106-3",
+            "utterance_id": "BK22014106.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 제가 본 다큐에서는 심해에서 마치 눈이 내리는 것처럼 하얀 알갱이들이 있더라고요. 이런 건 플랑크톤이 아닌가요?",
+            "turn_id": "BK22014106-4",
+            "utterance_id": "BK22014106.7"
+        },
+        {
+            "reference_date": "44755.0",
+            "reference_text": [
+                {
+                    "value": "바다눈 또는 마린 스노(marine snow)는 표해수층에서 사는 생물들의 죽은 사체나 배설물이 눈처럼 되어서 심해에 내리는걸 말한다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%8B%A4%EB%88%88",
+            "search_query": "심해 눈",
+            "terminate": false,
+            "text": "흔히들 바다 눈이나 마린 스노라고 부르는데 표해수층에 살고 있는 생물의 죽은 시체나 배설물 등이 심해 아래로 가라앉는데 마치 그것이 눈처럼 보여서 붙여진 이름이죠.",
+            "turn_id": "BK22014106-4",
+            "utterance_id": "BK22014106.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단순히 아름다워 보이기도 했던 광경에 그런 비밀이 숨겨져 있었네요. 하지만 그런 극악의 환경에서도 생물들이 살아간다는 거군요.",
+            "turn_id": "BK22014106-5",
+            "utterance_id": "BK22014106.9"
+        },
+        {
+            "reference_date": "43824.0",
+            "reference_text": [
+                {
+                    "value": "빛을 최대한 담기 위한 큰 눈과 어둠에 위장하기 위한 검정이나 붉은 색, 먹이사냥과 번식상대를 만나기 위해 이용하는 발광기관, 적은 움직임으로 인한 소량의 근육을 가지고 있습니다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://thesciencelife.com/archives/3825",
+            "search_query": "심해 생물",
+            "terminate": false,
+            "text": "그래서 심해 생물은 몇 가지의 특징을 가지고 있어요. 어떻게든 빛을 많이 담아야 하기 때문에 큰 눈을 가지고 있고, 어두움에 위장하기 편한 검은색이나 붉은색을 띠고 있어요. 사냥감과 번식 상대를 유인하는데 필요한 발광기관을 가지고 있고, 적은 움직임 때문에 근육 역시 적다는 것이 대표적인 예이죠.",
+            "turn_id": "BK22014106-5",
+            "utterance_id": "BK22014106.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 지금까지 발견된 심해 중 가장 깊은 곳은 어디일까요?",
+            "turn_id": "BK22014106-6",
+            "utterance_id": "BK22014106.11"
+        },
+        {
+            "reference_date": "41796.0",
+            "reference_text": [
+                {
+                    "value": "세계에서 가장 깊은 바다는 ‘마리아나 해구(Mariana Trench)’다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마리아나 해구 중 가장 깊은 부분인 챌린저 심연의 깊이는 1만1035m에 달한다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.suhyupnews.co.kr/news/articleView.html?idxno=8872",
+            "search_query": "가장 깊은 심해",
+            "terminate": false,
+            "text": "지구에서 가장 깊은 바다는 마리아나 해구예요. 마리아나 해구에서도 가장 깊은 곳이라 불리는 챌린지 심연은 무려 1만 1035m의 깊이를 자랑하는 곳이에요.",
+            "turn_id": "BK22014106-6",
+            "utterance_id": "BK22014106.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상상도 못 할 정도의 깊이라서 무서워지기까지 하네요. 하지만 이 정도면 인간의 발길이 가장 닿지 않은 곳일 테니 요즘 문제가 되고 있는 바다 오염 등의 문제에선 자유로울 수도 있겠네요?",
+            "turn_id": "BK22014106-7",
+            "utterance_id": "BK22014106.13"
+        },
+        {
+            "reference_date": "43897.0",
+            "reference_text": [
+                {
+                    "value": "지구에서 가장 깊은 바다로 꼽히는 태평양 마리아나 해구(海溝)에서 서식하는 지금까지 알려지지 않았던 심해 갑각류마저 플라스틱을 먹고 오염된 것으로 나타났다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20200307035500009",
+            "search_query": "마리아나 해구 오염",
+            "terminate": false,
+            "text": "그렇지 않아요. 가장 깊은 바다인 마리아나 해구마저도 그곳에서 처음 발견된 심해 갑각류가 플라스틱을 섭취하고 결국 오염된 정황이 발견됐어요.",
+            "turn_id": "BK22014106-7",
+            "utterance_id": "BK22014106.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람의 발길이 닿지 않은 심해마저 그 정도라니, 충격이 큰데요.",
+            "turn_id": "BK22014106-8",
+            "utterance_id": "BK22014106.15"
+        },
+        {
+            "reference_date": "44658.0",
+            "reference_text": [
+                {
+                    "value": "북극 심해 퇴적물에서 발견되는 미세플라스틱은 퇴적물 1㎏당 최대 1만6041개에 이르는데, 세계적으로 가장 높은 측정 농도에 속하는 것이다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25061583#home",
+            "search_query": "심해 환경문제",
+            "terminate": false,
+            "text": "그뿐만 아니라 북극의 심해 퇴적물에선 1kg 당 최대 16,041개의 미세 플라스틱이 발견되는데, 전 세계를 봐도 이보다 더 높은 측정 농도를 보여주는 건 별로 없어요",
+            "turn_id": "BK22014106-8",
+            "utterance_id": "BK22014106.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간이 잘 가지도 못하는 곳마저 이렇게 더럽혀지다니, 정말 환경문제가 심각한 사항이라는 걸 느끼게 되네요.",
+            "turn_id": "BK22014106-9",
+            "utterance_id": "BK22014106.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "심해를 포함한 우리 지구의 바다를 지키기 위해서라도 이런 연구결과들을 가벼이 여기면 안 되는 거죠.",
+            "turn_id": "BK22014106-9",
+            "utterance_id": "BK22014106.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 심해에 대한 다양한 이야기 잘 들었어요. 인류가 미지의 영역인 심해를 더 밝혀낼 수 있었으면 좋겠습니다.",
+            "turn_id": "BK22014106-10",
+            "utterance_id": "BK22014106.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러기 위해서라도 심해의 생태계를 지켜내야 할 필요가 있는 거겠죠. 오늘 이야기가 도움이 되셨다면 좋겠네요.",
+            "turn_id": "BK22014106-10",
+            "utterance_id": "BK22014106.20"
+        }
+    ]
+}

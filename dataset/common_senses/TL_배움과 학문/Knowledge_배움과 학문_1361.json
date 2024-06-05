@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008948",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008948",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "있잖아, 나는 엘리자베스 1세가 영국 최초의 여왕인 줄 알았는데, 사실 엘리자베스 1세 이전에도 다른 여왕이 있었다고 하더라? 그런데 이름을 까먹어서 이 사람이 누구인지 기억이 안나. 혹시 엘리자베스 1세 이전의 영국 여왕이 누구인지 알 수 있을까?",
+            "turn_id": "BK22008948-1",
+            "utterance_id": "BK22008948.1"
+        },
+        {
+            "reference_date": "2021-12-14",
+            "reference_text": [
+                {
+                    "value": "영국에는 여왕이 여러명 있습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "첫 여왕은 엘리자베스 1세의 언니 메리 1세(1553~1558), 그 다음이 엘리자베스 1세, 명예혁명의 주인공 중 한 명인 메리 2세(1689~1694), 스튜어트 왕가의 마지막 왕인 앤 여왕(1702~1714), 대영제국의 황금기였던 빅토리아 여왕(1837~1901), 현재 왕인 엘리자베스 2세(1952~현재) 등입니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/2021/12/14/5YOMZTL5UJGG3MPCYWVVXBVLUA/",
+            "search_query": "엘리자베스 1세 직전의 여왕",
+            "terminate": false,
+            "text": "맞아, 사실 영국에는 여왕이 여러 명 있는데, 첫 번째 여왕은 엘리자베스 1세의 언니였던 메리 1세였어. 그리고 엘리자베스 1세는 메리 1세 이후에 왕위에 오르게 된 여왕이었지.",
+            "turn_id": "BK22008948-1",
+            "utterance_id": "BK22008948.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 이제 기억이 나! 그런데 메리 1세가 엘리자베스 1세의 언니인 줄은 몰랐어. 그나저나 엘리자베스 1세는 평생 독신을 고집했다는데, 혹시 메리 1세도 동생과 마찬가지로 독신을 고수했던 거야?",
+            "turn_id": "BK22008948-2",
+            "utterance_id": "BK22008948.3"
+        },
+        {
+            "reference_date": "2021-04-11",
+            "reference_text": [
+                {
+                    "value": "첫 여왕 메리 1세의 남편인 펠리페 2세는 스페인의 황금시대를 이끈 국왕으로 더 유명하다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엘리자베스 1세는 평생 독신으로 살았다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/yeojeok/article/202104112103005",
+            "search_query": "메리 1세 독신",
+            "terminate": false,
+            "text": "아냐, 엘리자베스 1세가 평생 독신이었던 것과는 반대로, 메리 1세에게는 남편이 있었어. 바로 펠리페 2세였는데, 펠리페 2세는 스페인의 황금시대를 연 국왕으로서 유명하지.",
+            "turn_id": "BK22008948-2",
+            "utterance_id": "BK22008948.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자매 중 한 명은 철저한 독신을 고집하는 반면 다른 한 명은 결혼하는 길을 선택했다니, 둘의 성향이 좀 달랐구나. 그러면 메리 1세와 펠리페 2세 사이엔 자녀가 있었어?",
+            "turn_id": "BK22008948-3",
+            "utterance_id": "BK22008948.5"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "펠리페 2세와 결혼한 후, 메리는 아이를 간곡히 바랐지만 난소종양에 걸려 아이를 낳지 못했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 펠리페 2세 자녀",
+            "terminate": false,
+            "text": "아니, 안타깝게도 메리는 배우자였던 펠리페 2세의 아이를 낳지 못했어. 메리에게 있었던 난소종양 때문이었지.",
+            "turn_id": "BK22008948-3",
+            "utterance_id": "BK22008948.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "으음, 하긴 메리와 펠리페 사이에 자녀가 있었다면 엘리자베스 1세가 아니라 그 아이가 영국의 군주 자리를 물려받았을 수도 있겠네. 그러면 여동생인 엘리자베스 1세를 후계자로 고른 건 펠리페나 다른 사람이 아니라 메리 본인의 선택이었어?",
+            "turn_id": "BK22008948-4",
+            "utterance_id": "BK22008948.7"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "메리는 죽기 전날에, 자신의 후계자로서 여동생을 지명했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "메리 1세는 5년 남짓한 재위한 후, 난소암에 걸려 1558년 11월 17일에 세인트 제임스 궁전에서 사망하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 엘리자베스 1세 후계자",
+            "terminate": false,
+            "text": "맞아, 메리 1세는 1558년 11월 17일, 5년에 걸친 재위 끝에 사망했는데, 자신이 죽기 하루 전 자기 여동생을 후계자로 지명했어. 덧붙여 메리의 사인은 난소암이었고, 사망한 장소는 세인트 제임스 궁전이었지.",
+            "turn_id": "BK22008948-4",
+            "utterance_id": "BK22008948.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 엘리자베스 1세가 통치자가 된 것에는 메리 1세의 유언도 한 몫 했겠네. 그런데 메리가 남편인 펠리페나 다른 남성 친지들이 아니라 여동생인 엘리자베스에게 왕위를 물려주겠다고 선언한 걸 보면, 피는 물보다 진하다고, 메리 1세와 엘리자베스 두 자매의 사이가 꽤 좋았던 건가?",
+            "turn_id": "BK22008948-5",
+            "utterance_id": "BK22008948.9"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "한편, 메리는 어머니 아라곤의 캐서린을 궁정에서 쫓아버린 앤 불린의 딸인 이복여동생 엘리자베스를 평생 동안 미워했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앤 불린이 처형될 때까지 엘리자베스의 하녀로 봉사했던 것도 사실이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_1%EC%84%B8_(%EC%9E%89%EA%B8%80%EB%9E%9C%EB%93%9C)",
+            "search_query": "메리 1세 엘리자베스 1세 사이",
+            "terminate": false,
+            "text": "음, 일단 이 둘은 이복자매 사이였어. 메리의 어머니는 아라곤의 캐서린이고, 엘리자베스의 어머니는 앤 불린이었지. 그리고 메리는 사실 자기 여동생인 엘리자베스를 평생에 걸쳐 미워했는데, 이건 엘리자베스의 어머니인 앤 불린이 자기 어머니인 아라곤의 캐서린을 궁정에서 쫓아낸데다, 메리 본인은 앤 불린이 처형되기 전까지 엘리자베스의 시녀로 일했어야 했기 때문이야.",
+            "turn_id": "BK22008948-5",
+            "utterance_id": "BK22008948.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그런 비하인드가 있는 줄은 몰랐어. 그런데 그러면 펠리페 2세는 메리 1세가 죽은 뒤 엘리자베스에게 어떻게 행동했어? 자기 아내의 여동생이고 영국의 새로운 군주인 반면, 자기 아내가 미워한 사람이라면 엘리자베스를 어떻게 대할지 좀 고민했을 거 같은데.",
+            "turn_id": "BK22008948-6",
+            "utterance_id": "BK22008948.11"
+        },
+        {
+            "reference_date": "2021-12-14",
+            "reference_text": [
+                {
+                    "value": "메리 1세가 죽자 펠리페 2세는 그 동생인 엘리자베스 1세에게 청혼을 했습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프랑스에 맞서 잉글랜드-에스파냐 동맹을 맺기 위한 것이었지요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 가톨릭 종주국을 자임하는 에스파냐의 왕과 개신교 중심으로 떠오른 잉글랜드 여왕의 결혼은 불가능에 가까웠지요.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/2021/12/14/5YOMZTL5UJGG3MPCYWVVXBVLUA/",
+            "search_query": "엘리자베스 1세 펠리페 2세 메리 죽음 이후",
+            "terminate": false,
+            "text": "그게, 펠리페 2세는 메리 1세가 사망한 뒤, 메리의 동생이었던 엘리자베스에게 청혼했어. 잉글랜드와 에스파냐 두 국가가 동맹을 맺어서, 프랑스에 맞서 함께 싸우면 좋겠다는 게 그 이유였지. 하지만 여왕이 통치하던 잉글랜드는 개신교 중심의 국가인 반면, 에스파냐는 가톨릭의 중심 국가였기 때문에, 에스파냐와 잉글랜드의 군주가 서로 종교의 벽을 넘어 결혼하는 것은 사실상 불가능한 일이었지.",
+            "turn_id": "BK22008948-6",
+            "utterance_id": "BK22008948.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 그런데 잉글랜드의 여왕인 건 메리 1세도 마찬가지였잖아. 메리 1세는 어떻게 가톨릭을 신봉하는 펠리페 2세랑 결혼할 수 있었던 거야?",
+            "turn_id": "BK22008948-7",
+            "utterance_id": "BK22008948.13"
+        },
+        {
+            "reference_date": "2021-12-14",
+            "reference_text": [
+                {
+                    "value": "언니 메리 1세는 가톨릭 신자였기 때문에 주변 만류에도 불구하고 펠리페 2세와 결혼을 강행했지만, 엘리자베스 1세는 개신교도였기 때문에 이 청혼은 ‘언감생심’ 수준이라 하겠습니다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/2021/12/14/5YOMZTL5UJGG3MPCYWVVXBVLUA/",
+            "search_query": "메리 1세 펠리페 2세 카톨릭 결혼",
+            "terminate": false,
+            "text": "그건 언니였던 메리 1세 본인이 가톨릭 신자였기 때문이었어. 사실 메리 1세와 펠리페 2세의 결혼을 주변에서는 말렸지만, 그럼에도 메리가 펠리페와의 결혼을 강행한 셈이었지. 반면 언니였던 메리와는 달리 엘리자베스 1세는 가톨릭이 아니라 개신교도였기 때문에, 엘리자베스에게 있어서 이 청혼은 상상조차도 할 수 없는 일이었지.",
+            "turn_id": "BK22008948-7",
+            "utterance_id": "BK22008948.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 청혼을 받은 당사자들의 종교적 신념이 그 결혼의 성사 여부를 결정했던 거구나. 그런데 펠리페 2세가 동맹을 위해 엘리자베스 1세에게 청혼을 했다면, 이 청혼이 성사되지 않음으로써 두 나라 간 동맹은 불발이 된 거잖아. 혹시 잉글랜드와 스페인 사이에서 이 이후 갈등이 일어난 적은 없었어?",
+            "turn_id": "BK22008948-8",
+            "utterance_id": "BK22008948.15"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "엘리자베스 1세가 1587년에 메리 스튜어트를 참수하는 일등을 계기로 펠리페 2세는 네덜란드 북부의 반란세력을 지원하고 있던 잉글랜드 왕국을 정벌하기 위해 무적함대를 파병하였으나 1588년 칼레 해전에서 대패하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8E%A0%EB%A6%AC%ED%8E%98_2%EC%84%B8",
+            "search_query": "펠리페 2세 엘리자베스 1세 잉글랜드 스페인 갈등",
+            "terminate": false,
+            "text": "두 나라 간 갈등이 없다고 볼 순 없었던 게, 실제로 펠리페 2세는 잉글랜드에 무적함대를 파병했어. 파병의 결과는 좋지 않았지만 말이야. 본래 펠리페 2세는 네덜란드 북부에 있었던 반란세력을 도와주고 있었던 잉글랜드 왕국을 정벌하려고 무적함대를 파병했지만, 그만 1588년에 있었던 칼레 해전에서 참패하고 말았어.",
+            "turn_id": "BK22008948-8",
+            "utterance_id": "BK22008948.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 펠리페 2세의 체면이 말이 아니었겠네. 겉으로만 봐서는 자기 아내의 여동생인 엘리자베스 1세에게 청혼했다가거절 당하고, 이후 자기를 거절한 옛 구혼자를 대상으로 전쟁까지 벌였다가 이게 참패로 이어진 거잖아.",
+            "turn_id": "BK22008948-9",
+            "utterance_id": "BK22008948.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 물론 펠리페 2세가 단순히 자신의 혼담을 거절했다는 감정적인 이유만으로 엘리자베스 1세를 공격한 것은 절대 아니겠지만, 전쟁을 벌였던 이유가 뭐였든 간에 이 패배가 펠리페 2세에게 굉장한 굴욕감을 심어줬을 거라는 건 충분히 예상할 수 있지.",
+            "turn_id": "BK22008948-9",
+            "utterance_id": "BK22008948.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이야, 아무튼 덕분에 메리 1세 뿐만 아니라 메리 1세의 배우자였던 펠리페 2세에 대해서도 조금 알게 된 거 같아. 흥미로운 정보를 알려줘서 고마워. 이야기를 더 나누고 싶지만, 난 이만 잘 시간이 되어서 그만 들어가 봐야 할 것 같아.",
+            "turn_id": "BK22008948-10",
+            "utterance_id": "BK22008948.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 시간이 조금 늦기는 했네. 잘 자고, 다음에 또 다시 이야기 나누자.",
+            "turn_id": "BK22008948-10",
+            "utterance_id": "BK22008948.20"
+        }
+    ]
+}

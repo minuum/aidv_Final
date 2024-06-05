@@ -1,0 +1,398 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004664",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004664",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 오늘 친구랑 같이 소고기를 먹고 왔어.",
+            "turn_id": "BK22004664-1",
+            "utterance_id": "BK22004664.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구랑 같이 먹고 왔다니. 재밌게 놀고 맛있는 것도 먹어서 부러워.",
+            "turn_id": "BK22004664-1",
+            "utterance_id": "BK22004664.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "재밌는 이야기하면서 먹으니까 너무 즐거운 식사 시간이었어. 그나저나 내가 먹은 건 한우인데, 한우가 우리가 생각하는 누런 소만 말하는 게 아니라며?",
+            "turn_id": "BK22004664-2",
+            "utterance_id": "BK22004664.3"
+        },
+        {
+            "reference_date": "2021-01-01",
+            "reference_text": [
+                {
+                    "value": "현재 국제연합식량농업기구에 등재된 한우 품종은 황우(누렁소), 흑소(검은소), 제주 흑소, 칡소(호피무늬소), 백우(흰소) 총 5종이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대다수 한국인이 생각하는 한우는 누렁소 즉 ‘황소’다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 한반도에는 누렁소 뿐만 아니라 다양한 색의 소가 존재했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2021/01/01/2021010100519.html?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "한우 품종",
+            "terminate": false,
+            "text": "맞아. 한우는 총 5종의 품종으로 이루어져있어. 국제연합식량농업기구에 등재된 내용을 기준으로 본다면 황우, 흑소, 제주 흑소, 칡소, 백우가 있지. 보통 우리나라 사람들이 생각하기엔 한우는 누런 색을 띄는 황소라고 생각하지만 과거엔 누렁소뿐만 아니라 여러 색의 소가 있었어.",
+            "turn_id": "BK22004664-2",
+            "utterance_id": "BK22004664.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 네가 말해준 소 중에서 칡소는 그나마 몇 번 들어본 적 있어.",
+            "turn_id": "BK22004664-3",
+            "utterance_id": "BK22004664.5"
+        },
+        {
+            "reference_date": "2015-08-10",
+            "reference_text": [
+                {
+                    "value": "일제강점기의 수탈로 인해 사실상 멸종됐었던 `칡소'였다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칡소는 1,700여년 전 고구려 무용총의 벽화와 고려 말 수의학 전문서적 우의방(牛醫方)에 등장했고 일제의 수탈 전만 해도 정지용 시인의 `향수', 박목월 시인의 동요 `얼룩송아지'의 주인공이었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kwnews.co.kr/nview.asp?aid=215080900104",
+            "search_query": "칡소",
+            "terminate": false,
+            "text": "칡소에 대해서 들어본 적이 있구나. 칡소는 1700여년 전 고구려 무용총 벽화에 등장한 적이 있어. 이뿐만 아니라 고려 말 수의학 전문서적인 우의방에도 나왔지. 또한 정지용 시인의 향수, 박목월 시인이 만든 동요인 얼룩 송아지의 주인공이기도 해. 그런데 이렇게 우리에게 친숙한 칡소가 일제 때 수탈로 사실상 멸종됐었어.",
+            "turn_id": "BK22004664-3",
+            "utterance_id": "BK22004664.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 칡소가 동요 송아지의 모델이었던 건 몰랐네. 그나저나 제주 흑우는 어떤 특징이 있어?",
+            "turn_id": "BK22004664-4",
+            "utterance_id": "BK22004664.7"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "제주흑우(濟州黑牛)는 제주특별자치도 제주시, 제주축산진흥원 내에 사육중에 있는 대한민국의 천연기념물이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2013년 7월 22일 지정되었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제주흑우는 전신의 털 색깔이 흑색이며 체구가 작으나 체질이 강건하고 지구력이 좋으며, 유전자 분석결과 한우, 칡소, 교잡우와는 다른 제주흑우만의 고유 혈통을 가진 고유 재래종으로 제주축산진흥원에서 체계적인 혈통관리 및 사양관리를 하고 있어 천연기념물로 지정, 보호되고 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%A3%BC%ED%9D%91%EC%9A%B0",
+            "search_query": "제주흑소",
+            "terminate": false,
+            "text": "제주 흑우는 제주시 제주축산진흥원 내에 사육 중에 있고 2013년 7월 22일에 천연기념물로 지정되었어. 제주흑우는 이름처럼 몸의 털 색이 흑색이야. 체구는 작지만 체질이 강하고 지구력이 좋아. 그리고 유전자 분석을 해보니 제주흑우는 한우, 칡소, 교잡우랑 다르게 고유한 혈통을 가지고 있는 고유 재래종인 것을 밝혀냈지. 따라서 제주흑우는 제주축산진흥원에서 혈통관리와 사양관리를 하고 있고 천연기념물로 지정, 보호받고 있어.",
+            "turn_id": "BK22004664-4",
+            "utterance_id": "BK22004664.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고유 재래종이라니 신기하네. 그럼 백우는 말 그대로 하얀색 털을 가지고 있는 소야?",
+            "turn_id": "BK22004664-5",
+            "utterance_id": "BK22004664.9"
+        },
+        {
+            "reference_date": "2021-07-14",
+            "reference_text": [
+                {
+                    "value": "백우에 대한 기록은 1399년 발간된 조선시대 수의학서 ‘신편집성마의방우의방(新編集成馬醫方牛醫方)’에서도 발견된다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 연구를 통해 백우가 황색 한우와 같은 계통이지만 백색증(알비노)으로 털이 흰 색이며, 흰색 계통인 외래 품종 샤롤레와는 전혀 다른 우리 고유의 한우로 구별되는 특징을 가졌음을 밝혔다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jjan.kr/2099484",
+            "search_query": "백우",
+            "terminate": false,
+            "text": "맞아. 백우는 황색 한우와 같은 계통이지만 알비노 즉, 백색증으로 인해서 털이 흰색이야. 흰색 소 중에 외래 품종인 샤롤레와는 완전히 다른 우리 고유의 한우 품종이야. 참고로 백우는 1399년에 발간된 조선시대 수의학서인 신편집성마의방우의방에서도 찾아볼 수 있어.",
+            "turn_id": "BK22004664-5",
+            "utterance_id": "BK22004664.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흰 소라니 실제로 보면 신기하면서도 예쁠 것 같아. 그나저나 한우는 이렇게 종류가 많은데, 왜 우리는 누런 소만 한우라고 생각하게 된 걸까?",
+            "turn_id": "BK22004664-6",
+            "utterance_id": "BK22004664.11"
+        },
+        {
+            "reference_date": "2021-01-22",
+            "reference_text": [
+                {
+                    "value": "황색털이 한우의 대표가 된 것은 일제강점기를 거치면서다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당시 털색 개량 방향을 황색으로 고정하고 황색 한우를 제외한 백우, 칡소, 흑우, 제주흑우 등 한우는 잡소로 취급해 점차 자취를 감추게 됐다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210119518274?OutUrl=naver",
+            "search_query": "백우 멸종위기",
+            "terminate": false,
+            "text": "황색 털을 가진 소가 한우의 대표처럼 여겨진 건 일제강점기를 겪으면서 시작됐어. 당시에 한우 털 색 개량 방향을 누런색으로 정했거든. 그래서 누런 털을 지닌 황색 한우를 제외한 다른 소는 모두 잡종으로 취급하면서 점점 우리에게서 모습을 감춘거지.",
+            "turn_id": "BK22004664-6",
+            "utterance_id": "BK22004664.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그랬구나. 일제강점기를 거치면서 한우도 영향을 받았네. 그럼 아까 말했던 고유 재래종인 제주 흑우도 이때 영향을 받았던 거야?",
+            "turn_id": "BK22004664-7",
+            "utterance_id": "BK22004664.13"
+        },
+        {
+            "reference_date": "2020-10-28",
+            "reference_text": [
+                {
+                    "value": "1938년 일본이 제정한 한우표준법에 일본 소는 흑색, 한국 소는 적갈색(황색)을 표준으로 한다는 모색통일 심사규정을 제정함에 따라 제주흑우는 고유한 지위를 상실하게 됐다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1980년대 이후 정부가 육량위주 소 산업 정책을 추진하며 몸집이 작고 육량이 적은 제주흑우는 도태 위기에 처하기도 했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4101079",
+            "search_query": "토종소 도태",
+            "terminate": false,
+            "text": "맞아. 일본이 1938년 한우 표준법을 제정했는데 일본 소는 흑색, 한국의 소는 황색을 표준으로 삼았어. 그래서 제주 흑우는 지위를 상실하게 됐어. 그 이후에 1980년대 들어서면서 정부가 육량을 중심으로 한 소 산업 정책을 실시했는데 그때 몸집이 크지 않고 육량이 적은 제주 흑우가 도태 위기에 처한 적도 있어.",
+            "turn_id": "BK22004664-7",
+            "utterance_id": "BK22004664.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 안타깝다. 이렇게 도태 위기에 처한 상태로 계속 시간이 지나고 있는 건 아니지? 내가 듣기론 백우는 복원 과정을 거치고 있다고 들었는데.",
+            "turn_id": "BK22004664-8",
+            "utterance_id": "BK22004664.15"
+        },
+        {
+            "reference_date": "2021-01-03",
+            "reference_text": [
+                {
+                    "value": "농촌진흥청 국립축산과학원은 2009년 정읍과 대전에서 백우 암소 2마리와 수소 1마리를 수집했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 인공수정, 수정란 이식 등 생명공학기술을 활용해 개체 수를 늘려왔으며, 현재 가축유전자원센터(경남 함양군)에서 25마리를 사육 중이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.daejonilbo.com/news/articleView.html?idxno=1453517",
+            "search_query": "백우 복원",
+            "terminate": false,
+            "text": "맞아. 농촌진흥청 국립축산과학원이 2009년 정읍과 대전에서 백우 암소 2마리, 수소 1마리를 수집해서 개체 수를 늘려오고 있어. 흑우 복원을 위해 인공수정, 수정란 이식 등 생명공학기술을 이용하고 있지. 현재 경남 함양군에 있는 가축유전자원센터에서 25마리의 백우를 키우고 있는 중이야.",
+            "turn_id": "BK22004664-8",
+            "utterance_id": "BK22004664.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "25마리 뿐이지만 복원이 되고 있는 중이라니 다행이네. 그럼 다른 소의 경우에는 어떻게 복원이 되고 있어?",
+            "turn_id": "BK22004664-9",
+            "utterance_id": "BK22004664.17"
+        },
+        {
+            "reference_date": "2016-10-17",
+            "reference_text": [
+                {
+                    "value": "이렇게 채취한 흑우의 정액은 희석과 분석과정을 거쳐 영구 보존이 가능한 액체질소 냉동 저장고에 보관한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 인공수정과 수정란 이식에 이용하는데, 남은 것은 후손을 위해 보존해두고 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "칡소를 비롯한 토종 희귀소는 개체 수가 많지 않다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인공수정을 반복해가며 순수혈통을 찾는 작업을 계속해야 한다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종 복원에는 많은 시간과 노력이 필요하다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://jmagazine.joins.com/monthly/view/313796",
+            "search_query": "토종 소 복원",
+            "terminate": false,
+            "text": "흑우의 경우에도 복원이 진행 중이야. 흑우의 정액을 채취한 후 희석, 분석 과정을 거친 후 영구보존을 위해 액체질소 냉동 저장고에 넣어 보관을 해. 흑우에게서 채취된 정액은 인공수정과 수정란 이식에 사용되는데 여분의 것은 후손을 위해 보존하고 있어. 또한 칡소를 비롯한 토종 희귀소는 개체 수가 많지 않아서 인공수정을 하면서 순수혈통을 찾아내는 과정을 계속 해내야 해. 종 복원에는 적지 않은 시간과 노력이 필요하지.",
+            "turn_id": "BK22004664-9",
+            "utterance_id": "BK22004664.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 지금은 당장 몇 마리 없지만 시간이 지나면 많은 토종 소가 충분히 복원되어 우리 주변에서도 쉽게 볼 수 있었으면 좋겠어.",
+            "turn_id": "BK22004664-10",
+            "utterance_id": "BK22004664.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 그렇게 생각해. 나는 특히 제주 흑우를 가까이에서 보고싶어. 검정 털을 지닌 소라 가까이서 보면 건강함이 느껴질 것 같거든.",
+            "turn_id": "BK22004664-10",
+            "utterance_id": "BK22004664.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 백우가 어떨지 궁금해서 실제로 보고싶네. 나는 오늘 나갔다 왔더니 피곤해서 이만 하루를 정리하러 가봐야겠어. 오늘 대화 재미있었고 다음에 또 이야기하자.",
+            "turn_id": "BK22004664-11",
+            "utterance_id": "BK22004664.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래. 오늘 하루 재밌게 놀았으니 마무리도 잘하고 다음에도 즐거운 이야기 하자.",
+            "turn_id": "BK22004664-11",
+            "utterance_id": "BK22004664.22"
+        }
+    ]
+}

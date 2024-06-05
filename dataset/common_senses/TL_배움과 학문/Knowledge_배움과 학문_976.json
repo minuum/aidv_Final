@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006325",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006325",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 번지 점프를 했는데 속도가 장난이 아니었어. 높은 곳에서 떨어지면 왜 빨라질까?",
+            "turn_id": "BK22006325-1",
+            "utterance_id": "BK22006325.1"
+        },
+        {
+            "reference_date": "2018-08-22",
+            "reference_text": [
+                {
+                    "value": "높은 곳에서 떨어질수록 중력으로 인한 가속도 때문에 낙하 속도는 빨라진다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자유낙하 속도를 계산해보면, 층이 올라갈수록 속도가 빨라지는 것을 확인할 수 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://aftertherain.kr/commentary/?work=view&idx=46548&cate=10k0",
+            "search_query": "낙하 속도",
+            "terminate": false,
+            "text": "높은 곳에서 떨어질수록 중력으로 인한 가속도 때문에 낙하 속도는 빨라져. 자유낙하 속도를 계산하면 층이 올라갈수록 속도가 빨라지는 걸 알 수 있지.",
+            "turn_id": "BK22006325-1",
+            "utterance_id": "BK22006325.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중력으로 인한 가속도라니 아직 이해가 안가는데 간단하게 설명해주었으면 해.",
+            "turn_id": "BK22006325-2",
+            "utterance_id": "BK22006325.3"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "중력 가속도(重力加速度, gravitational acceleration)는 물리학에서 중력에 의해 운동하는 물체가 지니는 가속도이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "좁은 의미로는 지구의 중력으로 얻어지는 가속도를 의미한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%A0%A5_%EA%B0%80%EC%86%8D%EB%8F%84",
+            "search_query": "중력 가속도",
+            "terminate": false,
+            "text": "중력 가속도는 물리학에서는 중력에 의해 운동하는 물체가 가지는 가속도를 말하지. 좁은 의미로는 지구의 중력으로 얻어지는 가속도를 말해.",
+            "turn_id": "BK22006325-2",
+            "utterance_id": "BK22006325.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가속도니까 무거울수록 빨라지겠네?",
+            "turn_id": "BK22006325-3",
+            "utterance_id": "BK22006325.5"
+        },
+        {
+            "reference_date": "2015-09-22",
+            "reference_text": [
+                {
+                    "value": "갈릴레오 갈릴레이는 지구 중력 가속도가 물체의 질량과 관계없이 항상 일정하다는 것을 밝혀 내기 위하여, 파사의 사탑에 올라가 큰 공과 작은 공을 동시에 떨어뜨렸고, 두 공은 통념을 깨고 지면에 동시에 도착하였습니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://if-blog.tistory.com/5602",
+            "search_query": "갈릴레이 피사의 사탑",
+            "terminate": false,
+            "text": "접근은 좋았지만 그렇지 않아. 갈릴레오 갈릴레이는 지구 중력 가속도가 물체의 질량과 관계없이 항상 일정하다는 것을 밝혀내기 위해 실험을 했어. 피사의 사탑에 올라가 큰 공과 작은 공을 동시에 떨어뜨려 관찰했지. 그런데 두 공은 통념을 깨고 지면에 동시에 도착했어.",
+            "turn_id": "BK22006325-3",
+            "utterance_id": "BK22006325.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중력 가속도가 일정한 이유가 뭘까?",
+            "turn_id": "BK22006325-4",
+            "utterance_id": "BK22006325.7"
+        },
+        {
+            "reference_date": "2014-05-28",
+            "reference_text": [
+                {
+                    "value": "중력을 정확하게 재는 장비를 이용해 바닷가 근처의 중력과 에베레스트 산 꼭대기의 중력을 측정해서 비교해보면 그 차이가 평균 중력의 0.3%, 즉 1000분의3 수준에 불과함을 알 수 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 정도의 중력 변화는 사실상 높이에 관계없이 일정하다고 봐도 문제가 없는 정도다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://scienceon.hani.co.kr/?document_srl=167566",
+            "search_query": "중력 가속도 일정",
+            "terminate": false,
+            "text": "중력을 알아야 해. 정확하게 중력을 측정하는 장비를 이용해 바닷가 근처의 중력과 에베레스트 산 꼭대기의 중력을 측정해서 비교해보았지. 그런데 그 차이가 평균 중력의 0.3%, 즉 1000분의3 수준이었어. 이 정도의 중력 변화는 사실상 높이에 관계 없이 일정하다고 볼 수 있지.",
+            "turn_id": "BK22006325-4",
+            "utterance_id": "BK22006325.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중력이 일정하니까 중력 가속도가 일정한 거구나. 동일하게 힘을 받으니까. 하지만 무거운 물체가 떨어졌을 때 더 많은 힘을 가지지 않아?",
+            "turn_id": "BK22006325-5",
+            "utterance_id": "BK22006325.9"
+        },
+        {
+            "reference_date": "2022-02-04",
+            "reference_text": [
+                {
+                    "value": "충격량은 운동량의 변화와 같다고 합니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 충격량 P는 '질량(M) x 속도(V)'가 됩니다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiae.co.kr/article/2019122015195837022",
+            "search_query": "충격량",
+            "terminate": false,
+            "text": "충격량은 운동량의 변화와 같아. 충격량은 질량과 속도를 곱한 양이지.",
+            "turn_id": "BK22006325-5",
+            "utterance_id": "BK22006325.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곱하기는 비례니까 질량이 클수록 충격량이 커지겠어. 전에 배운 위치 에너지와는 어떤 관계인지 궁금한데 가만 보니 내가 에너지의 개념을 모르는 것 같아. 에너지가 정확히 어떤 것을 말하니?",
+            "turn_id": "BK22006325-6",
+            "utterance_id": "BK22006325.11"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "에너지(영어: energy, 문화어: 에네르기, 독일어: energie)는 물리학에서 일을 할 수 있는 능력을 뜻한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 크게 벗어나지 않게, 일반적으로 '석유 에너지', '원자력 에너지'와 같이 '에너지원'이라는 뜻으로도 쓰인다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%84%88%EC%A7%80",
+            "search_query": "에너지",
+            "terminate": false,
+            "text": "에너지라는 건 물리학에서 일을 할 수 있는 능력을 뜻하지. 비슷한 개념으로 우리는 일반적으로 석유 에너지, 원자력 에너지처럼 에너지원 이라는 뜻으로 사용하고 있지.",
+            "turn_id": "BK22006325-6",
+            "utterance_id": "BK22006325.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에너지는 일을 하기 위한 비용 같은 거네. 위치 에너지도 높이에 관련해서 얻는 에너지 원이고?",
+            "turn_id": "BK22006325-7",
+            "utterance_id": "BK22006325.13"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "좀 더 엄밀하게 말하자면 위치 에너지는 상대적인 위치에 따라 물체가 가지는 에너지 간의 차이를 의미하며, 그렇지 않은 경우는 기준점이나 기준면을 정해서 사용한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%84%EC%B9%98_%EC%97%90%EB%84%88%EC%A7%80",
+            "search_query": "위치 에너지",
+            "terminate": false,
+            "text": "엄밀히 말하면 위치 에너지는 상대적인 위치에 따라 물체가 가지는 에너지 간의 차이를 의미해. 그렇지 않은 경우는 기준점이나 기준면을 정해야 하지.",
+            "turn_id": "BK22006325-7",
+            "utterance_id": "BK22006325.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "점점 높아지면 일을 하기 위한 비용이 높아지는 거니까 위치 에너지가 커지는 거지?",
+            "turn_id": "BK22006325-8",
+            "utterance_id": "BK22006325.15"
+        },
+        {
+            "reference_date": "2020-03-25",
+            "reference_text": [
+                {
+                    "value": "물체의 위치, 즉 높이로 인한 물체의 위치에너지 를 계산하기 위해 다음과 같은 공식을 이용한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "위치에너지 = 무게 × 높이",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ace.or.kr/bbs/board.php?bo_table=sub8_6&wr_id=527&sst=wr_hit&sod=desc&sop=and&page=35",
+            "search_query": "위치 에너지 공식",
+            "terminate": false,
+            "text": "물체의 높이로 인한 물체의 위치에너지를 계산하기 위한 공식이 무게 곱하기 높이니까 정확했어.",
+            "turn_id": "BK22006325-8",
+            "utterance_id": "BK22006325.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식이 나오니까 복잡하네. 충격량은 질량 곱하기 속도니까 두 식을 어떻게 이어야 하지?",
+            "turn_id": "BK22006325-9",
+            "utterance_id": "BK22006325.17"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "보존력만이 일정하게 작용하는 한, 역학적 에너지란 위치 에너지와 운동 에너지의 합으로 구성되므로 이 값이 항상 일정하게 정해진다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어 처음 운동한 높이가 1 m일 때 위치에너지가 10 J이였다면 이 때의 운동에너지는 0이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 물체가 낙하할 때에는 위치 에너지는 점점 감소하는데 정확하게 감소한 만큼 운동 에너지가 증가하게 된다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 물체가 낙하할 때에는 항상 위치 에너지는 감소하고 운동 에너지는 증가한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리하여 물체가 낙하할 때 어떠한 지점에서든 그 물체의 위치 에너지와 운동 에너지의 합, 즉 역학적 에너지는 항상 같다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%AD%ED%95%99%EC%A0%81_%EC%97%90%EB%84%88%EC%A7%80",
+            "search_query": "역학적 에너지",
+            "terminate": false,
+            "text": "자, 역학적 에너지라고 위치 에너지와 운동 에너지의 합으로 구성되어 있는데 보존력이 일정하면 이 값도 항상 일정해. 예로 처음 운동한 높이가 1 m일 때 위치에너지가 10 J이였다면 운동에너지는 0인 거지. 이 물체가 낙하하면 위치 에너지는 점점 감소하고 정확하게 감소한 만큼 운동 에너지가 증가해. 따라서 물체가 낙하할 때 위치 에너지는 감소하고 운동 에너지는 증가하는 거야. 그래서 물체가 낙하할 때 어떤 지점에서든 그 물체의 위치 에너지와 운동 에너지의 합은 항상 같아.",
+            "turn_id": "BK22006325-9",
+            "utterance_id": "BK22006325.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 운동 에너지 공식으로 충격량을 생각하면 되겠다. 운동 에너지 공식이 2분의 1 곱하기 질량 곱하기 속도의 제곱 맞지? 여기에 자유낙하 운동 속도도 계산해서 비교해보고 싶기도 해.",
+            "turn_id": "BK22006325-10",
+            "utterance_id": "BK22006325.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "정확해. 우리 근처 도서관에 가서 문제를 만들어서 풀어보자.",
+            "turn_id": "BK22006325-10",
+            "utterance_id": "BK22006325.20"
+        }
+    ]
+}

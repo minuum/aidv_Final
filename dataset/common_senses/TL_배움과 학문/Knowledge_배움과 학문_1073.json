@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007043",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007043",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 공룡에 관한 것부터 여러 책을 보고 있는데 분류된 기준에 대해서 잘 모르겠어.",
+            "turn_id": "BK22007043-1",
+            "utterance_id": "BK22007043.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분류라고 하면 공룡의 수각류 같은 것을 말하는 걸까?",
+            "turn_id": "BK22007043-1",
+            "utterance_id": "BK22007043.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 간단하게 종의 분류에 대해 알려주면 좋을 것 같아. 공룡이 무엇인지도 포함하면 좋겠어.",
+            "turn_id": "BK22007043-2",
+            "utterance_id": "BK22007043.3"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "공룡(恐龍, 영어: dinosaur)은 공룡상목(恐龍上目, 라틴어: Dinosauria 디노사우리아) 동물들을 통틀어 일컫는 용어이며, 이러한 의미로 쓸 때는 일반적으로 공룡으로 간주되는 익룡, 어룡, 수장룡은 포함되지 않는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전통적으로 공룡은 조반목(鳥盤目)과 용반목(龍盤目)의 두 종류로 분류된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조반목은 크게 각각아목과 장순아목으로 나뉜다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "용반목은 수각아목와 용각아목으로 나뉘며, 용반목의 허리는 파충류처럼 장골, 치골, 좌골이 세 방향을 나타내고 있으며, 좌골에서 치골이 앞으로 향하는 것으로 식별된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EB%A3%A1",
+            "search_query": "공룡의 종류",
+            "terminate": false,
+            "text": "공룡은 공룡상목 동물들을 통틀어 가리키는 말이야. 공룡상목이라고 했을 때 익룡, 어룡, 수장룡은 공룡에서 제외돼. 공룡은 두 종류로 분류되는데 하나는 조반목이고 다른 하나는 용반목이지. 여기서 조반목은 각각아목과 장순아목으로 분류되고, 용반목은 수각아목과 용각아목으로 나뉘지. 참고로 용반목은 허리가 파충류처럼 장골, 치골, 좌골이 세 방향으로 나타나고 여기서 좌골에서 치골이 앞으로 향하는 것이 특징이지.",
+            "turn_id": "BK22007043-2",
+            "utterance_id": "BK22007043.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐, 어룡, 수장룡은 잘 몰라서 따로 묻지는 않겠지만 익룡은 보통 공룡이라고 하지 않아?",
+            "turn_id": "BK22007043-3",
+            "utterance_id": "BK22007043.5"
+        },
+        {
+            "reference_date": "2011-01-25",
+            "reference_text": [
+                {
+                    "value": "익룡은 진화 지도에서 공룡과 매우 가까운 관계에 있지만 공룡이 아니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정확히 말해 앞발이 날개로 진화한 비행 파충류이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=-5259413",
+            "search_query": "익룡",
+            "terminate": false,
+            "text": "많은 사람들이 오해하고 있지. 익룡은 앞발이 진화해 날개가 된 비행 파충류야. 진화 지도에서 공룡과 정말 가깝지만 공룡은 아닌 거지.",
+            "turn_id": "BK22007043-3",
+            "utterance_id": "BK22007043.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뜻밖의 정보라서 정말 놀랐어. 다시 돌아와서 공룡의 종을 오늘 모두 정리하려면 오래 걸릴 것 같으니까 조반목만 살펴보면 좋을 것 같아. 먼저 조반목의 의미는 뭐고 조반목 공룡은 어떤 것인지 간단하게 말해줘.",
+            "turn_id": "BK22007043-4",
+            "utterance_id": "BK22007043.7"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "조반목(鳥盤目)은 공룡의 분류이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조반목은 골반의 형태가 새와 닮았다고 해서 용반목과 구분하기 위해 붙은 이름이지만, 실제 새의 조상은 조반류가 아닌 용반목이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전부 초식공룡으로 이루어져 있지만, 백악기의 용반목 중 일부가 초식공룡으로 진화했기 때문에 모든 초식공룡이 속해있는 것은 아니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%B0%98%EB%AA%A9",
+            "search_query": "조반목",
+            "terminate": false,
+            "text": "조반목은 공룡의 분류로 새의 골반과 닮았다는 이유로 붙여졌어. 하지만 이는 용반목과 구분하기 위한 거고 새의 조상은 조반류가 아닌 용반목이라는 점 유의해야 해. 조반목은 전부 초식공룡이지만 백악기의 용반목의 일부가 초식공룡으로 진화해서 모든 초식공룡이 조반목은 아니야.",
+            "turn_id": "BK22007043-4",
+            "utterance_id": "BK22007043.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 용반목에 속하는 공룡을 따로 알아봐야겠는걸? 조반목의 분류를 하나씩 설명해줄래?",
+            "turn_id": "BK22007043-5",
+            "utterance_id": "BK22007043.9"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "각각아목(Cerapoda, 角脚亞目)은 조각류와 각룡류, 후두류를 포함하는 분류군이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신조반류(Neornithischia) 하위에 분류된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원래 조각류를 '조각아목'으로, 각룡류와 후두류를 '주식두아목'으로 각각 따로 분류하였지만, 최근의 연구로 조각류와 주식두류가 서로 연관성이 깊다는 것이 밝혀져 하나의 아목으로 재분류되었다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%81%EA%B0%81%EC%95%84%EB%AA%A9",
+            "search_query": "각각아목",
+            "terminate": false,
+            "text": "먼저 신조반류 하위로 분류되기도 하는 각각아목이라고 있어. 조각류와 각룡류, 후두류가 여기에 속하지. 전에는 조각류를 조각아목으로, 각룡류와 후두류를 주식두아목으로 따로 분류된 적도 있지만, 최근의 연구에 의하면 조각류와 주식두류의 연관성이 깊어 하나의 아목으로 재분류되었어.",
+            "turn_id": "BK22007043-5",
+            "utterance_id": "BK22007043.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종의 갈래가 엄청 많아 복잡하네. 나머지는 다음에 따로 더 살펴보기로 하고 큰 줄기만 우선 정리해보면 좋을 것 같아. 조반목의 다른 아목은 뭐가 있어?",
+            "turn_id": "BK22007043-6",
+            "utterance_id": "BK22007043.11"
+        },
+        {
+            "reference_date": "2022-02-24",
+            "reference_text": [
+                {
+                    "value": "장순아목(Thyreophora, 裝盾亞目)는 스테고사우루스가 속하는 검룡류(Stegosauria)와 갑옷공룡류인 곡룡류(Ankylosauria)등을 포함하는 분류군이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%88%9C%EC%95%84%EB%AA%A9",
+            "search_query": "장순아목",
+            "terminate": false,
+            "text": "조반목의 다른 하나의 아목은 장순아목이야. 검룡류와 갑옷공룡류인 곡룡류 등이 여기에 포함되지. 검룡류에는 스테고사우르스가 있어.",
+            "turn_id": "BK22007043-6",
+            "utterance_id": "BK22007043.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 흔히 아는 공룡이 나오니까 기억에 더 잘 남는 것 같다. 시간이 얼마 남지 않았으니까 각 종의 공룡만 잠깐 살펴보면 좋을 것 같아. 조각류에 속하는 공룡 하나만 가르쳐줘.",
+            "turn_id": "BK22007043-7",
+            "utterance_id": "BK22007043.13"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "이구아노돈(Iguanodon)은 백악기 전기에 살았던 공룡이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "명칭의 의미는 이구아나의 이빨을 뜻한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조반목, 조각류, 이구아노돈과에 속한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "앞발의 엄지손가락에는 공격용으로 추정되는 상당히 뾰족한 발톱이 나있는데, 초기의 고생물학자들은 이 발톱을 코위에 난 뿔로 착각하기도 하였다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EA%B5%AC%EC%95%84%EB%85%B8%EB%8F%88",
+            "search_query": "이구아노돈",
+            "terminate": false,
+            "text": "이구아노돈이라고 조반목에 조각류, 이구아노돈과에 속하는 공룡이 있어. 백악기 전기에 살았고 이름의 의미는 이구아나의 이빨이야. 앞발의 엄지손가락에 정말 뾰족한 발톱이 있어. 공격용으로 추정되고 있는데 초기의 고생물학자들은 이 발톱을 코위에 난 뿔이라고 착각하기도 했어.",
+            "turn_id": "BK22007043-7",
+            "utterance_id": "BK22007043.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이구아노돈의 그림을 본 적이 있어서 정말 익숙한 공룡이야. 각각아목의 공룡을 하나 더 알면 좋을 것 같은데, 각룡류의 대표적인 공룡 하나만 알려줘.",
+            "turn_id": "BK22007043-8",
+            "utterance_id": "BK22007043.15"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "트리케라톱스(Triceratops, 그리스어로 세 개의 뿔이 있는 얼굴이라는 뜻)는 약 7000만년 전, 백악기 후기 마스트리흐트절 당시 미국 캐나다 지역에 처음 나타난 초식성 각룡류 공룡의 한 속이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목 부분에 뼈로 이루어진 큰 프릴이 있고, 얼굴에 세 개의 뿔, 그리고 커다란 네 개의 다리를 가지고 있으며 현생 코뿔소와 비슷해 보이는 점들이 있어서 트리케라톱스는 많은 공룡들 중 가장 눈에 띄는 종류이며 가장 잘 알려진 각룡류이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC%EC%BC%80%EB%9D%BC%ED%86%B1%EC%8A%A4",
+            "search_query": "트리케라톱스",
+            "terminate": false,
+            "text": "가장 잘 알려진 각룡류는 초식성 각룡류의 한 속인 트리케라톱스야. 약 7000만년 전, 백악기 후기 마스트리흐트절에 미국 캐나다 지역에서 처음 등장했어. 트리케라톱스는 목 부분에 뼈로 된 큰 프릴이 있고 얼굴에는 세 개의 뿔이 있어. 4개의 다리도 정말 큰데 전체적으로 현생 코뿔소와 비슷해 보인다는 특징이 있어.",
+            "turn_id": "BK22007043-8",
+            "utterance_id": "BK22007043.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "트리케라톱스가 각룡류였구나. 각각아목의 공룡은 모두 아는 것이라서 기억에 잘 남겠는걸? 마지막으로 장순아목에서 검룡류의 예시 공룡은 알았으니까 곡룡류의 대표적인 공룡을 가르쳐 주면 되겠다.",
+            "turn_id": "BK22007043-9",
+            "utterance_id": "BK22007043.17"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "안킬로사우루스(Ankylosaurus)는 백악기 후기(6800만년 전~6550만년 전) 에 살았던 공룡이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "안킬로사우루스는 최후의 곡룡류이며 ‘융합한 도마뱀’ 또는 ‘연결된 도마뱀’ 또는 '뻣뻣한 도마뱀'이라는 뜻이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "무엇보다 딱딱한 융합된 골편이 몸으로 뒤덮었고 가장 강력한 방어 무기인 꼬리 곤봉도 달려있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%82%AC%EB%A1%9C%EC%82%AC%EC%9A%B0%EB%A3%A8%EC%8A%A4",
+            "search_query": "안킬로사우루스",
+            "terminate": false,
+            "text": "백악기 후기에 살았던 안킬로사우루스가 있어. 이름의 뜻은 융합한 도마뱀이나 연결된 도마뱀, 또는 뻣뻣한 도마뱀이야. 안킬로사우루스는 최후의 곡룡류로 딱딱하게 융합된 골편이 몸을 덮고 있고 꼬리에는 강력한 방어 무기인 꼬리 곤봉이 있지.",
+            "turn_id": "BK22007043-9",
+            "utterance_id": "BK22007043.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안킬로사우루스도 정말 잘 알려져 있잖아. 오늘 네가 알려준 조반목은 지금 다 외운 것 같아. 다음에는 용반목도 알려줘.",
+            "turn_id": "BK22007043-10",
+            "utterance_id": "BK22007043.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어. 다음에는 그림으로 볼 수 있게 책도 가지고 와야겠다. 벌써 시간이 다 되었네, 그럼 내일 보자.",
+            "turn_id": "BK22007043-10",
+            "utterance_id": "BK22007043.20"
+        }
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013272",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013272",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방학이라 조카의 현장 체험학습을 따라가는 경우가 많은데 어디를 가야 할지 모르겠어요.",
+            "turn_id": "BK22013272-1",
+            "utterance_id": "BK22013272.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유적지를 가야 하는 건가요?",
+            "turn_id": "BK22013272-1",
+            "utterance_id": "BK22013272.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유네스코 세계 유산을 체험해야 한다는데 혹시 이게 정확히 무엇인지 잘 아시나요?",
+            "turn_id": "BK22013272-2",
+            "utterance_id": "BK22013272.3"
+        },
+        {
+            "reference_date": "44618.0",
+            "reference_text": [
+                {
+                    "value": "유네스코 세계 유산(유네스코 世界遺産, 영어: UNESCO World Heritage Site)은 유네스코에서 인류의 소중한 문화 및 자연 유산을 보호하기 위해 지정한 것이다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%9C%A0%EC%82%B0",
+            "search_query": "유네스코 세계 유산",
+            "terminate": false,
+            "text": "유네스코에서 전 세계 인류의 문화 및 자연 유산을 보호하고자 지정한 것들을 유네스코 세계 유산이라고 해요.",
+            "turn_id": "BK22013272-2",
+            "utterance_id": "BK22013272.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유네스코 세계 유산은 생소한데, 혹시 종류가 나뉘어 있나요?",
+            "turn_id": "BK22013272-3",
+            "utterance_id": "BK22013272.5"
+        },
+        {
+            "reference_date": "44618.0",
+            "reference_text": [
+                {
+                    "value": "세계 유산은 역사적으로 중요한 가치를 가지는 문화 유산과 지구의 역사를 잘 나타내고 있는 자연 유산, 그리고 이들의 성격을 합한 복합 유산으로 구분된다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EA%B3%84%EC%9C%A0%EC%82%B0",
+            "search_query": "유네스코 세계 유산 종류",
+            "terminate": false,
+            "text": "네, 역사적으로 중요한 가치를 가지고 있는 문화 유산, 지구의 역사를 드러내는 자연 유산 그리고 이를 복합적으로 가지고 있는 경우 복합 유산으로 유네스코 세계 유산의 종류를 나눌 수 있어요.",
+            "turn_id": "BK22013272-3",
+            "utterance_id": "BK22013272.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 유네스코 세계 문화 유산은 자주 들어 봐서 헷갈렸나 싶었어요. 유네스코 세계 유산을 가장 많이 보유하고 있는 나라는 어디예요?",
+            "turn_id": "BK22013272-4",
+            "utterance_id": "BK22013272.7"
+        },
+        {
+            "reference_date": "44706.0",
+            "reference_text": [
+                {
+                    "value": "세계유산을 1점 이상 보유하고 있는 나라는 총 167개국이며, 이들 중 세계유산을 10건 이상 가지고 있는 나라는 32개국, 가장 많은 세계유산 목록을 가진 나라는 이탈리아로 58점을 등재시켰다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.economyf.com/news/view.asp?idx=7395&page=1&ca1=&ca2=&sword=%BC%BC%B0%E8%C0%AF%BB%EA",
+            "search_query": "유네스코 세계 유산 보유국",
+            "terminate": false,
+            "text": "가장 많은 세계 유산을 보유하고 있는 국가는 총 58점을 보유한 이탈리아예요. 10건 이상 보유한 국가는 32개, 1개 이상 보유한 국가는 167개나 돼요.",
+            "turn_id": "BK22013272-4",
+            "utterance_id": "BK22013272.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 생각보다 많은 나라가 세계 유산을 가지고 있네요. 우리나라의 세계 문화 유산 중 답사를 추천해 주신다면요?",
+            "turn_id": "BK22013272-5",
+            "utterance_id": "BK22013272.9"
+        },
+        {
+            "reference_date": "44705.0",
+            "reference_text": [
+                {
+                    "value": "석굴암은 건축, 수리, 기하학, 종교, 예술적인 가치와 독특한 건축미를 인정받아 불국사와 함께 1995년 유네스코가 지정한 세계문화유산이 되었다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9D%EA%B5%B4%EC%95%94",
+            "search_query": "석굴암",
+            "terminate": false,
+            "text": "1995년에 유네스코 세계 문화 유산으로 지정된 석굴암을 추천할게요. 건축이나 기하학, 수리, 종교적 가치뿐 아니라 건축미와 예술적 가치를 인정받아 불국사와 함께 등재됐어요.",
+            "turn_id": "BK22013272-5",
+            "utterance_id": "BK22013272.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 경주까지 가기엔 조금 거리가 멀어서요. 또 다른 세계 문화 유산을 추천해 주신다면요?",
+            "turn_id": "BK22013272-6",
+            "utterance_id": "BK22013272.11"
+        },
+        {
+            "reference_date": "44796.0",
+            "reference_text": [
+                {
+                    "value": "남한산성(南漢山城)은 대한민국 경기도 광주시 남한산성면에 있는 남한산을 중심으로 하는 산성이며 경기도의 도립공원이다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "병자호란 당시 인조는 이곳에서 40일간 항전하였으나 결국 성문을 열고 청에게 항복한 곳으로 유명하다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1",
+            "search_query": "남한산성",
+            "terminate": false,
+            "text": "경기도의 도립공원이면서 경기도 광주시에 위치한 남한산을 중심으로 이루어진 남한산성을 추천할게요. 병자호란 때 인조가 이곳에서 40일간 청과 싸웠지만, 결국엔 투항했던 곳으로 유명해요.",
+            "turn_id": "BK22013272-6",
+            "utterance_id": "BK22013272.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남한산성도 좋지만, 교통이 좀 더 편리한 곳이었으면 좋겠어요.",
+            "turn_id": "BK22013272-7",
+            "utterance_id": "BK22013272.13"
+        },
+        {
+            "reference_date": "44737.0",
+            "reference_text": [
+                {
+                    "value": "창덕궁(昌德宮)은 대한민국 서울특별시의 북악산 왼쪽 봉우리인 응봉자락에 자리 잡고 있는 조선 시대 궁궐로 동쪽으로 창경궁과 맞닿아 있다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81",
+            "search_query": "창덕궁",
+            "terminate": false,
+            "text": "그렇다면 서울 북악산의 왼쪽 봉우리인 응봉자락에 자리해 있는 조선시대 궁궐인 창덕궁을 추천해요.",
+            "turn_id": "BK22013272-7",
+            "utterance_id": "BK22013272.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 창덕궁은 언제 유네스코 세계 문화 유산으로 등재됐어요?",
+            "turn_id": "BK22013272-8",
+            "utterance_id": "BK22013272.15"
+        },
+        {
+            "reference_date": "44737.0",
+            "reference_text": [
+                {
+                    "value": "창덕궁은 비교적 원형이 잘 보존되어 있는 중요한 고궁이며, 특히 창덕궁 후원은 한국의 유일한 궁궐후원이라는 점과 한국의 정원을 대표한다는 점에서 그 가치가 높다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1997년에 유네스코가 지정한 세계문화유산으로 등록되었다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%BD%EB%8D%95%EA%B6%81",
+            "search_query": "국내 유네스코 세계 문화 유산",
+            "terminate": false,
+            "text": "창덕궁이 국내 유네스코 세계 문화 유산으로 등재된 것은 1997년인데요. 원형이 잘 보존되어 있기도 하고, 우리나라에서 유일하게 궁궐후원을 가지고 있어서 정원을 대표한다는 의미에서 가치를 높이 살 수 있어요.",
+            "turn_id": "BK22013272-8",
+            "utterance_id": "BK22013272.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 창덕궁을 가 봐야겠어요. 유네스코 세계 유산으로 등재되려면 어떤 절차를 거쳐야 하나요?",
+            "turn_id": "BK22013272-9",
+            "utterance_id": "BK22013272.17"
+        },
+        {
+            "reference_date": "43811.0",
+            "reference_text": [
+                {
+                    "value": "세계유산 잠정목록 등록은 세계유산 지정의 첫 단계다.",
+                    "value_time": "44798.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문화재청이 유네스코에 세계유산 잠정 등록을 신청하면, 유네스코는 문화유산 가치 등을 심의해 잠정목록에 등록한다.",
+                    "value_time": "44798.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/area/gangwon/920608.html",
+            "search_query": "유네스코 세계 유산 잠정 목록",
+            "terminate": false,
+            "text": "우선 세계 유산 잠정목록으로 등록을 하는 것이 세계 유산 등재의 첫 단계인데요. 유네스코에 문화재청이 세계 유산 잠정 등록을 신청하고, 이에 대한 문화유산 가치 등을 심의한 다음, 유네스코에서 잠정목록에 등록하는 절차를 거쳐요.",
+            "turn_id": "BK22013272-9",
+            "utterance_id": "BK22013272.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 잠정목록에 있으면 세계 유산으로 등재될 수도 있겠네요. 현재 우리나라에도 잠정목록에 속한 유적이 있나요?",
+            "turn_id": "BK22013272-10",
+            "utterance_id": "BK22013272.19"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "경기 양주시는 ‘양주 회암사지 유적’이 유네스코 세계유산 잠정목록(Tentative List)으로 등재됐다고 27일 밝혔다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이는 14세기 동아시아에서 만개했던 불교 선종 문화의 번영과 확산을 증명하는 탁월한 물적 증거이며, 불교 선종의 수행 전통, 사원의 공간구성 체계를 구체적으로 증명하는 사례로 역사·문화적 가치가 매우 큰 유산이다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kmib.co.kr/article/view.asp?arcid=0017317610&code=61121111&sid1=soc",
+            "search_query": "양주 회암사지 유적",
+            "terminate": false,
+            "text": "네, 7월 27일에 양주 회암사지 유적이 잠정목록에 등재됐는데요. 이 유적은 14세기 동아시아의 불교 선종 문화를 증명하는 물적증거이기도 하거니와, 수행 전통이나 사원의 공간구성 등을 세밀하게 검증하는 역사 문화적 가치를 지닌 유산이에요.",
+            "turn_id": "BK22013272-10",
+            "utterance_id": "BK22013272.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그렇다면 잠정목록에서 세계 유산으로 등재되길 기다려 봐야겠네요.",
+            "turn_id": "BK22013272-11",
+            "utterance_id": "BK22013272.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 꼭 등재되었으면 좋겠어요.",
+            "turn_id": "BK22013272-11",
+            "utterance_id": "BK22013272.22"
+        }
+    ]
+}

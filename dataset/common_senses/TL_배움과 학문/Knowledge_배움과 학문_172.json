@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012128",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012128",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "6.25전쟁이 정확하게 언제인지 알고 있어?",
+            "turn_id": "BK22012128-1",
+            "utterance_id": "BK22012128.1"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "6.25 전쟁(六二五戰爭, 6·25 전쟁) 또는 한국 전쟁(문화어: 조선 전쟁/조국해방전쟁(韓國戰爭, 영어: Korean War, 중국어 정체: 韓戰/朝鮮戰爭, 중국어 간체: 韩战/朝鲜战争 , 러시아어: Корейская война)은 1950년 6월 25일 오전 4시에 조선민주주의인민공화국이 기습적으로 대한민국을 침공(남침)하여 발발한 전쟁이다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/6.25_%EC%A0%84%EC%9F%81",
+            "search_query": "6.25전쟁",
+            "terminate": false,
+            "text": "그럼, 그날을 잊을 수는 없지. 6월 25일은 알고 있지? 1950년 6월 25일이고 정확하게 오전 4시에 조선민주주의인민공화국이 기습적으로 우리나라를 침공해서 일어난 전쟁이야.",
+            "turn_id": "BK22012128-1",
+            "utterance_id": "BK22012128.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선민주주의인민공화국은 북한을 뜻하는 거지?",
+            "turn_id": "BK22012128-2",
+            "utterance_id": "BK22012128.3"
+        },
+        {
+            "reference_date": "44773.0",
+            "reference_text": [
+                {
+                    "value": "조선민주주의인민공화국(朝鮮民主主義人民共和國), 약칭 북한(北韓), 북조선(北朝鮮), 조선(朝鮮)은 동아시아의 한반도의 북부를 통치하고 있는 국가이다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98%EC%9D%B8%EB%AF%BC%EA%B3%B5%ED%99%94%EA%B5%AD",
+            "search_query": "조선민주주의인민공화국",
+            "terminate": false,
+            "text": "맞아. 정식 명칭은 조선민주주의인민공화국이고 줄여서 붙인 이름이 북한, 북조선, 조선이라고 해. 한반도 북부를 통치하는 나라가 바로 조선민주주의인민공화국이야.",
+            "turn_id": "BK22012128-2",
+            "utterance_id": "BK22012128.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그러면 전쟁 시작 후 얼마 만에 휴전이 된 거야?",
+            "turn_id": "BK22012128-3",
+            "utterance_id": "BK22012128.5"
+        },
+        {
+            "reference_date": "43306.0",
+            "reference_text": [
+                {
+                    "value": "이로써 3년 1개월 4일, 1129일 동안 전개됐던 6·25전쟁은 멈추게 됐다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "7월 27일 22시를 기해 한반도의 전 전선에서는 모든 전투행위가 중지됐다.",
+                    "value_time": "44773.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20180726/1/BBSMSTR_000000010202/view.do",
+            "search_query": "7월 27일 22시",
+            "terminate": false,
+            "text": "전쟁 후 3년 1개월 4일, 즉 1,129일 동안 지속된 전쟁은 1953년 7월 27일 22시에 모든 전투행위 및 행동이 멈췄어.",
+            "turn_id": "BK22012128-3",
+            "utterance_id": "BK22012128.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 갑자기 중지된 거야? 아니면 뭔가 있었던 거야?",
+            "turn_id": "BK22012128-4",
+            "utterance_id": "BK22012128.7"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "한국 군사 정전에 관한 협정은 한반도에서의 전쟁 행위를 멈추게 한 휴전협정(armistice)을 말한다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD_%EA%B5%B0%EC%82%AC_%EC%A0%95%EC%A0%84%EC%97%90_%EA%B4%80%ED%95%9C_%ED%98%91%EC%A0%95",
+            "search_query": "한국 군사 정전에 관한 협정",
+            "terminate": false,
+            "text": "아니야, 6.25전쟁을 멈추게 하려고 휴전협정을 시행한 거지.",
+            "turn_id": "BK22012128-4",
+            "utterance_id": "BK22012128.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 잘못 알고 있었나? 정전 어쩌고 했던 거 같은데.",
+            "turn_id": "BK22012128-5",
+            "utterance_id": "BK22012128.9"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "일시적으로 제한된 장소에서 군사 행동을 중단하는 것은 정전이라고 한다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대개는 휴전 협상을 하기 위해 먼저 정전을 선언하게 된다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EC%A0%84",
+            "search_query": "휴전",
+            "terminate": false,
+            "text": "정전협정이라고 말하고 싶은 거지? 틀린 말은 아니야. 휴전협정을 하기 위해서는 정전을 먼저 시행해야 해. 일시적으로 제한된 곳에서 군사들의 모든 행동, 행위를 중단하는 거지.",
+            "turn_id": "BK22012128-5",
+            "utterance_id": "BK22012128.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그나저나 진짜 전쟁하는 동안은 엄청나게 처참했을 것 같아. 근데 갑자기 전쟁이 일어났던 거야?",
+            "turn_id": "BK22012128-6",
+            "utterance_id": "BK22012128.11"
+        },
+        {
+            "reference_date": "44769.0",
+            "reference_text": [
+                {
+                    "value": "6.25 전쟁이 일어나기 전까지 1949년 1월 18일부터 1950년 6월 24일까지 있었던 전투횟수는 총 874회였다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/6.25_%EC%A0%84%EC%9F%81",
+            "search_query": "6.25전쟁",
+            "terminate": false,
+            "text": "갑자기 전쟁이 일어난 건 아니고 그전부터 전투가 있었어. 1949년 1월 18일부터 6.25전쟁 전날 1950년 6월 24일까지 전투가 발생했어. 전투 횟수가 무려 874회나 돼.",
+            "turn_id": "BK22012128-6",
+            "utterance_id": "BK22012128.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 전쟁이 일어나기 전에 그렇게나 많은 전투가 있었구나. 그리고 6.25전쟁을 승리로 이끌어 주었던 미국인 지휘관 이름이 뭐였더라? 들었던 거 같은데 생각이 안 나.",
+            "turn_id": "BK22012128-7",
+            "utterance_id": "BK22012128.13"
+        },
+        {
+            "reference_date": "44768.0",
+            "reference_text": [
+                {
+                    "value": "더글러스 맥아더(영어: Douglas MacArthur (더글러스 매카서), 1880년 1월 26일 ~ 1964년 4월 5일)는 미국의 군인이자 정치인이며 외교관 겸 사회운동가다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제1차 세계 대전과 제2차 세계 대전, 한국 전쟁에 미군과 연합군의 지휘관으로 활동하였다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8D%94%EA%B8%80%EB%9F%AC%EC%8A%A4_%EB%A7%A5%EC%95%84%EB%8D%94",
+            "search_query": "더글러스 맥아더",
+            "terminate": false,
+            "text": "더글러스 맥아더 말하는구나. 이 사람은 군인이자 정치인이었고 외교관 겸 사회운동가로 알려진 유명한 사람이야. 많은 전쟁에서 미군과 연합군의 지휘관으로 활동했는데 한국전쟁에도 참여해 준 참 고마운 사람이지.",
+            "turn_id": "BK22012128-7",
+            "utterance_id": "BK22012128.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 갑자기 이름이 생각이 안 났었어. 이 사람이 엄청 대단한 사람이라고 했던 거 같은데, 자세히 알려줄래?",
+            "turn_id": "BK22012128-8",
+            "utterance_id": "BK22012128.15"
+        },
+        {
+            "reference_date": "44651.0",
+            "reference_text": [
+                {
+                    "value": "인천 상륙 작전(仁川上陸作戰, 영어: Operation Chromite)은 한국 전쟁이 한창이던 1950년 9월 15일 UN군 사령관 더글러스 맥아더의 주도로 진행된 상륙작전이다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 작전에는 7만 5천여 명의 병력과 261척의 해군 함정이 투입되었다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2주 후 유엔군은 서울을 점령하게 된다.",
+                    "value_time": "44773.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%B2%9C_%EC%83%81%EB%A5%99_%EC%9E%91%EC%A0%84",
+            "search_query": "인천상륙작전",
+            "terminate": false,
+            "text": "그럼, 한참 전쟁 중이던 때인 1950년 9월 15일이었어. 맥아더의 주도로 진행된 이 작전에는 엄청난 병력과 261척의 해군 군사용 배가 투입되었는데 이 작전으로 인해서 2주 후 유엔군이 서울을 점령할 수 있게 되었어. 이 작전이 바로 그 유명한 인천상륙작전이야.",
+            "turn_id": "BK22012128-8",
+            "utterance_id": "BK22012128.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맥아더 장군 너무 멋있고 훌륭하다.",
+            "turn_id": "BK22012128-9",
+            "utterance_id": "BK22012128.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지? 나도 맥아더 장군을 이야기할 때마다 항상 느껴. 이야기하는 사이에 벌써 도착했네, 바로 내가 말한 곳이 여기야.",
+            "turn_id": "BK22012128-9",
+            "utterance_id": "BK22012128.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 얘기하는 거에 엄청나게 빠져들고 있었나 봐. 벌써 도착한 줄도 몰랐어. 어서 들어가자.",
+            "turn_id": "BK22012128-10",
+            "utterance_id": "BK22012128.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 먼저 들어가 있으면 주차 하고 들어갈게.",
+            "turn_id": "BK22012128-10",
+            "utterance_id": "BK22012128.20"
+        }
+    ]
+}

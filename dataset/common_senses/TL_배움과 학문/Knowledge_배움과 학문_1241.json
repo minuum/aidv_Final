@@ -1,0 +1,461 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008327",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008327",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 대항해 시대를 배경으로 한 게임에 푹 빠져 있는데, 게임을 하다 보니 그 시대 배경에 관해 더 알고 싶어지더라고. 그래서 말인데, 대항해 시대는 어느 시기이고, 언제 어디서 시작되었다고 봐야 할까?",
+            "turn_id": "BK22008327-1",
+            "utterance_id": "BK22008327.1"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "대항해시대(大航海時代, 영어: Era das Grandes Navegações, 영어: Age of Discovery, Age of Exploration)는 유럽사에서 대략 15세기에서 17세기까지를 가리키는 말이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시대사적으로 근세에 해당하며, 기술사적으로는 범선 시대와 거의 겹친다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1336년 포르투갈 왕국의 카나리아 제도 탐험으로 시작된 대항해시대는 1434년 마데이라섬 및 아조레스섬, 1498년의 서아프리카 해안 탐험을 거쳐 1498년 바스쿠 다 가마가 인도항로를 개척하면서 본격적으로 전개되기 시작했다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 다 가마의 인도 항해는 포르투갈이 인도양 일대에 식민정착지를 건설하기 시작한 분수령이기에 매우 중요하다고 평가받는다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 에스파냐의 후원을 받은 크리스토퍼 콜럼버스가 아메리카 대륙 항로를 개척한 것(1492년-1504년)은 유럽사를 넘어 전세계사적 중요성을 가진 엄청난 사건이었다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%AD%ED%95%B4%EC%8B%9C%EB%8C%80",
+            "search_query": "대항해 시대 시작",
+            "terminate": false,
+            "text": "유럽 역사에서 15세기부터 17세기쯤에 이르는 시기가 대항해 시대에 해당해. 기술사적 관점으로 보면 범선 시대와 겹치는 시기가 많고, 시대사적 관점에서는 근세에 해당하는 시기이지. 대항해 시대는 포르투갈 왕국이 1336년에 카나리아 제도를 탐험하면서 시작되었는데, 1434년에는 아조레스섬과 마데이라섬, 1498년에는 서아프리카 해안 탐사를 포함해 바스쿠 다 가마에 의해 인도 항로가 개척되면서 본격적인 전개가 이루어졌어. 특히, 이 바스코 다 가마가 한 인도 항해는 아주 중요한 것으로 평가되는데, 이 항해를 기점으로 포르투갈이 인도양 일대에 식민지를 만들기 시작했기 때문이야. 여기에 더해, 크리스토퍼 콜럼버스가 에스파냐의 후원을 받아 아메리카 대륙 항로를 개척한 사실은 유럽뿐 아니라 세계사적으로 봐도 아주 중요한 사건이지.",
+            "turn_id": "BK22008327-1",
+            "utterance_id": "BK22008327.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "포르투갈이 한 시대의 문을 열었다고 봐도 되겠구나. 그런데 범선 시대는 어떤 시대야?",
+            "turn_id": "BK22008327-2",
+            "utterance_id": "BK22008327.3"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "범선 시대(영어: Age of Sail)란 기술사에서 15-16세기 중반에서 19세기 중반까지를 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "노로 추진하는 범요선의 시대가 저물고, 범선이 전지구적 교역과 해전을 지배한 시대였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "범선시대의 적용 범위는 군함과 상선이 다르다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상선 및 탐험선의 경우 1450년경 포르투갈에서 엔히크 항해왕자의 후원으로 어선을 개조한 카라벨라가 개발된 것을 시작으로 본다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "군함의 경우 1571년 레판토 해전을 시작점으로 잡는데, 레판토가 범요선이 전장의 주력으로 활약한 마지막 해전이기 때문이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%94%EC%84%A0_%EC%8B%9C%EB%8C%80",
+            "search_query": "범선 시대",
+            "terminate": false,
+            "text": "역사를 기술사적으로 봤을 때, 15에서 16세기 중반부터 19세기 중반에 이르는 시기를 범선 시대라고 불러. 노를 저어 나아가던 범요선의 시대가 끝나고, 세계를 아우르는 교역과 해전에 범선이 지배적으로 사용된 시대이지. 범선 시대를 적용하는 범위는 배의 종류가 상선인지 군함인지에 따라 다른데, 상선이나 탐험선 같은 경우는 1450년경에 포르투갈 엔히크 항해 왕자의 후원하에 어선을 개조해 개발된 배인 카라벨라가 그 시초야. 군함 쪽 범선 시대는 1571년에 벌어진 레판토 해전이 그 시작점이라고 봐. 레판토 해전은 범요선이 전투의 주요 전력으로 힘을 발휘한 마지막 해전이거든.",
+            "turn_id": "BK22008327-2",
+            "utterance_id": "BK22008327.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "배의 형태에 따라서도 그렇게 시대를 구분할 수 있는 줄은 전혀 몰랐어. 그런데 그 엔히크 항해 왕자 말이야, 범선 시대를 연 배를 만들도록 후원한 사람이라고 하니 관심이 생기네. 어떤 사람이었어?",
+            "turn_id": "BK22008327-3",
+            "utterance_id": "BK22008327.5"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "인펑티 동 엔히크 드 아비스 드 비제우 공작(Infante Dom Henrique de Avis, Duque de Viseu [ẽ.'ʁi.k(ɨ)]: 1394년 3월 4일 ~ 1460년 11월 13일)은 엔히크 항해왕자(포르투갈어: Infante Dom Henrique, o Navegador 인펑티 동 엔히크 오 너비거도르[nɐ.vɨ.ɣɐ.ˈðoɾ], 영어: Prince Henry the Navigator)로 널리 알려진 포르투갈 아비스가의 왕자(Infante)이며 포르투갈 왕국 초창기의 주요 인물이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세인트빈센트곶에 천문대와 항해 연구소를 세웠으며, 탐험 항해가들을 파견하여 보자도르곶과 베르데곶 등을 탐험하게 하였고 마데이라 제도, 아조레스 제도 등을 발견하여 식민지를 건설하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "엔히크는 사그레스의 ‘빌라 두 인펑티(Vila do Infante, 왕자의 마을)’에 항해가와 지도업자들을 모아 이들의 후원자가 되었고 포르투갈이 대항해 시대를 열 수 있게 하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'항해왕' 또는 '항해왕자'라는 별칭은 19세기 독일 역사학자들에 의해 처음 사용되었고, 그의 전기를 쓴 영국의 작가들에 의해 널리 알려지게 되었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%94%ED%9E%88%ED%81%AC_%ED%95%AD%ED%95%B4%EC%99%95%EC%9E%90",
+            "search_query": "엔히크 항해 왕자",
+            "terminate": false,
+            "text": "엔히크 항해 왕자의 원래 이름은 인펑티 동 엔히크 드 아비스 드 비제우 공작이고, 보통 엔히크 항해 왕자라는 이름으로 많이 알려져 있지. 포르투갈 왕국 초기에 중요한 역할을 한 사람이자, 포르투갈 아비스가의 왕자였어. 엔히크 항해 왕자는 세인트빈센트 곶에 연구소와 천문대를 세우고 탐험 항해가를 파견해서 베르데곶, 보자도르곶 같은 곳들을 탐사하게끔 했고, 아조레스 제도나 마데이라 제도 등을 찾아내 식민지를 만들었어. 또, 지도 업자와 항해가들을 사그레스에 있는 빌라 두 인펑티에 모아 후원해서 이후 포르투갈이 대항해 시대를 여는 데에 일조했지. 참고로, 항해 왕자나 항해왕이라는 별칭을 처음 쓴 건 19세기 독일의 역사학자들이었고, 영국 작가들이 엔히크의 전기를 쓰면서 널리 퍼지게 됐어.",
+            "turn_id": "BK22008327-3",
+            "utterance_id": "BK22008327.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 시대를 앞선 생각을 가진 인물이었던 것 같아. 아까 이 왕자의 후원으로 카라벨라라는 배가 만들어졌다고 했는데, 카라벨라는 어떤 배야?",
+            "turn_id": "BK22008327-4",
+            "utterance_id": "BK22008327.7"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "카라벨라(포르투갈어: Caravela [kɐɾɐˈvɛlɐ], 영어: caravel 캐러벨[kǽrəvèl])는 15세기 포르투갈에서 서아프리카 해안을 탐험하기 위해 개발한 고기동성 소형 범선이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "범선 시대가 개막하기 전까지 지중해 무역에서 주로 사용된 범요선들은 강풍, 해류, 폭풍을 견딜 수 없었기 때문에 15세기까지 유럽인들은 연안항해밖에 할 수 없었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "카라벨라는 이전의 주력 소형선이었던 발링즈에 비해 빠르고 조작이 쉬웠으며, 삼각돛 덕분에 역풍을 거슬러 항해할 수 있었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 덩치가 작고 용골이 얕은 덕에 강이나 해안에서 좌초할 위험도 적었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%9D%BC%EB%B2%A8%EB%9D%BC",
+            "search_query": "카라벨라",
+            "terminate": false,
+            "text": "카라벨라는 서아프리카 해안을 탐사할 수 있게끔 15세기에 포르투갈에서 개발된 기동성이 높은 소형 범선이야. 범선 시대가 열리기 전, 지중해 무역에서는 주로 범요선이 쓰였는데, 이 범요선은 해류, 폭풍이나 강풍을 버티지 못했고, 그래서 유럽인들은 15세기까지 연안 항해만 할 수 있었어. 그런데 카라벨라는 이전에 쓰이던 주요 소형선인 발링즈에 비해 속도가 빠른 데다가 조작법도 간단했고, 삼각돛을 단 덕에 역풍을 거슬러 항해하는 것도 가능했지. 게다가, 배 크기가 작고 용골도 얕아서 해안이나 강처럼 얕은 물에서도 좌초할 걱정이 적었어.",
+            "turn_id": "BK22008327-4",
+            "utterance_id": "BK22008327.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히, 당시에는 정말 혁신적인 배였을 것 같네. 그런데 유럽에는 여러 나라가 있었잖아. 그 많은 나라 중에서 포르투갈이 대항해 시대를 먼저 열 수 있었던 요인으로는 뭐가 있을까?",
+            "turn_id": "BK22008327-5",
+            "utterance_id": "BK22008327.9"
+        },
+        {
+            "reference_date": "2019-09-17",
+            "reference_text": [
+                {
+                    "value": "이베리아 반도의 지리적 조건은 유럽의 대항해 시대를 여는데, 결정적으로 기여했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인도가 인도양에 던져진 다리이고, 이탈리아가 지중해로 뻗어나간 육지이듯 이베리아 반도는 유럽이 대서양을 향해 내민 머리라고 할 수 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포르투갈은 유럽 대륙 내에서 보면 변방 국가에 불과하지만, 바깥세상으로 진출하기 위해서는 첨단 전진 기지에 해당한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게다가 이베리아 반도는 중세 유럽의 주요 무역 루트인 이탈리아와 북유럽 항로의 딱 가운데 위치한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 문화·인적 자원도 풍부했으며 상업적 기회에 민감하게 반응하는 모험정신이 투철한 인물도 많았다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://jmagazine.joins.com/monthly/view/327628",
+            "search_query": "포르투갈 해양 진출 배경",
+            "terminate": false,
+            "text": "바로 이베리아 반도가 지닌 지리적인 조건 덕분인데, 이 지리적 조건이 유럽의 대항해 시대가 열리는 데에 크게 일조했지. 인도가 인도양에 있는 다리이고, 이탈리아가 지중해를 향해 튀어나온 육지인 것처럼, 이베리아 반도는 유럽이 대서양 쪽으로 머리를 내민 곳이나 마찬가지였거든. 그래서 유럽 대륙 내에서도 변방에 있는 나라인 포르투갈이 외부로 진출한다는 관점으로 보면 첨단 전진 기지가 되는 거야. 그뿐만 아니라, 중세 유럽에 쓰이던 주된 무역 루트는 이탈리아와 북유럽 항로였는데, 이베리아 반도는 이 항로의 한가운데 있지. 거기에 인적 자원이나 문화도 풍부했고, 상업적인 기회에 빠르게 반응을 보이면서 모험 정신이 대단한 사람 또한 많이 있었지.",
+            "turn_id": "BK22008327-5",
+            "utterance_id": "BK22008327.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 지리적인 요인은 인류사와 뗄레야 뗄 수 없는 관계 같아. 그런데 대항해 시대 때 사람들은 어째서 그렇게 바다로 나가려고 애썼을까?",
+            "turn_id": "BK22008327-6",
+            "utterance_id": "BK22008327.11"
+        },
+        {
+            "reference_date": "2020-01-28",
+            "reference_text": [
+                {
+                    "value": "대항해시대의 개막과 식민지 획득 경쟁은 바로 향신료를 찾기 위한 것이었고, 그로 인해서 시대의 다음 단계로 도약한 것이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유럽에서는 육류의 맛을 내는데 동양의 향신료가 필수적이었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 14세기 초, 무역을 중시해 실크로드를 보호해 주던 몽골 제국 원(元)나라의 힘이 떨어진 틈을 타 오스만제국이 발흥하여 유럽과 동방의 무역로를 차단했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러자 유럽에서 후추 등 동방상품의 가격이 폭등했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 상황에서 동양의 향신료만 얻을 수 있으면 그야말로 대박은 따 놓은 당상이었다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.healthumer.com/news/articleView.html?idxno=2951",
+            "search_query": "대항해시대 시작 향신료 무역",
+            "terminate": false,
+            "text": "바로 향신료 때문이야. 향신료를 찾으려고 대항해 시대가 열리고 식민지를 얻으려고 경쟁하면서 다음 시대로 넘어가게 된 것이지. 유럽에서는 고기의 맛을 내기 위해 동양에서 나는 향신료가 꼭 필요했거든. 그런데 14세기 초반, 무역을 중요하게 여겨서 실크로드를 보호하던 몽골 제국 원나라가 힘을 잃고, 그 틈에 오스만 제국이 동방과 유럽을 잇는 무역로를 차단해 버렸어. 그 결과, 유럽에서는 후추 같이 동방에서 오던 상품들의 가격이 크게 올랐고, 이런 상태에서 동양의 향신료를 손에 넣을 수만 있다면 큰 벌이가 될 수 있게 된 거야.",
+            "turn_id": "BK22008327-6",
+            "utterance_id": "BK22008327.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "향신료가 시대를 움직이는 원동력이 되었다니 그저 놀랍네. 그나저나 아까 대항해 시대를 설명해 주면서 바스쿠 다 가마의 인도 항해가 중요하게 평가된다는 이야기를 해 줬는데, 바스쿠 다 가마의 인도 항해를 좀 자세히 설명해 줄래?",
+            "turn_id": "BK22008327-7",
+            "utterance_id": "BK22008327.13"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "바스쿠 다 가마는 유럽인으로서 최초로 대서양과 아프리카 남해안을 거쳐 인도까지 항해한 인물로 인정받고 있으며, 1497년 7월에 리스본을 출발하여 귀국할때까지 총 2년이 걸렸고 약 42,000km를 항해하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "드디어 원정대가 1498년 5월 20일 캘리컷에 도착했다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "리스본을 떠난 지 316일(10개월 12일)만에 일이였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "출발 시 함선 4척을 이끌고 갔으나 2척만이 돌아왔으며, 170명중 55명만이 생존하여 귀환하였다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "처음 출발 당시 4척의 배가 떠나 단 2척만이 돌아왔고 힘든 여정이었지만, 다가마의 귀국으로 투자자들에게는 무려 투자원금의 60배에 달하는 배당금이 돌아갔다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EC%8A%A4%EC%BF%A0_%EB%8B%A4_%EA%B0%80%EB%A7%88",
+            "search_query": "바스쿠 다 가마 항해",
+            "terminate": false,
+            "text": "우선, 유럽인 중 대서양에서 아프리카 남해안을 지나 인도까지 항해한 사람은 바스쿠 다 가마가 최초야. 바스쿠 다 가마는 1497년 7월에 리스본에서 출항해 2년 뒤에 귀국했는데, 이 기간 동안 항해한 거리는 대략 42,000km야. 리스본을 떠난 바스쿠 다 가마의 원정대는 출발 316일 만인 1498년 5월 20일에 캘리컷에 도착하게 됐어. 원정대는 함선 4척에 170명으로 이루어져 있었는데, 이 중 겨우 배 2척과 55명만 살아 돌아올 만큼 힘겨운 여정이었지. 그래도 바스쿠 다 가마가 귀국한 덕에 투자한 금액의 60배에 이르는 배당금이 투자자들에게 돌아갔어.",
+            "turn_id": "BK22008327-7",
+            "utterance_id": "BK22008327.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성공하긴 했지만, 정말 처절한 항해였구나. 크리스토퍼 콜럼버스가 아메리카 대륙을 발견한 것도 엄청 중요한 사건이라고 했는데, 크리스토퍼 콜럼버스의 항해는 어떻게 진행됐을까?",
+            "turn_id": "BK22008327-8",
+            "utterance_id": "BK22008327.15"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "콜럼버스는 총 4차례나 유럽에서 아메리카 대륙을 항해하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제1차 항해의 출범은 1492년 8월 3일이었으며, 같은 해 10월 12일에 현재의 바하마 제도(Bahamas)에서 과나하니 섬(추정)에 도달했고, 이 섬을 산살바도르(San Salvador, 구세주의 섬)이라 칭하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제2차 항해(1493년 9월 24일)는 그의 선전에 따라 금을 캐러 가는 사람이 대부분이었는데, 1,200명이 참가하였으며 17척에 대선단이 꾸려졌다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제3차 항해(1498년 ~ 1500년)에서 트리니다드 토바고와 오리노코 강 하구(河口)를 발견하였다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제4차 항해(1502년 ~ 1504년)에서 그는 온두라스와 파나마 지협(地峽)을 발견하고 귀국한 것으로 알려져 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%86%A0%ED%8D%BC_%EC%BD%9C%EB%9F%BC%EB%B2%84%EC%8A%A4",
+            "search_query": "크리스토퍼 콜럼버스",
+            "terminate": false,
+            "text": "크리스토퍼 콜럼버스는 아메리카와 유럽 대륙을 총 4번이나 항해했어. 제1차 항해는 1492년 8월 3일에 이루어졌는데, 같은 해 10월 12일에 지금의 바하마 제도에서 과나하니 섬에 도착했고, 섬 이름을 구세주의 섬이라는 의미로 산살바도르라고 붙였지. 그 후에 이루어진 제2차 항해에 참가한 사람 대부분은 콜럼버스의 선전에 이끌려 금을 캐는 게 목적이었어. 제2차 항해는 배 17척에 1,200명이라는 큰 선단으로 이루어졌지. 이후 콜럼버스는 제3차 항해에서 오리노코 강 하구와 트리니다드 토바고를 발견, 제4차 항해에서는 파나마 지협과 온두라스를 발견했어.",
+            "turn_id": "BK22008327-8",
+            "utterance_id": "BK22008327.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 넓은 대서양을 그렇게 여러 번이나 왕복했구나. 위험으로 가득한 여행이었겠지만, 그래도 그 당시 미지의 바다를 여행하던 배와 사람들을 생각하면 어쩐지 가슴이 설레.",
+            "turn_id": "BK22008327-9",
+            "utterance_id": "BK22008327.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 대항해 시대를 상상할 때면 같은 기분을 느껴.",
+            "turn_id": "BK22008327-9",
+            "utterance_id": "BK22008327.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 그래서 그 시대를 배경으로 한 게임도 나온 것이겠지. 나는 이만 게임을 다시 하러 가 볼 게. 하다가 궁금한 게 있으면 또 물어봐도 될까?",
+            "turn_id": "BK22008327-10",
+            "utterance_id": "BK22008327.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 언제든 편하게 물어도 돼. 게임 재미있게 하고 다음에 보자.",
+            "turn_id": "BK22008327-10",
+            "utterance_id": "BK22008327.20"
+        }
+    ]
+}

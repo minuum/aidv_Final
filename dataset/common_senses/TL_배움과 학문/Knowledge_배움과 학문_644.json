@@ -1,0 +1,379 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003933",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003933",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 출근길에 시위대가 거리를 점거하고 있더라고요. 시위대 깃발에 고대 인물 석상으로 보이는 사진이 프린트되어 있어서 흥미로웠어요.",
+            "turn_id": "BK22003933-1",
+            "utterance_id": "BK22003933.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그거참 흥미롭네요. 시위대 깃발에 고대 석상이라니 짐작 가는 인물이 있기는 한데요. 혹시 석상의 이름에 형제가 들어가지 않나요?",
+            "turn_id": "BK22003933-1",
+            "utterance_id": "BK22003933.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 걸어 다니는 백과사전이라는 별명이 아깝지 않네요. 말씀대로 그 깃발 아래에 그라쿠스 형제라고 쓰여 있었어요. 이들의 정체가 대체 뭐에요?",
+            "turn_id": "BK22003933-2",
+            "utterance_id": "BK22003933.3"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "그라쿠스 형제(Gracchi)는 기원전 2세기 공화정 시대 고대 로마에서 활동한 정치가인 티베리우스 그라쿠스와 가이우스 그라쿠스를 말한다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들의 아버지는 집정관을 지낸 티베리우스 셈프로니우스 그라쿠스(대 그라쿠스)였고 어머니는 제2차 포에니 전쟁의 영웅인 스키피오 아프리카누스의 딸, 코르넬리아 아프리카나였다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들 형제는 아버지를 일찍 여의고 홀어머니 밑에서 훌륭한 교육을 받으며 자랐다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4_%ED%98%95%EC%A0%9C",
+            "search_query": "그라쿠스 형제",
+            "terminate": false,
+            "text": "기원전 2세기 로마 공화정 시대의 정치가인 티베리우스 그라쿠스와 가이우스 그라쿠스예요. 이들은 집정관이었던 대 그라쿠스와 제2차 포에니 전쟁의 영웅 스키피오 아프리카누스의 딸인 코르넬리아 아프리카나의 아들들이었죠. 아버지는 일찍 돌아가셨지만 어머니 밑에서 훌륭한 교육을 받았어요.",
+            "turn_id": "BK22003933-2",
+            "utterance_id": "BK22003933.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어마어마한 엘리트 귀족 집안이었네요? 그런데 왜 시위대가 그들의 깃발을 들고 있었던 걸까요?",
+            "turn_id": "BK22003933-3",
+            "utterance_id": "BK22003933.5"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "두 형제는 모두 호민관이 되어 로마 공화정 내에서 자작농을 육성하는 토지개혁을 비롯하여 빈민, 무산자를 돕는 여러 가지 개혁을 시행하려고 했으나 로마 원로원과 보수적인 귀족 반대파에 밀려 끝내 죽임을 당하고 개혁은 실패했다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4_%ED%98%95%EC%A0%9C",
+            "search_query": "그라쿠스 형제 개혁 죽음",
+            "terminate": false,
+            "text": "그들의 인생 스토리에 공감하기 때문이죠. 호민관이 된 형제는 자작농을 키우기 위해 토지 개혁과 재산이 없는 사람들을 돕는 각종 개혁을 시도했지만 로마 원로원과 보수 귀족 반대파들에게 밀려 결국 죽임을 당하고 말거든요.",
+            "turn_id": "BK22003933-3",
+            "utterance_id": "BK22003933.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 불꽃 같은 삶이었네요. 당시 그들이 토지 개혁을 시도했던 이유는 뭐예요?",
+            "turn_id": "BK22003933-4",
+            "utterance_id": "BK22003933.7"
+        },
+        {
+            "reference_date": "2015-03-17",
+            "reference_text": [
+                {
+                    "value": "그런데 귀족층의 대농장(라티푼디움) 운영이 자영농의 몰락을 부채질했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소작농과 노예를 양산하면서 사회적 모순이 드러난 것이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2015031705154522380",
+            "search_query": "그라쿠스 로마 자영농 몰락",
+            "terminate": false,
+            "text": "귀족층이 큰 농장을 운영하면서 자영농의 몰락을 가속한 것에 대한 문제의식을 느꼈기 때문이죠. 소작농과 노예가 당하는 사회적 부조리가 개혁의 시초가 됐어요.",
+            "turn_id": "BK22003933-4",
+            "utterance_id": "BK22003933.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 개혁을 할 수밖에 없었군요. 그럼 대체 어떤 개혁이었기에 귀족들이 그렇게 반발한 건가요?",
+            "turn_id": "BK22003933-5",
+            "utterance_id": "BK22003933.9"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "이전의 법은 일정정도 이상의 땅을 한 개인이 소유하는 것을 금지하고, 그 이상을 소유했을 경우 정부가 몰수한다는 내용이었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 아무도 이를 지키지 않았고 편법이 난무했었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그라쿠스가 하려는 작업은 이 법이 지켜질 수 있도록 법을 재정비하고 무산자들에게 땅을 나누어주는 것이었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://topclass.chosun.com/news/articleView.html?idxno=30467",
+            "search_query": "그라쿠스 토지개혁 내용",
+            "terminate": false,
+            "text": "예전에도 일정 이상의 땅을 한 개인이 소유하면 정부가 몰수해버리는 법이 있었어요. 하지만 편법을 쓰는 등 아무도 지키지 않았죠. 그래서 그라쿠스는 이 법이 지켜질 수 있게 법안을 재정비하고 재산이 없는 사람들에게 땅을 나눠주려고 했죠.",
+            "turn_id": "BK22003933-5",
+            "utterance_id": "BK22003933.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 파격적인 법안이었네요. 이러면 갈등이 없을 수가 없을 거 같은데요?",
+            "turn_id": "BK22003933-6",
+            "utterance_id": "BK22003933.11"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "티베리우스로 대변되는 로마 민회와 부자들을 대변하는 원로원은 서로에게 앙심을 품었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://topclass.chosun.com/news/articleView.html?idxno=30467",
+            "search_query": "그라쿠스 티베리우스 민회 원로원",
+            "terminate": false,
+            "text": "맞아요. 티베리우스 그라쿠스로 대변되던 로마 민회와 부호들을 대변하던 원로원은 형제에게 악감정을 품게 되죠.",
+            "turn_id": "BK22003933-6",
+            "utterance_id": "BK22003933.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 염치도 없는 사람들이네요! 결국 티베리우스 그라쿠스는 무사하지 못했겠죠?",
+            "turn_id": "BK22003933-7",
+            "utterance_id": "BK22003933.13"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "그러자 반대파는 철제 곤봉으로 무장하고 광장으로 가서 그라쿠스의 지지자들을 무차별적으로 학살하기 시작했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그라쿠스도 살해당하고 수백명이 반대파에 의해 학살당했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8B%B0%EB%B2%A0%EB%A6%AC%EC%9A%B0%EC%8A%A4_%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4",
+            "search_query": "티베리우스 그라쿠스 살해",
+            "terminate": false,
+            "text": "맞아요. 철제 곤봉을 든 반대파가 광장에 가서 그라쿠스의 지지자들을 마구 죽이기 시작했어요. 결국 반대파는 그라쿠스를 포함한 수백명을 살해했죠.",
+            "turn_id": "BK22003933-7",
+            "utterance_id": "BK22003933.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참 씁쓸한 기분이 드네요. 그런데 그라쿠스 형제라고 하지 않았어요? 나머지 한 명은 어떻게 됐나요?",
+            "turn_id": "BK22003933-8",
+            "utterance_id": "BK22003933.15"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "형 티베리우스가 로마에서 보수파에게 죽임을 당하던 기원전 133년 가이우스는 매형 스키피오 아이밀리아누스 아프리카누스의 밑에서 히스파니아 누만티아에서 군복무를 하고 있었다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%B4%EC%9A%B0%EC%8A%A4_%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4",
+            "search_query": "티베리우스 가이우스 그라쿠스 스키피오",
+            "terminate": false,
+            "text": "티베리우스가 죽임을 당한 기원전 133년 당시 동생 가이우스는 히스파니아의 누만티아에서 매형인 키피오 아이밀리아누스 아프리카누스에 소속되어 군 복무를 하고 있었어요.",
+            "turn_id": "BK22003933-8",
+            "utterance_id": "BK22003933.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하필 동생은 군 복무 중이었군요. 동생도 형처럼 정치를 했었나요?",
+            "turn_id": "BK22003933-9",
+            "utterance_id": "BK22003933.17"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "기원전 123년 가이우스는 첫 번째 호민관에 출마하여 당선되었다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "호민관에 당선되자 그는 여러 가지 개혁적인 법안을 들고 나왔다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 전통적인 보수파들에게 법안의 일부는 매우 불쾌한 것으로 특히 시민권의 확대는 모든 원로원 의원이 가이우스에게 등을 돌리는 결과를 초래했다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%B4%EC%9A%B0%EC%8A%A4_%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4",
+            "search_query": "그라쿠스 가이우스 개혁법안",
+            "terminate": false,
+            "text": "맞아요. 기원전 123년에 가이우스는 호민관에 출마해서 처음 당선된 후 여러 개혁 법안을 들고나와요. 하지만 전통적인 보수파들은 역시 법안을 반기지 않았죠. 특히 시민권 확대로 인해 원로원 의원들까지 전부 가이우스의 반대에 서게 됐어요.",
+            "turn_id": "BK22003933-9",
+            "utterance_id": "BK22003933.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 말씀하신 대로 결국 동생도 형 같은 운명을 맞았겠군요? 벌써 눈물이 나려고 하네요.",
+            "turn_id": "BK22003933-10",
+            "utterance_id": "BK22003933.19"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "그라쿠스파는 전통적으로 평민의 아성이던 아벤티노 언덕에서 저항했으나 모두 학살당했고 가이우스도 혼란중에 도망치다가 결국 자살했다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%B4%EC%9A%B0%EC%8A%A4_%EA%B7%B8%EB%9D%BC%EC%BF%A0%EC%8A%A4",
+            "search_query": "그라쿠스 가이우스 자살",
+            "terminate": false,
+            "text": "맞아요. 그라쿠스파가 평민들의 아성이었던 아벤티노 언덕에서 저항했지만 모두 학살당하고 가이우스는 도망치다가 결국 자살해요.",
+            "turn_id": "BK22003933-10",
+            "utterance_id": "BK22003933.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마치 한 편의 드라마를 보는 듯한 인생 스토리네요. 제가 궁금해했던 것들 오늘 바로 해결해주셔서 정말 감사합니다.",
+            "turn_id": "BK22003933-11",
+            "utterance_id": "BK22003933.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 그라쿠스 형제의 삶을 다시 한번 반추할 수 있어서 좋았네요. 다음에도 궁금한 게 있으면 얼마든지 질문해 주세요.",
+            "turn_id": "BK22003933-11",
+            "utterance_id": "BK22003933.22"
+        }
+    ]
+}

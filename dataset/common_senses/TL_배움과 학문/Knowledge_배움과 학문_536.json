@@ -1,0 +1,418 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002762",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002762",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜만에 얼굴을 보는 것 같아요. 더운데 잘 지내고 있나요?",
+            "turn_id": "BK22002762-1",
+            "utterance_id": "BK22002762.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "올 여름이 확실히 덥긴 하네요. 그래도 나름 잘 지내고 있답니다. 궁금이님은 요즘 어떻게 지내고 있나요?",
+            "turn_id": "BK22002762-1",
+            "utterance_id": "BK22002762.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 지난번에 추천해 주신 자폐 관련 드라마를 하나씩 섭렵하고 있어요.",
+            "turn_id": "BK22002762-2",
+            "utterance_id": "BK22002762.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그때 이야기 나눴던 드라마들 말씀이시군요?",
+            "turn_id": "BK22002762-2",
+            "utterance_id": "BK22002762.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 밤에 한 편씩 보면서 열대야를 달래고 있어요. 그런데 보다 보니 자폐에 대해 좀 더 알고 싶어지더라고요. 자폐에 대한 정확한 정의가 뭘까요?",
+            "turn_id": "BK22002762-3",
+            "utterance_id": "BK22002762.5"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "자폐 장애(自閉障碍; autism) 또는 자폐증(自閉症), 자폐특성(自閉特性)은 의사 소통의 어려움과 제한적이고 반복적인 행동을 특징으로 하는 발달 장애의 일종이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%9E%A5%EC%95%A0",
+            "search_query": "자폐 정의",
+            "terminate": false,
+            "text": "쉽게 말하면 의사 소통이 어렵고 제한적이고 반복적인 행동이 특징인 발달 장애의 일종이 자폐 장애예요. 자폐증 또는 자폐특성이라고 부르기도 하고요.",
+            "turn_id": "BK22002762-3",
+            "utterance_id": "BK22002762.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 발달 장애의 일종이군요? 그럼 보통 자폐 장애가 있다는 건 언제 알 수 있을까요?",
+            "turn_id": "BK22002762-4",
+            "utterance_id": "BK22002762.7"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "대부분의 자폐 장애는 2~3세의 아동기부터 발견되며 성장기 동안 전반적 발달에 문제를 보인다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%9E%A5%EC%95%A0",
+            "search_query": "자폐 발견 시기",
+            "terminate": false,
+            "text": "대부분은 2, 3세 정도의 아동기 때부터 자폐 장애가 발견돼요. 그 후 성장하면서 전반적인 발달에 문제를 보이는 편이고요.",
+            "turn_id": "BK22002762-4",
+            "utterance_id": "BK22002762.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 상당히 어릴 때부터 시작되는 장애네요. 그럼 장애를 알아차릴 수 있는 특별한 행동이나 증상 같은 게 있나요?",
+            "turn_id": "BK22002762-5",
+            "utterance_id": "BK22002762.9"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "태어난 지 몇 달이 지나지 않아도 자폐를 가진 아기는 보통의 아기에 비하여 눈을 마주보는 것이나 상호작용하는 것을 거부하며 이것은 다른 사람에게의 무관심으로 비칠 수 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자폐 증상이 있는 아이는 다른 친구들과 떨어져 혼자 있는 것을 선호하는 경향이 강하다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 그들은 다른 사람들에게서 평온을 얻지 못하고, 부모의 감정 표현에 거의 반응하지 않는다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%9E%A5%EC%95%A0",
+            "search_query": "자폐 장애 증상",
+            "terminate": false,
+            "text": "그럼요, 몇 가지 증상이 있죠. 태어난 지 몇 달 지나지 않았어도 자폐를 가진 아기는 보통의 아기들과 달라요. 눈을 마주 보는 행동이나 상호작용하는 것을 거부하죠. 그래서 다른 사람에게 무관심한 것처럼 비치기도 하고 다른 친구들과 떨어져서 혼자 있는 걸 선호하는 경향이 강해요. 다른 사람들에게서 평온을 얻지 못하니까 부모가 감정 표현을 해도 거의 반응하지 않죠.",
+            "turn_id": "BK22002762-5",
+            "utterance_id": "BK22002762.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 확실히 일반적으로 볼 수 있는 아기의 행동과는 다르네요. 그런데 자폐 장애는 어쩌다 생기는 걸까요?",
+            "turn_id": "BK22002762-6",
+            "utterance_id": "BK22002762.11"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "자폐 장애의 발생 빈도는 부모의 높은 연령과 유의미한 연관관계를 보인다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 상당수의 자폐 장애에서는 가족력 또는 유전자 변이가 확인되며, 임신기 약물 복용도 문제를 일으킬 수 있는 것으로 조사된다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%9E%A5%EC%95%A0",
+            "search_query": "장폐 장애 원인",
+            "terminate": false,
+            "text": "자폐 장애 발생 빈도의 유의미한 연관관계는 부모의 높은 연령에서 찾을 수 있어요. 또 상당수의 자폐 장애에서는 가족력이나 유전자 변이가 확인되기도 하죠. 임신기에 약물을 복용한 것도 문제를 일으킬 수 있는 것으로 조사되었고요.",
+            "turn_id": "BK22002762-6",
+            "utterance_id": "BK22002762.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자폐 장애가 후천적인 요인보단 선천적인 요인이 강하군요. 근데 제가 본 드라마에서의 자폐 장애 인물들은 나름 소통도 가능하고 천재적인 면이 있던데 뭐가 다른 걸까요?",
+            "turn_id": "BK22002762-7",
+            "utterance_id": "BK22002762.13"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼 또는 자폐 스펙트럼 장애(Autism Spectrum Disorders, ASD)는 자폐증/자폐 장애를 비롯하여 자폐증의 진단기준은 충족하지 않으나 전체 또는 일부 특징이 비슷한 여러 증후군을 모은 개념이다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사회생활의 문제와 제한적인 관심사 등을 공통적인 특징으로 하며, 대표적인 예시로 아스퍼거 증후군, 서번트 증후군 등을 포함한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼 장애",
+            "terminate": false,
+            "text": "아마 드라마 속 인물들은 자폐 스펙트럼 또는 자폐 스펙트럼 장애를 가졌을 가능성이 높아요. 자폐 스펙트럼 장애는 자폐증, 자폐 장애를 비롯한 자폐증의 진단기준은 충족하지 않거든요. 하지만 전체 또는 일부 특징이 비슷한 여러 증후군을 일컫는 말이에요. 사회생활에 문제가 있거나 관심사를 제한적으로 두는 등의 특징을 공통적으로 가지고 있죠. 대표적으로 아스퍼거 증후군, 서번트 증후군 등을 포함하고요.",
+            "turn_id": "BK22002762-7",
+            "utterance_id": "BK22002762.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 자폐 장애와 비슷한 듯하면서 다르네요. 아스퍼거 증후군은 정확히 어떤 병인가요?",
+            "turn_id": "BK22002762-8",
+            "utterance_id": "BK22002762.15"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "아스퍼거 증후군(영어: Asperger syndrome) 혹은 아스페르거 증후군(독일어: Asperger-Syndrom)은 발달장애의 일종으로, 사회적 상호작용과 비언어적 의사소통에 어려움을 겪고 제한적·반복적인 관심사와 활동을 보이는 사람들을 통틀어 가리킨다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 자폐 스펙트럼과는 달리 전반적으로 언어적 의사소통과 인지능력의 발달 지연은 발생하지 않거나 비교적 적게 발생하며, 표준 진단 기준에는 포함되어 있지 않으나 서투른 동작이나 특이한 언어사용이 흔하게 나타난다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8A%A4%ED%8D%BC%EA%B1%B0_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "아스퍼거 증후군",
+            "terminate": false,
+            "text": "아스퍼거 증후군은 아스페르거 증후군이라고도 하는데 발달장애의 일종이에요. 보통 사회적 상호작용과 비언어적 의사소통에 어려움을 겪어요. 제한적이고 반복적인 관심사나 활동을 보이는 사람들을 통틀어 가리키는 용어고요. 다른 자폐 스펙트럼과는 다르게, 전반적인 언어적 의사소통이나 인지능력의 발달 지연이 발생하지 않을 수도 있고 발생하더라도 비교적 적게 발생해요. 그래서 표준 진단 기준에는 포함되어 있지 않지만 동작이 서투르거나 언어 사용이 특이한 경우가 흔하죠.",
+            "turn_id": "BK22002762-8",
+            "utterance_id": "BK22002762.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 아스퍼거 증후군인 경우에는 기본적인 소통은 가능한 거네요?",
+            "turn_id": "BK22002762-9",
+            "utterance_id": "BK22002762.17"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "일반적인 자폐증과는 달리, 다른 사람들과의 접촉을 반드시 거부하지 않는 아스퍼거인은 서투르더라도 사람들과 친해지려 할 수 있는데, 이때 사회적 상호작용에 부적절히 반응하여 다른 사람의 감정을 무시한다는 느낌을 주어 관계 형성에 어려움을 겪고는 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8A%A4%ED%8D%BC%EA%B1%B0_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "아스퍼거인 증상",
+            "terminate": false,
+            "text": "일반적인 자폐증과는 달리, 다른 사람들과의 접촉을 반드시 거부하진 않아요. 그래서 아스퍼거인은 서투르더라도 사람들과 친해지려고 하긴 하죠. 그런데 사회적 상호작용에 부적절하게 반응하다 보니 다른 사람의 감정을 무시한다는 느낌을 줄 때가 있기도 해요. 이런 점이 관계 형성에 어려움을 주기도 하고요.",
+            "turn_id": "BK22002762-9",
+            "utterance_id": "BK22002762.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그래도 타인에게 관심을 어느 정도 가진다는 면이 인상적이네요. 아, 서번트 증후군은 어떤가요?",
+            "turn_id": "BK22002762-10",
+            "utterance_id": "BK22002762.19"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "새반트 증후군(Savant (/sævˈɑːnt/) syndrome)은 자폐증 등의 뇌 기능 장애를 갖고 있으면서 의사소통, 언어, 지능적 측면에서는 비장애인과 다를 바 없으며, 비장애인과는 다른 천재성을 동시에 갖는 현상이나 사람을 말한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반인과 의사소통이 충분히 가능하다는 점 때문에 질병으로 인식되지 못하기도 한다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%88%EB%B0%98%ED%8A%B8_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "서번트 증후군",
+            "terminate": false,
+            "text": "서번트 증후군도 자폐증 등의 뇌 기능 장애를 갖고 있긴 해요. 하지만 의사소통, 언어, 지능적 측면에서는 비장애인과 다를 바가 없기도 하고 비장애인과는 다른 천재성을 동시에 갖는 현상이나 사람을 가리키죠. 일반인과 의사소통이 충분히 가능하다는 점 때문에 오히려 질병으로 인식되지 못하는 경우도 있죠.",
+            "turn_id": "BK22002762-10",
+            "utterance_id": "BK22002762.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 천재성을 띤다고 하는 말을 들으니 제가 본 드라마들 속 주인공 모습이 생각나네요.",
+            "turn_id": "BK22002762-11",
+            "utterance_id": "BK22002762.21"
+        },
+        {
+            "reference_date": "2018-09-28",
+            "reference_text": [
+                {
+                    "value": "한편, 실제 서번트증후군 환자가 모두 천재적인 능력을 가지는 것은 아니다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자폐증 등 정신 장애를 앓고 있는 환자 중 서번트증후군을 보이는 환자가 2000명 중 1명꼴이라는 보고가 있다.",
+                    "value_time": "2022-07-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.health.chosun.com/svc/news_view.html?contid=2018092801654",
+            "search_query": "서번트 증후군 비율",
+            "terminate": false,
+            "text": "드라마에서는 그럴 수 있지만 실제로 서번트 증후군 환자가 모두 천재적인 능력을 가지는 것은 아니에요. 한 보고에서는 자폐증 같은 정신 장애를 앓고 있는 환자 중에서 서번트 증후군을 가진 환자는 2000명 중 1명꼴이라고 하기도 했고요.",
+            "turn_id": "BK22002762-11",
+            "utterance_id": "BK22002762.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 모든 걸 정의에 따라 일반화할 수는 없겠군요. 자폐 장애 내에서도 유형이 다 다르고 증상도 다 다르네요.",
+            "turn_id": "BK22002762-12",
+            "utterance_id": "BK22002762.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 감기에 걸렸다고 해서 모두가 같은 증상을 보이는 건 아니듯이 자폐 장애 내에서도 많은 부분이 다르고 또 나눠지고 있어요.",
+            "turn_id": "BK22002762-12",
+            "utterance_id": "BK22002762.24"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마 때문에 궁금증을 갖게 된 거였지만 덕분에 새로운 사실을 많이 알게 되었네요. 앞으로 자폐 장애 관련 콘텐츠가 나오면 좀 더 유심히 살펴보게 될 것 같아요. 오늘 정말 유익한 시간이었네요.",
+            "turn_id": "BK22002762-13",
+            "utterance_id": "BK22002762.25"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "우리가 나눈 대화가 도움이 되었다면 다행이네요. 남은 드라마도 재밌게 보길 바랄게요!",
+            "turn_id": "BK22002762-13",
+            "utterance_id": "BK22002762.26"
+        }
+    ]
+}

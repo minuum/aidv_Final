@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013089",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013089",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 사촌 동생이 놀러 왔었는데 호랑이를 엄청 좋아하더라고요. 또 만났을 때 호랑이 이야기하면서 친해지고 싶은데 호랑이에 대해 하나도 몰라서 걱정이에요. 호랑이가 어떤 동물이고 어떤 특징을 가졌는지 혹시 아시나요?",
+            "turn_id": "BK22013089-1",
+            "utterance_id": "BK22013089.1"
+        },
+        {
+            "reference_date": "44798.0",
+            "reference_text": [
+                {
+                    "value": "호랑이(虎狼이) 또는 범, 칡범, 갈범(이는 표범과 구별하여 일컫는 말이다.)은 식육목 고양이과에 속하는 맹수다.",
+                    "value_time": "44802.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸길이 2.2~4.2m, 꼬리길이 80~110cm, 어깨높이 90~130cm, 몸무게 90~360kg이다.",
+                    "value_time": "44802.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%EB%9E%91%EC%9D%B4",
+            "search_query": "호랑이",
+            "terminate": false,
+            "text": "호랑이는 맹수로서 식육목 고양이과에 해당하고 범 혹은 갈범 등으로 불립니다. 몸길이는 2.2미터에서 4.2미터까지이며, 꼬리 길이는 80에서 110센티미터이고, 어깨까지 높이가 90에서 130센티미터에다, 무게는 90킬로그램에서 360킬로그램까지 나갑니다.",
+            "turn_id": "BK22013089-1",
+            "utterance_id": "BK22013089.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호랑이는 짐승 중에 왕이라 불리잖아요. 그런데 호랑이 털을 보면 갈색이라 눈에 잘 보일텐데, 다른 동물들을 사냥할 수 있는 비결이 뭔가요?",
+            "turn_id": "BK22013089-2",
+            "utterance_id": "BK22013089.3"
+        },
+        {
+            "reference_date": "44593.0",
+            "reference_text": [
+                {
+                    "value": "개·고양이·말·사슴을 포함한 대부분의 육상 포유류는 파란색과 녹색 두 가지 종류의 원뿔만 갖고 있습니다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 경우 빨간색이나 주황색을 보지 못합니다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사슴과 같은 육상 포유류는 호랑이의 주요 먹이이고, 이색성 시력 때문에 호랑이의 주황색 털을 주황색으로 보지 않고 녹색으로 본다는 것입니다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "호랑이가 덤불 뒤를 배회하거나 풀밭에 웅크리고 있을 때는 녹색과 검정으로만 보이기 때문에 호랑이를 식별하기가 훨씬 더 어렵습니다",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25044848",
+            "search_query": "호랑이 털",
+            "terminate": false,
+            "text": "개와 고양이 같은 대다수의 육상 포유류는 원뿔세포가 파란색과 녹색 두 종류뿐입니다. 그러면 빨간색이나 주황색을 볼 수가 없게 되죠. 호랑이의 주요 먹잇감인 사슴과 같은 육상 포유류는, 이색성 시력을 가지고 있어서 호랑이의 주황색 털을 주황색이 아니라 녹색으로 인지하게 됩니다. 호랑이가 덤불 뒤를 어슬렁거리거나 풀밭에 웅크리게 되면, 녹색과 검정으로만 눈에 들어오기 때문에 호랑이를 식별하기가 더욱 까다로워지고요.",
+            "turn_id": "BK22013089-2",
+            "utterance_id": "BK22013089.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람 눈에만 주황색으로 보이는 거지, 다른 동물들한테는 그렇게 안 보인다는 거군요. 제가 듣기로는 다른 고양이과 동물과 달리 호랑이는 수영도 잘한다고 들었는데, 맞나요?",
+            "turn_id": "BK22013089-3",
+            "utterance_id": "BK22013089.5"
+        },
+        {
+            "reference_date": "44248.0",
+            "reference_text": [
+                {
+                    "value": "수영에 능숙하고, 때론 섬과 육지 사이를 오가며 바다를 건너기도 한다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kr.theepochtimes.com/%EB%B0%94%EB%8B%A4-%EA%B1%B4%EB%84%88-%EC%84%AC%EB%A7%88%EC%9D%84-%EC%8A%B5%EA%B2%A9%ED%95%98%EB%8A%94-%ED%98%B8%EB%9E%91%EC%9D%B4%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%82%AC%EB%9E%8C%EA%B3%BC-%EC%A7%84_568834.html",
+            "search_query": "호랑이 수영",
+            "terminate": false,
+            "text": "네, 그렇습니다. 수영을 굉장히 잘하는데, 가끔은 육지와 섬을 왔다갔다 하면서 바다를 건너가는 경우도 있습니다.",
+            "turn_id": "BK22013089-3",
+            "utterance_id": "BK22013089.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 바다를 헤엄쳐 건너가기도 한다고요? 그러면 혹시 우리나라 바닷가나 섬에서 호랑이가 출몰한 사례가 있나요?",
+            "turn_id": "BK22013089-4",
+            "utterance_id": "BK22013089.7"
+        },
+        {
+            "reference_date": "42466.0",
+            "reference_text": [
+                {
+                    "value": "영국인 사냥꾼 바클레이는 1903년 전남 진도에서 호랑이를 잡은 일화를 기록으로 남겼다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.sportsworldi.com/newsView/20160406003443?OutUrl=naver",
+            "search_query": "진도 호랑이",
+            "terminate": false,
+            "text": "네, 있습니다. 1903년 영국 국적의 사냥꾼 바클레이가 전라남도 진도에서 호랑이를 사냥했던 에피소드가 기록으로 남아있어요.",
+            "turn_id": "BK22013089-4",
+            "utterance_id": "BK22013089.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 호랑이가 진도에서 진돗개를 잡아먹었을 수도 있겠군요. 참, 듣고 보니 우리나라에 호랑이 피해가 너무 극심해서 조선시대에는 전담 특수부대까지 있다고 들었는데, 설명 좀 해주세요.",
+            "turn_id": "BK22013089-5",
+            "utterance_id": "BK22013089.9"
+        },
+        {
+            "reference_date": "43291.0",
+            "reference_text": [
+                {
+                    "value": "조선 조정은 호환을 막기 위해 일찍부터 많은 정책을 시행했다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 가운데 하나가 착호갑사(捉虎甲士)와 착호인이었다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "착호갑사는 말 그대로 호랑이 잡는 특수 부대였다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "착호갑사는 서울, 착호인은 지방에서 호환을 방비했다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Opinion/article/all/20180710/90975993/1",
+            "search_query": "착호갑사",
+            "terminate": false,
+            "text": "네, 맞아요. 조선 조정에서는 호랑이의 습격을 막기 위해, 일찍부터 다양한 정책을 펼쳤습니다. 그중에는 착호갑사와 착호인도 있었는데요. 착호갑사는 문자 그대로 호랑이를 사냥하는 특수 부대로 서울에서 활동했고, 착호인은 지방에서 호랑이의 습격을 막았습니다.",
+            "turn_id": "BK22013089-5",
+            "utterance_id": "BK22013089.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호환이 옛날에 제일 무서웠다는 이야기가 괜히 나온 게 아니군요. 이제 한국에서는 호랑이가 멸종되었다고 들어서 호랑이 걱정은 안 해도 되지만, 언제 멸종된 건지 궁금해요.",
+            "turn_id": "BK22013089-6",
+            "utterance_id": "BK22013089.11"
+        },
+        {
+            "reference_date": "42352.0",
+            "reference_text": [
+                {
+                    "value": "기록상으로 조선의 마지막 호랑이는 1921년 경주 대덕산에서의 발견된 호랑이다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선 범은 1996년 4월 자취를 감춘 이후 공식적 멸종이 발표됐다.",
+                    "value_time": "44797.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=3198400",
+            "search_query": "호랑이 멸종",
+            "terminate": false,
+            "text": "1921년 경주 대덕산에서 발견된 호랑이가, 조선의 마지막 호랑이로 기록되어 있습니다. 한국의 호랑이는 1996년 4월에 자취를 감추고 나서, 멸종되었다는 공식발표가 있었어요.",
+            "turn_id": "BK22013089-6",
+            "utterance_id": "BK22013089.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 그러면 혹시 북한에는 호랑이가 아직까지 살고 있나요?",
+            "turn_id": "BK22013089-7",
+            "utterance_id": "BK22013089.13"
+        },
+        {
+            "reference_date": "44592.0",
+            "reference_text": [
+                {
+                    "value": "남한에서는 이미 멸종된 백두산호랑이(아무르호랑이, 시베리아호랑이)는 2016년 말 현재 러시아 연해주와 하바롭스크 주, 중국 동북, 북한 등지에 440여 마리만 남아있는 것으로 WWF는 집계했습니다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "북한 측 자료에서도 북한에는 10여 마리의 호랑이가 남아있다고 돼 있습니다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/25037388#home",
+            "search_query": "북한 호랑이",
+            "terminate": false,
+            "text": "네, 북한에는 아직까지 호랑이가 남아있어요. 한국에서는 이미 멸종한 백두산 호랑이가 2016년 말 기준으로 러시아 연해주와 하바롭스크 주, 중국, 동북, 북한 등지에 440여 마리가 남아있다는 WWF 집계가 있어요. 북한에도 호랑이 10여 마리가 남아있다고 북한 측 자료에도 나와 있어요.",
+            "turn_id": "BK22013089-7",
+            "utterance_id": "BK22013089.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "북한에도 얼마 남아있지는 않군요. 한국은 호랑이가 멸종되었고 북한도 개체가 얼마 안 남았는데, 세계적으로 멸종위기인가요?",
+            "turn_id": "BK22013089-8",
+            "utterance_id": "BK22013089.15"
+        },
+        {
+            "reference_date": "44767.0",
+            "reference_text": [
+                {
+                    "value": "호랑이는 세계자연보전연맹 적색목록 '위기(EN, Endangered)' 단계에 등재된 심각한 멸종위기종이다.",
+                    "value_time": "44797.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspenguin.com/news/articleView.html?idxno=12052",
+            "search_query": "호랑이 멸종위기",
+            "terminate": false,
+            "text": "네, 호랑이는 심각한 멸종위기에 처해있는 종으로서, 현재 세계자연보전연맹 적색목록 위기 단계에 등재되어 있습니다.",
+            "turn_id": "BK22013089-8",
+            "utterance_id": "BK22013089.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 CNN 같은 데를 보면 호랑이 밀렵을 하지 말자는 캠페인이 나오기도 했어요.",
+            "turn_id": "BK22013089-9",
+            "utterance_id": "BK22013089.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하지만 아직도 일부에서는 호랑이를 잡아서 약으로 만들기도 하죠.",
+            "turn_id": "BK22013089-9",
+            "utterance_id": "BK22013089.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘도 알찬 정보 많이 듣고 가네요. 그러면 다음에 또 뵙겠습니다.",
+            "turn_id": "BK22013089-10",
+            "utterance_id": "BK22013089.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 만나요!",
+            "turn_id": "BK22013089-10",
+            "utterance_id": "BK22013089.20"
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013047",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013047",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 영화 딥블루씨를 보셨어요? 며칠 전에 영화 딥블루씨를 봤는데, 보다가 너무 무서워서 몇 번이나 눈을 감았는지 몰라요.",
+            "turn_id": "BK22013047-1",
+            "utterance_id": "BK22013047.1"
+        },
+        {
+            "reference_date": "43703.0",
+            "reference_text": [
+                {
+                    "value": "1999년 개봉한 영화 <딥블루씨>에선 유전자 조작으로 13m로 커진 청상아리가 인간을 공격한다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/201908262141015",
+            "search_query": "딥블루씨 식인 상어",
+            "terminate": false,
+            "text": "청상아리가 등장하는 1999년 개봉작을 말씀하시는 거군요. 유전자 조작을 통해 13미터까지 몸길이가 커진 청상아리가 사람을 죽이려고 하죠.",
+            "turn_id": "BK22013047-1",
+            "utterance_id": "BK22013047.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딥블루씨에 나오는 식인 상어가 청상아리라고요? 영화 죠스에 나오는 상어랑 똑같은 종인가요?",
+            "turn_id": "BK22013047-2",
+            "utterance_id": "BK22013047.3"
+        },
+        {
+            "reference_date": "43703.0",
+            "reference_text": [
+                {
+                    "value": "청상아리는 영화 <죠스>의 주인공 백상아리와 함께 대표적인 식인상어다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/201908262141015",
+            "search_query": "백상아리 청상아리",
+            "terminate": false,
+            "text": "둘은 달라요. 영화 죠스에는 백상아리가 나와요. 물론 청상아리도 백상아리와 마찬가지로 사람을 잡아먹지만요.",
+            "turn_id": "BK22013047-2",
+            "utterance_id": "BK22013047.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 상어들은 원래 사람을 공격하거나 잡아먹지 않나요?",
+            "turn_id": "BK22013047-3",
+            "utterance_id": "BK22013047.5"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "그러나 상어 중에서 사람을 해치는 종류는 상어류 전체의 10% 정도인 20~30종 내외이고, 이들조차 사람을 먹으려고 공격하는 것은 아니다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람을 다른 생물로 착각하고 공격하는 것이 대부분이다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%83%81%EC%96%B4#%EC%83%81%EC%96%B4%EC%97%90_%EB%8C%80%ED%95%9C_%EC%98%A4%ED%95%B4,_%EC%88%98%EB%82%9C",
+            "search_query": "상어 위험성",
+            "terminate": false,
+            "text": "그렇지 않아요. 상어 종류 중에서 20종에서 30종 정도만 인간에게 피해를 주는데, 전체 10퍼센트 정도밖에 안 돼요. 그나마 다른 생물로 혼동해서 습격하는 것이 대다수이고, 사람을 잡아먹으려고 그러는 것도 아니에요.",
+            "turn_id": "BK22013047-3",
+            "utterance_id": "BK22013047.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 식인 상어 종류는 따로 있다는 말씀이시죠?",
+            "turn_id": "BK22013047-4",
+            "utterance_id": "BK22013047.7"
+        },
+        {
+            "reference_date": "44201.0",
+            "reference_text": [
+                {
+                    "value": "대표적인 식인상어는 흉상어과로, 뱀상어·아구상어·청새리상어·무태상어·흉상어·청상아리·백상아리 등이 있다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=1689785&cid=43667&categoryId=43667",
+            "search_query": "식인 상어 종류",
+            "terminate": false,
+            "text": "네, 맞아요. 흉상어과에 속하는 종들이 대표적입니다. 그 종류로는 뱀상어, 아구상어, 청새리상어, 무태상어, 흉상어, 청상아리, 백상아리 등이 있죠.",
+            "turn_id": "BK22013047-4",
+            "utterance_id": "BK22013047.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외국 해변에는 식인 상어가 자주 출몰한다는 표지판도 세워져 있더라고요. 혹시 한국에서도 식인 상어가 출몰하나요?",
+            "turn_id": "BK22013047-5",
+            "utterance_id": "BK22013047.9"
+        },
+        {
+            "reference_date": "43662.0",
+            "reference_text": [
+                {
+                    "value": "해양수산부에 따르면 1959년부터 국내에서 발생한 상어 공격에 의한 사고는 모두 7건으로 6명이 숨지고 1명이 다쳤다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23525926#home",
+            "search_query": "국내 식인 상어 피해",
+            "terminate": false,
+            "text": "네, 물론이에요. 한국에서는 1959년부터 총 7건의 상어 공격 사고가 발생했다고 해양수산부에서 집계했어요. 그중 6건은 사망 사고, 1건은 부상 사고였어요.",
+            "turn_id": "BK22013047-5",
+            "utterance_id": "BK22013047.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 무섭네요. 그런데 상어가 멸종 위기라는 말도 어디선가 들었어요. 그 이야기가 사실인가요?",
+            "turn_id": "BK22013047-6",
+            "utterance_id": "BK22013047.11"
+        },
+        {
+            "reference_date": "44757.0",
+            "reference_text": [
+                {
+                    "value": "그린피스에 따르면, 지난 50년간 무분별한 상어 조업으로 전 세계 상어의 개체수는 71%가 감소했다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 전세계 상어 종의 3분의 1은 멸종위기에 처해있다",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/wild_animal/1050896.html",
+            "search_query": "상어 멸종 위기",
+            "terminate": false,
+            "text": "지난 50년 동안 무분별한 어획으로 전체 상어 수가 71퍼센트나 줄어들었다고 그린피스에서 밝혔어요. 지금 전체 상어 종류의 3분의 1이 멸종될 위기고요.",
+            "turn_id": "BK22013047-6",
+            "utterance_id": "BK22013047.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "만약에 상어가 멸종되면 무슨 문제가 생길 수 있나요?",
+            "turn_id": "BK22013047-7",
+            "utterance_id": "BK22013047.13"
+        },
+        {
+            "reference_date": "44757.0",
+            "reference_text": [
+                {
+                    "value": "먹이사슬에서 상어가 사라지게 되면 생태계는 급격하게 무너져, 결국 대기의 탄소와 열을 흡수하는 바다의 기능을 악화시킨다.",
+                    "value_time": "44781.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/wild_animal/1050896.html",
+            "search_query": "상어 멸종 생태계",
+            "terminate": false,
+            "text": "상어가 먹이사슬에서 제외되면 생태계의 균형이 붕괴하게 됩니다. 그래서 바다가 대기의 탄소와 열을 흡수하는 기능이 약해질 거예요.",
+            "turn_id": "BK22013047-7",
+            "utterance_id": "BK22013047.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 상어가 멸종하면 생각보다 더 심각한 문제가 생기는군요.",
+            "turn_id": "BK22013047-8",
+            "utterance_id": "BK22013047.15"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생태계는 우리 생각보다 복잡하죠.",
+            "turn_id": "BK22013047-8",
+            "utterance_id": "BK22013047.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 전에 한국에도 식인 상어가 나타난다고 하셨잖아요. 그럼 상어를 퇴치하는 도구도 있나요? 해수욕장 같은 데 식인 상어가 나타날 수도 있잖아요.",
+            "turn_id": "BK22013047-9",
+            "utterance_id": "BK22013047.17"
+        },
+        {
+            "reference_date": "43678.0",
+            "reference_text": [
+                {
+                    "value": "한편, 해운대해수욕장에는 2013년과 2014년 상어퇴치기가 설립된 적이 있지만, 현재는 예산 문제 등으로 설치가 이뤄지지 않고 있다.",
+                    "value_time": "44781.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20190801143300051?input=1195m",
+            "search_query": "상어 퇴치",
+            "terminate": false,
+            "text": "2013년과 2014년에 해운대해수욕장에 상어퇴치기를 설치한 적은 있어요. 요즘은 예산과 같은 문제가 있어서 배치가 안 되고 있지만요.",
+            "turn_id": "BK22013047-9",
+            "utterance_id": "BK22013047.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘도 정말 유익한 정보를 알아가는군요. 저는 이만 돌아가 보겠습니다.",
+            "turn_id": "BK22013047-10",
+            "utterance_id": "BK22013047.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 오늘 만나서 정말 반가웠습니다. 댁까지 조심해서 들어가세요.",
+            "turn_id": "BK22013047-10",
+            "utterance_id": "BK22013047.20"
+        }
+    ]
+}

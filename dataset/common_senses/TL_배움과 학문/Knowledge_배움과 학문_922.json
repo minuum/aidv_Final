@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005902",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005902",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 주변 사람들이 자꾸 MBTI 유형이 무엇인지 물어보는데, 도대체 MBTI가 무엇인가요?",
+            "turn_id": "BK22005902-1",
+            "utterance_id": "BK22005902.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "캐서린 쿡 브릭스(Katharine C. Briggs)와 그녀의 딸 이저벨 브릭스 마이어스(Isabel Briggs Myers)가 제작하였으며, 카를 융의 성격 유형 이론을 근거로 하였다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/MBTI",
+            "search_query": "MBTI",
+            "terminate": false,
+            "text": "MBTI는 심리학자인 카를 융의 성격 유형 이론을 바탕으로, 캐서린 쿡 브릭스와 그녀의 딸 이저벨 브릭스 마이어스가 만든 심리 검사에요.",
+            "turn_id": "BK22005902-1",
+            "utterance_id": "BK22005902.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "성격 유형 이론이요? 성격이 무슨 유형으로 나눠지는 건가요?",
+            "turn_id": "BK22005902-2",
+            "utterance_id": "BK22005902.3"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "개인의 심리 성향을 4가지 지표, 즉 에너지의 방향에 따라 외향형(E)과 내향형(I), 인식 유형에 따라 감각형(S)과 직관형(N), 판단 기능에 따라 사고형(T)과 감정형(F), 생활 양식에 따라 판단형(J)과 인식형(P)으로 나눈다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/202207250180i",
+            "search_query": "MBTI 유형",
+            "terminate": false,
+            "text": "개인의 심리 성향을 4가지 지표로 나누는 건데요, 외향형과 내향형은 에너지의 방향에 따라, 감각형과 직관형은 인식 유형에 따라 나눠지지요. 판단 기능에 따라서는 감정형과 사고형, 생활양식은 판단형과 인식형으로 구분되고요.",
+            "turn_id": "BK22005902-2",
+            "utterance_id": "BK22005902.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아! 제 친구도 자기는 외향형이라 사람들을 좋아한다고 했어요. 그런데 저는 어떨 때는 외향적이고, 또 어떨 때는 내향적인 것 같아요.",
+            "turn_id": "BK22005902-3",
+            "utterance_id": "BK22005902.5"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "외향형(E)과 내향형(I) 집단이 따로 존재하는 것이 아니라 양쪽의 성격 특성을 모두 갖고 있는 경우가 많다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.imaeil.com/page/view/2022072217075826542",
+            "search_query": "MBTI 한계",
+            "terminate": false,
+            "text": "그럴 수 있죠. 외양형과 내향형 그룹이 따로 존재하는 게 아니라 양쪽 모두의 성격적인 특성을 가지고 있는 경우가 많으니까요.",
+            "turn_id": "BK22005902-3",
+            "utterance_id": "BK22005902.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 MBTI 검사를 할 때마다 유형이 바뀌는 건가요? 저는 제 성격이 자꾸 바뀌는 줄 알고 걱정했어요.",
+            "turn_id": "BK22005902-4",
+            "utterance_id": "BK22005902.7"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "또한 그날의 컨디션이나 각자 처한 상황에 따라서도 대답이 크게 달라질 수 있기에 검사의 객관성은 매우 떨어질 수 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "마지막으로 본인이 객관적으로 자신에 대해서 평가해야 하므로 검사의 타당성도 한계가 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%9D%B8%EA%B0%84%EC%9D%80-4%EA%B0%9C%EC%9D%98-%EC%95%8C%ED%8C%8C%EB%B2%B3%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%84%A4%EB%AA%85%EB%90%98%EA%B8%B0-%ED%9E%98%EB%93%A4%EB%8B%A4/",
+            "search_query": "MBTI 신뢰도",
+            "terminate": false,
+            "text": "하하. MBTI가 스스로 자신에 대해 객관적으로 평가해야 하는 검사여서 아무래도 타당성에 한계가 있죠. 또 컨디션이나 그날그날의 상황에 따라서 대답이 달라질 수도 있고요.",
+            "turn_id": "BK22005902-4",
+            "utterance_id": "BK22005902.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데, MBTI 검사 결과로 나온 성격 유형의 특징들을 읽어 보면 딱 내 얘기 같아요! 친구들도 다 정확하다고 하는걸요?",
+            "turn_id": "BK22005902-5",
+            "utterance_id": "BK22005902.9"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "포러 효과(Forer effect)는 개인들이, 그들에게 특별히 맞추어진 것으로 추정되지만 사실상 막연하며 넓은 범위의 사람들에게도 충분히 일반적으로 적용되는 그들의 성격 묘사에 높은 정확도를 부여한다는 것이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%84%98_%ED%9A%A8%EA%B3%BC",
+            "search_query": "포러 효과",
+            "terminate": false,
+            "text": "그건 포러 효과 때문일 수 있어요. 사실 성격 유형의 정보들은 막연하고 모호해서 일반적으로 대부분의 사람에게 해당하는 것이지만, 내가 검사 결과로 받아들일 때는 나에게만 특별히 딱 맞는 설명으로 받아들이게 되는 거죠.",
+            "turn_id": "BK22005902-5",
+            "utterance_id": "BK22005902.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "MBTI를 좋아하는 사람들을 보면 자기뿐만 아니라 다른 사람들을 판단할 때도 MBTI를 확인하는데, 그 사람의 성격이랑 MBTI 유형이 정확하다고 신기해 하더라고요. 그건 포러 효과랑 상관없지 않나요?",
+            "turn_id": "BK22005902-6",
+            "utterance_id": "BK22005902.11"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "확증 편향(確證偏向, 영어: Confirmation bias)은 원래 가지고 있는 생각이나 신념을 확인하려는 경향성이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "흔히 하는 말로 “사람은 보고 싶은 것만 본다”와 같은 것이 바로 확증 편향이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%95%EC%A6%9D_%ED%8E%B8%ED%96%A5",
+            "search_query": "확증 편향",
+            "terminate": false,
+            "text": "확증편향 때문일 수 있죠. 사람은 보고 싶은 것만 본다는 말이 있잖아요. 이렇게 원래 가지고 있는 신념과 생각을 그대로 가져가려는 경향성을 확증편향이라고 해요.",
+            "turn_id": "BK22005902-6",
+            "utterance_id": "BK22005902.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하네요. 그러면 최근 들어서 MBTI가 갑자기 인기를 끌고 있는 이유는 뭐예요? 예전에도 MBTI는 있었던 걸로 알고 있는데.",
+            "turn_id": "BK22005902-7",
+            "utterance_id": "BK22005902.13"
+        },
+        {
+            "reference_date": "2021-12-30",
+            "reference_text": [
+                {
+                    "value": "코로나19로 심화된 사회경제적 불안도 MBTI가 유행하는 요인 중 하나다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어려운 시기 사주나, 점을 통해 자신의 미래에 대한 불안을 잠재우는 심리와 비슷하다는 것이다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/society_general/1025215.html",
+            "search_query": "코로나와 MBTI",
+            "terminate": false,
+            "text": "코로나 19 팬데믹이 시작되면서 깊어진 사회경제적 불안이 MBTI가 유행하게 된 원인 중에 하나죠. 어려운 시기가 왔을 때 사주나 점을 보러 가기도 하잖아요. 그렇게 미래에 대한 불안을 낮춰보려는 심리와 비슷한 거죠.",
+            "turn_id": "BK22005902-7",
+            "utterance_id": "BK22005902.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 지점도 있겠네요. 그래도 문제가 될 정도는 아닌 것 같은데 왜 뉴스에서는 MBTI 과몰입을 지적하는 내용을 계속 보도하는 걸까요?",
+            "turn_id": "BK22005902-8",
+            "utterance_id": "BK22005902.15"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "MBTI가 MZ세대에게 인기를 끌다 보니 과도한 마케팅 소재가 되기도 한다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "얼마 전에는 일부 기업이 채용 과정에서 특정 MBTI 성격 유형은 지원하지 말라거나, 혹은 특정 유형을 선호한다고 밝혀 논란이 됐다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/Society/article/all/20220717/114487230/1",
+            "search_query": "MBTI 과몰입",
+            "terminate": false,
+            "text": "그건 MBTI를 자기 성격이나 타인을 이해하기 위한 수단으로만 사용하는 것이 아니라, 과도한 마케팅 소재나 채용 현장에서 사람들을 판별하는 지표로 사용되고 있기 때문이에요. 심지어 채용 공고 시 특정 MBTI 유형이 아니면 아예 지원하지 말라고 명시한 회사들도 있을 정도니까요.",
+            "turn_id": "BK22005902-8",
+            "utterance_id": "BK22005902.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "MBTI 유형 때문에 회사에 취직하지 못한다고 하면 속상할 것 같아요. 혹시 다른 성격 검사는 없나요? MBTI가 사람의 성격을 정확하게 나타내지 못하면 다른 검사를 쓰면 되잖아요.",
+            "turn_id": "BK22005902-9",
+            "utterance_id": "BK22005902.17"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "5가지 성격 특성 요소(Big Five personality traits) 또는 5요인모델(Five factor model,FFM)은 심리학에서 경험적인 조사와 연구를 통하여 정립한 성격 특성의 다섯 가지 주요한 요소 혹은 차원을 말한다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 이론을 토대로 한 검사로는 NEO PI-R 성격 검사지가 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 Big 5 모델은 다양한 자료에서 신뢰성과 타당성을 가진다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/5%EA%B0%80%EC%A7%80_%EC%84%B1%EA%B2%A9_%ED%8A%B9%EC%84%B1_%EC%9A%94%EC%86%8C",
+            "search_query": "성격 특성 검사",
+            "terminate": false,
+            "text": "NEO PI R이라는 검사가 있어요. 심리학에서 경험적인 조사와 연구를 통해 정립한 다섯 가지의 주요한 성격 특성의 요소, 차원이 있는데 이걸 5가지 성격 특성 요소, 아니면 5요인 모델이라고 불러요. 이런 Big5 모델은 다양한 자료에서 신뢰성과 타당성을 보이는데 이 검사도 이걸 토대로 한 거죠.",
+            "turn_id": "BK22005902-9",
+            "utterance_id": "BK22005902.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "NEO PI R 검사처럼 MBTI보다 더욱 정확한 성격 검사가 있다는 게 알려지면 좋겠어요.",
+            "turn_id": "BK22005902-10",
+            "utterance_id": "BK22005902.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. MBTI를 맹신하거나 무분별하게 사용하는 것을 지양하고, 좀 더 정확하고 과학적인 성격 검사 도구를 사용해야 할 필요성이 있어요.",
+            "turn_id": "BK22005902-10",
+            "utterance_id": "BK22005902.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 MBTI에 과몰입하지 않고 적당히 즐기도록 해야겠어요! 덕분에 많은 것을 알게 되었네요. 감사해요.",
+            "turn_id": "BK22005902-11",
+            "utterance_id": "BK22005902.21"
+        }
+    ]
+}

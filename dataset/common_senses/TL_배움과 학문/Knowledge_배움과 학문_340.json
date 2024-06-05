@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013289",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013289",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 엄마가 스페인 여행을 다녀오셨는데 가우디 투어를 하셨다고 하더라고요.",
+            "turn_id": "BK22013289-1",
+            "utterance_id": "BK22013289.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 가우디의 건축물이 구경할 거리가 많아서 투어를 할 수 있다고 하더라고요.",
+            "turn_id": "BK22013289-1",
+            "utterance_id": "BK22013289.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가우디라는 건축가가 유명하긴 한가 봐요. 혹시 가우디에 대해 잘 알고 계신가요?",
+            "turn_id": "BK22013289-2",
+            "utterance_id": "BK22013289.3"
+        },
+        {
+            "reference_date": "44644.0",
+            "reference_text": [
+                {
+                    "value": "안토니 가우디 이 코르네트(카탈루냐어: Antoni Gaudí i Cornet, 1852년 6월 25일 ~ 1926년 6월 10일)는 스페인 카탈루냐 지역의 건축가이다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "스페인 바르셀로나에서 밀라 주택, 카사 바트요, 구엘 저택, 구엘 공원, 사그라다 파밀리아 성당 등을 설계했다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%EB%8B%88_%EA%B0%80%EC%9A%B0%EB%94%94",
+            "search_query": "안토니 가우디",
+            "terminate": false,
+            "text": "네, 카탈루냐 지역의 건축가였던 안토니 가우디는 스페인 바르셀로나의 밀라 주택, 구엘 공원, 카사 바트요, 사그라나 파밀리아 성당 등을 설계했어요.",
+            "turn_id": "BK22013289-2",
+            "utterance_id": "BK22013289.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 구엘 공원이라는 이름이 특이한 만큼 어떤 곳인지 궁금한데요?",
+            "turn_id": "BK22013289-3",
+            "utterance_id": "BK22013289.5"
+        },
+        {
+            "reference_date": "42641.0",
+            "reference_text": [
+                {
+                    "value": "가우디의 든든한 후원자였던 구엘 백작의 이름을 딴 구엘 공원은 바르셀로나 시내는 물론 멀리 지중해가 내려다보이는 전망 좋은 언덕 위에 자리 잡고 있다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공원 곳곳이 깨진 도자기 모자이크로 장식되어 있는데 도자기의 화려함과, 파손의 불손함이 묘한 조화를 이루는 곳이다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.travelnbike.com/news/articleView.html?idxno=26349",
+            "search_query": "구엘 공원",
+            "terminate": false,
+            "text": "구엘 공원은 가우디를 후원했던 구엘 백작의 이름을 따서 지은 곳인데요. 지중해와 바르셀로나 시내가 내려다보이는 언덕 위에 자리하고 있고요. 공원 곳곳을 깨진 도자기를 모자이크 형식으로 장식해서 도자기의 화려함과 파손된 불손함이 신기한 조화를 이루는 곳이에요.",
+            "turn_id": "BK22013289-3",
+            "utterance_id": "BK22013289.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모자이크라니 생동감이 넘칠 것 같아요. 사그라다 파밀리아 성당은 들어본 것 같은데, 현재도 짓고 있지 않나요?",
+            "turn_id": "BK22013289-4",
+            "utterance_id": "BK22013289.7"
+        },
+        {
+            "reference_date": "44317.0",
+            "reference_text": [
+                {
+                    "value": "가우디의 사그라다 파밀리아 성당은 미완성임에도 불구하고 카탈루냐 현대 건축 최고의 걸작으로 꼽힌다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가우디가 사망했을 당시에는 동쪽 파사드(Facade·건물의 전면) 등 전체 계획의 4분의 1 정도만 완성된 상태였다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "사그라다 파밀리아",
+            "terminate": false,
+            "text": "사그라다 파밀리아 성당은 미완성인데도 현대 건축의 최고 걸작이라 불릴 정도인데요. 가우디 사망 당시에는 건물의 동쪽 파사드, 즉 전체의 4분의 1 정도만 완성된 상태였어요.",
+            "turn_id": "BK22013289-4",
+            "utterance_id": "BK22013289.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그러면 지금도 짓고 있다고 들었는데 언제 완공이 되나요?",
+            "turn_id": "BK22013289-5",
+            "utterance_id": "BK22013289.9"
+        },
+        {
+            "reference_date": "44317.0",
+            "reference_text": [
+                {
+                    "value": "현재 사그라다 파밀리아 성당은 약 80% 완성된 상태로 목표 완공 시점은 가우디 사망 100주기인 2026년이다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "사그라다 파밀리아 완공",
+            "terminate": false,
+            "text": "사그라다 파밀리아 성당의 목표 완공 시점은 2026년이고, 이때가 가우디 사망 100주기가 되는 해예요. 현재는 약 80퍼센트 정도 완성된 상태예요.",
+            "turn_id": "BK22013289-5",
+            "utterance_id": "BK22013289.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 2026년에 많은 관광객들이 사그라다 파밀리아 성당을 보러 가겠네요. 그렇다면 가우디의 또 다른 건축물인 카사 바트요는 어떤 곳이에요?",
+            "turn_id": "BK22013289-6",
+            "utterance_id": "BK22013289.11"
+        },
+        {
+            "reference_date": "44708.0",
+            "reference_text": [
+                {
+                    "value": "김희곤이 쓴 <스페인은 가우디다>라는 책에 의하면, 카사 바트요는 바르셀로나 섬유업계 명문가인 조셉 바트요가 가문의 건축가가 있음에도 불구하고 독창적인 집을 짓고 싶어서 건축가 가우디에게 의뢰해 1906년에 완성된 집이라고 한다.",
+                    "value_time": "44807.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837170",
+            "search_query": "카사 바트요",
+            "terminate": false,
+            "text": "카사 바트요는 섬유업계 명문가인 조셉 바트요가 독창적인 집을 짓고자 가우디에게 의뢰하여 1906년에 완공한 집이라고 김희곤의 스페인은 가우디다라는 책에서 말하고 있어요.",
+            "turn_id": "BK22013289-6",
+            "utterance_id": "BK22013289.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 이것도 의뢰를 받아 지은 건축물이군요. 카사 바트요는 어떤 특징을 가진 건물이에요?",
+            "turn_id": "BK22013289-7",
+            "utterance_id": "BK22013289.13"
+        },
+        {
+            "reference_date": "44708.0",
+            "reference_text": [
+                {
+                    "value": "지금은 막대 사탕을 만들어 유명해진 스페인 회사 츄파춥스의 소유가 되었고 유네스코 세계문화유산으로도 등재되어 있는 카사 바트요는 항상 관광객으로 넘쳐나 미리 인터넷으로 예약을 해야 한다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "거리로 향한 앞면은 넓지 않은데 그럼에도 7층 높이의 건물은 지어진 지 100년이 넘었다고 할 수 없을 만큼 화사하고 산뜻하고 색채감이 풍부했다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002837170",
+            "search_query": "카사 바트요",
+            "terminate": false,
+            "text": "7층 높이의 건물인 카사 바트요는 지어진 지 100년이 넘었는데도 색채감이 화사하고 산뜻한 게 특징이에요. 또 유네스코 세계문화유산으로 등재되어 있어 늘 관광객이 찾아들어 미리 인터넷으로 예약을 해야 방문할 수 있어요. 현재 소유는 막대사탕을 판매하는 춥파춥스라는 스페인 회사예요.",
+            "turn_id": "BK22013289-7",
+            "utterance_id": "BK22013289.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 카사 밀라만 남았나요? 카사 밀라는 어떤 건물인가요?",
+            "turn_id": "BK22013289-8",
+            "utterance_id": "BK22013289.15"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "카사 밀라(Casa Mila)'는 가우디가 마지막으로 설계한 바르셀로나 고급 주택 건물이다.",
+                    "value_time": "44806.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 건물은 '산'을 테마로 한 디자인 뿐 만 아니라 실용적인 면에서도 혁신적인 구조라는 평을 받고 있으며 당시 지하 주차장이나 엘리베이터를 설치했다는 것이 특징이다.",
+                    "value_time": "44806.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jnilbo.com/view/media/view?code=2022062614151904798",
+            "search_query": "카사 밀라",
+            "terminate": false,
+            "text": "가우디가 마지막으로 지은 고급 주택 건물이 카사 밀라는 산을 테마로 디자인을 했을 뿐 아니라 실용적인 부분에서도 혁신적인 구조를 띠고 있다는 평을 받고 있어요. 당시에 지하 주차장과 엘리베이터를 설치했다는 것 또한 특징이고요.",
+            "turn_id": "BK22013289-8",
+            "utterance_id": "BK22013289.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇다면 카사 밀라에서 유념해서 보면 좋을 곳은 어디예요?",
+            "turn_id": "BK22013289-9",
+            "utterance_id": "BK22013289.17"
+        },
+        {
+            "reference_date": "43242.0",
+            "reference_text": [
+                {
+                    "value": "굴뚝과 환기구는 비슷비슷해 보이지만 자세히 보면 디자인이 모두 다르다.",
+                    "value_time": "44807.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가우디가 상상력을 발휘해 일일이 디자인했다.",
+                    "value_time": "44807.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영화 ‘스타워즈’를 연출한 조지 루카스는 투구를 쓴 듯한 모형의 굴뚝을 보고 ‘스타워즈’의 악당 ‘다스베이더’ 캐릭터를 구상해냈다.",
+                    "value_time": "44807.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://realty.chosun.com/site/data/html_dir/2018/05/21/2018052103030.html",
+            "search_query": "스타워즈 카사 밀라",
+            "terminate": false,
+            "text": "가우디가 상상력을 발휘해서 일일이 디자인한 굴뚝과 환기구는 자세히 보면 디자인이 다 달라요. 투구를 쓴 것 같은 모형의 굴뚝에서 스타워즈의 감독인 조지 루카스가 다스베이더에 대한 영감을 받아 캐릭터를 구상해 냈거든요.",
+            "turn_id": "BK22013289-9",
+            "utterance_id": "BK22013289.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 저 스타워즈의 팬인데 카사 밀라는 꼭 가 봐야겠어요.",
+            "turn_id": "BK22013289-10",
+            "utterance_id": "BK22013289.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 간 김에 가우디의 여러 건축물을 모두 구경해 보세요.",
+            "turn_id": "BK22013289-10",
+            "utterance_id": "BK22013289.20"
+        }
+    ]
+}

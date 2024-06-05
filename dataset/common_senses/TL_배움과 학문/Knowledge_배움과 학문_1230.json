@@ -1,0 +1,404 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008251",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008251",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 물웅덩이에서 바퀴벌레가 허우적거리는 것을 봤어. 바퀴벌레도 물에서 살 수 있나?",
+            "turn_id": "BK22008251-1",
+            "utterance_id": "BK22008251.1"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "특히 바퀴벌레는 기문을 스스로 막아 물속에서도 일정 시간 생존이 가능하기 때문에 변기는 이들에게 새로운 기회를 주는 것일 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바퀴벌레를 죽이지 않은 채로 변기에 내려보내면다면 자칫 집안이 바퀴벌레의 번식 장소가 될 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "벌레퇴치전문 업체 세스코에 따르면 바퀴벌레를 포획 후 죽이지 않은 상태로 양변기에 넣어 물을 내릴 경우 오수 배관을 타고 정화조까지 죽지 않고 도달할 수 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/409713",
+            "search_query": "바퀴벌레 기문",
+            "terminate": false,
+            "text": "바퀴벌레는 스스로 기문을 막을 수 있기 때문에, 물속에서도 일정 시간 동안 살아 있을 수 있어. 그래서 만일 바퀴벌레를 산 채로 변기에 내려 보낸다면, 집안이 바퀴벌레 번식처가 될 가능성이 있어. 벌레퇴치전문 업체 세스코에 의하면, 바퀴벌레를 잡아서 산 채로 양변기에 넣은 후 물을 내린다면 오수배관을 타고 정화조까지 살아 있는 상태로 갈 수 있다고 밝혔거든.",
+            "turn_id": "BK22008251-1",
+            "utterance_id": "BK22008251.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "변기에 떠내려가도 살 수 있다니 엄청난 능력인걸. 기문이라는 것으로 곤충이 호흡을 하는 거야?",
+            "turn_id": "BK22008251-2",
+            "utterance_id": "BK22008251.3"
+        },
+        {
+            "reference_date": "2018-11-29",
+            "reference_text": [
+                {
+                    "value": "코와 입으로 호흡하며 혈관을 통해 산소를 운반하는 인간과 달리 곤충은 직접 산소를 들이마시고 이산화탄소를 내뱉는 기관계(Tracheal system)라는 특별한 호흡 기관을 갖고 있다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기관계가 밖으로 노출된 것이 기문(氣門, Spiracle) 즉 숨구멍이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=25433",
+            "search_query": "바퀴벌레 호흡",
+            "terminate": false,
+            "text": "그래, 코와 입을 이용해 호흡하고 혈관으로 산소를 운반하는 사람과 다르게 곤충은 기관계라는 호흡 기관으로 숨을 쉬거든. 이 기관계를 이용해서 직접 산소를 마시고 이산화탄소를 뱉는 거야. 이러한 기관계가 외부로 노출된 것이 기문인데, 숨구멍이라고도 불러.",
+            "turn_id": "BK22008251-2",
+            "utterance_id": "BK22008251.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몰랐는데 정말 신기한 구조다. 기문은 보통 몇 개 있는 거야?",
+            "turn_id": "BK22008251-3",
+            "utterance_id": "BK22008251.5"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "가슴에 각 1쌍, 복부에 8쌍이 기본이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "숨구멍의 근육성 판들은 대개 닫혀 있다가 산소를 받아들이거나 이산화탄소를 내보낼 때만 열린다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A4%EC%B6%A9",
+            "search_query": "바퀴벌레 기문 위치",
+            "terminate": false,
+            "text": "보통 기본적으로 가슴에 1쌍, 복부에 8쌍 정도가 있어. 이러한 기문의 근육성 판들은 보통 닫혀 있는데, 산소를 받아들이고 이산화탄소를 배출할 때에만 열려.",
+            "turn_id": "BK22008251-3",
+            "utterance_id": "BK22008251.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상당히 유용한 구조 같은데 생존에 도움이 될 것 같아. 바퀴벌레도 생존력이 강한 것으로 유명하잖아. 생존에 도움이 되는 유전자를 타고난 걸까?",
+            "turn_id": "BK22008251-4",
+            "utterance_id": "BK22008251.7"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "끈질긴 생존력을 보장하는 유전자를 타고났기 때문이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중국 식물생리학과 생태학협회 소속 연구팀이 미국 바퀴벌레 유전자를 분석했더니, 음식이 어디 있는지 탐지할 수 있는 후각 유전자, 독성이 있는 음식을 먹어도 해독할 수 있는 유전자, 병에 걸리지 않도록 하는 면역력 유전자, 다리가 잘 려나가도 재생되는 유전자 등이 있는 것으로 드러났다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2022/06/28/2022062801858.html",
+            "search_query": "바퀴벌레 생존력",
+            "terminate": false,
+            "text": "바퀴벌레는 생존에 유용한 유전자를 타고났지. 중국의 식물생리학과 생태학협회 소속의 연구팀이 미국 바퀴벌레 유전자를 분석한 결과, 음식의 위치를 알아내는 후각 유전자, 독성 음식을 해독하는 유전자, 질병에 걸리는 것을 막는 면역력 유전자, 다리 등 몸체 일부가 잘려도 재생되는 유전자 등이 있는 것으로 밝혀졌어.",
+            "turn_id": "BK22008251-4",
+            "utterance_id": "BK22008251.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 유전자 덕분에 바퀴벌레가 오래 살아남을 수 있었나 봐. 바퀴벌레가 엄청 오래 전부터 존재했던 생명체라는 건 유명한데, 얼마나 오래전부터 있던 것인지 아니?",
+            "turn_id": "BK22008251-5",
+            "utterance_id": "BK22008251.9"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "꼬리에 산란관이 있는 등 구조적으로 달랐던 \"바퀴 형태의 곤충\"은 약 3억 5천만년 전 석탄기부터 출현한 것으로 생각된다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대의 바퀴목은 2억2천만년 전 트라이아스기 후기에 등장하였고, 현재 모습과 같은 바퀴는 백악기부터 나타났다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%ED%80%B4%EB%AA%A9",
+            "search_query": "바퀴벌레 역사",
+            "terminate": false,
+            "text": "화석 기록을 분석하면, 현대적인 바퀴벌레와 유사하지만 꼬리에 산란관이 있는 등의 구조적으로 차이가 있는 바퀴 형태의 곤충은 약 3억 5천만 년 전인 석탄기에 등장한 것으로 유추돼. 현대적인 바퀴목은 약 2억 2천만 년 전인 트라이아스기 후기에 나타나서, 백악기에 이르러 현재 모습과 같아졌어.",
+            "turn_id": "BK22008251-5",
+            "utterance_id": "BK22008251.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 엄청나게 오랜 역사를 가졌네. 수명이 얼마 정도 되는지도 궁금해.",
+            "turn_id": "BK22008251-6",
+            "utterance_id": "BK22008251.11"
+        },
+        {
+            "reference_date": "2016-06-23",
+            "reference_text": [
+                {
+                    "value": "바퀴벌레는 암흑색 곤충으로 성충의 수명은 6~12개월 정도다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바퀴는 물이 없으면 아무리 먹이가 풍부해도 12일밖에 살지 못한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/06/22/2016062202258.html",
+            "search_query": "바퀴벌레 수명",
+            "terminate": false,
+            "text": "성충의 수명이 6개월에서 12개월 정도 된다고 보면 돼. 그렇지만 물이 없는 환경이라면 주위에 먹이가 많더라도 12일밖에 버틸 수 없어.",
+            "turn_id": "BK22008251-6",
+            "utterance_id": "BK22008251.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수명이라도 길지 않아서 인간에겐 다행이네. 물이 있는 환경을 좋아해서 하수구 같은 곳에서 자주 나오는 건가?",
+            "turn_id": "BK22008251-7",
+            "utterance_id": "BK22008251.13"
+        },
+        {
+            "reference_date": "2014-01-10",
+            "reference_text": [
+                {
+                    "value": "정수기가 있다면 고온다습한 환경을 좋아하는 바퀴벌레를 주의해야 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "내부 모터에서 발생하는 열은 겨울철 바퀴 서식에 적합한 따뜻한 온도를 맞춰주며, 저수통 내부에서는 바퀴 생존에 꼭 필요한 물을 제공한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20140110080500030",
+            "search_query": "바퀴벌레 선호 환경",
+            "terminate": false,
+            "text": "바퀴벌레 생존에 물이 필수적이기도 하니까, 바퀴벌레는 고온다습한 환경을 좋아해. 그래서 정수기가 있으면 주의하는 것이 좋아. 정수기 내부 모터에서 열이 발생하기 때문에 따뜻해지고, 저수통 내부에는 물이 있으니 바퀴벌레가 서식하기 딱 좋은 환경이거든.",
+            "turn_id": "BK22008251-7",
+            "utterance_id": "BK22008251.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 집엔 정수기가 없어서 정말 다행이라는 생각이 드네. 그런데 바퀴벌레가 혐오스럽게 생기긴 했지만, 왜 해충으로 분류되는 것인지 알고 있니?",
+            "turn_id": "BK22008251-8",
+            "utterance_id": "BK22008251.15"
+        },
+        {
+            "reference_date": "2016-06-23",
+            "reference_text": [
+                {
+                    "value": "바퀴벌레는 다양한 질병을 옮기는 매개체다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바퀴벌레는 먹이를 먹을 때 이전에 먹었던 것을 토해내는데 이것이 사람이 먹는 음식을 오염시키면 식중독이 생긴다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 바퀴벌레의 다리에 묻어 이동하는 각종 병균이나 기생충은 면역력이 약한 사람에 콜레라 장티푸스와 같은 감염성 질병을 일으킨다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바퀴벌레의 변이나 사체 가루는 아토피, 천식을 일으키기도 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2016/06/22/2016062202258.html",
+            "search_query": "바퀴벌레 질병",
+            "terminate": false,
+            "text": "바퀴벌레가 여러 질병을 옮길 수 있는 매개체이기 때문이야. 바퀴벌레는 먹이를 섭취할 때 이전에 먹은 것을 토해내는 습성이 있거든. 그런데 이것이 사람들이 먹는 음식에 들어가 오염시킨다면 식중독이 생겨. 그리고 바퀴벌레의 다리에는 각종 병균이나 기생충이 붙어 있어서, 면역력이 약한 사람인 경우 콜레라나 장티푸스와 같은 감염성 질병에 걸릴 수 있어. 또한, 바퀴벌레의 배설물이나 사체의 가루는 아토피나 천식을 유발할 수 있어.",
+            "turn_id": "BK22008251-8",
+            "utterance_id": "BK22008251.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 비위 상하는 이야기야. 그런데 바퀴벌레의 유전자나 습성을 이용해서 사람에게 유익한 연구를 진행할 수도 있지 않을까?",
+            "turn_id": "BK22008251-9",
+            "utterance_id": "BK22008251.17"
+        },
+        {
+            "reference_date": "2021-12-07",
+            "reference_text": [
+                {
+                    "value": "싱가포르 연구진이 바퀴벌레의 등에 '센서 배낭'을 설치해 구조대가 접근하기 어려운 재난 현장에서 인명구조 활동을 하는 방안을 모색하고 있습니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 배낭은 몇 개의 센서로 구성되는데, 이산화탄소와 같은 가스를 경고할 수 있는 센서가 포함돼 있습니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 소형 적외선 카메라도 있어 열 징후를 포착해 생물을 발견할 수 있습니다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://imnews.imbc.com/news/2021/world/article/6321769_34880.html",
+            "search_query": "바퀴벌레 과학 활용",
+            "terminate": false,
+            "text": "맞아, 싱가포르의 연구진들은 바퀴벌레 등에 센서 배낭을 매달아서 재난 현장에서 구조대가 다가가기 힘든 경우 인명 구조 활동을 하는 방안을 연구 중이야. 이 배낭은 몇 개의 이산화탄소 같은 가스를 감지해서 알리는 센서로 이루어져 있거든. 소형 적외선 카메라도 부착되어 있어서, 열을 감지해서 생물을 발견하는 원리야.",
+            "turn_id": "BK22008251-9",
+            "utterance_id": "BK22008251.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 여러 연구가 잘 진행되어서 유익한 부분은 차용할 수 있었으면 좋겠네.",
+            "turn_id": "BK22008251-10",
+            "utterance_id": "BK22008251.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 바퀴벌레가 우리 주변에 많으니 연구에 잘 활용된다면 유익한 성과를 낼 수 있을 것 같아. 앞으로 연구들이 어떻게 진행되는지 지켜보자.",
+            "turn_id": "BK22008251-10",
+            "utterance_id": "BK22008251.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋아, 다음에 또 연구의 진행 상황에 대해 알려 줘.",
+            "turn_id": "BK22008251-11",
+            "utterance_id": "BK22008251.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한 게 생기면 언제든 물어봐.",
+            "turn_id": "BK22008251-11",
+            "utterance_id": "BK22008251.22"
+        }
+    ]
+}

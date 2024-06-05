@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004508",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004508",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스에 보면 이상 기후변화를 줄이기 위해서 탄소를 줄이라고 하잖아. 근데 나는 왜 탄소를 줄여야 이상 기후 변화가 줄어드는지 이해가 안 돼. 전체적인 설명 좀 해줄 수 있어?",
+            "turn_id": "BK22004508-1",
+            "utterance_id": "BK22004508.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 일단 탄소가 뭔지를 알아야 하는데 그건 알아?",
+            "turn_id": "BK22004508-1",
+            "utterance_id": "BK22004508.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 탄소가 사실 정확히 뭔지도 잘 몰라. 탄소의 의미부터 알려줘.",
+            "turn_id": "BK22004508-2",
+            "utterance_id": "BK22004508.3"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "탄소는 지구상에서 생명체들이 사는데 꼭 필요한 원소이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생물체에 존재하는 여러 가지 화합물의 골격이 되며, 단백질이나 탄수화물 등 생물체에 필요한 화합물은 모두 탄소화합물이기 때문이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%84%EC%86%8C_%EB%B0%B0%EC%B6%9C",
+            "search_query": "탄소",
+            "terminate": false,
+            "text": "탄소는 지구에서 살아가고 있는 생명체들에겐 없어서는 안 될 중요한 원소야. 생물들에게 필요한 화합물은 모두 탄소 화합물이기 때문인데, 단백질과 탄수화물 알지? 이것들도 탄소 화합물이라 할 수 있어. 이렇듯 탄소는 생물체에 존재하는 여러가지 화합물의 골격이 되지.",
+            "turn_id": "BK22004508-2",
+            "utterance_id": "BK22004508.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탄소가 생명체들에게 없어서는 안 되는 주요 성분이라니 충격이다. 근데 이게 왜 지구를 위협한다는 거야?",
+            "turn_id": "BK22004508-3",
+            "utterance_id": "BK22004508.5"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "지구 온난화의 주원인은 온실가스 배출이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온실가스의 구성 성분은 이산화탄소, 메탄, 프레온 등이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "탄소가 주요 성분인 탄소 결합 화합물들이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생물의 몸을 이루는 주요 성분이기도 한 탄소가 거꾸로 우리의 생명을 위협하고 있다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jbnews.com/news/articleView.html?idxno=1366972",
+            "search_query": "탄소화합물 온실가스",
+            "terminate": false,
+            "text": "지구온난화 알지? 이 지구 온난화를 심화시키는 주 원인이 온실가스 배출이야. 온실가스는 이산화탄소, 메탄, 프레온 등의 성분으로 구성되어 있는데, 이것들은 탄소 결합 화합물들이라 주요 성분은 탄소로 이루어져 있어. 생물체의 몸을 이루는 주요 성분이기도 한 탄소가 이제는 오히려 지구의 생명체들에게 위험을 안기게 된 거야.",
+            "turn_id": "BK22004508-3",
+            "utterance_id": "BK22004508.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 이산화탄소를 줄여야 지구온난화를 막을 수 있다고 얘기하는 거구나, 맞지?",
+            "turn_id": "BK22004508-4",
+            "utterance_id": "BK22004508.7"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "하지만 탄소가 완전 연소하며 생기는 이산화탄소는 다르다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "왜냐하면 이산화탄소는 지표면에서 방출되는 적외선 영역의 복사 에너지를 흡수하는 성질이 있어 온실가스로 분류되고 현재 지구 온도를 높이는 온실가스 중 가장 큰 비율을 차지하고 있을 정도로 많기 때문이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%84%EC%86%8C_%EB%B0%B0%EC%B6%9C",
+            "search_query": "이산화탄소",
+            "terminate": false,
+            "text": "응, 조금 더 설명을 덧붙이자면, 탄소가 완전히 연소할 때 생기는 게 이산화탄소인데, 이 이산화탄소는 땅에서 방출되는 적외선 영역의 복사에너지를 그대로 흡수하는 특성이 있어. 그래서 이 성질 때문에 온실가스로 분류되었거든. 지구온난화를 심화시키는 온실가스 중에서도 이산화탄소가 가장 큰 비율을 차지하고 있어. 그래서 이산화탄소를 줄여야 지구온난화를 막을 수 있다고 얘기를 많이 하는 거야.",
+            "turn_id": "BK22004508-4",
+            "utterance_id": "BK22004508.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 탄소 배출이라는 말이 이산화탄소를 배출하는 거라 생각하면 되는 거야?",
+            "turn_id": "BK22004508-5",
+            "utterance_id": "BK22004508.9"
+        },
+        {
+            "reference_date": "2022-06-15",
+            "reference_text": [
+                {
+                    "value": "탄소 배출은 화석 연료 사용과 같은 다양한 이유로 인해 이산화탄소와 같은 탄소 기체들이 대기 중으로 배출되는 현상을 말하며, 온실효과와 같은 다양한 현상들을 발생시킨다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%84%EC%86%8C_%EB%B0%B0%EC%B6%9C",
+            "search_query": "탄소배출",
+            "terminate": false,
+            "text": "맞아. 더 정확히 설명하자면 탄소 배출은 화석 연료 사용으로 인해 배출되는 것뿐만 아니라 다양한 이유가 원인이 돼서 이산화탄소와 같은 탄소 기체들이 대기 중으로 배출되는 현상을 말하는 거야. 이러한 탄소 배출은 온실 효과처럼 다양한 현상들을 발생시키는 거고.",
+            "turn_id": "BK22004508-5",
+            "utterance_id": "BK22004508.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 탄소 배출이 대기 중으로 배출되는 현상을 말하는 거라면 탄소 배출권은 정확히 뭘 의미하는 거지?",
+            "turn_id": "BK22004508-6",
+            "utterance_id": "BK22004508.11"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "지구온난화의 주범인 이산화탄소(CO2), 메탄(CH4), 아산화질소(N2O), 수소불화탄소(HFCs), 과불화탄소(PFCs), 육불화황(SF6) 등 온실가스를 배출할 수 있는 권리를 말한다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온실가스 중에서 이산화탄소가 비중이 가장 높아 대표적으로 이산화탄소 배출을 규제하기 위한 것이다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=931982&cid=43667&categoryId=43667",
+            "search_query": "탄소배출권",
+            "terminate": false,
+            "text": "탄소 배출권은 지구온난화의 주범인 온실가스를 배출할 수 있는 권리를 말해. 온실가스에는 아까도 말했지만 이산화탄소, 메탄, 아산화질소, 수소불화탄소, 과불화탄소, 육불화황 등이 있고 이 중에서 이산화탄소 비중이 가장 높으니, 탄소 배출권은 이산화탄소 배출을 규제하기 위한 것으로 해석할 수 있어.",
+            "turn_id": "BK22004508-6",
+            "utterance_id": "BK22004508.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 탄소 배출권이 온실가스를 배출할 수 있는 권리라는 건 이해했는데, 그럼 이 권리는 어떻게 얻는 거야?",
+            "turn_id": "BK22004508-7",
+            "utterance_id": "BK22004508.13"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "탄소배출권은 유엔기후변화협약(UNFCCC·UN Framework Convention on Climate Change)에서 발급하며, 발급된 탄소배출권은 시장에서 상품처럼 자유롭게 거래할 수 있다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=931982&cid=43667&categoryId=43667",
+            "search_query": "탄소배출권 거래",
+            "terminate": false,
+            "text": "이것도 시장에서 상품처럼 사고팔고 할 수 있어. 탄소 배출권은 유엔기후변화협약에서 발급을 하는데 발급된 탄소 배출권은 시장에서 자유롭게 거래가 가능하지.",
+            "turn_id": "BK22004508-7",
+            "utterance_id": "BK22004508.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 권리를 사고파는 거구나. 그럼 이 탄소 배출권에도 종류가 있는 거야?",
+            "turn_id": "BK22004508-8",
+            "utterance_id": "BK22004508.15"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "탄소배출권은 '할당량(allowance) 배출권'과 '크레딧(credit) 배출권'의 두 가지로 나뉜다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "여기서 ‘할당량’은 의무 감축 주체별로 배출할 수 있는 온실가스 배출 권리로, 정부가 기업에 배출권을 할당하면 기업은 초과하거나 남는 배출량을 배출권 형태로 시장에서 거래할 수 있다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=931982&cid=43667&categoryId=43667",
+            "search_query": "할당량 배출권",
+            "terminate": false,
+            "text": "응. 탄소 배출권도 종류가 있는데, 할당량 배출권과 크레딧 배출권으로 나뉘어. 할당량 같은 경우는 의무적으로 감축해야 하는 기업들에게 배출할 수 있는 온실가스 배출권을 정부가 할당해주는 거야. 그러면 기업은 초과하거나 남는 배출량을 배출권 형태로 시장에서 거래하는 거고.",
+            "turn_id": "BK22004508-8",
+            "utterance_id": "BK22004508.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 할당량 배출권은 이해가 됐어. 그러면 크레딧 배출권은 어떤 형식으로 거래되는 거야?",
+            "turn_id": "BK22004508-9",
+            "utterance_id": "BK22004508.17"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "그리고 크레딧은 온실가스 저감 활동을 통해 원래 배출할 것으로 예상됐던 전망치보다 온실가스를 줄였을 때 그 저감량에 해당하는 만큼 크레딧을 발행해 주는 방식을 말한다.",
+                    "value_time": "2022-08-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=931982&cid=43667&categoryId=43667",
+            "search_query": "크레딧 배출권",
+            "terminate": false,
+            "text": "크레딧은 온실가스 저감 활동을 하는 것에 더 초점을 맞춰. 원래 배출할 것으로 예상된 전망치보다 온실가스를 줄였을 때 줄인 만큼 크레딧을 발행해 주는 방식을 사용하지.",
+            "turn_id": "BK22004508-9",
+            "utterance_id": "BK22004508.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 네가 오늘 설명해준 내용을 들으니까 이제야 탄소와 지구온난화에 대한 관계를 이해할 수 있게 됐어. 너무 고마워.",
+            "turn_id": "BK22004508-10",
+            "utterance_id": "BK22004508.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "쉽게 설명이 됐는지는 모르겠는데 도움이 됐다니 다행이다. 언제든지 모르는 거 있으면 물어보고, 나 이제 가봐야 할듯해. 나중에 다시 보자!",
+            "turn_id": "BK22004508-10",
+            "utterance_id": "BK22004508.20"
+        }
+    ]
+}

@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013862",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013862",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달을 지구의 위성이라고 하잖아요. 그런데 위성이 정확히 뭘 뜻하는 건가요?",
+            "turn_id": "BK22013862-1",
+            "utterance_id": "BK22013862.1"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "자연위성(自然衛星) 또는 단순히 위성(衛星)은 행성 따위의 둘레를 도는 천체를 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중에서 사람이 만든 위성은 인공위성이라고 한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%84%EC%84%B1",
+            "search_query": "위성",
+            "terminate": false,
+            "text": "자연위성 혹은 그냥 위성이라고 하는 것들은 행성의 주변을 공전하는 천체를 의미해요. 자연위성과 달리 인공위성의 경우는 사람이 만들어낸 위성이고요.",
+            "turn_id": "BK22013862-1",
+            "utterance_id": "BK22013862.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 달은 위성 중에서도 자연위성에 해당하는 거군요. 달의 크기는 어느 정도인가요?",
+            "turn_id": "BK22013862-2",
+            "utterance_id": "BK22013862.3"
+        },
+        {
+            "reference_date": "2022-08-28",
+            "reference_text": [
+                {
+                    "value": "달의 지름은 지구의 약 4분의 1, 태양의 약 400분의 1인 3,476 km이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8B%AC",
+            "search_query": "달의 크기",
+            "terminate": false,
+            "text": "달은 지름은 3,476km로 이는 지구의 약 4분의 1에 해당하며 태양과 비교했을 때는 약 400분의 1 정도 되는 크기랍니다.",
+            "turn_id": "BK22013862-2",
+            "utterance_id": "BK22013862.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 달과 지구 사이의 거리는 어느 정도죠?",
+            "turn_id": "BK22013862-3",
+            "utterance_id": "BK22013862.5"
+        },
+        {
+            "reference_date": "2022-09-11",
+            "reference_text": [
+                {
+                    "value": "달과 지구의 거리는 가장 가까울 때는 36만3396km, 가장 먼 때는 40만5504km다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/science/science_general/1058193.html",
+            "search_query": "달과 지구 사이 거리",
+            "terminate": false,
+            "text": "달과 지구의 거리는 가장 가까울 때와 가장 멀 때에 따라 달라져요. 전자의 경우는 36만3396km이고, 후자의 경우는 40만5504km예요.",
+            "turn_id": "BK22013862-3",
+            "utterance_id": "BK22013862.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달의 모양이 매번 바뀌는 이유는 뭔가요?",
+            "turn_id": "BK22013862-4",
+            "utterance_id": "BK22013862.7"
+        },
+        {
+            "reference_date": "2021-03-01",
+            "reference_text": [
+                {
+                    "value": "밤하늘을 환하게 비추는 달빛은 달이 내는 빛이 아니라 태양 빛을 반사한 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 달이 지구 주위를 공전할 때 태양과의 위치 관계에서 초승달 상현달 보름달 하현달 그믐달과 같은 다양한 모양의 달을 관찰할 수 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20210302.22022000269",
+            "search_query": "달의 모양 변화",
+            "terminate": false,
+            "text": "밤을 밝게 비춰주는 달빛은 사실 달이 직접 내는 것이 아니라 태양 빛을 반사하고 있는 거예요. 따라서 지구 주위를 공전하고 있는 달은 태양이 어느 위치에 있느냐에 따라 초승달, 상현달, 보름달, 하현달, 그믐달 등의 여러 가지 모양으로 보이게 돼요.",
+            "turn_id": "BK22013862-4",
+            "utterance_id": "BK22013862.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 우리가 흔히 말하는 보름달은 어떨 때 나타나는 건가요?",
+            "turn_id": "BK22013862-5",
+            "utterance_id": "BK22013862.9"
+        },
+        {
+            "reference_date": "2022-04-24",
+            "reference_text": [
+                {
+                    "value": "보름달(문화어: 옹근달,영어: full moon)은 달이 태양과 지구의 서로 반대쪽에 위치할 때 지구에서 달의 전체가 밝게 보이는 것을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만월(滿月) 또는 망월(望月)이라고도 한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EB%A6%84%EB%8B%AC",
+            "search_query": "보름달",
+            "terminate": false,
+            "text": "보름달은 만월 혹은 망월이라고도 불리죠. 달의 위치가 태양과 지구의 서로 반대편에 있는 시기에 지구에서 관측할 수 있는 모양으로, 달의 모습 전체가 온전히 밝게 보이는 경우예요.",
+            "turn_id": "BK22013862-5",
+            "utterance_id": "BK22013862.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 초승달은 언제 보이는 달이에요?",
+            "turn_id": "BK22013862-6",
+            "utterance_id": "BK22013862.11"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "초승달은 대개 달이 3-4일쯤 되면 초승달이라고 부르는데, 달이 제일 처음으로 보이는 것은 월령 2일부터 가능하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 초승달의 월령은 정확히 정해진 것이 아니기 때문에, 일반적으로 초저녁 서쪽하늘에 보이는 가는 달은 초승달이라고 부른다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B4%88%EC%8A%B9%EB%8B%AC",
+            "search_query": "초승달",
+            "terminate": false,
+            "text": "보통 월초인 3~4일쯤에 보이는 것을 초승달이라고 하는데, 실제로 달이 제일 처음 관측되는 월령은 2일부터예요. 그러나 초승달의 월령은 명확히 정의된 것이 아니라서 대개 초저녁 서쪽 하늘에 가는 달이 보일 때, 그걸 초승달이라고 부르고 있죠.",
+            "turn_id": "BK22013862-6",
+            "utterance_id": "BK22013862.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 초저녁 서쪽 하늘에 뜨는 가는 달이 초승달이군요. 그럼 그믐달은 또 뭐죠? 그믐달도 초승달과 비슷한 모양 아닌가요?",
+            "turn_id": "BK22013862-7",
+            "utterance_id": "BK22013862.13"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "그믐은 음력으로 달의 마지막 날인 29일 또는 30일을 뜻한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그믐달(old moon)은 보름달의 반대로서 가장 작아진 달을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그믐달은 새벽녘이 돼서야 나오므로 관측이 힘들 뿐 아니라 그렇게 잠시 새벽에 동쪽하늘에 보였다가 해가 뜨면 곧 여명 속으로 사라지므로 관측은 더 이상 불가능하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%AF%90",
+            "search_query": "그믐달",
+            "terminate": false,
+            "text": "보름달이 가장 큰 달이라면, 그믐달은 가장 작은 달이죠. 그믐은 음력으로 그달의 마지막인 29일 혹은 30일을 가리키는 말이고요. 사실상 그믐달은 새벽녘에야 떠오르기 때문에 관측이 쉽지 않아요. 게다가 동쪽 하늘 새벽에 잠시 떴다가 일출이 되면 사라져 버려서 그 짧은 시간이 지나면 더 이상 볼 수 없습니다.",
+            "turn_id": "BK22013862-7",
+            "utterance_id": "BK22013862.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마음먹고 밤을 지새우면서 동쪽 하늘만 쳐다보고 있는 게 아니라면 그믐달을 볼 일은 거의 없겠네요. 그런데 가끔 달이 안 뜨는 밤도 있던데 그건 뭔가요?",
+            "turn_id": "BK22013862-8",
+            "utterance_id": "BK22013862.15"
+        },
+        {
+            "reference_date": "2022-03-14",
+            "reference_text": [
+                {
+                    "value": "신월(新月) 또는 삭월(朔月)은 음력 초하룻날의 달을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "삭(朔), 합삭(合朔), 월삭(月朔)등으로도 불린다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "밤 중에 달이 아예 뜨지 않거나 거의 뜨지 않음을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "달이 해와 같이 뜨고 지며 조금 보일 때도 있긴 하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%9B%94",
+            "search_query": "신월",
+            "terminate": false,
+            "text": "음력 초하루의 달이 없는 밤을 신월 또는 삭월이라고 불러요. 이 외에도 삭, 합삭, 월삭 등으로 표현하기도 하고요. 말씀하신 것처럼 달이 뜨지 않는 밤인데, 간혹 달과 해가 동시에 떴다가 지는 경우 달의 모습이 아주 조금 관측되는 경우도 있죠.",
+            "turn_id": "BK22013862-8",
+            "utterance_id": "BK22013862.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달이 없는 밤이라고 하니까 생각났는데, 개기월식 현상은 왜 나타나는 거죠?",
+            "turn_id": "BK22013862-9",
+            "utterance_id": "BK22013862.17"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "월식(月蝕[1], 영어: Lunar eclipse 루너 이클립스[*], 문화어: 달가림)은 달이 지구의 그림자에 들어와 보이지 않는 현상이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "월식은 태양 - 지구 - 달의 위치로 배열될 때 일어나게 되며 이때 달의 위상은 보름달인 망이 된다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "월식은 달이 지구의 본 그림자 속에 들어갈 때 관측되는 개기 월식(문화어: 옹근월식)과 달이 지구의 본 그림자와 반 그림자 사이에 위치할 때 관측되는 부분 월식으로 나뉜다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%94%EC%8B%9D",
+            "search_query": "개기월식",
+            "terminate": false,
+            "text": "월식은 지구의 그림자 속에 달이 들어와서 보이지 않게 되는 현상이에요. 태양, 지구, 달 순으로 위치하게 됐을 때 발생하는데, 이 시기에 달의 모양은 망이라고도 불리는 보름달 형태죠. 개기 월식은 달이 지구의 본 그림자 속에 위치했을 때 관측되는 현상이고, 부분 월식은 달의 위치가 지구의 본 그림자와 반 그림자 사이에 걸쳤을 때 관측됩니다.",
+            "turn_id": "BK22013862-9",
+            "utterance_id": "BK22013862.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매일 밤하늘에 보이니까 무심코 지나쳤던 달에 이렇게 다양한 천문 현상들이 있는 줄 몰랐어요.",
+            "turn_id": "BK22013862-10",
+            "utterance_id": "BK22013862.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그런가요? 이제 잘 알게 되었으니 매일매일 똑같던 달도 조금 다르게 보일 거예요.",
+            "turn_id": "BK22013862-10",
+            "utterance_id": "BK22013862.20"
+        }
+    ]
+}

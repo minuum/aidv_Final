@@ -1,0 +1,341 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013787",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013787",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동생이 올해 수능을 봐요. 그래서 수능에 대해 궁금한 게 많아요.",
+            "turn_id": "BK22013787-1",
+            "utterance_id": "BK22013787.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 결과 있었으면 좋겠네요.",
+            "turn_id": "BK22013787-1",
+            "utterance_id": "BK22013787.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 수능에 관해 궁금한 게 있는데요, 수능을 응시할 수 있는 자격은 어떻게 되나요?",
+            "turn_id": "BK22013787-2",
+            "utterance_id": "BK22013787.3"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "고등학교 졸업 예정자, 졸업자, 검정고시 합격자와 같은 고등학교 졸업 학력과 동등한 학력을 지닌 자 등이 응시할 수 있다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98",
+            "search_query": "수능 응시자격",
+            "terminate": false,
+            "text": "수능은 고교 졸업 예정자이거나 졸업한 사람, 검정고시 합격자 등 고교 졸업 학력과 동등한 학력을 지닌 사람이면 응시 가능합니다.",
+            "turn_id": "BK22013787-2",
+            "utterance_id": "BK22013787.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요, 수능시험은 언제 처음으로 실시됐나요? 몇 점 만점이었는지도 궁금합니다.",
+            "turn_id": "BK22013787-3",
+            "utterance_id": "BK22013787.5"
+        },
+        {
+            "reference_date": "2021-11-18",
+            "reference_text": [
+                {
+                    "value": "첫 수능은 1993년 8월 20일 치러졌는데, 수능이 처음 치러진 해에는 8월과 11월 두 번 시험을 봤으며 총 190문항으로 200점이 만점이었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/2079413",
+            "search_query": "첫 수능",
+            "terminate": false,
+            "text": "최초의 수능시험은 1993년 8월 20일 있었어요. 수능이 처음 치러진 1993년에는 8월과 11월 두 번 시험이 있었는데요, 총 190문항으로 200점 만점이었습니다.",
+            "turn_id": "BK22013787-3",
+            "utterance_id": "BK22013787.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "처음에는 수능이 200점 만점이었군요. 저는 수능 400점이었던 시절이 기억나는데, 수능 점수 체제가 어떻게 바뀌어 왔나요?",
+            "turn_id": "BK22013787-4",
+            "utterance_id": "BK22013787.7"
+        },
+        {
+            "reference_date": "2021-11-18",
+            "reference_text": [
+                {
+                    "value": "200점 만점 체제는 1996년까지 이어졌고 1997년부터는 400점 만점, 7차 교육과정이 적용된 2005학년도부터는 탐구과목 4개 응시 기준 500점 만점으로 변했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/2079413",
+            "search_query": "수능 점수 체제",
+            "terminate": false,
+            "text": "1996년까지 200점 만점으로 체계가 운영됐고요, 1997년부터는 400점 만점으로 치러졌어요, 2005학년도부터는 7차 교육과정을 적용해 탐구과목 4개 응시 기준 500점 만점으로 바뀌었습니다.",
+            "turn_id": "BK22013787-4",
+            "utterance_id": "BK22013787.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 수능이 500점 체계인가 보네요. 또 궁금한 게 있는데요, 수능 문제 출제는 누가 하는 건가요? 예전부터 궁금했어요.",
+            "turn_id": "BK22013787-5",
+            "utterance_id": "BK22013787.9"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "수능 문제 출제진은 출제위원과 검토위원으로 이루어진다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출제위원은 대학교수와 고등학교 교사로 구성되며 검토위원은 모두 고등학교 교사로 구성된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98",
+            "search_query": "수능 출제",
+            "terminate": false,
+            "text": "수능 문제 출제진은 출제위원과 검토위원으로 구성되는데요, 대학교수와 고등학교 교사가 출제위원을 맡습니다. 검토위원은 전부 고등학교 교사로 이루어집니다.",
+            "turn_id": "BK22013787-5",
+            "utterance_id": "BK22013787.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에 방송에서 본 것 같은데 수능 시간 중 비행기의 운항을 금하는 게 사실인가요?",
+            "turn_id": "BK22013787-6",
+            "utterance_id": "BK22013787.11"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "듣기 평가 시간에는 비행기와 공군 등 대한민국 모든 비행물의 이착륙, 시험장 근처에서 경적 등의 소음 원인물 사용이 금지된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%99%EC%88%98%ED%95%99%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98",
+            "search_query": "수능 시간 비행",
+            "terminate": false,
+            "text": "수능 듣기 평가 시간에 비행기를 포함해 우리나라 모든 비행 물체의 이착륙을 금합니다. 아울러 시험장 근처에서는 경적 등 소음이 나는 물체의 사용을 금지합니다.",
+            "turn_id": "BK22013787-6",
+            "utterance_id": "BK22013787.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수능도 쉬운 수능이 있고 어려운 수능이 있잖아요. 역대 수능 중 가장 쉬웠던 수능은 언제였나요?",
+            "turn_id": "BK22013787-7",
+            "utterance_id": "BK22013787.13"
+        },
+        {
+            "reference_date": "2018-11-24",
+            "reference_text": [
+                {
+                    "value": "2001학년도는 물수능의 서막을 열었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만점자만 66명으로 역대 최다였고 만점자도 논술 부진 등으로 서울대에서 떨어졌다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상위권 득점자가 폭증해 눈치로 대학에 들어가는 도박판으로 변질됐다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0003182988?sid=102",
+            "search_query": "역대 쉬운 수능",
+            "terminate": false,
+            "text": "2001학년도 수능에서 만점자만 66명이 배출돼 역대 최다 만점자를 기록했는데요, 이른바 물수능의 서막이 열린 겁니다. 2001학년도엔 만점자마저도 논술 시험에서 부진하면 서울대에 탈락하기도 했고, 상위권 득점자가 폭증하면서 도박판 같은 눈치 지원이 문제가 됐습니다.",
+            "turn_id": "BK22013787-7",
+            "utterance_id": "BK22013787.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수능에서 만점을 받다니 정말 부럽네요. 그런데 수능에서 최초로 만점을 받은 학생은 누구인가요?",
+            "turn_id": "BK22013787-8",
+            "utterance_id": "BK22013787.15"
+        },
+        {
+            "reference_date": "2013-11-01",
+            "reference_text": [
+                {
+                    "value": "‘1호’ 만점자는 7번째 수능이 치러진 1999학년도(1998년 시행)에야 나왔다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영광의 주인공은 당시 한성과학고 3학년이던 오승은 양.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수능뿐 아니라 40년 한국 입시 역사상 최초의 만점자였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "클래식 음악을 즐겨 들었던 오 양은 클래식 해설자로 출연하기도 했고, 직접 정리한 과목별 정리노트를 출간하는 등 연예인 못지 않은 관심을 받았다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/016/0000466725?sid=102",
+            "search_query": "수능 최초 만점",
+            "terminate": false,
+            "text": "7번째 수능이 열렸던 1999학년도 수능에서 1호 만점자가 나왔습니다. 1998년에 시행된 당시 수능에서 한성과학고 3학년인 오승은 씨가 만점의 주인공이 된 건데요, 수능을 포함해 우리나라 입시 40년 역사상 최초의 만점자였습니다. 오 씨는 직접 정리한 과목별 정리 노트를 출간하는 한편, 클래식 음악을 즐겨 들어 클래식 해설자로 출연하기도 했습니다.",
+            "turn_id": "BK22013787-8",
+            "utterance_id": "BK22013787.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마지막으로 하나만 더 물어볼 게 있는데요. 수능시험 중 종료 벨이 울린 후에 답안을 작성하면 어떻게 되나요? 부정행위 관련 규정이 궁금합니다.",
+            "turn_id": "BK22013787-9",
+            "utterance_id": "BK22013787.17"
+        },
+        {
+            "reference_date": "2022-08-24",
+            "reference_text": [
+                {
+                    "value": "다만 종료령이 울린 이후에도 답안을 계속 작성하거나 반입 금지된 물품을 소지하는 등 교육부 장관이 정한 ‘경미한 부정행위’를 한 경우에는 당해 시험을 무효 처리하되 다음 연도 시험의 응시 자격이 정지되지는 않는다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002603588?sid=102",
+            "search_query": "수능 부정행위",
+            "terminate": false,
+            "text": "종료령이 울린 뒤 답안을 계속 작성하는 경우나 반입 금지 물품을 소지하는 경우 등은 교육부 장관이 정한 경미한 부정행위에 해당하는데요. 이 경우는 이듬해 시험 응시 자격이 정지되지는 않지만 당해 시험은 무효 처리됩니다.",
+            "turn_id": "BK22013787-9",
+            "utterance_id": "BK22013787.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수능 관련한 많은 내용 알려주셔서 고맙습니다.",
+            "turn_id": "BK22013787-10",
+            "utterance_id": "BK22013787.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "언제든 궁금한 게 있으면 말씀하세요.",
+            "turn_id": "BK22013787-10",
+            "utterance_id": "BK22013787.20"
+        }
+    ]
+}

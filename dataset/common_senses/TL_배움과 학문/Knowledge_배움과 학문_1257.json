@@ -1,0 +1,437 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008433",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008433",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양계 행성에 대해서 정리하고 있는데 도와줄래? 먼저 태양계와 태양계에 있는 행성들에 대해서 알려줄래?",
+            "turn_id": "BK22008433-1",
+            "utterance_id": "BK22008433.1"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "태양계(太陽系)는 항성인 태양과 그 중력에 이끌려 있는 주변 천체가 이루는 체계를 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양을 중심으로 공전하는 행성은 소행성대를 기준으로 안쪽에 있는 네 개의 고체 행성인 수성, 금성, 지구, 화성, 즉 지구형 행성과, 바깥쪽에 있는 네 개의 유체 행성인 목성, 토성, 천왕성, 해왕성, 즉 목성형 행성으로 알려져 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%EC%96%91%EA%B3%84",
+            "search_query": "태양계",
+            "terminate": false,
+            "text": "항성인 태양과 항성의 중력에 이끌려 있는 주변 천체가 이루는 체계를 태양계라고 해. 태양을 중심으로 행성들은 공전하고 있는데 소행성대를 기준으로 소행성대 안쪽에 있는 지구형 행성과 바깥쪽에 있는 목성형 행성이 있지. 지구형 행성으로는 수성, 금성, 지구, 화성이 있고 모두 고체 행성이야. 목성형 행성으로는목성, 토성, 천왕성, 해왕성이 있는데 모두 유체 행성이지.",
+            "turn_id": "BK22008433-1",
+            "utterance_id": "BK22008433.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 우선 지구형 행성과 목성형 행성에 대해서 설명해주면 좋을 것 같아. 먼저 지구형 행성에 대해서 말해줘.",
+            "turn_id": "BK22008433-2",
+            "utterance_id": "BK22008433.3"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "지구형 행성(地球型行星, terrestrial planet)은 태양계에서 규산염 따위로 된 암석이나 금속 등 고체 상태의 물질을 주성분으로 하는 행성을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구형 행성들은 표면에 계곡, 충돌구, 산, 화산의 지형을 지닌다.(단 행성의 물과 지각 활동에 영향을 받는다)",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B5%AC%ED%98%95_%ED%96%89%EC%84%B1",
+            "search_query": "지구형 행성",
+            "terminate": false,
+            "text": "태양계에서 규산염 따위로 된 암석이나 금속 같은 고체 상태의 물질을 주성분으로 하는 행성을 지구형 행성이라고 해. 지구형 행성의 표면에는 계곡이나 충돌구, 산과 화산의 지형이 있어.",
+            "turn_id": "BK22008433-2",
+            "utterance_id": "BK22008433.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 목성형 행성은 어떤 걸까? 지구형 행성과 반대되는 특성을 가질 것 같아.",
+            "turn_id": "BK22008433-3",
+            "utterance_id": "BK22008433.5"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "목성형 행성(木星型行星)은 태양계에서 수소나 헬륨 따위의 유체(fluid) 형태를 주성분으로 하는 행성을 말한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이중 천왕성과 해왕성은 구성성분 중 얼음과 물, 메테인 따위의 혼합물이 상당량을 차지하고 있어 거대 얼음 행성(ice giants)으로, 수소와 헬륨이 주성분인 목성, 토성은 거대 가스 행성(gas giants)으로 세분하기도 한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목성형 행성의 중심핵은 지구형 행성처럼 석질 또는 철질이지만(유체 행성이 탄생하기 위해서는 이와 같은 중심핵 물질이 필요했다), 행성 대부분의 질량은 행성의 외형으로 보여지는 두터운 유체층에 존재한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 밀도가 낮아 지구형 행성보다 바깥쪽 궤도에 있으며, 크기 또한 상대적으로 거대하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EC%84%B1%ED%98%95_%ED%96%89%EC%84%B1",
+            "search_query": "목성형 행성",
+            "terminate": false,
+            "text": "태양계에서 수소나 헬륨 따위의 유체 상태를 주성분으로 가지는 행성을 목성형 행성이라고 해. 여기서 얼음과 물, 메테인 따위의 혼합물이 상당량을 차지하고 있는 거대 얼음 행성과 수소와 헬륨이 주성분인 거대 가스 행성으로 세분하기도 하는데, 거대 얼음 행성으로는 천왕성과 해왕성이 있고 거대 가스 행성으로는 목성과 토성이 있어. 목성형 행성은 유체 상태 행성이지만 중심핵은 지구형 행성처럼 석질이나 철질이야. 그런데 행성 질량의 대부분은 행성의 외형으로 보여지는 두터운 유체층이 가지고 있지. 따라서 밀도가 낮아 지구형 행성보다 바깥쪽 궤도에 있고 상대적으로 거대한 크기를 가져.",
+            "turn_id": "BK22008433-3",
+            "utterance_id": "BK22008433.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수성이나 지구같은 지구형 행성보다 목성이나 토성은 엄청 크겠네. 태양계의 행성에 대해서 간단한 특징과 함께 설명해주면 좋을 것 같아. 수성부터 설명해줄래?",
+            "turn_id": "BK22008433-4",
+            "utterance_id": "BK22008433.7"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "수성(水星, 라틴어: Mercurius)은 태양에서 평균 5,800만 km 떨어진 가장 가까운 궤도를 도는 행성이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한, 반지름은 2,440km, 둘레 43,924km로 가장 작은 내행성이기도 하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나트륨, 칼륨 등으로 구성된 대기가 있지만, 기압은 지구의 1조 분의 1로 매우 희박하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%84%B1",
+            "search_query": "수성",
+            "terminate": false,
+            "text": "수성과 태양의 떨어진 거리는 평균 5800만 km로 수성은 다른 행성들 보다 가장 가까운 궤도를 돌고 있어. 거기다 수성은 가장 작은 내행성으로 반지름은 2,440km이고 둘레 43,924km이지. 그리고 대기는 나트륨, 칼륨 등으로 구성되고 기압은 지구의 1조 분의 1로 매우 약해.",
+            "turn_id": "BK22008433-4",
+            "utterance_id": "BK22008433.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "작은 행성이 태양과 가장 가까이 있는데도 불타지 않은 것이 놀랍네. 금성은 어떤 행성이야?",
+            "turn_id": "BK22008433-5",
+            "utterance_id": "BK22008433.9"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "금성(金星, 라틴어: Venus)은 태양계의 두 번째 행성이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "달에 이어서 밤하늘에서 두 번째로 밝은 천체이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구형 행성인 금성은 크기와 화학 조성이 지구와 매우 비슷하여 지구의 '자매 행성'으로 불리기도 한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대기의 주성분은 이산화탄소이고, 표면에서의 대기압은 95기압에 이른다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "금성에는 금속 눈, 이산화탄소 대기, 수많은 화산, 산성비가 있다",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%88%EC%84%B1",
+            "search_query": "금성",
+            "terminate": false,
+            "text": "태양계의 두 번째 행성인 금성은 밤하늘에서 달 다음으로 두 번째로 밝은 천체지. 금성과 지구는 크기와 화학 조성이 정말 비슷해서 금성은 지구의 자매 행성으로 여겨. 이산화탄소가 대기의 주성분이고 표면에서의 대기압은 95기압이나 돼. 그리고 금성에는 이산화탄소 대기에 이어 금속 눈이나 산성비가 내리고 수많은 화산이 있지.",
+            "turn_id": "BK22008433-5",
+            "utterance_id": "BK22008433.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자매 행성이라고 하기엔 금성에는 무시무시한 면이 많은 것 같아. 화성은 어떤 행성이야?",
+            "turn_id": "BK22008433-6",
+            "utterance_id": "BK22008433.11"
+        },
+        {
+            "reference_date": "2022-09-14",
+            "reference_text": [
+                {
+                    "value": "표면의 철의 산화로 붉은색을 띠기 때문에 동양권에서는 불을 뜻하는 화(火)를 써서 화성 또는 형혹성(熒惑星)이라 부르고, 서양권에서는 로마 신화의 전쟁의 신 마르스의 이름을 따 Mars라 부른다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물과 생명체의 발견에 대한 기대로 많은 탐사선들에 미생물을 찾기 위한 센서들이 탑재되어 화성에 보내졌다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화성에서는 다량의 얼음이 발견되었고, 생명체가 존재할 가능성이 제기되고 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화성의 표면적은 지구의 4분의 1밖에 되지 않으며, 부피는 10분의 1밖에 되지 않는다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화성 대기의 95%는 이산화탄소로 덮여 있으며, 이 밖에 3%의 질소, 1.6%의 아르곤과 약간의 산소로 이루어져 있다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%84%B1",
+            "search_query": "화성",
+            "terminate": false,
+            "text": "화성은 표면의 철의 산화로 인해 붉은색을 띠는데, 이를 보고 동양권에서는 불 화자를 써서 화성 또는 형혹성이라 했고 서양권에서는 로마 신화의 전쟁의 신 마르스의 이름을 따 Mars라고 했어. 화성은 물과 생명체가 발견될 것이라는 기대가 있어 미생물을 찾기 위한 센서들이 탑재된 많은 탐사선이 보내졌지. 화성에서는 얼음이 많이 발견되기도 해서 생명체의 존재 가능성이 제기되고 있지. 화성의 표면적은 지구의 4분의 1, 부피는 지구의 10분의 1정도이고 화성의 대기는 이산화탄소가 95%, 질소가 3%, 아르곤과 약간의 산소가 1.6%로 이루어져 있어.",
+            "turn_id": "BK22008433-6",
+            "utterance_id": "BK22008433.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화성 탐사에 대한 뉴스는 많이 보았는데 생명이 존재한다는 결과가 나오면 정말 놀라울 것 같아. 시간이 별로 없으니까 목성형 행성은 목성과 토성, 해왕성만 정리하면 될 것 같아. 목성에 대해서 알려줘.",
+            "turn_id": "BK22008433-7",
+            "utterance_id": "BK22008433.13"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "목성(木星, 라틴어: Jupiter)은 태양계의 다섯번째 행성이자 가장 큰 행성이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "태양의 질량의 1,000분의 1배에 달하는 거대행성으로, 태양계에 있는 다른 모든 행성들을 합한 질량의 약 2.5배에 이른다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 목성은 밤하늘에서 평균적으로 달과 금성 다음, 즉 세번째로 가장 밝은 천체에 해당한다.[주 1]",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "목성의 대기는 미량의 메테인, 수증기, 암모니아, 규소화합물을 포함하며, 또한 미량의 탄소, 에테인, 황화수소, 네온, 산소, 포스핀, 황 등으로 이루어져 있기도 하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AA%A9%EC%84%B1",
+            "search_query": "목성",
+            "terminate": false,
+            "text": "밤하늘에서 달과 금성 다음으로 밝은 천체인 목성은 태양계의 다섯번째 이고 태양계 행성 가운데 가장 크지. 목성의 질량은 태양 질량의 1,000분의 1배에 달하는데, 이 크기는 태양계에 있는 행성들의 질량을 모두 합한 질량의 약 2.5배 정도지. 목성의 대기는 미량의 메테인, 수증기, 암모니아, 규소화합물로 구성되어 있고 미량의 탄소와 에테인, 황화수소, 네온, 산소, 포스핀, 황 등으로도 구성되어 있어.",
+            "turn_id": "BK22008433-7",
+            "utterance_id": "BK22008433.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가장 큰 행성이 목성이었구나. 토성에 대해서도 설명해주면 좋겠어.",
+            "turn_id": "BK22008433-8",
+            "utterance_id": "BK22008433.15"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "토성은 태양계 내의 행성 중 목성에 이어 두 번째로 크며, 지름은 약 12만 km로, 지구의 9.1배이며 부피는 760배에 달한다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 비해 질량은 지구의 95배밖에 안되기 때문에, 토성의 평균 밀도는 0.7g/cm3에 지나지 않는다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 토성의 표면 중력은 지구와 비슷하다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%86%A0%EC%84%B1",
+            "search_query": "토성",
+            "terminate": false,
+            "text": "태양계 내의 행성 가운데 목성에 이어 두 번째로 큰 토성은 약 12만 km의 지름으로 이건 지구의 9.1배야. 부피의 경우에는 지구의 760배에 달하지. 그런데 질량의 경우에는 지구의 95배 밖에 안되서 토성의 평균 밀도는 0.7g/cm3에 밖에 안돼. 토성의 표면 중력은 지구와 비슷한 크기를 가지고 있어.",
+            "turn_id": "BK22008433-8",
+            "utterance_id": "BK22008433.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 큰 행성이 지구와 비슷한 중력이라는 게 정말 놀랍다. 천왕성은 어떤 행성이야?",
+            "turn_id": "BK22008433-9",
+            "utterance_id": "BK22008433.17"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "천왕성(天王星, 영어: Uranus)은 태양계에 8개 행성 중 일곱번째 행성이며, 세 번째로 반지름이 크고 네 번째로 질량이 큰 태양계의 행성이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 행성은 기존의 다섯 행성들처럼 맨눈으로 볼 수 있음에도 불구하고 하늘에서 매우 느리게 움직이는데다 매우 어둡기 때문에 그 존재가 오랫동안 인류에게 밝혀지지 않았다.[1]",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "천왕성의 대기는 목성이나 토성의 대기처럼 수소와 헬륨으로 이루어져 있으나, 물, 암모니아, 메테인, 소량의 탄화 수소와 같은 휘발성 물질들이 더 많이 섞여 있다.[2]",
+                    "value_time": "2022-09-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "천왕성의 대기는 태양계 행성들 중 가장 차가운데 그 온도는 최소 49K (–224°C)에 이른다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천왕성이 해왕성보다 더 차가운 이유는 해왕성 내부에서 이유를 알 수 없는 열이 발생하기 때문이다.",
+                    "value_time": "2022-09-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%99%95%EC%84%B1",
+            "search_query": "천왕성",
+            "terminate": false,
+            "text": "태양계에 8개 행성 중 일곱번째 행성인 천왕성은 반지름이 세 번째로 크고 질량은 네 번째로 큰 행성이야. 천왕성은 하늘에서 매우 느리게 움직이고 매우 어둡워서 기존의 다섯 행성들처럼 맨눈으로 관측이 가능함에도 불구하고 천왕성의 존재는 오랫동안 인류에게 알려지지 않았어. 목성이나 토성의 대기처럼 천왕성의 대기도 수소와 헬륨으로 구성되어 있지만 물과 암모니아, 메테인, 소량의 탄화 수소와 같은 휘발성 물질들이 더 많이 포함되어 있어. 그리고 천왕성의 대기의 온도는 최소 49K 인 –224도에 이르는데 이건 태양계 행성 중에서 가장 차가운 온도야. 참고로 해왕성이 천왕성보다 조금 더 뜨거운 이유는 해왕성 내부에서 원인모를 열이 만들어 지고 있기 때문이야.",
+            "turn_id": "BK22008433-9",
+            "utterance_id": "BK22008433.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수금지화목토천해 순으로 보면 해왕성이 태양과 가장 멀리 떨어져 있는데, 태양과 멀리 있는 해왕성이 천왕성보다 더 뜨거운 건 정말 놀랍다. 알 수 없는 열과 함께 해왕성에 대해 다음에 더 조사해야겠어. 오늘 시간 내줘서 고마워.",
+            "turn_id": "BK22008433-10",
+            "utterance_id": "BK22008433.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "관련된 자료가 많으니까 다음에 또 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22008433-10",
+            "utterance_id": "BK22008433.20"
+        }
+    ]
+}

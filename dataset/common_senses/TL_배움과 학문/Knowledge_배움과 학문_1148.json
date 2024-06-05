@@ -1,0 +1,442 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007633",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007633",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 신화라고는 그리스 로마 신화밖에 모르는데 요즘 이집트 신화를 배경으로 한 영화도 많이 보이더라고. 관련해서 가르쳐 줄래? 우선 이집트 신화는 어떤 걸 말해?",
+            "turn_id": "BK22007633-1",
+            "utterance_id": "BK22007633.1"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "이집트 신화는 기독교와 이슬람이 확산되기 이전에 고대 이집트 사람들이 생각해온 신들의 체계를 의미한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고대 이집트인의 신앙은 대략 3000년에 걸친 긴 기간에 그 사이에 여러번 변화를 거듭해왔다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로는 헬리오폴리스에서 신앙되고 있던 엔네아드를 바탕으로 말해지는 것이 많다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%91%ED%8A%B8_%EC%8B%A0%ED%99%94",
+            "search_query": "이집트 신화",
+            "terminate": false,
+            "text": "기독교와 이슬람이 확산되기 전, 고대 이집트 사람들이 만들어 낸 신들의 체계를 이집트 신화라고 해. 대략 3000년에 걸친 긴 기긴 동안에 이집트의 신앙은 여러 번의 변화가 일어났는데, 보통 헬리오폴리스에서 신앙되고 있었던 엔네아드를 바탕에 둔 것을 말해.",
+            "turn_id": "BK22007633-1",
+            "utterance_id": "BK22007633.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헬리오폴리스는 많이 들어봤는데 엔네아드라니 정말 생소한 단어다. 엔네아드가 뭐니?",
+            "turn_id": "BK22007633-2",
+            "utterance_id": "BK22007633.3"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "고대 이집트 종교에서 나오는 엔네아드(그리스어 \"Ἐννεάς\")는 아홉 신의 집단이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리스 신화의 올림포스 12신과 개념이 비슷하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "엔네아드는 헬리오폴리스에서 숭배되었으며, 창조신 아툼, 아툼의 자식들인 슈와 테프누트, 슈와 테프누트의 자식들인 게브와 누트, 게브와 누트의 자식들인 오시리스 · 이시스 · 세트 · 네프티스로 이루어져 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%94%EB%84%A4%EC%95%84%EB%93%9C",
+            "search_query": "엔네아드",
+            "terminate": false,
+            "text": "헬레오폴리스에서 숭배된 엔네아드는 아홉 신의 집단으로 그리스 신화의 올림포스 12신과 비슷한 거야. 엔네아드의 신을 정리하자면, 창조신 아툼이 있고, 아툼의 자식들인 슈와 테프누트, 슈와 테프누트의 자식들인 게브와 누트, 게브와 누트의 자식들인 오시리스, 이시스, 세트 , 네프티스가 있지.",
+            "turn_id": "BK22007633-2",
+            "utterance_id": "BK22007633.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아툼은 그리스신화에서 카오스 같은 느낌도 있는데 아툼부터 설명해주면 좋겠다.",
+            "turn_id": "BK22007633-3",
+            "utterance_id": "BK22007633.5"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "아툼(Atum, Atem, Tem, Temu, Tum)은 가끔씩 아템 또는 템이라고 불리며, 이집트 신화의 창조신이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아툼의 이름(Atum)은 '완성' 또는 '끝내다'를 의미하는 고대 이집트어 동사인 'tm'에서 유래된 것으로 간주한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 '완전한 자'와 '세계의 완성자'로 여겨졌는데, 그가 창조의 순환을 마치고 다시 혼돈의 물 속으로 돌아갔기 때문인 것으로 알려져 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그는 창조주로서 세계 그 자체로 여겨졌는데, 신들과 세계의 모든 것들이 그의 살로 만들어지거나, 그의 영혼으로 만들어진 것으로 생각되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%88%BC",
+            "search_query": "아툼",
+            "terminate": false,
+            "text": "이집트 신화의 창조신인 아툼은 가끔씩 아템 또는 템이라고 불리기도 했는데, 아툼의 이름은 완성이나 끝내다의 뜻을 가진 고대 이집트 동사 tm에서 유래한 것으로 보고 있지. 아툼은 창조의 순환을 마치고 혼돈의 물 속으로 돌아갔기 때문에 완전한 자, 또는 세계의 완성자로 여겨졌어. 그리고 신들과 세계의 모든 것들이 아툼의 살과 영혼으로 만들어 졌다고 보아 창조주이자 세계 그 자체로 여겨졌지.",
+            "turn_id": "BK22007633-3",
+            "utterance_id": "BK22007633.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카오스이면서 가이아의 역할을 한 신이네. 슈는 어떤 신이야?",
+            "turn_id": "BK22007633-4",
+            "utterance_id": "BK22007633.7"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "슈(Shu)는 이집트 신화의 원시적인 신들 가운데 하나이며, 공기와 바람의 신이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헬리오폴리스 우주관에서 9명의 주신 가운데 하나로 숭배된 신이며, 여신 테프누트와 오누이 관계이기도 하다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "슈는 하늘의 여신 '누트'와 땅의 신 '게브'의 아버지이며, '오시리스', '세트'의 할아버지이고 '호루스'와 '아누비스'와 증조할아버지의 관계에 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%88_(%EC%9D%B4%EC%A7%91%ED%8A%B8_%EC%8B%A0%ED%99%94)",
+            "search_query": "슈",
+            "terminate": false,
+            "text": "이집트 신화의 원시적인 신 중 한 명인 슈는 공기와 바람의 신이야. 아까 말했듯이 헬리오폴리스 우주관의 9명 주신 중 한 명이지. 여신 테프누트와 오누이 관계에 있으며, 자녀로는 하늘의 여신 누트와 땅의 신 게브가 있어. 그리고 오시리스와 세트의 할아버지이면서 호루스와 아누비스와는 증조할아버지의 관계야.",
+            "turn_id": "BK22007633-4",
+            "utterance_id": "BK22007633.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호루스라는 이름은 정말 많이 들어봤는데 관계가 이만큼 멀리 있을 줄이야. 테프누트는 슈와 오누이 관계라고 했는데 어떤 신일까?",
+            "turn_id": "BK22007633-5",
+            "utterance_id": "BK22007633.9"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "테프누트(Tefnut, Tefenet, Tefnet)는 고대 이집트의 습기, 이슬, 비의 여신이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 이집트어로 '테프누트'라는 이름은 '물'을 뜻하며, 그녀의 이름의 어원이 된 'tfn'이라는 이집트어 동사는 '침을 뱉다'라는 뜻을 가지고 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 이집트 신화의 창조신 아툼(혹은 라)가 입을 통해 그녀를 낳았다는 뜻 을 내포하고 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%85%8C%ED%94%84%EB%88%84%ED%8A%B8",
+            "search_query": "테프누트",
+            "terminate": false,
+            "text": "테프누트는 습기, 이슬, 비의 여신으로 이름의 의미는 고대 이집트어로 물을 의미하고 이름의 어원이 된 tfn이라는 이집트어 동사는 침을 뱉다라는 의미야. 이건 아툼이 입을 통해 테프누트를 낳았다는 걸 내포하고 있지.",
+            "turn_id": "BK22007633-5",
+            "utterance_id": "BK22007633.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이집트 신화는 정말 독특한 것 같아. 또 하나 독특한 점으로는 하늘의 신이 여신이라는 점이었어. 누트는 어떤 신이야?",
+            "turn_id": "BK22007633-6",
+            "utterance_id": "BK22007633.11"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "이집트인들은 태양신이 태양을 '만제트'라는 배에 태워 이동시킨다고 생각했으며, 밤에 태양이 없어지는 것은 태양이 천공의 신, 즉 누트에게 잡아먹히기 때문이라고 해석했다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서쪽으로 사라진 태양은 누트의 입에 들어가서 밤 동안에 몸 속을 지난 다음 아침이 되면 여신의 무릎에서 다시 솟아난다고 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이는 재생과 부활을 암시하는 것이라고 할 수 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 사람들은 누트를 사자(死者)를 수호하는 신으로 여기게 되었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%84%ED%8A%B8_(%EC%9D%B4%EC%A7%91%ED%8A%B8_%EC%8B%A0%ED%99%94)",
+            "search_query": "누트",
+            "terminate": false,
+            "text": "누트에 대해서 알려면 이집트인들이 태양에 대해서 어떻게 생각했는지 알아야해. 이집트인들은 태양이 움직이는 건 태양신이 만제트라는 배에 태워 이동하고 있어서라고 생각했는데, 밤에 태양이 없어지는 건 태양이 천공의 신인 누트에게 잡아먹히는 것으로 보았어. 하지만 누트의 입에 들어가 사라졌던 태양은 밤 동안 누트의 몸 속을 지나고 있다 다음 날 아침 여신의 무릎에서 다시 솟아난다고 생각했지. 이건 재생과 부활을 암시하는 것으로 이런 점으로 누트는 죽은 자를 수호하는 신이기도 하지.",
+            "turn_id": "BK22007633-6",
+            "utterance_id": "BK22007633.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여신이 하늘을 관장하는 것도 놀라운데 하데스의 역할과도 비슷해서 놀라워. 그럼 땅의 신인 게브는 어떤 신이야?",
+            "turn_id": "BK22007633-7",
+            "utterance_id": "BK22007633.13"
+        },
+        {
+            "reference_date": "2022-02-28",
+            "reference_text": [
+                {
+                    "value": "그는 머리 주위에 독사를 이고 다니는 것으로 묘사되었으며, '뱀들의 아버지'로 불렸다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 이집트인들은 그의 웃음소리가 지진을 유발한다고 믿었으며, 그의 허락과 보호 아래 농사를 지을 수 있다고 생각했다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게브는 '뱀의 아버지'로 여겨졌기 때문에 두려움의 대상이었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 게브는 오시리스와 호루스에 걸쳐 이어 지는 '이집트의 왕'이라는 칭호를 최초로 가진 신이었고, 나일 강 주변의 비옥한 토지와 척박한 사막을 동시에 의인화한 신이었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "게브는 후에 그리스로 건너가 티탄들의 왕인 '크로노스'의 원형이 된다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B2%8C%EB%B8%8C",
+            "search_query": "게브",
+            "terminate": false,
+            "text": "게브는 머리 주위에 독사를 이고 있어 뱀들의 아버지라고도 불리고 두려움의 대상이기도 했지. 고대 이집트인들은 게브의 웃음소리가 지진을 일으킨다고 생각했기 때문에 그의 허락과 보호가 있어야 농사를 지을 수 있다고 생각했어. 그리고 게브는 오리시스와 호루스보다 먼저 이집트의 왕이라는 칭호를 가진 신이고, 나일 강 주변의 비옥한 토지와 척박한 사막을 모두 의인화한 신이기도 해. 훗날 게브는 그리스에 전해져 티탄들의 왕인 크로노스의 원형이 돼.",
+            "turn_id": "BK22007633-7",
+            "utterance_id": "BK22007633.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신화라는 게 인접 국가의 영향을 받는다는 건 알고 있었지만 이건 정말 뜻밖이야. 9명에 포함된 다른 신들도 알고 싶지만 시간이 부족하니 이집트의 왕의 칭호를 받은 신들 위주로 정리하고 마무리하면 될 것 같아. 먼저 오리시스를 알려주면 좋을 것 같아.",
+            "turn_id": "BK22007633-8",
+            "utterance_id": "BK22007633.15"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "오시리스(Osiris, Asar, Aser, Ausar, Ausir, Wesir, Usir, Usire, Ausare)는 고대 이집트 신화에 나오는 풍요, 농업, 내세, 부활, 생명, 초목의 신으로서 저승 세계를 믿는 고대 이집트의 종교에서 죽은 사람을 다시 깨운다고 믿었다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "파라오는 오시리스의 화신으로 받들어졌다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오시리스의 죽음과 부활의 모티브는 계절에 따른 식물의 죽음과 탄생을 설명하며, 식물신(농경신)으로서의 입장을 나타낸다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 피부가 그림이나 조각상에서와 같이 녹색을 띄우는 것도 그러한 의미가 담겨져있기 때문이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편으로는 온기를 잃고 차갑게 식어버린 시체의 피부색을 상징하기도 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8B%9C%EB%A6%AC%EC%8A%A4",
+            "search_query": "오리시스",
+            "terminate": false,
+            "text": "오시리스는 풍요, 농업, 내세, 부활, 생명, 초목의 신이고 고대 이집트 종교는 저승 세계를 믿고 있어 죽은 사람을 다시 깨운다고 믿었어. 파라오는 오시리스의 화신이라 추앙받았지. 오시리스의 죽음과 부활의 형태로 계절에 따른 식물의 죽음과 탄생을 설명했고 이로 인해 식물신으로서의 역할을 가졌지. 그림과 조각상에서 오시리스의 피부는 녹색인데 이런 의미가 담겨 있으면서도 한편으로는 온기를 잃은 사체의 피부색을 상징하고 있지.",
+            "turn_id": "BK22007633-8",
+            "utterance_id": "BK22007633.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진정한 하데스는 오시리스겠다. 호루스는 어떤 신일까? 9명의 주신에는 없지만 이름도 유명하고 심지어 왕의 칭호도 받았으니까 정말 궁금해.",
+            "turn_id": "BK22007633-9",
+            "utterance_id": "BK22007633.17"
+        },
+        {
+            "reference_date": "2022-04-21",
+            "reference_text": [
+                {
+                    "value": "이시스와 오시리스의 아들이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 매의 머리를 한 남성으로 표현되나, 호루미오스라고 불릴때에는 사자의 외관을 취하며, 하르마키스라고 불릴때에는 스핑크스의 모습으로 등장한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 로마 시대에는 병사의 형태로 모습을 바꾸어 성 게오르기우스의 원형이 되기도 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호루스는 태양신 라와 결합하여 라-호라크티(Ra-Harakhte, 지상의 호루스인 라)를 시작으로, 여러 신들과 융합하여 등장하는 경우가 많다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%98%B8%EB%A3%A8%EC%8A%A4",
+            "search_query": "호루스",
+            "terminate": false,
+            "text": "호루스는 이시스와 오시리스의 아들로 일반적으로 매의 머리를 한 남성의 모습을 가지고 있지만, 호루미오스라고 불릴때에는 사자의 모습으로, 하르마키스라고 불릴때에는 스핑크스의 모습으로 나타나. 이후 로마 시대에는 병사의 모습으로 나타나 성 게오르기우스의 원형이 되기도 하지. 호루스는 나중에 태양신 라와 결합해서 라 호라크티의 형태를 가지고, 다른 여러 신들과 융합해서 등장하기도 하지.",
+            "turn_id": "BK22007633-9",
+            "utterance_id": "BK22007633.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "호루스는 다른 신들과 달리 특별한 점이 많은 것 같으니 다음에 더 조사해야겠어. 오늘 덕분에 많은 것을 알았어. 정말 고마워.",
+            "turn_id": "BK22007633-10",
+            "utterance_id": "BK22007633.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한 것이 있으면 얼마든지 물어봐. 그럼 내일 보자.",
+            "turn_id": "BK22007633-10",
+            "utterance_id": "BK22007633.20"
+        }
+    ]
+}

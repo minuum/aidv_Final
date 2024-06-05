@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008910",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008910",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인터넷을 켜니깐 포털에 오존층 보호의 날이라고 적혀있더라고요. 오존층은 어떤 걸 의미하는 거예요?",
+            "turn_id": "BK22008910-1",
+            "utterance_id": "BK22008910.1"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "오존층은 25∼30km 높이 성층권에서 유해 자외선을 막아 지구 표면의 생명체를 보호한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "오존층",
+            "terminate": false,
+            "text": "25km와 30km 높이 사이에 있는 성층권에서 유해한 자외선을 막아주는 층이에요. 오존층이 있어서 지구에 있는 생명체를 보호할 수 있는 거죠.",
+            "turn_id": "BK22008910-1",
+            "utterance_id": "BK22008910.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오존층이 없으면 유해한 자외선이 지구 표면에 다 오겠네요. 그럼 오존이 무조건 많으면 좋은 건가요?",
+            "turn_id": "BK22008910-2",
+            "utterance_id": "BK22008910.3"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "성층권 오존은 이런 고마운 존재인 반면 지상의 오존은 유독한 대기오염물질이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "흔히 ‘스모그’로 알려진 대기오염현상도 오존에 의한 것이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "지상의 오존층",
+            "terminate": false,
+            "text": "성층권의 오존은 유익하지만 지상에 머무는 오존은 유해해요. 지상의 오존은 스모그와 같은 유독한 대기오염 물질이죠.",
+            "turn_id": "BK22008910-2",
+            "utterance_id": "BK22008910.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 그럼 우리가 일상에서는 오존을 조심해야겠네요. 지상에서 오존이 많이 있으면 몸에 어떤 영향을 미치나요?",
+            "turn_id": "BK22008910-3",
+            "utterance_id": "BK22008910.5"
+        },
+        {
+            "reference_date": "2021-09-16",
+            "reference_text": [
+                {
+                    "value": "지상 부근에서 오존의 농도가 높아지면 눈과 콧속 같이 점막이 있는 부분이 손상돼 눈이 따갑거나 기침이 날 수 있고, 심할 경우 폐활량이 감소하며 기관지염, 심장질환을 일으키기도 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20210914134250290698",
+            "search_query": "오존 농도가 높으면 신체 변화",
+            "terminate": false,
+            "text": "점막이 있는 눈과 콧속이 손상돼서 눈이 따끔거리거나 기침 증상이 나타나기 쉬워요. 이 정도가 심해지면 폐활량도 줄어들어 기관지염, 심장질환을 일으키기도 하고요.",
+            "turn_id": "BK22008910-3",
+            "utterance_id": "BK22008910.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 오존이 심한 날은 정말 주의해야겠네요. 오존의 크기는 눈으로도 식별 가능한 크기인가요?",
+            "turn_id": "BK22008910-4",
+            "utterance_id": "BK22008910.7"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "하지만 오존 자체는 미세먼지처럼 눈에 보이지 않는다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때문에 상대적으로 그 위험성이 간과된 측면이 적지 않다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2016년 0.027ppm이던 전국 연평균 오존 농도는 지난해 0.032ppm까지 올랐다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "오존 크기",
+            "terminate": false,
+            "text": "오존 자체는 미세먼지처럼 아주 작아서 식별이 불가능해요. 그래서 상대적으로 위험성을 덜 느끼고 있는 거죠. 오존 농도가 점점 오르는 중인데 2016년 전국 연평균 오존 농도가 0.027ppm이었는데 2021년도에는 0.032ppm이었거든요.",
+            "turn_id": "BK22008910-4",
+            "utterance_id": "BK22008910.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미세먼지처럼 오존이 많은 날은 꼭 체크해서 야외활동을 하지 말아야겠어요. 어떤 것들이 성층권의 오존층을 파괴시키는건가요?",
+            "turn_id": "BK22008910-5",
+            "utterance_id": "BK22008910.9"
+        },
+        {
+            "reference_date": "2021-09-16",
+            "reference_text": [
+                {
+                    "value": "1970년대 멕시코 출신의 화학자였던 마리오 몰리나는 에어컨, 냉장고의 냉매로 널리 쓰이는 ‘염화플루오린화탄소(CFC)’가 성층권에 있는 오존층에 구멍을 낸다는 사실을 국제 학술지 ‘네이처’를 통해 발표했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20210914134250290698",
+            "search_query": "프레온 가스",
+            "terminate": false,
+            "text": "에어컨, 냉장고의 냉매로 쓰이는 염화플루오린화탄소가 성층권의 오존층을 파괴시켜요. 영어 약자로는 CFC라고 해요. 1970년대 화학자였던 마리오 몰리나가 발견해서 국제 학술지 네이처에 발표했거든요.",
+            "turn_id": "BK22008910-5",
+            "utterance_id": "BK22008910.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지상의 CFC가 어떻게 성층권까지 올라가서 오존층을 파괴할 수 있는 건가요?",
+            "turn_id": "BK22008910-6",
+            "utterance_id": "BK22008910.11"
+        },
+        {
+            "reference_date": "2021-09-16",
+            "reference_text": [
+                {
+                    "value": "오존층 파괴의 주범인 CFC는 화학적으로 매우 안정되어 분해되지 않고 떠돌다 성층권까지 도달할 수 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20210914134250290698",
+            "search_query": "CFC 특징",
+            "terminate": false,
+            "text": "CFC가 화학적으로 매우 안정 상태이다보니 분해되지 않고 떠돌면서 성층권까지 도달이 돼서 오존층을 파괴하는 거예요.",
+            "turn_id": "BK22008910-6",
+            "utterance_id": "BK22008910.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "CFC가 화학적으로 안정적이지 않았으면 좋았을 텐데 아쉽네요. 그럼 지상의 오존은 어떻게 만들어지는 건가요?",
+            "turn_id": "BK22008910-7",
+            "utterance_id": "BK22008910.13"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "오존은 그냥 배출되는 게 아니라 화학물질들이 결합해 만들어진다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "차량 배기가스에서 많이 나오는 질소산화물(NOx)이 또 다른 대기오염물질인 VOCs와 광(光)화학반응을 일으켜 생성된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "오존의 생성",
+            "terminate": false,
+            "text": "오존은 무작정 배출되는 게 아니라 질소산화물 NOx와 VOCs와 같은 화학물질들이 결합해서 만들어져요. 질소산화물은 차량 배기가스에서 많이 나오고 VOCs는 대기오염물질 중 하나인데 광화학반응을 일으키며 만들어지거든요.",
+            "turn_id": "BK22008910-7",
+            "utterance_id": "BK22008910.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화학물질의 결합으로 유독한 지상의 오존이 나오는 거네요. 오존을 줄이려면 어떻게 해야 하나요?",
+            "turn_id": "BK22008910-8",
+            "utterance_id": "BK22008910.15"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "오존을 줄이려면 오존 생성물질인 NOx와 VOCs 배출량을 줄여야 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 VOCs 저감이 문제 해결의 핵심이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "오존을 줄이려면",
+            "terminate": false,
+            "text": "오존 생성물질인 NOx와 VOCs의 배출량을 감축하는 게 중요하죠. 특히나 VOCs 저감을 하는게 오존을 줄이기 위한 핵심 사안이에요.",
+            "turn_id": "BK22008910-8",
+            "utterance_id": "BK22008910.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "VOCs 저감이 오존을 줄이기 위한 핵심이네요. VOCs가 구체적으로 어떤 거예요?",
+            "turn_id": "BK22008910-9",
+            "utterance_id": "BK22008910.17"
+        },
+        {
+            "reference_date": "2022-09-13",
+            "reference_text": [
+                {
+                    "value": "VOCs는 석유계 화합물로 인쇄소 잉크, 세탁소 세제, 도장시설 페인트 등에 많이 들어 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "날씨 좋은 날, 차가 많이 지나다니는 인쇄소 골목에서 오존이 많이 생성되는 건 이 때문이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220912/115417587/1",
+            "search_query": "VOCs 석유계 화합물",
+            "terminate": false,
+            "text": "인쇄소의 잉크, 세탁소의 세제, 도장시설의 페인트에 많이 든 석유계 화합물 중 하나에요. 그래서 특히나 맑은 날, 차 통행량이 많은 인쇄소 골목에서 오존이 많이 생성되기 쉽죠.",
+            "turn_id": "BK22008910-9",
+            "utterance_id": "BK22008910.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이구, VOCs 저감을 위해서 저런 업종에 있는 분들은 작업 환경을 많이 개선해야겠어요. 오늘 덕분에 오존에 대해 쉽게 잘 이해했어요. 다음에도 궁금한 거 있음 커피 사고 놀러 갈게요.",
+            "turn_id": "BK22008910-10",
+            "utterance_id": "BK22008910.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "제가 보통 연구실에 있으니 언제든지 미리 연락 주고 놀러 오세요. 언제든 편히 연락주세요.",
+            "turn_id": "BK22008910-10",
+            "utterance_id": "BK22008910.20"
+        }
+    ]
+}

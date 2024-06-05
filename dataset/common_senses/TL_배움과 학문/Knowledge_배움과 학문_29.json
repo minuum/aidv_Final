@@ -1,0 +1,402 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009198",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009198",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "친구의 지인이 로즈 장학생으로 선발되었다고 해. 로즈 장학금이라는 건 처음 들어보는데 그게 뭐니?",
+            "turn_id": "BK22009198-1",
+            "utterance_id": "BK22009198.1"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "로즈 장학금( - 奬學金, 영어: Rhodes Scholarship)은 영국의 자선사업가이자 제국주의자였던 세실 로즈의 유언에 의해 설립된 '로즈 재단'(The Rhodes Trust)에서 주어진다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매년 세계 각국의 인재들을의 영국 옥스퍼드 대학교의 대학원 학위과정 수학을 지원하는 제도이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로즈 장학금은 세계에서 가장 영예로운 장학금 중 하나로 인정받고 있으며, 선발된 학생들은 평생 '로즈 장학생'이었다는 말이 따라다닐 정도로 사회적, 학문적 인지도가 높다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이렇게 뽑힌 로즈 장학생(Rhodes Scholar)들은 영국 옥스퍼드 대학에서 무료로 공부할 수 있는 특혜가 주어진다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A6%88_%EC%9E%A5%ED%95%99%EA%B8%88",
+            "search_query": "로즈재단",
+            "terminate": false,
+            "text": "로즈 장학금은 세계에서 가장 영예로운 장학금 중 하나로 인정받고 있는 장학금 중 하나야! 선발된 로즈 장학생은 영국의 옥스퍼드 대학교에서 무료로 공부할 수 있는 특혜를 누릴 수 있는데 로즈 장학금이 사회적으로 학문적으로도 인지도가 매우 높아 로즈 장학생이었다는 명예는 계속 따라다녀. 로즈 장학금은 세계 각국의 인재들이 영국 옥스퍼드 대학교의 대학원 학위과정을 수업받는데 매년 지원하는 제도로서 영국 제국주의자이자 자선사업가인 세실 로즈의 유언에 따라 설립되었어.",
+            "turn_id": "BK22009198-1",
+            "utterance_id": "BK22009198.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 대단한 장학금인 줄은 전혀 몰랐어. 이걸 만든 세실 로즈라는 사람에 대해서 알고 싶어!",
+            "turn_id": "BK22009198-2",
+            "utterance_id": "BK22009198.3"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "케이프 식민지의 총리로 영국 정부가 추진한 아프리카 종단 정책에 가담한 것으로 유명한 제국주의자이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하트퍼드셔주에서 태어나 1870년 남아프리카에 이주하여 킴벌리에서 다이아몬드 채굴에 종사하였고, 로디지아의 개발을 위해 영국 남아프리카 회사 설립의 특허를 받았다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 사이 다이아몬드 광산을 통합 독점하고 거부(巨富)가 되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EC%8B%A4_%EB%A1%9C%EC%A6%88",
+            "search_query": "세실로즈",
+            "terminate": false,
+            "text": "세실 로즈는 영국 정부의 아프리카 종단 정책에 가담했었고 케이프 식민지의 총리였어. 하트퍼드셔주에서 태어난 그는 1870년 남아프리카로 이주한 후 로디지아 개발을 위해 영국 남아프리카 회사를 설립하는데 특허를 받고 킴벌리에서 다이아몬드 채굴에 종사하면서 다이아몬드 광산을 독점해 엄청난 부자가 되었지.",
+            "turn_id": "BK22009198-2",
+            "utterance_id": "BK22009198.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예상하지 못한 이야기에 조금 놀랐어. 아프리카종단정책이 구체적으로 어떤 정책이니?",
+            "turn_id": "BK22009198-3",
+            "utterance_id": "BK22009198.5"
+        },
+        {
+            "reference_date": "2022-02-13",
+            "reference_text": [
+                {
+                    "value": "아프리카 종단 정책은 19세기 영국의 대 아프리카 정책의 하나이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "카이로부터 시작하여 남아공의 케이프타운으로 아프리카를 횡단하는 것이 계획이었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4_%EC%A2%85%EB%8B%A8_%EC%A0%95%EC%B1%85",
+            "search_query": "아프리카종단정책",
+            "terminate": false,
+            "text": "아프리카 종단정책은 19세기 영국이 카이로에서 남아공의 케이프타운까지 횡단하는 것을 계획으로 한 아프리카 정책이었어.",
+            "turn_id": "BK22009198-3",
+            "utterance_id": "BK22009198.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설마 철도 같은 것을 설치해서 횡단한다는 건가?",
+            "turn_id": "BK22009198-4",
+            "utterance_id": "BK22009198.7"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "대륙 종단 철도는 세실 로즈가 제안하였고, 그것은 케이프 카이로 철도이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 철도는 대영제국의 아프리카 속령을 위한 간선으로 여겨졌으나 완성되지는 않았다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그것을 개발하는 동안 알지에 또는 다카르로부터 아비장까지 이어지는 “사하라 횡단”을 위한, 경쟁자 프랑스의 식민지 계획은 파쇼다 사건 이후에 중단되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A5%99%ED%9A%A1%EB%8B%A8%EC%B2%A0%EB%8F%84",
+            "search_query": "대륙횡단철도",
+            "terminate": false,
+            "text": "맞아, 케이프 카이로 철도라고 하는 이 대륙 종단 철도는 세실 로즈에 의해 제안되었어. 영국이 아프리카를 속령하기 위한 간선으로 여겨졌지만 미완성 되었어. 케이프 카이로 철도가 개발되는 동안 경쟁자 프랑스가 펼쳤던 알지에 또는 다카르로부터 아비장까지 이어지는 사하라 횡단 식민지 계획은 파쇼다 사건 이후에 중단되었지.",
+            "turn_id": "BK22009198-4",
+            "utterance_id": "BK22009198.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "프랑스도 함께 아프리카 식민 정책을 펼쳤었구나. 파쇼다 사건은 어떤 사건이었는지 가르쳐줄래?",
+            "turn_id": "BK22009198-5",
+            "utterance_id": "BK22009198.9"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "한편, 프랑스의 아프리카 횡단 정책은 1894년 점령했던 프랑스령 수단과 아프리카 동쪽 해안인 지부티를 연결하기 위해 시작됐으며, 장바티스트 마르샹 대위가 1898년 7월 파쇼다에 도착해 프랑스 국기를 게양했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 소식을 들은 영국의 키치너는 급히 파쇼다로 와서 마르샹에게 철수를 요구했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 마르샹 대위가 이를 거절함으로써 한동안 긴장 상태가 계속됐다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1899년 양국 사이에 타협이 이루어지고, 긴장됐던 양국 간 관계는 이로 인해 가까워져서 1904년에는 영불 화친 협정을 맺게 되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%87%BC%EB%8B%A4_%EC%82%AC%EA%B1%B4",
+            "search_query": "파쇼다사건",
+            "terminate": false,
+            "text": "1894년 프랑스령 수단과 아프리카 동쪽 해안인 지부티를 연결하기 위해 프랑스의 아프리카 횡단정책이 시작되었는데 1898년 7월 장바티스트 마르샹 대위가 파쇼다에 도착해 프랑스 국기를 올리자 영국의 키치너는 마르샹에게 파쇼다에서 철수할 것을 요구했지. 하지만 마르샹 대위는 그 요구를 거절했고 이로써 긴장 상태가 지속되었어. 1899년 프랑스와 영국의 타협으로 긴장이 해소되었는데 이 계기로 양국의 관계가 가까워져 1904년에는 영불 화친 협정으로 이어졌어.",
+            "turn_id": "BK22009198-5",
+            "utterance_id": "BK22009198.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 당시 아프리카에 보어전쟁이라는 사건이 일어난 것으로 아는데 영국이나 프랑스의 아프리카 식민 정책과 관계가 있니?",
+            "turn_id": "BK22009198-6",
+            "utterance_id": "BK22009198.11"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "보어전쟁(Boer War, Anglo Boer War) 또는 앵글로 보어전쟁은 아프리카에서 종단 정책을 추진하던 대영제국과 당시 남아프리카지역에 정착해 살던 네덜란드계 보어족 사이에 일어난 전쟁이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%96%B4_%EC%A0%84%EC%9F%81",
+            "search_query": "보어전쟁",
+            "terminate": false,
+            "text": "응, 그 당시 네덜란드계 보어족이 남아프리카에 정착해 살고 있었는데 아프리카 종단 정책을 펼치고 있던 영국과 충돌하면서 보어전쟁이 발생했어. 이 보어전쟁은 앵글로 보어전쟁이라고도 불러.",
+            "turn_id": "BK22009198-6",
+            "utterance_id": "BK22009198.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시 아프리카에 많은 일이 있었던 것 같아. 케이프를 가장 먼저 식민지화 한 것도 영국이니?",
+            "turn_id": "BK22009198-7",
+            "utterance_id": "BK22009198.13"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "처음엔 남아프리카에서 네덜란드가 최초 유럽인 식민지를 만들려던 계획이었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "곧, 그들 행동의 결말은 기타 후세 유럽인의 침입을 아프리카 전지역으로 광범위하게 넓혀주는 결과를 초래했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최초 케이프 정주(定住)는 1652년 네덜란드 동인도 회사가 본국과 동인도 제도 사이에 네덜란드 함선의 공급기지 및 정류지를 만든 것이 시작이었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "3개 함선을 이끌던 사령관 얀 반 리베크(Jan van Riebeeck)가 1652년 4월 6일 훗날 케이프다운이라 불린 땅에 달을 내딛게 되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%80%EC%9D%B4%ED%94%84_%EC%8B%9D%EB%AF%BC%EC%A7%80",
+            "search_query": "케이프식민지",
+            "terminate": false,
+            "text": "최초로 케이프에 자리를 잡기 시작한 것은 네덜란드 동인도 회사가 동인도제도와 본국 사이에 네덜란드 함선의 공급기지와 정류지를 만든 것이었어. 1652년 4월 6일 얀 반 리베크 사령관은 3개의 함선을 이끌고 훗날 케이프타운이라고 불리는 곳에 도착했지. 이처럼 유럽인의 아프리카 식민지 계획은 네덜란드가 최초였지만 이로인해 아프리카 전 지역으로 후세의 다른 유럽인이 광범위하게 침입할 수 있게 되었지.",
+            "turn_id": "BK22009198-7",
+            "utterance_id": "BK22009198.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 언제 영국의 식민지가 된 거니?",
+            "turn_id": "BK22009198-8",
+            "utterance_id": "BK22009198.15"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "1815년, 비엔나 의정서에 의해 영국 영토로 되어 1854년에 케이프 식민지 의회가 세워졌다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1910년에는 영국자치령(남아 연방)이 되었고, 이 땅에 남아프리카 연방 의회가 있었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BC%80%EC%9D%B4%ED%94%84%ED%83%80%EC%9A%B4",
+            "search_query": "케이프타운",
+            "terminate": false,
+            "text": "비엔나 의정서에 의해 케이프타운은 1815년에 영국 영토가 되고 1854년에 케이프 식민지 의회가 세워졌지. 이후 1910년 케이프타운은 영국자치령이 되면서 남아프리카 연방 의회가 세워졌어.",
+            "turn_id": "BK22009198-8",
+            "utterance_id": "BK22009198.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남아프리카 연방에 대해서 자세히 알려줄래?",
+            "turn_id": "BK22009198-9",
+            "utterance_id": "BK22009198.17"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "남아프리카 연방 또는 남아프리카 연합(영어: Union of South Africa)은 1910년부터 1961년 사이 아프리카 대륙 남단부에 있던 나라로, 오늘날 남아프리카 공화국의 전신이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1902년에 보어인들이 평화 협상을 제안하면서 전쟁이 끝났고, 양측의 화해를 위해 1910년 남아프리카 연방이 건국되었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아프리카 연방은 캐나다, 오스트레일리아처럼 영국의 군주를 국가 원수로 하였으며, 오렌지 자유국주, 나탈주, 케이프주, 트란스발주의 4개 주로 이루어진 연방이었다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4_%EC%97%B0%EB%B0%A9",
+            "search_query": "남아프리카연방",
+            "terminate": false,
+            "text": "1902년 보어인들의 평화협상 제안으로 전쟁이 끝나면서 양측의 화해를 위해 1910년 남아프리카 연방이 건국되었는데 1961년까지 있었어. 아프리카 대륙 남단부에 있던 나라로 남아프리카연합이라고도 하는데 이 국가는 현대의 남아프리카 공화국의 전신이야. 남아프리카 연방은 오렌지 자유국주와 나탈주, 케이프주 그리고 트란스발주 이렇게 4개의 주로 이루어진 연방이었고 캐나다와 오스트레일리아처럼 남아프리카 연방의 국가 원수도 영국의 군주였어.",
+            "turn_id": "BK22009198-9",
+            "utterance_id": "BK22009198.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 세실 로즈를 알게 되면서 몰랐던 역사적 사실도 많이 알게 되었어.",
+            "turn_id": "BK22009198-10",
+            "utterance_id": "BK22009198.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "유럽이 식민지 정책을 펼쳤던 시기는 굉장히 길고 사건도 많아. 오늘날까지 영향을 미치는 것도 많으니까 궁금하면 물어봐. 그럼 다음에 보자.",
+            "turn_id": "BK22009198-10",
+            "utterance_id": "BK22009198.20"
+        }
+    ]
+}

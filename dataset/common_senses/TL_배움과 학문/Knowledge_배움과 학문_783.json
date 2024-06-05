@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005108",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005108",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 드론 쇼를 봤는데 진짜 멋지더라. 드론과 관련된 학과에 관심이 생겼는데, 몇 가지 물어봐도 돼?",
+            "turn_id": "BK22005108-1",
+            "utterance_id": "BK22005108.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드론에 관한 질문은 언제든 환영이지. 어서 궁금한 거 물어봐!",
+            "turn_id": "BK22005108-1",
+            "utterance_id": "BK22005108.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우선은 드론의 정확한 정의를 알고 싶어. 하늘에 띄우는 기계라고 다 드론은 아니잖아.",
+            "turn_id": "BK22005108-2",
+            "utterance_id": "BK22005108.3"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "무인항공기(無人航空機, 영어: unmanned aerial vehicle, UAV, uncrewed aerial vehicle) 또는 통칭 드론(drone)은 실제 조종사가 직접 탑승하지 않고, 지상에서 무선으로 조종해 사전 프로그램된 경로에 따라 자동 또는 반자동으로 날아가는 비행체다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B8_%ED%95%AD%EA%B3%B5%EA%B8%B0",
+            "search_query": "드론",
+            "terminate": false,
+            "text": "그렇지. 드론은 무인항공기라고도 하는데, 조종사가 직접 탑승하지 않고 지상에서 무선으로 조종하는 비행체야. 조종사가 지상에서 조종을 시작하면, 드론은 미리 프로그램된 경로를 따라 자동으로, 혹은 반자동으로 날아가기 시작하지.",
+            "turn_id": "BK22005108-2",
+            "utterance_id": "BK22005108.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 무인항공기가 드론이랑 같은 말이었구나! 그럼 무인항공기랑 모형항공기는 어떻게 달라?",
+            "turn_id": "BK22005108-3",
+            "utterance_id": "BK22005108.5"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "무인항공기와 모형항공기는 자동비행장치가 비행체에 탑재되어 있는가 여부로 구분된다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, 오토파일럿 시스템이 포함되면 크기가 작더라도 무인항공기이고, 포함되어 있지 않다면 아무리 큰 비행체라도 모형항공기라고 한다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B8_%ED%95%AD%EA%B3%B5%EA%B8%B0",
+            "search_query": "무인항공기 모형항공기",
+            "terminate": false,
+            "text": "드론, 그러니까 무인항공기는 자동비행장치 탑재 여부로 모형항공기와 구분할 수 있어. 자동비행장치라고 부르는 오토파일럿 시스템이 탑재되어 있으면, 아무리 소형이라도 무인항공기에 속하고, 오토파일럿이 탑재되어 있지 않으면 아주 큰 비행체라도 모형항공기에 속해.",
+            "turn_id": "BK22005108-3",
+            "utterance_id": "BK22005108.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자동비행장치가 있냐 없냐에 따라 구분하는 거네. 무인항공기는 언제부터 사용되기 시작한 거야?",
+            "turn_id": "BK22005108-4",
+            "utterance_id": "BK22005108.7"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "무인항공기는 군사적 용도로 시작되었다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 정의하는 무인항공기에 가까운 형태는 제 2차 세계대전 직후 수명을 다한 낡은 유인 항공기를 '공중 표적용 무인기'로 재활용하는 데에서 만들어졌다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B8_%ED%95%AD%EA%B3%B5%EA%B8%B0",
+            "search_query": "무인항공기 역사",
+            "terminate": false,
+            "text": "현재 무인항공기의 정의와 비슷한 형태의 비행체는 제2차 세계대전 직후에 만들어졌어. 그때 제 수명을 다해서 낡은 유인항공기를 공중 표적용 무인기로 재활용했는데, 그 과정에서 무인항공기의 개념이 생겨난 거지. 그래서 무인항공기는 군사적 용도로 탄생했다고 말해.",
+            "turn_id": "BK22005108-4",
+            "utterance_id": "BK22005108.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉 처음에는 군사적 용도였구나. 지금은 어때? 최근에는 더 다양한 용도로 쓰이고 있는 거지?",
+            "turn_id": "BK22005108-5",
+            "utterance_id": "BK22005108.9"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "최근에는 과학기술, 통신, 배송, 촬영 등 다양한 분야에 확대되어 사용되고 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B8_%ED%95%AD%EA%B3%B5%EA%B8%B0",
+            "search_query": "무인항공기 최근 분야",
+            "terminate": false,
+            "text": "물론이지. 최근에 드론은 과학기술, 배송, 촬영, 통신 등 여러 분야에서 활용되고 있어.",
+            "turn_id": "BK22005108-5",
+            "utterance_id": "BK22005108.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 여러 분야에서 잘 활용되고 있구나! 언니가 소방관인데, 듣기론 소방재난본부에서도 드론을 활용한다고 하던데 진짜야?",
+            "turn_id": "BK22005108-6",
+            "utterance_id": "BK22005108.11"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "현재는 전국 19개 시도 소방본부에서 308대를 운용하고 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소방드론은 최근 5년간 전국적으로 4천782건의 다양한 재난 현장에 투입됐다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220512137900051",
+            "search_query": "대한민국 소방드론",
+            "terminate": false,
+            "text": "맞아, 현재 전국의 19개 시도 소방본부에서 총 308대의 소방드론을 활용하고 있는데, 최근 5년간 무려 전국의 재난 현장 4782건에 소방드론이 투입됐어.",
+            "turn_id": "BK22005108-6",
+            "utterance_id": "BK22005108.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 드론 진짜 대단하다. 우리나라의 소방재난본부에 드론이 도입된 게 언제부터야?",
+            "turn_id": "BK22005108-7",
+            "utterance_id": "BK22005108.13"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "소방드론은 2015년 8월 서울소방본부에서 처음 도입됐다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220512137900051",
+            "search_query": "대한민국 소방드론 도입",
+            "terminate": false,
+            "text": "서울소방본부에서 처음 소방드론을 도입했는데, 그때가 2015년 8월이었지.",
+            "turn_id": "BK22005108-7",
+            "utterance_id": "BK22005108.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내 생각보다 훨씬 일찍 도입됐었네? 그럼 드론이 직접 불도 끄고 그러려나? 소방에서는 드론이 어떤 방식으로 활용되고 있는 거야?",
+            "turn_id": "BK22005108-8",
+            "utterance_id": "BK22005108.15"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "화재 출동 시 주로 재난 상황 정보 수집과 현장 지휘 활동을 위한 지원에 활용되고 있다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "앞으로는 드론 기술 발전에 따라 초고층 건물 등 화재에 소화탄이나 소화용수를 통한 직접적인 화재 진화도 가능할 것으로 기대된다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220512137900051",
+            "search_query": "대한민국 소방드론 활용 화재 진화",
+            "terminate": false,
+            "text": "현재까지는 주로 현장 상황 지휘를 돕거나 재난 상황에 관한 정보를 수집하는 정도가 소방드론의 역할이야. 음, 앞으로 드론 기술이 더 발전하면 초고층 건물의 화재도 진화할 수 있을 거라고 예상해. 드론이 소화탄이나 소화용수로 화재를 직접 진화한다는 거지.",
+            "turn_id": "BK22005108-8",
+            "utterance_id": "BK22005108.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 너무 멋지다. 소방 드론을 조종하는 사람이 되려면 어떻게 해야 해? 아무나 할 수 있는 일은 아니잖아.",
+            "turn_id": "BK22005108-9",
+            "utterance_id": "BK22005108.17"
+        },
+        {
+            "reference_date": "2022-05-15",
+            "reference_text": [
+                {
+                    "value": "소방드론은 아무나 조종할 수는 없다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국교통안전공단에서 시행하는 자격증의 필기시험과 실기평가를 통과해 자격을 취득하거나 전문 교육기관의 교육을 받아야 한다.",
+                    "value_time": "2022-08-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220512137900051",
+            "search_query": "대한민국 소방드론 조종 자격",
+            "terminate": false,
+            "text": "당연히 아무나 조종할 수는 없고, 전문 교육기관의 교육을 이수하거나 자격을 취득해야 해. 한국교통안전공단에서 시행하는 자격시험이 있는데, 이 시험의 필기와 실기평가를 모두 통과하면 자격을 취득할 수 있어.",
+            "turn_id": "BK22005108-9",
+            "utterance_id": "BK22005108.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나! 나 점점 더 드론을 배우고 싶어져. 내일은 그 자격시험에 관해 자세히 알려줄 수 있어?",
+            "turn_id": "BK22005108-10",
+            "utterance_id": "BK22005108.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 드론에 진심이네? 당연하지, 내일 수업 마치면 여기서 다시 만나자.",
+            "turn_id": "BK22005108-10",
+            "utterance_id": "BK22005108.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 진짜 고마워! 오늘 푹 쉬고 내일 다시 보자.",
+            "turn_id": "BK22005108-11",
+            "utterance_id": "BK22005108.21"
+        }
+    ]
+}

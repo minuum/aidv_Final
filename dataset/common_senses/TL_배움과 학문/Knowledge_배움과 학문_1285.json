@@ -1,0 +1,380 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001079",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001079",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 지인 중에 요양보호사 직업에 관심 있는 분이 계신데 혹시 요양보호사에 대해 알고 계시나요?",
+            "turn_id": "BK22001079-1",
+            "utterance_id": "BK22001079.1"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "요양보호사는 고령이나 치매, 중풍 등 노인성 질환으로 일상생활을 수행하기 어려운 노인들을 위해 신체활동이나 가사 활동 등을 전문적으로 제공하는 직업이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.pressian.com/pages/articles/2022070516324254732?utm_source=naver&utm_medium=search",
+            "search_query": "요양보호사",
+            "terminate": false,
+            "text": "네, 요양보호사는 노인성 질환으로 인해 일상생활이 어려운 노인들에게 신체활동이나 가사 활동 등을 제공하는 직업이에요.",
+            "turn_id": "BK22001079-1",
+            "utterance_id": "BK22001079.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 노인 인구가 많아지면 요양보호사의 수요도 커지겠네요? 우리나라는 노인 인구가 어떻게 되는지 궁금하네요.",
+            "turn_id": "BK22001079-2",
+            "utterance_id": "BK22001079.3"
+        },
+        {
+            "reference_date": "2022-04-15",
+            "reference_text": [
+                {
+                    "value": "이에 반해 내국인 고령인구(65세 이상)는 2020년 807만명에서 2040년 1698만명으로 2배 이상 늘어난다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고령인구가 차지하는 비중은 2020년 16.1%에서 2040년에는 35.3%로 높아진다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20220414516625?OutUrl=naver",
+            "search_query": "고령인구",
+            "terminate": false,
+            "text": "네, 2020년 기준으로 우리나라의 고령 인구는 807만 명이랍니다. 아, 그런데 2040년에는 무려 1698만 명으로 고령인구가 35.3퍼센트를 차지하게 된다는 전망이 있어요.",
+            "turn_id": "BK22001079-2",
+            "utterance_id": "BK22001079.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "노인 인구 비중이 그렇게 높아진다니, 많은 요양보호사가 필요하겠군요. 요양보호사 자격증을 취득하는 사람은 얼마나 되나요?",
+            "turn_id": "BK22001079-3",
+            "utterance_id": "BK22001079.5"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "실제로 2021년 말 기준 요양보호사 자격증을 취득한 사람은 220만6730명이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=56286",
+            "search_query": "요양보호사 자격증",
+            "terminate": false,
+            "text": "2021년 말을 기준으로 220만 6730명이 요양보호사 자격증을 취득했답니다.",
+            "turn_id": "BK22001079-3",
+            "utterance_id": "BK22001079.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 자격증은 어떤 방식으로 취득할 수 있나요?",
+            "turn_id": "BK22001079-4",
+            "utterance_id": "BK22001079.7"
+        },
+        {
+            "reference_date": "2021-03-30",
+            "reference_text": [
+                {
+                    "value": "2008년 노인장기요양보험 제도가 도입되면서 정식 직업이 된 요양보호사는 보험 도입 초기에는 일정 기간 교육과정만 이수해도 자격증을 취득할 수 있었다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 제도 도입 이듬해 노인복지법이 개정되면서 별도의 자격시험을 치러야만 자격증을 얻을 수 있게 됐다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gimhaenews.co.kr/news/articleView.html?idxno=36840",
+            "search_query": "요양보호사 자격증 취득",
+            "terminate": false,
+            "text": "자격증의 경우 요양보호사 직업이 생긴 초기에는 일정 기간의 교육과정을 이수하면 자격증을 취득할 수 있었지만, 노인복지법이 개정되면서 별도의 자격시험을 거쳐 자격증을 취득할 수 있게 되었어요.",
+            "turn_id": "BK22001079-4",
+            "utterance_id": "BK22001079.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 제가 듣기로는 요양보호사 자격증 시험 합격률이 높은 편이라던데 사실인가요?",
+            "turn_id": "BK22001079-5",
+            "utterance_id": "BK22001079.9"
+        },
+        {
+            "reference_date": "2022-05-31",
+            "reference_text": [
+                {
+                    "value": "한국보건의료인국가시험원(원장 이윤성, 이하 ‘국시원’)은 지난 5월 14일 서울 등 전국 17개 지역, 114개 시험장에서 시행된 2022년도 제39회 요양보호사 자격시험의 합격자를 31일 발표했다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제39회 요양보호사 자격시험은 전체 93,860명의 응시자 중 85,509명이 합격하여 91.1%의 합격률을 보였다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=33838",
+            "search_query": "요양보호사 자격증 합격률",
+            "terminate": false,
+            "text": "2022년도에 실시한 제39회 요양보호사 자격증 시험의 경우 전체 응시자 93,860명 중에 85,509명이 합격해 91.1퍼센트의 합격률을 보였답니다.",
+            "turn_id": "BK22001079-5",
+            "utterance_id": "BK22001079.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내, 그럼 조금 더 구체적으로 요양보호사 자격증을 취득하는 과정에 대해 설명해 주세요.",
+            "turn_id": "BK22001079-6",
+            "utterance_id": "BK22001079.11"
+        },
+        {
+            "reference_date": "2022-04-26",
+            "reference_text": [
+                {
+                    "value": "요앙보호사가 되려면 먼저 관련 교육기관에서 △이론 △실기 △실습 각 80시간씩 총 240시간 교육을 받아야 한다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "교육과정을 마친 후에는 한국보건의료인국가시험원이 실시하는 요양보호사 자격시험을 본다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험은 1년에 3차례 있으며 과목은 △요양보호개론 △요양보호관련 기초지식 △기본요양보호각론 및 특수요양보호각론 등 총 3영역이다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "필기시험과 함께 실기시험도 진행되며 각각 만점 중 60% 이상을 득점해야 합격한다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.womentimes.co.kr/news/articleView.html?idxno=56286",
+            "search_query": "요양보호사 이론 실습",
+            "terminate": false,
+            "text": "일단 관련 교육기관에서 이론, 실기, 실습 각각 80시간씩의 교육을 받아야 하고, 교육 후에 한국보건의료인 국가시험원에서 시험을 보게 돼요. 시험은 1년에 3차례 있고, 과목은 총 세 가지 영역인 요양보호개론, 요양보호 관련 기초지식, 기본 요양보호각론 및 특수요양보호각론이며 필기와 실기시험으로 진행돼요. 합격은 각각 60퍼센트 이상 득점하면 된답니다.",
+            "turn_id": "BK22001079-6",
+            "utterance_id": "BK22001079.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 과정을 통해 자격증을 취득하는군요. 그럼 자격증을 취득한 후에는 어디에서 어떤 형태로 일하게 되나요?",
+            "turn_id": "BK22001079-7",
+            "utterance_id": "BK22001079.13"
+        },
+        {
+            "reference_date": "2021-01-10",
+            "reference_text": [
+                {
+                    "value": "요양보호사는 요양원과 요양병원 등의 요양시설에서 일을 하는 시설요양보호사와 방문요양기관(재가장기요양시설)과 계약을 맺고 돌봄이 필요한 어르신의 가정을 찾아 신체활동과 가사활동을 지원하는 방문요양보호사로 나뉜다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4175342",
+            "search_query": "시설 요양보호사 방문 요양보호사",
+            "terminate": false,
+            "text": "일단 요양보호사 종류마다 차이가 있어요. 요양보호사는 시설 요양보호사와 방문 요양보호사로 나눌 수 있는데 시설요양보호사는 요양원, 요양병원 등에서 일할 수 있고, 방문요양사는 방문요양기관과 계약해 돌봄이 필요한 어르신의 가정을 직접 찾아가 지원하는 형태로 일할 수 있답니다.",
+            "turn_id": "BK22001079-7",
+            "utterance_id": "BK22001079.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 그런데 최근 요양보호사 임금과 관련된 기사가 있던데 무슨 얘기인가요?",
+            "turn_id": "BK22001079-8",
+            "utterance_id": "BK22001079.15"
+        },
+        {
+            "reference_date": "2021-08-25",
+            "reference_text": [
+                {
+                    "value": "조사 결과 월급제 요양보호사의 96.7%, 시급제 요양보호사의 79.5%가 수가상 인건비에 미치지 못하는 임금을 받고 있는 것으로 나타났다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.labortoday.co.kr/news/articleView.html?idxno=204584",
+            "search_query": "요양보호사 임금",
+            "terminate": false,
+            "text": "월급제로 일하는 요양보호사의 96.7퍼센트, 시급제로 일하는 요양보호사의 79.5퍼센트가 인건비에 미치지 못하는 임금을 받고 있다는 사실이 밝혀졌거든요.",
+            "turn_id": "BK22001079-8",
+            "utterance_id": "BK22001079.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그러한 처우를 개선할 필요가 있겠네요. 정말 필요할 때 중요한 전문 인력을 잃을 수 있잖아요.",
+            "turn_id": "BK22001079-9",
+            "utterance_id": "BK22001079.17"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "실제 지난해 말 기준 요양보호사 자격증을 취득한 220만6,730명 가운데 근무자는 53만9,631명으로 24.5%에 그친다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062811500004062?did=NA",
+            "search_query": "요양보호사 근무자",
+            "terminate": false,
+            "text": "네, 실제로 자격증이 있는 220만 6,730명 가운데 근무자 수는 53만 9,631명으로 24.5퍼센트 수준이랍니다.",
+            "turn_id": "BK22001079-9",
+            "utterance_id": "BK22001079.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도라니, 임금 외에 다른 어떤 어려운 문제가 있을까요?",
+            "turn_id": "BK22001079-10",
+            "utterance_id": "BK22001079.19"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "서울시의회가 주최한 요양보호사 실태에 관한 토론회에서도 요양보호사 퇴직의 주된 이유로 부당한 업무와 낮은 처우, 성희롱이 꼽혔다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "요양보호사들이 처한 근본적인 문제를 해결하려면 돌봄체계의 공공성 강화, 즉 국가가 요양기관 운영에 개입해야 한다는 지적이 꾸준히 나온다.",
+                    "value_time": "2022-07-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022062811500004062?did=NA",
+            "search_query": "요양보호사 실태",
+            "terminate": false,
+            "text": "서울시의회의 주최로 열린 요양보호사 실태에 관한 토론회에서 부당한 업무와 낮은 처우, 성희롱 등의 문제가 퇴직의 주된 요인이라고 꼽혔어요. 이러한 문제를 해결하기 위해 국가가 요양기관 운영에 개입해야 한다는 입장이 나오고 있고요.",
+            "turn_id": "BK22001079-10",
+            "utterance_id": "BK22001079.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 앞으로 문제들이 개선되면 좋겠네요. 오늘 좋은 정보 주셔서 많은 도움이 되었어요.",
+            "turn_id": "BK22001079-11",
+            "utterance_id": "BK22001079.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이에요. 다음에 언제든 궁금한 게 있으면 물어보세요.",
+            "turn_id": "BK22001079-11",
+            "utterance_id": "BK22001079.22"
+        }
+    ]
+}

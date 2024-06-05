@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008684",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008684",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 슬슬 대학원 진학 때문에 텝스 성적이 필요해. 혹시 텝스에 대해 알고 있니?",
+            "turn_id": "BK22008684-1",
+            "utterance_id": "BK22008684.1"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "TEPS는 1999년 서울대학교 언어교육원에서 개발한 영어 시험이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영어능력검증시험(Test of English Proficiency developed by Seoul National University)의 약자로 텝스라고 읽는다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "텝스",
+            "terminate": false,
+            "text": "서울대학교 언어교육원에서 1999년에 만든 영어 시험 TEPS 말하는 거야? 영어능력검증시험의 줄임말이어서 텝스라고 읽지.",
+            "turn_id": "BK22008684-1",
+            "utterance_id": "BK22008684.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그 텝스 말이야. 서울대학교에서 만든 영어 시험이었구나. 토익에 비해 치는 사람이 적은 것 같이 느껴지는데, 맞니?",
+            "turn_id": "BK22008684-2",
+            "utterance_id": "BK22008684.3"
+        },
+        {
+            "reference_date": "2021-02-01",
+            "reference_text": [
+                {
+                    "value": "지난해에는 신종 코로나 바이러스 감염증(코로나 19) 여파로 더 줄어든 7만여명 정도가 텝스를 쳤다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매년 200만 명 정도가 치는 것으로 알려진 토익에 비해 토종 시험인 텝스가 '고사 위기'라는 지적이 나온다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23983554#home",
+            "search_query": "토익 텝스 응시자 수",
+            "terminate": false,
+            "text": "2020년을 기준으로 텝스 응시자는 7만 여 명이었는데, 토익은 매년 200만 명 정도가 응시하니 확실히 토익을 치는 사람이 훨씬 많아. 게다가, 코로나19 때문에 텝스 응시자 수가 기존보다 더 줄어들기도 했거든. 그래서 우리나라에서 만들어진 시험인 텝스가 고사 위기라는 말이 나오기도 해.",
+            "turn_id": "BK22008684-2",
+            "utterance_id": "BK22008684.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주변에 텝스 치는 사람이 별로 없긴 했는데 그렇게 응시자 수 차이가 많이 나는지 몰랐어. 사람들이 텝스에 비해 토익을 많이 치는 이유가 뭐지?",
+            "turn_id": "BK22008684-3",
+            "utterance_id": "BK22008684.5"
+        },
+        {
+            "reference_date": "2021-06-14",
+            "reference_text": [
+                {
+                    "value": "이전까지 공무원 시험 합격 기준인 토익 700점은 텝스 340점과 같은 점수로 환산됐다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번 환산표 개정은 한국교육평가학회장인 이규민 연세대학교 교수의 연구 결과를 토대로 했다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구팀이 토익과 텝스를 모두 쳐 본 경험이 있는 수험자 1400명의 데이터를 토대로 분석한 결과 텝스 340점에 상응하는 토익점수는 700점이 아닌 855점인 것으로 나타났다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "텝스 340점을 받는 것보다 토익 700점 받기가 더 쉽다보니 텝스는 수험생이나 구직자에게 외면받을 수 밖에 없었다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24081276#home",
+            "search_query": "토익 텝스",
+            "terminate": false,
+            "text": "사실 이전까지는 공무원 시험의 합격선이었던 토익 700점이 텝스 340점과 같은 점수로 취급되었거든. 그런데 한국교육평가학회장인 이규민 연세대학교 교수 연구팀에서 토익과 텝스를 모두 응시해본 수험자 1400명의 시험 결과를 분석했더니, 텝스 340점에 걸맞는 토익 점수가 700점이 아니라 855점인 것으로 밝혀진 거야. 따라서 토익 700점 받기가 텝스 340점 받기보다 쉬울 수 밖에 없었고, 수험생과 구직자는 자연히 토익을 선택하게 된 거지.",
+            "turn_id": "BK22008684-3",
+            "utterance_id": "BK22008684.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 상황이면 나 같아도 텝스가 아니라 토익을 선택했겠다. 그러면 텝스를 응시하는 사람들은 왜 텝스를 치는 거야?",
+            "turn_id": "BK22008684-4",
+            "utterance_id": "BK22008684.7"
+        },
+        {
+            "reference_date": "2021-02-01",
+            "reference_text": [
+                {
+                    "value": "이번 조사에서 토익은 32.4%가 '취업'을 목적으로 응시한다고 답했지만 텝스는 12.2%만이 취업 목적으로 시험을 치렀다고 답했다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "텝스는 '대학원 진학'(46%)이 응시 목적이라는 응답이 가장 많았다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23983554#home",
+            "search_query": "텝스 응시 목적",
+            "terminate": false,
+            "text": "텝스 응시자들은 대학원 진학에 필요하기 때문에 응시하는 사람이 46%로 가장 많아. 토익 응시자의 32.4%가 취업을 목적으로 응시하는 반면, 텝스 응시자는 12.2%만 취업을 위해 응시한 것으로 나타났거든.",
+            "turn_id": "BK22008684-4",
+            "utterance_id": "BK22008684.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 대학원 진학이 목적인 사람 아니고서야 텝스 치는 사람을 별로 못 본 것 같긴 해. 그런데 서울대학교에서는 왜 텝스를 만든 거지?",
+            "turn_id": "BK22008684-5",
+            "utterance_id": "BK22008684.9"
+        },
+        {
+            "reference_date": "2021-06-14",
+            "reference_text": [
+                {
+                    "value": "텝스는 미국 ETS의 토익 등 해외 영어시험의 독과점 체제를 깨자는 취지에서 1999년부터 서울대학교가 개발해 시행하고 있는 민간자격 국가공인 영어시험이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/24081276#home",
+            "search_query": "텝스 만든 이유",
+            "terminate": false,
+            "text": "사실 미국 ETS에서 만든 토익 같은 외국에서 만들어진 영어 시험이 독과점 체제를 형성하고 있었기 때문에, 서울대학교는 그런 독과점 시장을 깨려는 의도로 1999년 텝스를 만든 거야.",
+            "turn_id": "BK22008684-5",
+            "utterance_id": "BK22008684.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "애초에 텝스가 토익 대항마로 나온 거였구나. 그러면 텝스의 문제 유형은 어떻게 구성되어 있니?",
+            "turn_id": "BK22008684-6",
+            "utterance_id": "BK22008684.11"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "청해 약 40분에 40문항, 어휘와 문법 영역의 시간이 통합되어 25분 내에 각각 30문항씩 총 60문항, 독해 40분에 35문항이 출제된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총합 1시간 45분 동안 135문항이 출제된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총점은 600점 만점이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "텝스 문제 유형",
+            "terminate": false,
+            "text": "일단 총점이 600점 만점이고, 1시간 45분간 135개의 문항을 풀어야 해. 구체적으로는 청해 영역을 약 40분 동안 40문항, 어휘와 문법 영역 각 30문항을 통합 25분간 풀고, 독해 영역 35문항을 40분 내 풀어야 하지.",
+            "turn_id": "BK22008684-6",
+            "utterance_id": "BK22008684.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 들으니까 엄청 시간이 부족할 것 같은데. 텝스 시험의 특징은 뭐야?",
+            "turn_id": "BK22008684-7",
+            "utterance_id": "BK22008684.13"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "TEPS가 다른 시험과 구분되는 가장 큰 특징은 1지문 1문항 원칙과 듣기 평가시 어떠한 읽기 자료도 제시되지 않는다는 점이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "언어교육원 측에서는 이를 보기의 지문을 통해 정답을 유추하여 맞히는 것을 방지해서 순수한 듣기 실력을 평가하기 위함이라고 설명한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "텝스 특징",
+            "terminate": false,
+            "text": "텝스의 가장 두드러지는 특징은 한 지문에서 한 문항만 나온다는 것이고, 듣기 평가 영역이 시행될 때 아무런 읽기 자료가 주어지지 않는다는 점이야. 언어교육원에서는 순수 듣기 실력을 평가하기 위해 주어진 지문에서 유추를 통해 답을 맞히는 것을 불가능하게 하려고 이렇게 실시한다고 해.",
+            "turn_id": "BK22008684-7",
+            "utterance_id": "BK22008684.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "난 듣기를 잘하지 못하는데 지문이 하나도 안 주어진다면 꽤 어려울 것 같아. 토익과 비교해서 다른 점은 뭐야?",
+            "turn_id": "BK22008684-8",
+            "utterance_id": "BK22008684.15"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "또한, TOEIC과는 달리 시험 중 다른 섹션으로 넘어가 문제를 풀 수 없다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "예를 들어, 듣기 평가 시간에 독해 평가 문제를 풀거나, 어휘 영역 시간에 문법 영역의 문제를 풀 수 없다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "토익 텝스 차이",
+            "terminate": false,
+            "text": "토익의 경우, 듣기 영역이 진행 중이어도 독해 영역을 풀 수 있는 것처럼 시험 중에 다른 파트의 문제를 풀 수 있는데 비해 텝스는 다른 섹션의 문제를 푸는 것이 불가능해.",
+            "turn_id": "BK22008684-8",
+            "utterance_id": "BK22008684.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 다른 영역과 병행해서 문제를 풀어 시간을 단축하는 것이 불가능하겠구나.",
+            "turn_id": "BK22008684-9",
+            "utterance_id": "BK22008684.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 한 영역을 풀 때는 딱 일정 시간만 주고 영어 실력을 측정하겠다는 것이지.",
+            "turn_id": "BK22008684-9",
+            "utterance_id": "BK22008684.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익은 그런대로 할 만 했는데, 텝스는 만만치 않은 것 같아서 원하는 점수를 취득할 수 있을지 걱정되네.",
+            "turn_id": "BK22008684-10",
+            "utterance_id": "BK22008684.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘할 수 있을 테니 너무 걱정하지 마.",
+            "turn_id": "BK22008684-10",
+            "utterance_id": "BK22008684.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고마워, 얼른 목표 점수를 취득해 와서 자랑할게.",
+            "turn_id": "BK22008684-11",
+            "utterance_id": "BK22008684.21"
+        }
+    ]
+}

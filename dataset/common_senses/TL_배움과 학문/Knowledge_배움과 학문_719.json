@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004547",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004547",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 최근에 멕시코 다녀온 거 아시죠? 멕시코에 가니까 이상한 돌로 만든 유적들이 꽤 많이 보이더라구요.",
+            "turn_id": "BK22004547-1",
+            "utterance_id": "BK22004547.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 아마 아즈텍 제국의 유적일 확률이 높아요.",
+            "turn_id": "BK22004547-1",
+            "utterance_id": "BK22004547.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아즈텍 제국이요? 전 거기가 신대륙이라 역사 유적 같은 건 없을 줄 알았거든요. 아즈텍 제국은 어떻게 생겨난 거예요?",
+            "turn_id": "BK22004547-2",
+            "utterance_id": "BK22004547.3"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "삼각동맹(나우아틀어: Ēxcān Tlahtōlōyān 예시칸 틀라톨로얀[ˈjéːʃkaːn̥ t͡ɬaʔtoːˈlóːjaːn̥]) 또는 아즈텍 제국(스페인어: Imperio azteca)은 세 개의 나우아족 도시국가(알테페틀)인 테노치티틀란, 텍스코코, 틀라코판이 연합해 만든 동맹국가이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 1428년부터 에르난 코르테스의 에스파냐 정복자들에게 멸망당한 1521년까지 멕시코 분지와 그 주변 지역을 지배했다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%A6%88%ED%85%8D_%EC%A0%9C%EA%B5%AD",
+            "search_query": "아즈텍제국 테노치티틀란",
+            "terminate": false,
+            "text": "삼각동맹이라고도 불리는 아즈텍 제국은 1428년에 세워졌어요. 테노치티틀란, 텍스코코, 틀라코판이라는 세 개의 나우아족 도시국가 연합해서 만든 동맹국가죠. 이들은 에르난 코르테스가 이끄는 에스파냐 정복자들에게 멸망하는 1521년까지 멕시코 분지 일대를 지배했죠.",
+            "turn_id": "BK22004547-2",
+            "utterance_id": "BK22004547.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 그렇게 오래된 국가는 아니었네요? 그럼 아즈텍 제국은 어떤 식으로 성장한 거예요?",
+            "turn_id": "BK22004547-3",
+            "utterance_id": "BK22004547.5"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "아즈텍 제국은 성립된 직후부터 정복전쟁을 거듭했고, 그 절정기에는 현재의 멕시코 중앙부 대부분과 중앙아메리카 일부까지 그 영토로 장악할 수 있었다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아즈텍 제국의 지배는 소위 \"패권적\"이자 \"간접적\" 지배로서, 정복된 도시국가에서 매년 공물을 바치거나 새로운 적국과의 전쟁에 군사력을 동원하는 것을 조건으로 자치권과 기존의 권력층들을 보호해주는 방법을 사용하여 통치했다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%A6%88%ED%85%8D_%EC%A0%9C%EA%B5%AD",
+            "search_query": "아즈텍제국 영토 지배",
+            "terminate": false,
+            "text": "아즈텍 제국은 나라를 세운 직후부터 꾸준한 정복 전쟁을 통해 전성기에는 현재의 멕시코 중앙부 대부분과 중앙아메리카 일부까지 영토를 확장했어요. 아즈텍 제국은 이렇게 정복한 도시국가들을 매년 공물을 받는 패권적 지배와 적국과의 전쟁에 군사력을 동원할 것을 조건으로 자치권 및 기존 권력층의 보호를 약속하는 간접적 지배를 활용해 통치했죠.",
+            "turn_id": "BK22004547-3",
+            "utterance_id": "BK22004547.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아즈텍은 정말 엄청난 전투 민족이었네요. 그럼 무기는 어떤 걸 썼나요? 굉장히 멋진 무기였겠죠?",
+            "turn_id": "BK22004547-4",
+            "utterance_id": "BK22004547.7"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "전사들의 방패는 나무에 가죽을 덮어 만든 것인데, 박쥐 똥 접착제로 가죽을 붙여 장식하였다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 전쟁할 때 부분적인 보호대로 쓰인 것 같다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 죽은 처녀의 손가락을 붙이기도 했는데, 이것은 처녀의 손가락이 자신을 지켜준다고 믿었기 때문인 것 같다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%A6%88%ED%85%8D_%EC%A0%9C%EA%B5%AD",
+            "search_query": "아즈텍제국 전사 방패",
+            "terminate": false,
+            "text": "전사들의 방패는 나무에다 가죽을 덮은 것인데 거기에 박쥐 똥 접착제로 가죽을 붙여 장식해서 보호대로 썼죠. 또한 죽은 처녀의 손가락을 방패에 붙이고 이것이 자신을 지켜줄 거라고 믿기도 했어요.",
+            "turn_id": "BK22004547-4",
+            "utterance_id": "BK22004547.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장비가 별로 멋있지는 않았군요. 그럼 아즈텍 제국은 식량 사정은 넉넉한 편이었나요?",
+            "turn_id": "BK22004547-5",
+            "utterance_id": "BK22004547.9"
+        },
+        {
+            "reference_date": "2022-05-28",
+            "reference_text": [
+                {
+                    "value": "하지만 음식이 충분하지 않아서 에스파냐 작가들은 아즈텍인들이 \"세계 어느 누구보다 적게 먹는다.'고 쓰고 있다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인신공양 의례가 존재했기 때문에 의례용 인육 또한 자주 먹었는데, 틀라카틀롤리라는 이름의 인육 요리가 존재했다고 한다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%A6%88%ED%85%8D_%EC%A0%9C%EA%B5%AD",
+            "search_query": "아즈텍 음식 인육",
+            "terminate": false,
+            "text": "식량이 충분하지는 않았어요. 에스파냐 작가들은 아즈텍인들에 대해 세계의 누구보다도 적게 먹는다고 쓸 정도였죠. 그래서 인신 공양 의례에 따라 의례용 인육을 자주 먹었죠. 심지어 틀라카틀롤리라는 인육 요리까지 있었어요.",
+            "turn_id": "BK22004547-5",
+            "utterance_id": "BK22004547.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인육 요리라니 너무 잔인하네요. 그럼 인신 공양은 어떤 식으로 행해진 건가요?",
+            "turn_id": "BK22004547-6",
+            "utterance_id": "BK22004547.11"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "특히 고고학사에서 멕시코 지역(테오티우아칸)에 주목하는 이유는 바로 달의 피라미드 때문이다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "종교적 상징성이 강했던 왕국답게 이 곳에서는 사람의 심장과 피를 제물을 바쳤던 것으로 연구됐다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8B%A0%EA%B3%B5%EC%96%91",
+            "search_query": "인신공양 달의 피라미드",
+            "terminate": false,
+            "text": "종교적 상징성이 강한 아즈텍 왕국답게 테오티우칸에 위치한 달의 피라미드라는 곳에서 사람의 심장과 피를 제물로 바쳤던 걸로 연구 결과가 나왔어요. 그래서 고고학사에서 지금의 멕시코 지역에 있는 테오티우칸에 주목하는 거죠.",
+            "turn_id": "BK22004547-6",
+            "utterance_id": "BK22004547.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 무시무시하네요. 이렇게 무시무시했던 아즈텍의 최후는 어땠는지 궁금하네요.",
+            "turn_id": "BK22004547-7",
+            "utterance_id": "BK22004547.13"
+        },
+        {
+            "reference_date": "2018-12-14",
+            "reference_text": [
+                {
+                    "value": "스페인군, 소수민족들은 사방이 호수에 둘러싸인 테노치티틀란을 포위한 채 최후의 맹공을 퍼부었다",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아즈텍은 수도를 포기하고 내륙으로 후퇴하지만 기울어진 대세는 바로잡을 수 없었고 그렇게 스페인과 소수민족 연합군에 의해 중미 최후의 ‘카니발리즘 제국’ 아즈텍은 서기 1521년 역사의 뒤안길로 사라진다.",
+                    "value_time": "2022-07-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.todaykorea.co.kr/news/articleView.html?idxno=258841",
+            "search_query": "코르테스 소수민족 테노치티틀란",
+            "terminate": false,
+            "text": "스페인군과 소수민족 연합군들이 호수 위에 있는 테노치티틀란을 포위하고 공격했어요. 아즈텍은 수도를 포기하고 내륙으로 도망가지만 이미 대세는 기울었고 1521년에 결국 멸망하고 말았죠.",
+            "turn_id": "BK22004547-7",
+            "utterance_id": "BK22004547.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "결국 멸망의 길을 걸었군요. 그 무시무시한 아즈텍을 무너뜨렸으니 코르테스는 여생을 편안하게 보냈겠군요?",
+            "turn_id": "BK22004547-8",
+            "utterance_id": "BK22004547.15"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "하지만 코르테스는 자신과 자신의 동지에게 내려지는 보상이 부족하다고 계속해서 불평했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "코르테스는 스스로를 규제를 초월한 존재라고 여겼고, 왕실의 명령을 다수 불복종했으며, 무엇보다 경솔한 것은 황제에게 올리는 보고서에서도 그 짓을 했다는 것이다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%A5%B4%EB%82%9C_%EC%BD%94%EB%A5%B4%ED%85%8C%EC%8A%A4",
+            "search_query": "코르테스 불복종 왕실",
+            "terminate": false,
+            "text": "아니에요. 코르테스는 자신에게 주어진 보상에 만족하지 못했어요. 그는 자신이 규제를 초월한 존재라고 여겨서 왕실의 명령에 불복종했고 황제에게 올리는 보고서에서도 불충한 행위를 했죠.",
+            "turn_id": "BK22004547-8",
+            "utterance_id": "BK22004547.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 상당히 위험한 행위였네요. 왕실과 사이가 많이 벌어졌겠는데요? 이후 코르테스의 말년은 어떘나요?",
+            "turn_id": "BK22004547-9",
+            "utterance_id": "BK22004547.17"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "1544년 2월, 코르테스는 왕실 내탕금으로 자신에게 연금을 달라고 주청했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 3년 동안 대답이 없자 왕실에 넌더리가 난 코르테스는 멕시코로 돌아가기로 했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출항을 위해 세비야항에 들어온 코르테스는 이질에 걸려 앓아누웠고, 1547년 12월 2일 흉막염으로 사망했다.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "향년 62세.",
+                    "value_time": "2022-07-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%A5%B4%EB%82%9C_%EC%BD%94%EB%A5%B4%ED%85%8C%EC%8A%A4",
+            "search_query": "코르테스 불복종 왕실",
+            "terminate": false,
+            "text": "코르테스는 1544년에 왕실 내부자금으로 자신에게 연금을 달라고 주청했지만 왕실은 3년 동안 대답하지 않았죠. 왕실에 넌더리가 난 코르테스는 멕시코로 돌아가려고 세비야항에 갔다가 이질에 걸려서 앓아눕고 1547년 12월 2일에 62세에 흉막염으로 사망해요.",
+            "turn_id": "BK22004547-9",
+            "utterance_id": "BK22004547.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뛰어난 사람이었지만 그 죽음은 굉장히 허망했네요. 뭔가 인생은 공수래공수거라는 교훈을 주는 거 같아요. 오늘도 제 질문에 친절하게 답해주셔서 고맙습니다.",
+            "turn_id": "BK22004547-10",
+            "utterance_id": "BK22004547.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 언제든지 궁금한 게 있으면 주저하지 말고 질문 주세요.",
+            "turn_id": "BK22004547-10",
+            "utterance_id": "BK22004547.20"
+        }
+    ]
+}

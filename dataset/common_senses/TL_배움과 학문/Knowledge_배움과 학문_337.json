@@ -1,0 +1,354 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013259",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013259",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영어 시험을 봐야 하는데 뭘 봐야 할지 고민이에요.",
+            "turn_id": "BK22013259-1",
+            "utterance_id": "BK22013259.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익을 주로 보던데, 필요에 따라서 텝스도 많이 보더라고요.",
+            "turn_id": "BK22013259-1",
+            "utterance_id": "BK22013259.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텝스는 서울대 가기 위해 보는 시험 아닌가요? 어떤 시험인지 정확히 설명해 주실 수 있나요?",
+            "turn_id": "BK22013259-2",
+            "utterance_id": "BK22013259.3"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "TEPS는 1999년 서울대학교 언어교육원에서 개발한 영어 시험이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서울대학교에서 주관하고 시행하며 2003년 민간자격 국가공인 시험으로 인증받았다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "TEPS",
+            "terminate": false,
+            "text": "1999년에 서울대 언어교육원에서 개발한 TEPS는 2003년에 민간자격 국가 공인 시험이 된 영어 시험이에요.",
+            "turn_id": "BK22013259-2",
+            "utterance_id": "BK22013259.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 텝스는 요즘 많이들 안 본다고 하던데 이유가 뭔가요?",
+            "turn_id": "BK22013259-3",
+            "utterance_id": "BK22013259.5"
+        },
+        {
+            "reference_date": "2019-03-07",
+            "reference_text": [
+                {
+                    "value": "텝스관리위원회 측은 학령인구 감소와 중·고교 생활기록부상 공인영어성적기록 금지 등 입시제도 변화, 블라인드 채용 등 여러 요인이 응시자 감소 배경으로 작용한 것으로 보고 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/201903079030Y",
+            "search_query": "텝스 감소 배경",
+            "terminate": false,
+            "text": "아무래도 학령인구가 감소하기도 했고, 입시제도에서 공인 영어성적을 적을 수 없게 된 것, 블라인드 채용 같은 요인들이 텝스 응시 감소 배경이라고 텝스관리위원회에서는 보고 있어요.",
+            "turn_id": "BK22013259-3",
+            "utterance_id": "BK22013259.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 텝스 시험이 개편이 된 건가 보네요. 어떻게 바뀌었는지 혹시 아시나요?",
+            "turn_id": "BK22013259-4",
+            "utterance_id": "BK22013259.7"
+        },
+        {
+            "reference_date": "2018-01-25",
+            "reference_text": [
+                {
+                    "value": "문항수는 기존 200개의 3분의 2 수준인 135문항으로 축소되며 전체 시험 시간도 약 2시간 30분에서 1시간 45분으로 35분이 줄어든다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문항 수와 시험 시간이 단축됨에 따라 최고점수도 현행 990점에서 600점으로 변경된다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=46657",
+            "search_query": "텝스 문항 수",
+            "terminate": false,
+            "text": "텝스 문항수는 200문항에서 135문항으로 축소되었고 시험 시간도 기존 시간에서 35분을 감축해 1시간 45분이 됐어요. 이런 변화에 따라서 최고 점수 역시 990점이었는데 현재 600점으로 변경됐고요.",
+            "turn_id": "BK22013259-4",
+            "utterance_id": "BK22013259.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 시험 내용 면에서는 변화된 건 없나요?",
+            "turn_id": "BK22013259-5",
+            "utterance_id": "BK22013259.9"
+        },
+        {
+            "reference_date": "2018-01-25",
+            "reference_text": [
+                {
+                    "value": "특히 독해 영역은 이메일, 뉴스, 메신저 대화 등 지문 형식을 다양화해 학술, 비즈니스, 일상생활 등 다양한 상황에서 구현되는 실전 영어 활용능력을 평가하도록 재구성했다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=46657",
+            "search_query": "텝스 독해 영역",
+            "terminate": false,
+            "text": "텝스 독해 영역의 경우에는 이메일이나 메신저 대화 등과 같은 지문 형식을 다양화했고 따라서 비즈니스나 학술과 같은 상황에서 실전 영어 활용능력을 평가할 수 있도록 재구성했어요.",
+            "turn_id": "BK22013259-5",
+            "utterance_id": "BK22013259.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 텝스도 토익처럼 영역을 넘나들며 문제를 풀 수 있어요?",
+            "turn_id": "BK22013259-6",
+            "utterance_id": "BK22013259.11"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "또한, TOEIC과는 달리 시험 중 다른 섹션으로 넘어가 문제를 풀 수 없다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TEPS",
+            "search_query": "텝스 토익 차이점",
+            "terminate": false,
+            "text": "아뇨, 토익처럼 시험을 보다가 다른 영역을 넘어가서 문제를 풀 수 없다는 게 텝스와 토익의 차이점이에요.",
+            "turn_id": "BK22013259-6",
+            "utterance_id": "BK22013259.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텝스와 토익의 차이점으로 또 뭐가 있나요?",
+            "turn_id": "BK22013259-7",
+            "utterance_id": "BK22013259.13"
+        },
+        {
+            "reference_date": "2019-12-19",
+            "reference_text": [
+                {
+                    "value": "토익이 비즈니스 영어를 중요시한다면 텝스는 주어진 문제를 빨리 푸는 해결능력을 보고있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그렇기 때문에 텝스에서 중요한건 정확하고 빠르게 지문을 읽어나가는 능력이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailysecu.com/news/articleView.html?idxno=89008",
+            "search_query": "텝스 토익 차이점",
+            "terminate": false,
+            "text": "텝스는 문제를 빨리 푸는 능력을 중시하기 때문에 정확하고 신속하게 지문을 읽어나갈 수 있어야 하고, 토익은 비즈니스 영어 실력을 중점적으로 봐요. 이게 토익과 텝스의 두 번째 차이점이에요.",
+            "turn_id": "BK22013259-7",
+            "utterance_id": "BK22013259.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "텝스와 토익은 완전 다른 영역의 시험인 것 같아요. 활용처는 거의 비슷한 것 같은데 혹시 텝스 활용처에 대해 자세히 아시나요?",
+            "turn_id": "BK22013259-8",
+            "utterance_id": "BK22013259.15"
+        },
+        {
+            "reference_date": "2021-10-26",
+            "reference_text": [
+                {
+                    "value": "텝스는 의대, 로스쿨, 전문연 등 전문직과 대학원 입시생의 공식적인 평가기준으로 활용되거나 공무원 선발 등 국가자격시험에서 영어 과목 성적을 대체할 정도로 높은 신뢰성을 인정받는다.",
+                    "value_time": "2022-08-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2021102610172514416",
+            "search_query": "텝스 성적 활용",
+            "terminate": false,
+            "text": "텝스의 활용처를 말씀드리자면 공무원 임용과 같은 국가자격시험에서 영어 성적을 대신하거나 전문연이나 로스쿨, 의대 등의 전문직과 대학원 입시생의 평가 기준으로 활용되기도 해요. 그 정도로 높은 신뢰를 얻고 있는 시험이죠.",
+            "turn_id": "BK22013259-8",
+            "utterance_id": "BK22013259.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알려주신 공무원 임용과 같은 국가자격시험에 텝스 말고도 대신할 수 있는 또 다른 영어 시험이 있나요?",
+            "turn_id": "BK22013259-9",
+            "utterance_id": "BK22013259.17"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "우리나라 공무원임용시험령은 현재 영어 교과를 대체하는 영어시험으로 텝스(TEPS), 플렉스(FLEX), 토플(TOEFL), 토익(TOEIC), 지텔프(G-TELP) 등을 규정하고 있고, 이들 시험들의 직급별 합격기준 점수를 제시하고 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupress.kr/news/articleView.html?idxno=9226",
+            "search_query": "공무원임용시험 영어 대체",
+            "terminate": false,
+            "text": "네, 공무원 임용시험 영어 교과를 대체할 수 있는 영어 시험으로 텝스뿐 아니라 토플, 토익, 지텔프, 플렉스 등이 규정으로 들어가 있고 직급별로 합격 기준 점수가 달라요.",
+            "turn_id": "BK22013259-9",
+            "utterance_id": "BK22013259.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험 활용처가 다양한 만큼 응시를 고려해 봐야겠어요. 올해 텝스 시험 회차는 여유가 있는 편인가요?",
+            "turn_id": "BK22013259-10",
+            "utterance_id": "BK22013259.19"
+        },
+        {
+            "reference_date": "2021-12-03",
+            "reference_text": [
+                {
+                    "value": "특히 텝스는 2022년 1월 15일 첫 시험(제317회)을 시작으로 12월 3일(제336회)까지 진행된다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gosiweek.com/n_news/news/view.html?no=19771",
+            "search_query": "2022년 텝스 일정",
+            "terminate": false,
+            "text": "2022년 텝스 일정은 총 20회 시행돼요. 즉 제317회차 시험인 2022년 1월 15일에 시작해 12월 3일이 제336회차로 마지막 시험이에요.",
+            "turn_id": "BK22013259-10",
+            "utterance_id": "BK22013259.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 아직 시간의 여유가 있네요. 일정을 조정해서 텝스 응시를 해 볼게요.",
+            "turn_id": "BK22013259-11",
+            "utterance_id": "BK22013259.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 좋은 점수 취득하시길 바라요.",
+            "turn_id": "BK22013259-11",
+            "utterance_id": "BK22013259.22"
+        }
+    ]
+}

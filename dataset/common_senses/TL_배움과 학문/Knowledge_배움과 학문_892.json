@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005713",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005713",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 텔레비전을 보면 기타 치면서 노래 부르는 가수들이 많더라고요. 그러다 보니 궁금해졌는데 기타의 유래를 아시나요?",
+            "turn_id": "BK22005713-1",
+            "utterance_id": "BK22005713.1"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "근대 기타는 기턴(gittern)에서 유래되었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기턴은 류트와 비슷한 작은 악기로 13세기 후반에 무어인의 지배 하에 있던 스페인을 거쳐 유럽에 도입되었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타",
+            "terminate": false,
+            "text": "기턴이라고 들어보셨나요? 근대 기타는 이 기턴이라는 것에서 유래되었는데요, 류트라는 작은 악기와 비슷한데 13세기 후반에 무어인의 지배를 받고 있던 스페인을 거쳐서 유럽으로 도입되었었죠.",
+            "turn_id": "BK22005713-1",
+            "utterance_id": "BK22005713.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스페인이 유래였어요? 그래서 스페인 사람들은 그렇게 흥이 많은가 싶네요, 하하. 티비 보다보니까 기타를 좀 배워볼까 싶은 생각이 들어서요, 기타에 대해 조금 설명해주실래요?",
+            "turn_id": "BK22005713-2",
+            "utterance_id": "BK22005713.3"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "머리(Head), 목(Neck), 몸체(Body)로 구성되어 있으며, 목 부분에는 20여 개의 프렛(Fret)이 박혀 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기타는 주로 6개의 현을 갖고 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타",
+            "terminate": false,
+            "text": "우선 생김새를 좀 설명해드리자면, 주로 현이 6개인 기타는 헤드, 넥, 바디로 구성되어 있어요. 20여 개의 프렛이 목 부분에 박혀있고요.",
+            "turn_id": "BK22005713-2",
+            "utterance_id": "BK22005713.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 기타는 보통 록 음악에서 많이 사용하죠?",
+            "turn_id": "BK22005713-3",
+            "utterance_id": "BK22005713.5"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "클래식 음악뿐만 아니라 재즈, 록, 팝 음악 등 다양한 장르에 사용된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타의 장르",
+            "terminate": false,
+            "text": "록 음악에서도 사용하지만, 클래식 음악과 재즈 팝 등 다양한 장르에서 사용되어지고 있죠.",
+            "turn_id": "BK22005713-3",
+            "utterance_id": "BK22005713.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 음악에서 사용되고 있었네요? 아 그리고 궁금한 게 있는데요, 아까 기타의 생김새 알려주셨는데 바디에 구멍 뚫려있잖아요, 그 역할은 뭔가요? 또 프렛이라는 것은 왜 이렇게 많은거죠?",
+            "turn_id": "BK22005713-4",
+            "utterance_id": "BK22005713.7"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "기타는 기타 몸체의 울림구멍(Sound Hole)을 통해 소리를 증폭하고, 프렛을 통해 음정을 제어한다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타 울림 구멍",
+            "terminate": false,
+            "text": "아 그걸 설명 안 드렸군요. 그 구멍을 울림 구멍이라고 하는데 소리를 증폭해주는 역할을 해요. 수많은 프렛들은 음정을 제어하는 역할을 하고요.",
+            "turn_id": "BK22005713-4",
+            "utterance_id": "BK22005713.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 다 이유가 있었네요. 기타 줄도 어떤 건 두껍고 어떤 건 얇던데 그것도 알려주세요.",
+            "turn_id": "BK22005713-5",
+            "utterance_id": "BK22005713.9"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "6개의 현은 연주를 위해 기타를 안았을 때 위쪽이 가장 굵고 아래쪽으로 갈수록 가늘어진다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 현이 가늘어질수록 음역이 점점 높아진다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타 현",
+            "terminate": false,
+            "text": "6개의 현은 기타를 안았을 때 시점으로 위쪽은 가장 굵고요, 내려갈수록 가늘어져요. 가늘수록 음역이 점점 높아지고요.",
+            "turn_id": "BK22005713-5",
+            "utterance_id": "BK22005713.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아아, 그렇게 여러 가지 음을 표현할 수 있는 거였네요. 울림 구멍과 6개의 현으로 말이죠. 아 그런데 어떤 기타들은 울림 구멍이 없던데 그건 뭔가요?",
+            "turn_id": "BK22005713-6",
+            "utterance_id": "BK22005713.11"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "기타의 종류로는, 몸체의 울림을 통해 소리를 증폭하는 통기타(Acoustic Guitar)와 마그네틱 픽업(Pickup)과 앰프(Amplifier)를 통해 소리를 증폭하는 전기 기타(Electric Guitar), 크게 2가지로 나뉜다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "통기타 전기 기타",
+            "terminate": false,
+            "text": "전기 기타를 보셨나요? 기타의 종류는 크게 2가지, 전기기타와 통기타로 나뉘어요. 통기타는 몸체의 울림을 통해 소리가 증폭되고요, 전기기타는 앰프와 마그네틱 픽업이라는 것을 통해 소리가 증폭돼요.",
+            "turn_id": "BK22005713-6",
+            "utterance_id": "BK22005713.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아아 그럼 제가 본 게 전기 기타였나봐요. 그럼 클래식 기타는 뭔가요? 클래식 기타도 들어본 거 같아서요.",
+            "turn_id": "BK22005713-7",
+            "utterance_id": "BK22005713.13"
+        },
+        {
+            "reference_date": "2022-04-28",
+            "reference_text": [
+                {
+                    "value": "클래식 기타(영어: Classical Guitar)는 양의 창자를 꼬아 만든 거트줄이나 나일론줄을 사용하는 기타로 손으로 뜯어서 멜로디와 화음을 동시에 연주하는 독주 악기로 많이 쓰인다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%98%EC%8B%9D_%EA%B8%B0%ED%83%80",
+            "search_query": "클래식 기타",
+            "terminate": false,
+            "text": "거트줄이라고 양의 창자를 꼬아 만든 줄이나 나일론 줄을 사용하는 기타인데요, 손으로 뜯어서 연주해요. 멜로디와 화음을 동시에 연주할 수 있어서 독주 악기로 많이 사용되죠.",
+            "turn_id": "BK22005713-7",
+            "utterance_id": "BK22005713.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그럼 클래식에서만 쓰이나요?",
+            "turn_id": "BK22005713-8",
+            "utterance_id": "BK22005713.15"
+        },
+        {
+            "reference_date": "2022-04-28",
+            "reference_text": [
+                {
+                    "value": "클래식 기타로 클래식 음악만 연주하는 것은 아니며 포크, 재즈, 플라멩코 등 다양한 장르를 연주한다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%98%EC%8B%9D_%EA%B8%B0%ED%83%80",
+            "search_query": "클래식 기타 클래식",
+            "terminate": false,
+            "text": "아뇨 그런 건 또 아니에요. 클래식 음악만 연주하지는 않고, 포크, 재즈 등등 다양한 장르에서 사용하고 있어요.",
+            "turn_id": "BK22005713-8",
+            "utterance_id": "BK22005713.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기타 이름을 잘못 지었네요. 클래식 기타라고 하니까 왠지 클래식에서만 사용해야 할 거 같잖아요.",
+            "turn_id": "BK22005713-9",
+            "utterance_id": "BK22005713.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 모르면 오해할 수도 있겠어요.",
+            "turn_id": "BK22005713-9",
+            "utterance_id": "BK22005713.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무튼 이제 무슨 기타를 배울지만 정하면 되겠어요.",
+            "turn_id": "BK22005713-10",
+            "utterance_id": "BK22005713.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 기타에 대해 더 알려줄 수 있으니까 고민 많이 해보고 연락주세요.",
+            "turn_id": "BK22005713-10",
+            "utterance_id": "BK22005713.20"
+        }
+    ]
+}

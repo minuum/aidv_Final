@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001221",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001221",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뉴스에서 메타버스라는 말을 들었는데, 그거 신조어예요?",
+            "turn_id": "BK22001221-1",
+            "utterance_id": "BK22001221.1"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "메타버스(metaverse) 또는 확장 가상 세계는 가상, 초월을 의미하는 '메타'(meta)와 세계, 우주를 의미하는 '유니버스'(universe)를 합성한 신조어다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%EB%B2%84%EC%8A%A4",
+            "search_query": "메타버스",
+            "terminate": false,
+            "text": "요즘 여기저기서 메타버스라는 용어가 자주 들리죠? 메타버스는 가상과 초월을 뜻하는 메타와 세계와 우주를 뜻하는 유니버스를 합성한 신조어예요.",
+            "turn_id": "BK22001221-1",
+            "utterance_id": "BK22001221.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가상의 세계라. 그럼 메타버스는 가상현실, 증강현실 그런 개념이랑 같은 거예요?",
+            "turn_id": "BK22001221-2",
+            "utterance_id": "BK22001221.3"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "가상현실, 증강현실의 상위 개념으로서 현실을 디지털 기반의 가상 세계로 확장해 가상 공간에서 모든 활동을 할 수 있게 만드는 시스템이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%EB%B2%84%EC%8A%A4",
+            "search_query": "메타버스 가상현실 증강현실",
+            "terminate": false,
+            "text": "메타버스가 가상현실, 증강현실보다 상위에 있는 개념이에요. 가상현실과 증강현실이 메타버스의 유형 중 하나죠. 쉽게 말하면, 메타버스는 현실을 디지털 기반의 가상 세계로 확장해서 그곳에서 모든 활동을 할 수 있게 만든 시스템인 거죠.",
+            "turn_id": "BK22001221-2",
+            "utterance_id": "BK22001221.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알 듯 말 듯 하네요. 가상현실과 증강현실이 메타버스의 유형 중 하나라고 하셨죠? 그럼 메타버스의 유형에는 어떤 것들이 있어요?",
+            "turn_id": "BK22001221-3",
+            "utterance_id": "BK22001221.5"
+        },
+        {
+            "reference_date": "2021-12-21",
+            "reference_text": [
+                {
+                    "value": "미국 기술연구단체인 ASF는 메타버스를 △증강현실세계 △라이프로깅세계 △거울세계 △가상세계 등 네 가지 유형으로 분류했다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/It/article/all/20211220/110867374/1",
+            "search_query": "메타버스 유형",
+            "terminate": false,
+            "text": "말씀드렸던 가상세계와 증강현실세계를 포함해서 라이프로깅세계, 거울세계까지 총 네 가지 유형이 있어요. 미국 기술연구단체 ASF가 분류했죠.",
+            "turn_id": "BK22001221-3",
+            "utterance_id": "BK22001221.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 종류도 다양하네요. 가상세계는 요즘 많이들 하는 제페토 같은 걸 말하는 거 맞죠?",
+            "turn_id": "BK22001221-4",
+            "utterance_id": "BK22001221.7"
+        },
+        {
+            "reference_date": "2021-12-21",
+            "reference_text": [
+                {
+                    "value": "가상세계는 현실세계를 본뜬 가상의 공간에서 경제적인 활동과 사회적인 교류가 이뤄지는 것을 말한다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "로블록스, 마인크래프트, 제페토 등이 있다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/It/article/all/20211220/110867374/1",
+            "search_query": "가상세계 가상공간 제페토",
+            "terminate": false,
+            "text": "오, 잘 아시네요! 맞아요. 가상세계는 현실세계를 본떠 만든 가상의 공간에서 사회, 경제적인 활동과 교류가 이뤄지는 걸 말하거든요. 대표적인 가상세계로는 제페토, 로블록스, 마인크래프트 등이 있죠.",
+            "turn_id": "BK22001221-4",
+            "utterance_id": "BK22001221.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참 신기한 세상이네요. 거울세계도 궁금한데, 그건 어떤 거예요?",
+            "turn_id": "BK22001221-5",
+            "utterance_id": "BK22001221.9"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "거울세계는 실제 세계를 가능한 사실적으로, 있는 그대로 반영하되 \"정보적으로 확장된\" 가상세계를 말한다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대표적인 예로 구글 어스(Google Earth)를 들 수 있다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구글 어스는 세계 전역의 위성사진을 모조리 수집하여 일정 주기로 사진을 업데이트하면서 시시각각 변화하는 현실세계의 모습을 그대로 반영하고 있다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이같은 거울세계 사용자는 가상세계를 열람함으로써 현실세계에 대한 정보를 얻게 된다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%EB%B2%84%EC%8A%A4",
+            "search_query": "메타버스 거울세계",
+            "terminate": false,
+            "text": "거울세계는 현실 세계를 최대한 사실적으로 반영하면서도, 현실 세계보다 많은 정보를 제공하는 가상세계를 말해요. 구글 어스를 생각해 보시면 이해가 빠를 거예요. 구글 어스는 전 세계 전역에서 수집한 온갖 위성사진을 일정한 주기를 두고 업데이트하면서 끊임없이 변하는 현실 세계의 모습을 그대로 반영해요. 그리고 구글 어스 사용자는 구글 어스가 제공하는 가상세계를 열람해서 현실 세계의 정보를 얻죠.",
+            "turn_id": "BK22001221-5",
+            "utterance_id": "BK22001221.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 구글 어스 저도 자주 써요! 그런 걸 거울세계라고 하는구나. 증강현실세계도 설명해 줄 수 있어요?",
+            "turn_id": "BK22001221-6",
+            "utterance_id": "BK22001221.11"
+        },
+        {
+            "reference_date": "2022-04-25",
+            "reference_text": [
+                {
+                    "value": "증강현실이란 완전한 가상세계인 가상현실(VR·Virtual Reality)과 달리, 현실 세계에 가상물체를 겹쳐 보여주는 기술이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.chunsa.kr/news/articleView.html?idxno=53482",
+            "search_query": "증강현실이란",
+            "terminate": false,
+            "text": "증강현실은 현실 공간에 그래픽으로 구현한 가상의 물체를 중첩시켜 보여주는 기술이에요. 완전한 가상세계인 가상현실과 차이가 있죠.",
+            "turn_id": "BK22001221-6",
+            "utterance_id": "BK22001221.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 저 이제 좀 감이 오는데요? 그럼, 포켓몬 GO 같은 게임이 증강현실 기술을 사용한 게임인 거죠?",
+            "turn_id": "BK22001221-7",
+            "utterance_id": "BK22001221.13"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "《포켓몬 GO》(영어: Pokémon GO)는 나이앤틱(Niantic, Inc.)이 개발한 iOS 및 안드로이드용 부분 유료화 위치 기반 증강현실 비디오 게임이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%BC%93%EB%AA%AC_GO",
+            "search_query": "포켓몬고 증강현실",
+            "terminate": false,
+            "text": "그렇죠! 포켓몬 GO는 나이앤틱사가 개발한 위치 기반 증강현실 비디오 게임이에요. 그럼, 혹시 라이프로깅세계는 어떤 건지 짐작가세요?",
+            "turn_id": "BK22001221-7",
+            "utterance_id": "BK22001221.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 라이프로깅이라는 이름으로만 생각해보면 일상을 기록한다는 뜻이니까, 인스타그램 같은 SNS가 해당되려나요?",
+            "turn_id": "BK22001221-8",
+            "utterance_id": "BK22001221.15"
+        },
+        {
+            "reference_date": "2021-12-21",
+            "reference_text": [
+                {
+                    "value": "라이프로깅은 사물과 사람의 일상적인 정보와 감정들을 일기처럼 기록하고 공유하는 기술이다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인스타그램이나 틱톡이 이에 해당한다.",
+                    "value_time": "2022-07-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/It/article/all/20211220/110867374/1",
+            "search_query": "메타버스 라이프로깅 인스타그램",
+            "terminate": false,
+            "text": "생각하신 게 맞아요! 라이프로깅은 사람의 일상적인 감정이나 사물의 정보들을 기록하고 공유하는 기술이거든요. 인스타그램이나 틱톡이 대표적인 라이프로깅 서비스죠.",
+            "turn_id": "BK22001221-8",
+            "utterance_id": "BK22001221.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와! 가상세계, 거울세계, 증강현실세계, 라이프로깅세계, 이 모든 걸 포괄하는 개념이 메타버스인 거네요. 생소한 개념들이라고만 생각했는데, 설명을 들어보니 이미 알게 모르게 전부 접해본 서비스였단 게 신기해요.",
+            "turn_id": "BK22001221-9",
+            "utterance_id": "BK22001221.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠. 메타버스는 이미 우리 일상 곳곳에 스며들어 있어요.",
+            "turn_id": "BK22001221-9",
+            "utterance_id": "BK22001221.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 뉴스에서 메타버스를 얘기할 때 NFT라는 단어가 같이 나오던데, 그것도 알려줄 수 있어요?",
+            "turn_id": "BK22001221-10",
+            "utterance_id": "BK22001221.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당연하죠! 오늘은 약속 시간이 다 되어서 힘들겠고, 내일 다시 얘기해요.",
+            "turn_id": "BK22001221-10",
+            "utterance_id": "BK22001221.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 내일 좋아요. 궁금했던 걸 제대로 아니까 속이 다 시원하네요. 오늘 고마웠어요!",
+            "turn_id": "BK22001221-11",
+            "utterance_id": "BK22001221.21"
+        }
+    ]
+}

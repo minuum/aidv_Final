@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000956",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000956",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 아침에 우유를 따르다가 다 흘려버렸어.",
+            "turn_id": "BK22000956-1",
+            "utterance_id": "BK22000956.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유체역학을 공부하면 우유를 더 잘 따르지는 못해도 왜 흘리는지는 알 수 있을거야.",
+            "turn_id": "BK22000956-1",
+            "utterance_id": "BK22000956.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "유체역학이라니 그게 뭐하는 건데? 설마 우유에 대한 학문인거야?",
+            "turn_id": "BK22000956-2",
+            "utterance_id": "BK22000956.3"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "유체역학(流體力學, 영어: fluid mechanics)이란 유체(액체와 기체)의 운동에 대해서 연구하는 학문이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B2%B4%EC%97%AD%ED%95%99",
+            "search_query": "유체역학",
+            "terminate": false,
+            "text": "아니지, 유체란 게 액체와 기체를 합쳐서 말하는 건데 바로 이 두가지의 운동에 대해 연구하는게 유체역학이야. 그러니까 우유가 어떻게 흐르냐 하는 것도 이 유체역학의 영역인거지.",
+            "turn_id": "BK22000956-2",
+            "utterance_id": "BK22000956.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거 참 신기한 학문이네, 액체와 기체의 움직임이니까 뭔가 흐르거나 공기중에 흩어지는 걸 연구한다는 거지?",
+            "turn_id": "BK22000956-3",
+            "utterance_id": "BK22000956.5"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "정지상태에 있는 유체에 대해 연구하는 유체 정역학, 운동중에 있는 유체에 대해 연구하는 유체 동역학으로 나뉜다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B2%B4%EC%97%AD%ED%95%99",
+            "search_query": "유체정역학",
+            "terminate": false,
+            "text": "꼭 흐르거나 흩어지는 것처럼 움직여야만 하는건 아냐. 유체 정역학이라고 정지상태에 대한 연구도 있거든. 움직이는 상태에 대한 연구는 유체 동역학 인거고.",
+            "turn_id": "BK22000956-3",
+            "utterance_id": "BK22000956.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신기하다, 이런 건 어쩌다 연구하게 된거래?",
+            "turn_id": "BK22000956-4",
+            "utterance_id": "BK22000956.7"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "유체역학은 고대 농경사회부터 인간이 폭우와 홍수에 대비하기 위해 벽돌을 쌓아보기도 하고, 운하나 저수지, 하수도 등을 건설하기도 하면서 시작되었다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대인들이 관심을 가졌던 것은 단지 물의 흐름과 마찰에 대한 피상적인 부분에 해당하는 수력학(hydraulics)이었다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그로부터 지금까지 많은 과학자들의 이론과 실험을 토대로 현대의 유체역학으로 발달하게 되었다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B2%B4%EC%97%AD%ED%95%99",
+            "search_query": "유체역학 수력학",
+            "terminate": false,
+            "text": "고대 농경사회에서부터 사람들이 폭우와 홍수에 대비하려고 운하나 저수지, 하수도 같은 것들을 건설하면서 시작된거지. 그때 당시 사람들이 관심을 가진 건 수력학이라고 부르는 물의 흐름이나 마찰에 대한 피상적인 부분이였지만 지금으로 오면서 많은 학자들이 이론과 실험을 거듭 하면서 현대의 유체역학으로 발전시킨거야.",
+            "turn_id": "BK22000956-4",
+            "utterance_id": "BK22000956.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아주 실용적인 이유에서 탄생한 학문이네. 지금도 비슷하게 실제적으로 유용하게 쓰이는 분야야?",
+            "turn_id": "BK22000956-5",
+            "utterance_id": "BK22000956.9"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "유체역학의 응용분야는 아주 다양하다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들면, 펌프, 송풍기, 팬, 압축기 등의 기계와 항공기, 선박, 자동차 등의 운송수단, 인체의 인공순환장치, 골프의 슬라이싱, 난방 배관 등 우리 주변에서 볼 수 있는 많은 도구, 장비, 기계들에 응용된다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B2%B4%EC%97%AD%ED%95%99",
+            "search_query": "유체역학 응용",
+            "terminate": false,
+            "text": "그럼, 응용분야가 아주 다양하지. 펌프나 송풍기, 팬 압축기 처럼 기계나 선박, 항공기 같은 운송수단부터 난방 배관이나 골프의 슬라이싱, 인체의 인공순환장치까지 정말 여러 분야에 쓰이고 있어.",
+            "turn_id": "BK22000956-5",
+            "utterance_id": "BK22000956.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 실생활에서 여러모로 쓰이고 있네. 알아두면 도움이 많이 되겠어.",
+            "turn_id": "BK22000956-6",
+            "utterance_id": "BK22000956.11"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "최근에는 컴퓨터의 발달과 함께 전산유체역학이 새롭게 떠오르고 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%B2%B4%EC%97%AD%ED%95%99",
+            "search_query": "유체역학 전산",
+            "terminate": false,
+            "text": "응, 이것뿐만이 아니라 요즘엔 컴퓨터의 발달로 시대가 변하면서 전산유체역학이라는 분야도 떠오르고 있지.",
+            "turn_id": "BK22000956-6",
+            "utterance_id": "BK22000956.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전산유체역학은 또 뭘 연구하는 거지? 이름만 들어서는 감이 안 잡히네.",
+            "turn_id": "BK22000956-7",
+            "utterance_id": "BK22000956.13"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "전산 유체 역학(CFD, Computational fluid dynamics)은 유체 현상을 기술한 비선형계 편미분방정식인 나비에-스토크스 방정식(Navier-Stokes Equations)을 유한차분법 (Finite Difference Method), 유한요소법 (Finite Element Method), 유한체적법(Finite Volume Method) 등의 방법들을 사용하여 이산화하여 대수 방정식으로 변환하고, 이를 수치 기법(numerical methods)의 알고리즘을 사용하여 유체 유동 문제를 풀고 해석하는 것이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%82%B0_%EC%9C%A0%EC%B2%B4_%EC%97%AD%ED%95%99",
+            "search_query": "전산유체역학",
+            "terminate": false,
+            "text": "이거 어려운건데 잘 들어봐. 기본적으로는 유체현상을 기술하는 편미분방정식이 있는데 나비에스토크스 방정식이라고 해. 이 방정식을 변환하고 해석해서 유체의 유동 문제를 연구하는거지. 전문적으로 말하면 유환차분법, 유환요소법, 유환체적법 등의 방법으로 방정식을 변환하고 이걸 수치기법의 알고리즘으로 다시 분석하는거야.",
+            "turn_id": "BK22000956-7",
+            "utterance_id": "BK22000956.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그러면 그냥 나비에 스토크스 방정식을 푼다는 말 아냐? 이걸 왜 굳이 전산유체역학이라고 부르는거야?",
+            "turn_id": "BK22000956-8",
+            "utterance_id": "BK22000956.15"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "전산 유체 역학은 이런 나비에-스토크스 방정식을 공간 및 시간에 대한 이산화와 수치 해석적인 기법을 통해 풀기 위하여 개발되었다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 전산 유체 역학을 나비에-스토크스 방정식을 직접 푸는 것으로 오해하면 안된다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어디까지나 근사적인 수치해를 구하는 것이기 때문이다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%82%B0_%EC%9C%A0%EC%B2%B4_%EC%97%AD%ED%95%99",
+            "search_query": "전산유체역학 나비에 스토크스 방정식",
+            "terminate": false,
+            "text": "근사적 수치해를 구하는 거지 직접 푸는 건 아니야. 나비에 스토크스 방정식을 공간과 시간에 대해 이산화하고 수치 해석적으로 풀기 위해 개발된게 전산유체역학인거야.",
+            "turn_id": "BK22000956-8",
+            "utterance_id": "BK22000956.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나비에 스토크스 방정식이라는 게 중요한건가 보다. 근사적으로 풀기 위한 분야가 따로 있으니 말이야.",
+            "turn_id": "BK22000956-9",
+            "utterance_id": "BK22000956.17"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "날씨 모델, 해류, 관에서 유체흐름, 날개주변의 유체흐름 그리고 은하안에서 별들의 움직임을 설명하는데 쓰일 수 있으며 실제로 항공기나 자동차 설계, 혈관내의 혈류, 오염물질의 확산 등을 연구하는데 사용되고 있다.",
+                    "value_time": "2022-06-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%98%EB%B9%84%EC%97%90-%EC%8A%A4%ED%86%A0%ED%81%AC%EC%8A%A4_%EB%B0%A9%EC%A0%95%EC%8B%9D",
+            "search_query": "나비에 스토크스 방정식",
+            "terminate": false,
+            "text": "그렇지. 정말 여러 방면의 운동을 설명하는데 쓰일 수 있는 방정식이야. 날씨 모델이나 해류, 관을 흐르는 유체의 움직임, 더 나아가 은하 속 별들의 움직임을 설명하는데 쓰일 수 있으니까. 실제로 힝공기나 자동차 설계, 혈류의 움직임, 오염 물질이 어떻게 퍼져나가는지 등을 연구하는데 쓰이고 있어.",
+            "turn_id": "BK22000956-9",
+            "utterance_id": "BK22000956.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 알려줘서 고마워. 공부할 부분이 무궁무진한 분야인거 같아.",
+            "turn_id": "BK22000956-10",
+            "utterance_id": "BK22000956.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 어렵기도 하고 재밌기도 한 분야지. 관심있으면 나중에 더 설명해줄게.",
+            "turn_id": "BK22000956-10",
+            "utterance_id": "BK22000956.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 오늘은 시간이 빠듯해서 아쉽네. 다음에 더 길게 얘기해보자, 안녕!",
+            "turn_id": "BK22000956-11",
+            "utterance_id": "BK22000956.21"
+        }
+    ]
+}

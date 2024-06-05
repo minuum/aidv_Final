@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005805",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005805",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 외국인 친구가 한국에 놀러오기로 했는데, 어떤 음식을 추천해 줄 지 고민돼. 혹시 추천해줄 수 있니?",
+            "turn_id": "BK22005805-1",
+            "utterance_id": "BK22005805.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나는 개인적으로 한국 하면 분식이라고 생각해.",
+            "turn_id": "BK22005805-1",
+            "utterance_id": "BK22005805.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "분식 좋지. 그럼 떡볶이 먹으러 가야겠다. 그런데 음식을 즐기면서 설명도 조금 해주고 싶은데, 혹시 분식들에 대해 이것저것 물어봐도 될까?",
+            "turn_id": "BK22005805-2",
+            "utterance_id": "BK22005805.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물론이지, 뭐가 궁금한지 이야기해줘.",
+            "turn_id": "BK22005805-2",
+            "utterance_id": "BK22005805.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 먼저 떡볶이가 궁금해. 떡볶이의 기원은 어떻게 돼?",
+            "turn_id": "BK22005805-3",
+            "utterance_id": "BK22005805.5"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "현대 한국에서 즐겨먹는 고추장 떡볶이는 한국 전쟁 직후에 개발된 음식이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대의 고추장 떡볶이는 1953년에 마복림(1921~2011)이 광희문 밖 개천을 복개한 서울 신당동 공터에서 길거리식당 음식으로 팔던 것에서부터 시작되었다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%96%A1%EB%B3%B6%EC%9D%B4",
+            "search_query": "떡볶이 기원",
+            "terminate": false,
+            "text": "현대의 한국에서 주로 먹는 고추장 떡볶이는 625 전쟁 바로 직후에 만들어진 요리야. 1953년 마복림 씨가 광희문 바깥의 개천을 복개한 신당동의 비어 있는 땅에서 길거리 식당의 요리로 판매하던 게 시초지.",
+            "turn_id": "BK22005805-3",
+            "utterance_id": "BK22005805.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그때 이후로 참 많은 떡볶이들이 개발된 거로 아는데, 혹시 떡볶이의 종류에 대해 자세히 알 수 있을까?",
+            "turn_id": "BK22005805-4",
+            "utterance_id": "BK22005805.7"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "떡볶이는 고추장을 사용해 매운 맛을 내는 고추장 떡볶이와 간장을 사용하는 간장 떡볶이로 그 종류를 나눌 수 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "떡은 떡면(떡볶이떡) 또는 가래떡을 사용하며 떡의 주재료가 쌀가루로 만들었냐 밀가루로 만들었냐에 따라 '밀떡볶이'와 '쌀떡볶이'로 나뉘기도 한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%96%A1%EB%B3%B6%EC%9D%B4",
+            "search_query": "떡볶이 종류",
+            "terminate": false,
+            "text": "먼저 고추장 떡볶이와 간장 떡볶이로 나눌 수 있는데, 매운 맛을 내는 고추장을 활용하냐, 간장을 활용하냐에 따라 나뉘어. 그리고 가래떡이나 떡면을 밀가루, 쌀가루 중 뭘로 만들었냐에 따라서 밀떡볶이, 쌀떡볶이로 나뉘지.",
+            "turn_id": "BK22005805-4",
+            "utterance_id": "BK22005805.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋아, 떡볶이는 이 정도면 된 것 같아. 떡볶이와 함께 김밥도 먹을 것 같은데, 김밥의 기원에 대해서도 알려줘.",
+            "turn_id": "BK22005805-5",
+            "utterance_id": "BK22005805.9"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "《열양세시기》(1819)와 《동국세시기》(1849)에는 정월 대보름에 김(海衣)과 참취(馬蹄菜)로 밥을 싸먹는 음식인 복쌈(福 - )이 기록되어 있는데, 이것이 김밥의 원형으로 보인다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%B0%A5",
+            "search_query": "김밥 기원",
+            "terminate": false,
+            "text": "동국세시기와 열양세시기의 기록을 보면 정월대보름에 밥을 참취와 김으로 싸서 먹는 복쌈이 있는데, 이게 바로 김밥의 본바탕이라 할 수 있지.",
+            "turn_id": "BK22005805-5",
+            "utterance_id": "BK22005805.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 어렵긴 하지만 알겠어! 그럼 김밥의 종류에는 뭐가 있을까? 자세히 알려주길 바라.",
+            "turn_id": "BK22005805-6",
+            "utterance_id": "BK22005805.11"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "줄김밥의 종류는 해당 김밥의 속재료에 무엇이 포함되는가에 따라서 나뉜다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기본적인 줄김밥에는 기본 속재료인 달걀, 햄, 당근, 단무지, 맛살, 오이, 우엉, 어묵 등이 들어가나, 그 이외의 특별한 재료가 포함될 시 그 재료의 이름을 따서 김밥의 이름을 붙인다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 파생되어 분류되는 김밥의 종류 중 흔히 시중에서 판매되는 김밥은 다음과 같다: 참치김밥, 치즈김밥, 소고기김밥, 김치김밥, 멸치김밥, 콩나물김밥.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%B0%A5",
+            "search_query": "김밥 종류",
+            "terminate": false,
+            "text": "일단 줄김밥은 속재료가 뭐냐에 따라 나뉘어. 기본이 되는 재료는 달걀, 당근, 맛살 등이 있지만, 이외 특이한 재료가 들어가면 그 이름을 따서 김밥의 이름으로 삼아. 이런 방식으로 만들어진 김밥 중 시중에 팔리는 건 참치 김밥이나 소고기 김밥, 멸치 김밥 등이 있어.",
+            "turn_id": "BK22005805-6",
+            "utterance_id": "BK22005805.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋아, 메모 좀 할게. 김밥도 이 정도만 알면 외국인 친구에게 충분히 설명할 수 있을 것 같아. 그런데 김밥이나 떡볶이만으로 배가 차지 않을 것 같아 순대도 먹으려고 하는데, 순대의 기원도 좀 알려줘.",
+            "turn_id": "BK22005805-7",
+            "utterance_id": "BK22005805.13"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "춘추 시대 쓰인 《시경》의 〈대아〉 편에는 ‘갹(臄)’이라는 단어가 나오는데, 송 대의 운서 《집운(集韻)》에 의하면 이것은 양의 창자에 고기와 내장을 채운 뒤 구운 음식이다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 500년대 북위의 농서 《제민요술》에는 양의 선지, 기름, 밀가루, 쌀밥을 섞은 뒤 갖은 양념을 하여 양의 대창에 넣고 삶아서 썰어 먹는 ‘양반장자해(羊盤腸雌解)’라는 음식이 기록되어 있다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%9C%EB%8C%80",
+            "search_query": "순대 기원",
+            "terminate": false,
+            "text": "춘추 시대의 쓴 시경이나 대아를 보면, 갹이라는 말이 나와. 이게 송 대의 집운이라는 운서를 보면 고기와 내장을 양의 창자에 채워 구운 음식이라고 되어 있어. 그리고 500년대의 북위의 제민요술이라는 농서엔 양의 기름이나 선지 따위를 섞은 다음 여러 양념을 하고 양의 대창에 넣어 삶은 뒤 잘라 먹는 양반장자해라는 요리가 쓰여 있어.",
+            "turn_id": "BK22005805-7",
+            "utterance_id": "BK22005805.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와우, 넌 정말 모르는 게 없구나. 정말 놀라워. 그런데 이건 내가 개인적으로 평소 궁금했던 건데, 순대는 도대체 어떻게 만드는 거야?",
+            "turn_id": "BK22005805-8",
+            "utterance_id": "BK22005805.15"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "순대의 껍질은 돼지 창자를 소금과 밀가루로 문질러 잡내를 없애서 만든다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "손질한 돼지 창자를 뒤집으면 깨끗한 면이 바깥으로 노출된다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 안에 두부, 숙주나물, 찹쌀과 각종 향신료와 함께 돼지피를 넣는다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 만든 순대를 가마솥에 쪄낸다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%9C%EB%8C%80",
+            "search_query": "순대 조리법",
+            "terminate": false,
+            "text": "먼저 돼지 창자를 밀가루와 소금으로 문지르고 잡내를 없애서 순대 껍질을 만들어. 그 다음 돼지 창자를 뒤집어 까면 깨끗한 부분이 바깥으로 나오거든? 거기에 숙주나물, 찹쌀 등 여러 향신료와 돼지피를 넣고 가마솥에 쪄내면 순대가 돼.",
+            "turn_id": "BK22005805-8",
+            "utterance_id": "BK22005805.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "넌 무슨 분식집 장사를 했던 사람 같아. 뭐든 다 잘 아네. 순대는 지역별로 차이가 많다고 들었는데, 혹시 순대가 지역별로 어떻게 다른지도 알려줄 수 있어?",
+            "turn_id": "BK22005805-9",
+            "utterance_id": "BK22005805.17"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "부산, 울산 및 경상남도 일부지역에서는 막장(쌈장)에, 다른 지역에서는 주로 양념 소금에 찍어먹으며, 돼지 간이나 허파 등의 부산물과 함께 팔기도 한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제주도에서는 순대를 간장에 찍어 먹는다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "충청도는 대게 새우젓과 먹으며, 광주 및 전북 전주, 완주 지방 등에서는 초장을 찍어 먹는다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%9C%EB%8C%80",
+            "search_query": "지역별 순대",
+            "terminate": false,
+            "text": "물론이지. 우선 충청도에선 보통 새우젓에 찍어 먹고, 제주도에선 간장에, 광주와 전북, 전주 등의 지방에선 초장을, 경상남도 일부와 부산, 울산에선 쌈장을 찍어 먹어. 주로 다른 지역에선 양념 소금을 찍어 먹는데, 돼지 허파나 간 같은 부산물과 같이 판매하기도 하지.",
+            "turn_id": "BK22005805-9",
+            "utterance_id": "BK22005805.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 지역별로 차이가 있구나. 몰랐었어. 마지막으로 순대라는 말이 어디에서 나온 말인지 알 수 있을까?",
+            "turn_id": "BK22005805-10",
+            "utterance_id": "BK22005805.19"
+        },
+        {
+            "reference_date": "2022-07-29",
+            "reference_text": [
+                {
+                    "value": "순대라는 말은 만주어로 순대를 뜻하는 ‘성기 두하(senggi-duha)’에서 유래하였는데, ‘성기’는 피를 뜻하며, ‘두하’는 창자를 뜻한다.",
+                    "value_time": "2022-08-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%9C%EB%8C%80",
+            "search_query": "순대 어원",
+            "terminate": false,
+            "text": "알았어, 알려주도록 하지. 만주어로 순대를 성기두하라고 하는데, 여기서 유래되었어. 성기 두하에서 성기는 피, 두하는 창자를 의미해.",
+            "turn_id": "BK22005805-10",
+            "utterance_id": "BK22005805.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 고마워! 정말 덕분에 많은 것들을 알아가게 된다. 외국인 친구 앞에서 당당할 수 있겠어.",
+            "turn_id": "BK22005805-11",
+            "utterance_id": "BK22005805.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 나도 많은 이야기들을 할 수 있어서 좋았어. 그럼 친구 잘 만나고, 다음에 봐!",
+            "turn_id": "BK22005805-11",
+            "utterance_id": "BK22005805.22"
+        }
+    ]
+}

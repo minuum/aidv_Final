@@ -1,0 +1,368 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007816",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007816",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너 세계 7대 불가사의라는 말 들어본 적 있지?",
+            "turn_id": "BK22007816-1",
+            "utterance_id": "BK22007816.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 피라미드같은 것 말하는 거잖아.",
+            "turn_id": "BK22007816-1",
+            "utterance_id": "BK22007816.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 요즘 그런 데 관심이 많이 가서 말이야. 마추픽추도 불가사의 중 하나더라고. 혹시 마추픽추가 뭔지 알아?",
+            "turn_id": "BK22007816-2",
+            "utterance_id": "BK22007816.3"
+        },
+        {
+            "reference_date": "2018-07-05",
+            "reference_text": [
+                {
+                    "value": "페루 남부 안데스 산맥에 위치해 있는 잉카문명의 유적지로, 1983년 유네스코 세계문화유산으로 등재됐다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "남아메리카 안데스 산맥의 해발 2,430m에 세워진 도시국가인 마추픽추는 15세기부터 16세기에 걸쳐 남아메리카 대륙을 지배한 대제국 잉카의 도시이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=67817&cid=43667&categoryId=43667",
+            "search_query": "마추픽추",
+            "terminate": false,
+            "text": "잘 알지. 마추픽추는 페루 남부지역 안데스 산맥의 해발 2천430미터에 세워진 도시국가인데 15세기에서 16세기에 걸쳐서 남아메리카 대륙을 지배했던 대제국 잉카문명 유적지야. 1983년에 유네스코 세계문화유산으로 등재된 곳이기도 하지.",
+            "turn_id": "BK22007816-2",
+            "utterance_id": "BK22007816.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 역시 잘 아는구나. 궁금한 거 너한테 좀 물어봐야겠다. 잉카 도시들이 거의 남아있는 게 없는데 마추픽추는 그대로 보존되어 있었다는 게 사실이야?",
+            "turn_id": "BK22007816-3",
+            "utterance_id": "BK22007816.5"
+        },
+        {
+            "reference_date": "2021-06-14",
+            "reference_text": [
+                {
+                    "value": "스페인 정복자들에 의해 잉카의 도시들은 모두 불타 사라졌지만 해발 2,400m에 만든 ‘공중도시’인 마추픽추는 아무런 영향을 받지 않았다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "덕분에 약 200개의 돌 구조물이 고대의 모습 그대로 보존되어 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://san.chosun.com/news/articleView.html?idxno=14950",
+            "search_query": "마추픽추 보존",
+            "terminate": false,
+            "text": "응. 당시 침략자인 스페인에 의해서 모든 잉카 도시들이 불에 타 사라져 버렸는데 해발 2400미터에 지어진 공중도시 마추픽추는 영향을 전혀 받지 않은 덕분에 200개 정도의 돌 구조물이 당시 모습대로 보존이 잘 되어있었어.",
+            "turn_id": "BK22007816-3",
+            "utterance_id": "BK22007816.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "높은 곳에 있어서 발견이 되지 않았나 보구나. 그렇게 숨겨져 있던 도시가 어떻게 발견되게 된 거야?",
+            "turn_id": "BK22007816-4",
+            "utterance_id": "BK22007816.7"
+        },
+        {
+            "reference_date": "2014-08-30",
+            "reference_text": [
+                {
+                    "value": "지난 1911년 7월 25일 미국 예일대 고고학자인 하이럼 빙엄(1875~1956)이 잉카의 마지막 요새 '빌카밤바'를 찾다 우연히 발견했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20140830.99002204727",
+            "search_query": "마추픽추 발견",
+            "terminate": false,
+            "text": "미국의 예일대 고고학자였던 하이런 빙엄이란 사람이 잉카의 마지막 요새였던 빌카밤바를 찾아다니다가 1911년 7월 25일에 마추픽추를 우연히 발견했어.",
+            "turn_id": "BK22007816-4",
+            "utterance_id": "BK22007816.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 걸 찾으려다 우연히 발견된 거구나. 그 당시에 높은 산에 왜 그런 도시를 만들게 된 걸까?",
+            "turn_id": "BK22007816-5",
+            "utterance_id": "BK22007816.9"
+        },
+        {
+            "reference_date": "2014-08-30",
+            "reference_text": [
+                {
+                    "value": "세계 7대 불가사의로 꼽히는 마추픽추의 건설 배경에는 많은 설이있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "잉카인들이 스페인 인들의 공격을 피해 산속 깊숙이 세웠다는 얘기와 군사를 훈련해서 스페인에 복수하기 위한 비밀도시, 자연재해를 피해 고지대에 만든 피난용 도시 등이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etoday.co.kr/news/view/976500",
+            "search_query": "마추픽추 건설 배경",
+            "terminate": false,
+            "text": "마추픽추를 만들 게 된 배경에는 여러 가지 설이 있는데 잉카사람들이 스페인의 공격을 피해 깊은 산속에 세웠다는 설이 있고, 스페인에 복수하기 위해 군사훈련을 하기 위한 비밀도시였다는 이야기도 있어. 또 자연재해를 피해서 피난용으로 높은 지대에 만든 도시라는 설도 있고.",
+            "turn_id": "BK22007816-5",
+            "utterance_id": "BK22007816.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴 오래전 일이라 정확하게 알기는 힘들겠구나. 그런데 마추픽추가 세계 7대 불가사의에 포함되는 이유는 뭐야?",
+            "turn_id": "BK22007816-6",
+            "utterance_id": "BK22007816.11"
+        },
+        {
+            "reference_date": "2019-09-12",
+            "reference_text": [
+                {
+                    "value": "또, 수레바퀴를 사용하지 않고 산 아래에서 돌을 가져와 건설해 그 비밀을 아직도 알 수 없어서 ‘세계 7대 불가사의’와 ‘세계 신(新) 7대 불가사의’에 속한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20190911164342800",
+            "search_query": "마추픽추 7대 불가사의",
+            "terminate": false,
+            "text": "아 그건 수레바퀴 같은 걸 이용하지도 않고 산 아래쪽에서 돌을 옮겨 도시를 건설했던 그 비밀에 대해 지금도 알 수가 없어서 세계 7대 불가사의라고 불리고 있지.",
+            "turn_id": "BK22007816-6",
+            "utterance_id": "BK22007816.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러고 보니 그 높은 곳에 돌을 어떻게 다 옮겼을까 정말 신기하긴 하다. 그 높은 곳에서 농업 활동도 한 흔적이 있다던데?",
+            "turn_id": "BK22007816-7",
+            "utterance_id": "BK22007816.13"
+        },
+        {
+            "reference_date": "2022-04-30",
+            "reference_text": [
+                {
+                    "value": "마추 픽추에서 이루어진 대부분의 농업은 계단식 농업이었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마추 픽추 인근에는 각각 3m의 높이를 가지는 단들이 모두 40개나 존재하고 있고, 약 3,000개나 되는 계단들로 이를 잇고 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 수 백개가 넘는 계단식 밭들을 사용하면, 산사태나 토양 유실의 위험 없이도 충분히 안정적인 식량 공급을 유지할 수 있었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%B6%94_%ED%94%BD%EC%B6%94",
+            "search_query": "마추픽추",
+            "terminate": false,
+            "text": "응. 마추픽추에서는 계단식 농업이 이루어졌는데 인근에 3천개가 되는 계단들로 이어져 있는 3미터 높이의 단이 40개가 있어서 이 계단을 밭으로 이용해 산사태나 흙의 유실 위험이 없이 안정적으로 식량 공급을 유지했었지.",
+            "turn_id": "BK22007816-7",
+            "utterance_id": "BK22007816.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 당시 계단식 농법이라니 상당히 과학적이었네. 마추픽추는 관광객들이 방문이 가능한 거지?",
+            "turn_id": "BK22007816-8",
+            "utterance_id": "BK22007816.15"
+        },
+        {
+            "reference_date": "2020-05-05",
+            "reference_text": [
+                {
+                    "value": "마추픽추는 1983년 유네스코 세계문화유산에 등재됐으며 문화유산 보호를 위해 일일 방문객 수를 500명으로 제한하고 있으니 사전 예약은 필수다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "늦어도 2달 전에는 예약하는 것이 좋고, 성수기에는 4달 전에 예약해야 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.outdoornews.co.kr/news/articleView.html?idxno=31785",
+            "search_query": "마추픽추 관광",
+            "terminate": false,
+            "text": "응. 아까 말했듯이 1983년에 유네스코 세계문화유산에 등재되었기 때문에 문화재 보호를 위해서 하루 방문객을 5백명으로 제한하고 있어. 그래서 사전 예약을 꼭 해야 하는데 가기 두 달 전에는 예약하는 게 좋고 성수기에는 적어도 4달 전에는 예약을 해야 해.",
+            "turn_id": "BK22007816-8",
+            "utterance_id": "BK22007816.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예약을 하고 가야하는구나! 마추픽추 가는 방법도 혹시 알아?",
+            "turn_id": "BK22007816-9",
+            "utterance_id": "BK22007816.17"
+        },
+        {
+            "reference_date": "2018-07-02",
+            "reference_text": [
+                {
+                    "value": "보통 마추픽추는 오전 6시에 입장을 시작하며 마추픽추를 올라가기 위해서는 마을과 마추픽추를 오가는 셔틀버스를 이용하면 된다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "셔틀버스는 오전 5시 30분부터 운행을 시작하며 왕복 버스 셔틀 표를 끊어놓고 버스를 타면 바로 마추픽추 입구 앞에서 내릴 수 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.obsnews.co.kr/news/articleView.html?idxno=1103022",
+            "search_query": "마추픽추 가는 방법",
+            "terminate": false,
+            "text": "보통 아침 6시에 입장이 시작되기 때문에 마추픽추까지 올라가려면 마을과 마추픽추를 왕복하는 셔틀버스를 이용하면 되는데 셔틀버스는 오전 5시 30분부터 운행하고 있어. 셔틀버스 왕복 티켓을 끊어서 타면 마추픽추 입구 바로 앞에서 내릴 수 있게 되어있어.",
+            "turn_id": "BK22007816-9",
+            "utterance_id": "BK22007816.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 일찍부터 올라가는 사람이 있나 보다. 정말 언젠가는 꼭 가보고 싶은 곳이야.",
+            "turn_id": "BK22007816-10",
+            "utterance_id": "BK22007816.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "탐험을 즐기는 사람에게는 꿈의 여행지지.",
+            "turn_id": "BK22007816-10",
+            "utterance_id": "BK22007816.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 미안한데 나 약속이 있어서 이만 가봐야 할 것 같아. 오늘 얘기 정말 잘 들었어.",
+            "turn_id": "BK22007816-11",
+            "utterance_id": "BK22007816.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 잘 자고 다음에 또 보자.",
+            "turn_id": "BK22007816-11",
+            "utterance_id": "BK22007816.22"
+        }
+    ]
+}

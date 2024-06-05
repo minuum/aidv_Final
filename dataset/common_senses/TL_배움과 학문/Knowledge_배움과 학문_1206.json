@@ -1,0 +1,347 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008023",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008023",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 하멜 표류기를 읽었어요. 외국인의 시각으로 본 조선의 모습이 너무 재미있더라고요. 그런데 거꾸로 조선 사람이 외국에 표류한 사건은 없었나요?",
+            "turn_id": "BK22008023-1",
+            "utterance_id": "BK22008023.1"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "문순득(文順得, 1777년 ~ 1847년)은 조선의 어물 장수였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신안군 일대에서 활동하였다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바다에서 표류하여 유구국, 마카오 여송 등에 머물렀던 인물로 잘 알려져 있다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%88%9C%EB%93%9D",
+            "search_query": "문순득 신안군 유구국 마카오",
+            "terminate": false,
+            "text": "문순득이라는 인물이 있었어요. 1777년에 태어나 1847년에 죽은 그는 조선에서 해산물을 파는 상인이었어요. 신안군 일대에서 활동하던 그는 바다에서 표류하는 바람에 유구국, 마카오, 여송 등에 머물렀던 사람이죠.",
+            "turn_id": "BK22008023-1",
+            "utterance_id": "BK22008023.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마카오는 알겠는데 유구국이라는 나라도 있었나 보네요? 유구국이 대체 어디에요?",
+            "turn_id": "BK22008023-2",
+            "utterance_id": "BK22008023.3"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "류큐국(오키나와어: 琉球國 루츄쿠쿠) 혹은 유구국(琉球國) 또는 대유구국(오키나와어: 大琉球國 티루츄쿠쿠)은 동중국해의 남동쪽, 지금의 일본 오키나와현 일대에 위치한 독립 왕국이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A5%98%ED%81%90%EA%B5%AD",
+            "search_query": "유구국 독립 왕국 오키나와",
+            "terminate": false,
+            "text": "대유구국, 혹은 류큐국이라고도 불리는 유구국은 동중국해 동남쪽, 그러니까 지금의 일본 오키나와 일대에 있던 독립 왕국이었어요.",
+            "turn_id": "BK22008023-2",
+            "utterance_id": "BK22008023.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 일본 오키나와였군요? 신안이랑은 엄청나게 떨어져 있는 곳인데 어쩌다가 문순득은 거기까지 표류했나요?",
+            "turn_id": "BK22008023-3",
+            "utterance_id": "BK22008023.5"
+        },
+        {
+            "reference_date": "2020-04-07",
+            "reference_text": [
+                {
+                    "value": "문순득은 홍어만 전문으로 취급하는 이름난 대상(大商)으로 1801년 12월 숙부 등 여섯 명의 일행과 홍어를 구입하러 흑산도를 다녀오던 길에 풍랑을 만나 표류하게 되었습니다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "순풍을 이용해야만 움직일 수 있는 풍선(風船: 돗단배)을 타고 며칠간이나 망망대해를 떠돌던 끝에 지금은 동양의 화와이로 불리는 류큐(유구:현 오키나와)에 표착할 수 있었습니다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20200407010002424",
+            "search_query": "문순득 홍어 흑산도 표류",
+            "terminate": false,
+            "text": "당시 문순득은 홍어를 전문으로 취급하는 유명한 거상이었는데 1801년 12월에 숙부 등 여섯 명의 일행과 함께 홍어를 매입하려고 흑산도를 다녀오던 길에 풍랑을 만나 표류하게 됐죠. 순풍이 불어야 움직일 수 있는 돛단배였던 탓에 여러 날 바다를 떠돌다가 오키나와까지 떠밀려 갔죠.",
+            "turn_id": "BK22008023-3",
+            "utterance_id": "BK22008023.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "낯선 곳에 갑자기 표류했으니 굉장히 무서웠을 거 같아요. 유구국은 문순득 일행을 어떻게 처리했나요?",
+            "turn_id": "BK22008023-4",
+            "utterance_id": "BK22008023.7"
+        },
+        {
+            "reference_date": "2019-05-16",
+            "reference_text": [
+                {
+                    "value": "당시 류큐 왕국에는 이미 문순득 일행과 같은 표류민을 보살피고 본국으로 송환까지 해주는 공식적인 시스템이 있었다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 일행과 함께 매일 1인당 쌀 한 되 다섯 홉, 채소 여러 그릇, 하루걸러 돼지고기를 지급받았고, 몸이 아프면 의료 서비스도 제공받을 수 있었다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=34571",
+            "search_query": "류큐 왕국 문순득 송환",
+            "terminate": false,
+            "text": "당시 유구국에는 문순득 일행 같은 표류자들을 잘 돌봐서 본국까지 돌려보내 주는 공식적인 체계가 있었어요. 그래서 문순득은 일행과 함께 매일 1인당 쌀 한 되 다섯 홉, 채소 여러 그릇, 이틀마다 돼지고기까지 공급받았고 아프면 의료 혜택도 받을 수 있었죠.",
+            "turn_id": "BK22008023-4",
+            "utterance_id": "BK22008023.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의외로 굉장히 친절한 국가였네요. 그럼 문순득 일행은 언제 유구국을 떠나는 건가요?",
+            "turn_id": "BK22008023-5",
+            "utterance_id": "BK22008023.9"
+        },
+        {
+            "reference_date": "2019-05-16",
+            "reference_text": [
+                {
+                    "value": "도착한 지 아홉 달이 되던 1802년 10월, 일행은 류큐 조정의 알선으로 청나라로 돌아가는 사신단에 포함되어 귀국을 위한 여정에 올랐다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=34571",
+            "search_query": "문순득 류큐 청나라 사신단",
+            "terminate": false,
+            "text": "1802년 10월, 그러니까 표착한 지 9달이 됐던 때에 유구국 정부의 알선으로 청나라에 돌아가는 사신단의 일행이 되어 귀국 여정에 올랐어요.",
+            "turn_id": "BK22008023-5",
+            "utterance_id": "BK22008023.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 잘됐네요. 아, 그런데 문순득이 오키나와만 간 건 아니잖아요? 혹시 조선으로 돌아가던 길에 무슨 문제라도 생긴 건가요?",
+            "turn_id": "BK22008023-6",
+            "utterance_id": "BK22008023.11"
+        },
+        {
+            "reference_date": "2020-04-07",
+            "reference_text": [
+                {
+                    "value": "그러나 또다시 풍랑을 만나 이번에는 유구보다 훨씬 멀리 남쪽으로 떠내려갔으나 다행히 좌초는 되지 않고 여송국(呂宋國 현:필리핀) 마닐라 해변으로 간신히 오를 수 있었습니다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20200407010002424",
+            "search_query": "문순득 여송국 풍랑",
+            "terminate": false,
+            "text": "예리하시네요. 하필 또 풍랑을 만나서 이번에는 유구국보다 훨씬 멀리 남쪽으로 표류했어요. 그래도 좌초는 면해서 필리핀 마닐라 해변에 간신히 상륙했죠.",
+            "turn_id": "BK22008023-6",
+            "utterance_id": "BK22008023.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 기구한 팔자네요. 하필 집에 돌아가는 길에 또 풍랑을 만나서 필리핀까지 떠내려가다니요. 필리핀에서 그들은 어떻게 지냈나요?",
+            "turn_id": "BK22008023-7",
+            "utterance_id": "BK22008023.13"
+        },
+        {
+            "reference_date": "2020-04-07",
+            "reference_text": [
+                {
+                    "value": "이들은 여송국에서 9개월여 머무르며 언어도 배우고 신기하고 새로운 서양 문물을 접하며 유창하지는 못 했지만 의사소통이 가능해지자 겨우 중국행 상선을 얻어 탈 수 있었습니다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20200407010002424",
+            "search_query": "문순득 여송국 중국 상선",
+            "terminate": false,
+            "text": "이들은 9개월여 동안 필리핀에 머무르면서 그곳의 언어를 습득하고 처음 보는 서양 문물들을 접하기도 했어요. 덕분에 잘하지는 못해도 의사소통이 가능한 수준이 됐고 겨우 중국으로 가는 상선을 얻어 탈 수 있었죠.",
+            "turn_id": "BK22008023-7",
+            "utterance_id": "BK22008023.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청난 적응력이네요. 그런데 문순득 일행은 대체 언제 조선에 돌아가는 거죠? 왠지 또 뭔가 사건이 발생할 거 같아요.",
+            "turn_id": "BK22008023-8",
+            "utterance_id": "BK22008023.15"
+        },
+        {
+            "reference_date": "2019-05-16",
+            "reference_text": [
+                {
+                    "value": "1803년 8월, 문순득 일행은 마침내 루손을 출발해 한 달 뒤 광둥의 마카오에 도착한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그해 12월 마카오를 출발해 다섯 달 만에 베이징에 도착한 이들은 반년의 기다림 끝에 조선 연행사와 함께 꿈에 그리던 고국으로 향할 수 있었고, 이듬해인 1805년 1월에야 고향인 우이도에 발을 디뎠다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=34571",
+            "search_query": "문순득 마카오 조선 연행사",
+            "terminate": false,
+            "text": "하하, 그렇진 않았어요. 1803년 8월에 루손을 출항한 문순득 일행은 한 달 뒤 광둥의 마카오에 도착했어요. 그리고 동년 12월에 마카오를 출발했고 다섯 달이 걸려 북경에 도착한 그들은 반년 동안 거기서 대기했다가 조선 연행사와 함께 드디어 조선으로 출발할 수 있었죠. 그리고 그다음 해인 1805년 1월이 되어서야 겨우 고향인 우이도에 도착할 수 있었어요.",
+            "turn_id": "BK22008023-8",
+            "utterance_id": "BK22008023.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "3년이 넘는 정말 기나긴 여정이었군요. 문순득은 평민인데 그런 그의 모험기가 어떻게 이렇게 세세하게 역사에 기록된 건가요?",
+            "turn_id": "BK22008023-9",
+            "utterance_id": "BK22008023.17"
+        },
+        {
+            "reference_date": "2019-05-16",
+            "reference_text": [
+                {
+                    "value": "1801년, 신유박해로 정약전이 흑산도로 유배되었다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 인근 바다의 어족 자원에 대한 기록인 〈자산어보〉를 쓰는 과정에서 문순득을 알게 되고, 그의 이야기를 날짜별 기록으로 남겼다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisain.co.kr/news/articleView.html?idxno=34571",
+            "search_query": "문순득 정약전 자산어보",
+            "terminate": false,
+            "text": "1801년에 신유박해로 정약전이 흑산도로 유배됐는데 그가 근해의 어족 자원에 대한 기록인 자산어보를 집필하는 과정에서 문순득을 알게 됐어요. 그래서 그의 이야기를 날짜별로 기록했죠.",
+            "turn_id": "BK22008023-9",
+            "utterance_id": "BK22008023.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정약전 선생님이 아니었다면 이 재미있는 이야기가 후대에 전해지지 않았을 수도 있었겠네요. 오늘도 재미있는 역사 이야기 들려주셔서 감사합니다.",
+            "turn_id": "BK22008023-10",
+            "utterance_id": "BK22008023.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "재미있었다고 하시니 저도 뿌듯하네요. 다음에도 모르는 게 있으면 편하게 질문 주세요.",
+            "turn_id": "BK22008023-10",
+            "utterance_id": "BK22008023.20"
+        }
+    ]
+}

@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001307",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001307",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 어학 자격증 준비 하셨나요?",
+            "turn_id": "BK22001307-1",
+            "utterance_id": "BK22001307.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 영어 말하는 건가요? 네, 저는 토익스피킹을 따놨어요.",
+            "turn_id": "BK22001307-1",
+            "utterance_id": "BK22001307.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "토익스피킹? 아, 영어 말하기 시험으로 알고 있는데 맞나요?",
+            "turn_id": "BK22001307-2",
+            "utterance_id": "BK22001307.3"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "TOEIC(Test Of English for International Communication, 토익)은 영어가 모국어가 아닌 사람들을 대상으로 의사소통 능력을 평가하는 시험(Standardized Test)이다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1979년 미국 ETS (Educational Testing Service)에서 개발되어, 대한민국에는 1982년 도입되었다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC#TOEIC_Speaking",
+            "search_query": "토익 스피킹",
+            "terminate": false,
+            "text": "네, 영어 말하기 시험 맞아요. 영어가 모국어가 아닌 사람들을 대상하는 하는 시험인데 미국ETS에서 개발해서 한국에는 80년도에 도입됐죠.",
+            "turn_id": "BK22001307-2",
+            "utterance_id": "BK22001307.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "들어봤어요, 토스라고 많이 줄여서 말하더라구요. 토익처럼 점수가 나뉘어져 있나요?",
+            "turn_id": "BK22001307-3",
+            "utterance_id": "BK22001307.5"
+        },
+        {
+            "reference_date": "2022-05-04",
+            "reference_text": [
+                {
+                    "value": "문제 유형 간에는 쉬운 문제보다 어려운 문제에 가중치가 적용되고 총점은 0점에서 200점의 점수 범위로 환산된다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "채점 결과 0점에서 200점 사이의 점수와 8개의 등급이 부여된다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/TOEIC#TOEIC_Speaking",
+            "search_query": "토익스피킹",
+            "terminate": false,
+            "text": "네, 점수는 0점에서 200점 사이로 가중치를 따져서 책정하고요, 그 점수를 8단계로 나눠서 등급을 줘요.",
+            "turn_id": "BK22001307-3",
+            "utterance_id": "BK22001307.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스피킹 시험의 인기가 생긴지 얼마 안된것 같은데 기업에서 많이들 활용할까요?",
+            "turn_id": "BK22001307-4",
+            "utterance_id": "BK22001307.7"
+        },
+        {
+            "reference_date": "2021-06-22",
+            "reference_text": [
+                {
+                    "value": "현재, 토익, 토익스피킹 시험은 국내 1,700여 개 기업 및 기관 등에서 활용되고 있다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.metroseoul.co.kr/article/20210622500135",
+            "search_query": "토익스피킹 난이도",
+            "terminate": false,
+            "text": "네. 토익, 토익스피킹시험 둘 다 1700여개 기업에서 활용하고 있대요.",
+            "turn_id": "BK22001307-4",
+            "utterance_id": "BK22001307.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 많이들 활용하고 있네요. 방학동안 단기완성을 하고싶은데 가능할까요?",
+            "turn_id": "BK22001307-5",
+            "utterance_id": "BK22001307.9"
+        },
+        {
+            "reference_date": "2022-05-27",
+            "reference_text": [
+                {
+                    "value": "틈새 시간을 활용해 효과적으로 학습할 수 있는 짧은 교육 과정이 직장인들 사이에서 인기다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이에 교육업계는 효율적으로 시간 관리를 하며 학습을 할 수 있는 빠르고 효과적인 프로그램을 다양하게 선보이고 있다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202205270530531172",
+            "search_query": "토익스피킹 공부법",
+            "terminate": false,
+            "text": "꼭 방학에만 몰아서 할게아니라 틈새 시간에 짧게 짧게 공부할 수 있는 프로그램들이 요즘 많이 나왔으니까 그런거 한번 써보세요. 직장인들도 많이 해요.",
+            "turn_id": "BK22001307-5",
+            "utterance_id": "BK22001307.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런가요? 근데 저는 방학동안에 바짝해서 도전해 보고 싶어서요.",
+            "turn_id": "BK22001307-6",
+            "utterance_id": "BK22001307.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방학기간이라면 한달 반밖에 안남았군요.",
+            "turn_id": "BK22001307-6",
+            "utterance_id": "BK22001307.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 맞아요. 이것도 다른 시험들처럼 시험일정이 매주 있는건가요?",
+            "turn_id": "BK22001307-7",
+            "utterance_id": "BK22001307.13"
+        },
+        {
+            "reference_date": "2021-11-29",
+            "reference_text": [
+                {
+                    "value": "내년 상반기 토익스피킹 정기시험은 1월1일을 시작으로 매주 토요일과 일요일에 실시된다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20211129_0001668054&cID=13001&pID=13000",
+            "search_query": "토익스피킹 시험일정",
+            "terminate": false,
+            "text": "그럼요, 매주 토요일과 일요일에 실시되고 있어요.",
+            "turn_id": "BK22001307-7",
+            "utterance_id": "BK22001307.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주말에만 실시하는군요, 평일에는 일정이 없는건가요?",
+            "turn_id": "BK22001307-8",
+            "utterance_id": "BK22001307.15"
+        },
+        {
+            "reference_date": "2020-09-07",
+            "reference_text": [
+                {
+                    "value": "YBM 홀딩스(대표이사 회장 민선식) 산하 YBM 한국TOEIC위원회는 삼성, 현대차, 포스코 그룹 등 주요 기업의 하반기 채용 일정이 발표됨에 따라 취업준비생의 입사 지원 편의를 위해 9월 8일(화), 9월 9일(수), 9월 10일(목) 평일 시험을 추가 시행한다고 밝혔다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busaneconomy.com/news/articleView.html?idxno=212005",
+            "search_query": "토익스피킹 평일시험",
+            "terminate": false,
+            "text": "대기업의 공채시즌에는 취업준비생들을 위해 평일에도 추가시험일정을 잡을때가 종종 있어요. 몇년 전에도 9월달에 하반기 일정에 맞춰서 평일 시험을 추가했었죠.",
+            "turn_id": "BK22001307-8",
+            "utterance_id": "BK22001307.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응시료가 많이 비싸서 부담이 되던데 지원받을 수 있는 방법이 있을까요?",
+            "turn_id": "BK22001307-9",
+            "utterance_id": "BK22001307.17"
+        },
+        {
+            "reference_date": "2021-05-09",
+            "reference_text": [
+                {
+                    "value": "한국TOEIC위원회 관계자는 “각 지자체에서 취준생을 대상으로 어학시험 응시료 등 다양한 지원제도를 운영하고 있다”며 “본인이 거주하는 지자체에서 어떤 지원 프로그램이 있는지 확인하고 도움을 받길 바란다”고 말했다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.viva100.com/main/view.php?key=20210509010001537",
+            "search_query": "토익스피킹 응시료",
+            "terminate": false,
+            "text": "시에서 취업준비생들을 위해 토익스피킹 응시료를 지원하는곳들이 있던데 한번 찾아보세요.",
+            "turn_id": "BK22001307-9",
+            "utterance_id": "BK22001307.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한번 찾아봐야겠어요. 영어 공부 하는김에 직장생활에서 사용되면 좋겠는데, 도움이 되겠죠?",
+            "turn_id": "BK22001307-10",
+            "utterance_id": "BK22001307.19"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "지난 4월 11일 한국TOEIC위원회가 발표한 직장인 대상 ‘직장 생활에서의 영어 사용’에 관한 설문조사 결과에 따르면, 10명 중 8명(84%)이 ‘직장 생활에서 영어 능력이 도움이 된다’고 답변했다.",
+                    "value_time": "2022-06-14",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20220526084228784118",
+            "search_query": "토익스피킹 인터넷강의 효과",
+            "terminate": false,
+            "text": "당연하죠. 토익위원회가 회사 다니는 사람들 상대로 설문도 한 적 있는데 열에 여덟은 도움이 된다고 했어요.",
+            "turn_id": "BK22001307-10",
+            "utterance_id": "BK22001307.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇구나, 그럼 진짜 열심히 해봐야 겠네요. 오늘 이것 저것 알려주셔서 감사해요. 다음에 또 뵐게요.",
+            "turn_id": "BK22001307-11",
+            "utterance_id": "BK22001307.21"
+        }
+    ]
+}

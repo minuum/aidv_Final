@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008668",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008668",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 지인이 법무사 자격증을 준비 중이라던데 혹시 어떤 직업인지 아시나요?",
+            "turn_id": "BK22008668-1",
+            "utterance_id": "BK22008668.1"
+        },
+        {
+            "reference_date": "2020-01-01",
+            "reference_text": [
+                {
+                    "value": "법무사는 타인의 위촉에 의하여 법원이나 검찰청에 제출할 서류, 법원과 검찰청의 관련된 서류, 등기 도는 등록 신청에 필요한 서류를 작성하고 그 제출을 대행하는 직무를 수행하는 직업이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=2051",
+            "search_query": "법무사",
+            "terminate": false,
+            "text": "그러시군요, 법무사는 타인의 위촉에 의해 서류 작성과 제출을 대행하는 일을 하는 직업이에요. 여기서 말하는 서류는 법원이나 검찰청에 제출할 서류 또는 그 외 연관된 서류나 등기 또는 등록 신청에서 필요한 서류를 말해요.",
+            "turn_id": "BK22008668-1",
+            "utterance_id": "BK22008668.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니 저도 관심이 생기는데 법무사 자격증 시험은 1년에 몇 번이나 치러지나요?",
+            "turn_id": "BK22008668-2",
+            "utterance_id": "BK22008668.3"
+        },
+        {
+            "reference_date": "2014-12-02",
+            "reference_text": [
+                {
+                    "value": "법무사시험은 1992년에 시작돼 4회까지는 격년제로 시행되다가 1999년 제5회 시험부터는 해마다 치러지고 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lawtimes.co.kr/Legal-News/Legal-News-View?serial=89006",
+            "search_query": "법무사 자격증 시험",
+            "terminate": false,
+            "text": "1992년에 시행되기 시작한 법무사 시험은 4회까지는 격년제로 시행되다가 1999년 제5회 시험부터 해마다 시행하고 있어요.",
+            "turn_id": "BK22008668-2",
+            "utterance_id": "BK22008668.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해마다 시행하고 있군요, 제가 듣기로는 법무사 시험은 1차와 2차가 있다던데 시험 과목은 각각 어떻게 되나요?",
+            "turn_id": "BK22008668-3",
+            "utterance_id": "BK22008668.5"
+        },
+        {
+            "reference_date": "2022-04-12",
+            "reference_text": [
+                {
+                    "value": "법무사 시험과목은 1차 시험의 경우 헌법, 상법, 민법, 가족관계의 등록 등에 관한 법률, 민사집행법, 상업등기법 및 비송사건절차법, 부동산등기법, 공탁법이며 객관식 필기시험으로 치러진다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2차 시험은 주관식 논술형으로 실시되며 시험과목은 민법, 형법, 형사소송법, 민사소송법, 민사사건 관련 서류의 작성, 부동산등기법, 등기신청서류의 작성이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gosiweek.com/22160",
+            "search_query": "법무사 자격증 시험 과목",
+            "terminate": false,
+            "text": "1차 시험은 객관식 필기로 치러지며 과목은 헌법과 상법, 민법, 가족관계의 등록 등에 관한 법률, 민사집행법, 상업등기법 및 비송사건절차법, 부동산등기법, 공탁법이에요. 2차 시험은 주관식 논술형으로 과목은 민법과 형법, 형사소송법, 민사소송법, 민사사건 관련 서류의 작성, 부동산등기법, 등기신청 서류의 작성이에요.",
+            "turn_id": "BK22008668-3",
+            "utterance_id": "BK22008668.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 인원은 얼마나 뽑는지, 경쟁률은 어느 정도인지 궁금해요.",
+            "turn_id": "BK22008668-4",
+            "utterance_id": "BK22008668.7"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "법무사 1차시험의 경우 2차시험 합격자의 3배가량으로 합격자를 결정하는 상대평가로 운영되고 있어 응시자의 증가는 곧 경쟁률 증가로 이어진다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 올해는 2차시험 합격예정인원이 120명에서 130명으로 증가했으나 이를 반영해도 1차 경쟁률(최종 합격예정인원 대비 3배수 기준)은 지난해 6.94대 1에서 7.72대 1로 높아졌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=729130",
+            "search_query": "법무사 자격증 시험 경쟁률",
+            "terminate": false,
+            "text": "일단 1차 시험은 2차 시험 합격자의 3배 정도의 인원을 뽑으며 상대평가로 응시자가 많을수록 경쟁률도 높아져요. 합격 예정 인원이 올해에는 기존 120명에서 130명으로 많아졌지만, 경쟁률은 7.72 대 1로 지난해 경쟁률인 6.94 대 1에 비해 높아졌어요.",
+            "turn_id": "BK22008668-4",
+            "utterance_id": "BK22008668.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상대평가라니, 그럼 합격선은 어느 정도 되나요?",
+            "turn_id": "BK22008668-5",
+            "utterance_id": "BK22008668.9"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "2021년 제27회 법무사 1차시험의 합격선은 지난해 보다 2.5점 하락한 62.5점으로 결정됐다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "2019년에도 타 전문자격시험의 평균 과락 기준에 해당하는 60점에 그쳤다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=729130",
+            "search_query": "법무사 자격증 시험 합격선",
+            "terminate": false,
+            "text": "2021년 제27회 법무사 1차 시험의 경우 62.5로 지난해에 비해 2.5점 하락했어요. 2019년에도 다른 전문자격시험의 평균 과락 기준인 60점에 그쳤고요.",
+            "turn_id": "BK22008668-5",
+            "utterance_id": "BK22008668.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경쟁률은 높은데 합격선은 하락한 건가요? 그런 이유는 뭘까요?",
+            "turn_id": "BK22008668-6",
+            "utterance_id": "BK22008668.11"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "대부분의 과목에서 40점 미만에 해당하는 과락률이 큰 폭으로 상승했고 합격자 평균 점수 등의 기록에서도 하락세가 뚜렷하게 나타난 것.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 같은 경쟁률 상승에도 불구하고 합격선이 하락한 원인은 과목 전반에 걸친 난도 상승에 의한 것으로 보인다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=729130",
+            "search_query": "법무사 자격증 시험 합격선 하락",
+            "terminate": false,
+            "text": "대부분의 과목에서 40점 미만으로 과락률이 크게 높아졌고, 합격자 평균 점수 등의 기록에서도 하락세를 보였는데 전반적인 과목의 난이도가 높아진 이유라고 볼 수 있어요.",
+            "turn_id": "BK22008668-6",
+            "utterance_id": "BK22008668.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 그럼 합격자 연령이 어느 정도인지 궁금해요.",
+            "turn_id": "BK22008668-7",
+            "utterance_id": "BK22008668.13"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "한편 이번 1차시험 합격자의 연령은 41세~50세, 51세~60세가 각 139명으로 가장 많았다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이어 31~40세 48명, 30세 이하 39명이 합격했다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "61세 이상도 38명이 합격자 명단에 이름을 올리는 등 연령대가 높은 수험생들의 선전이 돋보이는 법무사시험의 특성이 유지됐다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최연소 합격자는 19세였으며 최고령자는 72세였다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=729130",
+            "search_query": "법무사 자격증 합격자",
+            "terminate": false,
+            "text": "2021년 치러진 시험의 경우 1차 합격자는 41세에서 50세, 51세에서 60세가 각 139명으로 가장 많았고, 31세에서 40세가 48명, 30세 이하는 39명이었어요. 또 61세 이상도 38명이 합격하며 연령대가 높은 수험생들도 있었는데 최고령자 합격자는 72세, 최연소 합격자는 19세였어요.",
+            "turn_id": "BK22008668-7",
+            "utterance_id": "BK22008668.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대단하네요, 시험에 합격하면 그다음 절차는 어떻게 되는지, 법무사로 활동할 수 있는 곳은 어디인지 알려주세요.",
+            "turn_id": "BK22008668-8",
+            "utterance_id": "BK22008668.15"
+        },
+        {
+            "reference_date": "2020-01-01",
+            "reference_text": [
+                {
+                    "value": "합격자로서 법무사 업무를 하려면 법무사규칙에 따라 대한법무사협회가 주관하는 소정의 연수교육을 이수하고 지방법무사회를 거쳐 대한법무사협회에 등록하여야 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "등록을 한 후 업무를 시작하려면 소속 지방법무사회를 감독하는 지방법원의 관할 구역에 사무소를 설치하고 업무개시 신고를 하여야 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "개인 사무소 외에 3명 이상의 법무사로 구성된 합동사무소 또는 5명 이상의 법무사로 구성된 법무사합동법인을 설립할 수 있으며, 이밖에 기업의 법제과나 법률 관련 업무부서, 합동법률 사무소 등에 소속되어 활동할 수 있고, 개인 법무사 사무소를 설립할 수도 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lcnews.co.kr/news/articleView.html?idxno=2051",
+            "search_query": "법무사 자격증 연수 교육",
+            "terminate": false,
+            "text": "합격자는 법무사 규칙에 따라 대한 법무사 협회의 연수교육을 이수 후 지방법무사회를 거쳐 대한 법무사 협회에 등록해야 해요. 그런 다음 소속 지방법무사회를 감독하는 지방법원의 관할 구역에 사무소를 설치하고 업무개시 신고를 하면 업무를 시작할 수 있어요. 개인 사무소나 3명 이상의 법무사가 일하는 합동사무소, 5명 이상의 법무사가 일하는 법무사 합동법인을 설립할 수 있고, 또는 기업의 법제과나 법률 관련 업무 부서, 합동법률 사무소 등에서 활동할 수 있어요.",
+            "turn_id": "BK22008668-8",
+            "utterance_id": "BK22008668.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 법무사라는 직업에 대해 궁금했었는데 오늘 새로운 정보를 많이 알 수 있었네요.",
+            "turn_id": "BK22008668-9",
+            "utterance_id": "BK22008668.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 궁금한 게 있으면 언제든 물어보세요.",
+            "turn_id": "BK22008668-9",
+            "utterance_id": "BK22008668.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 도움 주셔서 너무 감사해요.",
+            "turn_id": "BK22008668-10",
+            "utterance_id": "BK22008668.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 다음에 또 대화 나눠요.",
+            "turn_id": "BK22008668-10",
+            "utterance_id": "BK22008668.20"
+        }
+    ]
+}

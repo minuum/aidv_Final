@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008689",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008689",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아인슈타인에 관해 잘 아세요? 세계적인 위인 중 한 사람을 골라서 발표하는 숙제를 받았는데, 저는 아인슈타인으로 해보려고요.",
+            "turn_id": "BK22008689-1",
+            "utterance_id": "BK22008689.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아인슈타인은 내가 좀 알지! 내가 뭘 도와주면 돼?",
+            "turn_id": "BK22008689-1",
+            "utterance_id": "BK22008689.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 몇 가지 좀 물어볼게요. 전 아직 아인슈타인에 관해 잘 모르는데, 우선 아인슈타인이 어떤 인물인지 자세히 알려주세요.",
+            "turn_id": "BK22008689-2",
+            "utterance_id": "BK22008689.3"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "알베르트 아인슈타인(독일어: Albert Einstein, 독일어 발음: [ˈalbɛʁt ˈʔaɪnʃtaɪn], 영어: Albert Einstein 앨버트 아인스타인[*], 1879년 3월 14일 ~ 1955년 4월 18일)은 독일 태생의 이론물리학자로서[1] 역사상 가장 위대한 물리학자 중의 한 명으로 널리 알려져 있다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "상대성 이론을 개발한 것으로 유명하지만 양자역학 이론의 발전에도 중요한 공헌을 했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%95%84%EC%9D%B8%EC%8A%88%ED%83%80%EC%9D%B8",
+            "search_query": "아인슈타인",
+            "terminate": false,
+            "text": "아인슈타인은 1879년 3월 14일 독일 태생의 이론물리학자인데, 지구 역사상 가장 위대한 물리학자로 꼽히는 인물이야. 상대성 이론을 개발한 업적으로 잘 알려졌지만, 양자역학 이론의 발전에도 큰 공헌을 했어.",
+            "turn_id": "BK22008689-2",
+            "utterance_id": "BK22008689.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "상대성 이론이랑 양자역학 이론 전부 들어는 봤는데 뭔지 잘 모르겠어요, 하하. 어쨌든 가장 위대한 물리학자 중 한 사람이라면, 아인슈타인은 노벨 물리학상을 탔겠네요?",
+            "turn_id": "BK22008689-3",
+            "utterance_id": "BK22008689.5"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "무엇보다도 상대성원리라는 중력에 관한 탁월한 이론을 창출함으로써 과학적 탐구의 기반을 구축한 공로로, 아인슈타인은 1921년(43세)에 노벨물리학상을 수상했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 노벨물리학상",
+            "terminate": false,
+            "text": "응. 아인슈타인은 1921년 마흔셋의 나이로 노벨물리학상을 받았어. 중력에 관한 탁월한 이론인 상대성원리를 만들어내서 과학적 탐구의 기반을 구축한 공로였지.",
+            "turn_id": "BK22008689-3",
+            "utterance_id": "BK22008689.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아인슈타인은 머리가 엄청 좋은 사람인가 봐요. 어린 시절에는 어떤 아이였나요?",
+            "turn_id": "BK22008689-4",
+            "utterance_id": "BK22008689.7"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "유년 시절의 아인슈타인은 4살까지도 말을 어눌하게 할 정도로 지진아였 고, 9살이 되어서야 겨우 글을 깨우칠 정도로 비교적 발육이 느린 아이였으며, 성격도 활달한 편은 아니었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 5살 때 아버지가 선물로 준 나침반의 흔들흔들 움직이는 자침의 배후에 인력을 초월 한 알 수 없는 어떤 힘이 숨어 있다는 것을 느낌으로써, 훗날 자연 법칙의 탐구에 큰 업적을 남길 과학자로서의 기질이 이때 이미 그 싹을 보였다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 자서전에서는 이 때의 경험이 자신의 생애에 큰 영향을 미쳤다고 쓰고 있다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 어린시절",
+            "terminate": false,
+            "text": "아인슈타인은 네 살까지 말이 어눌하다가 아홉 살이 되었을 때야 겨우 글을 깨우친 지진아였어. 활달한 성격도 아니었고. 하지만 다섯 살 때 이미 자연법칙의 탐구에 지대한 업적을 달성할 과학자의 자질이 보였지. 다섯 살 나이에 아빠가 선물한 나침반을 보며, 흔들거리는 자침의 배후에 인력을 벗어난 알 수 없는 힘이 숨어 있다고 느꼈거든. 이때의 경험은 아인슈타인의 삶에 큰 영향을 미쳤어.",
+            "turn_id": "BK22008689-4",
+            "utterance_id": "BK22008689.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어렸을 적부터 과학자로서의 싹이 보였네요. 그럼 아인슈타인의 학교생활은 어땠나요?",
+            "turn_id": "BK22008689-5",
+            "utterance_id": "BK22008689.9"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "1885년(6세), 뮌헨의 카톨릭 초등학교 에 입학했으나 엄격한 권위주의적 교육에 흥미를 잃었고, 1888년에 입학한 뮌헨 루이트의 김나지움(Luitpold Gymnasium)에서는 자신 이 좋아 했던 수학과 라틴어 공부에 몰입했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "12세 무렵에 처음으 로 접한 유클리드 평면 기하학의 매력에 매료되었던 아인슈타인은 어린시절의 아인슈타인ⓒWikipedia 이 때 이미 물리학자가 되겠다는 꿈을 갖고 이공학적 천재의 기질을 다져나갔으나, 학교생활에 잘 적응하지를 못하고 김나지움을 중퇴했다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 학교",
+            "terminate": false,
+            "text": "1885년 여섯 살 때 뮌헨에 있는 가톨릭 초등학교에 입학했는데 권위주의적이고 엄격한 교육에 재미를 느끼지 못했어요. 그다음 뮌헨 루이트 김나지움에 1888년에 입학해서는 흥미를 느꼈던 수학과 라틴어 공부에 집중했어요. 게다가 12살에 처음 알게 된 유클리드 평면 기하학에도 푹 빠져있는 등 물리학자가 되겠다는 꿈을 품고 이공학적 천재성을 다듬어나갔지만, 학교생활에는 적응하지 못해 김나지움을 중퇴하게 되죠.",
+            "turn_id": "BK22008689-5",
+            "utterance_id": "BK22008689.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학교생활에는 잘 맞지 않았군요! 그럼 아인슈타인은 대학 졸업 후에 어떻게 지냈어요? 바로 물리학자가 된 건가요?",
+            "turn_id": "BK22008689-6",
+            "utterance_id": "BK22008689.11"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "1900년(21세) 봄날, 대학을 졸업한 후 스위스 시민이 되었으나, 제때 취업이 되지 않아 가정교사로서 수학을 가르치며 어려운 생활을 하던 중 스위스 시민권을 취득하게 되고 이듬 해, 베른에 있는 스위스 특허사무소에 취업이 되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 대학 졸업",
+            "terminate": false,
+            "text": "아니. 스물한 살이 된 1900년에 대학을 졸업했는데, 빨리 취업이 안 돼서 수학을 가르치는 가정교사로 어려운 생활을 이어 나갔어. 그러던 중 스위스 시민권을 얻고 다음 해에 베른에 위치한 스위스 특허사무소에 취업이 됐어.",
+            "turn_id": "BK22008689-6",
+            "utterance_id": "BK22008689.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 아인슈타인이 가정교사를 하던 시절도 있었군요. 그러고 보니 아인슈타인은 두 번 결혼하지 않았나요? 첫 번째 부인은 어떤 사람이었죠?",
+            "turn_id": "BK22008689-7",
+            "utterance_id": "BK22008689.13"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "1903년(24세)에 대학시절의 애인 밀레바 마리치와 결혼을 했는데, 수학과 과학에 뛰어난 재능을 가진 밀레바는 1895년, 세계적인 특허청 재직시의 아인슈타인ⓒWikipedia 명문 취리히연방공과대학에 여학생으로서는 유일하게 입학 할 정도로 장래가 촉망되는 여성 물리학도였다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 결혼 부인",
+            "terminate": false,
+            "text": "스물네 살이 됐을 때 밀레바 마리치라는 대학 시절 애인과 결혼했어. 밀레바는 과학과 수학에 큰 재능을 가진 인물이었는데, 명문 취리히 연방 공과대학에 입학한 유일한 여학생이었을 정도로 장래가 밝은 여성 물리학도였지.",
+            "turn_id": "BK22008689-7",
+            "utterance_id": "BK22008689.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "똑똑한 사람들끼리 결혼했네요. 근데 두 사람은 왜 이혼한 거예요?",
+            "turn_id": "BK22008689-8",
+            "utterance_id": "BK22008689.15"
+        },
+        {
+            "reference_date": "2017-09-10",
+            "reference_text": [
+                {
+                    "value": "1917년, 아인슈타인은 카이저 빌헬름 연구소의 소장에 취임하였으나, 그 동안의 과로 탓으로 위암진단을 받고 치료를 받게 되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때 육촌누이 엘자 뢰벤탈의 지극한 간호의 덕택으로 다시 건강을 되찾게 되고, 헌신적인 엘자에게서 사랑을 느끼게 되어 부인 밀레바와는 더욱 소원해지는 계기가 되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 1918년 세계 1차 대전이 끝나면서 밀레바와의 관계도 끝나게 되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이혼 조건으로 아인슈타인은 노벨상을 수상할 경우 상금을 밀레바에게 주겠다고 약속을 했고, 3년 뒤 아인슈타인은 노벨물리학상을 수상하게 되었을 때 약속대로 상금 모두를 밀레바에게 주었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.nobelscience.net/news/articleView.html?idxno=544",
+            "search_query": "아인슈타인 밀레바 마리치 이혼",
+            "terminate": false,
+            "text": "음, 1917년에 카이저 빌헬름 연구소 소장으로 취임한 아인슈타인은 그간의 과로 때문에 위암 진단을 받아 치료를 받게 됐는데, 이때 육촌누이인 엘자 뢰벤탈이 정성을 다해 간호해준 덕분에 건강을 되찾아. 이 과정에서 엘자의 헌신적인 모습에 사랑에 빠진 아인슈타인은 부인 밀레바와는 서먹서먹해졌지. 그러다 세계 1차대전이 끝난 1918년에 두 사람의 관계는 끝나. 아인슈타인은 이혼 조건으로 자신이 노벨상을 탈 경우 밀레바에게 상금을 주겠다고 했고, 실제로 3년 뒤 노벨물리학상을 수상한 아인슈타인은 상금 전부를 그녀에게 줬어.",
+            "turn_id": "BK22008689-8",
+            "utterance_id": "BK22008689.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠 그래도 약속은 지켰군요. 참, 아인슈타인이 발표한 논문에는 어떤 것들이 있어요?",
+            "turn_id": "BK22008689-9",
+            "utterance_id": "BK22008689.17"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "1900년 아인슈타인의 논문 \"모세관 현상으로부터의 결론(Folgerungen aus den Capillaritätserscheinungen)\"이 《물리학 연보Annalen der Physik》 저널에 게재되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 1905년, 아인슈타인의 기적의 해(annus mirabilis)라고 불리는 해에, 그는 광전 효과, 브라운 운동, 특수 상대성이론, 질량과 애너지의 등가성에 관한 기적의 해 논문들을 발표했는데, 그것들은 26세의 나이에 학계의 주목을 받게 된 계기가 되었다.",
+                    "value_time": "2022-09-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%95%84%EC%9D%B8%EC%8A%88%ED%83%80%EC%9D%B8",
+            "search_query": "아인슈타인 논문",
+            "terminate": false,
+            "text": "1900년도에 모세관 현상으로부터의 결론이라는 논문을 물리학 연보 저널에 실었어. 또 기적의 해라고 불리는 1905년에 브라운 운동, 광전 효과, 특수 상대성이론, 질량과 에너지의 등가성에 관한 기적의 해 논문들을 발표했지. 이 논문들은 그가 스물여섯이라는 젊은 나이에 학계의 관심을 한 몸에 받은 계기가 됐어.",
+            "turn_id": "BK22008689-9",
+            "utterance_id": "BK22008689.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 내일은 아인슈타인의 기적의 해 논문들에 관해 알려주실 수 있어요? 전 이제 학원 갈 시간이 다 됐어요. 더 듣고 싶은데 아쉽네요.",
+            "turn_id": "BK22008689-10",
+            "utterance_id": "BK22008689.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 그럼 내일 기적의 해 논문들도 자세히 알려줄게. 내일도 나는 시간이 많으니까.",
+            "turn_id": "BK22008689-10",
+            "utterance_id": "BK22008689.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 아인슈타인에 관해 잘 알려주셔서 감사해요!",
+            "turn_id": "BK22008689-11",
+            "utterance_id": "BK22008689.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 학원 수업 재미있게 들으렴.",
+            "turn_id": "BK22008689-11",
+            "utterance_id": "BK22008689.22"
+        }
+    ]
+}

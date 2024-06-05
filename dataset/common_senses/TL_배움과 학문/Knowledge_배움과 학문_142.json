@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011808",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011808",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중간고사 기간이 얼마 남지 않았는데, 전공과목 중에 마케팅이 제일 난관이야.",
+            "turn_id": "BK22011808-1",
+            "utterance_id": "BK22011808.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 전공과목들을 공부할 시간도 필요할 텐데, 난감하겠네. 내가 뭐 도와줄 수 있는 부분 있으면 말해봐.",
+            "turn_id": "BK22011808-1",
+            "utterance_id": "BK22011808.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 마케팅은 트렌드가 중요하다 보니까, 자꾸 새로운 용어들이 생겨나서 외우기가 어려워. 가성비, 가심비까지는 들어봤어도 가잼비는 또 처음 들어봤네. 알고 보니 생긴 지는 좀 된 용어라던데, 혹시 가잼비가 무슨 뜻인지 알려줄 수 있어?",
+            "turn_id": "BK22011808-2",
+            "utterance_id": "BK22011808.3"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "사실 가잼비라는 단어는 몇 년 전부터 나왔던 용어다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가잼비(가격 대비 재미를 찾는 소비자의 줄임말)이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지난해 소비 트렌드가 가성비, 가심비였다면 이번 해는 가잼비라고 말할 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.artinsight.co.kr/news/view.php?no=61614",
+            "search_query": "가잼비",
+            "terminate": false,
+            "text": "맞아, 가잼비라는 용어는 몇 년 전에 등장한 단어야. 가잼비는 가격 대비 재미를 찾는 소비자를 의미하는데, 지난해의 소비 트렌드가 가성비와 가심비였다면 올해는 가잼비라고 볼 수 있지.",
+            "turn_id": "BK22011808-2",
+            "utterance_id": "BK22011808.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 펀슈머 마케팅과 비슷한 맥락이겠네? 펀슈머가 어떤 단어의 조합으로 만들어진 단어지?",
+            "turn_id": "BK22011808-3",
+            "utterance_id": "BK22011808.5"
+        },
+        {
+            "reference_date": "2022-09-21",
+            "reference_text": [
+                {
+                    "value": "이와 같은 맥락에서 ‘펀슈머(fun+consumer)’마케팅이 뜨고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "펀슈머 마케팅이란, 소비자들이 물건을 구매할 때 상품에 대한 재미 요소를 소비할 수 있도록 포착하고 그 과정에서 즐거움을 느낄 수 있도록 한 마케팅이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.artinsight.co.kr/news/view.php?no=61614",
+            "search_query": "가잼비 펀슈머",
+            "terminate": false,
+            "text": "맞아, 비슷한 맥락으로 펀슈머 마케팅도 떠오르고 있지. 펀슈머는 fun과 consumer가 만나 탄생한 단어야. 펀슈머 마케팅은 소비자들이 구매 과정에서 상품에 대한 재미 요소를 소비할 수 있도록 포착하고, 동시에 그 과정에서 즐거움을 느낄 수 있도록 하는 마케팅을 의미해.",
+            "turn_id": "BK22011808-3",
+            "utterance_id": "BK22011808.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 요즘 그런 마케팅 기법을 적용하는 브랜드가 참 많이 보이는 것 같아. 특히 식품업계에서 종종 보이는 것 같은데, 실제로 펀슈머 마케팅을 중점적으로 활용해?",
+            "turn_id": "BK22011808-4",
+            "utterance_id": "BK22011808.7"
+        },
+        {
+            "reference_date": "2022-05-26",
+            "reference_text": [
+                {
+                    "value": "덕분에 식품업계에서는 '펀슈머(Fun+Consumer, 재미를 추구하는 소비자)' 마케팅이 한창이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "맛은 물론, 새로운 재미까지 선사하는 제품을 출시하는 것.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=57951",
+            "search_query": "식품업계 펀슈머",
+            "terminate": false,
+            "text": "응, 실제로 식품업계에서 재미를 추구하는 소비자들을 위한 펀슈머 마케팅이 한창이야. 상품의 맛은 물론이고, 재미까지 보태서 새로움을 선사하는 제품을 만드는 거지.",
+            "turn_id": "BK22011808-4",
+            "utterance_id": "BK22011808.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그런 독특한 신제품들을 꽤 자주 본 것 같아. 식품업계 외에 유통업계 쪽에서도 펀슈머 마케팅이 활발한 것 같던데, 어떤 활동들이 있어?",
+            "turn_id": "BK22011808-5",
+            "utterance_id": "BK22011808.9"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "이러한 트렌드에 유통업계 전반에서 소비 속 재미를 추구하는 MZ세대의 마음을 사로잡는 ‘펀슈머 마케팅’ 활동을 펼치고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "온라인과 오프라인의 경계를 넘어선 인공지능(AI)·증강현실(AR) 활용한 다양한 서비스가 확대되고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://digitalchosun.dizzo.com/site/data/html_dir/2022/04/07/2022040780114.html",
+            "search_query": "펀슈머 AI AR",
+            "terminate": false,
+            "text": "유통업계 전반에서도 역시 펀슈머 마케팅을 적극적으로 펼치고 있어. 특히 소비 속 재미를 중요시하는 MZ세대를 겨냥한 마케팅이지. 이에는 오프라인과 온라인의 경계를 넘어선 증강현실이나 인공지능을 활용한 서비스들이 확대되고 있는 추세야.",
+            "turn_id": "BK22011808-5",
+            "utterance_id": "BK22011808.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 증강현실이라고 하니 갑자기 한 브랜드가 떠오르네. 한 아웃도어 브랜드에서 AR 필터를 활용한 캠페인을 펼치지 않았어?",
+            "turn_id": "BK22011808-6",
+            "utterance_id": "BK22011808.11"
+        },
+        {
+            "reference_date": "2022-03-14",
+            "reference_text": [
+                {
+                    "value": "디지털 트렌드인 AR 필터를 활용한 참여형 이벤트로, 답답한 일상을 벗어나 색다른 세상 밖으로 떠나자는 캠페인 메시지를 효과적으로 전달한다는 계획이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022031415060508781",
+            "search_query": "컬럼비아 AR",
+            "terminate": false,
+            "text": "맞아, AR 필터는 디지털 트렌드 중 하나인데 이를 활용한 참여형 이벤트였지. 갑갑한 일상에서 벗어나 세상 바깥의 색다른 즐거움을 느끼러 떠나자는 메시지를 효과적으로 전달하는 것이 해당 캠페인의 목적이었어.",
+            "turn_id": "BK22011808-6",
+            "utterance_id": "BK22011808.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "패션업계에도 펀슈머 마케팅이 한창이구나. 다른 의류 브랜드에서는 아바타를 활용한 마케팅을 펼쳤다고 들었는데, 그건 어떤 내용인지 알 수 있을까?",
+            "turn_id": "BK22011808-7",
+            "utterance_id": "BK22011808.13"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "해당 플랫폼은 가상의 공간에서 소비자가 자신만의 아바타를 만들고 이를 1500개 이상의 앱과 게임에서 자유롭게 활용할 수 있도록 지원한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아디다스 오리지널스는 지난 4월에 메타버스 아바타 플랫폼 '레디 플레이어 미'와 손잡고 오즈월드 아바타 생성 플랫폼을 출시했다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220908_0002007682&cID=13001&pID=13000",
+            "search_query": "아디다스 메타버스 아바타",
+            "terminate": false,
+            "text": "의류 브랜드와 메타버스 아바타 플랫폼이 합작해 아바타 생성 플랫폼을 출시했어. 이 플랫폼은 가상의 공간 안에서 소비자가 각자의 아바타를 만들고, 1500개 이상의 앱과 게임에서 자유로이 이용할 수 있도록 지원하지.",
+            "turn_id": "BK22011808-7",
+            "utterance_id": "BK22011808.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 시도들을 많이 하는구나. 아 참, 심지어 국내 보험업계 쪽에서도 펀슈머 마케팅을 적용하기 시작했다던데. 젊은 세대들을 공략하기 위한 방법일까?",
+            "turn_id": "BK22011808-8",
+            "utterance_id": "BK22011808.15"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "국내 보험사들이 이종산업간 협업과 사회관계망서비스(SNS)를 통한 이색 마케팅에 주력하고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘디지털’과 ‘펀슈머(Fun+Consumer, 상품에 대한 재미를 소비하는 소비자)’를 중시하는 MZ세대 이목 끌기에 나선 것이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ceoscoredaily.com/page/view/2021070715414899901",
+            "search_query": "보험업계 펀슈머",
+            "terminate": false,
+            "text": "맞아, 펀슈머는 물론이고 디지털을 중요시하는 MZ세대의 주목을 끌기 위해서 국내 보험사들이 나선 것이지. 이종 산업 간의 협업과 SNS를 통한 이색 마케팅에 주력하는 추세야.",
+            "turn_id": "BK22011808-8",
+            "utterance_id": "BK22011808.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "의류업계, 유통업계를 넘어 보험업계까지 바뀌는 걸 보니 신기하다. 젊은 세대 공략 외에 다른 환경적 이유도 있을까?",
+            "turn_id": "BK22011808-9",
+            "utterance_id": "BK22011808.17"
+        },
+        {
+            "reference_date": "2021-07-07",
+            "reference_text": [
+                {
+                    "value": "이는 저출산·저금리 기조 장기화로 보험업황이 악화된 데다, 신종 코로나바이러스 감염증(코로나19) 사태 이후 언택트(Untact, 비대면) 수요가 급격히 늘어났기 때문이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ceoscoredaily.com/page/view/2021070715414899901",
+            "search_query": "언택트시대 보험업계 변화",
+            "terminate": false,
+            "text": "응 있어, 저출산과 저금리 기조의 장기화 때문에 보험 업황이 악화되기도 했고 코로나19 사태 이후로 비대면 수요 역시 급격하게 늘어났기 때문이지.",
+            "turn_id": "BK22011808-9",
+            "utterance_id": "BK22011808.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시대에 맞춘 변화들이 계속되고 있구나. 오늘 알려준 내용들 큰 도움이 됐어, 정말 고마워!",
+            "turn_id": "BK22011808-10",
+            "utterance_id": "BK22011808.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 나도 뿌듯하네. 다음에도 궁금한 점 있으면 얼마든지 물어봐!",
+            "turn_id": "BK22011808-10",
+            "utterance_id": "BK22011808.20"
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.4,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007159",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007159",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 3.6,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 손 씻기와 소독은 필수잖아? 그러면서 비누와 소독제에 대해서 궁금해졌어.",
+            "turn_id": "BK22007159-1",
+            "utterance_id": "BK22007159.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금한 것이 있으면 얼마든지 물어봐.",
+            "turn_id": "BK22007159-1",
+            "utterance_id": "BK22007159.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "먼저 비누가 정확히 무엇일까? 매일 쓰는 건데도 정확히 뭔지 모르겠어.",
+            "turn_id": "BK22007159-2",
+            "utterance_id": "BK22007159.3"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "비누(영어: Soap)는 세수를 하거나, 빨래를 할 때 사용하는 계면활성제로, 지방과 수산화 나트륨의 중합 반응에 의해 생성된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%88%84",
+            "search_query": "비누",
+            "terminate": false,
+            "text": "우리가 세수하고 빨래할 때 사용하는 이 비누는 계면활성제야. 지방과 수산화나트륨의 중합 반응으로 만들지.",
+            "turn_id": "BK22007159-2",
+            "utterance_id": "BK22007159.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계면활성제라는 말은 처음 들어보는데 그게 어떤 거지?",
+            "turn_id": "BK22007159-3",
+            "utterance_id": "BK22007159.5"
+        },
+        {
+            "reference_date": "2019-08-26",
+            "reference_text": [
+                {
+                    "value": "계면활성제란 말 그대로 물과 기름(기름때)을 섞어주어 세정이 잘 되게 하는 역할을 하는 것을 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "원래는 지방산염 만을 사용하였으며, 전통적인 비누의 주성분이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지방(또는 오일)은 동물성과 식물성이 있는데 소와 돼지기름 같은 동물성지방은 주로 포화지방이 많고 지방분자가 커서 이것으로 만든 비누는 단단하고 거칠어서 주로 빨랫비누로 사용한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%82%B0%EC%84%B1%EB%B9%84%EB%88%84%EA%B0%80-%EB%A7%8C%EB%93%A4%EA%B8%B0%EA%B0%80-%EC%96%B4%EB%A0%A4%EC%9A%B4-%EC%9D%B4%EC%9C%A0/",
+            "search_query": "계면활성제",
+            "terminate": false,
+            "text": "계면활성제는 물과 기름이 섞이도록 해 세정이 이루어지도록 하는 역할을 해. 보통 비누의 주성분은 지방산염이야. 지방에는 동물성과 식물성으로 나뉘는데, 소와 돼지기름 같은 동물성 지방은 포화지방이 높고 지방 분자가 커서 단단하고 거친 비누가 만들어져. 동물성 지방 비누 예시로는 빨랫비누가 있어.",
+            "turn_id": "BK22007159-3",
+            "utterance_id": "BK22007159.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비누는 그럼 기름때에 적합하겠는걸? 그럼 우리가 화장실이나 주방 소독에 사용하는 락스는 어떤 거야?",
+            "turn_id": "BK22007159-4",
+            "utterance_id": "BK22007159.7"
+        },
+        {
+            "reference_date": "2020-03-08",
+            "reference_text": [
+                {
+                    "value": "락스는 미국의 클로락스사가 차아염소산나트륨 수용액을 클로락스라는 제품명으로 판매하던 것을 뒤에 '락스' 글자만 따와 국내에서 시판된 것으로 일반명사화된 단어이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.chemicalnews.co.kr/news/articleView.html?idxno=1782",
+            "search_query": "락스",
+            "terminate": false,
+            "text": "락스는 차아염소산나트륨 수용액이야. 락스라는 이름은 차아염소산나트륨 수용액을 판매하던 미국의 클로락스사의 제품에서 왔어. 제품 이름은 클로락스였는데 여기서 뒷글자만 따와 우리나라에서 시판되었고 지금까지 일반명사화되었지.",
+            "turn_id": "BK22007159-4",
+            "utterance_id": "BK22007159.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 아는 제품도 다 이 이름을 딴 거겠다. 그런데 차아염소산나트륨이 어떤 거야? 너무 상세하게 설명하면 어려우니까 간단하게만 말해줘.",
+            "turn_id": "BK22007159-5",
+            "utterance_id": "BK22007159.9"
+        },
+        {
+            "reference_date": "2022-03-12",
+            "reference_text": [
+                {
+                    "value": "차아염소산나트륨(次亞鹽素酸Natrium,화학식 NaClO) 또는 하이포아염소산나트륨(Sodium hypochlorite)은 수산화 나트륨(NaOH) 용액에 염소 가스(Cl2)를 가하여 합성되는 차아염소산염이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 물질을 산소와 반응시키는 성질이 강해 표백제, 소독제, 산화제 따위로 이용된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%95%84%EC%97%BC%EC%86%8C%EC%82%B0%EB%82%98%ED%8A%B8%EB%A5%A8",
+            "search_query": "차아염소산나트륨",
+            "terminate": false,
+            "text": "차아염소산나트륨은 수산화나트륨 용액에 염소가스를 넣어 만든 차아염소산염이야. 차아염소선나트륨은 다른 물질이 산소와 반응하도록 하는 성질이 있어. 이 때문에 표백제나 소독제, 산화제로 사용돼.",
+            "turn_id": "BK22007159-5",
+            "utterance_id": "BK22007159.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "산소와 반응한다는 건 분자나 원자가 산소를 얻거나 또는 수소나 전자를 잃는 것을 말하잖아. 이런 반응에서는 소독이 될 수밖에 없을 것 같기도 해. 소독제라는 말이 나왔으니 이어서 알코올에 대해서 가르쳐 줘.",
+            "turn_id": "BK22007159-6",
+            "utterance_id": "BK22007159.11"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "화학에서 알코올(alcohol)은 하이드록시기(-OH)가 탄소 원자에 결합된 유기 화합물을 말한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 중 술의 주요 성분인 에탄올(C2H5OH)은 알코올을 대표하며, 일반적으로 알코올은 에탄올이 포함된 음료인 술을 지칭하기도 한다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "알코올은 용매나 연료로 쓰인다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "에탄올은 독성이 낮으며 물질을 녹이는 성질이 뛰어나기 때문에 약품이나 향수 등의 용매로 쓰인다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%8C%EC%BD%94%EC%98%AC",
+            "search_query": "알코올",
+            "terminate": false,
+            "text": "알코올은 유기 화합물로 하이드록시기가 탄소 원자에 결합되어 있어. 에탄올은 알코올의 대표적인 물질인데, 술의 주요 성분이기도 하지. 그래서 우리는 에탄올이 포함된 음료인 술을 알코올이라고 하는 거지. 알코올의 또 다른 용도로는 용매나 연료로 쓰이는데, 독성이 낮은 에탄올은 물질을 녹이는 성질이 좋아서 약품이나 향수 같은 용매로 사용돼.",
+            "turn_id": "BK22007159-6",
+            "utterance_id": "BK22007159.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알코올과 더불어 에탄올에 대해서도 알게 되었네. 그럼 메탄올은 뭐야?",
+            "turn_id": "BK22007159-7",
+            "utterance_id": "BK22007159.13"
+        },
+        {
+            "reference_date": "2022-05-06",
+            "reference_text": [
+                {
+                    "value": "메탄올(영어: methanol, 독일어: Methanol), 화학식 CH3OH), 메틸알코올, 목정(木精)은 가장 간단한 알코올 화합물로 무색의 휘발성, 가연성, 유독성 액체이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "에탄올과 메탄올은 알코올이라는 같은 부류의 물질이며, 성질이 비슷하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단지, 메탄올이 에탄올에 비해 탄소와 수소를 적게 포함하고 있기 때문에 메탄올의 끓는점이 에탄올보다 낮다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%84%EC%98%AC",
+            "search_query": "메탄올",
+            "terminate": false,
+            "text": "메탄올은 휘발성, 가연성, 유독성이 있는 무색 액체로 가장 간단한 알코올 화합물이지. 에탄올과 메탄올은 알코올의 같은 부류의 물질이라 비슷한 성질을 가지고 있지. 다만 메탄올이 에탄올 보다 탄소와 수소를 적게 가지고 있어서 에탄올보다 끓는 점이 낮아.",
+            "turn_id": "BK22007159-7",
+            "utterance_id": "BK22007159.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 물질적인 성질은 비슷하겠지만 아까 유독성 물질이라고 하지 않았어? 두 물질의 위험도는 차이가 있는 거지?",
+            "turn_id": "BK22007159-8",
+            "utterance_id": "BK22007159.15"
+        },
+        {
+            "reference_date": "2020-05-19",
+            "reference_text": [
+                {
+                    "value": "이름만 봐서는 유사해보이지만 에탄올은 술로도 음용이 가능한 안전한 유기화합물인 반면 메탄올은 소량이라도 섭취할 경우 시신경을 손상해 실명을 초래할 수 있고 피부에 닿기만 해도 경피 흡수가 이루어지는 독성을 갖고 있다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mkhealth.co.kr/news/articleView.html?idxno=46164",
+            "search_query": "에탄올 메탄올",
+            "terminate": false,
+            "text": "에탄올과 메탄올은 이름으로 봤을 때는 유사해 보이지만, 에탄올은 아까 말했듯이 술의 성분인 만큼 안전한 유기화합물인 반면, 메탄올은 조금만 섭취해도 시신경이 손상해 실명이 될 수 있어. 그리고 피부에 닿는 것만으로도 경피 흡수가 이루어지는 독성이 있지.",
+            "turn_id": "BK22007159-8",
+            "utterance_id": "BK22007159.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메탄올의 독성은 정말 위험하다. 메탄올의 독성에 대해서 한 가지만 더 설명해줘.",
+            "turn_id": "BK22007159-9",
+            "utterance_id": "BK22007159.17"
+        },
+        {
+            "reference_date": "2020-04-01",
+            "reference_text": [
+                {
+                    "value": "메탄올은 인체 내에 흡수될 때 간에서 포름알데하이드(1군 발암물질)라는 물질로 변환되어 인체에 치명적이다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "메탄올은 아들 격인 포름알데하이드, 포름알데하이드는 손자 격인 포름산(formic acid, 개미산)으로 산화된다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "포름산은 2%의 저농도에서도 가려움증을 유발하고, 이의 농도가 10% 이상인 경우에는 부식성이 나타나기 때문에 피부나 눈에 닿으면 위험하다.",
+                    "value_time": "2022-09-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejunews.com/news/articleView.html?idxno=2160703",
+            "search_query": "메탄올 포름알데히드",
+            "terminate": false,
+            "text": "메탄올은 몸 안에 들어가면 간에서 1군 발암물질인 포름알데하이드라는 물질로 변환되어서 정말 위험해. 그리고 포름알데하이드는 포름산으로 산화되는데, 포름산은 2%의 저농도도 가려움증을 일으키지. 10% 이상의 농도는 부식성이 일어나 피부나 눈에 닿으면 치명적이지.",
+            "turn_id": "BK22007159-9",
+            "utterance_id": "BK22007159.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메탄올과 에탄올 구분을 잘해야겠는 걸? 오늘 덕분에 비누와 소독제에 대해서 많이 알게 되었어. 시간 내줘서 고마워.",
+            "turn_id": "BK22007159-10",
+            "utterance_id": "BK22007159.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에, 도움이 필요하면 얼마든지 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22007159-10",
+            "utterance_id": "BK22007159.20"
+        }
+    ]
+}

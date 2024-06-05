@@ -1,0 +1,364 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013280",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013280",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "롯데월드타워를 제2의 랜드마크라고 부르던데, 맞나요?",
+            "turn_id": "BK22013280-1",
+            "utterance_id": "BK22013280.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 랜드마크의 뜻을 고려하면 왠지 그렇게 부를 수도 있을 것 같네요.",
+            "turn_id": "BK22013280-1",
+            "utterance_id": "BK22013280.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "랜드마크의 정확한 뜻이 어떻게 되는데요?",
+            "turn_id": "BK22013280-2",
+            "utterance_id": "BK22013280.3"
+        },
+        {
+            "reference_date": "44740.0",
+            "reference_text": [
+                {
+                    "value": "랜드마크(영어: landmark) 또는 경계표(境界標) 혹은 마루지는 원래 탐험가나 여행자 등이 특정 지역을 돌아다니던 중에 원래 있던 장소로 돌아올 수 있도록 표식을 해둔 것을 가리키는 말이었다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 오늘날에는 뜻이 더 넓어져 건물이나 타워, 문화재, 상징물, 조형물 등이 어떤 곳을 상징적으로 대표할 때 랜드마크라고 칭한다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%93%9C%EB%A7%88%ED%81%AC",
+            "search_query": "랜드마크",
+            "terminate": false,
+            "text": "랜드마크는 원래 탐험가 혹은 여행자가 특정한 지역을 돌아다닐 때에 원래 있던 장소로 올 수 있게 표식을 해 둔 것을 의미하는데요. 오늘날에는 뜻이 확장되어 건물이나 타워, 문화재, 조형물 등이 그 지역을 상징적으로 대표하는 경우에도 쓰여요.",
+            "turn_id": "BK22013280-2",
+            "utterance_id": "BK22013280.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그럼 대표적인 랜드마크 몇 개만 소개해 주실래요?",
+            "turn_id": "BK22013280-3",
+            "utterance_id": "BK22013280.5"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "기자의 대피라미드(영어: Great Pyramid of Giza, Pyramid of Khufu)는 이집트 카이로, 기자에 있는 피라미드들 중 하나로, 기자의 피라미드들 중 가장 크고 가장 오래되었다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대피라미드는 세계 7대 불가사의 중 하나이자, 7개의 불가사의들 중에서 유일하게 현존하고 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9E%90%EC%9D%98_%EB%8C%80%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "피라미드",
+            "terminate": false,
+            "text": "우선 이집트 카이로, 기자의 대피라미드가 랜드마크의 예가 될 수 있죠. 기자의 피라미드들 중에 가장 크고 오래되었죠. 이 대피라미드는 세계 7대 불가사의이기도 하고, 유일하게 현존하고 있기도 해요.",
+            "turn_id": "BK22013280-3",
+            "utterance_id": "BK22013280.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그런데 피라미드의 용도는 무엇이었어요?",
+            "turn_id": "BK22013280-4",
+            "utterance_id": "BK22013280.7"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "피라미드 내부의 방에 있는 기록에 의하면, 이 피라미드는 이집트 제4왕조의 파라오였던 쿠푸의 무덤으로 추정된다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9E%90%EC%9D%98_%EB%8C%80%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "이집트 제4왕조 무덤",
+            "terminate": false,
+            "text": "이 피라미드의 내부에 방이 있었는데, 그 안에 있는 기록에 따르면 이집트 제4왕조 파라오인 쿠푸의 무덤이라고 추정하고 있어요.",
+            "turn_id": "BK22013280-4",
+            "utterance_id": "BK22013280.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앗, 무덤이었다니 깜짝 놀랐어요. 왠지 자유의 여신상도 랜드마크일 것 같은데, 미국 어디에 있었죠?",
+            "turn_id": "BK22013280-5",
+            "utterance_id": "BK22013280.9"
+        },
+        {
+            "reference_date": "44750.0",
+            "reference_text": [
+                {
+                    "value": "자유의 여신상(自由의 女神像, 영어: Statue of Liberty 스태추 오브 리버티 국립기념물, 프랑스어: Statue de la Liberté 스타튀 드 라 리베르테)은 미국 뉴욕 리버티섬에 있는 건축물로, 뉴욕을 상징하는 대표적인 건축물이며, 세계를 밝히는 자유(영어: Liberty Enlightening the World 리버티 인라이트닝 더 월드, 프랑스어: La liberté éclairant le monde 라 리베르테 에클레랑 르 몽드)라는 이름으로, 프랑스가 19세기 말에 미국의 독립 100주년을 축하하기 위해 제작한 동상이다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%9C%A0%EC%9D%98_%EC%97%AC%EC%8B%A0%EC%83%81",
+            "search_query": "자유의 여신상",
+            "terminate": false,
+            "text": "미국 뉴욕 리버티섬에 있는 뉴욕을 상징하는 건축물 중 하나인 자유의 여신상은 세계를 밝히는 자유라는 이름으로 19세기 말에 미국 독립 100주년을 축하하고자 프랑스에서 제작한 동상이에요.",
+            "turn_id": "BK22013280-5",
+            "utterance_id": "BK22013280.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "프랑스에서 제작한 줄 몰랐네요. 자유의 여신상은 언제 유네스코 세계문화유산으로 등재됐어요?",
+            "turn_id": "BK22013280-6",
+            "utterance_id": "BK22013280.11"
+        },
+        {
+            "reference_date": "42870.0",
+            "reference_text": [
+                {
+                    "value": "1984년 유네스코 세계문화유산으로 지정된 자유의 여신상은 지금도 여전히 전 세계 사람들에게 자유와 평화, 그리고 기술적 경이로움에 대한 영감을 주고 있다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%ED%98%91%EC%97%85%EC%9C%BC%EB%A1%9C-%EC%99%84%EC%84%B1%EB%90%9C-19%EC%84%B8%EA%B8%B0-%EA%B1%B8%EC%9E%91/",
+            "search_query": "자유의 여신상 세계문화유산",
+            "terminate": false,
+            "text": "자유의 여신상은 1984년 유네스코 세계문화유산으로 등재됐고, 현재도 전 세계의 사람들에게 자유와 평화, 기술적 경이로움을 느끼게 해 주고 있어요.",
+            "turn_id": "BK22013280-6",
+            "utterance_id": "BK22013280.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "등재가 된 지는 그리 오래되지 않았네요. 유럽에는 어떤 대표적인 랜드마크가 있나요?",
+            "turn_id": "BK22013280-7",
+            "utterance_id": "BK22013280.13"
+        },
+        {
+            "reference_date": "44794.0",
+            "reference_text": [
+                {
+                    "value": "빅 벤(Big Ben)은 영국 런던의 웨스트민스터 궁전 북쪽 흔히 종뿐만 아니라 시계탑 자체도 빅 벤이라고 부른다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1858년에 세워진 빅 벤은 수많은 작품에서 런던을 상징하는 장소로 등장한 바 있으며, 매년 약 12,000명의 관광객이 찾는 대표적인 명소이기도 하다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%85_%EB%B2%A4",
+            "search_query": "빅 벤",
+            "terminate": false,
+            "text": "영국 런던에 있는 종을 포함한 시계탑인 빅 벤이 있는데요. 웨스트민스터 궁전 북쪽에 위치하고 있는데, 1858년에 세워져서 런던을 상징하는 장소로 많은 작품에서 쓰이고 있어요. 실제로 매년 12000명이나 되는 관광객이 찾는 대표 관광지이기도 해요.",
+            "turn_id": "BK22013280-7",
+            "utterance_id": "BK22013280.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 빅 벤은 현재 관광이 어렵다고 하던데 그 말이 맞나요?",
+            "turn_id": "BK22013280-8",
+            "utterance_id": "BK22013280.15"
+        },
+        {
+            "reference_date": "44746.0",
+            "reference_text": [
+                {
+                    "value": "지난 2017년 8월 대규모 수리에 들어간 영국 런던의 랜드마크 '빅벤'이 올여름 활동을 재개한다.",
+                    "value_time": "44803.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빅벤 관리 당국은 3500개가 넘는 부품과 철제 지붕을 분해해 지상에서 수리를 마쳤다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mk.co.kr/news/world/view/2022/07/583897/",
+            "search_query": "빅벤 활동 재개",
+            "terminate": false,
+            "text": "네, 2017년 8월부터 대규모 수리 중이었거든요. 빅벤 관리 당국에 따르면, 3500개가 넘는 부품과 철제 지붕을 분해해서 수리를 마치고 2022년 여름부터 활동을 재개해요.",
+            "turn_id": "BK22013280-8",
+            "utterance_id": "BK22013280.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 정말 관광이 재개되었는지 한번 검색해 봐야겠네요. 그런데 우리나라에도 랜드마크가 있겠죠?",
+            "turn_id": "BK22013280-9",
+            "utterance_id": "BK22013280.17"
+        },
+        {
+            "reference_date": "44797.0",
+            "reference_text": [
+                {
+                    "value": "숭례문(崇禮門)은 조선의 수도였던 서울의 4대문(大門) 중의 하나로 남쪽의 대문이다. 흔히 남대문(南大門)이라고도 부른다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%AD%EB%A1%80%EB%AC%B8",
+            "search_query": "숭례문",
+            "terminate": false,
+            "text": "네, 조선시대의 수도였던 서울의 4대문, 그중에서도 남쪽의 대문인 숭례문을 뽑을 수 있어요. 숭례문은 남대문이라고 부르기도 하죠.",
+            "turn_id": "BK22013280-9",
+            "utterance_id": "BK22013280.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 숭례문을 랜드마크로 뽑는 건 적절해 보이네요. 그런데 숭례문에 불이 났던 사건이 있지 않았나요?",
+            "turn_id": "BK22013280-10",
+            "utterance_id": "BK22013280.19"
+        },
+        {
+            "reference_date": "44602.0",
+            "reference_text": [
+                {
+                    "value": "국보이자 한양도성 남대문인 숭례문에 2008년 2월 10일 불이 났습니다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "경찰 조사결과 방화로 밝혀졌는데요. 방화범 채모(당시 69세)씨는 토지보상 문제에 불만을 품어 시너를 이용해 불을 냈다고 시인했습니다.",
+                    "value_time": "44803.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://mk.co.kr/news/culture/view/2022/02/122407/",
+            "search_query": "숭례문 화재",
+            "terminate": false,
+            "text": "맞아요, 2008년 2월 10일 국보였던 숭례문에 화재가 났는데요. 방화범 채모 씨가 토지보상문제에 불만을 가지고 시너를 이용해서 불을 낸 방화 사건으로 밝혀졌죠.",
+            "turn_id": "BK22013280-10",
+            "utterance_id": "BK22013280.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "숭례문 복원이 참 어려웠을 것 같아요. 우리나라의 랜드마크가 될 만한 다른 조형물이나 문화재는 무엇이 있는지 조금 더 자세히 알아 봐야겠어요.",
+            "turn_id": "BK22013280-11",
+            "utterance_id": "BK22013280.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저와 함께 알아 보도록 해 봐요.",
+            "turn_id": "BK22013280-11",
+            "utterance_id": "BK22013280.22"
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008040",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008040",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 백일천하가 무슨 뜻인지 아시나요? 프랑스 역사에서 굉장히 중요한 사건이라는데 어떤 사건인지 잘 모르겠어요.",
+            "turn_id": "BK22008040-1",
+            "utterance_id": "BK22008040.1"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "백일천하(百日天下, 프랑스어: Cent-Jours)는 1815년, 나폴레옹 보나파르트가 엘바 섬에서 빠져나와 파리에서 도착한 1815년 3월 20일부터 루이 18세이 복위된 7월 8일까지의 기간과 그 동안의 사건을 말한다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%B1%EC%9D%BC%EC%B2%9C%ED%95%98",
+            "search_query": "백일천하 나폴레옹",
+            "terminate": false,
+            "text": "백일천하는 나폴레옹 보나파르트가 엘바 섬을 나와서 파리에 당도한 1815년 3월 20일부터 시작해서 루이 18세가 다시 왕위에 오른 7월 8일까지의 기간과 그 동안 벌어진 사건들을 의미해요.",
+            "turn_id": "BK22008040-1",
+            "utterance_id": "BK22008040.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러고보니 그 기간이 거의 100일이네요. 그래서 100일 천하군요. 그런데 나폴레옹은 대체 왜 엘바 섬에 있었던 건가요?",
+            "turn_id": "BK22008040-2",
+            "utterance_id": "BK22008040.3"
+        },
+        {
+            "reference_date": "2013-03-20",
+            "reference_text": [
+                {
+                    "value": "러시아 원정에서 파국을 맞이한 뒤 제5차 대프랑스 동맹군에 의해 라이프치히 전투에서 패한 나폴레옹은 엘바 섬으로 유배당했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013031922525126624&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "나폴레옹 엘바 섬 유배",
+            "terminate": false,
+            "text": "러시아 원정에서 파탄을 맞이한 그는 라이프치히 전투에서 제5차 대 프랑스 동맹군에게 패하고 말았어요. 그로 인해 엘바 섬에 유배를 당하게 되죠.",
+            "turn_id": "BK22008040-2",
+            "utterance_id": "BK22008040.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이고, 한마디로 전쟁에서 진 죄로 쫓겨난 거군요. 당시 그는 어떤 대우를 받았나요?",
+            "turn_id": "BK22008040-3",
+            "utterance_id": "BK22008040.5"
+        },
+        {
+            "reference_date": "2013-03-20",
+            "reference_text": [
+                {
+                    "value": "유배라고는 하나 1만2000여명이 살고 있는 섬을 통치할 수 있는 지위가 보장되었으며 황제의 칭호 또한 인정되었다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 주민들의 식수 부족 민원을 해결해 주는 등의 사소한 일을 하며 시간을 보내고 있었다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013031922525126624&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "나폴레옹 엘바 섬 지위",
+            "terminate": false,
+            "text": "유배이긴 해도 1만2000여명이 거주하는 섬에 대한 통치권이 보장되었고 황제로 불리는 것도 인정됐어요. 그래서 그는 거주민들의 식수 부족 문제를 해결하는 등의 소소한 일을 하면서 시간을 보내고 있었죠.",
+            "turn_id": "BK22008040-3",
+            "utterance_id": "BK22008040.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다는 대우가 꽤 괜찮네요. 그래도 황제를 했던 인물이라서 적들이 예우를 해줬군요. 그런데 어쩌다가 나폴레옹이 엘바섬을 나오기로 결심한 거죠?",
+            "turn_id": "BK22008040-4",
+            "utterance_id": "BK22008040.7"
+        },
+        {
+            "reference_date": "2013-03-20",
+            "reference_text": [
+                {
+                    "value": "프랑스에서는 왕정복고로 권좌에 복귀한 루이 18세의 반동적인 통치가 불만을 샀다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정세를 주시하던 나폴레옹은 엘바 섬을 탈출해 1815년 3월 20일 파리에 입성, 프랑스 황제 복귀를 선언했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013031922525126624&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "나폴레옹 엘바 섬 탈출 복귀",
+            "terminate": false,
+            "text": "왕정복고로 인해 루이 18세가 프랑스 왕위에 복귀했지만 반동적인 통치로 사람들에게 불만을 일으켰어요. 이러한 흐름을 지켜보던 나폴레옹은 엘바 섬을 탈출했고 마침내 1815년 3월 20일에 파리에 입성해서 프랑스 황제 복귀를 선언해버리죠.",
+            "turn_id": "BK22008040-4",
+            "utterance_id": "BK22008040.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청난 일을 벌였네요. 그를 유배시킨 동맹군 입장에서는 좌시할 수 없는 일 같은데요. 다른 국가들은 어떻게 나왔나요?",
+            "turn_id": "BK22008040-5",
+            "utterance_id": "BK22008040.9"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "그러나 나폴레옹의 복귀 소식은 유럽을 두려움에 떨게 만들었고, 그 이상으로 프랑스 제국의 해체로 인해 생기는 영토와 이득을 욕심낸 연합국은 일제히 단결하여 각 방향에서 프랑스를 향해 진격했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%8C%ED%84%B8%EB%A3%A8_%EC%A0%84%ED%88%AC",
+            "search_query": "나폴레옹 복귀 연합국 진격",
+            "terminate": false,
+            "text": "나폴레옹의 복귀 소식은 유럽을 공포에 떨게 만들었죠. 거기에 프랑스 제국의 해체를 통해 생길 수 있는 영토와 이익까지 탐한 연합국은 모두 단결해서 각 방향에서 프랑스로 진군했어요.",
+            "turn_id": "BK22008040-5",
+            "utterance_id": "BK22008040.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 국제관계는 예나 지금이나 이익으로 움직이는 거네요. 나폴레옹은 이들의 공격을 막았나요?",
+            "turn_id": "BK22008040-6",
+            "utterance_id": "BK22008040.11"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "나폴레옹 보나파르트가 이끄는 프랑스 북부군은 제7차 대프랑스 동맹의 주요 2개국 군대에게 패배를 당했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제1대 웰링턴 공작 아서 웰즐리가 이끄는 영국 주축의 연합군과 게프하르트 레베레히트 폰 블뤼허가 이끄는 프로이센군이 2개국 군대였다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9B%8C%ED%84%B8%EB%A3%A8_%EC%A0%84%ED%88%AC",
+            "search_query": "나폴레옹 북부군 영국 프로이센 패배",
+            "terminate": false,
+            "text": "아니요. 막지 못했어요. 그가 이끄는 프랑스 북부군은 제7차 대프랑스 동맹의 주요 국가인 영국과 프로이센에게 패하고 말았죠. 당시 영국 주축의 연합군은 초대 웰링턴 공작 아서 웰즐리가 이끌고 있었고 프로이센군은 게프하르트 레베레히트 폰 블뤼허가 이끌고 있었어요.",
+            "turn_id": "BK22008040-6",
+            "utterance_id": "BK22008040.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나폴레옹 입장에서는 뼈 아픈 패배였네요. 그럼 패전 후 프랑스의 권좌는 누가 차지하게 됐나요?",
+            "turn_id": "BK22008040-7",
+            "utterance_id": "BK22008040.13"
+        },
+        {
+            "reference_date": "2013-03-20",
+            "reference_text": [
+                {
+                    "value": "루이 18세는 재차 권좌에 복귀한 뒤 백일천하 기간 동안 노출된 황제파 9000명의 목록을 작성해 그 중 3000여명을 처형했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013031922525126624&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "루이 18세 복귀 황제파 처형",
+            "terminate": false,
+            "text": "루이 18세가 다시 권력을 쥐게 됐어요. 그는 백일천하 기간 중 드러난 황제파 9000명의 리스트를 만들었고 그 중 무려 3000여명을 처형해버렸죠.",
+            "turn_id": "BK22008040-7",
+            "utterance_id": "BK22008040.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화려한 반란이었지만 끝은 씁쓸하게 끝났네요. 반란을 주도한 나폴레옹 역시 무사하지 않았을 거 같은데 그는 어떻게 됐나요?",
+            "turn_id": "BK22008040-8",
+            "utterance_id": "BK22008040.15"
+        },
+        {
+            "reference_date": "2013-03-20",
+            "reference_text": [
+                {
+                    "value": "그러나 백일천하 이후 그는 대서양의 절해고도 세인트헬레나 섬으로 보내졌다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "황제 칭호도, 영주의 지위도, 연금도 인정되지 않았으며 영국 총독의 감시 하에 있는 전쟁포로에 불과했다.",
+                    "value_time": "2022-09-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2013031922525126624&outlink=1&ref=https%3A%2F%2Fsearch.naver.com",
+            "search_query": "나폴레옹 세인트헬레나 백일천하",
+            "terminate": false,
+            "text": "백일천하 이후 나폴레옹은 대서양의 외딴섬인 세인트헬레나 섬으로 가야했죠. 예전과 달리 황제라고 불리는 것도, 영주의 지위도, 심지어 연금도 인정되지 않았어요. 한마디로 영국 총독이 감시하는 전쟁포로 신세로 전락한 거죠.",
+            "turn_id": "BK22008040-8",
+            "utterance_id": "BK22008040.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엘바 섬 시절보다 대우가 더욱 안 좋아졌네요. 권력이라는 게 그 끝은 참 씁쓸하군요.",
+            "turn_id": "BK22008040-9",
+            "utterance_id": "BK22008040.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그래서 항상 사람은 힘이 있을 때 늘 뒷일을 생각해야 하는 법이죠. 영원히 지지 않는 꽃은 없으니까요.",
+            "turn_id": "BK22008040-9",
+            "utterance_id": "BK22008040.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 동의해요. 오늘도 역사를 통해서 인생의 진리를 또 하나 배우네요. 오늘도 질문에 친절하게 답변해 주셔서 감사합니다.",
+            "turn_id": "BK22008040-10",
+            "utterance_id": "BK22008040.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 다음에도 모르는 게 있으면 언제든지 편하게 질문 주세요!",
+            "turn_id": "BK22008040-10",
+            "utterance_id": "BK22008040.20"
+        }
+    ]
+}

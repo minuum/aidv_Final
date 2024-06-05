@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012399",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012399",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번 주에 마무리 지어야 하는 과제가 너무 많네. 너는 과제 다 했어?",
+            "turn_id": "BK22012399-1",
+            "utterance_id": "BK22012399.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거의 다 했어. 특히 아스테카 문명에 대해서 조사하는 게 어렵더라.",
+            "turn_id": "BK22012399-1",
+            "utterance_id": "BK22012399.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 어디서부터 시작해야 할지 모르겠어. 아스테카 문명의 시작부터 조사해야 하나? 혹시 아스테카 문명이 어떻게 시작되었는지 알아?",
+            "turn_id": "BK22012399-2",
+            "utterance_id": "BK22012399.3"
+        },
+        {
+            "reference_date": "42070.0",
+            "reference_text": [
+                {
+                    "value": "‘아즈텍 문명’은 기원전 3천년경에 세워졌다고 추정되는 ‘마야 문명’이 10세기경 멸망한 이후, 그 잔존 세력 중 일부가 1345년에 세운 문명입니다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아즈텍 문명은 사라졌지만, 그 유지는 현재의 멕시코로 이어지고 있습니다.",
+                    "value_time": "44796.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/it/view/2015/03/206768/",
+            "search_query": "아즈텍 발상지",
+            "terminate": false,
+            "text": "아즈텍 문명은 마야 문명이 없어지고 잔존 세력이 세운 문명이야. 기원전 3천년 쯤 마야 문명이 세워졌다고 추측하는데 10세기 무렵 멸망하고 난 다음 1345년에 아즈텍 문명이 세워졌지. 지금은 멕시코가 유지를 이어나가고 있어.",
+            "turn_id": "BK22012399-2",
+            "utterance_id": "BK22012399.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐, 근데 아스테카와 아즈텍은 같은 말이야? 문명 이름이 아스테카 아녔어?",
+            "turn_id": "BK22012399-3",
+            "utterance_id": "BK22012399.5"
+        },
+        {
+            "reference_date": "44699.0",
+            "reference_text": [
+                {
+                    "value": "아스테카는 14세기 초~16세기 초 멕시코 중앙고원에서 번성하였던 도시국가이자 문명, 그리고 종족의 이름이다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 이들은 메시카 대신 아스테카로 널리 불렀으며, 우리에게도 스페인어 ‘아스테카’ 또는 영어 ‘아즈텍’으로 알려지게 되었다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ikoreanspirit.com/news/articleView.html?idxno=67652",
+            "search_query": "아스테카 문명",
+            "terminate": false,
+            "text": "아즈텍이란 말은 영어식 표기야. 스페인어식 표기로는 아스테카라고 하지. 아스테카라는 명칭은 문명을 지칭하기도 하지만 14세기 초부터 16세기 초까지 멕시코 중앙고원에 있었던 큰 도시 국가와 그 종족을 가리키기도 해.",
+            "turn_id": "BK22012399-3",
+            "utterance_id": "BK22012399.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아즈텍 문명은 들어봤는데 아스테카가 아즈텍 문명이라는 걸 처음 알았네. 도시 국가이면 수도도 있었겠네? 문명이 일어난 곳의 수도는 규모가 어느 정도였어?",
+            "turn_id": "BK22012399-4",
+            "utterance_id": "BK22012399.7"
+        },
+        {
+            "reference_date": "43961.0",
+            "reference_text": [
+                {
+                    "value": "당시 유럽에서 파리, 피렌체, 콘스탄티노플 정도가 그에 버금가는 대도시였다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=2111",
+            "search_query": "아즈텍 멸망이유",
+            "terminate": false,
+            "text": "당시 유럽에 있던 파리나 피렌체, 콘스탄티노플 같은 대도시라고 생각하면 돼.",
+            "turn_id": "BK22012399-4",
+            "utterance_id": "BK22012399.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 대도시를 가진 나라가 왜 망했어?",
+            "turn_id": "BK22012399-5",
+            "utterance_id": "BK22012399.9"
+        },
+        {
+            "reference_date": "43961.0",
+            "reference_text": [
+                {
+                    "value": "그 사이 스페인 원정대에 흑인 노예에게서 시작된 괴질이 퍼졌다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 전염병은 인근 지역을 순식간에 휩쓸었고 면역이 없던 아즈텍인과 토착 인디오들은 속수무책으로 죽어나갔다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 질병은 천연두였다",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=2111",
+            "search_query": "아즈텍 스페인",
+            "terminate": false,
+            "text": "멸망하게 된 이유는 천연두 때문이야. 스페인 원정대가 데리고 온 흑인 노예에게서 시작됐거든. 당시 아즈텍인과 토착 인디오들은 천연두에 대한 면역이 없었어. 그러니 대응도 못 하고 죽어나갈 수 밖에 없었지.",
+            "turn_id": "BK22012399-5",
+            "utterance_id": "BK22012399.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 전염병이 원인이라면 대응하기 어려웠겠어. 아즈텍에 대해 더 얘기해 줘.",
+            "turn_id": "BK22012399-6",
+            "utterance_id": "BK22012399.11"
+        },
+        {
+            "reference_date": "44704.0",
+            "reference_text": [
+                {
+                    "value": "네이버, 다음 등 주요 포털사이트에 ‘아즈텍’(아스테카)을 검색하면 ‘문명’ 다음으로 등장하는 자동검색어가 ‘인신공양’이다.",
+                    "value_time": "44792.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.100ssd.co.kr/news/articleView.html?idxno=87570",
+            "search_query": "아즈텍 문명",
+            "terminate": false,
+            "text": "사실 검색창에 아즈텍이라고 검색하면 문명 다음으로 등장하는 자동검색어가 인신공양이기도 해. 알고 있었어?",
+            "turn_id": "BK22012399-6",
+            "utterance_id": "BK22012399.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몰랐어, 인신공양까지 했었다니 충격인걸. 도대체 어떤 신에게 바치려고 했던 거야? 무슨 의미로?",
+            "turn_id": "BK22012399-7",
+            "utterance_id": "BK22012399.13"
+        },
+        {
+            "reference_date": "43284.0",
+            "reference_text": [
+                {
+                    "value": "멕시코 14~16세기 문명인 아즈테카 제국의 수도인 테노치티틀란.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이곳에 위치한 마요르 신전에선 수호신인 위칠로포치틀리와 물의 신 트라로크를 위한 인신공양이 이뤄졌다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아즈텍인들은 인간의 희생이 신들을 즐겁게 한다고 여겼다.",
+                    "value_time": "44792.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201806281721725950",
+            "search_query": "아즈텍 인신공양",
+            "terminate": false,
+            "text": "아즈텍의 수도인 테노치티틀란에 마요르 신전이라고 수호신인 위칠로포치틀리와 물의 신 트라로크를 위한 인신공양이 이루어지는 장소가 있어. 아즈텍 사람들이 인신공양이라는 잔인한 의식을 했었던 이유는 인간의 희생이 신들을 즐겁게 한다고 생각했기 때문이야.",
+            "turn_id": "BK22012399-7",
+            "utterance_id": "BK22012399.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "끔찍하네, 정말 그런 일들이 실제로 벌어졌던 거야?",
+            "turn_id": "BK22012399-8",
+            "utterance_id": "BK22012399.15"
+        },
+        {
+            "reference_date": "44696.0",
+            "reference_text": [
+                {
+                    "value": "얀선과 히메네스는 스페인 사람들이 남긴 기록의 진실성을 의심해봐야 한다고 말한다.",
+                    "value_time": "44792.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 인신 공양 묘사는 목격담이 아니라 식민지 시대 유럽 중심 편견이 가미된 소문과 상상에 근거해 적혔다고 했다.",
+                    "value_time": "44792.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/culture/scholarship-heritage/article/202205151728001",
+            "search_query": "아즈텍 인신공양 스페인",
+            "terminate": false,
+            "text": "모르지. 다른 의견도 있어. 얀선과 히메네스는 스페인 사람들이 남긴 기록에 대해서 목격담이 아니라 유럽 중심 편견이 가미된 소문과 상상을 바탕으로 적은 것이라고 주장한 적이 있거든.",
+            "turn_id": "BK22012399-8",
+            "utterance_id": "BK22012399.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기록한 사람의 관점이 들어가니까 그럴 수 있을 것 같아. 아즈텍 사람들이 인신 공양을 했다는 안 좋은 부분 말고 특정 분야에서 뛰어났다는 건 없어?",
+            "turn_id": "BK22012399-9",
+            "utterance_id": "BK22012399.17"
+        },
+        {
+            "reference_date": "44426.0",
+            "reference_text": [
+                {
+                    "value": "아즈텍인들은 건축과 천문학에 대한 지식 수준이 높았고, 금·은 세공 기술도 뛰어났다고 해요.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아즈텍인들은 거대한 신전을 지었는데, 지금도 멕시코시티에 일부 남아 있는 '템플로 마요르'가 유명합니다.",
+                    "value_time": "44796.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2021/08/17/2021081702558.html",
+            "search_query": "템플로 마요르",
+            "terminate": false,
+            "text": "아즈텍인들은 건축과 천문학, 금·은 세공 기술이 뛰어났었어. 그 기술로 거대한 신전을 지었는데 그게 바로 템플로 마요르지. 지금도 멕시코시티에 일부 남아있어.",
+            "turn_id": "BK22012399-9",
+            "utterance_id": "BK22012399.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 조사해야 할 점이 많은 거 같아. 과제 도와줄 수 있어? 내가 밥 살게!",
+            "turn_id": "BK22012399-10",
+            "utterance_id": "BK22012399.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋지, 남은 부분은 어렵지 않아서 금방 마무리할 수 있을 거야. 빨리 마무리하고 밥 먹으러 가자!",
+            "turn_id": "BK22012399-10",
+            "utterance_id": "BK22012399.20"
+        }
+    ]
+}

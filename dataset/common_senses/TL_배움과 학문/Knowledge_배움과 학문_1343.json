@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008854",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008854",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에는 화려한 보석들이 정말 많은 것 같아. 보석도 종류가 많고 각양각색인 것 같던데, 혹시 보석이 되기 위한 조건이 무엇인지 알아?",
+            "turn_id": "BK22008854-1",
+            "utterance_id": "BK22008854.1"
+        },
+        {
+            "reference_date": "2022-03-18",
+            "reference_text": [
+                {
+                    "value": "보석으로서 갖추어야 할 조건은 빛깔이나 광택이 아름다워야 하며, 물리적 견고성이 있어야 하고, 산출량은 적어야 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%84%9D",
+            "search_query": "보석",
+            "terminate": false,
+            "text": "보석으로 인정받기 위해서는 물리적으로 견고하고 소량이 산출되어야 하며, 아름다운 빛깔과 광택을 가지고 있어야 해.",
+            "turn_id": "BK22008854-1",
+            "utterance_id": "BK22008854.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아름다운 빛깔과 광택을 가져야 보석이 될 수 있구나. 보석하면 대표적으로 다이아몬드가 가장 먼저 떠오르는데, 다이아몬드에 대해 알고 있다면 자세히 알려줄래?",
+            "turn_id": "BK22008854-2",
+            "utterance_id": "BK22008854.3"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "다이아몬드(영어: diamond) 또는 금강석(金剛石)은 천연광물중 가장 굳기가 우수하며 광채가 뛰어난 보석이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주성분은 탄소이며 분자구조상의 차이로 인해 동일한 원자로 구성된 자연 산물인 흑연과는 매우 다른 특성을 가진 보석이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%9D%B4%EC%95%84%EB%AA%AC%EB%93%9C",
+            "search_query": "다이아몬드",
+            "terminate": false,
+            "text": "다이아몬드는 천연 광물 중에서도 가장 견고하고 광채가 뛰어난 보석이야. 다른 말로는 금강석이라고도 부르지. 다이아몬드의 주요 성분은 탄소인데, 흑연과 똑같은 탄소로 이루어져 있지만 분자 구조의 차이 때문에 전혀 다른 특성을 가진 보석이 되었지.",
+            "turn_id": "BK22008854-2",
+            "utterance_id": "BK22008854.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "같은 성분이라도 분자 구조에 따라 흑연이 될 수도 있고, 다이아몬드가 될 수도 있다는 게 신기해. 예전에 붉은 색깔의 보석을 본 적이 있는데, 그건 어떤 보석이야?",
+            "turn_id": "BK22008854-3",
+            "utterance_id": "BK22008854.5"
+        },
+        {
+            "reference_date": "2022-05-23",
+            "reference_text": [
+                {
+                    "value": "루비(영어: ruby)는 붉은색을 띤 보석으로 광물 강옥(산화 알루미늄)의 일종이며, 자수정, 사파이어, 에메랄드, 다이아몬드와 함께 전통적인 카디널 보석류 가운데 중에 하나이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84",
+            "search_query": "루비",
+            "terminate": false,
+            "text": "다이아몬드, 에메랄드 등과 함께 전통적인 카디널 보석류로 꼽히는 붉은 보석은 루비야. 루비는 광물 강옥 중 하나지.",
+            "turn_id": "BK22008854-3",
+            "utterance_id": "BK22008854.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "붉은빛을 띠는 보석이 루비였구나. 그러면 또 다른 카디널 보석류 중 에메랄드는 어떤 보석이야?",
+            "turn_id": "BK22008854-4",
+            "utterance_id": "BK22008854.7"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "에메랄드(영어: Emerald)는 비취색(밝은 녹색)을 띄는 녹주석의 일종이며, 금이 많이 가 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "크로뮴을 함유하여 비취 녹색을 띄는 투명한 보석이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%A9%94%EB%9E%84%EB%93%9C",
+            "search_query": "에메랄드",
+            "terminate": false,
+            "text": "에메랄드는 밝은 녹색의 투명한 보석으로, 녹주석의 일종이야. 크로뮴을 함유하고 있고, 금이 많이 가 있는 것이 특징이지.",
+            "turn_id": "BK22008854-4",
+            "utterance_id": "BK22008854.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에메랄드는 녹색 빛을 띠는 보석이었구나. 에메랄드가 녹주석의 일종이라고 했는데, 녹주석이 무엇인지 구체적으로 알려줄래?",
+            "turn_id": "BK22008854-5",
+            "utterance_id": "BK22008854.9"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "녹주석(綠柱石, 영어: Beryl, 베릴), 베릴륨을 포함하는 육각 프리즘 모양의 광물이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "투명하고 아름다운 것은 커팅하여 보석으로 만든다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%85%B9%EC%A3%BC%EC%84%9D",
+            "search_query": "녹주석",
+            "terminate": false,
+            "text": "녹주석은 육각 프리즘의 형태를 가진 광물로, 베릴륨을 포함하고 있지. 녹주석 중 투명하고 모양이 아름다운 것은 가공하여 보석으로 만들어.",
+            "turn_id": "BK22008854-5",
+            "utterance_id": "BK22008854.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "녹주석이 육각 프리즘 모양의 광물을 뜻하는 거구나. 그러면 에메랄드 말고 녹주석에 해당하는 보석이 또 있어?",
+            "turn_id": "BK22008854-6",
+            "utterance_id": "BK22008854.11"
+        },
+        {
+            "reference_date": "2022-05-24",
+            "reference_text": [
+                {
+                    "value": "아쿠아마린(영어: Aquamarine ← 라틴어 aqua '물' + 라틴어 marina '바다의'에서 유래함)은 남청색을 띠는 보석으로, 녹주석의 일종이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이름은 라틴어에서 나왔는데, 그 뜻은 '바닷물'이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%BF%A0%EC%95%84%EB%A7%88%EB%A6%B0",
+            "search_query": "아쿠아마린",
+            "terminate": false,
+            "text": "에메랄드와 함께 녹주석에 해당하는 보석으로는 아쿠아마린이 있어. 아쿠아마린은 남청색을 띠는 보석으로, 라틴어로 바닷물이라는 뜻이야.",
+            "turn_id": "BK22008854-6",
+            "utterance_id": "BK22008854.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아쿠아마린과 에메랄드 모두 녹주석에 속하는 보석인 거네. 대부분의 보석은 광물인 것 같은데, 혹시 광물이 아닌 보석도 있어?",
+            "turn_id": "BK22008854-7",
+            "utterance_id": "BK22008854.13"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "진주(眞珠/珍珠, Pearl)는 진주조개, 대합, 전복 등의 체내에 생기는 딱딱한 덩어리로, 탄산칼슘이 주성분이며, 우아하고 아름다운 빛깔의 광택이 나는 보석의 일종이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%A3%BC",
+            "search_query": "진주",
+            "terminate": false,
+            "text": "응, 광물이 아닌 보석에는 진주가 있지. 진주는 진주조개나 대합 등의 체내에서 생성되는 보석으로, 탄산칼슘이 주요 성분이야. 아름답고 우아한 빛깔을 띠는 보석으로 알려졌지.",
+            "turn_id": "BK22008854-7",
+            "utterance_id": "BK22008854.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조개에서 진주가 만들어지다니 신기하다. 진주는 어떤 과정을 통해 만들어지는 거야?",
+            "turn_id": "BK22008854-8",
+            "utterance_id": "BK22008854.15"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "진주조개의 몸속에 이물질이 들어오면 진주조개가 그것을 없애기 위해 진주조개의 몸속에 있는 이물질을 탄산칼슘으로 계속 뒤덮어 덩어리가 생기는 데 이것이 바로 진주다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%A3%BC",
+            "search_query": "진주 생성 과정",
+            "terminate": false,
+            "text": "진주조개는 체내에 이물질이 유입되면 그것을 없애기 위해 탄산칼슘으로 뒤덮기 시작해. 그러면 점차 이물질을 둘러싼 탄산칼슘이 덩어리가 되는데, 그게 바로 진주인 거지.",
+            "turn_id": "BK22008854-8",
+            "utterance_id": "BK22008854.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "원래는 조개 안의 이물질이었는데, 그것이 점차 진주라는 보석이 된다는 게 묘하네.",
+            "turn_id": "BK22008854-9",
+            "utterance_id": "BK22008854.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 사실 다른 보석들도 인간이 특별한 의미를 부여하지 않으면 그저 돌이라고 볼 수도 있지.",
+            "turn_id": "BK22008854-9",
+            "utterance_id": "BK22008854.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "보석에 대해 자세히 알고 나니 보석의 의미를 다시 한번 생각해보게 되네. 유용한 정보들을 알려줘서 고마워.",
+            "turn_id": "BK22008854-10",
+            "utterance_id": "BK22008854.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 보석에 대해 궁금한 것이 생기면 물어봐도 좋아.",
+            "turn_id": "BK22008854-10",
+            "utterance_id": "BK22008854.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알았어, 물어볼 게 있으면 또 연락할게!",
+            "turn_id": "BK22008854-11",
+            "utterance_id": "BK22008854.21"
+        }
+    ]
+}

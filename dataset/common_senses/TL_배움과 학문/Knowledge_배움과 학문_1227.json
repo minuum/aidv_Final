@@ -1,0 +1,431 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008240",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008240",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘은 종이를 많이 사용하지 않는 것 같아요. 스마트폰이나 태블릿PC를 주로 이용하니까요. 그래도 저는 여전히 종이가 중요하다고 생각하는데, 종이는 언제 발명된 건가요?",
+            "turn_id": "BK22008240-1",
+            "utterance_id": "BK22008240.1"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "현재 사용되고 있는 종이(식물에서 셀룰로오스를 뽑아 내 이것을 체 같은 것으로 걸러서 만든 것)를 처음으로 만든 사람은 중국의 채륜(105년)인데, 그는 삼·아마 등에서 섬유를 분리하여 이것을 얇은 막상으로 걸러서 떠내어 종이를 만들었다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A2%85%EC%9D%B4%EC%9D%98_%EC%97%AD%EC%82%AC",
+            "search_query": "종이의 역사",
+            "terminate": false,
+            "text": "현시대에 쓰이는 종이는 식물의 셀룰로오스를 추출해 체로 걸러 만든 것으로 105년경 중국의 채륜이 만들었어요. 채륜은 삼이나 아마 등의 식물에서 섬유를 뽑아내고 이것을 얇은 막상으로 걸러 뜨는 방식으로 종이를 만들었죠.",
+            "turn_id": "BK22008240-1",
+            "utterance_id": "BK22008240.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 오래전이네요. 그럼 종이를 발명하기 전에는 어떤 것들을 사용했나요?",
+            "turn_id": "BK22008240-2",
+            "utterance_id": "BK22008240.3"
+        },
+        {
+            "reference_date": "2022-02-26",
+            "reference_text": [
+                {
+                    "value": "그런데 종이가 없던 시절엔 어디에 글씨를 남겼을까?",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로 목간이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "목간은 중국의 고대 유적을 비롯해 일본의 고대 유적, 인도나 로마시대 유적에서도 발견된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002811189",
+            "search_query": "종이가 없던 시절",
+            "terminate": false,
+            "text": "종이가 없던 시대에 글을 남기기 위해 목간이 쓰였어요. 목간은 중국의 고대 유적부터 일본의 고대 유적, 인도, 로마 시대의 유적에서도 발견되고 있답니다.",
+            "turn_id": "BK22008240-2",
+            "utterance_id": "BK22008240.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "목간은 처음 들어보는 것 같은데, 무엇으로 만든 건가요?",
+            "turn_id": "BK22008240-3",
+            "utterance_id": "BK22008240.5"
+        },
+        {
+            "reference_date": "2021-04-29",
+            "reference_text": [
+                {
+                    "value": "목간은 문서나 편지를 종이 대신 나무 또는 대나무 조각에 적은 것을 말한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/culture-life/culture_general/2021/04/29/MTE623X46VHBNLAZRT3R5PRQ34/",
+            "search_query": "종이 대신 목간",
+            "terminate": false,
+            "text": "문서나 편지를 쓸 때 종이를 대신해 나무나 대나무를 조각해 적어 놓은 것을 목간이라고 불러요.",
+            "turn_id": "BK22008240-3",
+            "utterance_id": "BK22008240.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종이가 없으니 나무에 글을 썼던 거군요. 중국, 일본 쪽에서 유적이 나온다고 말씀하셨는데 우리나라에서는 나오지 않았나요?",
+            "turn_id": "BK22008240-4",
+            "utterance_id": "BK22008240.7"
+        },
+        {
+            "reference_date": "2015-05-10",
+            "reference_text": [
+                {
+                    "value": "1975년 경주 안압지에서 97점의 목간이 발굴된 이래로 최근에 이르기까지 남한 내의 20개 유적지에서 600여 점의 목간이 발굴되었는데, 이 중에서 먹글씨에 대한 판독이 가능한 묵서 목간의 숫자만 해도 400여 점에 이르고 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.skkuw.com/news/articleView.html?idxno=11896",
+            "search_query": "우리나라 목간 유적",
+            "terminate": false,
+            "text": "많이 나왔어요. 1975년 경주 안압지에서 총 97점의 목간이 발견되었고, 최근까지도 우리나라의 스무개 유적지에서 600여점 정도의 목간을 발굴했어요. 이 중 먹글씨를 판독할 수 있는 묵서 목간만 해도 400여점 정도 되고요.",
+            "turn_id": "BK22008240-4",
+            "utterance_id": "BK22008240.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 많군요. 우리나라 조상님들은 정말 기록에 진심이었던 것 같아요. 그럼 우리나라가 종이를 사용하기 시작한 건 언제였나요?",
+            "turn_id": "BK22008240-5",
+            "utterance_id": "BK22008240.9"
+        },
+        {
+            "reference_date": "2013-02-12",
+            "reference_text": [
+                {
+                    "value": "지리적 특성상 중국과 국경을 맞대고 있던 고구려는 4세기 중반 이미 종이 사용이 국가적 차원에서 일반화돼 있었다고 하는데 그 근거는 고구려의 무덤에서 종종 찾아볼 수 있다고 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고구려 시대의 고분에는 사자의 살아생전 일상을 벽화로 남겼는데 여기에 종이가 있다는 것.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnnews.co.kr/news/articleView.html?idxno=160148",
+            "search_query": "우리나라 종이의 역사",
+            "terminate": false,
+            "text": "고구려 시대에요. 고구려는 중국과 국경을 맞대고 있는 지리적 특징이 있어 4세기 중반 이미 국가적인 차원에서 흔하게 종이를 사용했어요. 그 증거는 고구려 시대의 무덤에서 왕왕 찾을 수 있는데, 고분에 고인의 살아생전 일상을 남긴 벽화에 종이가 발견된 거에요.",
+            "turn_id": "BK22008240-5",
+            "utterance_id": "BK22008240.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 오래전부터 종이를 써왔다니 제 예상과는 많이 다르네요. 우리나라의 종이 하면 저는 한지가 제일 먼저 떠오르는데 한지의 역사도 오래되었나요?",
+            "turn_id": "BK22008240-6",
+            "utterance_id": "BK22008240.11"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "한지가 처음 발명된 정확한 시기는 알 수 없으나, 중국의 채륜의 제지술이 삼국시대에 전래되어 개량되고 정착되었으리라 추정된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한지라는 용어는 조선 시대 말엽에 전래된 서양식 기계 종이와 전통 종이를 구분하여 부르게 되면서 생긴 말이다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%A7%80",
+            "search_query": "한지 역사",
+            "terminate": false,
+            "text": "한지는 언제 처음 발명되었는지 정확하게 알 수는 없어요. 다만 중국인 채륜이 만든 제지술이 삼국시대에 전해지며 개량되고 정착되었을 것으로 추측하고 있죠. 한지라는 이름은 조선시대 말 무렵 전해진 서양식 기계 종이와 전통 종이를 구분하기 위해 만들어졌어요.",
+            "turn_id": "BK22008240-6",
+            "utterance_id": "BK22008240.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한지라는 이름은 지어진 지 얼마 안 됐네요. 한지는 뭔가 다른 종이와 촉감이 좀 다르던데 재료는 무엇인가요?",
+            "turn_id": "BK22008240-7",
+            "utterance_id": "BK22008240.13"
+        },
+        {
+            "reference_date": "2020-08-07",
+            "reference_text": [
+                {
+                    "value": "닥나무는 '한지를 만드는 뽕나무'(Paper Mulberry)로 유명합니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전통 한지의 재료가 되는 나무죠.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제 우리 조상은 삼국시대부터 닥나무를 이용해 한지를 만들었어요.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2020/08/06/2020080600397.html",
+            "search_query": "한지 재료",
+            "terminate": false,
+            "text": "전통 한지를 만들 때 쓰는 재료는 닥나무에요. 한지의 재료인 뽕나무로 유명하죠. 실제로 우리 조상님들은 삼국시대부터 닥나무를 사용해서 한지를 제작했어요.",
+            "turn_id": "BK22008240-7",
+            "utterance_id": "BK22008240.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 근데 많고 많은 나무 중에 왜 하필 닥나무를 이용해 한지를 만들었을까요?",
+            "turn_id": "BK22008240-8",
+            "utterance_id": "BK22008240.15"
+        },
+        {
+            "reference_date": "2020-08-07",
+            "reference_text": [
+                {
+                    "value": "우선 닥나무는 목재의 껍질 안쪽에 짧은 실과 같은 '섬유'가 다른 나무보다 길게 발달해 있답니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 식물성 섬유는 '셀룰로오스' '헤미셀룰로오스' '리그닌' 같은 성분으로 구성되는데요.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 절반 가까이가 식물 세포벽을 구성하는 셀룰로오스예요.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "셀룰로오스는 보이지 않는 작은 크기의 포도당이 길게 이어진 체인 구조로, 실처럼 아주 가늘고 긴 모양을 갖고 있습니다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화학적으로 잘 변하지 않고 아주 질겨서 종이의 소재로 적합했지요.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2020/08/06/2020080600397.html",
+            "search_query": "한지 재료 닥나무 이유",
+            "terminate": false,
+            "text": "닥나무는 나무껍질 내부에 짧은 실처럼 생긴 섬유가 다른 나무에 비해 더 길게 발달해있어요. 이런 식물성 섬유는 셀룰로오스, 헤미셀룰로오스, 리그닌과 같은 성분들로 만들어져있는데, 50% 이상이 식물 세포벽을 만드는 셀룰로오스죠. 셀룰로오스는 눈으로 관찰하기 어려울 만큼 작은 크기의 포도당이 길쭉하게 이어진 체인 모양을 띠고 있고, 실처럼 아주 가늘면서 긴 형태를 가지고 있어요. 화학적인 변화가 크지 않고 아주 질긴 것이 특징이라 종이를 만들기에 적당한 소재에요.",
+            "turn_id": "BK22008240-8",
+            "utterance_id": "BK22008240.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조상님들의 지혜가 진짜 대단하다 느껴져요. 닥나무로 만든 한지의 장점이 더 있나요?",
+            "turn_id": "BK22008240-9",
+            "utterance_id": "BK22008240.17"
+        },
+        {
+            "reference_date": "2022-09-12",
+            "reference_text": [
+                {
+                    "value": "한지가 천 년의 종이라 불리는 이유를 화지나 선지보다 월등한 보존성에서 찾는다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한지에 쓰이는 닥풀은 천연 고분자물질인 다당류로 이루어져 세월이 흐르면 흐를수록 결이 좋아지는 장점을 지녔다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 건축 자재 한지의 위상은 우수한 보온성과 통기성뿐만 아니라 우산으로도 거뜬히 쓰일 만큼의 우수한 습기 조절 능력에 있다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://woodplanet.co.kr/news/view/1065621333621703",
+            "search_query": "닥나무 한지 장점",
+            "terminate": false,
+            "text": "한지는 천 년의 종이라는 별명이 있을 정도로 화지나 선지와 비교해 우수한 보존성을 가지고 있어요. 한지를 만들 때 쓰는 닥풀은 천연 고분자물질인 다당류인데 시간이 흐를수록 결이 더 좋아지는 장점을 가지고 있죠. 게다가 건축 자재로서의 한지는 높은 보온성, 통기성과 함께 우산으로도 쓰일 만큼 좋은 습기 조절 능력도 있어요.",
+            "turn_id": "BK22008240-9",
+            "utterance_id": "BK22008240.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장점이 정말 많네요. 그동안 한지에 관심을 가지지 못한 게 미안해지는 느낌이에요. 지금도 한지를 다양하게 활용하고 있나요?",
+            "turn_id": "BK22008240-10",
+            "utterance_id": "BK22008240.19"
+        },
+        {
+            "reference_date": "2021-05-24",
+            "reference_text": [
+                {
+                    "value": "현대에 들어서는 한지의 쓰임이 더욱 다양해졌다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한지를 꼬아 만든 한지실에 면·실크 등 다른 섬유를 섞어 옷을 만든다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한지옷은 가볍고 보온성이 뛰어나며 통풍도 잘된다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 식품 포장용지나 의료용 항균지, 절연지 등으로 활용되고 있으며 스피커의 진동판으로도 훌륭한 역할을 한다.",
+                    "value_time": "2022-09-13",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/ETC/338576/view",
+            "search_query": "한지의 활용",
+            "terminate": false,
+            "text": "현대에는 한지를 더 다양하게 활용하고 있어요. 한지를 꼬아서 만든 한지 실에 면이나 실크 등 여러 섬유를 더해 옷을 만드는데, 이렇게 만든 한지 의류는 가볍고 보온성이 좋으면서 통풍도 잘 되는 특징이 있죠. 또 식품 포장용지, 의료용 항균지, 절연지, 스피커의 진동판으로도 훌륭한 소재가 되고 있어요.",
+            "turn_id": "BK22008240-10",
+            "utterance_id": "BK22008240.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오랜 역사를 가지고 있는 만큼 없어지지 않고 오래오래 사용되었으면 좋겠네요.",
+            "turn_id": "BK22008240-11",
+            "utterance_id": "BK22008240.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 새로운 것도 좋지만 옛것을 잘 지키고 개량해가며 사용하는 것도 지금 시대를 살아가는 사람들의 역할인 거죠. 우리도 한지 제품들에 관심을 기울이고 써보는 시도를 하는 것이 도움을 주는 길이에요.",
+            "turn_id": "BK22008240-11",
+            "utterance_id": "BK22008240.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "지금까지는 잘 몰랐지만 앞으로는 관심을 가지고 찾아봐야겠어요. 다음에는 한지 의류를 판매하는 곳에 같이 가봐요. 그럼 조심히 들어가세요.",
+            "turn_id": "BK22008240-12",
+            "utterance_id": "BK22008240.23"
+        }
+    ]
+}

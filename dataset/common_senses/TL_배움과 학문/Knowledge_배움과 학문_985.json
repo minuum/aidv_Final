@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000944",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000944",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 클래식 콘서트에 갔다 왔는데 말이야, 대위법이라는 말을 처음 들었어, 혹시 뭔지 아니?",
+            "turn_id": "BK22000944-1",
+            "utterance_id": "BK22000944.1"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "작곡가 요한 제바스티안 바흐는 대위법의 대가였다",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%9C%84%EB%B2%95",
+            "search_query": "바흐 대위법",
+            "terminate": false,
+            "text": "바흐 콘서트에 갔다왔나보지? 요한 제바스티안 바흐야 말로 대위법의 대가니 말이야.",
+            "turn_id": "BK22000944-1",
+            "utterance_id": "BK22000944.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바로 맞추는군, 그래서 대관절 대위법이라는 게 뭔데?",
+            "turn_id": "BK22000944-2",
+            "utterance_id": "BK22000944.3"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "대위법(對位法)은 두 개 이상의 독립적인 선율을 조화롭게 배치하는 작곡 기술이다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%9C%84%EB%B2%95",
+            "search_query": "대위법",
+            "terminate": false,
+            "text": "대위법이란 건 말야, 선율을 두개 이상 독립적으로 배치해서 조화롭게 들리도록 작곡하는 거야.",
+            "turn_id": "BK22000944-2",
+            "utterance_id": "BK22000944.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 두 개 이상의 선율이 쌓인다는 건데 그럼 대위법이라는게 화음이랑도 연결되는 거겠네?",
+            "turn_id": "BK22000944-3",
+            "utterance_id": "BK22000944.5"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "대위법은 교회음악을 중심으로 발달하였으며 적당한 악기가 없던 시대에 단선율만 낼 수 있는 사람의 목소리를 독립적으로 배치하기 위해서 발달하였다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "음악적 특성상 노래를 부르는 사람이 지루하지 않게 하기 위해서 각각의 성부는 독립적인 선율을 노래하게 되었으며, 독립적인 선율을 배치하는 과정에서 화음의 발전에 기여했다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%9C%84%EB%B2%95",
+            "search_query": "대위법 화음",
+            "terminate": false,
+            "text": "그렇지, 대위법이란게 적당한 악기라고 할만한 게 없던 시절, 사람 목소리는 선율이 하나니까 그걸 독립적으로 배치하려다보니 발전한 거거든. 노래를 부르는 사람이 지루하지 않도록 따로 성부라는 걸 만들었고 성부마다 따로 선율을 붙이기 시작한거지. 이 성부에 따른 선율을 어떻게 배치하느냐 하는 고민이 화음의 발전에도 기여하게 된거지.",
+            "turn_id": "BK22000944-3",
+            "utterance_id": "BK22000944.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군, 대위법이라니까 뭘 대신한다는 거 같기도 하고 아까 말한대로 목소리를 대신한다는 말일까?",
+            "turn_id": "BK22000944-4",
+            "utterance_id": "BK22000944.7"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "대위법이란 단어는 영어의 Counterpoint, 독일어의 Kontra－punkt, 프랑스어의 Contrepoint 등을 한글로 번역한 것으로서, 모두 라틴어의 Punctus contra punctum이 어원이다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 말을 직역하면 '점 대 점'이라는 뜻이지만, 점 즉 음표에서 '음표에 대한 음표', 나아가서 '멜로디에 대한 멜로디'라고 해석하는 것이 보다 정확한 해석이라 하겠다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%9C%84%EB%B2%95",
+            "search_query": "대위법 어원",
+            "terminate": false,
+            "text": "아니야, 대위법은 따지고 올라가면 라틴어 Punctus contra punctum을 기원으로 하는 말이야. 이 단어를 바탕으로 영어, 프랑스어, 독일어에서 각자의 단어가 만들어졌는데 그 단어들의 뜻을 한국어로 옮긴게 바로 대위법인거지. 문자 그대로 해석하면 점 대 점이라는 뜻이고 뜻을 풀어보자면 음표에 대한 음표, 확장해서 멜로디에 대한 멜로디하고 할 수 있지.",
+            "turn_id": "BK22000944-4",
+            "utterance_id": "BK22000944.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대위법을 쓴 음악은 그럼 뭐가 있을까, 내가 아는 것도 있으려나?",
+            "turn_id": "BK22000944-5",
+            "utterance_id": "BK22000944.9"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "대위법을 사용하는 작곡 방식으로 가장 고난도 기법은 푸가이며 이외에도 카논, 돌림노래 등이 대위법을 사용한다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%9C%84%EB%B2%95",
+            "search_query": "대위법 음악 종류",
+            "terminate": false,
+            "text": "푸가라고 혹시 아니? 제일 고난도로 대위법을 쓰는 음악인데. 아니면 카논이라던지. 아, 돌림노래는 알고 있겠다. 돌림노래도 대위법을 썼다고 할 수 있어.",
+            "turn_id": "BK22000944-5",
+            "utterance_id": "BK22000944.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "돌림노래는 당연히 알지, 사실 푸가도 들어보긴 한거 같은데 좀만 자세히 말해줘봐.",
+            "turn_id": "BK22000944-6",
+            "utterance_id": "BK22000944.11"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "푸가(이탈리아어: fuga)는 모방대위법적인 악곡 형식의 하나이다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바로크 시대 음악에서 주된 악곡의 형식으로 쓰였다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EA%B0%80",
+            "search_query": "푸가",
+            "terminate": false,
+            "text": "푸가란건 말이지, 모방대위법적 악곡 중에 하나인데 바로크 시대에 주로 쓰인 형식이야.",
+            "turn_id": "BK22000944-6",
+            "utterance_id": "BK22000944.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 방금 말한건 무슨 소리인지 잘 모르겠네. 푸가가 어디서 온 말인지 내가 알아들을 수 있게 설명해줘.",
+            "turn_id": "BK22000944-7",
+            "utterance_id": "BK22000944.13"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "푸가'는 '도주(逃走)'를 의미하는 이탈리아어에서 유래하며, 이전에는 '둔주곡(遁走曲)', '추복곡(追覆曲)' 등으로 번역되었다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EA%B0%80",
+            "search_query": "푸가 유래",
+            "terminate": false,
+            "text": "도주를 뜻하는 이탈리아어에서 나온 말이야. 그래서 예전에는 이 뜻을 담아서 둔주곡이나 추복곡이라고 번역했어.",
+            "turn_id": "BK22000944-7",
+            "utterance_id": "BK22000944.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 바흐가 대위법의 대가라고 했으니 푸가도 당연히 잘 썼겠지?",
+            "turn_id": "BK22000944-8",
+            "utterance_id": "BK22000944.15"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "특히 바흐는 음악사를 통틀어 최대의 푸가의 대가이며, 그의 《평균율 클라비어곡집》, 《푸가 기법》 등은 푸가의 대표적인 것이다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EA%B0%80",
+            "search_query": "바흐 푸가",
+            "terminate": false,
+            "text": "말이라고, 바흐는 음악사 최대의 푸가 대가지. 평균율 클라비어곡집이나 푸가기법이라는 작품이 있으니까 꼭 들어봐.",
+            "turn_id": "BK22000944-8",
+            "utterance_id": "BK22000944.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "바흐말고는 유명한 사람들 중에 푸가 작곡한 사람은 없어?",
+            "turn_id": "BK22000944-9",
+            "utterance_id": "BK22000944.17"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "바흐 이후로는 모차르트, 베토벤이 푸가의 대가이다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들면, 베토벤의 후기 피아노 소나타 106번, 110번, 현악 4중주곡 등의 여러 악장 중에서 푸가를 사용하였다.",
+                    "value_time": "2022-06-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%91%B8%EA%B0%80",
+            "search_query": "푸가 베토베 모차르트",
+            "terminate": false,
+            "text": "정말 유명한 사람들이 있지. 바로 모차르트랑 베토벤. 베토벤 소나타 106번, 110번이랑 현악 4중주곡 중에서 여러 악장들이 푸가 기법을 사용했으니까 관심있으면 찾아봐.",
+            "turn_id": "BK22000944-9",
+            "utterance_id": "BK22000944.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 고맙지만 찾아보진 않을 거 같아. 일단 지금 들은 걸로만도 뇌용량 초과야.",
+            "turn_id": "BK22000944-10",
+            "utterance_id": "BK22000944.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 그럼 머리 좀 비우고 다시 만나서 얘기하자.",
+            "turn_id": "BK22000944-10",
+            "utterance_id": "BK22000944.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 난 산책한번 하고 올테니 기다리고 있어. 조금 이따 또 얘기해, 안녕!",
+            "turn_id": "BK22000944-11",
+            "utterance_id": "BK22000944.21"
+        }
+    ]
+}

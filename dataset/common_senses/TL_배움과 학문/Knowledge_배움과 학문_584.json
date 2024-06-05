@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003326",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003326",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장마가 끝나니 매미 울음소리가 정말 심해서 이제 한여름이구나 싶더라고요.",
+            "turn_id": "BK22003326-1",
+            "utterance_id": "BK22003326.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 전 아침에 매미 소리 때문에 잠에서 깬다니까요.",
+            "turn_id": "BK22003326-1",
+            "utterance_id": "BK22003326.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠? 매미는 밤낮없이 울어대는데 왜 그렇게 우는 건가요?",
+            "turn_id": "BK22003326-2",
+            "utterance_id": "BK22003326.3"
+        },
+        {
+            "reference_date": "2014-07-28",
+            "reference_text": [
+                {
+                    "value": "매미가 시끄럽게 우는 이유는 짝짓기를 통해 종족을 보존하기 위해서다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유충에서 성충이 되기까지 땅속에서 5년에서 17년간 인고의 세월을 보내는 매미는 성충이 된 후 보름에서 길어야 한 달 정도를 살다가 짝짓기를 마친 후 생을 마감한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.munhwa.com/news/view.html?no=2014072801033037289002",
+            "search_query": "매미 우는 이유",
+            "terminate": false,
+            "text": "매미가 시끄럽게 우는 건 짝짓기를 위해서예요. 짝짓기는 종족 보존을 위해 꼭 필요한 일인 거죠. 또한 매미는 유충 상태로 땅속에서 5년에서 길게는 17년까지 지내다가 성충이 돼요. 성충이 된 후 보름에서 한 달 정도를 살며 짝짓기를 하고 생을 마치는 거죠.",
+            "turn_id": "BK22003326-2",
+            "utterance_id": "BK22003326.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 다 이유가 있었군요. 그런데 너무 시끄럽게 울어서 귀가 따가울 정도에요. 옆 사람 대화도 안 들릴 정도로 울던데 소음이 얼마나 심한가요?",
+            "turn_id": "BK22003326-3",
+            "utterance_id": "BK22003326.5"
+        },
+        {
+            "reference_date": "2021-06-29",
+            "reference_text": [
+                {
+                    "value": "매미울음 소리(평균 72.7 데시벨(dB))가 자동차 소음(67.8 dB) 보다 높다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사람의 일반적인 대화 소리는 40~60㏈ 정도이고 일반적인 빗소리는 50㏈ 정도다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.mt.co.kr/mtview.php?no=2021062914452566554",
+            "search_query": "매미 소음",
+            "terminate": false,
+            "text": "매미 소리는 평균 72.7데시벨이에요. 자동차 소음이 67.8데시벨이니 매미 울음소리가 훨씬 소음이 심해요. 또 사람의 대화 소리가 보통 40데시벨에서 60데시벨이고, 빗소리가 50데시벨이니 매미 울음소리는 사람 대화와 빗소리보다 더 높아요.",
+            "turn_id": "BK22003326-3",
+            "utterance_id": "BK22003326.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 매미 울음소리가 자동차 소리보다 더 크다니 놀랍네요. 매미는 어떻게 소리를 내기에 그렇게 큰 소리를 낼 수 있는 건가요?",
+            "turn_id": "BK22003326-4",
+            "utterance_id": "BK22003326.7"
+        },
+        {
+            "reference_date": "2017-07-08",
+            "reference_text": [
+                {
+                    "value": "북 내부가 텅 비어있듯 매미의 배에도 텅 빈 공간인 ‘공명실’이 있습니다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "매미의 진동막에서 생긴 떨림을 더 큰 소리로 만들어 주는 역할을 하죠.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201707080435208139",
+            "search_query": "매미 소리 진동",
+            "terminate": false,
+            "text": "매미의 배에는 북 내부가 텅 빈 것처럼 공명실이 있어요. 공명실은 매미의 진동막에서 생긴 소리를 더 큰 소리로 만들어줘요.",
+            "turn_id": "BK22003326-4",
+            "utterance_id": "BK22003326.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매미의 특별한 능력인 거네요. 그런데 매미를 보면 생김새가 조금씩 다르더라고요. 나무에서 우는 매미는 어떤 매미인가요?",
+            "turn_id": "BK22003326-5",
+            "utterance_id": "BK22003326.9"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "환경부 국립생물자원관 동물자원과에 따르면, 국내산 매미 중 소리 주파수가 가장 높은 종은 ‘세모배매미’이며 주파수가 가장 낮은 종은 ‘참매미’다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정상적인 청력을 가진 사람이 들을 수 있는 주파수는 4kHz에서 6kHz이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "참매미가 내는 4kHz와 말매미 소리인 6kHz가 이 주파수 대역에 속한다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리가 흔히 시끄럽다고 생각하는 매미가 바로 이 종류들이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.civicnews.com/news/articleView.html?idxno=34237",
+            "search_query": "참매미",
+            "terminate": false,
+            "text": "환경부 국립생물자원관 동물자원과에 의하면 국내 매미 중에 소리 주파수가 제일 높은 종은 세모배매미에요. 또 주파수가 가장 낮은 종은 참매미에요. 평균적인 청력을 가진 사람이 들을 수 있는 주파수가 4킬로 헤르츠에서 6킬로 헤르츠인데 참매미와 말매미가 이 주파수 대역에 해당해요. 우리가 시끄럽다고 느끼는 소리는 참매미와 말매미가 내는 소리예요.",
+            "turn_id": "BK22003326-5",
+            "utterance_id": "BK22003326.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 매미는 아침보다 밤에 더 심하게 우는 것 같아요. 왜 그러는 건가요?",
+            "turn_id": "BK22003326-6",
+            "utterance_id": "BK22003326.11"
+        },
+        {
+            "reference_date": "2021-10-11",
+            "reference_text": [
+                {
+                    "value": "이처럼 매미가 늦은 밤까지 우는 데는 사람들이 만들어낸 인공조명이 큰 영향을 미친 것으로 나타났다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "도시의 야간조명이 밤을 밝히면 매미들 역시 잠들지 못하고 울어댄다는 것이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/national/national-general/article/202110111115001",
+            "search_query": "매미 야간 소음",
+            "terminate": false,
+            "text": "매미가 저녁 늦게까지 우는 이유는 인공조명 때문이에요. 도시의 야간조명이 어둠을 환하게 밝혀서 매미도 잠을 못 자고 우는 거죠.",
+            "turn_id": "BK22003326-6",
+            "utterance_id": "BK22003326.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말요? 매미 소음 원인에 도시 영향도 있는 거네요. 그럼 원래 매미는 낮에만 우는 건가요?",
+            "turn_id": "BK22003326-7",
+            "utterance_id": "BK22003326.13"
+        },
+        {
+            "reference_date": "2020-04-19",
+            "reference_text": [
+                {
+                    "value": "이는 주광성 곤충인 매미가 원래 낮에만 울고 밤에는 울지 않는 곤충인데 빛공해로 인해 밤과 낮의 생리주기의 혼란으로 특히 빛이 밝은 나무 근처에서는 더 심하게 울게 된다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.idaegu.co.kr/news/articleView.html?idxno=308790",
+            "search_query": "매미 주광성 곤충",
+            "terminate": false,
+            "text": "맞아요. 매미는 낮에만 울고 밤에 울지 않는 주광성 곤충이에요. 하지만 도시의 빛으로 인해 밤과 낮의 주기가 혼란스러워 빛이 밝은 나무 근처에서 더욱더 심하게 우는 거죠.",
+            "turn_id": "BK22003326-7",
+            "utterance_id": "BK22003326.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어머, 사람도 괴롭지만 매미도 괴롭네요. 그런데 매미는 쉬지 않고 맘껏 우는 걸 보니 천적이 없나 봐요?",
+            "turn_id": "BK22003326-8",
+            "utterance_id": "BK22003326.15"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "도심지역의 경우 매미의 천적인 새나 말벌, 사마귀, 거미 등이 없어 인근에 야산이나 자연생태계가 인접한 외곽지역에 비해 매미의 개체수가 많을 수밖에 없는 환경이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4387896",
+            "search_query": "매미 천적",
+            "terminate": false,
+            "text": "도시의 경우 매미의 천적인 새, 말벌, 사마귀, 거미 등이 없어요. 그래서 도시 주변에 야산이나 자연 생태계가 있는 외부 지역에 비교해 매미의 개체 수가 많은 환경이 됐어요.",
+            "turn_id": "BK22003326-8",
+            "utterance_id": "BK22003326.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 천적이 아예 없는 건 아니었군요. 그러면 매미의 소음을 줄일 수 있는 방법은 없나요?",
+            "turn_id": "BK22003326-9",
+            "utterance_id": "BK22003326.17"
+        },
+        {
+            "reference_date": "2021-10-11",
+            "reference_text": [
+                {
+                    "value": "11일 서울시보건환경연구원에 따르면 지난 7~9월 서울 시내 아파트 단지와 상업 시설, 도시공원 등 5개 지점에서 소음 조사를 진행한 결과, 매미 울음소리가 생활소음 규제 기준인 확성기 소리(60~65dB)를 넘을 정도로 초과한 것으로 나타났다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 대해 연구원은 양버즘나무와 벚나무 등 활엽수를 침엽수인 잣·전·소나무나 과실수로 교체하거나 혼용 식재할 경우 조류, 청솔모 등 매미의 천적들이 활동할 수 있는 환경이 조성돼 매미를 줄일 수 있다고 밝혔다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또 밝은 야간 조명을 친환경 조명으로 교체하고, 조도를 낮추면 매미 울음소리를 줄일 수 있다고 덧붙였다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021101109330005256?did=NA",
+            "search_query": "매미 소음 줄이기",
+            "terminate": false,
+            "text": "서울시 보건환경연구원에 따르면 지난 7월에서 9월 사이 서울 시내 아파트와 상업 시설, 도시공원 등의 5개 장소에서 소음 조사를 진행했는데 매미 울음소리가 생활 소음 규정 기준 소리인 60데시벨에서 65데시벨을 초과한 것을 확인했어요. 그래서 매미 소음을 줄이는 방법으로는 활엽수인 양버즘나무와 벚나무 등을 침엽수인 잣나무, 전나무, 소나무 등의 과실수로 바꾸면 돼요. 또 매미의 천적인 조류나 청설모가 활동 가능한 환경이 조성되면 매미를 줄일 수 있어요. 그리고 밝은 야간 조명을 친환경 조명으로 바꾸고, 빛의 양을 낮추면 매미 울음소리가 줄어들게 돼요.",
+            "turn_id": "BK22003326-9",
+            "utterance_id": "BK22003326.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "꽤 여러 가지 방법이 있네요. 조금만 환경을 바꿔서 매미도 사람도 덜 고생하면 좋겠어요.",
+            "turn_id": "BK22003326-10",
+            "utterance_id": "BK22003326.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 제도적으로 매미와 사람이 함께 사는 방법을 만들길 바라야죠. 오늘 얘기 즐거웠어요. 다음에 또 봐요.",
+            "turn_id": "BK22003326-10",
+            "utterance_id": "BK22003326.20"
+        }
+    ]
+}

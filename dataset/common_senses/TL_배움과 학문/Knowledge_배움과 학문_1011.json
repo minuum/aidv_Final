@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006628",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006628",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0033"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 미국 역사를 공부하고 있는데 대통령에 대한 암살 시도가 의외로 꽤 많았네요. 참 무서워요. 아, 케네디 대통령은 언제 암살됐었죠?",
+            "turn_id": "BK22006628-1",
+            "utterance_id": "BK22006628.1"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "존 F. 케네디 암살 사건은 1963년 11월 22일 미국의 존 F. 케네디 대통령이 리 하비 오스월드의 총에 맞아 암살당한 사건이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1963년 11월 22일에 미국 케네디 대통령은 포드 자동차 회사에서 만든 링컨 컨티넨탈 차를 타고 텍사스주 댈러스 시내에서 퍼레이드를 하고 있었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "케네디 암살 사건 오스월드",
+            "terminate": false,
+            "text": "1963년 11월 22일이에요. 당시 존 F. 케네디 대통령은 포드 자동차에서 제작한 링컨 컨테넨탈을 타고 텍사스주 댈러스 시내에서 퍼레이드를 하고 있었는데 리 하비 오스월드가 총으로 대통령을 암살했죠.",
+            "turn_id": "BK22006628-1",
+            "utterance_id": "BK22006628.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그게 60년대에 벌어진 일이었군요. 당시 케네디 대통령은 왜 워싱턴이 아닌 텍사스에 있었던 거죠?",
+            "turn_id": "BK22006628-2",
+            "utterance_id": "BK22006628.3"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "일종의 대선 개막전으로 케네디는 11월에 플로리다와 텍사스를 방문한다는 계획을 세웠다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "나름대로 민권에 대해 명확한 태도를 취해온 터라 남부 대다수 주를 얻기는 어려울 것이라 판단, 플로리다와 텍사스를 겨냥해 각별히 공을 들이기로 했다",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "케네디 암살 사건 텍사스 플로리다 대선",
+            "terminate": false,
+            "text": "당시 대선을 앞두고 일종의 개막전 삼아서 11월에 플로리다와 텍사스를 방문하는 계획을 이미 수립했거든요. 자신의 민권에 대한 확실한 태도 때문에 남부 대다수의 주들이 지지하지 않을 거라고 생각하고 플로리다와 텍사스에 특별히 공을 들인거죠.",
+            "turn_id": "BK22006628-2",
+            "utterance_id": "BK22006628.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 당시 대통령에 대한 경호 수준은 어느 정도였나요? 미합중국의 대통령이라면 보안 수준이 굉장히 높았을 텐데요.",
+            "turn_id": "BK22006628-3",
+            "utterance_id": "BK22006628.5"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "텍사스 순방 기간에, 특히 댈러스 방문 경로에 발생 가능한 위협에 대비해 대통령 신변 보호 차원에서 취할 만한 보안 예방책은 취하고 있었으나, 대통령 경호 담당 재무부 비밀 검찰국이나 FBI는 극우 세력에 대해서는 과대 반응을, 급진 좌파의 암살 가능성에 대해서는 과소 반응을 보이고 있었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "케네디 암살 사건 댈러스 경호",
+            "terminate": false,
+            "text": "당시 대통령 경호 담당이었던 재무부 비밀 검찰국과 FBI는 텍사스 순방 기간 동안, 특히 댈러스 방문 시 일어날 수 있는 위험에 대비해서 대통령 신변 보호 수준의 보안 예방책은 취하고 있었죠. 하지만 극성 우파에 대해서는 지나치게 민감한 반응을 보이면서도 극성 좌파의 암살 가능성에 대해서는 너무 낮게 평가하고 있었어요.",
+            "turn_id": "BK22006628-3",
+            "utterance_id": "BK22006628.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경호팀이 정말 엄청난 실수를 저질렀네요. 아, 케네디 대통령 암살범인 오스월드는 어떤 사람이었나요?",
+            "turn_id": "BK22006628-4",
+            "utterance_id": "BK22006628.7"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "리 하비 오스월드(Lee Harvey Oswald)는 1939년 10월 18일 뉴올리언스에서 태어났다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1960년 10월 오스월드가 소비에트 연방으로 건너갔다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 얼마 지나지 않아 모스크바에서 보내는 변변찮은 삶에 질려 1962년 미국으로 돌아왔다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "오스월드 케네디 암살 소비에트",
+            "terminate": false,
+            "text": "리 하비 오스월드는 1939년 10월 18일에 뉴올리언스에서 출생했어요. 그는 1960년 10월에 소련으로 이주했지만 모스크바에서의 하찮은 인생에 질려서 1962년에 미국으로 귀환했죠.",
+            "turn_id": "BK22006628-4",
+            "utterance_id": "BK22006628.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한때 소련에서 살기도 했었군요. 오스월드는 케네디 대통령을 어떤 식으로 암살했었나요?",
+            "turn_id": "BK22006628-5",
+            "utterance_id": "BK22006628.9"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "오스월드는 그의 일터인 교과서 보관 창고로 쓰이던 댈러스 중심가 딜리 플라자 건물 6층 창문에서 바로 아래 무개차에 몸을 싣고 지나가는 대통령을 겨냥해 세 발을 발사했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 번째 발사된 탄환이 케네디의 목 뒤를 가격했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세 번째 탄환은 후두부에 치명타를 가했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "오스월드 창고 발사 케네디",
+            "terminate": false,
+            "text": "당시 오스월드는 댈러스 중심가 딜리 플라자 건물 6층에 위치한 교과서 보관 창고에서 일하고 있었어요. 이를 이용해 그는 그 창고의 창문에서 바로 아래 뚜껑없는 자동차에 타고 지나가던 대통령을 노리고 세 발의 총알을 쐈어요. 두 번째 총알이 케네디 대통령의 목 뒤를 맞췄고 세 번째 총알이 후두부에 결정타를 가했죠.",
+            "turn_id": "BK22006628-5",
+            "utterance_id": "BK22006628.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에나, 머리 부분에 두발이나 명중했군요. 듣기만 했는데도 오싹하네요. 케네디 대통령의 공식적인 사망은 언제 확정됐나요?",
+            "turn_id": "BK22006628-6",
+            "utterance_id": "BK22006628.11"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "중부 시각으로 오후 1시, 저격 순간에서 30분이 지난 시각, 댈러스 파클랜드 메모리얼 병원 의료진은 영부인에게 대통령이 운명했다는 사실을 통보했다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94_%EC%95%94%EC%82%B4_%EC%82%AC%EA%B1%B4",
+            "search_query": "케네디 암살 운명 시각",
+            "terminate": false,
+            "text": "총에 맞은 뒤 30분이 지난 당시 미국 중부 시각으로 오후 1시에 댈러스 파클랜드 메모리얼 병원 의료진들이 영부인에게 대통령이 서거했음을 알려요.",
+            "turn_id": "BK22006628-6",
+            "utterance_id": "BK22006628.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "30분 뒤에 서거가 확정됐다면 아마 총알에 맞자마자 즉사했겠네요. 대체 오스왈드는 왜 케네디 대통령을 살해한거죠?",
+            "turn_id": "BK22006628-7",
+            "utterance_id": "BK22006628.13"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "11월 23일 그는 케네디 대통령 암살과 경찰관 티핏을 살인한 혐의로 함께 기소되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "감금되어 있는 동안 오스월드는 경찰의 심문을 받았고 암살 사건에서 자신의 연루를 부인하였다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그는 이어진 날 자신도 살해되었기 때문에 완전하게 자신의 행동 혹은 자극을 전혀 설명할 수 없었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC_%ED%95%98%EB%B9%84_%EC%98%A4%EC%8A%A4%EC%9B%94%EB%93%9C",
+            "search_query": "케네디 암살 오스월드 티핏 부인",
+            "terminate": false,
+            "text": "그건 정확하게 알 수가 없어요. 그는 11월 23일에 케네디 대통령 암살 및 경관 티핏을 살해한 혐의로 기소됐지만 감옥에 갇힌 오스왈드는 경찰심문에서 자신이 암살 사건과 관계가 없다며 범죄 사실을 부인하거든요. 문제는 그 자신도 살해되기 때문에 행동의 이유 혹은 자신이 자극받은 이유를 설명할 수가 없었죠.",
+            "turn_id": "BK22006628-7",
+            "utterance_id": "BK22006628.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "암살범이 살해를 당했다고요? 이미 경찰에 잡혔는데 대체 어떻게 살해를 당한거죠?",
+            "turn_id": "BK22006628-8",
+            "utterance_id": "BK22006628.15"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "11월 24일 지하 주차장을 통하여 경찰서로부터 카운티 감옥으로 옮겨지는 동안 오스월드는 나이트클럽의 주인 잭 루비에 의하여 총을 맞고 살해되었다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A6%AC_%ED%95%98%EB%B9%84_%EC%98%A4%EC%8A%A4%EC%9B%94%EB%93%9C",
+            "search_query": "케네디 암살 오스월드 잭 루비",
+            "terminate": false,
+            "text": "11월 24일에 오스왈드는 지하 주차장을 통해 경찰서에서 카운티 감옥으로 이송되고 있었는데 나이트클럽 사장인 잭 루비에게 총격을 당해서 죽었어요.",
+            "turn_id": "BK22006628-8",
+            "utterance_id": "BK22006628.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 케네디 대통령의 암살을 미스테리라고 하는 거였군요. 하필 용의자가 살해를 당해서 이유를 영영 모르게 됐네요.",
+            "turn_id": "BK22006628-9",
+            "utterance_id": "BK22006628.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 저도 개인적으로 오스왈드가 진짜 범인이 맞았는지, 맞다면 왜 대통령을 살해했는지 너무 궁금해요.",
+            "turn_id": "BK22006628-9",
+            "utterance_id": "BK22006628.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 정말 궁금하네요. 기밀 문서 같은 것들이 해제되면 언젠가는 알 수도 있겠죠. 아무튼 오늘도 질문에 친절하게 답변해 주셔서 너무 감사합니다.",
+            "turn_id": "BK22006628-10",
+            "utterance_id": "BK22006628.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 다음에도 모르는 게 있으면 편하게 질문 주세요!",
+            "turn_id": "BK22006628-10",
+            "utterance_id": "BK22006628.20"
+        }
+    ]
+}

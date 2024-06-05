@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005265",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005265",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 요새 국악기에 관심이 많아요. 서양악기만큼이나 다양하더라고요. 혹시 국악기에 대해서 잘 아시면 저한테 몇 가지 좀 알려주세요.",
+            "turn_id": "BK22005265-1",
+            "utterance_id": "BK22005265.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 국악기도 가짓수가 정말 많죠. 어떤 것이 궁금하신데요?",
+            "turn_id": "BK22005265-1",
+            "utterance_id": "BK22005265.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가야금과 거문고가 잘 구분이 안되더라고요. 둘이 뭐가 다르죠?",
+            "turn_id": "BK22005265-2",
+            "utterance_id": "BK22005265.3"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "가야금(伽倻琴)은 한국의 전통 현악기로 거문고와 비슷하나 다른 말로 가얏고라고도 한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오동나무 통에 명주실로 된 열두 줄을 매어 손가락으로 뜯는 악기이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%95%BC%EA%B8%88",
+            "search_query": "가야금",
+            "terminate": false,
+            "text": "먼저 가야금에 대해서 알려드릴게요. 가야금은 국악기 중에서도 현악기예요. 가얏고라고도 부르는데, 말씀하신대로 거문고와도 닮았죠. 줄 개수가 12개구요, 가야금의 통은 오동나무로 만들어요. 연주는 손가락으로 하구요.",
+            "turn_id": "BK22005265-2",
+            "utterance_id": "BK22005265.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "줄이 12개에 손으로 뜯는 악기가 가야금이군요. 그럼 거문고는요?",
+            "turn_id": "BK22005265-3",
+            "utterance_id": "BK22005265.5"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "거문고는 낮고 중후한 소리부터 높은 소리까지 넓은 옥타브의 소리를 내는 고구려에서 유래된 한국의 전통 현악기이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "통나무 통에 명주실 여섯을 매어 술대로 뜯는 악기로, 줄풍류를 비롯하여 가곡반주·산조에 쓰인다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "거문고",
+            "terminate": false,
+            "text": "고구려 때부터 전해져 내려오는 거문고도 가야금과 마찬가지로 현악기에 속하고, 음역대가 다양해요. 낮은 소리부터 높은 소리까지 다 낼 수 있거든요. 통은 통나무로 만들고, 줄이 여섯줄이에요. 근데 이건 손으로 뜯지 않고 술대로 뜯는 악기예요. 줄풍류나 산조, 가곡반주에 쓰이죠.",
+            "turn_id": "BK22005265-3",
+            "utterance_id": "BK22005265.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "거문고는 줄이 여섯 개에 술대로 뜯는 악기라는 점에서 가야금과 확실한 차이가 나타나네요. 근데 제가 두 악기의 연주모습을 유심히 봤더니 악기 위치가 좀 다르더라구요. 그것도 두 악기의 차이점인가요?",
+            "turn_id": "BK22005265-4",
+            "utterance_id": "BK22005265.7"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "가야금은 연주자의 시야에 똑바로 놓는데(관중이 볼때 가야금의 옆면이 보인다), 거문고는 앞을 향해 약간(약 15도 각도) 세워서 연주한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "가야금 거문고 악기 놓임",
+            "terminate": false,
+            "text": "아주 예리하시네요. 가야금은 연주할 때 연주하는 사람의 시야를 기준으로 똑바로 놓거든요. 그렇다보니 관중석에서는 가야금의 옆면이 보이죠. 근데 거문고는 약 15도 정도 앞쪽으로 세워서 연주해요.",
+            "turn_id": "BK22005265-4",
+            "utterance_id": "BK22005265.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "악기를 연주할 때 정해진 자세와 위치가 따로 있나보네요. 근데 혹시 줄의 두께가 다른가요? 거문고 소리가 낮다고 해서 궁금해서요.",
+            "turn_id": "BK22005265-5",
+            "utterance_id": "BK22005265.9"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "가야금에 비해 거문고의 줄이 훨씬 두껍다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%AC%B8%EA%B3%A0",
+            "search_query": "가야금 거문고 줄",
+            "terminate": false,
+            "text": "줄 두께는 거문고가 훨씬 두꺼워요. 상대적으로 가야금의 줄 두께는 얇죠.",
+            "turn_id": "BK22005265-5",
+            "utterance_id": "BK22005265.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼핏 비슷한 듯 보여도 하나하나 보면 완전히 다른 악기네요. 가야금 거문고랑 비슷한 악기가 하나 더 있던데, 혹시 아세요?",
+            "turn_id": "BK22005265-6",
+            "utterance_id": "BK22005265.11"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "아쟁(牙箏)은 7현으로 된 한국 전통의 찰현악기 중 하나로 가장 좁은 음역을 가진 저음 악기다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9F%81",
+            "search_query": "아쟁",
+            "terminate": false,
+            "text": "아쟁 말씀하시는거죠? 비슷한듯 하지만 다른 또 하나의 악기예요. 이건 찰현악기이고 줄이 7개예요. 음역대는 좁은 편이고요.",
+            "turn_id": "BK22005265-6",
+            "utterance_id": "BK22005265.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 말한 게 아쟁 맞아요. 아쟁은 줄이 7개군요. 근데 찰현악기는 어떤 악기를 말하는 거예요?",
+            "turn_id": "BK22005265-7",
+            "utterance_id": "BK22005265.13"
+        },
+        {
+            "reference_date": "2022-04-24",
+            "reference_text": [
+                {
+                    "value": "찰현악기(擦絃樂器)는 줄을 활로 마찰시켜 소리를 내는 현악기이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서양 악기로는 바이올린족, 비올족 악기들이 모두 이에 속하며, 한국의 국악기로는 해금과 아쟁이 있다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B0%B0%ED%98%84%EC%95%85%EA%B8%B0",
+            "search_query": "찰현악기",
+            "terminate": false,
+            "text": "찰현악기는 활로 줄을 켜서 음을 만드는 현악기를 말해요. 예를들면 쉽게 아실 것 같은데, 바이올린이나 비올라 종류의 악기들이 찰현악기예요. 그리고 국악기는 방금 말씀드린 아쟁이랑 해금이 있고요.",
+            "turn_id": "BK22005265-7",
+            "utterance_id": "BK22005265.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 아쟁은 활로 연주를 하는 악기라는 말씀이신거네요? 가야금, 거문고와 외형은 비슷하지만 활로 연주하면 아쟁이라고 구분하면 되겠어요. 근데 아쟁이 찰현악기면, 가야금, 거문고는 무슨 악기라고 불러요?",
+            "turn_id": "BK22005265-8",
+            "utterance_id": "BK22005265.15"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "발현악기(撥絃樂器)는 손톱, 손가락 또는 피크 같은 도구로 줄을 퉁겨 연주하는 악기이다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "서양 음악에서는 기타, 류트, 만돌린 등의 악기가 이에 속하며, 그 외에 하프, 한국의 국악기로는 가야금, 거문고 등이 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%9C%ED%98%84%EC%95%85%EA%B8%B0",
+            "search_query": "발현악기",
+            "terminate": false,
+            "text": "가야금, 거문고와 같은 악기는 발현악기라고 불러요. 손가락이나 손톱, 아니면 피크같은 도구를 이용해서 연주하는거죠. 참고로 서양의 발현악기로는 기타, 류트, 만돌린, 하프 등이 있고요.",
+            "turn_id": "BK22005265-8",
+            "utterance_id": "BK22005265.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "찰현악기와 발현악기가 이제 구분이 되네요. 아까 아쟁이랑 같이 언급하신 해금이요, 그건 어떤 악기예요?",
+            "turn_id": "BK22005265-9",
+            "utterance_id": "BK22005265.17"
+        },
+        {
+            "reference_date": "2018-04-27",
+            "reference_text": [
+                {
+                    "value": "해금은 울림통 위에 수직으로 세운 입죽과 나란히 두 줄의 현을 걸고 두 줄 사이에 활을 끼워 연주한다.",
+                    "value_time": "2022-08-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0100&key=20180427.99099013112",
+            "search_query": "해금",
+            "terminate": false,
+            "text": "해금은 줄이 두 개 뿐이예요. 울림통이 있고, 그 위에 수직으로 입죽을 올렸어요. 두 줄을 나란히 걸어놓고 그사이에 활을 끼워 연주하죠.",
+            "turn_id": "BK22005265-9",
+            "utterance_id": "BK22005265.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 이건 세워서 연주하는 현악기네요. 참, 마침 이번 주말에 국악연주회가 있는데 같이 가실래요?",
+            "turn_id": "BK22005265-10",
+            "utterance_id": "BK22005265.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋죠. 마침 주말에 시간이 비는데 같이 공연 보러 가요. 제가 주중에 다시 연락 드릴게요. 오늘도 좋은 하루 되세요.",
+            "turn_id": "BK22005265-10",
+            "utterance_id": "BK22005265.20"
+        }
+    ]
+}

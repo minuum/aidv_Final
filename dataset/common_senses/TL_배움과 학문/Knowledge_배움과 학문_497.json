@@ -1,0 +1,342 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002245",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002245",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "날씨가 너무 더워서 밖에 나가기 싫어. 그리고 조금 있으면 곧 태풍도 올텐데 걱정이야.",
+            "turn_id": "BK22002245-1",
+            "utterance_id": "BK22002245.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 말이야. 나는 비가 오면 옷이 젖어서 밖에 나가기 싫더라.",
+            "turn_id": "BK22002245-1",
+            "utterance_id": "BK22002245.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "옷도 머리도 젖어서 나가기 싫은 거 공감해. 그런데 태풍은 왜 나타나는 거야?",
+            "turn_id": "BK22002245-2",
+            "utterance_id": "BK22002245.3"
+        },
+        {
+            "reference_date": "2022-06-29",
+            "reference_text": [
+                {
+                    "value": "태풍(한국 한자: 颱風, 영어: typhoon, 중국어 간체자: 台风) 또는 열대폭풍(熱帶暴風, TS: tropical storm)은 열대 해상에서 발생한 열대저기압이 발달하여, 중심 부근의 최대 풍속이 17.2m/s 이상의 강한 폭풍우를 동반한 국지적 기상 현상을 말한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%92%8D",
+            "search_query": "태풍 발생",
+            "terminate": false,
+            "text": "태풍은 열대 폭풍이라고도 불러. 태풍 중심 부근의 풍속이 최대 17.2미터퍼세크 이상이 되는 강한 폭풍우와 함께 나타나는 국지적 기상 현상이야.",
+            "turn_id": "BK22002245-2",
+            "utterance_id": "BK22002245.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "17.2 미터퍼세크 이상이라니 엄청 강한 바람인 걸. 하긴 이 정도의 폭풍우가 아니면 태풍이라고 부를 수도 없겠지. 그나저나 그동안 우리나라에 왔던 태풍 중에 피해가 컸던 건 무엇이 있었지?",
+            "turn_id": "BK22002245-3",
+            "utterance_id": "BK22002245.5"
+        },
+        {
+            "reference_date": "2020-08-25",
+            "reference_text": [
+                {
+                    "value": "재산 피해’가 가장 컸던 태풍은 2002년 8월 발생한 ‘루사’다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당시 246명이 죽거나 실종됐고 태풍 가운데 가장 큰 5조 1400억 원의 피해를 줬다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02391126625870928&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "태풍 루사",
+            "terminate": false,
+            "text": "태풍 루사 기억나? 태풍 루사는 재산 피해를 가장 크게 입혔던 태풍이야. 그때 당시 246명이 죽거나 실종 됐어. 그리고 5조 1400억 원의 피해를 입혔지. 태풍 루사가 엄청 났던 기억이 나.",
+            "turn_id": "BK22002245-3",
+            "utterance_id": "BK22002245.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 그리고 태풍 매미라는 것도 있었어. 그때 엄청 강한 태풍이 온다고 집 밖에 내놨던 화분을 옮기느라 애먹었던 기억이 나.",
+            "turn_id": "BK22002245-4",
+            "utterance_id": "BK22002245.7"
+        },
+        {
+            "reference_date": "2020-08-25",
+            "reference_text": [
+                {
+                    "value": "이듬해 발생한 태풍 ‘매미’는의 제주에서 순간최대풍속이 초속 60ｍ를 기록하는 등 역대 가장 강력한 가을 태풍으로 일컬어진다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 100여 명의 목숨을 앗아갔고 4조 2000억 원의 재산 피해도 초래했다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=02391126625870928&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "태풍 매미",
+            "terminate": false,
+            "text": "태풍 매미의 위력도 장난이 아니였지. 순간최대풍속이 초속 60미터를 기록하기도 했어. 그때 100여명이 죽고 4조 2000억원의 재산 피해가 생겼었지.",
+            "turn_id": "BK22002245-4",
+            "utterance_id": "BK22002245.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그리고 태풍 볼라벤 때는 중국어선이 좌초돼서 선원 일부가 숨졌다는 기사를 본 기억이 나.",
+            "turn_id": "BK22002245-5",
+            "utterance_id": "BK22002245.9"
+        },
+        {
+            "reference_date": "2019-09-06",
+            "reference_text": [
+                {
+                    "value": "태풍 볼라벤과 덴빈이 연달아 몰아친 뒤 제주해군기지 해상 공사장의 방파제 건설용 케이슨 7기가 파손돼 큰 피해가 나기도 했다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20190906145100056?input=1195m",
+            "search_query": "태풍 볼라벤",
+            "terminate": false,
+            "text": "나도 그런 기사를 본 적이 있어. 게다가 볼라벤과 덴빈이 연속에서 한국에 영향을 끼치면서 제주해군기지 해상 공사장의 건설용 케이슨 여러 대가 파손되기도 했지.",
+            "turn_id": "BK22002245-5",
+            "utterance_id": "BK22002245.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매미나 루사는 이름이 귀여운데, 이름과는 다르게 태풍의 위력이 엄청났네.",
+            "turn_id": "BK22002245-6",
+            "utterance_id": "BK22002245.11"
+        },
+        {
+            "reference_date": "2020-08-25",
+            "reference_text": [
+                {
+                    "value": "부드러운 동식물 명칭을 사용하여 태풍에 대한 피해 크기가 크지 않기를 바라는 마음에서 이러한 이름들이 붙여졌다고 한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부드러운 이름을 붙여 피해가 크지 않기를 소망했지만 큰 피해를 입힌 태풍들은 이름을 퇴출당하는 경우가 있다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=791365",
+            "search_query": "태픙 이름",
+            "terminate": false,
+            "text": "보통 태풍 이름을 정할 때, 태풍에 의한 피해가 크지 않길 바라는 마음을 담아 부드러운 이름을 붙여줘. 그런데 태풍이 큰 피해를 입히면 그 이름은 퇴출되어서 쓰이지 않게 돼.",
+            "turn_id": "BK22002245-6",
+            "utterance_id": "BK22002245.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 흥미로운 이야기인데? 퇴출 당한 태풍 이름에는 무엇이 있어?",
+            "turn_id": "BK22002245-7",
+            "utterance_id": "BK22002245.13"
+        },
+        {
+            "reference_date": "2016-07-15",
+            "reference_text": [
+                {
+                    "value": "이처럼 우리나라에 커다란 상처를 남긴 루사와 매미는 태풍 명단에서 퇴출돼 각각 누리와 무지개로 이름이 바뀌었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.imaeil.com/page/view/2016071522531139290",
+            "search_query": "태풍 이름 퇴출",
+            "terminate": false,
+            "text": "아까 우리가 이야기한 루사랑 매미가 퇴출 당했어. 우리나라에 엄청 큰 피해를 남겼거든. 그래서 퇴출 후에는 누리와 무지개란 이름으로 변경이 되었어.",
+            "turn_id": "BK22002245-7",
+            "utterance_id": "BK22002245.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 태풍의 이름들은 우리나라에서 결정 하는 부분인가?",
+            "turn_id": "BK22002245-8",
+            "utterance_id": "BK22002245.15"
+        },
+        {
+            "reference_date": "2020-09-21",
+            "reference_text": [
+                {
+                    "value": "태풍 이름은 2000년부터 아시아태풍위원회 회원국 14개국에서 각각 10개씩 제출한 이름을 일정한 순서에 따라 붙인다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "140개를 모두 사용한 뒤에는 처음으로 돌아가 1번부터 다시 사용한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20200921192452190",
+            "search_query": "태풍 이름 선정",
+            "terminate": false,
+            "text": "우리나라 뿐만 아니라 아시아태풍위원회에 가입한 14개 국가에서 이름을 10개씩 제출해. 그 후에 순서에 따라서 태풍에 이름을 붙이는 거야. 14개 국가에서 10개씩 제출하니까 140개의 이름이 나오잖아. 140개를 차례에 따라 이름을 붙이는데, 140개의 이름을 다 사용하게 되면 1번으로 돌아가 다시 이름을 붙여줘.",
+            "turn_id": "BK22002245-8",
+            "utterance_id": "BK22002245.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아시아태풍위원회라는 곳이 있구나. 거기에 가입된 국가에서 이름을 제출하고 붙인다니 정말 신기하네. 우리나라가 제출한 태풍 이름에는 무엇이 있어?",
+            "turn_id": "BK22002245-9",
+            "utterance_id": "BK22002245.17"
+        },
+        {
+            "reference_date": "2021-08-23",
+            "reference_text": [
+                {
+                    "value": "기상청에 따르면 이 중 발음하기 쉬운 10개의 이름인 개미, 나리, 장미, 미리내, 노루, 제비, 너구리, 고니, 메기, 독수리가 현재 태풍 이름으로 올라 있다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=48872",
+            "search_query": "우리나라 제출 태풍 이름",
+            "terminate": false,
+            "text": "우리나라에선 개미, 나리, 장미, 미리내, 노루, 제비, 너구리, 고니, 메기, 독수리를 태풍 이름으로 제출했어. 발음하기 쉬운 단어를 선정했는데 네가 생각하기엔 어때? 발음하기 쉬운 것 같아?",
+            "turn_id": "BK22002245-9",
+            "utterance_id": "BK22002245.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응. 발음 하기도 쉽고 단어도 예쁘다. 우리나라가 제출한 이름을 받은 태풍이 큰 피해를 안줬으면 좋겠어.",
+            "turn_id": "BK22002245-10",
+            "utterance_id": "BK22002245.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 태풍으로 피해를 입은 사람들의 인터뷰가 방송에 나올 때마다 마음이 아프더라고.",
+            "turn_id": "BK22002245-10",
+            "utterance_id": "BK22002245.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "나도 그렇게 생각해. 나는 조만간 한국에 오는 태풍이 있는지 찾아보러 갈게. 대화 재밌었어.",
+            "turn_id": "BK22002245-11",
+            "utterance_id": "BK22002245.21"
+        }
+    ]
+}

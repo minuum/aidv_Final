@@ -1,0 +1,397 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011743",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011743",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀의 구조에 대한 정리를 과제로 받았는데 도와줄래? 귀가 어떤 구조로 되어있는지 정확하게 작성해야해서 귀의 구조에 대해서 먼저 설명해주면 좋겠어.",
+            "turn_id": "BK22011743-1",
+            "utterance_id": "BK22011743.1"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "사람의 귀는 귓바퀴, 외이도 (귓구멍), 고막, (세)반고리관, 달팽이관(와우관, cochlea), 귀 인두관으로 구성되어 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "깊이에 따라 바깥귀, 가운데귀, 속귀로 구분한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%80",
+            "search_query": "귀",
+            "terminate": false,
+            "text": "귀는 깊이에 따라 바깥귀, 가운데귀, 속귀로 나누는데, 세부적으로는 귓구멍인 외이도, 고막, 세 개의 반고리관, 달팽이관, 귀 인두관으로 구성되어 있지.",
+            "turn_id": "BK22011743-1",
+            "utterance_id": "BK22011743.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정확한 정리 고마워. 깊이에 따라 구조를 정리해두면 좋겠다. 바깥귀는 무엇으로 구성되어 있는지 말해줘.",
+            "turn_id": "BK22011743-2",
+            "utterance_id": "BK22011743.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "바깥귀(outer ear) 또는 겉귀, 외이는 귀의 바깥쪽 부분이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가운데귀, 속귀와 함께 귀를 구성한다. 귓바퀴와 바깥귀길(겉귀길, 외이도)로 이루어진다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소리를 모아 고막에 전달하는 역할을 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%94%EA%B9%A5%EA%B7%80",
+            "search_query": "바깥귀",
+            "terminate": false,
+            "text": "바깥귀는 겉귀라고도 부르고 가운데귀, 속귀와 함께 귀를 구성하며 소리를 모아 고막에 전달하는 역할을 해. 귀의 바깥쪽 부분을 외이라고 하고, 귓바퀴와 바깥귀길로 이루어져 있는데, 바깥귀길에는 겉귀길, 외이도로 되어 있어.",
+            "turn_id": "BK22011743-2",
+            "utterance_id": "BK22011743.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외이도가 바깥귀에 해당하는구나. 그럼, 외이도는 어떤 것인지 설명해줘.",
+            "turn_id": "BK22011743-3",
+            "utterance_id": "BK22011743.5"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "외이도(ear canal, external auditory meatus, EAM)는 바깥귀에서 가운데귀로 이어지는 길이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "크게 골성 외이도와 연골성 외이도로 나뉘며, 골성 외이도의 길이가 연골성 외이도의 길이의 약 2배이다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연골성 외이도가 조금 더 외부에 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%B8%EC%9D%B4%EB%8F%84",
+            "search_query": "외이도",
+            "terminate": false,
+            "text": "바깥귀에서 가운데귀로 이어지는 길이 외이도야. 크게 골성 외이도와 연골성 외이도로 나뉘는데 연골성 외이도가 조금 더 밖에 있지. 그리고 연골성 외이도 길이보다 골성 외이도의 길이가 2배 더 길어.",
+            "turn_id": "BK22011743-3",
+            "utterance_id": "BK22011743.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외이도는 소리가 지나가는 길이라고 생각하면 되겠다. 가운데귀에는 무엇으로 구성되어 있는지 설명해줘.",
+            "turn_id": "BK22011743-4",
+            "utterance_id": "BK22011743.7"
+        },
+        {
+            "reference_date": "2022-02-17",
+            "reference_text": [
+                {
+                    "value": "가운데귀(middle ear) 또는 중이는 바깥귀, 속귀와 함께 귀를 구성한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가운데귀는 관자뼈 속의 공간에 있고, 가운데귀에는 고실, 귓속뼈, 귀관(이관)이 있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바깥귀와는 고막을 경계로 나뉜다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "속귀와는 속귀의 난원창(oval window)을 기준으로 나뉜다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9A%B4%EB%8D%B0%EA%B7%80",
+            "search_query": "가운데귀",
+            "terminate": false,
+            "text": "가운데귀는 중이라고도 말해. 중이는 고실, 귓속뼈, 귀관으로 구성되어 있고 관자뼈 속 공간에 있어. 바깥귀와는 고막을 경계로, 속귀와는 난원창을 경계로 나뉘어.",
+            "turn_id": "BK22011743-4",
+            "utterance_id": "BK22011743.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀관이 중이에 있는 것이구나. 영어로는 유스타키오관이라고 적혀있는 것을 보았어. 중이의 각 기관에 대해서도 정리하면 좋겠지만 시간이 얼마 없으니까 속귀는 어떻게 이루어져 있는지 설명해주면 좋을 것 같아.",
+            "turn_id": "BK22011743-5",
+            "utterance_id": "BK22011743.9"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "속귀(inner ear) 또는 내이는 바깥귀, 가운데귀와 함께 귀를 구성한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "속귀는 달팽이관, 안뜰, 반고리관으로 구성되어있다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "달팽이관 안에 있는 코르티 기관(organ of Corti)이 음의 진동인 소리를 대뇌가 감지할 수 있는 전기 신호로 바꿔서 청신경으로 전달한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8D%EA%B7%80",
+            "search_query": "속귀",
+            "terminate": false,
+            "text": "내이라고도 하는 속귀는 달팽이관, 안뜰, 반고리관으로 이뤄져 있어. 달팽이관 안에는 코르티 기관이라는 게 있는데, 코르티 기관은 음의 진동인 소리를 대뇌가 감지할 수 있는 전기 신호로 바꿔 청신경으로 전달하는 역할을 하지.",
+            "turn_id": "BK22011743-5",
+            "utterance_id": "BK22011743.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소리가 도착하는 속귀에 대해서는 세부적인 정리가 필요할 것 같은데, 시간관계상 달팽이관, 반고리관, 그리고 전정기관이라는 것만 정리하면 될 것 같아. 달팽이관은 어떻게 이루어져 있는지 설명해줄래?",
+            "turn_id": "BK22011743-6",
+            "utterance_id": "BK22011743.11"
+        },
+        {
+            "reference_date": "2021-06-08",
+            "reference_text": [
+                {
+                    "value": "달팽이의 껍질 모양으로 감겨 있는 빈 관인 달팽이관은 액체로 가득 차 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "달팽이관 내부에는 코르티 기관이 있으며 이는 부분적으로 약 20,000개 정도의 털세포라 불리는 특화된 세포들로 구성되어 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 세포들은 액체로 확장될 수 있는 작은 털 같은 돌기들(섬모)을 갖고 있습니다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.msdmanuals.com/ko-kr/%ED%99%88/%EC%9D%B4%EB%B9%84%EC%9D%B8%ED%9B%84%EA%B3%BC-%EC%9E%A5%EC%95%A0/%EB%82%B4%EC%9D%B4-%EC%9E%A5%EC%95%A0/%EB%82%B4%EC%9D%B4-%EC%9E%A5%EC%95%A0-%EA%B0%9C%EC%9A%94",
+            "search_query": "달팽이관",
+            "terminate": false,
+            "text": "달팽이관은 달팽이의 껍질 모양으로 감겨 있는 빈 관으로 볼 수 있어. 달팽이관은 액체로 가득 차 있고 내부에는 코르티 기관이 있지. 코르티 기관에는 부분적으로 털세포라 불리는 세포들이 있는데 약 20,000개 정도가 있어. 털세포는 섬모라고 하는 작은 털처럼 되어있는 돌기가 있는데, 액체로 확장할 수 있는 기능이 있지.",
+            "turn_id": "BK22011743-6",
+            "utterance_id": "BK22011743.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달팽이관이 액체로 차 있다니 정말 놀라워. 반고리관은 어떤 거야?",
+            "turn_id": "BK22011743-7",
+            "utterance_id": "BK22011743.13"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "반고리관은 3개의 관으로 이루어져있고, 소리의 진동을 조절하는 역할을한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "세반고리관이라고도 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 가운데 골성(骨性)으로 된 구조를 골(骨)반고리관, 그 안에 있는 막성 구조를 막(膜)반고리관이라 한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%98%EA%B3%A0%EB%A6%AC%EA%B4%80",
+            "search_query": "반고리관",
+            "terminate": false,
+            "text": "반고리관은 세반고리관이라고도 하며 소리의 진동을 조절하는 기능을 하지. 3개의 관으로 이루어져 있는데, 이 가운데 골성으로 된 구조를 골반고리관이라 하고, 그 안에 있는 막성 구조를 막반고리관이라고 해.",
+            "turn_id": "BK22011743-7",
+            "utterance_id": "BK22011743.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반고리관이 3개로 이루어져 있는 건 처음 알았어. 전정기관은 어떤 기관이야?",
+            "turn_id": "BK22011743-8",
+            "utterance_id": "BK22011743.15"
+        },
+        {
+            "reference_date": "2022-06-08",
+            "reference_text": [
+                {
+                    "value": "전정 기관(前庭器官)은 이동과 평형감각을 주관하는 감각 기관으로, 대부분의 포유류에서 공간적 지향을 담당한다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "신체상에서는 속귀에서 평형 감각을 맡고 있는 둥근주머니, 타원주머니, 반고리관을 통틀어 이른다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%84%EC%A0%95%EA%B3%84",
+            "search_query": "전정기관",
+            "terminate": false,
+            "text": "이동과 평형감각을 주관하는 감각 기관이 전정기관이야. 속귀에서 평형 감각을 맡고 있는 둥근주머니, 타원주머니, 반고리관을 통틀어서 부르는 말이야. 포유류의 전정 기관 대부분이 공간적 지향을 담당하고 있지.",
+            "turn_id": "BK22011743-8",
+            "utterance_id": "BK22011743.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "반고리관도 전정기관이었다니 전혀 몰랐네. 마지막으로 소리가 귀에서 어떻게 전달되는지도 가르쳐주면 좋을 것 같아.",
+            "turn_id": "BK22011743-9",
+            "utterance_id": "BK22011743.17"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "귓바퀴에 모인 음파가 외이도로 들어가서 고막(귀청)을 진동시키면, 이 진동은 가운뎃귀의 청소골에서 진동이 증폭되어 속귀의 달팽이관의 난원창에 전해지고, 난원창의 진동이 림프액에 전달되어 청세포를 흥분시킨다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리하여 청세포의 흥분이 청신경에 의해 대뇌에 전달되면 소리를 느끼게 된다.",
+                    "value_time": "2022-09-26",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%AD%EA%B0%81",
+            "search_query": "청각",
+            "terminate": false,
+            "text": "음파는 귓바퀴에 모여서 외이도로 들어가게 돼. 외이도로 들어간 소리는 고막을 진동시키고 가운데 귀의 청소골에서 진동을 증폭시키지. 증폭된 진동은 속귀의 달팽이관의 난원창으로 향하고 난원창의 진동이 다시 림프액에 전달되어 청세포로 향하는데 이때 청세포가 흥분해. 마지막으로 청세포의 흥분이 청신경을 통해 대뇌에 전해져 소리를 감지할 수 있게 되지.",
+            "turn_id": "BK22011743-9",
+            "utterance_id": "BK22011743.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소리도 감각으로서 결국 대뇌에 도착하게 되구나. 과제를 도와줘서 고마워.",
+            "turn_id": "BK22011743-10",
+            "utterance_id": "BK22011743.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 또 다른 과제가 있으면 얼마든지 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22011743-10",
+            "utterance_id": "BK22011743.20"
+        }
+    ]
+}

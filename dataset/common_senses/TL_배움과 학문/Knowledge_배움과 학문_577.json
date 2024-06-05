@@ -1,0 +1,352 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003231",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003231",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곤충을 잡아먹는 식물이 있다고 하던데, 그건 어떤 식물을 말 하나요?",
+            "turn_id": "BK22003231-1",
+            "utterance_id": "BK22003231.1"
+        },
+        {
+            "reference_date": "2021-02-10",
+            "reference_text": [
+                {
+                    "value": "특별한 기관이 있어 곤충 등의 작은 동물을 잡아 그것을 소화시켜서 양분의 일부를 얻는 식물을 식충식물이라 한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ecomedia.co.kr/news/newsview.php?ncode=1065591079004668&dt=m",
+            "search_query": "곤충을 잡아먹는 식물",
+            "terminate": false,
+            "text": "아, 식충식물 말하는군요. 식물이지만 특별한 기관을 가지고 있어서 곤충 같은 작은 동물을 잡고 소화해서 양분 일부를 얻는 식물이죠.",
+            "turn_id": "BK22003231-1",
+            "utterance_id": "BK22003231.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식물이 동물을 잡아먹는다니 신기하네요, 식물인데 왜 영양분을 동물에게서 얻어요?",
+            "turn_id": "BK22003231-2",
+            "utterance_id": "BK22003231.3"
+        },
+        {
+            "reference_date": "2018-07-19",
+            "reference_text": [
+                {
+                    "value": "그런데 식충식물 대부분은 땅이 항상 물에 잠겨 있는 습지대에서 살아요.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 곳에는 식물에게 필요한 형태의 질소가 부족해요.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식물이 흡수할 수 있는 질산이온을 만드는 미생물이 살지 못하기 때문이죠.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러다 보니 식충식물은 영양분을 곤충에서 얻을 수 있도록 진화했답니다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23083",
+            "search_query": "식충식물 식충이유",
+            "terminate": false,
+            "text": "식충식물들은 대부분 땅이 항상 물에 잠겨있는 환경인 습지에서 살거든요. 이런 곳은 식물이 흡수할 수 있는 질산이온을 만들어 주는 미생물이 살지 못해서 식물에 필요한 질소가 부족할 수밖에 없어요. 그래서 식충식물은 필요한 영양분을 곤충에게서 얻을 수 있도록 진화한 거예요.",
+            "turn_id": "BK22003231-2",
+            "utterance_id": "BK22003231.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었군요. 그럼 이런 식충식물이 얼마나 많아요? 지구상에 존재하는 식충식물은 몇 종정도 되는지 궁금해요.",
+            "turn_id": "BK22003231-3",
+            "utterance_id": "BK22003231.5"
+        },
+        {
+            "reference_date": "2018-07-19",
+            "reference_text": [
+                {
+                    "value": "지금까지 발견된 식충식물은 750여 종으로, 고산 지대부터 사막에 이르는 전 세계에서 발견되고 있어요.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한반도에는 14종이 살고 있답니다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23083",
+            "search_query": "식충식물 종류",
+            "terminate": false,
+            "text": "고산지대부터 사막에 이르기까지 전 세계를 통틀어서 지금까지 발견된 건 750여 종이에요. 한반도에는 14종이 살고 있고요.",
+            "turn_id": "BK22003231-3",
+            "utterance_id": "BK22003231.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 훨씬 많네요, 저는 파리지옥 정도는 들어봤는데, 파리지옥도 식충식물 맞죠?",
+            "turn_id": "BK22003231-4",
+            "utterance_id": "BK22003231.7"
+        },
+        {
+            "reference_date": "2021-12-05",
+            "reference_text": [
+                {
+                    "value": "파리지옥풀은 끈끈이귀개과에 속한 여러해살이풀로, 잎면에 많은 샘이 있어 파리 등의 벌레들이 닿으면 잎을 급히 닫아서 잡아먹는다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2021120514120001225",
+            "search_query": "파리지옥",
+            "terminate": false,
+            "text": "아, 파리지옥 알아요? 파리지옥은 끈끈이귀개과에 속한 여러해살이풀이에요. 잎에 많은 샘이 있어서 파리 같은 곤충이 여기 닿으면 빠르게 잎을 닫아서 잡아먹는 식충식물 맞아요.",
+            "turn_id": "BK22003231-4",
+            "utterance_id": "BK22003231.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 습지에 사는 식충식물 중에 파리지옥 말고 또 대표적인 식충식물에는 뭐가 있을까요?",
+            "turn_id": "BK22003231-5",
+            "utterance_id": "BK22003231.9"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "벌레잡이통풀은 피처(물 주전자) 모양의 미끄러운 함정에 곤충 등을 유인해 잡아먹는 동남아 열대림의 대표적인 식충식물이다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/ecology_evolution/1050429.html",
+            "search_query": "식충식물",
+            "terminate": false,
+            "text": "벌레잡이통풀이라는 녀석도 있어요. 이건 동남아 열대림에 사는 대표적인 식충식물인데, 물 주전자 모양으로 된 미끄러운 함정을 이용해서 곤충을 유인한 다음 잡아먹죠.",
+            "turn_id": "BK22003231-5",
+            "utterance_id": "BK22003231.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 동남아를 대표하는 식충식물이 벌레잡이 통풀이군요. 그런데 식충식물 중에 엄청나게 커서 동물도 잡아먹는 종도 있다고 하던데 그런 것이 진짜 있나요?",
+            "turn_id": "BK22003231-6",
+            "utterance_id": "BK22003231.11"
+        },
+        {
+            "reference_date": "2018-07-23",
+            "reference_text": [
+                {
+                    "value": "남아프리카 공화국에 사는 ‘로리듈라 덴타타(Roridula dentata )’는 키가 1.5m가 넘게 자라는 끈끈이 식물이다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잎에서 끈끈한 액체가 나와 날아다니는 곤충은 물론, 가끔 작은 새도 잡는다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=23085",
+            "search_query": "세계 식충식물",
+            "terminate": false,
+            "text": "남아프리카에는 로리듈라 덴타타라고 해서 무려 1.5미터 이상으로 키가 자라는 끈끈이 식물이 있죠. 이 식물은 잎에서 끈끈한 액체가 나오는데, 나는 곤충은 물론이고 심지어 작은 새도 잡아먹어요.",
+            "turn_id": "BK22003231-6",
+            "utterance_id": "BK22003231.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "으악, 새도 잡아먹는다니, 키가 워낙 커서 가능한가 보네요. 그럼 우리나라에 사는 식충식물들도 이렇게 크기가 큰가요?",
+            "turn_id": "BK22003231-7",
+            "utterance_id": "BK22003231.13"
+        },
+        {
+            "reference_date": "2019-06-12",
+            "reference_text": [
+                {
+                    "value": "우리나라에 자생하는 끈끈이주걱, 통발, 땅귀개 등 벌레잡이 식물은 식별하기 힘들 정도로 작다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/ecology_evolution/897592.html",
+            "search_query": "우리나라 식충식물",
+            "terminate": false,
+            "text": "아뇨, 우리나라에서 사는 식충식물에는 끈끈이주걱, 통발, 땅귀개 등이 있는데 이것들은 아주 작아서 식별하기조차 어려워요.",
+            "turn_id": "BK22003231-7",
+            "utterance_id": "BK22003231.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 우리나라 식충식물은 크기가 매우 작네요. 저 궁금해서 이런 식충 식물들을 직접 보고 싶은데, 혹시 볼 수 있는 곳이 있을까요?",
+            "turn_id": "BK22003231-8",
+            "utterance_id": "BK22003231.15"
+        },
+        {
+            "reference_date": "2022-06-03",
+            "reference_text": [
+                {
+                    "value": "국립세종수목원은 10월 30일까지 수목원 내 수련지에서 생물다양성 증진 및 보전을 위한 수생식물 특별전 ‘생명을 잇다’를 개최한다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 고사목을 활용한 대형 습지 분경(5x3m)을 제작해 가까이에서 식충식물을 관찰할 수 있다.",
+                    "value_time": "2022-07-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=3621",
+            "search_query": "식충식물 볼 수 있는 곳",
+            "terminate": false,
+            "text": "그럼 국립 세종수목원에 가봐요. 생물다양성 증진과 보전을 위한 취지로 수목원 수련지에서 수생식물 특별전 생명을 잇다를 10월 30일까지 열거든요. 고사목을 활용해서 대형 습지 분경을 제작해 식충식물을 가까이에서 볼 수 있어요.",
+            "turn_id": "BK22003231-8",
+            "utterance_id": "BK22003231.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜요? 그럼 가서 제 눈으로 직접 식충식물들을 보고 와야겠네요.",
+            "turn_id": "BK22003231-9",
+            "utterance_id": "BK22003231.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시간이 되면 가보면 좋죠. 식충식물에 관심이 많은 것 같은데, 견학해보면 더 많은 정보도 얻을 수 있을 테니까요.",
+            "turn_id": "BK22003231-9",
+            "utterance_id": "BK22003231.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜로 제 눈앞에서 식충식물들이 파리를 잡아먹는다면 진짜 놀라울 것 같아요.",
+            "turn_id": "BK22003231-10",
+            "utterance_id": "BK22003231.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일기라도 쓸 기세인데요? 가서 좋은 구경 많이 하고 오면 좋겠네요.",
+            "turn_id": "BK22003231-10",
+            "utterance_id": "BK22003231.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 저 진짜 다녀와서 관찰 일기 쓸 지도 몰라요. 아무튼 오늘 대화 즐거웠어요, 다음에 만나면 식충식물 본 거 꼭 알려줄게요. 그럼 다음에 봐요.",
+            "turn_id": "BK22003231-11",
+            "utterance_id": "BK22003231.21"
+        }
+    ]
+}

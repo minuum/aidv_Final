@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003934",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003934",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 오늘 브이 포 벤데타라는 영화를 봤어요! 영화 속에서 콧수염을 한 가면이 참 인상적이었는데 그걸 가이 포크스 가면이라고 칭하더라고요. 근데 가이 포크스가 대체 누구예요?",
+            "turn_id": "BK22003934-1",
+            "utterance_id": "BK22003934.1"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "가이 포크스(영어: Guy Fawkes, 1570년 4월 13일 - 1606년 1월 31일)는 잉글랜드 가톨릭 신자로서 1605년 화약 음모 사건을 주동한 인물이다",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%B4_%ED%8F%AC%ED%81%AC%EC%8A%A4",
+            "search_query": "가이 포크스",
+            "terminate": false,
+            "text": "가이 포크스는 1570년부터 1606년까지 생존했던 잉글랜드의 가톨릭 신자예요. 1605년 화약 음모 사건을 주동했죠.",
+            "turn_id": "BK22003934-1",
+            "utterance_id": "BK22003934.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화약 음모 사건이라는 게 어떤 사건이었길래 이렇게 유명해진 건가요?",
+            "turn_id": "BK22003934-2",
+            "utterance_id": "BK22003934.3"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "화약음모사건(영어: The Gunpowder Plot)은 1605년 로버트 캐츠비를 비롯한 공모자들이 잉글랜드의 제임스 1세를 암살을 모의하였으나 실패한 음모사건이다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%95%BD_%EC%9D%8C%EB%AA%A8_%EC%82%AC%EA%B1%B4",
+            "search_query": "화약음모사건 제임스 1세",
+            "terminate": false,
+            "text": "1605년에 로버트 캐츠비 등이 공모해서 잉글랜드의 제임스 1세를 암살하려고 계획했지만 실패한 사건이에요.",
+            "turn_id": "BK22003934-2",
+            "utterance_id": "BK22003934.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에나, 간도 크게 왕을 암살하려고 한 건가요? 대체 왕을 암살하려는 이유가 뭐였어요?",
+            "turn_id": "BK22003934-3",
+            "utterance_id": "BK22003934.5"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "음모는 1605년 11월 5일 영국 상원의 개회식에 맞추어 의회 건물을 폭파하여 왕과 의원을 살해한 뒤 미들랜드에서 반란을 일으켜 당시 9세이던 제임스 1세의 딸 엘리자베스 스튜어트를 가톨릭 군주로서 옹립하려는 것이었다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%95%BD_%EC%9D%8C%EB%AA%A8_%EC%82%AC%EA%B1%B4",
+            "search_query": "화약음모사건 엘리자베스 스튜어트",
+            "terminate": false,
+            "text": "1605년 11월 5일에 열릴 예정이었던 영국 상원의 개회식에 맞춰서 의회 건물을 폭파하고 왕과 의원을 죽인 뒤 미들랜드에서 반란을 일으켜서 당시 9살에 불과했던 제임스 1세의 딸 엘리자베스 스튜어트를 가톨릭 군주로 세우기 위한 것이었죠.",
+            "turn_id": "BK22003934-3",
+            "utterance_id": "BK22003934.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 아버지를 죽인 뒤에 딸을 군주로 세우려고 한 거군요? 그럴 이유가 있었나요?",
+            "turn_id": "BK22003934-4",
+            "utterance_id": "BK22003934.7"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "가톨릭 교도들의 기대와 달리 제임스 1세가 가톨릭 진영으로 돌아설 기미가 보이지 않자, 이들 가운데 몇몇은 이 문제를 스스로의 손으로 해결하려고 시도하였다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아울러 4월 24일 의회에서 발의된 법안은 잉글랜드 교회 내의 가톨릭 교도는 모두 불법이라고 규정하였다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%94%EC%95%BD_%EC%9D%8C%EB%AA%A8_%EC%82%AC%EA%B1%B4",
+            "search_query": "화약음모사건 엘리자베스 스튜어트",
+            "terminate": false,
+            "text": "가톨릭교도들이 기대한 것과 달리 제임스 1세가 가톨릭 진영으로 돌아설 기미가 보이지 않은 데다 4월 24일 의회에서는 잉글랜드 교회 내의 가톨릭교도가 모두 불법이라는 법안까지 발의했거든요. 그래서 이들은 이 문제를 자신들이 직접 해결하려고 한 거예요.",
+            "turn_id": "BK22003934-4",
+            "utterance_id": "BK22003934.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하! 일종의 종교 갈등이었군요. 그런데 그들 중에 가이 포크스가 유명했던 이유는 뭔가요?",
+            "turn_id": "BK22003934-5",
+            "utterance_id": "BK22003934.9"
+        },
+        {
+            "reference_date": "2012-11-28",
+            "reference_text": [
+                {
+                    "value": "그는 퍼시의 하인 존 존슨(John Johnson)으로 가장하면서, 화약과 관련된 일뿐만 아니라 거의 모든 작업에 적극적으로 참여했다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "의사당 인근 임대한 집의 열쇠도 포크스가 관리했고, 그곳에서 터널을 팔 때도 다른 공모자들이 육체노동에 익숙하지 않은 이유로 가장 큰 성과를 내었으며, 화약을 램버스 지역에서 의사당 지하로 옮기는 것도 포크스의 관리 하에 이루어졌다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "계획의 가장 핵심인 거사 당일 화약에 불을 붙이는 것도 포크스의 몫이었다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3575552&cid=59014&categoryId=59014",
+            "search_query": "가이 포크스 존 존슨 화약",
+            "terminate": false,
+            "text": "그가 화약과 관련된 것뿐만 아니라 거의 모든 일에 굉장히 적극적으로 참여했거든요. 퍼시의 하인 존 존슨으로 가장한 그는 의사당 근처에서 빌린 집의 열쇠를 관리했고, 그곳에서 터널을 팔 때도 육체노동에 익숙하지 않던 다른 공모자들보다 훨씬 터널을 잘 팠어요. 그리고 화약을 램버스 지역에서 의사당 지하로 옮기는 것을 관리한 것도, 거사 당일 화약에 불을 붙이는 것도 그의 역할이었어요.",
+            "turn_id": "BK22003934-5",
+            "utterance_id": "BK22003934.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니까 계획을 실제로 실행하는 게 가이 포크스의 몫이었네요? 그런데 실패했으니 결국 죽었겠군요?",
+            "turn_id": "BK22003934-6",
+            "utterance_id": "BK22003934.11"
+        },
+        {
+            "reference_date": "2012-11-28",
+            "reference_text": [
+                {
+                    "value": "포크스를 비롯한 화약음모사건의 공모자들은 모두 체포 도중 사살당하거나 아니면 이듬해 1월 27일부터 시작된 재판을 받고 처형되었다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3575552&cid=59014&categoryId=59014",
+            "search_query": "가이 포크스 처형",
+            "terminate": false,
+            "text": "맞아요. 결국 포크스와 함께한 화약음모사건 공모자들은 체포 중에 총에 맞아 죽거나 다음 해 1월 27일에 열린 재판을 받고 처형돼요.",
+            "turn_id": "BK22003934-6",
+            "utterance_id": "BK22003934.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "씁쓸한 결말이네요. 그런데 가이 포크스가 유명해진 이유는 뭐예요? 왜 저항의 상징이 된 건가요?",
+            "turn_id": "BK22003934-7",
+            "utterance_id": "BK22003934.13"
+        },
+        {
+            "reference_date": "2012-11-28",
+            "reference_text": [
+                {
+                    "value": "1606년 1월 영국 의회는 왕의 무사함을 축하하고 다시는 이러한 사건이 일어나지 않기를 바라는 의미에서 11월 5일을 감사절로 정했는데, 영국인들은 이 날을 감사절이 아닌 '가이 포크스 데이'라고 부르며 하나의 축제일로 생각한다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3575552&cid=59014&categoryId=59014",
+            "search_query": "가이 포크스 데이",
+            "terminate": false,
+            "text": "1606년에 영국 의회가 제임스 1세의 무사함을 축하하고 사건의 재발이 일어나지 않기를 바라는 의미에서 11월 5일을 감사절로 정했거든요. 그런데 영국 국민들은 이날을 감사절이 아니라, 가이 포크스 데이라고 부르면서 축제일로 삼아버렸어요.",
+            "turn_id": "BK22003934-7",
+            "utterance_id": "BK22003934.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제임스 1세가 알면 기절하겠네요. 왕의 무사함을 축하하는 날이 오히려 반역자의 이름으로 바뀌었으니까요. 브이포벤데타 영화의 원작이 있다고 했던 거 같은데, 어떤 내용이에요?",
+            "turn_id": "BK22003934-8",
+            "utterance_id": "BK22003934.15"
+        },
+        {
+            "reference_date": "2012-11-28",
+            "reference_text": [
+                {
+                    "value": "1982년부터 출간된 알란 무어(Alan Moore)가 글을 쓰고 주로 데이비드 로이드(David Lloyd)가 그린 만화책 시리즈 [브이 포 벤데타(V for Vendetta)]에서는 자신을 브이(V)라고 칭하는 무정부주의자 주인공이 가이 포크스의 가면을 쓰고 전체주의 정부에 맞서는 모습이 그려진다.",
+                    "value_time": "2022-07-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3575552&cid=59014&categoryId=59014",
+            "search_query": "가이 포크스 브이 포 벤데타",
+            "terminate": false,
+            "text": "1982년부터 출판된 알란 무어 글, 데이비드 로이드 그림의 코믹북 시리즈 브이 포 벤데타는 본인을 V라고 자칭하는 무정부주의자인 주인공이 가이 포크스의 가면을 쓰고 파시즘 정부에 저항하는 스토리에요.",
+            "turn_id": "BK22003934-8",
+            "utterance_id": "BK22003934.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "브이 포 벤데타에서 가이 포크스 가면이 나왔던 의미를 이제야 알겠네요. 저번에 보니 인터넷 해커 집단도 그 가면을 쓰던데요?",
+            "turn_id": "BK22003934-9",
+            "utterance_id": "BK22003934.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 어나니머스 같은 단체에서도 가이 포크스 가면을 자주 쓰고 나와요.",
+            "turn_id": "BK22003934-9",
+            "utterance_id": "BK22003934.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 가이 포크스 그 자체가 자유주의의 상징이 된 거군요. 궁금했던 점에 대해 자세히 가르쳐주셔서 고맙습니다.",
+            "turn_id": "BK22003934-10",
+            "utterance_id": "BK22003934.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "천만에요. 가이 포크스 얘기를 했더니 저도 브이 포 벤데타가 다시 보고 싶네요. 그럼 전 이만 영화 보러 가볼게요.",
+            "turn_id": "BK22003934-10",
+            "utterance_id": "BK22003934.20"
+        }
+    ]
+}

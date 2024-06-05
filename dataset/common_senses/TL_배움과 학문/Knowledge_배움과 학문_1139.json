@@ -1,0 +1,386 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007583",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007583",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 재미있는 드라마를 하나 발견해서 보고 있는데, 거기 주인공이 자폐증을 앓고 있다는 설정이더라고. 그래서 문득 자폐가 뭔지 궁금해졌어. 혹시 알려줄 수 있을까?",
+            "turn_id": "BK22007583-1",
+            "utterance_id": "BK22007583.1"
+        },
+        {
+            "reference_date": "2022-08-08",
+            "reference_text": [
+                {
+                    "value": "자폐 장애(自閉障碍; autism) 또는 자폐증(自閉症), 자폐특성(自閉特性)은 의사 소통의 어려움과 제한적이고 반복적인 행동을 특징으로 하는 발달 장애의 일종이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최근에는 자폐장애의 진단기준을 온전히 만족하지 않는 자폐 스펙트럼 장애(autism spectrum disorder, ASD)와의 구분에 대한 논의가 이어지고 있다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%9E%A5%EC%95%A0",
+            "search_query": "자폐 장애",
+            "terminate": false,
+            "text": "자폐증은 발달 장애의 일종이고, 자폐 장애, 자폐 특성이라고도 하는데, 의사소통에 어려움을 겪고, 반복적이고 제한적인 행동을 하는 게 특징이야. 요즘은 자폐 장애와 자폐 장애 진단 기준을 완전히 만족하지 않는 자폐 스펙트럼 장애를 구분해야 하는지 논의가 계속되고 있어.",
+            "turn_id": "BK22007583-1",
+            "utterance_id": "BK22007583.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마 내에서 주인공의 행동이 자폐증의 특징을 연기한 거였구나. 그럼 자폐증은 왜 생기는 걸까?",
+            "turn_id": "BK22007583-2",
+            "utterance_id": "BK22007583.3"
+        },
+        {
+            "reference_date": "2016-08-09",
+            "reference_text": [
+                {
+                    "value": "울산의대 윤승용 ·김동호 교수팀(서울아산병원, 뇌과학교실)이 생후 초기 머릿속 신경세포가 연결되는 과정에서 뇌 면역세포인 미세아교세포가 불필요한 신경망을 '가지치기' 해주는 과정인 자가포식작용이 제대로 이뤄지지 않으면 자폐 증상이 나타난다는 사실을 동물실험을 통해 증명했다고 최근 밝혔다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "정상적인 뇌 발달을 위해서는 자주 사용되는 신경망은 강화되고 불필요한 신경망은 제거되어야 한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그런데 이 과정에서 불필요한 신경망 제거가 원활하게 이뤄지지 않으면 자폐 증상이 나타난다는 사실이 국내 연구진에 의해 밝혀진 것이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.monews.co.kr/news/articleView.html?idxno=93019",
+            "search_query": "자폐 발생 원인",
+            "terminate": false,
+            "text": "울산의대 윤승용, 김동호 교수팀이 최근 동물실험을 통해 증명한 바에 따르면, 뇌에서는 면역 세포인 미세 아교세포가 불필요한 신경망을 자가 포식하여 가지치기 작용을 하는데, 생후 초기 뇌내 신경 세포가 서로 연결되는 과정에서 이 가지치기가 제대로 이루어지지 않을 경우 자폐 증상이 발생할 수 있어. 뇌가 정상적으로 발달하기 위해서는 자주 쓰이는 신경망은 강화되는 한편 불필요한 신경망은 없어져야 하는데, 이 과정에서 불필요한 신경망이 원활하게 제거되지 않으면 자폐 증상이 나타난다는 것이지.",
+            "turn_id": "BK22007583-2",
+            "utterance_id": "BK22007583.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "신경망이라고 해서 많다고 무조건 좋은 게 아니고 불필요한 건 정리되어야 하는 거구나. 그런데 아까 자폐 스펙트럼이라는 말을 했잖아. 스펙트럼이라고 하면 여러 종류가 포함된 개념일 것 같은데, 그럼 자폐 스펙트럼은 뭐고, 스펙트럼에는 어떤 것들이 포함되어 있어?",
+            "turn_id": "BK22007583-3",
+            "utterance_id": "BK22007583.5"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "자폐 스펙트럼 또는 자폐 스펙트럼 장애(영어: Autism Spectrum Disorders, ASD)는 자폐 장애를 비롯하여 자폐증의 진단기준은 충족하지 않으나 전체 또는 일부 특징이 비슷한 여러 증후군을 모은 개념이다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사회생활의 문제와 제한적인 관심사 등을 공통적인 특징으로 하며, 대표적인 예시로 아스퍼거 증후군, 서번트 증후군 등을 포함한다.",
+                    "value_time": "2022-09-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC",
+            "search_query": "자폐 스펙트럼",
+            "terminate": false,
+            "text": "우선, 자폐 스펙트럼은 자폐 스펙트럼 장애라고도 하는데, 자폐 장애를 포함한 자폐증 진단 기준은 만족하지 않지만, 일부 혹은 전체 특징이 비슷한 증후군들을 모아서 일컫는 개념이야. 사회 생활에서 문제를 겪는다는 점과 관심사가 제한적인 점 등이 공통적인 특징이고, 서번트 증후군, 아스퍼거 증후군 등이 대표적인 예지.",
+            "turn_id": "BK22007583-3",
+            "utterance_id": "BK22007583.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 비슷한 증후군을 묶은 개념이구나. 서번트 증후군은 어디선가 들어본 적이 있는 것 같은데, 정확히 어떤 거야?",
+            "turn_id": "BK22007583-4",
+            "utterance_id": "BK22007583.7"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "사반트 증후군(Savant (/sævˈɑːnt/) syndrome)은 자폐증 등의 뇌 기능 장애를 갖고 있으면서 의사소통, 언어, 지능적 측면에서는 비장애인과 다를 바 없으며, 비장애인과는 다른 천재성을 동시에 갖는 현상이나 사람을 말한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반인과 의사소통이 충분히 가능하다는 점 때문에 질병으로 인식되지 못하기도 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사례에 따라서는 고기능 자폐의 일종으로 간주되기도 한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%B0%98%ED%8A%B8_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "서번트 증후군",
+            "terminate": false,
+            "text": "자폐증 같은 뇌 기능 장애를 갖고 있지만, 의사소통이나 언어, 지능적 면에서는 비장애인과 다르지 않고, 동시에 비장애인과는 다른 천재성이 나타나는 현상이나 사람을 바로 서번트 증후군이라고 해. 서번트 증후군은 일반인과 의사소통이 충분히 이루어질 수 있다는 점에서 질병으로 인식되지 못하기도 하지. 사례에 따라, 서번트 증후군은 고기능 자폐의 일종으로 간주되기도 해.",
+            "turn_id": "BK22007583-4",
+            "utterance_id": "BK22007583.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "천재성이 있다는 것과 고기능 자폐의 일종이라는 말을 들으니까 한 번에 이해가 가. 그럼 서번트 증후군은 어째서 발생하는 거야?",
+            "turn_id": "BK22007583-5",
+            "utterance_id": "BK22007583.9"
+        },
+        {
+            "reference_date": "2013-09-16",
+            "reference_text": [
+                {
+                    "value": "서번트 증후군의 권위자인 미국 위스콘신의대 대럴드 트레퍼트 교수는 개괄하는 글에서 서번트의 절반은 자폐 증상을 보이고 나머지 절반도 뇌질환이나 선천성 이상 등을 갖고 있다고 설명했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "트레퍼트 교수를 비롯한 과학자들이 여러 서번트의 뇌를 연구했는데 그 결과 이들이 공통적으로 좌뇌에 문제가 있거나 좌뇌와 우뇌의 연결이 끊어져 있다는 사실을 발견했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과 좌뇌의 지배에서 벗어난 우뇌가 능력발휘를 한 결과가 서번트 증후군으로 나타난다는 것.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=2385",
+            "search_query": "서번트 증후군 발생 원인",
+            "terminate": false,
+            "text": "우선, 서번트 증후군 연구의 권위자인 미국 위스콘신 대학교 대럴드 트레퍼트 교수의 설명에 따르면, 서번트 중 절반이 자폐 증상을 보이고, 나머지 절반도 뇌질환이나 선천성 이상 등을 갖고 있어. 그리고, 교수와 과학자들이 여러 서번트의 뇌를 연구해 보니, 서번트들의 뇌는 좌뇌에 문제가 있거나, 혹은 좌뇌와 우뇌 사이의 연결이 끊어져 있다는 공통점이 존재했지. 그 결과로, 우뇌가 좌뇌의 지배에서 벗어나 능력을 발휘하고, 이게 서번트 증후군으로 나타나는 거야.",
+            "turn_id": "BK22007583-5",
+            "utterance_id": "BK22007583.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뇌의 문제 때문에 그런 증후군이 발생한다니, 사람의 뇌는 정말 신기해. 그럼 아스퍼거 증후군은 뭐야?",
+            "turn_id": "BK22007583-6",
+            "utterance_id": "BK22007583.11"
+        },
+        {
+            "reference_date": "2022-07-22",
+            "reference_text": [
+                {
+                    "value": "아스퍼거 증후군(영어: Asperger syndrome) 혹은 아스페르거 증후군(독일어: Asperger-Syndrom)은 발달장애의 일종으로, 사회적 상호작용과 비언어적 의사소통에 어려움을 겪고 제한적·반복적인 관심사와 활동을 보이는 사람들을 통틀어 가리킨다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 자폐 스펙트럼과는 달리 전반적으로 언어적 의사소통과 인지능력의 발달 지연은 발생하지 않거나 비교적 적게 발생하며, 표준 진단 기준에는 포함되어 있지 않으나 서투른 동작이나 특이한 언어사용이 흔하게 나타난다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8A%A4%ED%8D%BC%EA%B1%B0_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "아스퍼거 증후군",
+            "terminate": false,
+            "text": "아스퍼거 증후군은 아스페르거 증후군이라고도 부르는데, 발달 장애의 한 종류야. 사회적인 상호 작용이나 비언어적인 의사소통에 어려움을 겪고, 반복적이고 제한적인 활동과 관심사를 가지는 사람들을 통틀어 가리키는 말이지. 아스퍼거 증후군은 다른 자폐 스펙트럼과 다르게 언어적 의사소통이나 인지 능력의 발달 지연이 전반적으로 발생하지 않거나 비교적 적게 일어나는데, 표준 진단 기준에 포함되어 있는 것은 아니지만, 특이한 언어 사용이나 서투른 동작을 보이는 경향이 흔히 있어.",
+            "turn_id": "BK22007583-6",
+            "utterance_id": "BK22007583.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 흔히 생각하는 자폐 증상이 좀 덜하지만, 동작이나 언어 사용에 특이한 점이 보일 수 있는 거구나. 그런데 자폐증을 앓는 사람은 남자가 더 많잖아. 여성에게서 자폐증이 덜 일어나는 원인이 혹시 밝혀졌을까?",
+            "turn_id": "BK22007583-7",
+            "utterance_id": "BK22007583.13"
+        },
+        {
+            "reference_date": "2018-09-13",
+            "reference_text": [
+                {
+                    "value": "기초과학연구원(IBS) 김은준 시냅스 뇌 질환 연구단장 연구팀은 생쥐 실험을 통해 여성에게서 자폐증 발병을 막는 방어 과정을 관찰했다고 12일 밝혔다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자폐증 환자에게서 발견되는 ‘돌연변이 CHD8’ 유전자를 생쥐에게 도입해 실험군을 만들었다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자폐증 환자에게서 관찰된 유전자와 비교 분석한 결과, 수컷 돌연변이와 암컷 돌연변이는 상반된 양상을 보였다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷에게선 CHD8 변이로 인한 유전자가 흥분성 뉴런과 억제성 뉴런 사이 균형을 유지하는 시스템을 무너뜨렸기 때문이다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반대로 암컷 돌연변이 생쥐는 CHD8 변이에 대응한 유전자를 발현했다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%97%AC%EC%84%B1%EC%9D%B4-%EB%82%A8%EC%84%B1%EB%B3%B4%EB%8B%A4-%EC%9E%90%ED%8F%90%EC%A6%9D-%EB%B0%9C%EB%B3%91%EB%A5%A0-%EB%82%AE%EC%9D%80-%EC%9D%B4%EC%9C%A0/",
+            "search_query": "여성 자폐 발병률",
+            "terminate": false,
+            "text": "응, 2018년 9월 12일, 기초과학연구원 김은준 시냅스 뇌 질환 연구단장 연구팀은 생쥐를 이용한 실험을 통해 여성에게서 자폐증 발병이 억제되는 방어 과정을 관찰했다고 밝혔어. 연구진은 자폐증 환자에게서 발견되는 돌연변이 CHD8 유전자를 생쥐에게 넣어 실험군을 만들었는데, 수컷 돌연변이와 암컷 돌연변이의 양상이 상반되게 나타났어. 수컷에게서는 CHD8 변이로 인한 유전자가 억제성 뉴런과 흥분성 뉴런간 균형을 유지해 주는 시스템을 망가뜨린 반면, 암컷 돌연변이 생쥐의 경우, CHD8 변이에 대응하는 유전자가 발현한 거지.",
+            "turn_id": "BK22007583-7",
+            "utterance_id": "BK22007583.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제 실험을 통해 증명했다니 놀랍다. 그나저나 자폐는 어떤 식으로 진단할 수 있을까?",
+            "turn_id": "BK22007583-8",
+            "utterance_id": "BK22007583.15"
+        },
+        {
+            "reference_date": "2022-03-23",
+            "reference_text": [
+                {
+                    "value": "진료 중 자폐스펙트럼장애 가능성이 높다고 판단되면, 자폐스펙트럼장애의 진단평가 도구인 ADOS-2(Autism Diagnostic Observation Schedule-2)와 ADI-R(Autism Diagnostic Interview-Revised)을 활용해 진단한다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "ADOS-2는 아이와 직접 놀아주며 여러 가지 상황에서 아이의 상호작용과 의사소통 방식을 관찰해 자폐 성향을 얼마나 보이는지 평가하는 도구이며, ADI-R은 부모와 심층적인 면담을 통해 아이의 현재 모습뿐 아니라 어렸을 때 모습부터 자폐 성향이 얼마나 광범위하게 있는지 평가하는 검사다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최종 진단은 두 검사를 상호 보완적으로 사용해 내린다.",
+                    "value_time": "2022-09-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.medifonews.com/news/article.html?no=166115",
+            "search_query": "자폐 진단 방법",
+            "terminate": false,
+            "text": "환자를 진료하다가 자폐스펙트럼장애 가능성이 높다고 판단될 경우 자폐스펙트럼장애 진단평가용 도구인 ADOS-2와 ADI-R을 이용해 검사를 하게 돼. ADOS-2는 직접 아이와 놀아 주면서 여러 상황에서 아이의 의사소통 방식과 상호 작용을 관찰해 자폐 성향이 얼마나 나타나는지 평가하는 도구이고, ADI-R은 부모님과 심층적으로 면담을 진행해 아이의 현재 모습뿐만이 아니라, 더 어릴 때부터 자폐 성향이 얼마나 광범위하게 나타났는지 평가하는 검사야. 그리고 두 검사를 상호 보완적으로 활용하여 최종 진단을 내리게 되지.",
+            "turn_id": "BK22007583-8",
+            "utterance_id": "BK22007583.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히 그런 도구들을 활용하면 진단을 내릴 수 있겠네. 참, 자폐증 얘기를 하다 보니 생각난 건데, 혹시 이번 주 주말에 시간 돼?",
+            "turn_id": "BK22007583-9",
+            "utterance_id": "BK22007583.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 이번 주말은 쉬어서 이틀 다 괜찮아.",
+            "turn_id": "BK22007583-9",
+            "utterance_id": "BK22007583.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 내가 보던 자폐증을 앓는 주인공이 나오는 드라마 처음부터 같이 쭉 볼래?",
+            "turn_id": "BK22007583-10",
+            "utterance_id": "BK22007583.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋네, 보면서 자페증이 어떤 식으로 표현됐는지 보는 것도 재미있을 것 같아. 그럼 주말에 보자. 연락 기다리고 있을게.",
+            "turn_id": "BK22007583-10",
+            "utterance_id": "BK22007583.20"
+        }
+    ]
+}

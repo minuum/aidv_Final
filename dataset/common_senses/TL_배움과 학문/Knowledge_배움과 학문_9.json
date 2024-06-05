@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009093",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009093",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 우연히 중국의 역사에 관한 다큐멘터리를 봤어. 생각보다 흥미로운 내용들이 많아서 시간 가는 줄 모르고 봤지.",
+            "turn_id": "BK22009093-1",
+            "utterance_id": "BK22009093.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 어떤 내용이 가장 흥미로웠는데?",
+            "turn_id": "BK22009093-1",
+            "utterance_id": "BK22009093.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문화대혁명이 가장 인상 깊었던 것 같아. 문화대혁명은 문혁이라고도 불리던데, 문혁은 언제 시작해서 언제 끝났어?",
+            "turn_id": "BK22009093-2",
+            "utterance_id": "BK22009093.3"
+        },
+        {
+            "reference_date": "2020-04-18",
+            "reference_text": [
+                {
+                    "value": "1966년 5월 16일 중공정부의 공식적인 선언과 함께 시작된 문혁은 1976년 10월 4일 4인방의 체포로 막을 내렸다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2020/04/18/2020041800269.html?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "1966년 문화대혁명",
+            "terminate": false,
+            "text": "문혁은 1966년 5월 16일에 중공정부의 공식 선언으로 시작되었어. 이후 1976년 10월 4일에 4인방의 체포로 막을 내리게 되었지.",
+            "turn_id": "BK22009093-2",
+            "utterance_id": "BK22009093.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 다큐멘터리에서도 문혁 4인방에 대한 언급이 많던데. 그 4명에 어떤 인물들이 포함되어 있었지?",
+            "turn_id": "BK22009093-3",
+            "utterance_id": "BK22009093.5"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "김 위원장이 언급한 장칭은 마오쩌둥(毛澤東)의 네 번째 부인으로, 중국의 극좌 사회주의 운동인 문혁 당시 홍위병을 이끌었던 4인방(장칭, 왕훙원, 장춘차오, 야오원위안) 가운데 한 사람이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20201125154922649",
+            "search_query": "장칭 4인방",
+            "terminate": false,
+            "text": "4인방에는 마오쩌둥의 네 번째 부인인 장칭을 시작으로 왕훙원, 장춘차오, 야오원위안이 있었어. 이들은 중국의 극좌 사회주의 운동이었던 문혁 당시에 홍위병을 이끌었던 주요 인물이었지.",
+            "turn_id": "BK22009093-3",
+            "utterance_id": "BK22009093.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 장칭은 배우 출신이라고 들었는데, 맞아? 문혁 당시에 장칭의 위세는 어느 정도였어?",
+            "turn_id": "BK22009093-4",
+            "utterance_id": "BK22009093.7"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "여배우 출신으로 마오와 결혼한 장칭은 문혁이 절정기이던 당시 150만 홍위병을 천안문 광장에서 사열하는 등 위세를 떨치기도 했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20201125154922649",
+            "search_query": "장칭 4인방",
+            "terminate": false,
+            "text": "응, 마오와 결혼한 장칭은 여배우 출신이었어. 문혁의 절정기였던 당시에 장칭은 무려 150만 명에 달하는 홍위병을 천안문 광장에서 사열할 정도로 엄청난 권세를 떨쳤지.",
+            "turn_id": "BK22009093-4",
+            "utterance_id": "BK22009093.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장칭이 문혁의 시발점인 해서파관 사건의 주요 인물이기도 했다던데, 해서파관 사건은 어떤 사건이었어?",
+            "turn_id": "BK22009093-5",
+            "utterance_id": "BK22009093.9"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "장칭은 중국의 역사학자 우한(吳晗)이 쓴 희곡 해서파관 연극을 관람한 후 중대한 과오를 가진 연극이라고 비판했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대약진운동에 대한 비판, 즉 마오쩌둥을 비판한 것이라는 주장이었다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "장칭은 마오쩌둥 죽음 뒤 정권을 잡으려던 시도를 하다 실패해 투옥됐고, 가택연금 중 극단 선택으로 생을 마감했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://biz.chosun.com/site/data/html_dir/2020/11/25/2020112502147.html?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "search_query": "장칭 해서파관",
+            "terminate": false,
+            "text": "해서파관은 중국의 역사학자인 우한이 만든 희곡인데, 장칭은 이 작품을 관람한 후에 해서파관을 중대한 과오를 가진 연극이라며 비판했어. 이는 대약진운동에 대한 비판이자, 마오쩌둥을 비판한 거나 마찬가지였지. 하지만 장칭은 마오쩌둥의 사망 후 정권을 잡으려던 목적을 이루지 못했고, 가택연금 중 극단적인 선택으로 생을 마감했어.",
+            "turn_id": "BK22009093-5",
+            "utterance_id": "BK22009093.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "장칭의 시도는 결국 실패로 돌아갔구나. 장칭 외 4인방이 이끈 홍위병들은 당시에 조반유리라는 구호를 외쳤다고 하던데, 그 구호의 뜻은 뭐야?",
+            "turn_id": "BK22009093-6",
+            "utterance_id": "BK22009093.11"
+        },
+        {
+            "reference_date": "2016-05-12",
+            "reference_text": [
+                {
+                    "value": "문혁 기간 전국 각지에서는 홍위병들이 조반유리(造反有理· 반항과 반란에는 이유가 있다) 구호를 외치며 기존의 사상, 문화, 풍속, 관습을 근원부터 파괴하는 광풍이 휘몰아쳤다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20160511164200089?input=1195m",
+            "search_query": "홍위병 조반유리",
+            "terminate": false,
+            "text": "조반유리란 반항과 반란에는 이유가 있다는 의미를 지니고 있어. 문혁 당시 홍위병들은 전국 각지에서 이 조반유리 구호를 외치면서 기존의 문화, 사상, 관습, 풍속 등을 근원부터 파괴하려는 광풍이 몰아치기 시작했지.",
+            "turn_id": "BK22009093-6",
+            "utterance_id": "BK22009093.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 모든 것을 바꾸려는 움직임이었구나. 문혁이 마오쩌둥의 제창으로 시작되었잖아. 당시 대혁명을 일으키려던 그의 주장이 뭐였어?",
+            "turn_id": "BK22009093-7",
+            "utterance_id": "BK22009093.13"
+        },
+        {
+            "reference_date": "2022-07-24",
+            "reference_text": [
+                {
+                    "value": "그는 부르주아 계급의 자본주의와 봉건주의, 관료주의 요소가 공산당과 중국 사회 곳곳을 지배하고 있으니 이를 제거해야 한다고 주장하였다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 중국의 청년 학생들과 민중들이 사상과 행동을 규합해 인민민주독재를 더욱 확고히 실현키 위해 \"혁명 후의 영구적 계급 투쟁\"을 통해 이런 것들을 분쇄시켜야 한다고 하였다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%8C%80%ED%98%81%EB%AA%85",
+            "search_query": "문화대혁명",
+            "terminate": false,
+            "text": "부르주의 계급의 자본주의, 봉건주의, 그리고 관료주의 요소가 공산당 및 중국 사회의 곳곳을 지배하고 있기 때문에 이를 제거해야 한다는 것이 그의 주장이었어. 또한, 중국의 민중들과 청년들이 행동 및 사상을 규합하여 인민민주독재를 더욱 단단히 해야 한다고 주장했지. 이를 위해 혁명 후 영구적 계급 투쟁을 통해 이 모든 것들을 없애버리는 것이 목적이었어.",
+            "turn_id": "BK22009093-7",
+            "utterance_id": "BK22009093.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 주장들이 홍위병의 움직임으로 이어진 거구나. 홍위병들이 한 일들에는 구체적으로 뭐가 있어?",
+            "turn_id": "BK22009093-8",
+            "utterance_id": "BK22009093.15"
+        },
+        {
+            "reference_date": "2020-11-25",
+            "reference_text": [
+                {
+                    "value": "공자의 묘를 파괴하고, 유교 경전을 태우는가 하면, 영원한 2인자로 불린 저우언라이(周恩來)의 수양딸이 살해당하고, 덩샤오핑(鄧小平)의 아들이 반신불수가 되는 일이 벌어질 정도였다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "문혁 당시 홍위병들은 중국의 각종 사회문화적 유산을 파괴하고, 정치‧문화‧예술계 인사들을 탄압했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20201125154922649",
+            "search_query": "문혁 홍위병",
+            "terminate": false,
+            "text": "홍위병들은 중국의 여러 사회문화적 유산들을 파괴했고, 정치, 문화, 예술계 인사들까지 탄압했어. 공자의 묘를 파괴하는가 하면, 유교 경전을 불태워버리기도 했지. 또한, 영원한 이인자로 불렸던 저우언라이의 수양딸을 살해하고, 덩샤오핑의 아들이 반신불수로 만드는 일까지 벌어졌어.",
+            "turn_id": "BK22009093-8",
+            "utterance_id": "BK22009093.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청난 희생을 남긴 혁명이었네. 문혁의 희생자에는 조선족들도 있었다던데, 어떤 피해를 입었어?",
+            "turn_id": "BK22009093-9",
+            "utterance_id": "BK22009093.17"
+        },
+        {
+            "reference_date": "2022-08-31",
+            "reference_text": [
+                {
+                    "value": "수많은 조선족 간부와 의식 있는 조선족들이 외국간첩이나 특무, 반역자, 지하국민당 당원 등으로 몰려 맞아죽거나 자살하거나 감옥에 갔다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5809715",
+            "search_query": "문화대혁명 조선족",
+            "terminate": false,
+            "text": "많은 조선족 간부나 의식 있는 조선족들이 맞아 죽거나, 자살하거나, 감옥에 가야 했어. 외국간첩이나 반역자, 특무, 지하국민당 당원 등으로 몰렸기 때문이지.",
+            "turn_id": "BK22009093-9",
+            "utterance_id": "BK22009093.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유가 있었구나, 오늘 알려준 역사 이야기 정말 고마워. 어제 본 다큐멘터리가 더욱 생생하게 이해되는 것 같아!",
+            "turn_id": "BK22009093-10",
+            "utterance_id": "BK22009093.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이야, 또 궁금한 점이 생기면 언제든지 물어봐.",
+            "turn_id": "BK22009093-10",
+            "utterance_id": "BK22009093.20"
+        }
+    ]
+}

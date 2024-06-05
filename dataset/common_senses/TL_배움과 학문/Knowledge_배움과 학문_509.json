@@ -1,0 +1,337 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002360",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002360",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전부터 기타를 배우게 되었는데 기타에 대해 조금 더 알고 배우면 좋을 것 같아서 기타에 대해 소개를 좀 부탁드려도 될까요?",
+            "turn_id": "BK22002360-1",
+            "utterance_id": "BK22002360.1"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "(영어: Guitar)는 현(Strings)을 튕겨 소리를 내는 발현악기로, 스페인 지방에서 유래하였다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타",
+            "terminate": false,
+            "text": "그럼요, 기타는 현을 튕겨서 소리를 내는 악기로써 스페인 지방에서 기타가 처음 유래되었어요.",
+            "turn_id": "BK22002360-1",
+            "utterance_id": "BK22002360.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기타가 스페인에서 유래된 악기군요! 기타의 구성요소에 대해서도 알고 싶은데 기타는 어떤 구성으로 이루어져 있나요?",
+            "turn_id": "BK22002360-2",
+            "utterance_id": "BK22002360.3"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "머리(Head), 목(Neck), 몸체(Body)로 구성되어 있으며, 목 부분에는 20여 개의 프렛(Fret)이 박혀 있다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타 구성",
+            "terminate": false,
+            "text": "기타는 크게 헤드, 넥. 바디로 구성되어 있으며 넥 부분은 20여 개의 프랫으로 이루어져 있어요.",
+            "turn_id": "BK22002360-2",
+            "utterance_id": "BK22002360.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 가지고 있는 기타는 22 프랫으로 이루어져 있더라고요. 저는 기타가 어떻게 소리가 이렇게 크게 나는지 궁금해요.",
+            "turn_id": "BK22002360-3",
+            "utterance_id": "BK22002360.5"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "기타는 기타 몸체의 울림구멍(Sound Hole)을 통해 소리를 증폭하고, 프렛을 통해 음정을 제어한다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타 소리",
+            "terminate": false,
+            "text": "기타 몸체에 있는 울림 구멍이 보이세요? 그 울림 구멍을 통해 소리를 증폭하여서 소리를 내며 프렛을 통해 음정을 제어하는 구성으로 이루어져 있어요.",
+            "turn_id": "BK22002360-3",
+            "utterance_id": "BK22002360.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기타를 이때까지 쳐보기만 했지 이렇게 상세한 원리는 몰랐네요. 예전 스페인에서도 지금과 같은 기타를 사용했을까요?",
+            "turn_id": "BK22002360-4",
+            "utterance_id": "BK22002360.7"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "근대 기타는 기턴(gittern)에서 유래되었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기턴은 류트와 비슷한 작은 악기로 13세기 후반에 무어인의 지배 하에 있던 스페인을 거쳐 유럽에 도입되었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타의 유래",
+            "terminate": false,
+            "text": "현대에 사용하는 기타와는 많이 달랐어요. 근대의 기타는 기턴이라는 악기에서 유래되었는데 이 기턴이라는 악기 또한 류트와 비슷한 작은 악기로써 스페인을 거쳐 유럽에 도입되었어요.",
+            "turn_id": "BK22002360-4",
+            "utterance_id": "BK22002360.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 초기의 기타는 지금과는 많이 다른 생김새를 가졌겠네요?",
+            "turn_id": "BK22002360-5",
+            "utterance_id": "BK22002360.9"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "스페인에서 기턴은 비우엘라(vihuela)로 변형되었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비우엘라는 평평한 악기로써 옆면은 구부러져 있고, 복현 5줄과 단현 1줄로 되어 있다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "비우엘라",
+            "terminate": false,
+            "text": "그렇죠, 스페인에서 이 기턴은 비우엘라라는 악기로 변형되어 옆면은 구부러져 있고 복현 5줄과 단현 1줄로 이루어져 있었어요.",
+            "turn_id": "BK22002360-5",
+            "utterance_id": "BK22002360.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 사용하는 기타는 단현 6줄인데 복현이 5줄이나 있었다니 정말 상상할 수가 없어요. 그러면 현대에 쓰이는 기타는 언제 만들어진 거죠?",
+            "turn_id": "BK22002360-6",
+            "utterance_id": "BK22002360.11"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "19세기 기타는 몸통의 폭이 넓어졌고 안쪽의 버팀대가 부채 모양으로 바뀌었으며, 금속 프랫을 목에 끼워 고정시켰고, 줄받침은 높게 제작되었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "19세기 기타",
+            "terminate": false,
+            "text": "현대에 쓰이는 기타는 19세기에 발명되었으며 기타의 몸통의 폭이 더욱 넓어졌고 안쪽의 버팀대가 부채 모양으로 바뀌었으며 프랫을 넥에 끼워 고정시키고 줄받침은 다소 높게 제작되어 현대의 기타와 거의 유사한 모습을 가지고 있었어요.",
+            "turn_id": "BK22002360-6",
+            "utterance_id": "BK22002360.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 많은 변화를 거쳐 지금의 기타가 완성되었군요.",
+            "turn_id": "BK22002360-7",
+            "utterance_id": "BK22002360.13"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "이같은 혁신은 스페인 기타 제작자 안토니오 토레스 후라도에 의한 것이었다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현을 65cm 길이로 표준화시킨 사람 또한 토레스였다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타의 표준화",
+            "terminate": false,
+            "text": "맞아요, 이 같은 혁신적인 변형은 기타 제작자인 안토니오 토레스 후라도가 만들었으며 현의 길이를 65cm로 표준화를 시키기도 하였어요.",
+            "turn_id": "BK22002360-7",
+            "utterance_id": "BK22002360.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안토니오 토레스 후라도가 기타를 변형시키지 않았더라면 기타를 치는 데 불편함이 클 수 밖에 없었겠어요. 저는 지금 통기타를 사용하고 있는데 통기타 말고 다른 기타도 있나요?",
+            "turn_id": "BK22002360-8",
+            "utterance_id": "BK22002360.15"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "기타의 종류로는, 몸체의 울림을 통해 소리를 증폭하는 통기타(Acoustic Guitar)와 마그네틱 픽업(Pickup)과 앰프(Amplifier)를 통해 소리를 증폭하는 전기 기타(Electric Guitar), 크게 2가지로 나뉜다.",
+                    "value_time": "2022-07-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%ED%83%80",
+            "search_query": "기타 종류",
+            "terminate": false,
+            "text": "그럼요, 현재 쓰시고 있는 기타는 몸체의 울림을 통해 소리를 증폭시키는 통기타이지만 픽업과 앰프를 사용하여 소리를 증폭시키는 일렉트릭 기타도 있어요.",
+            "turn_id": "BK22002360-8",
+            "utterance_id": "BK22002360.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "통기타가 초보자가 치기에는 가장 적합하고 알맞다고 들어서 통기타를 배우기로 마음먹었는데, 때가 되면 일렉트릭 기타도 한번 쳐보고 싶네요.",
+            "turn_id": "BK22002360-9",
+            "utterance_id": "BK22002360.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일렉트릭 기타는 기본적으로 앰프가 있어야 소리를 증폭시킬 수 있기 때문에 꼭 앰프를 구매하셔야 할 거예요.",
+            "turn_id": "BK22002360-9",
+            "utterance_id": "BK22002360.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 일렉트릭 기타는 앰프가 없으면 소리가 나지 않나요?",
+            "turn_id": "BK22002360-10",
+            "utterance_id": "BK22002360.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소리가 나긴 나지만 통기타에 비하면 아주 작게 소리가 날 거예요.",
+            "turn_id": "BK22002360-10",
+            "utterance_id": "BK22002360.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그렇군요. 다음에 일렉트릭 기타를 연주할 기회가 있다면 꼭 쳐봐야겠어요!",
+            "turn_id": "BK22002360-11",
+            "utterance_id": "BK22002360.21"
+        }
+    ]
+}

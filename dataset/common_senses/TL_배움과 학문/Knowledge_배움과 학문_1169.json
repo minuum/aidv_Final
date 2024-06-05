@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007783",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007783",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "영화 광해 왕이 된 남자가 광해군이 사라졌던 일에 대한 상상에서 출발했다고 하던데, 실제로 사라졌다는 내용이 어디에 어떤 기록으로 남아 있는 건가요?",
+            "turn_id": "BK22007783-1",
+            "utterance_id": "BK22007783.1"
+        },
+        {
+            "reference_date": "2021-08-27",
+            "reference_text": [
+                {
+                    "value": "광해군 8년, 2월 28일.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조선왕조실록 광해군일기에는 “숨겨야 할 일들은 기록에 남기지 말라 이르다”라는 글귀가 남아있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 조선왕조실록에서 광해군 15일간의 행적은 영원히 사라졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영화 ‘광해, 왕이 된 남자’는 광해가 쓰러진 15일간 왕과 똑 닮은 저잣거리의 만담꾼 ‘하선’이 왕의 역할을 대신했다는 상상에서 출발한 영화다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://bravo.etoday.co.kr/view/atc_view.php?varAtcId=12692",
+            "search_query": "광해군의 사라진 15일간",
+            "terminate": false,
+            "text": "조선왕조실록 광해군일기를 보면 광해군 8년, 2월 28일에 숨겨야 할 일들은 기록에 남기지 말라 이르다 라는 글귀가 남아 있어요. 그리고 15일간의 광해군 행적은 조선왕조실록에서 영원히 사라졌죠. 광해, 왕이 된 남자는 바로 이 사라진 15일 동안 저잣거리의 만담꾼 하선이 광해군과 똑같이 생긴 얼굴로 쓰러진 광해군 대신 왕 노릇을 했다는 상상에서 시작하게 된 거죠.",
+            "turn_id": "BK22007783-1",
+            "utterance_id": "BK22007783.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조신왕조실록에 15일간의 행적을 기록하지 말라는 글귀가 나오는군요. 그런데 조선왕조실록이 정확히 뭔가요?",
+            "turn_id": "BK22007783-2",
+            "utterance_id": "BK22007783.3"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "『조선왕조실록』 (朝鮮王朝實錄, 문화어: 조선봉건왕조실록(朝鮮封建王朝實錄))은 태조(1392년)부터 철종(1863년)까지 25대에 걸친 472년간 조선 왕조의 역사적 사실을 연월일순(年月日順)에 따라 편년체로 기술한 역사서이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "별칭은 『조선실록』(朝鮮實錄)이다. 1997년 10월 1일 유네스코에 세계기록유산으로 등록되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%99%95%EC%A1%B0%EC%8B%A4%EB%A1%9D",
+            "search_query": "조선왕조실록",
+            "terminate": false,
+            "text": "조선실록이라고 부르기도 하는 조선왕조실록은 연월일순에 따라 편년체로 기술한 역사서에요. 태조 1392년부터 철종 1863년까지 472년 동안 25대에 걸친 조선 왕조의 역사적 사실이 기록되어 있는데, 유네스코 세계기록유산으로 1997년 10월 1일에 등재되었어요.",
+            "turn_id": "BK22007783-2",
+            "utterance_id": "BK22007783.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선 왕조의 역사적 사실을 기술한 역사서이군요. 그럼 조선왕조실록은 누가 기록하는 건가요? 그리고 왕의 생전에 작성하는 건가요?",
+            "turn_id": "BK22007783-3",
+            "utterance_id": "BK22007783.5"
+        },
+        {
+            "reference_date": "2022-07-23",
+            "reference_text": [
+                {
+                    "value": "『조선왕조실록』 은 공정성과 객관성을 지켜내기 위하여 매우 엄격한 규율에 따라 작성되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "왕의 실록은 반드시 해당 왕의 사후에 작성되었으며, 임금은 어떠한 경우에도 실록을 열람할 수 없었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사관들은 독립성과 비밀성을 부여 받아 사소한 사항까지도 왜곡없이 있는 그대로 작성할 수 있었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%99%95%EC%A1%B0%EC%8B%A4%EB%A1%9D",
+            "search_query": "조선왕조실록",
+            "terminate": false,
+            "text": "아니요. 조선왕조실록은 공정성과 객관성을 위해 반드시 해당 왕의 사후에 기록했는데, 어떠한 경우에도 왕은 실록을 볼 수 없었어요. 그리고 독립성과 비밀성을 부여받아 사관들이 세세한 내용까지도 왜곡 없이 사실 그대로 아주 엄격한 규율에 따라 기록했죠.",
+            "turn_id": "BK22007783-3",
+            "utterance_id": "BK22007783.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사소한 사항까지도 그대로 기록하게 했는데, 광해군의 15일간 행적은 전혀 기록이 안 돼서 영화적 상상력이 발휘된 거군요. 그럼 영화에서처럼 광해군은 실제 역사에서도 대동법을 적극적으로 시행하고자 한 왕으로 기록되어 있나요?",
+            "turn_id": "BK22007783-4",
+            "utterance_id": "BK22007783.7"
+        },
+        {
+            "reference_date": "2020-05-22",
+            "reference_text": [
+                {
+                    "value": "하지만 실제 역사에서 광해군은 대동법에 회의적이었던 것으로 기록되어 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제 역사에선 대동법의 전국 확대 시행은 신하들에게서 제기된 주장이었으며 광해군은 오히려 이에 반대하는 입장이었던 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mhns.co.kr/news/articleView.html?idxno=407885",
+            "search_query": "실제 역사에선 대동법 광해군 반대 입장",
+            "terminate": false,
+            "text": "아니요. 광해군은 실제 역사 기록에서는 대동법에 회의적이었던 것으로 나와 있어요. 오히려 광해군은 신하들이 대동법의 전국 확대 시행을 주장하자, 반대하는 입장을 취했던 거죠.",
+            "turn_id": "BK22007783-4",
+            "utterance_id": "BK22007783.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제 역사 기록에서는 반대하는 입장이었군요. 그럼 광해군이 영화에서처럼 실제로 정신이 불안한 상태였다는 기록도 있나요?",
+            "turn_id": "BK22007783-5",
+            "utterance_id": "BK22007783.9"
+        },
+        {
+            "reference_date": "2015-08-18",
+            "reference_text": [
+                {
+                    "value": "광해군은 본래 건강이 안 좋은 사람이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 정신건강이 불안했었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "광해군 2년 4월 23일자(1610년 6월 14일자) <광해군 일기>에 따르면, 그는 한음 이덕형과의 대화에서 자신이 어려서부터 열이 많아 화증이나 울열증으로 고생했다는 이야기를 했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "툭하면 화를 내는 증상과 몸속 열로 인해 속이 답답하고 괴로운 증상으로 시달렸던 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것은 그가 어려서부터 정신적으로 편치 못한 생활을 했음을 반영하는 것이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002136699",
+            "search_query": "광해군 정신건강 불안",
+            "terminate": false,
+            "text": "네, 광해군 2년 4월 23일 자 광해군일기 기록에서 그의 정신건강이 어려서부터 편치 못한 생활로 인해 불안했음을 알 수 있어요. 그 기록은 한음 이덕형과 그의 대화 내용인데, 어릴 때부터 자신이 열이 많아 화증이 나고 울열증으로 고생했다는 이야기죠. 본래 건강이 좋지 않았던 광해군은 몸 안의 열로 속이 답답하고 자주 화를 내는 등 괴로운 증상에 시달렸죠.",
+            "turn_id": "BK22007783-5",
+            "utterance_id": "BK22007783.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어릴 때부터 편치 못한 생활을 했다고 했는데, 의지할 데가 없었나요?",
+            "turn_id": "BK22007783-6",
+            "utterance_id": "BK22007783.11"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "어린 나이에 광해군(光海君)에 봉해졌다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어려서 생모 공빈 김씨를 여의고 부왕의 냉대 속에 자랐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외할아버지인 김희철마저도 임진왜란 중에 전사하면서 그가 기댈 곳은 없었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EA%B4%91%ED%95%B4%EA%B5%B0",
+            "search_query": "조선 광해군",
+            "terminate": false,
+            "text": "네, 어려서 어머니인 공빈 김 씨를 여의고 광해군에 봉해진 그는 아버지의 냉대 속에서 크게 돼요. 거기다 임진왜란 때 외할아버지 김희철까지 전사하면서 의지할 데가 없었죠.",
+            "turn_id": "BK22007783-6",
+            "utterance_id": "BK22007783.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려서 친모를 여의었군요. 그런데 기댈 곳 없는 광해군이 어떻게 왕이 되었나요?",
+            "turn_id": "BK22007783-7",
+            "utterance_id": "BK22007783.13"
+        },
+        {
+            "reference_date": "2019-03-04",
+            "reference_text": [
+                {
+                    "value": "전쟁이 끝난 후 선조가 영창대군을 세자로 책봉하고자 하였으나 뜻을 이루지 못하고 죽자 임진왜란 동안 많은 공을 세운 광해군이 대북파의 지지를 받아 1608년 왕위에 올랐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=596155",
+            "search_query": "광해군 임진왜란 공",
+            "terminate": false,
+            "text": "음, 임진왜란이 끝난 후 영창대군을 세자로 책봉하고자 했던 선조가 뜻을 이루지 못하고 죽자 전쟁 때 많은 공을 세운 광해군이 1608년에 대북파의 지지를 얻어 왕위에 오르게 돼요.",
+            "turn_id": "BK22007783-7",
+            "utterance_id": "BK22007783.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선조는 영창대군을 세자로 책봉하려고 했군요. 그럼 광해군이 왕이 된 후 영창대군은 어떻게 되었나요?",
+            "turn_id": "BK22007783-8",
+            "utterance_id": "BK22007783.15"
+        },
+        {
+            "reference_date": "2019-10-09",
+            "reference_text": [
+                {
+                    "value": "영창대군은 조선 선조의 14왕자 중 13번째 왕자이며 인목왕후의 소생이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "광해군이 왕위에 오르자 서인(庶人)으로 강등되고 만 8세의 나이에 강화부사 정항의 손에 죽음을 당했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.g-enews.com/ko-kr/news/article/news_all/2019100912123288384e4869c120_1/article.html?md=20191009121431_U",
+            "search_query": "영창대군",
+            "terminate": false,
+            "text": "인목왕후의 아들인 영창대군은 조선 선조의 14왕자 중 13번째 왕자로, 광해군이 왕이 되자 서인으로 강등되었어요. 그리고 강화부사 정항의 손에 만 8세의 나이로 죽임을 당하게 되죠.",
+            "turn_id": "BK22007783-8",
+            "utterance_id": "BK22007783.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "참 어린 나이에 죽었네요. 오늘 영화와는 좀 차이가 있는 실제 광해군의 이야기 재미있었어요.",
+            "turn_id": "BK22007783-9",
+            "utterance_id": "BK22007783.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 저도 오늘 대화 좋았어요.",
+            "turn_id": "BK22007783-9",
+            "utterance_id": "BK22007783.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 밖을 보니 비가 오기 시작하는데, 젖지 않게 조심히 가세요.",
+            "turn_id": "BK22007783-10",
+            "utterance_id": "BK22007783.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그럼 조심히 살펴 가시고, 또 봬요.",
+            "turn_id": "BK22007783-10",
+            "utterance_id": "BK22007783.20"
+        }
+    ]
+}

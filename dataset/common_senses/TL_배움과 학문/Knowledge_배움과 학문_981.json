@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006373",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006373",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근 우리나라에서 발사한 누리호가 성공했잖아? 그런데 누리호가 정확히 어떤 건지 모르고 기뻐했네. 누리호는 인공위성이야?",
+            "turn_id": "BK22006373-1",
+            "utterance_id": "BK22006373.1"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "1.3톤에 달하는 성능 검증 위성과 위성 모사체를 분리해 궤도에 안착시킴으로써 누리호는 대한민국 최초의 저궤도 실용위성 발사용 로켓이자 외국의 기술 지원을 받지 않고 순수 국내 기술로 자체 개발에 성공한 한국형발사체(KSLV-II)가 되었으며, 향후 중궤도 및 정지궤도발사체와 대형 정지궤도발사체의 기술적 기반이 될 예정이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%88%84%EB%A6%AC%ED%98%B8",
+            "search_query": "누리호",
+            "terminate": false,
+            "text": "누리호는 외국의 기술지원을 받지 않고 순수 국내 기술로 자체 개발에 성공한 한국형 발사체야. 1.3톤에 달하는 성능 검증 위성과 위성 모사체를 분리해 궤도에 안착시킴으로써 대한민국 최초의 저궤도 실용위성 발사용 로켓이기도 하지. 앞으로 중궤도 및 정지궤도발사체와 대형 정지궤도발사체의 기술적 기반이 될 거야.",
+            "turn_id": "BK22006373-1",
+            "utterance_id": "BK22006373.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어려운 용어가 엄청 많다. 발사체라는 게 정확히 뭘까?",
+            "turn_id": "BK22006373-2",
+            "utterance_id": "BK22006373.3"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "우주발사체(宇宙發射體, 영어: launch vehicle) 또는 운반 로켓(運搬 -, 영어: carrier rocket)은 탑재물을 지구 표면으로부터 우주 공간으로 옮기는 데 사용되는 로켓을 말한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'발사 시스템'에는 발사체, 발사대와 기타 시설들이 포함된다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 탑재물로서 인공 위성이 궤도에 놓이지만, 일부 우주 비행은 궤도에 오르지 않거나 우주선으로 지구의 궤도로부터 완전히 벗어나기도 한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "궤도에 오르지 않는 적재물을 운반하는 발사체를 '탐사 로켓' 또는 '관측 로켓'(sounding rocket)이라고도 한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A3%BC%EB%B0%9C%EC%82%AC%EC%B2%B4",
+            "search_query": "발사체",
+            "terminate": false,
+            "text": "우주발사체는 운반 로켓이라고도 하는데 탑재물을 지구 표면으로부터 우주 공간으로 옮기는 데 사용되는 로켓이야. 발사 시스템에는 발사체, 발사대와 기타 시설들이 있지. 탑재물로는 보통 인공위성이 궤도에 놓이지만, 일부 우주 비행은 궤도에 오르지 않거나 우주선으로 지구의 궤도를 완전히 벗어나기도 해. 궤도에 오르지 않는 적재물을 운반하는 발사체의 경우에는 탐사 로켓이나 관측 로켓이라고 해.",
+            "turn_id": "BK22006373-2",
+            "utterance_id": "BK22006373.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조금 헷갈리는데 우리나라도 인공위성이 있잖아. 우리나라 인공위성은 뭐야?",
+            "turn_id": "BK22006373-3",
+            "utterance_id": "BK22006373.5"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "우리별 1호는 대한민국 최초의 인공위성이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영국 서레이 새틀라이트 테크놀로지의 UoSAT-5 위성본체를 사용했다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공식 수명은 5년이었지만 1997년 임무 종료 후에도 7년 간 더 작동하다 2004년 말 교신을 마쳤다",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A6%AC%EB%B3%84_1%ED%98%B8",
+            "search_query": "우리별 1호",
+            "terminate": false,
+            "text": "우리나라 최초 인공위성은 우리별 1호이고, 영국 서레이 새틀라이트 테크놀로지의 UoSAT-5 위성본체를 사용했지. 공식적으로 수명은 5년이라고 했지만 1997년 임무 종료 후에도 7년 간 더 작동해 2004년 말 교신을 마쳤어.",
+            "turn_id": "BK22006373-3",
+            "utterance_id": "BK22006373.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "누리호가 우리나라 최초 발사체라고 하는 데는 이유가 있구나. 다음 인공 위성은 어떤 거야?",
+            "turn_id": "BK22006373-4",
+            "utterance_id": "BK22006373.7"
+        },
+        {
+            "reference_date": "2022-02-25",
+            "reference_text": [
+                {
+                    "value": "우리별 2호는 대한민국 2번째 인공위성이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "우리별 1호가 영국 서레이 대학에서 제작된 것과 달리, 우리별 2호는 대한민국 카이스트에서 제작되었다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A6%AC%EB%B3%84_2%ED%98%B8",
+            "search_query": "우리별 2호",
+            "terminate": false,
+            "text": "우리나라 두 번째 인공위성은 우리별 2호야. 우리별 1호는 영국 서레이 대학에서 제작했지만 우리별 2호는 대한민국 카이스트에서 제작했어.",
+            "turn_id": "BK22006373-4",
+            "utterance_id": "BK22006373.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라의 독자적인 기술을 만들기 위해 많은 노력이 있었구나. 추가로 궁금한 게 있는데 인공위성에 관해서야. 기사를 볼 때 저궤도니 정지궤도니 하는 말이 있었는데 이게 무슨 말이야?",
+            "turn_id": "BK22006373-5",
+            "utterance_id": "BK22006373.9"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "지구 저궤도(Low Earth Orbit, LEO)는 지구의 지상에서부터 고도 2000 km 까지의 인공위성 궤도를 말한다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고도 200 km 이하에서는 지표와 너무 가까워 궤도를 유지하기 위해 요구되는 속도가 너무 빨라서 물체가 연소하기 때문에 고도 200km 이하로는 궤도 형성이 불가능하다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B5%AC_%EC%A0%80%EA%B6%A4%EB%8F%84",
+            "search_query": "저궤도",
+            "terminate": false,
+            "text": "지구 저궤도는 인공위성 궤도야. 지구의 지상에서부터 고도 2000 km로, 고도 200 km 이하에서는 궤도 형성이 불가능해. 지표와 가까워 궤도를 유지하기 위해 요구되는 속도가 너무 빨라서 물체가 연소하기 때문이지.",
+            "turn_id": "BK22006373-5",
+            "utterance_id": "BK22006373.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무궁화 1호가 정지궤도였던 걸로 기억하는데 정지궤도는 뭐야?",
+            "turn_id": "BK22006373-6",
+            "utterance_id": "BK22006373.11"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "정지궤도( 靜止軌道, Geostationary Orbit, GEO)는 위도 0°인 적도 36000 km 상공의 원형 궤도이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A7%80_%EA%B6%A4%EB%8F%84",
+            "search_query": "정지궤도",
+            "terminate": false,
+            "text": "정지궤도란 위도 0°, 즉 적도 36000 km 상공의 원형 궤도를 말해.",
+            "turn_id": "BK22006373-6",
+            "utterance_id": "BK22006373.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저궤도 위성과 정지 궤도를 따로 하는 쏘는 이유가 뭐지? 저궤도 위성을 많이 발사하니까 특별한 장점이라도 있는 건가?",
+            "turn_id": "BK22006373-7",
+            "utterance_id": "BK22006373.13"
+        },
+        {
+            "reference_date": "2020-10-01",
+            "reference_text": [
+                {
+                    "value": "저궤도 위성은 약 36,000km 고도의 정지궤도 위성에 비해 전송 지연 시간이 짧다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 특성을 이용하면 여러 저궤도 위성을 통해 범위를 확대, 글로벌 통신 서비스를 제공하는 것이 가능하다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히, IoT 및 음성 위주 서비스 분야에서 위성통신 기술이 크게 활약할 것으로 전망된다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.etri.re.kr/webzine/20210305/sub03.html",
+            "search_query": "저궤도 위성",
+            "terminate": false,
+            "text": "저궤도 위성은 약 36,000km 고도의 정지궤도 위성에 비해 전송 지연 시간이 짧아 여러 저궤도 위성을 통해 범위를 확대하여 글로벌 통신 서비스를 만들 수 있어. 특히, IoT 및 음성 위주 서비스 분야에서 위성 통신 기술이 크게 활약할 것으로 전망하지.",
+            "turn_id": "BK22006373-7",
+            "utterance_id": "BK22006373.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정지 궤도의 역할은 뭐야?",
+            "turn_id": "BK22006373-8",
+            "utterance_id": "BK22006373.15"
+        },
+        {
+            "reference_date": "2022-03-23",
+            "reference_text": [
+                {
+                    "value": "대부분의 방송·통신위성이 이 정지궤도 위성으로 운용되고 있으며, 한 개의 위성으로 지구 전 지역의 3분의 1을 커버할 수 있기 때문에 세 개의 위성만 있으면 전세계 위성통신 서비스가 가능하다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ecotiger.co.kr/news/articleView.html?idxno=40687",
+            "search_query": "정지궤도 위성",
+            "terminate": false,
+            "text": "정지궤도 위성으로 대부분의 방송, 통신위성이 운용하고 있어. 한 개의 위성으로 지구 전 지역의 3분의 1을 커버할 수 있어 세 개의 위성만 있으면 전세계 위성통신 서비스가 가능하지.",
+            "turn_id": "BK22006373-8",
+            "utterance_id": "BK22006373.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정지 궤도 위성도 엄청 효율적인데 비용이 많이 들 것 같아. 그래서인지 상대적으로 저궤도 위성을 많이 쏘는 것 같네. 마지막으로 최초의 인공위성은 어떻게 돼?",
+            "turn_id": "BK22006373-9",
+            "utterance_id": "BK22006373.17"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "스푸트니크 1호(러시아어: Спутник-1)는 소련이 1957년 10월 4일에 타원형의 지구 저궤도로 발사한 최초의 인공위성이다.",
+                    "value_time": "2022-08-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%91%B8%ED%8A%B8%EB%8B%88%ED%81%AC_1%ED%98%B8",
+            "search_query": "스푸트니크",
+            "terminate": false,
+            "text": "소련이 1957년 10월 4일에 타원형의 지구 저궤도로 발사한 스푸트니크 1호가 최초의 인공위성이야.",
+            "turn_id": "BK22006373-9",
+            "utterance_id": "BK22006373.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나로호 발사 당시 기사 났을 때 러시아가 함께 했다는 걸 본 적이 있는데 우리보다 한참 전에 인공위성을 개발했구나. 그것도 최초로. 앞으로 우리나라도 우주 산업이 활성화되어 발전되었으면 좋겠다.",
+            "turn_id": "BK22006373-10",
+            "utterance_id": "BK22006373.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "우리나라도 전세계에서 빠지지 않는 기술 국가니까 곧 선진국과 함께 할 거라고 생각해. 도서관에서 우리나라 우주 기술 동향에 대한 논문을 찾아볼 생각인데 같이 가자.",
+            "turn_id": "BK22006373-10",
+            "utterance_id": "BK22006373.20"
+        }
+    ]
+}

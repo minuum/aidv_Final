@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006677",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006677",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 신문을 읽다 보면 여성 CEO들이 참 많이 보이는 거 같아. AMD의 리사 수 같은 분도 중국계 여성인데 진짜 대단하잖아. 혹시 과거 역사시대의 중국에는 여성 리더가 없었어?",
+            "turn_id": "BK22006677-1",
+            "utterance_id": "BK22006677.1"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "측천무후(則天武后, 624년 2월 17일(음력 1월 23일) ~ 705년 12월 16일(음력 11월 26일))는 당나라 고종 이치의 황후이자 무주(武周)의 황제이다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그녀는 중국을 통치한 200여 명의 황제들 중 유일한 여성 통치자였다",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B8%A1%EC%B2%9C%EB%AC%B4%ED%9B%84",
+            "search_query": "측천무후 고종 황후 무주 황제",
+            "terminate": false,
+            "text": "측천무후라는 인물이 있었어. 624년 2월 17일에 태어나서 705년 12월 16일에 죽은 당나라 고종 이치의 황후이자 무주라는 국가의 황제였지. 아, 참고로 중국 역사에 나오는 200여 명의 황제 중 유일한 여성 황제야.",
+            "turn_id": "BK22006677-1",
+            "utterance_id": "BK22006677.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 중국에도 여자 황제가 있었구나. 그럼 측천무후는 당나라 고종에게 시집을 가면서 처음 역사에 등장한거야?",
+            "turn_id": "BK22006677-2",
+            "utterance_id": "BK22006677.3"
+        },
+        {
+            "reference_date": "2017-03-10",
+            "reference_text": [
+                {
+                    "value": "그가 처음 궁에 들어온 것은 열세살 때, 고종의 아버지인 태종의 후궁이 되어서였다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 11년 후 태종이 죽자 관례에 따라 비구니가 되어 절에 들어가 살게 된다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jjan.kr/1122631",
+            "search_query": "측천무후 태종 후궁 비구니",
+            "terminate": false,
+            "text": "아니야. 처음에는 13살때 고종의 아버지인 태종의 후궁으로 입궁했어. 하지만 태종이 11년 뒤에 사망하자 관례에 따라 여승이 돼서 절에서 살게 되지.",
+            "turn_id": "BK22006677-2",
+            "utterance_id": "BK22006677.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고종의 아버지의 후궁이었다고? 이거 진짜 놀라운 일이네. 그럼 측천무후는 고종이랑 대체 무슨 관계였던거야?",
+            "turn_id": "BK22006677-3",
+            "utterance_id": "BK22006677.5"
+        },
+        {
+            "reference_date": "2017-03-10",
+            "reference_text": [
+                {
+                    "value": "태종이 죽기 전부터 무후와 관계가 있었던 고종은 궁을 떠난 그를 잊지 못해 절을 자주 찾았다고 한다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jjan.kr/1122631",
+            "search_query": "측천무후 고종 태종 관계",
+            "terminate": false,
+            "text": "사실 태종이 사망하기 전부터 측천무후와 고종은 관계가 있었고, 측천무후가 궁을 나가자 그녀를 잊지 못한 고종은 절을 자주 방문했지.",
+            "turn_id": "BK22006677-3",
+            "utterance_id": "BK22006677.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아버지의 첩과 사랑에 빠지다니 뭔가 현대인의 입장에서 볼 때는 굉장히 황당하네. 그럼 측천무후는 언제부터 황후가 된거야?",
+            "turn_id": "BK22006677-4",
+            "utterance_id": "BK22006677.7"
+        },
+        {
+            "reference_date": "2017-03-10",
+            "reference_text": [
+                {
+                    "value": "무후가 황후에 오른 것은 그의 나이 서른한 살.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이후 그는 자신의 반대편에 있던 중신들을 차례로 숙청하고 고종이 정사에 소홀히 하자 전권을 장악하고 실질적인 통치의 권한을 갖게 된다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jjan.kr/1122631",
+            "search_query": "측천무후 황후 중신 숙청",
+            "terminate": false,
+            "text": "측천무후가 31살이 되던 해에 황후의 자리에 오르게 돼. 이후 그녀는 자신에게 반대하던 중신들을 모조리 제거해버려. 게다가 남편인 고종까지 정치를 멀리 하자 드디어 모든 권력을 손아귀에 넣고 실질적인 통치 권한을 갖게 되지.",
+            "turn_id": "BK22006677-4",
+            "utterance_id": "BK22006677.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단하네. 그럼 황후였던 측천무후가 황제가 되는 건 언제 벌어진 일이야?",
+            "turn_id": "BK22006677-5",
+            "utterance_id": "BK22006677.9"
+        },
+        {
+            "reference_date": "2020-02-09",
+            "reference_text": [
+                {
+                    "value": "683년 고종(高宗)이 죽자, 무후(武后)는 고종(高宗)과의 사이에 낳은 중종(中宗)을 제위(帝位)로 세웠다가 얼마 안가서 중종(中宗)을 제위(帝位)에서 내리게 하고 690년에 스스로 황위(皇位)라 칭해서 당(唐)을 새로 ‘주(周)’라는 국호(國號)를 세웠다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.skyedaily.com/news/news_view.html?ID=98980",
+            "search_query": "측천무후 중종 황제 주",
+            "terminate": false,
+            "text": "고종이 683년 사망하자 무후는 고종과 낳은 아들인 중종을 황제로 세웠다가 얼마 뒤 중종을 황제 자리에서 내려오게 하고 690년에 스스로 황제를 칭하면서 당이라는 국호를 주로 바꾸게 돼.",
+            "turn_id": "BK22006677-5",
+            "utterance_id": "BK22006677.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 엄청난 여걸이었구나. 당시 측천무후는 어떤 식으로 정치를 펼쳤어?",
+            "turn_id": "BK22006677-6",
+            "utterance_id": "BK22006677.11"
+        },
+        {
+            "reference_date": "2020-02-09",
+            "reference_text": [
+                {
+                    "value": "무후(武后)의 치세(治世)는 구 귀족(貴族)의 지배(支配)에 종지부(終止符)를 찍고서 과거시험에 합격한 과거출신(科擧出身)인 신 관료(官僚)로 정사(政事)를 지배(支配)에 대신(代身)하는 과도기(過渡期)를 대표하는 것으로 해석되고 있다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.skyedaily.com/news/news_view.html?ID=98980",
+            "search_query": "측천무후 치세 귀족 관료",
+            "terminate": false,
+            "text": "측천무후는 구 귀족의 지배를 끝내고 과거시험 합격자 출신의 새로운 인재들로 정사를 이끌어갔어. 그래서 그녀의 통치기간은 관료가 정사를 지배하기 시작한 과도기를 대표하는 것으로 해석되고 있지.",
+            "turn_id": "BK22006677-6",
+            "utterance_id": "BK22006677.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 혁신적인 황제였네. 하지만 중국은 역사적으로 유교가 지배하던 사회라서 오히려 공격을 많이 받았을 거 같아. 예전 사람들의 평가는 어땠어?",
+            "turn_id": "BK22006677-7",
+            "utterance_id": "BK22006677.13"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "그런 만큼 당나라 멸망 이후 문치주의와 유교 시스템을 중심으로 성리학적 정치체제가 마련되었던 송나라와 이후 명나라의 유학자들에 의해 부정적인 평가를 많이 받았다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B8%A1%EC%B2%9C%EB%AC%B4%ED%9B%84",
+            "search_query": "측천무후 성리학 유학자 평가",
+            "terminate": false,
+            "text": "네 말대로 당나라가 망한 후 들어선 송나라와 명나라는 문치주의와 유교 체제를 기반으로 성리학적 정치체제가 성립된 국가였지. 그래서 송나라와 명나라의 유학자들에게 좋지 않은 평가를 많이 받았어.",
+            "turn_id": "BK22006677-7",
+            "utterance_id": "BK22006677.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 유학자들은 평가가 박했구나. 아, 그러면 측천무후가 죽은 뒤 후사는 어떻게 됐어?",
+            "turn_id": "BK22006677-8",
+            "utterance_id": "BK22006677.15"
+        },
+        {
+            "reference_date": "2020-02-09",
+            "reference_text": [
+                {
+                    "value": "측천무후가 죽자 705년 중종(中宗)이 다시 제위(帝位)에 오르며 무씨(武氏)의 주왕조(周王朝)라고 말한 것이 소멸되고 이씨(李氏)의 당왕조로 돌아간다.",
+                    "value_time": "2022-08-28",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.skyedaily.com/news/news_view.html?ID=98980",
+            "search_query": "측천무후 중종 주왕조 당왕조",
+            "terminate": false,
+            "text": "측천무후가 705년에 사망하자 중종이 다시 황위에 오르게 돼. 이로 인해 무씨가 세운 주왕조는 사라지고 다시 이씨의 당왕조로 복귀하게 되지.",
+            "turn_id": "BK22006677-8",
+            "utterance_id": "BK22006677.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 여자황제라는 한계 때문에 1대 이상 지속되지는 못했구나. 좀 많이 아쉽네.",
+            "turn_id": "BK22006677-9",
+            "utterance_id": "BK22006677.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩔 수 없지 뭐. 그래도 요즘 여성들이 롤모델로 삼아도 괜찮은 인물이라고 봐.",
+            "turn_id": "BK22006677-9",
+            "utterance_id": "BK22006677.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 600년대에 여자의 몸으로 황제까지 올라간 건 정말 대단한 거 같아. 오늘 측천무후에 대해 시간 내서 알려줘서 정말 고마워.",
+            "turn_id": "BK22006677-10",
+            "utterance_id": "BK22006677.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "에이, 별거 아냐. 다음에도 모르는 게 있으면 부담 갖지 말고 자유롭게 질문해 줘!",
+            "turn_id": "BK22006677-10",
+            "utterance_id": "BK22006677.20"
+        }
+    ]
+}

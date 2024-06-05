@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009240",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009240",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 졸업하려면 영어 말하기 자격증을 따야 하는데, 뭘 따는 게 좋을까? 넌 알고 있는 영어 회화 자격증 있니?",
+            "turn_id": "BK22009240-1",
+            "utterance_id": "BK22009240.1"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "OPIc(Oral Proficiency Interview-Computer)는 공인인증 영어 말하기 시험이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "컴퓨터를 이용해 응시자 개개인의 질문에 대한 대답을 녹음한 후 미국의 평가 서버에 전송하여 공인평가자가 평가한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/OPIc",
+            "search_query": "opic",
+            "terminate": false,
+            "text": "공인 인증된 영어 회화 시험인 OPIc을 알고 있어. OPIc은 컴퓨터로 응시자들의 응답을 녹음하고 미국에 있는 평가 서버에 보내서 공인평가자가 평가하는 방식으로 실시 돼.",
+            "turn_id": "BK22009240-1",
+            "utterance_id": "BK22009240.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "OPIc이라니 들어본 것 같아. 토익 스피킹도 많이들 응시하는 것 같던데 둘이 뭐가 다른 거지?",
+            "turn_id": "BK22009240-2",
+            "utterance_id": "BK22009240.3"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "'토익 스피킹'과 '오픽', 두 시험 모두 본질적인 영어 실력을 측정한다는 점에서는 그 목적이 같다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 각 시험의 지향점에는 소소한 차이가 있기에, 자신의 공부 습관 및 목표에 따라 최선의 영어시험을 선택해야 할 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "오픽 토익스피킹 차이",
+            "terminate": false,
+            "text": "사실 두 시험 다 본질적으로 영어 실력을 평가하고자 한다는 점에서 목적이 같지. 그렇지만 지향점이 조금 다르다고 할 수 있어. 자신의 공부 습관이나 목표에 따라서 잘 맞는 시험을 선택하는 것이 가장 좋지.",
+            "turn_id": "BK22009240-2",
+            "utterance_id": "BK22009240.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 좀 더 알아보고 결정해야겠네. OPIc 시험은 어떤 방식으로 진행되는 거야?",
+            "turn_id": "BK22009240-3",
+            "utterance_id": "BK22009240.5"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "오픽은 '개인 맞춤형 평가'를 지향한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시험 시작 전 'Background Survey'(배경 조사)를 통해 수험자의 직업, 경험, 관심 분야를 파악한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "또한 자신의 말하기 수준을 시험에 직접 반영하는 'Self-Assessment'(자기 평가)도 거친다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "오픽 시험 방식",
+            "terminate": false,
+            "text": "OPIc은 기본적으로 개인 맞춤형 평가 방식을 채택하기 때문에, 시험 실시 전에 Background Survey라는 배경 조사로 수험자의 직업과 경험, 관심 있는 분야를 알아내. 이후에 Self-Assessment라는 자기 평가 과정을 거쳐 자신의 회화 수준을 시험에 직접 반영할 수 있게 해.",
+            "turn_id": "BK22009240-3",
+            "utterance_id": "BK22009240.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개인 맞춤형으로 진행된다니 답변하기가 좀 더 수월할 것 같아. 성적은 어떻게 나오는 거야?",
+            "turn_id": "BK22009240-4",
+            "utterance_id": "BK22009240.7"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "평가등급은 'Novice Low'(NL, 낮은 초급)부터 'Advanced Low'(AL, 낮은 고급)까지 7단계로 구분되어 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내 기업은 'Intermediate Mid'(IM, 중간의 중급)나 'Intermediate High'(IH, 높은 중급)를 요구하는 경우가 많다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "오픽 평가 등급",
+            "terminate": false,
+            "text": "가장 낮은 등급인 Novice Low부터 가장 높은 등급인 Advanced Low까지 7단계로 이루어져. 그런데 국내 기업에서는 중간 중급 단계인 Intermediate Mid나 높은 중급 단계인 Intermediate High 수준을 원하는 경우가 많아.",
+            "turn_id": "BK22009240-4",
+            "utterance_id": "BK22009240.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "가장 높은 단계인데 등급 이름이 Advanced Low야? 가장 높은 단계면 Advanced high가 있어야 할 것 같은데, Advanced Low 이상은 없는 거니?",
+            "turn_id": "BK22009240-5",
+            "utterance_id": "BK22009240.9"
+        },
+        {
+            "reference_date": "2022-08-25",
+            "reference_text": [
+                {
+                    "value": "만약 Advanced Medium 이상의 등급을 원한다면 컴퓨터 방식인 OPIc이 아니라 인터뷰 방식인 OPI에 응시해야 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/OPIc",
+            "search_query": "오픽 advanced medium",
+            "terminate": false,
+            "text": "그 이상도 있긴 한데, Advanced Medium 이상의 등급을 받고 싶은 경우 컴퓨터로 응시하는 OPIc 시험이 아니라, 인터뷰 방식으로 진행되는 OPIc 시험에 응시해야 해.",
+            "turn_id": "BK22009240-5",
+            "utterance_id": "BK22009240.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터로 응시해 받을 수 있는 등급에는 한계가 있다니 신기하네. 그리고 시험 시간과 시험 응시 비용도 궁금해.",
+            "turn_id": "BK22009240-6",
+            "utterance_id": "BK22009240.11"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "부가세 포함 응시료는 78,100원이며 시험 시간은 약 40분이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "총 40분의 시험 시간을 모두 쓸 필요는 없다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자신의 발화량에 맞추어 응답 시간을 스스로 조정할 수 있기 때문이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "오픽 응시료",
+            "terminate": false,
+            "text": "시험 응시 시간은 40분인데, 이 40분을 모두 사용할 필요는 없고 자신의 발화량에 맞게 알아서 응답 시간을 조율할 수 있어. 응시 비용의 경우 부가세를 포함해서 78,100원이야.",
+            "turn_id": "BK22009240-6",
+            "utterance_id": "BK22009240.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스스로 응답 시간을 조정할 수 있다니 그건 좋다. 그렇지만 응시료가 너무 비싼데, 할인받을 수 있는 방법은 없어?",
+            "turn_id": "BK22009240-7",
+            "utterance_id": "BK22009240.13"
+        },
+        {
+            "reference_date": "2020-05-20",
+            "reference_text": [
+                {
+                    "value": "이러한 오픽을 국내 대학 재학생 및 휴학생은 오픽드림 대학생 정기평가를 통해 누구나 15% 할인된 가격에 응시할 수 있는 혜택을 받을 수 있어 주목 받는다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오픽드림 대학생 정기평가는 전국 대학교 및 전문대 재(휴)학생에 한해 단 한번 외국어 말하기 평가 오픽을 약 15% 할인된 금액으로 응시할 수 있는 시험이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "오픽드림 대학생 정기평가의 응시자격은 전국 대학교 및 전문대 재(휴)학생으로, 응시하는 평가일 당일 또는 이전 졸업한 경우 응시가 불가능하다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.eduinnews.co.kr/news/articleView.html?idxno=29361",
+            "search_query": "opic 할인",
+            "terminate": false,
+            "text": "전국의 대학교나 전문대학교 재학생이라면, 딱 1번 OPIc을 약 15% 할인된 가격에 볼 수 있는 오픽드림 대학생 정기평가 제도를 이용할 수 있어. 평가일 당일이나 이전에 졸업한 학생의 경우에는 이용할 수 없으니 주의해야 하고.",
+            "turn_id": "BK22009240-7",
+            "utterance_id": "BK22009240.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대학생들에게 꽤 도움이 되겠어. 어떤 사람들이 OPIc을 치면 유리해?",
+            "turn_id": "BK22009240-8",
+            "utterance_id": "BK22009240.15"
+        },
+        {
+            "reference_date": "2022-04-07",
+            "reference_text": [
+                {
+                    "value": "또 암기가 아니라 자연스러운 회화를 권장한다는 점에서 호평 받고 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "문법이나 어휘 공부량보다는, 상황에 어울리는 언어를 효과적으로 구사하는지를 평가한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "때문에 어학 연수 경험이 있는 응시자의 경우 오픽을 추천받는 경우가 잦다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=408192",
+            "search_query": "오픽 유리한 사람",
+            "terminate": false,
+            "text": "OPIc은 암기나 문법, 어휘 공부량보다는 자연스러운 회화 능력을 평가하고, 상황에 맞게 적절한 언어를 구사할 수 있는지를 보는 시험이라서 어학연수 경험이 있는 사람이 보면 유리해.",
+            "turn_id": "BK22009240-8",
+            "utterance_id": "BK22009240.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네 설명을 들으니 대충 어떤 시험인지 감이 온다.",
+            "turn_id": "BK22009240-9",
+            "utterance_id": "BK22009240.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 됐다고 하니까 기쁘네.",
+            "turn_id": "BK22009240-9",
+            "utterance_id": "BK22009240.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 회화 시험들도 알아보고 무엇을 응시할지 결정해야겠어.",
+            "turn_id": "BK22009240-10",
+            "utterance_id": "BK22009240.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 고민해서 결정하길 바라.",
+            "turn_id": "BK22009240-10",
+            "utterance_id": "BK22009240.20"
+        }
+    ]
+}

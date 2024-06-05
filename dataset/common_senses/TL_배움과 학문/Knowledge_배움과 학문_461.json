@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001781",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001781",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0038"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 집에 있는 시간이 많아져서 무료하던 차에 언어 공부를 해볼까 하는데 추천해 줄 만한 게 있나요?",
+            "turn_id": "BK22001781-1",
+            "utterance_id": "BK22001781.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마침 제가 요즘 스페인어를 배우고 있는데 같이 배워볼래요?",
+            "turn_id": "BK22001781-1",
+            "utterance_id": "BK22001781.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 언제 한 번은 스페인으로 여행을 가고 싶었는데! 그럼 이참에 스페인어부터 배워볼까요?",
+            "turn_id": "BK22001781-2",
+            "utterance_id": "BK22001781.3"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "에스파냐어는 오늘날 전 세계에서 약 4억 5200만 명의 인구가 모국어로 사용하고 있으며, 이는 중국어 다음으로 많은 숫자이자 로망스어군에 속하는 언어 중 가장 많은 숫자이다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "스페인어 (스페인어: idioma español 이디오마 에스파뇰, 문화어: 에스빠냐어) 또는 에스파냐어, 카스티야어(스페인어: idioma castellano 이디오마 카스테야노)는 이베리아로망스어군에 속하는 로망스어의 하나이다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8%EC%96%B4",
+            "search_query": "스페인어 사용률",
+            "terminate": false,
+            "text": "스페인어는 에스파냐어라고도 하는데 전 세계에서 4억 5200만 인구가 모국어로 사용하고 있어요. 중국어 다음으로는 많은 숫자일 만큼 어마어마한 인구가 사용 중이니 배워두면 분명 유용할 거예요.",
+            "turn_id": "BK22001781-2",
+            "utterance_id": "BK22001781.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그렇게 많은 사람들이 사용하는 언어인 줄은 몰랐어요!",
+            "turn_id": "BK22001781-3",
+            "utterance_id": "BK22001781.5"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "스페인어는 현재 브라질 등을 제외한 라틴아메리카, 미국, 적도 기니, 필리핀, 서사하라 등의 지역에서 사용되고 있다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8E%98%EC%9D%B8%EC%96%B4",
+            "search_query": "스페인어 사용국가",
+            "terminate": false,
+            "text": "스페인어는 현재 브라질 등을 제외한 라틴아메리카와 미국, 적도 기니, 필리핀, 서사하라 등의 지역에서 사용되고 있어요. 생각보다 많은 나라가 스페인어를 사용하고 있죠.",
+            "turn_id": "BK22001781-3",
+            "utterance_id": "BK22001781.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "라틴아메리카에서도 스페인어를 사용하고 있다고요?",
+            "turn_id": "BK22001781-4",
+            "utterance_id": "BK22001781.7"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "크리스토퍼 콜럼버스의 항해 이후 유럽인들이 대륙에 도착하면서 원주민들의 지도층은 유럽의 침공으로 권력을 잃게 되었다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이를 통해 라틴아메리카 서부 전체는 스페인령이 되었고, 나머지 동부는 포르투갈령이 되었다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9D%BC%ED%8B%B4%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4",
+            "search_query": "라틴아메리카 언어 역사",
+            "terminate": false,
+            "text": "라틴아메리카는 옛날 크리스토퍼 콜럼버스가 항해를 한 이후 유럽인들에 의해 침략을 받았어요. 그래서 라틴아메리카 서부 전체는 스페인령이, 나머지 동부는 포르투갈령이 된 역사가 있어요.",
+            "turn_id": "BK22001781-4",
+            "utterance_id": "BK22001781.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그래서 바다 건너 대륙인데도 스페인어를 많이 사용하는군요.",
+            "turn_id": "BK22001781-5",
+            "utterance_id": "BK22001781.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 여행하기는 편하겠지만 왠지 씁쓸한 현실이기도 해요.",
+            "turn_id": "BK22001781-5",
+            "utterance_id": "BK22001781.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇긴 하네요. 그런데 스페인어는 금방 배울 수 있을까요?",
+            "turn_id": "BK22001781-6",
+            "utterance_id": "BK22001781.11"
+        },
+        {
+            "reference_date": "2017-12-27",
+            "reference_text": [
+                {
+                    "value": "스페인어는 배우기가 쉽기 때문에, 취미로 배우기 시작했던 사람들도 자격증에 관심을 가지고 도전하여 스페인어 자격증의 수요가 급증하고 있다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.e2news.com/news/articleView.html?idxno=105104",
+            "search_query": "스페인어 배우기",
+            "terminate": false,
+            "text": "그럼요! 스페인어는 배우기가 쉽기 때문에 취미로 시작했던 사람들도 자격증에 도전하는 사람들이 많아요.",
+            "turn_id": "BK22001781-6",
+            "utterance_id": "BK22001781.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그럼 저도 자신감을 가지고 시작해볼까 봐요.",
+            "turn_id": "BK22001781-7",
+            "utterance_id": "BK22001781.13"
+        },
+        {
+            "reference_date": "2020-11-09",
+            "reference_text": [
+                {
+                    "value": "이씨와 같이 온·오프라인에서 외국어 학습지를 푸는 이들이 늘고 있다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 학습지의 가장 큰 장점은 노는 듯 쉽게 공부를 할 수 있어 기분 전환이 된다는 점이다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20201109017002",
+            "search_query": "외국어 학습지",
+            "terminate": false,
+            "text": "그럼요, 처음에는 가볍게 시작해 보는 것도 좋아요. 요즘 온, 오프라인으로 외국어 학습지를 푸는 사람들이 늘어나고 있는데 노는 것처럼 공부할 수 있어서 기분전환도 되고 좋아요.",
+            "turn_id": "BK22001781-7",
+            "utterance_id": "BK22001781.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 학원에 가서 배우는 것만 생각했는데 학습지로도 배울 수 있다고요?",
+            "turn_id": "BK22001781-8",
+            "utterance_id": "BK22001781.15"
+        },
+        {
+            "reference_date": "2021-04-10",
+            "reference_text": [
+                {
+                    "value": "또 성인 회원들은 본인의 상황에 맞춰 학습량을 설정할 수 있고, 실력에 맞게 난이도를 조정할 수 있다는 점에서 학습지에 매력을 느낀다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://cm.asiae.co.kr/article/2021040914592344716",
+            "search_query": "성인용 학습지",
+            "terminate": false,
+            "text": "개개인의 상황에 맞춰 학습량을 설정할 수 있고 실력에 맞게 난이도도 조정할 수 있어서 학습지에 매력을 느낀 사람들이 많아요. 저도 그중 한 명이고요!",
+            "turn_id": "BK22001781-8",
+            "utterance_id": "BK22001781.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학습지는 어릴 때만 하는 건 줄 알았는데 성인용이 있다니 솔깃하네요!",
+            "turn_id": "BK22001781-9",
+            "utterance_id": "BK22001781.17"
+        },
+        {
+            "reference_date": "2018-10-12",
+            "reference_text": [
+                {
+                    "value": "이러한 트렌드에 맞춰 영어, 일본어, 중국어, 스페인어, 아랍어, 프랑스어 등 다양한 외국어 공부와 국내 혹은 해외 거주 중인 외국인 친구를 만들 수 있는 어플이 나왔다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://m.kmib.co.kr/view.asp?arcid=0012755207",
+            "search_query": "스페인어 공부 어플",
+            "terminate": false,
+            "text": "학습지랑 같이 어플을 활용해도 괜찮아요. 영어, 일본어, 중국어, 스페인어 등 외국어 공부도 할 수 있고 국내나 해외에 거주하는 외국인 친구도 만들 수 있는 어플이 있는데 언어를 배워서 외국인 친구와 대화를 나누면 빨리 늘 거예요.",
+            "turn_id": "BK22001781-9",
+            "utterance_id": "BK22001781.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 요즘은 정말 다양한 방법으로 언어를 배울 수 있네요! 저도 빨리 초급부터 배워서 실제로 대화를 나눠보고 싶어요.",
+            "turn_id": "BK22001781-10",
+            "utterance_id": "BK22001781.19"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "아리랑TV(사장 주동원)가 최근 유럽 및 중남미 21개국 약 5억 명의 스페인어권 시청자들을 대상으로 하는 스페인어 온라인채널을 유튜브에 론칭했다.",
+                    "value_time": "2022-07-04",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/entertainment/article/202205118497H",
+            "search_query": "스페인어 채널",
+            "terminate": false,
+            "text": "아, 그런데 실제로 대화를 나누는 건 이론이랑 또 다르니까 아리랑TV에서 이번에 스페인어권 시청자들을 위해 만든 스페인어 온라인 채널을 활용해 봐요. 유튜브 채널로 개설했는데 심심할 때 틀어 두면 스페인어가 한결 친근하게 느껴질 거예요!",
+            "turn_id": "BK22001781-10",
+            "utterance_id": "BK22001781.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "안 그래도 자기 전에 항상 유튜브를 보는데 그 채널도 함께 둘러봐야겠네요. 공부를 다시 어떻게 하나 싶었는데 재밌게 할 수 있겠어요!",
+            "turn_id": "BK22001781-11",
+            "utterance_id": "BK22001781.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋네요, 다음에 만나면 스페인어로 인사해 보기로 해요!",
+            "turn_id": "BK22001781-11",
+            "utterance_id": "BK22001781.22"
+        }
+    ]
+}

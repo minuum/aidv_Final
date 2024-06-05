@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004931",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004931",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 코로나 때문에도 그렇고, 개인위생이 점점 더 강조되는 거 같아. 비누로 손을 잘 씻으면 코로나를 비롯한 많은 병이 예방되겠지?",
+            "turn_id": "BK22004931-1",
+            "utterance_id": "BK22004931.1"
+        },
+        {
+            "reference_date": "2019-09-30",
+            "reference_text": [
+                {
+                    "value": "손을 씻는 데 사용되는 위생용품 가운데 비누의 세균 제거 효과가 가장 탁월하다는 조사 결과가 나왔다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경기도 보건환경연구원은 올해 3월부터 지난달 23일까지 시중에 유통 중인 손 위생용품의 종류별 세균 제거 효과를 조사한 결과 고체·액체 비누＞손 소독제＞접객업소용 물티슈 순으로 효과가 높은 것으로 조사됐다고 30일 밝혔다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20190930500060&wlog_tag3=naver",
+            "search_query": "비누의 위생 효과",
+            "terminate": false,
+            "text": "맞아. 손 씻을 때 사용하는 위생용품 중 비누가 세균 제거에 가장 효과적이야. 경기도 보건환경연구원이 2019년 3월부터 8월 23일까지 시중에서 판매 중인 손 위생용품 세균 제거 효과를 조사했었어. 그 결과 고체 혹은 액체비누, 손 소독제, 접객업소용 물티슈 순으로 효과가 좋았어.",
+            "turn_id": "BK22004931-1",
+            "utterance_id": "BK22004931.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 비누로 손을 꼭 씻어야겠어. 앞으로 더 신경 써야지. 그런데 위생에 도움이 되는 비누는 언제부터 사용하기 시작한 거야?",
+            "turn_id": "BK22004931-2",
+            "utterance_id": "BK22004931.3"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "비누를 만든 가장 오래된 기록은 기원전 2800년경 고대 바빌론까지 거슬러 올라간다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원전 2200년경의 바빌론 점토판에는 비누의 재료로 물과 재에서 유래한 알칼리, 그리고 육계나무의 향유가 기록되어 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 이집트의 에베르스 파피루스(영어판)(기원전 1550년)에는 알칼리염과 동식물성 기름을 섞어 비누를 만들어 정기적으로 목욕을 했다는 기록이 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%88%84",
+            "search_query": "비누",
+            "terminate": false,
+            "text": "비누를 제조한 가장 오래된 기록은 기원전 2,800년경 고대 바빌론에 있고, 기원전 2,200년경의 바빌론 점토판에 비누의 재료에 대한 기록이 발견되었지. 물, 재에서 유래한 알칼리, 육계나무의 향유가 당시 비누의 재료였어. 한편 기원전 1,550년 고대 이집트의 에베르스 파피루스에 알칼리염과 동식물성 기름을 섞어 비누를 제조하여 정기적으로 목욕했다는 기록도 있어.",
+            "turn_id": "BK22004931-2",
+            "utterance_id": "BK22004931.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사가 정말 오래되었구나. 그렇다면 한국에서는 언제부터 비누를 사용하기 시작한 거야?",
+            "turn_id": "BK22004931-3",
+            "utterance_id": "BK22004931.5"
+        },
+        {
+            "reference_date": "2020-03-24",
+            "reference_text": [
+                {
+                    "value": "지금 우리가 쓰는 비누는 개화기에 들어와 ‘양비누’라 불렸다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘비누’라는 단어는 뜻밖 한자어도 외래어도 아닌 순우리말이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조선시대 녹두나 팥, 콩을 갈아 피부미용에 쓰거나 빨래의 때를 빼는데 쓰는 것을 ‘비노’라 했는데 여기서 비롯됐다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "‘비노’의 음운이 변동돼 ‘비누’가 된 것이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyongbuk.co.kr/news/articleView.html?idxno=2034902",
+            "search_query": "조선시대 비누",
+            "terminate": false,
+            "text": "지금 우리가 쓰는 비누는 개화기에 들어왔고, 그때 들어온 것을 양비누라고 불렀어. 본래 비누는 순우리말이야. 조선시대에 녹두나 팥, 콩을 갈아 피부미용에 쓰거나 빨래의 때를 빼는 데 쓰는 것을 비노라고 불렀고, 비노의 음운이 변동돼 비누가 되었어.",
+            "turn_id": "BK22004931-3",
+            "utterance_id": "BK22004931.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개화기에 들어온 거라면 비누를 사용한 지 얼마 안 된 거구나. 그런데 비누가 깨끗한 세척을 도와주는 원리가 뭐야?",
+            "turn_id": "BK22004931-4",
+            "utterance_id": "BK22004931.7"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "비누의 분자는 계면활성제로 한 분자 내에 친수성 부분과 친유성 또는 소수성 부분을 모두 포함하는 구조로 되어있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때, 친수성 부분은 분자의 외곽, 즉 바깥쪽에 위치해 있고, 친유성 또는 소수성 부분은 분자의 중심에 위치하여 미셀을 형성하여 그 중심에 있는 친유성 오염물질을 녹여낼 수 있으므로 피부나 의복에 묻은 오염 물질을 효과적으로 제거할 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%88%84",
+            "search_query": "비누",
+            "terminate": false,
+            "text": "비누 분자는 계면활성제인데, 한 분자 내 친수성 부분과 친유성 혹은 소수성 부분을 모두 포함하는 구조야. 이때 친수성 부분은 분자의 외곽인 바깥쪽에 있으며 친유성 또는 소수성 부분은 분자의 중심에 위치하여 미셀을 형성하고, 그 중심에 있는 친유성 오염물질을 녹여낼 수 있어. 그래서 피부나 의복에 묻은 오염 물질을 효과적으로 제거할 수 있지.",
+            "turn_id": "BK22004931-4",
+            "utterance_id": "BK22004931.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "계면활성제는 들어봤었어. 그런데 계면활성제가 몸에 좋지 않다는 말을 언뜻 들었었는데, 꾸준히 사용해도 괜찮은 거야?",
+            "turn_id": "BK22004931-5",
+            "utterance_id": "BK22004931.9"
+        },
+        {
+            "reference_date": "2021-10-05",
+            "reference_text": [
+                {
+                    "value": "계면활성제는 피부에 오래 남아 있으면 주변 독소를 피부에 쉽게 흡수시키는 게 사실이지만, 물로 완전히 씻어내면 이러한 문제가 생기지 않는다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://health.chosun.com/site/data/html_dir/2021/10/05/2021100501538.html",
+            "search_query": "계면활성제 문제",
+            "terminate": false,
+            "text": "계면활성제와 피부가 오래 접촉하면 주변 독소를 피부에 흡수시킬 수도 있어. 그러나 물로 완전히 씻어내면 괜찮으니 깨끗하게 닦도록 해.",
+            "turn_id": "BK22004931-5",
+            "utterance_id": "BK22004931.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "깨끗하게 씻어내면 된다니 다행이다. 그래도 계면활성제 성분 중에서 조금 더 친환경적인 성분으로 대체는 불가능할까?",
+            "turn_id": "BK22004931-6",
+            "utterance_id": "BK22004931.11"
+        },
+        {
+            "reference_date": "2019-09-10",
+            "reference_text": [
+                {
+                    "value": "합성계면활성제에 대한 문제점이 꾸준하게 거론되는 가운데, 많은 이들이 이에 대안으로 천연유래성분으로 이루어진 비누나 클렌저, 샴푸 등에 많은 관심을 보이고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천연유래성분만을 담고 있는 제품은 합성계면활성제를 첨가한 제품보다 비싸다는 단점이 있지만, 피부자극이 훨씬 적고 피부에 이로움을 줄 수 있는 등 여러 장점을 갖고 있어 비용부담을 감수하더라도 천연유래성분을 사용한 제품을 찾는 이들이 크게 늘었다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisamagazine.co.kr/news/articleView.html?idxno=228026",
+            "search_query": "천연비누의 장점",
+            "terminate": false,
+            "text": "합성계면활성제에 대한 우려 섞인 말은 꾸준히 나오고 있지. 그래서 많은 사람들이 그 대안으로 천연 유래 성분의 비누, 클렌저, 샴푸 등에 관심을 갖고 있지. 천연 유래 성분 제품은 합성계면활성제를 사용한 제품보다 비싸. 그러나 자극이 적고 피부에 도움이 되는 등의 여러 장점이 있지. 그래서 비용을 조금 더 부담하더라도 천연 유래 성분을 사용한 제품을 구매하는 이들이 많이 증가했어.",
+            "turn_id": "BK22004931-6",
+            "utterance_id": "BK22004931.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "되도록 천연 재료로 만들어진 비누를 찾아야겠네. 그러고 보니 요즘은 단순히 손이나 샤워할 때 사용하는 비누 말고도 샴푸나 린스 등도 비누 형태로 많이 쓰는 거 같았어. 비누의 의미가 확장된 거 같은데, 소비 형태가 왜 바뀐 거야?",
+            "turn_id": "BK22004931-7",
+            "utterance_id": "BK22004931.13"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "가치소비를 중시하는 청년들이 늘면서 '제로 웨이스트'(Zero Waste) 제품에 대한 관심도 높아지고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적인 제품이 바로 고체 비누다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고체 비누는 액상 타입 제품에 비해 플라스틱 쓰레기와 화학성분이 적어 대표적인 친환경 제품으로 각광받아 왔다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비누 외에 치약, 샴푸 등 다양한 생활용품들 또한 고체형으로 출시되고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022070814284094937",
+            "search_query": "제로웨이스트 비누",
+            "terminate": false,
+            "text": "그것은 제로 웨이스트 제품에 대한 관심이 높아져서 그래. 최근 젊은 사람들은 가치소비를 중시하고 있는데, 이들이 소비하는 대표적인 상품이 바로 고체 비누야. 고체 비누는 액상 제품에 비해 화학성분과 플라스틱 쓰레기가 적은 친환경 제품이라 선호도가 높고, 이러한 관심에 힘입어 비누 외에 치약, 샴푸 등 여러 생활용품이 고체형으로 출시되고 있어.",
+            "turn_id": "BK22004931-7",
+            "utterance_id": "BK22004931.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 배우고 싶은 소비 습관이니 제로 웨이스트를 잘 실천해 봐야겠어. 그러려면 내가 집에서 비누를 만드는 것도 괜찮지 않을까? 비누 만들기 어려울까?",
+            "turn_id": "BK22004931-8",
+            "utterance_id": "BK22004931.15"
+        },
+        {
+            "reference_date": "2019-05-23",
+            "reference_text": [
+                {
+                    "value": "먼저 비누 베이스 100g을 중탕해서 녹인다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "녹인 비누 베이스에 노니주스 30mL를 넣는다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이때 넣는 노니주스는 100% 유기농 착즙 주스를 사용하는 것이 좋다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그다음 비누 틀에 넣고 하루 정도 굳히면 끝이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=203199",
+            "search_query": "집에서 비누 만들기",
+            "terminate": false,
+            "text": "재료만 갖추고 있다면 집에서 쉽게 만들 수 있어. 우선 비누 베이스 100g을 중탕해서 녹여. 그리고 여기에 노니주스 30mL를 넣어야 하는데, 이때 넣는 주스는 되도록 100퍼센트 유기농 착즙 주스로 해야 해. 주스를 넣은 후 틀에 넣고 하루 정도 굳히면 완성이야.",
+            "turn_id": "BK22004931-8",
+            "utterance_id": "BK22004931.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방법 자체는 쉬운 거 같아. 비누 베이스만 구하면 될 거 같으니 주말에 만들어 봐야겠어!",
+            "turn_id": "BK22004931-9",
+            "utterance_id": "BK22004931.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "집에서 만들어서 비누를 쓴다면 쓰레기도 적게 나오고, 피부에 도움도 될 거야. 비누에 대해서 더 궁금한 게 있니?",
+            "turn_id": "BK22004931-9",
+            "utterance_id": "BK22004931.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 알려준 정보만으로도 충분한 거 같아. 혹시 나중이라도 궁금한 게 생기면 다시 물어볼게!",
+            "turn_id": "BK22004931-10",
+            "utterance_id": "BK22004931.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 다행이야. 궁금한 거 있으면 언제든지 물어봐 줘!",
+            "turn_id": "BK22004931-10",
+            "utterance_id": "BK22004931.20"
+        }
+    ]
+}

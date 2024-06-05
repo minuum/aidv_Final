@@ -1,0 +1,365 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003661",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003661",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 친구와 함께 석촌호수 근처를 거닐었는데 거기에 삼전도비라는 비석 같은 것이 세워져 있더라고요. 혹시 이 삼전도비가 병자호란과 관련 있는 삼전도비가 맞나요?",
+            "turn_id": "BK22003661-1",
+            "utterance_id": "BK22003661.1"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "병자호란 때 청에 패배해 굴욕적인 강화협정을 맺고, 청태종의 요구에 따라 그의 공덕을 적은 비석이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8_%EC%82%BC%EC%A0%84%EB%8F%84%EB%B9%84",
+            "search_query": "삼전도비",
+            "terminate": false,
+            "text": "네, 말씀하신 것처럼 병자호란과 관련이 있는 비석이 맞아요. 청에 패배하고 굴욕적인 강화 협정을 맺으면서 청태종이 요구한 대로 그의 공덕을 적어 만든 비석이죠.",
+            "turn_id": "BK22003661-1",
+            "utterance_id": "BK22003661.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 생각했던 그 삼전도비가 맞네요. 이럴 줄 알았으면 친구와 잠시 발걸음을 멈추고 조금 더 보고 올 걸 그랬어요. 그런데 삼전도비에는 어떤 내용이 적혀있나요?",
+            "turn_id": "BK22003661-2",
+            "utterance_id": "BK22003661.3"
+        },
+        {
+            "reference_date": "2022-07-13",
+            "reference_text": [
+                {
+                    "value": "청이 조선에 출병한 까닭과 조선의 항복, 그리고 삼전도에서 맺은 강화협정과 청태종의 평화적 회군 내용이 담겼다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsmin.co.kr/news/75343/",
+            "search_query": "삼전도비 내용",
+            "terminate": false,
+            "text": "삼전도비에는 청이 조선에 출병한 이유와 조선의 항복 그리고 삼전도에서 맺은 강화협정과 청 태종의 평화적 화군 내용들이 쓰여있어요.",
+            "turn_id": "BK22003661-2",
+            "utterance_id": "BK22003661.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선의 입장에서는 정말 굴욕적일 수밖에 없겠어요. 그런데 삼전도는 섬 이름인가요?",
+            "turn_id": "BK22003661-3",
+            "utterance_id": "BK22003661.5"
+        },
+        {
+            "reference_date": "2019-01-08",
+            "reference_text": [
+                {
+                    "value": "삼전도(三田渡)는 섬이 아니라 한강의 나루터 이름이다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bizhankook.com/bk/article/16951",
+            "search_query": "삼전도 섬 나루터",
+            "terminate": false,
+            "text": "하하, 아쉽게도 섬 이름이 아니에요. 삼전도는 한강의 나루터 명칭이었죠.",
+            "turn_id": "BK22003661-3",
+            "utterance_id": "BK22003661.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 여의도나 제주도처럼 섬 도자를 쓰는 줄 알았는데 아닌 모양이네요.",
+            "turn_id": "BK22003661-4",
+            "utterance_id": "BK22003661.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 삼전도의 도는 섬 도자가 아니라 건널 도자를 쓴답니다.",
+            "turn_id": "BK22003661-4",
+            "utterance_id": "BK22003661.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇군요. 그런데 이렇게 굴욕적인 내용을 쓸 정도면 조선이 청에 뭔가 잘못한 게 있어서 일이 이렇게 된 거였나요?",
+            "turn_id": "BK22003661-5",
+            "utterance_id": "BK22003661.9"
+        },
+        {
+            "reference_date": "2021-04-21",
+            "reference_text": [
+                {
+                    "value": "이렇게 보면 병자호란은 서인정권의 외교 및 군사정책 실패가 물러온 참사였다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newsmin.co.kr/news/57163/",
+            "search_query": "병자호란 외교",
+            "terminate": false,
+            "text": "네, 서인정권의 외교와 군사정책 실패가 맞물려 만들어낸 일이죠.",
+            "turn_id": "BK22003661-5",
+            "utterance_id": "BK22003661.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 실책이 있었길래 병자호란까지 발생한 건가요?",
+            "turn_id": "BK22003661-6",
+            "utterance_id": "BK22003661.11"
+        },
+        {
+            "reference_date": "2019-07-18",
+            "reference_text": [
+                {
+                    "value": "병자호란 발생 10개월 전 후금은 조만간 청으로 이름을 바꾸고 황제국이 될 것이니 형제국인 조선도 이를 축하해 달라는 취지로 77명의 사신단을 조선에 보낸다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 이에 대한 조선의 반응은 황당했다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무장한 군인들로 사신들을 위협하고, 백성들은 사신들의 목을 베라며 돌을 던졌다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 2개월 뒤 청의 황제 즉위식에 참석한 조선의 외교관들은, 청황제를 인정할 수 없다며 고개를 숙이지 않았다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.m-i.kr/news/articleView.html?idxno=622537",
+            "search_query": "병자호란 원인",
+            "terminate": false,
+            "text": "병자호란이 일어나기 10개월 전 후금에서 이름을 청으로 바꾸고 황제국이 될 예정이라면서 형제국인 조선도 이를 축하해 달라는 의미로 77명의 사신단을 조선에 파견했어요. 그런데 조선은 이들을 환대하지 않고 무장한 군인들로 위협했을뿐더러 백성들은 사신들의 목을 베라면서 돌까지 던졌죠. 그리고 2개월 뒤 청의 황제 즉위식에 참석한 조선 외교관들은 청황제를 인정하지 않는다는 의미에서 고개를 숙이지 않았어요.",
+            "turn_id": "BK22003661-6",
+            "utterance_id": "BK22003661.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "현대인이 보기에도 너무 막무가내로 군 것 같은데, 참 어떻게 보면 우리나라 역사지만 선 넘었다는 생각이 들 수밖에 없네요. 그럼 그 결과로 병자호란이 발생한 건가요?",
+            "turn_id": "BK22003661-7",
+            "utterance_id": "BK22003661.13"
+        },
+        {
+            "reference_date": "2021-02-24",
+            "reference_text": [
+                {
+                    "value": "1636년 12월 28일 홍타이지가 이끄는 청나라군이 압록강을 넘으며 병자호란이 발발합니다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.asiatime.co.kr/article/20210224500084",
+            "search_query": "병자호란 발발",
+            "terminate": false,
+            "text": "네, 맞아요. 홍타이지가 1636년 12월 28일 청나라군을 이끌고 압록강을 넘어 침략을 시작했죠.",
+            "turn_id": "BK22003661-7",
+            "utterance_id": "BK22003661.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 홍타이지는 장수의 이름인가요?",
+            "turn_id": "BK22003661-8",
+            "utterance_id": "BK22003661.15"
+        },
+        {
+            "reference_date": "2021-07-17",
+            "reference_text": [
+                {
+                    "value": "더욱이 청나라 황제인 홍타이지가 친히 전장에 왔다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.fnnews.com/news/202107162339237034",
+            "search_query": "병자호란 홍타이지",
+            "terminate": false,
+            "text": "아니요, 홍타이지는 청나라 황제예요. 그러니까 황제가 직접 병사들을 이끌고 전쟁에 참여한 거죠.",
+            "turn_id": "BK22003661-8",
+            "utterance_id": "BK22003661.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "본인이 직접 전쟁에 참여할 정도였다면 정말 화가 많이 났나 봐요. 그러니까 삼전도비에 그런 내용들을 새기기까지 요구를 했나 싶고요.",
+            "turn_id": "BK22003661-9",
+            "utterance_id": "BK22003661.17"
+        },
+        {
+            "reference_date": "2022-04-18",
+            "reference_text": [
+                {
+                    "value": "인조는 삼전도에서 ‘삼궤구고두례(三跪九叩頭禮)’를 하며 치욕을 겪어야 했고, 죄 없는 수많은 백성은 죽거나 끌려갔다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016985781&code=61121111&cp=nv",
+            "search_query": "삼궤구고두례",
+            "terminate": false,
+            "text": "네, 맞아요. 그뿐만 아니라 결국 인조는 삼전도에서 삼궤구고두례라는 굴욕적인 예를 행하기도 했죠. 죄 없는 수많은 백성들은 사망하거나 포로로 잡혀가기도 했고요.",
+            "turn_id": "BK22003661-9",
+            "utterance_id": "BK22003661.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인조야 본인의 업보가 있다고 치지만 백성들이 정말 안쓰럽네요. 그런데 삼궤구고두례는 어떤 예법이길래 굴욕스럽다고 까지 표현을 하시는 건가요?",
+            "turn_id": "BK22003661-10",
+            "utterance_id": "BK22003661.19"
+        },
+        {
+            "reference_date": "2022-05-29",
+            "reference_text": [
+                {
+                    "value": "포로가 된 인조는 청나라 황제에게 굴욕적인 `삼궤구고두례(세 번 무릎 꿇고 9번 머리를 조아리는 예법)의 예를 행했다.",
+                    "value_time": "2022-07-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gnmaeil.com/news/articleView.html?idxno=496374",
+            "search_query": "병자호란 삼궤구고두례",
+            "terminate": false,
+            "text": "세 번 무릎을 꿇고 머리를 아홉 번 조아리는 예법이에요. 치욕스러운 것은 예법뿐만이 아니라 인조가 포로가 된 상태로 홍타이지에게 굴복하게 된 부분도 있죠.",
+            "turn_id": "BK22003661-10",
+            "utterance_id": "BK22003661.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어휴, 진짜 자존심의 대가 치고는 너무나도 큰 대가를 치렀네요. 어떻게 보면 답답하기도 하고요.",
+            "turn_id": "BK22003661-11",
+            "utterance_id": "BK22003661.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요, 망해가는 나라를 끝까지 붙잡는게 현대인들이 느끼기에는 답답한 일이죠.",
+            "turn_id": "BK22003661-11",
+            "utterance_id": "BK22003661.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 실리주의적으로 나라를 이끌었으면 좋았을 텐데 참 답답해요. 오늘 역사에 대해 많은 지식을 알려주셔서 감사합니다. 조만간 다시 석촌호수를 산책할 시간이 생기면 그때는 삼전도비를 꼼꼼하게 보도록 할게요.",
+            "turn_id": "BK22003661-12",
+            "utterance_id": "BK22003661.23"
+        }
+    ]
+}

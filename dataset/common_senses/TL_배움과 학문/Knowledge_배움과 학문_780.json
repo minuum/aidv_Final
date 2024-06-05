@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005092",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005092",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대중문학에도 여러 장르가 있잖아요. 저는 사건해결과 관련된 주제가 몰입되고 재밌더라고요. 이런걸 추리물이라고 하는 것 같던데, 추리물이 정확히 어떤거죠?",
+            "turn_id": "BK22005092-1",
+            "utterance_id": "BK22005092.1"
+        },
+        {
+            "reference_date": "2022-02-09",
+            "reference_text": [
+                {
+                    "value": "추리물(推理物)은 탐정이나 형사 등을 주인공으로 하여 범죄나 사건을 해결하는 것을 줄거리로 하는 문학 장르로, 미스터리물과 범죄물의 하위장르이다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EB%A6%AC%EB%AC%BC",
+            "search_query": "추리물",
+            "terminate": false,
+            "text": "추리물은 문학의 장르 중 하나인데 탐정이나 형사 등이 주인공이 되어서 사건이나 범죄를 해결하는 내용이죠. 이게 범죄물과 미스터리물의 하위 장르예요.",
+            "turn_id": "BK22005092-1",
+            "utterance_id": "BK22005092.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 좋아하는게 바로 이런거예요. 뭔가 깔끔하게 풀리는 느낌이 있거든요. 전문가님은 최근에 어떤 장르의 소설을 읽으셨어요?",
+            "turn_id": "BK22005092-2",
+            "utterance_id": "BK22005092.3"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 마지막으로 읽은 소설이 판타지 소설이었어요.",
+            "turn_id": "BK22005092-2",
+            "utterance_id": "BK22005092.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "판타지라고 듣기는 많이 들어봤는데 정확히 어떤 걸 말하는지는 모르겠어요. 판타지는 어떤 장르의 문학인가요?",
+            "turn_id": "BK22005092-3",
+            "utterance_id": "BK22005092.5"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "판타지 문학(fantasy literature)은 마법과 초자연적 현상을 주요한 플롯의 요소, 주제, 배경으로 삼아 가상의 공간(fictional universe)에서 이야기가 전개되는 픽션 장르이다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 장르의 많은 작품들에서 마법과 전설의 동물이 등장한다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%90%ED%83%80%EC%A7%80_%EB%AC%B8%ED%95%99",
+            "search_query": "판타지문학",
+            "terminate": false,
+            "text": "판타지 문학은 마법이나 초자연적인 요소가 들어가요. 플롯의 요소로 들어가기도 하고, 주제 자체가 되기도 하고, 배경이 되기도 하죠. 이런 요소를 가진 가상의 공간에서 스토리가 펼쳐지는 장르예요. 판타지 장르에서는 전설의 동물이나 마법이야기가 많이 나오고요.",
+            "turn_id": "BK22005092-3",
+            "utterance_id": "BK22005092.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 그런 주제 좋아해요. 상상하지도 못했던 것들이 많아서 신기하기도 하고 재밌기도 해요. 꾸며낸 이야기지만 과학적인 요소가 들어가는 장르도 있던데 그런건 뭐라고 부르죠?",
+            "turn_id": "BK22005092-4",
+            "utterance_id": "BK22005092.7"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "사이언스 픽션(Science Fiction), 약칭 SF는 과학적 사실이나 가설을 바탕으로 외삽한 세계를 배경으로 펼쳐지는 이야기를 담은 문학 장르인 과학소설(科學小說) 또는 SF 소설을 가리키며, 나아가서는 그런 요소를 가진 영화 등의 다른 매체들의 장르를 포괄하는 단어다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/SF_(%EC%9E%A5%EB%A5%B4)",
+            "search_query": "SF소설",
+            "terminate": false,
+            "text": "SF소설이라고 하죠. 과학소설이라고 하기도 하고요. 참고로 SF는 사이언스 픽션의 줄임말이예요. 과학적인 사실 또는 가설을 기본으로 해서 상상한 것을 배경으로 삼죠. SF는 소설 뿐만 아니라 SF의 요소가 포함된 영화나 다른 매체까지도 포함하는 말로 쓰이기도 해요.",
+            "turn_id": "BK22005092-4",
+            "utterance_id": "BK22005092.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞다, 이제 생각났네요. SF소설에 나오는 외계인 이야기나 우주 이야기도 재미있죠. 저는 그 중에서도 시간여행물 좋아하는데, 시간 여행물은 언제부터 나왔나요?",
+            "turn_id": "BK22005092-5",
+            "utterance_id": "BK22005092.9"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "시간여행물은 18세기나 19세기에 그 전신이 나타난다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "《백 투 더 퓨처》는 이 분야의 가장 유명한 프랜차이즈 중 하나이다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/SF_(%EC%9E%A5%EB%A5%B4)",
+            "search_query": "시간 여행",
+            "terminate": false,
+            "text": "자주 접해보셨을텐데 18, 19세기쯤에 나타났어요. 백 투 더 퓨처 아시죠? 이게 그 중에서도 제일 유명한 작품 중 하나예요.",
+            "turn_id": "BK22005092-5",
+            "utterance_id": "BK22005092.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "백 투 더 퓨처는 못잊죠. 아주 옛날에 본 건데도 머릿속에 생생한걸요. 시간 여행물 말고는 하위 장르로 뭐가 있나요?",
+            "turn_id": "BK22005092-6",
+            "utterance_id": "BK22005092.11"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "사이버펑크(cyberpunk)는 1980년대 이후 등장한 과학 소설의 한 장르이며 인간 본성, 기술, 그리고 이 둘이 엮이게 되면서 가까운 미래에 일어날 새로운 아이디어를 표현하는 것을 말한다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EB%B2%84%ED%8E%91%ED%81%AC",
+            "search_query": "사이버펑크",
+            "terminate": false,
+            "text": "사이버펑크라는 장르도 있어요. 이건 1980년대 이후에 등장한 소설장르인데 여기서는 인간 본성이 기술을 만난 이야기를 다뤄요. 근접한 미래에 일어날 새로운 생각들을 담았죠.",
+            "turn_id": "BK22005092-6",
+            "utterance_id": "BK22005092.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간 본성과 기술이라고 하니 조금 심오해지는걸요. 역사의 어느 한 시점을 가지고 그때 이러지 않고 저랬더라면, 하는 식의 스토리들도 있잖아요. 그것도 SF 장르에 속하는걸까요?",
+            "turn_id": "BK22005092-7",
+            "utterance_id": "BK22005092.13"
+        },
+        {
+            "reference_date": "2022-03-03",
+            "reference_text": [
+                {
+                    "value": "대체 역사(代替歷史, 영어: alternate history, alternative history, alternative reality)는[1] 하나 또는 여러 역사적 사건들이 다르게 전개되는 이야기를 담은 문학 장르이다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%B2%B4_%EC%97%AD%EC%82%AC",
+            "search_query": "대체 역사",
+            "terminate": false,
+            "text": "그런걸 가리키는 용어가 바로 대체역사예요. 역사적 사건들이 다르게 전개되는 것을 주제로 이야기를 풀어나가는 장르니까요.",
+            "turn_id": "BK22005092-7",
+            "utterance_id": "BK22005092.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 가끔 그런 상상을 하거든요. 대체역사라는 장르였군요. 그럼 또 다른 하위장르에는 뭐가 있어요?",
+            "turn_id": "BK22005092-8",
+            "utterance_id": "BK22005092.15"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "초인물은 평범한 인간보다 더 뛰어난 능력을 가진 인간들의 등장을 주제로 다룬다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/SF_(%EC%9E%A5%EB%A5%B4)",
+            "search_query": "초인물",
+            "terminate": false,
+            "text": "초인물이라는 장르도 있어요. 이건 보통 사람들에 비해 뛰어난 능력을 소유한 인간이 주제예요.",
+            "turn_id": "BK22005092-8",
+            "utterance_id": "BK22005092.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런걸 초인물이라고 분류하는군요. 그리고, 군대가 나오는 소재도 많잖아요. 이것도 따로 분류가 있을 것 같은데 설명 좀 해주세요.",
+            "turn_id": "BK22005092-9",
+            "utterance_id": "BK22005092.17"
+        },
+        {
+            "reference_date": "2022-07-05",
+            "reference_text": [
+                {
+                    "value": "밀리터리 SF는 국가, 행성, 항성간의 군사 분쟁을 배경으로 삼은 하위장르이며, 가장 중요한 캐릭터는 대개 군인이다.",
+                    "value_time": "2022-08-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/SF_(%EC%9E%A5%EB%A5%B4)",
+            "search_query": "밀리터리 SF",
+            "terminate": false,
+            "text": "군사분쟁 등을 이야깃거리로 삼는 장르예요. 밀리터리 SF라고 칭하고요. 국가나 행성간의 이야기를 다루는데 이야기 속 가장 중심이 되는 것은 군인이에요.",
+            "turn_id": "BK22005092-9",
+            "utterance_id": "BK22005092.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "밀리터리 SF는 실제 있을 것만 같은 일들을 많이 다루는 것 같아요. 말 나온 김에 SF 소설 한 권 찾아서 읽어야겠어요. 주말에 같이 서점에 가실래요?",
+            "turn_id": "BK22005092-10",
+            "utterance_id": "BK22005092.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이에요. 주중에 시간 나실 때 연락 주셔서 같이 약속시간을 정해요. 그럼 연락 주시고, 조심히 들어가세요!",
+            "turn_id": "BK22005092-10",
+            "utterance_id": "BK22005092.20"
+        }
+    ]
+}

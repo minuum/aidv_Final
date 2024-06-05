@@ -1,0 +1,449 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002812",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002812",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 중국어를 배우고 있는데 중국에 대해서 궁금한 게 많아요. 중국을 뜻하는 나라가 두 개가 있다고 하더라고요.",
+            "turn_id": "BK22002812-1",
+            "utterance_id": "BK22002812.1"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "중국(중국어 간체자: 中国, 정체자: 中國, 병음: Zhōngguó 중궈, 영어: China 차이나)은 중화인민공화국과 중화민국을 일컫는 단어이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "본디 중국 대륙은 청나라 때까지 한 국가였으나, 1949년에 국공내전에서 승패가 갈리면서 두 국가로 된 이래 현재까지 중화인민공화국과 중화민국, 즉 두 개의 중국이 존재하고 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 유엔에서는 압도적인 인구와 영토를 점유하고 있는 중화인민공화국만을 합법적인 중국 정부로 인정한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EA%B5%AD",
+            "search_query": "중국",
+            "terminate": false,
+            "text": "맞아요, 중국은 중화인민공화국과 중화민국을 칭하는 단어에요. 청나라 때까지 하나의 국가였는데 1949년에 국공 내전으로 인해 두 국가로 나눠진 이후 지금까지 중화인민공화국과 중화민국이라는 두 개의 중국이 존재하고 있어요. 그러나 유엔에서는 압도적으로 많은 인구와 영토를 가지고 있는 중화인민공화국을 합법적인 중국 정부로 인정하고 있어요.",
+            "turn_id": "BK22002812-1",
+            "utterance_id": "BK22002812.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 인터넷 뉴스로 관련 기사를 본 기억이 있네요. 중국의 역사가 궁금한데 춘추전국 시대에 대해서 설명해 주세요.",
+            "turn_id": "BK22002812-2",
+            "utterance_id": "BK22002812.3"
+        },
+        {
+            "reference_date": "2022-04-08",
+            "reference_text": [
+                {
+                    "value": "춘추전국 시대(春秋戰國時代, 기원전 770년 ~ 기원전 221년)는 춘추 시대와 전국 시대를 아우르는 말이며, 기원전 770년 주(周)왕조의 천도 후부터 기원전 221년 시황제(始皇帝)가 통일한 시기까지며, 선진 시대(先秦時代)라고도 한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "550년간 지속했으며, 이 시대는 중국사상의 개화결실의 시기였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 시대의 사상가들을 제자(諸子)라 하며 그 학파들을 백가(百家)라 부른다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%98%EC%B6%94%EC%A0%84%EA%B5%AD_%EC%8B%9C%EB%8C%80",
+            "search_query": "춘추전국 시대",
+            "terminate": false,
+            "text": "주왕조의 천도 이후인 기원전 770년부터 시황제가 통일한 기원전 221년까지를 말하는 춘추전국 시대는 춘추 시대와 전국 시대를 아우르는 말이에요. 550년 동안 지속된 춘추전국 시대는 중국 사상의 개화 결실의 시기로 볼 수 있어요. 춘추전국시대의 사상가들을 제자라고 하고 그 학파들은 백가라고 해요.",
+            "turn_id": "BK22002812-2",
+            "utterance_id": "BK22002812.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제자백가 배운 기억이 나네요. 진나라에 대해서도 알려줄 수 있어요?",
+            "turn_id": "BK22002812-3",
+            "utterance_id": "BK22002812.5"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "진(秦, 기원전 900년경 ~ 기원전 206년)은 중국 최초의 통일 왕조로, 동아시아 최초의 국가원수를 황제로 지칭한 제국이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진나라의 지배기간 동안, 중국에서는 무역이 증가하였고 농업이 발전되었으며 치안이 강화되었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 토지 지주제를 폐지하여 중앙정부가 국민들을 직접 통치할 수 있었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EB%82%98%EB%9D%BC",
+            "search_query": "진나라",
+            "terminate": false,
+            "text": "동아시아 최초로 국가 원수를 황제로 칭한 제국이기도 한 진나라는 중국 최초의 통일 왕조에요. 이 시기에는 무역이 증가하고 농업이 발달했으며 치안 또한 강화되었어요. 그리고 중앙정부에서는 토지 지주제를 없애고 국민들을 직접적으로 통치했어요.",
+            "turn_id": "BK22002812-3",
+            "utterance_id": "BK22002812.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진나라의 황제가 진시황제 맞죠? 다음으로 한나라에 대해서도 알려줘요.",
+            "turn_id": "BK22002812-4",
+            "utterance_id": "BK22002812.7"
+        },
+        {
+            "reference_date": "2022-05-08",
+            "reference_text": [
+                {
+                    "value": "한(漢, 기원전 202년 ~ 220년)은 진 이후의 중국의 통일 왕조이며, 한나라는 이후 삼국으로 갈라졌다(220년 ~ 280년).",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한나라는 섭정이었던 왕망이 세운 신에 의해 잠시 맥이 끊겼었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 시기에 한나라는 전한(서한, 기원전 202년 ~ 8년)과 후한(동한, 25년 ~ 220년)으로 나뉜다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "약 400년 지속하였으며, 중국의 역사상 가장 강대했던 시기 중의 하나이고, 오늘날에 중국의 약 92%를 차지하는 민족인 한족 역시 이 왕조의 이름에서 유래했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%82%98%EB%9D%BC",
+            "search_query": "한나라",
+            "terminate": false,
+            "text": "진 이후의 통일 왕조인 한나라는 섭정이었던 왕망이 세운 신에 의해 잠시 맥이 끊기게 되고, 이 시기에 한나라는 전한과 후한으로 나뉘어요. 중국 역사상 가장 강대했던 시기 중 하나로 볼 수 있어요. 이후에 한나라는 삼국으로 갈라지게 되는데 한나라는 약 400년 동안 지속되었어요. 오늘날의 중국인의 약 92퍼센트를 차지하는 한족은 한나라의 왕조 이름에서 유래했어요.",
+            "turn_id": "BK22002812-4",
+            "utterance_id": "BK22002812.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "삼국으로 갈라지면서 우리가 아는 삼국지의 삼국 시대가 나오는군요. 그럼 삼국 시대에 대해서도 알려주세요.",
+            "turn_id": "BK22002812-5",
+            "utterance_id": "BK22002812.9"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "삼국 시대(三國時代)는 후한이 멸망한 3세기 초부터 서로 다투던 위, 촉, 오를 서진이 통일한 3세기 후반까지를 가리키는 말이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비록 상대적으로 짧은 기간이었지만 동아시아 문화에 큰 영향력을 끼친 시대이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "삼국 시대는 중국 역사 상 가장 폭력적이고 혼란스러운 시기 중 하나였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "후한 말 인구조사에 집계된 중국의 전체 인구는 약 5천만 정도였으나 중국을 재통일한 서진이 전국 규모로 다시 실시한 인구조사로 파악된 인구는 약 천 6백만 정도에 불과하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B5%AD_%EC%8B%9C%EB%8C%80_(%EC%A4%91%EA%B5%AD)",
+            "search_query": "삼국 시대 (중국)",
+            "terminate": false,
+            "text": "후한이 멸망한 3세기 초부터 위, 촉, 오를 서진이 통일한 3세기 후반까지를 삼국 시대라고 불러요. 다른 시대에 비교하면 짧은 기간이지만 동아시아 문화에 막대한 영향력을 끼친 시대로 볼 수 있어요. 또 중국 역사상 가장 폭력적이기도 하고 혼란의 시기 중 하나가 삼국 시대에요. 후한 말에 중국 인구는 약 오천만 정도였으나, 서진이 통일 후 조사한 중국 인구는 약 천육백만 정도에 불과했어요.",
+            "turn_id": "BK22002812-5",
+            "utterance_id": "BK22002812.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역사란 알면 알수록 더 심오하네요. 세 나라를 통일한 서진에 대해서도 궁금해요.",
+            "turn_id": "BK22002812-6",
+            "utterance_id": "BK22002812.11"
+        },
+        {
+            "reference_date": "2022-03-11",
+            "reference_text": [
+                {
+                    "value": "촉한 제갈량의 북벌을 막아낸 위나라의 중신 사마의의 손자인 사마염이 건국했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "건국 초기 무제 사마염은 안정적인 정치로 새로운 나라의 기반을 다져나갔으나, 동북방의 이민족들이 서진을 공략하기 시작하여 많은 한족들이 노예로 끌려가고 혜제 때에 팔왕의 난으로 국운이 기우고 만다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것이 영가의 난을 초래하게 되었고 흉노의 유연이 세운 한나라가 서진을 공격해 정복하고 서진 사마씨들을 사로 잡아 서진은 건국 52년 만에 멸망했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9C%EC%A7%84",
+            "search_query": "서진",
+            "terminate": false,
+            "text": "위나라의 중신인 사마의의 손자 사마염이 건국한 나라가 서진이에요. 사마염은 건국 초기 안정적인 정치를 통해 나라의 기반을 다지고 있었는데 동북방의 이민족들이 많은 한족을 노예로 끌고 가는 등 서진을 공략하기 시작했고, 혜제 때 팔왕의 난으로 국운이 기울어 버려요. 이 사건이 영가의 난을 일으키게 되었고, 흉노의 유연이 세운 한나라에게 공격당하게 돼요. 한나라는 서진을 정복하였고 건국 52년 만에 서진은 멸망했어요.",
+            "turn_id": "BK22002812-6",
+            "utterance_id": "BK22002812.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "서진이 결국 흉노에게 당한 거군요. 다음은 오호 십육국에 대해서도 알려줘요.",
+            "turn_id": "BK22002812-7",
+            "utterance_id": "BK22002812.13"
+        },
+        {
+            "reference_date": "2022-05-08",
+            "reference_text": [
+                {
+                    "value": "팔왕의 난과 영가의 난이 일어나고 한족의 지배 하에 있던 각지의 이민족들이 반란을 일으키면서 화북 지방에는 여러 국가가 난립하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "5호(五胡)는 이 당시 화북을 지배했던 흉노(匈奴), 선비(鮮卑), 저(氐), 갈(羯), 강(羌)의 다섯 이민족들을 가리키는 말이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "16국이란 말은 북위 말엽의 사관이 쓴 《십육국춘추(十六國春秋)》에서 유래하였으며, 실제로 이 시기에 세워진 나라의 숫자는 16개가 넘는다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%98%B8_%EC%8B%AD%EC%9C%A1%EA%B5%AD_%EC%8B%9C%EB%8C%80",
+            "search_query": "오호 십육국 시대",
+            "terminate": false,
+            "text": "앞에서 말한 팔왕의 난과 영가의 난이 일어난 후 한족의 지배하에 있던 이민족들이 반란을 일으키며 화북 지방에 여러 국가가 생겨났어요. 5호는 당시 화북을 지배했던 흉노와 선비, 저, 갈, 강의 다섯 이민족을 말하고, 16국은 북위 말엽의 사관이 쓴 십육국 춘추에서 유래하였으나 실제로 이 시기에 세워진 나라는 16개가 넘어요.",
+            "turn_id": "BK22002812-7",
+            "utterance_id": "BK22002812.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "16개가 넘는 국가가 생겨났으니 아주 혼란스러웠겠네요. 서진 이후에 동진이 생겨났다고 하던데 동진에 대해서도 궁금하네요.",
+            "turn_id": "BK22002812-8",
+            "utterance_id": "BK22002812.15"
+        },
+        {
+            "reference_date": "2022-03-30",
+            "reference_text": [
+                {
+                    "value": "306년 서진 말기에, 영가의 난(永嘉之亂)에 의해 낙양(洛陽)이 함락되었고 흉노족 군사들이 회제(懷帝)가 포로로 삼고 사마씨들을 전부 잡아 학살하였고 사마씨 여성들을 전부 노비로 만들어 흉노족들에게 배분하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "진의 낭야왕(琅邪王)인 사마예는 학살에 겨우 살아남아 건업(建業)으로 피하여 낭야의 호족 왕도(王導)의 힘을 빌려 이 땅에 동진을 건국했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A7%84",
+            "search_query": "동진",
+            "terminate": false,
+            "text": "306년 서진 말기 영가의 난이 발생했을 때 흉노족들이 회제를 포로로 삼고 사마씨들은 전부 학살하였어요. 또 사마씨 여성들은 노비가 되어 흉노족들에게 귀속되었어요. 그 와중에 진의 낭야왕인 사마예가 학살에서 살아남아 건업으로 피했고 효족 왕도의 힘을 빌려서 동진을 건국했어요.",
+            "turn_id": "BK22002812-8",
+            "utterance_id": "BK22002812.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "극적으로 살아남아 또다시 나라를 건국한 거군요. 남북조 시대에 대해서도 알려줘요.",
+            "turn_id": "BK22002812-9",
+            "utterance_id": "BK22002812.17"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "남북조 시대(南北朝時代: 386~589)는 동북방에서 중국으로 정복활동을 벌이며 침입한 이민족들이 세운 북조와 한족이 세운 남조와 대립하다가 선비족의 우문태가 건국한 왕조 북주가 수나라로 계승되었고 마지막 남은 한족 국가 중국(진나라)을 정복하고 통일시킨 시대까지를 말한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이민족들이 건국한 북조는 한족들이 건국한 남조에 군사적 위협을 가했고 남조는 거짓 평화를 얻기 위해 북조와 여러 협정을 맺고 이민족 북조에 조공하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "적국인 북조의 명을 한족 남조(南朝)는 그대로 따르며 남조의 충신들을 죽여 한족 남조(南朝)국력이 약해졌고 결국 차례로 흥망하다가 마지막 남조 진나라에 이르러 완전히 멸망한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%A8%EB%B6%81%EC%A1%B0_%EC%8B%9C%EB%8C%80",
+            "search_query": "남북조 시대",
+            "terminate": false,
+            "text": "이민족들이 세운 북조와 한족이 세운 남조가 대립하다가 선비족의 우문태가 건국한 왕조인 북주가 수나라로 계승되어 마지막 남은 한족 국가인 진나라를 정복하고 통일시킨 시대까지를 남북조시대라고 해요. 이민족들이 건국한 북조는 한족들이 건국한 남조에게 군사적 위협을 가했고 이에 남조는 거짓 평화를 얻기 위해서 여러 협정을 맺고 북조에 조공을 하게 돼요. 남조는 북조의 명을 따르며 남조의 충신들을 죽였는데 이로 인해서 남조의 국력이 약해졌고 결국 차례로 흥망 하다가 마지막 남은 남조인 진나라까지 멸망하게 돼요.",
+            "turn_id": "BK22002812-9",
+            "utterance_id": "BK22002812.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "북조가 남조에 비해 매우 강했나 보네요. 북주가 계승된 수나라에 대해서도 궁금해요.",
+            "turn_id": "BK22002812-10",
+            "utterance_id": "BK22002812.19"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "수(隋, 581년 3월 4일 ~ 619년 5월 23일)는 남북조 시대의 혼란을 끝내고, 중국을 통일한 왕조이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "604년 문제가 병으로 사망하고서 뒤이어 황제에 오른 차남 양광이 바로 양제다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반란이 확대되면서 패권을 잡으려는 군웅들이 서서히 나타나기 시작했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "잇단 보고에도 불구하고 양제는 술에 취해 듣지 않다가 618년에 불만을 품은 근위군들에게 살해당했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양제의 죽음을 들은 선비족 이연은 양유로부터 선양을 받아 당나라를 건국한다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%88%98%EB%82%98%EB%9D%BC",
+            "search_query": "수나라",
+            "terminate": false,
+            "text": "수나라는 남북조 시대의 혼란을 끝낸 후 중국을 통일한 나라에요. 604년에 문제가 병으로 사망한 뒤 차남인 양광이 황제에 올랐는데 점차 반란이 확대되면서 패권을 잡으려는 군웅들이 나타났어요. 양제는 술에 취해서 보고를 듣지 않다가 618년에 결국 근위군들에게 살해당해요. 선비족인 이연은 양제의 죽음을 들은 후 양유에게 선양을 받아서 당나라를 건국해요.",
+            "turn_id": "BK22002812-10",
+            "utterance_id": "BK22002812.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "양제가 좋은 왕은 아닌 것 같네요. 중국 역사 재밌게 잘 알려줘서 고마워요.",
+            "turn_id": "BK22002812-11",
+            "utterance_id": "BK22002812.21"
+        }
+    ]
+}

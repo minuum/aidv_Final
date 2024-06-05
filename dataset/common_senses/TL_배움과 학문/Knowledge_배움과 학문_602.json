@@ -1,0 +1,353 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22003421",
+        "name": "2022 한국어 블렌더봇 데이터 BK22003421",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음 주에 APEC에서 여는 세미나에 갈 예정인데, 정작 APEC이 어떤 건지 잘 모르겠어.",
+            "turn_id": "BK22003421-1",
+            "utterance_id": "BK22003421.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마침 내가 요즘에 APEC에 관련된 책을 몇 권 읽었어.",
+            "turn_id": "BK22003421-1",
+            "utterance_id": "BK22003421.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 APEC이 어떤 건지 좀 알려줘!",
+            "turn_id": "BK22003421-2",
+            "utterance_id": "BK22003421.3"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "아시아 태평양 경제협력체(영어: Asia-Pacific Economic Cooperation, APEC)는 환태평양 국가들의 경제적·정치적 결합을 돈독하게 하고자 만든 국제 기구이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1989년 11월 5일부터 11월 7일까지 오스트레일리아의 캔버라에서 12개국이 모여 결성하였으며, 현재는 21개국이 참여하고 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8B%9C%EC%95%84_%ED%83%9C%ED%8F%89%EC%96%91_%EA%B2%BD%EC%A0%9C%ED%98%91%EB%A0%A5%EC%B2%B4",
+            "search_query": "APEC",
+            "terminate": false,
+            "text": "APEC은 태평양 주위에 있는 나라들이 경제적, 정치적 결속을 위해서 만든 국제기구야. 1989년 11월 5일부터 11월 7일까지 호주 캔버라에서 12개국이 모여서 만들었고, 지금은 21개국이 참여하고 있지.",
+            "turn_id": "BK22003421-2",
+            "utterance_id": "BK22003421.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "경제뿐만 아니라 정치도 연관된 국제기구구나. 그러면 규모는 어느 정도 돼?",
+            "turn_id": "BK22003421-3",
+            "utterance_id": "BK22003421.5"
+        },
+        {
+            "reference_date": "2021-07-12",
+            "reference_text": [
+                {
+                    "value": "APEC은 전 세계 인구의 약 40%, GDP의 약 59%, 교역량의 약 50%를 점유하는 세계 최대의 지역 협력체이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/economy/article/202107122990i",
+            "search_query": "APEC GDP",
+            "terminate": false,
+            "text": "APEC은 전 세계 인구의 약 40퍼센트, GDP의 약 59퍼센트, 무역량의 약 50퍼센트를 차지하는 세계에서 가장 큰 지역 협력체야.",
+            "turn_id": "BK22003421-3",
+            "utterance_id": "BK22003421.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 큰 규모를 가진 조직이네. 그러면 APEC의 또 다른 특징은 뭐가 있어?",
+            "turn_id": "BK22003421-4",
+            "utterance_id": "BK22003421.7"
+        },
+        {
+            "reference_date": "2012-09-06",
+            "reference_text": [
+                {
+                    "value": "APEC은 동남아시아 10개국 모임인 아세안(ASEAN)의 지역적 한계를 극복하고 유럽연합(EU) 등 유럽지역 경제블록 형성에 대응하기 위해 창설된 아시아태평양지역의 경제협력체다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20120906223200080",
+            "search_query": "APEC 유럽",
+            "terminate": false,
+            "text": "APEC은 동남아시아 10개 국가가 모여서 만든 아세안의 지역적인 한계를 넘어서고 유럽연합 같은 경제블록에 대처하려고 만든 아시아태평양 지역의 경제협력체라는 특징이 있어.",
+            "turn_id": "BK22003421-4",
+            "utterance_id": "BK22003421.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그러면 APEC에 가입한 국가들은 모여서 회의도 하나?",
+            "turn_id": "BK22003421-5",
+            "utterance_id": "BK22003421.9"
+        },
+        {
+            "reference_date": "2019-10-31",
+            "reference_text": [
+                {
+                    "value": "APEC은 매년 회의를 열어 무역과 경제, 기술 분야 등의 현안을 논의해왔다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "최상위 기구인 정상회의는 APEC의 비전과 경제 현안을 협의하고, 그 밑에 위치한 외교·통상 합동각료회의(AMM), 고위관리회의(SOM)에서는 정상회의 결과 실행방안을 협의한다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20191031004300071",
+            "search_query": "APEC 회의",
+            "terminate": false,
+            "text": "응, APEC은 매년 회의를 열어서 무역, 경제, 기술에 대해 논의해. 최상위 기구인 정상회의는 APEC의 비전과 경제 현안을 의논하고, 그 밑에 있는 외교, 통상 합동 각료회의, 고위관리회의에서는 정상회의의 결과를 어떻게 실행할지 의논하지.",
+            "turn_id": "BK22003421-5",
+            "utterance_id": "BK22003421.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 그 정상회의는 누가 개최해?",
+            "turn_id": "BK22003421-6",
+            "utterance_id": "BK22003421.11"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "APEC 정상회의는 미·중·일·러 정상이 한자리에 모이는 유일한 회의체로 21개 회원국이 돌아가면서 해마다 개최하고 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/06/535170/",
+            "search_query": "APEC 정상회의",
+            "terminate": false,
+            "text": "APEC 정상회의는 미국, 중국, 일본, 러시아 정상이 한자리에 모이는 유일한 회의인데, 21개 회원국이 돌아가면서 매년 열고 있어.",
+            "turn_id": "BK22003421-6",
+            "utterance_id": "BK22003421.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "매년 한 국가씩 번갈아 가면서 여는구나. 그러면 APEC 정상회의에 독특한 관례 같은 것도 있어?",
+            "turn_id": "BK22003421-7",
+            "utterance_id": "BK22003421.13"
+        },
+        {
+            "reference_date": "2014-11-11",
+            "reference_text": [
+                {
+                    "value": "매년 APEC 회의에서는 주최국이 자신들의 전통의상을 각국 정상 부부에게 선물해 입도록 하는 관례가 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20141111085246575",
+            "search_query": "APEC 정상회의",
+            "terminate": false,
+            "text": "응, 매년 APEC 정상회의를 연 나라가 자신들의 전통의상을 각 나라의 정상 부부에게 선물해서 입도록 하고 있지.",
+            "turn_id": "BK22003421-7",
+            "utterance_id": "BK22003421.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전통의상을 선물하다니 정말 신기하다. 그러면 올해는 어떤 국가가 주최해?",
+            "turn_id": "BK22003421-8",
+            "utterance_id": "BK22003421.15"
+        },
+        {
+            "reference_date": "2022-03-16",
+            "reference_text": [
+                {
+                    "value": "아시아태평양경제협력체(APEC) 올해 의장국인 태국에서 러시아의 우크라이나 침공 및 국제사회 제재 사태로 올해 11월 APEC 정상회의가 영향을 받을지 모른다는 우려가 나오고 있다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220316059100076",
+            "search_query": "APEC 태국",
+            "terminate": false,
+            "text": "올해 APEC 의장국은 태국인데, 러시아가 우크라이나를 공격하여 국제사회의 제재를 받는 상황이어서 11월 APEC 정상회의가 열릴 수 있을지 우려가 되고 있지.",
+            "turn_id": "BK22003421-8",
+            "utterance_id": "BK22003421.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "러시아랑 우크라이나 사태 때문에 영향을 받을 수도 있구나. 한국은 그러면 언제 회의를 열어?",
+            "turn_id": "BK22003421-9",
+            "utterance_id": "BK22003421.17"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "2025년 11월 한국에서 열리는 '제32차 아시아태평양경제협력체(APEC) 정상회의' 개최지를 놓고 지방자치단체들이 본격적인 유치전에 돌입했다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내에서는 2005년 부산에서 처음 열린 이후 20년 만에 개최된다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "19일 각 지방자치단체에 따르면 현재 APEC 정상회의 유치에 뛰어든 곳은 부산, 인천, 경주, 제주 등 4곳이다.",
+                    "value_time": "2022-07-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/society/view/2022/06/535170/",
+            "search_query": "APEC 한국",
+            "terminate": false,
+            "text": "2005년에 부산에서 처음 열렸었고 20년 만인 2025년 11월에 개최하기로 되어 있어. 그래서 제32차 정상회의 개최지를 두고 지방자치단체들이 경쟁을 시작한 상황이지. 지금까지 유치전에 뛰어든 데는 부산, 인천, 경주, 제주 4곳이야.",
+            "turn_id": "BK22003421-9",
+            "utterance_id": "BK22003421.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 경주에 사니까 경주에서 열렸으면 좋겠다.",
+            "turn_id": "BK22003421-10",
+            "utterance_id": "BK22003421.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 경주에서 열리면 직접 가 볼 수도 있고 좋을 거 같아.",
+            "turn_id": "BK22003421-10",
+            "utterance_id": "BK22003421.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무튼 덕분에 APEC에 대해 자세히 알게 됐어.",
+            "turn_id": "BK22003421-11",
+            "utterance_id": "BK22003421.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 집에 조심히 가고 다음에 보자.",
+            "turn_id": "BK22003421-11",
+            "utterance_id": "BK22003421.22"
+        }
+    ]
+}

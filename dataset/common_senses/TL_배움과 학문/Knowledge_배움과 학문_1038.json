@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006811",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006811",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 옛날 영화를 뒤적여 보다가 브이 포 벤데타라는 작품을 봤는데 상당히 신선하더라고. 그래서 리뷰나 다른 사람 감상도 읽다 보니 영화에 아나키즘이 담겼다는 사실을 알게 되었다만, 이 아나키즘이라는 게 나한테는 상당히 생소한 관념이라서 말이야. 간단하게나마 설명을 좀 해 줄 수 있을까?",
+            "turn_id": "BK22006811-1",
+            "utterance_id": "BK22006811.1"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "아나키즘(영어: anarchism /ˈænərˌkɪzəm/, 프랑스어: anarchisme 아나르시슴)은 사회를 아나키의 상태로 만들려는 정치적 철학적 사상이며, 이러한 사상가는 아나키스트라고 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아나키의 상태란 사회적, 경제적, 정치적 ‘지배자가 없는 상태’를 의미한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "역사적으로는 고대의 공동체에서 비롯하여 갖가지 공동체나 고대의 철학, 사상에서도 연원을 찾아 볼 수 있으나, 근대에 이르러 자본주의와 권위주의의 폐해에 대한 반발로 공산주의, 사회주의와 함께 발흥하였으며, 펑크 문화 등과도 깊은 관련이 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98",
+            "search_query": "아나키즘",
+            "terminate": false,
+            "text": "사회를 아나키 상태, 즉, 사회적, 정치적, 경제적인 지배자가 없는 상태로 만들려는 정치, 철학적 사상이 바로 아나키즘이고, 이러한 사상을 품은 사상가를 아나키스트라고 해. 역사적으로 보면, 고대 공동체에서 시작되어 여러 공동체나 고대 사상, 철학에서도 그 근원을 찾을 수 있는데, 근대적 관점으로 보자면, 권위주의와 자본주의로 인한 폐해에 반발하여 사회주의, 공산주의와 함께 생겨난 사상이지. 펑크 같은 문화와도 깊은 관련성이 있어.",
+            "turn_id": "BK22006811-1",
+            "utterance_id": "BK22006811.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐, 그러면 아나키즘은 그럼 무정부주의인 건데, 무정부주의라고 하면 혼돈과 테러가 만발하는 상황이 떠오르거든. 내가 생각하는 게 맞아?",
+            "turn_id": "BK22006811-2",
+            "utterance_id": "BK22006811.3"
+        },
+        {
+            "reference_date": "2020-01-14",
+            "reference_text": [
+                {
+                    "value": "아나키즘은 자본주의나 사회주의와 같은 종류의 사회적 운동이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아나키즘이 근대 일본에서 ‘무정부주의’로 번역되면서 아나키즘이 폭동, 암살, 테러 등의 폭력적 운동들로 연상되지만, 아나키즘이란 그저 지배(권위)가 없는 상태를 추구하는 사회적 운동일 뿐이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아나키즘에 대한 부정적 인식은, 제국주의가 전세계를 휩쓸던 시기 권력을 추종하던 지식인들에 의해 확산되었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "폭압적인 제국주의에 맞서 싸우던 아나키스트들의 일부가 보여준 암살 및 테러가 과도하게 일반화되어, 아나키즘에 나쁜 이미지가 생겨났다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.eroun.net/news/articleView.html?idxno=9572",
+            "search_query": "자본주의 사회주의 아나키즘",
+            "terminate": false,
+            "text": "근대 일본에서 아나키즘이 무정부주의로 번역되면서 암살, 폭동, 테러 같은 폭력적인 운동과 연결되어 생각되지만, 아나키즘은 사회주의, 자본주의처럼 하나의 사회적 운동이야. 다만, 지배가 없는 상태를 추구하는 것이 다를 뿐이지. 전 세계를 제국주의가 휩쓸던 시절, 제국주의의 폭압에 맞서 아나키스트 중 일부가 행한 암살이나 테러 활동이 과도하게 일반화되어 나쁜 이미지가 생기고 부정적 인식이 확산된 거야.",
+            "turn_id": "BK22006811-2",
+            "utterance_id": "BK22006811.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 잘못 생각하고 있던 거구나. 이야기를 듣다 보니, 아나키즘으로 유명한 사람이 누가 있는지 궁금해지는걸. 혹은, 아나키스트의 시초라든가 아나키즘을 퍼뜨린 사람 말이야.",
+            "turn_id": "BK22006811-3",
+            "utterance_id": "BK22006811.5"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "미하일 알렉산드로비치 바쿠닌(러시아어: Михаил Александрович Бакунин, 1814년 5월 30일 ~ 1876년 6월 13일)은 러시아 출신의 아나키스트 혁명가이자 철학자이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "바쿠닌에 의하여 당시 유럽에서 산발적으로 나타나던 특정한 혁명적 좌파 세력이 자신을 아나키스트라는 하나의 이름으로 자각하게 됐고, 이로서 아나키즘은 본격적으로 하나의 정치세력으로서 등장하게 되었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 바쿠닌을 \"아나키즘의 아버지\"라 부르기도 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그의 주요 이론은 집산주의적 아나키즘이었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%95%98%EC%9D%BC_%EB%B0%94%EC%BF%A0%EB%8B%8C",
+            "search_query": "미하일 바쿠닌",
+            "terminate": false,
+            "text": "러시아 출신 철학자이자 아나키스트 혁명가인 미하일 알렉산드로비치 바쿠닌을 들 수 있겠네. 당시 유럽에서 산발적으로 발생하던 특정한 혁명적 좌파 세력은 바쿠닌에 의해 자기 자신들을 아나키스트라고 자각하게 됐고, 그 결과로 아나키즘이 하나의 정치 세력으로 본격적인 등장을 하게 됐지. 그래서 바쿠닌을 아나키즘의 아버지라고도 부르는데, 주요 이론은 집산주의적 아나키즘이었어.",
+            "turn_id": "BK22006811-3",
+            "utterance_id": "BK22006811.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그 정도면 아나키즘의 아버지라는 별명이 확실히 어울리는 사람이네. 그런데 집산주의적 아나키즘이라는 건 무슨 의미야?",
+            "turn_id": "BK22006811-4",
+            "utterance_id": "BK22006811.7"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "집산주의적 아나키즘(러시아어: Анархо-коллективизм, 영어: Collectivist anarchism)은 아나코-집산주의라고도 하며, 생산 수단의 사적 소유 폐지를 주장하는 혁명주의적 사상이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "집산주의적 아나키즘에서는 생산 수단의 사적 소유를 폐지하여, 생산의 모든 과정을 총체적으로 집단화해 관리하고 생산자 스스로 관리하는 수단을 계획할 수 있으며, 국가가 가진 모든 권위력을 없애는 것을 목표로 하여, 상호 부조가 통하는 자유지상적 연방 체제를 목표로 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%91%EC%82%B0%EC%A3%BC%EC%9D%98%EC%A0%81_%EC%95%84%EB%82%98%ED%82%A4%EC%A6%98",
+            "search_query": "집산주의적 아나키즘",
+            "terminate": false,
+            "text": "집산주의적 아나키즘은 생산 수단의 사적으로 소유하지 못하도록 주장하는 혁명주의적 사상인데, 아나코-집산주의라고도 불려. 생산에 필요한 모든 과정이 총체적으로 집단화되어 관리되고, 생산자가 스스로 생산을 관리할 수단을 계획할 수 있음과 동시에, 국가의 모든 권위력을 없애 상호 부조가 통하는 자유지상적인 연방 체제를 이루는 것이 사상의 목표야.",
+            "turn_id": "BK22006811-4",
+            "utterance_id": "BK22006811.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그럼 이런 아나키즘 관련 사상은 서양 쪽에서만 나타난 걸까? 동양에서도 혹시 비슷한 사상을 찾을 수 있으려나?",
+            "turn_id": "BK22006811-5",
+            "utterance_id": "BK22006811.9"
+        },
+        {
+            "reference_date": "2017-05-11",
+            "reference_text": [
+                {
+                    "value": "이러한 아나키즘은 보통 서양에서 유행한 것으로 알려져 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 동양에서도 아나키즘을 지향하는 철학이 있었다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일체의 인위를 거부하는 도가 사상은 사실 무정부주의에 가깝다고 할 수 있다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "도가 사상은 속세를 떠나 자연에 기대 사는 것이 인간 본연의 모습대로 살아가는 것이라고 이야기한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 도가는 국가의 개입이 없는 작은 나라에 적은 국민, ‘소국과민’ 국가를 이상적인 국가로 보고 있는 것이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=56462",
+            "search_query": "도가 아나키즘",
+            "terminate": false,
+            "text": "보통 아나키즘이 서양에서 유행한 것으로 알려져 있는데, 동양 철학 중에도 아나키즘을 지향하는 사상이 있었어. 인위 일체를 거부하는 도가 사상이 바로 아나키즘에 가깝다고 할 수 있지. 도가에서는 인간 본연의 모습이 속세를 떠나서 자연에 기대 살아가는 것이라고 말해. 그뿐만 아니라, 국가가 개입하지 않는 작은 나라에 적은 국민, 즉, 소국과민 국가를 이상적인 국가로 보거든.",
+            "turn_id": "BK22006811-5",
+            "utterance_id": "BK22006811.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저 옛날 동양 사상에서도 아나키즘을 찾을 수 있는 거구나. 그나저나 관련성이 있는지는 모르겠는데, 아나키즘에 관한 이야기를 듣다 보니 문득 톨스토이의 작품들이 떠올라. 우연일까?",
+            "turn_id": "BK22006811-6",
+            "utterance_id": "BK22006811.11"
+        },
+        {
+            "reference_date": "2016-05-21",
+            "reference_text": [
+                {
+                    "value": "이번에 번역·출간된 '신의 나라는 네 안에 있다'는 시민을 억압하는 국가, 권력과 결탁한 교회를 비판하며 본래 신의 계율대로 인생관과 생활을 바꿔야 한다는 톨스토이의 기독교적 아나키즘이 집약된 책이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "톨스토이는 미국 퀘이커교도의 비폭력·무저항 사상을 소개하며 책을 시작한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기독교가 폭력·전쟁을 인정할 수 없는데도 '불가능한 타협'을 계속해왔다고 말한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그의 교회 비판은 국가를 상징하는 전쟁·군대·병역의무에 대한 반대와 불복종으로 나아가며 무정부주의 노선을 명확히 한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2016/05/364889/",
+            "search_query": "톨스토이 아나키즘",
+            "terminate": false,
+            "text": "우연이 아니야. 예를 들어, 2016년에 번역, 출간된 책, 신의 나라는 네 안에 있다는 톨스토이의 기독교적 아나키즘이 집약된 책인데, 시민을 억누르는 권력, 국가와 결탁한 교회를 비판하고, 신의 원래 계율 그대로 생활과 인생관을 바꿔야 한다는 내용이 담겨 있지. 작품에서 톨스토이는 미국 퀘이커교도의 비폭력, 무저항 사상을 소개하면서 이야기를 시작하는데, 기독교가 전쟁과 폭력을 인정할 수 없으면서도 불가능한 타협을 이어 왔다면서, 교회에 대한 비판을 국가를 상징하는 전쟁과 군대, 병역 의무에 대한 불복종과 반대까지 진행해 무정부주의 사상을 확실하게 보이지.",
+            "turn_id": "BK22006811-6",
+            "utterance_id": "BK22006811.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계적인 대문호인 톨스토이와 아나키즘이 연결되어 있었다니, 정말 신기한걸. 우리나라에도 유명한 아나키스트가 있었을까?",
+            "turn_id": "BK22006811-7",
+            "utterance_id": "BK22006811.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "박열(朴烈, 박렬, 1902년 3월 12일 (1902년 음력 2월 3일) - 1974년 1월 17일)은 한국의 아나키스트, 사회운동가이다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본에서는 사회주의자, 아나키스트들과 교류했다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그동안 '아나키스트' 독립운동가로만 알려졌던 박열이 항일 비밀결사조직인 의열단 단원이라는 증거가 최근에 나왔다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%97%B4",
+            "search_query": "박열",
+            "terminate": false,
+            "text": "우리나라의 아나키스트이자 사회운동가였던 박열이라는 분을 예로 들 수 있겠네. 일본에서 사회주의자와 아나키스트들과 교류하는 한편, 독립운동도 펼치셨는데, 최근에는 독립운동가셨다는 사실 외에 항일 비밀결사조직 의열단 단원이었다는 증거도 나왔어.",
+            "turn_id": "BK22006811-7",
+            "utterance_id": "BK22006811.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 분이 계셨다는 건 처음 알았어. 그나저나 아마 어떤 사상이든 마찬가지겠지만, 아나키즘을 비판하는 시각도 존재할 것 같은데, 비판할 점으로는 어떤 것이 있을까?",
+            "turn_id": "BK22006811-8",
+            "utterance_id": "BK22006811.15"
+        },
+        {
+            "reference_date": "2013-07-21",
+            "reference_text": [
+                {
+                    "value": "<아나키즘, 마르크스주의적 비판>은 2010~ 2011년 튀니지, 이집트, 리비아, 스페인, 시리아 등에서 대규모 반정부 투쟁이 번지고 그중 몇 나라에선 정부가 전복되던 때에 집필됐다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 책은 마르크스주의 관점, 그중에서도 트로츠키주의 관점에서 아나키즘을 비판한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 그는 아나키즘이 ‘진정한 민주주의’를 어떻게 쟁취할 것인지에 대한 대답, 다시 말해 정치조직의 건설로 나아가지 못한다는 점을 지적한다.",
+                    "value_time": "2022-08-29",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/culture/book/596503.html",
+            "search_query": "아나키즘 비판",
+            "terminate": false,
+            "text": "2010~2011년 튀니지, 이집트, 스페인 등에서 대규모 반정부 투쟁이 벌어지고 몇몇 나라에서는 정부가 전복되던 시기에 아나키즘, 마르크스주의적 비판이라는 책이 나왔는데, 이 책은 마르크스주의적 관점, 특히 트로츠키주의적 관점에서 아나키즘을 비판해. 아나키즘이 진정한 민주주의를 어떻게 쟁취할지, 즉, 정치조직의 건설로 나아가지 못한다고 말이야.",
+            "turn_id": "BK22006811-8",
+            "utterance_id": "BK22006811.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비판하는 쪽도 일리가 있어 보이네. 세상의 여러 사상을 접하고 알아가는 것은 언제나 즐거운 것 같아.",
+            "turn_id": "BK22006811-9",
+            "utterance_id": "BK22006811.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 생각 못 했던 것을 새롭게 느끼거나, 못 보던 사실을 새로이 보게 되고 말이야.",
+            "turn_id": "BK22006811-9",
+            "utterance_id": "BK22006811.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 도서관에 가서 아나키즘에 관한 책을 이것저것 직접 읽어 봐야겠어. 모르는 내용이 있으면 다음에 만날 때 또 물어봐도 될까?",
+            "turn_id": "BK22006811-10",
+            "utterance_id": "BK22006811.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그야 물론이지. 도서관에서 좋은 책을 발견할 수 있으면 좋겠네. 그럼 다음에 만나서 아나키즘에 관해 또 이야기 나눠 보자.",
+            "turn_id": "BK22006811-10",
+            "utterance_id": "BK22006811.20"
+        }
+    ]
+}

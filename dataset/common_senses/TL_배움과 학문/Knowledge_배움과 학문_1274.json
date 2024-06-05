@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008526",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008526",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이번에 미국 NASA에서 아르테미스라는 이름의 로켓을 발사하려고 했다는데, 이 아르테미스의 이름이 신화 속 여신의 이름에서 따온 거라면서? 혹시 아르테미스가 어떤 여신인지 알 수 있을까?",
+            "turn_id": "BK22008526-1",
+            "utterance_id": "BK22008526.1"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "아르테미스(고대 그리스어: Ἄρτεμις)는 그리스 신화에 나오는 달과 사냥·야생동물·처녀성의 여신이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제우스와 레토 사이에서 태어난 딸로 아폴론과는 누나간이다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%85%8C%EB%AF%B8%EC%8A%A4",
+            "search_query": "아르테미스 여신",
+            "terminate": false,
+            "text": "아르테미스는 그리스 신화에 등장하는 여신인데, 달과 사냥, 야생동물, 그리고 처녀성을 상징해. 또, 아르테미스는 아폴론의 누나이기도 하고, 이 둘의 부모는 제우스와 레토야.",
+            "turn_id": "BK22008526-1",
+            "utterance_id": "BK22008526.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 전에 듣기로는 제우스에게 헤라라는 아내가 있었다고 들었는데, 헤라는 본인 스스로가 가정의 수호신이다 보니 제우스의 바람을 용납할 수가 없어서 제우스의 여자들을 굉장히 많이 괴롭혔다는 이야기를 들었던 것 같아. 혹시 레토도 헤라에게 괴롭힘을 당했을까?",
+            "turn_id": "BK22008526-2",
+            "utterance_id": "BK22008526.3"
+        },
+        {
+            "reference_date": "2022-02-23",
+            "reference_text": [
+                {
+                    "value": "레토가 제우스의 쌍둥이를 임신한 사실을 전해들은 제우스의 아내 헤라는 분노하여 레토가 그리스의 본토나 섬 어디에서도 몸을 풀지 못하도록 금지했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A0%88%ED%86%A0",
+            "search_query": "제우스 헤라 레토",
+            "terminate": false,
+            "text": "맞아, 제우스의 아내였던 헤라는 레토가 제우스의 쌍둥이 아이를 임신했다는 이야기를 듣고선 분노하여 조치를 취했어. 바로, 레토가 그리스 본토 및 그 어떠한 섬에서도 아이를 낳지 못하도록 명령한 거였지.",
+            "turn_id": "BK22008526-2",
+            "utterance_id": "BK22008526.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 조금 이상한데. 레토가 헤라의 명령 때문에 그리스 본토에서 아이를 낳을 수 없는 처지가 되었다면, 레토의 아이들인 아폴론과 아르테미스는 도대체 어디서 태어난 거야?",
+            "turn_id": "BK22008526-3",
+            "utterance_id": "BK22008526.5"
+        },
+        {
+            "reference_date": "2017-12-14",
+            "reference_text": [
+                {
+                    "value": "그동안 아무도 찾지 않아 황폐했던 델로스섬은 불쌍한 레토를 받아주었지요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "헤라의 분노를 산다 해도 델로스섬은 더는 잃을 것이 없었거든요.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kid.chosun.com/site/data/html_dir/2017/12/13/2017121301987.html",
+            "search_query": "아폴론 아르테미스 출생장소",
+            "terminate": false,
+            "text": "레토를 받아준 장소는 바로 델로스섬이었어. 델로스섬은 아무도 찾지 않아 황폐해진 장소였다 보니, 헤라의 분노 대상이 된다고 해서 딱히 잃을 게 없는 곳이기도 했거든.",
+            "turn_id": "BK22008526-3",
+            "utterance_id": "BK22008526.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그래서 두려울 게 없다는 이유로 아폴론과 아르테미스를 낳게 허락해 준 거구나. 그런데 헤라의 입장이 전혀 이해가 안 가는 건 아니지만, 아무리 그래도 임신한 몸이었던 레토에게 그렇게 모질게 대할 필요가 있었을까? 하다못해 레토가 아이를 낳고 나서 다시 괴롭힐 수도 있었을 텐데, 왜 헤라는 레토의 출산까지 기를 쓰고 막은 걸까?",
+            "turn_id": "BK22008526-4",
+            "utterance_id": "BK22008526.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "헤라는 레토가 임신한 쌍둥이들이 아버지인 제우스 다음가는 권력을 누리게 될 것이라는 예언을 받았다는 소식을 듣자 큰 뱀 피톤에게 레토를 끊임없이 쫓아다니면서 햇빛이 닿는 곳 어디에서도 그의 해산을 어떻게든 막으라는 명령을 내렸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%85%8C%EB%AF%B8%EC%8A%A4",
+            "search_query": "헤라 레토 출산 막은 이유",
+            "terminate": false,
+            "text": "그건 예언 때문이었어. 레토의 쌍둥이 아이들에게, 아버지 제우스 바로 다음가는 권력을 얻게 되리라는 예언이 내렸다는 것을 헤라가 알게 되고 만 거야. 이후 헤라는 거대한 뱀 피톤에게 레토를 계속해서 쫓아다니라는 명령을 내렸지. 햇빛이 닿는 곳은 그 어떤 곳이든 간에, 레토가 아이를 낳을 수 없게 만들어야 한다고 덧붙이면서 말이야.",
+            "turn_id": "BK22008526-4",
+            "utterance_id": "BK22008526.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 결국엔 일종의 권력 다툼이었구나. 그러면 아르테미스와 아폴론이 태어난 다음에, 그 피톤이라는 뱀은 어떻게 돼?",
+            "turn_id": "BK22008526-5",
+            "utterance_id": "BK22008526.9"
+        },
+        {
+            "reference_date": "2020-08-14",
+            "reference_text": [
+                {
+                    "value": "아폴론은 태어나자마자 피톤이 어머니를 괴롭히고 자기네 남매를 죽게 만들려고 했다는 사실을 알게 된다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "분기탱천한 아폴론은 활과 화살을 들고 피톤이 있던 델포이로 갔다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "피톤은 갓난아기의 모습을 한 아폴론을 보고서 방심한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러자 아폴론은 화살을 당겼고, 피톤은 이런 아폴론을 마지막 순간까지 “애기님께서 참 잘 노신다!”며 비웃다가 화살에 몸이 꿰어 사망했다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.boannews.com/media/view.asp?idx=90471&kind=56",
+            "search_query": "아르테미스 아폴론 뱀 피톤",
+            "terminate": false,
+            "text": "놀랍게도, 아폴론은 태어나자마자 피톤이 자신의 어머니를 괴롭혔다는 것, 그리고 심지어 자기네 남매를 살해하려 했다는 걸 알게 되고 분노해. 화가 잔뜩 났던 아폴론은 피톤이 있는 델포이로 활과 화살을 들고 찾아가는데, 피톤은 아폴론이 갓난아기의 모습이라는 이유만으로 아폴론이 화살을 당기는 그 순간까지 아폴론을 비웃으며 방심하는 모습을 보여. 그리고 결국, 그 방심의 대가로 피톤은 아폴론의 화살에 맞아 죽고 말아.",
+            "turn_id": "BK22008526-5",
+            "utterance_id": "BK22008526.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 나뿐만 아니라 내 누나와 엄마까지 죽이려고 하는 괴물이라면 나라도 가만히 있지 못하겠지만, 그래도 갓난아기 때부터 뱀을 활로 쏘아 죽일 생각을 하다니, 아폴론이라는 신은 정말 보통 성격이 아니었나 봐. 혹시 아폴론의 누나였던 아르테미스의 성격은 어땠어? 달의 여신이라면, 왠지 고요하고 차분할 거 같은 느낌인데.",
+            "turn_id": "BK22008526-6",
+            "utterance_id": "BK22008526.11"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "성격이 거칠고 복수심이 강해서 그녀의 진노에 의해 희생된 사람이 허다하다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "악타이온이라는 이름의 사냥꾼이 친구들과 숲 속에서 한창 사냥을 하고 있었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러던 중 우연히 근처의 동굴 속 연못에서 아르테미스가 목욕을 하고 있는 모습을 목격하게 되었고, 이에 분노한 아르테미스는 자신의 몸을 본 악타이온에게 물을 뿌려 사슴으로 만들어 버렸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%85%8C%EB%AF%B8%EC%8A%A4",
+            "search_query": "아르테미스 성격",
+            "terminate": false,
+            "text": "그게, 사실 아르테미스는 굉장히 거친 성격의 소유자였어. 심지어 복수심도 강해서, 아르테미스의 분노에 희생된 사람들도 여러 명 있었지. 예를 들자면 악타이온이라는 사냥꾼이 있었는데, 이 사람은 친구들과 숲속에서 사냥을 하다가, 우연히 근처에 있던 어떤 동굴에 들어가게 됐어. 그런데 하필이면 이 동굴의 연못에서는 아르테미스가 목욕을 하고 있었고, 악타이온은 이걸 그대로 목격하게 된 거야. 이 사실에 분노한 아르테미스는 악타이온에게 물을 뿌렸고, 악타이온은 그만 사슴이 되고 말았어.",
+            "turn_id": "BK22008526-6",
+            "utterance_id": "BK22008526.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 하필이면 또 아르테미스가 순결과 처녀성의 신이라면서. 아르테미스가 아닌 다른 여신들이었어도 이 상황을 곱게 넘기지는 않았을 거 같지만, 그중에서도 악타이온이 마주한 상대가 너무 안 좋았던 거 같기도 하네. 아무튼, 그러면 사슴이 된 악타이온은 결국엔 어떻게 됐어?",
+            "turn_id": "BK22008526-7",
+            "utterance_id": "BK22008526.13"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "그러자 악타이온이 데리고 온 사냥개들이 주인을 알아보지 못하고 사냥감인 줄 착각하고 달려들었다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "계속 사냥개들을 피해 달아나다 지친 악타이온은 결국 사냥개들에게 붙잡혀 찢겨 죽고 말았다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%85%8C%EB%AF%B8%EC%8A%A4",
+            "search_query": "사슴 악타이온 최후",
+            "terminate": false,
+            "text": "악타이온의 최후는 끔찍했어. 악타이온은 사냥개들을 데리고 왔는데, 이 사냥개들이 악타이온을 알아보지 못하고 사냥감이라고 생각했던 거야. 사냥개들은 악타이온에게 달려들었고, 자기 사냥개에게 쫓기던 악타이온은 결국 지쳐 쓰려져서, 사냥개들에게 붙잡힌 뒤 찢겨 죽고 말았지.",
+            "turn_id": "BK22008526-7",
+            "utterance_id": "BK22008526.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 나는 평생 사슴으로 사는 정도로 끝날 줄 알았는데, 생각보다 더 끔찍하네. 아르테미스가 악타이온의 이런 최후까지 예상했는지는 몰라도, 제법 잔인한 성미인 건 부정할 수 없을 거 같은데, 그래도 같은 여성들에게는 좀 자비로운 편이었을까?",
+            "turn_id": "BK22008526-8",
+            "utterance_id": "BK22008526.15"
+        },
+        {
+            "reference_date": "2015-03-15",
+            "reference_text": [
+                {
+                    "value": "신을 노엽게 한 사람은 테바이의 왕비인 니오베였다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간 니오베에게 모욕을 당한 레토는 이 일을 두 남매에게 전해주며 이들의 복수를 부추겼다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어머니와 자신들을 업신여긴 니오베에게 아폴론과 아르테미스는 철저한 응징을 한다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "니오베가 자랑으로 삼던 열네 명의 자식들을 모두 활로 쏘아 죽여 버렸다.",
+                    "value_time": "2022-09-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://dailian.co.kr/news/view/493968",
+            "search_query": "아르테미스 여성 자비",
+            "terminate": false,
+            "text": "그게, 같은 여성이어도 아르테미스는 가차 없었어. 한번은 테바이의 왕비이자 니오베라는 인간이 아르테미스와 아폴론의 어머니인 레토를 모욕한 적이 있었는데, 레토는 이 사실을 두 남매에게 알려주면서 복수를 종용하게 돼. 결국, 아르테미스와 아폴론은 자신들과 어머니를 모욕한 니오베를 철저하게 응징하게 되는데, 이 과정에서 니오베의 자랑이었던 14명의 자식을 죄다 활로 쏘아서 살해하는 일을 벌이기도 했어.",
+            "turn_id": "BK22008526-8",
+            "utterance_id": "BK22008526.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 이건 어떤 의미로는 악타이온의 경우보다 더 잔인한 거 같은데. 잘못은 니오베가 했는데, 정작 니오베가 아니라 니오베의 죄 없는 아이들을 죽인 거잖아. 물론 내가 모르는 아르테미스의 다른 멋진 면모도 있을 수 있겠지만, 이 이야기만 들었을 때는 아르테미스라는 신은 너무 잔인하고 무서운 존재인 거 같아.",
+            "turn_id": "BK22008526-9",
+            "utterance_id": "BK22008526.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 생각할 수도 있을 거 같아. 아무리 그래도, 당사자인 니오베가 아니라 그 아이들을 죽인 건 좀 심했지.",
+            "turn_id": "BK22008526-9",
+            "utterance_id": "BK22008526.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이야. 아무튼 이야기를 하다 보니 신화에 대해서 더 알고 싶다는 생각이 들지만, 일단 지금은 시간이 늦어서 이만 자러 들어가 봐야 할 거 같아.",
+            "turn_id": "BK22008526-10",
+            "utterance_id": "BK22008526.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 시간이 좀 늦기는 했네. 일단 자러 들어가고, 다음에 다시 또 이야기 나누자.",
+            "turn_id": "BK22008526-10",
+            "utterance_id": "BK22008526.20"
+        }
+    ]
+}

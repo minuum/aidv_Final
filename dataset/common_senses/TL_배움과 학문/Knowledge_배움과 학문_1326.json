@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008798",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008798",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 하늘에 떠 있는 구름은 유난히 더 예쁜 것 같아요. 그런데, 구름은 무엇으로 만들어진 건가요?",
+            "turn_id": "BK22008798-1",
+            "utterance_id": "BK22008798.1"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "지구상의 구름은 대부분 수증기로부터 생성된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "알갱이들의 반지름은 주로 약 0.02~0.05mm로 되어 있으며 수십억 개의 작은 물방울들이 모이면 구름으로서 관측할 수 있게 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%A6%84",
+            "search_query": "구름 수증기 생성",
+            "terminate": false,
+            "text": "지구상에서 관측할 수 있는 구름은 대부분 수증기로 생성된 것들이지. 수증기의 알갱이들은 0.02밀리미터에서 0.05밀리미터 정도 되는 반지름을 가지고 있는데, 수십억 개의 작은 수증기들이 합쳐지면서 바로 구름이 되는 거야.",
+            "turn_id": "BK22008798-1",
+            "utterance_id": "BK22008798.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 구름은 작은 물방울로 형성되어 있는 거군요. 그럼 구름은 어떻게 땅으로 떨어지지 않고 하늘에 계속 떠 있을 수 있는 거죠?",
+            "turn_id": "BK22008798-2",
+            "utterance_id": "BK22008798.3"
+        },
+        {
+            "reference_date": "2021-09-07",
+            "reference_text": [
+                {
+                    "value": "구름은 가만히 두면 아래로 내려온다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 밑에서 불어오는 바람이 구름을 계속 밀어올린다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 때문에 계속 하늘에 머물러 있게 되는 것이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=793",
+            "search_query": "구름 바람",
+            "terminate": false,
+            "text": "그건 바람 때문이야. 구름을 그대로 놔두면 땅을 향해 내려오게 되지만, 밑에서 지속해서 바람이 불며 구름을 밀어 올리기 때문에 구름이 하늘에 머물러 있을 수 있는 거거든.",
+            "turn_id": "BK22008798-2",
+            "utterance_id": "BK22008798.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 신기하네요. 그러면 구름이 색깔은 어떻게 결정되는 건가요? 하얀색 구름도 있고 회색 구름도 있잖아요.",
+            "turn_id": "BK22008798-3",
+            "utterance_id": "BK22008798.5"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "구름이 충분히 크고 내부의 물방울이 충분히 떨어져 있으면 어느 정도의 빛은 반사되지 않고 통과된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이러한 반사/흡수의 과정이 하양에서 회색, 검정으로 구름의 색깔이 변하게 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%A6%84",
+            "search_query": "구름 색깔 반사",
+            "terminate": false,
+            "text": "구름을 형성하고 있는 구름 속 물방울이 서로 충분한 간격을 두고 떨어져 있으면 어느 정도의 빛은 반사 과정 없이 그대로 통과하게 되는데, 이런 반사 및 흡수 과정이 진행되는 과정에서 구름의 색깔이 흰색, 회색, 검은색으로 변하게 되는 거야.",
+            "turn_id": "BK22008798-3",
+            "utterance_id": "BK22008798.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 구름의 색깔을 통해 구름 내부의 상태도 알 수 있는 거군요. 가끔 구름이 연두색을 띠는 경우도 있던데, 그럼 연두색 구름은 뭐죠?",
+            "turn_id": "BK22008798-4",
+            "utterance_id": "BK22008798.7"
+        },
+        {
+            "reference_date": "2022-09-19",
+            "reference_text": [
+                {
+                    "value": "연두색을 띠는 적란운은 곧 굵은 비, 우박이 내리고 강풍 또는 토네이도가 예상됨을 의미한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%A6%84",
+            "search_query": "연두색 적란운",
+            "terminate": false,
+            "text": "구름 중에서 적란운이 연두색을 띠는데, 적란운이 생겼다는 것은 곧 우박이나 굵은 비가 내리고 토네이도, 강풍이 불 것이라는 의미로 보면 돼.",
+            "turn_id": "BK22008798-4",
+            "utterance_id": "BK22008798.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "연두색 구름이 이런 의미를 가지고 있었네요. 그럼 하늘에 떠 있는 구름의 무게는 어느 정도인가요?",
+            "turn_id": "BK22008798-5",
+            "utterance_id": "BK22008798.9"
+        },
+        {
+            "reference_date": "2021-09-07",
+            "reference_text": [
+                {
+                    "value": "구름의 무게는 종류에 따라 각각 다르다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구름 속 물의 무게에 공기의 무게를 더한 것이 최종적인 구름의 무게가 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최종적으로 적운에서 물의 무게와 공기를 합치면 총 1,000,250t이 된다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=793",
+            "search_query": "구름의 무게",
+            "terminate": false,
+            "text": "어떤 구름인지 그 종류에 따라 구름의 무게도 달라지는데, 구름에 포함된 물의 무게와 공기의 무게를 합한 값이 구름의 무게가 되는 거야. 적운을 예로 들자면 물과 공기의 무게를 합친 값이 1,000,250톤 정도 돼.",
+            "turn_id": "BK22008798-5",
+            "utterance_id": "BK22008798.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "솜사탕처럼 보이는 구름이 실제로는 그 무게가 어마어마하네요. 그럼 구름 중에서 어떤 구름이 가장 무거운가요?",
+            "turn_id": "BK22008798-6",
+            "utterance_id": "BK22008798.11"
+        },
+        {
+            "reference_date": "2018-10-25",
+            "reference_text": [
+                {
+                    "value": "우리말 이름으로 ‘쌘비구름’이라 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "적란운은 구름 중에 가장 무거운데, 평균 무게가 초대형 여객기인 에어버스 A380과 비슷한 400t이다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/environment/environment-general/article/201810252123005",
+            "search_query": "가장 무거운 구름",
+            "terminate": false,
+            "text": "우리말로 쌘비구름이라고 불리는 적란운이 구름 중에서 무게가 가장 많이 나가. 적란운의 평균 무게는 초대형 비행기인 에어버스 A380 모델과 대등한 400톤 정도 되거든.",
+            "turn_id": "BK22008798-6",
+            "utterance_id": "BK22008798.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 비를 동반하고 있는 구름이라서 물의 무게로 인해 더 무거운 거군요. 적란운이 소나기를 내리는 구름인가요?",
+            "turn_id": "BK22008798-7",
+            "utterance_id": "BK22008798.13"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "적란운은 흔히 소나기를 동반하며, 종종 우박과 뇌우, 매우 드물게 용오름(토네이도)을 동반한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "짧은 시간 동안 강우량이 시간당 30mm ~ 100mm 정도의 매우 많은 비가 좁은 지역에 내리는 집중호우가 발생하기도 한다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%81%EB%9E%80%EC%9A%B4",
+            "search_query": "적란운 소나기",
+            "terminate": false,
+            "text": "응. 흔히 적란운은 소나기를 동반하는데, 때로는 뇌우와 우박을 동반하기도 해. 그리고 아주 드물게 용오름 즉 토네이도를 동반하기도 하지. 짧은 시간 동안 시간당 30밀리미터에서 100밀리미터 정도의 강우량을 기록하며 엄청난 양의 비가 좁은 지역에 내리는 집중호우를 유발하기도 하고.",
+            "turn_id": "BK22008798-7",
+            "utterance_id": "BK22008798.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그럼 한차례 소나기를 내리고 나면 적란운은 자연적으로 소멸하는 건가요?",
+            "turn_id": "BK22008798-8",
+            "utterance_id": "BK22008798.15"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "적란운은 이론적으로 소나기를 내리고 소멸하는 것이 일반적이지만, 여름철 고기압의 가장자리의 대기 불안정으로 발생할 경우 소나기가 내린 후에 일시적으로 맑은 날씨를 보이다 다시 소나기구름이 만들어져 소나기가 내리는 일이 두 번 이상 반복되는 일도 있다.",
+                    "value_time": "2022-09-19",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%81%EB%9E%80%EC%9A%B4",
+            "search_query": "적란운 소나기 소멸",
+            "terminate": false,
+            "text": "이론적으로 보면 적란운은 소나기를 내리고 나서 소멸하여 사라지는 게 일반적이야. 하지만, 여름철 고기압 가장자리의 대기가 불안정한 상태에서 적란운이 발생했을 때는 한차례 소나기가 내린 후 맑은 날씨가 일시적으로 나타났다가 다시 소나기구름이 형성되며 두 차례 이상 소나기가 내리는 일이 발생할 수도 있어.",
+            "turn_id": "BK22008798-8",
+            "utterance_id": "BK22008798.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "적란운이 만들어진 환경에 따라 달라지는 거네요. 구름이라는 게 정말 신기한 존재인 것 같아요.",
+            "turn_id": "BK22008798-9",
+            "utterance_id": "BK22008798.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 자연의 신비한 현상 중 하나이지.",
+            "turn_id": "BK22008798-9",
+            "utterance_id": "BK22008798.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 좋은 정보 알려주셔서 정말 감사해요!",
+            "turn_id": "BK22008798-10",
+            "utterance_id": "BK22008798.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아냐, 다음에도 궁금한 점이 생기면 언제든 또 물어봐!",
+            "turn_id": "BK22008798-10",
+            "utterance_id": "BK22008798.20"
+        }
+    ]
+}

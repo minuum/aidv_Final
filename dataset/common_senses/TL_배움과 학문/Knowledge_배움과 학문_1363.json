@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008951",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008951",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0022"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 다큐프로그램을 봤는데, 살쾡이를 삵으로 표현하더라고요. 살쾡이와 삵 모두 사용해도 되는 말인가요?",
+            "turn_id": "BK22008951-1",
+            "utterance_id": "BK22008951.1"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "삵 또는 살쾡이(영어: leopard cat, 학명:Prionailurus bengalensis)는 식육목 고양이과에 속하는 동물이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대한민국에서는 \"삵\"과 \"살쾡이\"를 모두 표준어로 인정하고 있으며 환경부 지정 멸종위기 2급인 동물이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+            "search_query": "삵",
+            "terminate": false,
+            "text": "그럼요, 삵과 살쾡이 둘 다 표준어예요. 식육목 고양잇과에 속하는 동물이죠.",
+            "turn_id": "BK22008951-1",
+            "utterance_id": "BK22008951.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런데 실제로 삵을 본 적은 없는 것 같네요. 우리나라에 많이 살지 않나요?",
+            "turn_id": "BK22008951-2",
+            "utterance_id": "BK22008951.3"
+        },
+        {
+            "reference_date": "2021-09-24",
+            "reference_text": [
+                {
+                    "value": "삵은 식육목 고양이과에 속하는 포유류로, 1998년 멸종위기 야생동·식물 및 보호야생동·식물로 처음 지정되었으며, 현재는 멸종위기 야생생물 Ⅱ급으로 지정·관리되고 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.notepet.co.kr/news/article/article_view/?idx=23557&groupCode=AB110AD110",
+            "search_query": "삵 멸종위기",
+            "terminate": false,
+            "text": "네, 삵은 1998년에 멸종 위기 야생동물, 식물 및 보호야생동식물로 처음 지정되었고 현재 멸종 위기 야생생물 2급으로 관리되고 있어요.",
+            "turn_id": "BK22008951-2",
+            "utterance_id": "BK22008951.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "멸종 위기 종이군요, 삵의 구체적인 생김새에 대해 알려주세요.",
+            "turn_id": "BK22008951-3",
+            "utterance_id": "BK22008951.5"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "털색은 회갈색이며, 회백색 뺨에는 세 줄의 갈색 줄무늬가 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸 길이는 45~55cm 정도이며, 꼬리는 25~32cm이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%B5",
+            "search_query": "삵 생김새",
+            "terminate": false,
+            "text": "네, 삵의 털색은 회갈색으로 회백색 뺨에 세 줄의 갈색 줄무늬가 있어요. 몸의 길이는 45센티미터에서 55센티미터이고, 꼬리는 25센티미터에서 32센티미터 정도예요.",
+            "turn_id": "BK22008951-3",
+            "utterance_id": "BK22008951.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 삵은 뭘 먹고 사는지도 궁금해요.",
+            "turn_id": "BK22008951-4",
+            "utterance_id": "BK22008951.7"
+        },
+        {
+            "reference_date": "2021-11-30",
+            "reference_text": [
+                {
+                    "value": "밤에 활동하며, 먹이는 주로 쥐 종류와 꿩, 산토끼, 청설모, 다람쥐, 닭, 오리, 곤충 등이며, 뱀과 같은 위험한 동물을 사냥할 때는 집어 던져 기절시킨다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=81518",
+            "search_query": "삵 사냥",
+            "terminate": false,
+            "text": "밤에 활동하는 삵은 주로 쥐 종류와 꿩, 산토끼, 청설모, 다람쥐, 닭, 오리, 곤충 등을 먹어요. 그리고 뱀처럼 위험한 동물은 집어던져서 기절시켜 사냥하죠.",
+            "turn_id": "BK22008951-4",
+            "utterance_id": "BK22008951.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "힘이 센가보네요, 다른 특징으로는 어떤 게 있나요?",
+            "turn_id": "BK22008951-5",
+            "utterance_id": "BK22008951.9"
+        },
+        {
+            "reference_date": "2014-11-29",
+            "reference_text": [
+                {
+                    "value": "또 턱의 근육이 발달해 먹이나 다른 물건을 물어뜯는 힘이 매우 쎈 것이 특징이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20141129.99002181344",
+            "search_query": "삵 특징",
+            "terminate": false,
+            "text": "삵의 턱에 근육이 많아서 먹이 등의 물건을 물어뜯는 힘이 굉장하다는 특징이 있어요.",
+            "turn_id": "BK22008951-5",
+            "utterance_id": "BK22008951.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맹수네요, 힘이 세면 생태계의 먹이사슬에서 몇 번째 정도 되나요?",
+            "turn_id": "BK22008951-6",
+            "utterance_id": "BK22008951.11"
+        },
+        {
+            "reference_date": "2019-07-19",
+            "reference_text": [
+                {
+                    "value": "고양잇과 동물 가운데 유일하게 국내 생태계에서 먹이사슬상 높은 위치를 차지하고 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대형 맹수가 사라진 한국의 산과 들에서 최상위 포식자 역할을 하고 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/environment/environment-general/article/201907190600005",
+            "search_query": "삵 먹이사슬",
+            "terminate": false,
+            "text": "국내 생태계는 삵이 고양잇과 동물 중 유일하게 먹이사슬의 가장 높은 위치예요. 아무래도 우리나라에 대형 맹수가 없기 때문에 최상위 포식자 역할을 하고 있죠.",
+            "turn_id": "BK22008951-6",
+            "utterance_id": "BK22008951.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀엽게만 생각했는데 제 착각이었네요. 고양이랑 비슷해서 헷갈리는데, 어떤 차이가 있나요?",
+            "turn_id": "BK22008951-7",
+            "utterance_id": "BK22008951.13"
+        },
+        {
+            "reference_date": "2021-11-30",
+            "reference_text": [
+                {
+                    "value": "꼬리가 긴 고양이와 달리 꼬리가 뭉툭하고 양미간(兩眉間)과 귀 뒤에 흰색 반달무늬가 있다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 삵은 고양이와 달리 배설물을 땅에 묻지 않는데 이는 냄새로 자기영역 표시를 하기 위함이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyosu.net/news/articleView.html?idxno=81518",
+            "search_query": "삵 고양이",
+            "terminate": false,
+            "text": "일단 삵은 긴 꼬리를 가진 고양이와 달리 꼬리가 뭉툭하고, 미간과 귀 뒤쪽 부분에 흰색의 반달무늬가 있어요. 또 삵은 냄새로 자기 영역 표시를 하기 위해 고양이처럼 배설물을 땅에 묻지 않아요.",
+            "turn_id": "BK22008951-7",
+            "utterance_id": "BK22008951.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 차이를 잘 기억해둬야겠어요. 국립공원공단에서 야생동물의 희귀한 모습을 담은 영상을 공개했다던데, 사실인가요?",
+            "turn_id": "BK22008951-8",
+            "utterance_id": "BK22008951.15"
+        },
+        {
+            "reference_date": "2022-09-08",
+            "reference_text": [
+                {
+                    "value": "환경부 산하 국립공원공단이 장난치는 수달 등 다양한 멸종위기 야생생물의 희귀한 활동 모습을 8일 공개했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이번에 무인관찰카메라에 포착된 영상은 지난해 4월부터 올해 8월까지 멸종위기 야생생물Ⅰ급인 수달을 비롯해 Ⅱ급인 담비와 삵, 흰목물떼새 등을 담은 것이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220907_0002006474&cID=10201&pID=10200",
+            "search_query": "삵 활동 영상",
+            "terminate": false,
+            "text": "네, 8일 환경부 산하 국립공원공단에서 다양한 멸종 위기 야생생물의 희귀한 활동 모습을 무인 관찰 카메라 영상에 담았거든요. 지난해 4월부터 올해 8월까지의 멸종 위기 야생생물 1급인 수달과 2급인 담비와 삵, 흰목물떼새 등의 모습을 볼 수 있어요.",
+            "turn_id": "BK22008951-8",
+            "utterance_id": "BK22008951.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 한번 검색해 볼게요. 야생동물들을 담은 다큐멘터리도 찾아보는 중이에요.",
+            "turn_id": "BK22008951-9",
+            "utterance_id": "BK22008951.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 재미있는 영상이 있으면 추천할게요.",
+            "turn_id": "BK22008951-9",
+            "utterance_id": "BK22008951.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 오늘 좋은 정보 주셔서 감사해요.",
+            "turn_id": "BK22008951-10",
+            "utterance_id": "BK22008951.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을요, 다음에 또 대화 나눠요.",
+            "turn_id": "BK22008951-10",
+            "utterance_id": "BK22008951.20"
+        }
+    ]
+}

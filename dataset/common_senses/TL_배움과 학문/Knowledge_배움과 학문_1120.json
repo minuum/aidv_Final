@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007422",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007422",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 근대 경제사에 조금 관심이 생겨서 자료를 좀 찾아보는 중인데, 미시시피 계획이라는 말이 굉장히 자주 언급되더라? 혹시 이게 정확히 무슨 계획인지 들어본 거 있어?",
+            "turn_id": "BK22007422-1",
+            "utterance_id": "BK22007422.1"
+        },
+        {
+            "reference_date": "2022-02-05",
+            "reference_text": [
+                {
+                    "value": "미시시피 계획(Compagnie du Mississippi)는 18세기 초반에 북미에 식민지를 건설한 프랑스가 세운 미시시피 강 주변의 개발 무역 계획이다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프랑스의 미시시피 계획은 네덜란드의 튤립 버블와 영국의 남해 거품 사건과 근대 유럽의 3대 버블 경제의 비유로 알려져 있다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%8B%9C%EC%8B%9C%ED%94%BC_%EA%B3%84%ED%9A%8D",
+            "search_query": "미시시피 계획",
+            "terminate": false,
+            "text": "아, 미시시피 계획은 프랑스가 18세기 초반에 북미에 식민지를 건설하면서 세웠던 계획인데, 이게 미시시피강 주변의 개발 무역 계획이었기 때문에 미시시피 계획이라는 이름이 붙게 되었어. 참고로 이 미시시피 계획은 근대 유럽의 3대 버블 경제 중 하나로도 유명하지. 덧붙여 나머지 두 버블은, 네덜란드의 튤립 버블과 영국의 남해 거품 사건이야.",
+            "turn_id": "BK22007422-1",
+            "utterance_id": "BK22007422.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 나 튤립 버블에 대해서는 많이 들어봤어. 튤립 가격이 천정부지로 올랐다가 폭락하는 바람에 수많은 투자자가 손해를 봤던 사건이었는데, 그럼 이 미시시피 계획도 튤립 버블처럼 투자자들이 막대한 손해를 봤던 사건이었던 거야?",
+            "turn_id": "BK22007422-2",
+            "utterance_id": "BK22007422.3"
+        },
+        {
+            "reference_date": "2017-12-01",
+            "reference_text": [
+                {
+                    "value": "많은 프랑스인들이 미시시피회사의 주식을 사려고 몰려들었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1720년 6월부터 거품이 꺼지기 시작했다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 미시시피회사 주식은 순식간에 수백 리브르까지 떨어졌다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2017/12/797703/",
+            "search_query": "미시시피 계획 투자자 손해",
+            "terminate": false,
+            "text": "맞아, 다수의 프랑스인이 미시시피 회사의 주식을 사려고 했었는데, 그만 1720년 6월부터 거품이 사그라들기 시작하면서 주가가 수백 리브르 수준으로 떨어지고 만 거야. 그야말로 손해가 막심했다고 할 수 있지.",
+            "turn_id": "BK22007422-2",
+            "utterance_id": "BK22007422.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "리브르라는 건 화폐 단위인가? 조금 낯설게 들리는데, 본래 프랑스의 화폐 단위는 프랑 아니었어?",
+            "turn_id": "BK22007422-3",
+            "utterance_id": "BK22007422.5"
+        },
+        {
+            "reference_date": "2022-03-04",
+            "reference_text": [
+                {
+                    "value": "리브르(livre)는 프랑스에서 1795년까지 사용된 통화의 단위이다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프랑스 혁명 이후 프랑스의 통화는 ‘프랑’과 보조 통화인 ‘상팀’으로 통일되었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%91%EC%8A%A4_%EB%A6%AC%EB%B8%8C%EB%A5%B4",
+            "search_query": "리브르 프랑",
+            "terminate": false,
+            "text": "아, 리브르는 1795년까지 프랑스에서 사용되었던 화폐 단위였어. 방금 네가 말한 프랑이나 보조 통화인 상팀은, 프랑스 혁명 이후에야 프랑스에서 사용되었던 통화지.",
+            "turn_id": "BK22007422-3",
+            "utterance_id": "BK22007422.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 프랑이라는 단위가 생각보다 늦게 도입되었구나. 그러면 일단 화폐명이 리브르라고 치고, 당시 미시시피 회사의 주가는 몇 리브르 정도였어?",
+            "turn_id": "BK22007422-4",
+            "utterance_id": "BK22007422.7"
+        },
+        {
+            "reference_date": "2022-02-05",
+            "reference_text": [
+                {
+                    "value": "미시시피 회사의 발행 주식의 양은 1720년 50만 주 정도였다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 주가가 1만 5천 리브르로 당시 회사의 시가 평가액은 75억 리브르였다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주가가 500 리브르까지 붕괴되자, 1721년 9월 시가 평가액은 2억 5천만 리브르까지 떨어졌다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%8B%9C%EC%8B%9C%ED%94%BC_%EA%B3%84%ED%9A%8D",
+            "search_query": "미시시피 회사 주가 리브르",
+            "terminate": false,
+            "text": "우선, 1720년 기준으로 미시시피 회사의 발행 주식량은 50만주 정도였고, 주가는 1만 5천 리브르였어. 그러니 시가총액은 75억 리브르였던 거지. 그런데 이후 이 주가가 500 리브르까지 떨어지면서, 미시시피의 시가총액이 1721년 9월 기준 75억 리브르에서 2억 5천만 리브르까지 추락하고 말았어.",
+            "turn_id": "BK22007422-4",
+            "utterance_id": "BK22007422.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 그야말로 폭락인데, 투자자들이 꽤 눈물을 흘렸을 거 같아. 그런데 대체, 이 미시시피 계획이라는 버블이 어쩌다가 시작되게 된 걸까? 뭔가 최초 원인을 제공한 사람이나 사건이 있었을 거 아니야.",
+            "turn_id": "BK22007422-5",
+            "utterance_id": "BK22007422.9"
+        },
+        {
+            "reference_date": "2020-07-10",
+            "reference_text": [
+                {
+                    "value": "1717년 당시 프랑스 왕정은 늪지와 악어 천지인 미국 미시시피 하류를 기회의 땅이라고 속여 자금을 끌어모은 뒤 미시시피사(社)를 세운 스코틀랜드 출신 사업가 존 로에게 중앙은행 총재이자 재정부장관 자리를 맡겼다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "프랑스 왕정을 사로잡은 존 로의 든든한 배경과 화술에 넘어간 투자자들이 미시시피사의 주식을 마구 사들였고 주가는 시초가의 200배까지 뛰었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5375714",
+            "search_query": "미시시피 계획 시작",
+            "terminate": false,
+            "text": "이 모든 건 1717년, 당시의 프랑스 왕정이 스코틀랜드의 출신 사업가인 존 로에게 중앙은행의 총재 겸 재정부장관 자리를 맡기면서 시작되었어. 그런데 사실 이 존 로라는 사람은, 미국 미시시피 하류를 기회의 땅이라고 속였던 사람이었던 거야. 사실 거긴 늪지와 악어들로 가득한 곳이었는데 말이지. 하지만 바로 이 거짓말 덕분에 존 로는 돈을 끌어모아 미시시피 회사를 세울 수 있었고, 심지어 프랑스 왕정마저도 사로잡을 수 있었던 거지. 그리고 이 존 로의 화술에 넘어간 사람들이, 미시시피 회사의 주식을 미친 듯이 사들이기 시작하면서 주가가 시초가의 200배로 상승하고 말았어.",
+            "turn_id": "BK22007422-5",
+            "utterance_id": "BK22007422.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 200배 상승이라니, 그런 상승률은 요즘에도 보기 쉽지 않을 거 같아. 그런데 미시시피 회사의 주식이 정말 그렇게 인기가 많았던 거야?",
+            "turn_id": "BK22007422-6",
+            "utterance_id": "BK22007422.11"
+        },
+        {
+            "reference_date": "2020-11-21",
+            "reference_text": [
+                {
+                    "value": "3만명 이상의 사람들이 미시시피에 투자하기 위해 파리로 몰려왔다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영국의 하원의원, 기업인, 귀족들도 프랑스에서 대박을 얻기 위해 청약자 명단에 이름을 넣었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=2928",
+            "search_query": "미시시피 주식 인기",
+            "terminate": false,
+            "text": "물론이야, 무려 3만명이 넘는 사람들이, 미시시피에 투자하고 싶다는 이유로 파리에 모이기 시작했는걸. 심지어 일반 시민들뿐만 아니라, 영국의 하원의원이나 기업인, 심지어 귀족들도 일확천금을 노리고 청약자 명단에 이름을 넣었으니, 그야말로 해당 주식의 인기를 실감할 수 있지.",
+            "turn_id": "BK22007422-6",
+            "utterance_id": "BK22007422.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 외인 투자자들이 파리까지 찾아온 셈이네. 그런데 그렇게 잘나가던 미시시피 회사의 주가가, 왜 떨어지게 된 걸까?",
+            "turn_id": "BK22007422-7",
+            "utterance_id": "BK22007422.13"
+        },
+        {
+            "reference_date": "2017-12-01",
+            "reference_text": [
+                {
+                    "value": "하지만 공급이 문제였다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주가가 오르자 프랑스 정부는 주식 발행을 남발해 시장에는 불안 요인이 싹트고 있었다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "주가 하락에 격분한 시민들이 들고일어서자 로는 재무총감 자리에서 물러났다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/economy/view/2017/12/797703/",
+            "search_query": "미시시피 회사 주가 추락 이유",
+            "terminate": false,
+            "text": "그건 주식의 공급 때문이었어. 주가가 오르는 걸 본 프랑스 정부가 주식을 지나치게 많이 발행하게 되면서, 시장에 불안 요소가 생기고 만 거야. 이후 주가가 하락하자 시민들은 분노했고, 이 때문에 로는 재무총감 자리를 내려놓아야 했어.",
+            "turn_id": "BK22007422-7",
+            "utterance_id": "BK22007422.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "으음, 사기업도 아니고 다름 아닌 프랑스 정부의 주식을 발행 때문에 버블이 터졌다면, 존 로만 해임하는 것 만으론 시민들이 만족하지 못했을 거 같아. 혹시 미시시피 버블 사태가 초래한 다른 결과는 없을까?",
+            "turn_id": "BK22007422-8",
+            "utterance_id": "BK22007422.15"
+        },
+        {
+            "reference_date": "2020-11-21",
+            "reference_text": [
+                {
+                    "value": "프랑스는 미시시피 투기 이후 재정적자가 악화되었고, 그 해결책으로 실시한 과도한 세금 부과는 대혁명을 초래하는 원인으로 작용하게 된다.",
+                    "value_time": "2022-09-03",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.atlasnews.co.kr/news/articleView.html?idxno=2928",
+            "search_query": "미시시피 버블 결과",
+            "terminate": false,
+            "text": "미시시피 투기 사태 이후, 프랑스의 재정적자는 악화되고 말았어. 그래서 재정 문제를 해결하기 위해 세금을 부과하게 되었는데, 이게 너무 과도했던 나머지 그만 대혁명이 일어나는 계기가 되고 말았지.",
+            "turn_id": "BK22007422-8",
+            "utterance_id": "BK22007422.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 미시시피 버블이 결국 프랑스 혁명으로까지 이어지는 나비효과가 되고 만 거구나. 교과서에서 프랑스 혁명을 배웠을 때는 그냥 그러려니 하고 넘어갔는데, 또 이런 비하인드가 숨어있을 거라고는 생각을 못 했어. 너무 신기하다.",
+            "turn_id": "BK22007422-9",
+            "utterance_id": "BK22007422.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 사실 역사 공부를 하다 보면 이런 숨겨진 이야기를 같이 알게 되는 경우가 종종 있잖아. 이런 비하인드들은, 교과서에서 나오는 이야기와는 또 다른 재미가 있는 거 같아.",
+            "turn_id": "BK22007422-9",
+            "utterance_id": "BK22007422.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 재미있으면서도 한 편으로는, 아무나 믿고 투자해서는 안 된다는 교훈을 들은 거 같기도 해. 아무튼 더 이야기하고 싶지만, 나는 이만 오늘 마감인 과제가 있어서 들어가 볼게. 다음에 다시 또 이야기 나누자!",
+            "turn_id": "BK22007422-10",
+            "utterance_id": "BK22007422.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 잘 들어가고. 다음에 시간 날 때 또 이야기 나누자.",
+            "turn_id": "BK22007422-10",
+            "utterance_id": "BK22007422.20"
+        }
+    ]
+}

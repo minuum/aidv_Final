@@ -1,0 +1,407 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006185",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006185",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "8월이라 그런지 날이 진짜 덥네. 그나저나 얼마 전이 광복절이라서 이런저런 생각을 해 보게 됐는데, 우리나라 독립은 일본의 패전과 큰 관련이 있는 거지?",
+            "turn_id": "BK22006185-1",
+            "utterance_id": "BK22006185.1"
+        },
+        {
+            "reference_date": "2019-08-14",
+            "reference_text": [
+                {
+                    "value": "우리가 광복을 할 수 있었던 이유는 바로 일본이 태평양 전쟁에서 연합군에 패배했기 때문인데요.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전쟁에서 진 나라가 다스리던 식민지 국가는 자연히 원래의 자주독립 상태로 돌아가게 되어 있었어요.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=31491",
+            "search_query": "광복 이유",
+            "terminate": false,
+            "text": "응, 아무래도 한 나라가 전쟁에서 지면, 그 나라가 통치하던 식민지는 자연스레 원래 상태인 자주독립 국가로 돌아가는 법이니까. 우리나라가 광복을 할 수 있었던 이유도 마찬가지로 일본이 태평양 전쟁에서 연합군 측에 졌기 때문이지.",
+            "turn_id": "BK22006185-1",
+            "utterance_id": "BK22006185.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐만, 태평양 전쟁이라니, 그게 무슨 말이야? 대한민국 광복은 2차 세계 대전과 관련된 것이 아니었어?",
+            "turn_id": "BK22006185-2",
+            "utterance_id": "BK22006185.3"
+        },
+        {
+            "reference_date": "2022-03-29",
+            "reference_text": [
+                {
+                    "value": "태평양 전쟁(영어: Pacific War) 또는 때때로 아시아-태평양 전쟁(영어: Asia–Pacific War, AP war)은 제2차 세계 대전의 전역 중 하나로 태평양과 동아시아에서 벌어진 전쟁이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아시아-태평양 전구와 남서 태평양 전구, 동남아시아 전역 등을 비롯한 태평양 일대의 넓은 지역과 중국, 그리고 만주 일대가 태평양 전쟁의 전역 범위에 해당한다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%9C%ED%8F%89%EC%96%91_%EC%A0%84%EC%9F%81",
+            "search_query": "태평양 전쟁",
+            "terminate": false,
+            "text": "2차 세계 대전 중 동아시아와 태평양에서 진행된 전쟁을 태평양 전쟁, 혹은 아시아-태평양 전쟁이라고 불러. 아시아-태평양과 남서 태평양 전투 구역 등 태평양 일대를 비롯해 중국, 만주 일대도 태평양 전쟁의 전쟁 구역에 속했지.",
+            "turn_id": "BK22006185-2",
+            "utterance_id": "BK22006185.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그럼 그 태평양 전쟁은 어떻게 시작된 거야?",
+            "turn_id": "BK22006185-3",
+            "utterance_id": "BK22006185.5"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "진주만 공격(일본어: 真珠湾攻撃, 영어: Attack on Pearl Harbor) 또는 진주만 공습(영어: Pearl Harbor Air Raid) 혹은 진주만 폭격(영어: Battle of Pearl Harbor)는 1941년 12월 7일 미합중국 하와이주 오아후섬의 미합중국 해군의 진주만 기지를 일본 해군이 기습한 공격이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "야마모토 이소로쿠 사령관은 제2차 세계 대전 태평양 전쟁의 시작으로 폭격을 계획하였고, 나구모 주이치 부사령관이 지휘를 맡았다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "루즈벨트 대통령은 12월 7일을 치욕의 날로 선포했고, 그로부터 3일 뒤 미국 의회는 전쟁을 선포했으며 미국인들은 일본이 본토로 쳐들어 올 것을 대비해 전쟁 준비를 했고, 애국심에 군대에 자원하는 사람도 많아졌다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%A3%BC%EB%A7%8C_%EA%B3%B5%EA%B2%A9",
+            "search_query": "진주만 공격",
+            "terminate": false,
+            "text": "2차 세계 대전의 태평양 전쟁의 시작으로 야마모토 이소로쿠 사령관이 계획하고 나구모 주이치 부사령관이 지휘를 맡은 폭격 작전이 있는데, 그게 바로 1941년 12월 7일 일본 해군이 미합중국 하와이주 오아후섬의 진주만 기지를 기습 공격한 진주만 공격이야. 진주만 폭격이나 진주만 공습이라고도 불리지. 루즈벨트 대통령은 이 12월 7일을 치욕의 날이라고 칭하고, 미국 의회는 사흘 뒤 전쟁을 선포했어. 미국인들은 미국 본토를 일본이 공격해 올 것을 대비해 전쟁 준비를 하게 됐고, 애국심으로 자원 입대하는 사람도 늘었어.",
+            "turn_id": "BK22006185-3",
+            "utterance_id": "BK22006185.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 미국과 일본의 전투는 이후로 어떻게 진행됐는지도 궁금하네. 공격을 먼저 당하고 시작했으니 왠지 미국에게 불리했을 것 같은데, 태평양 전쟁 중 유명한 전투는 뭐가 있어?",
+            "turn_id": "BK22006185-4",
+            "utterance_id": "BK22006185.7"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "미드웨이 해전(영어: Battle of Midway)은 1942년 6월 4일부터 6월 7일까지 벌어진 태평양 전쟁의 결정적인 해전이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체스터 니미츠, 프랭크 잭 플레처, 레이먼드 A. 스프루언스가 이끄는 미국 해군은 야마모토 이소로쿠, 나구모 주이치, 곤도 노부타케가 이끄는 일본 제국 해군의 공격함대를 미드웨이 환초에서 격퇴하였고 일본군 함대에 돌이킬 수 없는 피해를 입혔다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미국 항공모함을 함정으로 끌어들여 미드웨이를 점령하는 것은 도쿄를 공습했던 둘리틀 공습에 대응하여 일본의 방어 교두보를 확장하는 전체적인 \"장벽\" 전략의 일부였다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "작전은 일본이 미국의 대응을 잘못 가정하고 초기에 부대를 잘못 배치하여 불리하게 바뀌었다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "가장 중요한 것은 미군 암호해독자들이 일본군이 계획한 공격의 위치와 날짜를 판단할 수 있게 되어 사전에 경고를 받은 미국 해군이 매복을 준비할 수 있었다는 것이다.",
+                    "value_time": "2022-08-30",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%93%9C%EC%9B%A8%EC%9D%B4_%ED%95%B4%EC%A0%84",
+            "search_query": "미드웨이 해전",
+            "terminate": false,
+            "text": "유명한 전투는 여럿 있지만, 결정적인 해전으로 꼽히는 것은 1942년 6월 4일부터 6월 7일에 걸쳐 벌어진 미드웨이 해전이야. 체스터 니미츠, 프랭크 잭 플레처 등이 지휘하는 미국 해군이 야마모토 이소로쿠, 나구모 주이치 등이 이끄는 일본 제국 해군을 미드웨이 환초에서 물리친 전투인데, 일본군 함대에 복구 불가능한 피해를 줬지. 원래 함정으로 미국 항공 모함을 유인하여 미드웨이를 가져가는 것이 도쿄를 공격한 둘리틀 공습에 대응해 방어 교두보를 넓히려는 일본의 장벽 전략 중 하나였는데, 일본이 미국 측의 대응을 잘못 가정하고 초반에 부대 배치를 잘못하는 바람에 작전이 불리하게 되었지. 미국의 암호 해독반이 일본군의 공격 날짜와 위치를 알 수 있게 되어서 미국은 사전에 경고받을 수 있었고, 매복에 대비할 수 있었던 거야.",
+            "turn_id": "BK22006185-4",
+            "utterance_id": "BK22006185.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 역시 정보의 힘은 대단한 것 같네. 이야기를 듣다 보니 너무 재미있는데, 혹시 태평양 전쟁에서 벌어진 다른 유명한 전투가 또 있을까?",
+            "turn_id": "BK22006185-5",
+            "utterance_id": "BK22006185.9"
+        },
+        {
+            "reference_date": "2022-06-24",
+            "reference_text": [
+                {
+                    "value": "레이테만 전투(영어: Battle of Leyte Gulf)는 공식적으로 제2차 필리핀 해전로 알려져 있는 제 2차 세계 대전 중 가장 큰 해전이며 역사상 가장 큰 해전 중 하나이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "필리핀의 레이테섬, 사마르섬, 루손섬에서 1944년 10월 23~26일에 미해군과 오스트레일리아 해군 연합과 일본 제국 해군 사이에서 벌어졌다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "10월 20일 미군이 일본의 고립-특히 동남아시아 지역에서 석유의 공급을 방해하기 위한-을 목적으로 하는 일련의 작전으로 레이테 섬을 공격한다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본 제국 해군은 연합군에 대항하여 가능한 거의 모든 전력을 동원하여 방어에 나서지만, 미국 해군의 3 함대와 7 함대에 의하여 격퇴된다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일본 제국 해군은 방어 작전에 실패했을 뿐 아니라, 극심한 전력 손실로 인하여 이후 작전에 여려움을 겪게 된다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A0%88%EC%9D%B4%ED%85%8C%EB%A7%8C_%EC%A0%84%ED%88%AC",
+            "search_query": "레이테만 전투",
+            "terminate": false,
+            "text": "음, 2차 세계 대전 해전 중에서는 물론 역사상 가장 큰 해전이기도 한 레이테만 전투도 빼놓을 수 없지. 공식적으로는 제2차 필리핀 해전으로 알려져 있는데, 1944년 10월 23일에서 26일에 걸쳐 필리핀의 레이테섬, 사마르섬, 루손섬에서 미국과 오스트레일리아 해군 연합이 일본 제국 해군과 충돌한 전투야. 동남아시아로부터의 석유 공급을 방해하고 일본을 고립시키기 위해, 미국이 10월 20일에 일련의 작전을 통해 레이테 섬을 공격했고, 일본 제국 해군은 연합군에 맞서 가용 가능한 전력을 대부분 동원하여 방어했지만, 결국 미국 해군의 7 함대와 3 함대에 의해 패배했지. 이로 인해 일본 제국 해군은 방어 작전에 실패한 데다가 전력을 극심하게 잃어서 이후 작전을 제대로 수행하기 힘들어지게 돼.",
+            "turn_id": "BK22006185-5",
+            "utterance_id": "BK22006185.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 듣는 것만으로도 그 규모가 느껴지는 것만 같아. 그나저나 방금 말해 준 두 전투 다 해전인데, 이름부터가 태평양 전쟁이니만큼 해전이 많은 걸까? 해전 이외에는 어떤 작전들이 있었어?",
+            "turn_id": "BK22006185-6",
+            "utterance_id": "BK22006185.11"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "일본 본토 공습(영어: Air raids on Japan, 일본어: 日本本土空襲, にっぽんほんどくうしゅう 닛폰혼도쿠슈[*])은 제2차 세계 대전 당시 일본군에 대한 영국과 미국의 대규모 도시 폭격을 뜻한다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "초기에는 진주만 공격에 대한 보복성이 짙었으나 후기에는 태평양 전쟁의 주요 전선을 보충하는 역할로 전환되었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대표적인 공습에는 둘리틀 공습, 도쿄 대공습, 고베 공습 등이 있다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8_%EB%B3%B8%ED%86%A0_%EA%B3%B5%EC%8A%B5",
+            "search_query": "일본 본토 공습",
+            "terminate": false,
+            "text": "2차 세계 대전이 진행되는 동안 영국과 미국이 일본군에 대해 행한 대규모 도시 폭격인 일본 본토 공습을 들 수 있겠네. 일본 본토 공습은 처음에는 앞서 말한 진주만 공격에 대한 보복 공격 성격이 짙었는데, 후반에는 태평양 전쟁의 주요 전선을 보강하는 역할로 바뀌었어. 대표적인 공습으로는 둘리틀 공습, 도쿄 대공습 등이 있지.",
+            "turn_id": "BK22006185-6",
+            "utterance_id": "BK22006185.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "둘리틀 공습은 나도 들어본 적이 있는 것 같은데, 정확히는 모르겠네. 일단 공습이니까 말 그대로 항공기를 통한 공격이려나?",
+            "turn_id": "BK22006185-7",
+            "utterance_id": "BK22006185.13"
+        },
+        {
+            "reference_date": "2022-04-06",
+            "reference_text": [
+                {
+                    "value": "둘리틀 공습(영어: Doolittle Raid, 1942년 4월 18일)은 제임스 해롤드 둘리틀 중령이 지휘하는 B-25 미첼의 경폭격기 편대가 항공모함 USS CV-8 호넷을 출발하여 진주만 공습에 대한 복수로 일본 본토를 폭격한 사건이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결과적으로 일본 제국은 이 공습으로 인해 역사상 최초로 외국군에게 본토를 공격받았다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 이 사건의 가장 큰 의의는 미군이 이 공습으로 얻은 노하우를 이용하여 히로시마 나가사키 원폭 투하를 실시했다는 점이다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%91%98%EB%A6%AC%ED%8B%80_%EA%B3%B5%EC%8A%B5",
+            "search_query": "둘리틀 공습",
+            "terminate": false,
+            "text": "맞아, 진주만 공습에 대한 보복으로 제임스 헤롤드 둘리틀 중령이 이끄는 B-25 미첼 경폭격기 편대가 항공모함 USS CV-8 호넷에서 발진하여 일본 본토를 폭격한 일이지. 일본이 외국군에게 본토를 공격받은 것은 일본 역사상 이 사건이 처음이야. 또한, 이때 공습에서 얻은 노하우를 나중에 히로시마, 나가사키 원폭 투하에 이용했다는 점에서도 둘리틀 공습은 큰 의의를 지녀.",
+            "turn_id": "BK22006185-7",
+            "utterance_id": "BK22006185.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 2차 세계 대전이라고 하면 인류 최초로 투하한 원폭이 있지. 원폭이 무서운 무기라고는 들었는데, 피해는 대체 어느 정도였을까?",
+            "turn_id": "BK22006185-8",
+            "utterance_id": "BK22006185.15"
+        },
+        {
+            "reference_date": "2022-08-13",
+            "reference_text": [
+                {
+                    "value": "원자폭탄을 떨어뜨리고 초기 2개월에서 4개월 동안, 히로시마에서는 90,000명에서 166,000명, 나가사키에서는 60,000명에서 80,000명 정도가 사망했으며,[5] 그중 각 도시 사망자 절반은 원자폭탄을 떨어뜨린 당일에 집계되었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%A1%9C%EC%8B%9C%EB%A7%88%C2%B7%EB%82%98%EA%B0%80%EC%82%AC%ED%82%A4_%EC%9B%90%EC%9E%90%ED%8F%AD%ED%83%84_%ED%88%AC%ED%95%98",
+            "search_query": "히로시마 나가사키 원폭",
+            "terminate": false,
+            "text": "원자폭탄 투하 후 초기 2개월에서 4개월 동안 히로시마에서 9만~16만 6천 명, 나가사키에서는 6만~8만 명 정도가 사망했어. 두 도시의 사망자 절반은 원폭 투하 당일에 집계된 것이고.",
+            "turn_id": "BK22006185-8",
+            "utterance_id": "BK22006185.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세상에, 아무리 전쟁이라지만 수만 명이 그렇게 순식간에 죽다니 정말 끔찍한 일이야. 그래도 저 일로 인해 마침내 일본이 항복을 선언한 거지?",
+            "turn_id": "BK22006185-9",
+            "utterance_id": "BK22006185.17"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "일본의 항복(일본어: 日本の降伏)은 일본 제국이 1945년 8월 14일에 연합국에 통보하고, 8월 15일 낮 12시에 쇼와 천황이 연합국이 내민 포츠담 선언의 수용을 발표한 것을 말한다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "9월 2일에는 일본의 도쿄만 요코하마에 정박 중이던 미국 전함 USS 미주리 (BB-63) 선상에서 일본 대표 시게미쓰 마모루 외무대신이 정식으로 나와서 연합국이 내민 항복 문서에 서명을 하였다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1945년 5월 8일의 나치 독일 항복에 이어 1945년 9월 2일에 일본 제국의 항복 (포츠담 선언 서명)으로 제2차 세계 대전은 종결되었다.",
+                    "value_time": "2022-08-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%BC%EB%B3%B8%EC%9D%98_%ED%95%AD%EB%B3%B5",
+            "search_query": "일본 항복",
+            "terminate": false,
+            "text": "맞아, 정확히는 1945년 8월 14일에 일본 제국이 연합국에 항복을 통보하고, 다음날인 8월 15일 정오에 쇼와 천황이 연합국 측의 포츠담 선언을 수용하겠다고 발표한 것이 일본의 항복이야. 이후 9월 2일에는 일본 도쿄만 요코하마에 정박한 미국 전함 USS 미주리 선상에서 일본의 대표인 시게미쓰 마모루 외무대신이 정식으로 연합국의 항복 문서에 서명했고, 1945년 5월 8일에 이루어진 나치 독일 항복에 이어서 일본 제국 항복으로 제2차 세계 대전은 막을 내리지.",
+            "turn_id": "BK22006185-9",
+            "utterance_id": "BK22006185.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 듣는 동안은 흥미진진했는데, 듣고 난 뒤 가만히 곱씹어 보니 너무나 무섭고 끔찍한 일들의 연속 같아. 전쟁은 정말 일어나지 말아야 해. 여러 이야기 들려줘서 고마웠고, 나는 일이 있어서 오늘은 이만 가 볼게.",
+            "turn_id": "BK22006185-10",
+            "utterance_id": "BK22006185.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러게 말이야. 언제까지고 평화로운 나날이 이어지면 좋으련만. 잘 들어가고 나중에 또 보자.",
+            "turn_id": "BK22006185-10",
+            "utterance_id": "BK22006185.20"
+        }
+    ]
+}

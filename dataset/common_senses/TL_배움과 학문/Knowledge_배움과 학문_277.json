@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013073",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013073",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전문가님 오늘은 코끼리에 대해 알려주세요! 코끼리는 어떤 동물을 가리키나요?",
+            "turn_id": "BK22013073-1",
+            "utterance_id": "BK22013073.1"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "코끼리(elephant, 象)는 장비목에서 유일하게 현존하는 코끼리과를 구성하는 동물들의 총칭으로, 현생 육상동물 중 가장 몸집이 크다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%81%BC%EB%A6%AC",
+            "search_query": "코끼리",
+            "terminate": false,
+            "text": "코끼리는 장비목으로 분류되는 동물 중에서, 지금까지 살아남은 하나뿐인 코끼리과에 속하는 동물을 통틀어서 말하는 표현입니다. 지금 육지에서 사는 동물 중에 가장 덩치가 크고요.",
+            "turn_id": "BK22013073-1",
+            "utterance_id": "BK22013073.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리가 역시 제일 큰 동물이었군요. 코끼리에는 어떤 종류가 있나요?",
+            "turn_id": "BK22013073-2",
+            "utterance_id": "BK22013073.3"
+        },
+        {
+            "reference_date": "44745.0",
+            "reference_text": [
+                {
+                    "value": "현재까지 확인된 현존하는 종은 총 3종으로, 사바나코끼리·아시아코끼리·둥근귀코끼리로 나뉜다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%81%BC%EB%A6%AC",
+            "search_query": "코끼리 종류",
+            "terminate": false,
+            "text": "지금까지 남아있는 것으로 파악된 종은 사바나 코끼리, 아시아 코끼리, 둥근 귀 코끼리 이렇게 모두 세 가지입니다.",
+            "turn_id": "BK22013073-2",
+            "utterance_id": "BK22013073.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 사바나 코끼리하고 둥근 귀 코끼리는 처음 들어보는데요? 예전에 아프리카 코끼리라고 있지 않았나요?",
+            "turn_id": "BK22013073-3",
+            "utterance_id": "BK22013073.5"
+        },
+        {
+            "reference_date": "44281.0",
+            "reference_text": [
+                {
+                    "value": "코끼리는 아시아코끼리와 아프리카코끼리 2종이 있는 것으로 알려졌지만 이제부터는 3종이 됐다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아프리카코끼리가 콩고분지의 열대우림에 사는 둥근귀코끼리(숲코끼리)와 초원과 사막에 사는 사바나코끼리 등 2개의 다른 종으로 공식 구분됐다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/animalpeople/human_animal/988356.html",
+            "search_query": "아프리카코끼리",
+            "terminate": false,
+            "text": "네, 아시아 코끼리와 아프리카 코끼리 두 종으로 구분된 적도 있지만, 앞으로는 세 종으로 구분됩니다.아프리카 코끼리가 다시 콩고 분지에 분포하며 열대우림이 서식지인 둥근 귀 코끼리와 초원과 사막 지대에 서식하는 사바나 코끼리 두 종으로 서로 갈라졌거든요.",
+            "turn_id": "BK22013073-3",
+            "utterance_id": "BK22013073.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 서식지에 따라 종을 아예 구분해버렸군요. 그렇다면 아프리카에 살지 않는 아시아 코끼리는 어떤 차이가 있나요?",
+            "turn_id": "BK22013073-4",
+            "utterance_id": "BK22013073.7"
+        },
+        {
+            "reference_date": "43985.0",
+            "reference_text": [
+                {
+                    "value": "가장 큰 특징은 상아로 불리는 엄니의 존재다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "아프리카종은 암수 모두 긴 엄니를 가지고 있다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아시아종의 수컷은 대부분 엄니를 가지고 있으나 없는 경우도 있고 암컷은 작거나 아예 없다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23792473#home",
+            "search_query": "아시아 코끼리 특징",
+            "terminate": false,
+            "text": "제일 큰 차이는 상아로 불리는 엄니가 있느냐 없느냐입니다. 아프리카에 사는 둥근 귀와 사바나 코끼리는 암컷과 수컷 모두 긴 엄니가 존재합니다. 반면 아시아 코끼리의 수컷은 대부분 엄니를 갖고 태어나지만 아예 없을 수도 있고 암컷은 크기가 작거나 전혀 없기도 합니다.",
+            "turn_id": "BK22013073-4",
+            "utterance_id": "BK22013073.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 아시아 코끼리들은 절반 정도만 상아를 갖고 있겠군요. 그건 그렇고 코끼리에서 코가 하는 역할이 정확히 뭔가요?",
+            "turn_id": "BK22013073-5",
+            "utterance_id": "BK22013073.9"
+        },
+        {
+            "reference_date": "43985.0",
+            "reference_text": [
+                {
+                    "value": "호흡과 냄새 맡는 것 외에 물건을 만지면서 느끼며 잡고 물과 음식물을 받아서 입으로 옮긴다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소리를 낼 수 있고 자유롭게 움직일 수 있으며 의사소통의 도구이기도 하다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23792473#home",
+            "search_query": "코끼리코",
+            "terminate": false,
+            "text": "후각 기능과 숨을 쉬는 것 외에 물건의 촉감을 느끼면서 잡고, 받은 식음료를 입으로 이동시키기도 합니다. 또 자유롭게 움직일 수 있음은 물론, 소리를 낼 수도 있으며, 의사표현의 수단이 되기도 합니다.",
+            "turn_id": "BK22013073-5",
+            "utterance_id": "BK22013073.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동요처럼 손 역할만 하는 게 아니라, 다양한 기능을 수행했군요. 참, 옛날에는 코끼리를 전투에도 활용했다고 들었는데요?",
+            "turn_id": "BK22013073-6",
+            "utterance_id": "BK22013073.11"
+        },
+        {
+            "reference_date": "43307.0",
+            "reference_text": [
+                {
+                    "value": "과거에는 코끼리를 길들여 전쟁용으로 사용하기도 했는데요.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "4세기 알렉산더 대왕의 원전기록에 처음 등장했습니다.",
+                    "value_time": "44789.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전투 코끼리를 가장 잘 활용한 전투는 바로 카르타고와 로마간의 대결이었던 2차 포에니 전쟁입니다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dispatch.co.kr/1408644",
+            "search_query": "코끼리 전쟁",
+            "terminate": false,
+            "text": "네, 아주 먼 옛날에는 코끼리를 훈련시켜서 전쟁에 투입하기도 했습니다. 4세기에 쓰인 알렉산더 대왕의 원정기록에 최초로 기록이 나오고요. 카르타고와 로마가 격돌한 제 2차 포에니 전쟁에서, 전투용 코끼리가 가장 제대로 활용된 전투가 펼쳐지기도 했습니다.",
+            "turn_id": "BK22013073-6",
+            "utterance_id": "BK22013073.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "코끼리가 매우 크고 힘이 좋다 보니 전투에도 활용되었나 보네요. 그건 그렇고 코끼리가 멸종위기라던데, 어느 정도로 심각한 건가요?",
+            "turn_id": "BK22013073-7",
+            "utterance_id": "BK22013073.13"
+        },
+        {
+            "reference_date": "44433.0",
+            "reference_text": [
+                {
+                    "value": "국제자연보호연맹(IUCN)에 따르면 아프리카 대륙 전체에 걸쳐 아프리카 숲 코끼리 개체수는 지난 31년간 86% 이상 감소했다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisaweek.com/news/curationView.html?idxno=146774",
+            "search_query": "코끼리 멸종",
+            "terminate": false,
+            "text": "아프리카 대륙 전반에서 둥근 귀 코끼리의 수가 최근 31년 동안 86퍼센트 이상 사라졌다고 국제 자연보호연맹에서 밝혔어요.",
+            "turn_id": "BK22013073-7",
+            "utterance_id": "BK22013073.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "86퍼센트씩이나요? 그럼 정말 심각한 것 아닌가요? 대체 왜 이렇게 개체 수가 급감하게 된 거죠?",
+            "turn_id": "BK22013073-8",
+            "utterance_id": "BK22013073.15"
+        },
+        {
+            "reference_date": "44780.0",
+            "reference_text": [
+                {
+                    "value": "인간들이 상아를 얻기 위해 코끼리를 죽이고 서식지를 침범한 결과다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 코끼리 상아는 암시장에서 1kg당 약 6000만원~1억2000만원에 거래된다.",
+                    "value_time": "44789.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspenguin.com/news/articleView.html?idxno=12126",
+            "search_query": "코끼리 상아",
+            "terminate": false,
+            "text": "사람들이 상아를 확보하기 위해서 코끼리를 사냥하고, 코끼리의 서식지를 파괴했기 때문입니다. 참고로 코끼리 상아는 불법시장에서 킬로그램당 약 6천만 원에서 1억 2천만 원 정도에 판매됩니다.",
+            "turn_id": "BK22013073-8",
+            "utterance_id": "BK22013073.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 결국 인간의 욕심 때문에 멸종위기에 몰린 것이군요.",
+            "turn_id": "BK22013073-9",
+            "utterance_id": "BK22013073.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금부터라도 코끼리를 보호할 대책이 필요하죠.",
+            "turn_id": "BK22013073-9",
+            "utterance_id": "BK22013073.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘도 덕분에 말씀 잘 듣고 갑니다. 그럼 다음에 또 만나요.",
+            "turn_id": "BK22013073-10",
+            "utterance_id": "BK22013073.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 집에 조심해서 들어가세요!",
+            "turn_id": "BK22013073-10",
+            "utterance_id": "BK22013073.20"
+        }
+    ]
+}

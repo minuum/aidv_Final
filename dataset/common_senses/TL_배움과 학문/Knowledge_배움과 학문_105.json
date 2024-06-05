@@ -1,0 +1,403 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011615",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011615",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 어제 인체 다큐멘터리를 보고 신체 구조에 관심이 생겼어. 이럴 때는 뭘 공부하면 될까?",
+            "turn_id": "BK22011615-1",
+            "utterance_id": "BK22011615.1"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "해부학(解剖學)은 생명체 내부의 형태와 구조에 대해 연구하는 학문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 해부학이라 하면 인체해부학(anthropotomy), 동물해부학(zootomy), 식물해부학(phytotomy)을 모두 포함하는 것이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B6%80%ED%95%99",
+            "search_query": "해부학",
+            "terminate": false,
+            "text": "생명체 내의 형태와 구조가 궁금한 거면 해부학을 공부하면 될 것 같은데? 보통 해부학에는 인체해부학, 동물해부학, 식물해부학이 모두 포함돼.",
+            "turn_id": "BK22011615-1",
+            "utterance_id": "BK22011615.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "해부학의 범위가 매우 크구나. 범위 구분이 필요할 것 같은데 구분되는 기준이 있니?",
+            "turn_id": "BK22011615-2",
+            "utterance_id": "BK22011615.3"
+        },
+        {
+            "reference_date": "2022-09-16",
+            "reference_text": [
+                {
+                    "value": "해부학은 크게 육안해부학(gross anatomy, 거시해부학)과 현미해부학(미시해부학)으로 구분된다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중 육안해부학은 절개 등의 방법을 통해 별다른 장비없이 맨눈으로 관찰할 수 있는 해부학적 구조물에 대한 학문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 반대로, 현미해부학은 현미경으로 관찰할 수 있는, 극히 작은 해부학적 구조에 대해 배우는 학문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B6%80%ED%95%99",
+            "search_query": "해부학 구분",
+            "terminate": false,
+            "text": "해부학은 보통 거시 해부학이라고도 하는 육안 해부학과 미시해부학이라고도 부르는 현미 해부학으로 구분해. 육안 해부학은 특별한 도구 없이도 맨눈으로 관찰 가능한 해부학적 구조물에 대한 학문이고, 현미 해부학은 현미경으로 관찰해야 하는 매우 작은 해부학적 구조를 연구하는 학문이야.",
+            "turn_id": "BK22011615-2",
+            "utterance_id": "BK22011615.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈으로 볼 수 있는 구조와 현미경으로 볼 수 있는 구조로 나뉘는구나. 해부학이라는 학문은 어떻게 시작된 거야?",
+            "turn_id": "BK22011615-3",
+            "utterance_id": "BK22011615.5"
+        },
+        {
+            "reference_date": "2019-01-28",
+            "reference_text": [
+                {
+                    "value": "고대 그리스 크로톤(지금의 이탈리아 남부 크로토네 지역)의 알크마이온(Alcmaeon, BC 500년 전후)은 역사상 최초의 해부학자이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 생물학 사상 처음으로 해부학 저서를 저술했다고 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 해부학 저서는 수많은 동물 해부의 경험을 바탕으로 쓰였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11138",
+            "search_query": "해부학 시초",
+            "terminate": false,
+            "text": "역사상 최초의 해부학자는 알크마이온으로, 고대 그리스 크로톤 지역의 사람이야. 생물학 역사에서는 최초로 해부학 저서를 저술했다고 해. 이 저서는 수차례 동물 해부 끝에 쓰였어.",
+            "turn_id": "BK22011615-3",
+            "utterance_id": "BK22011615.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동물 해부를 통해 해부학 저서를 썼다니 신기하네. 왜 인간을 해부하지 않은 거야?",
+            "turn_id": "BK22011615-4",
+            "utterance_id": "BK22011615.7"
+        },
+        {
+            "reference_date": "2019-01-28",
+            "reference_text": [
+                {
+                    "value": "그러나 고대에는 종교의 영향으로 시체 해부가 금지되었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해부는 인간을 존중하지 않고 신을 모독하는 행위로 간주되었기 때문이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 때문에 동물의 내장과 부패한 동물의 시체만 가지고 해부학을 연구했으므로 그 성과는 미미할 수밖에 없었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11138",
+            "search_query": "해부학 동물 해부",
+            "terminate": false,
+            "text": "고대에는 종교의 영향력이 컸기 때문에 인체를 해부하는 것이 금지되어 있었거든. 당시에는 해부라는 행위가 인간의 존엄성을 해치고 신을 모독하는 행위로 받아들여졌어. 따라서 동물의 내장, 그리고 부패한 동물 사체만으로 해부학을 발전시켜나가야 해서 성과가 좋지 못했어.",
+            "turn_id": "BK22011615-4",
+            "utterance_id": "BK22011615.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴 수밖에 없을 것 같아. 그런 관습에 반대하는 사람들은 없었나?",
+            "turn_id": "BK22011615-5",
+            "utterance_id": "BK22011615.9"
+        },
+        {
+            "reference_date": "2019-01-28",
+            "reference_text": [
+                {
+                    "value": "그러나 의학의 새로운 돌파구를 찾으려는 진보적인 의사들(이 가운데는 신부, 일반 신도들도 있었다)은 교회의 속박에 울분을 터뜨렸다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "《성경》 어디에도 시체 해부가 종교적 신앙에 위배된다는 부분이 없었기 때문이었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsroad.co.kr/news/articleView.html?idxno=11138",
+            "search_query": "해부학 인체 해부 종교",
+            "terminate": false,
+            "text": "의학을 개척하려는 일부 진보적인 의사들이 이러한 교회의 속박에 반발하긴 했어. 왜냐하면 성경에 시체 해부를 하지 말라는 말은 없었거든.",
+            "turn_id": "BK22011615-5",
+            "utterance_id": "BK22011615.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그들의 입장도 이해가 돼. 인체를 해부하지 못했을 때는 잘못된 지식을 갖고 있을 수밖에 없을 것 같은데, 인체에 대해 어떤 오류를 품고 있었던 건지 궁금해.",
+            "turn_id": "BK22011615-6",
+            "utterance_id": "BK22011615.11"
+        },
+        {
+            "reference_date": "2016-11-10",
+            "reference_text": [
+                {
+                    "value": "그리스의 페르가몬에서 태어난 갈레노스는 인체해부가 금지된 2000년 전 동물 해부만으로 인체의 해부와 병리를 동일시 했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이로 인해 빚어진 많은 해부 및 생리학적인 오류는 1500년간이나 절대적 이론으로 유럽의 의학을 지배했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심장에 심실이 2개이며 그사이 벽의 작은 구멍들을 통해 혈액이 셀 수 없이 오가고, 뇌는 커다란 점액질 덩어리이며 거기에서 정신적 영기(英氣)가 배출되면서 신경을 통해 온몸으로 전달된다고 생각하는 등 오류가 많았다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dtnews24.com/news/articleView.html?idxno=404215",
+            "search_query": "해부학 갈레노스 오류",
+            "terminate": false,
+            "text": "동물 해부의 병리 결과를 인간 해부와 똑같이 취급했던 갈레노스의 해부 및 생리학적 오류들은 무려 1500여 년이나 유럽에서 절대적 이론으로 기능했는데, 갈레노스는 심장에 심실이 2개이고 심실 사이 벽에 작은 구멍들이 있어서 이를 통해 혈액이 오간다고 주장했어. 이뿐만 아니라, 뇌가 커다란 점액질 덩어리이고 여기에서 정신적 영기가 배출된다고 주장했어. 이 영기는 신경을 통해 몸 전체로 퍼진다고 생각하기도 했어.",
+            "turn_id": "BK22011615-6",
+            "utterance_id": "BK22011615.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금 생각하기엔 정말 터무니없기만 한데 1500년이나 받아들여졌다니 놀라워. 그런데 지금에야 시신을 기증하는 사람들이 있지만, 과거에는 해부에 쓰일 시체를 어떻게 공급받은 거야?",
+            "turn_id": "BK22011615-7",
+            "utterance_id": "BK22011615.13"
+        },
+        {
+            "reference_date": "2017-03-30",
+            "reference_text": [
+                {
+                    "value": "16세기 영국의 헨리 8세(King Henry VIII)는 사형당한 죄수의 몸을 해부학자들에게 제공하기로 결정했습니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 이는 인체 구조를 이해하기 위한 과학적 탐구를 지지하기 위해서가 아니라, 죄수의 몸에 대한 사회적 처벌이 주된 이유였습니다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해부는 대중이 모두 보는 데에서 공개적으로 행해졌고, 해부를 마치고 남은 인체 부위는 동물에게 먹이로 주었으니까요.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://scienceon.hani.co.kr/503793",
+            "search_query": "과거 해부학 시신 조달",
+            "terminate": false,
+            "text": "과거 16세기에 영국 헨리 8세는 사형을 집행한 후 그 죄수의 몸을 해부학자들에게 넘겼어. 그런데 이건 과학적 탐구를 위해서가 아니라, 죄수에 대한 사회적 처벌 때문에 결정된 거였어. 당시에는 해부를 대중들 앞에서 공개적으로 진행했고, 해부가 끝난 시체는 동물의 먹이가 되었거든.",
+            "turn_id": "BK22011615-7",
+            "utterance_id": "BK22011615.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잔인한 해부 과정을 대중들 앞에서 진행했다니 놀랍네. 사람들이 해부 과정을 보는 것에 관심을 가졌단 말이야?",
+            "turn_id": "BK22011615-8",
+            "utterance_id": "BK22011615.15"
+        },
+        {
+            "reference_date": "2017-02-13",
+            "reference_text": [
+                {
+                    "value": "한편으로는 오락거리가 되기도 했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "유명한 외과 의사의 공개시연은 표까지 팔면서 대중에게 공개될 정도로 관심거리였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "근대에 이르러 의학은 대학의 학문을 넘어 사회적 역할로 한층 확장됐다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/policyBriefingView.do?newsId=148828810",
+            "search_query": "해부학 공개시연",
+            "terminate": false,
+            "text": "그래, 유명한 외과 의사가 진행하는 공개 시연은 대중에게 표를 판매하여 진행할 정도로 많은 관심을 받는 오락거리였어. 근대 의학은 대학의 학문의 역할을 넘어서서 사회적 역할까지 수행했거든.",
+            "turn_id": "BK22011615-8",
+            "utterance_id": "BK22011615.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "표까지 판매하며 해부 과정을 지켜봤다니 상상하기 힘드네.",
+            "turn_id": "BK22011615-9",
+            "utterance_id": "BK22011615.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시에도 해부가 흥미진진한 과정이긴 했나 봐.",
+            "turn_id": "BK22011615-9",
+            "utterance_id": "BK22011615.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 생각해 보면 나라도 보러 갈 것 같기도 하다. 아무튼 몰랐던 부분들을 설명해줘서 고마워.",
+            "turn_id": "BK22011615-10",
+            "utterance_id": "BK22011615.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 관련 정보를 찾아보다 보면 재밌는 게 많이 나올 거야.",
+            "turn_id": "BK22011615-10",
+            "utterance_id": "BK22011615.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 집에 가면 더 찾아봐야겠다. 이해가 잘 안되는 게 나오면 또 물어볼게.",
+            "turn_id": "BK22011615-11",
+            "utterance_id": "BK22011615.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋아, 언제든지 편하게 연락해.",
+            "turn_id": "BK22011615-11",
+            "utterance_id": "BK22011615.22"
+        }
+    ]
+}

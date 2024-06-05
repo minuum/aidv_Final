@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005013",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005013",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 나 홀로 집에란 영화를 봤는데 예전 추억이 생각나서 재밌더라고.",
+            "turn_id": "BK22005013-1",
+            "utterance_id": "BK22005013.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 어렸을 때 보던 기억이 나. 어떤 장면이 제일 재미있었어?",
+            "turn_id": "BK22005013-1",
+            "utterance_id": "BK22005013.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "엄청 큰 거미가 도둑 마브 얼굴위에 앉았던 장면이 제일 재미있었어. 내가 거미를 무서워하는데, 징그럽긴 했지만 상황이 재밌었어. 근데 그거 실제 거미야?",
+            "turn_id": "BK22005013-2",
+            "utterance_id": "BK22005013.3"
+        },
+        {
+            "reference_date": "2014-12-25",
+            "reference_text": [
+                {
+                    "value": "케빈이 키 큰 도둑 마브의 얼굴 위에 올려놓은 거미는 진짜 살아있는 타란튤라였습니다",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마브역을 맡은 대니얼 스턴은 이 장면에 동의하는 대신 ‘반드시 단 한 번에 끝내야 한다’는 조건을 걸었다고 하네요.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0008981360&code=61181111&cp=nv",
+            "search_query": "나홀로집에 거미",
+            "terminate": false,
+            "text": "그건 진짜 타란툴라 거미였어. 마브역을 맡은 대니얼 스턴은 이 장면을 촬영하는 대신에 한 번에 끝내야 한다는 조건을 내걸기도 했었지.",
+            "turn_id": "BK22005013-2",
+            "utterance_id": "BK22005013.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 그 큰 거미가 내 얼굴에 앉았다는 생각을 하면 난 기절할지도 몰라. 그나저나 타란툴라는 어떤 거미야?",
+            "turn_id": "BK22005013-3",
+            "utterance_id": "BK22005013.5"
+        },
+        {
+            "reference_date": "2016-09-06",
+            "reference_text": [
+                {
+                    "value": "타란툴라는 번식기 땅 위를 느린 속도로 이동한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수컷은 교미를 위해 암컷 서식지를 배회한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "사람 손바닥만 한 크기까지 자라는 타란툴라는 송곳니로 먹이를 물어 독액을 주입한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독성은 인간에게 해를 끼칠 만큼 강하지 않지만 만지지 않는 것이 좋다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.koreadaily.com/2016/09/06/society/generalsociety/4582065.html",
+            "search_query": "타란툴라 특징",
+            "terminate": false,
+            "text": "타란툴라는 사람 손바닥 크기까지도 자라는 큰 거미야. 타란툴라는 송곳니로 먹이를 물어 독을 주입해. 독은 우리에게 해를 줄만큼 강하진 않지만 만지지 않는게 좋아. 그리고 타란툴라 수컷은 번식기에 땅 위를 돌아다니면서 암컷을 찾아.",
+            "turn_id": "BK22005013-3",
+            "utterance_id": "BK22005013.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 타란툴라는 어떤 종이 있는지 궁금해. 아니면 타란툴라가 어떤 거미 종에 포함된거야?",
+            "turn_id": "BK22005013-4",
+            "utterance_id": "BK22005013.7"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "타란튤라(tarantula)는 대형열대거미과 그리고 짐승빛거미과, 테라포사과(Theraphosidae)에 속하는 거미의 총칭이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "타란툴라는 전세계적으로 1000종이 넘으며, 북아메리카, 아프리카, 아시아, 유럽, 오스트레일리아에서 발견된다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EB%9E%80%ED%88%B4%EB%9D%BC",
+            "search_query": "타란툴라 종류",
+            "terminate": false,
+            "text": "내가 알려줄게. 타란툴라는 대형열대거미과, 짐승빛거미과, 테라포사과에 속하는 거미를 통틀어 칭하는 말이야. 타란툴라는 전 세계적으로 1000종이 넘게 있어. 발견되는 곳도 종이 많은만큼 다양한데, 북아메리카, 아프리카, 아시아, 유럽, 호주에서 발견되고 있어.",
+            "turn_id": "BK22005013-4",
+            "utterance_id": "BK22005013.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "되게 넓은 범위에서 발견되는구나. 그런데 타란툴라 사진을 보니까 엄청 크던데, 타란툴라 중에서도 제일 큰 거미는 어떤거야?",
+            "turn_id": "BK22005013-5",
+            "utterance_id": "BK22005013.9"
+        },
+        {
+            "reference_date": "2014-10-20",
+            "reference_text": [
+                {
+                    "value": "이 거미는 국내에서 큰 새잡이거미, 영어권에서는 남미 골리앗 버드이터(학명: Theraphosa blondi)로 불리는 타란튤라 일종으로, 현재 이 종은 세계에서 가장 큰 거미라는 타이틀을 보유하고 있다고 기네스 세계기록은 밝히고 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20141020601011",
+            "search_query": "제일 큰 타란튤라",
+            "terminate": false,
+            "text": "우리나라에서는 큰 새잡이거미, 영어권에선 남미 골리앗 버드이터라고 불리는 타란툴라 일종이 세계에서 가장 큰 거미의 타이틀을 가지고 있다고 기네스 세계기록이 밝혔어.",
+            "turn_id": "BK22005013-5",
+            "utterance_id": "BK22005013.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크기가 어린 강아지정도라니, 상상했더니 약간 소름이 돋았어. 그나저나 타란툴라를 봤을 때 제일 눈에 들어오는게 털이던데. 이 털은 뭐야?",
+            "turn_id": "BK22005013-6",
+            "utterance_id": "BK22005013.11"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "타란툴라 종류 중 신열대구의 배회성 타란툴라는 방어용으로 뒷다리를 비벼서 작고 미늘형으로 생긴 털을 날리는데, 이것은 적의 피부에 자극을 주고, 사람에게 닿았을 때 간지럼증과 알레르기를 유발할 수도 있다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EB%9E%80%ED%88%B4%EB%9D%BC",
+            "search_query": "타란튤라 털",
+            "terminate": false,
+            "text": "타란툴라 종류 중에 신열대구의 배회성 타란툴라는 털을 가지고 있어. 이 거미들은 방어를 위해서 뒷다리를 비벼 작고 미늘형으로 생긴 털을 날리는데, 이 털이 피부에 닿으면 피부가 자극이 되고 사람에게 닿으면 간지럼증과 알레르기를 유발하기도 해.",
+            "turn_id": "BK22005013-6",
+            "utterance_id": "BK22005013.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 그냥 털이 아니라 방어를 위해 쓰였던 털이구나. 그나저나 타란툴라 수명은 어느정도 돼?",
+            "turn_id": "BK22005013-7",
+            "utterance_id": "BK22005013.13"
+        },
+        {
+            "reference_date": "2019-10-30",
+            "reference_text": [
+                {
+                    "value": "거미는 대체로 짧게는 1년 미만에서 길게는 3년 이상 사는 것으로 알려져 있는데 애완용으로 기르기도 하는 타란툴라 중에는 25년을 산 경우도 있다고 한다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.idomin.com/news/articleView.html?idxno=711544",
+            "search_query": "타란툴라 수명",
+            "terminate": false,
+            "text": "거미는 보통 짧게 1년에서 길게 3년 정도 사는 것으로 알려져있어. 그런데 애완용으로 키우는 타란툴라 중에선 25년을 산 경우도 있다고 알려져있지.",
+            "turn_id": "BK22005013-7",
+            "utterance_id": "BK22005013.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "25년이라면 어지간한 개와 고양이보다 더 사는거네? 근데 거미는 탈피를 하잖아. 타란툴라도 탈피를 할까?",
+            "turn_id": "BK22005013-8",
+            "utterance_id": "BK22005013.15"
+        },
+        {
+            "reference_date": "2020-01-13",
+            "reference_text": [
+                {
+                    "value": "타란튤라의 탈피는 오래된 외부 껍질이 떨어지고 새로운 피부가 등장하는 과정이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 타란튤라는 이 시기에 아무 것도 먹지 않고 가만히 있는다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "탈피가 완료되기까지 몇 시간이 걸린다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.famtimes.co.kr/news/articleView.html?idxno=45133",
+            "search_query": "타란툴라 탈피",
+            "terminate": false,
+            "text": "물론이지. 타란툴라도 오래된 외부 껍질을 벗고 새로운 피부를 얻기 위해 탈피를 해. 보통 탈피를 하고 있는 대부분의 타란툴라는 이때 아무것도 먹지 않고 가만히 있어. 탈피가 완료될 때까진 몇시간 정도 걸려.",
+            "turn_id": "BK22005013-8",
+            "utterance_id": "BK22005013.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 거미랑 다르게 신기하게 생겨서 보통 거미와 다를 줄 알았는데, 타란튤라도 같은 거미니까 탈피를 하겠네. 그런데 타란툴라의 독을 가지고 치료제를 만든 사례가 있을까? 어떤 곤충의 독은 해독제로도 쓰인다고 하던데.",
+            "turn_id": "BK22005013-9",
+            "utterance_id": "BK22005013.17"
+        },
+        {
+            "reference_date": "2021-06-28",
+            "reference_text": [
+                {
+                    "value": "거미 독에서 염증성 장질환 통증을 완화시키는 물질이 발견됐다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "염증성 장질환자는 만성적인 복통에 시달리는 경우가 많지만 아직 효과적인 치료제가 없으며 미국화학회 학술지 ‘ACS Pharmacology & Translational Science’에 거미 독의 독성 분자가 염증성 장질환 통증 완화에 효과가 있다는 실험 결과가 실렸다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "염증성 장질환이 발생한 쥐에게 Tsp1a를 투여했을 때 반사 반응이 현저하게 줄었으며 체내에서 Tsp1a가 어떤 활동을 하는지 확인하기 위한 연구가 필요하겠지만 선택적으로 발현하고 다른 신체 기능에 영향을 주지 않는 Tsp1a가 염증성 장질환 통증에 효과적인 치료제로 개발될 수 있을 것이다.",
+                    "value_time": "2022-08-02",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.whosaeng.com/128152",
+            "search_query": "타란튤라 독 이용",
+            "terminate": false,
+            "text": "거미의 독에서 염증성 장질환 통증을 줄여주는 물질이 발견됐어. 염증성 장질환 환자는 만성적인 복통을 앓고 있는데, 그 환자들을 위한 뚜렷한 치료제가 없거든. 그런데 미국화학회 학술지인 ACS Pharmacology Translational Science에 올라온 실험결과에 따르면 거미의 독 성분이 염증성 장질환 환자가 겪는 통증에 효과가 있다고 나타났어. 염증성 장질환이 있는 쥐에게 Tsp1a를 투여했을 때 반사반응이 줄었는데, 체내에서 이 물질이 어떤 작용을 하는지 확인하는데 시간이 걸리겠지만 선택적으로 발현하는 이 물질이 염증성 장질환 통증에 효과적인 치료제가 될 수 있을거라고 전망하고 있어.",
+            "turn_id": "BK22005013-9",
+            "utterance_id": "BK22005013.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "치료제가 없는 질환이라니 참 안타깝다. 거미의 독이 치료제가 되어서 염증성 장질환 환자에게 효과가 있었으면 좋겠다. 그럼 나는 곤충의 독이 실제로 치료제가 된 경우가 있나 보러가볼게.",
+            "turn_id": "BK22005013-10",
+            "utterance_id": "BK22005013.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "여러 정보를 찾아보고 좋은 정보가 있으면 나에게도 알려줘. 그리고 궁금한게 있으면 언제든지 물어봐. 내가 궁금한 것을 해결해 줄게.",
+            "turn_id": "BK22005013-10",
+            "utterance_id": "BK22005013.20"
+        }
+    ]
+}

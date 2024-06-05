@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22000407",
+        "name": "2022 한국어 블렌더봇 데이터 BK22000407",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 3.8,
+                "speaker2UttScore": 3.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 코코아랑 카카오의 차이가 뭔지 알아? 난 같은 건 줄 알았더니, 좀 다르다고 하더라고.",
+            "turn_id": "BK22000407-1",
+            "utterance_id": "BK22000407.1"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "카카오콩을 빻아 코코아 음료를 만들거나, 우유와 설탕 등과 섞어 초콜릿을 만든다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "열매를 빻아 만든 가루는 코코아라고 하며, 이를 건조한 뒤 잘게 쪼개 카카오닙스나 코코아매스로 시판하기도 한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B9%B4%EC%98%A4",
+            "search_query": "카카오",
+            "terminate": false,
+            "text": "카카오콩을 빻으면 코코아가 되는 거고, 여기에 우유랑 설탕을 섞어 만들면 초콜릿이 되는 거야. 참고로 카카오콩을 빻지 않고, 말려서 잘게 쪼개서 카카오닙스나 코코아매스를 만들 수도 있어.",
+            "turn_id": "BK22000407-1",
+            "utterance_id": "BK22000407.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 같은 게 아니라 카카오가 코코아의 주원료였구나. 카카오가 나무야?",
+            "turn_id": "BK22000407-2",
+            "utterance_id": "BK22000407.3"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "아욱과에 속하는 상록수로 중·남아메리카가 원산지인 열대 식물이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B9%B4%EC%98%A4",
+            "search_query": "카카오 원산지",
+            "terminate": false,
+            "text": "카카오는 아욱과에 속하는 상록수인데, 열대 식물에 속해. 중남아메리카가 원산지이고.",
+            "turn_id": "BK22000407-2",
+            "utterance_id": "BK22000407.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중남아메리카 지역에서 많이 자라는구나. 근데 아까 카카오는 콩이라고 했잖아? 나무에서 콩이 열리는 거야?",
+            "turn_id": "BK22000407-3",
+            "utterance_id": "BK22000407.5"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "열매 하나에 20~50개의 씨앗이 들어 있는데, 이것을 모아 발효시켜 말리면 갈색 빛을 띠고 독특한 향기를 풍긴다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이것을 카카오콩이라고 하는데, 여기에는 카페인 등의 흥분제와 지방이 함유되어 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B9%B4%EC%98%A4",
+            "search_query": "카카오콩",
+            "terminate": false,
+            "text": "정확히는 콩이 아니라 씨앗이라고 봐야 돼. 열매 안에 씨앗이 20개에서 50개 정도 있는데, 이걸 발효시켜서 말리면 갈색빛의 카카오콩이 되는거야. 독특한 향기가 나고, 카페인 같은 흥분제 성분과 지방이 들어있어.",
+            "turn_id": "BK22000407-3",
+            "utterance_id": "BK22000407.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 초콜릿 먹을 때 카페인 과다 섭취하지 않게 주의하라고들 하는구나. 그래도 카카오닙스가 건강에 좋다는 말은 많이 들어봤어. 근데 코코아 매스는 처음 듣는데 그건 뭐지?",
+            "turn_id": "BK22000407-4",
+            "utterance_id": "BK22000407.7"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "그리고 잘게 빻으면 코코아 버터와 코코아 매스가 분리되는데, 이 코코아 매스를 반죽해 설탕과 향료 등을 첨가한 것이 초콜릿이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1286238/%ec%bd%94%ec%bd%94%ec%95%84%eb%a7%a4%ec%8a%a4-%ed%95%a8%eb%9f%89-%eb%86%92%ec%9d%80-%eb%8b%a4%ed%81%ac-%ec%b4%88%ec%bd%9c%eb%a6%bf-%ea%b1%b4%ea%b0%95%ec%97%90-%ec%a2%8b%ec%9d%84%ea%b9%8c/",
+            "search_query": "코코아매스",
+            "terminate": false,
+            "text": "카카오콩을 잘게 빻으면 코코아 버터랑 코코아 매스로 나눠져. 이 코코아 매스에다가 설탕과 향료 같은 걸 넣어서 반죽한 게 초콜릿이 되는 거야.",
+            "turn_id": "BK22000407-4",
+            "utterance_id": "BK22000407.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카카오가 좀 쓴맛이라고 들었는데, 그럼 코코아 매스가 많이 들어갈수록 더 쓴맛이 강해지는 거야?",
+            "turn_id": "BK22000407-5",
+            "utterance_id": "BK22000407.9"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "다크 초콜릿은 코코아 매스가 35% 이상 들어간 초콜릿을 가리킨다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1286238/%ec%bd%94%ec%bd%94%ec%95%84%eb%a7%a4%ec%8a%a4-%ed%95%a8%eb%9f%89-%eb%86%92%ec%9d%80-%eb%8b%a4%ed%81%ac-%ec%b4%88%ec%bd%9c%eb%a6%bf-%ea%b1%b4%ea%b0%95%ec%97%90-%ec%a2%8b%ec%9d%84%ea%b9%8c/",
+            "search_query": "코코아매스 다크초콜릿",
+            "terminate": false,
+            "text": "응, 네 말이 맞아. 그래서 코코아 매스가 35퍼센트 이상 함유된 초콜릿을 다크초콜릿이라고 불러.",
+            "turn_id": "BK22000407-5",
+            "utterance_id": "BK22000407.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그게 다크초콜릿이구나. 다크초콜릿이 건강에 좋다고 해서 난 자주 먹거든.",
+            "turn_id": "BK22000407-6",
+            "utterance_id": "BK22000407.11"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "◆ 항산화 성분 = 카카오 콩에는 항산화 성분인 플라보노이드가 풍부하다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카카오 콩에 든 플라보노이드는 ‘플라바놀’이라 불리는데, 심장과 두뇌의 혈액 순환을 개선하는 효능을 가지고 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1286238/%ec%bd%94%ec%bd%94%ec%95%84%eb%a7%a4%ec%8a%a4-%ed%95%a8%eb%9f%89-%eb%86%92%ec%9d%80-%eb%8b%a4%ed%81%ac-%ec%b4%88%ec%bd%9c%eb%a6%bf-%ea%b1%b4%ea%b0%95%ec%97%90-%ec%a2%8b%ec%9d%84%ea%b9%8c/",
+            "search_query": "다크 초콜릿 항산화 성분",
+            "terminate": false,
+            "text": "카카오콩에는 황산화 성분인 플라보노이드가 풍부하거든. 이걸 플라바놀이라고 부르는데, 심장과 두뇌 혈액 순환을 개선하는 효능이 있어서 건강에 좋아.",
+            "turn_id": "BK22000407-6",
+            "utterance_id": "BK22000407.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 앞으로는 더 많이 챙겨 먹어야겠어.",
+            "turn_id": "BK22000407-7",
+            "utterance_id": "BK22000407.13"
+        },
+        {
+            "reference_date": "2019-04-08",
+            "reference_text": [
+                {
+                    "value": "그렇다고 건강식품으로 여겨 많이 먹는 일은 없어야 한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다크 초콜릿이라 해도 밀크 초콜릿과 마찬가지로 100g당 500kcal 내외로 칼로리가 아주 높기 때문이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1286238/%ec%bd%94%ec%bd%94%ec%95%84%eb%a7%a4%ec%8a%a4-%ed%95%a8%eb%9f%89-%eb%86%92%ec%9d%80-%eb%8b%a4%ed%81%ac-%ec%b4%88%ec%bd%9c%eb%a6%bf-%ea%b1%b4%ea%b0%95%ec%97%90-%ec%a2%8b%ec%9d%84%ea%b9%8c/",
+            "search_query": "다크 초콜릿 건강식품",
+            "terminate": false,
+            "text": "그래도 건강식품으로 생각하고 많이 먹는 건 안 좋아. 100그램 당 칼로리가 500칼로리 정도로 아주 높아서, 밀크 초콜릿하고 별 차이가 없어.",
+            "turn_id": "BK22000407-7",
+            "utterance_id": "BK22000407.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 다크초콜릿에도 의외로 설탕이 많이 들어가나?",
+            "turn_id": "BK22000407-8",
+            "utterance_id": "BK22000407.15"
+        },
+        {
+            "reference_date": "2016-05-16",
+            "reference_text": [
+                {
+                    "value": "다크초콜릿에는 분유나 설탕이 들어가지 않거나 아주 적은 양이 들어간다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/society/article/201605162634I",
+            "search_query": "다크 초콜릿 설탕",
+            "terminate": false,
+            "text": "아니, 분유나 설탕을 아주 적은 양만 넣거나 아예 안 들어가.",
+            "turn_id": "BK22000407-8",
+            "utterance_id": "BK22000407.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설탕은 안들어가서 다행이네, 다크초콜릿이라고 해도 100그램 당 500칼로리 정도면 좀 절제를 해서 먹어야겠네.",
+            "turn_id": "BK22000407-9",
+            "utterance_id": "BK22000407.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 다크초콜릿이라도 칼로리가 높기 때문에 많이 먹으면 살쪄.",
+            "turn_id": "BK22000407-9",
+            "utterance_id": "BK22000407.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "알겠어, 앞으로는 조금만 먹어야겠다. 지금 다이어트하는 중이라서 조절해야 해.",
+            "turn_id": "BK22000407-10",
+            "utterance_id": "BK22000407.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 나도 다이어트 중이니까 같이 힘내보자.",
+            "turn_id": "BK22000407-10",
+            "utterance_id": "BK22000407.20"
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008632",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008632",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0007"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "있잖아, 너 혹시 올드보이라는 영화에 대해서 들어본 적 있어?",
+            "turn_id": "BK22008632-1",
+            "utterance_id": "BK22008632.1"
+        },
+        {
+            "reference_date": "2022-07-25",
+            "reference_text": [
+                {
+                    "value": "《올드보이》(Oldboy)는 대한민국의 영화 감독인 박찬욱 감독의 2003년 작품이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최민식이 주연을 맡았다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%AC%EB%93%9C%EB%B3%B4%EC%9D%B4",
+            "search_query": "영화 올드보이",
+            "terminate": false,
+            "text": "물론이야, 한국의 영화감독인 박찬욱 감독이 제작한 영화잖아. 2003년에 나온 작품이고, 주연 배우는 최민식이지.",
+            "turn_id": "BK22008632-1",
+            "utterance_id": "BK22008632.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 이번에 케이블에서 방송해준 걸 재미있게 봐서 자료를 좀 찾아봤는데, 이 올드보이의 오대수라는 캐릭터가 그리스 신화의 오이디푸스를 모티브로 만든 캐릭터라고 하더라? 난 그리스 신화를 잘 몰라서 오이디푸스 신화가 뭔지 모르는데, 혹시 오이디푸스가 사람 이름이야?",
+            "turn_id": "BK22008632-2",
+            "utterance_id": "BK22008632.3"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "오이디푸스(고대 그리스어: Οἰδίπους)는 그리스 신화에 등장하는 도시 테바이의 왕이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오이디푸스란 이름의 뜻은 ‘부은 발’이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%9D%B4%EB%94%94%ED%91%B8%EC%8A%A4",
+            "search_query": "오이디푸스 이름",
+            "terminate": false,
+            "text": "맞아, 오이디푸스는 그리스 신화에 등장하는 인물의 이름인데, 이 사람은 테바이의 왕이었지. 참고로 오이디푸스라는 인명은 부은 발이라는 의미를 가지고 있어.",
+            "turn_id": "BK22008632-2",
+            "utterance_id": "BK22008632.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부은 발이라니, 굉장히 괴상한 이름이네. 오이디푸스라는 왕은 왜 부은 발이라는 의미의 이름을 가지게 된 거야?",
+            "turn_id": "BK22008632-3",
+            "utterance_id": "BK22008632.5"
+        },
+        {
+            "reference_date": "2018-10-10",
+            "reference_text": [
+                {
+                    "value": "오이디푸스(부은 발)는 버려질 때 두 발목을 쇠사슬로 묶었기 때문에 이런 이름을 얻었다고 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newsmp.com/news/articleView.html?idxno=186965",
+            "search_query": "오이디푸스 부은 발 이름 이유",
+            "terminate": false,
+            "text": "그건 오이디푸스의 안타까운 과거 때문이었어. 오이디푸스는 버려진 적이 있었는데, 이때 두 발목이 쇠사슬에 묶인 채로 버려졌거든. 이 때문에 부은 발이라는 의미의 오이디푸스라는 이름을 얻게 된 거야.",
+            "turn_id": "BK22008632-3",
+            "utterance_id": "BK22008632.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "버려진 적이 있다면, 오이디푸스가 자기 부모에게 버림받았던 적이 있었던 거야? 만약 그렇다면, 왜 오이디푸스의 부모는 자기 아이를 버린 거지?",
+            "turn_id": "BK22008632-4",
+            "utterance_id": "BK22008632.7"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "오이디푸스가 태어나기 전에 아버지인 라이오스와 어머니인 이오카스테와의 사이에서 낳은 아들에 의해서 아버지가 장차 죽임을 당할 것이라는 신탁이 내려졌다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오이디푸스가 태어나자, 라이오스와 이오카스테는 신탁이 현실로 이루어질 것을 두려워하여 어린 오이디푸스의 발목을 묶어 부하를 시켜 인적 없는 산에 버리게 하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%9D%B4%EB%94%94%ED%91%B8%EC%8A%A4",
+            "search_query": "오이디푸스 부모 버린 이유",
+            "terminate": false,
+            "text": "그건 오이디푸스의 부모가 들은 불길한 신탁 때문이야. 오이디푸스의 아버지는 라이오스고, 어머니는 이오카스테라는 인물이었는데, 이 둘은 오이디푸스가 태어나기 전에 들었던 신탁을 통해 장차 이 둘의 아들이 아버지를 죽이게 될 거라는 내용을 듣게 돼. 이 신탁을 두려워했던 오이디푸스의 부모는 결국 부하를 시켜, 어렸던 오이디푸스의 발목을 묶어서 사람이 오가지 않는 산에 버리게 한 거지.",
+            "turn_id": "BK22008632-4",
+            "utterance_id": "BK22008632.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무리 그래도 그렇지, 고작 신탁 때문에 자기 아들을 그렇게 버리다니 너무하다. 그런데 오이디푸스는 버려진 이후에도 살아남았잖아. 오이디푸스가 발이 묶여서 버려진 이후, 어떤 일이 벌어진 거야?",
+            "turn_id": "BK22008632-5",
+            "utterance_id": "BK22008632.9"
+        },
+        {
+            "reference_date": "2020-05-06",
+            "reference_text": [
+                {
+                    "value": "코린토스의 양치기가 키타이론 숲에서 양떼를 돌보고 있을 때 테베의 양치기가 다가와 두 발이 족쇄에 묶인 오이디푸스를 건넸다고 말한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이후 자식이 없던 폴리보스 왕 부부에게 어린 오이디푸스를 선물로 주었다고 이야기한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=32914",
+            "search_query": "오이디푸스 버려진 뒤 어떻게 생존",
+            "terminate": false,
+            "text": "양치기를 통해, 오이디푸스는 폴리보스 왕 부부에게 가게 되었어. 키타이론 숲에서 코린토스의 양치기가 양을 돌보고 있었을 때, 테바이의 양치기가 양쪽 발이 족쇄에 묶여 있던 오이디푸스를 코린토스의 양치기에게 건네줬던 거야. 폴리보스의 왕과 왕비에게는 자식이 없었는데, 이 둘에게 코린토스가 양치기가 어린 오이디푸스를 선물로 넘겼던 거지.",
+            "turn_id": "BK22008632-5",
+            "utterance_id": "BK22008632.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그러면 양치기가 오이디푸스를 구해준 이후로, 폴리보스의 왕과 왕비가, 오이디푸스를 자식처럼 길렀던 거야?",
+            "turn_id": "BK22008632-6",
+            "utterance_id": "BK22008632.11"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "어린 오이디푸스를 받은 목동은 그 아이를 코린토스의 왕인 폴뤼보스와 그의 아내 메로페에게 바친다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오이디푸스는 폴뤼보스와 메로페를 친부와 친모로 여기고 자라던 중, 장차 자신이 아버지를 죽이고 어머니와 결혼할 것이라는 신탁을 듣고는 그 무시무시한 운명을 피하기 위하여 코린토스를 떠난다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%9D%B4%EB%94%94%ED%91%B8%EC%8A%A4",
+            "search_query": "폴리보스 왕 오이디푸스",
+            "terminate": false,
+            "text": "맞아, 양치기가 어린 오이디푸스를 코린토스의 왕인 폴리보스와 왕비 메로페에게 바친 이후, 오이디푸스는 이 둘이 자기의 친부모라고 믿고선 자랐지. 그런데 어느 날, 오이디푸스는 무서운 신탁을 듣게 되었는데, 언젠간 본인이 자기 아버지를 죽인 뒤 어머니랑 결혼할 거라는 내용의 예언이었지. 이 신탁을 들은 오이디푸스는, 이 두려운 운명을 피하기 위해 코린토스를 떠나게 돼.",
+            "turn_id": "BK22008632-6",
+            "utterance_id": "BK22008632.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 라이오스와 이오카스테가 들은 신탁의 내용이랑 비슷하잖아. 그런데 오이디푸스가 들은 신탁에서 말하는 아버지는 폴리보스야, 아니면 친아버지인 라이오스야? 오이디푸스가 결국 누군가를 죽이게 되는지, 그렇다면 누구를 죽였는지도 궁금해.",
+            "turn_id": "BK22008632-7",
+            "utterance_id": "BK22008632.13"
+        },
+        {
+            "reference_date": "2022-02-21",
+            "reference_text": [
+                {
+                    "value": "오이디푸스는 테바이로 여행하던 중에 자신의 친아버지 라이오스와 길거리에서 통행에 분쟁이 붙어 라이오스를 죽여 버리고 만다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%9D%B4%EB%94%94%ED%91%B8%EC%8A%A4",
+            "search_query": "오이디푸스가 죽인 아버지",
+            "terminate": false,
+            "text": "오이디푸스가 죽인 건 본인의 친아버지였던 라이오스였어. 오이디푸스는 테바이로 여행을 하던 중이었는데, 그만 길을 가다가 라이오스와 시비가 붙었던 거야. 그리고 그 분쟁의 끝에, 오이디푸스는 결국 자기 아버지인 라이오스를 살해하고 말아.",
+            "turn_id": "BK22008632-7",
+            "utterance_id": "BK22008632.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니, 그러면 오이디푸스와 라이오스가 들은 신탁이 둘 다 들어맞게 되었네. 그러면 설마, 오이디푸스가 나중 가선 자기 어머니와 결혼하게 된다는 신탁도 이뤄지게 돼?",
+            "turn_id": "BK22008632-8",
+            "utterance_id": "BK22008632.15"
+        },
+        {
+            "reference_date": "2018-07-07",
+            "reference_text": [
+                {
+                    "value": "오이디푸스는 스핑크스의 수수께끼를 풀고 테베의 역병을 멈추게 만들었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고는 테베 왕비 이오카스테와 결혼해 테베의 왕이 됐다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 이오카스테가 자신의 생모인지 몰랐다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/life/article/2018070656991",
+            "search_query": "오이디푸스 어머니 결혼",
+            "terminate": false,
+            "text": "맞아, 오이디푸스는 스핑크스가 내는 수수께끼를 풀어서 테바이에 돌던 역병을 멈추게 했는데, 그 다음 테바이의 왕비이자 자신의 어머니인 이오카스테와 결혼하게 되면서 테바이의 왕이 돼. 하지만, 오이디푸스는 자신의 아내인 이오카스테가 자신의 친어머니인 줄은 꿈에도 몰랐지.",
+            "turn_id": "BK22008632-8",
+            "utterance_id": "BK22008632.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이런, 그러면 신탁이 전부 다 이뤄지게 된 거구나. 끔찍한 내용이긴 한데, 이제 왜 올드보이의 오대수를 보고 그리스 신화의 오이디푸스에서 모티브를 따온 캐릭터라고 말하는지는 이해할 수 있을 거 같아. 올드보이에서도, 근친상간이 작품의 중요한 소재로 다뤄지거든.",
+            "turn_id": "BK22008632-9",
+            "utterance_id": "BK22008632.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 그리고 올드보이 말고도, 현대에 나온 작품 중에서도 의외로 고대적 신화를 모티브로 해서 만든 작품이 찾아보면 꽤 많아. 모티브가 된 신화와 현대 작품을 비교해 보는 것도 나름 재미있을 거야.",
+            "turn_id": "BK22008632-9",
+            "utterance_id": "BK22008632.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 아무튼 네 이야기를 듣다 보니 오이디푸스 신화의 전문을 찾아서 읽어보고 싶다는 생각도 들어. 생각난 김에 난 잠시 인터넷 검색을 하러 가볼게!",
+            "turn_id": "BK22008632-10",
+            "utterance_id": "BK22008632.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 검색 잘하고 다음에 또 이야기 나누자.",
+            "turn_id": "BK22008632-10",
+            "utterance_id": "BK22008632.20"
+        }
+    ]
+}

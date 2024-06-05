@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011641",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011641",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘에 그리스 신화의 영웅에 좀 관심이 생겼는데, 영웅 헤라클라스의 친구 중에 테세우스라는 또 다른 영웅이 있다고 하더라. 보통 그리스 신화의 유명한 영웅들은 제우스의 아들인 경우가 많던데, 혹시 테세우스도 제우스의 아이인 거야?",
+            "turn_id": "BK22011641-1",
+            "utterance_id": "BK22011641.1"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "테세우스(Theseus, 고대 그리스어: Θησεύς, 그리스어: Θησέας)는 고대 아테나이의 전설적인 왕으로, 아버지는 아테나이의 왕 아에게우스이고, 어머니는 트로이젠의 공주 아에트라이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%85%8C%EC%84%B8%EC%9A%B0%EC%8A%A4",
+            "search_query": "테세우스 부모",
+            "terminate": false,
+            "text": "아니, 제우스는 테세우스의 아버지가 아니야. 테세우스는 고대 아테나이의 전설적인 왕인데, 테세우스의 아버지는 아들과 마찬가지로 아테나이의 왕인 아에게우스이고, 어머니는 트로이젠의 공주인 아에트라야.",
+            "turn_id": "BK22011641-1",
+            "utterance_id": "BK22011641.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 전설적인 왕인데도 제우스의 아들은 아니라니, 조금 의외네. 그러면 테세우스의 업적엔 어떤 것이 있어?",
+            "turn_id": "BK22011641-2",
+            "utterance_id": "BK22011641.3"
+        },
+        {
+            "reference_date": "2017-10-31",
+            "reference_text": [
+                {
+                    "value": "테세우스는 미노타우로스를 물리치고 아테네 사람을 구한 영웅이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그는 배를 타고 아테네로 돌아갔고 아테네 사람들은 테세우스의 업적을 기리기 위해 몇 백년간 그 배를 보존했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://cine21.com/news/view/?mag_id=88561",
+            "search_query": "테세우스 업적",
+            "terminate": false,
+            "text": "테세우스는 아테네 사람들을 구하기 위해 미노타우로스를 물리친 영웅이었어. 그리고 테세우스가 아테네로 배를 타고 귀환하자, 아네테인들은 테세우스의 업적을 기리기 위해 몇백년간 테세우스의 배를 보존했지.",
+            "turn_id": "BK22011641-2",
+            "utterance_id": "BK22011641.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미노타우로스라는 이름을 왠지 어디서 들어본 거 같은데, 테세우스가 물리쳤다는 미노타우로스는 어떤 인물이야?",
+            "turn_id": "BK22011641-3",
+            "utterance_id": "BK22011641.5"
+        },
+        {
+            "reference_date": "2022-02-13",
+            "reference_text": [
+                {
+                    "value": "미노타우로스(그리스어: Μῑνώταυρος)는 그리스 신화에 나오는 괴물(비스트맨)로 인간의 몸을 하고 얼굴과 꼬리는 황소의 모습을 한 괴물이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미노타우로스라는 이름의 뜻은 그리스어로 '미노스의 황소'를 뜻한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%85%B8%ED%83%80%EC%9A%B0%EB%A1%9C%EC%8A%A4",
+            "search_query": "미노타우로스",
+            "terminate": false,
+            "text": "아, 미노타우로스는 사람이 아니라, 그리스 신화에 나오는 괴물의 이름인데, 이 이름은 그리스어로 미노스의 황소를 의미해. 미노타우로스는 몸은 인간이지만, 얼굴과 꼬리는 인간이 아니라 황소의 모습을 하고 있지.",
+            "turn_id": "BK22011641-3",
+            "utterance_id": "BK22011641.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 굉장히 기묘한 괴물인걸. 그런데 아까 전에 네가, 테세우스가 아테네 사람들을 구하기 위해서 미노타우로스를 물리쳤다고 했잖아. 미노타우로스가 아테네 사람들에게 무슨 일을 했길래, 테세우스가 직접 나서야 했던 거야?",
+            "turn_id": "BK22011641-4",
+            "utterance_id": "BK22011641.7"
+        },
+        {
+            "reference_date": "2022-02-13",
+            "reference_text": [
+                {
+                    "value": "미노스의 아들 안드로게오스는 아테네에서 열린 경기에 참가했다가 살해 당했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아들의 목숨에 대한 대가로 미노스는 아테네에게 9년에 한 번씩 청년 7명, 처녀 7명을 각각 바치게 했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 인신공물을 미궁으로 보내어 미노타우로스에게 주었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이렇게 두번의 공물이 바쳐지고 세 번째 공물이 바쳐질 즈음, 아테네의 영웅 테세우스가 희생물로 자원하여 이 미궁속으로 들어가 미노타우로스를 죽여버렸다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%85%B8%ED%83%80%EC%9A%B0%EB%A1%9C%EC%8A%A4",
+            "search_query": "미노타우로스 아테네",
+            "terminate": false,
+            "text": "이 이야기를 하려면, 우선 아들을 잃게 된 미노스의 원한에 대해서 먼저 설명해야 해. 미노스에게는 안드로게오스라는 아들이 있었는데, 어느 날 이 아들이 아테네에서 열린 경기에 참여했다가 그만 목숨을 잃는 일이 생겼던 거야. 그러자 미노스는 자신의 아들의 목숨에 대한 대가로, 9년에 한 번씩 남녀 청년 7명씩을 바칠 것을 아테네에 요구하게 돼. 그리고 이렇게 바쳐진 청년들은 미궁으로 보내져서 미노타우로스에게 가게 되었지. 그리고 시간이 흘러 세 번째 공물이 바쳐질 때가 되자, 아테네의 영웅인 테세우스가 자신이 희생물이 될 것을 자처한 다음, 미궁 속으로 들어가 직접 미노타우로스를 살해하게 되지.",
+            "turn_id": "BK22011641-4",
+            "utterance_id": "BK22011641.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아들을 잃은 슬픔이야 백번 이해할 수 있지만, 아무리 그래도 아테네에 그런 요청을 하다니, 미노스라는 사람도 정말 너무하네. 그나저나 테세우스 혼자서 미궁에서 빠져나오는 것도, 미노타우로스를 상대하는 것도 쉽지 않았을 텐데, 혹시 테세우스를 도와줄 수 있는 조력자는 없었던 거야?",
+            "turn_id": "BK22011641-5",
+            "utterance_id": "BK22011641.9"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "하지만 테세우스는 자기 힘만으로 미노타우로스를 제압한 것이 아니었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 명의 특별한 조력자가 있었으니 아리아드네가 그 사람이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미노스의 딸로서 테세우스를 사랑하게 된 아리아드네는 미궁으로 들어가는 정인에게 실타래를 전해준다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실 줄기를 따라서 움직임으로써 테세우스는 미궁에서 길을 찾아 나올 수 있었으니 결정적인 도움이었다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/well/well_friend/1030929.html",
+            "search_query": "테세우스 조력자",
+            "terminate": false,
+            "text": "다행히 테세우스가 미노타우로스를 제압할 수 있도록 도움을 줬던 조력자가 한 명 있었어. 바로 아리아드네였지. 아리아드네는 미노스의 딸이었는데, 그만 테세우스를 사랑하게 된 거야. 그래서 미궁으로 들어가는 테세우스에게 실타래를 주었는데, 이 실타래의 줄기 덕분에 테세우스는 미궁에서 무사히 길을 찾아 빠져나올 수 있었어. 그러니 아리아드네가 테세우스에게 결정적인 도움을 준 거라 볼 수 있지.",
+            "turn_id": "BK22011641-5",
+            "utterance_id": "BK22011641.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 아리아드네가 테세우스의 목숨을 구한 거나 마찬가지네. 그러면 미노타우로스를 물리친 다음, 두 사람은 행복하게 살았어?",
+            "turn_id": "BK22011641-6",
+            "utterance_id": "BK22011641.11"
+        },
+        {
+            "reference_date": "2022-08-27",
+            "reference_text": [
+                {
+                    "value": "헤시오도스를 비롯한 대부분의 전승에서 테세우스가 낙소스 섬에 잠든 아리아드네를 버리고 떠난 후 디오니소스가 그녀를 발견하여 결혼하는 것으로 묘사되지만, 몇몇 전승에서는 디오니소스가 테세우스에게 나타나 아리아드네를 낙소스 섬에 두고 떠나라고 요구했다고 전해진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A6%AC%EC%95%84%EB%93%9C%EB%84%A4",
+            "search_query": "아리아드네 테세우스",
+            "terminate": false,
+            "text": "아니, 헤시오도스를 포함한 대부분의 전승에 따르면, 아리아드네는 테세우스가 아니라 디오니소스와 결혼하게 돼. 낙소스 섬에서 아리아드네가 잠들자, 테세우스는 그녀를 버리고 떠나버리거든. 이후 디오니소스가 아리아드네를 발견하게 되어 둘은 결혼하게 되는데, 일부 전승의 경우 디오니소스가 먼저 테세우스의 앞에 나타나서 아리아드네를 낙소스 섬에 버리고 가라고 했지.",
+            "turn_id": "BK22011641-6",
+            "utterance_id": "BK22011641.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무리 그래도 그렇지, 자기를 도와준 아리아드네를 그렇게 섬에 버리고 가다니 좀 너무한 거 같아. 이 이야기만 들으면 테세우스는 영웅일지는 몰라도 신랑감으로는 별로 좋지 않은 인물인 것 같은데, 혹시 테세우스에게 아내가 있기는 했어?",
+            "turn_id": "BK22011641-7",
+            "utterance_id": "BK22011641.13"
+        },
+        {
+            "reference_date": "2022-02-14",
+            "reference_text": [
+                {
+                    "value": "그의 두번째 아내 파이드라가 첫 아내 안티오페의 아들 히폴리토스를 욕망하다가 자살하고, 히폴리토스도 아버지의 저주 속에 죽어버린다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/well/well_friend/1030929.html",
+            "search_query": "테세우스 아내",
+            "terminate": false,
+            "text": "테세우스에게는 아내가 두 명 있었어. 첫 번째 아내는 안티오페고, 두 번째 아내는 파이드라였는데, 파이드라는 그만 안티오페의 아들이었던 히폴리토스에게 흑심을 품었다가 결국 자살하게 된 거야. 그리고 히폴리토스는 아버지의 저주 속에 목숨을 잃게 되지.",
+            "turn_id": "BK22011641-7",
+            "utterance_id": "BK22011641.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 좀 막장 드라마 같은 설정이네. 그런데 히폴리토스는 테세우스의 어떤 저주 때문에 목숨을 잃게 된 거야?",
+            "turn_id": "BK22011641-8",
+            "utterance_id": "BK22011641.15"
+        },
+        {
+            "reference_date": "2022-02-08",
+            "reference_text": [
+                {
+                    "value": "그러나 히폴리토스는 그녀를 거부하였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마음을 거부당한 것에 분노한 파이드라는 복수를 위해 테세우스에게 히폴리토스가 자신을 강간했다는 편지를 썼다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그녀의 말을 믿은 테세우스는 히폴리토스가 포세이돈에게 세 가지 저주 중 하나를 받도록 저주하였다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 결과, 히폴리토스가 탄 말들이 바다 괴물에게 겁을 먹고 그를 죽음으로 몰았다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EB%93%9C%EB%9D%BC",
+            "search_query": "히폴리토스 저주",
+            "terminate": false,
+            "text": "우선, 히폴리토스는 파이드라의 마음을 거부했는데, 자신이 거절당한 것을 견디지 못해 복수심에 불타오른 파이드라는, 히폴리토스가 자신을 범했다는 거짓 편지를 테세우스에게 보냈어. 테세우스는 파이드라의 말을 그만 믿고 말았고, 결국 히폴리토스를 저주했는데, 그 저주의 내용은 히폴리토스가 포세이돈으로부터 세 개의 저주 중 하나를 받게 될 거라는 것이었지. 결국, 히폴리토스가 타고 있던 말들이 바다 괴물에게 겁을 먹게 되면서, 결국 히폴리토스를 죽게 만들게 돼.",
+            "turn_id": "BK22011641-8",
+            "utterance_id": "BK22011641.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 보통 그리스 영웅 신화에는 해피엔딩이 많던데, 테세우스의 경우 영웅은 되었어도 집안이 그야말로 풍비박산이 났으니 이걸 해피엔딩이라고 볼 수는 없겠네. 한 편으로는 자기를 도와준 아리아드네를 버린 대가를 테세우스가 이런 식으로 치르는 걸지도 모른다는 생각도 들지만, 테세우스의 저주 때문에 난데없이 죽음을 맞은 아들 히폴리토스 입장에서는 좀 억울하겠어.",
+            "turn_id": "BK22011641-9",
+            "utterance_id": "BK22011641.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 아버지의 저주 때문에 목숨을 잃은 아들이라니. 테세우스 뿐만 아니라 히폴리토스 본인에게 있어서도 이건 엄청난 비극이었을 거야.",
+            "turn_id": "BK22011641-9",
+            "utterance_id": "BK22011641.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게 말이야, 아무튼 흥미로운 이야기를 들려줘서 고마워. 더 이야기를 나누고 싶지만, 난 이만 잘 시간이 되어서 그만 들어가야 할 것 같아.",
+            "turn_id": "BK22011641-10",
+            "utterance_id": "BK22011641.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 시간이 좀 늦기는 했네. 잘 자고, 다음에 또 이야기 나누자.",
+            "turn_id": "BK22011641-10",
+            "utterance_id": "BK22011641.20"
+        }
+    ]
+}

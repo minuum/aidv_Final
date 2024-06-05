@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011449",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011449",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뇌의 구조에 대해 정리하는 과제를 받았어. 도와줄래? 각 뇌의 구조나 기능에 대해서 설명해주면 될 것 같아.",
+            "turn_id": "BK22011449-1",
+            "utterance_id": "BK22011449.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 뇌의 이름에 대해서는 알고 있는 거지?",
+            "turn_id": "BK22011449-1",
+            "utterance_id": "BK22011449.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각 뇌의 명칭은 알고 있어. 먼저 대뇌의 구조와 기능부터 설명해줄래?",
+            "turn_id": "BK22011449-2",
+            "utterance_id": "BK22011449.3"
+        },
+        {
+            "reference_date": "2022-08-22",
+            "reference_text": [
+                {
+                    "value": "대뇌는 감각과 수의 운동의 중추일 뿐만 아니라 기억이나 판단 등 정신활동의 중추이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대뇌는 뇌량으로 연결된 2개의 대뇌반구로 이루어져 있으며 뇌량에 의한 연결은 두 대뇌 반구의 신호전달과 상호작용에 중요한 역할을 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%87%8C",
+            "search_query": "대뇌",
+            "terminate": false,
+            "text": "대뇌는 2개의 대뇌반구로 이루어져 있고 이 둘은 뇌량으로 연결되어 있어. 뇌량의 연결은 대뇌반구의 신호전달과 상호작용에 있어 중요한 기능이지. 대뇌는 기억이나 판단 같은 정신활동 기능을 하며 감각과 수의 운동의 중추이기도 해.",
+            "turn_id": "BK22011449-2",
+            "utterance_id": "BK22011449.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대뇌는 고등 정신 기능을 하는 거구나. 그럼 소뇌는 어떤 구조고 어떤 기능을 해?",
+            "turn_id": "BK22011449-3",
+            "utterance_id": "BK22011449.5"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "소뇌(小腦, cerebellum)는 척추동물 대부분의 후뇌에서 도드라게 관찰되는 뇌의 일부분이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "감각 인지의 통합과 근육의 조정과 제어에서 중요한 역할을 담당하는 것으로 알려져있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 이외에도 주의, 언어와 같은 인지 기능과 두려움 조절, 쾌락 반응 등에 관련되어 있는 것이 알려져 있다.[2][3]",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해부학적으로는 대뇌 하부에 분리되어 존재한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%EB%87%8C",
+            "search_query": "소뇌",
+            "terminate": false,
+            "text": "척추동물 대부분의 소뇌는 후뇌에서 두드러지게 관찰되며 대뇌 하부에 분리되어 있어. 소뇌가 담당하는 중요한 역할은 감각 인지의 통합과 근육의 조정과 제어이며, 또한 쾌락 반응, 두려움 조절, 주의, 언어와 같은 인지 기능 등과 관련이 있어.",
+            "turn_id": "BK22011449-3",
+            "utterance_id": "BK22011449.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 부분은 모두 대뇌라고 생각했는데 의외다. 간뇌는 어떤 기능을 해?",
+            "turn_id": "BK22011449-4",
+            "utterance_id": "BK22011449.7"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "사이뇌 또는 간뇌(間腦, diencephalon)는 항상성의 중추로 뇌줄기(brainstem)와 대뇌 사이에 존재한다. 간뇌는 넓은 의미로 시상, 시상하부 그리고 뇌하수체와 송과선을 포함하는 내분비조직으로 나누어 볼 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EB%87%8C",
+            "search_query": "간뇌",
+            "terminate": false,
+            "text": "간뇌는 사이뇌라고도 하는데, 항상성의 중추로 뇌줄기와 대뇌 사이에 있어. 간뇌는 시상, 시상하부, 그리고 내분비조직으로 크게 나눌 수 있어. 참고로 내분비선에는 뇌하수체와 송과선이 있지.",
+            "turn_id": "BK22011449-4",
+            "utterance_id": "BK22011449.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "각 명칭을 물어볼 생각이었는데 모두 간뇌의 일부구나. 시상에 대해서 먼저 어떤 역할을 하는지 설명해줘.",
+            "turn_id": "BK22011449-5",
+            "utterance_id": "BK22011449.9"
+        },
+        {
+            "reference_date": "2022-06-07",
+            "reference_text": [
+                {
+                    "value": "시상(視床, thalamus)은 뇌의 중앙에 위치하는데 이는 해부학적으로 대뇌의 안쪽, 중뇌의 바로 전측 및 배측에 놓여있으며 여러개의 핵으로 이루어져 있고 간뇌(사이뇌)의 대부분을 차지하는 주요 구조이자 개체발생학적으로 또는 해부학적으로는 전뇌와 뇌간의 중간 위치에 놓여있을뿐만아니라 시상하부의 상위에 위치하고 변연계의 중심축에 위치한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉 후각을 제외한 시각계, 청각계 및 체감각계는 시상을 거쳐 대뇌피질에 투사되며 또한 운동신호의 중계, 의식, 수면 등의 조절에 대한 모든 감각 신경로가 이곳에 모였다가 다시 해당 감각 대뇌피질 및 대뇌변연계, 뇌간 망상체 그리고 소뇌등으로 전달된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%83%81",
+            "search_query": "시상",
+            "terminate": false,
+            "text": "뇌의 중앙에 위치하는 시상은 대뇌의 안쪽, 중뇌의 바로 전측 및 배 측에 있어. 시상은 뇌의 대부분을 차지하는 주요 구조로서 여러 개의 핵으로 이루어져 있지. 참고로 개체발생학적이나 해부학적으로는 전뇌와 뇌간의 중간에 시상이 자리하고 있는데, 여기는 시상하부의 위, 변연계의 중심축이지. 시상은 후각을 제외한 시각계, 청각계 및 체감각계가 대뇌피질에 투사되기 전에 거쳐 가는 곳이고 운동신호의 중계, 의식, 수면 등의 조절에 대한 모든 감각 신경로가 모이는 자리지. 여기서 모였던 감각 신경로는 해당 감각 대뇌피질 및 대뇌변연계, 뇌간 망상체 그리고 소뇌등으로 전달돼.",
+            "turn_id": "BK22011449-5",
+            "utterance_id": "BK22011449.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 가지가 거쳐 가고 모이는 자리라고 기억하면 좋을 것 같아. 시상하부의 역할은 어떤 거야? 시상하부라는 이름에서는 시상 아래에 있는 것으로 추측돼.",
+            "turn_id": "BK22011449-6",
+            "utterance_id": "BK22011449.11"
+        },
+        {
+            "reference_date": "2022-08-06",
+            "reference_text": [
+                {
+                    "value": "시상하부(視床下部, hypothalamus)는 2개의 시상 사이 아래에 위치해 있으며, 뇌간 바로 위에 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시상하부의 가장 중요한 기능 중 하나는 뇌하수체(pituitary gland)를 경유하여 신경계(nervous system)와 내분비계(endocrine system)를 연결하는 것이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시상하부는 대사과정과 자율신경계(autonomic nervous system)의 활동을 관장한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 신경호르몬(neurohormones)들을 합성하고 분비하며 이들은 차례로 뇌하수체 호르몬(pituitary hormones)들의 분비를 자극하거나 억제한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 시상하부(Hypothalamus)는 체온, 배고픔, 갈증, 피로, 수면 그리고 일주기 생체 리듬을 조절한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%83%81%ED%95%98%EB%B6%80",
+            "search_query": "시상하부",
+            "terminate": false,
+            "text": "추측한 그대로야. 뇌간 바로 위에 있는 시상하부는 두 개의 시상 사이 아래에 있지. 시상하부는 뇌하수체를 경유해 신경계와 내분비계를 연결하는 중요한 기능을 담당하고 있지. 그리고 시상하부는 대사과정과 자율신경계의 활동을 관장하며, 체온이나 배고픔, 갈증, 피로, 수면 그리고 일주기 생체 리듬을 조절하지. 왜냐하면 시상하부에서는 신경호르몬들을 합성하고 분비하는데 신경호르몬은 뇌하수체 호르몬의 분비를 자극하거나 억제하는 기능을 하기 때문이야.",
+            "turn_id": "BK22011449-6",
+            "utterance_id": "BK22011449.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "체온이나 피로 같은 것들도 뇌에서 이루어지는 거구나. 뇌하수체의 기능은 어떤 거야? 내분비조직이라고 했으니까 호르몬과 관련이 있을 것 같아.",
+            "turn_id": "BK22011449-7",
+            "utterance_id": "BK22011449.13"
+        },
+        {
+            "reference_date": "2022-05-10",
+            "reference_text": [
+                {
+                    "value": "뇌하수체(Pituitary gland)는 간뇌를 이루며 역시 간뇌인 시상하부 아래쪽에 매달려 있는 내분비 기관의 하나이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "다른 종류의 호르몬들의 분비를 조절하는 호르몬들을 비롯하여, 직접 많은 호르몬들을 분비하는 기능을 하는 내분비기관이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%87%8C%ED%95%98%EC%88%98%EC%B2%B4",
+            "search_query": "뇌하수체",
+            "terminate": false,
+            "text": "정확한 추측이야. 간뇌를 이루는 뇌하수체는 시상하부 아래쪽에 매달려 있는 내분비기관 중 하나로 다른 종류의 호르몬의 분비를 조절하는 호르몬 같은 여러 많은 호르몬을 직접 분비하는 기능을 가지고 있지.",
+            "turn_id": "BK22011449-7",
+            "utterance_id": "BK22011449.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 송과선은 어떤 역할을 해? 마찬가지로 호르몬을 분비하는 걸까?",
+            "turn_id": "BK22011449-8",
+            "utterance_id": "BK22011449.15"
+        },
+        {
+            "reference_date": "2022-06-20",
+            "reference_text": [
+                {
+                    "value": "송과선(松果腺), 솔방울샘, 또는 송과체(松果體)는 척추동물의 뇌 속에 위치하고 있는 작은 내분비기관이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 기관은 세로토닌에 의해 분비신호를 받아 멜라토닌을 만들어내는데, 이렇게 만들어진 멜라토닌 호르몬은 계절과 일주기 리듬에 대해 수면 패턴의 조절에 영향을 미친다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%A1%EA%B3%BC%EC%84%A0",
+            "search_query": "송과선",
+            "terminate": false,
+            "text": "맞아. 척추동물의 뇌 속에 위치하고 있는 작은 내분비기관인 송과선은 솔방울샘이나 송과체라고도 하는데, 세로토닌을 통해 분비신호를 받아 멜라토닌을 합성해. 이 멜라토닌은 계절과 일주기 리듬에 대한 수면 패턴 조절에 영향을 주지.",
+            "turn_id": "BK22011449-8",
+            "utterance_id": "BK22011449.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수면 조절에도 뇌가 관여하다니 놀랍다. 중뇌는 어떤 거야?",
+            "turn_id": "BK22011449-9",
+            "utterance_id": "BK22011449.17"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "중뇌(中腦, midbrain 또는 mesencephalon) 또는 중간뇌는 뇌줄기 아래쪽 부위와 사이뇌 사이의 비교적 작은 지역으로 비의식적인 반사운동의 중추로 뇌간(brainstem)의 일부로서 주로 안구 운동, 홍채 조절의 역할을 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EB%87%8C",
+            "search_query": "중뇌",
+            "terminate": false,
+            "text": "중뇌는 중간뇌라고도 해. 뇌줄기 아래쪽 부위와 간뇌 사이의 비교적 작은 부분으로 있어. 뇌간의 일부인 중뇌는 비의식적인 반사운동의 중추야. 주로 안구 운동, 홍채 조절의 기능을 하지.",
+            "turn_id": "BK22011449-9",
+            "utterance_id": "BK22011449.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "중뇌가 안구 운동과 관련이 있는지 전혀 몰랐네. 오늘 뇌는 여기까지 정리하면 될 것 같아. 정말 고마워.",
+            "turn_id": "BK22011449-10",
+            "utterance_id": "BK22011449.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "다음에 도움이 필요하면 또 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22011449-10",
+            "utterance_id": "BK22011449.20"
+        }
+    ]
+}

@@ -1,0 +1,411 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007143",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007143",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 제임스 웹 망원경이 보내온 우주 사진 보셨어요? 와, 정말 신비롭고 멋있더라고요! 망원경 성능이 얼마나 뛰어나길래 그렇게 잘 보일까요?",
+            "turn_id": "BK22007143-1",
+            "utterance_id": "BK22007143.1"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "제임스 웹은 관찰할 수 있는 빛의 범위가 넓어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가시광선뿐 아니라 성운과 우주먼지에 가려 보이지 않는 적외선까지 관측할 수 있어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "제임스 웹 빛 관찰 범위",
+            "terminate": false,
+            "text": "아, 저도 그 사진 봤는데 정말 신기하더라고요. 제임스 웹 망원경은 관찰 가능한 빛의 범위가 엄청 넓어서 그래요. 가시광선뿐만 아니라 성운도 관측할 수 있고, 우주먼지에 가려져서 안 보이는 적외선도 관찰 가능해요.",
+            "turn_id": "BK22007143-1",
+            "utterance_id": "BK22007143.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 멋진 망원경이네요! 그 깜깜한 우주에서 어떻게 그렇게 잘 찍었는지 참 신기해요.",
+            "turn_id": "BK22007143-2",
+            "utterance_id": "BK22007143.3"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "제임스 웹은 빛을 모으는 능력도 뛰어나요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반사경의 크기가 크기 때문이에요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빛을 모으는 능력은 오목거울인 반사경 크기에 좌우돼요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제임스 웹 반사경의 지름은 허블 망원경(2.4m)의 2.7배인 6.5m로 면적도 6배 커요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 반사경을 이용하면 맨눈으로 볼 때보다 물체를 100만배 확대해서 볼 수 있어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "제임스 웹 반사경 크기",
+            "terminate": false,
+            "text": "아, 빛을 모으는 능력치가 오목 거울로 구성된 반사경 크기에 따라 달라지는데, 제임스 웹 망원경은 반사경 크기가 상당해서 빛을 잘 모으기도 하거든요. 제임스 웹 망원경의 반사경은 지름이 2.4m인 허블 망원경보다 2.7배나 큰 6.5m예요. 면적도 6배나 크고요. 그래서 반사경을 활용하면 그냥 쌩눈으로 볼 때보다 100만 배나 확대해서 물체를 관찰할 수 있죠.",
+            "turn_id": "BK22007143-2",
+            "utterance_id": "BK22007143.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 반사경이 엄청 크군요! 근데 그렇게 큰 반사경을 어떻게 우주로 쏘아 보낸 거죠?",
+            "turn_id": "BK22007143-3",
+            "utterance_id": "BK22007143.5"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "이 정도 크기의 반사경은 너무 커서 통째로 로켓에 실을 수 없어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그래서 육각형 거울 18개를 벌집 모양으로 이어 붙여 만들었어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "접힐 수 있도록 만든 뒤 3등분으로 접은 거예요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 거울은 로켓 안에 접힌 채로 쏘아 올려지고, 우주에서 여러 단계를 거쳐 펼쳐지도록 설계됐어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "제임스 웹 반사경을 우주에 쏘아올린 방법",
+            "terminate": false,
+            "text": "반사경 크기가 로켓에 통째로 실려 보낼 수 없을 정도로 크다 보니까 3등분을 해서 보냈어요. 육각형 모양의 거울 18개를 벌집처럼 이어 붙여서 접히게끔 만들어서요. 로켓을 쏠 때 이 거울들을 잘 접어서 실었고 우주에 도착해서 단계적으로 펼쳐지게 설계했답니다.",
+            "turn_id": "BK22007143-3",
+            "utterance_id": "BK22007143.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 그런 식으로 작업을 한 거군요. 그럼 제임스 웹 망원경은 우주에서 계속 사진만 찍어서 보내는 건가요?",
+            "turn_id": "BK22007143-4",
+            "utterance_id": "BK22007143.7"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "제임스 웹의 임무 중 하나는 우주 최초의 별을 찾는 거예요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "천문학자들은 약 138억년 전 빅뱅(대폭발)으로 우주가 태어났다고 보고 있어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 빅뱅 이후 약 1억년 뒤 우주 최초의 별이 탄생했다고 추정해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 별을 '우주의 새벽'이라고 부르죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "제임스 웹의 임무 최초의 별 찾기",
+            "terminate": false,
+            "text": "그건 아니에요. 제임스 웹 망원경이 해야 할 임무로 우주에서 가장 처음 태어난 별을 찾는 게 있거든요. 천문학자들의 의견에 따르면, 약 138억 년 전에 빅뱅이라는 대폭발로 우주가 생겨났다고 하는데 그 후 1억 년이 지난 시점에 별이 처음 생겨났어요. 우주의 새벽이라고 부르는 별이죠.",
+            "turn_id": "BK22007143-4",
+            "utterance_id": "BK22007143.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 우주 최초의 별을 찾는다니 가능한 일인가 싶네요. 그럼 현재 인류가 발견한 별 중 가장 오래된 건 언제 태어난 건데요?",
+            "turn_id": "BK22007143-5",
+            "utterance_id": "BK22007143.9"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "현재 인류가 발견한 별 중 가장 오래된 별은 약 136억년 전쯤 탄생했어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 별(SMSS J031300.36-670839.3·이하 SMSS)은 2014년 호주국립대의 스테판 켈러 교수 팀이 찾아냈어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구에서 약 6000광년 떨어진 곳에 있던 별의 흔적을 지상에서 스카이매퍼 망원경을 통해 알아냈죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "인류가 발견한 가장 오래된 별",
+            "terminate": false,
+            "text": "지금까지 인간이 발견한 별 가운데 가장 오래된 건 약 136억 년 전쯤에 태어난 별이에요. SMSS라고도 부르는데, 2014년에 호주국립대의 스테판 켈러 교수 팀이 발견했죠. 지상에 있는 스카이매퍼 망원경을 통해 지구로부터 약 6000광년 떨어져 있는 별의 흔적을 찾아낸 거예요.",
+            "turn_id": "BK22007143-5",
+            "utterance_id": "BK22007143.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 그럼 태초의 별이랑 거의 근접한 수치네요. 근데 지상에서 어떻게 별의 탄생 시기를 알아낸 거죠?",
+            "turn_id": "BK22007143-6",
+            "utterance_id": "BK22007143.11"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "켈러 교수 팀은 이 별의 탄생 시기를 철의 함유량을 통해 알아냈어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "빅뱅으로 탄생한 초기 우주는 수소 가스와 약간의 헬륨 가스로 가득했어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시간이 지나며 중력에 의해 가스가 모이면서 밀도가 높아졌죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러면서 가스가 붕괴했어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이곳에서 첫 세대의 별들이 형성됐다고 해요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "별의 탄생 시기를 알아낸 방법",
+            "terminate": false,
+            "text": "켈러 교수 팀이 철이 얼마나 함유되어 있는 지를 통해 별이 태어난 시기를 밝혀냈어요. 빅뱅이 일어난 후의 우주 초기에는 수소 가스와 적은 양의 헬륨 가스가 가득 차 있었는데, 시간이 흐르면서 중력에 끌려 가스들이 모이자 밀도가 높아진 거예요. 그러다가 가스가 붕괴하면서 1세대 별들이 처음으로 만들어진 거고요.",
+            "turn_id": "BK22007143-6",
+            "utterance_id": "BK22007143.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별의 구성 물질로 시기를 알아낸다는 게 그저 신기하네요. 그럼 제임스 웹은 별만 찾아다니다 명을 다하는 건가요? 다른 임무는 또 없어요?",
+            "turn_id": "BK22007143-7",
+            "utterance_id": "BK22007143.13"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "제임스 웹의 또 다른 임무는 생명체가 존재하는 외계 행성을 찾는 거예요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인류가 이주할 수 있는 '제 2의 지구'를 찾기 위해서죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "제임스 웹의 임무 외계 행성 찾기",
+            "terminate": false,
+            "text": "다른 임무도 하나 더 있어요. 제임스 웹 망원경은 우리 인류가 옮겨가서 살 수 있는 제2의 지구를 찾기 위해 생명체가 사는 외계의 행성을 찾는 임무를 수행해요.",
+            "turn_id": "BK22007143-7",
+            "utterance_id": "BK22007143.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외계 행성이라니, 너무 허무맹랑한 말 아닌가요? 그런 걸 어떻게 판별할 수 있죠?",
+            "turn_id": "BK22007143-8",
+            "utterance_id": "BK22007143.15"
+        },
+        {
+            "reference_date": "2022-01-04",
+            "reference_text": [
+                {
+                    "value": "제임스 웹은 특수 카메라에 결합된 분광기로 외계 행성의 대기를 분석해 외계 생명체를 찾을 예정이에요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 특수 분광기는 물·일산화탄소·이산화탄소·산소·메탄을 감지할 수 있죠.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 성분이 발견된다고 생명체가 반드시 존재한다는 건 아니지만 외계 행성 대기에 산소가 대량으로 발견되면 생명체가 존재할 수 있다고 짐작할 수 있어요.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2022/01/03/2022010302182.html",
+            "search_query": "외계 행성 측정 방법",
+            "terminate": false,
+            "text": "제임스 웹 망원경에는 특수 카메라가 부착된 분광기가 있는데 이걸로 외계에 있는 행성의 대기를 분석해서 외계 생명체가 있는지 찾아낼 예정이에요. 특수 분광기에는 물, 일산화탄소, 이산화탄소, 산소, 메탄을 감지할 수 있는 기능이 있는데, 이런 성분이 있다고 해서 꼭 외계 생명체가 산다는 건 아니지만 행성 대기에서 산소가 많이 검출되면 생명체가 살고 있을 수도 있다고 예측할 수 있는 거죠.",
+            "turn_id": "BK22007143-8",
+            "utterance_id": "BK22007143.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 생명체가 살 수 있을 법한 환경을 갖춘 행성이 있는지를 탐사하는 거군요.",
+            "turn_id": "BK22007143-9",
+            "utterance_id": "BK22007143.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 실제로 제임스 웹 망원경이 찾아낼 수 있을지 기대되지 않나요?",
+            "turn_id": "BK22007143-9",
+            "utterance_id": "BK22007143.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁금하기도 하지만 뭔가 좀 무섭기도 하네요. 역시 우주에서 벌어지는 일은 들어도 들어도 신비로운 것 같고 재밌네요!",
+            "turn_id": "BK22007143-10",
+            "utterance_id": "BK22007143.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "맞아요, 우주 이야기는 늘 새로운 느낌을 주죠. 오늘 간만에 재밌는 이야기 나눠서 저는 너무 즐거웠네요. 이만 버스 타러 가야 해서 아쉽지만, 다음에 또 이야기 나눠요. 조심히 들어가요!",
+            "turn_id": "BK22007143-10",
+            "utterance_id": "BK22007143.20"
+        }
+    ]
+}

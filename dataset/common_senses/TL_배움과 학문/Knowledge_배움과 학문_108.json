@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011623",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011623",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 책에서 아메바의 사진을 봤는데, 생김새가 매우 단순하게 생겼더라. 아메바가 어떤 특징을 가진 생물인지 알려줄 수 있어?",
+            "turn_id": "BK22011623-1",
+            "utterance_id": "BK22011623.1"
+        },
+        {
+            "reference_date": "2022-08-18",
+            "reference_text": [
+                {
+                    "value": "아메바(Amoeba)는 위족(僞足)으로 움직이는 원생동물의 일종이며, 단세포 생물 중 대표적으로 잘 알려져 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "담수나 바닷물, 습지의 흙 속 등에 많이 살고 유사분열을 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A9%94%EB%B0%94",
+            "search_query": "아메바",
+            "terminate": false,
+            "text": "아메바는 대표적인 단세포 생물로, 위족으로 움직이는 원생동물 중 하나야. 유사 분열을 한다는 특징이 있고, 바닷물이나 담수, 습지의 흙 속에 주로 살지.",
+            "turn_id": "BK22011623-1",
+            "utterance_id": "BK22011623.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아메바가 단세포 생물이구나. 예전에 단세포 생물에 대해 어렴풋이 들어본 적은 있는데, 정확한 정의는 잘 모르겠어. 단세포 생물이 어떤 생물인지 가르쳐 줄래?",
+            "turn_id": "BK22011623-2",
+            "utterance_id": "BK22011623.3"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "단세포 생물(單細胞生物)은 다세포 생물과 달리 단 하나의 세포로 이루어진 생물로, 모나드(monad)라고도 한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 지구 상에 나타난 최초의 생물이며, 지금도 가장 흔히 볼 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%84%B8%ED%8F%AC_%EC%83%9D%EB%AC%BC",
+            "search_query": "단세포 생물",
+            "terminate": false,
+            "text": "단세포 생물은 모나드라고도 불리는데, 단 하나의 세포로 이뤄진 생물이야. 그래서 다세포 생물과는 차이점이 있지. 단세포 생물은 지구상 최초로 나타난 생물이자, 지금도 가장 흔하게 볼 수 있는 생물이야.",
+            "turn_id": "BK22011623-2",
+            "utterance_id": "BK22011623.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하나의 세포로 이루어진 생물이 단세포 생물인 거네. 그러면 세포는 어떤 식으로 구성되어 있는지도 알아?",
+            "turn_id": "BK22011623-3",
+            "utterance_id": "BK22011623.5"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "세포는 세포막으로 둘러싸인 세포질로 구성되어 있으며, 단백질 및 핵산과 같은 많은 생체분자들을 포함하고 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%ED%8F%AC",
+            "search_query": "세포",
+            "terminate": false,
+            "text": "세포는 세포막으로 둘러싸인 세포질로 이루어져 있어. 그리고 핵산이나 단백질 등의 수많은 생체 분자들을 내포하고 있지.",
+            "turn_id": "BK22011623-3",
+            "utterance_id": "BK22011623.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세포가 핵산이나 단백질을 포함하고 있구나. 그러면 핵산이 어떤 생체 분자인지 구체적으로 설명해 줄래?",
+            "turn_id": "BK22011623-4",
+            "utterance_id": "BK22011623.7"
+        },
+        {
+            "reference_date": "2022-04-17",
+            "reference_text": [
+                {
+                    "value": "핵산(核酸, 영어: nucleic acid)은 알려져 있는 모든 생명체에 필수적인 생체고분자 또는 작은 생체분자이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "핵산이라는 용어는 DNA와 RNA를 모두 포함한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%B5%EC%82%B0",
+            "search_query": "핵산",
+            "terminate": false,
+            "text": "핵산은 모든 생명체에 없어서는 안 될 생체 고분자, 또는 작은 생체 분자야. 핵산은 DNA와 RNA를 모두 일컫는 용어지.",
+            "turn_id": "BK22011623-4",
+            "utterance_id": "BK22011623.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "핵산이 매우 중요한 생체 분자네. 예전에 줄기세포와 관련된 다큐멘터리를 잠깐 본 적이 있는데, 줄기세포는 어떤 세포인지 알려줄 수 있어?",
+            "turn_id": "BK22011623-5",
+            "utterance_id": "BK22011623.9"
+        },
+        {
+            "reference_date": "2022-09-20",
+            "reference_text": [
+                {
+                    "value": "줄기 세포(-細胞, 영어: stem cell)는 배아 또는 성체에 있는, 여러 종류의 조직으로 분화할 수 있는 미분화 세포다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "실제로 태생기 전능세포(pluripotent cell)를 지칭한다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%84%EA%B8%B0%EC%84%B8%ED%8F%AC",
+            "search_query": "줄기 세포",
+            "terminate": false,
+            "text": "배아나 성체에 있는 미분화 세포를 줄기 세포라고 해. 미분화 세포이기 때문에 이후 여러 종류의 조직으로 분화가 가능하지. 실제로 태생기 전능 세포를 줄기 세포라고 부르고 있어.",
+            "turn_id": "BK22011623-5",
+            "utterance_id": "BK22011623.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아직 분화되지 않은 세포를 줄기세포라고 하는 거네. 그런데 그 줄기세포가 우리에게 굉장히 중요하다는 얘기를 들었던 기억이 나는데, 왜 줄기세포가 그렇게 중요한 거야?",
+            "turn_id": "BK22011623-6",
+            "utterance_id": "BK22011623.11"
+        },
+        {
+            "reference_date": "2016-10-27",
+            "reference_text": [
+                {
+                    "value": "줄기세포(Stem Cell)는 기원한다는 뜻의 ‘Stem’에서 유래했다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한 개의 세포가 여러 종류의 다른 세포를 생산할 수 있는 다중분화능력을 가진 세포로 손상 받은 신체 부위 세포들을 재생할 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 줄기세포는 불치병이나 만성질환들에 대해 보다 효과적인 치료 방법을 제시 해 줄 수 있는 수단으로 평가받고 있으며 유전적 이상 질환들에는 실제 적용이 가능한 것으로 보고되고 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dailymedi.com/news/news_view.php?wr_id=811809",
+            "search_query": "줄기 세포 치료",
+            "terminate": false,
+            "text": "기원한다는 뜻의 Stem에서 유래된 바와 같이, 줄기세포는 하나의 세포로 다양한 종류의 세포를 생산해낼 수 있는 다중 분화 능력을 가진 세포야. 그래서 손상된 신체 부위의 세포들도 재생해낼 수 있지. 이러한 이유로 줄기세포는 만성 질환이나 불치병을 치료하는 효과적인 방안으로 평가받고 있고, 유전적 이상 질환에도 적용 가능성이 보고되고 있어.",
+            "turn_id": "BK22011623-6",
+            "utterance_id": "BK22011623.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "줄기세포를 활용한 치료법이 개발된다면 우리에게 정말 도움이 될 것 같아. 그러면 줄기세포 이외에 우리 몸을 이루고 있는 세포들에는 어떤 것들이 있어?",
+            "turn_id": "BK22011623-7",
+            "utterance_id": "BK22011623.13"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "포유류의 몸을 구성하는 세포는 크게 생식세포, 체세포, 그리고 줄기세포로 나눌 수 있다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "성인은 약 100조(1014) 개의 세포로 이루어진다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%ED%8F%AC_%EB%B6%84%ED%99%94",
+            "search_query": "세포 종류",
+            "terminate": false,
+            "text": "포유류의 신체는 대개 체세포, 생식세포, 그리고 줄기세포로 이루어져 있어. 성인의 경우 약 100조 개의 세포로 구성되어 있지.",
+            "turn_id": "BK22011623-7",
+            "utterance_id": "BK22011623.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리 몸이 정말 많은 세포로 이루어져 있구나. 그러면 세포가 죽으면 어떻게 되는 거야?",
+            "turn_id": "BK22011623-8",
+            "utterance_id": "BK22011623.15"
+        },
+        {
+            "reference_date": "2022-09-23",
+            "reference_text": [
+                {
+                    "value": "식세포(食細胞, 영어: phagocyte)는 유해한 이물질, 세균, 죽었거나 죽어가는 세포를 섭취하여 신체를 보호하는 세포이다.",
+                    "value_time": "2022-09-25",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8B%9D%EC%84%B8%ED%8F%AC",
+            "search_query": "식세포",
+            "terminate": false,
+            "text": "세포가 죽거나 혹은 죽어가는 과정에 있다면, 식세포가 와서 그 세포들을 잡아먹기도 해. 식세포는 신체를 보호하는 세포인데 주로 죽은 세포나 세균, 유해한 이물질 등을 섭취하지.",
+            "turn_id": "BK22011623-8",
+            "utterance_id": "BK22011623.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "식세포가 죽은 세포를 먹어 치우는구나. 우리 몸속에 정말 다양한 역할을 하는 세포가 많네.",
+            "turn_id": "BK22011623-9",
+            "utterance_id": "BK22011623.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 우리 몸을 구성하는 세포들은 각자가 맡은 역할 역시 다양하지.",
+            "turn_id": "BK22011623-9",
+            "utterance_id": "BK22011623.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세포에 대해 자세히 알고 나니, 나를 좀 더 깊이 이해하게 된 기분이야. 좋은 정보들을 알려줘서 고마워.",
+            "turn_id": "BK22011623-10",
+            "utterance_id": "BK22011623.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고맙긴, 또 궁금한 게 생기면 언제든 물어봐.",
+            "turn_id": "BK22011623-10",
+            "utterance_id": "BK22011623.20"
+        }
+    ]
+}

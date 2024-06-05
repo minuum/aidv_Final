@@ -1,0 +1,362 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009236",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009236",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "TV에서 밤하늘의 오로라를 보여주는데 정말 신기하더라고요. 그래서 오로라에 대해 공부해보고 있는데, 오로라는 어떤 현상인지 혹시 아시나요?",
+            "turn_id": "BK22009236-1",
+            "utterance_id": "BK22009236.1"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "오로라는 태양에서 방출되는 플라스마 입자가 지구 대기권의 자기장과 마찰해 빛을 내는 현상입니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "북극 지역에서는 북극광, 남극 지역에서는 남극광으로 불리죠.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220825045000805",
+            "search_query": "오로라 현상",
+            "terminate": false,
+            "text": "오로라 현상은 지구 대기권의 자기장과 태양이 방출하는 플라즈마 입자가 마찰하면서 발생하는 거예요. 북극 지역에서는 북극광이라고 하고 남극 지역에서는 남극광이라고도 하죠.",
+            "turn_id": "BK22009236-1",
+            "utterance_id": "BK22009236.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 그런데 왜 이 현상의 이름을 오로라 현상이라고 부르는 거예요?",
+            "turn_id": "BK22009236-2",
+            "utterance_id": "BK22009236.3"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "오로라라는 이름은 아우로라에서 유래했는데, 이는 '새벽'이라는 뜻의 라틴어이며 로마신화에서 나오는 '여명의 여신(그리스신화의 에오스)'이기도 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "중위도에서 볼 수 있는 극광이 새벽빛과 비슷하기 때문에 17세기경부터 극광을 오로라라고 부르게 되었다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A1%9C%EB%9D%BC",
+            "search_query": "오로라 현상 이름",
+            "terminate": false,
+            "text": "오로라는 원래 새벽이라는 뜻의 라틴어인 아우로라에서 유래했는데, 이는 그리스·로마 신화에서 여명의 여신 이름이기도 해요. 17세기경부터 중위도에서 보이는 극광이 새벽빛과 비슷했기 때문에 오로라라는 이름을 붙이게 된 거죠.",
+            "turn_id": "BK22009236-2",
+            "utterance_id": "BK22009236.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새벽의 느낌이라 그렇게 지은 거구나. 그럼 이 오로라는 남극이랑 북극에서 볼 수 있는 거예요?",
+            "turn_id": "BK22009236-3",
+            "utterance_id": "BK22009236.5"
+        },
+        {
+            "reference_date": "2022-07-01",
+            "reference_text": [
+                {
+                    "value": "오로라가 가장 자주 보이는 곳은 남극및 북극 양극지방의 지구자기위도 65∼70도의 범위로서 이 지역을 오로라대(auroral zone)라고 한다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%A1%9C%EB%9D%BC",
+            "search_query": "오로라 남극 북극",
+            "terminate": false,
+            "text": "네, 남극과 북극 양극 지방의 지구자기위도 65~70도 범위의 지역은 오로라가 가장 자주 보이는 곳인데, 그래서 이 지역을 오로라 대라고도 불러요.",
+            "turn_id": "BK22009236-3",
+            "utterance_id": "BK22009236.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 근데 왜 남극과 북극에서 오로라를 가장 많이 볼 수 있는 거예요?",
+            "turn_id": "BK22009236-4",
+            "utterance_id": "BK22009236.7"
+        },
+        {
+            "reference_date": "2021-11-09",
+            "reference_text": [
+                {
+                    "value": "지구는 하나의 거대한 막대자석처럼 N극과 S극을 갖고 있어요.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "막대자석의 N극과 S극에 철가루가 달라붙는 것처럼 전기를 띤 태양풍 입자들도 북극과 남극으로 모이게 되지요.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2021/11/08/2021110802201.html",
+            "search_query": "오로라 남극과 북극에 많은 이유",
+            "terminate": false,
+            "text": "지구는 n 극과 s 극을 거대한 하나의 막대자석처럼 가지고 있거든요. 그래서 철가루가 막대자석의 n 극과 s 극에 달라붙는 것과 마찬가지로, 태양풍 입자들이 전기를 띄면서 북극과 남극으로 모이게 되어서 그래요.",
+            "turn_id": "BK22009236-4",
+            "utterance_id": "BK22009236.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그래서 극지방에서 흔히 볼 수 있는 거군요. 하지만 그래서 그런지 오로라를 볼 수 있는 나라는 흔하지 않잖아요. 그럼 어느 나라에 가야 오로라를 보기 제일 쉬울까요?",
+            "turn_id": "BK22009236-5",
+            "utterance_id": "BK22009236.9"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "아이슬란드는 오로라를 감상하기 좋은 곳으로 꼽히는 대표적인 국가입니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밤이 길수록 오로라를 볼 가능성이 높아지기 때문에 11월에서 3월 사이에 오로라를 볼 확률이 가장 높다고 합니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/02/111064/",
+            "search_query": "오로라를 쉽게 볼 수 있는 나라",
+            "terminate": false,
+            "text": "오로라를 보기 가장 좋은 곳으로 손꼽히는 곳이 바로 아이슬란드죠. 이곳은 그중에서도 11월에서 3월 사이에 오로라를 볼 확률이 가장 높은데, 밤이 길수록 오로라를 발견할 가능성이 크기 때문이에요.",
+            "turn_id": "BK22009236-5",
+            "utterance_id": "BK22009236.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이슬란드는 너무 먼 것 같네요. 혹시 우리나라와 좀 더 가까운 곳에서 오로라를 볼 수 있는 나라는 없어요?",
+            "turn_id": "BK22009236-6",
+            "utterance_id": "BK22009236.11"
+        },
+        {
+            "reference_date": "2022-08-29",
+            "reference_text": [
+                {
+                    "value": "지상에서 은하수가 제일 잘 보이는 호주, 그 중에서도 최남단인 태즈매니아로 가면 사시사철 남극광을 볼 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "남극광은 남반구에서 발생하는 오로라를 지칭하는데, 형형색색의 별빛이 밤하늘을 가득 수놓는 모습을 보기에 가장 좋은 시기는 5월부터 9월까지이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/764090/",
+            "search_query": "우리라와 가까운 오로라 발생국",
+            "terminate": false,
+            "text": "호주의 최남단인 태즈메니아에서는 사시사철 남극광을 볼 수 있어요. 이곳에서는 특히 5월에서 9월 사이에 형형색색의 별빛으로 수 놓아진 밤하늘을 볼 수 있죠.",
+            "turn_id": "BK22009236-6",
+            "utterance_id": "BK22009236.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요? 극지방이 아닌 호주에서도 오로라를 볼 수 있다니 신기하네요. 이처럼 극지방이 아닌데도 오로라를 볼 수 있는 또 다른 나라도 있어요?",
+            "turn_id": "BK22009236-7",
+            "utterance_id": "BK22009236.13"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "캐나다 노스웨스트 준주의 주도인 옐로나이프는 미국 항공우주국(NASA)이 선정한 최고의 오로라 관측지다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "어둑어둑 밤하늘을 가득 채운 오로라가 호수에 '반영' 현상까지 일으키니 운만 좋으면 '데칼코마니 오로라' 인증샷도 건질 수 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/06/535748/",
+            "search_query": "극지방 아닌 오로라를 볼 수 있는 나라",
+            "terminate": false,
+            "text": "그럼요. 미국 항공우주국에서 최고의 오로라 관측지로 선정한 캐나다 노스웨스트 준주의 주도 옐로나이프가 있어요. 이곳에서는 어두운 밤하늘을 오로라가 가득 채우는데, 호수에 반영되는 현상까지도 관찰할 수 있어서 운 좋으면 데칼코마니 오로라 사진도 찍을 수 있어요.",
+            "turn_id": "BK22009236-7",
+            "utterance_id": "BK22009236.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 캐나다에서도 아름다운 오로라를 관찰할 수 있다니, 그나마 현실적으로 가 볼 수 있을 것 같다는 생각이 드네요. 그런데 오로라는 색깔이 알록달록 화려하잖아요. 그건 혹시 어떤 이유에서 그런 건지도 알려줄 수 있나요?",
+            "turn_id": "BK22009236-8",
+            "utterance_id": "BK22009236.15"
+        },
+        {
+            "reference_date": "2021-11-09",
+            "reference_text": [
+                {
+                    "value": "오로라 색은 태양풍 입자가 어떤 기체와 충돌하는지에 따라 달라진답니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "태양풍 입자가 산소와 충돌하면 녹색이나 붉은색 오로라가 나타나요.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또 질소의 밀도가 높은 곳에선 보라색, 질소 밀도가 낮은 곳에선 푸른색 오로라가 보이죠.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2021/11/08/2021110802201.html",
+            "search_query": "오로라 색상",
+            "terminate": false,
+            "text": "그건 태양풍의 입자가 충돌하는 기체가 어떤 기체인지에 따라 달라져서 그래요. 산소와 태양풍 입자가 충돌하면 녹색이나 붉은색이 나타나고, 질소 밀도가 높은 곳에서는 보라색이, 반대로 질소 밀도가 낮은 곳이라면 푸른색으로 오로라가 나타나게 되는 거죠.",
+            "turn_id": "BK22009236-8",
+            "utterance_id": "BK22009236.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 태양풍이 어떤 입자와 만나는지에 따라 오로라의 색이 다르게 보이는 거군요. 한 가지 색이 아니라 다양하게 나타나니까 더 신기하고 아름답게 보이는 것 같아요.",
+            "turn_id": "BK22009236-9",
+            "utterance_id": "BK22009236.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 그래서 많은 사람이 이 오로라를 보고 싶어 하는 이유이기도 하죠.",
+            "turn_id": "BK22009236-9",
+            "utterance_id": "BK22009236.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 저도 죽기 전에 꼭 한 번은 오로라를 보고 싶기도 해요. 제 친구 중에도 오로라 보는 것을 버킷리스트에 담아 놓은 친구도 있고요.",
+            "turn_id": "BK22009236-10",
+            "utterance_id": "BK22009236.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히 우리나라에서는 보기 힘든 광경이기 때문에 아마 더 그럴 거예요. 신비로운 자연 현상이니 호기심을 가질 법도 하죠.",
+            "turn_id": "BK22009236-10",
+            "utterance_id": "BK22009236.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그러게요. 아무튼 오늘 오로라에 대해 자세히 알려주셔서 감사하고요, 오늘 알려주신 덕분에 오로라 공부가 훨씬 수월해질 것 같아요. 그럼 다음에 또 봐요.",
+            "turn_id": "BK22009236-11",
+            "utterance_id": "BK22009236.21"
+        }
+    ]
+}

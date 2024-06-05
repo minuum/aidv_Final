@@ -1,0 +1,407 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007811",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007811",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0024"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "페르시아와 그와 관련된 종교에 대해서 공부하고 있는데 도와줄래? 페르시아 종교 중에 이름이 조로아스터교라고 들었는데, 이 종교에 대해서 간단히 말해줘.",
+            "turn_id": "BK22007811-1",
+            "utterance_id": "BK22007811.1"
+        },
+        {
+            "reference_date": "2022-03-20",
+            "reference_text": [
+                {
+                    "value": "조로아스터교(영어: Zoroastrianism) 혹은 마즈다교(Mazdaism), 배화교(拜火敎)는 이란의 민족종교로, 선악이원론을 특징으로 하는 이란계 유일신교이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "창시된 시기는 기원전 1800년에서 기원전 640년경으로 다양하다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 종교는 중동의 박트리아 지방에서 자라수슈트라가 세웠다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A1%9C%EC%95%84%EC%8A%A4%ED%84%B0%EA%B5%90",
+            "search_query": "조로아스터교",
+            "terminate": false,
+            "text": "조로아스터교 이란의 민족종교이며, 이란계 유일신교로 선악이원론을 특징으로 해. 자라수슈트라가 중동의 박트리아 지방에서 창시한 종교인데, 창시된 시기는 BC 1800년에서 BC 640년경으로 의견이 갈려.",
+            "turn_id": "BK22007811-1",
+            "utterance_id": "BK22007811.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "종교를 만든 사람이 있다니 놀랍다. 자라수슈트라에 대해서 알려줄래?",
+            "turn_id": "BK22007811-2",
+            "utterance_id": "BK22007811.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "자라투스트라(자라수슈트라, Zarathushtra, Zaraθuštra, Zartošt) 또는 조로아스트레스(그리스어: Ζωροάστρης; 페르시아어: زرتشت)는 이란 북부지방에서 태어난 예언자로서 그의 이름을 딴 조로아스터교를 창시한 것으로 알려져 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그의 생애와 출생 연대 및 활동 지역에 관해서 매우 엇갈리는 기록들이 전해진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "더러는 박트리아 지역으로 이란 남부 지역인 과거 페르시아 지역을 그의 출생지로 보기도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "출생 연대에 관해서는 심지어 기원전 6000년에서 기원전 600년까지 의견이 매우 엇갈리고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EB%9D%BC%ED%88%AC%EC%8A%A4%ED%8A%B8%EB%9D%BC",
+            "search_query": "자라수슈트라",
+            "terminate": false,
+            "text": "자라수슈트라는 자라투스트라 또는 조로아스트레스라고도 부르는데, 그는 이란 북부지방에서 태어난 예언자로서 자신의 이름을 따 조로아스터교를 창시했어. 그의 생애와 출생 연대 및 활동 지역의 기록은 매우 엇갈려서, 이란 북부지방이 아닌 오늘날 이란 남부 지역이며 페르시아 지역인 박트리아 지역이 그의 출생지로 여겨지기도 해. 출생 연대도 BC 6000부터 BC 600까지 매우 다양한 의견이 있지.",
+            "turn_id": "BK22007811-2",
+            "utterance_id": "BK22007811.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "싯다르타처럼 정확한 기록은 없는 거구나. 조로아스터교의 최고신에 대해서 알려줄래?",
+            "turn_id": "BK22007811-3",
+            "utterance_id": "BK22007811.5"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "\"아후라(Ahura)\"라는 낱말은 빛을 뜻하고, \"마즈다(Mazda)\"라는 낱말은 지혜를 뜻하므로, \"아후라 마즈다(Ahura Mazda)\"는 문자 그대로 \"빛과 지혜\" 또는 \"빛과 지혜의 존재\"다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아후라 마즈다는 조로아스터교에서 최고의 숭배 대상으로 묘사하며, 조로아스트교 전례서인 《야스나(Yasna)》에서 가장 먼저 그리고 가장 자주 부르는 신이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아후라 마즈다는 우주의 운행을 위해 대대(對對)의 쌍둥이 영(靈, spirit), 즉, 선 · 진리 · 빛 · 생명의 영인 스펜타 마이뉴(Spenta Mainyu)와 악 · 거짓 · 어둠 · 죽음 · 파괴의 영인 앙그라 마이뉴(Angra Mainyu)를 창조하였고, 이에 따라 세상(우주)의 역사는 이들 쌍둥이 영의 투쟁으로 이루어지게 되었다.[2]",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%9B%84%EB%9D%BC_%EB%A7%88%EC%A6%88%EB%8B%A4",
+            "search_query": "아후라 마즈다",
+            "terminate": false,
+            "text": "조로아스터교에서 최고의 숭배 대상은 아후라 마즈다라는 신이야. 조로아스트교 전례서인 야스나에서 가장 먼저 등장했고 가장 자주 부르는 신이지. 아후라 마즈다라는 이름을 살펴보면, 아후라는 빛을 의미하고, 마즈다는 지혜를 의미하는 단어로, 아후라 마즈다는 문자 그대로 빛과 지혜, 빛과 지혜의 존재라는 의미를 가지지. 아후라 마즈다는 우주의 운행을 위해 대대의 쌍둥이 영을 만들었어. 하나는 선, 진리, 빛, 생명의 영인 스펜타 마이뉴고 다른 하나는 악과 거짓, 어둠, 죽음, 파괴의 영인 앙그라 마이뉴로, 이 쌍둥이 영의 투쟁으로 우주의 역사가 이루어지게 되었어.",
+            "turn_id": "BK22007811-3",
+            "utterance_id": "BK22007811.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "선과 악의 개념이 등장하네. 스펜타 마이뉴와 앙그라 마이뉴 사이에서 인간들은 어떻게 해야 했을까?",
+            "turn_id": "BK22007811-4",
+            "utterance_id": "BK22007811.7"
+        },
+        {
+            "reference_date": "2020-07-24",
+            "reference_text": [
+                {
+                    "value": "조로아스터가 본 세상은 선과 악의 두 세력이 끝장을 볼 때까지 싸우는 거대한 전쟁터였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인간들은 이 싸움에서 한쪽을 선택해야 했다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올바름 곧 ‘아샤’를 선택하면 선한 신과 한편이 되는 것이고, 아샤를 저버리면 악령과 한패가 되는 것이었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "인간의 선택이 중요한 것은 선한 신들이 충분히 강력하지 않아서 악을 무찌르려면 인간의 힘을 빌려야 했기 때문이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "선의 편에 선 사람은 악의 괴롭힘으로 인한 슬픔과 고난을 견디지 않으면 안 됐다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/culture/book/955006.html",
+            "search_query": "조로아스터교 아샤",
+            "terminate": false,
+            "text": "조로아스터의 세상은 선과 악 중 한쪽이 끝날 때까지 싸우는 거대한 전쟁터로, 인간들은 이 전쟁터에서 한쪽을 선택해야 했어. 인간의 선택이 중요했는데, 이는 악신들을 완전히 무찌르기에는 선한 신들이 충분히 강하지 않아서 인간의 도움이 필요했기 때문이야. 인간의 선택에 있어 올바름이라는 아샤를 선택하면 선한 신과 한편인 것이고, 아샤를 선택하지 않으면 악신과 한패가 되는 것이었어. 이때 선의 편에 선 인간은 악의 괴롭힘을 받게 되어 슬픔과 고난을 견뎌야 했지.",
+            "turn_id": "BK22007811-4",
+            "utterance_id": "BK22007811.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그리스 로마 신화의 신들이 인간적이지만 인간의 도움이 거의 필요가 없는 것과는 상반되는 것 같아. 페르시아 멸망 이후 종교는 어떻게 됐어? 페르시아 종교가 남아있지 않을 것 같아.",
+            "turn_id": "BK22007811-5",
+            "utterance_id": "BK22007811.9"
+        },
+        {
+            "reference_date": "2022-03-13",
+            "reference_text": [
+                {
+                    "value": "헬레니즘교(영어: Hellenistic religion)는 헬레니즘 시대와 로마 제국 동안 (기원전 300년부터 기원후 300년) 고대 그리스 문화의 영향을 받아 살았던 사람들의 믿음과 관행의 다양한 제도 중 하나이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A0%88%EB%8B%88%EC%A6%98_%EC%A2%85%EA%B5%90",
+            "search_query": "헬레니즘 종교",
+            "terminate": false,
+            "text": "BC 300년부터 AD 300년인 헬레니즘 시대와 로마 제국 동안에는 고대 그리스 문화의 영향을 받은 사람들의 믿음과 관행의 다양한 제도 중 하나인 헬레니즘 교가 있었어.",
+            "turn_id": "BK22007811-5",
+            "utterance_id": "BK22007811.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그리스에 의해 페르시아가 멸망했으니 역시 그리스의 영향을 받는구나. 그런데 시기가 엄청 긴 것을 보면 헬레니즘 교는 엄청 다양할 것 같아. 하나만 예를 들어줘.",
+            "turn_id": "BK22007811-6",
+            "utterance_id": "BK22007811.11"
+        },
+        {
+            "reference_date": "2022-02-12",
+            "reference_text": [
+                {
+                    "value": "밀교(密敎, Mysteries, μυστήρια) 또는 밀의종교(密儀宗敎, Mystery religion)는 해당 가르침 또는 종교의 입문자 또는 비전가(initiates, 이하 비전가)에게만 그 가르침의 내용이 알려진 고대 그리스와 로마의 컬트 종교들을 통칭한다.[1]",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 그리스-로마 세계에서 가장 유명했던 신비 종교 또는 밀의종교는 엘레우시스 밀의종교(Eleusinian Mysteries)였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그리고 이러한 후대의 컬트 종교들 중 특히 유명했던 것으로는 고대 로마 제국의 군인들 사이에 널리 믿어진 미트라교(Mithraic Mysteries)가 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%80%EC%9D%98%EC%A2%85%EA%B5%90",
+            "search_query": "밀교",
+            "terminate": false,
+            "text": "밀교를 예로 들어줄게. 밀의종교라고도 하는데, 이건 밀의 종교 가르침을 의미하기도 하고 종교의 입문자나 비 전가에게만 종교의 가르침이 알려진 고대 그리스와 로마의 컬트 종교들을 통칭해. 고대 그리스 로마 에서 가장 유명한 밀의 종교는 엘레우시스 밀의종교야. 밀의 종교 후대 컬트 종교 중에서 가장 유명한 것은 미트라교가 있는데, 고대 로마 제국의 군인들이 널리 믿었어.",
+            "turn_id": "BK22007811-6",
+            "utterance_id": "BK22007811.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "미트라교라는 이름은 들어본 적이 있어. 로마 종교 목록 중에서 봤던 것 같아. 미트라교에 대해서 알려줄래?",
+            "turn_id": "BK22007811-7",
+            "utterance_id": "BK22007811.13"
+        },
+        {
+            "reference_date": "2022-04-19",
+            "reference_text": [
+                {
+                    "value": "미트라교(영어: Mithraism)는 미트라(Mithras)라는 신을 주된 신앙 대상으로 하는 밀의종교(mystery religion)이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미트라교 숭배자들은 7계위로 이루어진 복잡한 비전 전수(initiation) 체계를 가지고 있었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미트라 밀교의 예배 장소 또는 지하 신전을 미트라에움(Mithraeum)이라 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "미트라 밀교의 중심지는 로마에 있었던 것으로 보인다.[6]",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미트라교의 신앙의 대상인 미트라(Mithras, 정확히는 \"미트라스\") 신의 이름은 라틴어로, 그리스어로는 \"Μίθρας (미트라스)\"라고 표기되었다.[11]",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%8A%B8%EB%9D%BC%EA%B5%90",
+            "search_query": "미트라교",
+            "terminate": false,
+            "text": "미트라교는 밀의 종교로 미트라라는 신을 주된 신앙으로 믿어. 미트라교 숭배자들에게는 7계위로 이뤄진 비전 전수 체계가 있었고, 그들의 예배 장소나 지하 신전을 미트라에움이라 했어. 미트라 밀교의 중심지는 로마로 추정하고 있어. 미트라는 라틴어인데 그리스어로는 미트라스라고 표기되어 있어.",
+            "turn_id": "BK22007811-7",
+            "utterance_id": "BK22007811.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "굉장히 은밀하게 이루어진 것 같아. 미트라스의 유래에 대해서 알고 싶은데 이름에 대해서 설명해줄래?",
+            "turn_id": "BK22007811-8",
+            "utterance_id": "BK22007811.15"
+        },
+        {
+            "reference_date": "2022-03-05",
+            "reference_text": [
+                {
+                    "value": "미트라스(Mithras)라는 이름은 고대 페르시아의 신의 이름이었던 미트라(Mithra)의 한 변형인 것으로 학자들은 보고 있다.[1][2]",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%8A%B8%EB%9D%BC%EC%8A%A4",
+            "search_query": "미트라스",
+            "terminate": false,
+            "text": "미트라스라는 이름은 고대 페르시아의 신 미트라의 한 변형일 것이라고 보고 있어.",
+            "turn_id": "BK22007811-8",
+            "utterance_id": "BK22007811.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고대 페르시아 신의 변형으로 보고 있다고? 고대 페르시아의 미트라에 대해서도 알려줄래?",
+            "turn_id": "BK22007811-9",
+            "utterance_id": "BK22007811.17"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "미트라(Mitra / Mithra) 또는 미트라스(라틴어: Mithras)는 브라만교, 조로아스터교, 미트라교의 태양신으로, 인도-이란 제어로 ‘서약’이라는 뜻인 단어 *mitra에서 유래한 계약과 태양의 신이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "브라만교와 같은 인도이란 계통의 종교인 조로아스터교에서 미트라는 계약을 담당하는 태양신인 동시에 최고신 아후라 마즈다를 보좌하는 신들인 야자타의 일원으로 등장한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%B8%ED%8A%B8%EB%9D%BC",
+            "search_query": "미트라",
+            "terminate": false,
+            "text": "미트라는 인도 이란 제어로 서약이라는 의미를 가진 단어 Mitra에서 유래한 계약과 태양의 신으로 브라만교, 조로아스터교, 미트라교의 태양신이지. 미트라는 브라만교와 같은 인도이란 계통의 종교인 조로아스터교에서 계약을 담당하는 태양신이기도 하고, 최고신 아후라 마즈다를 보좌하는 신들인 야자타의 일원이기도 해.",
+            "turn_id": "BK22007811-9",
+            "utterance_id": "BK22007811.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다시 조로아스터교로 돌아올 줄이야. 종교는 문화적으로 역사적으로 서로 영향을 받는 것 같아. 오늘 많이 알려줘서 고마워.",
+            "turn_id": "BK22007811-10",
+            "utterance_id": "BK22007811.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "궁금한 것이 있으면 언제든 연락해. 가지고 있는 자료도 많으니까 보고 싶은 자료가 있으면 말하라고. 그럼 내일 보자.",
+            "turn_id": "BK22007811-10",
+            "utterance_id": "BK22007811.20"
+        }
+    ]
+}

@@ -1,0 +1,421 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008872",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008872",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 제가 좋아하는 드라마에 고래 얘기가 자주 나와요. 그래서 고래에 대해서 관심이 생겼거든요. 그런데 고래는 물속에서 살지만, 포유류라고 하던데 고래가 정말 포유류가 맞나요?",
+            "turn_id": "BK22008872-1",
+            "utterance_id": "BK22008872.1"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "고래는 물고기의 모습을 하고 있지만 엄연한 포유류다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "내장기관이 포유류의 특징을 갖고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아가미가 아니라 물 위로 올라와 허파로 숨을 쉬고, 알 대신 새끼를 낳아 젖을 먹인다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hapt.co.kr/news/articleView.html?idxno=156481",
+            "search_query": "고래 포유류",
+            "terminate": false,
+            "text": "얼핏 보면 물고기 같지만 고래는 엄연히 포유류에요. 내장 기관이 포유류의 특징을 보여주고 있죠. 아가미로 숨을 쉬지 않고 물 위로 올라와 허파로 숨을 쉬고 알 대신 새끼를 낳아 젖을 먹이고요.",
+            "turn_id": "BK22008872-1",
+            "utterance_id": "BK22008872.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물속에 살지만 고래는 새끼를 낳아서 젖을 먹이는 포유류군요. 그렇다면 고래의 종류는 얼마나 많은지 알 수 있을까요?",
+            "turn_id": "BK22008872-2",
+            "utterance_id": "BK22008872.3"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "전 세계적으로 90여 종이 있다고 알려져 있으며, 우리 바다에서도 찾아볼 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지금까지 국내 연안에서 발견됐다고 기록된 고래의 종류는 약 35종에 이른다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "국내 고래 연구자들은 그중에서도 자주 발견되는 밍크고래, 참돌고래, 상괭이, 낫돌고래, 남방큰돌고래를 주요 5종으로 분류해 연구하고 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.yna.co.kr/view/AKR20220725132300017?input=1195m",
+            "search_query": "고래의 종류",
+            "terminate": false,
+            "text": "전 세계적으로 90여 종이 있다고 알려져 있고 우리나라의 바다에서도 고래를 찾아볼 수 있어요. 지금까지 국내 연안에서 발견됐다고 알려진 고래의 종류는 약 35종 정도에요. 국내의 고래 연구자들은 그중에서도 자주 발견되는 밍크고래, 참돌고래, 상괭이, 낫돌고래, 남방큰돌고래를 주요 5종으로 분류해서 연구를 진행 중이에요.",
+            "turn_id": "BK22008872-2",
+            "utterance_id": "BK22008872.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 많은 종류의 고래가 있네요. 아, 그런데 고래의 호흡 방식이 궁금해져서 그런데 고래의 호흡에 대해서 구체적으로 설명해 주실 수 있을까요?",
+            "turn_id": "BK22008872-3",
+            "utterance_id": "BK22008872.5"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "고래는 숨을 쉬기 위해 물 표면으로 올라와서 물보라를 일으키며 앞으로 구른다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 2초 정도의 시간에 2,000L의 공기를 들이마신다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고래는 머리꼭대기에 있는 숨구멍인 분수공으로 숨을 쉰다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고래가 숨을 쉴 때는 강력한 근육과 판에 의해 분수공이 넓게 열리지만, 숨을 쉰 후에는 다시 단단히 닫힌다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고래가 숨을 내쉴 때, 분수처럼 물보라가 일어난다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98#%EA%B3%A0%EB%9E%98%EC%9D%98_%EB%AA%B8",
+            "search_query": "고래",
+            "terminate": false,
+            "text": "고래는 호흡하기 위해서 물 표면으로 올라와서 물보라를 일으키며 앞으로 굴러요. 이 2초 정도의 시간 동안 2,000L의 공기를 들이마셔요. 고래는 머리 꼭대기에 있는 숨구멍인 분수공을 통해 호흡하고요. 고래가 호흡을 할 때 강력한 근육과 판에 의해 분수공이 넓게 열리는데 숨을 쉰 후에는 다시 단단하게 닫혀버리죠. 고래가 숨을 내쉴 때는 분수처럼 물보라가 일어나고요.",
+            "turn_id": "BK22008872-3",
+            "utterance_id": "BK22008872.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전혀 몰랐는데 고래는 그런 방식으로 숨을 쉬는군요. 그리고 고래의 귀지에는 바다에 대한 많은 정보가 들어 있다고 들었는데요. 대체 고래의 귀지에 어떤 정보가 내포되어 있다는 거죠?",
+            "turn_id": "BK22008872-4",
+            "utterance_id": "BK22008872.7"
+        },
+        {
+            "reference_date": "2021-09-07",
+            "reference_text": [
+                {
+                    "value": "또한 고래의 귀지는 '대양의 핵심 표본'으로 불린다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생물학자들은 이 귀지로 고래의 나이와 그 고래가 평생 노출되었던 오염, 혹은 육체적 스트레스의 흔적을 확인할 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "해양 세계에 관한 기록인 셈이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.artinsight.co.kr/news/view.php?no=55796",
+            "search_query": "고래의 귀지",
+            "terminate": false,
+            "text": "고래의 귀지는 대양의 핵심 표본이라고 할 수 있어요. 생물학자들은 이 귀지로 고래의 나이와 그 고래가 평생 노출되었던 오염 혹은 육체적 스트레스의 흔적을 탐구해 볼 수 있죠. 그러니까 해양 세계에 관한 기록이라고 할 수 있는 거에요.",
+            "turn_id": "BK22008872-4",
+            "utterance_id": "BK22008872.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "귀지에 바다에 대한 많은 정보가 저장된다니 정말 자연의 신비라고 할 수 있네요. 그리고 고래는 이산화탄소를 감소시키는 데 중요한 역할을 한다고 하더라고요. 고래가 어떻게 이산화탄소를 감소시킬 수 있는 건가요?",
+            "turn_id": "BK22008872-5",
+            "utterance_id": "BK22008872.9"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "경이롭게도 고래는 이산화탄소를 줄이는 데 매우 중요한 역할을 한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일반적으로 인간을 비롯한 모든 생물은 살아가면서 몸속에 이산화탄소를 조금씩 축적한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고래는 워낙 몸집이 크다 보니 존재하는 어떤 생명체보다 많은 양의 이산화탄소를 체내에 저장한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고래가 대기 중 이산화탄소를 흡수해 저장하는 양은 연간 몇 톤이 넘는다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://weekly.donga.com/3/all/11/3554854/1",
+            "search_query": "고래 이산화탄소",
+            "terminate": false,
+            "text": "일반적으로 인간을 비롯하여 모든 생물은 살아가면서 체내에 이산화탄소를 조금씩 축적해요. 고래는 워낙 몸집이 거대하니까 존재하는 어떤 생명체보다 많은 양의 이산화탄소를 체내에 저장 하는 거에요. 고래는 연간 몇 톤이 넘게 대기 중에 있는 이산화탄소를 흡수해서 몸속에 축적하죠. 그렇기 때문에 말씀하신 것처럼 고래는 이산화탄소를 감소시키는 데 매우 중요한 역할을 하게 되는 거죠.",
+            "turn_id": "BK22008872-5",
+            "utterance_id": "BK22008872.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래가 이산화탄소를 감소시키는 데 정말 중요한 역할을 하고 있군요. 그런데 제가 듣기로는 고래가 플랑크톤이 자라는 데 많은 도움을 준다고 들었거든요. 고래가 어떤 방식으로 플랑크톤의 번식에 도움을 주는 건지 알려주실 수 있을까요?",
+            "turn_id": "BK22008872-6",
+            "utterance_id": "BK22008872.11"
+        },
+        {
+            "reference_date": "2021-06-03",
+            "reference_text": [
+                {
+                    "value": "또한 고래의 배설물에는 식물성 플랑크톤이 자라는 데 필요한 철분과 질소가 다량 포함돼 있어 식물성 플랑크톤의 생존에도 중요한 영향을 미친다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식물성 플랑크톤은 대기 중 산소의 50% 이상을 생산하고 이산화탄소를 약 370억t 가량 포집한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "식물성 플랑크톤이 포집하는 이산화탄소 양은 약 1조 7천억 그루의 나무와 맞먹으며, 이는 아마존 4개를 모아 놓은 것과 비슷하다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "식물성 플랑크톤이 없으면 지구상 모든 생물은 정상적인 호흡을 하기 어렵다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해양생태계는 작은 플랑크톤부터 거대한 고래에 이르기까지 긴밀하게 연관되어 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002747910&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "고래 플랑크톤",
+            "terminate": false,
+            "text": "식물성 플랑크톤이 자라는 데 필요한 철분과 질소가 고래의 배설물에 많이 들어 있어서 고래가 식물성 플랑크톤의 생존에도 지대한 영향을 미치게 되는 거예요. 식물성 플랑크톤은 대기 중 산소의 절반 이상을 생산하고 이산화탄소를 약 370억t 가량 포집하고 있죠. 식물성 플랑크톤이 포집하는 이산화탄소량은 약 1조 7천억 그루의 나무와 맞먹는데 이는 아마존 4개를 모아 놓은 것과 비슷한 효과를 내요. 식물성 플랑크톤이 없다면 지구 상의 모든 생물은 정상적인 호흡을 하기 어려워져요. 해양 생태계는 자그마한 플랑크톤부터 거대한 고래에 이르기까지 긴밀한 연관성을 가지고 있어요.",
+            "turn_id": "BK22008872-6",
+            "utterance_id": "BK22008872.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래가 정말 환경에 좋은 영향을 많이 미치는군요. 그런데 고래는 머리가 좋아서 고래들끼리 쓰는 언어가 있다고 들었는데 참 신기하더라고요. 고래들이 소통하는 언어에 대해서 알려주실 수 있을까요?",
+            "turn_id": "BK22008872-7",
+            "utterance_id": "BK22008872.13"
+        },
+        {
+            "reference_date": "2022-08-02",
+            "reference_text": [
+                {
+                    "value": "고래만큼 신비로운 동물을 본 적이 없기 때문입니다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지능이 높아서 자기들끼리 초음파를 언어처럼 이용해 의사를 소통하는데, 인간들이 거주 지역에 따라 고유한 사투리를 구사하듯이 고래들도 서식 지역에 따라 의사소통 방식이 약간씩 다르다고 합니다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/because/1053134.html",
+            "search_query": "고래의 언어",
+            "terminate": false,
+            "text": "고래는 참 신비로운 동물이죠. 고래는 지능이 높아서 자기들끼리 초음파를 언어로 삼아 의사소통을 해요. 사람이 거주 지역에 따라 고유한 사투리를 쓰듯이 고래들도 서식 지역에 따라서 의사를 소통하는 방식이 조금씩 차이가 나요.",
+            "turn_id": "BK22008872-7",
+            "utterance_id": "BK22008872.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래도 어떻게 보면 사람처럼 사투리를 사용한다고 할 수 있겠군요. 아, 그런데 고래를 수족관이 아닌 자연에서 관찰할 수 있는 방법이 있다고 들었는데요. 고래가 바다에서 헤엄치는 모습을 관찰할 수 있는 장소나 프로그램이 있을까요?",
+            "turn_id": "BK22008872-8",
+            "utterance_id": "BK22008872.15"
+        },
+        {
+            "reference_date": "2022-08-12",
+            "reference_text": [
+                {
+                    "value": "특히 뉴질랜드 동해안에서 고래가 자주 출몰하는데, 남섬의 카이코우라 지역과 북섬 오클랜드 인근의 하우라키 만은 고래 관찰 프로그램 및 투어가 잘 갖춰져 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뉴질랜드 고래 관광의 수도라 불리는 카이코우라Kaikoura 지역은 향유고래를 비교적 해안 가까이에서 관찰할 수 있는, 전세계에서도 드문 장소다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호주 해안선 곳곳에는 무척 다채로운 고래들이 저마다 춤을 춘다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "호주 바다에서 발견되는 고래와 돌고래를 합치면 종류만 45가지.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "타히티 섬 전역에서 고래를 볼 수 있지만 특히 루루투Rurutu 섬이 가장 좋은 지역으로 꼽힌다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gqkorea.co.kr/2022/08/12/%ec%9a%b0%ec%98%81%ec%9a%b0%eb%8f%84-%eb%88%88%ec%9d%b4-%ed%99%95-%eb%9c%a8%ec%9d%bc-%ea%b3%a0%eb%9e%98-%ec%97%ac%ed%96%89%ec%a7%80-4/?utm_source=naver&utm_medium=partnership",
+            "search_query": "고래 관찰",
+            "terminate": false,
+            "text": "뉴질랜드 동해안에서 고래를 자주 목격할 수 있는데 남섬의 카이코우라 지역과 북섬 오클랜드 인근의 하우라키 만은 고래 관찰 프로그램 및 투어가 준비되어 있어요. 뉴질랜드에서 고래 관광의 수도라 불리는 카이코우라 지역은 향유고래를 비교적 해안 가까이에서 볼 수 있는 전 세계에서도 희귀한 장소죠. 그리고 호주 해안선 곳곳에서도 무척 다채로운 고래들을 만나 볼 수 있는 가능성이 높아요. 호주 바다에서 발견되는 고래와 돌고래의 종류만 45가지에요. 또한 타히티 섬 전역에서도 고래를 볼 수 있지만 그중에서도 특히 루루투섬이 가장 좋은 지역으로 꼽히죠.",
+            "turn_id": "BK22008872-8",
+            "utterance_id": "BK22008872.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연 속에 있는 고래를 관찰할 수 있는 장소들이 꽤 있군요. 고래라는 동물에 대해 이렇게 자세하게 알려주셔서 참 감사해요.",
+            "turn_id": "BK22008872-9",
+            "utterance_id": "BK22008872.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별말씀을요. 고래는 참 신비하면서도 우리에게 좋은 영향을 주는 고마운 동물이죠.",
+            "turn_id": "BK22008872-9",
+            "utterance_id": "BK22008872.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 것 같아요. 고래가 이렇게 환경에 좋은 영향을 미치는 동물이란 것은 몰랐거든요. 앞으로 고래를 많이 사랑해 주고 싶어요.",
+            "turn_id": "BK22008872-10",
+            "utterance_id": "BK22008872.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "고래는 환경을 위해서도 꼭 있어야 하는 생물이죠. 우리 앞으로 고래를 소중히 여겨 주기로 해요.",
+            "turn_id": "BK22008872-10",
+            "utterance_id": "BK22008872.20"
+        }
+    ]
+}

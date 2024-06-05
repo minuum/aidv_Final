@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005818",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005818",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 판타지 소설을 자주 보는데 크툴루라는 게 자꾸 나오더라, 혹시 뭔지 알아?",
+            "turn_id": "BK22005818-1",
+            "utterance_id": "BK22005818.1"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "크툴루(Cthulhu, 혹은 Tulu, Cthulu)는 크툴루 신화의 만신전 가운데 한 자리를 차지한 가상의 존재이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루",
+            "terminate": false,
+            "text": "아, 크툴루 말이지. 그게 크틀루 신화라는 게 있는데 그 신화에 나오는 수많은 신들 중 한 자리를 차지한 가상의 존재를 말하는 거야.",
+            "turn_id": "BK22005818-1",
+            "utterance_id": "BK22005818.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 가상의 신 같은 거구나. 이름이 너무 특이해서 뇌리에 남았거든. 내가 보던 책에서는 근데 크툴루 말고도 다양하게 발음할 수 있다고 나오던데 그게 맞는 내용이야?",
+            "turn_id": "BK22005818-2",
+            "utterance_id": "BK22005818.3"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "이름은 다양하게 발음되지만 한국어권에서는 보통 ‘크툴루’로 불린다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하워드 필립스 러브크래프트에 따르면, 이 이름은 인간이 발음할 수 없는 고대의 외계 언어로 된 이름이며, 러브크래프트는 크훌'흐루(KHUL'HLOO)가 본 발음에 가까울 것이라고 기록했다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 한국어",
+            "terminate": false,
+            "text": "응, 맞아, 이 이름은 다양하게 발음되지. 하워드 필립스 러브크래프트가 기록한 바에 따르면 이 크툴라라는 이름은 고대의 외계언어로 된 이름이라 크훌흐루가 원래 발음에 가깝긴 할 테지만 인간은 사실 발음할 수 없는 것이라고 했어. 한국어에서는 보통 크툴루라고 하지.",
+            "turn_id": "BK22005818-2",
+            "utterance_id": "BK22005818.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 뭔가 이름부터 심상치 않은 존재네. 생긴 것도 이름처럼 복잡하려나?",
+            "turn_id": "BK22005818-3",
+            "utterance_id": "BK22005818.5"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "물리적으로 크툴루는 퉁퉁 부은 인간형의 모습에 녹색 피부를 갖고 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "머리는 문어처럼 생겼고, 턱은 촉수로 둘러싸여 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 개의 박쥐 날개 같은 것이 등에 달려 있으며, 피부는 흐늘흐늘하고 점액질이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 모습",
+            "terminate": false,
+            "text": "모습을 살펴보자면 물리적으로는 퉁퉁 부은 인간의 형태에 피부는 녹색이지. 머리는 문어를 닮았고, 턱에는 촉수가 둘러싸고 있어. 거기에 두개의 박쥐 날개 같은 것이 등에 달렸고 흐믈흐믈한 점액질 피부를 가졌지.",
+            "turn_id": "BK22005818-3",
+            "utterance_id": "BK22005818.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생긴 걸로는 거의 끝판왕인걸? 그럼 그 신화에 나오는 신 중에서 가장 강력한 쪽에 속하려나?",
+            "turn_id": "BK22005818-4",
+            "utterance_id": "BK22005818.7"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "어거스트 덜레스의 단편들에 등장하는 크툴루는 신화 속의 신적인 존재 중 가장 강력하지도 않고, 신들의 왕도 아니다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 신적인 존재",
+            "terminate": false,
+            "text": "아, 생긴 거에 비해서 그렇지는 않아. 어거스트 덜레스 단편들에 등장하는 크툴루를 살펴보자면 신들의 왕도 아니고 그렇다고 신적인 존재 중에서 가장 강력한 위치에 있지도 않지.",
+            "turn_id": "BK22005818-4",
+            "utterance_id": "BK22005818.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그런 그 신화 속 다른 신적인 존재들과는 뭐가 다른 거지?",
+            "turn_id": "BK22005818-5",
+            "utterance_id": "BK22005818.9"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "다른 많은 존재처럼 크툴루는 수세기를 이어온 비밀 종교에서 숭배되었고, 소설상 현재 다른 존재들의 신자보다 널리 퍼져 있고 많은 새 신도를 영입하고 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 비밀 종교",
+            "terminate": false,
+            "text": "일단 다른 많은 존재 처럼 수 세기를 이어져 온 비밀 종교에서 숭배되는 존재고, 소설상에서 보면 다른 존재들보다 신자도 널리 펴져 있고 새로운 신도들도 계속해서 많이 영입하고 있지.",
+            "turn_id": "BK22005818-5",
+            "utterance_id": "BK22005818.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 신이라고는 하지만 약간 괴물 같은 이미지 였는데 진짜로 신자들이 있는 그런 신적인 존재였구나?",
+            "turn_id": "BK22005818-6",
+            "utterance_id": "BK22005818.11"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "크툴루 자신은 계속 르'리에에서 꿈을 꾸며 잠들어 있지만 그의 숭배자들은 그 이름을 걸고 계속 활동중이다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 꿈",
+            "terminate": false,
+            "text": "그렇지, 크툴루 자신은 르리에라는 곳에서 꿈을 꾸면서 잠들어 있지만 크툴루를 모시는 숭배자들은 계속 활동 중인 거야.",
+            "turn_id": "BK22005818-6",
+            "utterance_id": "BK22005818.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "크툴루 잠들어 있으면 크툴루가 직접 등장하기보다는 그 숭배자들의 행적이 주로 소설에 묘사될 거 같은데 맞나?",
+            "turn_id": "BK22005818-7",
+            "utterance_id": "BK22005818.13"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "이 크툴루 신도들의 비밀스런 행동은 크툴루 신화를 배경으로 한 많은 이야기에서 중요한 역할을 하며, 크툴루는 그들을 이용해 간접적인 영향을 계속 미친다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 신도",
+            "terminate": false,
+            "text": "그렇지, 크툴루 신도들의 은밀한 행적들이 바로 크툴루 신화를 베이스로 한 많은 이야기에서 중요한 역할로 등장해. 크툴루는 그 신자들을 이용해 간접적인 영향을 계속 미치는 거지.",
+            "turn_id": "BK22005818-7",
+            "utterance_id": "BK22005818.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 크툴루가 등장하고 영향을 끼친 소설들이 꽤 많은가 보구나. 지금까지도 영향력이 유지되고 있어?",
+            "turn_id": "BK22005818-8",
+            "utterance_id": "BK22005818.15"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "어거스트 덜레스가 이름붙인 이후로 러브크래프트와 그 후배들의 저작들이 ‘크툴루 신화’라는 이름을 붙이고 있긴 하지만, 실제로 크툴루는 러브크래프트의 만신전 중에서 그나마 덜 끔찍한 존재 중 하나이며, 〈크툴루의 부름〉 외의 다른 저작에서는 모습을 드러내지 않는다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현재 크툴루와 크툴루 신화에 대한 것은 러브크래프트의 원작 컨셉과 많이 달라진 경향이 있다.",
+                    "value_time": "2022-08-17",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%81%AC%ED%88%B4%EB%A3%A8",
+            "search_query": "크툴루 원작",
+            "terminate": false,
+            "text": "응, 크툴루와 크툴루 신화에 대한 이야기들은 어거스트 덜러스가 그 이름을 붙인 이후로 크툴루 신화라는 이름으로 묶여 러브크래프트나 그 후배들의 저작으로 이어졌어. 근데 현재의 경우 이런 이야기들은 러브크래프트의 원작 컨셉과는 많이 달라진 경향이 있지. 사실 크툴루 라는 존재는 러브크래프트의 만신전의 있는 존재 중에 그나마 끔찍하지 않은 존재이고 크툴루의 부름이라는 저작외에는 등장하지 않거든.",
+            "turn_id": "BK22005818-8",
+            "utterance_id": "BK22005818.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 원작을 한 번 찾아서 읽어보는 게 아무래도 좋겠네, 재미있을 것 같아.",
+            "turn_id": "BK22005818-9",
+            "utterance_id": "BK22005818.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 나한테 책이 있으니까 다음번에 빌려줄게.",
+            "turn_id": "BK22005818-9",
+            "utterance_id": "BK22005818.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 정말? 그렇게 해주면 나야 너무 고맙지, 사양하지 않을게!",
+            "turn_id": "BK22005818-10",
+            "utterance_id": "BK22005818.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래, 그래. 그럼 다음에 책을 가지고 오도록 할게, 안녕!",
+            "turn_id": "BK22005818-10",
+            "utterance_id": "BK22005818.20"
+        }
+    ]
+}

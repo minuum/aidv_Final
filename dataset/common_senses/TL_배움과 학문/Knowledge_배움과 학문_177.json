@@ -1,0 +1,373 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012206",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012206",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "회사를 다니니까 명절 연휴나 공휴일만 기다리게 되네요. 주말만으로는 쉬는 날이 부족해요.",
+            "turn_id": "BK22012206-1",
+            "utterance_id": "BK22012206.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 얼마 전에는 광복절이었고, 곧 있으면 추석이에요.",
+            "turn_id": "BK22012206-1",
+            "utterance_id": "BK22012206.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "광복절하니까 생각난 일화가 있어요. 미국 거래처에게 광복절은 휴일이라고 알려줬더니, 미국에는 광복절과 비슷한 독립기념일이 있다고 하더라고요?",
+            "turn_id": "BK22012206-2",
+            "utterance_id": "BK22012206.3"
+        },
+        {
+            "reference_date": "44625.0",
+            "reference_text": [
+                {
+                    "value": "독립기념일(獨立記念日, Independence Day)은 미국의 연방 공휴일로 매년 7월 4일이다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1776년 7월 4일 미국 독립 선언이 채택된 것을 기념하는 날이다.",
+                    "value_time": "44795.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%85%EB%A6%BD%EA%B8%B0%EB%85%90%EC%9D%BC_(%EB%AF%B8%EA%B5%AD)",
+            "search_query": "미국 독립기념일",
+            "terminate": false,
+            "text": "미국의 독립기념일은 1776년 7월 4일 미국 독립 선언이 채택된 날을 기리는 날이에요. 매년 7월 4일이 미국의 연방 공휴일로 지정되어 있어요.",
+            "turn_id": "BK22012206-2",
+            "utterance_id": "BK22012206.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라 광복절에는 여러 행사가 많이 열리잖아요. 미국의 독립기념일에도 행사가 열리나요?",
+            "turn_id": "BK22012206-3",
+            "utterance_id": "BK22012206.5"
+        },
+        {
+            "reference_date": "42190.0",
+            "reference_text": [
+                {
+                    "value": "독립기념일이 되면 미국의 거의 모든 지역에서 불꽃놀이를 구경할 수 있을 정도로 폭죽을 터뜨리는 모습은 미국 독립기념일의 상징이 됐다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "수도 워싱턴과 독립기념일의 영광을 간직한 필라델피아에서는 특별한 퍼레이드가 열려 거리의 시민들을 즐겁게 했다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/america/article/201507051604001",
+            "search_query": "미국 독립기념일 행사",
+            "terminate": false,
+            "text": "미국의 독립기념일의 상징이 불꽃놀이인데, 독립기념일마다 대부분의 지역에서 불꽃놀이를 하기 때문이에요. 게다가 수도인 워싱턴과 독립기념일의 영예를 갖고 있는 필라델피아에서는 특별한 퍼레이드도 개최돼서 거리에 시민들이 구경을 하기도 해요.",
+            "turn_id": "BK22012206-3",
+            "utterance_id": "BK22012206.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "불꽃놀이랑 퍼레이드를 한다니 굉장히 아름다운 행사일 것 같아요.",
+            "turn_id": "BK22012206-4",
+            "utterance_id": "BK22012206.7"
+        },
+        {
+            "reference_date": "44382.0",
+            "reference_text": [
+                {
+                    "value": "한여름 밤을 아름답게 수놓는 독립기념일 불꽃놀이는 미국인들에게 전통적인 행사지만 부작용도 적지 않다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무덥고 건조한 지역에서는 불꽃놀이가 산불을 일으키는 사례가 적지 않기 때문이다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1992~2015년 독립기념일에 사람에 의해 발생한 산불은 전국적으로 7000건에 달했다고 전했다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/world/world-general/article/202107050659001",
+            "search_query": "미국 독립기념일 불꽃놀이",
+            "terminate": false,
+            "text": "여름 밤에 펼쳐지는 독립기념일 불꽃놀이는 역사적인 행사이기도 하고 보기에 아름답지만, 부작용 문제도 만만치 않아요... 기온이 높고 건조한 지역에서는 불꽃놀이로 인해 산불이 발생하는 경우도 꽤 많거든요. 1992년부터 2015년까지 독립기념일에는 사람 때문에 전국에 산불이 7천 건이나 일어났어요.",
+            "turn_id": "BK22012206-4",
+            "utterance_id": "BK22012206.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립기념일이 워낙 큰 기념일이라 사고도 많나봐요. 그 외에 독립기념일을 기념하는 행사나 상징 음식은 뭐가 있나요?",
+            "turn_id": "BK22012206-5",
+            "utterance_id": "BK22012206.9"
+        },
+        {
+            "reference_date": "44380.0",
+            "reference_text": [
+                {
+                    "value": "매년 7월 4일 미국 독립기념일에는 미국을 대표하는 음식인 ‘핫도그 먹기 대회’가 열리는데요.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "주어진 10분 동안 가장 많은 핫도그를 먹는 참가자가 우승을 차지하게 됩니다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://news.kbs.co.kr/news/view.do?ncd=5224568&ref=A",
+            "search_query": "미국 독립기념일 음식",
+            "terminate": false,
+            "text": "미국의 독립기념일을 상징하는 음식은 핫도그예요. 그래서 매년 7월 4일마다 핫도그 먹기 대회가 열리기도 하죠. 이 대회는 정해진 시간 10분 동안 핫도그를 가장 많이 먹은 참가자가 우승하는 재밌는 경기예요.",
+            "turn_id": "BK22012206-5",
+            "utterance_id": "BK22012206.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "독립기념일을 참 유쾌하게 보내는 것 같아요. 그러고 보니 곧 있으면 우리나라는 추석인데, 미국에도 추석과 같은 공휴일이 있을까요?",
+            "turn_id": "BK22012206-6",
+            "utterance_id": "BK22012206.11"
+        },
+        {
+            "reference_date": "43064.0",
+            "reference_text": [
+                {
+                    "value": "한국의 최대 명절인 추석과 견줄만한 날이 바로 추수감사절이다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "매년 11월 넷째 주 목요일이 미국의 추수감사절이고 캐나다는 10월 둘째 주 월요일로 정했다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/201711251576296628",
+            "search_query": "미국의 추석",
+            "terminate": false,
+            "text": "미국의 추수감사절이 우리나라 최대 명절인 추석과 매우 비슷해요. 매년 11월 넷째 주 목요일이 미국의 추수감사절인데, 10월 둘째 주 월요일을 추수감사절로 정한 캐나다와는 다른 날짜예요.",
+            "turn_id": "BK22012206-6",
+            "utterance_id": "BK22012206.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "추수감사절은 정확하게 어떤 날인가요?",
+            "turn_id": "BK22012206-7",
+            "utterance_id": "BK22012206.13"
+        },
+        {
+            "reference_date": "44781.0",
+            "reference_text": [
+                {
+                    "value": "추수감사절(秋收感謝節, 영어: Thanksgiving Day, Thanksgiving)은 하나님께 가을에 1년 동안 추수한 것에 대한 감사제를 올린다는 개신교의 기념일로 미국에서는 1년 중 최대의 명절이다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B6%94%EC%88%98%EA%B0%90%EC%82%AC%EC%A0%88",
+            "search_query": "미국 추수감사절",
+            "terminate": false,
+            "text": "추수감사절은 미국에서 1년 중 가장 큰 명절로, 종교적인 의미가 담겨있어요. 1년 동안 추수한 것에 대해 가을에 하나님께 감사기도를 올리는 개신교의 기념일이거든요.",
+            "turn_id": "BK22012206-7",
+            "utterance_id": "BK22012206.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 독립기념일에는 퍼레이드를 한다고 했는데, 추수감사절에도 퍼레이드를 하나요?",
+            "turn_id": "BK22012206-8",
+            "utterance_id": "BK22012206.15"
+        },
+        {
+            "reference_date": "44526.0",
+            "reference_text": [
+                {
+                    "value": "‘메이시스 땡스기빙데이 퍼레이드(Macy’s Thanksgiving Day Parade)’는 1924년부터 이어져 온 미국의 대표적인 추수감사절 행사로, 거대한 캐릭터 풍선이 등장하는 것이 특징이다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/international/topic/2021/11/26/3XLUVBK76ZEE5FP6LPQEND2IFY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "미국 추수감사절 퍼레이드",
+            "terminate": false,
+            "text": "네, 맞아요. 추수감사절에는 1924년부터 매년 개최되는 메이시스 땡스기빙데이 퍼레이드가 열려요. 이 퍼레이드는 대형 캐릭터 풍선이 등장하는 것이 상징적이에요.",
+            "turn_id": "BK22012206-8",
+            "utterance_id": "BK22012206.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "캐릭터 풍선이 나오는 퍼레이드라니 한번 꼭 가보고 싶네요. 미국 추수감사절에는 뭘 먹는지도 궁금해요. 우리가 추석에 송편을 먹는 것처럼요.",
+            "turn_id": "BK22012206-9",
+            "utterance_id": "BK22012206.17"
+        },
+        {
+            "reference_date": "43427.0",
+            "reference_text": [
+                {
+                    "value": "추수감사절에 빠지지 않는 것은 칠면조 고기 요리다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "가정에서는 대체로 오븐에 구워 먹는다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미 전국에서 먹는 칠면조는 대략 4500만 마리로 추산된다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20181123_0000481793&cID=10101&pID=10100",
+            "search_query": "추수감사절 음식",
+            "terminate": false,
+            "text": "추수감사절을 대표하는 요리는 칠면조 고기예요. 집에서는 보통 오븐 구이로 먹는데, 미국 전역에서 먹는 칠면조가 무려 4500만 마리로 추정되고 있어요.",
+            "turn_id": "BK22012206-9",
+            "utterance_id": "BK22012206.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "칠면조 고기는 한 번도 먹어본 적이 없어서 신기하네요. 사실 추수감사절 문화는 잘 모르지만, 그 시기에 세일을 하는 건 알고 있었어요.",
+            "turn_id": "BK22012206-10",
+            "utterance_id": "BK22012206.19"
+        },
+        {
+            "reference_date": "44523.0",
+            "reference_text": [
+                {
+                    "value": "미국에서 매년 11월 네 번째 목요일은 추수감사절, 그 이튿날은 연중 최저가 상품을 연말까지 쏟아내는 세일 시즌의 첫날인 블랙프라이데이다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "블랙프라이데이에 시작된 세일 시즌은 크리스마스(12월 25일)를 지나 연말까지 이어진다.",
+                    "value_time": "44795.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.kmib.co.kr/article/view.asp?arcid=0016491907&code=61141211&cp=nv",
+            "search_query": "추수감사절 블랙프라이데이",
+            "terminate": false,
+            "text": "블랙프라이데이를 말하는 거군요. 매년 11월 넷째 주 목요일인 추수감사절 다음날이 바로 블랙프라이데이예요. 일 년 중 가장 저렴한 상품을 판매하는 세일 시즌의 첫날을 의미해요. 이 세일 시즌은 블랙프라이데이에 시작해서 12월 25일 성탄절을 지나서 연말까지 쭉 이어져요.",
+            "turn_id": "BK22012206-10",
+            "utterance_id": "BK22012206.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "칠면조 고기는 못 먹더라도 블랙프라이데이 세일에는 꼭 참여할 거예요!",
+            "turn_id": "BK22012206-11",
+            "utterance_id": "BK22012206.21"
+        }
+    ]
+}

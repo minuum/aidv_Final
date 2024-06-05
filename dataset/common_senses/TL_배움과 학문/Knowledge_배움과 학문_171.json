@@ -1,0 +1,349 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.6,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012126",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012126",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 있으면 한글날이네. 아, 세종대왕이 어느 시대 몇 대 왕이었지?",
+            "turn_id": "BK22012126-1",
+            "utterance_id": "BK22012126.1"
+        },
+        {
+            "reference_date": "44753.0",
+            "reference_text": [
+                {
+                    "value": "세종(世宗, 1397년 5월 7일 ~ 1450년 3월 30일)은 조선의 제4대 국왕(재위 : 1418년 9월 9일 ~ 1450년 3월 30일)이다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EC%84%B8%EC%A2%85",
+            "search_query": "조선 세종",
+            "terminate": false,
+            "text": "세종대왕은 조선시대 네 번째 국왕이야.",
+            "turn_id": "BK22012126-1",
+            "utterance_id": "BK22012126.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 세 번째인지 네 번째인지 헷갈렸었어. 그럼 원래부터 세종이 세자였나?",
+            "turn_id": "BK22012126-2",
+            "utterance_id": "BK22012126.3"
+        },
+        {
+            "reference_date": "44753.0",
+            "reference_text": [
+                {
+                    "value": "조선의 제4대 국왕으로 태종과 원경왕후의 아들이다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "형인 양녕대군이 폐세자가 되자 세자에 책봉되었으며 태종의 양위를 받아 즉위하였다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EC%84%B8%EC%A2%85",
+            "search_query": "조선 세종",
+            "terminate": false,
+            "text": "음, 세종은 태종과 원경왕후의 아들인데, 세종에겐 양녕대군이라는 형이 있었어. 하지만 양녕대군이 폐세자가 되어서 세종이 세자로 선택된 거지. 그리고 그 후 세종이 임금의 자리를 물려받고 왕의 자리에 올랐어.",
+            "turn_id": "BK22012126-2",
+            "utterance_id": "BK22012126.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 분명 어릴 때 배웠던 것 같은데 기억이 전혀 안 나. 역사는 너무 어려워.",
+            "turn_id": "BK22012126-3",
+            "utterance_id": "BK22012126.5"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 하지만 우리나라 역사이니만큼 잘 알아야 해.",
+            "turn_id": "BK22012126-3",
+            "utterance_id": "BK22012126.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근데 세종대왕이 왜 훈민정음을 만든 거야?",
+            "turn_id": "BK22012126-4",
+            "utterance_id": "BK22012126.7"
+        },
+        {
+            "reference_date": "42646.0",
+            "reference_text": [
+                {
+                    "value": "그러나 그림만 보고서는 백성들이 충효의 깊은 뜻을 깨닫지 못한 다는 것을 알게 된 세종은 백성이 쉽게 익힐 수 있는 글자를 창제할 결심을 하게 됩니다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ytn.co.kr/_pn/0484_201610031147099660",
+            "search_query": "훈민정음 만든이유",
+            "terminate": false,
+            "text": "음, 백성들이 그림만 보고 충성과 효도의 뜻을 이해하지 못한다는 걸 깨닫고 백성들이 쉽게 익히고 배울 수 있는 글자를 새롭게 만들어 보자고 마음먹게 된 거지.",
+            "turn_id": "BK22012126-4",
+            "utterance_id": "BK22012126.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 언제 훈민정음이 완성된거야?",
+            "turn_id": "BK22012126-5",
+            "utterance_id": "BK22012126.9"
+        },
+        {
+            "reference_date": "42646.0",
+            "reference_text": [
+                {
+                    "value": "이에 세종은 집현전 학자들과 함께 10여년의 시간동안 노력한 결과 기억, 미음, 시옷 말을 발성하는 발음기관의 모양을 본 따 자음 17자 태양, 땅, 사람 즉 자연의 조화를 본 따 만든 모음 11자 총 28자의 훈민정음을 창제하고 마침내 1446년 음력 9월 10일 훈민정음을 반포하게 됩니다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ytn.co.kr/_pn/0484_201610031147099660",
+            "search_query": "훈민정음 창제",
+            "terminate": false,
+            "text": "세종은 집헌전 학자들과 함께 10년넘게 노력한 결과 자음과 모음을 만들었어. 기억, 미음, 시옷 말을 발성하는 발음기관의 모양을 본 따 자음 17자를 만들었고 태양, 땅, 사람 즉 자연의 조화를 본 따 만든 모음 11자를 만들어 마침내 자음, 모음 총 28자를 만들었지. 그리고 드디어 1446년 음력 9월 10일에 훈민정음을 세상에 널리 퍼뜨려 모두 알게 했어.",
+            "turn_id": "BK22012126-5",
+            "utterance_id": "BK22012126.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 세종대왕은 진짜 대단한 사람이야. 한글을 만들 생각을 한다는 건 아무나 할 수 있는 게 아니잖아.",
+            "turn_id": "BK22012126-6",
+            "utterance_id": "BK22012126.11"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 오늘날 우리가 한글을 읽고 쓸 수 있는 것도 다 세종대왕의 훈민정음이 있었기 때문이야.",
+            "turn_id": "BK22012126-6",
+            "utterance_id": "BK22012126.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "완전히 공감해. 근데 훈민정음은 한글이랑 조금 다른데 이렇게 한글로 만든 사람은 누구야?",
+            "turn_id": "BK22012126-7",
+            "utterance_id": "BK22012126.13"
+        },
+        {
+            "reference_date": "43383.0",
+            "reference_text": [
+                {
+                    "value": "국보 제70호로, 1997년 유네스코(UNESCO) 세계기록유산으로 지정받은 훈민정음(訓民正音)은 언문이나 암글 등으로 천대를 받다가 민족의식의 각성과 더불어 국문과 국서로 표현됐으며, 주시경 선생에 의해 한글이란 이름을 얻었으며 오늘에 이르고 있다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdailynews.com/news/articleView.html?idxno=981592",
+            "search_query": "주시경에 의해 한글로 발전",
+            "terminate": false,
+            "text": "훈민정음은 국보 제70호로도 지정받고 1997년도에는 유네스코 세계기록 유산으로 지정받은 건 알고 있지? 근데 이 훈민정음이 언문이나 여자들이나 쓸 글이라는 등 여러 가지 이유로 천대받았었어. 하지만 민족의식을 깨달음과 더불어 국문과 국서로 표현됐고 그 후 주시경 선생에 의해서 한글이란 이름을 얻게 된 거지.",
+            "turn_id": "BK22012126-7",
+            "utterance_id": "BK22012126.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 여러 사람들이 고생해서 만든 게 한글이구나. 이제라도 알았으니 한글을 소중히 써야 할거 같아. 근데 아까 양녕대군이 폐세자가 됐다고 했는데 이유가 뭐야?",
+            "turn_id": "BK22012126-8",
+            "utterance_id": "BK22012126.15"
+        },
+        {
+            "reference_date": "44688.0",
+            "reference_text": [
+                {
+                    "value": "자유분방한 성격으로 부왕 태종과 마찰을 빚다가 유정현(柳廷顯) 등의 상소로 폐위되었다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EB%85%95%EB%8C%80%EA%B5%B0",
+            "search_query": "양녕대군",
+            "terminate": false,
+            "text": "양녕대군은 성격이 아주 자유분방했어. 그러다 보니 아버지인 태종과 마찰을 빚던 중 유정현 등의 상소로 인해서 세자에서 폐위되었어.",
+            "turn_id": "BK22012126-8",
+            "utterance_id": "BK22012126.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 자유분방한 사람이었구나. 그렇다면 왕위에 오르기 싫어했을 수도 있겠다. 아, 세종실록이라는 것도 있던데 알아?",
+            "turn_id": "BK22012126-9",
+            "utterance_id": "BK22012126.17"
+        },
+        {
+            "reference_date": "44691.0",
+            "reference_text": [
+                {
+                    "value": "《세종장헌대왕실록》(世宗莊憲大王實錄)은 세종의 즉위년(1418년) 8월부터 세종 32년(1450년) 2월에 승하하기 까지의 역사적 사실을 기록한 책으로, 조선왕조실록의 한 부분이다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B8%EC%A2%85%EC%8B%A4%EB%A1%9D",
+            "search_query": "세종실록",
+            "terminate": false,
+            "text": "당연히 알고 있지. 세종장헌대왕실록이라고 하는데 조선왕조실록의 한 부분이야. 세종의 임금에 오르는 해 1418년 8월부터 세종 32년 1450년 2월에 세종이 세상을 떠나기까지 역사적 사실을 기록한 책이야.",
+            "turn_id": "BK22012126-9",
+            "utterance_id": "BK22012126.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "조선왕조실록이라면 양이 엄청 많지 않아? 예전에 어디서 봤던 기억이 있어.",
+            "turn_id": "BK22012126-10",
+            "utterance_id": "BK22012126.19"
+        },
+        {
+            "reference_date": "44765.0",
+            "reference_text": [
+                {
+                    "value": "『조선왕조실록』 은 총 1,894권 888책으로 이루어져 있으며, 총 49,646,667자의 방대한 내용을 포함하고 있다.",
+                    "value_time": "44771.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0%EC%99%95%EC%A1%B0%EC%8B%A4%EB%A1%9D",
+            "search_query": "조선왕조실록",
+            "terminate": false,
+            "text": "맞아, 정말 엄청 많아. 총 1,894권 888책으로 이루어져 있고 총 49,646,667자의 엄청나게 많은 내용을 갖고 있어. 많은 내용이지만 읽다 보면 너무 재밌어서 시간 가는 줄 모르고 읽게 돼.",
+            "turn_id": "BK22012126-10",
+            "utterance_id": "BK22012126.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "혹시 조선왕조실록 내용을 다 알아?",
+            "turn_id": "BK22012126-11",
+            "utterance_id": "BK22012126.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다 알지만, 지금은 시간이 없어서 얘기를 못 해주겠네? 다음에 노트 갖고 시간 넉넉히 챙겨서 오면 알려줄게.",
+            "turn_id": "BK22012126-11",
+            "utterance_id": "BK22012126.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "알겠어. 나도 지금은 가봐야 하니까 나중에 꼭 들려줘.",
+            "turn_id": "BK22012126-12",
+            "utterance_id": "BK22012126.23"
+        }
+    ]
+}

@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004209",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004209",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스페인 건축가 가우디가 디자인한 성당 말이에요, 여전히 건축 중인 성당이라고 들었는데 이름이 잘 생각이 안 나네요. 혹시 뭔지 알아요?",
+            "turn_id": "BK22004209-1",
+            "utterance_id": "BK22004209.1"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "사그라다 파밀리아 성당은 스페인 바르셀로나에 현재도 건설 중인 로마 가톨릭 성당이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사그라다 파밀리아는 스페인어로 '신성한(성스러운) 가족'이란 뜻이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "가우디 성당",
+            "terminate": false,
+            "text": "사그라다 파밀리아 성당을 말하는군요. 스페인 바르셀로나에 있는 로마 가톨릭 성당인데 현재도 건설되고 있죠. 참고로 스페인어 사그라다 파밀리아라는 이름은 신성한 가족이라는 의미가 있어요.",
+            "turn_id": "BK22004209-1",
+            "utterance_id": "BK22004209.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 사그라다 파밀리아 맞아요. 이 건물이 백 년 넘게 짓고 있다는데 도대체 언제부터 공사가 시작된 건가요?",
+            "turn_id": "BK22004209-2",
+            "utterance_id": "BK22004209.3"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "프로젝트는 1882년 바르셀로나교구의 건축가 프란시스코 데 파울라 델 빌라의 설계로 시작됐는데 1년 만에 수석 건축가가 가우디로 교체되면서 전통적인 고딕 양식에서 고딕 양식과 아르누보 양식을 결합한 특유의 독창적인 디자인으로 변모했다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "사그라다 파밀리아 시작",
+            "terminate": false,
+            "text": "이 프로젝트는 1882년에 바르셀로나교구 건축가인 프란시스코데 파울라 델 빌라의 설계에서 시작되었어요. 그러다 수석 건축가가 가우디로 1년 만에 바뀌게 되었죠. 그리고 이때부터는 전통적인 고딕 양식이 아니라 고딕 양식과 아르누보 양식이 결합 된 가우디 특유의 독창적인 디자인으로 바뀌게 되었어요.",
+            "turn_id": "BK22004209-2",
+            "utterance_id": "BK22004209.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 진짜 오래전부터 시작된 프로젝트네요. 그럼 대체 언제 완공되는 거예요?",
+            "turn_id": "BK22004209-3",
+            "utterance_id": "BK22004209.5"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "현재 사그라다 파밀리아 성당은 약 80% 완성된 상태로 목표 완공 시점은 가우디 사망 100주기인 2026년이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "사그라다 파밀리아 완공 시기",
+            "terminate": false,
+            "text": "2021년을 기준으로 사그라다 파밀리아 성당은 80퍼센트가 완성되어 있어요. 완공 목표는 2026년으로 하고 있는데, 이때가 가우디가 사망한 지 100년이 되는 시점이에요.",
+            "turn_id": "BK22004209-3",
+            "utterance_id": "BK22004209.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 지금까지 해 온 것에 비하면 얼마 남지 않았네요. 사실 저는 가우디라는 건축가에 대해서 잘은 모르는데, 어떤 인물인지 알려줄 수 있나요?",
+            "turn_id": "BK22004209-4",
+            "utterance_id": "BK22004209.7"
+        },
+        {
+            "reference_date": "2022-06-21",
+            "reference_text": [
+                {
+                    "value": "가우디는 21세기인 지금도 스페인 바르셀로나를 빛낸 건축가이자 스페인 건축학의 아버지로 알려졌다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적인 천재와는 다르게 생전에 이미 대성공한 건축가로서 스페인 건축사에 큰 발자취를 남긴 인물이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220621_0001914596",
+            "search_query": "가우디",
+            "terminate": false,
+            "text": "가우디는 21세기인 지금까지도 스페인 건축학의 아버지이자 바르셀로나를 빛낸 건축가로 알려진 인물이죠. 스페인 건축사에 커다란 자취를 남긴 인물이기도 하고 생전에 이미 대성공을 거둔 건축가라는 점이 일반적인 천재와는 다르죠.",
+            "turn_id": "BK22004209-4",
+            "utterance_id": "BK22004209.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 살아있을 때도 이미 유명한 건축가였겠네요. 그럼 가우디의 작품은 어떤 점을 특징으로 하고 있어요?",
+            "turn_id": "BK22004209-5",
+            "utterance_id": "BK22004209.9"
+        },
+        {
+            "reference_date": "2018-05-22",
+            "reference_text": [
+                {
+                    "value": "몸이 불편하다보니 혼자 있는 시간이 많았고 인간을 둘러싼 자연의 아름다움에도 주목하게 됐다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자연의 곡선미와 섬세함에 매료된 가우디의 생각이 반영되면서 일반적인 직선 형태가 아닌 곡선 형태의 건물들이 탄생한 것이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://realty.chosun.com/site/data/html_dir/2018/05/21/2018052103030.html",
+            "search_query": "가우디 작품 특징",
+            "terminate": false,
+            "text": "가우디는 몸이 불편해서 혼자 있는 시간이 많았어요. 그리고 자연의 아름다움에 주목하면서 자연이 가진 곡선미와 섬세한 매력에 끌렸죠. 이런 그의 생각이 작품에 반영되면서 그의 작품은 일반적 건물의 형태인 직선이 아닌 곡선 형태로 탄생하게 되었어요.",
+            "turn_id": "BK22004209-5",
+            "utterance_id": "BK22004209.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저도 사진에서 본 것 같아요. 구불구불하고 휘어있는 듯한 디자인이죠? 혹시 사그라다 파밀리아 말고 다른 유명한 작품들도 있나요?",
+            "turn_id": "BK22004209-6",
+            "utterance_id": "BK22004209.11"
+        },
+        {
+            "reference_date": "2021-05-01",
+            "reference_text": [
+                {
+                    "value": "한편 가우디가 바르셀로나에 남긴 대표작에는 구엘공원과 까사 밀라, 까사 바트요, 까사 비센스, 구엘 저택, 콜로니아 구엘 교회 등이 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2021/05/421546/",
+            "search_query": "가우디 대표작품",
+            "terminate": false,
+            "text": "많죠. 구엘 공원, 까사 밀라, 까사 바트요, 까사 비센스 등이 바르셀로나에 남은 그의 대표작이에요.",
+            "turn_id": "BK22004209-6",
+            "utterance_id": "BK22004209.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 저 구엘 공원 들어봤어요. 그 정도로 유명한 건축가라면 세계적으로 인정받는 작품들일 텐데 혹시 세계문화유산으로 지정되기도 했나요?",
+            "turn_id": "BK22004209-7",
+            "utterance_id": "BK22004209.13"
+        },
+        {
+            "reference_date": "2022-04-11",
+            "reference_text": [
+                {
+                    "value": "파도의 굴곡이 깃든 카사 바트요, 카사 밀라와 대성당 사그라다 파밀리아 등 가우디가 19세기말 20세기초 쌓아 올린 건축물중 다수가 유네스코 세계문화유산에 등재돼 있다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.hankooki.com/news/articleView.html?idxno=7072079",
+            "search_query": "가우디 세계문화유산",
+            "terminate": false,
+            "text": "그럼요, 파도의 굴곡을 표현한 카사 바트요나 카사 밀라는 물론이고 사그라다 파밀리아 대성당 같이 19세기 말과 20세기 초를 거쳐 가우디가 만든 다수의 건축물이 세계문화유산으로 등재되어 있어요.",
+            "turn_id": "BK22004209-7",
+            "utterance_id": "BK22004209.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시, 세계적으로 인정받는 건축가라고 할 수 있네요. 그런데 그는 왜 사그라다 파밀리아 성당을 다 짓지 못한 거예요? 중도에 사망한 건가요?",
+            "turn_id": "BK22004209-8",
+            "utterance_id": "BK22004209.15"
+        },
+        {
+            "reference_date": "2019-10-01",
+            "reference_text": [
+                {
+                    "value": "그는 1926년 전차에 부딪히는 사고를 당하는데, 가우디의 행색이 초라해 아무도그를 알아보지 못했을 뿐아니라 빠른 치료를 받지 못해 3일 만에 세상을 떠나게 된다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.opinionnews.co.kr/news/articleView.html?idxno=24036",
+            "search_query": "가우디 죽음",
+            "terminate": false,
+            "text": "맞아요. 1926년에 전차에 부딪히는 사고를 당했거든요. 그때 가우디의 행색이 초라했기 때문에 누구도 그를 알아보지 못했고, 즉시 치료받지 못해서 3일 만에 사망하게 되었던 거죠.",
+            "turn_id": "BK22004209-8",
+            "utterance_id": "BK22004209.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 천재 건축가의 죽음이라고 하기에는 너무 비극적인데요? 그럼 그의 사망 후 성당은 어떻게 되었던 거예요?",
+            "turn_id": "BK22004209-9",
+            "utterance_id": "BK22004209.17"
+        },
+        {
+            "reference_date": "2015-06-09",
+            "reference_text": [
+                {
+                    "value": "그가 사망할 때까지 성당 건축은 완성되지 못했고, 그의 사후(死後) 다른 건축가들에 의해 작업이 진행되다가 1936년 스페인 내란으로 중단되었다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1952년 건축이 재개되어 지금도 공사가 진행 중이다.",
+                    "value_time": "2022-08-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.futurekorea.co.kr/news/articleView.html?idxno=28037",
+            "search_query": "가우디 사망 후 성당",
+            "terminate": false,
+            "text": "성당은 가우디가 사망하고 나서는 다른 건축가들이 작업을 이어갔어요. 하지만 1936년에 스페인 내란으로 공사가 중단되었고, 건축이 재개된 건 1952년이었죠. 그리고 알다시피 여전히 지금도 공사는 진행 중이고요.",
+            "turn_id": "BK22004209-9",
+            "utterance_id": "BK22004209.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 사연이 있었구나. 우여곡절이 많은 건축물이라 그런지 더 극적으로 느껴지는 것 같아요.",
+            "turn_id": "BK22004209-10",
+            "utterance_id": "BK22004209.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래서 전 세계의 많은 사람이 가우디의 작품을 보러 스페인으로 모여들죠.",
+            "turn_id": "BK22004209-10",
+            "utterance_id": "BK22004209.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저도 언젠가 기회가 되면 비운의 천재 건축가 가우디의 작품을 꼭 직접 보고 싶네요. 오늘 대화 즐거웠어요, 그럼 다음에 또 봐요.",
+            "turn_id": "BK22004209-11",
+            "utterance_id": "BK22004209.21"
+        }
+    ]
+}

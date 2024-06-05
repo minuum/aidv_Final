@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002178",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002178",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달력 보면서 문득 생각난 건데 지금 우리가 쓰는 달력 체계가 뭐였더라? 그레고리력 맞나?",
+            "turn_id": "BK22002178-1",
+            "utterance_id": "BK22002178.1"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "그레고리력(영어: Gregorian Calendar)은 현재 전 세계적으로 통용되는 태양력(太陽曆)으로, 1582년에 교황 그레고리오 13세가 이전의 율리우스력을 개정하여 시행한 역법을 말한다",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력",
+            "terminate": false,
+            "text": "응, 그레고리력이 맞아. 전 세계적으로 지금 쓰고 있는 태양력으로 1582년 교황 그레고리오 13세가 원래 쓰던 율리우스력을 개정해서 붙여진 이름이지.",
+            "turn_id": "BK22002178-1",
+            "utterance_id": "BK22002178.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 원래는 율리우스력이었구나. 그런데 무슨 문제가 있었길래 개정한 거야?",
+            "turn_id": "BK22002178-2",
+            "utterance_id": "BK22002178.3"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "율리우스력의 계산법은 천체운행과 불일치함으로 오차가 발생했기에 이를 보정하기 위해서 새로운 역법을 만들었다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 오차",
+            "terminate": false,
+            "text": "율리우스력은 천체의 운행과 잘 맞지 않아서 오차가 있었어. 이걸 보정하려고 새로 역법을 만든 거야.",
+            "turn_id": "BK22002178-2",
+            "utterance_id": "BK22002178.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 오차가 좀 있었구나. 방금 그레고리 역은 태양력이라고 했는데 기준이 태양이어서 그런 거야?",
+            "turn_id": "BK22002178-3",
+            "utterance_id": "BK22002178.5"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "그레고리력은 달의 운동과는 관계없이, 태양의 운행만을 기준으로 한 태양력의 한 종류로, 이 역법 사용이 전세계적으로 일반화된 시기는 20세기가 되어서이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 태양력",
+            "terminate": false,
+            "text": "응, 그레고리력은 달의 운행과는 상관없이 태양만을 기준으로 해서 태양력이라고 하는 거야. 20세기가 되어서 전 세계적으로 일반화되었어.",
+            "turn_id": "BK22002178-3",
+            "utterance_id": "BK22002178.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아까 1582년에 개정했다고 하지 않았어? 왜 한참이 지나서야 일반화된 거야?",
+            "turn_id": "BK22002178-4",
+            "utterance_id": "BK22002178.7"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "스페인, 프랑스, 이탈리아 등은 1582년에 그레고리력을 채택하였으나 대부분의 개신교와 정교회 국가들은 정치·종교적 이유로 인해 기존의 율리우스력 사용을 고수했다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 율리우스",
+            "terminate": false,
+            "text": "응, 아까 말한 대로 스페인, 프랑스, 이탈리아 같은 나라에서는 1582년에 그레고리력을 채택했지만 나머지 대부분의 개신교, 정교회 국가들은 기존의 율리우스력을 계속 유지했어. 정치적, 종교적인 이유가 있었던 거지.",
+            "turn_id": "BK22002178-4",
+            "utterance_id": "BK22002178.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "달력 하나 바꾸기도 쉬운 게 아니구나. 아, 그리고 또 궁금한 거 하나. 우리나라에서 양력, 음력 이렇게 따지는데 여기서 말하는 양력이 태양력인 건가?",
+            "turn_id": "BK22002178-5",
+            "utterance_id": "BK22002178.9"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "현재까지 대한민국에서 사용하는 태양력 또는 양력은 그레고리력이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 대한민국",
+            "terminate": false,
+            "text": "그렇지, 현재 대한민국에서 쓰는 양력이 태양력, 바로 그레고리력인 거야.",
+            "turn_id": "BK22002178-5",
+            "utterance_id": "BK22002178.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 역시 그렇군. 우리나라에서는 그럼 언제부터 그레고리력을 쓴 거야?",
+            "turn_id": "BK22002178-6",
+            "utterance_id": "BK22002178.11"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "대한민국은 1896년부터 그레고리력을 채택하였고, 서력기원(西曆紀元, AD)을 본격적으로 사용한 시기는 1962년 부터이다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 대한민국 시기",
+            "terminate": false,
+            "text": "1896년에 채택해서 쓰기 시작했지. 아, 참고로 흔히 AD라고 하는 서력기원은 1962년부터 쓰기 시작했어.",
+            "turn_id": "BK22002178-6",
+            "utterance_id": "BK22002178.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그레고리력을 채택하기 전에는 무슨 달력을 썼는데?",
+            "turn_id": "BK22002178-7",
+            "utterance_id": "BK22002178.13"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "조선 초에는 고려 공민왕 때 명나라에서 가져온 대통력(大統曆)을 사용하다가, 세종 때에는 회회력을 바탕으로 개정된 태음태양력을 사용하였다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 대통력",
+            "terminate": false,
+            "text": "조선 초에는 고려 공민왕 시절 명나라에서 넘어온 대통력을 쓰다가, 세종 때가 돼서는 회회력을 기본으로 개정한 태음태양력을 썼지.",
+            "turn_id": "BK22002178-7",
+            "utterance_id": "BK22002178.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그레고리력 전에도 몇 번의 개정이 있었구나. 현대에 와서는 다른 나라들도 다들 그레고리력을 쓰고 있는 거지?",
+            "turn_id": "BK22002178-8",
+            "utterance_id": "BK22002178.15"
+        },
+        {
+            "reference_date": "2022-07-20",
+            "reference_text": [
+                {
+                    "value": "21세기 현재는 대부분의 국가에서 그레고리력을 사용하고 있다.",
+                    "value_time": "2022-07-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EA%B3%A0%EB%A6%AC%EB%A0%A5",
+            "search_query": "그레고리력 21세기",
+            "terminate": false,
+            "text": "응, 21세기에 와서는 대부분의 국가 모두 그레고리력을 쓰고 있어.",
+            "turn_id": "BK22002178-8",
+            "utterance_id": "BK22002178.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 오늘도 유익한 정보 많이 들었네. 다음에도 잘 부탁해.",
+            "turn_id": "BK22002178-9",
+            "utterance_id": "BK22002178.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "부탁은 무슨 언제든지 궁금한 거 있으면 물어보라고.",
+            "turn_id": "BK22002178-9",
+            "utterance_id": "BK22002178.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 다음에도 부담 없이 물어볼게, 난 이만 가보려고.",
+            "turn_id": "BK22002178-10",
+            "utterance_id": "BK22002178.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아, 시간이 벌써 이렇게 되었구나. 잘 들어가, 안녕!",
+            "turn_id": "BK22002178-10",
+            "utterance_id": "BK22002178.20"
+        }
+    ]
+}

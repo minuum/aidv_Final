@@ -1,0 +1,453 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012259",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012259",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0001"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세계의 글자의 유래가 궁금해! 한글부터 알려줄 수 있어?",
+            "turn_id": "BK22012259-1",
+            "utterance_id": "BK22012259.1"
+        },
+        {
+            "reference_date": "43746.0",
+            "reference_text": [
+                {
+                    "value": "세종대왕께서 한글을 창제하신 의도는 당시 국민이 한자가 어려워 글을 모른 백성이 많아 이를 가엽게 생각하시고 쉽게 배울 수 있는 한글을 만들게 되었다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.namdonews.com/news/articleView.html?idxno=543978",
+            "search_query": "세종대왕 한글 창제 기록",
+            "terminate": false,
+            "text": "한국에서 쓰는 글자인 한글은 세종대왕이 당시 한자를 배우기 어려워, 글을 모르는 백성이 많아 이를 안타깝게 생각해 쉽게 배울 수 있도록 만든 글자야.",
+            "turn_id": "BK22012259-1",
+            "utterance_id": "BK22012259.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지, 이거 모르면 간첩이지. 일본도 우리처럼 문자를 만들었나?",
+            "turn_id": "BK22012259-2",
+            "utterance_id": "BK22012259.3"
+        },
+        {
+            "reference_date": "44622.0",
+            "reference_text": [
+                {
+                    "value": "고대 일본에서 한자의 일부 획을 따서 문자로 삼은 것은 일찍이 7세기부터였으나,오늘날 가타카나의 직접적 기원은 9세기 초 나라 지방의 고종파 (古宗派)에 속한 학승들이 불경에 쓰인 한문을 일어로 훈독하기 위해 만든 글자 체계에서 비롯됐다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B0%80%ED%83%80%EC%B9%B4%EB%82%98",
+            "search_query": "가타카나",
+            "terminate": false,
+            "text": "일본은 7세기 정도부터 한자 획의 일부를 따와서 문자로 썼지만, 지금 쓰고 있는 가타카나는 9세기 초에 나라 지방에서 불경에 쓰인 한문을 고종파 학승들이 일어로 읽기 위해 만든 글자에서 시작되었다고 알려져 있어.",
+            "turn_id": "BK22012259-2",
+            "utterance_id": "BK22012259.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "일본은 세종대왕처럼 한 사람이 만든 게 아니구나? 중국의 한자도 그럴 것 같긴 한데?",
+            "turn_id": "BK22012259-3",
+            "utterance_id": "BK22012259.5"
+        },
+        {
+            "reference_date": "44728.0",
+            "reference_text": [
+                {
+                    "value": "한비자나 여씨춘추와 같은 책을 보면, 한자는 창힐이라는 사람이 만들었다고 한다.",
+                    "value_time": "44752.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "창힐은 상고시대에 살았던 사람으로서 황제라는 설도 있고 황제의 사관이라는 설도 있다.",
+                    "value_time": "44752.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 사람이 사물의 모양이나 짐승의 발자국을 본떠 한자를 만들었다는 기록이 있다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나, 한자는 한 사람이 만들 수 없을 뿐만 아니라 한 시기에 만들어질 수 있는 글자도 아니라는 견해가 통설이다.",
+                    "value_time": "44752.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%9E%90",
+            "search_query": "한자",
+            "terminate": false,
+            "text": "맞아. 중국의 한자는 한비자나 여씨춘추 등의 책에서는 한자는 창힐이라는 사람이 만들었다고 나와 있어. 창힐은 상고시대 사람이며, 황제거나 황제의 사관이 아니었나 추측되고 있어. 창힐이 사물의 형태나 동물의 발자국을 본떠서 만들었다고 하는데, 한 명의 사람이 한 시기 안에 만들어질 수 있는 양이 아니기 때문에 한 사람이 창제한 글자는 아니라는 게 통설이야.",
+            "turn_id": "BK22012259-3",
+            "utterance_id": "BK22012259.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 서양에서 주로 쓰는 로마자는 누가 만든 거야?",
+            "turn_id": "BK22012259-4",
+            "utterance_id": "BK22012259.7"
+        },
+        {
+            "reference_date": "44750.0",
+            "reference_text": [
+                {
+                    "value": "로마자는 기원전 7세기에 에트루리아 문자를 토대로 만들어졌다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "에트루리아 문자는 그리스 문자에 기원을 두었다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "에트루리아 문자의 26글자 중 로마인들은 21글자를 따왔다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%A7%88%EC%9E%90",
+            "search_query": "로마자",
+            "terminate": false,
+            "text": "로마자는 로마인들이 그리스 문자가 기원인 에트루리아 문자를 기초로 기원전 7세기에 만들어졌어. 에트루리아 문자 26글자 중에 21글자를 따와서 만들었지.",
+            "turn_id": "BK22012259-4",
+            "utterance_id": "BK22012259.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아랍에서 쓰는 신기하게 생긴 글자는 뭐야?",
+            "turn_id": "BK22012259-5",
+            "utterance_id": "BK22012259.9"
+        },
+        {
+            "reference_date": "44738.0",
+            "reference_text": [
+                {
+                    "value": "아랍 문자의 기원은, 아람 문자라 할 수 있다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원전 3세기에서부터 기원후 3세기경까지 세력을 유지한 페트라를 중심으로 하는 아랍계 나바테아인이 사용했던 아람 문자의 한 계통, 나바테아 문자에서 직접 발전된 문자이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시의 나바테아 문자는, 다른 지역의 아람 문자와 마찬가지로, 문자와 문자 사이를 연결해서, 이어 쓰는 특징을 갖고 있었다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%9E%8D_%EB%AC%B8%EC%9E%90",
+            "search_query": "아랍 문자",
+            "terminate": false,
+            "text": "그건 아랍 문자야. 기원전 3세기부터 기원후 3세기경까지 페트라를 중심으로 살았던 세력가 나비테아인이 사용하던 아람 문자들 중 하나인 나바테아 문자에서 발전된 형태야. 문자랑 문자 사이를 연결해서 이어 쓰는 특성이 있지.",
+            "turn_id": "BK22012259-5",
+            "utterance_id": "BK22012259.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "비슷하면서도 다른 문자가 있다고 들은 것 같아!",
+            "turn_id": "BK22012259-6",
+            "utterance_id": "BK22012259.11"
+        },
+        {
+            "reference_date": "44621.0",
+            "reference_text": [
+                {
+                    "value": "히브리 문자(אלפבית עברי 알레프베이트 이브리)는 이스라엘의 공용어인 히브리어, 유럽의 이디시어와 라디노어를 쓰기 위해 사용되는 22개의 문자로 이루어진 아브자드이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%B8%8C%EB%A6%AC_%EB%AC%B8%EC%9E%90",
+            "search_query": "히브리 문자",
+            "terminate": false,
+            "text": "아마도 히브리문자일 거야. 유럽의 이디시어와 라디노어, 이스라엘의 공용어인 히브리어를 글로 적기 위해 사용되는 문자로 총 22글자로 이루어져 있어.",
+            "turn_id": "BK22012259-6",
+            "utterance_id": "BK22012259.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 어떤 문자들이 있어?",
+            "turn_id": "BK22012259-7",
+            "utterance_id": "BK22012259.13"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "조지아 문자(조지아어: ქართული დამწერლობა 카르툴리 담체를로바)는 조지아의 공용어인 조지아어에서 사용되는 문자이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기록에 따르면, 조지아 문자는 기원전 284년경에 이베리아의 국왕인 파르나바즈 1세에 의해 만들어졌다고 한다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%EC%95%84_%EB%AC%B8%EC%9E%90",
+            "search_query": "조지아 문자",
+            "terminate": false,
+            "text": "여러 가지가 있지, 예를 들면 조지아어에 사용되는 조지아 문자인데, 이 문자는 기원전 284년경에 이베리아의 국왕인 파르나바즈 1세가 만들었어.",
+            "turn_id": "BK22012259-7",
+            "utterance_id": "BK22012259.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 창제된 문자가 한글뿐만이 아니었구나.",
+            "turn_id": "BK22012259-8",
+            "utterance_id": "BK22012259.15"
+        },
+        {
+            "reference_date": "44600.0",
+            "reference_text": [
+                {
+                    "value": "아르메니아 문자는 아르메니아의 공용어인 아르메니아어에서 사용되는 고유한 문자이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "공식적으로 아르메니아 문자는 405년경에 성 메스로프 마슈토츠가 창제한 것으로 파악되며, 원래는 36글자였다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%EB%A9%94%EB%8B%88%EC%95%84_%EB%AC%B8%EC%9E%90",
+            "search_query": "아르메니아 문자",
+            "terminate": false,
+            "text": "아르메니아 문자도 창제된 글자인데, 405년경 성 메스로프 마슈토츠가 창제했고, 아르메니아어를 표기하는 데 사용돼.",
+            "turn_id": "BK22012259-8",
+            "utterance_id": "BK22012259.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 아프리카에도 문자가 있다고 들었는데?",
+            "turn_id": "BK22012259-9",
+            "utterance_id": "BK22012259.17"
+        },
+        {
+            "reference_date": "44619.0",
+            "reference_text": [
+                {
+                    "value": "그으즈 문자(Ge'ez)는 에티오피아와 에리트레아의 문자이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암하라(그으즈) 피델(알파벳)의 발원지 에티오피아는 아프리카에서 유일하게 자기 고유의 문자를 가진 나라이다.",
+                    "value_time": "44752.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그으즈 문자는 에리트레아의 공용어인 티그리냐어에서도 쓰인다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EC%9C%BC%EC%A6%88_%EB%AC%B8%EC%9E%90",
+            "search_query": "그으즈 문자",
+            "terminate": false,
+            "text": "아프리카에서 유일하게 에티오피아에만 고유 문자가 있어. 그으즈 문자라고 하며 에티오피아의 암하라어와 에리트레아의 티그리냐어를 쓰는 데 쓰이지.",
+            "turn_id": "BK22012259-9",
+            "utterance_id": "BK22012259.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 진짜 문자가 많네? 아시아에도 다른 문자가 있어?",
+            "turn_id": "BK22012259-10",
+            "utterance_id": "BK22012259.19"
+        },
+        {
+            "reference_date": "44716.0",
+            "reference_text": [
+                {
+                    "value": "브라흐미 문자( - 文字, 영어: Brahmi script)는 근대 이전 브라흐미계 문자의 일종이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아부기다에 속하며, 남아시아, 동남아시아의 여러 문자의 시조이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "브라흐미 문자 자체는 소멸되었지만, 오늘날 인도 대륙 및 동남아, 티베트 등 인도 문화가 유입된 모든 곳에 각각 다양한 개별 문자로 진화되어 막대한 영향을 미쳤다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한, 오늘날 국제적으로 널리 쓰이고 있는 아라비아 숫자 역시 브라흐미 문자의 숫자가 그 기원이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%ED%9D%90%EB%AF%B8_%EB%AC%B8%EC%9E%90",
+            "search_query": "브라흐미 문자",
+            "terminate": false,
+            "text": "맞아. 남아시아와 동남아시아의 여러 문자의 시조인 브라흐미 문자도 있어. 브라흐미 문자 자체는 사용하지 않게 됐지만 인도 대륙, 동남아 및 티베트 같은 곳에서 각각 다른 문자로 발전해 쓰이고 있고, 우리가 흔히 쓰는 아라비아숫자가 바로 이 브라흐미 문자의 숫자를 기원으로 삼고 있지.",
+            "turn_id": "BK22012259-10",
+            "utterance_id": "BK22012259.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아라비아 문자를 전용해서 쓰는 문자도 있다고 들었던 것 같아.",
+            "turn_id": "BK22012259-11",
+            "utterance_id": "BK22012259.21"
+        },
+        {
+            "reference_date": "44605.0",
+            "reference_text": [
+                {
+                    "value": "타나 문자(Thaana, Taana 또는 Tāna; 타나 문자로 ތާނަ‏)는 몰디브의 공용어인 디베히어를 표기하는 문자이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "타나 문자는 18세기에 등장했으며, 그 전의 몰디브에서는 디베히 아쿠루라는 남인도계통 그란타 문자계열의 고유 문자를 사용했다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "타나 문자의 자음 글자들은 흥미롭게도 아라비아 문자의 숫자(아랍 숫자)를 문자로 전용한 것이고, 나머지는 디베히 아쿠루에서 일부 차용한 것이다.",
+                    "value_time": "44752.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%83%80%EB%82%98_%EB%AC%B8%EC%9E%90",
+            "search_query": "타나 문자",
+            "terminate": false,
+            "text": "타나 문자를 말하는 거구나? 몰디브의 공용어인 디베히어를 표기하는 문자야. 원래 몰디브는 타나 문자를 쓰기 전에 다른 문자를 사용했었는데, 아쿠르라는 남인도 계통 그란타 문자 계열의 고유 문자였어. 근데 이 타나 문자의 자음 문자들이 아라비아문자의 숫자를 문자로 전용해서 사용되었고, 그 외의 문자는 디베히 아쿠루에서 나머지를 차용했지.",
+            "turn_id": "BK22012259-11",
+            "utterance_id": "BK22012259.22"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "문자가 이렇게 많고 각각 창제된 방법이 다르다는 사실이 제법 흥미로운걸.",
+            "turn_id": "BK22012259-12",
+            "utterance_id": "BK22012259.23"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아직 다 설명해준 건 아니니까 더 궁금한 것이 생기면 언제든 또 물어봐.",
+            "turn_id": "BK22012259-12",
+            "utterance_id": "BK22012259.24"
+        }
+    ]
+}

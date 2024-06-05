@@ -1,0 +1,316 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002170",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002170",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 향초나 디퓨저 같은 거 쓰면 벤젠이 나와서 문제라고 하던데 벤젠은 매연이나 이런 거 에서 나오는 거 아닌가? 냄새도 지독할 거 같은데.",
+            "turn_id": "BK22002170-1",
+            "utterance_id": "BK22002170.1"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "Benzene'이라는 단어는 15세기부터 유럽의 약제사들과 향수 제조사들에게 동남아시아에서 생산된다고 알려졌던 향기나는 수지(樹脂) 'gum benzoin'에서 유래됐다",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠 향기",
+            "terminate": false,
+            "text": "벤젠이라는 말의 유래를 생각해 보면 왜 그런지 알 수 있지. 벤젠이라는 이름 자체가 15세기 유럽 약제사들이나 향수 제조사들 사이에서 동남아시아에서 난다고 알려진 향기 나는 수지, gum benzoin에서 유래된 거니까.",
+            "turn_id": "BK22002170-1",
+            "utterance_id": "BK22002170.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇구나. benzoin이라는 말은 또 처음 들어보네. 이건 그럼 동남아시아 쪽 단어인 거야?",
+            "turn_id": "BK22002170-2",
+            "utterance_id": "BK22002170.3"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "benzoin'이라는 말은 '자바 섬의 유향'이라는 뜻의 'luban jawi'가 전와된 것이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠 유향",
+            "terminate": false,
+            "text": "자바섬의 유향을 뜻하는 luban jawi가 와전된 말이 benzoin이야.",
+            "turn_id": "BK22002170-2",
+            "utterance_id": "BK22002170.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 정말 자바섬의 유향에 벤젠이 들어있었던 건가?",
+            "turn_id": "BK22002170-3",
+            "utterance_id": "BK22002170.5"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "benzoin으로부터 산성 물질이 승화를 통해 분리되었고, 이를 'flower of benzoin' 혹은 벤조산이라고 이름붙였다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "벤조산으로부터 분리된 탄화수소는 이리하여 '벤진(benzin)', '벤졸(benzol)' 혹은 '벤젠(benzene)'이라는 이름을 갖게 되었다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠",
+            "terminate": false,
+            "text": "응, benzoin을 승화시키면 산성 물질이 분리되는데 이거를 flower of benzoin, 아니면 벤조산이라고 불렀어. 이 벤조산에서 다시 탄화수소를 분리하여 나온 물질은 벤젠이라고 이름 붙인 거야. 벤졸이나 벤진이라고도 하고.",
+            "turn_id": "BK22002170-3",
+            "utterance_id": "BK22002170.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 이름에 대한 유래가 재밌는 물질이네. 요즘도 같은 식으로 만드나?",
+            "turn_id": "BK22002170-4",
+            "utterance_id": "BK22002170.7"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "벤젠(영어: benzene) 또는 벤졸(benzol)은 휘발성 액체 탄화수소로 콜타르를 증류, 정제하여 만든다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠 콜타르",
+            "terminate": false,
+            "text": "요즘은 콜타르라는 물질을 증류하고 정제해서 만들어.",
+            "turn_id": "BK22002170-4",
+            "utterance_id": "BK22002170.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 다시 처음으로 돌아와서 정말 벤젠에서는 독한 냄새가 아니라 향기가 나는 거야?",
+            "turn_id": "BK22002170-5",
+            "utterance_id": "BK22002170.9"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "상대적으로 높은 끓는점을 가진 것으로 알려져 있으며 달콤한 냄새를 가진 것이 특징이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠 냄새",
+            "terminate": false,
+            "text": "응, 벤젠은 달콤한 냄새가 나는 게 특징이야. 뭐, 상대적으로 끊는 점이 높은 것도 많이 알려져 있고.",
+            "turn_id": "BK22002170-5",
+            "utterance_id": "BK22002170.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 향기 나는 탄소 물질이라니 신기하다. 분자구조가 어쩔지 궁금하네.",
+            "turn_id": "BK22002170-6",
+            "utterance_id": "BK22002170.11"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "6개의 탄소원자가 동일 평면에 있는 평면 정육각형의 고리구조를 가졌으며 가장 기본적인 방향족 탄화수소 물질이고 대표적인 아눌렌(6-아눌렌)이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%A4%EC%A0%A0",
+            "search_query": "벤젠 고리구조",
+            "terminate": false,
+            "text": "정육각형의 고리 구조지. 6개의 탄소 원자가 동일 평면에 있는 걸 상상해 보면 돼. 가장 기본적인 방향족 탄화수소 물질이고 대표적인 아눌렌이지.",
+            "turn_id": "BK22002170-6",
+            "utterance_id": "BK22002170.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "방향족 물질이라고? 처음 들어보는데 향기가 나는 물질을 방향족이라고 부르는 거야?",
+            "turn_id": "BK22002170-7",
+            "utterance_id": "BK22002170.13"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "방향족성이라는 단어와 실제 향기를 갖는 분자는 직접적인 연관성을 갖지 않지만, 방향족성을 갖는 방향족성 고리는 벤젠과 같이 독특한 향기를 갖는 경우가 많다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%A9%ED%96%A5%EC%A1%B1%EC%84%B1",
+            "search_query": "방향족성",
+            "terminate": false,
+            "text": "실제 향기를 내는 분자와 이 방향족이라는 말이 직접적인 연관성이 있는 건 아닌데, 방향족성을 가지고 있는 물질들이 벤젠처럼 독특한 향기를 갖는 경우가 많기는 해.",
+            "turn_id": "BK22002170-7",
+            "utterance_id": "BK22002170.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 실제로 냄새 가지고 붙인 이름은 아니구나. 그럼 정확히는 무슨 뜻인데?",
+            "turn_id": "BK22002170-8",
+            "utterance_id": "BK22002170.15"
+        },
+        {
+            "reference_date": "2022-05-01",
+            "reference_text": [
+                {
+                    "value": "방향족성(芳香族性, 영어: aromaticity)은 탄소 화합물이 불포화 결합, 홀전자쌍, 빈 오비탈 등에 의하여 완전히 콘주게이션된 평면 고리 모양으로 결합되었을 때, 콘주게이션에 의한 안정화 효과보다 큰 안정화 효과를 보이는 성질을 나타내는 단어이다.",
+                    "value_time": "2022-07-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%A9%ED%96%A5%EC%A1%B1%EC%84%B1",
+            "search_query": "방향족성 탄소",
+            "terminate": false,
+            "text": "화학적 성질에 대한 건데, 탄소 화합물이 불포화 결합이나 홀전자쌍, 빈 오비탈 같은 거에 의해 콘주게이션된 평면 고리 모양으로 결합했 을때 , 콘주게이션 자체로 인한 안정화 효과보다 더 큰 안정성을 보이는 성질을 말하는 거야.",
+            "turn_id": "BK22002170-8",
+            "utterance_id": "BK22002170.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 역시 뭘 물어봐도 항상 친절하고 정확하게 대답해 주는구나, 늘 고마워.",
+            "turn_id": "BK22002170-9",
+            "utterance_id": "BK22002170.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 뭘, 궁금하면 언제든지 물어봐도 괜찮아.",
+            "turn_id": "BK22002170-9",
+            "utterance_id": "BK22002170.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래, 다음에도 궁금한 거 많이 물어볼게, 이제 가봐야겠다.",
+            "turn_id": "BK22002170-10",
+            "utterance_id": "BK22002170.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "시간이 벌써 그렇게 됐나? 그럼 잘 가, 또 보자!",
+            "turn_id": "BK22002170-10",
+            "utterance_id": "BK22002170.20"
+        }
+    ]
+}

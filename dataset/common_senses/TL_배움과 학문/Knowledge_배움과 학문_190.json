@@ -1,0 +1,369 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012301",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012301",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주말에 한강에 갔는데 자전거 타는 사람들 많더라. 너도 자전거 타기가 취미라고 했지?",
+            "turn_id": "BK22012301-1",
+            "utterance_id": "BK22012301.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 처음엔 운동 삼아 시작했는데 자전거 매력에 빠져서 자전거도 종류별로 여러 대 있어.",
+            "turn_id": "BK22012301-1",
+            "utterance_id": "BK22012301.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 자전거에 대해서 잘 알겠다. 나도 최근에 자전거에 대해 관심이 커졌거든. 우리나라에 자전거는 언제 처음 들어온 건지 알아?",
+            "turn_id": "BK22012301-2",
+            "utterance_id": "BK22012301.3"
+        },
+        {
+            "reference_date": "44695.0",
+            "reference_text": [
+                {
+                    "value": "한국에서는 1890년대 서재필이 미국에서 돌아온 후(1895)에 처음 소개하고 독립문 공사현장을 둘러봤다는 기록이 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 축지차라고 불렀으나 1903년대에 정부가 자전거라는 이름을 붙였다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "한국 최초 자전거",
+            "terminate": false,
+            "text": "1895년에 서재필이 미국에서 자전거를 처음 들여와서 자전거를 타고 독립문 공사 현장을 둘러봤다는 기록이 있어. 당시에는 자전거를 축지차라고 불렀는데 1903년에 정부가 자전거라는 명칭을 붙였어.",
+            "turn_id": "BK22012301-2",
+            "utterance_id": "BK22012301.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "당시에는 사람들이 자전거를 신기하게 생각했을 것 같네. 자전거는 어떻게 두 바퀴로 움직일 수 있는 거야?",
+            "turn_id": "BK22012301-3",
+            "utterance_id": "BK22012301.5"
+        },
+        {
+            "reference_date": "44695.0",
+            "reference_text": [
+                {
+                    "value": "자전거는 엔진이 없는 점 외에는 기본적인 구조에서는 자동차와 똑같다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자전거는 페달을 밟으면 체인휠 중 한 개의 스프라켓이 돈다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "체인휠 주위를 감싸고 있는 체인은 뒷바퀴의 작은 스프라켓과 연결되어 있어 뒷바퀴를 구동한다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "자전거 원리",
+            "terminate": false,
+            "text": "자전거의 기본 구조는 엔진이 없다는 것만 빼면 자동차와 같아. 자전거 페달을 밟는 힘으로 체인휠 중 하나의 스프라켓이 도는데, 체인휠 주위를 감싸는 또 다른 체인이 자전거 뒷바퀴의 작은 스프라켓과 연결돼 있어서 뒷바퀴를 움직이게 하는 거지.",
+            "turn_id": "BK22012301-3",
+            "utterance_id": "BK22012301.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "체인휠과 스프라켓이 상호 작용을 하면서 움직이는 거구나. 근데 스프라켓이라는 용어가 생소한데 더 설명해줄 수있어?",
+            "turn_id": "BK22012301-4",
+            "utterance_id": "BK22012301.7"
+        },
+        {
+            "reference_date": "44617.0",
+            "reference_text": [
+                {
+                    "value": "사슬 톱니는 사슬이나 궤도 등과 맞물려 움직이는 톱니를 가진 바퀴를 말한다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어로는 스프라켓(영어: sprocket), 스프라켓 휠(영어: sprocket-wheel)이라고 부른다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%8A%AC_%ED%86%B1%EB%8B%88",
+            "search_query": "스프라켓",
+            "terminate": false,
+            "text": "스프라켓은 사슬톱니라고도 하는데 사슬이나 궤도와 맞물려서 움직이는 톱니가 있는 바퀴를 의미해.",
+            "turn_id": "BK22012301-4",
+            "utterance_id": "BK22012301.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 나도 자전거 하나 사려고 알아보는 중이거든. 조립식으로 살 수도 있어서 자전거 구조를 알고 싶은데 자전거 구조에 대해서도 알려줄래?",
+            "turn_id": "BK22012301-5",
+            "utterance_id": "BK22012301.9"
+        },
+        {
+            "reference_date": "44695.0",
+            "reference_text": [
+                {
+                    "value": "자전거는 몸통을 이루는 뼈대, 방향을 조절하는 조향계, 앞·뒤 바퀴, 발판 등 구동장치, 변속장치, 제동장치 등으로 이루어져 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "자전거 구조",
+            "terminate": false,
+            "text": "자전거는 몸체를 이루는 뼈대와 방향을 조절하는 조향계 그리고 앞바퀴, 뒷바퀴, 발판 등의 구동장치, 변속장치, 제동장치 등으로 구성되어 있어.",
+            "turn_id": "BK22012301-5",
+            "utterance_id": "BK22012301.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기본 구조가 자동차와 정말 비슷하네. 자전거에도 종류가 여러 가지가 있던데 어떤 종류가 있는지도 궁금해.",
+            "turn_id": "BK22012301-6",
+            "utterance_id": "BK22012301.11"
+        },
+        {
+            "reference_date": "44695.0",
+            "reference_text": [
+                {
+                    "value": "자전거의 종류에는 산악용·도로용·어린이용 등이 있으며 그 밖에 두 명이 함께 탈 수 있는 탠덤 자전거와 누워 탈 수 있는 자전거 등 특수 자전거 등이 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "자전거 종류",
+            "terminate": false,
+            "text": "크게 산악용, 도로용, 어린이용 자전거가 있고 이 외에도 2인용 자전거인 탠덤 자전거와 누워서 탈 수 있는 특수 자전거 등이 있어.",
+            "turn_id": "BK22012301-6",
+            "utterance_id": "BK22012301.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자전거 사려고 알아보다 보니까 원동기장치자전거라는 것도 있던데 전기 자전거랑은 다른 거야?",
+            "turn_id": "BK22012301-7",
+            "utterance_id": "BK22012301.13"
+        },
+        {
+            "reference_date": "44344.0",
+            "reference_text": [
+                {
+                    "value": "■ 원동기장치자전거 이륜 자동차 중, 배기량125cc 이하의 이륜자동차 또는 배기량 125cc 이하의 원동기를 단 차를 말합니다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "■ 전기자전거 자전거 이용 활성화에 관한 법률 상 전기자전거는 자전거에 해당됩니다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.dailypop.kr/news/articleView.html?idxno=51323",
+            "search_query": "원동기장치자전거 자전거 차이",
+            "terminate": false,
+            "text": "원동기장치자전거는 이륜자동차 중에서 배기량이 125cc 이하인 이륜자동차나 원동기를 장착한 차를 의미해. 자전거 이용 활성화에 관한 법률에 따르면 전기자전거는 자전거에 속해.",
+            "turn_id": "BK22012301-7",
+            "utterance_id": "BK22012301.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 둘은 다른 거구나. 내가 아는 지인이 요즘은 공유 자전거도 잘 돼 있다고 이용해 보라고 하던데 공유 자전거가 뭐야?",
+            "turn_id": "BK22012301-8",
+            "utterance_id": "BK22012301.15"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "공유 자전거(bicycle-sharing system) 또는 공공 자전거(public bicycle scheme)는 저렴한 가격이나 무료로 자전거를 개인이 단기간에 이용할 수 있는 서비스이다.",
+                    "value_time": "44817.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9C%A0_%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "공유 자전거",
+            "terminate": false,
+            "text": "공유 자전거는 공공 자전거라고도 하는데 개인이 단기간에 저렴한 가격이나 무료로 자전거를 대여해서 사용할 수 있는 서비스야.",
+            "turn_id": "BK22012301-8",
+            "utterance_id": "BK22012301.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한강에서 따릉이라는 걸 봤는데 그게 공유 자전거였나 보네. 우리나라에서 공유 자전거 서비스를 운영하는 곳에 대해서도 알려줄래?",
+            "turn_id": "BK22012301-9",
+            "utterance_id": "BK22012301.17"
+        },
+        {
+            "reference_date": "44776.0",
+            "reference_text": [
+                {
+                    "value": "대한민국에서는 서울특별시, 대전광역시 등의 지방자치단체가 공공 자전거를 운영하고 있으며, 각자의 독자적인 명칭을 가지고 있다.[1]",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한편 카카오에서는 카카오 T 바이크라는 공유 자전거 서비스를 운영하고 있으며, 거치대가 없는 형태로, 앱을 이용하여 자전거의 위치를 찾아 자전거에 부착된 QR코드나 일련번호로 인증한 뒤 이용하는 방식이다.[2]",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9C%A0_%EC%9E%90%EC%A0%84%EA%B1%B0",
+            "search_query": "국내 공유 자전거",
+            "terminate": false,
+            "text": "서울, 대전 등 지방자치단체에서 독자적인 이름으로 공공 자전거 서비스를 운영하고 있어. 민간기업으로는 카카오에서 카카오T바이크라고 하는 공유 자전거 서비스를 제공하고 있는데 자전거를 세워두는 거치대가 없고 앱으로 자전거 위치를 찾아 QR코드나 일련번호로 인증해서 대여하는 방식으로 운영되고 있어.",
+            "turn_id": "BK22012301-9",
+            "utterance_id": "BK22012301.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자전거 구매하기 전에 공유 자전거로 먼저 타봐야겠네. 자전거를 타면 운동 효과도 있을 것 같은데 건강에도 좋겠지?",
+            "turn_id": "BK22012301-10",
+            "utterance_id": "BK22012301.19"
+        },
+        {
+            "reference_date": "44804.0",
+            "reference_text": [
+                {
+                    "value": "그리고 자전거 타기의 효과로 심폐기능 발달, 순환기 계통의 기능 향상, 콜레스테롤 감소, 하체근력 발달 등 건강한 생활 운동으로 볼 수 있다.",
+                    "value_time": "44817.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20220829010008340",
+            "search_query": "자전거 건강 효과",
+            "terminate": false,
+            "text": "자전거를 타면 심폐기능이 발달하고 순환계 기능도 향상이 되지. 이 외에 콜레스테롤 감소 효과도 있고 하체 근력도 키울 수 있는 건강한 생활 운동 중 하나야.",
+            "turn_id": "BK22012301-10",
+            "utterance_id": "BK22012301.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자전거 타면 시원한 바람을 맞으며 풍경을 보면서 갈 수 있어서 기분이 좋아지는데 운동 효과도 있다니 일석이조네. 다음에 같이 라이딩 가자. 오늘은 먼저 들어가 볼게!",
+            "turn_id": "BK22012301-11",
+            "utterance_id": "BK22012301.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋지, 나는 주말마다 자전거 타니까 언제든 연락해줘. 조심히 들어가고.",
+            "turn_id": "BK22012301-11",
+            "utterance_id": "BK22012301.22"
+        }
+    ]
+}

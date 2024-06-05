@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007990",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007990",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0011"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0013"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곧 추석이네요, 맛있는 것을 실컷 먹을 수 있겠어요. 그런데 추석은 매년 날짜가 변해서 좀 혼란스러운 것 같아요. 왜 이렇게 날짜가 매년 변하나요?",
+            "turn_id": "BK22007990-1",
+            "utterance_id": "BK22007990.1"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "▶추석은 음력을 기준으로 쇠는 명절이라 날짜 변동 폭이 크다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "추분(9월 23일 무렵)을 전후로 빠르면 9월 8일(1976년, 2014년), 늦으면 10월 8일(1919년, 1938년)까지 올 수 있다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/opinion/manmulsang/2022/09/09/53L4742UGNC3LCP4SYQRRMHJK4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "search_query": "추석 음력",
+            "terminate": false,
+            "text": "추석의 날짜 변동 폭이 큰 이유는 음력을 기준으로 쇠는 명절이라서 그래요. 9월 23일 무렵인 추분을 기준으로 빠르면 9월 8일이 될 수 있고, 늦으면 10월 8일이 될 수도 있죠. 1976년과 2014년에는 9월 8일이었고, 1919년과 1938년에는 10월 8일이었죠.",
+            "turn_id": "BK22007990-1",
+            "utterance_id": "BK22007990.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그런 거군요. 사실 저는 음력과 양력이 항상 너무 헷갈려요. 음력과 양력의 차이가 정확히 뭔가요?",
+            "turn_id": "BK22007990-2",
+            "utterance_id": "BK22007990.3"
+        },
+        {
+            "reference_date": "2014-08-19",
+            "reference_text": [
+                {
+                    "value": "음력은 태음력(太陰曆)의 준말로 달을 기준으로 한 달력이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "반면 양력은 태양력(太陽曆)의 준말로 태양을 기준으로 한 달력이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "음력 한달은 29.53일이며 1년은 354.37일이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양력 한 달은 30.44일이며, 1년은 365.24일이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ccdn.co.kr/news/articleView.html?idxno=357611#09SX",
+            "search_query": "음력 양력 이유",
+            "terminate": false,
+            "text": "음력은 태음력의 줄임말인데, 달을 기준으로 한 달력을 말해요. 양력은 태양력의 줄임말로, 태양을 기준으로 한 달력이고요. 음력 한 달은 29.53일이고 1년은 354.37일인 반면 양력 한 달은 30.44일이고 1년은 365.24일이에요.",
+            "turn_id": "BK22007990-2",
+            "utterance_id": "BK22007990.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양력과 음력의 날짜 차이가 상당하네요. 양력은 우리가 다 함께 쓰는 그레고리력이죠? 그럼 세상에는 그레고리력과 음력, 두 종류의 달력이 있나요?",
+            "turn_id": "BK22007990-3",
+            "utterance_id": "BK22007990.5"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "전 세계가 함께 공유하는 그레고리력, 달을 기준으로 한 태음력, 그리고 절기력(節氣曆)이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "절기력이란 황도(黃道) 즉 지구의 관점에서 본 태양의 궤도를 기준으로 절기를 나눈 일종의 태양력이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "참고로 사주명리학과 육임학에서는 이 절기력을 쓴다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220823010004002",
+            "search_query": "태음력 태양력",
+            "terminate": false,
+            "text": "전 세계가 다 같이 쓰는 그레고리력과 음력에 더불어, 절기력도 있어요. 절기력은 일종의 태양력인데, 황도 즉 지구에서 본 태양의 궤도를 기준으로 해서 절기를 구분한 거예요. 사주명리학과 육임학에서 이 절기력을 사용하지요.",
+            "turn_id": "BK22007990-3",
+            "utterance_id": "BK22007990.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 처음 알았네요. 그럼 그레고리력이 맨 처음 등장한 게 언제예요?",
+            "turn_id": "BK22007990-4",
+            "utterance_id": "BK22007990.7"
+        },
+        {
+            "reference_date": "2022-01-02",
+            "reference_text": [
+                {
+                    "value": "‘양력’으로 알려진 그레고리력은 1582년에 처음 등장했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그레고리력의 뿌리는 율리우스 카이사르가 기원전 45년에 만든 율리우스력이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://weekly.chosun.com/news/articleView.html?idxno=18625",
+            "search_query": "그레고리력",
+            "terminate": false,
+            "text": "그레고리력은 1582년에 처음으로 등장했지만, 율리우스 카이사르가 기원전 45년에 만든 율리우스력이 그레고리력의 기원이죠.",
+            "turn_id": "BK22007990-4",
+            "utterance_id": "BK22007990.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "16세기에 등장한 거네요. 그레고리력이 등장하기 전까지는 율리우스력을 사용한 거예요?",
+            "turn_id": "BK22007990-5",
+            "utterance_id": "BK22007990.9"
+        },
+        {
+            "reference_date": "2021-12-30",
+            "reference_text": [
+                {
+                    "value": "16세기 이전 유럽은 로마 가톨릭 교회의 영향력 아래 놓여 있었다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그때까지 유럽에서는 율리우스력을 사용했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "율리우스력은 128년마다 하루의 오차가 발생했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "로마 교황청은 이 문제를 심각하게 받아들였고, 교황 그레고리오 13세는 역법(曆法) 개정을 지시한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇게 해서 1582년에 만들어진 것이 그레고리력.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4538324",
+            "search_query": "그레고리력 율리우스력 차이",
+            "terminate": false,
+            "text": "네, 맞아요. 16세기 이전까지 로마 가톨릭 교회의 영향권 하에 놓여 있던 유럽은 율리우스력을 사용했죠. 율리우스력은 128년마다 하루의 오차가 발생하기 때문에, 이것이 문제라고 생각한 로마 교황청과 교황 그레고리오 13세는 역법 개정을 지시하게 돼요. 그래서 1582년에 그레고리력이 제작된 거죠.",
+            "turn_id": "BK22007990-5",
+            "utterance_id": "BK22007990.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "128년마다 하루면 몇백 년 후에는 며칠의 오차가 되니, 나름 심각한 문제였겠네요. 우리나라는 그럼 언제부터 그레고리력을 사용한 건가요?",
+            "turn_id": "BK22007990-6",
+            "utterance_id": "BK22007990.11"
+        },
+        {
+            "reference_date": "2020-12-08",
+            "reference_text": [
+                {
+                    "value": "우리나라는 1895년 9월 9일 고종황제의 조칙에 따라 그해 음력 11월 17일을 1896년 1월 1일로 선포하면서 그레고리력을 사용하기 시작했다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2020120819000968030",
+            "search_query": "우리나라 그레고리력",
+            "terminate": false,
+            "text": "우리나라는 1895년 9월 9일 고종황제가 조칙을 내리면서 그레고리력을 사용하기 시작했어요. 고종황제는 그해 음력 11월 17일을 1896년 1월 1일로 한다고 선포했지요.",
+            "turn_id": "BK22007990-6",
+            "utterance_id": "BK22007990.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요. 음력과 양력에 대해서 막연히 알고 있었는데 이렇게 배우게 되니 좋네요.",
+            "turn_id": "BK22007990-7",
+            "utterance_id": "BK22007990.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음력과 양력이 원래 좀 까다롭고 이해하기 어렵죠.",
+            "turn_id": "BK22007990-7",
+            "utterance_id": "BK22007990.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 사실 그런 것 같아요. 저는 음력에 존재하는 윤달이라는 개념도 잘 이해가 안 갔어요. 윤달이 정확히 뭔가요?",
+            "turn_id": "BK22007990-8",
+            "utterance_id": "BK22007990.15"
+        },
+        {
+            "reference_date": "2018-10-28",
+            "reference_text": [
+                {
+                    "value": "우리나라와 중국, 대만 일본 등 동양에서는 오래전부터 음력을 사용해왔는데 계절의 변화주기가 맞지 않아 큰달은 30일을 한 달로 하고 작은 달은 29일을 한 달로 만들었으나 해마다 11의 편차가 생기게 되어 3년이면 33일이 남게 되므로 윤달이라 하여 한 달을 더 추가하여서 1년을 13개월로 한다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongdo.co.kr/web/view.php?key=20181028010011441",
+            "search_query": "태음력",
+            "terminate": false,
+            "text": "우리나라와 중국, 대만, 일본을 비롯한 동양 국가에서 주로 사용하는 음력의 경우 계절의 변화주기가 맞지 않는 문제가 있어요. 음력에서 긴 달은 30일이 한 달이고, 작은 달은 29일이 한 달인데, 이렇게 하면 매년 11일의 편차가 생기게 되거든요. 3년이 지나면 33일이 남게 되는 거예요. 그래서 윤달이라고 한 달을 더해서, 그해에는 1년이 13개월이 되는 거죠.",
+            "turn_id": "BK22007990-8",
+            "utterance_id": "BK22007990.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 진짜 복잡하네요. 역시 음력은 어려워요. 갑자기 궁금한 게 있는데, 그럼 혹시 그레고리력을 사용하지 않고 고유의 독특한 달력을 사용하는 나라도 있나요?",
+            "turn_id": "BK22007990-9",
+            "utterance_id": "BK22007990.17"
+        },
+        {
+            "reference_date": "2022-08-19",
+            "reference_text": [
+                {
+                    "value": "네팔 달력은 전 세계적으로 통용되는 그레고리력(태양력)과 다르게 비크람 삼밧(Bikram Sambat, 고대 네팔의 왕 이름)이라는 날짜를 따른다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "음력 354일과 양력 365일의 불일치를 해소하기 위해 4년에 한 달을 추가하는 등 태양력과 태음력을 조합해 날짜를 계산하기 때문에 매달의 일수는 29~32일이다.",
+                    "value_time": "2022-09-09",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=410&CONTENTS_NO=1&bbsGbn=242&bbsSn=242&pNttSn=196145",
+            "search_query": "네팔 달력",
+            "terminate": false,
+            "text": "네팔 달력의 경우가 그렇죠. 네팔은 전 세계적으로 사용되는 그레고리력이 아니라 고대 네팔 왕의 이름인 비크람 삼밧이라는 날짜 체계를 따르고 있거든요. 이 달력은 태양력과 태음력을 조합해 날짜를 계산하는데, 매달 달의 일수는 29일에서 32일이죠. 음력 354일과 양력 365일이 불일치하는 문제를 해결하려고 4년에 한 번씩 한 달을 추가해요.",
+            "turn_id": "BK22007990-9",
+            "utterance_id": "BK22007990.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진짜 그렇게 날짜를 계산하는 나라가 있군요. 덕분에 재미있는 공부 했네요. 저는 오늘 본가에 내려가는 기차를 탈 거라, 일찍 들어가 봐야 해요.",
+            "turn_id": "BK22007990-10",
+            "utterance_id": "BK22007990.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "아, 조퇴하신다고 하셨죠. 그럼 즐거운 추석 되시고 다음 주에 봬요.",
+            "turn_id": "BK22007990-10",
+            "utterance_id": "BK22007990.20"
+        }
+    ]
+}

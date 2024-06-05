@@ -1,0 +1,383 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012950",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012950",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0030"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구에 암석이 떨어지면 대부분 사라져 없어지던데 무엇 때문인가요?",
+            "turn_id": "BK22012950-1",
+            "utterance_id": "BK22012950.1"
+        },
+        {
+            "reference_date": "44661.0",
+            "reference_text": [
+                {
+                    "value": "대기(大氣, Atmosphere)는 천체의 주위를 대체로 일정하게 둘러싸고 있는 기체층을 말한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생명체가 호흡할 수 있도록 해 주고, 운석이나 기타 위협적인 요소들로부터 생명체를 보호하기 위해서 필수적인 조건이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EA%B8%B0",
+            "search_query": "대기",
+            "terminate": false,
+            "text": "천체 주변을 일정하고 둥글게 감싸고 있는 기체층인 대기 때문이에요. 생명체 호흡을 위해 필요한 대기는 운석이나 다른 위협적인 요소들로부터 생명체를 보호하고 있답니다.",
+            "turn_id": "BK22012950-1",
+            "utterance_id": "BK22012950.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외부의 요소들이 대기에 들어오면 어떠한 현상이 발생하나요?",
+            "turn_id": "BK22012950-2",
+            "utterance_id": "BK22012950.3"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "대기권에 진입할 때는 엄청난 항력이 발생하며, 이는 물체에 큰 충격을 입힌다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기권으로 진입하는 물체는 분해될 수 있으며, 압축강도가 낮은 물체는 폭발할 수도 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EA%B8%B0%EA%B6%8C_%EC%A7%84%EC%9E%85",
+            "search_query": "대기권 진입",
+            "terminate": false,
+            "text": "대기권에 들어왔을 때 매우 큰 항력이 생겨 물체에 큰 충격을 입혀요. 또한, 물체가 대기권으로 들어오면 분해되거나, 압축강도가 낮다면 폭발할 가능성도 있죠.",
+            "turn_id": "BK22012950-2",
+            "utterance_id": "BK22012950.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 지구에서 발견되는 운석은 대기를 뚫고 온 건가요?",
+            "turn_id": "BK22012950-3",
+            "utterance_id": "BK22012950.5"
+        },
+        {
+            "reference_date": "44765.0",
+            "reference_text": [
+                {
+                    "value": "운석(隕石) 또는 별똥돌(문화어: 별찌돌)은 우주공간으로부터 지구에 진입한 암석이 지구 대기와의 마찰에 타고 남아 지표면에서 발견된 것이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분의 운석은 소행성에서 유래한 것으로 알려져 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%84%9D",
+            "search_query": "운석",
+            "terminate": false,
+            "text": "네, 운석은 암석이 우주에서 지구로 떨어질 때 대기와의 마찰로 타고 남은 것으로 지표면에서 발견할 수 있죠. 대다수의 운석은 소행성에서 비롯된 것으로 알려져 있습니다.",
+            "turn_id": "BK22012950-3",
+            "utterance_id": "BK22012950.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대기가 완전히 외부의 물체를 막아주는 것은 아니군요. 지구의 대기는 어떻게 이루어져 있나요?",
+            "turn_id": "BK22012950-4",
+            "utterance_id": "BK22012950.7"
+        },
+        {
+            "reference_date": "44757.0",
+            "reference_text": [
+                {
+                    "value": "지구 대기권의 층은 조성(組成)뿐만 아니라 온도나 그 밖의 물리적인 성질이 높이에 따라서 다르며, 다시 몇 개의 층으로 분류된다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구 대기권은 특성에 따라 지표면에서부터 대류권, 성층권, 중간권, 열권, 외기권의 다섯 층으로 나눌 수 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B5%AC_%EB%8C%80%EA%B8%B0%EA%B6%8C",
+            "search_query": "지구 대기권",
+            "terminate": false,
+            "text": "지구 대기는 층으로 나누어져 있는데, 높이에 따라 조성뿐만 아니라 온도 및 물리적인 성질이 다르게 나타나요. 특성에 따라 나누면 지표면에서부터 대류권, 성층권, 중간권, 열권, 외기권으로 5가지랍니다.",
+            "turn_id": "BK22012950-4",
+            "utterance_id": "BK22012950.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대류권이 땅에서 제일 가까이 있는 건가요?",
+            "turn_id": "BK22012950-5",
+            "utterance_id": "BK22012950.9"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "대류권(對流圈, troposphere)은 지구 대기권의 가장 낮은 부분으로 대부분의 기상 현상이 일어나는 곳이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "온실 효과 역시 대류권에서 발생한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EB%A5%98%EA%B6%8C",
+            "search_query": "대류권",
+            "terminate": false,
+            "text": "네, 대류권은 지구 대기권 중 가장 낮은 부분에 있어요. 대부분의 기상 현상과 온실 효과가 대류권에서 발생한답니다.",
+            "turn_id": "BK22012950-5",
+            "utterance_id": "BK22012950.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흔히 볼 수 있는 기상 현상이 대류권에서 나타나는 것이군요. 성층권은요?",
+            "turn_id": "BK22012950-6",
+            "utterance_id": "BK22012950.11"
+        },
+        {
+            "reference_date": "44599.0",
+            "reference_text": [
+                {
+                    "value": "성층권(成層圈, stratosphere)은 지구 대기권의 한 부분으로 위쪽으로 올라갈수록 따뜻해지고, 지표면에 가까워질수록 온도가 내려가는 특성을 지니고 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 현상은 지표면에 가까울수록 온도가 상승하는 대류권과 정반대이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대기 상태가 안정되어 있기 때문에 여객기의 항로로 사용된다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%B1%EC%B8%B5%EA%B6%8C",
+            "search_query": "성층권",
+            "terminate": false,
+            "text": "성층권은 지표면에 가까울수록 온도가 올라가는 대류권과 반대로 지표면에서 멀어질수록 온도가 올라가고 가까울수록 온도가 떨어지는 특징이 있죠. 성층권은 안정된 대기 상태로 인해 여객기의 항로로 이용된답니다.",
+            "turn_id": "BK22012950-6",
+            "utterance_id": "BK22012950.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리가 타는 비행기는 대류권이 아닌 성층권에서 비행하는 것이었군요. 중간권은 어떤 특징이 있나요?",
+            "turn_id": "BK22012950-7",
+            "utterance_id": "BK22012950.13"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "중간권에서의 기온은 고도가 올라감에 따라 감소한다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하루에도 수백만개의 유성이 중간권에 분포하는 입자와의 마찰로 인해 타오른다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여기서 발생하는 열은 대부분 물체가 지표면에 닿기 이전에 완전히 태워버리기에 충분하다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EA%B0%84%EA%B6%8C",
+            "search_query": "중간권",
+            "terminate": false,
+            "text": "중간권 기온은 대류권과 마찬가지로 고도가 높아짐에 따라 감소해요. 이 구간에서는 하루에 수백만 개의 유성이 중간권에 있는 입자와 마찰을 일으키며 타고 있어요. 마찰로 생기는 열로 인해 우주에서 들어오는 대부분의 물체가 땅에 닿기 전에 완전히 타버려요.",
+            "turn_id": "BK22012950-7",
+            "utterance_id": "BK22012950.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "층마다 고도에 따른 기온이 다르네요. 그럼 열권에서는 고도에 따라 기온이 어떻게 변화하나요?",
+            "turn_id": "BK22012950-8",
+            "utterance_id": "BK22012950.15"
+        },
+        {
+            "reference_date": "44607.0",
+            "reference_text": [
+                {
+                    "value": "열권에서는 고도가 높아짐에 따라 온도가 상승하는데, 이는 그래도 적게나마 남아있는 산소나 질소 입자가 높은 에너지를 지닌 태양 복사를 흡수하는 까닭이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "온도는 태양 활동에 따라 매우 큰 차이를 보이며, 섭씨 2,000도까지도 올라갈 수 있다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%97%B4%EA%B6%8C",
+            "search_query": "열권",
+            "terminate": false,
+            "text": "열권은 적게 남은 산소와 질소 입자가 높은 에너지의 태양 복사를 흡수하며 고도가 올라갈수록 온도가 상승해요. 따라서 태양 활동에 따라 온도는 큰 차이를 보이고 섭씨 2,000도까지 올라갈 수 있죠.",
+            "turn_id": "BK22012950-8",
+            "utterance_id": "BK22012950.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "태양이 열권의 온도를 좌지우지하는군요.",
+            "turn_id": "BK22012950-9",
+            "utterance_id": "BK22012950.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 높은 곳에 있다는 뜻이죠. 외기권은 궁금하지 않으세요?",
+            "turn_id": "BK22012950-9",
+            "utterance_id": "BK22012950.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 간단하고 짧게 설명해주세요.",
+            "turn_id": "BK22012950-10",
+            "utterance_id": "BK22012950.19"
+        },
+        {
+            "reference_date": "44598.0",
+            "reference_text": [
+                {
+                    "value": "외기권(外氣圈), 또는 외권(外圈)(영어: exosphere, 문화어: 바깥권)은 지구 대기권의 최외곽을 형성하는 대기층이다.",
+                    "value_time": "44801.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "외기권이 끝나고 우주가 시작되는 정확한 높이는 완전히 정의되어 있지 않아 우주 공간과 동일하게 취급되는 경우가 많은데, 정확한 값을 정하는 것 역시 그다지 의미가 없다.",
+                    "value_time": "44801.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%B8%EA%B8%B0%EA%B6%8C",
+            "search_query": "외기권",
+            "terminate": false,
+            "text": "지구 대기권의 최외곽을 형성하는 외기권은 정확한 높이가 완전히 정의되어 있지 않아서 우주 공간과 동일하게 취급하기도 해요. 정확한 값을 정하는 게 그리 의미 있는 것도 아니고요.",
+            "turn_id": "BK22012950-10",
+            "utterance_id": "BK22012950.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "외기권은 그냥 우주 공간이라고 생각해도 되겠네요.",
+            "turn_id": "BK22012950-11",
+            "utterance_id": "BK22012950.21"
+        }
+    ]
+}

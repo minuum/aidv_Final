@@ -1,0 +1,361 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004817",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004817",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오는 길에 러브벌렌가 뭔가를 봤는데 진짜 징그럽더라. 혹시 뭔지 알아?",
+            "turn_id": "BK22004817-1",
+            "utterance_id": "BK22004817.1"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "러브버그(플리시아 니악티카, 학명: Plecia nearctica)는 1㎝가 조금 안 되는 크기의 우단털파리속에 속하는 곤충이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EB%B8%8C%EB%B2%84%EA%B7%B8_(%EA%B3%A4%EC%B6%A9)",
+            "search_query": "러브벌레",
+            "terminate": false,
+            "text": "러브버그 말하는 거지? 정식 명칭은 플리시아 니악티카이고, 1cm 좀 안 되는 크기의 우단털파리속에 속하는 곤충이야.",
+            "turn_id": "BK22004817-1",
+            "utterance_id": "BK22004817.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 러브버그는 파리의 일종이었구나. 두 마리가 붙어있는 게 너무 징그러워 보였어. 분명 해충이겠지?",
+            "turn_id": "BK22004817-2",
+            "utterance_id": "BK22004817.3"
+        },
+        {
+            "reference_date": "2022-07-09",
+            "reference_text": [
+                {
+                    "value": "독성이 없고 인간을 물지도 않으며 질병을 옮기지도 않는 익충이지만 특유의 생김새가 혐오감을 주고, 사람에게도 날아드는 습성이 있다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EB%B8%8C%EB%B2%84%EA%B7%B8_(%EA%B3%A4%EC%B6%A9)",
+            "search_query": "러브벌레 해충",
+            "terminate": false,
+            "text": "징그럽게 생긴 데다가 사람에게도 날아드는 습성이 있어 해충으로 많이 오해받지만, 러브벌레는 사실 독성이 없고 인간을 물지도 않으며 질병을 옮기지도 않는 익충이야. 의외의 사실이지?",
+            "turn_id": "BK22004817-2",
+            "utterance_id": "BK22004817.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "러브벌레가 익충이라니 믿기지 않아. 해충이 아니면 아닌 거지 익충이라고까지 불리는 이유가 뭐야?",
+            "turn_id": "BK22004817-3",
+            "utterance_id": "BK22004817.5"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "징그럽다고 그렇게 미움을 받던 털파리 종류는 이런 동물이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "애벌레 때는 몇백 마리씩 낙엽이나 동물 배설물 밑의 축축한 땅 밑으로 모여 지내며 쌓여있던 각종 유기물을 모두 분해하여 다시 흙으로 돌려보내는 중요한 분해자 역할을 하고 어른벌레가 되면 식물의 수분(受粉)을 돕고 거미나 새, 잠자리 등 다른 동물의 먹이로 몸 바치니 사람의 건강에도, 농작물에도, 반려동물에도 해를 끼치지 않고 도리어 도움을 주는 훌륭한 곤충이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.businesspost.co.kr/BP?command=article_view&num=289036",
+            "search_query": "러브벌레 익충",
+            "terminate": false,
+            "text": "응, 러브벌레와 같은 털파리 종류들은 애벌레 때는 몇백 마리씩 낙엽이나 동물 배설물 밑의 축축한 땅 밑에서 모여 살며, 쌓여있던 각종 유기물을 분해해서 다시 흙으로 돌려보내는 중요한 분해자 역할을 해. 그러다 어른벌레가 되면 식물의 수분을 돕고 거미나 새, 잠자리 등 다른 동물의 먹이로 몸을 바치니 정말이지 사람의 건강은 물론, 농작물과 반려동물에도 해를 끼치지 않고 도리어 도움을 준다고 할 수 있지.",
+            "turn_id": "BK22004817-3",
+            "utterance_id": "BK22004817.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각했던 것보다 너무 이로운 생명체라 당황스럽네. 그런데 여태 그런 게 있는 줄도 모르고 살았는데, 왜 이렇게 갑자기 많이 등장한 거지?",
+            "turn_id": "BK22004817-4",
+            "utterance_id": "BK22004817.7"
+        },
+        {
+            "reference_date": "2022-07-12",
+            "reference_text": [
+                {
+                    "value": "올해 갑자기 이들 개체수가 급증한 정확한 이유는 아직 알 수 없다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털파리들은 습도가 맞아야 성충이 되어 나오는데, 긴 가뭄으로 인해 그 시기가 미뤄지다가 장마 직후 떼 지어 성충이 됐다는 것이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.donga.com/news/article/all/20220712/114400161/1",
+            "search_query": "러브버그 개체수 급증",
+            "terminate": false,
+            "text": "유감스럽게도 갑자기 개체수가 급증한 것의 정확한 이유는 아직 알 수 없어. 하지만 가뭄이 길어지면서 성충이 되지 못했던 러브벌레가 장마 후에 한꺼번에 나온 것이라는 분석이 있어. 털파리 속인 러브벌레는 습도가 맞아야 성충이 되거든.",
+            "turn_id": "BK22004817-4",
+            "utterance_id": "BK22004817.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 그렇구나. 해충이 아니라고는 해도, 검은색 파리들이 갑자기 이렇게 많아지니 나는 개체 수를 약간은 조절할 필요가 있다는 생각이 들어.",
+            "turn_id": "BK22004817-5",
+            "utterance_id": "BK22004817.9"
+        },
+        {
+            "reference_date": "2022-08-01",
+            "reference_text": [
+                {
+                    "value": "지난달 서울 은평구와 경기도 고양시에서 발생한 이른바 ‘러브버그 사건’이 이를 여실히 보여준다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "털파리의 일종인 이 곤충의 개체수가 갑자기 많아지면서 민원이 폭증하였고 결국 구청은 방역에 나섰다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "많게는 하루에 3회까지 민가와 녹지에 살충제를 살포하고 급기야 산림에도 직접 분사하기에 이르렀다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한마디로 곤충에 대한 무차별 난사를 한 것이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/opinion/column/1053002.html",
+            "search_query": "러브버그 박멸",
+            "terminate": false,
+            "text": "안 그래도 서울 은평구와 경기도 고양시에서 러브벌레 개체수의 급증으로 민원이 폭증해서 결국 구청이 방역에 나섰었어. 1일 최대 3회까지 민가, 녹지, 급기야는 산림에까지 살충제를 직접 분사하기에 이르렀지. 모든 불특정 곤충들에 대해 무차별 난사를 한 것이라고 할 수 있어.",
+            "turn_id": "BK22004817-5",
+            "utterance_id": "BK22004817.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 구청에서 나섰구나, 마음이 놓인다. 그런데 살충제의 대량 살포는 조금 염려스럽네. 구청의 살충제 조치가 과연 적절했던 걸까?",
+            "turn_id": "BK22004817-6",
+            "utterance_id": "BK22004817.11"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "사람들에게 '혐오스러운 존재'로 비친다는 이유만으로 무분별한 방제 작업을 하다 보면 생태계 교란을 일으킬 수 있다는 것이다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "민가와 녹지에 방제 작업을 하는 과정에서 익충이 함께 죽을 수 있고 인체에도 악영향을 미칠 수 있다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제로 러브버그는 유기물을 분해해 토양을 비옥하게 만드는 익충으로, 살충제를 분사하지 않아도 일주일 정도가 지나면 자연사한다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20220803010000630",
+            "search_query": "살충제 과다 분사 문제",
+            "terminate": false,
+            "text": "아니, 사람들에게 혐오스럽다는 이유만으로 무분별한 방제 작업을 하다 보면 생태계 교란을 일으킬 수 있어. 민가와 녹지에 방제 작업을 하는 과정에서 다른 익충들이 함께 죽을 수도 있고, 인체에 악영향을 미칠 수도 있으니 말이야. 게다가 러브벌레는 살충제를 굳이 분사하지 않아도 일주일 정도가 지나면 자연사하는 곤충이거든.",
+            "turn_id": "BK22004817-6",
+            "utterance_id": "BK22004817.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣고 보니, 굳이 그들에게 살충제를 뿌려 죽음을 앞당길 필요가 절대 없었구나, 죄책감이 들어. 러브벌레에 대한 방역 매뉴얼은 따로 없는 거야?",
+            "turn_id": "BK22004817-7",
+            "utterance_id": "BK22004817.13"
+        },
+        {
+            "reference_date": "2022-08-02",
+            "reference_text": [
+                {
+                    "value": "그러나 러브버그처럼 환경 정화에 도움이 되는 익충에 대해서는 방역 매뉴얼이 없습니다.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "방역을 할 필요가 없기 때문이죠.",
+                    "value_time": "2022-08-05",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://tbs.seoul.kr/news/newsView.do?typ_800=7&idx_800=3475138&seq_800=20467797",
+            "search_query": "익충 방역 매뉴얼",
+            "terminate": false,
+            "text": "그렇지, 생각해보면 당연한 거야. 아까도 말했듯이, 러브벌레는 익충으로 분류되니까! 해롭지 않으니 애초에 방역이란 게 필요 없잖아?",
+            "turn_id": "BK22004817-7",
+            "utterance_id": "BK22004817.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러네, 당연한 사실인데 이렇게 악용되다니. 이대로면 곤충들의 생태계가 붕괴되겠는 걸?",
+            "turn_id": "BK22004817-8",
+            "utterance_id": "BK22004817.15"
+        },
+        {
+            "reference_date": "2020-02-21",
+            "reference_text": [
+                {
+                    "value": "곤충은 전 세계 작물의 75%를 수분한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "만약 곤충이 멸종해 식물 번식이 인간에게 의존하게 되면 식물이 줄어든다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 식물을 먹는 초식동물이 살기 어려워지고, 이는 육식동물의 생태도 위협한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newspenguin.com/news/articleView.html?idxno=1163",
+            "search_query": "곤충과 공생 필요",
+            "terminate": false,
+            "text": "맞아, 곤충들이 전 세계 작물의 무려 75퍼센트를 수분하고 있는데 곤충 생태계가 붕괴되어 멸종까지 이르게 된다면, 식물 번식이 인간에게만 의존하게 되겠지. 그럼 식물이 줄어들 거고, 이어서 식물을 먹는 초식동물, 또 이어 초식동물을 먹는 육식동물까지 모두를 위협하게 돼.",
+            "turn_id": "BK22004817-8",
+            "utterance_id": "BK22004817.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 듣기만 해도 끔찍하다. 네 얘기를 듣고 곤충과 생태계에 관심이 생겼어. 집에 가서 관련 논문을 좀 찾아 읽어봐야겠다.",
+            "turn_id": "BK22004817-9",
+            "utterance_id": "BK22004817.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "환경문제는 우리가 지금보다 훨씬 더 많은 관심을 기울일 필요가 있어, 아주 좋은 생각이야. 관련 공부하다가 궁금한 게 생기면 또 연락해줘. 우리 같이 대화해보자.",
+            "turn_id": "BK22004817-9",
+            "utterance_id": "BK22004817.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럴게, 덕분에 환경과 익충에 대해 생각해볼 수 있었어. 나중에 또 보자!",
+            "turn_id": "BK22004817-10",
+            "utterance_id": "BK22004817.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 혹시 가는 길에 러브벌레가 또 보인다면 아까와는 다른 시선으로 바라봐줘. 나중에 또 보자!",
+            "turn_id": "BK22004817-10",
+            "utterance_id": "BK22004817.20"
+        }
+    ]
+}

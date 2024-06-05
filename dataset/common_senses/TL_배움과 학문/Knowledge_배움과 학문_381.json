@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013792",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013792",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0027"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0018"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "외국 방송을 보는데 쓰나미에 대해서 다루고 있네요.",
+            "turn_id": "BK22013792-1",
+            "utterance_id": "BK22013792.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쓰나미에 대해 궁금한 게 있으세요?",
+            "turn_id": "BK22013792-1",
+            "utterance_id": "BK22013792.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몇 가지 궁금한 게 있어요. 먼저, 쓰나미의 의미가 궁금한데요. 어떤 현상을 두고 쓰나미라고 하는 건가요?",
+            "turn_id": "BK22013792-2",
+            "utterance_id": "BK22013792.3"
+        },
+        {
+            "reference_date": "40614.0",
+            "reference_text": [
+                {
+                    "value": "쓰나미(tsunami)는 해저의 지진 및 화산 폭발,단층운동 같은 급격한 지각변동이나 빙하 붕괴,핵실험 등의 영향으로 발생하는 거대한 파도를 말한다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지진성 해일이라고도 하며 파도의 평균 높이는 약 15m에 달한다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/015/0002408615?sid=104",
+            "search_query": "쓰나미",
+            "terminate": false,
+            "text": "해저의 지진이나 화산 폭발, 혹은 단층운동 등 급격한 지각변동을 비롯해 핵실험이나 빙하 붕괴 등의 영향으로 거대한 파도가 생기는 것을 쓰나미라고 합니다. 다른 말로 지진성 해일이라고도 하는데요, 쓰나미 파도의 평균 높이는 보통 15m에 달합니다.",
+            "turn_id": "BK22013792-2",
+            "utterance_id": "BK22013792.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "평균 15미터나 된다니 높이가 엄청나네요. 그런데 쓰나미라는 단어의 뜻은 뭔가요? 듣기에 일본어 같아서요.",
+            "turn_id": "BK22013792-3",
+            "utterance_id": "BK22013792.5"
+        },
+        {
+            "reference_date": "40614.0",
+            "reference_text": [
+                {
+                    "value": "쓰나미는 일본어로 항구(津)를 뜻하는 '쓰'와 파도(波)를 가리키는 '나미'가 합친 말에서 유래했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "쓰나미의 한자 표기어인 진파(津波)는 '항구의 파도'란 뜻이다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "선착장(津)에 파도가 밀려온다는 의미에서 일본 쇼와시대 때부터 사용되기 시작한 것으로 전해지고 있다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/015/0002408615?sid=104",
+            "search_query": "쓰나미 뜻",
+            "terminate": false,
+            "text": "일본어로 항구를 의미하는 쓰와 파도를 뜻하는 나미가 합쳐져서 쓰나미라는 말이 되었습니다. 쓰나미는 한자로 표기하면 진파가 되는데 이는 항구의 파도라는 뜻을 지니고 있습니다. 파도가 선착장에 밀려온다는 의미로 일본 쇼와시대 당시부터 쓰기 시작한 말입니다.",
+            "turn_id": "BK22013792-3",
+            "utterance_id": "BK22013792.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지 듣기에 일본어 같다 싶었는데 일본어였네요. 그러면 언제부터 국제적으로 쓰나미라는 말을 쓰게 됐나요? 왜 쓰나미라는 말을 국제적으로 쓰게 됐는지도 알려주세요.",
+            "turn_id": "BK22013792-4",
+            "utterance_id": "BK22013792.7"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "1946년 태평양 주변에서 일어난 알류샨 열도 지진 해일이 당시로서는 자연재해 사상 최대 규모의 희생자를 내자 세계 주요언론들이 '지진과 해일'을 일컫는 '쓰나미(Tsunami)'라는 일본어를 사용하기 시작했다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 하와이에서 참사를 목격한 한 일본계 미국인이 이를 '쓰나미'라고 말한 것이 이 단어가 외국에 알려진 계기로 전해진다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EC%A7%84%ED%95%B4%EC%9D%BC",
+            "search_query": "쓰나미 일본어",
+            "terminate": false,
+            "text": "태평양 주변 알류샨 열도에서 1946년 지진해일이 발생했는데, 당시 자연재해로는 사상 최대 규모의 희생자가 발생했습니다. 당시 한 일본계 미국인이 하와이에서 참사를 목격하고 쓰나미라고 말한 것이 국제적으로 쓰나미라는 단어가 알려지게 된 계기인데요. 세계 유수의 언론들도 일본어로 지진과 해일을 뜻하는 쓰나미를 사용하기 시작했습니다.",
+            "turn_id": "BK22013792-4",
+            "utterance_id": "BK22013792.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "또 궁금한 게 있는데요. 쓰나미는 그 피해 규모가 크다고 하는데, 최대의 피해를 낸 쓰나미는 언제 어디서 일어났었나요?",
+            "turn_id": "BK22013792-5",
+            "utterance_id": "BK22013792.9"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "세계적으로 피해가 가장 컸던 지진해일은 2004년 12월 26일 인도네시아의 수마트라섬 부근 인도양에서 규모 9.3의 강진에 의해 발생한 남아시아 지진해일로 인도네시아 11만 229명을 비롯 스리랑카·인도·타이 등 주변국 해안지역에서 총 15만 7002여 명이 사망하였다(인도네시아 국가개발청 자료).",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EC%A7%84%ED%95%B4%EC%9D%BC",
+            "search_query": "쓰나미 피해",
+            "terminate": false,
+            "text": "인도네시아 수마트라섬 부근 인도양에서 2004년 12월 26일, 규모 9.3의 강진으로 발생한 쓰나미가 세계적으로 가장 큰 피해를 냈습니다. 인도네시아 국가개발청 자료에 따르면 이 쓰나미로 인도네시아에서 11만 229명이 사망한 것을 비롯해 스리랑카와 타이, 인도 등 주변국 해안에서 총 15만 7002명이 목숨을 잃었습니다.",
+            "turn_id": "BK22013792-5",
+            "utterance_id": "BK22013792.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쓰나미로 15만 명이 넘게 사망했다니 피해가 컸네요. 일본 후쿠시마에서도 쓰나미로 인한 피해가 컸던 것으로 기억하는데 피해 규모가 어땠나요?",
+            "turn_id": "BK22013792-6",
+            "utterance_id": "BK22013792.11"
+        },
+        {
+            "reference_date": "44266.0",
+            "reference_text": [
+                {
+                    "value": "2011년 3월 11일 오후 2시 46분께 후쿠시마현, 미야기현, 이와테현 등 동북부 지역 앞바다에서 발생한 규모 9의 동일본대지진은 쓰나미와 원전사고까지 겹치면서 2만2,000여명의 희생자를 냈다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지난 1일 일본 경찰청이 집계해 발표한 사망자 수는 1만5,899명, 실종자는 2,526명, ‘관련 사망자’는 3,767명에 달한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000587423?sid=104",
+            "search_query": "일본 후쿠시마 쓰나미",
+            "terminate": false,
+            "text": "일본 후쿠시마현과 이와테현, 미야기현 등 동북부 지방 앞바다에서 2011년 3월 11일 오후 2시 46분경 규모 9의 동일본대지진이 발생했어요. 여기에 쓰나미와 원전 사고가 함께 발생하며 2만 2000여 명의 희생자가 발생했습니다. 2021년 3월 1일 일본 경찰청의 발표한 집계현황에 따르면 1만 5899명이 사망하였고, 실종자는 2526명이었습니다. 여기에 관련 사망자 역시 3767명이 발생했습니다.",
+            "turn_id": "BK22013792-6",
+            "utterance_id": "BK22013792.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 쓰나미 피해가 어마어마했네요. 우리나라에서도 쓰나미가 들이닥친 적이 있나요? 영화에서는 한반도에도 쓰나미가 찾아오더라고요.",
+            "turn_id": "BK22013792-7",
+            "utterance_id": "BK22013792.13"
+        },
+        {
+            "reference_date": "43380.0",
+            "reference_text": [
+                {
+                    "value": "실제 동해안은 과거 쓰나미를 여러 차례 겪었다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1741년 강원 평해, 1940년 나진·묵호, 1983년 동해안 일원에서 쓰나미가 있었다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "강원 묵호항은 1983년과 1993년 일본 근해에서 발생한 지진으로 쓰나미가 덮쳐 인명과 재산 피해를 입었다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/020/0003173306?sid=104",
+            "search_query": "한반도 쓰나미",
+            "terminate": false,
+            "text": "동해안에 쓰나미가 여러 차례 있었는데요, 강원 평해 1741년, 나진 묵호에 1940년, 1983년에는 동해안 일대에 쓰나미가 덮쳤습니다. 강원 묵호항은 1983년 및 1993년에 일본 근해에서 일어난 지진으로 쓰나미가 발생해 인명, 재산 피해가 있었습니다.",
+            "turn_id": "BK22013792-7",
+            "utterance_id": "BK22013792.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라에도 실제 피해 사례가 있었네요. 1983년에 동해안에서 피해가 있었다고 하셨는데, 피해 규모가 어느 정도였나요?",
+            "turn_id": "BK22013792-8",
+            "utterance_id": "BK22013792.15"
+        },
+        {
+            "reference_date": "42638.0",
+            "reference_text": [
+                {
+                    "value": "1983년 일본 아키타현 서쪽 바다에서 규모 7.7의 지진이 발생했을 때는 임원항에 4.0m, 묵호항에 3.9m의 지진해일이 발생하면서 사망 1명, 실종 2명에 가옥 44동과 시설물 62동, 어선 81척의 재산 피해가 발생한 바 있다.",
+                    "value_time": "44820.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/032/0002730912?sid=102",
+            "search_query": "동해안 1983년 쓰나미",
+            "terminate": false,
+            "text": "1983년에 일본 아키타현 서쪽 바다에서 지진이 규모 7.7로 발생했습니다. 이때 묵호항에 3.9미터, 임원항에 4미터 규모의 쓰나미가 일어나 1명이 사망하고 2명이 실종됐어요. 그리고 가옥 44동, 시설물 62동을 비롯해 어선 81척의 재산 피해도 있었습니다.",
+            "turn_id": "BK22013792-8",
+            "utterance_id": "BK22013792.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우리나라도 대응 체계를 갖춰야겠네요. 마지막으로 하나 더 궁금한 게 있는데, 쓰나미 발생 시 대처 방법을 대략 알고 싶습니다.",
+            "turn_id": "BK22013792-9",
+            "utterance_id": "BK22013792.17"
+        },
+        {
+            "reference_date": "40618.0",
+            "reference_text": [
+                {
+                    "value": "먼저, 해안 가까운 곳에서 발생한 쓰나미는 몇 분 이내에 해안으로 밀려오므로 지진 경보를 듣고 대비할 여유가 없다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "땅이 심하게 흔들리면 해안 지역의 주민은 즉시 높은 지대로 대피하여야 한다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "해안에서 먼 거리에서 발생한 쓰나미에 대해서는 기상청이 해일 특보를 사전에 발표하므로 재해 대책요원의 안내에 따라 대비하면 된다.",
+                    "value_time": "44820.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/009/0002428189?sid=101",
+            "search_query": "쓰나미 대처",
+            "terminate": false,
+            "text": "해안에서 먼 곳에서 일어난 쓰나미의 경우, 기상청이 사전에 해일 특보를 알리므로 재해 대책 요원의 안내를 듣고 준비하면 됩니다. 해안 가까운 곳에서 쓰나미가 일어나면 몇 분 이내에 쓰나미가 해안으로 밀려 들어오기 때문에 지진 경보를 듣고 대비할 시간적 여유가 없습니다. 이에 땅이 심하게 흔들리면 해안지역에 거주하는 사람들은 즉시 고지대로 대피해야 합니다.",
+            "turn_id": "BK22013792-9",
+            "utterance_id": "BK22013792.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쓰나미에 대해 많은 내용 알려주셔서 감사합니다.",
+            "turn_id": "BK22013792-10",
+            "utterance_id": "BK22013792.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "쓰나미 관련 궁금한 게 있으면 언제든 말씀하세요.",
+            "turn_id": "BK22013792-10",
+            "utterance_id": "BK22013792.20"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004873",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004873",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0037"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 우크라이나에서 일어난 전쟁 때문에 마음이 아프네요. 인류는 전쟁이라는 이런 참혹한 행위를 멈추는 게 어려운 걸까요? 혹시 인류 역사상 가장 참혹했던 전투는 어떤 전투였는지 궁금하네요.",
+            "turn_id": "BK22004873-1",
+            "utterance_id": "BK22004873.1"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "스탈린그라드 전투(러시아어: Сталинградская битва, 독일어: Schlacht von Stalingrad, 문화어: 쓰딸린그라드 격전)는 1942년 8월 21일부터 1943년 2월 2일까지 스탈린그라드(현재 이름은 볼고그라드) 시내와 근방에서 소련군과 추축군 간에 벌어진 전투를 말한다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 전투에서 약 200만 명이 죽거나 다쳤으며, 인간사에서 가장 참혹한 전투로 기록되고 있다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 전투",
+            "terminate": false,
+            "text": "흔히 약 200만 명의 사상자가 발생한 스탈린그라드 전투를 꼽아요. 1942년 8월 21일부터 1943년 2월 2일까지 스탈린그라드 시내와 그 주변에서 소련군과 추축군이 대결했던 전투였죠.",
+            "turn_id": "BK22004873-1",
+            "utterance_id": "BK22004873.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 2차대전 때 벌어졌던 전투였군요? 그런데 추축군은 왜 스탈린그라드를 공격한 건가요?",
+            "turn_id": "BK22004873-2",
+            "utterance_id": "BK22004873.3"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "이곳은 카스피 해와 북부 러시아를 잇는 수송로인 볼가 강의 주된 산업 도시였고, 이곳을 점령하면 코카서스로 전진하는 독일군 좌익의 안전이 확보되었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 전투 독일군 볼가 강",
+            "terminate": false,
+            "text": "왜냐하면 스탈린그라드가 카스피 해와 북부 러시아를 잇는 수송로인 볼가 강의 주요 산업 도시였기 때문이죠. 또한 이곳을 장악해야 코카서스로 진출하는 독일군 좌익의 안전이 보장됐거든요.",
+            "turn_id": "BK22004873-2",
+            "utterance_id": "BK22004873.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한마디로 엄청난 전략적 요충지였네요. 그럼 초반에는 누가 이겼나요?",
+            "turn_id": "BK22004873-3",
+            "utterance_id": "BK22004873.5"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "독일군의 공격은 성공적으로 시작되었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "소련군은 넓은 스텝 초원에서 거의 저항을 하지 못하고 동쪽으로 무질서한 패주를 시작했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 전투 스텝 초원",
+            "terminate": false,
+            "text": "초반에는 독일군이 이겼어요. 소련군은 전투지인 스텝 초원에서 저항도 거의 못한 채 동쪽으로 무질서하게 도망가야만 했죠.",
+            "turn_id": "BK22004873-3",
+            "utterance_id": "BK22004873.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 참혹하게 패배했네요. 그러면 당시에 패배한 소련군은 어떻게 됐나요? 그대로 뿔뿔히 흩어졌나요?",
+            "turn_id": "BK22004873-4",
+            "utterance_id": "BK22004873.7"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "독일군의 공세 앞에 동쪽으로 후퇴하던 소련군 부대는 스탈린그라드에 진입하도록 명령을 받았다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소련군의 목표는 어떤 희생을 치르더라도 스탈린그라드 시를 사수하는 것이었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 전투 소련군 목표",
+            "terminate": false,
+            "text": "그렇진 않았어요. 도망가던 소련군은 스탈린그라드에 들어오라는 명령을 받았죠. 그들의 목표는 어떤 댓가를 치르더라도 스탈린그라드를 방어하는 것이 되었어요.",
+            "turn_id": "BK22004873-4",
+            "utterance_id": "BK22004873.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 독일군이 가만히 있지 않았겠네요. 독일군 측은 어떻게 대응을 했나요?",
+            "turn_id": "BK22004873-5",
+            "utterance_id": "BK22004873.9"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "전투는 시가에 대한 독일 공군의 무차별 폭격으로 시작되었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "9월 1일까지 소련군은 독일군의 포병과 폭격에 노출되어 위험한 볼가 강 도하를 통해서만 스탈린그라드 내의 부대들에게 보급과 지원을 행할 수 있었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 독일 공군 폭격",
+            "terminate": false,
+            "text": "우선 공군으로 무차별 폭격을 가했죠. 이에 소련군은 9월 1일까지 독일군 포병의 공격과 폭격을 그대로 맞을 수 밖에 없었어요. 그래서 위험하게도 볼가 강을 건너서 도시 안의 부대들에게 보급과 지원을 해야만 했어요.",
+            "turn_id": "BK22004873-5",
+            "utterance_id": "BK22004873.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전쟁은 보급이 8할이라는데 정말 어려움이 많았겠네요. 그럼 소련군은 그런 식으로 계속 당하기만 했나요?",
+            "turn_id": "BK22004873-6",
+            "utterance_id": "BK22004873.11"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "가을에 스탈린그라드 방면의 전략적 작전 지도를 맡은 바실레프스키와 주코프는 시내로 병력을 축차 투입하는 것으로는 독일군을 격퇴할 수 없음을 깨닫고 대규모 공세를 통해 전세를 뒤집으려 하였다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 바실레프스키 주코프",
+            "terminate": false,
+            "text": "소련군도 가만히 있지는 않았어요. 가을부터 스탈린그라드의 작전 지도를 맡게 된 바실레프스키와 주코프는 도시에 병력을 차례차례 투입해서는 독일군을 물리칠 수 없음을 인지하고 대규모 공격을 통해 전세를 뒤집겠다는 계획을 짜요.",
+            "turn_id": "BK22004873-6",
+            "utterance_id": "BK22004873.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 드디어 반격의 서막이 시작되는 건가요? 그런데 밀리고 있는 소련군이 대체 어떻게 대규모 공격을 한다는 건가요?",
+            "turn_id": "BK22004873-7",
+            "utterance_id": "BK22004873.13"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "이를 위해 치열한 전투가 벌어지는 시에는 겨우 거점을 유지할 수 있을 만큼만 병력을 지원했고, 시의 서북쪽과 서남쪽의 스텝 지대에 대규모 병력을 집중시키기 시작했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "독일군은 특히 북쪽 좌익이 허점이었는데, 이곳은 독일군에 비해서 잘 훈련되지 못하고 변변한 장비와 무기도 부족한데다 사기도 엉망인 크로아티아군과 헝가리군, 루마니아군이 수비를 담당하고 있었기 때문이었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%88%EB%A6%B0%EA%B7%B8%EB%9D%BC%EB%93%9C_%EC%A0%84%ED%88%AC",
+            "search_query": "스탈린그라드 소련군 반격 스텝 지대",
+            "terminate": false,
+            "text": "우선 전투가 계속되고 있던 도시 안에는 거점을 방어할 수 있을 만큼만 병력을 투입했고, 도시의 서북쪽과 서남쪽에 있는 스텝 지대에 대규모로 병력을 집결시켰어요. 독일군의 북쪽 좌익은 훈련 상태나 장비, 무기, 사기 모두 떨어지는 크로아티아군과 헝가리군, 루마니아군이 방어를 맡고 있어서 굉장히 취약했거든요.",
+            "turn_id": "BK22004873-7",
+            "utterance_id": "BK22004873.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "병력을 집중시켜서 적의 가장 약한 부분을 꿰뚫겠다는 거네요! 정말 머리가 좋은데요? 작전은 성공했나요?",
+            "turn_id": "BK22004873-8",
+            "utterance_id": "BK22004873.15"
+        },
+        {
+            "reference_date": "2021-01-28",
+            "reference_text": [
+                {
+                    "value": "독일군은 포위망에 갇힌 꼴이 되었다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보급이 끊어져 탄약은 물론 식량도 바닥을 드러냈다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1943년 1월 31일 이곳의 독일 제6군은 항복했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포위될 당시 총 33만 명에 달했던 독일군은 이제 22명의 장군을 포함한 9만 1,000명이 포로가 되어 시베리아로 이주 당했다.",
+                    "value_time": "2022-08-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kookbang.dema.mil.kr/newsWeb/20190122/4/BBSMSTR_000000010232/view.do",
+            "search_query": "스탈린그라드 독일군 항복",
+            "terminate": false,
+            "text": "네. 결국 독일군은 포위망에 갇혀서 보급을 받지 못하게 돼요. 결국 탄약과 식량이 떨어지자 1943년 1월 13일에 독일 제6군이 항복을 하게 되죠. 당시 독일군의 총 병력은 33만명 정도였는데 22명의 장군을 포함한 9만 1000명이 포로 신세가 되어 시베리아로 강제이주를 당해요.",
+            "turn_id": "BK22004873-8",
+            "utterance_id": "BK22004873.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 작전이 제대로 먹힌 거네요. 부족한 공중 전력을 전략으로 커버했네요!",
+            "turn_id": "BK22004873-9",
+            "utterance_id": "BK22004873.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 이래서 전쟁이든 공부든 머리를 써야 하는 거죠.",
+            "turn_id": "BK22004873-9",
+            "utterance_id": "BK22004873.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 학생인 제가 새겨들어야 할 말이네요. 아무튼 오늘도 역사에 대해 쉽고 재미있게 가르쳐주셔서 감사합니다.",
+            "turn_id": "BK22004873-10",
+            "utterance_id": "BK22004873.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "재미있으셨다니 다행이네요. 다음에도 궁금한 역사 지식이 있으면 언제든지 편하게 물어보세요!",
+            "turn_id": "BK22004873-10",
+            "utterance_id": "BK22004873.20"
+        }
+    ]
+}

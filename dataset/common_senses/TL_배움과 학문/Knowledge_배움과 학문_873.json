@@ -1,0 +1,387 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005639",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005639",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0033"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 밥을 잔뜩 먹었는데 정말 배불러. 한국 사람들은 밥심으로 산다는데 그게 맞나봐.",
+            "turn_id": "BK22005639-1",
+            "utterance_id": "BK22005639.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 우리가 인사할 때 밥 먹었냐고 물어보고 약속 잡을 때도 밥 한번 먹자고 하잖아.",
+            "turn_id": "BK22005639-1",
+            "utterance_id": "BK22005639.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그만큼 우리나라 주식이 쌀이라는 걸 보여주는 것 같아. 그런데 요즘은 쌀 소비량이 줄고 있다고 들었어.",
+            "turn_id": "BK22005639-2",
+            "utterance_id": "BK22005639.3"
+        },
+        {
+            "reference_date": "2022-01-27",
+            "reference_text": [
+                {
+                    "value": "지난해 1인당 연간 쌀 소비량이 통계 작성 이래 역대 최저치를 기록했다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해 1인당 하루 평균 쌀 소비량도 1인당 155.8g으로 1년 전보다 1.4% 감소하며 역대 최저를 보였다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "밥 한 공기가 150g인 점을 고려했을 때 하루 한 공기만 먹고 사는 셈이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://newsis.com/view/?id=NISX20220127_0001739634&cID=10401&pID=10400",
+            "search_query": "쌀 소비량 감소",
+            "terminate": false,
+            "text": "맞아. 지난해 한 사람당 1년간 쌀을 얼마나 소비하는지 통계를 내보았는데, 그동안의 통계 작성 이래 역대 최저치가 나와버렸어. 지난해 한 사람당 쌀을 하루에 얼마나 소비하나 봤더니 155.8그램이었는데 1년 전보다 1.4퍼센트 감소한 역대 최저치였어. 밥 한 공기가 150그램인데 거기에 비교했을 땐 사람들이 하루에 한 공기 정도만 먹고 사는 셈이야.",
+            "turn_id": "BK22005639-2",
+            "utterance_id": "BK22005639.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나만 봐도 이렇게 날 잡아서 먹는 거 아니면 하루에 두 공기도 안 먹는 것 같아. 그런 사람들은 밥 대신 뭘 먹는 걸까?",
+            "turn_id": "BK22005639-3",
+            "utterance_id": "BK22005639.5"
+        },
+        {
+            "reference_date": "2016-04-12",
+            "reference_text": [
+                {
+                    "value": "밥 대신 면과 빵으로 끼니를 떼우는 사람들도 늘어나고 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시장조사전문기업인 마크로밀엠브레인의 트렌드모니터가 전국 만 19~59세 성인남녀 1000명을 대상으로 지난 1월29일부터 2월3일까지 '밥·빵·면'에 대한 설문조사를 실시한 결과, 아침과 점심에 면과 빵을 찾는 이들이 크게 증가한 것으로 나타났다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://view.asiae.co.kr/news/view.htm?idxno=2016041210261358905",
+            "search_query": "밥 대신 선호",
+            "terminate": false,
+            "text": "면과 빵으로 밥을 대체해서 끼니를 때우는 사람이 증가했어. 시장조사전문기업인 마크로밀엠브레인의 트렌드모니터가 전국의 만 19세에서 59세 성인남녀 1000명을 대상으로 조사를 했는데, 그 통계를 보면 알 수 있어. 1월 29일부터 2월 3일까지, 밥과 빵 그리고 면에 대해 조사를 했더니 아침과 점심에 면과 빵을 찾는 사람들이 큰 폭으로 는 걸 볼 수 있지.",
+            "turn_id": "BK22005639-3",
+            "utterance_id": "BK22005639.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사람들이 면과 빵을 더 선호하는구나. 그런데 우리의 주식은 쌀이고 사람들도 밥심으로 산다고 이야기를 많이 하는데 왜 쌀밥을 먹지 않는 거야?",
+            "turn_id": "BK22005639-4",
+            "utterance_id": "BK22005639.7"
+        },
+        {
+            "reference_date": "2018-09-07",
+            "reference_text": [
+                {
+                    "value": "friday의 설문 결과 ‘쌀밥을 먹지 않는 이유는 무엇인가’라는 질문에 ‘건강·몸매 관리를 위해서’(32.14%)라는 답이 가장 많았다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "‘밥 외에도 다른 먹을거리가 많아서’(28.57%), ‘시간이 부족하고 귀찮아서’(25%), ‘맛이 없어서’(7.14%), ‘포만감이 커서’(3.57%)라는 답이 뒤를 이었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2018/09/06/2018090601644.html",
+            "search_query": "쌀밥을 먹지 않는 이유",
+            "terminate": false,
+            "text": "Friday가 설문을 했는데, 사람들이 쌀밥을 먹지 않는 이유는 건강과 몸매 관리를 위해서라는 대답이 32.14퍼센트로 1위를 차지했어. 그다음으로는 밥 외에 먹을거리가 충분하다는 대답과 시간이 부족하고 귀찮다는 답변이 뒤를 이었어.",
+            "turn_id": "BK22005639-4",
+            "utterance_id": "BK22005639.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 빵과 밀에도 영양분이야 있겠지만 쌀에도 좋은 영양분이 있는 거 아니야?",
+            "turn_id": "BK22005639-5",
+            "utterance_id": "BK22005639.9"
+        },
+        {
+            "reference_date": "2015-11-25",
+            "reference_text": [
+                {
+                    "value": "쌀에는 질이 좋은 탄수화물이 많이 들어 있고, 우수한 단백질, 지방, 비타민, 미네랄 등 10여가지 영양성분이 골고루 들어 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "쌀은 미네랄이 풍부해 빈혈, 골다공증, 예방에 도움을 주고 필수아미노산인 라이신이 풍부해 성장발육 촉진, 두뇌발달, 기억력 개선에 도움을 준다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000111991",
+            "search_query": "쌀밥 영양소",
+            "terminate": false,
+            "text": "맞아. 쌀엔 질이 뛰어난 탄수화물이 많고 그 외에도 좋은 단백질, 지방, 비타민 등 10여가지 영양성분이 고르게 들어있어. 그리고 쌀은 미네랄이 풍부해서 빈혈, 골다공증을 막는 데 좋아. 또한 필수 아미노산인 라이신이 많이 들어있어서 성장과 발육에도 좋고 두뇌발달, 기억력 개선에도 좋지.",
+            "turn_id": "BK22005639-5",
+            "utterance_id": "BK22005639.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "좋은 영양소가 많네. 그런데 다이어트를 하다 보면 탄수화물이 많은 쌀밥을 피하라고 하잖아. 정말 피해야 하는 음식일까?",
+            "turn_id": "BK22005639-6",
+            "utterance_id": "BK22005639.11"
+        },
+        {
+            "reference_date": "2022-07-07",
+            "reference_text": [
+                {
+                    "value": "쌀밥이 밀가루 빵에 비해 대사증후군과 체지방을 줄인다는 연구 결과가 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "농촌진흥청이 분당제생병원과 함께 한 달 간 쌀밥과 밀가루 빵을 각각 섭취하도록 한 결과, 건강한 성인이 밀가루 빵보다 쌀밥을 먹었을 때 혈당 감소가 완만하고 인슐린 분비량이 적었다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "당뇨전단계 시험군에서는 체중, 허리둘레, 중성지방이 감소했다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "반면 건강한 성인이 빵을 먹은 경우 식후 혈당이 빠르게 감소해 배고픔을 빨리 느꼈다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://kormedi.com/1407470/%ec%8c%80%ec%9d%98-%eb%88%88%eb%ac%bc-%eb%8b%a4-%ec%98%ac%eb%9e%90%eb%8a%94%eb%8d%b0-%ec%8c%80%eb%a7%8c-%ec%99%9c-%ea%b1%b4%ea%b0%95%ed%9a%a8%ea%b3%bc%eb%8a%94/",
+            "search_query": "쌀밥 밀가루 대사증후군",
+            "terminate": false,
+            "text": "오해라고 볼 수 있어. 밀가루 빵에 비해서 쌀밥은 대사 증후군과 체지방을 줄여준다는 연구 결과가 있거든. 농촌진흥청과 분당제생병원이 합동 연구로 한 달간 쌀밥과 밀가루 빵을 각각 섭취하도록 했더니, 건강한 성인이 밀가루 빵보다 쌀밥을 먹었을 때 혈당이 감소하는 수치가 완만하고 인슐린 분비량이 적다는 결과를 얻었어. 그리고 당뇨 전 단계 시험군에서는 체중과 허리둘레 뿐만 아니라 중성지방이 감소하는 효과까지 보였어. 반면에 건강한 성인이 밀가루 빵을 먹었더니 식후의 혈당이 급속도로 감소해서 배고픔을 빨리 느낀다는 결과도 얻게 되었어.",
+            "turn_id": "BK22005639-6",
+            "utterance_id": "BK22005639.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 그런데 대사증후군을 줄인다고 했는데 그게 뭔지 설명해줄 수 있어?",
+            "turn_id": "BK22005639-7",
+            "utterance_id": "BK22005639.13"
+        },
+        {
+            "reference_date": "2022-05-11",
+            "reference_text": [
+                {
+                    "value": "대사 증후군(代謝 症候群) 또는 메터볼릭 신드롬(영어: metabolic syndrome)은 복부비만(central obesity), 고혈압(hypertension, high blood pressure), 당뇨병 또는 고혈당(hyperglycemia), 과중성지방혈증(hypertriglyceridemia), 혈청 내 고밀도지질단백질(HDL) 저하 중 3개 이상일 경우에 해당한다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대사증후군의 주요 징후는 복부비만(central obesity)이며, 또한 내장지방(visceral adiposity), 남성형비만(male-pattern adiposity), 사과형비만(apple-shaped adiposity)이기도 하다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분은 연령이 높고 비만이며 좌식생활을 많이 하고 인슐린 저항이 있는 사람들이 걸린다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%82%AC_%EC%A6%9D%ED%9B%84%EA%B5%B0",
+            "search_query": "대사증후군",
+            "terminate": false,
+            "text": "물론이야. 대사 증후군이라 또는 메터볼릭 신드롬이라고 불리는 이 증후군은 복부비만, 고혈압, 당뇨병 또는 고혈당, 과중성지방혈증, 고밀도지질단백질 저하 중 3개 이상이 해당할 때 대사 증후군이라고 할 수 있어. 대사증후군의 주요한 징후는 복부비만인데 내장비만, 남성형비만, 사과형비만이기도 해. 보통 나이가 많고 비만이고 좌식생활을 한 사람들이 많이 걸리기도 하고 인슐린 저항이 있는 사람들도 걸려.",
+            "turn_id": "BK22005639-7",
+            "utterance_id": "BK22005639.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대사증후군이 그런 거구나. 그나저나 아까 얘기해준 것을 들어보니 빵이 밥보다 더 좋은 것 같아. 그런데 같은 밥이라고 해도 쌀밥보단 현미밥이나 잡곡밥을 먹는 게 더 좋다고 하던데 왜 그런 거야?",
+            "turn_id": "BK22005639-8",
+            "utterance_id": "BK22005639.15"
+        },
+        {
+            "reference_date": "2019-10-21",
+            "reference_text": [
+                {
+                    "value": "현미 영양의 핵심은 쌀눈으로 쌀 전체 영양성분의 66%가 여기에 모여 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현미에는 비타민B1·B2·B6와 나이아신·판토텐산·칼슘·리놀레산·토코페롤 등이 풍부한 것으로 알려져 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "단, 미강(쌀겨)이 제거되지 않아 다소 까끌거리는 느낌이 있고 단단한 쌀겨층 탓에 백미에 비해선 소화가 덜 된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nongmin.com/nature/NAT/FOD/316262/view",
+            "search_query": "현미 쌀눈",
+            "terminate": false,
+            "text": "그 이유는 바로 쌀눈에 있어. 현미에 들어있는 영양분의 대부분은 쌀눈에 있는데 쌀 전체 영양분의 66퍼센트가 그곳에 모여있거든. 현미에는 비타민 B1, B2등의 비타민 종류와 나이아신 판토넨산 같은 성분들이 풍부하게 들어있어. 대신 쌀겨가 제거되지 않아서 까끌까끌한 느낌이 들고 단단하게 자리잡은 쌀겨층 때문에 백미에 비해선 소화가 잘 안돼.",
+            "turn_id": "BK22005639-8",
+            "utterance_id": "BK22005639.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어쩐지. 그래서 내가 현미밥을 먹을 때마다 소화가 덜 된 느낌이었구나. 그나저나 잡곡밥은 어떤 효능이 있는지 알려줄래?",
+            "turn_id": "BK22005639-9",
+            "utterance_id": "BK22005639.17"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "현미가 대표적인 통곡물이고, 보리, 흑미, 조, 수수, 귀리와 같은 우리에게 익숙한 잡곡도 모두 통곡물에 포함된다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "통곡물을 먹는 것은 성인에서는 심혈관 질환, 암, 당뇨, 위장관 질환이 줄고, 체중 감소에도 뚜렷한 효과가 있는 것이 이미 여러 연구를 통해 증명됐다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.babytimes.co.kr/news/articleView.html?idxno=48612",
+            "search_query": "잡곡 효능",
+            "terminate": false,
+            "text": "응. 보리, 흑미, 조, 수수, 귀리, 현미 등 우리에게 친숙한 잡곡들이 통곡물이야. 이런 통곡물을 먹는 건 성인의 심혈관 질환, 암, 당뇨, 위장관 질한에 효과적이고 체중을 감소하는데도 효과가 있다는 것이 여러 연구를 통해 밝혀진 적이 있어.",
+            "turn_id": "BK22005639-9",
+            "utterance_id": "BK22005639.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나. 이야기를 들어보니 흰 쌀밥만 먹는 거보다 다른 통곡물을 섞어서 먹는 게 건강에 좋겠네.",
+            "turn_id": "BK22005639-10",
+            "utterance_id": "BK22005639.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지. 이것저것 다양하게 섞어 먹으면서 건강을 챙기면 부족한 영양분을 채울 수 있을 거야.",
+            "turn_id": "BK22005639-10",
+            "utterance_id": "BK22005639.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래야겠어. 그럼 나는 이만 밥에 넣어 먹을 다른 곡물을 사러 가볼게. 그럼 다음에 또 이야기하고 이만 안녕.",
+            "turn_id": "BK22005639-11",
+            "utterance_id": "BK22005639.21"
+        }
+    ]
+}

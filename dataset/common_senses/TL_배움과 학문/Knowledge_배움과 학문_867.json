@@ -1,0 +1,423 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005613",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005613",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전에 도마뱀을 키우는 사람을 봤어. 나는 반려동물이면 강아지나 고양이만 생각했거든. 너는 주변에서 도마뱀을 키우는 사람을 본 적 있어?",
+            "turn_id": "BK22005613-1",
+            "utterance_id": "BK22005613.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도마뱀을 키우다니 신기하네. 나는 애완 도마뱀은 본 적 없는데, 앵무새를 키우는 친구는 있어.",
+            "turn_id": "BK22005613-1",
+            "utterance_id": "BK22005613.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "앵무새를 키우는 것도 신기하다. 그런데 개나 고양이가 아닌 특수동물을 키우는 사람이 꽤 많은 것 같아. 특수동물 종류에는 어떤 게 있어?",
+            "turn_id": "BK22005613-2",
+            "utterance_id": "BK22005613.3"
+        },
+        {
+            "reference_date": "2022-06-09",
+            "reference_text": [
+                {
+                    "value": "반려동물로 대부분의 사람들이 강아지나 고양이를 떠올리지만, 반려동물 수가 늘어난 만큼 반려동물의 종류도 다양해졌다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일반적으로 개와 고양이를 제외한 반려동물을 ‘특수 반려동물’이라고 하며 새, 햄스터, 고슴도치, 파충류, 양서류, 어류 등이 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.busan.com/view/busan/view.php?code=2022060818252897821",
+            "search_query": "특수동물 종류",
+            "terminate": false,
+            "text": "맞아. 최근엔 반려동물 수가 많아지면서 종류도 다양해졌어. 보통 우리는 반려동물이라고 하면 대표적으로 개나 고양이를 생각하지만, 이 동물을 제외한 반려동물을 특수 반려동물이라고 해서 새, 햄스터, 고슴도치, 파충류, 양서류 등이 있어.",
+            "turn_id": "BK22005613-2",
+            "utterance_id": "BK22005613.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파충류, 양서류를 키우는 건 정말 신기해. 근데 파충류라면 카멜레온도 해당되는 거겠네? 카멜레온도 애완으로 키우나?",
+            "turn_id": "BK22005613-3",
+            "utterance_id": "BK22005613.5"
+        },
+        {
+            "reference_date": "2018-12-11",
+            "reference_text": [
+                {
+                    "value": "환경에 따라 다양한 색으로 휙휙 변하는 카멜레온도 애완동물로 키울 수 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "카멜레온은 잡식성으로, 밀웜이나 귀뚜라미, 채소 등이 주식이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "변온동물이기 때문에 반드시 사육장 안에 따뜻한 열을 쬐는 공간을 마련해줘야 한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.gokorea.kr/news/articleView.html?idxno=60979",
+            "search_query": "카멜레온 애완동물",
+            "terminate": false,
+            "text": "물론이지. 색이 다양하게 바뀌는 카멜레온도 애완동물로 키울 수 있어. 카멜레온은 밀웜, 귀뚜라미, 채소 등을 먹는 잡식성이야. 그리고 변온동물이기 때문에 사육장 안에 따뜻한 열을 쬘 수 있게끔 공간을 만들어줘야 해.",
+            "turn_id": "BK22005613-3",
+            "utterance_id": "BK22005613.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카멜레온이 은근 손이 많이 가는구나? 그런데 카멜레온은 색이 바뀌는데, 색은 왜 변하는 거야?",
+            "turn_id": "BK22005613-4",
+            "utterance_id": "BK22005613.7"
+        },
+        {
+            "reference_date": "2022-06-19",
+            "reference_text": [
+                {
+                    "value": "카멜레온의 체색은 의사 전달에서도 중요한 역할을 하며, 빛의 노출과 주위 온도에 반응하여 색이 변하고, 색으로 감정을 표현하기도 한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "짝에 대한 감정도 카멜레온의 색 변화를 유발한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EB%A9%9C%EB%A0%88%EC%98%A8",
+            "search_query": "카멜레온 색 변화",
+            "terminate": false,
+            "text": "카멜레온은 빛의 노출과 주의 온도에 반응해서 변하기도 하고 색으로 감정표현을 하기도 해. 카멜레온의 몸 색깔은 의사 표현에서 중요한 역할을 해. 그리고 자신의 짝에 대한 감정도 카멜레온이 색을 변화하는 데 영향을 줘.",
+            "turn_id": "BK22005613-4",
+            "utterance_id": "BK22005613.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "카멜레온의 색 변화가 주변 환경뿐만 아니라 감정의 영향도 받는구나. 그러면 카멜레온과 비슷하게 생긴 이구아나는 어떤 특징을 가지고 있어?",
+            "turn_id": "BK22005613-5",
+            "utterance_id": "BK22005613.9"
+        },
+        {
+            "reference_date": "2014-11-02",
+            "reference_text": [
+                {
+                    "value": "이구아나는 뱀목 이구아나과의 도마뱀무리이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대형 도마뱀으로 전체 길이 1.5∼2m에 달한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "머리는 크고 꼬리는 전체 길이의 3분의 2나 된다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸의 등 쪽 후두부(後頭部)에서 꼬리에 이르는 등선에 조상인 공룡을 연상하게 하는 칼날모양의 장식 비늘이 돋아 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "몸무게는 4~8kg이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.jnilbo.com/view/media/view?code=20141103000000454933315",
+            "search_query": "이구아나 특징",
+            "terminate": false,
+            "text": "이구아나는 뱀 목 이구아나과에 속하는 도마뱀무리야. 머리는 크고 몸의 길이가 1.5미터에서 2미터에 달하고 꼬리가 전체 길이의 3분의 2나 돼. 몸무게는 4킬로그램에서 8킬로그램 정도야. 그리고 등 쪽 후두부에서 꼬리까지 등선을 따라 조상인 공룡을 떠올리게 하는 칼날 모양의 장식 비늘이 나 있어.",
+            "turn_id": "BK22005613-5",
+            "utterance_id": "BK22005613.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "길이가 2미터까지도 된다니, 엄청 크구나. 그런데 이구아나도 카멜레온처럼 집에서 키울 수 있는 거야?",
+            "turn_id": "BK22005613-6",
+            "utterance_id": "BK22005613.11"
+        },
+        {
+            "reference_date": "2019-01-12",
+            "reference_text": [
+                {
+                    "value": "이구아나에게는 적절한 온도와 습도, 크기 등을 모두 갖춘 사육장이 필요합니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우선 적정 온도는 히터로 맞춰 주며, 낮에는 29.5~32도 밤에는 24~26.5도의 온도가 적당합니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한쪽 구석에 추가적으로 히터나 조명을 설치해 37.5~43.5도의 환경을 만들어 주면 좋습니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "적절한 온도가 맞춰지지 않으면 소화 불량이나 번식에 이상이 생기고, 심한 경우에는 갑상선 질병에 걸립니다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=26162",
+            "search_query": "이구아나 사육",
+            "terminate": false,
+            "text": "응, 이구아나 사육을 위해선 이것저것 신경 써야 할게 많아. 온도는 히터를 통해서 낮에는 29.5도에서 32도, 밤엔 24도에서 26.5도 사이로 맞춰야 해. 그리고 한쪽 구석엔 조명이나 히터를 추가로 설치해서 37.5도에서 43.3도의 환경을 조성해주는 게 좋아. 온도가 적절하지 못하면 소화 불량이나 번식 장애, 갑상선 질병에도 걸릴 수 있어. 그래서 적절한 온도와 습도, 크기 등이 모두 갖춰진 사육장이 필요해.",
+            "turn_id": "BK22005613-6",
+            "utterance_id": "BK22005613.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이구아나도 카멜레온처럼 까다로운 사육 조건이 요구되네. 근데 이구아나와 카멜레온 말고 개구리를 키우는 사람들도 있잖아. 애완 개구리로 인기가 많은 종은 뭐야?",
+            "turn_id": "BK22005613-7",
+            "utterance_id": "BK22005613.13"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "오스트레일리아청개구리(영어: Australian green tree frog)는 오스트레일리아와 뉴기니 원산의 청개구리과에 속한 청개구리의 일종이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "학명 명명자 존 화이트의 이름을 따 화이트청개구리(영어: White's tree frog), 특유의 생김새에서 유래한 시무룩청개구리(영어: dumpy tree frog) 등의 별명이 있으며, 학명은 리토리아 카에룰레아(학명: Litoria caerulea)이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특이한 외모와 행동거지로 인해 이색적인 애완동물로서 세계적으로 인기있는 종이다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%A6%AC%EC%95%84%EC%B2%AD%EA%B0%9C%EA%B5%AC%EB%A6%AC",
+            "search_query": "오스트레일리아청개구리",
+            "terminate": false,
+            "text": "애완동물로 인기 있는 개구리는 오스트레일리아와 뉴기니 원산의 청개구리과에 속하는 청개구리의 일종인 오스트레일리아 청개구리라는 종이 있어. 이 개구리는 외모와 행동이 특이해서 인기가 많아. 또한 이 종은 오스트레일리아 그린트리 프록이라고도 불리고 학명을 지은 존 화이트의 이름을 따서 화이트트리프록이라고도 불려. 그리고 생김새에서 유래된 덤 피트리프록이라는 이름도 가지고 있어. 참고로 학명은 리토리아 카에룰레아야.",
+            "turn_id": "BK22005613-7",
+            "utterance_id": "BK22005613.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생김새가 얼마나 특이하길래 인기가 많을까? 그리고 그런 개구리가 인기가 많다니 놀라워. 이 개구리에 대해 더 설명해줄 수 있어?",
+            "turn_id": "BK22005613-8",
+            "utterance_id": "BK22005613.15"
+        },
+        {
+            "reference_date": "2021-05-06",
+            "reference_text": [
+                {
+                    "value": "하이트진로의 간판 소주 '진로이즈백'의 두꺼비 캐릭터와 똑 닮은 개구리가 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "사육 상태의 화이트 트리 프록의 수명은 약 16년으로 상당히 길다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 주로 낮 동안에는 휴식을 취하다가 밤이 되면 활동을 시작한다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "바깥에 풀어 키워도 한곳에 자리를 잡고 도망가거나 하지 않는 꽤 영리한 종으로 알려졌다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/337080",
+            "search_query": "오스트레일리아 청개구리 진로 캐릭터",
+            "terminate": false,
+            "text": "우리에게 익숙한 생김새로 예를 들어보자면, 하이트진로의 진로이즈백에 그려진 두꺼비 캐릭터와 똑 닮았어. 추가로 이 개구리에 대해 더 설명하자면, 사람이 사육하는 상태에서 수명이 약 16년 정도로 꽤 긴 편이야. 그리고 낮에는 주로 휴식을 하고 밤에 활동을 해. 또한 바깥에서 풀어놓고 키워도 한 곳에 자리를 잡아 살면서 도망가지 않는 특징을 보여. 하는 행동을 보면 꽤 영리한 종이야.",
+            "turn_id": "BK22005613-8",
+            "utterance_id": "BK22005613.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 영리하구나. 그런데 화이트 트리 프록에 대한 다른 정보는 더 없을까?",
+            "turn_id": "BK22005613-9",
+            "utterance_id": "BK22005613.17"
+        },
+        {
+            "reference_date": "2021-05-29",
+            "reference_text": [
+                {
+                    "value": "화이트 트리 프록은 외모 뿐 아니라 피부 분비물에 포함된 특별한 물질 때문에 과학자들의 관심을 한몸에 받기도 했다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화이트 트리 프록의 피부 분비물에는 ‘천연 항생제’라 불리는 25종의 펩타이드가 함유돼 있다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "화이트 트리 프록의 피부 분비물에 함유된 여러 펩타이드 성분은 건강한 세포의 손상없이 HIV(인체면역결핍) 바이러스를 파괴할 수 있단 연구결과도 나와, 업계에 반향을 일으켰다.",
+                    "value_time": "2022-08-12",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20210529000039",
+            "search_query": "화이트트리프록 펩타이드",
+            "terminate": false,
+            "text": "화이트 트리 프록의 피부 분비물에는 25종의 펩타이드가 들어있어. 이 분비물은 천연 항생제라고 불리는데, 그 속에 들어간 펩타이드는 건강한 세포를 손상시키지 않고 HIV 바이러스를 파괴할 수 있다는 연구 결과가 나왔어. 그래서 화이트 트리프록이 과학자들의 관심을 받고 있어.",
+            "turn_id": "BK22005613-9",
+            "utterance_id": "BK22005613.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "개구리의 점액에서 그런 성분이 나온다는 건 처음 알았어. 이 성분이 잘 연구되어서 치료제로 개발됐으면 좋겠어.",
+            "turn_id": "BK22005613-10",
+            "utterance_id": "BK22005613.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나도 동의해. HIV에 대한 제대로 된 치료제를 얻을 수 있다면 정말 좋을 거야.",
+            "turn_id": "BK22005613-10",
+            "utterance_id": "BK22005613.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 그럼 나는 다양한 특수동물에 대해 더 알아보러 갈게. 네가 얘기해준 걸 들어보니 더 궁금해졌어.",
+            "turn_id": "BK22005613-11",
+            "utterance_id": "BK22005613.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래. 그럼 이것저것 찾아보다가 궁금한 게 생기면 나에게 말해줘. 내가 궁금한 것을 해결해줄게.",
+            "turn_id": "BK22005613-11",
+            "utterance_id": "BK22005613.22"
+        }
+    ]
+}

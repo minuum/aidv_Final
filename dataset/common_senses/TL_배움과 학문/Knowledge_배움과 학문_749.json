@@ -1,0 +1,346 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004913",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004913",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "최근에 암호학이라는 학문이 있다는 걸 처음 알았어! 넌 암호학이 어떤 학문인지 알아?",
+            "turn_id": "BK22004913-1",
+            "utterance_id": "BK22004913.1"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "암호학(暗號學, 영어: cryptography, cryptology)은 정보를 보호하기 위한 언어학적 및 수학적 방법론을 다루는 학문으로 수학을 중심으로 컴퓨터, 통신 등 여러 학문 분야에서 공동으로 연구, 개발되고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%ED%98%B8%ED%95%99",
+            "search_query": "암호학",
+            "terminate": false,
+            "text": "암호학, 잘 알지. 정보를 보안하기 위해 언어학적, 수학적 방법론을 다루는 학문을 말하는데, 수학을 필두로 통신과 컴퓨터 등 다양한 학문 분야에서 공동으로 연구하고 개발 중이야.",
+            "turn_id": "BK22004913-1",
+            "utterance_id": "BK22004913.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정보 보안이 목적이면 요즘같이 하루가 달리 신기술을 만들어내는 시대에는 꼭 필요한 학문인 것 같네. 그럼 홈페이지 로그인할 때 사용하는 패스워드 같은 것도 암호학과 관련된 거야?",
+            "turn_id": "BK22004913-2",
+            "utterance_id": "BK22004913.3"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "현금지급기의 사용, 컴퓨터의 패스워드, 전자상거래 등은 모두 현대적 의미의 암호에 의해 안정성을 보장받고 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현대 암호학은 암호 시스템, 암호 분석, 인증 및 전자서명 등을 주요 분야로 포함한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%ED%98%B8%ED%95%99",
+            "search_query": "암호학 패스워드",
+            "terminate": false,
+            "text": "맞아. 컴퓨터 패스워드부터 전자상거래, 현금지급기 등을 우리가 탈 없이 사용하도록 안전성을 보장해주는 게 현대적 의미의 암호야. 보통 현대 암호학의 주요 분야로는 암호 분석과 암호 시스템, 인증 및 전자서명 등이 있어.",
+            "turn_id": "BK22004913-2",
+            "utterance_id": "BK22004913.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 전자서명 요즘 많이들 사용하던데. 요즘은 오프라인이 아니라 온라인상에서 인증하는 절차들이 많으니까. 음, 지금처럼 인터넷이 발달하지 않은 오래전에는 어떤 암호를 사용했을까?",
+            "turn_id": "BK22004913-3",
+            "utterance_id": "BK22004913.5"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "역사상 기록으로 남은 가장 오래된 암호는 율리우스 카이사르가 사용한 대입암호이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 그리스에서 사용되던 스키테일 암호체계도 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%ED%98%B8%ED%95%99",
+            "search_query": "고대 암호",
+            "terminate": false,
+            "text": "율리우스 카이사르라는 인물이 쓴 대입 암호라는 게 있는데, 기록된 암호 중 역사상 제일 오래된 암호야. 스키테일 암호체계라고, 고대 그리스에서 쓰던 암호도 있어.",
+            "turn_id": "BK22004913-3",
+            "utterance_id": "BK22004913.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스키테일 암호는 어떤 방식의 암호인 건데?",
+            "turn_id": "BK22004913-4",
+            "utterance_id": "BK22004913.7"
+        },
+        {
+            "reference_date": "2022-04-27",
+            "reference_text": [
+                {
+                    "value": "평범한 일정한 너비의 종이테이프를 원통(막대)에 서로 겹치지 않도록 감아, 테이프 위에 세로쓰기로 통신문을 기입하는 방식이며, 테이프를 풀어 보아서는 내용을 전혀 판독할 수 없으나, 통신문을 기록할 때 사용한 것과 생김새가 같고 동일한 지름을 가진 원통에 감아보면 내용을 읽을 수 있게 고안되었다",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%82%A4%ED%85%8C%EC%9D%BC",
+            "search_query": "스키테일 암호 원리",
+            "terminate": false,
+            "text": "원통형 막대기에 똑같은 너비의 종이테이프를 서로 겹치지 않게 감은 후에 테이프 위에 통신문을 세로로 쓰면, 테이프를 풀었을 때 내용을 전혀 알 수 없어. 하지만 기존의 막대기와 형태와 크기가 동일한 막대기를 가진 사람은 그 막대기에 테이프를 감기만 하면 내용을 판독할 수 있도록 만든 암호체계야.",
+            "turn_id": "BK22004913-4",
+            "utterance_id": "BK22004913.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 나름 기발한데? 그럼, 카이사르라는 사람이 사용했다는 대입암호는 어떤 거야?",
+            "turn_id": "BK22004913-5",
+            "utterance_id": "BK22004913.9"
+        },
+        {
+            "reference_date": "2020-04-13",
+            "reference_text": [
+                {
+                    "value": "이 암호는 규칙에 따라 알파벳을 치환해 사용하는 암호화 방식으로, 다음과 같은 원리를 이용한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "예를 들어 a를 b로 치환했으면, b는 c로, c는 d로 치환하는 방식으로 마지막 z는 a가 된다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "즉, b부터 시작하는 알파벳으로 글을 쓰고 이를 통해 중요한 내용을 전할 수 있다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.cctvnews.co.kr/news/articleView.html?idxno=200575",
+            "search_query": "카이사르 대입암호",
+            "terminate": false,
+            "text": "알파벳을 규칙에 따라 치환해 나타내는 암호화 방식이야. 만약 a를 b로 치환했다고 치면 b는 c로, c는 d로 치환해서 나타내는 게 대입암호의 암호화 방식이지. 마지막 z는 a가 될 거고! 이 경우엔, 중요한 내용을 b부터 시작되는 알파벳으로 암호화해서 전달하는 셈인 거지.",
+            "turn_id": "BK22004913-5",
+            "utterance_id": "BK22004913.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "나 이해했어! 그럼 Cat은 Dbu라는 이상한 단어가 되겠네, 하하. 아, 근데 암호화라는 단어는 대충 무슨 뜻인지 알겠는데, 암호를 해독하는 건 뭐라고 말해?",
+            "turn_id": "BK22004913-6",
+            "utterance_id": "BK22004913.11"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "암호학을 이용하여 보호해야 할 메시지를 평문(平文, plaintext)이라고 하며, 평문을 암호학적 방법으로 변환한 것을 암호문(暗號文, ciphertext)이라고 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이때 평문을 암호문으로 변환하는 과정을 암호화(暗號化, encryption)라고 하며, 암호문을 다시 평문으로 변환하는 과정을 복호화(復號化, decryption) 라고 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%95%94%ED%98%B8%ED%95%99",
+            "search_query": "암호화 복호화",
+            "terminate": false,
+            "text": "그건 복호화라고 해. 간단하게 암호학 관련 용어들을 정리해 보자면, 암호학을 활용해서 보호해야 하는 내용을 평문이라고 하고, 평문을 암호학적인 방식으로 변환한 걸 암호문이라고 칭해. 그리고 암호화는 평문을 암호문으로 변환하는 과정을 뜻하고, 복호화는 암호문을 평문으로 변환하는 과정을 뜻해.",
+            "turn_id": "BK22004913-6",
+            "utterance_id": "BK22004913.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 덕분에 평문, 암호문, 암호화, 복호화 전부 머릿속에 정리됐어. 현대의 유명한 암호학자로는 어떤 사람이 있어?",
+            "turn_id": "BK22004913-7",
+            "utterance_id": "BK22004913.13"
+        },
+        {
+            "reference_date": "2018-04-03",
+            "reference_text": [
+                {
+                    "value": "데이비드 차움은 블록체인의 근간이 되는 암호학에서 입지전적인 인물이다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "비트코인이 세상에 등장하기 전 암호화폐 개념을 처음 제시하기도 했다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.bloter.net/newsView/blt201804030004",
+            "search_query": "암호학자",
+            "terminate": false,
+            "text": "데이비드 차움이라고, 비트코인이라는 개념이 처음 나오기도 전에 암호화폐의 개념을 제시한 암호학자가 있어! 암호학은 블록체인의 뿌리이기도 한데, 그런 암호학계에서 데이비드 차움은 입지전적인 인물이야.",
+            "turn_id": "BK22004913-7",
+            "utterance_id": "BK22004913.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와 대단한 사람이네. 그 데이비드 차움 이야기를 좀 더 듣고 싶네. 암호학계에서 입지전적인 인물이면 뭔가 업적이 있을 것 같은데, 한 가지만 알려주면 안 돼?",
+            "turn_id": "BK22004913-8",
+            "utterance_id": "BK22004913.15"
+        },
+        {
+            "reference_date": "2021-04-13",
+            "reference_text": [
+                {
+                    "value": "1981년 데이비드 차움 박사는 전자메일을 익명으로 송⸱수신할 수 있는 '믹스 넷(Mix Networks)' 기술 개발에 성공한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영화 속 첩보원들이 미행을 따돌리기 위해 곧바로 목적지로 가지 않고 이리저리 엉뚱한 장소를 거쳐 가듯, 믹스 넷은 내가 보낸 메일이 바로 상대에게 가지 않고 인터넷상의 여러 지점을 경유해 가도록 함으로써 추적을 어렵게 한다.",
+                    "value_time": "2022-08-07",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.coindeskkorea.com/news/articleView.html?idxno=73362",
+            "search_query": "데이비드 차움",
+            "terminate": false,
+            "text": "그럼 데이비드 차움이 1981년에 개발한 기술인 믹스 넷에 관해 알려줄게! 믹스 넷은 익명으로 전자메일을 송신하거나 수신할 수 있는 기술이야. 왜, 영화에 나오는 공작원들을 보면 자기한테 붙는 미행을 따돌리려고 목적지로 곧장 안 가고 여기저기 다른 장소를 거쳐 가잖아? 그것처럼 믹스 넷은 누군가가 전송한 메일이 상대에게 바로 안 가고 인터넷상의 여러 지점들을 이리저리 경유하게 해서 추적하기 힘들게 만드는 기술이야.",
+            "turn_id": "BK22004913-8",
+            "utterance_id": "BK22004913.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도대체 그런 걸 어떻게 만들었대? 진짜 똑똑하고 대단하네.",
+            "turn_id": "BK22004913-9",
+            "utterance_id": "BK22004913.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇지? 데이비드 차움도 대단하지만, 또 놀라운 암호학자들이 많아. 오후에는 다른 암호학자 이야기도 해줄까?",
+            "turn_id": "BK22004913-9",
+            "utterance_id": "BK22004913.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오 좋아. 그럼 점심시간 마치면 여기서 다시 만나자.",
+            "turn_id": "BK22004913-10",
+            "utterance_id": "BK22004913.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 시간 되면 여기로 올게. 나중에 다시 봐!",
+            "turn_id": "BK22004913-10",
+            "utterance_id": "BK22004913.20"
+        }
+    ]
+}

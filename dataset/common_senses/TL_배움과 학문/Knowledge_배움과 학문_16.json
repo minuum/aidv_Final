@@ -1,0 +1,367 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009117",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009117",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_nhn_voter0007"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 하늘에 별이 정말 잘 보여서 밤마다 하늘 보는 재미가 있어.",
+            "turn_id": "BK22009117-1",
+            "utterance_id": "BK22009117.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 요즘 날씨가 맑고 좋아서 더 별 보기가 좋지.",
+            "turn_id": "BK22009117-1",
+            "utterance_id": "BK22009117.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "별들을 보고 있으면 내가 정말 작은 존재인 것 같아. 우리가 속해있는 은하를 우리 은하라고 하잖아. 우리 은하는 얼마나 큰 거야?",
+            "turn_id": "BK22009117-2",
+            "utterance_id": "BK22009117.3"
+        },
+        {
+            "reference_date": "2021-11-30",
+            "reference_text": [
+                {
+                    "value": "우리은하의 크기를 체감해보려면 일단 우리 감각으로 느낄 수 있을 만큼 축소해보는 게 좋다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지름 1만2700㎞인 지구를 지름 2㎝인 바둑돌이라 친다면(약 6억 배 축소), 태양은 지름 2m가 넘는 트레일러 바퀴만 하고, 마지막 행성인 해왕성까지 거리는 7㎞가 된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마지막으로, 은하 지름 10만 광년은 15억㎞를 찍게 된다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003233935?sid=105",
+            "search_query": "우리은하 크기",
+            "terminate": false,
+            "text": "우리 은하 크기를 느끼려면 체감할 수 있을 정도로 작게 비유해 보면 쉬워. 지구의 지름이 1만 2천7백킬로미터인데, 이걸 6억 배 축소해서 지름 2센티미터인 바둑돌로 칠 경우 태양은 지름이 2미터가 되는 트럭 바퀴 정도가 되고 마지막 행성인 해왕성까지 거리가 7킬로미터 정도가 돼. 그렇게 계산하면 은하의 실제 지름인 10만 광년은 15억 킬로미터가 되는 거야.",
+            "turn_id": "BK22009117-2",
+            "utterance_id": "BK22009117.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구를 2센티미터로 줄였는데도 15억 킬로미터라니, 입이 떡 벌어진다. 우리 은하는 어떤 식으로 구성이 되어 있는 거야?",
+            "turn_id": "BK22009117-3",
+            "utterance_id": "BK22009117.5"
+        },
+        {
+            "reference_date": "2015-02-16",
+            "reference_text": [
+                {
+                    "value": "가운데가 약간 도톰한 원반 꼴인 우리은하의 크기는 지름이 약 10만 광년으로, 늙고 오래 된 별들이 공 모양으로 밀집한 중심핵(Bulge)이 있는 팽대부와 그 주위를 젊고 푸른 별, 가스, 먼지 등으로 이루어진 나선팔이 뻗어나와 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 외곽에는 주로 가스, 먼지, 구상성단 등의 별과 암흑물질로 이루어진 헤일로(Halo)가 은하 주위를 감싸고 있으며, 이 안에 약 3000억 개의 별들이 중력의 힘으로 묶여 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0002523153?sid=105",
+            "search_query": "우리 은하",
+            "terminate": false,
+            "text": "우리 은하는 가운데가 도톰한 원반 모양을 하고 있는데, 나이가 많은 오래된 별들이 공 모양으로 모여있는 중심핵이 있는 팽대부가 있고 그 주변으로 나이가 어린 푸른 별들과 가스, 먼지로 구성된 나선팔이 뻗어 있어. 그리고 그 바깥쪽으로는 가스, 먼지와 구상성단같은 별이랑 암흑물질로 구성된 헤일로가 감싸고 있지. 헤일로에는 3천 억개의 별들이 중력의 힘으로 서로 묶여 있어.",
+            "turn_id": "BK22009117-3",
+            "utterance_id": "BK22009117.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그렇구나. 우리 은하 중심부에 있는 블랙홀이 있다고 하던데, 자세히 좀 알아?",
+            "turn_id": "BK22009117-4",
+            "utterance_id": "BK22009117.7"
+        },
+        {
+            "reference_date": "2022-07-06",
+            "reference_text": [
+                {
+                    "value": "지구가 속한 우리은하 중심에는 태양 질량의 430만 배에 달하는 초대질량 블랙홀 궁수자리(Sagittarius)A*가 얌전하게 똬리를 틀고있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구와의 거리는 약 2만7000광년(1광년=9조5000억㎞)에 달하며 지난 5월 사상 처음으로 세계 주요 전파망원경을 통해 실제 모습이 포착되기도 했다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003285188?sid=105",
+            "search_query": "우리은하 중심 블랙홀",
+            "terminate": false,
+            "text": "응, 우리은하 중심부에 태양 질량의 430만 배가 되는 거대한 질량의 블랙홀인 궁수자리A가 자리잡고 있어. 지구에서부터 2만 7천광년 정도 떨어져 있는 곳에 있고 세계에 배치되어 있는 주요 전파망원경을 통해서 지난 5월에 처음으로 모습이 포착되었어.",
+            "turn_id": "BK22009117-4",
+            "utterance_id": "BK22009117.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 사진 한 번 찾아봐야겠다. 아까 은하에 별이 3천 억개 정도 있다고 했잖아. 그 많은 별의 개수는 어떻게 셀 수 있는 거야?",
+            "turn_id": "BK22009117-5",
+            "utterance_id": "BK22009117.9"
+        },
+        {
+            "reference_date": "2018-08-07",
+            "reference_text": [
+                {
+                    "value": "비결은 우리은하 전체의 질량을 재고, 그 다음 별의 평균 질량으로 나누는 방법이다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "은하의 질량은 은하의 회전속도와 도플러 효과를 이용하면 구할 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0002934587?sid=105",
+            "search_query": "우리은하 별의 수 어떻게 셀 수 있나",
+            "terminate": false,
+            "text": "별의 개수를 세기 위해서는 우리은하 전체 질량을 측정한 뒤 별들의 평균 질량으로 그 수를 나누는 방법으로 계산하는 방법을 이용해. 은하의 질량은 도플러 효과와 은하 회전속도를 이용해 구하게 되고.",
+            "turn_id": "BK22009117-5",
+            "utterance_id": "BK22009117.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도플러 효과라니 뭔가 복잡한 방법의 계산식으로 이뤄지는구나. 그 많은 별 중에 우리가 눈으로 볼 수 있는 별은 몇 개나 되는 거야?",
+            "turn_id": "BK22009117-6",
+            "utterance_id": "BK22009117.11"
+        },
+        {
+            "reference_date": "2022-03-01",
+            "reference_text": [
+                {
+                    "value": "우리가 맨눈으로 볼 수 있는 전천의 별 수는 대략 5~6000개 정도다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이들은 육안으로 볼 수 있는 한계인 6등성 이상 밝기의 별들인데, 물론 망원경을 사용하면 더 많은 별들을 볼 수 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/081/0003255062?sid=105",
+            "search_query": "우리은하 눈으로 볼 수 있는 별의 수",
+            "terminate": false,
+            "text": "눈으로 볼 수 있는 한계는 6등성 이상 밝기를 가진 별들이야. 하늘 전체에서 우리가 눈으로 볼 수 있는 별들은 5천개에서 6천개 정도이지. 망원경을 통해서는 더 많은 별을 볼 수 있어.",
+            "turn_id": "BK22009117-6",
+            "utterance_id": "BK22009117.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래도 꽤 많이 볼 수 있구나. 도시에서는 그 많은 별들이 보이지 않아서 아쉽네. 그런데 은하 속에 별들이 계속 같은 자리에 있는 것 같아 보여도 계속 움직이고 있는 거라던데, 정말이야?",
+            "turn_id": "BK22009117-7",
+            "utterance_id": "BK22009117.13"
+        },
+        {
+            "reference_date": "2021-09-21",
+            "reference_text": [
+                {
+                    "value": "그런데 우리 은하 속 별들은 한 자리에 가만히 고정되어 있지 않다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "함께 은하를 맴돌면서 각자 고유한 방향과 속도로 움직인다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "시간이 흐르면서 별들의 공간적 위치가 조금씩 바뀐다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.bizhankook.com/bk/article/22557",
+            "search_query": "우리 은하 별 움직이나",
+            "terminate": false,
+            "text": "응, 맞아. 은하 속 별들이 한 자리에 있는 게 아니라 각자의 고유한 방향과 속도를 가지고 은하를 돌아다니고 있는 거야. 시간이 흐를수록 별의 위치가 조금씩 바뀌는 거지.",
+            "turn_id": "BK22009117-7",
+            "utterance_id": "BK22009117.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 그렇구나. 혹시 우리 은하의 나이는 어느 정도 됐는지도 알 수 있어?",
+            "turn_id": "BK22009117-8",
+            "utterance_id": "BK22009117.15"
+        },
+        {
+            "reference_date": "2022-07-30",
+            "reference_text": [
+                {
+                    "value": "우리은하의 나이를 정확히 추정하는 것은 불가능하나 간접적으로 우리은하 내의 별 중 가장 늙은 별의 나이를 통해 추정할 수는 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재까지 밝혀진 우리은하 디스크 내 가장 오래된 별의 나이는 약 132억 년이며, 주위를 공전하는 구상성단에서 약 136억년의 나이로 밝혀진 별이 발견되고 이들 구상성단이 우리은하와 거의 동시에 탄생하였을 걸로 추정하면 우리은하의 나이는 현재 우주의 나이인 137억 년에 거의 근접할 것으로 추정되고 있다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%A6%AC%EC%9D%80%ED%95%98",
+            "search_query": "우리 은하 나이",
+            "terminate": false,
+            "text": "우리 은하가 얼마나 되었는지 정확하게 알 수 있는 방법은 없지만 은하 안의 별 중에 가장 오래된 별의 나이를 통해서 추정은 가능해. 지금까지 밝혀진 가장 늙은 별의 나이는 132억 년이고, 주위를 공전 중인 구상성단에서 발견된 별 중에서는 136억년의 나이로 밝혀진 별이 있어서 이 구상성단이 은하랑 동시에 생겼다고 봤을 때 우리 은하는 우주의 나이와 비슷하게 137억년에 거의 근접하다고 볼 수 있어.",
+            "turn_id": "BK22009117-8",
+            "utterance_id": "BK22009117.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금까지 데이터로는 우주가 생기면서 우리 은하도 생겼다고 볼 수 있는 거구나. 아, 그런데 은하수라는 말도 있는데 은하랑 다른 거야?",
+            "turn_id": "BK22009117-9",
+            "utterance_id": "BK22009117.17"
+        },
+        {
+            "reference_date": "2022-04-22",
+            "reference_text": [
+                {
+                    "value": "우리 은하에 속한 수백억개의 별들이 띠 모양으로 펼쳐져 마치 은빛 강처럼 보인다 하여 은하수라 한다.",
+                    "value_time": "2022-09-21",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/028/0002587897?sid=103",
+            "search_query": "우리은하 은하수",
+            "terminate": false,
+            "text": "은하수는 우리 은하에 있는 수백억개의 별이 띠 모양으로 펼쳐지면서 은빛을 띄는 강처럼 보인다고 해서 부르는 이름이야.",
+            "turn_id": "BK22009117-9",
+            "utterance_id": "BK22009117.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과학적 용어라기 보다는 그냥 별명 같은 거구나. 우주는 정말 알면 알수록 신비로운 곳이야. 얘기 더 듣고 싶은데 갈 시간이 돼서 아쉽네.",
+            "turn_id": "BK22009117-10",
+            "utterance_id": "BK22009117.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다음에 시간 될 때 또 만나면 되지 뭐.",
+            "turn_id": "BK22009117-10",
+            "utterance_id": "BK22009117.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응 , 내가 시간 보고 한 번 연락할게. 오늘 얘기 들려줘서 고맙고 다음에 또 보자.",
+            "turn_id": "BK22009117-11",
+            "utterance_id": "BK22009117.21"
+        }
+    ]
+}

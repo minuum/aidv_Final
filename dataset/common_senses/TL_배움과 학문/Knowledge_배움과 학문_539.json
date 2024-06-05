@@ -1,0 +1,358 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.7,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22002797",
+        "name": "2022 한국어 블렌더봇 데이터 BK22002797",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 학교에서 과학 시간에 지구 온난화에 대해 배웠어요.",
+            "turn_id": "BK22002797-1",
+            "utterance_id": "BK22002797.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 걸 배웠는지 얘기해 줄 수 있나요?",
+            "turn_id": "BK22002797-1",
+            "utterance_id": "BK22002797.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지구 온난화로 인해 빙하가 녹아 북극곰들의 서식처가 사라지고 있대요.",
+            "turn_id": "BK22002797-2",
+            "utterance_id": "BK22002797.3"
+        },
+        {
+            "reference_date": "2022-06-27",
+            "reference_text": [
+                {
+                    "value": "추운 북극권의 섬 또는 대륙의 해빙에서 서식하는 북극곰들은 보통 해빙을 타고 먼 바다로 나가 물개 등 먹이를 찾는다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하지만 지구온난화로 바다 얼음이 녹으며 해빙 위에서 생활하지 못하는 상황에 처해있다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://kids.donga.com/?ptype=article&no=20220627143641419609",
+            "search_query": "지구 온난화 북극곰",
+            "terminate": false,
+            "text": "맞아요, 북극곰은 빙하를 타고 먼바다로 나가서 먹이를 찾는데, 빙하가 녹으면서 얼음 위에서 살 수 없는 위기에 처해있어요.",
+            "turn_id": "BK22002797-2",
+            "utterance_id": "BK22002797.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도대체 그런 온난화는 왜 생기는 거예요?",
+            "turn_id": "BK22002797-3",
+            "utterance_id": "BK22002797.5"
+        },
+        {
+            "reference_date": "2021-09-29",
+            "reference_text": [
+                {
+                    "value": "석탄, 석유 등 화석연료 사용은 지구온난화 뿐만 아니라 대기 오염의 직접적 원인이 되고 있다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20210928500099&wlog_tag3=naver",
+            "search_query": "대기오염 온난화",
+            "terminate": false,
+            "text": "석탄이나 석유와 같은 화석 연료의 사용으로 대기오염이 발생하고, 그로 인해서 지구 온난화가 생기는 거예요.",
+            "turn_id": "BK22002797-3",
+            "utterance_id": "BK22002797.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간들이 사용하는 석탄이나 석유 때문에 북극곰이 피해를 본다니 너무 슬퍼요.",
+            "turn_id": "BK22002797-4",
+            "utterance_id": "BK22002797.7"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아요. 하지만 빙하가 녹으면서 북극곰의 서식지만 사라지는 게 아니에요.",
+            "turn_id": "BK22002797-4",
+            "utterance_id": "BK22002797.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 뭐가 또 사라지나요?",
+            "turn_id": "BK22002797-5",
+            "utterance_id": "BK22002797.9"
+        },
+        {
+            "reference_date": "2019-11-25",
+            "reference_text": [
+                {
+                    "value": "고도가 낮은 섬인 몰디브와 투발루가 해수면 상승으로 인해 가라앉고 있어 미래엔 사람이 살 수 없는 섬으로 바뀐다고 한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.apsk.co.kr/news/articleView.html?idxno=25791",
+            "search_query": "지구 온난화 피해사례",
+            "terminate": false,
+            "text": "빙하가 녹으면 바다의 높이가 높아지겠죠? 그럼 고도가 낮은 섬들은 그 해수면 밑으로 가라앉게 돼요. 그렇게 되면 고도가 높지 않은 몰디브나 투발루와 같은 섬들이 물에 잠겨 사라질 수가 있어요.",
+            "turn_id": "BK22002797-5",
+            "utterance_id": "BK22002797.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 정말 큰일 아니에요? 지구 온난화를 막으려면 어떻게 해야 해요?",
+            "turn_id": "BK22002797-6",
+            "utterance_id": "BK22002797.11"
+        },
+        {
+            "reference_date": "2021-08-15",
+            "reference_text": [
+                {
+                    "value": "15일 우드맥킨지 분석 결과에 따르면 지구 온난화를 막으려면 철강 부문에서의 이산화탄소 배출량을 현재 30억t에서 7억8000만t으로 감축해야 하는 것으로 나타났다.",
+                    "value_time": "2022-07-21",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01216886629147648&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "지구 온난화를 막으려면",
+            "terminate": false,
+            "text": "지구 온난화를 막기 위해선 철강 부문에서의 이산화탄소 배출량을 줄여야 해요. 우드맥킨지 분석 결과에 따르면 7억 8000만톤으로 줄여야 하는데, 현재는 30억톤이고요.",
+            "turn_id": "BK22002797-6",
+            "utterance_id": "BK22002797.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "화석 연료의 사용을 줄이는 것도 도움이 되겠죠?",
+            "turn_id": "BK22002797-7",
+            "utterance_id": "BK22002797.13"
+        },
+        {
+            "reference_date": "2020-01-20",
+            "reference_text": [
+                {
+                    "value": "지구 온난화를 해결하기 위해선 여러 방안이 존재한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "화석연료 사용 줄이기로 배출되는 온실가스 양을 줄이는 방법도 있다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이외에 대체에너지(풍력.태양광.태양열)와 신에너지원의 개발도 필요하다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.apsk.co.kr/news/articleView.html?idxno=33875",
+            "search_query": "지구 온난화 대체에너지",
+            "terminate": false,
+            "text": "맞아요, 지구 온난화를 막기 위한 다양한 방법이 있지만, 그 중 화석 연료 사용을 줄여 온실가스의 배출량을 줄이는 방법도 있어요. 또, 풍력에너지, 태양광 에너지, 태양열 에너지처럼 화석 연료 대신 사용할 수 있는 대체에너지와 신에너지 개발도 필요하죠.",
+            "turn_id": "BK22002797-7",
+            "utterance_id": "BK22002797.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 어려워요. 좀 더 쉽게 제가 할 수 있는 일들은 없을까요?",
+            "turn_id": "BK22002797-8",
+            "utterance_id": "BK22002797.15"
+        },
+        {
+            "reference_date": "2021-10-17",
+            "reference_text": [
+                {
+                    "value": "지구 온난화의 해결방안으로는 첫째, 나무를 심어 이산화탄소를 흡수하도록 하는 것이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한 그루당 연간 100t 정도의 이산화탄소를 흡수한다고 한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=171566",
+            "search_query": "지구 온난화 예방",
+            "terminate": false,
+            "text": "당연히 있죠. 이산화탄소를 흡수하고 공기가 좋아지도록 나무를 심는 방법이 있어요. 한 그루의 나무는 연간 100톤의 이산화탄소를 흡수해요. 그만큼 이산화탄소량을 줄일 수 있어요.",
+            "turn_id": "BK22002797-8",
+            "utterance_id": "BK22002797.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어? 나무 심기는 저도 할 수 있을 것 같아요. 또 다른 방법은 무엇이 있을까요?",
+            "turn_id": "BK22002797-9",
+            "utterance_id": "BK22002797.17"
+        },
+        {
+            "reference_date": "2021-10-17",
+            "reference_text": [
+                {
+                    "value": "둘째, 재활용품 분리수거로 환경오염을 줄이는 것이다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리가 분리수거하지 않은 플라스틱이 바로 소각장으로 가는 경우에 소각할 때 발생하는 엄청난 양의 유해물질로 인하여 환경오염을 일으키게 된다고 한다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=171566",
+            "search_query": "지구 온난화 예방",
+            "terminate": false,
+            "text": "네, 또 우리가 할 수 있는 쉬운 방법으로는 분리수거를 잘하는 거예요. 플라스틱을 태울 때 엄청난 양의 유해 물질로 환경오염이 발생하거든요. 플라스틱 분리수거만 잘해도 환경오염을 줄일 수 있어요.",
+            "turn_id": "BK22002797-9",
+            "utterance_id": "BK22002797.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이제부터 분리수거를 열심히 해야겠어요. 또 생활에서 할 수 있는 방법이 있다면 알려주세요.",
+            "turn_id": "BK22002797-10",
+            "utterance_id": "BK22002797.19"
+        },
+        {
+            "reference_date": "2021-10-17",
+            "reference_text": [
+                {
+                    "value": "그밖에 손쉽게 실천을 할 수 있는 방법으로는 가까운 거리는 걸어서 다니기, 물 아껴 쓰기, 콘센트 분리하기, 물자 절약하기, 쓰레기 버리지 않기, 샴푸 사용 줄이기, 친환경용품 사용하기 등이 있다.",
+                    "value_time": "2022-07-15",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.jejuilbo.net/news/articleView.html?idxno=171566",
+            "search_query": "지구온난화 예방 실천",
+            "terminate": false,
+            "text": "좋은 생각이에요. 이 외에도 가까운 거리는 걸어 다니기, 물과 전기 아껴 쓰기, 쓰레기는 쓰레기통에 버리기, 샴푸 조금만 사용하기, 친환경 용품 사용하기 등 우리가 일상생활에서 쉽게 할 수 있는 방법들이 많이 있어요.",
+            "turn_id": "BK22002797-10",
+            "utterance_id": "BK22002797.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네, 알려주신 대로 제가 할 수 있는 일들이 많을 것 같아요. 꼭 실천해서 환경오염을 줄이고 북극곰들의 서식처를 지켜줘야겠어요.",
+            "turn_id": "BK22002797-11",
+            "utterance_id": "BK22002797.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "정말 착한 생각이에요. 더 궁금한 점 있으면 언제든지 물어보세요.",
+            "turn_id": "BK22002797-11",
+            "utterance_id": "BK22002797.22"
+        }
+    ]
+}

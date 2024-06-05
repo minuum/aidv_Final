@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008546",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008546",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 홍길동을 다룬 드라마를 하나 보는 중인데 친구들이랑 같이 얘기할 때가 많거든. 그런데 친구 중 하나가 홍길동전을 쓴 사람이 허균이 아닐 수 있다는 말을 하더라고. 그게 진짜야?",
+            "turn_id": "BK22008546-1",
+            "utterance_id": "BK22008546.1"
+        },
+        {
+            "reference_date": "2019-04-26",
+            "reference_text": [
+                {
+                    "value": "약 400년 전 조선 중기 문신이 남긴 문집에서 한문으로 쓴 홍길동전이 발견됐다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한문 홍길동전이 발굴되기는 처음으로 한글 소설 홍길동전과는 내용도 다르다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "홍길동전이 최초의 한글 소설이며 저자가 허균(1569∼1618)이라는 통념을 깨는 자료로 평가된다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23450252#home",
+            "search_query": "홍길동전 허균",
+            "terminate": false,
+            "text": "응, 진짜야. 대략 400년 전인 조선 중기에 살았던 문신의 문집에서 한문으로 작성된 홍길동전을 찾아냈거든. 한문으로 쓰인 홍길동전이 발견된 것은 이게 처음인 데다가, 한글로 쓰인 홍길동전 소설이랑 내용도 달라. 이 발굴은 허균이 지었고, 한글로 쓰인 최초의 소설이라는 홍길동전에 대한 인식을 완전히 바뀌게 하는 사료로 여겨지지.",
+            "turn_id": "BK22008546-1",
+            "utterance_id": "BK22008546.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한문으로 쓰인 홍길동전이 있었다니, 이렇게 새로운 상식을 배우네. 하지만 이러니저러니 해도, 어쨌든 홍길동이 소설 속에서나 나오는 허구적인 인물이라는 점에는 변함이 없잖아, 그렇지?",
+            "turn_id": "BK22008546-2",
+            "utterance_id": "BK22008546.3"
+        },
+        {
+            "reference_date": "2017-02-01",
+            "reference_text": [
+                {
+                    "value": "사실 홍길동은 엄연히 실존인물이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연산군의 폭정이 극에 달하던 1500년(연산군 6년)을 전후, 한양 근처에서 활약하던 농민무장대의 지도자가 바로 홍길동이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 땅을 가진 양반들의 기세가 높아지면서 상대적으로 농민들은 살기가 팍팍했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "결국 터전을 버리고 산으로 들어간 이들은 세를 불려 관군과 대치했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이들은 살기 위해 봉기한 농민무장대(조정에선 도적 무리라 했다)였는데 홍길동은 이들을 이끄는 우두머리 중 한 명이었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.newspim.com/news/view/20170131000223",
+            "search_query": "홍길동 실존",
+            "terminate": false,
+            "text": "아니, 홍길동은 분명 실제로 존재했던 사람이야. 1500년 전후에는 연산군이 일삼던 폭정이 극에 달했는데, 이 시기에 한양 인근에서 활동하던 농민 무장대를 지도하던 인물이 바로 홍길동이지. 그 당시에는 땅을 소유한 양반층의 기세가 치솟으면서 농민층은 반대로 살기 힘들어졌어. 그리고 그런 농민들은 마침내 살던 곳을 버리고 산으로 들어가서 세력을 늘리고, 관군과 맞붙었지. 이렇게 생존을 위해 일어선 집단이 농민 무장대였고, 홍길동은 그 농민 무장대를 이끌던 수장 중 하나였던 거야.",
+            "turn_id": "BK22008546-2",
+            "utterance_id": "BK22008546.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "홍길동이 실존 인물이라고는 상상도 못 해 봤어. 소설 속 홍길동은 도술 같은 걸 쓰면서 도적질을 했는데, 현실에서 도술을 썼을 리는 없고, 그럼 실존 홍길동은 어떤 식으로 도적질을 했을까?",
+            "turn_id": "BK22008546-3",
+            "utterance_id": "BK22008546.5"
+        },
+        {
+            "reference_date": "2019-04-24",
+            "reference_text": [
+                {
+                    "value": "홍길동은 옥정자(玉頂子·갓 꼭대기에 옥으로 만들어 단 장식)와 홍대(紅帶·붉은 띠) 차림으로 당상관을 사칭해 대낮에 떼를 지어 무기를 가지고 관청에 드나들었지만, 지방관들이 체포하지도, 고발하지도 않았다고 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고위관리 행세를 하며 충청도를 중심으로 활동했고, 특히 조정 관리들을 포섭해 비호까지 받았다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그 중 정3품 절충장군인 당상관 엄귀손은 홍길동과 결탁해 부정한 방법으로 부를 축적했다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joongboo.com/news/articleView.html?idxno=1346502",
+            "search_query": "조선 홍길동 사칭",
+            "terminate": false,
+            "text": "홍길동은 충청도 일대를 중심으로 홍대와 옥정자를 차려입고, 한낮에 무기를 든 무리와 함께 관청에 출입했는데, 이때 당상관을 사칭했어. 그런데 지방관들은 홍길동을 고발이나 체포하지 않았다고 전해지지. 홍길동은 조정의 관리까지 끌어들여 비호를 받았거든. 특히, 정3품 절충장군이었던 당상관 엄귀손의 경우, 홍길동과 손을 잡고 부정한 방식으로 부를 쌓았어.",
+            "turn_id": "BK22008546-3",
+            "utterance_id": "BK22008546.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭔가 소설 속 홍길동의 모습과 거리가 멀어져 가는 것 같네. 홍길동이 의적으로서 그런 행동을 한 건 맞을까?",
+            "turn_id": "BK22008546-4",
+            "utterance_id": "BK22008546.7"
+        },
+        {
+            "reference_date": "2021-07-29",
+            "reference_text": [
+                {
+                    "value": "하지만 역사 인물 홍길동이 소설처럼 가난한 사람들을 도와준 의적이었는지는 의문입니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "'폭군 연산군에게 맞섰으니 의적 아니었겠느냐'고 보기도 하지만, 실록에는 홍길동 체포 13년 뒤 \"충청도는 홍길동이 도둑질한 이후 유망(流亡·거처 없이 떠돌아다니는 사람)이 회복되지 못해 세금을 거두기 어렵다\"는 기록이 나옵니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "백성의 피해도 컸다는 것을 알 수 있습니다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://newsteacher.chosun.com/site/data/html_dir/2021/07/28/2021072802464.html",
+            "search_query": "홍길동 의적",
+            "terminate": false,
+            "text": "아니, 홍길동이 반드시 소설 속 주인공처럼 빈민을 도운 의적이었는지는 알 수 없어. 폭군이었던 연산군에 대항했으니 의적이었다고 보는 관점도 있겠지만, 실록을 살펴보면 홍길동을 체포하고 13년 뒤, 충청도 지역은 홍길동의 도둑질 이후 유망이 나아지지를 않아서 세금을 거두는 것이 힘들다는 기록이 나오거든. 이 대목을 통해, 일반 백성들의 피해도 컸다는 사실을 알 수 있지.",
+            "turn_id": "BK22008546-4",
+            "utterance_id": "BK22008546.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시 소설은 소설로만 읽어야 하는 건가 봐. 혹시 실제 홍길동과 소설 속 홍길동이 다른 점이 더 있을까?",
+            "turn_id": "BK22008546-5",
+            "utterance_id": "BK22008546.9"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "실존인물 홍길동은 《홍길동전》(洪吉童傳)에 등장하는 홍길동이 소년이었던 것과는 정반대로 노인이었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일단 홍길동의 생부 홍상직이 1424년에 사망했는데 이 때문에 홍길동은 무조건 1425년 이전 출생자여야만 하며 홍길동이 체포된 해가 1500년이므로 홍길동이 최소한의 나이에 체포되었다 하더라도 최소 만 75살 이상이라는 계산이 나온다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "전라남도 장성군의 주장은 홍길동(洪吉同)이 1443년(세종 25)경 전라도 장성현 아곡리 아치실 마을에서 태어났다고 한다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "1443년 생이더라도 만 57살이 될 정도로 상당한 고령이라는 계산이 나와서, 어떤 기준을 잡더라도 체포된 해를 기준으로 무조건 50살이 넘는 나이라는 결론이 나온다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%8D%EA%B8%B8%EB%8F%99_(%EC%A1%B0%EC%84%A0)",
+            "search_query": "홍길동 나이",
+            "terminate": false,
+            "text": "응, 홍길동전 소설에 나오는 홍길동은 소년이었던 반면, 실제 홍길동은 노인이었어. 우선, 홍길동의 친아버지인 홍상직이 사망한 시기가 1424년이기 때문에 홍길동은 최소 1425년 이전에 태어난 사람이어야 하지. 그리고 홍길동이 체포된 게 1500년이니까, 체포 당시 홍길동은 적어도 만 75세가 넘은 상태였던 거야. 다만, 전라남도 장성군에서는 홍길동이 전라도 장성현 아곡리 아치실 마을에서 1443년에 태어났다고 주장하는데, 설사 1443년에 태어난 게 맞더라도, 체포 당시 만 57세로 꽤나 고령이지. 결국 태어난 해의 기준을 어떻게 잡든, 체포된 해에는 50세가 넘은 상태였다는 결론을 얻게 돼.",
+            "turn_id": "BK22008546-5",
+            "utterance_id": "BK22008546.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어리고 젊은 의적 홍길동만 알던 나로서는 노인 홍길동의 모습을 상상하기가 참 힘드네. 그래도 실제 인물이야 어떻든, 소설 속 홍길동은 멋진 인물 같은데, 혹시 홍길동전을 바탕으로 만들어진 단체 같은 건 없었을까?",
+            "turn_id": "BK22008546-6",
+            "utterance_id": "BK22008546.11"
+        },
+        {
+            "reference_date": "2022-02-15",
+            "reference_text": [
+                {
+                    "value": "활빈당(活貧黨)은 1899년~1904년 사이에 한국의 남부지방에서 일어난 농민군 집단 중에서 가장 강대한 세력을 가졌던 집단이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중에서 활빈당은 17세기 허균의 소설 『홍길동전』을 사상배경으로 하여 남부지방의 각지에 출몰하면서 부호의 재물을 탈취하여 빈민에게 나누어 주는 활빈(活貧) 투쟁을 한 것이다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%99%9C%EB%B9%88%EB%8B%B9",
+            "search_query": "활빈당",
+            "terminate": false,
+            "text": "활빈당이라는 게 있었어. 1899년~1904년 시기에 한반도 남부에서 나타난 농민군 집단 중 가장 세력이 컸던 집단이지. 활빈당은 17세기에 지어진 허균의 소설, 홍길동전을 사상적 배경으로 삼아서 남부 지방 곳곳에 등장해 부자의 재물을 빼앗아 가난한 사람들에게 분배해 주는 활빈 투쟁을 했어.",
+            "turn_id": "BK22008546-6",
+            "utterance_id": "BK22008546.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "홍길동전의 사상을 이어받았기 때문에 이름도 소설에 나오는 활빈당을 그대로 썼나 보다. 그나저나, 아까 홍길동이 체포됐다고 들었는데, 홍길동이랑 홍길동과 이어져 있던 엄귀손이라는 사람은 결국 어떻게 됐어?",
+            "turn_id": "BK22008546-7",
+            "utterance_id": "BK22008546.13"
+        },
+        {
+            "reference_date": "2019-04-03",
+            "reference_text": [
+                {
+                    "value": "“강도 홍길동”이 연산군 6년 10월, 관헌에 체포되었다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "조사 후 홍길동과 그 부하들은 법대로 엄한 처벌을 받았다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "홍길동은 엄귀손이 사실상의 우두머리라고 자백하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "얼마 안 가서 엄귀손의 비리 사실이 전모를 드러냈다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "엄귀손은 심한 고문을 견디지 못하고 결국 옥중에서 사망하였다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/column/article/201904032110005?www",
+            "search_query": "홍길동 체포 엄귀손",
+            "terminate": false,
+            "text": "연산군 6년 10월, 홍길동은 결국 관헌에 체포됐고, 조사 이후 홍길동을 포함해 부하들은 법에 의해 엄한 처벌을 받게 됐어. 이때 홍길동은 진짜 우두머리는 사실 엄귀손이라고 자백을 했고, 곧이어 엄귀손이 저지른 비리가 전부 드러났지. 그리고 엄귀손은 심한 고문을 받다가 결국 버티지 못하고 감옥에서 죽었어.",
+            "turn_id": "BK22008546-7",
+            "utterance_id": "BK22008546.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모두가 비참한 최후를 맞았구나. 그럼 소설 내용처럼 홍길동이 율도국을 만든 일은 없었던 거겠지?",
+            "turn_id": "BK22008546-8",
+            "utterance_id": "BK22008546.15"
+        },
+        {
+            "reference_date": "2022-03-02",
+            "reference_text": [
+                {
+                    "value": "그러나 조선왕조실록과 연산군 일기에는 홍길동이라는 강도가 있었고 그를 체포했다는 기록만 있을 뿐 홍길동이 탈옥해서 조선을 빠져나와 율도국을 세웠다는 등의 기록은 없다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소설 홍길동전이 쓰여진 시기와 비슷한 시기에 오키나와에 실재했던 호족 오야케아카하치가 홍길동과 동일인물이라고 주장하는 사람들이 소수 있지만 아무런 근거가 없기 때문에 대한민국과 일본의 오키나와 현지에서는 이 주장을 정설로 보고 있지 않다.",
+                    "value_time": "2022-09-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A8%EB%8F%84%EA%B5%AD",
+            "search_query": "율도국",
+            "terminate": false,
+            "text": "응, 연산군 일기나 조선왕조실록에는 홍길동이라는 강도가 존재했고, 체포했다는 내용만 남아 있을 뿐이야. 홍길동이 탈옥에 성공했다거나 조선에서 벗어나 율도국을 만들었다는 기록 같은 건 없지. 소설 홍길동전이 만들어진 때와 겹치는 시기에 오키나와에 실존했던 호족인 오야케아카하치가 홍길동이라는 주장도 소수 있긴 하지만, 근거 자료가 전혀 없어서 오키나와 현지에서나 한국에서나 정설로 받아들여지고 있지 않아.",
+            "turn_id": "BK22008546-8",
+            "utterance_id": "BK22008546.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "근거 자료는 없지만, 홍길동과 오야케아카하치를 이어서 이런저런 상상을 해 보는 것도 재미있겠어. 그나저나, 홍길동에 관한 내용을 듣고 나니까 드라마를 새로운 시각으로 더 재미있게 감상할 수 있을 것 같아.",
+            "turn_id": "BK22008546-9",
+            "utterance_id": "BK22008546.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 됐다, 설명해 준 보람이 있네. 아무래도 아는 만큼 새로운 게 보이는 법이잖아.",
+            "turn_id": "BK22008546-9",
+            "utterance_id": "BK22008546.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나는 그럼 이만 드라마를 마저 보러 가 볼게. 보다가 궁금한 게 있으면 또 물어봐도 될까?",
+            "turn_id": "BK22008546-10",
+            "utterance_id": "BK22008546.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "물론이지, 뭐든 편하게 물어봐. 드라마 재미있게 감상하고, 나중에 또 보자.",
+            "turn_id": "BK22008546-10",
+            "utterance_id": "BK22008546.20"
+        }
+    ]
+}

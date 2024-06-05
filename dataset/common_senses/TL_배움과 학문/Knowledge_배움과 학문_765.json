@@ -1,0 +1,393 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004996",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004996",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0011"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0051"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소크라테스에 대한 책을 한 권 선물 받았는데, 사전 지식이 없어서 읽기 쉽지 않은 거 같아.",
+            "turn_id": "BK22004996-1",
+            "utterance_id": "BK22004996.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마침 요즘 내가 소크라테스에 대해서 공부를 하고 있어.",
+            "turn_id": "BK22004996-1",
+            "utterance_id": "BK22004996.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 잘 됐다, 소크라테스에 대해서 좀 알려줘. 소크라테스가 그리스의 철학자였지?",
+            "turn_id": "BK22004996-2",
+            "utterance_id": "BK22004996.3"
+        },
+        {
+            "reference_date": "2022-08-03",
+            "reference_text": [
+                {
+                    "value": "소크라테스(그리스어: Σωκράτης, Socrates, 기원전 470년 경 – 기원전 399년 5월 7일)는 고대 그리스의 철학자이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "기원전 469년 고대 그리스 아테네에서 태어나 일생을 철학의 제 문제에 관한 토론으로 일관한 서양 철학에서 첫번째 인물로 평가되고 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%81%AC%EB%9D%BC%ED%85%8C%EC%8A%A4",
+            "search_query": "소크라테스",
+            "terminate": false,
+            "text": "맞아. 고대 그리스의 철학자였던 소크라테스는 아테네에서 기원전 469년에 태어나서 죽을 때까지 철학과 관련된 여러 문제를 토론한 사람으로 서양 철학에서 제일 중요한 인물이지.",
+            "turn_id": "BK22004996-2",
+            "utterance_id": "BK22004996.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 대단한 철학자인 거 같네. 그러면 소크라테스가 쓴 책을 보면 소크라테스가 어떤 사람이었는지 알 수 있을까?",
+            "turn_id": "BK22004996-3",
+            "utterance_id": "BK22004996.5"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "소크라테스의 참모습을 알기는 어렵다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그가 직접 쓴 글이 없기 때문이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "우리가 알고 있는 거의 모든 소크라테스에 대한 지식은 전적으로 플라톤의 기록에 의한다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.lifein.news/news/articleView.html?idxno=13763",
+            "search_query": "소크라테스 플라톤",
+            "terminate": false,
+            "text": "사실 소크라테스의 진짜 모습은 알 수 없는데, 왜냐면 소크라테스가 직접 쓴 책이나 글이 하나도 없거든. 지금 우리가 알고 있는 소크라테스에 대한 대부분은 다 플라톤의 기록에서 나온 거야.",
+            "turn_id": "BK22004996-3",
+            "utterance_id": "BK22004996.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 훌륭한 사람인데 책이 한 권도 없다니 신기하다. 그러면 소크라테스는 어떤 문제에 관심이 많았어?",
+            "turn_id": "BK22004996-4",
+            "utterance_id": "BK22004996.7"
+        },
+        {
+            "reference_date": "2022-03-17",
+            "reference_text": [
+                {
+                    "value": "소크라테스 역시 우주론적인 관심보다는 폴리스(polis)를 포함한 인간 사회의 질서와 평화를 위해 정치, 윤리 문제에 자신의 철학적 관심을 두었던 철학자이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edujin.co.kr/news/articleView.html?idxno=38308",
+            "search_query": "소크라테스 철학",
+            "terminate": false,
+            "text": "소크라테스는 우주론적인 것보다 폴리스를 비롯한 인류 사회의 평화와 질서를 위한 윤리나 정치 문제에 철학적 흥미를 가졌던 철학자였어.",
+            "turn_id": "BK22004996-4",
+            "utterance_id": "BK22004996.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간에 대해서 관심이 있었구나. 그런데 소크라테스가 이원론자였다는 건 어떤 의미야?",
+            "turn_id": "BK22004996-5",
+            "utterance_id": "BK22004996.9"
+        },
+        {
+            "reference_date": "2018-12-01",
+            "reference_text": [
+                {
+                    "value": "소크라테스는 육체와 영혼, 이원론자였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "육체는 객관적으로 존재하지만, 그저 껍데기일 뿐이고 지식은 영혼 안에 내재된 개념이라고 봤으며 영혼은 불멸한다고 봤다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sisunnews.co.kr/news/articleView.html?idxno=93734",
+            "search_query": "소크라테스 이원론",
+            "terminate": false,
+            "text": "소크라테스가 사람의 몸과 정신에 대해서 이원론적 관점을 가졌는데, 즉 객관적으로 있는 신체는 그냥 껍질인거고, 영혼 안에 들어있는 개념이 지식이라고 생각하고 이 영혼은 죽지 않고 영원히 산다고 보았어.",
+            "turn_id": "BK22004996-5",
+            "utterance_id": "BK22004996.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 이해하기 어려운 생각이다. 그리고 소크라테스가 악법도 법이라고 말한 사람이지?",
+            "turn_id": "BK22004996-6",
+            "utterance_id": "BK22004996.11"
+        },
+        {
+            "reference_date": "2019-12-20",
+            "reference_text": [
+                {
+                    "value": "지금은 소크라테스가 한 말이 아니라는 것이 상식처럼 통용된다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제 소크라테스가 동료들 앞에서 “악법도 법이라네”라고 말한 뒤 독배를 들이켰다는 식의 기록은 없다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstof.com/news/articleView.html?idxno=10129",
+            "search_query": "소크라테스 악법",
+            "terminate": false,
+            "text": "아니야, 현재는 소크라테스가 그런 말을 한 적이 없다는 게 상식으로 받아들여지고 있어. 왜냐면 동료들 앞에서 소크라테스가 악법도 법이다라고 말하고 독이 든 약을 마셨다는 기록이 없거든.",
+            "turn_id": "BK22004996-6",
+            "utterance_id": "BK22004996.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 소크라테스가 그런 말을 한 줄 알았어. 그러면 소크라테스의 문답법은 뭐야?",
+            "turn_id": "BK22004996-7",
+            "utterance_id": "BK22004996.13"
+        },
+        {
+            "reference_date": "2021-05-13",
+            "reference_text": [
+                {
+                    "value": "‘소크라테스 문답법’은 소크라테스가 상대방의 무지를 일깨우는 목적으로 자주 사용했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어떤 개념이 무엇인지 상대방에게 묻고 대답하면, 그 대답이 적용되지 않는 반대 사례를 제시해서 난관에 빠지게 만든다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.segye.com/newsView/20210513515812/?UA=PC",
+            "search_query": "소크라테스 문답법",
+            "terminate": false,
+            "text": "소크라테스 문답법은 소크라테스가 상대편이 아는 것이 없다는 것을 알려주기 위해서 사용한 거야. 상대편한테 어떠한 개념에 대해서 물어보고 그에 대한 답을 듣고, 그러한 대답에 해당되지 않는 반대 예시를 제안하면서 곤란하게 만드는 거지.",
+            "turn_id": "BK22004996-7",
+            "utterance_id": "BK22004996.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제로 당하면 정말 당황스럽겠다. 그러면 소크라테스는 선생의 역할을 어떻게 생각했어?",
+            "turn_id": "BK22004996-8",
+            "utterance_id": "BK22004996.15"
+        },
+        {
+            "reference_date": "2021-11-17",
+            "reference_text": [
+                {
+                    "value": "소크라테스의 어머니는 산파였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소크라테스는 어머니가 산모의 출산을 돕는 과정을 지켜보며 자랐다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "어린 시절의 경험이 소크라테스의 교수법에도 영향을 끼쳤다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소크라테스는 교수자가 강제적으로 학습자에게 지식을 주입할 수 없다고 여겼다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "학습자가 스스로 사고할 수 있는 기회를 제공해 주는 것이 교수자가 할 일이라 판단했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20129",
+            "search_query": "소크라테스 산파",
+            "terminate": false,
+            "text": "소크라테스의 엄마가 산파여서, 소크라테스는 엄마가 임산부가 아이를 낳는 걸 도와주는 것을 보고 자랐어. 그래서 어렸을 때의 경험이 소크라테스의 교육법에 영향을 미쳤지. 그러니까 소크라테스는 선생이 강압적으로 배우는 학생에게 지식을 넣어줄 수 없다고 생각하고, 배우는 사람이 알아서 생각할 수 있는 기회를 주는 게 선생이 할 일이라고 여겼지.",
+            "turn_id": "BK22004996-8",
+            "utterance_id": "BK22004996.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "학생이 스스로 공부해야 한다고 생각했구나. 그나저나 소크라테스가 사형을 선고 받았다고 들었는데 왜 그런거야?",
+            "turn_id": "BK22004996-9",
+            "utterance_id": "BK22004996.17"
+        },
+        {
+            "reference_date": "2022-08-05",
+            "reference_text": [
+                {
+                    "value": "소크라테스는 아테네 민주정 하의 배심원 법정에서 사형 판결을 받아 처형당했다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "소크라테스의 죄목은 두 가지였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "첫째는 젊은이들을 ‘타락’시킨다는 것이고, 둘째는 신을 모욕했다는 것이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.newstheone.com/news/articleView.html?idxno=106941",
+            "search_query": "소크라테스",
+            "terminate": false,
+            "text": "맞아, 아테네 민주정의 배심원 재판정이 소크라테스한테 사형을 선고해서 죽임을 당했지. 그 당시 소크라테스의 죄는 두 가지였는데, 먼저 젊은 사람들을 잘못된 길에 빠지게 만들어서이고, 두번째는 신을 모독했다는 이유였어.",
+            "turn_id": "BK22004996-9",
+            "utterance_id": "BK22004996.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런 이유로 사형 판결을 받았구나.",
+            "turn_id": "BK22004996-10",
+            "utterance_id": "BK22004996.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 아마 책을 읽다보면 이런 내용도 나올거야.",
+            "turn_id": "BK22004996-10",
+            "utterance_id": "BK22004996.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 덕분에 선물받은 책을 쉽게 읽을 수 있게 됐어.",
+            "turn_id": "BK22004996-11",
+            "utterance_id": "BK22004996.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "도움이 되었다니 정말 다행이야. 책 재밌게 읽고 다음에 보자.",
+            "turn_id": "BK22004996-11",
+            "utterance_id": "BK22004996.22"
+        }
+    ]
+}

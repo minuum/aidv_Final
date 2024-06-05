@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008832",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008832",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0028"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 이상한 변호사 우영우를 보고 고래에 대해 관심이 생겼는데요. 고래는 새끼를 낳나요, 아님 알을 낳나요?",
+            "turn_id": "BK22008832-1",
+            "utterance_id": "BK22008832.1"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "물고기가 아닌 포유류라서 알을 낳지 않고 출산을 하니 고래의 신비는 끝도 없다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고래의 출산은 주로 해안선에서 이뤄진다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래야 호흡이 가능하기 때문이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707850/",
+            "search_query": "고래의 출산",
+            "terminate": false,
+            "text": "고래는 물고기가 아닌 포유류라서 알이 아닌 새끼를 낳아. 그리고 고래는 호흡하기 위해서 주로 해안선에서 출산하게 돼.",
+            "turn_id": "BK22008832-1",
+            "utterance_id": "BK22008832.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래는 포유류로 분류되어 새끼를 낳는군요. 근데 고래는 어떻게 호흡을 하는 거예요?",
+            "turn_id": "BK22008832-2",
+            "utterance_id": "BK22008832.3"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "고래는 폐로 호흡하기 때문에 규칙적으로 물 표면으로 올라와숨을 쉬어야 한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%9E%98",
+            "search_query": "고래",
+            "terminate": false,
+            "text": "고래는 폐를 통해서 호흡을 해. 그렇기 때문에 물 표면으로 규칙적으로 올라와서 숨을 쉬어야 하지.",
+            "turn_id": "BK22008832-2",
+            "utterance_id": "BK22008832.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래가 표면으로 올라오는 이유가 숨을 쉬기 위해서군요. 그럼 고래도 코가 있는 건가요?",
+            "turn_id": "BK22008832-3",
+            "utterance_id": "BK22008832.5"
+        },
+        {
+            "reference_date": "2016-02-02",
+            "reference_text": [
+                {
+                    "value": "다른 동물들은 대개 얼굴 앞에 코가 있지만 고래는 머리 뒤 목 부근에 구멍으로 된 코가 있단다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고래는 30~40분 잠수 후에 숨을 쉬로 물위로 나오는데 그 때 이 숨구멍의 더운 물과 차가운 바다공기가 만나 숨 쉬는 것이 마치 분수처럼 보이지.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.gjdream.com/news/articleView.html?idxno=471006",
+            "search_query": "고래 숨구멍 코",
+            "terminate": false,
+            "text": "고래도 코가 있어. 사람처럼 대부분의 동물도 얼굴 앞에 코가 있는데 고래의 경우는 머리 뒤의 목 부근에 구멍으로 된 코가 있어. 혹시 고래가 바다 위에서 분수를 내뿜는 거 본 적 있니? 고래가 30~40분 잠수 후에 물 위로 숨을 쉬려고 나오는데 숨구멍의 더운물과 차가운 바다의 공기가 만나서 숨을 쉬는 모습이 우리가 보기엔 꼭 분수처럼 보이거든.",
+            "turn_id": "BK22008832-3",
+            "utterance_id": "BK22008832.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "TV에서 고래가 분수 내뿜는 거 본 적 있는데 그게 숨을 쉬는 거였다니 신기해요. 고래의 지능이 높다고 들었는데 아이큐가 얼마나 될까요?",
+            "turn_id": "BK22008832-4",
+            "utterance_id": "BK22008832.7"
+        },
+        {
+            "reference_date": "2020-02-06",
+            "reference_text": [
+                {
+                    "value": "침팬지 다음으로 지능이 높은 동물로는 돌고래와 범고래가 있는데 각각 IQ가 70이 넘는 것으로 알려져 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 이 세 종류의 동물은 거울을 보고 자신을 의식하는 자아개념을 가지고 있을 정도로 상당한 지적수준을 가지고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kdpress.co.kr/news/articleView.html?idxno=94173",
+            "search_query": "고래 지능",
+            "terminate": false,
+            "text": "돌고래와 범고래의 경우 아이큐가 70이 넘는다고 알려져 있어. 특히 이들은 상당한 지적 수준을 가지고 있는데 거울을 볼 때 자신을 의식하는 자아개념을 가지고 있을 정도야.",
+            "turn_id": "BK22008832-4",
+            "utterance_id": "BK22008832.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아이큐가 70이 넘는다니 정말 똑똑하네요. 이렇게 똑똑한 고래들은 몇 살까지 살 수 있어요?",
+            "turn_id": "BK22008832-5",
+            "utterance_id": "BK22008832.9"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "일각돌고래(Narwhal) 52년, 향유고래(Sperm Whale) 92년, 혹등고래(Humpback Whale) 93년, 그리고 북극수염고래(Bowhead Whale)는 268년까지 산다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "268년 전에 태어난 수염고래가 아직 살아있다면, 그 고래는 조선 중기인 1754년에 태어나 지금까지 살아가고 있는 것이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.mk.co.kr/news/culture/view/2022/08/707850/",
+            "search_query": "고래 수명",
+            "terminate": false,
+            "text": "일각돌고래 52년, 향유고래 92년, 혹등고래는 93년을 살 수 있는데 최고는 268년을 사는 북극 수염고래야. 만약 268년 전에 태어난 북극 수염 고래가 지금까지 살아있다고 가정하면 1754년 조선 중기에 태어나서 아직까지 살아있는 거지.",
+            "turn_id": "BK22008832-5",
+            "utterance_id": "BK22008832.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "268년이나 살 수 있다니 북극 수염고래의 수명은 정말 기네요. 그럼 세상에서 가장 큰 고래는 뭐예요?",
+            "turn_id": "BK22008832-6",
+            "utterance_id": "BK22008832.11"
+        },
+        {
+            "reference_date": "2022-09-01",
+            "reference_text": [
+                {
+                    "value": "현존하는 가장 큰 고래인 대왕고래는 최대 몸길이 33m, 몸무게 179t에 달한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.hapt.co.kr/news/articleView.html?idxno=156481",
+            "search_query": "가장 큰 고래",
+            "terminate": false,
+            "text": "최대 몸길이 33M, 179t의 몸무게를 자랑하는 대왕 고래가 현존하는 가장 큰 고래야.",
+            "turn_id": "BK22008832-6",
+            "utterance_id": "BK22008832.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "몸길이가 33M 면 아파트 10층이 넘는 크기인데 대단해요. 저도 언젠가 대왕고래를 볼 수 있었으면 좋겠어요. 근데 고래가 환경 보호에 도움을 준다던데 무슨 소리예요?",
+            "turn_id": "BK22008832-7",
+            "utterance_id": "BK22008832.13"
+        },
+        {
+            "reference_date": "2022-08-23",
+            "reference_text": [
+                {
+                    "value": "고래는 대기 내 탄소와 열을 흡수하여 뜨거워진 지구의 열을 식히는 ‘기후위기 해결사’ 역할을 하는 고마운 동물이다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "긴 수명을 가진 고래는 사는 동안 몸에 탄소를 축적하다가 죽으면 바다 밑으로 가라앉는데, 고래 한 마리가 바다 밑으로 가져가는 이산화탄소의 양은 평균 33t에 이른다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.khan.co.kr/opinion/contribution/article/202208230300025",
+            "search_query": "고래 기후위기",
+            "terminate": false,
+            "text": "고래는 기후 위기 해결사 역할을 하는 아주 고마운 동물인데 대기 내 탄소와 열을 흡수해서 뜨거워진 지구의 열을 식혀주거든. 게다가 고래는 수명이 길어서 살아있는 동안은 몸속에 탄소를 축적해두고 죽으면 바다 아래로 가라앉아. 평균 33t에 이르는 이산화탄소를 고래 한 마리가 바다 밑으로 가져갈 정도야.",
+            "turn_id": "BK22008832-7",
+            "utterance_id": "BK22008832.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "고래는 정말 기후 위기 해결사가 맞는걸요? 그런데 고래가 자살하는 경우도 있다던데 사실인가요?",
+            "turn_id": "BK22008832-8",
+            "utterance_id": "BK22008832.15"
+        },
+        {
+            "reference_date": "2020-09-22",
+            "reference_text": [
+                {
+                    "value": "호주 해안에서 고래 수백 마리가 좌초돼 이 중 약 90마리가 목숨을 잃었다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문가들은 일종의 집단자살인 ‘스트랜딩’(Stranding) 가능성에 무게를 두고 있다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고래 집단자살의 원인은 명확히 밝혀진 게 없다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "학자들은 지구온난화와 먹이 고갈, 해양오염, 어군탐지기나 군함에서 쏘는 초음파 영향을 거론한다.",
+                    "value_time": "2022-09-11",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://nownews.seoul.co.kr/news/newsView.php?id=20200922601005&wlog_tag3=naver",
+            "search_query": "고래 자살",
+            "terminate": false,
+            "text": "호주 해안에서 수백 마리의 고래가 좌초되었는데 그중 약 90마리가 죽은 적 있었거든. 전문가들은 고래의 죽음을 스트랜딩이라는 일종의 집단자살일 가능성이 높다고 보고 있어. 사실 고래가 왜 집단자살을 하는지 정확히 밝혀진 건 없는데 학자들은 지구온난화와 먹이 고갈, 또는 군함이나 어군탐지기에서 초음파를 쏘는 것 때문에 그럴 수 있다고 보고 있어.",
+            "turn_id": "BK22008832-8",
+            "utterance_id": "BK22008832.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어떤 이유인지 모르겠지만 90마리의 고래가 사망했다니 정말 안타깝네요.",
+            "turn_id": "BK22008832-9",
+            "utterance_id": "BK22008832.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러게, 소중한 생명이 사라졌다니 정말 안타깝지.",
+            "turn_id": "BK22008832-9",
+            "utterance_id": "BK22008832.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "남은 고래들이 행복하게 살 수 있길 기도해야겠어요.",
+            "turn_id": "BK22008832-10",
+            "utterance_id": "BK22008832.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "좋은 생각이야, 그럼 우리 함께 고래의 행복을 빌어주고 오늘의 대화는 여기서 마치도록 하자. 안녕.",
+            "turn_id": "BK22008832-10",
+            "utterance_id": "BK22008832.20"
+        }
+    ]
+}

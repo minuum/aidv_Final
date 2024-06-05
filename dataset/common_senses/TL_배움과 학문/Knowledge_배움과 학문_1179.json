@@ -1,0 +1,490 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007827",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007827",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 강의를 들었는데 이데올로기라는 말이 무슨 의미인 줄 아니?",
+            "turn_id": "BK22007827-1",
+            "utterance_id": "BK22007827.1"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "이념(理念, 독일어: ideologie 이데올로기[*], 영어: ideology, 문화어: 리념)은 일반적으로 사람이 인간 ·자연 ·사회에 대해 규정짓는 현실적이면서 동시에 이념적인 의식의 형태를 가리킨다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 정치경제학적으로는 상부구조의 하나를 의미한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이념이라는 용어는 관념의 기원이 선천적인 것인가 후천적인 것인가를 중심적인 문제로 하는 학의 명칭으로서, 이 용법은 데스튀트 드 트라시(Destutt de Tracy)의 \"이데올로기 원론\"(1804년~1815년）에 처음으로 보인다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이념에는 정치, 사회, 인식론, 윤리를 포함한 다양한 분야들이 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%85%90",
+            "search_query": "이데올로기",
+            "terminate": false,
+            "text": "이데올로기는 이념이라고도 해. 이 용어는 관념의 기원이 선천적인지 후천적인지를 중심적 문제로 하는 학의 명칭인데 데스튀트 드 트라시의 이데올로기 원론에 처음 등장했어. 이념에는 정치, 사회, 인식론, 윤리를 포함한 다양한 분야들이 있는데 일반적으로 사람이 인간, 자연, 사회에 대해 규정짓는 현실적이면서도 이념적인 의식의 형태를 가리키는데 정치경제학적으로는 상부구조의 하나를 의미하지.",
+            "turn_id": "BK22007827-1",
+            "utterance_id": "BK22007827.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다른 것은 알겠는데 상부구조가 뭔지 모르겠어.",
+            "turn_id": "BK22007827-2",
+            "utterance_id": "BK22007827.3"
+        },
+        {
+            "reference_date": "2022-02-22",
+            "reference_text": [
+                {
+                    "value": "토대(土臺, 독일어: Basis 바지스[*])와 상부구조(上部構造, 독일어: Überbau 위버바우[*])란 마르크스주의에서 인간 사회가 구성되는 두 개의 부분이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토대는 하부구조(下部構造, 독일어: Unterbau 운터바우[*])라고도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "토대는 생산력과 생산관계로 구성되어 있으며, 사회의 나머지 모든 부분(문화, 제도, 정치권력, 종교, 국가정치 등)은 상부구조로서 토대에 의해 규정된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "토대와 상부구조 사이에는 상호작용이 일어나서, 상부구조 역시 때로 토대에 영향을 미치지만, 토대가 상부구조에 미치는 영향력이 더욱 두드러진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%8C%80%EC%99%80_%EC%83%81%EB%B6%80%EA%B5%AC%EC%A1%B0",
+            "search_query": "상부구조",
+            "terminate": false,
+            "text": "마르크스주의에서 인간 사회가 구성되는 두 개의 부분이 있는데그 중 하나가 상부구조야. 나머지 하나를 토대 혹은 하부구조라고 하지. 상부구조는 문화, 제도, 정치권력, 종교, 국가정치 등 생산력과 생산관계로 구성된 토대 이외의 부분을 말해. 상부구조는 토대에 의해 규정되지. 토대와 상부구조 사이에는 상호작용이 일어나서 상부구조 역시 토대에 영향을 미치기도 하지만 토대가 상부구조에 미치는 영향력은 훨씬 크다고 할 수 있지.",
+            "turn_id": "BK22007827-2",
+            "utterance_id": "BK22007827.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "마르크스주의 강의를 들을 때 한 번 들어본 것 같긴 하다! 그런데 뭔지 몰라서 이해하기 힘들었어. 마르크스주의가 뭔지 알아야 할 것 같아.",
+            "turn_id": "BK22007827-3",
+            "utterance_id": "BK22007827.5"
+        },
+        {
+            "reference_date": "2022-08-11",
+            "reference_text": [
+                {
+                    "value": "마르크스주의란 마르크스와 엥겔스에 의해서 체계화된 소위 과학적 사회주의를 말한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마르크스주의는 마르크스 경제학, 마르크스주의 사회학, 정치적인 마르크스의 방법(Marx's method) 및 사회 변화에 대한 혁명적 사회주의(revolutionary socialism) 관점을 수반한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "마르크시즘은 하나의 방대한 세계관이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 정치이론은 계급 투쟁이요, 그 역사이론은 유물사관이요, 그 경제학은 잉여가치설(剩餘價値說)이요, 그 철학이론은 이른바 변증법적 유물론으로서 이 여러 이론이 서로 불가분의 관계를 갖는다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A5%B4%ED%81%AC%EC%8A%A4%EC%A3%BC%EC%9D%98",
+            "search_query": "마르크스주의",
+            "terminate": false,
+            "text": "마르크스주의는 마르크스와 엥겔스에 의해서 체계화 된 과학적 사회주의야. 마르크스 경제학과 마르크스주의 사회학, 마르크스의 방법 및 사회 변화에 대한 혁명적 사회주의 관점을 수반하지. 마르크스주의는 하나의 방대한 세계관이라고 생각하면 좋아. 계급 투쟁의 정치이론과 유물사관의 역사이론, 잉여가치설의 경제학, 변증법적 유물론의 철학이론이 서로 불가분의 관계를 가져.",
+            "turn_id": "BK22007827-3",
+            "utterance_id": "BK22007827.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여전히 어려운 것 같아. 사회주의와 공산주의는 같은 거니?",
+            "turn_id": "BK22007827-4",
+            "utterance_id": "BK22007827.7"
+        },
+        {
+            "reference_date": "2022-09-03",
+            "reference_text": [
+                {
+                    "value": "공산주의(라틴어: Communismus, 독일어: Kommunismus, 러시아어: Коммунизм, 영어: Communism, 共産主義)는 사유 재산의 철폐와 생산수단의 공공 소유에 기반을 둔 경제·사회·정치 공동체 형성에 관한 사상 또는 이러한 사회 형성을 목표로 삼는 형식적·실질적 정치 운동에 관한 사상이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "현대 공산주의자 사이에서 사회주의는 ‘낮은 단계의 공산주의’로 여겨진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이러한 관점은 레닌이 프롤레타리아 독재를 사회주의로 규정한 이후부터 등장한 관점이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "레닌의 이러한 규정이 있기 전까지 사회주의는 경제 영역에서 평등과 분배 정의를 실현하는 다양한 사회 운동을 지칭하는 용어로 쓰였으며, 공산주의는 경제 영역에서 사유제의 전면적인 철폐를 위해 문화, 사회, 정치등 인류 사회를 구성하는 수많은 요소에 대한 전방위적 변혁을 주장하는 사상으로 여겨졌다",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%82%B0%EC%A3%BC%EC%9D%98",
+            "search_query": "공산주의",
+            "terminate": false,
+            "text": "레닌이 프롤레타리아 독재를 사회주의로 규정하기 전까지 사회주의는 경제 영역에서 평등과 분배 정의를 실현하는 다양한 사회 운동을 지칭하는 용어로 쓰였어. 반면 공산주의는 인류 사회를 구성하는 문화나 사회, 정치 같은 수많은 요소에 대해 경제 영역에서 사유제를 전면적인 철폐 하기 위한 전반적인 변혁을 주장했지. 하지만 레닌의 규정이 있고 난 뒤 공산주의 사유 재산의 철폐와 생산수단을 공공 소유에 기반을 둔 경제와 사회, 정치 공동체를 형성하는 사상이 되었고, 또한 사유 재산이 철폐되고 공동체를 형성하는 사회를 목표로 삼아 형식적 및 실질적 정치 운동에 관한 사상이 되었어. 그리고 사회주의는 현대 공산주의자 사이에서 낮은 단계의 공산주의라고 여기고 있지.",
+            "turn_id": "BK22007827-4",
+            "utterance_id": "BK22007827.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러니 혼동이 되는 수밖에. 민주주의가 공산주의와 항상 함께 언급되던데 민주주의에 대해서도 자세히 설명해줘.",
+            "turn_id": "BK22007827-5",
+            "utterance_id": "BK22007827.9"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "민주주의(民主主義, 그리스어: δημοκρατία dēmokratía[*], 영어: democracy)는 국가의 주권이 국민, 민중에게 있고 민중이 권력을 가지고 그 권력을 스스로 행사하며 국민을 위하여 정치를 행하는 제도, 또는 그러한 정치를 지향하는 사상이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "오늘날 민주주의의 내용은 복잡하고 다의성을 띠지만, 민주주의 국가가 되려면 최소한 ‘1) 국민의 기본권 존중, 2) 권력의 전제화를 억제할 여러 중요한 정치제도 확립’이 충족되어야 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 조건 두 개가 충족되지 못한 국가는 어떠한 뜻에서도 민주주의 국가가 아니다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%AF%BC%EC%A3%BC%EC%A3%BC%EC%9D%98",
+            "search_query": "민주주의",
+            "terminate": false,
+            "text": "국민, 민중에게 국가의 주권이 있고 민중이 권력을 가지고 스스로 행사하며 국민을 위하여 정치를 행하는 제도를 민주주의라고 해. 또한 이런 정치를 지향하는 사상을 가리키기도 하지. 민주주의 국가가 되려면 최소한의 조건에 부합해야 하는데, 첫 번째로는 국민의 기본권 존중되어야 한다는 것이고, 두 번째로는 권력의 전제화를 억제할 여러 중요한 정치제도 확립이야. 이 두 가지의 조건을 충족시키지 못하면 민주주의 국가라고 할 수 없어.",
+            "turn_id": "BK22007827-5",
+            "utterance_id": "BK22007827.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "늘 민주주의와 자유주의를 헷갈리고 있어. 자유주의와 민주주의는 서로 다른 이념이야?",
+            "turn_id": "BK22007827-6",
+            "utterance_id": "BK22007827.11"
+        },
+        {
+            "reference_date": "2022-04-14",
+            "reference_text": [
+                {
+                    "value": "자유주의(自由主義, 영어: liberalism)는 개인의 인격의 존엄성을 인정하며 타인에게 피해를 주지 않는 범위 내에서 개인의 경제적, 사회적 활동의 자유를 보장하려는 정치적 사상이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자유를 최상의 정치·사회적 가치로 삼는 사회철학적 이념이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "교회와 왕권이 독점력을 갖고 있던 입법 권력을 시민의 대표자로 구성된 의회에 귀속시키는 운동을 통해 처음 발현되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "역사적으로 자유주의는 자유를 보장하는 수단으로서 의회·행정부의 권력 분립을 점진적으로 도입·발전시키면서 민주주의를 채택했고, 권력 분립을 통한 자유의 지속적 신장을 목표로 하는 운동에 영향을 주었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%9C%A0%EC%A3%BC%EC%9D%98",
+            "search_query": "자유주의",
+            "terminate": false,
+            "text": "최상의 정치적, 사회적 가치로서 자유에 두고 사회철학적 이념으로서 개인의 인격의 존엄성을 인정하며 경제적, 사회적 활동에서 개인이 활동하는 자유를 보장하려는 정치적 사상을 자유주의라고 해. 물론 타인에게 피해를 주지 않는 범위 내에서 이뤄져야 한다는 전제가 있지. 자유주의는 교회와 왕권이 독점하고 있던 입법 권력을 시민의 대표자로 구성된 의회에 귀속시키는 운동을 통해 처음 발현되었지. 역사적으로 자유 보장의 수단으로 자유주의로 인해 점진적으로 의회와 행정부의 권력 분립이 도입되고 발전하며 민주주의가 들어섰지. 한편으로 권력 분립을 통해서 자유의 지속적인 성장을 목표로 하는 운동에도 영향을 끼쳤어.",
+            "turn_id": "BK22007827-6",
+            "utterance_id": "BK22007827.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자유주의가 민주주의를 채택한 거구나. 그럼 자본주의는 어떤 이념인지 가르쳐 줘.",
+            "turn_id": "BK22007827-7",
+            "utterance_id": "BK22007827.13"
+        },
+        {
+            "reference_date": "2022-06-14",
+            "reference_text": [
+                {
+                    "value": "자본주의(資本主義, 독일어: Kapitalismus, 프랑스어: capitalisme, 영어: capitalism)는 재화의 사적 소유권을 개인이 가지는 자유의지에 반하거나 법률에 의하지 않는 방법으로는 양도 불가능한 사회 구성원의 기본권으로 인정하는 사회 구성체이다.[1]",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또는, 사회주의적 관점에서 볼 때 생산 수단을 가진 자본가 및 기업가 계급이 그 이익 추구를 위해 생산 활동을 하도록 보장하는 사회 경제 체제로 정의 하기도 한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "애덤 스미스로 대변되는 고전파 경제학은 자본주의에 대한 개념을 정립시킨 경제 사상으로 평가되고 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "고전경제학은 자유주의적 신념에 따라 정부의 시장 관여를 최소한으로 제한하는 자유방임을 주장하였다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98",
+            "search_query": "자본주의",
+            "terminate": false,
+            "text": "양도 불가능한 사회 구성원의 기본권으로 재화의 사적 소유권을 인정하는 사회 구성체를 자본주의라고 해. 사회주의적 관점에서 자본주의는 생산 수단을 가진 자본가나 기업가 계급이 이익을 발생시키기 위한 사회 활동이 보장되는 사회 경제 체제이기도 하지. 소유권에 대한 개인의 자유의지에 반하거나 법률에 의하지 않고서는 양도가 불가능하다고 하고 있어. 자본주의에 대한 개념을 정립시킨 경제사상으로 여겨지는 고전파 경제학에서 자유방임이 주장되었는데, 자유방임이란 자유주의적 신념에 따라 시장에 대한 정부의 관여를 최소한으로 제한하자는 내용이지. 참고로 고전파 경제학의 대표적 인물은 애덤 스미스야.",
+            "turn_id": "BK22007827-7",
+            "utterance_id": "BK22007827.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자유주의와는 또 달랐구나. 그럼 내셔널리즘이라는 것은 어떤 거야? 생소한 단어에 강의에 집중을 못 했어.",
+            "turn_id": "BK22007827-8",
+            "utterance_id": "BK22007827.15"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "내셔널리즘(영어: nationalism) 또는 국민주의(國民主義)는 동일한 국민 정체성을 공유하는 국민(nation)을 사회의 조직과 운영의 근본적인 단위로 삼는 이데올로기이며 이에 기반하여 몇 가지 정치적 이념을 파생시킨다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "제일 중요한 것으로는 \"민족이 국가를 합리화하는 유일무이한 근간\"이라는 주장과 \"개별 민족은 국가를 형성할 권리가 있다\"라는 주장이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 국민주의는 또한 민족적 움직임의 특수 이념을 의미하기도 하는데 이런 경우 '민족주의'라고 불리며, 특정 민족의 입장을 지지하게 된다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "18세기 이후 국민주의는 미국 독립 혁명 등에도 기여를 한 반면, 민족국가의 이익을 위해 다른 약소국가를 침략, 지배해야한다는 제국주의, 파시즘, 나치즘 등의 국가주의로 변질되고, 사회의 빈부격차를 은폐해서 계급투쟁을 희석시키는 데 악용되는 등 서구에서는 아직도 인종차별주의자로 낙인을 찍히거나 반기독교 정서, 반유대주의의 확산등의 결과로 반영되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%82%B4%EC%85%94%EB%84%90%EB%A6%AC%EC%A6%98",
+            "search_query": "내셔널리즘",
+            "terminate": false,
+            "text": "사회의 조직과 운영의 근본적인 단위로서 국민 정체성을 공유하는 국민으로 삼는 이데올로기를 내셔널리즘이라고 해. 내셔널리즘은 국민주의라고도 불리는데, 18세기 이후 미국 독립 혁명에 기여를 했지. 하지만 국민주의는 제국주의, 파시즘, 나치즘 등의 국가주의로 변질하였어. 국가주의는 민족국가의 이익을 위해 다른 약소국가를 침략해서 지배해야 한다는 내용이야. 변질한 국가주의는 사회의 빈부격차를 은폐하고 계급투쟁을 희석하며 나쁘게 이용되었고, 그 결과 서구에서 내셔널리즘은 인종차별주의자로 인식되었고 또는 반기독교 정서나 반유대주의를 확산시키기도 했지.",
+            "turn_id": "BK22007827-8",
+            "utterance_id": "BK22007827.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파시즘이 내셔널리즘 중의 하나구나. 파시즘과 혼동이 되는데 파시즘에 관해서도 설명해줄래?",
+            "turn_id": "BK22007827-9",
+            "utterance_id": "BK22007827.17"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "파시즘(이탈리아어: fascismo, 영어: fascism, 독일어: Faschismus)은 이탈리아에서 생겨난 사상으로 민족주의, 전체주의, 권위주의, 국수주의, 반공주의적인 정치 이념이자[1][2][3][4] 조합주의 경제 사상이다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "파시즘은 자국의 인종, 민족이 이를 구성하는 개인, 무리, 기구보다 우월하다고 주장하며, 국가를 최고의 숭배 가치로 여긴다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "즉 국가, 민족, 인종이 개인보다 중요하다고 주장하며 찬양한다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "간단하게 정의하자면, 파시즘은 어떠한 체계적 논리와 이성을 갖춘 사상이라곤 볼 수 없고, 때에 따라 이념 운동 정의가 달라진다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "일단, 보편적인 의미로써 파시즘은 역사 과정으로서 파시즘은 1922년에서 1943년까지 베니토 무솔리니의 지도 아래 이탈리아를 통치한 권위주의적 정치 운동을 일컫는다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%8B%9C%EC%A6%98",
+            "search_query": "파시즘",
+            "terminate": false,
+            "text": "민족주의, 전체주의, 권위주의, 국수주의, 반공주의적인 정치 이념이자 조합주의 경제 사상을 파시즘이라고 해. 파시즘은 국가를 최고의 숭배 가치로 여기며 국가를 구성하는 개인이나 무리, 기구보다 자국의 인종과 민족이 뛰어나다고 주장하고 찬양하는 특징이 있어. 파시즘은 체계적 논리와 이성을 갖춘 사상은 아니라서 때에 따라 이념 운동 정의가 달라지는데, 보편적인 의미로 파시즘은 역사 과정으로 보지. 베니토 무솔리니 지도 아래의 1922년에서 1943년까지 있었던 이탈리아를 통치한 권위주의적 정치 운동을 가리켜.",
+            "turn_id": "BK22007827-9",
+            "utterance_id": "BK22007827.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자유주의가 이미 있었는데 파시즘이라는 게 왜 나왔는지 모르겠어. 파시즘의 등장 배경이 있니?",
+            "turn_id": "BK22007827-10",
+            "utterance_id": "BK22007827.19"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "파시즘 발생의 기본 요인은 제1차 세계 대전 후 러시아 혁명의 성공에 의한 자본주의의 일반적 위기, 곧 자본주의 세계에서의 관성적 공황(慣性的 恐慌)과 사회혁명의 진전에서 찾아볼 수 있다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "경제학에서는 이 시기의 대공황이 유럽의 파시즘을 등장시키는 데 영향을 주었다고 본다.[28]",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이 단계에서는 국제적인 대립과 전쟁의 위기가 심각해져서 국내정치는 항상 불안정하고 계급대립이 격화된데다 정치·경제의 불안, 부패에 대한 도시 소시민이나 농민의 절망과 고립감, 인텔리겐치아의 니힐리즘·정치적 무관심이 겹쳐 강력한 권위적 리더십을 대망하게 되어 파시즘 발생의 원인이 조성되었다.",
+                    "value_time": "2022-09-07",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%8B%9C%EC%A6%98",
+            "search_query": "파시즘 배경",
+            "terminate": false,
+            "text": "제1차 세계 대전 후 러시아 혁명의 성공과 이 시기 발생한 대공황, 그리고 사회혁명의 진전이 파시즘 발생의 기본 요인이라고 하고 있어. 특히 경제학에서는 대공황이 유럽의 파시즘을 등장시키는 데 영향을 줬다고 보고 있지. 이 당시 국내 정치는 국제적인 대립이 심화하고 전쟁의 위기가 높아져서 항상 불안정했어. 거기다 계급대립도 심각해져 도시 소시민과 농민은 경제의 불안과 부패에 대한 절망과 고립감을 느꼈지. 이때 인텔리겐치아의 니힐리즘과 정치적 무관심이 겹쳐 강력한 권위적 리더십에 대한 기대감이 높아져 파시즘 발생의 원인이 조성되었어.",
+            "turn_id": "BK22007827-10",
+            "utterance_id": "BK22007827.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "덕분에 다시 강의를 들으면 이해가 잘 될 것 같아. 고마워.",
+            "turn_id": "BK22007827-11",
+            "utterance_id": "BK22007827.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "강의 다시 듣고도 모르는 게 있으면 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22007827-11",
+            "utterance_id": "BK22007827.22"
+        }
+    ]
+}

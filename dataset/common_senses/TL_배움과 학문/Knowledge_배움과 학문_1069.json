@@ -1,0 +1,406 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007018",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007018",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 오랜만에 친구를 만났는데 관세사 시험에 합격했다고 하더라구요. 자부심이 가득한 모습이 너무 멋있었어요. 관세사가 정확히 어떤 직업인지 아세요?",
+            "turn_id": "BK22007018-1",
+            "utterance_id": "BK22007018.1"
+        },
+        {
+            "reference_date": "2022-02-07",
+            "reference_text": [
+                {
+                    "value": "관세사는 물건을 수출하거나 수입할 때 수출입절차를 대신 밟아주고 문제가 생겼을 때 대리하여 해결하며 관세법상의 행정 소송을 수행한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "수출입 물품에 대해 물품분류기호에 따라 분류하고 이에 대한 세율을 부과한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관세에 대한 상담 또는 자문을 담당하기도 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B4%80%EC%84%B8%EC%82%AC",
+            "search_query": "관세사",
+            "terminate": false,
+            "text": "그럼요. 관세사는 물건을 수출하거나 수입할 때 수출입절차를 대신 밟아주고 문제가 생겼을 때 대리하여 해결하며 관세법상의 행정 소송을 수행하는 일을 해요. 또한 수출입 물품에 대해 물품 분류 기호에 따라 분류하고 이에 대한 세율을 부과하는 일도 해요. 이 외에 관세에 대한 상담 또는 자문을 담당하기도 하죠.",
+            "turn_id": "BK22007018-1",
+            "utterance_id": "BK22007018.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그야말로 무역에 관한 전문가네요. 그런데 저도 관심이 생기는데, 제 전공이 무역이 아니라서 걱정이에요. 이 시험에 전공이 영향을 많이 미치는 편인가요?",
+            "turn_id": "BK22007018-2",
+            "utterance_id": "BK22007018.3"
+        },
+        {
+            "reference_date": "2021-11-25",
+            "reference_text": [
+                {
+                    "value": "관세사 시험은 20세 이상이면 누구나 응시할 수 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "과거에는 무역학, 통상학, 물류학 전공자들이 많이 응시했지만, 경영학은 물론 언어학, 법학 전공자까지 경계가 허물어지고 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 특정 산업분야나 품목별로 특화하는 산업 추세에 따라 공학 전공 출신자도 많이 도전하고 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20191",
+            "search_query": "관세사 전공",
+            "terminate": false,
+            "text": "걱정하지 않으셔도 돼요. 관세사 시험은 20세 이상이면 누구나 응시할 수 있는 시험이에요. 물론 과거에는 무역학 전공자들이 많이 응시했지만 현재는 경영향은 물론이고 언어학, 법학 전공자들도 응시하면서 전공의 경계가 허물어지고 있어요. 특히 특정 산업 분야나 품목별로 특화하는 산업추세에 따라 공학 전공 출신자들도 많이 도전하고 있어요. 그러니까 전공과 상관없이 한번 도전해보세요.",
+            "turn_id": "BK22007018-2",
+            "utterance_id": "BK22007018.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 다양한 전공자들이 도전하네요. 저도 용기를 내볼게요. 관세사 시험 과목은 어떻게 되나요?",
+            "turn_id": "BK22007018-3",
+            "utterance_id": "BK22007018.5"
+        },
+        {
+            "reference_date": "2021-03-27",
+            "reference_text": [
+                {
+                    "value": "관세사 시험은 1차(객관식) 2차(논술 형)로 이루어져 있는데, 1차 시험 합격 시 그 다음해까지 1차 시험을 면제(유예)받을 수 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "관세사 1차 시험은 ▲관세법개론(자유무역협정 이행을 위한 관세법의 특례에 관한 법률 포함) ▲무역영어 ▲내국소비세법(부가가치세법, 개별소비세법, 주세법에 한함) ▲회계학(회계원리, 회계이론에 한함) 등 4과목을 평가한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "논술 형으로 진행되는 2차 시험의 경우 ▲관세법(관세평가 제외, 수출용 원재료에 대한 관세 등 환급에 관한 특례법 포함) ▲관세율표 및 상품학 ▲관세평가 ▲무역실무(대외무역법 및 외국환거래법 포함) 등 4과목으로 이루어져 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joseilbo.com/news/htmls/2021/03/20210327420110.html",
+            "search_query": "관세사 시험과목",
+            "terminate": false,
+            "text": "관세사 시험은 객관식 시험인 1차와 논술형인 2차 시험으로 이루어져 있는데, 1차 시험 합격 시 그다음 해 까지 1차 시험을 유예받을 수 있어요. 1차 시험 과목은 관세법개론, 무역영어, 내국소비세법, 회계학 4과목으로 이루어져요. 논술형으로 진행되는 2차 시험의 경우에는 관세법, 관세율표 및 상품학, 관세평가, 무역실무 4과목으로 이루어져 있어요.",
+            "turn_id": "BK22007018-3",
+            "utterance_id": "BK22007018.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "논술형도 있는 시험이었다니 엄청 힘들 것 같아요. 아 맞다, 관세사 시험에 합격하면 실무 수습을 해야 한다고 하던데 실무 수습은 어떻게 진행되는 건가요?",
+            "turn_id": "BK22007018-4",
+            "utterance_id": "BK22007018.7"
+        },
+        {
+            "reference_date": "2021-02-23",
+            "reference_text": [
+                {
+                    "value": "관세사 시험에 합격한 자는 6개월 이상의 실무 수습을 수료하고 관세사 등록을 한 후 업무를 개시할 수 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실무 수습은 3주간의 기본 교육과 5개월의 현장 교육으로 이뤄진다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "기본 교육 학습 평가와 근태 평가를 통과한 후 현장 교육을 이수하게 되는 데 현업 관세 사무소에서 현직 관세사의 지도를 받으며 현장 경험을 쌓는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.seniormaeil.com/news/articleView.html?idxno=27355",
+            "search_query": "관세사 실무수습",
+            "terminate": false,
+            "text": "맞아요. 관세사 시험에 합격한 자는 6개월 이상의 실무 수습을 수료하고 관세사 등록을 한 후에 업무를 개시할 수 있어요. 실무 수습은 3주간의 기본 교육과 5개월의 현장 교육으로 이루어져요. 기본 교육 학습평가와 근태 평가를 통과한 후 현장 교육을 이수하게 되는 데 현업 관세 사무소에서 현직 관세사의 지도를 받으며 현장 경험을 쌓게 되죠.",
+            "turn_id": "BK22007018-4",
+            "utterance_id": "BK22007018.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 정말 현장 경험을 쌓을 수 있겠네요. 그리고 가장 궁금한 부분이 있는데 혹시 관세사는 연봉이 얼마나 되나요?",
+            "turn_id": "BK22007018-5",
+            "utterance_id": "BK22007018.9"
+        },
+        {
+            "reference_date": "2020-06-30",
+            "reference_text": [
+                {
+                    "value": "관세사의 수입은 개인적인 능력이나 종사유형에 따라 천차만별이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "처음 관세사가 된다면 보통 관세법인에 취업하게 되는데 초봉은 보통 2,500~3,500만원 사이의 금액을 받게 된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 3년차 이상부터 동기들과 연봉에 대한 차이가 나기 시작한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그 후엔 많은 경험과 노하우가 축적되어 대형 법인에서 일하게 되고 능력을 인정받을 경우에 5,000만원 이상의 연봉을 받게 된다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.joseilbo.com/news/htmls/2020/06/20200616400222.html",
+            "search_query": "관세사 연봉",
+            "terminate": false,
+            "text": "관세사 수입은 개인적 능력이나 종사하는 업계 유형에 따라 천차만별이에요. 하지만 보편적으로 처음 관세사가 된다면 보통 관세법인에 취업하게 되는데 초봉은 보통 2,500~3,500만원 사이의 금액을 받게 돼요. 이후 보통 3년 차 이상부터 동기들과 연봉에 대한 차이가 나기 시작하죠. 그 후에는 많은 경험과 노하우가 축적되어 대형법인에서 일하고 능력을 인정받을 경우에는 5,000만원 이상의 연봉을 받을 수 있어요.",
+            "turn_id": "BK22007018-5",
+            "utterance_id": "BK22007018.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 어느 정도의 연차가 쌓인 후에는 각자의 능력에 따라 벌게 되는 거군요. 오히려 더 의욕적으로 열심히 일할 것 같아요. 앞으로의 관세사 전망은 어떤가요?",
+            "turn_id": "BK22007018-6",
+            "utterance_id": "BK22007018.11"
+        },
+        {
+            "reference_date": "2020-03-02",
+            "reference_text": [
+                {
+                    "value": "앞으로 관세사는 수출입 통관이라는 고유의 업무만 하지 않을 것이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "법과 회계, 세무 등 인접 영역 전문직과 함께 토털 솔루션을 제공할 일이 많아질 것이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국인은 물론이고, 다양한 국가의 사람들과 커뮤니케이션이 필요한 일이니만큼 각국의 문화와 사고방식을 이해할 수 있도록 열린 마음을 가지길 바란다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hani.co.kr/arti/society/schooling/930670.html",
+            "search_query": "관세사 전망",
+            "terminate": false,
+            "text": "앞으로 관세사는 단순히 수출입 통관이라는 고유업무를 위주로 일하던 과거와는 다르게 업무의 범위가 확장될 거예요. 그 예로 법과 회계, 세무 등 인접 영역의 전문직들과 함께 토털 솔루션을 제공하는 일이 점차 많아질 것이라 예상되거든요. 따라서 한국인은 물론이고, 다양한 국가의 사람들과 커뮤니케이션이 필요한 일이니만큼 각국의 문화와 사고방식을 이해할 수 있도록 열린 마음을 가지고 넓은 시야를 가지고 이 직업을 대하길 바라요.",
+            "turn_id": "BK22007018-6",
+            "utterance_id": "BK22007018.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "수출입 통관을 넘어서 업무의 범위가 확장된다는 점이 더욱 이 시험에 욕심이 생기게 만드는 것 같아요. 그리고 주변에 공무원 시험 준비하는 친구들도 점점 늘어나고 있어서 저도 더욱 이런 전문직 시험을 고민하게 되는 것 같아요. 요즘 직장인 분들도 퇴사하고 시험을 준비하는 사람들이 많아지는 추세인 것 같은데 이유가 뭘까요?",
+            "turn_id": "BK22007018-7",
+            "utterance_id": "BK22007018.13"
+        },
+        {
+            "reference_date": "2021-05-21",
+            "reference_text": [
+                {
+                    "value": "응답자 10명 중 7명(69.7%)은 코로나19 이후 공무원 시험 준비를 시작했다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "조사에 참여한 수험생들은 공무원 시험을 준비하는 이유(복수응답)로 ‘정년 보장이 돼서(68%)’를 가장 많이 꼽았다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지난해부터 이어진 코로나19 상황으로 민간 부문에서의 고용 불안정성이 심화하면서 공공 부문의 고용 안정성이 상대적으로 두드러지고 있다는 분석이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.chosun.com/site/data/html_dir/2021/05/21/2021052100856.html",
+            "search_query": "직장인 공시생",
+            "terminate": false,
+            "text": "맞아요. 실제로 공무원 강의를 수강 중인 수험자를 대상으로 설문 조사를 한 결과, 응답자 10명 중 7명은 코로나19 이후 공무원 시험 준비를 시작했다고 해요. 조사에 참여한 수험생들은 공무원 시험을 준비하는 이유로 정년이 보장이 돼서를 가장 많이 꼽았어요. 아무래도 지난해부터 이어진 코로나19 상황으로 민간 부분에서의 고용 불안정성이 심화하면서 공공 부문의 고용 안정성이 상대적으로 두드러지고 있는 것 같아요.",
+            "turn_id": "BK22007018-7",
+            "utterance_id": "BK22007018.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하긴, 저 또한 이 시험을 고려하는 게 코로나 영향이 없다고는 할 수 없을 것 같긴 해요. 그리면 저 하나만 더 물어보고 싶은데, 제가 영어를 잘하지 못해서 1차 시험과목인 무역영어가 걱정이에요. 무역영어를 효과적으로 공부할 수 있는 방법은 어떤 게 있을까요?",
+            "turn_id": "BK22007018-8",
+            "utterance_id": "BK22007018.15"
+        },
+        {
+            "reference_date": "2015-12-21",
+            "reference_text": [
+                {
+                    "value": "첫째,무역영어를 공부하기 전에 무역실무를 학습하여야 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "먼저 무역실무에 대한 기초적인 내용을 습득하여야 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "무역과 관련된 용어를 이해하고 전반적인 무역의 흐름을 이해하여야 국제관계법규 내용을 이해할 수가 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "둘째,자신만의 무역영어 단어 숙어장을 만들어야 한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "세 번째, 이제 가장 중요한 3대 협약을 정복하는 것이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lec.co.kr/news/articleView.html?idxno=39048",
+            "search_query": "무역영어 공부법",
+            "terminate": false,
+            "text": "무역영어 공부법에 관련하여 조언을 해드리자면, 일단 무역영어를 공부하기 전에 무역실무를 먼저 학습하는 것이 좋아요. 먼저 무역실무에 대한 기초적인 내용을 습득한 상태에서 무역과 관련된 용어를 이해하고 전반적인 무역의 흐름을 이해하여야 국제관계법규 내용을 이해할 수가 있기 때문이죠. 그다음에는, 자신만의 무역영어 단어 숙어장을 만들어 무역영어 단어를 외워 익숙하게 만드시는 게 좋아요. 마지막으로는 무역영어에서 가장 중요한 3대 협약을 완전히 정복하는 게 무역영어 시험을 가장 효율적으로 대비할 수 있는 방법이에요.",
+            "turn_id": "BK22007018-8",
+            "utterance_id": "BK22007018.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "우와, 무역영어 과목이 가장 걱정되었는데 정말 도움이 많이 되는 팁인 것 같아요. 시험에 관련해서 궁금한 점이 많았는데 자세하게 잘 알려주셔서 너무 감사해요.",
+            "turn_id": "BK22007018-9",
+            "utterance_id": "BK22007018.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아니에요. 도움이 됐다고 하니 저도 기분이 좋네요. 준비하는 시험에 좋은 결과 있기를 바랍니다.",
+            "turn_id": "BK22007018-9",
+            "utterance_id": "BK22007018.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "너무 감사합니다. 다음에 모르는 게 생기면 또 질문드릴게요. 오늘은 이만 일정이 있어 가봐야 할 것 같아요.",
+            "turn_id": "BK22007018-10",
+            "utterance_id": "BK22007018.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네 언제든 질문 주시고, 얼른 들어가세요. 오늘 대화 즐거웠습니다.",
+            "turn_id": "BK22007018-10",
+            "utterance_id": "BK22007018.20"
+        }
+    ]
+}

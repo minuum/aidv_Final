@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.7,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004380",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004380",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 동생이 의대 준비를 하려고 해요. 보통 한국에서는 의사가 되려면 어떤 과정을 거치나요?",
+            "turn_id": "BK22004380-1",
+            "utterance_id": "BK22004380.1"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "대한민국에서 의사가 되기 위해서는 6년 과정으로 이루어진 대학을 졸업하고 의학사 학위를 취득하거나 4년 과정으로 이루어진 의학전문대학원을 졸업하고 의무 석사 학위를 취득한 후 국가시험을 통과하여야 한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%98%EC%82%AC",
+            "search_query": "의사 학위 과정",
+            "terminate": false,
+            "text": "한국에서 의사가 되기 위해서는 보통 6년제 의대를 졸업하고 나서 의학사 학위를 취득하거나, 4년제 의학전문대학원을 졸업하고 의무 석사 학위를 취득한 뒤 국가시험을 통과해야 해요.",
+            "turn_id": "BK22004380-1",
+            "utterance_id": "BK22004380.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제 동생은 6년제 의대를 준비할 것 같은데, 의대는 정원이 어떻게 되나요?",
+            "turn_id": "BK22004380-2",
+            "utterance_id": "BK22004380.3"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "전국 39개 의대는 2023수시에서 1857명(61.6%)을 모집한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=421713",
+            "search_query": "의대 수시 정원",
+            "terminate": false,
+            "text": "일단 전국에 있는 의대 수가 39개인 걸 알아두시면 좋아요. 그리고 2023년 기준으로 이들 대학교는 61.6퍼센트인 1857명을 수시로 뽑을 예정이죠.",
+            "turn_id": "BK22004380-2",
+            "utterance_id": "BK22004380.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "전국에서 1800명 정도밖에 뽑지 않으니 들어가기 힘들다는 얘기가 나오는 거네요. 수시에서는 어떤 걸 보나요?",
+            "turn_id": "BK22004380-3",
+            "utterance_id": "BK22004380.5"
+        },
+        {
+            "reference_date": "2022-06-30",
+            "reference_text": [
+                {
+                    "value": "수시 전형별로는 학생부교과 전형이 908명(30.1%)으로 가장 많고 학생부종합 811명(26.9%) 논술전형 122명(4.0%) 등이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.news1.kr/articles/?4725836",
+            "search_query": "의대 수시 전형 종류",
+            "terminate": false,
+            "text": "학생부 교과를 보는 전형이 전체에서 30.1퍼센트, 908명으로 가장 많아요. 그 외에도 학생부 종합을 보는 전형이 26.9퍼센트인 811명, 논술전형이 4퍼센트인 122명이죠.",
+            "turn_id": "BK22004380-3",
+            "utterance_id": "BK22004380.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "논술 전형으로 의대에 가는 경우는 거의 없겠네요. 그렇다면 의대에서 정시는 어떻게 뽑나요?",
+            "turn_id": "BK22004380-4",
+            "utterance_id": "BK22004380.7"
+        },
+        {
+            "reference_date": "2021-10-13",
+            "reference_text": [
+                {
+                    "value": "의대 정시는 대부분 수능100%로 선발한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "올해 정시모집 실시 39개교 중 9개교를 제외한 30개교가 면접 없는 수능100%로 합격자를 선발한다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=391201",
+            "search_query": "의대 정시 수능 비중",
+            "terminate": false,
+            "text": "대부분의 의대 정시에서는 수능을 100퍼센트로 봐요. 올해는 39개 중 30개의 대학에서 면접 없이 수능만 보고 학생들을 뽑았죠.",
+            "turn_id": "BK22004380-4",
+            "utterance_id": "BK22004380.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그러면 내신을 챙겨놓지 않았어도 수능을 엄청 잘 보면 의대 정시에 합격할 수도 있겠네요. 정시에서 의대는 경쟁률이 얼마나 되나요?",
+            "turn_id": "BK22004380-5",
+            "utterance_id": "BK22004380.9"
+        },
+        {
+            "reference_date": "2022-01-05",
+            "reference_text": [
+                {
+                    "value": "올해 정시에서 전국 39개 의대 평균 경쟁률은 정원내 7.19대1로 지난해 6.13대1보다 상승했다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.veritas-a.com/news/articleView.html?idxno=403408",
+            "search_query": "의대 정시 경쟁률",
+            "terminate": false,
+            "text": "올해 정시에서 전국 39개 의대의 평균 경쟁률은 7.19대 1이었어요. 지난해에는 6.13대 1이었고요.",
+            "turn_id": "BK22004380-5",
+            "utterance_id": "BK22004380.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "7.19대 1이라면 생각보다 적은데, 아무래도 허수가 아니라서 그런 거겠죠? 보통 의대에 합격하려면 수능을 얼마나 잘 봐야 하는 건가요?",
+            "turn_id": "BK22004380-6",
+            "utterance_id": "BK22004380.11"
+        },
+        {
+            "reference_date": "2022-04-20",
+            "reference_text": [
+                {
+                    "value": "인 서울'의 7대 의대 정시는 수능성적 200등대는 돼야 원서를 쓸 수 있다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankookilbo.com/News/Read/A2022042017080002698?did=NA",
+            "search_query": "의대 수능 성적 컷",
+            "terminate": false,
+            "text": "속칭 인서울인 7개의 의대에 가려면 수능이 200등 대는 되어야 해요. 그것도 합격이 보장된 게 아니라 원서 정도는 쓸 수 있다는 느낌이죠.",
+            "turn_id": "BK22004380-6",
+            "utterance_id": "BK22004380.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 전국에서 200등이라는 뜻이겠죠?",
+            "turn_id": "BK22004380-7",
+            "utterance_id": "BK22004380.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 아무래도 공부 잘하는 학생들이 대거 몰리니까요.",
+            "turn_id": "BK22004380-7",
+            "utterance_id": "BK22004380.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "다들 이렇게까지 의사가 되려는 건 연봉이 높아서겠죠? 우리나라 의사들은 얼마나 버나요?",
+            "turn_id": "BK22004380-8",
+            "utterance_id": "BK22004380.15"
+        },
+        {
+            "reference_date": "2022-07-26",
+            "reference_text": [
+                {
+                    "value": "우리나라 의사의 연봉 수준은 OECD 최상위권이었다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "전문의 중 봉직의 임금 소득은 연간 19만 5463달러(2억 5566만원), 개원의는 연간 30만 3000달러(3억 9632만원)로 봉직의·개원의 모두 OECD 국가 중 가장 높았다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.seoul.co.kr/news/newsView.php?id=20220726500158&wlog_tag3=naver",
+            "search_query": "의사 연봉",
+            "terminate": false,
+            "text": "한국의 의사들 연봉은 OECD에서도 최고예요. 전문의 중 봉직의와 개원의의 소득이 각각 19만 5463달러, 30만 3000달러로 잡히는데, 모두 OECD 국가 중 가장 높아요.",
+            "turn_id": "BK22004380-8",
+            "utterance_id": "BK22004380.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "역시나 공부 잘하는 학생들이 그냥 몰리는 게 아니었군요. 그런데 아까 의대 말고 대학원에 가는 방법도 있다고 하셨잖아요. 그건 어떤 제도인 건가요?",
+            "turn_id": "BK22004380-9",
+            "utterance_id": "BK22004380.17"
+        },
+        {
+            "reference_date": "2022-06-25",
+            "reference_text": [
+                {
+                    "value": "대한민국의 의학전문대학원(大韓民國─ 醫學專門大學院)은 의사를 양성하는 교육 기관으로 이전의 의과대학(6년제 과정)을 대학원 과정의 4년제 과정으로 만든 것이다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "2003년 의전원 제도 도입 당시부터 논란을 양산했던 의학교육 학제는 시간이 지날수록 한 대학 내 의대·의전원이 같이 운영되고 있는 현황을 우려하는 목소리가 커졌다.",
+                    "value_time": "2022-07-29",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EC%9D%98%ED%95%99%EC%A0%84%EB%AC%B8%EB%8C%80%ED%95%99%EC%9B%90",
+            "search_query": "의전원",
+            "terminate": false,
+            "text": "의학전문대학원으로 줄여서 의전원이라고 해요. 의사를 양성하는 교육 기관으로, 의대에서 6년 동안 배우는 것들을 4년제로 만든 제도죠. 하지만 2003년 도입 당시부터 많은 논란을 양산했어요. 하나의 대학 내에서 의대와 의전원을 같이 운영하는 것에 대해서 우려하는 목소리가 컸거든요.",
+            "turn_id": "BK22004380-9",
+            "utterance_id": "BK22004380.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도입 당시부터 논란이 많았다고 하니, 그 후에도 많은 시행착오가 있었을 것 같네요. 그건 다음에 듣기로 해요.",
+            "turn_id": "BK22004380-10",
+            "utterance_id": "BK22004380.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그래요, 시간이 늦었으니 그 뒤의 얘기는 다음에 봤을 때 나누기로 해요. 조심히 들어가세요!",
+            "turn_id": "BK22004380-10",
+            "utterance_id": "BK22004380.20"
+        }
+    ]
+}

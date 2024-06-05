@@ -1,0 +1,332 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009345",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009345",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "얼마 전 레서판다에 대한 다큐멘터리를 잠깐 봤는데, 생김새가 너무 귀엽더라. 레서판다에 대해 제대로 공부해 보고 싶어졌어. 혹시 레서판다가 어떤 동물인지 설명 해 줄 수 있어?",
+            "turn_id": "BK22009345-1",
+            "utterance_id": "BK22009345.1"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "레서판다(영어: lesser panda, 학명: Ailurus fulgens)는 몸길이 45 ~65 cm 꼬리길이 30 ~50 cm 가량의 포유동물이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "'레서팬더'라고도 불리며, 영어표기명은 레드판다(red panda)이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A0%88%EC%84%9C%ED%8C%90%EB%8B%A4",
+            "search_query": "레서판다",
+            "terminate": false,
+            "text": "레서판다는 포유 동물 중 하나로, 다른 말로 레서팬더라고 부르거나 영어 표기명인 레드판다라고 부르기도 해. 보통 몸통의 길이가 45cm에서 65cm, 꼬리의 길이가 30cm에서 50cm 정도 되는 크기를 가지고 있지.",
+            "turn_id": "BK22009345-1",
+            "utterance_id": "BK22009345.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레서판다의 크기가 보통 45cm에서 65cm 정도 되는구나. 레서판다도 판다의 일종이라고 볼 수 있지?",
+            "turn_id": "BK22009345-2",
+            "utterance_id": "BK22009345.3"
+        },
+        {
+            "reference_date": "2021-07-02",
+            "reference_text": [
+                {
+                    "value": "한편 레서판다는 판다와 함께 판다 계열의 동물로 여겨졌지만, 유전적으로는 거의 관련이 없고 라쿤, 족제비, 스컹크와 같은 포유류에 가까운 종이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.iworldtoday.com/news/articleView.html?idxno=402776",
+            "search_query": "레서판다 계열",
+            "terminate": false,
+            "text": "그렇지 않아. 과거에는 레서판다가 판다 계열의 동물로 여겨졌지만, 유전적인 관련성이 거의 없는 것으로 밝혀졌어. 오히려 족제비나 라쿤과 같은 포유류에 가까운 종이지.",
+            "turn_id": "BK22009345-2",
+            "utterance_id": "BK22009345.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름에 판다가 들어가서 판다 계열일 줄 알았는데 아니었구나. 레서판다는 주로 어디에서 서식하고 있어?",
+            "turn_id": "BK22009345-3",
+            "utterance_id": "BK22009345.5"
+        },
+        {
+            "reference_date": "2020-09-17",
+            "reference_text": [
+                {
+                    "value": "이 때문에 주로 대나무가 많은 지역이 레서판다의 서식지가 된다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "히말라야와 중국 남서부 등 비가 오는 고지대의 온화한 숲이나 열대우림에 산다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.epnnews.com/news/articleView.html?idxno=5344",
+            "search_query": "레서판다 서식지",
+            "terminate": false,
+            "text": "레서판다는 보통 대나무가 많은 지역에서 서식해. 중국 남서부, 히말라야와 같이 비가 내리는 높은 지대의 온화한 숲이나 열대 우림에 살지.",
+            "turn_id": "BK22009345-3",
+            "utterance_id": "BK22009345.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레서판다는 주로 비가 내리는 숲에서 서식하는 거네. 그렇다면 레서판다가 주로 무엇을 먹는지도 알고 있어?",
+            "turn_id": "BK22009345-4",
+            "utterance_id": "BK22009345.7"
+        },
+        {
+            "reference_date": "2020-09-17",
+            "reference_text": [
+                {
+                    "value": "식육목 레서판다과에 속하는 레서판다는 도토리와 식물 뿌리 등 초식도 하면서 어린 새나 작은 설치류까지 잡아먹는 잡식성이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.epnnews.com/news/articleView.html?idxno=5344",
+            "search_query": "레서판다 먹이",
+            "terminate": false,
+            "text": "레서판다는 잡식성을 가진 동물이야. 그래서 식물 뿌리나 도토리 같은 것을 먹기도 하고, 새끼 새나 작은 설치류를 잡아 먹기도 하지.",
+            "turn_id": "BK22009345-4",
+            "utterance_id": "BK22009345.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레서판다는 다양한 먹이를 가리지 않고 먹는구나. 의외의 식성이다. 그런데 레서판다의 경우 지구 상에 존재하는 개체 수가 그리 많지 않다고 하던데, 그 이유가 무엇인지 알아?",
+            "turn_id": "BK22009345-5",
+            "utterance_id": "BK22009345.9"
+        },
+        {
+            "reference_date": "2016-01-28",
+            "reference_text": [
+                {
+                    "value": "하지만 귀여운 레서판다 역시 수명은 8~10년이고 번식률이 낮은데다, 환경파괴로 서식지가 줄어들어 세계적으로 1만여 마리밖에 남지 않았습니다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=10000",
+            "search_query": "레서판다 개체 수",
+            "terminate": false,
+            "text": "레서판다는 2016년에도 전세계적으로 1만 여마리 밖에 남아있지 않은 것으로 밝혀졌어. 그 이유는 레서판다의 수명이 8년에서 10년 정도이기도 하고, 번식률 역시 낮기 때문이야. 게다가 환경 파괴로 인한 서식지가 감소한다는 까닭도 있지.",
+            "turn_id": "BK22009345-5",
+            "utterance_id": "BK22009345.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 요인들로 인해 레서판다가 점점 줄어들고 있는 거네. 앞으로도 계속 개체 수가 감소한다면 레서판다도 멸종될 위기에 놓이지 않을까?",
+            "turn_id": "BK22009345-6",
+            "utterance_id": "BK22009345.11"
+        },
+        {
+            "reference_date": "2021-02-14",
+            "reference_text": [
+                {
+                    "value": "레서판다는 멸종 위기 1급 종으로 멸종 위기에 놓인 동물이다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.thekpm.com/news/articleView.html?idxno=73730",
+            "search_query": "레서판다 멸종 위기",
+            "terminate": false,
+            "text": "사실 레서판다는 이미 멸종 위기에 놓여 있어. 그래서 멸종 위기 1급 종으로 등록이 되어 있지.",
+            "turn_id": "BK22009345-6",
+            "utterance_id": "BK22009345.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레서판다가 지금도 멸종 위기에 놓여있다니 안타까워. 혹시 우리나라에서도 레서판다를 볼 수 있는 곳이 있어?",
+            "turn_id": "BK22009345-7",
+            "utterance_id": "BK22009345.13"
+        },
+        {
+            "reference_date": "2018-05-19",
+            "reference_text": [
+                {
+                    "value": "에버랜드 주토피아(동물원) ‘판다월드’에는 세계적 희귀종인 자이언트 판다, 레서판다 등이 있다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.goodkyung.com/news/articleView.html?idxno=74153",
+            "search_query": "레서판다 관람",
+            "terminate": false,
+            "text": "에버랜드에 가면 레서판다를 볼 수 있어. 에버랜드 동물원인 주토피아 내 판다월드에서는 세계적인 희귀종인 레서판다 뿐만 아니라 자이언트 판다도 함께 볼 수 있지.",
+            "turn_id": "BK22009345-7",
+            "utterance_id": "BK22009345.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "에버랜드에 가면 레서판다를 직접 볼 수 있겠구나. 다큐멘터리에서 레서판다의 날도 있다고 하던데, 그게 언제야?",
+            "turn_id": "BK22009345-8",
+            "utterance_id": "BK22009345.15"
+        },
+        {
+            "reference_date": "2019-09-21",
+            "reference_text": [
+                {
+                    "value": "이에 '레서판다(레드팬더) 네트워크'는 2010년부터 매년 9월 셋째 주 토요일을 '국제 레서판다의 날'로 지정했다.",
+                    "value_time": "2022-09-23",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.insight.co.kr/news/247329",
+            "search_query": "국제 레서판다의 날",
+            "terminate": false,
+            "text": "국제 레서판다의 날은 2010년 레서판다 네트워크에서 지정한 날이야. 매년 9월 셋째 주 토요일이 국제 레서판다의 날이지.",
+            "turn_id": "BK22009345-8",
+            "utterance_id": "BK22009345.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "국제 레서판다의 날이 널리 알려져서 많은 사람들이 레서판다에게 더 많은 관심을 가지고, 종의 보존을 위해 노력했으면 좋겠어.",
+            "turn_id": "BK22009345-9",
+            "utterance_id": "BK22009345.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 레서판다를 멸종 위기로부터 지키기 위해서는 사람들의 지속적인 관심과 노력이 필요하지.",
+            "turn_id": "BK22009345-9",
+            "utterance_id": "BK22009345.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "레서판다에 대해 자세히 알려줘서 고마워. 덕분에 레서판다라는 동물을 더 깊이 이해할 수 있게 되었어.",
+            "turn_id": "BK22009345-10",
+            "utterance_id": "BK22009345.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되었다니 나도 기뻐. 또 궁금한 게 생기면 언제든 물어봐도 좋아.",
+            "turn_id": "BK22009345-10",
+            "utterance_id": "BK22009345.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 물어볼 게 있으면 다시 연락할게!",
+            "turn_id": "BK22009345-11",
+            "utterance_id": "BK22009345.21"
+        }
+    ]
+}

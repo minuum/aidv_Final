@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22014113",
+        "name": "2022 한국어 블렌더봇 데이터 BK22014113",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0027"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "예전에 이집트 여행을 가서 피라미드를 구경한 적이 있었는데, 정말 장엄하더라고요. 이런 피라미드는 이집트에서밖에 볼 수 없나요?",
+            "turn_id": "BK22014113-1",
+            "utterance_id": "BK22014113.1"
+        },
+        {
+            "reference_date": "44727.0",
+            "reference_text": [
+                {
+                    "value": "피라미드(pyramid)는 일반적으로 정사각뿔 꼴의 고대 유적을 가리킨다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "고대 중국, 이집트, 메소포타미아, 중앙아메리카 등 많은 문명권에서 피라미드 형태의 유적을 만들었다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "피라미드",
+            "terminate": false,
+            "text": "피라미드는 정사각뿔 모양으로 생긴 고대 유적지를 말해요. 사실 이집트가 아니라도 고대 중국이나 메소포타미아, 중앙아메리카 등의 다양한 지역에서도 피라미드 모양의 유적을 발견할 수 있어요.",
+            "turn_id": "BK22014113-1",
+            "utterance_id": "BK22014113.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 피라미드가 이집트의 전유물이었던 것은 아니었군요. 그래도 이집트의 피라미드가 제일 유명하지 않나요?",
+            "turn_id": "BK22014113-2",
+            "utterance_id": "BK22014113.3"
+        },
+        {
+            "reference_date": "44628.0",
+            "reference_text": [
+                {
+                    "value": "가장 유명한 이집트 피라미드는 기자 피라미드로서 이집트 카이로의 외곽에 위치하고 있다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%91%ED%8A%B8_%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "이집트 피라미드",
+            "terminate": false,
+            "text": "맞아요. 특히 카이로 외곽에 있는 기자 피라미드가 제일 사람들에게 익숙한 피라미드죠.",
+            "turn_id": "BK22014113-2",
+            "utterance_id": "BK22014113.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 구경했던 곳도 기자의 피라미드였어요. 그런데 기자의 피라미드가 딱 하나만 있는 줄 알았는데 몇 개 더 있더라고요? 기자의 피라미드는 어떤 것들이 있나요?",
+            "turn_id": "BK22014113-3",
+            "utterance_id": "BK22014113.5"
+        },
+        {
+            "reference_date": "44603.0",
+            "reference_text": [
+                {
+                    "value": "기자의 대피라미드, 카프레의 피라미드, 멘카우레의 피라미드의 3대 피라미드를 비롯하여 그에 딸린 소규모 피라미드와 기자의 대스핑크스를 아우르는 명칭이다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9E%90%EC%9D%98_%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "기자의 피라미드",
+            "terminate": false,
+            "text": "3대 피라미드라 불리는 기자의 대피라미드와 카프레의 피라미드, 멘카우레의 피라미드 그리고 그 외에 작은 피라미드들이 있어요.",
+            "turn_id": "BK22014113-3",
+            "utterance_id": "BK22014113.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그중에서도 유독 크고 돋보이던 게 있던데 그게 기자의 대피라미드인가요?",
+            "turn_id": "BK22014113-4",
+            "utterance_id": "BK22014113.7"
+        },
+        {
+            "reference_date": "44606.0",
+            "reference_text": [
+                {
+                    "value": "기자의 대피라미드(영어: Great Pyramid of Giza, Pyramid of Khufu)는 이집트 카이로, 기자에 있는 피라미드들 중 하나로, 기자의 피라미드들 중 가장 크고 가장 오래되었다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9E%90%EC%9D%98_%EB%8C%80%ED%94%BC%EB%9D%BC%EB%AF%B8%EB%93%9C",
+            "search_query": "기자의 대피라미드",
+            "terminate": false,
+            "text": "맞아요. 기자의 대피라미드는 앞서 말했던 기자에 있는 피라미드 중 가장 규모가 크고 오래된 피라미드죠.",
+            "turn_id": "BK22014113-4",
+            "utterance_id": "BK22014113.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그런데 피라미드는 어떤 용도로 쓰였을까요? 저 큰 건축물을 아무 용도 없이 짓진 않았을 것 같은데 말이죠.",
+            "turn_id": "BK22014113-5",
+            "utterance_id": "BK22014113.9"
+        },
+        {
+            "reference_date": "42253.0",
+            "reference_text": [
+                {
+                    "value": "피라미드는 당시 백성 위에 군림하던 ‘파라오’가 사망한 후 묻히는 왕묘로 사용됐다고 해요.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/18600456#home",
+            "search_query": "피라미드 용도",
+            "terminate": false,
+            "text": "피라미드는 당시 이집트의 왕인 파라오가 죽은 뒤 안장되던 왕묘로 사용됐어요.",
+            "turn_id": "BK22014113-5",
+            "utterance_id": "BK22014113.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "무덤을 그런 규모로 짓다니, 그 당시 이집트 문명이 얼마나 융성했는지 알 수 있는 부분이네요. 이런 피라미드들은 어떤 방식으로 지은 걸까요?",
+            "turn_id": "BK22014113-6",
+            "utterance_id": "BK22014113.11"
+        },
+        {
+            "reference_date": "43727.0",
+            "reference_text": [
+                {
+                    "value": "하지만 피라미드에 담긴 수학적 정밀성이나 구체적인 시공 방법 등은 여전히 의문으로 남아 있다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "피라미드를 축조하기 위해 어떤 도구를 사용했는지에 대해서도 논의가 활발하다.",
+                    "value_time": "44784.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.joongang.co.kr/article/23580683#home",
+            "search_query": "피라미드 건축 방법",
+            "terminate": false,
+            "text": "사실 피라미드의 정밀함과 정확한 건축 방법은 아직도 밝혀내지 못했어요. 건설 도구 역시 어떤 도구를 사용했는지에 대해 논의가 활발하게 이루어지고 있고요.",
+            "turn_id": "BK22014113-6",
+            "utterance_id": "BK22014113.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 아쉬운 일이네요. 그런데 보통 창작물을 보면 피라미드는 노예들이 채찍을 맞아가며 짓던데, 그런 강제노역으로 짓지 않았을까요?",
+            "turn_id": "BK22014113-7",
+            "utterance_id": "BK22014113.13"
+        },
+        {
+            "reference_date": "44382.0",
+            "reference_text": [
+                {
+                    "value": "피라미드는 어느 정도 보상을 받는 일종의 ‘임금 노동자’가 만든 것이라는 게 역사학자의 일반적인 해석이다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "측량가, 제도공, 공학자, 목수, 채석공은 물론 화가와 조각가 등 숙련·비숙련 가릴 것 없이 모두 숙식을 제공받고 노동의 대가를 챙겼다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://sgsg.hankyung.com/article/2021070214771",
+            "search_query": "피라미드 노예",
+            "terminate": false,
+            "text": "피라미드에 대한 흔한 오해 중 하나죠. 측량가, 제도공 그리고 공학자, 목수, 채석공이나 화가와 조각가들은 직업과 역할의 구분 없이 모두 식사와 머물 곳, 작업의 대가도 받는 등 임금 노동자의 형태로 작업에 투입됐어요.",
+            "turn_id": "BK22014113-7",
+            "utterance_id": "BK22014113.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 굳이 돈까지 주면서 피라미드를 건축할 이유가 있었을까요?",
+            "turn_id": "BK22014113-8",
+            "utterance_id": "BK22014113.15"
+        },
+        {
+            "reference_date": "42402.0",
+            "reference_text": [
+                {
+                    "value": "나일 강이 범람하는 시기가 되면 농민들은 물이 빠질 때까지 기다리는 수밖에 없었고 당연히 돈벌이도 줄어들었다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 상황을 극복하고자 피라미드 건설에 농민들을 투입시켰다.",
+                    "value_time": "44784.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.cha.go.kr/cop/bbs/selectBoardArticle.do;jsessionid=r9aGJwX2EJK7sFRLw8xWGKxFwcjkZ3dtAJGYLILrK9sF4MfNJN2NEdZgNoGTSRwi.cha-was01_servlet_engine1?nttId=29149&bbsId=BBSMSTR_1008&pageIndex=124&pageUnit=10&searchtitle=title&searchcont=&searchkey=&searchwriter=&searchdept=&searchWrd=&searchCnd=&ctgryLrcls=&ctgryMdcls=&ctgrySmcls=&ntcStartDt=&ntcEndDt=&mn=NS_01_09_01",
+            "search_query": "피라미드 건축 이유",
+            "terminate": false,
+            "text": "나일 강의 범람기가 오면 농민들은 강물이 빠질 때까진 농사일할 수가 없었고 당연히 수입도 줄어들었어요. 이런 상황을 타개하기 위해 할 일이 없는 농민들을 피라미드 건설에 투입시킨 것이죠.",
+            "turn_id": "BK22014113-8",
+            "utterance_id": "BK22014113.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "즉, 농사일을 할 수 없는 범람기에 일을 주고 그 대가로 임금을 제공하는 일종의 국가 정책이었던 셈이군요.",
+            "turn_id": "BK22014113-9",
+            "utterance_id": "BK22014113.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "세간의 인식처럼 노예를 부리면서 강제로 노역을 시킨 건 아니에요.",
+            "turn_id": "BK22014113-9",
+            "utterance_id": "BK22014113.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "피라미드 이야기를 이렇게 듣고 있으니 다시 한번 그 멋진 광경을 보고 싶네요. 다음 달에 이집트 여행 한번 같이 가실래요? 일정은 제가 잡아볼게요.",
+            "turn_id": "BK22014113-10",
+            "utterance_id": "BK22014113.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "저는 아직 피라미드를 눈으로 본 적이 없어서 꼭 한번 가보고 싶었는데 같이 가줄 사람이 생기면 너무 좋죠. 기대하고 있겠습니다.",
+            "turn_id": "BK22014113-10",
+            "utterance_id": "BK22014113.20"
+        }
+    ]
+}

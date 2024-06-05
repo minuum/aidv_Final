@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22004294",
+        "name": "2022 한국어 블렌더봇 데이터 BK22004294",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0034"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지난번에 찬물에 커피를 타는데 커피 가루가 안 녹고 떠다니는 걸 보고 삼촌이 브라운 운동이네, 라고 했거든. 자존심 때문에 삼촌한테는 못 물어봤는데 브라운 운동이 뭐야?",
+            "turn_id": "BK22004294-1",
+            "utterance_id": "BK22004294.1"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "브라운 운동(Brownian motion)은 1827년 스코틀랜드 식물학자 로버트 브라운(Robert Brown)이 발견한, 액체나 기체 속에서 미소입자들이 불규칙하게 운동하는 현상이다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동",
+            "terminate": false,
+            "text": "그것은 말이지, 1827년에 스코틀랜드 출신 식물학자 로버트 브라운이 발견한 현상인데, 액체나 기체 안에서 작은 입자들이 규칙 없이 제멋대로 움직이는 상태를 말하는 거야.",
+            "turn_id": "BK22004294-1",
+            "utterance_id": "BK22004294.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그런 거였군. 근데 브라운이라는 사람 물리학자도 아니고 식물학자면서 어떻게 이런 걸 발견한 거지?",
+            "turn_id": "BK22004294-2",
+            "utterance_id": "BK22004294.3"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "스코틀랜드 식물학자 로버트 브라운은 식물 클라르키아 풀켈라(Clarkia Pulchella)의 수정과정을 연구하기 위해 물에 띄운 꽃가루 입자를 관찰하던 중, 꽃가루 입자가 물위를 끊임없이 불규칙적으로 운동하는 현상을 관찰하게 된다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 풀켈라",
+            "terminate": false,
+            "text": "그게 다 식물이랑 연관이 있지. 브라운이 풀켈라라는 식물의 수정과정을 연구하려고 물에다가 꽃가루를 띄웠는데 말이야. 이 꽃가루가 물 위를 끊임없이 불규칙하게 운동하는 현상을 관찰하게 된 거야.",
+            "turn_id": "BK22004294-2",
+            "utterance_id": "BK22004294.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 꽃가루를 관찰하다가 발견한 거구나. 어떻게 보면 너무 당연한 현상 같은데 곰곰이 생각해 보니 신기하네, 브라운 운동은 왜 일어나는 거야?",
+            "turn_id": "BK22004294-3",
+            "utterance_id": "BK22004294.5"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "이전에는 이러한 운동을 하는 입자들을 스스로 액체 속에서 운동하는 살아있는 생명체인 ‘극미동물(anialcules)'로 생각해왔다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 극미동물",
+            "terminate": false,
+            "text": "아, 이게 쉬운 얘기가 아닌데, 일단 예전에는 극미동물 때문이라고 생각했어. 그러니까 이런 운동을 하는 입자들을 스스로 살아서 움직이는 생명체라고 생각한 거지.",
+            "turn_id": "BK22004294-3",
+            "utterance_id": "BK22004294.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하지만 꽃가루는 그렇다 쳐도, 다른 생물이 아닌 물질들도 다 브라운 운동을 하지 않나?",
+            "turn_id": "BK22004294-4",
+            "utterance_id": "BK22004294.7"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "하지만 브라운이 곱게 갈아낸 무기물, 유리, 금속, 바위 등을 액체에 뿌려 관찰한 결과 꽃가루와 똑같은 불규칙 운동을 한다는 것을 알아내게 되었고 살아있는 생물 때문이 아님을 밝혀내었다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 불규칙 운동",
+            "terminate": false,
+            "text": "응, 브라운도 그렇게 생각했는지 무기물, 유리, 금속, 바위 같은 걸 곱게 갈아서 액체에 넣고 관찰했어. 그리고 이런 것들도 꽃가루와 마찬가지로 불규칙하게 움직이는 걸 보고 브라운 운동이 생물체 때문이 아니란 걸 알게 되었지.",
+            "turn_id": "BK22004294-4",
+            "utterance_id": "BK22004294.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 내 생각에도 생물학적이기보다는 물리적인 이유가 있을 거 같아.",
+            "turn_id": "BK22004294-5",
+            "utterance_id": "BK22004294.9"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "이처럼 운동의 원인이 생물에 의한 것이 아닌 물리적인 것에 있다는 사실이 알려진 이 후 브라운 운동은 물리학자들의 연구의 대상이 되었다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 물리",
+            "terminate": false,
+            "text": "맞아, 이렇게 브라운 운동의 원인이 말한 대로 생물학적인 것이 아니라 물리적인 것에 있다는 게 알려진 이후부터 물리학자들이 연구하기 시작했어.",
+            "turn_id": "BK22004294-5",
+            "utterance_id": "BK22004294.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "물리학자들이 어떤 이유를 밝혀냈는지 궁금하다.",
+            "turn_id": "BK22004294-6",
+            "utterance_id": "BK22004294.11"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "아인슈타인이 브라운 운동을 설명해내기 이전에 여러 과학자들은 열에 의한 대류의 결과라고 생각했다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 아인슈타인",
+            "terminate": false,
+            "text": "아인슈타인이 결국 브라운 운동을 설명해 내기 전까지는 열에 의한 대류 현상이라고 생각했지.",
+            "turn_id": "BK22004294-6",
+            "utterance_id": "BK22004294.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 듣기에는 맞는 거 같은데? 차가운 물보다 뜨거운 물에서 가루 같은 것도 더 잘 움직이지 않나?",
+            "turn_id": "BK22004294-7",
+            "utterance_id": "BK22004294.13"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "차가운 상태에서보다 뜨거운 상태에서 더 활발히 움직이지만 이는 브라운 운동의 원인이라고 할 수 없었다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 원인",
+            "terminate": false,
+            "text": "차가운 상태보다 뜨거운 상태에서 더 활발히 움직임이 있는 건 맞는데 그게 브라운 운동의 원인이라고는 할 수 없어.",
+            "turn_id": "BK22004294-7",
+            "utterance_id": "BK22004294.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 거야? 역시 상식적으로만 생각하면 틀릴 때가 많다니까, 그럼 진짜 원인은 뭔데?",
+            "turn_id": "BK22004294-8",
+            "utterance_id": "BK22004294.15"
+        },
+        {
+            "reference_date": "2022-02-27",
+            "reference_text": [
+                {
+                    "value": "결국 연구들을 통해 주위에 있는 액체분자에 의한 충돌 때문에 브라운 운동을 하게 된다는 것을 알게 된다.",
+                    "value_time": "2022-07-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99",
+            "search_query": "브라운 운동 충돌",
+            "terminate": false,
+            "text": "연구를 거듭한 끝에 액체 분자들이 움직이면서 주위에 있는 다른 액체 분자들과 충돌하면서 브라운 운동이 일어난다는 걸 알게 됐지.",
+            "turn_id": "BK22004294-8",
+            "utterance_id": "BK22004294.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그런 거구나, 대류는 그 충돌을 활성화해주는 거지 충돌 자체의 원인은 아니란 거지?",
+            "turn_id": "BK22004294-9",
+            "utterance_id": "BK22004294.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그게 더 해줄 이야기가 많은데, 미안, 지금 시간이 다 됐네.",
+            "turn_id": "BK22004294-9",
+            "utterance_id": "BK22004294.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 얼른 가봐야 하는구나. 빨리 가고 다음에 또 보자!",
+            "turn_id": "BK22004294-10",
+            "utterance_id": "BK22004294.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 다음에 진짜 시간 내서 자세하게 이야기해줄게. 일단 먼저 간다, 안녕!",
+            "turn_id": "BK22004294-10",
+            "utterance_id": "BK22004294.20"
+        }
+    ]
+}

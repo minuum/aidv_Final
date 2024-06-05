@@ -1,0 +1,321 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22006363",
+        "name": "2022 한국어 블렌더봇 데이터 BK22006363",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0036"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0042"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0021"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 사이코패스를 다룬 콘텐츠들이 참 많은 것 같아요. 그런데 사이코패스가 정확히 어떤 건가요?",
+            "turn_id": "BK22006363-1",
+            "utterance_id": "BK22006363.1"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "사이코패스(Psychopath)는 반복적인 반사회적 행동과 공감 및 죄책감의 결여, 충동성, 자기중심성 등을 특징으로 하는 전통적인 성격 장애 분류이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EC%BD%94%ED%8C%A8%EC%8A%A4",
+            "search_query": "사이코패스 정의",
+            "terminate": false,
+            "text": "사이코패스는 일종의 성격 장애예요. 반사회적인 행동을 반복적으로 하고 공감성과 죄책감이 없다고 볼 수 있죠. 충동성과 자기중심성이 강한 전통적인 장애 분류죠.",
+            "turn_id": "BK22006363-1",
+            "utterance_id": "BK22006363.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 성격 장애로 분류되는군요. 근데 이 용어는 누가 처음 사용한 거죠?",
+            "turn_id": "BK22006363-2",
+            "utterance_id": "BK22006363.3"
+        },
+        {
+            "reference_date": "2022-08-10",
+            "reference_text": [
+                {
+                    "value": "19세기 프랑스 정신과 의사 필리프 피넬(프랑스어: Philippe Pinel)이 사이코패스 증상에 대해 최초로 저술하였고, 1920년대 독일의 심리학자 커트 슈나이더(Kurt Schneider)가 정신병리학적인 사이코패스의 개념을 설명했다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EC%BD%94%ED%8C%A8%EC%8A%A4",
+            "search_query": "사이코패스 첫 저술, 개념 설명",
+            "terminate": false,
+            "text": "1920년대에 독일의 심리학자인 커트 슈나이더가 사이코패스 개념을 정신병리학적으로 처음 설명했어요. 이 증상을 처음으로 저술한 시기는 19세기로, 프랑스의 정신과 의사 필리프 피넬이 기록했고요.",
+            "turn_id": "BK22006363-2",
+            "utterance_id": "BK22006363.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇게 오래된 개념은 아니네요. 그럼 사이코패스는 타고난 건가요, 아니면 환경적인 영향이 큰가요?",
+            "turn_id": "BK22006363-3",
+            "utterance_id": "BK22006363.5"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "사이코패스는 편도체와 뇌의 전두엽이 본래의 기능을 다 하지 못하는 선천적인 요인이 원인이 된다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "편도체는 감정에 영향을 미치며 전두엽은 의사 결정을 담당한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "사이코패스 원인",
+            "terminate": false,
+            "text": "사이코패스는 선천적인 원인으로 발생해요. 편도체와 뇌의 한 부분인 전두엽이 제기능을 못해서 생기는 거죠. 참고로, 편도체는 감정과 관련된 부분에 영향을 끼치고 전두엽은 의사결정에 관해 다루죠.",
+            "turn_id": "BK22006363-3",
+            "utterance_id": "BK22006363.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "사이코패스가 선천적으로 타고나는 거라니, 너무 의외네요. 그럼 사이코패스는 어떤 특징을 보이나요?",
+            "turn_id": "BK22006363-4",
+            "utterance_id": "BK22006363.7"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "사이코패스는 공감 능력이 없고 충동적인 성향이 많기 때문에 자신의 이익에 관계없이 즉흥적으로 범죄를 저지르고, 흔적 등 결정적 증거를 남기는 경우가 많다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "사이코패스 특징",
+            "terminate": false,
+            "text": "사이코패스는 일단 공감하는 능력이 없다고 볼 수 있죠. 충동적인 면도 강해서 이익을 따지지 않고 감정적으로 범죄를 저지르기도 하고요. 그래서 범죄의 결정적 증거가 될 수 있는 흔적 같은 걸 쉽게 남겨요.",
+            "turn_id": "BK22006363-4",
+            "utterance_id": "BK22006363.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마 같은 데서 보던 거랑은 다르게 충동성이 강하네요. 소시오패스도 악역 캐릭터로 많이 쓰던데 사이코패스랑은 어떻게 다른 거예요?",
+            "turn_id": "BK22006363-5",
+            "utterance_id": "BK22006363.9"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "소시오패스는 도덕적 구분이 가능해 행동에 대한 인지는 하되 양심의 가책을 느끼지 않는 정신 장애이며, 사이코패스는 감정이 결여돼 스스로의 행동(범죄)에 대한 심각성 자체를 인지하지 못한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "소시오패스와 사이코패스의 차이",
+            "terminate": false,
+            "text": "음, 사이코패스는 감정을 잘 느끼지 못해서 자신이 저지른 범죄 행위에 대한 심각성도 아예 인지를 못해요. 그런데 소시오패스는 도덕적 행위를 구분할 수 있어서 자신이 한 행동을 인지는 하거든요. 양심에 찔린다거나 하는 감정은 느끼지 못해서 정신 장애로 분류되긴 하지만요.",
+            "turn_id": "BK22006363-5",
+            "utterance_id": "BK22006363.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소시오패스도 정신 장애의 일종이군요. 그럼 소시오패스도 유전적인 게 큰가요?",
+            "turn_id": "BK22006363-6",
+            "utterance_id": "BK22006363.11"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "반면, 소시오패스는 유전적 성향보다 성장 환경이 요인이 되는 경우가 많다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뇌에 문제가 있는 것이 아니며, 유년기 시절의 학대, 충격 등으로 감정의 결여가 습관처럼 굳어져 타인의 고통에 대한 배려가 전혀 없고 자신의 그릇된 행동을 인지하고 있다는 것이 특징이다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "소시오패스 원인, 특징",
+            "terminate": false,
+            "text": "소시오패스는 오히려 타고난 것보다 성장 환경이 원인인 경우가 많아요. 뇌에 특별한 문제가 있진 않은데 유년기 때 학대를 당했거나 큰 충격을 받아서 감정이 결여된 게 습관으로 이어진 거죠. 그래서 타인이 아파하는 것에 대한 배려가 없고 스스로 잘못된 행동을 한다는 걸 잘 알고 있어요.",
+            "turn_id": "BK22006363-6",
+            "utterance_id": "BK22006363.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 그럼 소시오패스의 성향은 어떻게 알아볼 수 있죠?",
+            "turn_id": "BK22006363-7",
+            "utterance_id": "BK22006363.13"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "소시오패스는 스스로의 이익만이 중요하기 때문에 양심과 동정심, 죄책감이 없고 자신의 영역을 넓히기 위해 지속적으로 타인을 속이고 험담하며 자신보다 낮은 위치에 있는 사람은 몹시 기만하고 무책임하게 잘못을 떠넘기기도 한다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "소시오패스 행동 특성",
+            "terminate": false,
+            "text": "소시오패스는 자신이 얻을 이익이 엄청 중요한 사람이에요. 그래서 양심이나 동정심, 죄책감을 느끼지 않고 자신의 바운더리를 넓히려고 다른 사람들을 끊임없이 속이거나 험담하죠. 또, 자기보다 위치가 낮다 싶으면 그 사람을 엄청 기만하기도 하고 어떤 잘못을 저질렀을 때 무책임하게 덮어씌우기도 하고요.",
+            "turn_id": "BK22006363-7",
+            "utterance_id": "BK22006363.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 사회생활 하면서 볼 수 있는 유형이라 상당히 무섭네요. 혹시 소시오패스는 어느 정도 교정이 가능한가요? 사이코패스는 유전적이라 어려워 보이지만, 사이코패스는 후천적인 요인이 크니까 치료를 받으면 괜찮아질 수도 있잖아요.",
+            "turn_id": "BK22006363-8",
+            "utterance_id": "BK22006363.15"
+        },
+        {
+            "reference_date": "2014-01-20",
+            "reference_text": [
+                {
+                    "value": "사이코패스의 경우 선천적인 문제에 의해 자신의 행동에 대한 잘못을 깨닫지 못하므로 치료가 어렵지만, 소시오패스의 경우 환경적 요인에 의해 발생하는 경우가 많고, 자신의 심리적 상태를 누구보다 잘 알고 있으므로 치료를 받으면 증상이 호전될 수 있다.",
+                    "value_time": "2022-08-24",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.korea.kr/news/healthView.do?newsId=148772705",
+            "search_query": "사이코패스와 소시오패스의 치료 가능성",
+            "terminate": false,
+            "text": "치료를 받으면 증상이 나아질 순 있어요. 소시오패스는 말했다시피 환경적으로 영향을 받아 생기는 경우가 많고 자신의 심리를 잘 인지하고 있으니까요. 반면, 사이코패스는 궁금이님이 생각하신 것처럼, 선천적으로 타고난 점 때문에 자신이 어떤 문제를 일으키는지 인지를 못해 치료가 어렵죠.",
+            "turn_id": "BK22006363-8",
+            "utterance_id": "BK22006363.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소시오패스는 치료가 가능하다니 한편으론 다행이네요. 사이코패스는 치료가 어렵다는 게 더 무섭게 다가오고요.",
+            "turn_id": "BK22006363-9",
+            "utterance_id": "BK22006363.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "특히 사이코패스는 범죄를 저질러도 잘못은 인지를 못하다는 점이 섬뜩하긴 하죠.",
+            "turn_id": "BK22006363-9",
+            "utterance_id": "BK22006363.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이야기를 듣고 나니까, 요즘 영화나 드라마에서 사이코패스나 소시오패스를 매력적으로 그리는 경우는 많던데 좀 더 신중하게 만들어야 하지 않나 싶기도 하네요.",
+            "turn_id": "BK22006363-10",
+            "utterance_id": "BK22006363.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "생각해 보니 그렇네요. 실제로는 사회에 큰 해를 끼치니까요. 궁금이님 덕분에 저도 다시 한 번 생각해 보게 됐네요, 물어봐 줘서 고마워요!",
+            "turn_id": "BK22006363-10",
+            "utterance_id": "BK22006363.20"
+        }
+    ]
+}

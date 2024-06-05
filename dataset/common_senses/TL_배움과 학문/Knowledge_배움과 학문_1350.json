@@ -1,0 +1,371 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22008893",
+        "name": "2022 한국어 블렌더봇 데이터 BK22008893",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0025"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0020"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 하늘 정말 이쁘지? 가을이 되니까 구름도 높아지고 하늘이 정말 파랗다.",
+            "turn_id": "BK22008893-1",
+            "utterance_id": "BK22008893.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아. 요즘 미세먼지도 많이 없어서 하늘이 정말 이쁘지.",
+            "turn_id": "BK22008893-1",
+            "utterance_id": "BK22008893.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 기상과 관련해서 공부해 볼까 하고 있는데 구름도 마냥 풍경처럼 보이지만은 않네. 구름이 어떻게 만들어지는지 너 혹시 알아?",
+            "turn_id": "BK22008893-2",
+            "utterance_id": "BK22008893.3"
+        },
+        {
+            "reference_date": "2019-08-08",
+            "reference_text": [
+                {
+                    "value": "구름의 생성과정을 보면, 수증기를 포함한 공기가 높이 올라갈수록 점차 기압이 낮아지게 되고, 수증기를 포함한 공기는 점점 부피가 커지게 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "부피가 커지면서 공기 온도는 낮아지고, 기온이 이슬점 온도 아래로 내려가면 수증기는 응결된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 응결된 수증기는 작은 물방울이나 얼음 알갱이가 되어 일정한 곳에 몰려서 구름이 만들어지게 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idaegu.com/newsView/idg201908080042",
+            "search_query": "구름 생기는 과정",
+            "terminate": false,
+            "text": "응 내가 설명해 줄게. 우선 수증기가 포함된 공기가 위로 올라가면서 기압이 낮아지는데 이때 공기는 부피가 점점 커지게 돼. 부피가 커질수록 공기의 온도는 낮아지고 온도가 이슬점 기준 온도 아래로 내려가게 되면 수증기는 응결되는데 이 응결된 수증기들이 작은 물방울이나 얼음 알갱이가 되어서 한 데 뭉치면서 구름이 만들어지는 거야.",
+            "turn_id": "BK22008893-2",
+            "utterance_id": "BK22008893.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "공기가 낮은 온도에 응결되면서 뭉치는 거구나. 사실 우리 눈으로 하늘의 구름을 보면 고체 덩어리처럼 보이잖아. 고체 형태는 아닌거지?",
+            "turn_id": "BK22008893-3",
+            "utterance_id": "BK22008893.5"
+        },
+        {
+            "reference_date": "2022-03-26",
+            "reference_text": [
+                {
+                    "value": "구름은 고체처럼 보이지만 가스의 형태로 구성됐다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "높은 산의 정상에 오르거나 비행기를 타고 구름을 스쳐 지나가면 알 수 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ekn.kr/web/view.php?key=20220326010004285",
+            "search_query": "구름 고체",
+            "terminate": false,
+            "text": "우리가 보기에 구름이 고체처럼 보이지만 구름은 가스 형태로 되어있어. 높은 산에 올라가거나 비행기 타고 구름을 지나갈 때 잘 알 수 있지.",
+            "turn_id": "BK22008893-3",
+            "utterance_id": "BK22008893.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아 그러고 보니 비행기 타고 구름을 지나갈 때 보면 연기같이 생겼네. 구름은 대부분 하얗잖아. 물방울의 집합체인 구름이 어떻게 하얗게 보이는 거야?",
+            "turn_id": "BK22008893-4",
+            "utterance_id": "BK22008893.7"
+        },
+        {
+            "reference_date": "2016-04-08",
+            "reference_text": [
+                {
+                    "value": "결국 구름 속에 있는 물방울과 얼음 결정들은 모든 색깔의 빛을 산란시킨다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "모든 색깔의 빛이 다 모이면 흰색이 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그래서 구름이 흰색으로 보이는 것이다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=3580454&cid=58947&categoryId=58981",
+            "search_query": "구름",
+            "terminate": false,
+            "text": "구름 속의 물방울들과 얼음 결정체들은 모든 색의 빛들을 산란시키거든. 모든 색의 빛이 다 모이면 흰색이 되니까 구름이 흰색으로 보이는 거야.",
+            "turn_id": "BK22008893-4",
+            "utterance_id": "BK22008893.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 색의 빛을 다 모으면 흰색이 된다는 거 초등학생 때 배웠는데 그 원리였구나. 아 그런데 먹구름은 또 약간 검잖아. 먹구름은 왜 그런 색을 띄는거지?",
+            "turn_id": "BK22008893-5",
+            "utterance_id": "BK22008893.9"
+        },
+        {
+            "reference_date": "2022-05-07",
+            "reference_text": [
+                {
+                    "value": "먹구름은 구성된 물방울들의 입자가 비로 내릴 정도로 크게 응결된 상태다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여러개의 큰 물방울 입자가 모인 만큼, 구름 내의 물방울 밀도는 매우 높고 촘촘하게 이뤄져 있다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "물방울 간 밀도가 높으면 태양광 등 빛이 구름을 온전하게 통과하기 어려워지는데, 이 경우 인간의 눈에 전달되는 빛 역시 적어져 구름 자체가 검은색으로 보이게 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://it.chosun.com/site/data/html_dir/2022/05/06/2022050601207.html",
+            "search_query": "먹구름 검은색",
+            "terminate": false,
+            "text": "먹구름을 구성하는 물방울들은 입자가 비로 내릴 만큼 아주 크게 응결되어 있는데 이런 큰 물방울 입자가 여러 개 모여있다 보니 구름 안의 물방울 밀도가 높고 촘촘해. 그래서 물방울 간 밀도가 높으면 태양광 같은 빛이 구름 사이를 제대로 통과하기 어려워지면서 사람의 눈으로 전달되는 빛이 적어져서 구름이 검은색으로 보이는 거야.",
+            "turn_id": "BK22008893-5",
+            "utterance_id": "BK22008893.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설명이 정말 이해가 쏙쏙되네. 아 그리고 우리가 보통 구름처럼 가볍다고 하잖아. 그런데 사실 구름이 아주 무겁다며?",
+            "turn_id": "BK22008893-6",
+            "utterance_id": "BK22008893.11"
+        },
+        {
+            "reference_date": "2021-09-07",
+            "reference_text": [
+                {
+                    "value": "구름의 무게는 종류에 따라 각각 다르다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "구름 속 물의 무게에 공기의 무게를 더한 것이 최종적인 구름의 무게가 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "최종적으로 적운에서 물의 무게와 공기를 합치면 총 1,000,250t이 된다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kidshankook.kr/news/articleView.html?idxno=793",
+            "search_query": "구름의 무게",
+            "terminate": false,
+            "text": "구름의 무게는 구름 속에 물과 공기의 무게를 더하면 되는데 무게는 구름의 종류마다 달라. 예를 들어 적운의 경우 물과 공기 무게를 합치면 백만 이백오십톤이나 돼.",
+            "turn_id": "BK22008893-6",
+            "utterance_id": "BK22008893.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "헉 엄청나게 무겁구나. 그렇게 무거운데 어떻게 하늘에 떠 있을 수 있는거야?",
+            "turn_id": "BK22008893-7",
+            "utterance_id": "BK22008893.13"
+        },
+        {
+            "reference_date": "2021-07-31",
+            "reference_text": [
+                {
+                    "value": "그건 대기의 상승기류 때문입니다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "구름 전체의 무게는 어마어마하지만 구름은 작은 물방울로 이루어져 있어서 물방울에 미치는 상승 기류에 비해 중력이 워낙 작기 때문입니다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.edaily.co.kr/news/read?newsId=01416966629120096&mediaCodeNo=257&OutLnkChk=Y",
+            "search_query": "구름은 어떻게 떠 있을 수 있을까",
+            "terminate": false,
+            "text": "구름이 떠 있을 수 있는 건 상승기류 때문이야. 구름의 무게 자체는 엄청나게 무겁지만 작은 물방울 하나하나로 구성되어 있잖아. 이 물방울에 미치는 중력에 비해 상승 기류가 강하기 때문에 올라갈 수 있는거지.",
+            "turn_id": "BK22008893-7",
+            "utterance_id": "BK22008893.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하 그렇구나. 구름이 종류도 여러 가지가 있잖아. 종류는 보통 어떻게 나눌 수 있어?",
+            "turn_id": "BK22008893-8",
+            "utterance_id": "BK22008893.15"
+        },
+        {
+            "reference_date": "2022-07-11",
+            "reference_text": [
+                {
+                    "value": "구름은 크게 권운형, 층운형, 층적운형, 적운형으로 구분하며 고도에 따라 상층운, 중층운, 하층운, 수직운 이렇게 네 가지로 나뉜다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%A6%84",
+            "search_query": "구름 종류",
+            "terminate": false,
+            "text": "구름은 보통 권운형과 층운형, 층적운형, 적운형으로 나뉘고 높이에 따라서는 상층운, 중층운, 하층운과 수직운으로 분류되고 있어.",
+            "turn_id": "BK22008893-8",
+            "utterance_id": "BK22008893.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잘 들어보지 못한 이름들이네. 내가 아는 건 양떼구름, 뭉게구름 이런 이름들이니까. 우리가 뭉게구름이라고 부르는 건 어떤 구름인거야?",
+            "turn_id": "BK22008893-9",
+            "utterance_id": "BK22008893.17"
+        },
+        {
+            "reference_date": "2016-08-25",
+            "reference_text": [
+                {
+                    "value": "▦ 구름 분류상 뭉게구름은 적운(積雲)에 속한다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "영어로는 Cumulus라고 하는데 쌓인다는 뜻의 라틴어에서 유래했다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "맑은 날 일사에 의한 상승기류를 타고 상공으로 올라온 수증기가 응결돼 뭉게구름을 만든다.",
+                    "value_time": "2022-09-18",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/469/0000158146?sid=110",
+            "search_query": "뭉게구름",
+            "terminate": false,
+            "text": "뭉게구름은 구름 분류상 적운에 속하는 구름이야. 쌓인다라는 뜻의 라틴어에서 유래해서 영어로 CUMULUS라고 해. 날이 맑을 때 햇빛에 의해서 상승기류를 타고 올라온 수증기가 응결되서 뭉게구름을 만들 게 되지.",
+            "turn_id": "BK22008893-9",
+            "utterance_id": "BK22008893.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "쌓인다라는 뜻이 있는 이름이라니 뭔가 귀엽다. 이것저것 더 궁금한 게 많은데 가봐야 해서 오늘은 여기까지만 들어야겠다. 다음에 언제 또 얘기 좀 들려줘.",
+            "turn_id": "BK22008893-10",
+            "utterance_id": "BK22008893.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 시간 많을 때 만나서 또 얘기 나누자.",
+            "turn_id": "BK22008893-10",
+            "utterance_id": "BK22008893.20"
+        }
+    ]
+}

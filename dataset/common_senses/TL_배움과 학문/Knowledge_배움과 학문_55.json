@@ -1,0 +1,331 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009306",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009306",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0031"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시험이 코앞인데 진도가 도통 안 잡히네, 집중이 안 돼서 큰일이야.",
+            "turn_id": "BK22009306-1",
+            "utterance_id": "BK22009306.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "진도가 많이 막막한가 보네, 어떤 과목을 공부 중인데? 헷갈리는 게 있으면 물어봐, 알려줄게.",
+            "turn_id": "BK22009306-1",
+            "utterance_id": "BK22009306.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "지금은 인사 관리론을 보고 있는데, 서번트 리더십이라는 개념이 잘 외워지지 않아. 이 개념에 관해서 설명해줄 수 있어?",
+            "turn_id": "BK22009306-2",
+            "utterance_id": "BK22009306.3"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "서번트 리더십(servant leadership)이란 구성원에게 목표를 공유하고 구성원들의 성장을 도모하면서,[1] 리더와 구성원의 신뢰를 형성시켜 궁극적으로 조직성과를 달성하게 하는 리더십이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%88%ED%8A%B8_%EB%A6%AC%EB%8D%94%EC%8B%AD",
+            "search_query": "서번트 리더십",
+            "terminate": false,
+            "text": "서번트 리더십은 구성원들의 성장을 도모하고, 구성원들에게 목표를 공유하며 리더와 구성원 사이의 신뢰를 형성시키는 리더십이야. 이를 통해 조직성과를 성공적으로 달성하는 것이 궁극적인 목표지.",
+            "turn_id": "BK22009306-2",
+            "utterance_id": "BK22009306.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "음, 그 설명은 이해가 가는데, 서번트라는 단어 자체가 하인을 의미하잖아. 그 부분에 좀 더 부합하는 의미의 설명은 없을까?",
+            "turn_id": "BK22009306-3",
+            "utterance_id": "BK22009306.5"
+        },
+        {
+            "reference_date": "2022-09-18",
+            "reference_text": [
+                {
+                    "value": "서번트 리더십은 리더가 구성원 섬기는 자세로 그들의 성장 및 발전을 돕고 조직 목표 달성에 구성원 스스로 기여하도록 만든다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "Greenleaf(1970)는 리더를 다른 사람에게 봉사하는 하인(servant)으로 생각하고, 구성원을 섬김의 대상으로 보아 명령과 통제로 일관하는 자기중심적 리더가 아닌 신뢰와 믿음을 바탕으로 개방적인 가치관을 지닌 리더로 보았다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%88%ED%8A%B8_%EB%A6%AC%EB%8D%94%EC%8B%AD",
+            "search_query": "서번트 리더십",
+            "terminate": false,
+            "text": "1970년도에 Greenleaf는 리더를 다른 사람에게 봉사하는 하인이라 정의했어. 구성원을 대할 때, 명령이나 통제로 일관하지 않고 섬김의 대상으로 대하며 신뢰와 믿음을 쌓고, 개방적인 가치관을 지닌 리더라 보았지. 따라서 서번트 리더십은 리더가 구성원을 공경하는 자세로 그들의 성장 및 발전을 거들고, 조직의 목표 달성에 구성원들이 손수 기여할 수 있도록 만들어.",
+            "turn_id": "BK22009306-3",
+            "utterance_id": "BK22009306.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "구성원을 섬기는 자세로 대하는 것이 특징이었구나. 그렇다면 서번트 리더십과 전통적인 리더십의 차이점이 뭐야?",
+            "turn_id": "BK22009306-4",
+            "utterance_id": "BK22009306.7"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "전통적인 리더십은 회사 또는 조직의 성공에 초점을 두지만 서번트 리더십은 직원을 우선시하며 직원의 헌신과 참여를 통해 조직을 성장시킨다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ciokorea.com/news/236904",
+            "search_query": "전통적 리더십 서번트 리더십",
+            "terminate": false,
+            "text": "두 리더십 유형은 우선시하는 기준이 사뭇 다르지. 전통적인 리더십은 조직의 성공에 중점을 두는 데 반해, 서번트 리더십은 직원을 우선시하거든. 이를 통해 직원들이 참여와 헌신을 통해 조직을 성장시키는 것에 목표를 둬.",
+            "turn_id": "BK22009306-4",
+            "utterance_id": "BK22009306.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "궁극적인 지향점은 같지만, 방식이 다른 거구나. 하지만 서번트 리더십은 아무래도 사람을 대하는 방식에 가깝다 보니 단점도 있을 것 같은데?",
+            "turn_id": "BK22009306-5",
+            "utterance_id": "BK22009306.9"
+        },
+        {
+            "reference_date": "2022-05-18",
+            "reference_text": [
+                {
+                    "value": "직원이 팀의 핵심 임무에 헌신하지 않는다면 역효과가 생길 수 있다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그러나 서번트 리더십이 늘 유효하지는 않다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ciokorea.com/news/236904",
+            "search_query": "서번트 리더십 역효과",
+            "terminate": false,
+            "text": "맞아, 서번트 리더십이 언제나 옳다고는 볼 수 없지. 만약 구성원이 팀의 핵심 업무에 열심히 참여하지 않는다면 역효과가 생길 수 있어.",
+            "turn_id": "BK22009306-5",
+            "utterance_id": "BK22009306.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇겠네, 그나저나 갑자기 생각난 게 있어. 서번트 증후군의 서번트는, 서번트 리더십의 서번트와 같은 단어는 아니지? 서번트 증후군이 어떤 현상을 의미하더라?",
+            "turn_id": "BK22009306-6",
+            "utterance_id": "BK22009306.11"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "이렇게 자폐증이나 지적장애를 지닌 사람들에게 음악에 천재적 재능이 나타나는 현상을 음악 서번트 증후군(Savant Syndrome)이라고 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kihoilbo.co.kr/news/articleView.html?idxno=993647",
+            "search_query": "서번트 증후군",
+            "terminate": false,
+            "text": "응, 서번트 증후군의 서번트는 Savant야. 서번트 증후군은 지적장애나 자폐증을 가진 사람 중에서 천재적 재능이 발현되는 현상을 말하는데, 예를 들어 음악 쪽으로 천재적인 재능이 나타나는 경우 음악 서번트 증후군이라 부르지.",
+            "turn_id": "BK22009306-6",
+            "utterance_id": "BK22009306.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 발음이 비슷해서 같은 단어인 줄 알았어. 또 하나 궁금한 게 있는데, 경영학 용어 중에 백 오피스가 무슨 뜻이야?",
+            "turn_id": "BK22009306-7",
+            "utterance_id": "BK22009306.13"
+        },
+        {
+            "reference_date": "2022-02-05",
+            "reference_text": [
+                {
+                    "value": "백 오피스(Back office)는 일선 업무 이외에 후방에서 일선 업무를 지원하고 도와주는 부서 또는 그런 업무를 말한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "특히 증권회사에서 유가증권에 대한 매매 거래가 끝난 후에, 담당 기관이 그 거래를 처리하는 업무 또는 그 과정을 말하기도 하며 후선업무라고도 부른다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B0%B1_%EC%98%A4%ED%94%BC%EC%8A%A4",
+            "search_query": "백오피스",
+            "terminate": false,
+            "text": "백 오피스는 후방에서 일선 업무를 도와주는 부서나, 혹은 그런 업무 자체를 일컫는 말이야. 증권회사의 경우, 유가증권에 관한 거래가 끝나면 담당 기관이 해당 거래를 처리하는 업무 과정을 백 오피스라 부르기도 하지. 같은 의미로 후선업무라고도 불러.",
+            "turn_id": "BK22009306-7",
+            "utterance_id": "BK22009306.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇구나, 그럼 혹시 프런트 오피스는 백 오피스의 반대 의미로 보면 될까?",
+            "turn_id": "BK22009306-8",
+            "utterance_id": "BK22009306.15"
+        },
+        {
+            "reference_date": "2022-04-01",
+            "reference_text": [
+                {
+                    "value": "프런트 오피스(Front office)는 호텔 등에서 가장 먼저 손님을 접하는 공간을 의미한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "의미가 커져 회사 등의 운영 부서 전체를 뜻하기도 한다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9F%B0%ED%8A%B8_%EC%98%A4%ED%94%BC%EC%8A%A4",
+            "search_query": "프런트 오피스",
+            "terminate": false,
+            "text": "완전히 반대의 의미는 아니야. 프런트 오피스는 호텔 등에서 손님을 가장 먼저 접하는 공간을 의미하거든. 큰 의미로 보았을 때는, 회사 등의 운영 부서 전체를 뜻하기도 해. 스포츠 구단의 경우, 선수단 외에 행정 업무를 처리하는 부서를 프런트 오피스라 부르지.",
+            "turn_id": "BK22009306-8",
+            "utterance_id": "BK22009306.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 완전히 상반되는 의미라기 보다는 다른 의미로 쓰이기도 하는 거였구나. 마지막으로 하나만 더 물을게. 유니콘 기업이라는 경영 용어를 처음 사용한 사람이 누구야?",
+            "turn_id": "BK22009306-9",
+            "utterance_id": "BK22009306.17"
+        },
+        {
+            "reference_date": "2022-03-09",
+            "reference_text": [
+                {
+                    "value": "2013년 벤처 투자자인 에일린 리(Aileen Lee)가 처음 사용한 용어이다.",
+                    "value_time": "2022-09-22",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%98_%EA%B8%B0%EC%97%85",
+            "search_query": "유니콘 기업",
+            "terminate": false,
+            "text": "에일린 리가 2013년도에 처음으로 그 용어를 사용했어. 에일린 리는 벤처 투자자지.",
+            "turn_id": "BK22009306-9",
+            "utterance_id": "BK22009306.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "생각보다 쓰인 지 그리 오래된 용어는 아니었구나. 오늘 설명 모두 고마워, 시험공부에 큰 도움이 되었어!",
+            "turn_id": "BK22009306-10",
+            "utterance_id": "BK22009306.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "별말씀을, 열심히 공부해서 좋은 성적 받을 수 있길 바랄게!",
+            "turn_id": "BK22009306-10",
+            "utterance_id": "BK22009306.20"
+        }
+    ]
+}

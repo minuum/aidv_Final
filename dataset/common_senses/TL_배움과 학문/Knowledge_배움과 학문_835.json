@@ -1,0 +1,326 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005453",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005453",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0029"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어제 재밌는 수학 문제라면서 4색 문제라는 걸 들었는데 정확한 내용을 듣지를 못했어. 혹시 알고 있는 내용이 있어?",
+            "turn_id": "BK22005453-1",
+            "utterance_id": "BK22005453.1"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "4색 정리(四色定理) 또는 4색 문제(四色問題)는 평면을 유한 개의 부분으로 나누어 각 부분에 색을 칠할 때, 서로 맞닿은 부분을 다른 색으로 칠한다면 네 가지 색으로 충분하다는 정리이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리",
+            "terminate": false,
+            "text": "오, 4색 문제 말이지? 잘 알고 있지, 4색 정리라고 부르기도 하는데 평면을 유한한 갯수의 부분으로 나눈 다음에 각각의 부분에 색을 칠하게 될 때 서로 맞닿은 부분을 다른 색으로 칠한다면 네 가지 색만으로 충분히 가능하다는 정리야.",
+            "turn_id": "BK22005453-1",
+            "utterance_id": "BK22005453.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 색을 칠하는 문제였어? 수학 문제 치고는 굉장히 신기하다. 왜 이런 정리가 나온 거지?",
+            "turn_id": "BK22005453-2",
+            "utterance_id": "BK22005453.3"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "이 문제는 지도에서 서로 맞닿은 지역에 다른 색을 칠한다는 것에서 착안해 만들어졌다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 지도",
+            "terminate": false,
+            "text": "아, 원래 이 문제는 지도에서 서로 닿아있는 지역에 다른 색을 칠해서 표기하는 걸 보고 착안해서 생겨난거야.",
+            "turn_id": "BK22005453-2",
+            "utterance_id": "BK22005453.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 지도를 보고 만들어진 문제구나. 너무 재밌다, 사람들이 어떤 식으로 문제에 접근했을지 궁금해. 증명 방식 같은 거 말이야.",
+            "turn_id": "BK22005453-3",
+            "utterance_id": "BK22005453.5"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "세 가지 색으로는 평면을 칠할 수 없다는 것은 반례를 찾는 것으로 증명할 수 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 다섯 가지 색으로 칠하는 것이 가능하다는 것도 증명되어 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "하지만 네 가지 색으로 가능한지에 대한 문제는 오랫동안 미해결 상태였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 반례",
+            "terminate": false,
+            "text": "일단 네 가지가 아닌 세 가지 색으로는 평면을 칠할 수 없다는 건 반례를 통해 증명 되었어. 또 다섯 가지 색으로는 가능하다는 것도 증명이 되었지. 근데 이 네 가지로 되는지 안 되는지는 한동안 풀리지 않는 미해결 상태였어.",
+            "turn_id": "BK22005453-3",
+            "utterance_id": "BK22005453.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "듣기엔 간단한데 생각보다 어려운 문제인가 보네? 처음에 누가 만든 문제인건데?",
+            "turn_id": "BK22005453-4",
+            "utterance_id": "BK22005453.7"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "4색 문제를 처음으로 연구한 사람은 프랜시스 구드리(Francis Guthrie)이다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "1852년에 영국의 지도를 색으로 칠해 구분하다가, 네 가지 색만 사용하면 각 주(州)를 구분할 수 있다는 것을 발견하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 구드리",
+            "terminate": false,
+            "text": "처음으로 연구한 건 프랜시스 구드리라는 사람이야. 1852년에 영국 지도를 색칠하면서 구분하다가 네 가지 색만 있으면 영국의 각 주를 모두 구분할 수 있다는 걸 발견했지.",
+            "turn_id": "BK22005453-4",
+            "utterance_id": "BK22005453.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 백년이 넘은 문제였구나. 아까 오랫동안 미해결이라고 했는데 기존 방법으로 안 되는 거면 뭔가 획기적인 돌파구가 있어야 됐던 거 아닐까?",
+            "turn_id": "BK22005453-5",
+            "utterance_id": "BK22005453.9"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "독일의 수학자 하인리히 헤쉬(Heinrich Heesch)는 컴퓨터로 수학적 증명을 해결하는 방법을 제안하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 헤쉬",
+            "terminate": false,
+            "text": "오, 돌파구라면 돌파구랄까? 컴퓨터가 등장하게 되었지. 독일의 수학자 하인리히 헤쉬라는 사람이 컴퓨터로 이 문제를 증명하는 방법을 제시했거든.",
+            "turn_id": "BK22005453-5",
+            "utterance_id": "BK22005453.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터를 이용했다고? 어떤 방식으로 증명에 컴퓨터를 사용 한 거야?",
+            "turn_id": "BK22005453-6",
+            "utterance_id": "BK22005453.11"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "평면을 여러 개의 부분으로 나누는 가짓수를 무한 개에서 유한 개로 줄인 증명이 발표된 후, 이후 이 유한 개의 경우를 모두 컴퓨터 계산을 통해 검사하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 컴퓨터",
+            "terminate": false,
+            "text": "일단 평면을 여러 부분으로 나누는 경우의 가짓수를 무한 개에서 유한 개로 줄일 수 있는 증명이 나왔어. 이렇게 유한개로 가짓수가 줄어든 이후에 이 모든 경우를 컴퓨터로 계산해서 검사하기 시작했어.",
+            "turn_id": "BK22005453-6",
+            "utterance_id": "BK22005453.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "와, 정말 신기하다, 컴퓨터도 수학증명에 이용하는구나. 그래서 결국 증명에 성공했어?",
+            "turn_id": "BK22005453-7",
+            "utterance_id": "BK22005453.13"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "드디어 1976년에 일리노이 대학교 어바나-샴페인의 케네스 아펠과 볼프강 하켄이 히쉬의 기본 아이디어에 J. 코흐 (Koch)의 알고리즘을 더하여 4색 정리를 증명하는 데에 성공하였다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 코흐 알고리즘",
+            "terminate": false,
+            "text": "1976년에 일리노이 대학교 어바나 샴페인의 케네스 아펠이랑 볼프강 하켄이 아까 말한 헤쉬의 기본 아이디어에 코흐의 알고리즘을 결합해 마침내 4색 문제를 증명해냈지.",
+            "turn_id": "BK22005453-7",
+            "utterance_id": "BK22005453.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "증명 하나에 정말 오래 걸렸다. 게다가 컴퓨터까지 썼다고 하니까 뭔가 사람이 직접 증명한 건 아닌 것 같은 느낌도 들고?",
+            "turn_id": "BK22005453-8",
+            "utterance_id": "BK22005453.15"
+        },
+        {
+            "reference_date": "2022-07-03",
+            "reference_text": [
+                {
+                    "value": "즉, 이 문제는 컴퓨터를 이용한 증명으로, 일부 사람들은 이러한 증명은 진정한 의미의 수학적인 증명이 아니라고 생각하고, 더욱 간단한 방법의 증명을 찾는 사람들도 있다.",
+                    "value_time": "2022-08-10",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/4%EC%83%89_%EC%A0%95%EB%A6%AC",
+            "search_query": "4색정리 간단한 증명",
+            "terminate": false,
+            "text": "응, 실제로 사람들 중 일부는 컴퓨터를 이용한 이런 증명은 진정한 의미의 수학적 증명이 아니라고 생각해서 간단한 방법의 다른 증명 방법을 찾고 있기도 해.",
+            "turn_id": "BK22005453-8",
+            "utterance_id": "BK22005453.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "뭐 그래도 컴퓨터도 결국 사람이 만든 거니까, 진정한 증명이 아니라고 하는 것도 좀 이상한 거 같아.",
+            "turn_id": "BK22005453-9",
+            "utterance_id": "BK22005453.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "응, 나도 그렇게 생각해. 그나저나 이야기에 너무 몰두하다 보니 벌써 갈 시간이다.",
+            "turn_id": "BK22005453-9",
+            "utterance_id": "BK22005453.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어, 정말 그러네. 어서 들어가 봐, 그럼 안녕!",
+            "turn_id": "BK22005453-10",
+            "utterance_id": "BK22005453.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 나중에 봐서 또 만나자고. 다음에 연락줘, 잘가!",
+            "turn_id": "BK22005453-10",
+            "utterance_id": "BK22005453.20"
+        }
+    ]
+}

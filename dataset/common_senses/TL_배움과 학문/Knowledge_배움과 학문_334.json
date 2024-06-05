@@ -1,0 +1,311 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22013250",
+        "name": "2022 한국어 블렌더봇 데이터 BK22013250",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0004"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0023"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "광복절이 가까워지니 우리나라 역사에 대해 관심이 더욱 커지네요.",
+            "turn_id": "BK22013250-1",
+            "utterance_id": "BK22013250.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 한국사 능력 검정 시험을 공부해 보시는 건 어때요?",
+            "turn_id": "BK22013250-1",
+            "utterance_id": "BK22013250.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국사 능력 검정 시험이요? 처음 들어 보는데 어떤 시험인데요?",
+            "turn_id": "BK22013250-2",
+            "utterance_id": "BK22013250.3"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "한국사능력검정시험(韓國史能力檢定試驗)은 한국사에 대한 관심을 확산 · 심화시키는 계기를 마련하고 한국사에 대해 폭넓고 올바른 지식을 공유하여 균형 잡힌 역사 의식을 갖도록 하며 역사 교육의 올바른 방향을 제시하기 위해 2006년 11월 25일부터 시작된 시험으로서 국사편찬위원회가 주관 및 시행한다.",
+                    "value_time": "44790.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98",
+            "search_query": "한국사 능력 검정 시험",
+            "terminate": false,
+            "text": "한국사 능력 검정 시험은 국사편찬위원회가 주관해 2006년 11월 25일에 시작되었는데요. 한국사에 대해 관심을 심화하고 확산시킬 수 있도록 하고 올바른 지식을 통해 균형 잡힌 역사의식을 고취하고자 하며 역사를 교육하는 데 있어서 바른 방향을 제시하기 위한 목적을 가지고 시행하기 시작한 시험이에요.",
+            "turn_id": "BK22013250-2",
+            "utterance_id": "BK22013250.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그럼 이 시험도 등급이 나뉘어 있나요?",
+            "turn_id": "BK22013250-3",
+            "utterance_id": "BK22013250.5"
+        },
+        {
+            "reference_date": "44633.0",
+            "reference_text": [
+                {
+                    "value": "급수는 1급부터 6급까지 있으며 1급, 2급, 3급은 심화, 4급, 5급, 6급은 기본으로 문제가 통합되어 시행되고 있다.",
+                    "value_time": "44790.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%82%AC%EB%8A%A5%EB%A0%A5%EA%B2%80%EC%A0%95%EC%8B%9C%ED%97%98",
+            "search_query": "한국사 능력 검정 시험 급수",
+            "terminate": false,
+            "text": "네, 한국사 능력 검정 시험 급수는 총 6등급인데요, 1급부터 3급까지는 심화 과정으로 4급부터 6급까지는 기본 과정으로 각각 통합된 문제를 풀게 돼요.",
+            "turn_id": "BK22013250-3",
+            "utterance_id": "BK22013250.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오, 그럼 심화와 기본 과정에는 어떤 차이가 있는지 궁금해요.",
+            "turn_id": "BK22013250-4",
+            "utterance_id": "BK22013250.7"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "심화 과정은 한국사에 대한 체계적인 이해를 바탕으로 한국사의 주요 사건과 개념을 종합적으로 이해하고, 역사 자료를 분석하고 해석하는 능력, 한국사의 흐름 속에서 시대적 상황 및 쟁점을 파악하는 능력을 평가한다.",
+                    "value_time": "44790.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=97461",
+            "search_query": "한국사 능력 검정 시험 심화 과정",
+            "terminate": false,
+            "text": "한국사 능력 검정 시험 심화 과정의 경우, 짜임새 있는 한국사의 이해를 기반으로 한국사 내의 사건이나 개념 등을 종합적으로 이해했는지, 역사 자료를 분석할 수 있는지, 시대적 상황이나 쟁점을 제대로 파악하고 있는지 등에 대한 능력을 평가해요.",
+            "turn_id": "BK22013250-4",
+            "utterance_id": "BK22013250.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇다면 기본 과정은 어떤 걸 평가하나요?",
+            "turn_id": "BK22013250-5",
+            "utterance_id": "BK22013250.9"
+        },
+        {
+            "reference_date": "44701.0",
+            "reference_text": [
+                {
+                    "value": "반면 기본과정은 기초적인 역사 상식을 바탕으로 한국사의 필수 지식과 기본적인 흐름을 이해하는 능력을 평가한다.",
+                    "value_time": "44790.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=97461",
+            "search_query": "한국사 능력 검정 시험 기본 과정",
+            "terminate": false,
+            "text": "한국사 능력 검정 시험 기본 과정의 경우에는 기초 역사 상식을 가지고 한국사에서 필수적으로 알고 있어야 하는 지식이나 흐름을 이해하고 있는지에 대한 능력을 평가하죠.",
+            "turn_id": "BK22013250-5",
+            "utterance_id": "BK22013250.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 과정의 차이가 존재하긴 하네요. 그런데 이 자격증을 취득하면 어디에 쓸 수 있어요?",
+            "turn_id": "BK22013250-6",
+            "utterance_id": "BK22013250.11"
+        },
+        {
+            "reference_date": "44552.0",
+            "reference_text": [
+                {
+                    "value": "공기업은 물론이고 7급 국가직과 지방직 모두 해당 성적을 2급 이상으로 반영하고 있기 때문에 한국사능력검정시험은 역사 마니아들만 응시한다는 편견이 사라진지 오래다.",
+                    "value_time": "44790.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20337",
+            "search_query": "한국사 능력 검정 시험 활용처",
+            "terminate": false,
+            "text": "공기업과 7급 국가직, 지방직 공무원 등 모두 한국사 능력 검정시험 활용처라 볼 수 있는데, 2급 이상의 성적을 반영하고 있거든요. 그래서 역사를 좋아하는 사람들이 아니더라도 응시하고 있어요.",
+            "turn_id": "BK22013250-6",
+            "utterance_id": "BK22013250.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오호, 모두 2급 이상 보유해야 한다고요?",
+            "turn_id": "BK22013250-7",
+            "utterance_id": "BK22013250.13"
+        },
+        {
+            "reference_date": "44552.0",
+            "reference_text": [
+                {
+                    "value": "공기업은 1급 이상, 공무원 7급 지방직 및 국가직, 5급 주요 직렬이 2급 이상을 요구하고 있으니 이왕 1급을 목표로 빠르게 한능검 자격을 보유하는 것이 좋다.",
+                    "value_time": "44790.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.edupolnews.com/news/articleView.html?idxno=20337",
+            "search_query": "한국사 능력 검정시험 공기업",
+            "terminate": false,
+            "text": "네, 정확히는 공기업의 경우에는 1급 이상이고 7급 국가직과 지방직 공무원 그리고 5급 공무원 모두 2급 이상을 요구하니 한국사 능력 검정 시험 1급을 목표로 하는 게 좋겠죠.",
+            "turn_id": "BK22013250-7",
+            "utterance_id": "BK22013250.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 그렇다면 시험 회차는 자주 있는 편인가요?",
+            "turn_id": "BK22013250-8",
+            "utterance_id": "BK22013250.15"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "응시자 급증에 국사편찬위는 연간 4회 실시하던 시험을 2020년부터 5회로 늘렸고, 작년엔 6회로 한 회를 더 추가했다.",
+                    "value_time": "44790.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/08/09/ZMQEDZDVXRH3TGGJHQKNDWBAB4/",
+            "search_query": "한국사 능력 검정 시험 회차",
+            "terminate": false,
+            "text": "한 해에 4번 있었던 한국사 능력 검정 시험 회차를 2020년에는 5회, 작년엔 6회차로 늘리긴 했어요.",
+            "turn_id": "BK22013250-8",
+            "utterance_id": "BK22013250.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아무래도 응시자가 계속 증가해서 회차가 늘어났나 봐요. 얼마나 많은 사람들이 응시하는지도 궁금하네요.",
+            "turn_id": "BK22013250-9",
+            "utterance_id": "BK22013250.17"
+        },
+        {
+            "reference_date": "44782.0",
+            "reference_text": [
+                {
+                    "value": "작년 한 해 동안 한국사 시험에 응시한 인원은 51만8209명이다. 같은 해 수능 응시생(50만9821명)보다 많아 “수능에 버금가는 시험”이라는 말까지 나온다.",
+                    "value_time": "44790.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/national/education/2022/08/09/ZMQEDZDVXRH3TGGJHQKNDWBAB4/",
+            "search_query": "한국사 능력 검정 시험 응시생 수",
+            "terminate": false,
+            "text": "작년 한국사 능력 시험 응시생 수는 51만 8209명이에요. 심지어 같은 해의 수능 응시생 수보다 많으니 수능에 버금갈 정도란 말도 나오고 있어요.",
+            "turn_id": "BK22013250-9",
+            "utterance_id": "BK22013250.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 회차가 적은데 응시생 수도 많으니 응시 일정을 놓치면 안 되겠어요.",
+            "turn_id": "BK22013250-10",
+            "utterance_id": "BK22013250.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 생각 있으시면 접수를 먼저 하시고, 공부해 보세요. 합격 후기도 기다릴게요.",
+            "turn_id": "BK22013250-10",
+            "utterance_id": "BK22013250.20"
+        }
+    ]
+}

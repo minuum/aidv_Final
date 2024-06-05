@@ -1,0 +1,431 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.6,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22009074",
+        "name": "2022 한국어 블렌더봇 데이터 BK22009074",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.2,
+                "voter_id": "bk_mc_voter0017"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 드라마를 하나 보는데, 인류가 외계 행성으로 진출하는 내용이거든. 이 드라마를 보다 보니까, 문득 외계 행성에 관해 이것저것 궁금해지더라고. 그래서 말인데, 외계 행성은 언제 처음 발견됐어?",
+            "turn_id": "BK22009074-1",
+            "utterance_id": "BK22009074.1"
+        },
+        {
+            "reference_date": "2022-05-30",
+            "reference_text": [
+                {
+                    "value": "최초의 외계행성은 1992년 푸에르토리코 아레시보 천문대의 천문학자 알렉산데르 볼시찬 박사가 발견했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인류 역사상 처음으로 외계행성을 찾아낸 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "볼시찬 박사는 지구에서 약 1500광년 떨어진 처녀자리에서 펄서(맥동성) 주변을 돌고 있는 두 개의 행성(PSR B1257+12 B, PSR B1257+12 C)을 관측한 결과를 국제학술지 ‘네이처’에 발표했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://scent.kisti.re.kr/site/main/archive/article/%EC%9D%B8%EB%A5%98%EA%B0%80-%EC%B0%BE%EC%9D%80-%EC%99%B8%EA%B3%84%ED%96%89%EC%84%B1-5000%EA%B0%9C-%EB%8F%8C%ED%8C%8C-%EC%A7%80%EA%B8%88%EC%9D%80-%EC%99%B8%EA%B3%84%ED%96%89%EC%84%B1-%EB%B0%9C%EA%B2%AC-%EC%8B%9C%EB%8C%80",
+            "search_query": "최초 외계 행성 알렉산데르",
+            "terminate": false,
+            "text": "푸에르토리코 아레시보 천문대에 있던 천문학자 알렉산데르 볼시찬 박사가 1992년에 외계 행성을 역사상 최초로 발견했어. 볼시찬 박사는 지구로부터 1500광년 정도 거리에 있는 처녀자리에서 펄서 주위를 공전하는 행성 두 개를 관측하고, 국제학술지 네이처에 발표했지.",
+            "turn_id": "BK22009074-1",
+            "utterance_id": "BK22009074.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "20년 전인데, 그렇게 멀리 있는 행성을 발견하다니 대단하네. 그런데 외계 행성을 관측하는 방법으로는 어떤 것들이 있을까? 그리고 가장 많이 쓰이는 방법은 뭔지, 장단점은 뭔지도 알려줄래?",
+            "turn_id": "BK22009074-2",
+            "utterance_id": "BK22009074.3"
+        },
+        {
+            "reference_date": "2021-01-07",
+            "reference_text": [
+                {
+                    "value": "외계 행성은 시선속도법 (Radial velocity method), 식 현상을 이용한 횡단 (통과법, Transit method), 직접 촬영, 중력렌즈 등 10가지가 넘는 방법으로 발견할 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이중 가장 클래식한 방법은 별과 행성 중력의 영향으로 인한 위치 변화가 야기하는 도플러 효과(적색/청색 편이)를 이용한 시선속도법이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "대표적으로 식 현상을 이용한 횡단법이 있는데, 직관적인 방법으로 근래에 가장 많이 이용되는 방법이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "횡단법이 인기가 있는 이유는 발견이 직관적으로 쉽기도 하지만, 한 번에 수십만 개의 별을 관측함으로써 시선속도법보다 훨씬 더 빨리 그리고 더 많은 행성을 찾을 수 있기 때문이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "행성의 크기가 작을수록 또한 행성이 돌고 있는 궤도가 작을수록 관측이 힘들어지며, 행성의 질량을 알아낼 수 없다는 단점이 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EA%B0%80%EC%9E%A5-%EC%A0%95%EA%B5%90%ED%95%98%EA%B2%8C-%EC%99%B8%EA%B3%84-%ED%96%89%EC%84%B1%EC%9D%84-%EA%B4%80%EC%B8%A1%ED%95%9C%EB%8B%A4/",
+            "search_query": "외계 행성 관측 방법",
+            "terminate": false,
+            "text": "외계 행성 관측에는 식 현상을 이용하는 횡단, 시선 속도법, 중력렌즈, 직접 촬영 등 10가지가 넘는 수단이 있어. 이 중 가장 전통적인 수단은 항성과 행성 간 중력으로 인한 위치 변화 때문에 발생하는 도플러 효과를 활용한 시선 속도법이고, 가장 많이 쓰이는 방식은 식 현상을 이용하는 횡단법이지. 횡단법은 행성 발견 방식이 직관적이라서 쉽기도 하지만, 한 번에 별을 수십만 개씩 관측할 수 있기 때문에 시선 속도법에 비해 훨씬 많은 행성을 빠르게 발견할 수 있거든. 다만, 횡단법은 행성 크기나 궤도가 작을수록 관측이 어려워지고, 행성의 질량을 파악할 수 없다는 게 단점이야.",
+            "turn_id": "BK22009074-2",
+            "utterance_id": "BK22009074.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한 번에 별을 수십만 개씩 관측할 수 있다는 게 굉장한걸. 그런데 도플러 효과는 뭐고, 이 도플러 효과를 이용해 발견한 행성으로는 어떤 게 있을까?",
+            "turn_id": "BK22009074-3",
+            "utterance_id": "BK22009074.5"
+        },
+        {
+            "reference_date": "2019-10-20",
+            "reference_text": [
+                {
+                    "value": "도플러 효과는 파동 진원지에서 나오는 진동수가 실제 진동수와 다르게 관측되는 현상을 말한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "별은 빛을 발산하기 때문에 지구의 대형 망원경으로 ‘흡수 스펙트럼’을 확보할 수 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그런데 행성이 별 주위를 도는 과정에서 질량 중심 변화에 따라 스펙트럼이 짧아지고 길어지는 현상이 생긴다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 스펙트럼 자료를 토대로 위치를 계산해 속도를 도출한 뒤, 수학적 모델로 분석하면 질량이 나온다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그렇게 발견한 게 목성만 한 무게를 가진 최초의 외계행성 51-페가시-b다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hankyung.com/it/article/2019101848891",
+            "search_query": "도플러 효과 행성 발견",
+            "terminate": false,
+            "text": "파동의 진원지에서 발생하는 진동수가 실제 진동수와 다르게 측정되는 현상을 도플러 효과라고 해. 항성은 빛을 내뿜기 때문에 지구에서 대형 망원경을 이용해 흡수 스펙트럼을 관측할 수 있어. 그런데 이 항성 주위를 행성이 돌면서 질량 중심에 변화가 생기고, 그 때문에 스펙트럼이 길어지거나 짧아지는 현상이 일어나지. 그리고 이 스펙트럼 정보를 바탕으로 위치를 계산하고 속도를 얻은 다음 수학적인 모델을 이용해 분석하면 질량을 구할 수 있어. 이 방식으로 발견한 행성으로는 목성 정도 질량을 지닌 외계 행성 중 최초로 발견된 51-페가시-b가 있지.",
+            "turn_id": "BK22009074-3",
+            "utterance_id": "BK22009074.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스펙트럼 변화를 이용해 행동을 관측하다니 어떻게 이런 방식을 생각해냈는지 정말 놀라워. 그럼 중력렌즈는 뭐고, 중력렌즈를 이용해 발견한 행성으로는 어떤 게 있어?",
+            "turn_id": "BK22009074-4",
+            "utterance_id": "BK22009074.7"
+        },
+        {
+            "reference_date": "2014-07-04",
+            "reference_text": [
+                {
+                    "value": "중력렌즈 현상이란 직진하는 성질을 가진 빛이 별의 중력에 이끌려 진행 방향이 휘거나 왜곡되는 것을 말한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "한정호 충북대 물리학부 교수가 교신저자로 참여한 공동연구진은 ‘중력렌즈’라는 물리현상을 이용해 이 행성을 찾아냈다고 ‘사이언스’ 3일자에 발표했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "연구진은 2013년 우리은하의 중심부에 모인 별빛을 관찰하던 중 이상한 낌새를 감지했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "은하 중심부에서 출발한 별빛이 지구로 곧장 직진해 오지 못하고 휘어버리는 현상, 즉 중력렌즈 현상을 발견한 것이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "정체는 바로 짝을 이룬 두 개의 항성(쌍성)과 이 중 하나의 주위를 돌고 있는 지구형 행성이었다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.dongascience.com/news.php?idx=4761",
+            "search_query": "중력 렌즈 행성 관측",
+            "terminate": false,
+            "text": "빛은 직진하는 성질이 있는데, 이 빛이 항성의 중력 때문에 진행 방향이 왜곡되거나 휘는 현상을 중력렌즈 현상이라고 해. 한정호 충북대 물리학부 교수가 교신저자로 참가한 공동 연구진이 지난 2014년 7월 3일 사이언스 지에 발표한 새 행성이 바로 이 중력렌즈 현상을 이용해 찾은 거야. 2013년 연구진이 우리은하 중심부에 모여 있는 별빛을 관찰하다가 은하 중심부에서 나온 빛이 지구로 곧장 날아오지 않고 휘는 중력렌즈 현상을 발견했는데, 그 정체가 짝을 이룬 항성 두 개와 그중 한 항성을 공전 중인 지구형 행성이었지.",
+            "turn_id": "BK22009074-4",
+            "utterance_id": "BK22009074.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "여러 방법으로 각각 그렇게 행성을 발견하고 있는 거구나. 그런데 아무래도 외계 행성은 멀리 있으니 외계 행성을 직접 관측한 적은 없겠지?",
+            "turn_id": "BK22009074-5",
+            "utterance_id": "BK22009074.9"
+        },
+        {
+            "reference_date": "2022-09-02",
+            "reference_text": [
+                {
+                    "value": "제임스 웹 우주망원경은 9월 1일 또 한 번의 놀라운 관측을 세상에 알렸다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "제임스 웹 우주망원경은 처음으로 외계행성의 이미지를 성공적으로 포착해냈는데, 초기 자료 공개 프로그램(Early Release Science)의 일환으로 수행된 위 연구는 2~5 μm을 이용한 근적외선 카메라(NIRCam)와 11~16 μm의 중적외선 기기(MIRI)를 이용하여 HIP 65426 b라고 불리는 슈퍼 목성(목성보다 질량이 큰 가스 행성을 칭함)을 포착했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지금까지 공개된 제임스 웹 우주망원경의 외계 행성 관측은 행성이 모항성 앞을 지나갈 때 밝기 변화를 이용하여(횡단법) 수행되었지만, 이번 관측은 직접 외계 행성의 이미지를 얻는 데에 성공했다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.sciencetimes.co.kr/news/%EC%A0%9C%EC%9E%84%EC%8A%A4-%EC%9B%B9-%EC%B5%9C%EC%B4%88%EB%A1%9C-%EC%99%B8%EA%B3%84-%ED%96%89%EC%84%B1-%EA%B4%80%EC%B8%A1-%EC%82%AC%EC%A7%84%EC%9D%84-%EA%B3%B5%EA%B0%9C%ED%95%98%EB%8B%A4/",
+            "search_query": "제임스 웹 외계 행성",
+            "terminate": false,
+            "text": "아니, 지난 9월 1일 제임스 웹 우주 망원경이 최초로 외계 행성 화상 포착에 성공했어. 연구는 초기 자료 공개 프로그램의 일환으로 진행됐는데, 11~16마이크로미터를 쓰는 중적외선 기기와 2~5마이크로미터를 사용하는 근적외선 카메라를 이용해 HIP 65426b라고 하는 슈퍼 목성을 찍었어. 제임스 웹 우주 망원경도 지금까지는 행성이 공전 중인 항성 앞을 지날 때 밝기가 변하는 원리를 활용한 횡단법을 썼는 데 비해, 이 관측에서는 외계 행성의 이미지를 직접 포착하는 데 성공한 것이지.",
+            "turn_id": "BK22009074-5",
+            "utterance_id": "BK22009074.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "기술이 발전해서 점점 더 멀리 있는 외계 행성까지 직접 찍을 수 있게 되면 좋겠는걸. 그나저나 외계 행성 중에서도 아무래도 지구와 비슷한 행성, 생명체가 있을 만한 행성에 더 관심이 가는데, 혹시 외계 행성이 지구와 비슷한 정도를 수치로 표현할 수 있는 방법 같은 게 있을까?",
+            "turn_id": "BK22009074-6",
+            "utterance_id": "BK22009074.11"
+        },
+        {
+            "reference_date": "2022-07-31",
+            "reference_text": [
+                {
+                    "value": "지구 유사도 지수(영어: Earth Similarity Index, ESI)는 행성이 지구와 얼마나 닮았는가를 나타내는 수치로, 0부터 1까지로 정의되며 1에 가까울수록 지구와 유사함을 나타낸다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지구 유사도 지수는 커다란 자료 속에서 행성들을 쉽게 분류하기 위해 고안되었으며, 수치가 높다고 행성 거주가능성이 무조건 높은 것은 아니다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "지구 유사도 지수의 개념이 등장한 이후, 태양계 천체와 외계 행성 일부에 대한 지구 유사도 지수가 지속적으로 계산되었고,[2][3] 현재도 새로운 행성의 등장으로 계속 변화가 이루어지고 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B5%AC_%EC%9C%A0%EC%82%AC%EB%8F%84_%EC%A7%80%EC%88%98",
+            "search_query": "지구 유사도 지수",
+            "terminate": false,
+            "text": "응, 지구 유사도 지수라고 해서, 지구와 대상 행성이 얼마나 비슷한지 나타내는 수치가 있어. 수치는 0부터 1까지로 표현하고, 1에 근접할수록 지구와 유사한 거야. 지구 유사도 지수는 방대한 자료 내에서 행성을 용이하게 분류할 수 있도록 고안됐는데, 수치가 높다고 해서 반드시 그 행성의 행성 거주 가능성이 높은 건 아니야. 지구 유사도 지수는 개념이 처음 나온 이래로 태양계 내 천체와 외계 행성 일부에 대해 수치가 계속해서 계산됐고, 지금도 새로운 행성이 발견되면서 변하고 있어.",
+            "turn_id": "BK22009074-6",
+            "utterance_id": "BK22009074.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "확실히, 그런 수치가 있으면 행성을 분류하기 편할 것 같아. 그럼 지금까지 발견된 외계 행성 중에 골디락스 영역에 있는 행성이 있으면 하나 소개해 줄래?",
+            "turn_id": "BK22009074-7",
+            "utterance_id": "BK22009074.13"
+        },
+        {
+            "reference_date": "2022-07-15",
+            "reference_text": [
+                {
+                    "value": "글리제 581 g는 천칭자리 방향으로 지구로부터 약 20.5광년 떨어진 적색 왜성 글리제 581 주위를 돌고 있는 외계 행성이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "연구 결과 g는 항성으로부터 너무 멀지도, 너무 가깝지도 않아 생명체가 살기에 꼭 알맞은 골디락스 영역에서 처음으로 발견된 행성으로, 인류가 최초로 발견한 \"또 다른 지구\"의 조건을 갖춘 행성이라고 할 수 있다.[2]",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "글리제 581g의 질량은 지구의 3.1~4.3배로 슈퍼지구로 부를 수 있으며, 어머니 별을 37일 주기로 공전한다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "만약 이 행성 표면이 딱딱한 돌로 이루어져 있다면 액체 상태의 물이 표면에 존재할 가능성이 있다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%80%EB%A6%AC%EC%A0%9C_581_g",
+            "search_query": "글리제 581g",
+            "terminate": false,
+            "text": "지구에서 천칭자리 방향으로 20.5 광년 정도 떨어진 적색 왜성 글리제581을 공전하는 외계 행성, 글리제 581g에 대해 이야기해 줄게. 글리제 581g는 항성과 거리가 너무 가깝지도 멀지도 않아서 생물이 살기에 딱 알맞는 골디락스 영역에서 발견된 행성 중, 인류가 처음으로 발견한 행성이야. 또 다른 지구라고 부를 수 있는 조건을 갖춘 행성이라고도 할 수 있지. 글리제 581g는 모항성을 37일 주기로 공전하고, 질량은 지구의 3.1~4.3배 정도로 무거워서 슈퍼지구라고 부를 수 있는데, 행성 표면이 암석으로 구성되어 있다면 지표면에 액체 상태의 물이 존재할 가능성이 있어.",
+            "turn_id": "BK22009074-7",
+            "utterance_id": "BK22009074.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그곳에도 생명체가 있어서 지구를 바라보고 있다면 재미있을 것 같아. 그런데 20.5 광년은 너무 먼 것 같은데, 생명체가 거주할 수 있는 영역을 도는 행성 중에 더 가까운 건 없을까?",
+            "turn_id": "BK22009074-8",
+            "utterance_id": "BK22009074.15"
+        },
+        {
+            "reference_date": "2022-09-09",
+            "reference_text": [
+                {
+                    "value": "센타우루스자리 프록시마 b(프록시마 b[4][5] 또는 센타우루스자리 알파 Cb)는 태양에서 가장 가까우면서 센타우루스자리 알파 삼중성계의 일원인 적색왜성 센타우루스자리 프록시마의 생명체 거주가능 영역 내를 돌고 있는 외계 행성이다.[6][7]",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "b는 센타우루스자리 방향으로 지구로부터 약 4.2 광년(1.3 파섹, 40조 km, 25조 마일, 26만 5천 AU) 떨어져 있어서 태양계에서 가장 가까운 외계 행성이기도 하다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "모항성에서 프록시마 b까지의 거리는 0.05 AU(750만 km 또는 460만 마일)로 가깝다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "b는 11.2 일을 1 주기로 프록시마를 공전하고 있으며 예상되는 b의 질량은 지구의 최소 1.3 배이다.",
+                    "value_time": "2022-09-20",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%84%BC%ED%83%80%EC%9A%B0%EB%A3%A8%EC%8A%A4%EC%9E%90%EB%A6%AC_%ED%94%84%EB%A1%9D%EC%8B%9C%EB%A7%88_b",
+            "search_query": "센타우루스자리 프록시마b",
+            "terminate": false,
+            "text": "태양에서 가장 가깝고, 동시에 센타우루스자리 알파 삼중성계 중 하나인 적색왜성 센타우루스자리 프록시마의 생명체 거주 가능 영역을 공전하는 센타우루스자리 프록시마 b가 있어. 센타우루스자리 프록시마b는 지구에서 센타우루스자리 방향으로 4.2 광년 정도 거리에 있기 때문에 태양계에서 제일 가까운 곳에 있는 외계 행성이기도 해. 프록시마 b는 모항성으로부터 0.05AU 거리를 11.2일 주기로 공전하고 있고, 질량은 지구의 최소 1.3배로 추정돼.",
+            "turn_id": "BK22009074-8",
+            "utterance_id": "BK22009074.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "4.2광년 거리에도 그런 행성이 있구나. 내가 살아있는 동안에 인류가 그곳까지 가는 모습을 본다면 얼마나 놀라울까 싶어.",
+            "turn_id": "BK22009074-9",
+            "utterance_id": "BK22009074.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "맞아, 나도 그런 상상을 많이 해서 참 공감이 간다.",
+            "turn_id": "BK22009074-9",
+            "utterance_id": "BK22009074.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "많이 물었는데 잘 대답해 줘서 고마워. 나는 그럼 다시 드라마 보러 가 볼게. 궁금한 거 있으면 또 연락해도 되지?",
+            "turn_id": "BK22009074-10",
+            "utterance_id": "BK22009074.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "응, 당연하지. 드라마 재미있게 보고, 다음에 또 만나자.",
+            "turn_id": "BK22009074-10",
+            "utterance_id": "BK22009074.20"
+        }
+    ]
+}

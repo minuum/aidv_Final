@@ -1,0 +1,327 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.9,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22001281",
+        "name": "2022 한국어 블렌더봇 데이터 BK22001281",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0013"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0020"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0026"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제2외국어도 영어처럼 시험을 볼 수 있다고 들었어요. 플렉스라고 하던데 정확히 어떤 시험인가요?",
+            "turn_id": "BK22001281-1",
+            "utterance_id": "BK22001281.1"
+        },
+        {
+            "reference_date": "2022-06-26",
+            "reference_text": [
+                {
+                    "value": "외국어능력시험(Foreign Language EXamination, FLEX)는 한국외국어대학교와 대한상공회의소가 주관하는 어학 능력 평가 시험이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%99%B8%EA%B5%AD%EC%96%B4%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98",
+            "search_query": "FLEX",
+            "terminate": false,
+            "text": "FLEX는 한국외국어대학교와 대한상공회의소가 주관하는 시험이에요. 어학 능력을 평가하는 시험이죠.",
+            "turn_id": "BK22001281-1",
+            "utterance_id": "BK22001281.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대학교에서 어학 시험을 주관하기도 하는군요. 어떤 과목을 시험 볼 수 있나요?",
+            "turn_id": "BK22001281-2",
+            "utterance_id": "BK22001281.3"
+        },
+        {
+            "reference_date": "2019-09-29",
+            "reference_text": [
+                {
+                    "value": "시행언어는 영어, 중국어, 일본어, 스페인어, 독일어, 러시아어, 프랑스어 등 총 7개 언어이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ggilbo.com/news/articleView.html?idxno=707118",
+            "search_query": "플렉스 외국어 시험",
+            "terminate": false,
+            "text": "영어, 중국어, 일본어 외에도 스페인어, 독일어, 러시아어, 프랑스어 등의 시험을 볼 수 있어요.",
+            "turn_id": "BK22001281-2",
+            "utterance_id": "BK22001281.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "FLEX 시험도 다른 어학 시험들처럼 유효 기간이 있나요?",
+            "turn_id": "BK22001281-3",
+            "utterance_id": "BK22001281.5"
+        },
+        {
+            "reference_date": "2018-08-03",
+            "reference_text": [
+                {
+                    "value": "성적인증서 유효기간은 시험일로부터 2년이며, 유효기간 경과 후 1년이내까지 발급이 가능하다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.topstarnews.net/news/articleView.html?idxno=457633",
+            "search_query": "FLEX 스페인어 유효기간",
+            "terminate": false,
+            "text": "네, 시험일로부터 2년간 성적이 유효해요. 유효 기간이 경과한 후에는 1년 이내까지 발급이 가능하고요.",
+            "turn_id": "BK22001281-3",
+            "utterance_id": "BK22001281.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "어학 능력 시험은 유효 기간이 짧은 게 흠인 것 같아요. 필요할 때마다 다시 봐야 하니까요.",
+            "turn_id": "BK22001281-4",
+            "utterance_id": "BK22001281.7"
+        },
+        {
+            "reference_date": "2022-04-02",
+            "reference_text": [
+                {
+                    "value": "윤석열 대통령 당선인은 후보시절 '취업준비생(취준생) 공인성적 만료 연장 공약'을 제시한 바 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "당시 윤 당선인은 '심쿵약속'으로 취준생들이 주로 치르는 토익, 토플, 플렉스 등 외국어시험과 한국사능력시험 등 공인성적 유효기간을 최대 5년까지 연장하겠다고 밝혔다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.nocutnews.co.kr/news/5733288",
+            "search_query": "플렉스 외국어능력시험 5년",
+            "terminate": false,
+            "text": "근데 생각해 보니, 윤석열이 대통령 후보 시절에 취업생을 위해 외국어 시험 유효 기간을 최대 5년까지 연장하겠다고 밝힌 적 있어요. 취준생들이 주로 치는 토익, 토플, 플렉스 등이 대상이었으니 저도 다시 한번 찾아봐야겠네요",
+            "turn_id": "BK22001281-4",
+            "utterance_id": "BK22001281.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "5년까지 연장된다면 너무 좋을 것 같은데요?",
+            "turn_id": "BK22001281-5",
+            "utterance_id": "BK22001281.9"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇죠, 아무래도 계속 시험을 볼 부담이 줄어드니까요.",
+            "turn_id": "BK22001281-5",
+            "utterance_id": "BK22001281.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저는 제2외국어 시험을 스페인어로 보고 싶어요. FLEX 말고도 다른 시험이 있을까요?",
+            "turn_id": "BK22001281-6",
+            "utterance_id": "BK22001281.11"
+        },
+        {
+            "reference_date": "2021-12-16",
+            "reference_text": [
+                {
+                    "value": "DELE 자격증은 스페인 세르반테스 문화원이 수여하는 국제 공인 자격증으로, 전 세계적으로 통용될 만큼 공신력을 인정받아 기관과 기업, 대학 등에서 이를 채택하고 있다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.naeil.com/news_view/?id_art=408264",
+            "search_query": "DELE",
+            "terminate": false,
+            "text": "DELE라는 국제 공인 자격증이 있어요. 스페인 세르반테스 문화원이 수여하죠. 전 세계적으로 통용될 만큼 공신력이 있어요. 기업이나 대학 등에서 많이 채택하고 있죠.",
+            "turn_id": "BK22001281-6",
+            "utterance_id": "BK22001281.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "DELE 시험은 읽기 시험인가요?",
+            "turn_id": "BK22001281-7",
+            "utterance_id": "BK22001281.13"
+        },
+        {
+            "reference_date": "2021-12-15",
+            "reference_text": [
+                {
+                    "value": "시험은 난이도에 따라 A1, A2, B1, B2, C1, C2 등 6등급으로 나뉘며, 독해, 작문, 청취, 회화 등 4가지 영역을 평가한다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ajunews.com/view/20211215152603675",
+            "search_query": "DELE 영역 평가",
+            "terminate": false,
+            "text": "DELE는 독해뿐 아니라 작문, 청취, 회화 영역도 평가해요. 그리고 시험은 난이도에 따라 여섯 등급으로 나뉘어요. A1, A2, B1, B2, C1, C2로요.",
+            "turn_id": "BK22001281-7",
+            "utterance_id": "BK22001281.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "회화까지 시험을 보는 거면 조금 힘들겠는데요? 시험은 어디에서 볼 수 있죠?",
+            "turn_id": "BK22001281-8",
+            "utterance_id": "BK22001281.15"
+        },
+        {
+            "reference_date": "2021-12-15",
+            "reference_text": [
+                {
+                    "value": "국내에서 DELE 시험을 볼 수 있는 기관은 대교와 한국외국어대학교, 대구가톨릭대학교 3곳뿐이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.shinailbo.co.kr/news/articleView.html?idxno=1493891",
+            "search_query": "DELE 시험 볼 수 있는",
+            "terminate": false,
+            "text": "국내에서 DELE 시험을 볼 수 있는 곳은 한정적이에요. 대교, 한국외국어대학교, 대구가톨릭대학교 세 곳뿐이죠.",
+            "turn_id": "BK22001281-8",
+            "utterance_id": "BK22001281.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "딱 세 곳에서만 시험이 치러진다니 놀랍네요. 저는 집에서 가까운 한국외국어대학교에서 치면 될 것 같아요. 응시료는 얼마나 하나요?",
+            "turn_id": "BK22001281-9",
+            "utterance_id": "BK22001281.17"
+        },
+        {
+            "reference_date": "2021-09-27",
+            "reference_text": [
+                {
+                    "value": "하지만 공인 스페인어 자격증인 DELE의 응시료는 10만원대 후반에서 최대 30만원을 웃도는 높은 비용이 책정돼 수험생의 부담이 적지 않은 것이 사실이다.",
+                    "value_time": "2022-07-06",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.idsn.co.kr/news/articleView.html?idxno=55649",
+            "search_query": "DELE 응시료",
+            "terminate": false,
+            "text": "DELE 응시료는 10만 원 후반에서 30만 원 정도 사이에요. 솔직히 좀 부담되는 금액이기는 하죠.",
+            "turn_id": "BK22001281-9",
+            "utterance_id": "BK22001281.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "30만 원까지 나올 수도 있다니 좀 많긴 하네요. 조금 생각해 봐야 할 것 같은데요?",
+            "turn_id": "BK22001281-10",
+            "utterance_id": "BK22001281.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그래요, 천천히 생각해 보고 응시하세요. 어차피 급하게 필요한 것도 아니잖아요?",
+            "turn_id": "BK22001281-10",
+            "utterance_id": "BK22001281.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "그건 그렇지만 이왕 외국어를 배운 김에 자격증도 따고 싶어지더라고요. 어쨌든 오늘 소중한 정보 감사했습니다. 조심히 들어가시고 또 봬요.",
+            "turn_id": "BK22001281-11",
+            "utterance_id": "BK22001281.21"
+        }
+    ]
+}

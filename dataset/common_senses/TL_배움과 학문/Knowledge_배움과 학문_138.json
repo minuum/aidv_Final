@@ -1,0 +1,381 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011791",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011791",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 4.4,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_nhn_voter0008"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0025"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "요즘 대체 당이 유행이라면서 교수님께서 관련 리포트를 작성해오라고 하시더라구요. 정말 대체 당이 그렇게 유행인가요?",
+            "turn_id": "BK22011791-1",
+            "utterance_id": "BK22011791.1"
+        },
+        {
+            "reference_date": "2022-06-16",
+            "reference_text": [
+                {
+                    "value": "음료를 중심으로 한 제로 칼로리 제품 유행에 힘입어 설탕 대신 천연 감미료를 사용하는 등 건강을 생각한 ‘착한 먹거리’가 각광을 받고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이런 추세에 발맞춰 대체 감미료를 사용한 제품도 잇따라 출시되고 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://view.asiae.co.kr/article/2022061509150559702",
+            "search_query": "대체 당",
+            "terminate": false,
+            "text": "네, 음료를 시작으로 제로 칼로리 제품의 유행이에요. 설탕 대신 천연 감미료를 사용하는 등의 건강을 생각한 착한 먹거리가 각광을 받고 있죠. 이에 대체 감미료를 사용한 다양한 제품들도 출시되고 있어요.",
+            "turn_id": "BK22011791-1",
+            "utterance_id": "BK22011791.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정말 유행이군요. 그렇다면 제로 칼로리가 정말 0kcal인지 궁금해요. 리포트 작성에도 도움이 될 것 같은데, 이에 대해 알려주실 수 있나요?",
+            "turn_id": "BK22011791-2",
+            "utterance_id": "BK22011791.3"
+        },
+        {
+            "reference_date": "2022-09-26",
+            "reference_text": [
+                {
+                    "value": "식품영양학을 전공한 박수현 한국식품연구원 박사에 따르면 국내 식품위생법상 100ml 당 4kcal 미만일 경우 0kcal로 표기 가능하다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "실제론 열량이 있는데 그 수치가 매우 낮기 때문에 0kcal로 표기된다는 말이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "보통 식품엔 단맛을 내기 위해 설탕과 같은 당류를 사용하는 반면, 제로칼로리는 '대체감미료'를 사용한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "현재 식품의약품안전처로부터 승인된 대체감미료는 총 22종이며 ▲설탕보다 감미도가 높은 스테비아, 아스파탐, 사카린 등 ▲설탕보다 감미도가 낮은 자일리톨, 솔비톨, 만니톨 등이 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hellodd.com/news/articleView.html?idxno=98157",
+            "search_query": "대체 감미료",
+            "terminate": false,
+            "text": "네, 국내 식품위생법상 100ml 당 칼로리가 4kcal 미만일 경우 0kcal로 표기가 가능해요. 따라서 실제론 열량이 있어도 그 수치가 매우 낮기 때문에 0kcal로 표기되는 것이죠. 또한, 일반 식품에는 단맛을 내기 위해 설탕을 사용하지만 제로칼로리는 대체 감미료를 사용하죠. 현재 식품의약품안전처로부터 승인된 대체 감미료는 총 22종인데요. 먼저, 설탕보다 감미도가 높은 스테비아, 아스파탐, 사카린 등이 있으며, 설탕보다 감미도가 낮은 자일리톨, 솔비톨, 만니톨 등이 포함되죠.",
+            "turn_id": "BK22011791-2",
+            "utterance_id": "BK22011791.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "실제로 0kcal가 아닐 수도 있다는 거네요! 그렇다면 말씀해주신 대체 감미료에 대해 알고 싶어요. 먼저 스테비아가 어떤 감미료인가요?",
+            "turn_id": "BK22011791-3",
+            "utterance_id": "BK22011791.5"
+        },
+        {
+            "reference_date": "2018-11-13",
+            "reference_text": [
+                {
+                    "value": "국화과 허브 식물로 잎과 줄기에 단맛이 나는 성분인 스테비오사이드가 들어 있어, ‘설탕초’라고도 불린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "특히 스테비아의 잎과 줄기에 들어있는 '스테비오사이드'라는 성분은 설탕의 당분보다 200~300배 높아, 설탕을 대체할 수 있는 천연 감미료로 사용된다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=5685220&cid=43667&categoryId=43667",
+            "search_query": "스테비아",
+            "terminate": false,
+            "text": "스테비아는 국화과 허브 식물로 설탕초라고도 불리죠. 또한, 스테비아의 잎과 줄기에 들어있는 스테비오사이드 성분은 설탕의 당분보다 200에서 300배가 높기 때문에 설탕을 대체할 수 있는 천연 감미료로 사용되고 있어요.",
+            "turn_id": "BK22011791-3",
+            "utterance_id": "BK22011791.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "스테비아는 천연 감미료군요. 그렇다면 사카린은 들어는 본 적 있는 것 같아요. 사카린은 어떤 감미료인가요?",
+            "turn_id": "BK22011791-4",
+            "utterance_id": "BK22011791.7"
+        },
+        {
+            "reference_date": "2015-05-06",
+            "reference_text": [
+                {
+                    "value": "사카린은 라틴어의 설탕을 의미하는 ‘saccharum’에서 이름에서 따온 것이며, 1만 배로 희석해도 사라지지 않을 정도로 단맛이 강한 인공 감미료를 뜻한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "설탕보다 300배 달면서도 인체 흡수가 거의 되지 않아 칼로리가 거의 없다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://terms.naver.com/entry.naver?docId=1398175&cid=43667&categoryId=43667",
+            "search_query": "사카린",
+            "terminate": false,
+            "text": "사카린은 라틴어의 설탕을 의미하는 saccharum이라는 이름에서 따온 말이에요. 1만 배로 희석해도 사라지지 않을 정도로 단맛을 가진 인공 감미료를 뜻하죠. 설탕보다 300배가 달고 인체에 흡수가 거의 되지 않아 칼로리가 거의 없는 것이 특징이에요.",
+            "turn_id": "BK22011791-4",
+            "utterance_id": "BK22011791.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "300배나 더 달다니, 정말 대박이네요. 아, 말씀해 주신 감미료 중에 자일리톨이 있었는데, 자일리톨은 껌의 성분 아닌가요? 자일리톨에 대해서도 말씀해 주세요.",
+            "turn_id": "BK22011791-5",
+            "utterance_id": "BK22011791.9"
+        },
+        {
+            "reference_date": "2022-09-05",
+            "reference_text": [
+                {
+                    "value": "자일리톨이라는 단어를 들으면 대부분 껌을 떠올린다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "자일리톨은 자작나무에서 추출하는 천연 감미료로 제2차 세계대전 당시 설탕의 대체재로 개발되었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "섭취 시 차가운 느낌의 단맛이 나는 것이 특징이며, 과당을 함유하고 있지 않아 혈당이나 인슐린 수치에 영향을 미치지 않는다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.hidoc.co.kr/healthstory/news/C0000730120",
+            "search_query": "자일리톨",
+            "terminate": false,
+            "text": "네, 흔히 자일리톨이라고 하면 껌을 떠올리시는데요. 자일리톨은 자작나무에서 추출하는 천연 감미료로써, 제2차 세계대전 당시 설탕의 대체재로 개발된 성분이에요. 자일리톨을 섭취하면 차가운 느낌의 단맛이 나는데요. 과당을 함유하고 있지 않아 혈당이나 인슐린 수치에 영향을 미치지 않는다는 특징이 있어요.",
+            "turn_id": "BK22011791-5",
+            "utterance_id": "BK22011791.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자일리톨이 감미료인 줄은 정말 몰랐네요. 아, 교수님께서 대표적인 대체 당으로 에리스리톨이 있다고 말씀해 주셨는데요. 에리스리톨은 어떤 감미료죠?",
+            "turn_id": "BK22011791-6",
+            "utterance_id": "BK22011791.11"
+        },
+        {
+            "reference_date": "2022-08-21",
+            "reference_text": [
+                {
+                    "value": "당알코올은 당을 알코올로 바꾼 감미료입니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "자일리톨, 말티톨, 에리스리톨 등이 당알코올인데요.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이 중에서도 에리스리톨은 설탕과 가장 유사한 맛을 내는 데다 열량과 혈당지수 모두 0에 가까워 인기를 모으고 있습니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "상대적으로 가격도 저렴하고요.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "다만 높은 온도로 가열하면 단맛이 사라지는 단점이 있습니다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.bizwatch.co.kr/article/consumer/2022/08/18/0018",
+            "search_query": "대체 감미료",
+            "terminate": false,
+            "text": "에리스리톨은 당알코올 중의 하나인데요. 당알코올은 당을 알코올로 바꾼 감미료를 말하죠. 에리스리톨은 설탕과 가장 유사한 맛을 내며, 열량과 혈당 지수가 모두 0에 가까워 인기가 있는 감미료이죠. 또한, 에리스리톨은 상대적으로 가격이 저렴한 특징을 가지고 있지만, 높은 온도에서 단맛이 사라진다는 단점도 있죠.",
+            "turn_id": "BK22011791-6",
+            "utterance_id": "BK22011791.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "설탕과 가장 유사한 맛을 내는 감미료가 에리스리톨이군요. 그렇다면 리포트에 대체 당에 대한 부작용도 함께 작성하면 좋을 것 같아서요. 대표적으로 방금 말씀해주신 당알코올의 부작용이 무엇인가요?",
+            "turn_id": "BK22011791-7",
+            "utterance_id": "BK22011791.13"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "이중에 복통 문제를 일으키는 것은 당알코올로, 과량 복용시 복통과 설사를 일으킬 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "한국식품연구원 설탕대체재 연구 동향에 따르면 일일기준으로 성인 40~50g, 아동 30g 이상 당알코올 섭취시 이 같은 문제를 일으킬 수 있다고 보고됐다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20220907000388",
+            "search_query": "감미료 부작용",
+            "terminate": false,
+            "text": "당알코올은 과량 복용시 복통과 설사를 일으킬 수 있어요. 한국식품연구원의 연구에 의하면 일일 기준으로 성인은 40에서 50g, 아동은 30g 이상 당알코올 섭취시 이 같은 부작용을 일으킬 수 있다고 발표했어요.",
+            "turn_id": "BK22011791-7",
+            "utterance_id": "BK22011791.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "과도한 복용은 역시 부작용이 따르기 마련이죠. 마지막으로 인공 감미료의 부작용에 대해서도 알고 싶어요. 인공적으로 만들어진 감미료는 어떤 부작용을 유발하나요?",
+            "turn_id": "BK22011791-8",
+            "utterance_id": "BK22011791.15"
+        },
+        {
+            "reference_date": "2017-07-25",
+            "reference_text": [
+                {
+                    "value": "아자드 교수는 “검토 결과 인공감미료가 당초 목적과 달리 오히려 장기적으로 비만을 유발하고 당뇨 등 대사 장애성 질환과 고혈압, 뇌졸중, 심장 질환 등에 걸릴위험까지 높일 가능성이 있는 것으로 나타났다”고 밝혔다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "이어 “물론 인공감미료 섭취의 장ㆍ단기 이점과 위험을 확정하려면 아직 더 많은 연구가 이뤄져야 한다”면서도 “그럼에도 (인공감미료가)비만과 상관관계가 있다는 자료는 충분한 것으로 보인다”고 덧붙였다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://news.heraldcorp.com/view.php?ud=20170725000451",
+            "search_query": "인공감미료 부작용",
+            "terminate": false,
+            "text": "한 교수는 연구 결과, 인공감미료가 원래의 목적과 달리 장기적으로 비만을 유발하고 당뇨 등 대사 장애성 질환과 고혈압, 뇌졸중, 심장 질환 등의 위험성을 높일 수 있다고 밝혔어요. 또한, 인공감미료 섭취의 장기적인, 단기적인 이점과 위험을 정확하게 정의하기 위해서는 아직 더 많은 연구가 이뤄져야 한다고 하며, 그럼에도 인공감미료가 비만과 상관관계가 있다는 자료는 충분한 것으로 보인다고 발표했죠.",
+            "turn_id": "BK22011791-8",
+            "utterance_id": "BK22011791.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오히려 비만을 유발할 수 있다는 결과는 놀랍네요. 이 정도면 리포트 작성이 수월하게 진행될 수 있을 것 같아요.",
+            "turn_id": "BK22011791-9",
+            "utterance_id": "BK22011791.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "도움이 되셨다면 정말 다행이에요.",
+            "turn_id": "BK22011791-9",
+            "utterance_id": "BK22011791.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘 유익한 정보 너무 감사합니다. 제가 다음 수업이 있어서 먼저 가보겠습니다. 다음에 뵐 때는 제가 밥 살게요.",
+            "turn_id": "BK22011791-10",
+            "utterance_id": "BK22011791.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 다음에 또 뵐게요.",
+            "turn_id": "BK22011791-10",
+            "utterance_id": "BK22011791.20"
+        }
+    ]
+}

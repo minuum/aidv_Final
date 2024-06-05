@@ -1,0 +1,372 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007106",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007106",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0023"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0043"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0021"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0015"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "내가 어제 거미를 보고 무서운 곤충이라고 했더니 친구가 거미는 곤충이 아니라고 했어. 그럼 거미는 뭐야?",
+            "turn_id": "BK22007106-1",
+            "utterance_id": "BK22007106.1"
+        },
+        {
+            "reference_date": "2022-05-14",
+            "reference_text": [
+                {
+                    "value": "절지동물(節肢動物, 문화어: 마디다리동물, 영어: arthropod)은 절지동물문(節肢動物門, Arthropoda)에 속하는 동물의 총칭으로 곤충과 거미, 갑각류 등을 포함한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%88%EC%A7%80%EB%8F%99%EB%AC%BC",
+            "search_query": "절지동물",
+            "terminate": false,
+            "text": "친구가 정확히 말했네. 거미는 절지동물이니까 말이야. 거미 외에도 곤충과 갑각류 같은 절지동물문에 속하는 동물들도 여기에 속하고.",
+            "turn_id": "BK22007106-1",
+            "utterance_id": "BK22007106.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곤충과 거미를 따로 본다는 거네? 곤충은 절지동물 안에서 구분되는 특징이라도 있는 거야?",
+            "turn_id": "BK22007106-2",
+            "utterance_id": "BK22007106.3"
+        },
+        {
+            "reference_date": "2017-04-12",
+            "reference_text": [
+                {
+                    "value": "가장 일반적인 특징으로 여러 마디를 가진 몸이 크게 머리, 가슴, 배로 구분되고 다리가 3쌍, 날개 2쌍, 1쌍의 복안과 더듬이를 가지고 있는 동물을 곤충이라고 합니다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.astronomer.rocks/news/articleView.html?idxno=81721",
+            "search_query": "곤충",
+            "terminate": false,
+            "text": "곤충은 여러 마디로 나눠진 몸이 크게 머리, 가슴, 배로 구분되고 3쌍의 다리, 2쌍의 날개, 그리고 1쌍의 복안과 더듬이를 가지고 있어.",
+            "turn_id": "BK22007106-2",
+            "utterance_id": "BK22007106.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "곤충도 거미도 모두 다리가 많아서 똑같이 보였는데 다른 거구나? 그럼 벌레는 어떤 걸까?",
+            "turn_id": "BK22007106-3",
+            "utterance_id": "BK22007106.5"
+        },
+        {
+            "reference_date": "2022-08-09",
+            "reference_text": [
+                {
+                    "value": "벌레는 일반적으로 팔다리가 없고 대체로 눈이 없는 긴 원통형 몸을 지니고 있는 좌우대칭동물이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "지렁이, 털벌레, 땅강아지, 구더기, 거머리, 밤벌레, 회충류 등을 가리키는 생물학 용어이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%B2%8C%EB%A0%88",
+            "search_query": "벌레",
+            "terminate": false,
+            "text": "벌레는 말 그대로 벌레야. 벌레는 보통 대부분이 눈이 없고 팔다리가 없는 긴 원통형 몸의 좌우대칭 동물이지. 예를 들면 지렁이, 털벌레, 땅강아지, 구더기 같은 게 있어.",
+            "turn_id": "BK22007106-3",
+            "utterance_id": "BK22007106.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "파리의 유충인 구더기는 파리로 변하기 때문에 벌레에는 포함되지 않을 것 같았는데 네가 말한 대로라면 벌레에 포함되겠구나. 근데 아까 절지동물에서 그 영역을 조금 더 넓혀서 인간은 어디에 속하는 거야? 자식을 직접 낳으니까 포유류가 맞을까?",
+            "turn_id": "BK22007106-4",
+            "utterance_id": "BK22007106.7"
+        },
+        {
+            "reference_date": "2022-08-30",
+            "reference_text": [
+                {
+                    "value": "영장류[1](靈長類, 문화어: 령장류)는 생물 분류학적으로 영장목(靈長目, Primates)에 속하는 포유류로 원원류(여우원숭이와 로리스, 갈라고, 안경원숭이 포함)와 진원류(원숭이와 유인원)를 포함하고 있으며 인간도 영장류에 속한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "포유류 중에서 가장 지능이 뛰어나고 다양한 능력을 지닌 포유류로 간주되는, 영장류는 광범위한 특징을 보여준다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "영장류는 다른 포유류에 비해 상대적으로 큰 뇌를 갖고 있을 뿐만 아니라, 대부분의 포유류가 지배적인 감각기관으로 갖고 있는 후각을 포기하는 대신, 입체적인 시각 능력이 크게 발달해 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%98%81%EC%9E%A5%EB%A5%98",
+            "search_query": "영장류",
+            "terminate": false,
+            "text": "좀 더 상세하게 설명하자면, 인간은 영장목에 속하는 영장류에 속해. 여우 원숭이 같은 원원류와 유인원 같은 진원류도 여기에 속하지. 영장류는 포유류 중에서 가장 지능이 뛰어나서 다양한 능력을 가진 포유류로서 광범위한 특징이 있어. 다른 포유류 보다 뇌의 크기가 상대적으로 크고, 대부분의 포유류가 주된 감각기관인 후각이 떨어지는 대신에 입체적인 시각 능력이 뛰어나지.",
+            "turn_id": "BK22007106-4",
+            "utterance_id": "BK22007106.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "인간의 지능이 높다는 건 당연하게 생각했는데 인간이 포함된 영장류가 모두 두뇌가 발달할 줄은 몰랐네. 별개로 포유류에 대해서 정확히 모르고 있었던 지라 여러 갈래로 나뉜다는 것도 뜻밖이야. 포유류에 대해서 조금 더 자세하게 설명해 줄래?",
+            "turn_id": "BK22007106-5",
+            "utterance_id": "BK22007106.9"
+        },
+        {
+            "reference_date": "2022-06-11",
+            "reference_text": [
+                {
+                    "value": "포유류, 포유동물(哺乳類, 哺乳動物문화어: 젖먹이 동물, 젖먹이 짐승)은 척삭동물문의 강인 포유강(Mammalia)에 속하는 동물을 통틀어 부르는 말이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "암컷에게는 새끼에게 양분을 공급할 젖을 만들어내는 유선이 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "대부분 몸에 털이 나 있고, 털이 변형된 비늘이나 가시가 있는 것들도 있다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "뇌에서 체온과 혈액 순환을 조절하는 온혈동물이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "생물 분류 방법에 따라 차이는 있지만, 29목 153과 1200속 약 5400종에 이르는 동물을 포함한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8F%AC%EC%9C%A0%EB%A5%98",
+            "search_query": "포유류",
+            "terminate": false,
+            "text": "포유류를 정의하면 척삭동물문의 강인 포유강에 속하는 동물의 통칭이야. 분류 방법마다 차이가 있지만 29목 153과 1200속 약 5400종의 동물이 포유류에 해당돼. 대부분 몸에 털이 있으며 비늘이나 가시로 바뀐 것도 있어. 암컷에게는 새끼에게 줄 양분인 젖을 만들기 위한 유선이 있지. 그리고 온혈동물로 뇌에서 체온과 혈액 순환을 조절하고.",
+            "turn_id": "BK22007106-5",
+            "utterance_id": "BK22007106.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털이 난 동물을 생각하면 끝도 없는데 그게 다 포유류구나. 그럼 악어는 어디에 속하는 거야? 털이 없잖아.",
+            "turn_id": "BK22007106-6",
+            "utterance_id": "BK22007106.11"
+        },
+        {
+            "reference_date": "2022-07-04",
+            "reference_text": [
+                {
+                    "value": "파충류(爬蟲類, 라틴어: Reptila, 영어: Reptiles)는 용궁류(蜥形類, Sauropsida) 파충강(爬蟲綱)에 속하는 척추동물(脊椎動物)이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "린네식 분류법으로 파충류로 분류되는 동물들을 뜻하며, 공기로 호흡하고, \"냉혈(冷血，Cold-Blooded)\" 물질대사를 하고, 딱딱한 껍질을 갖고 양막(羊膜, amnion)을 지닌 알을 낳는다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%B6%A9%EB%A5%98",
+            "search_query": "파충류",
+            "terminate": false,
+            "text": "파충류라고 용궁류 파충강에 해당하는 척추동물이지. 린네식 분류법이라는 것에서 파충류로 분류되는 동물도 의미하기도 해. 파충류는 우리처럼 공기 호흡하지만 물질대사 방식은 냉혈이지. 그리고 딱딱한 껍질이 있고 양막을 가지고 있는 알을 낳아.",
+            "turn_id": "BK22007106-6",
+            "utterance_id": "BK22007106.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "잠깐만, 그럼 개구리는 파충류가 아닌 거네? 피부가 엄청 여리잖아.",
+            "turn_id": "BK22007106-7",
+            "utterance_id": "BK22007106.13"
+        },
+        {
+            "reference_date": "2022-03-10",
+            "reference_text": [
+                {
+                    "value": "양서류(兩棲類, 영어: Amphibians) 또는 물뭍동물(--動物)은 척삭동물의 한 강으로 개구리, 두꺼비, 도롱뇽 등을 포함한다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "양서류는 어류와 파충류의 중간적 위치에 해당한다고 볼 수 있는데, 실제로는 어류에 더 가까우며, 특히 유생 시대에는 형태적으로나 생리적으로 어류와 유사한 점이 많다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%96%91%EC%84%9C%EB%A5%98",
+            "search_query": "양서류",
+            "terminate": false,
+            "text": "개구리나 두꺼비, 도롱뇽 같은 건 양서류라고 해. 척삭동물의 한 강이지. 양서류는 어류와 파충류의 중간적 위치로 보고 있어. 실제로는 어류에 더 가깝고, 성체로 자라기 전에는 형태적으로나 생리적으로 어류와 정말 비슷해.",
+            "turn_id": "BK22007106-7",
+            "utterance_id": "BK22007106.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "양서류라는 게 있는 줄도 몰랐는데, 더구나 생김새는 파충류랑 비슷하면서 실제로는 어류와 더 가깝다는 게 믿기지 않아. 가만히 생각해봤는데 혹시 돌고래도 양서류일까? 양서류가 어류랑 비슷하니까 바다에 사는 양서류도 있지 않을까 해서 다른 물고기와 달리 비늘이 없이 미끈미끈하니까 돌고래는 다른 종이 아닐까 해.",
+            "turn_id": "BK22007106-8",
+            "utterance_id": "BK22007106.15"
+        },
+        {
+            "reference_date": "2022-06-28",
+            "reference_text": [
+                {
+                    "value": "돌고래(문화어: 곱등어, 영어: dolphin)는 수생 포유류이자 이빨고래류의 한 종류로, 바다에 사는 매우 영리한 포유동물이다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "돌고래는 아가미로 숨을 쉬는 물고기와는 달리 허파로 숨을 쉬기 때문에 숨을 들이쉴 때마다 물 위로 나와서 허파에 공기를 가득 채운다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%8C%EA%B3%A0%EB%9E%98",
+            "search_query": "돌고래",
+            "terminate": false,
+            "text": "아이디어는 좋았지만 돌고래는 수생 포유류로 이빨고래류의 한 종류야. 물고기와 차이점은 물고기는 아가미로 숨을 쉬지만 돌고래는 허파로 호흡한다는 거야. 그래서 돌고래는 물 위로 나와 허파에 공기를 채우지.",
+            "turn_id": "BK22007106-8",
+            "utterance_id": "BK22007106.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "털 하나 없는데 포유류라니 정말 놀랍다. 그럼 조류는 털이 있는데 포유류에 속해?",
+            "turn_id": "BK22007106-9",
+            "utterance_id": "BK22007106.17"
+        },
+        {
+            "reference_date": "2022-03-06",
+            "reference_text": [
+                {
+                    "value": "수각류에 속하는 새는 파충류와 공통되는 점이 매우 많다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "미크로랍토르와 같은 공룡 화석에서 깃털이 발견되면서, 조류는 깃털 달린 공룡에서 진화했다는 것이 확실시되었다.",
+                    "value_time": "2022-09-01",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A5%98%EC%9D%98_%EC%A7%84%ED%99%94",
+            "search_query": "조류의 진화",
+            "terminate": false,
+            "text": "새는 수각류에 포함되고 파충류와 공통되는 점이 정말 많아. 더구나 미크로랍토르 등의 공룡 화석에서 깃털이 발견되어 새는 깃털이 있는 공룡에서 진화했을 것이라고 확신하고 있어.",
+            "turn_id": "BK22007106-9",
+            "utterance_id": "BK22007106.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그건 정말 충격이다. 예상 밖의 동물들도 서로 얽혀 있으니까 동물에 대해서는 좀 더 세밀하게 공부해야 할 것 같아. 오늘 분류에 대해 자세히 알려줘서 고마워, 그럼 나는 이만 가볼게!",
+            "turn_id": "BK22007106-10",
+            "utterance_id": "BK22007106.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "내일 함께 서점에 가자. 전에 봤던 책이 있는데 그걸 추천해주고 싶거든. 그럼 내일 보자.",
+            "turn_id": "BK22007106-10",
+            "utterance_id": "BK22007106.20"
+        }
+    ]
+}

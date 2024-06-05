@@ -1,0 +1,366 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22011745",
+        "name": "2022 한국어 블렌더봇 데이터 BK22011745",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0009"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0040"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0001"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0046"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0014"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "컴퓨터 활용 능력 자격증을 공부하고 있는데 너무 어려워. 첫 단원을 모두 읽어봤지만 도무지 이해가 안가. 좀 도와줄래?",
+            "turn_id": "BK22011745-1",
+            "utterance_id": "BK22011745.1"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "단원이 여러가지가 있는데 어떤 걸 도와줄까?",
+            "turn_id": "BK22011745-1",
+            "utterance_id": "BK22011745.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘은 컴퓨터 하드웨어에 대해서 알려주면 좋을 것 같아. 하드웨어라는 것이 어떤거니?",
+            "turn_id": "BK22011745-2",
+            "utterance_id": "BK22011745.3"
+        },
+        {
+            "reference_date": "2022-07-02",
+            "reference_text": [
+                {
+                    "value": "컴퓨터 하드웨어(computer hardware, H/W, 순화 용어: 굳은모)는 케이스[1], 중앙 처리 장치, 모니터, 자판, 컴퓨터 기억 장치, 그래픽 카드, 사운드 카드, 메인보드와 같은 컴퓨터의 물리적 부품을 의미한다.[2]",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이와 반대가 되는 용어는 소프트웨어이며 이는 특정 작업을 수행하기 위해 하드웨어에 의해 저장되고 실행되는 명령어를 의미한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4",
+            "search_query": "하드웨어",
+            "terminate": false,
+            "text": "하드웨어는 컴퓨터의 물리적 부품을 말하는 것으로 케이스나 중앙 처리 장치, 모니터, 자판, 컴퓨터 기억 장치, 그래픽 카드, 사운드 카드, 메인보드가 있지. 참고로 하드웨어의 반대가 소프트웨어 인데, 소프트웨어는 특정 작업을 수행하기 위해 하드웨어에 의해 저장되고 실행되는 명령어를 뜻해.",
+            "turn_id": "BK22011745-2",
+            "utterance_id": "BK22011745.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "케이스는 컴퓨터 케이스니까 이해하는데 어려움이 없었어. 중앙 처리 장치가 무엇인지 설명해줄래?",
+            "turn_id": "BK22011745-3",
+            "utterance_id": "BK22011745.5"
+        },
+        {
+            "reference_date": "2022-04-13",
+            "reference_text": [
+                {
+                    "value": "중앙 처리 장치(中央處理裝置) 또는 CPU(영어: central processing unit, central/main processor)는 컴퓨터 시스템을 통제하고 프로그램의 연산을 실행 · 처리하는 가장 핵심적인 컴퓨터의 제어 장치, 혹은 그 기능을 내장한 칩이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "컴퓨터 안의 중앙 처리 장치(CPU)는 외부에서 정보를 입력받고, 기억하고, 컴퓨터 프로그램의 명령어를 해석하여 연산하고, 외부로 출력하는 역할을 한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "따라서 중앙 처리 장치(CPU)는 컴퓨터 부품과 정보를 교환하면서 컴퓨터 시스템 전체를 제어하는 장치로, 모든 컴퓨터의 작동과정이 중앙 처리 장치(CPU)의 제어를 받기 때문에 컴퓨터의 두뇌에 해당한다고 할 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98",
+            "search_query": "중앙처리장치",
+            "terminate": false,
+            "text": "CPU라고도 하는 중앙처리장치는 가장 핵심적인 컴퓨터의 제어 장치 또는 그 기능을 내장한 칩인데, 컴퓨터 시스템을 통제하고 프로그램의 연산을 실행하고 처리하지. 컴퓨터 부품과 정보를 교환하며 컴퓨터 시스템을 전체적으로 제어하는 것이지. 역할에 대해서 조금 더 설명하자면, 외부의 정보를 입력 받고, 정보를 기억하기도 해. 그리고 프로그램의 명령어를 해석해 연산하고 외부로 출력하기도 하지. 이처럼 컴표터의 모든 작동과정이 CPU의 제어로 인해 움직이기 때문에 CPU는 컴퓨터의 두뇌라고 볼 수 있어.",
+            "turn_id": "BK22011745-3",
+            "utterance_id": "BK22011745.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이름 그대로 중앙에서 모든 것을 처리하는 거네. 모니터나 자판은 알고있으니까 컴퓨터 기억장치가 무엇인지 가르쳐줘. 기억이라고 했으니까 저장하는 장치겠지?",
+            "turn_id": "BK22011745-4",
+            "utterance_id": "BK22011745.7"
+        },
+        {
+            "reference_date": "2022-04-27",
+            "reference_text": [
+                {
+                    "value": "기억 장치(記憶裝置, computer data storage)는 컴퓨터에서 데이터(자료)를 일시적으로, 또는 영구히 보존하는 장치를 말한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비슷한 말로 저장 장치라고도 하는데 이때는 대체로 비휘발성의 기억 장치를 의미한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "컴퓨터의 기억 장치는 주기억 장치와 보조 기억장치로 나눌 수 있다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "메모리(memory)는 종종 '기억 장치'라는 용어와 혼용되기도 하지만, 대체로는 주기억장치를 말하며 특히 램을 가리키는 경우가 많다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98",
+            "search_query": "기억장치",
+            "terminate": false,
+            "text": "컴퓨터에서 데이터를 일시적으로나 영구히 보존하는 장치를 기억장치라고 해. 저장 장치라고 할 때도 있는데 보통 비휘발성의 기억 장치를 뜻하지. 기억장치는 주기억 장치와 보조 기억장치가 있어. 참고로 메모리라는 용어가 기억장치와 혼용되기도 하는데, 메모리는 보통 주기억장치를 가리키는데 이 중에서도 램을 말해.",
+            "turn_id": "BK22011745-4",
+            "utterance_id": "BK22011745.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "주기억장치라는 용어를 본적이 있는 것 같기도해. 오늘 기억장치만 정리해도 엄청 많을 것 같은데, 우선 컴퓨터를 이루는 것 먼저 정리하기로 했으니까 시간이 남으면 물어볼게. 이어서 그래픽 카드라는 건 어떤 거야?",
+            "turn_id": "BK22011745-5",
+            "utterance_id": "BK22011745.9"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "비디오 카드(영어: video card) 또는 그래픽 카드(영어: graphics card, 문화어: 도형처리조종소자)는 이미지를 디스플레이 장치로 출력하는 컴퓨터 하드웨어의 부품이자 확장 카드이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비디오 어댑터(video adapter), 디스플레이 카드(display card), 그래픽 보드(graphics board), 디스플레이 어댑터(display adapter), 그래픽 어댑터(graphics adapter)라고도 부른다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B9%B4%EB%93%9C",
+            "search_query": "그래픽 카드",
+            "terminate": false,
+            "text": "비디오 카드라고도 하는 그래픽 카드는 컴퓨터 하드웨어 부품이자 확장카드야. 이미지를 디스플레이 장치로 출력하는 기능을 하며 그래픽 어댑터, 그래픽 보드, 디스플레이 어댑터, 디스플레이 카드, 비디오 어댑터라고도 해.",
+            "turn_id": "BK22011745-5",
+            "utterance_id": "BK22011745.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "이미지를 모니터에 나오도록 하는 역할을 한다는 거지? 사운드 카드는 소리가 출력되게 하는 걸까? 사운드 카드의 기능해 대해서도 가르쳐줘.",
+            "turn_id": "BK22011745-6",
+            "utterance_id": "BK22011745.11"
+        },
+        {
+            "reference_date": "2022-08-20",
+            "reference_text": [
+                {
+                    "value": "사운드 카드(영어: sound card) 또는 오디오 카드(영어: audio card)는 소리를 저장하고 출력하는 기능을 수행하는 내부 확장 카드 형태의 장치(칩셋)이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "컴퓨터 프로그램의 제어를 통해 컴퓨터를 경유한 오디오 신호의 입출력을 담당한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%B4%EB%93%9C_%EC%B9%B4%EB%93%9C",
+            "search_query": "사운드 카드",
+            "terminate": false,
+            "text": "소리를 저장하고 출력하는 기능을 수행하는 내부 확장 카드 형태의 장치를 사운드 카드 또는 오디오 카드라고 해. 사운드 카드는 오디오 신호의 입출력을 담당하는데, 참고로 컴퓨터 프로그램의 제어를 통해 진행되며 오디오 신호는 컴퓨터를 경유한 신호야.",
+            "turn_id": "BK22011745-6",
+            "utterance_id": "BK22011745.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "눈으로 보이는 거나 소리 영역까지 하나하나 부품이 필요하네. 메인보드라는 건 어떤 거야?",
+            "turn_id": "BK22011745-7",
+            "utterance_id": "BK22011745.13"
+        },
+        {
+            "reference_date": "2022-06-04",
+            "reference_text": [
+                {
+                    "value": "메인보드(mainboard), 마더보드(motherboard 또는 mobo), 주회로 기판(main circuit board), 주 기판(base board), 플레이너 보드(planar board) 또는 시스템 보드(system board)는 범용 컴퓨터 또는 기타 다른 확장 가능한 시스템(expandable system)에 쓰이는, 주회로가 내장된 보드이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "컴퓨터, 엘리베이터와 같은 확장 가능한 전자기기에 쓰이는 필수 주요 부품의 일종으로, 각종 케이블이나 배선을 통합하여 연결하는 회로와 입출력 포트가 설치되어 있는 전자기판이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "시스템을 작동시키는 CPU나 램과 같은 핵심 부품을 장착할 수 있는 슬롯과 주변 장치를 연결할 수 있는 인터페이스를 제공하는 인쇄회로기판(PCB)을 의미한다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C",
+            "search_query": "메인 보드",
+            "terminate": false,
+            "text": "메인보드는 범용 컴퓨터 또는 기타 다른 확장 가능한 시스템에 쓰이는, 주회로가 내장된 보드야. 마더보드, 주회로 기판, 주 기판, 플레이너 보드 또는 시스템 보드라고 하는데, 더 정확하게는 각종 케이블이나 배선을 통합하여 연결하는 회로와 입출력 포트가 설치되어 있는 전자기판으로 컴퓨터, 엘리베이터와 같은 확장 가능한 전자기기에 쓰이는 필수 주요 부품의 일종이지. 그리고 주변 장치를 연결할 수 있는 인터페이스와 CPU나 램과 처럼 시스템을 작동시키는 핵심 부품을 장착할 수 있는 슬롯을 제공하는 인쇄회로기판을 의미해.",
+            "turn_id": "BK22011745-7",
+            "utterance_id": "BK22011745.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "메인이라는 말이 붙어 있는 만큼 주된 역할을 하는 보드라고 보면 되겠다. 그런데 다시 램이라는 단어가 나왔네. 시간이 남았으니까 기억장치에 대해서 설명해주면 좋을 것 같은데, 먼저 주기억장치라는 게 뭐야?",
+            "turn_id": "BK22011745-8",
+            "utterance_id": "BK22011745.15"
+        },
+        {
+            "reference_date": "2022-03-07",
+            "reference_text": [
+                {
+                    "value": "주기억장치(主記憶裝置) 또는 컴퓨터 메모리(computer memory)는 컴퓨터에서 수치·명령·자료 등을 기억하는 컴퓨터 하드웨어 장치를 가리킨다. 이 용어는 1차 기억 장치와 동의어이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A3%BC%EA%B8%B0%EC%96%B5%EC%9E%A5%EC%B9%98",
+            "search_query": "주기억장치",
+            "terminate": false,
+            "text": "주기억장치는 컴퓨터 메모리, 1차 기억 장치라고도 해. 컴퓨터 하드웨어 장치로 컴퓨터에서 수치, 명령, 자료 등을 기억하는 기능을 하지.",
+            "turn_id": "BK22011745-8",
+            "utterance_id": "BK22011745.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "말 그대로 주로 기억하는 장치네. 벌써 시간이 다되었으니까 보조기억장치에 대해서 정리하고 마무리하면 될 것 같아. 주기억장치에 비해 보조적인 기억장치니까 여러가지가 있을 것 같은데 그 중 하나만 예를 들어줄래?",
+            "turn_id": "BK22011745-9",
+            "utterance_id": "BK22011745.17"
+        },
+        {
+            "reference_date": "2022-09-07",
+            "reference_text": [
+                {
+                    "value": "하드 디스크 드라이브(Hard disk drive, HDD), 하드 디스크(hard disk), 하드 드라이브(hard drive), 고정 디스크(fixed disk)[b]는 비휘발성, 순차접근이 가능한 컴퓨터의 보조 기억 장치이다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "하드 디스크는 플로피 디스크와 같은 자기 기록 매체이나, 플로피 디스크와 다르게 금속 재질의 플래터에 데이터를 기록하기 때문에 플로피디스크와 구분짓기 위해 재질적으로 단단하다는 뜻으로 하드라는 이름이 붙었다.",
+                    "value_time": "2022-09-27",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C",
+            "search_query": "보조기억장치",
+            "terminate": false,
+            "text": "네 말 대로야. 보조기억장치를 예로 하나 들자면 하드디스크 드라이브가 있어. 비휘발성, 순차접근이 가능한 컴퓨터의 보조 기억 장치로 하드 드라이브, 고정 디스크라고도 하지. 하드 디스크는 자기 기록 매체로, 금속 재질의 플래터에 데이터를 기록을 하는데, 이 부분은 자기 기록 메체 중의 하나인 플로피 디스크와의 차이점으로, 이런 특징을 통해 플로피 디스크와 구분하여 재질적으로 단단하다는 의미인 하드라는 이름이 붙여었어.",
+            "turn_id": "BK22011745-9",
+            "utterance_id": "BK22011745.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "플로피 디스크도 보조기억장치겠네. 오늘 많은 것을 알려줘서 고마워. 덕분에 자격증 공부가 순조로울 것 같아.",
+            "turn_id": "BK22011745-10",
+            "utterance_id": "BK22011745.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "공부하면서 궁금한 게 있으면 또 연락해. 그럼 내일 보자.",
+            "turn_id": "BK22011745-10",
+            "utterance_id": "BK22011745.20"
+        }
+    ]
+}

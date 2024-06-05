@@ -1,0 +1,356 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 5.0,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 5.0,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22007878",
+        "name": "2022 한국어 블렌더봇 데이터 BK22007878",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0006"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_nhn_voter0016"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0010"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0005"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "드라마를 보면 소현세자에 대해 직간접적으로 다루는 경우가 많은데, 대부분이 작품들에서 그를 덕이 많은 사람으로 묘사하잖아요. 실제 그의 그런 성향을 뒷받침해 주는 어떤 기록이 남아 있나요?",
+            "turn_id": "BK22007878-1",
+            "utterance_id": "BK22007878.1"
+        },
+        {
+            "reference_date": "2014-08-29",
+            "reference_text": [
+                {
+                    "value": "1637년 <소현심양일기>에는 소현세자가 병자호란 이후 청으로 끌려가면서 지나치는 촌가의 백성들에게 “마을 사람 1백여 명이 병화를 피해 석굴에 숨었는데, 세자가 쌀 몇 말을 나누어 주었다”고 적혀 있다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "일기 곳곳에는 이런 일화들이 자주 등장한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 함께 지낸 신하가 관직에서 물러나면 끊임없이 사람을 보내 건강을 챙겼다 한다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.ize.co.kr/news/articleView.html?idxno=21340",
+            "search_query": "소현세자 소현심양일기",
+            "terminate": false,
+            "text": "음, 1637년 소현심양일기에 보면 병자호란 이후 청으로 소현세자가 끌려가는 동안 시골 마을을 지나치게 되는데, 이때 병화를 피해 석굴에 숨어 있는 1백여 명의 백성들에게 몇 말의 쌀을 나누어 주었다는 기록이 있어요. 그리고 관직에서 물러난 신하에게 계속해서 사람을 보내 건강을 챙기는 등 그의 인정을 알 수 있는 일화들이 일기 곳곳에서 자주 발견되고 있죠.",
+            "turn_id": "BK22007878-1",
+            "utterance_id": "BK22007878.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청으로 끌려가는 상황에서도 백성을 챙겼군요. 그런데 심양일기가 뭔가요?",
+            "turn_id": "BK22007878-2",
+            "utterance_id": "BK22007878.3"
+        },
+        {
+            "reference_date": "2013-04-16",
+            "reference_text": [
+                {
+                    "value": "심양일기는 청에 볼모로 잡혀간 소현세자(1612-1645)를 수행한 시강원의 관리들이 기록한 것으로, 소현세자의 일거수일투족을 면면히 살펴볼 수 있는 자료라는 점에서 특기할 만하다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://n.news.naver.com/mnews/article/001/0006206918?sid=103",
+            "search_query": "심양일기 청에 볼모 소현세자 시강원 관리",
+            "terminate": false,
+            "text": "심양일기는 소현세자의 일거수일투족을 면면히 살펴볼 수 있는 기록물인데, 청에 볼모로 잡혀 있을 때 수행한 시강원의 관리들이 기록한 것으로 특기할 만하죠.",
+            "turn_id": "BK22007878-2",
+            "utterance_id": "BK22007878.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "시강원의 관리들이 기록했군요. 그럼 볼모로 끌려간 청에서의 생활은 어땠나요?",
+            "turn_id": "BK22007878-3",
+            "utterance_id": "BK22007878.5"
+        },
+        {
+            "reference_date": "2020-04-24",
+            "reference_text": [
+                {
+                    "value": "병자호란의 결과로 1637년에 청나라로 끌려간 25세의 소현세자는 인질답지 않게 청나라 생활에 잘 적응했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그곳에서 양국 간 현안을 처리하며 자기의 위상을 드높였다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "심양(션양)과 북경(베이징)에 체류한 9년 동안 그는 중국의 정세 변화도 목격하고 서양문명도 접촉했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이런 경험은 그를 조선 사대부들을 뛰어넘는 원대한 식견의 소유자로 만들었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002635517&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "소현세자 심양 생활",
+            "terminate": false,
+            "text": "음, 1637년에 병자호란의 결과로 25세의 나이에 청나라로 끌려간 소현세자는 인질답지 않게 그곳 생활에 잘 적응하게 돼요. 그리고 두 나라 간 현안을 처리하며 위상이 높아지게 되는데, 북경과 심양에 9년간 머물면서 중국의 정세 변화를 직접 보고 서양문명을 경험하게 되면서 조선 사대부들을 뛰어넘는 원대한 식견까지 갖추게 되죠.",
+            "turn_id": "BK22007878-3",
+            "utterance_id": "BK22007878.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "청나라 생활에 잘 적응했다니 다행이네요. 그럼 고국에는 얼마 만에 돌아오게 되나요?",
+            "turn_id": "BK22007878-4",
+            "utterance_id": "BK22007878.7"
+        },
+        {
+            "reference_date": "2020-05-13",
+            "reference_text": [
+                {
+                    "value": "8년 뒤 통곡 속에 떠났던 소현세자와 아내 강빈이 귀국했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "두 달 뒤 세자가 죽었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://www.chosun.com/site/data/html_dir/2020/05/12/2020051200040.html?utm_source=naver&utm_medium=original&utm_campaign=news",
+            "search_query": "8년 뒤 귀국 소현세자 강빈 귀국",
+            "terminate": false,
+            "text": "통곡 속에 떠났던 소현세자는 8년 만에 아내 강빈과 환국하게 되는데, 두 달 후에 사망하죠.",
+            "turn_id": "BK22007878-4",
+            "utterance_id": "BK22007878.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "네? 귀국한지 두 달 만에 죽었다고요? 그럼 소현세자의 아들인 원손이 그의 뒤를 이어 세자가 되었나요?",
+            "turn_id": "BK22007878-5",
+            "utterance_id": "BK22007878.9"
+        },
+        {
+            "reference_date": "2018-04-06",
+            "reference_text": [
+                {
+                    "value": "소현세자가 세상을 떠난 뒤 인조는 차남인 봉림대군(효종, 재위 1649~1659)을 세자로 책봉하는데, 이는 장자 계승의 원칙과 맞지가 않아서 당시 조정에서도 논란이 되었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "보통 세자가 일찍 세상을 떠난 경우 세자의 맏아들인 원손이 세손으로 책봉되어 왕위에 오르는 것이 일반적이다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002420898&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "소현세자가 세상을 떠난 뒤 차남인 봉림대군세자 책봉",
+            "terminate": false,
+            "text": "아니요. 세자가 일찍 죽을 경우 일반적으로 세자의 장자인 원손이 세손으로 책봉되어 왕위에 오르게 되는데, 인조는 소현세자가 죽자 자신의 둘째 아들인 봉림대군을 세자로 책봉하죠. 이는 장자 승계의 원칙을 따르는 것이 아니기 때문에 당시 조정에서도 논란이 되었어요.",
+            "turn_id": "BK22007878-5",
+            "utterance_id": "BK22007878.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "흠, 인조의 차남이 세자가 됐군요. 그러면 소현세자의 아들은 어떻게 됐나요?",
+            "turn_id": "BK22007878-6",
+            "utterance_id": "BK22007878.11"
+        },
+        {
+            "reference_date": "2018-04-06",
+            "reference_text": [
+                {
+                    "value": "결국 1647년 소현세자의 세 아들은 제주도로 유배를 가게 되고, 이곳에서 맏이인 경선군(1636~1648)과 차남인 경완군(1640~1648)은 풍토병으로 세상을 떠나고, 막내인 경안군(1644~1665)만 살아남을 수 있었다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002420898&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+            "search_query": "소현세자의 세 아들은 제주도로 유배",
+            "terminate": false,
+            "text": "소현세자의 세 아들은 1647년 제주도로 유배를 가는데, 유배지에서 셋째 경안군만 살아남고, 첫째 경선군과 둘째 경완군은 풍토병으로 죽게 되죠.",
+            "turn_id": "BK22007878-6",
+            "utterance_id": "BK22007878.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저런, 두 명이 죽었다니 안타까워요. 그럼 소현 세자의 아내 강빈은 어떻게 됐나요?",
+            "turn_id": "BK22007878-7",
+            "utterance_id": "BK22007878.13"
+        },
+        {
+            "reference_date": "2017-01-02",
+            "reference_text": [
+                {
+                    "value": "강빈 역시 1646년 인조가 먹는 음식에 독을 탔다는 혐의로 사약을 받았다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeonggi.com/1292859",
+            "search_query": "인조 강빈 사약",
+            "terminate": false,
+            "text": "인조가 먹는 음식에 독을 탔다는 혐의로 1646년에 강빈은 사약을 받아 죽게 돼요.",
+            "turn_id": "BK22007878-7",
+            "utterance_id": "BK22007878.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "소현세자의 아들들은 유배 보내고 아내인 강빈에게는 사약을 내리다니, 인조가 왜 그런걸까요? 인조는 소현 세자 부부가 달갑지 않았던 건가요?",
+            "turn_id": "BK22007878-8",
+            "utterance_id": "BK22007878.15"
+        },
+        {
+            "reference_date": "2016-10-12",
+            "reference_text": [
+                {
+                    "value": "1637년부터 1644년까지 볼모 생활을 한 끝에 소현세자와 강빈은 조선으로 돌아왔다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "인조는 돌아온 아들 내외를 반기지 않았다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "청이 세자를 돌려보낸 것은 자신을 입조케하고 세자를 왕으로 세우려는 의도라고 의심했다.",
+                    "value_time": "2022-09-08",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.kyeongin.com/main/view.php?key=20161012010003491",
+            "search_query": "인조 세자를 왕으로 세우려는 의도라고 의심",
+            "terminate": false,
+            "text": "네, 인조는 아들 내외인 소현세자와 강빈이 1637년부터 1644년까지 볼모 생활을 한끝에 조선으로 돌아온 것을 반기지 않았는데, 청나라에서 자신을 대신할 왕으로 소현세자를 삼기 위해 돌려보낸 것이라고 의심했기 때문이죠.",
+            "turn_id": "BK22007878-8",
+            "utterance_id": "BK22007878.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "권력 앞에 가족애는 사라지나 봐요. 집에 있는 가족이 생각나네요. 오늘은 일찍 들어가서 같이 저녁 해야겠어요.",
+            "turn_id": "BK22007878-9",
+            "utterance_id": "BK22007878.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "저도 엄마가 좋아하는 연어 사서 들어가야겠어요.",
+            "turn_id": "BK22007878-9",
+            "utterance_id": "BK22007878.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 맛있는 연어 사서 조심히 들어가세요.",
+            "turn_id": "BK22007878-10",
+            "utterance_id": "BK22007878.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "네, 가족들과 즐거운 저녁 시간 보내세요.",
+            "turn_id": "BK22007878-10",
+            "utterance_id": "BK22007878.20"
+        }
+    ]
+}

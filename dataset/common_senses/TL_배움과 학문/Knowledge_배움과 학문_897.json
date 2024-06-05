@@ -1,0 +1,348 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.9,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22005742",
+        "name": "2022 한국어 블렌더봇 데이터 BK22005742",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 4.2,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0024"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0019"
+            },
+            {
+                "speaker1UttScore": 4.8,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0002"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0041"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_nhn_voter0006"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "24절기 중에 있는 입추가 지나서 가을 시작된 줄 알았는데, 왜 이렇게 무덥죠?",
+            "turn_id": "BK22005742-1",
+            "utterance_id": "BK22005742.1"
+        },
+        {
+            "reference_date": "2022-08-07",
+            "reference_text": [
+                {
+                    "value": "24절기는 중국 화북 지방의 기후를 기준으로 한 것으로, 한국에서는 입추를 전후로 한 8월 상순이 오히려 1년 중 더위의 절정을 맞이하는 시기이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%9E%85%EC%B6%94",
+            "search_query": "입추",
+            "terminate": false,
+            "text": "우리가 알고 있는 24절기의 기준은, 우리나라가 아닌 중국 화북 지방의 기후를 기준으로 만든 거예요. 그래서 기후가 약간 다르다고 느껴지기도 하죠. 오히려, 한국의 기후는 입추가 끼어 있는 8월 초순이 1년 중에서 최고로 더운 시기니까요.",
+            "turn_id": "BK22005742-1",
+            "utterance_id": "BK22005742.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "24절기가 우리나라 고유의 절기가 아니었군요. 그런데, 어떻게 중국 절기가 우리나라 달력에 표시가 되어 있어요?",
+            "turn_id": "BK22005742-2",
+            "utterance_id": "BK22005742.3"
+        },
+        {
+            "reference_date": "2022-04-09",
+            "reference_text": [
+                {
+                    "value": "한국도 중국의 역법을 도입하였기 때문에 24절기를 달력에 표시 하였는데, 계절을 나타내는 좋은 표시가 되기 때문에 현재까지도 달력에 표시하고 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%88%EA%B8%B0",
+            "search_query": "절기역사",
+            "terminate": false,
+            "text": "한국이 24절기를 달력에 표시하게 된 이유는 중국의 역법을 그대로 사용했기 때문이에요. 이후에도 계절을 사용할 때, 24절기를 달력에 표시한 것이 유용하다 보니까 지금까지도 계속 사용하고 있는 거죠.",
+            "turn_id": "BK22005742-2",
+            "utterance_id": "BK22005742.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아, 어쩐지 절기의 이름과 실제 기후가 약간의 차이가 있는 것 같더라고요. 24절기는 어떤 기준으로 정해진 거예요?",
+            "turn_id": "BK22005742-3",
+            "utterance_id": "BK22005742.5"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "그러므로 천문학적으로는 태양의 황경이 0°인 날을 춘분으로 하여 15° 이동했을 때를 청명 등으로 구분해 15° 간격으로 24절기를 나눈 것이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=103660",
+            "search_query": "24절기 기준",
+            "terminate": false,
+            "text": "24절기의 기준은 태양의 황경이에요. 천문학적으로 볼 때, 태양의 황경이 0도가 되는 날을 춘분으로 정해서 춘분을 기준으로 15도 이동하면 청명이라고 하고요. 이렇게 15도 간격으로 계속 이동해서 24개의 절기를 만든 거죠.",
+            "turn_id": "BK22005742-3",
+            "utterance_id": "BK22005742.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그냥 막 정한 게 아니라 태양의 움직임이 기준이 되는 거군요. 우리나라는 옛날에 음력을 사용한 것으로 아는데, 절기가 태양 중심이면 음력이 아니에요?",
+            "turn_id": "BK22005742-4",
+            "utterance_id": "BK22005742.7"
+        },
+        {
+            "reference_date": "2022-08-04",
+            "reference_text": [
+                {
+                    "value": "실제로 달력을 보면 24절기는 양력으로 매월 4~8일 사이와 19~23일 사이에 생긴다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.lecturernews.com/news/articleView.html?idxno=103660",
+            "search_query": "24절기 양력",
+            "terminate": false,
+            "text": "네, 24절기는 양력으로 표시돼요. 달력 보면, 매달 초순인 4일에서 8일 사이에 하나가 있고, 하순쯤인 19일에서 23일 사이에 하나가 있어요.",
+            "turn_id": "BK22005742-4",
+            "utterance_id": "BK22005742.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절기도 명절처럼 음력일 거라고만 생각했는데, 완전 새로운 사실이네요. 8월 달력 보니까 8월 7일이 입추고, 8월 23일이 처서니까 날짜가 딱 들어맞아요. 그런데, 입추는 알겠는데 처서는 어떤 절기예요?",
+            "turn_id": "BK22005742-5",
+            "utterance_id": "BK22005742.9"
+        },
+        {
+            "reference_date": "2022-02-04",
+            "reference_text": [
+                {
+                    "value": "처서(處暑)는 24절기의 14번째로 태양 황경이 150도가 될 때이다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "여름이 지나 더위가 한풀 꺾이고 선선한 가을을 맞이하게 된다고 하여 '처서'라 불렀다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%B2%98%EC%84%9C",
+            "search_query": "처서",
+            "terminate": false,
+            "text": "처서야말로 본격적인 가을의 시작을 의미하는 절기예요. 24절기 순서로는 14번째이고, 태양의 황경은 150도일 때인데, 이때부터 더운 여름의 기세가 한풀 꺾이고 가을의 선선함을 느끼게 되죠.",
+            "turn_id": "BK22005742-5",
+            "utterance_id": "BK22005742.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "제가 알고 있던 입추는 어떻게 보면 가을의 문턱이라는 의미이고, 서늘한 날씨의 진짜 가을이 시작되는 것은 처서네요. 하긴, 그때쯤부터 일교차도 심해져서 아침저녁 쌀쌀하죠?",
+            "turn_id": "BK22005742-6",
+            "utterance_id": "BK22005742.11"
+        },
+        {
+            "reference_date": "2017-08-22",
+            "reference_text": [
+                {
+                    "value": "처서와 관련된 속담으로는 ‘처서가 지나면 모기도 입이 비뚤어진다’가 있다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "아침저녁으로 신선한 기운을 느끼게 되는 계절이기에 이러한 속담이 나온 것.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://edu.donga.com/?p=article&ps=view&at_no=20170822093240811133",
+            "search_query": "처서 속담",
+            "terminate": false,
+            "text": "네, 처서때는 아침과 저녁에 싸늘해지는 것을 빗대어서, 처서가 지나면 모기도 입이 비뚤어진다는 속담까지 있을 정도예요.",
+            "turn_id": "BK22005742-6",
+            "utterance_id": "BK22005742.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "모기 입이 비뚤어진다니 참 재미있는 비유네요.",
+            "turn_id": "BK22005742-7",
+            "utterance_id": "BK22005742.13"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "하하, 우리 선조들이 유머 감각이 좀 있으셨던 것 같아요.",
+            "turn_id": "BK22005742-7",
+            "utterance_id": "BK22005742.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "절기 얘기하다 보니 제가 가장 좋아하는 절기인 동지가 생각나네요. 어려서는 팥죽 먹어야 한 살 먹는다고 해서 기를 쓰고 먹었던 기억이 있어요. 그런데, 지금 생각해보니 설날 떡국이 있는데, 왜 동지 때 팥죽 먹어야 한 살 먹는다고 했는지 모르겠네요.",
+            "turn_id": "BK22005742-8",
+            "utterance_id": "BK22005742.15"
+        },
+        {
+            "reference_date": "2021-12-21",
+            "reference_text": [
+                {
+                    "value": "'동지팥죽을 먹어야 진짜 나이를 먹는다'며 동지를 작은설(아세·亞歲)로 불렀다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "http://www.mdilbo.com/detail/WYXZ2h/659838",
+            "search_query": "동지 팥죽 나이",
+            "terminate": false,
+            "text": "설날에 떡국 먹어야 나이 한 살 더 먹는다고 하듯이, 동지 팥죽을 먹어야 진짜 한 살 더 나이를 먹는다고 한 것은 동지를 작은 설이라는 의미의 아세라고 부르는 풍습이 있었기 때문이에요.",
+            "turn_id": "BK22005742-8",
+            "utterance_id": "BK22005742.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "동지가 작은 설의 의미가 있는 줄은 몰랐네요. 어려서는 나이 먹는 게 뭐가 좋다고 떡국이든 팥죽이든 그렇게 먹으려고 했는지 모르겠어요. 그런데, 설이라는 명절이 있는데, 동지를 작은 설로 삼은 이유가 있어요?",
+            "turn_id": "BK22005742-9",
+            "utterance_id": "BK22005742.17"
+        },
+        {
+            "reference_date": "2022-06-22",
+            "reference_text": [
+                {
+                    "value": "동지(冬至)를 기점으로 하여 점차 낮의 길이가 길어지므로 많은 곳에서 축제일, 또는 1년의 시작일로 삼았다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "또한 동지를 작은설로 부르며 크게 축하했다.",
+                    "value_time": "2022-08-16",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A7%80",
+            "search_query": "동지",
+            "terminate": false,
+            "text": "동짓날은 해가 점차 길어져서 밤보다 낮이 길어지기 시작하는 시기잖아요. 그래서, 이날을 1년의 시작일로 삼고 작은 설로 부르면서 크게 축제를 했어요.",
+            "turn_id": "BK22005742-9",
+            "utterance_id": "BK22005742.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "아하, 그렇게 깊은 뜻이 있는 줄 몰랐네요. 동지가 거의 12월 22일쯤이니까 며칠 뒤인 1월 1일보다 새해로는 더 의미가 맞는 것 같아요.",
+            "turn_id": "BK22005742-10",
+            "utterance_id": "BK22005742.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "새로운 시작이라는 의미를 부여할 만하죠.",
+            "turn_id": "BK22005742-10",
+            "utterance_id": "BK22005742.20"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "오늘, 덕분에 24절기에 대한 내용 여러 가지 알게 되어서 지식 플러스 되었어요. 정말 감사해요.",
+            "turn_id": "BK22005742-11",
+            "utterance_id": "BK22005742.21"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "감사는요, 도움이 되었다니 저도 기뻐요.",
+            "turn_id": "BK22005742-11",
+            "utterance_id": "BK22005742.22"
+        }
+    ]
+}

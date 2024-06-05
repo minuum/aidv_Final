@@ -1,0 +1,336 @@
+{
+    "info": {
+        "category": "지식검색 대화",
+        "evaluation": {
+            "speaker1UttAvg_rating": 4.8,
+            "speaker1UttGrade": "우수",
+            "speaker2UttAvg_rating": 4.8,
+            "speaker2UttGrade": "우수"
+        },
+        "id": "BK22012966",
+        "name": "2022 한국어 블렌더봇 데이터 BK22012966",
+        "topic": "배움과 학문",
+        "votes": [
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0003"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.8,
+                "voter_id": "bk_mc_voter0018"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.6,
+                "voter_id": "bk_nhn_voter0019"
+            },
+            {
+                "speaker1UttScore": 5.0,
+                "speaker2UttScore": 5.0,
+                "voter_id": "bk_mc_voter0004"
+            },
+            {
+                "speaker1UttScore": 4.6,
+                "speaker2UttScore": 4.4,
+                "voter_id": "bk_mc_voter0012"
+            }
+        ]
+    },
+    "utterances": [
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "대한민국은 현재 종전 상태인가요?",
+            "turn_id": "BK22012966-1",
+            "utterance_id": "BK22012966.1"
+        },
+        {
+            "reference_date": "44618.0",
+            "reference_text": [
+                {
+                    "value": "국제법상 휴전은 여전히 전쟁상태를 의미하지만, 대한민국의 경우는 전시, 준전시, 평시 상태를 나눠놓고 있기 때문에 엄밀히 말해서 정전 상태이며, 전시 상태는 아니다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%84_(%EA%B5%B0%EC%82%AC)",
+            "search_query": "정전",
+            "terminate": false,
+            "text": "아니에요, 대한민국은 전시, 준전시, 평시 상태를 나누어놓은 정전 상태랍니다. 대한민국은 전시 상태도 아니며 국제법상 여전히 전쟁상태를 의미하는 휴전도 아니죠.",
+            "turn_id": "BK22012966-1",
+            "utterance_id": "BK22012966.2"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그럼 휴전의 정확한 정의는 무엇인가요?",
+            "turn_id": "BK22012966-2",
+            "utterance_id": "BK22012966.3"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "휴전(休戰,armistice)은 전쟁에서 적대 행위를 중단하는 행위이다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "휴전 협정은 잠정적인 합의에 불과하며, 평화 조약과는 별개다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EC%A0%84",
+            "search_query": "휴전",
+            "terminate": false,
+            "text": "전쟁에서 적대 행위를 멈추는 것을 휴전이라고 해요. 휴전 협정은 일시적인 합의이며 평화 조약과는 달라요.",
+            "turn_id": "BK22012966-2",
+            "utterance_id": "BK22012966.4"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한국에서 전쟁을 중단하며 맺은 협정은 무엇인데요?",
+            "turn_id": "BK22012966-3",
+            "utterance_id": "BK22012966.5"
+        },
+        {
+            "reference_date": "44671.0",
+            "reference_text": [
+                {
+                    "value": "한국 군사 정전에 관한 협정은 한반도에서의 전쟁 행위를 멈추게 한 휴전협정(armistice)을 말한다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "그러나 대한민국은 군사작전권 문제로 독자적인 전쟁을 이어나갈 수 없었다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "이에 1953년 정전협정이 체결된 것이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD_%EA%B5%B0%EC%82%AC_%EC%A0%95%EC%A0%84%EC%97%90_%EA%B4%80%ED%95%9C_%ED%98%91%EC%A0%95",
+            "search_query": "한국 군사 정전에 관한 협정",
+            "terminate": false,
+            "text": "한국 군사 정전에 관한 협정이에요. 한반도의 전쟁을 멈춘 휴전 협정이죠. 1953년 당시 대한민국은 군사작전권의 문제로 독단적으로 전쟁을 지속할 수 없었기 때문에 정전협정이 체결된 것이에요.",
+            "turn_id": "BK22012966-3",
+            "utterance_id": "BK22012966.6"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "그렇군요, 영토는 흔히 38선이라고 불리는 북위 38도로 나뉘어 진 건가요?",
+            "turn_id": "BK22012966-4",
+            "utterance_id": "BK22012966.7"
+        },
+        {
+            "reference_date": "44640.0",
+            "reference_text": [
+                {
+                    "value": "한국 전쟁의 정전 협정에 따라 설정된 군사분계선은 위도상 북위 38도 부근에 위치하고 있지만, 38선과 비교해 서쪽 경계가 남하하였고 동쪽 경계가 북상하였다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%B0%98%EB%8F%84_%EA%B5%B0%EC%82%AC_%EB%B6%84%EA%B3%84%EC%84%A0",
+            "search_query": "한반도 군사 분계선",
+            "terminate": false,
+            "text": "아니에요, 그러나 38선 부근이긴 해요. 한국 전쟁 정전 협정으로 설정된 군사분계선은 38선과 비교해서 서쪽 경계가 남쪽으로 내려갔고 동쪽 경계가 북쪽으로 올라갔어요.",
+            "turn_id": "BK22012966-4",
+            "utterance_id": "BK22012966.8"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "정확히 38선으로 나뉜 것은 아니군요. 군사분계선 근처에는 무엇이 있나요?",
+            "turn_id": "BK22012966-5",
+            "utterance_id": "BK22012966.9"
+        },
+        {
+            "reference_date": "44601.0",
+            "reference_text": [
+                {
+                    "value": "휴전선 감시 초소(休戰線監視哨所, 영어: guard post, GP)는 군사분계선(MDL)에서부터 남북으로 각각 2 km 범위에 군사충돌을 방지하기 위한 완충지대로 설정되어 있는 한반도의 비무장 지대(DMZ)에 위치한 감시 초소이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%9C%B4%EC%A0%84%EC%84%A0_%EA%B0%90%EC%8B%9C_%EC%B4%88%EC%86%8C",
+            "search_query": "휴전선 감시 초소",
+            "terminate": false,
+            "text": "군사분계선에서 남쪽, 북쪽으로 각각 2km 범위에 군사충돌을 막기 위한 휴전선 감시 초소가 있어요. 한반도 비무장 지대에 있는 완충 지대죠.",
+            "turn_id": "BK22012966-5",
+            "utterance_id": "BK22012966.10"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "한반도 비무장 지대는 어떤 곳인데요?",
+            "turn_id": "BK22012966-6",
+            "utterance_id": "BK22012966.11"
+        },
+        {
+            "reference_date": "44657.0",
+            "reference_text": [
+                {
+                    "value": "한반도 비무장 지대(韓半島非武裝地帶, Korean Demilitarized Zone, DMZ)는 한국 전쟁 이후 1953년 체결된 정전 협정에 따라 설정된 비무장 지대이다.",
+                    "value_time": "44818.0",
+                    "value_type": "constant"
+                },
+                {
+                    "value": "비무장지대에 들어가기 위해서는 군사정전위원회의 허가를 받아야 하며 입장 인원 수도 일부 제한되며 무기 휴대 또한 당연히 금지된다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%B0%98%EB%8F%84_%EB%B9%84%EB%AC%B4%EC%9E%A5_%EC%A7%80%EB%8C%80",
+            "search_query": "한반도 비무장 지대",
+            "terminate": false,
+            "text": "한국 전쟁 이후 1953년 정전 협정 때 생긴 비무장 지대를 DMZ 즉, 한반도 비무장 지대라고 해요. DMZ를 들어가려면 군사정전위원회의 허가가 필요해요. 또한, 입장 인원수가 제한되고 무기가 금지되는 구역이죠.",
+            "turn_id": "BK22012966-6",
+            "utterance_id": "BK22012966.12"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "DMZ에는 사람들의 발길이 적어 자연환경이 보존되었겠어요.",
+            "turn_id": "BK22012966-7",
+            "utterance_id": "BK22012966.13"
+        },
+        {
+            "reference_date": "44657.0",
+            "reference_text": [
+                {
+                    "value": "이 지역은 일반인의 활동이 엄격히 금지되어 자연 생태계가 보존되어 있으며, 아시아 최대의 자연보호지역으로 주목받고 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                },
+                {
+                    "value": "그리고 DMZ 주변은 하천과 습지가 잘 발달되어 있어, 다양한 어종과 풍부한 개체수를 간직하고 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%B0%98%EB%8F%84_%EB%B9%84%EB%AC%B4%EC%9E%A5_%EC%A7%80%EB%8C%80",
+            "search_query": "한반도 비무장 지대",
+            "terminate": false,
+            "text": "맞아요, 아시아 최대 자연보호지역으로 주목받고 있는 DMZ는 일반인의 활동이 금지되어 있기 때문에 자연 생태계가 보존되어 있고 하천과 습지가 발달하여 다양하고 풍부한 어종과 개체 수를 보유하고 있어요.",
+            "turn_id": "BK22012966-7",
+            "utterance_id": "BK22012966.14"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "자연 그대로의 모습을 간직한 DMZ를 보고 싶은데 방법이 있을까요?",
+            "turn_id": "BK22012966-8",
+            "utterance_id": "BK22012966.15"
+        },
+        {
+            "reference_date": "44814.0",
+            "reference_text": [
+                {
+                    "value": "도라전망대에서는 DMZ와 개성공단, 개성 시가지뿐만 아니라 북한의 기정동 마을과 송악산을 볼 수 있다.",
+                    "value_time": "44818.0",
+                    "value_type": "variable"
+                }
+            ],
+            "role": "전문가",
+            "search_URL": "https://cm.asiae.co.kr/article/2022091008473668262",
+            "search_query": "DMZ 여행",
+            "terminate": false,
+            "text": "도라전망대에 가시면 DMZ를 볼 수 있어요. 개성공단, 개성 시가지, 북한의 기정동 마을, 송악산도 볼 수 있고요.",
+            "turn_id": "BK22012966-8",
+            "utterance_id": "BK22012966.16"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "북한의 마을도 어떻게 생겼는지 궁금했는데 한번 가봐야겠군요.",
+            "turn_id": "BK22012966-9",
+            "utterance_id": "BK22012966.17"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "DMZ 접경지역을 잇는 평화누리 길도 가보세요. 대한민국 최북단의 걷기 코스예요.",
+            "turn_id": "BK22012966-9",
+            "utterance_id": "BK22012966.18"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "질문자",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": false,
+            "text": "걷기 코스의 길이는 얼마나 되나요?",
+            "turn_id": "BK22012966-10",
+            "utterance_id": "BK22012966.19"
+        },
+        {
+            "reference_date": null,
+            "reference_text": null,
+            "role": "전문가",
+            "search_URL": null,
+            "search_query": null,
+            "terminate": true,
+            "text": "길이는 189km로 김포에서 시작해서 파주와 고양, 연천으로 이어져요.",
+            "turn_id": "BK22012966-10",
+            "utterance_id": "BK22012966.20"
+        }
+    ]
+}
