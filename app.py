@@ -45,7 +45,7 @@ def pdf_load(dir):
         
 
 documents = []
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #pdf_directory = './data'
 
 if "OPENAI_API" not in st.session_state:
@@ -116,7 +116,7 @@ if "retriever" not in st.session_state:
     print("Chunks split Done.")
     # embeddings은 OpenAI의 임베딩을 사용
     # vectordb는 chromadb사용함
-
+    OPENAI_API_KEY=st.session_state["OPENAI_API"]
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
     vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     print("Retriever Done.")
