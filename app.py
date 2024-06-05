@@ -49,8 +49,7 @@ documents = []
 #pdf_directory = './data'
 
 if "OPENAI_API" not in st.session_state:
-    st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
-# 기본 모델을 설정합니다.
+    st.session_state["OPENAI_API"] = ""
 if "model" not in st.session_state:
     st.session_state["model"] = "gpt-4o"
 # 채팅 기록을 초기화합니다.
