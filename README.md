@@ -1,1 +1,0 @@
-# aidv_project
