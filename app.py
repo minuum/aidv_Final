@@ -45,11 +45,12 @@ def pdf_load(dir):
         
 
 documents = []
-#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #pdf_directory = './data'
 
 if "OPENAI_API" not in st.session_state:
-    st.session_state["OPENAI_API"] = ""
+    st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
+# 기본 모델을 설정합니다.
 if "model" not in st.session_state:
     st.session_state["model"] = "gpt-4o"
 # 채팅 기록을 초기화합니다.
@@ -115,7 +116,7 @@ if "retriever" not in st.session_state:
     print("Chunks split Done.")
     # embeddings은 OpenAI의 임베딩을 사용
     # vectordb는 chromadb사용함
-    OPENAI_API_KEY=st.session_state["OPENAI_API"]
+
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
     vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     print("Retriever Done.")
