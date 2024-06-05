@@ -12,8 +12,6 @@ import gradio as gr
 #public url: https://3b20064f5bf66b7688.gradio.live
 
 
-
-os.environ["OPENAI_API_KEY"]="sk-proj-4pXxFpf4ynFVL4PQpzXjT3BlbkFJz4a8HP8clgu30wzaFDqp"
 loader = DirectoryLoader('.',glob="*.txt",loader_cls=TextLoader)
 documents = loader.load()
 
