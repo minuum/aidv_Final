@@ -10,11 +10,21 @@ from dotenv import load_dotenv
 load_dotenv()
 import time
 import json
-
+from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
+
+#DataTransformer - json format
+import time
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm 
+import sys
+sys.path.append("")
+from function import DataTransformer
+from chatbot_class import Chatbot
+
 
 
 def stream_data(response):
@@ -36,7 +46,7 @@ def pdf_load(dir):
 
 documents = []
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-pdf_directory = './data'
+#pdf_directory = './data'
 
 if "OPENAI_API" not in st.session_state:
     st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
@@ -59,26 +69,50 @@ if "current" not in st.session_state:
 #################################################
 if "prompt" not in st.session_state:
     st.session_state["prompt"] = ''' 
-    수업 프롬프트는 여기에 입력
+    00 프롬프트는 여기에 입력
     
-    ''' if  st.session_state["service"] == "수업" else '''
+    ''' if  st.session_state["service"] == "고전" else '''
     
-    졸업 프롬프트는 여기에 입력
+    00 프롬프트는 여기에 입력
     '''
 #################################################
 
 if "retriever" not in st.session_state:
-    pdf_files = glob(os.path.join(pdf_directory, '*.pdf'))
+    
+    #Data loading and chopping
+    json_directory = "./dataset/common_senses"
+    common_senses=["TL_배움과 학문"]
+    dt=DataTransformer(json_directory=json_directory,common_senses=common_senses)
+    json_datas,total_time=dt.load_json_files()
 
-    # Load all PDF files using PyPDFLoader
-    for pdf_file in pdf_files:
-        loader = PyPDFLoader(pdf_file)
-        pdf_documents = loader.load()
-        documents.extend(pdf_documents)
-        
+    documents = [{"text": json.dumps(item)} for item in json_datas]
+    
+    # for doc in documents:
+    #     split_docs.extend(doc)
+    # split_docs=[]
+    def split_document(doc):
+        return text_splitter.split_text(doc["text"])
+    
+    #ㅅㄷㅌ
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    split_docs = []
+
+    start_time = time.time()
+    with ThreadPoolExecutor() as executor:
+        for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
+            split_docs.extend(split)
+
+    end_time = time.time()
+    total_time = end_time - start_time
+    print(f"Total time taken for splitting: {total_time:.2f} seconds")
+ 
+# Document 객체로 변환
+    chunks = [Document(page_content=doc) for doc in split_docs]
+    #Text Split
     # 텍스트는 RecursiveCharacterTextSplitter를 사용하여 분할
-    chunk_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-    chunks = chunk_splitter.split_documents(documents)
+
+    # chunk_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    # chunks = chunk_splitter.split_documents(documents)
     print("Chunks split Done.")
     # embeddings은 OpenAI의 임베딩을 사용
     # vectordb는 chromadb사용함
@@ -96,8 +130,8 @@ if __name__ == '__main__':
     # Create a sidebar for API key and model selection
     with st.expander("챗봇 사용법", expanded=False):
         st.markdown("""
-                    - 강남대학교 학사지원을 위한 챗봇입니다.
-                    - 답변 내용은 학사지원 메뉴얼을 기반으로 합니다.
+                    - 시사 상식을 알려주는 챗봇입니다.
+                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
                     """)
     ################# 설정을 위한 사이드바를 생성합니다. 여기서 api키를 받아야 실행됩니다. ##########################################
     with st.sidebar:
@@ -106,7 +140,7 @@ if __name__ == '__main__':
         #모델을 선택합니다.
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         #라디오 버튼을 사용하여 서비스를 선택합니다.
-        st.session_state["service"] = st.radio("학사지원 서비스를 선택해주세요.", ["수업", "졸업"])
+        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["고전", "신화","상식"])
     # Chatbot을 생성합니다.
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=st.session_state.retriever,
