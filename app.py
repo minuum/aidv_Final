@@ -18,7 +18,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-import chromadb
+from chromadb import chromadb
 #DataTransformer - json format
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -121,7 +121,7 @@ if "retriever" not in st.session_state:
     # vectordb는 chromadb사용함
 
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-    vectordb = chromadb(documents=chunks, embedding=embeddings)
+    vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     print("Retriever Done.")
     st.session_state.retriever = vectordb.as_retriever()
     
