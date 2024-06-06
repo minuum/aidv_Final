@@ -28,6 +28,45 @@ sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 
+documents = []
+OPENAI_API_KEY =st.secrets["OPENAI_API_KEY"]
+#pdf_directory = './data'
+#Data loading and chopping
+json_directory = "./dataset/common_senses"
+common_senses=["TL_배움과 학문"]
+dt=DataTransformer(json_directory=json_directory,common_senses=common_senses)
+json_datas,total_time=dt.load_json_files()
+
+#documents : json to text
+documents = [{"text": json.dumps(item)} for item in json_datas]
+# for doc in documents:
+#     split_docs.extend(doc)
+# split_docs=[]
+
+
+#text_splits
+def split_document(doc):
+    return text_splitter.split_text(doc["text"])
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+split_docs = []
+start_time = time.time()
+with ThreadPoolExecutor() as executor:
+    for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
+        split_docs.extend(split)
+
+end_time = time.time()
+total_time = end_time - start_time
+print(f"Total time taken for splitting: {total_time:.2f} seconds")
+ 
+
+# embedding
+# Document 객체로 변환
+chunks = [Document(page_content=doc) for doc in split_docs]
+print("Chunks split Done.")
+# embeddings은 OpenAI의 임베딩을 사용
+# vectordb는 chromadb사용함
+embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
 
 
 def stream_data(response):
@@ -47,9 +86,7 @@ def pdf_load(dir):
 #     return input_docs
         
 
-documents = []
-OPENAI_API_KEY =st.secrets["OPENAI_API_KEY"]
-#pdf_directory = './data'
+
 
 if "OPENAI_API" not in st.session_state:
     st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
@@ -80,48 +117,7 @@ if "prompt" not in st.session_state:
     '''
 #################################################
 
-if "retriever" not in st.session_state:
-    
-    #Data loading and chopping
-    json_directory = "./dataset/common_senses"
-    common_senses=["TL_배움과 학문"]
-    dt=DataTransformer(json_directory=json_directory,common_senses=common_senses)
-    json_datas,total_time=dt.load_json_files()
-
-    documents = [{"text": json.dumps(item)} for item in json_datas]
-    
-    # for doc in documents:
-    #     split_docs.extend(doc)
-    # split_docs=[]
-    def split_document(doc):
-        return text_splitter.split_text(doc["text"])
-    
-    #ㅅㄷㅌ
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    split_docs = []
-
-    start_time = time.time()
-    with ThreadPoolExecutor() as executor:
-        for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
-            split_docs.extend(split)
-
-    end_time = time.time()
-    total_time = end_time - start_time
-    print(f"Total time taken for splitting: {total_time:.2f} seconds")
- 
-# Document 객체로 변환
-    chunks = [Document(page_content=doc) for doc in split_docs]
-    #Text Split
-    # 텍스트는 RecursiveCharacterTextSplitter를 사용하여 분할
-
-    # chunk_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    # chunks = chunk_splitter.split_documents(documents)
-    print("Chunks split Done.")
-    # embeddings은 OpenAI의 임베딩을 사용
-    # vectordb는 chromadb사용함
-
-    embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-    vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
+if "retriever" not in st.session_state:    
     print("Retriever Done.")
     st.session_state.retriever = vectordb.as_retriever()
     
