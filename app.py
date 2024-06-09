@@ -19,7 +19,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from chromadb import chromadb
-#DataTransformer - json format
+# DataTransformer - json format
 import time
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm 
@@ -28,22 +28,22 @@ sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 
-
 #==================data loading and embedding==================
-OPENAI_API_KEY =st.secrets["OPENAI_API_KEY"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 documents = []
-#Data loading and chopping
+# Data loading and chopping
 json_directory = "./dataset/common_senses"
-common_senses=["TL_배움과 학문"]
-dt=DataTransformer(json_directory=json_directory,common_senses=common_senses)
-json_datas,total_time=dt.load_json_files()
+common_senses = ["TL_배움과 학문"]
+dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
+json_datas, total_time = dt.load_json_files()
 
-#documents : json to text
+# documents : json to text
 documents = [{"text": json.dumps(item)} for item in json_datas]
 
-#text_splits
+# text_splits
 def split_document(doc):
     return text_splitter.split_text(doc["text"])
+
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 split_docs = []
 start_time = time.time()
@@ -64,7 +64,6 @@ print("Chunks split Done.")
 embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
 vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
 
-
 #=============== 관련 함수들 ====================
 def stream_data(response):
     for word in response.split(" "):
@@ -84,19 +83,18 @@ def pdf_load(dir):
 
 #============ 프롬프트 업데이트 ===================
 def prompt_load(file_path):
-    file_content=""
+    file_content = ""
     with open(file_path, 'r', encoding='utf-8') as file:
         file_content = file.read()
     return file_content
         
 def update_prompt(service):
-    if service=="지식검색":
-        file_path="prompt_common_senses.txt"
+    if service == "지식검색":
+        file_path = "prompt_common_senses.txt"
         return prompt_load(file_path)
-    elif service=="퀴즈":
-        file_path="prompt_quiz.txt"
+    elif service == "퀴즈":
+        file_path = "prompt_quiz.txt"
         return prompt_load(file_path)
-
 
 if "OPENAI_API" not in st.session_state:
     st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
@@ -107,18 +105,18 @@ if "model" not in st.session_state:
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
     
-if "sevice" not in st.session_state:
+if "service" not in st.session_state:
     st.session_state["service"] = "지식검색"
 
 #################################################
 if "prompt" not in st.session_state:
 
     if st.session_state["service"] == "지식검색":
-        file_path="prompt_common_senses.txt"
+        file_path = "prompt_common_senses.txt"
         st.session_state["prompt"] = prompt_load(file_path)
         
     elif st.session_state["service"] == "퀴즈":
-        file_path="prompt_quiz.txt"
+        file_path = "prompt_quiz.txt"
         st.session_state["prompt"] = prompt_load(file_path)
                     
     else:
@@ -130,7 +128,7 @@ if "prompt" not in st.session_state:
 if "retriever" not in st.session_state:    
     print("Retriever Done.")
     st.session_state.retriever = vectordb.as_retriever()
-    
+
 # pdf를 사용해서 pdf(논문)을 모두 로드
 
 if __name__ == '__main__':
@@ -146,10 +144,10 @@ if __name__ == '__main__':
     with st.sidebar:
         st.title("설정")
         st.session_state["OPENAI_API"] = st.text_input("Enter API Key", st.session_state["OPENAI_API"], type="password")
-        #모델을 선택합니다.
+        # 모델을 선택합니다.
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
-        #라디오 버튼을 사용하여 서비스를 선택합니다.
-        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식 검색","퀴즈"])
+        # 라디오 버튼을 사용하여 서비스를 선택합니다.
+        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식 검색", "퀴즈"])
     # Chatbot을 생성합니다.
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=st.session_state.retriever,
@@ -171,21 +169,19 @@ if __name__ == '__main__':
             with st.chat_message("user"):
                 st.markdown(prompt)
             with st.chat_message("ai"):
-                response = chatbot.generate(str(st.session_state.chat_history[-2:])+f"\n\n{prompt}")
-            
-                st.write_stream(stream_data(response))
-
-            st.session_state.chat_history.append({"role": "user", "message": prompt})
-            st.session_state.chat_history.append({"role": "ai", "message": response})  
+                response = chatbot.generate(str(st.session_state.chat_history[-2:]) + f"\n\n{prompt}")
+                for word in stream_data(response):
+                    st.markdown(word)
+                st.session_state.chat_history.append({"role": "user", "message": prompt})
+                st.session_state.chat_history.append({"role": "ai", "message": response})  
     ### 사용자의 입력을 출력하고 생성된 답변을 출력합니다.
     if st.session_state["service"] == "퀴즈":
         if prompt := st.chat_input("정답을 입력하세요."):
             with st.chat_message("user"):
                 st.markdown(prompt)
             with st.chat_message("ai"):
-                response = chatbot.generate(str(st.session_state.chat_history[-2:])+f"\n\n{prompt}")
-            
-                st.write_stream(stream_data(response))
-
-            st.session_state.chat_history.append({"role": "user", "message": prompt})
-            st.session_state.chat_history.append({"role": "ai", "message": response})  
+                response = chatbot.generate(str(st.session_state.chat_history[-2:]) + f"\n\n{prompt}")
+                for word in stream_data(response):
+                    st.markdown(word)
+                st.session_state.chat_history.append({"role": "user", "message": prompt})
+                st.session_state.chat_history.append({"role": "ai", "message": response})
