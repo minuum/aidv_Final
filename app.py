@@ -28,9 +28,10 @@ sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 
-documents = []
+
+#==================data loading and embedding==================
 OPENAI_API_KEY =st.secrets["OPENAI_API_KEY"]
-#pdf_directory = './data'
+documents = []
 #Data loading and chopping
 json_directory = "./dataset/common_senses"
 common_senses=["TL_배움과 학문"]
@@ -39,10 +40,6 @@ json_datas,total_time=dt.load_json_files()
 
 #documents : json to text
 documents = [{"text": json.dumps(item)} for item in json_datas]
-# for doc in documents:
-#     split_docs.extend(doc)
-# split_docs=[]
-
 
 #text_splits
 def split_document(doc):
@@ -58,7 +55,6 @@ end_time = time.time()
 total_time = end_time - start_time
 print(f"Total time taken for splitting: {total_time:.2f} seconds")
  
-
 # embedding
 # Document 객체로 변환
 chunks = [Document(page_content=doc) for doc in split_docs]
@@ -69,6 +65,7 @@ embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
 vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
 
 
+#=============== 관련 함수들 ====================
 def stream_data(response):
     for word in response.split(" "):
         yield word + " "
@@ -84,8 +81,21 @@ def pdf_load(dir):
         input_docs.extend(pdf_documents)
         
 #     return input_docs
-        
 
+#============ 프롬프트 업데이트 ===================
+def prompt_load(file_path):
+    file_content=""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        file_content = file.read()
+    return file_content
+        
+def update_prompt(service):
+    if service=="지식검색":
+        file_path="prompt_common_senses.txt"
+        return prompt_load(file_path)
+    elif service=="퀴즈":
+        file_path="prompt_quiz.txt"
+        return prompt_load(file_path)
 
 
 if "OPENAI_API" not in st.session_state:
@@ -98,23 +108,23 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
     
 if "sevice" not in st.session_state:
-    st.session_state["service"] = "수업"
-
-if "previous" not in st.session_state:
-    st.session_state["previous"] = pdf_load('./previous')
-
-if "current" not in st.session_state:
-    st.session_state["current"] = pdf_load('./current')
+    st.session_state["service"] = "지식검색"
 
 #################################################
 if "prompt" not in st.session_state:
-    st.session_state["prompt"] = ''' 
-    00 프롬프트는 여기에 입력
-    
-    ''' if  st.session_state["service"] == "고전" else '''
-    
-    00 프롬프트는 여기에 입력
-    '''
+
+    if st.session_state["service"] == "지식검색":
+        file_path="prompt_common_senses.txt"
+        st.session_state["prompt"] = prompt_load(file_path)
+        
+    elif st.session_state["service"] == "퀴즈":
+        file_path="prompt_quiz.txt"
+        st.session_state["prompt"] = prompt_load(file_path)
+                    
+    else:
+        st.session_state["prompt"] = '''
+        서비스가 선택되지 않았습니다.
+    '''    
 #################################################
 
 if "retriever" not in st.session_state:    
@@ -139,26 +149,43 @@ if __name__ == '__main__':
         #모델을 선택합니다.
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         #라디오 버튼을 사용하여 서비스를 선택합니다.
-        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["고전", "신화","상식"])
+        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식 검색","퀴즈"])
     # Chatbot을 생성합니다.
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=st.session_state.retriever,
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
 
-
+    if st.session_state["service"] == "지식검색":
+        st.title("배움과 학문에는 끝이 없다.")       
+    if st.session_state["service"] == "퀴즈":
+        st.title("끝이 없는 퀴즈")
 
     ############################################ 실제 챗봇을 사용하기 위한 Streamlit 코드 ###################################################
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
-            st.markdown(content['message'])    
-    ### 사용자의 입력을 출력하고 생성된 답변을 출력합니다.
-    if prompt := st.chat_input("질문을 입력하세요."):
-        with st.chat_message("user"):
-            st.markdown(prompt)
-            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.markdown(content['message']) 
 
-        with st.chat_message("ai"):                
-            response = chatbot.generate(prompt)
-            st.write_stream(stream_data(response))
-            st.session_state.chat_history.append({"role": "ai", "message": response})
+    if st.session_state["service"] == "지식검색":
+        if prompt := st.chat_input("질문을 입력하세요."):
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("ai"):
+                response = chatbot.generate(str(st.session_state.chat_history[-2:])+f"\n\n{prompt}")
+            
+                st.write_stream(stream_data(response))
+
+            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.session_state.chat_history.append({"role": "ai", "message": response})  
+    ### 사용자의 입력을 출력하고 생성된 답변을 출력합니다.
+    if st.session_state["service"] == "퀴즈":
+        if prompt := st.chat_input("정답을 입력하세요."):
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("ai"):
+                response = chatbot.generate(str(st.session_state.chat_history[-2:])+f"\n\n{prompt}")
+            
+                st.write_stream(stream_data(response))
+
+            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.session_state.chat_history.append({"role": "ai", "message": response})  
