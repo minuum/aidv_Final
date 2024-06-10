@@ -26,6 +26,34 @@ from chatbot_class import Chatbot
 # Load environment variables
 load_dotenv()
 
+import re
+
+def _split_text(text: str, separators: list) -> list:
+    for _s in separators:
+        if _s == "":
+            continue
+        try:
+            if re.search(_s, text):
+                separator = _s
+                new_separators = separators[separators.index(_s) + 1:]
+                break
+        except re.error:
+            continue
+    else:
+        separator = ""
+        new_separators = []
+
+    final_chunks = []
+    if separator:
+        chunks = text.split(separator)
+        for chunk in chunks:
+            final_chunks.extend(self._split_text(chunk, new_separators))
+    else:
+        final_chunks = [text]
+
+    return final_chunks
+
+
 # Initialize necessary data once and cache it
 @st.cache_resource
 def initialize():
@@ -45,7 +73,7 @@ def initialize():
     split_docs = []
     start_time = time.time()
     with ThreadPoolExecutor() as executor:
-        for split in tqdm(executor.map(text_splitter.split_text, documents), total=len(documents), desc="Splitting documents"):
+        for split in tqdm(executor.map(_split_text, documents), total=len(documents), desc="Splitting documents"):
             split_docs.extend(split)
 
     end_time = time.time()
