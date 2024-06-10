@@ -29,41 +29,79 @@ from chatbot_class import Chatbot
 
 #==================data loading and embedding==================
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-documents = []
-# Data loading and chopping
-json_directory = "./dataset/common_senses"
-common_senses = ["TL_배움과 학문"]
-dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
-json_datas, total_time = dt.load_json_files()
+# documents = []
+# # Data loading and chopping
+# json_directory = "./dataset/common_senses"
+# common_senses = ["TL_배움과 학문"]
+# dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
+# json_datas, total_time = dt.load_json_files()
 
-# documents : json to text
-documents = [{"text": json.dumps(item)} for item in json_datas]
+# # documents : json to text
+# documents = [{"text": json.dumps(item)} for item in json_datas]
 
-# text_splits
-def split_document(doc):
-    return text_splitter.split_text(doc["text"])
+# # text_splits
+# def split_document(doc):
+#     return text_splitter.split_text(doc["text"])
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-split_docs = []
-start_time = time.time()
-with ThreadPoolExecutor() as executor:
-    for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
-        split_docs.extend(split)
+# text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+# split_docs = []
+# start_time = time.time()
+# with ThreadPoolExecutor() as executor:
+#     for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
+#         split_docs.extend(split)
 
-end_time = time.time()
-total_time = end_time - start_time
-print(f"Total time taken for splitting: {total_time:.2f} seconds")
+# end_time = time.time()
+# total_time = end_time - start_time
+# print(f"Total time taken for splitting: {total_time:.2f} seconds")
  
-# embedding
-# Document 객체로 변환
-chunks = [Document(page_content=doc) for doc in split_docs]
-print("Chunks split Done.")
-# embeddings은 OpenAI의 임베딩을 사용
-# vectordb는 chromadb사용함
-embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
-retriever =vectordb.as_retriever()
+# # embedding
+# # Document 객체로 변환
+# chunks = [Document(page_content=doc) for doc in split_docs]
+# print("Chunks split Done.")
+# # embeddings은 OpenAI의 임베딩을 사용
+# # vectordb는 chromadb사용함
+# embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+# vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
+# retriever =vectordb.as_retriever()
+#================== 캐시 기능을 사용하여 데이터 로딩, 분할, 임베딩 ===================
 
+@st.cache_data(show_spinner=False)
+def load_and_process_data():
+    json_directory = "./dataset/common_senses"
+    common_senses = ["TL_배움과 학문"]
+    dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
+    json_datas, total_time = dt.load_json_files()
+
+    # documents : json to text
+    documents = [{"text": json.dumps(item)} for item in json_datas]
+
+    # text_splits
+    def split_document(doc):
+        return text_splitter.split_text(doc["text"])
+
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    split_docs = []
+    start_time = time.time()
+    with ThreadPoolExecutor() as executor:
+        for split in tqdm(executor.map(split_document, documents), total=len(documents), desc="Splitting documents"):
+            split_docs.extend(split)
+
+    end_time = time.time()
+    total_time = end_time - start_time
+    print(f"Total time taken for splitting: {total_time:.2f} seconds")
+
+    # embedding
+    # Document 객체로 변환
+    chunks = [Document(page_content=doc) for doc in split_docs]
+    print("Chunks split Done.")
+    # embeddings은 OpenAI의 임베딩을 사용
+    # vectordb는 chromadb사용함
+    embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+    vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
+    return vectordb
+
+vectordb = load_and_process_data()
+retriever = vectordb.as_retriever()
 #=============== 관련 함수들 ====================
 def stream_data(response):
     for word in response.split(" "):
@@ -117,7 +155,7 @@ if "correct_answers" not in st.session_state:
 if "retriever" not in st.session_state:    
     st.session_state["retriever"]=retriever
     print("Retriever Done.")
-    
+
 if "prompt" not in st.session_state:
     if st.session_state["service"] == "지식검색":
         file_path = "prompt_common_senses.txt"
