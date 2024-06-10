@@ -125,7 +125,7 @@ if "prompt" not in st.session_state:
 
 if "retriever" not in st.session_state:    
     print("Retriever Done.")
-    st.session_state.retriever = vectordb.as_retriever()
+    retriever = vectordb.as_retriever()
 
 # pdf를 사용해서 pdf(논문)을 모두 로드
 
@@ -133,10 +133,8 @@ if __name__ == '__main__':
     
     if st.session_state["service"] == "지식검색":
         st.title("지식검색 챗봇")       
-    if st.session_state["service"] == "학사":
-        st.title("강남대학교 학사지원 챗봇")
-    if st.session_state["service"] == "로드맵":
-        st.title("강남대학교 로드맵지원 챗봇")
+    if st.session_state["service"] == "퀴즈":
+        st.title("지식,상식 퀴즈 챗봇")
     # Create a sidebar for API key and model selection
     with st.expander("챗봇 사용법", expanded=False):
         if st.session_state["service"] == "지식검색":
@@ -151,6 +149,7 @@ if __name__ == '__main__':
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
                     - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
                     """)
+    
     ################# 설정을 위한 사이드바를 생성합니다. 여기서 api키를 받아야 실행됩니다. ##########################################
     with st.sidebar:
         st.title("설정")
@@ -158,10 +157,10 @@ if __name__ == '__main__':
         # 모델을 선택합니다.
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         # 라디오 버튼을 사용하여 서비스를 선택합니다.
-        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식 검색", "퀴즈"])
+        st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식검색", "퀴즈"])
     # Chatbot을 생성합니다.
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
-                       retriever=st.session_state.retriever,
+                       retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
 
@@ -176,13 +175,12 @@ if __name__ == '__main__':
                 st.markdown(prompt)
             with st.chat_message("ai"):
                 response = chatbot.generate(str(st.session_state.chat_history[-2:]) + f"\n\n{prompt}")
-                for word in stream_data(response):
-                    st.markdown(word)
-                st.session_state.chat_history.append({"role": "user", "message": prompt})
-                st.session_state.chat_history.append({"role": "ai", "message": response})  
+                st.write_stream(stream_data(response))
+            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.session_state.chat_history.append({"role": "ai", "message": response})  
     
     if st.session_state["service"] == "퀴즈":
-        if prompt := st.chat_input("입력하세요."):
+        if prompt := st.chat_input("문제를 먼저 입력하세요."):
             with st.chat_message("user"):
                 st.markdown(prompt)
 
