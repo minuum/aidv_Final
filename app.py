@@ -62,6 +62,7 @@ print("Chunks split Done.")
 # vectordb는 chromadb사용함
 embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
 vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
+retriever =vectordb.as_retriever()
 
 #=============== 관련 함수들 ====================
 def stream_data(response):
@@ -93,6 +94,8 @@ def update_prompt(service):
         file_path = "prompt_quiz.txt"
         return prompt_load(file_path)
 
+
+#=============변수 초기화====================
 if "OPENAI_API" not in st.session_state:
     st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
 # 기본 모델을 설정합니다.
@@ -111,6 +114,10 @@ if "quiz_stage" not in st.session_state:
 if "correct_answers" not in st.session_state:
     st.session_state.correct_answers = 0
 
+if "retriever" not in st.session_state:    
+    st.session_state["retriever"]=retriever
+    print("Retriever Done.")
+    
 if "prompt" not in st.session_state:
     if st.session_state["service"] == "지식검색":
         file_path = "prompt_common_senses.txt"
@@ -123,9 +130,6 @@ if "prompt" not in st.session_state:
         서비스가 선택되지 않았습니다.
     '''    
 
-if "retriever" not in st.session_state:    
-    print("Retriever Done.")
-    retriever = vectordb.as_retriever()
 
 # pdf를 사용해서 pdf(논문)을 모두 로드
 
