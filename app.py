@@ -65,7 +65,7 @@ OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 # retriever =vectordb.as_retriever()
 #================== 캐시 기능을 사용하여 데이터 로딩, 분할, 임베딩 ===================
 
-@st.cache_data(show_spinner=False)
+@st.cache_resource(show_spinner=False)
 def load_and_process_data():
     json_directory = "./dataset/common_senses"
     common_senses = ["TL_배움과 학문"]
