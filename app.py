@@ -154,10 +154,7 @@ if __name__ == '__main__':
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
 
-    if st.session_state["service"] == "지식검색":
-        st.title("배움과 학문에는 끝이 없다.")       
-    if st.session_state["service"] == "퀴즈":
-        st.title("끝이 없는 퀴즈")
+
 
     ############################################ 실제 챗봇을 사용하기 위한 Streamlit 코드 ###################################################
     for content in st.session_state.chat_history:
