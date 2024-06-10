@@ -37,22 +37,32 @@ def _split_text(text: str, separators: list) -> list:
                 separator = _s
                 new_separators = separators[separators.index(_s) + 1:]
                 break
-        except re.error:
+        except re.error as e:
+            print(f"Invalid regex: {_s}, error: {e}")
             continue
-    else:
-        separator = ""
-        new_separators = []
+        else:
+            separator = ""
+            new_separators = []
 
     final_chunks = []
     if separator:
         chunks = text.split(separator)
         for chunk in chunks:
-            final_chunks.extend(self._split_text(chunk, new_separators))
+            final_chunks.extend(_split_text(chunk, new_separators))
     else:
         final_chunks = [text]
 
     return final_chunks
 
+def split_documents(documents, text_splitter):
+    split_docs = []
+    try:
+        with ThreadPoolExecutor() as executor:
+            for split in tqdm(executor.map(text_splitter.split_text, documents), total=len(documents), desc="Splitting documents"):
+                split_docs.extend(split)
+    except Exception as e:
+        print(f"An error occurred during splitting documents: {e}")
+    return split_docs
 
 # Initialize necessary data once and cache it
 @st.cache_resource
