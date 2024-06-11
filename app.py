@@ -267,6 +267,7 @@ if __name__ == '__main__':
                 correct_pass = True 
                 st.session_state.correct_answers =5
                 wrong_answers=[]
+                wrong_answer_ids=""
                 for key in correct_answer.keys():
                 # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
                     if key in us_dict and correct_answer[key] == us_dict[key]:
@@ -276,7 +277,8 @@ if __name__ == '__main__':
                         wrong_answers.append(key)
                         correct_pass = False
                         st.session_state.correct_answers -=1
-
+                for wrong_answer in wrong_answers:
+                    wrong_answer_ids+=str(wrong_answer)+"번 "
                 if correct_pass:
                     with st.chat_message("ai"):
                         st.markdown("정답입니다!")
@@ -287,7 +289,7 @@ if __name__ == '__main__':
                 else:
                     with st.chat_message("ai"):
                         st.markdown(f"""틀렸습니다. 다시 시도해보세요. {st.session_state.correct_answers}개 맞았습니다.
-                                      틀린 문제는 {str(wrong_answer+"번" for wrong_answer in wrong_answers)}""")
+                                      틀린 문제는 {wrong_answer_ids} 입니다.""")
                         
                     st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
