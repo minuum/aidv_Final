@@ -160,6 +160,7 @@ if __name__ == '__main__':
                             #### 정답 입력
                             - 예) 1.a / 2.b / 3.b / 4.c / 5.c
                             ''')
+            st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
         
         if st.button("초기화"):
             st.session_state.chat_history = []
@@ -283,4 +284,4 @@ if __name__ == '__main__':
                     st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
 
-    st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
+   
