@@ -187,10 +187,8 @@ if __name__ == '__main__':
     if st.session_state["service"] == "퀴즈":
         if st.session_state.quiz_stage % 2 == 0:
             placeholder_text = "문제를 먼저 입력하세요."
-            qstage=1
         else:
             placeholder_text = "정답을 입력하세요."
-            qstage=0
 
         if prompt := st.chat_input(placeholder=placeholder_text):
             if st.session_state.quiz_stage % 2 == 0:
@@ -248,6 +246,7 @@ if __name__ == '__main__':
                     st.session_state.correct_answers += 1
                     st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                    st.rerun()
                 else:
                     with st.chat_message("ai"):
                         st.markdown("틀렸습니다. 다시 시도해보세요.")
