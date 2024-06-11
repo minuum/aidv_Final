@@ -193,7 +193,7 @@ if __name__ == '__main__':
                     parts = question_response.split('=====')
                     if len(parts) >= 2:
                         question = parts[0]
-                        correct_answer = parts[1].split('|')
+                        correct_answer = parts[1].strip('\n').split('|')
                         st.session_state.current_question = question
                         st.session_state.current_answer = correct_answer
                         st.markdown(question)  # 수정된 부분
