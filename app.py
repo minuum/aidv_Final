@@ -287,7 +287,7 @@ if __name__ == '__main__':
                 else:
                     with st.chat_message("ai"):
                         st.markdown(f"""틀렸습니다. 다시 시도해보세요. {st.session_state.correct_answers}개 맞았습니다.
-                                      틀린 문제는 {(wrong_answer+"번" for wrong_answer in wrong_answers)}""")
+                                      틀린 문제는 {str(wrong_answer+"번" for wrong_answer in wrong_answers)}""")
                         
                     st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
