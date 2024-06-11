@@ -1,5 +1,3 @@
-
-#=========
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -28,9 +26,9 @@ import sys
 sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
-import logging
+
 #==================data loading and embedding==================
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 @st.cache_resource(show_spinner=False)
 def load_and_process_data():
@@ -39,8 +37,10 @@ def load_and_process_data():
     dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
     json_datas, total_time = dt.load_json_files()
 
+    # documents : json to text
     documents = [{"text": json.dumps(item)} for item in json_datas]
 
+    # text_splits
     def split_document(doc):
         return text_splitter.split_text(doc["text"])
 
@@ -55,9 +55,12 @@ def load_and_process_data():
     total_time = end_time - start_time
     print(f"Total time taken for splitting: {total_time:.2f} seconds")
 
+    # embedding
+    # Document 객체로 변환
     chunks = [Document(page_content=doc) for doc in split_docs]
     print("Chunks split Done.")
-
+    # embeddings은 OpenAI의 임베딩을 사용
+    # vectordb는 chromadb사용함
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
     vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     return vectordb
@@ -69,7 +72,7 @@ def stream_data(response):
     for word in response.split(" "):
         yield word + " "
         time.sleep(0.02)
-answer_dict={}
+
 def pdf_load(dir):
     input_docs = []
     input_pdf_files = glob(os.path.join(dir, '*.pdf'))
@@ -100,7 +103,7 @@ if "model" not in st.session_state:
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-
+    
 if "service" not in st.session_state:
     st.session_state["service"] = "지식검색"
 
@@ -111,11 +114,20 @@ if "correct_answers" not in st.session_state:
     st.session_state.correct_answers = 0
 
 if "retriever" not in st.session_state:    
-    st.session_state["retriever"] = retriever
+    st.session_state["retriever"]=retriever
     print("Retriever Done.")
 
 if "prompt" not in st.session_state:
-    st.session_state["prompt"] = update_prompt(st.session_state["service"])
+    if st.session_state["service"] == "지식검색":
+        file_path = "prompt_common_senses.txt"
+        st.session_state["prompt"] = prompt_load(file_path)
+    elif st.session_state["service"] == "퀴즈":
+        file_path = "prompt_quiz.txt"
+        st.session_state["prompt"] = prompt_load(file_path)
+    else:
+        st.session_state["prompt"] = '''
+        서비스가 선택되지 않았습니다.
+    '''    
 
 if "current_answer" not in st.session_state:
     st.session_state.current_answer = ""
@@ -127,24 +139,6 @@ if __name__ == '__main__':
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식검색", "퀴즈"])
         st.session_state["prompt"] = update_prompt(st.session_state["service"])
-        st.write()
-        if st.session_state["service"] == "퀴즈":
-            with st.expander("입력 예시", expanded=False):
-                st.markdown('''
-                            #### 문제 입력
-                            - 주제만 입력해주세요
-                            - 예) 조지아, 그리스로마신화, 아르키메데스, 기묘한이야기....
-                            #### 정답 입력
-                            - 예) 1.a / 2.b / 3.b / 4.c / 5.c
-                            ''')
-        if st.button("초기화"):
-            st.session_state.chat_history = []
-            st.session_state["service"] = "수업"
-            st.session_state.quiz_stage = 0
-            st.session_state.correct_answers = 0
-            st.session_state.current_answer = ""
-            st.session_state.current_question = ""
-            st.rerun()
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
@@ -168,79 +162,57 @@ if __name__ == '__main__':
                     - 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
                     - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
+                    - 입력 예시 : 그리스로마신화,인공지능기술,삼국시대,조지아...etc
                     """)
 
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
             st.markdown(content['message']) 
 
+    if st.session_state["service"] == "지식검색":
+        if prompt := st.chat_input("질문을 입력하세요."):
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("ai"):
+                response = chatbot.generate(str(st.session_state.chat_history[-2:]) + f"\n\n{prompt}")
+                st.write_stream(stream_data(response))
+            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.session_state.chat_history.append({"role": "ai", "message": response})  
+    
     if st.session_state["service"] == "퀴즈":
-        if st.session_state.quiz_stage % 2 == 0:
-            placeholder_text = "문제를 먼저 입력하세요."
-            qstage=1
-        else:
-            placeholder_text = "정답을 입력하세요."
-            qstage=0
-
-        prompt = st.chat_input(placeholder_text)
-
-        if qstage:
+        if prompt := st.chat_input("문제를 먼저 입력하세요."):
             with st.chat_message("user"):
                 st.markdown(prompt)
 
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
-                    question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                    parts = question_response.split('=====')
-                    if len(parts) >= 2:
-                        question = parts[0]
-                        correct_answer = parts[1].strip(' \n').strip('\n').replace("(","").replace(")","").split(' |')
-                        correct_answer.remove('')
-
-                        answer_dict = {}
-                        for item in correct_answer:
-                            key, value = item.split('. ')
-                            answer_dict[int(key)] = value
-
-                        st.session_state.current_question = question
-                        st.session_state.current_answer = answer_dict
-                        st.markdown(question)
-                        st.session_state.chat_history.append({"role": "user", "message": prompt})
-                        st.session_state.chat_history.append({"role": "ai", "message": question})
-                        st.session_state.quiz_stage += 1
-
-                        logging.warning(st.session_state.quiz_stage)
-                        logging.warning(st.session_state.current_question)
-                        logging.warning(st.session_state.current_answer)
+                    question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
+                    answers=question.split('=====')
+                    st.write_stream(stream_data(question))
+                    st.session_state.chat_history.append({"role": "user", "message": prompt})
+                    st.session_state.chat_history.append({"role": "ai", "message": question})
+                    st.session_state.quiz_stage += 1
+                    st.session_state.current_question = question
+                    st.session_state.current_answer = answers
+                    print(answers)
             else:
-                user_answer = prompt
-                correct_answer = st.session_state.current_answer
-                if user_answer:
-                    us_list=user_answer.split(' /')
-                    us_dict={}
-                    for item in us_list:
-                        key, value = item.split('. ')
-                        # 딕셔너리에 새로운 항목을 추가합니다.
-                        us_dict[int(key)] = value
-
-                for key in answer_dict.keys():
-                # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
-                    if key in us_dict and answer_dict[key] == us_dict[key]:
-                        logging.warning(str(key)+"번 정답!")
-                    else:
-                        logging.warning(str(key)+"번 오답!")
-                if any(user_answer.lower() == ans.lower() for ans in correct_answer.values()):
-                    with st.chat_message("ai"):
-                        st.markdown("정답입니다!")
-                    st.session_state.correct_answers += 1
-                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                    st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                answer_prompt=st.chat_input("정답 입력 : ")
+                if "current_answer" in st.session_state:
+                    correct_answer = st.session_state.current_answer
                 else:
-                    with st.chat_message("ai"):
-                        st.markdown("틀렸습니다. 다시 시도해보세요.")
-                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
-
-                st.session_state.quiz_stage += 1
+                    correct_answer = ""  # 여기서 correct_answer를 설정해야 합니다.
+                while True:
+                    if prompt.lower() == correct_answer.lower():
+                        with st.chat_message("ai"):
+                            st.markdown("정답입니다!")
+                        st.session_state.correct_answers += 1
+                        st.session_state.quiz_stage += 1
+                        st.session_state.chat_history.append({"role": "user", "message": prompt})
+                        st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                    else:
+                        with st.chat_message("ai"):
+                            st.markdown("틀렸습니다. 다시 시도해보세요.")
+                        st.session_state.chat_history.append({"role": "user", "message": prompt})
+                        st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
