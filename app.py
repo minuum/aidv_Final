@@ -141,8 +141,8 @@ if __name__ == '__main__':
         st.session_state["prompt"] = update_prompt(st.session_state["service"])
         st.write()
         if st.session_state["service"] =="퀴즈":
-            st.markdown("### 입력 예시")
-            with st.expander("지식 검색", expanded=False):
+            st.markdown("### 퀴즈 챗봇입니다!")
+            with st.expander("입력 예시", expanded=False):
                 st.markdown('''
                             #### 문제 입력
                             - 주제만 입력해주세요
