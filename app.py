@@ -171,7 +171,7 @@ if __name__ == '__main__':
                     parts = question_response.split('=====')
                     if len(parts) >= 2:
                         question = parts[0]
-                        correct_answer = parts[1].strip(' \n').strip('\n').strip("(").strip(")").split(' |')
+                        correct_answer = parts[1].strip(' \n').strip('\n').replace("(","").replace(")","").split(' |')
                         correct_answer.remove('')
 
                         answer_dict = {}
