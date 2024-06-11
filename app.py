@@ -192,7 +192,20 @@ if __name__ == '__main__':
             else:
                 user_answer = prompt
                 correct_answer = st.session_state.current_answer
+                if user_answer:
+                    us_list=user_answer.split(' /')
+                    us_dict={}
+                    for item in us_list:
+                        key, value = item.split('. ')
+                        # 딕셔너리에 새로운 항목을 추가합니다.
+                        us_dict[int(key)] = value
 
+                for key in answer_dict.keys():
+                # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
+                    if key in us_dict and answer_dict[key] == us_dict[key]:
+                        logging.warning(str(key)+"번 정답!")
+                    else:
+                        logging.warning(str(key)+"번 오답!")
                 if any(user_answer.lower() == ans.lower() for ans in correct_answer.values()):
                     with st.chat_message("ai"):
                         st.markdown("정답입니다!")
