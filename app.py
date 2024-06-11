@@ -123,7 +123,25 @@ if __name__ == '__main__':
         st.session_state["OPENAI_API"] = st.text_input("Enter API Key", st.session_state["OPENAI_API"], type="password")
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식검색", "퀴즈"])
-
+        st.session_state["prompt"] = update_prompt(st.session_state["service"])
+        st.write()
+        if st.session_state["service"] == "퀴즈":
+            with st.expander("입력 예시", expanded=False):
+                st.markdown('''
+                            #### 문제 입력
+                            - 주제만 입력해주세요
+                            - 예) 조지아, 그리스로마신화, 아르키메데스, 기묘한이야기....
+                            #### 정답 입력
+                            - 예) 1.a / 2.b / 3.b / 4.c / 5.c
+                            ''')
+        if st.button("초기화"):
+            st.session_state.chat_history = []
+            st.session_state["service"] = "수업"
+            st.session_state.quiz_stage = 0
+            st.session_state.correct_answers = 0
+            st.session_state.current_answer = ""
+            st.session_state.current_question = ""
+            st.rerun()
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
