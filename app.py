@@ -1,35 +1,34 @@
+
+#=========
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
-import os
-import json
-import sys
-import time
-from glob import glob
-from tqdm import tqdm
-from dotenv import load_dotenv
-from concurrent.futures import ThreadPoolExecutor
 import streamlit as st
+import os
+from glob import glob
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import Chroma
+from dotenv import load_dotenv
+load_dotenv()
+import time
+import json
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from chromadb import chromadb
+import time
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm 
+import sys
 sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
-
 import logging
-# Load environment variables
-load_dotenv()
-
 #==================data loading and embedding==================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -60,7 +59,7 @@ def load_and_process_data():
     print("Chunks split Done.")
 
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-    vectordb = chromadb.from_documents(documents=chunks, embedding=embeddings)
+    vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     return vectordb
 
 vectordb = load_and_process_data()
