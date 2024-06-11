@@ -202,7 +202,7 @@ if __name__ == '__main__':
                         st.session_state.quiz_stage += 1
                         logging.warning(st.session_state.quiz_stage)
                         logging.warning(st.session_state.current_question)
-                        logging.warning(st.session_state.current_answers)
+                        logging.warning(st.session_state.current_answer)
 
             
         else:
