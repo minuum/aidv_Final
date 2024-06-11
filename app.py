@@ -225,7 +225,7 @@ if __name__ == '__main__':
                     us_list=user_answer.split(' /')
                     us_dict={}
                     for item in us_list:
-                        key, value = item.split('. ')
+                        key, value = item.split('.')
                         # 딕셔너리에 새로운 항목을 추가합니다.
                         us_dict[int(key)] = value
 
