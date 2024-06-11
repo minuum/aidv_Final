@@ -193,59 +193,60 @@ if __name__ == '__main__':
             qstage=0
 
         if prompt := st.chat_input(placeholder=placeholder_text):
-            with st.chat_message("ai"):
-                question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                parts = question_response.split('=====')
-                if len(parts) >= 2:
-                    question = parts[0]
-                    correct_answer = parts[1].strip(' \n').strip('\n').replace("(","").replace(")","").split(' |')
-                    correct_answer.remove('')
-
-                    answer_dict = {}
-                    for item in correct_answer:
-                        key, value = item.split('. ')
-                        answer_dict[int(key)] = value
-
-                    st.session_state.current_question = question
-                    st.session_state.current_answer = answer_dict
-                    st.markdown(question)
-                    st.session_state.chat_history.append({"role": "user", "message": prompt})
-                    st.session_state.chat_history.append({"role": "ai", "message": question})
-                    st.session_state.quiz_stage += 1
-                    
-                    logging.warning(st.session_state.quiz_stage)
-                    logging.warning(st.session_state.current_question)
-                    logging.warning(st.session_state.current_answer)
-                    st.rerun()
-        else:
-            user_answer = prompt
-            correct_answer = st.session_state.current_answer
-            if user_answer:
-                us_list=user_answer.split(' /')
-                us_dict={}
-                for item in us_list:
-                    key, value = item.split('. ')
-                    # 딕셔너리에 새로운 항목을 추가합니다.
-                    us_dict[int(key)] = value
-
-            for key in answer_dict.keys():
-            # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
-                if key in us_dict and answer_dict[key] == us_dict[key]:
-                    logging.warning(str(key)+"번 정답!")
-                else:
-                    logging.warning(str(key)+"번 오답!")
-            if any(user_answer.lower() == ans.lower() for ans in correct_answer.values()):
+            if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
-                    st.markdown("정답입니다!")
-                st.session_state.correct_answers += 1
-                st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                    question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
+                    parts = question_response.split('=====')
+                    if len(parts) >= 2:
+                        question = parts[0]
+                        correct_answer = parts[1].strip(' \n').strip('\n').replace("(","").replace(")","").split(' |')
+                        correct_answer.remove('')
+
+                        answer_dict = {}
+                        for item in correct_answer:
+                            key, value = item.split('. ')
+                            answer_dict[int(key)] = value
+
+                        st.session_state.current_question = question
+                        st.session_state.current_answer = answer_dict
+                        st.markdown(question)
+                        st.session_state.chat_history.append({"role": "user", "message": prompt})
+                        st.session_state.chat_history.append({"role": "ai", "message": question})
+                        st.session_state.quiz_stage += 1
+                        
+                        logging.warning(st.session_state.quiz_stage)
+                        logging.warning(st.session_state.current_question)
+                        logging.warning(st.session_state.current_answer)
+                        st.rerun()
             else:
-                with st.chat_message("ai"):
-                    st.markdown("틀렸습니다. 다시 시도해보세요.")
-                st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
+                user_answer = prompt
+                correct_answer = st.session_state.current_answer
+                if user_answer:
+                    us_list=user_answer.split(' /')
+                    us_dict={}
+                    for item in us_list:
+                        key, value = item.split('. ')
+                        # 딕셔너리에 새로운 항목을 추가합니다.
+                        us_dict[int(key)] = value
 
-            st.session_state.quiz_stage += 1
+                for key in answer_dict.keys():
+                # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
+                    if key in us_dict and answer_dict[key] == us_dict[key]:
+                        logging.warning(str(key)+"번 정답!")
+                    else:
+                        logging.warning(str(key)+"번 오답!")
+                if any(user_answer.lower() == ans.lower() for ans in correct_answer.values()):
+                    with st.chat_message("ai"):
+                        st.markdown("정답입니다!")
+                    st.session_state.correct_answers += 1
+                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
+                    st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                else:
+                    with st.chat_message("ai"):
+                        st.markdown("틀렸습니다. 다시 시도해보세요.")
+                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
+                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
+
+                st.session_state.quiz_stage += 1
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
