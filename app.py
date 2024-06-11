@@ -138,7 +138,7 @@ if __name__ == '__main__':
         st.session_state["OPENAI_API"] = st.text_input("Enter API Key", st.session_state["OPENAI_API"], type="password")
         st.session_state["model"] = st.radio("모델을 선택해주세요.", ["gpt-4o", "gpt-3.5-turbo"])
         st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식검색", "퀴즈"])
-
+        st.session_state["prompt"] = update_prompt(st.session_state["service"])
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
