@@ -174,12 +174,14 @@ if __name__ == '__main__':
     if st.session_state["service"] == "퀴즈":
         if st.session_state.quiz_stage % 2 == 0:
             placeholder_text = "문제를 먼저 입력하세요."
+            qstage=1
         else:
             placeholder_text = "정답을 입력하세요."
+            qstage=0
 
         prompt = st.chat_input(placeholder_text)
 
-        if prompt:
+        if qstage:
             with st.chat_message("user"):
                 st.markdown(prompt)
 
