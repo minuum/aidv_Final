@@ -133,6 +133,14 @@ if __name__ == '__main__':
                             #### 정답 입력
                             - 예) 1.a / 2.b / 3.b / 4.c / 5.c
                             ''')
+        if st.button("초기화"):
+            st.session_state.chat_history = []
+            st.session_state["service"] = "수업"
+            st.session_state["previous"] = ""
+            st.session_state["current"] = ""
+            previous = ""
+            current = ""
+            st.rerun()
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                       retriever=retriever,
                       sys_prompt=st.session_state["prompt"],
