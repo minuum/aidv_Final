@@ -135,7 +135,7 @@ def update_prompt(service):
 
 #=============변수 초기화====================
 if "OPENAI_API" not in st.session_state:
-    st.session_state["OPENAI_API"] = os.getenv("OPENAI_API_KEY") if os.getenv("OPENAI_API_KEY") else ""
+    st.session_state["OPENAI_API"] = OPENAI_API_KEY
 # 기본 모델을 설정합니다.
 if "model" not in st.session_state:
     st.session_state["model"] = "gpt-4o"
@@ -173,10 +173,7 @@ if "prompt" not in st.session_state:
 
 if __name__ == '__main__':
     
-    if st.session_state["service"] == "지식검색":
-        st.title("지식검색 챗봇")       
-    if st.session_state["service"] == "퀴즈":
-        st.title("지식,상식 퀴즈 챗봇")
+
     # Create a sidebar for API key and model selection
     with st.expander("챗봇 사용법", expanded=False):
         if st.session_state["service"] == "지식검색":
@@ -205,7 +202,10 @@ if __name__ == '__main__':
                        retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
-
+    if st.session_state["service"] == "지식검색":
+        st.title("지식검색 챗봇")       
+    if st.session_state["service"] == "퀴즈":
+        st.title("지식,상식 퀴즈 챗봇")
     ############################################ 실제 챗봇을 사용하기 위한 Streamlit 코드 ###################################################
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
