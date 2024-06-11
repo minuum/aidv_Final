@@ -187,12 +187,12 @@ if __name__ == '__main__':
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
     if st.session_state["service"] == "지식검색":
-        st.title("지식검색 챗봇")       
+        st.title("지식검색 챗봇 📚")       
     if st.session_state["service"] == "퀴즈":
-        st.title("지식,상식 퀴즈 챗봇")
+        st.title("🧐 지식,상식 퀴즈 챗봇 🧐")
 
     # Create a sidebar for API key and model selection
-    with st.expander("챗봇 사용법", expanded=False):
+    with st.expander("사용법", expanded=True):
         if st.session_state["service"] == "지식검색":
             st.markdown("""
                     - 시사 상식을 알려주는 챗봇입니다.
