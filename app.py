@@ -186,26 +186,31 @@ if __name__ == '__main__':
     
     if st.session_state["service"] == "퀴즈":
         if st.session_state.quiz_stage % 2 == 0:
-            if prompt := st.chat_input("문제를 먼저 입력하세요."):
-                with st.chat_message("user"):
-                    st.markdown(prompt)
+            prompt = st.chat_input("문제를 먼저 입력하세요.")
+        else:
+            prompt = st.chat_input("정답을 입력하세요.")
+
+        if prompt:
+            with st.chat_message("user"):
+                st.markdown(prompt)
+
+            if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
                     parts = question_response.split('=====')
                     if len(parts) >= 2:
                         question = parts[0]
-                        correct_answer = parts[1].strip(' \n').strip('\n').split(' |')
+                        correct_answer = parts[1].strip(' \n').strip('\n').strip("(").strip(")").split(' |')
                         correct_answer.remove('')
-                        
+
+                        answer_dict = {}
                         for item in correct_answer:
-                        # 숫자와 문자를 분리합니다.
                             key, value = item.split('. ')
-                        # 딕셔너리에 새로운 항목을 추가합니다.
                             answer_dict[int(key)] = value
 
                         st.session_state.current_question = question
-                        st.session_state.current_answer = correct_answer
-                        st.markdown(question)  # 수정된 부분
+                        st.session_state.current_answer = answer_dict
+                        st.markdown(question)
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
