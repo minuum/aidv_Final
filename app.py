@@ -162,6 +162,7 @@ if __name__ == '__main__':
                     - 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
                     - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
+                    - 입력 예시 : 그리스로마신화,인공지능기술,삼국시대,조지아...etc
                     """)
 
     for content in st.session_state.chat_history:
@@ -186,6 +187,7 @@ if __name__ == '__main__':
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
+                    questions,answers=question.split('=====')
                     st.write_stream(stream_data(question))
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
                     st.session_state.chat_history.append({"role": "ai", "message": question})
@@ -193,6 +195,7 @@ if __name__ == '__main__':
                     st.session_state.current_question = question
                     st.session_state.current_answer = ""  # 정답 초기화
             else:
+                answer_prompt=st.chat_input("정답 입력 : ")
                 if "current_answer" in st.session_state:
                     correct_answer = st.session_state.current_answer
                 else:
