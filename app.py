@@ -173,7 +173,16 @@ if __name__ == '__main__':
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
             st.markdown(content['message']) 
-
+    if st.session_state["service"] == "지식검색":
+        if prompt := st.chat_input("질문을 입력하세요."):
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("ai"):
+                response = chatbot.generate(str(st.session_state.chat_history[-2:]) + f"\n\n{prompt}")
+                st.write_stream(stream_data(response))
+            st.session_state.chat_history.append({"role": "user", "message": prompt})
+            st.session_state.chat_history.append({"role": "ai", "message": response})  
+    
     if st.session_state["service"] == "퀴즈":
         if st.session_state.quiz_stage % 2 == 0:
             placeholder_text = "문제를 먼저 입력하세요."
@@ -208,10 +217,11 @@ if __name__ == '__main__':
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
-                        st.rerun()
+                        
                         logging.warning(st.session_state.quiz_stage)
                         logging.warning(st.session_state.current_question)
                         logging.warning(st.session_state.current_answer)
+                        st.rerun()
             else:
                 user_answer = prompt
                 correct_answer = st.session_state.current_answer
