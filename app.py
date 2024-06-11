@@ -136,8 +136,8 @@ if __name__ == '__main__':
         if st.button("초기화"):
             st.session_state.chat_history = []
             st.session_state["service"] = "수업"
-            st.session_state["previous"] = ""
-            st.session_state["current"] = ""
+            st.session_state.quiz_stage = 0
+            st.session_state.correct_answers = 0
             previous = ""
             current = ""
             st.rerun()
