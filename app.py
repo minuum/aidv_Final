@@ -1,5 +1,4 @@
-
-#=========
+#=============================import===========================
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
@@ -29,9 +28,13 @@ sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 import logging
+
+
+#Define Functions
 #==================data loading and embedding==================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+#첫 로딩시에만 불러오고 cache형태로 저장하게 도와주는 어노테이션
 @st.cache_resource(show_spinner=False)
 def load_and_process_data():
     json_directory = "./dataset/common_senses"
@@ -65,11 +68,12 @@ def load_and_process_data():
 vectordb = load_and_process_data()
 retriever = vectordb.as_retriever()
 
+##느리게 읽어오는 함수
 def stream_data(response):
     for word in response.split(" "):
         yield word + " "
         time.sleep(0.02)
-answer_dict={}
+
 def pdf_load(dir):
     input_docs = []
     input_pdf_files = glob(os.path.join(dir, '*.pdf'))
@@ -91,6 +95,12 @@ def update_prompt(service):
     elif service == "퀴즈":
         file_path = "prompt_quiz.txt"
         return prompt_load(file_path)
+
+
+#==================== Initializing=======================
+# 정답 딕셔너리 선언
+answer_dict={}
+
 
 if "OPENAI_API" not in st.session_state:
     st.session_state["OPENAI_API"] = OPENAI_API_KEY
@@ -120,7 +130,12 @@ if "prompt" not in st.session_state:
 if "current_answer" not in st.session_state:
     st.session_state.current_answer = ""
 
+
+
+
+# Streamlit UI
 if __name__ == '__main__':
+    #sidebar
     with st.sidebar:
         st.title("설정")
         st.session_state["OPENAI_API"] = st.text_input("Enter API Key", st.session_state["OPENAI_API"], type="password")
@@ -129,8 +144,15 @@ if __name__ == '__main__':
         st.session_state["prompt"] = update_prompt(st.session_state["service"])
         logging.warning(st.session_state.quiz_stage)
         st.write()
+        if st.session_state["service"] == "지식검색":
+            with st.expander("출력에 관하여", expanded=True):
+                st.markdown('''
+                            원하는 주제에 맞는 답변,
+                            관련된 용어 정리,
+                            사전과 연결된 링크까지 나온답니다!
+                            ''')
         if st.session_state["service"] == "퀴즈":
-            with st.expander("입력 예시", expanded=False):
+            with st.expander("입력 예시", expanded=True):
                 st.markdown('''
                             #### 문제 입력
                             - 주제만 입력해주세요
@@ -138,6 +160,7 @@ if __name__ == '__main__':
                             #### 정답 입력
                             - 예) 1.a / 2.b / 3.b / 4.c / 5.c
                             ''')
+        
         if st.button("초기화"):
             st.session_state.chat_history = []
             st.session_state["service"] = "수업"
@@ -146,29 +169,35 @@ if __name__ == '__main__':
             st.session_state.current_answer = ""
             st.session_state.current_question = ""
             st.rerun()
+
+    #GPT 답변 인스턴스 
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                        retriever=retriever,
                        sys_prompt=st.session_state["prompt"],
                        model_name=st.session_state["model"])
 
+    #Title
     if st.session_state["service"] == "지식검색":
         st.title("지식검색 챗봇 📚")
         
     if st.session_state["service"] == "퀴즈":
         st.title("🧐 지식,상식 퀴즈 챗봇 🧐")
-
-    with st.expander("사용법", expanded=True):
+    #abstract
+    with st.expander("개요", expanded=True):
         if st.session_state["service"] == "지식검색":
             st.markdown("""
-                    - 시사 상식을 알려주는 챗봇입니다.
+                    #### 시사 상식을 알려주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                      https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304
                     - 사용자의 답변 뿐만 아니라 유사한 주제나 단어, 중요한 단어들에 대한 링크까지 존재합니다.
                     """)
         if st.session_state["service"] == "퀴즈":
             st.markdown("""
-                    - 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
+                    #### 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                       https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304
                     - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
+                    - 총 5문제, 객관식으로 출제됩니다!
                     """)
 
     for content in st.session_state.chat_history:
@@ -186,11 +215,11 @@ if __name__ == '__main__':
     
     if st.session_state["service"] == "퀴즈":
         if st.session_state.quiz_stage % 2 == 0:
-            placeholder_text = "문제를 먼저 입력하세요."
+            placeholder_text = "*문제를 먼저 입력하세요.*"
         else:
-            placeholder_text = "정답을 입력하세요."
+            placeholder_text = "*정답을 입력하세요.*"
 
-        if prompt := st.chat_input(placeholder=placeholder_text):
+        if prompt := st.chat_input(placeholder=placeholder_text,):
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
