@@ -193,7 +193,7 @@ if __name__ == '__main__':
                     st.session_state.chat_history.append({"role": "ai", "message": question})
                     st.session_state.quiz_stage += 1
                     st.session_state.current_question = question
-                    st.session_state.current_answer = ""  # 정답 초기화
+                    st.session_state.current_answer = answers
             else:
                 answer_prompt=st.chat_input("정답 입력 : ")
                 if "current_answer" in st.session_state:
