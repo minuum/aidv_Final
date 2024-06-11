@@ -22,6 +22,7 @@ sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 
+import logging
 # Load environment variables
 load_dotenv()
 
@@ -138,9 +139,10 @@ if __name__ == '__main__':
             st.session_state["service"] = "수업"
             st.session_state.quiz_stage = 0
             st.session_state.correct_answers = 0
-            previous = ""
-            current = ""
+            st.session_state.current_answer = ""
+            st.session_state.current_question = ""
             st.rerun()
+
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
                       retriever=retriever,
                       sys_prompt=st.session_state["prompt"],
@@ -182,40 +184,37 @@ if __name__ == '__main__':
             st.session_state.chat_history.append({"role": "ai", "message": response})  
     
     if st.session_state["service"] == "퀴즈":
-        if prompt := st.chat_input("문제를 먼저 입력하세요."):
-            with st.chat_message("user"):
-                st.markdown(prompt)
-
-            if st.session_state.quiz_stage % 2 == 0:
+        if st.session_state.quiz_stage % 2 == 0:
+            if prompt := st.chat_input("문제를 먼저 입력하세요."):
+                with st.chat_message("user"):
+                    st.markdown(prompt)
                 with st.chat_message("ai"):
-                    question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                    parts = question.split('=====')
-                    if len(parts) == 2:
-                        question_text = parts[0].strip()
-                        answers_text = parts[1].strip()
-                        answers = answers_text.split('\n')
-                        correct_answer = answers[0].strip()  # assuming the correct answer is the first one
-                    else:
-                        question_text = question
-                        correct_answer = ""
-                    st.write_stream(stream_data(question_text))
-                    st.session_state.chat_history.append({"role": "user", "message": prompt})
-                    st.session_state.chat_history.append({"role": "ai", "message": question_text})
-                    st.session_state.quiz_stage += 1
-                    st.session_state.current_question = question_text
-                    st.session_state.current_answer = correct_answer
-            else:
-                if prompt.lower() == st.session_state.current_answer.lower():
+                    question_response = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
+                    parts = question_response.split('=====')
+                    if len(parts) >= 2:
+                        question = parts[0]
+                        correct_answer = parts[1].strip()
+                        st.session_state.current_question = question
+                        st.session_state.current_answer = correct_answer
+                        st.write_stream(stream_data(question))
+                        st.session_state.chat_history.append({"role": "user", "message": prompt})
+                        st.session_state.chat_history.append({"role": "ai", "message": question})
+                        st.session_state.quiz_stage += 1
+        else:
+            st.write("정답을 입력하세요:")
+            user_answer = st.text_input("정답 입력: ")
+            if st.button("정답 제출"):
+                if user_answer.lower() == st.session_state.current_answer.lower():
                     with st.chat_message("ai"):
                         st.markdown("정답입니다!")
                     st.session_state.correct_answers += 1
-                    st.session_state.quiz_stage += 1
-                    st.session_state.chat_history.append({"role": "user", "message": prompt})
+                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
                 else:
                     with st.chat_message("ai"):
                         st.markdown("틀렸습니다. 다시 시도해보세요.")
-                    st.session_state.chat_history.append({"role": "user", "message": prompt})
+                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
+                st.session_state.quiz_stage += 1
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
