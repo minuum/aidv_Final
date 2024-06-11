@@ -173,22 +173,6 @@ if "prompt" not in st.session_state:
 
 if __name__ == '__main__':
     
-
-    # Create a sidebar for API key and model selection
-    with st.expander("챗봇 사용법", expanded=False):
-        if st.session_state["service"] == "지식검색":
-            st.markdown("""
-                    - 시사 상식을 알려주는 챗봇입니다.
-                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
-                    - 사용자의 답변 뿐만 아니라 유사한 주제나 단어, 중요한 단어들에 대한 링크까지 존재합니다.
-                    """)
-        if st.session_state["service"] == "퀴즈":
-            st.markdown("""
-                    - 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
-                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
-                    - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
-                    """)
-    
     ################# 설정을 위한 사이드바를 생성합니다. 여기서 api키를 받아야 실행됩니다. ##########################################
     with st.sidebar:
         st.title("설정")
@@ -206,6 +190,21 @@ if __name__ == '__main__':
         st.title("지식검색 챗봇")       
     if st.session_state["service"] == "퀴즈":
         st.title("지식,상식 퀴즈 챗봇")
+
+    # Create a sidebar for API key and model selection
+    with st.expander("챗봇 사용법", expanded=False):
+        if st.session_state["service"] == "지식검색":
+            st.markdown("""
+                    - 시사 상식을 알려주는 챗봇입니다.
+                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                    - 사용자의 답변 뿐만 아니라 유사한 주제나 단어, 중요한 단어들에 대한 링크까지 존재합니다.
+                    """)
+        if st.session_state["service"] == "퀴즈":
+            st.markdown("""
+                    - 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
+                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                    - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
+                    """)
     ############################################ 실제 챗봇을 사용하기 위한 Streamlit 코드 ###################################################
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
