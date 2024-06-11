@@ -28,7 +28,7 @@ import sys
 sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
-
+import logging
 #==================data loading and embedding==================
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
