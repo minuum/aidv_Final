@@ -231,31 +231,27 @@ if __name__ == '__main__':
                     logging.warning("내가 낸 답변 :" +str(us_dict))
                 logging.warning("정답 :" +str(correct_answer))
 
+                correct_pass = True 
 
                 for key in correct_answer.keys():
-
                 # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
                     if key in us_dict and correct_answer[key] == us_dict[key]:
                         logging.warning(str(key)+"번 정답!")
-                        with st.chat_message("ai"):
-                            st.markdown("정답입니다!")
-                        st.session_state.correct_answers += 1
-                        st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                        st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
                     else:
                         logging.warning(str(key)+"번 오답!")
-                        with st.chat_message("ai"):
-                            st.markdown("정답입니다!")
-                        st.session_state.correct_answers += 1
-                        st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                        st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
-                    
+                        correct_pass = False
+
+
+                if correct_pass:
+                    with st.chat_message("ai"):
+                        st.markdown("정답입니다!")
+                    st.session_state.correct_answers += 1
+                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
+                    st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
                 else:
                     with st.chat_message("ai"):
                         st.markdown("틀렸습니다. 다시 시도해보세요.")
                     st.session_state.chat_history.append({"role": "user", "message": user_answer})
                     st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
-
-                st.session_state.quiz_stage += 1
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
