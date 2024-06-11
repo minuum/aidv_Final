@@ -144,6 +144,11 @@ if __name__ == '__main__':
         st.session_state["prompt"] = update_prompt(st.session_state["service"])
         logging.warning(st.session_state.quiz_stage)
         st.write()
+        with st.expander("데이터셋", expanded=True):
+            st.markdown('''
+                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                   [![aihub dataset](https://www.aihub.or.kr/web-nas/aihub21/files/public/DATA_SET202304140227079050)](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304)
+                    ''')
         if st.session_state["service"] == "지식검색":
             with st.expander("출력에 관하여", expanded=True):
                 st.markdown('''
@@ -162,11 +167,7 @@ if __name__ == '__main__':
                             ''')
             st.session_state.correct_answers=0
             st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
-        with st.expander("데이터셋", expanded=True):
-            st.markdown('''
-                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
-                   [![aihub dataset](https://www.aihub.or.kr/web-nas/aihub21/files/public/DATA_SET202304140227079050)](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304)
-                    ''')
+        
         if st.button("초기화"):
             st.session_state.chat_history = []
             st.session_state["service"] = "수업"
