@@ -229,13 +229,14 @@ if __name__ == '__main__':
                 with st.chat_message("ai"):
                     question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
                     for word in stream_data(question):
-                        st.markdown(word)
+                        st.write_stream(stream_data(response))
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
                     st.session_state.chat_history.append({"role": "ai", "message": question})
                     st.session_state.quiz_stage += 1
                     st.session_state.current_question = question
             else:  # 정답을 입력하는 단계
                 with st.chat_message("ai"):
+                    st.chat_input("정답을 입력해주세요!")
                     if prompt.lower() in st.session_state.current_question.lower():
                         st.session_state.correct_answers += 1
                         response = f"정답입니다! 현재까지 맞춘 정답 개수: {st.session_state.correct_answers}"
