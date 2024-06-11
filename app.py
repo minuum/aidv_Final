@@ -196,11 +196,13 @@ if __name__ == '__main__':
                         correct_answer = parts[1].strip()
                         st.session_state.current_question = question
                         st.session_state.current_answer = correct_answer
-                        st.write_stream(stream_data(question))
+                        st.markdown(question)  # 수정된 부분
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
                         logging.warning(st.session_state.quiz_stage)
+
+            
         else:
             st.write("정답을 입력하세요:")
             user_answer = st.text_input("정답 입력: ")
