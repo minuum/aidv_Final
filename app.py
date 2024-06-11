@@ -220,34 +220,34 @@ if __name__ == '__main__':
                         logging.warning(st.session_state.current_answer)
 
             
-        else:
-            st.write("정답을 입력하세요:")
-            user_answer = st.text_input("정답 입력: ")
-            us_list=user_answer.split(' /')
-            us_dict={}
-            for item in us_list:
-                key, value = item.split('. ')
-                # 딕셔너리에 새로운 항목을 추가합니다.
-                us_dict[int(key)] = value
-            for key in answer_dict.keys():
-            # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
-                if key in us_dict and answer_dict[key] == us_dict[key]:
-                    logging.warning(str(key)+"번 정답!")
-                else:
-                    logging.warning(str(key)+"번 오답!")
+            else:
+                st.write("정답을 입력하세요:")
+                user_answer = st.text_input("정답 입력: ")
+                us_list=user_answer.split(' /')
+                us_dict={}
+                for item in us_list:
+                    key, value = item.split('. ')
+                    # 딕셔너리에 새로운 항목을 추가합니다.
+                    us_dict[int(key)] = value
+                for key in answer_dict.keys():
+                # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
+                    if key in us_dict and answer_dict[key] == us_dict[key]:
+                        logging.warning(str(key)+"번 정답!")
+                    else:
+                        logging.warning(str(key)+"번 오답!")
 
-            if st.button("정답 제출"):
-                if user_answer.lower() == st.session_state.current_answer.lower():
-                    with st.chat_message("ai"):
-                        st.markdown("정답입니다!")
-                    st.session_state.correct_answers += 1
-                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                    st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
-                else:
-                    with st.chat_message("ai"):
-                        st.markdown("틀렸습니다. 다시 시도해보세요.")
-                    st.session_state.chat_history.append({"role": "user", "message": user_answer})
-                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
-                st.session_state.quiz_stage += 1
+                if st.button("정답 제출"):
+                    if user_answer.lower() == st.session_state.current_answer.lower():
+                        with st.chat_message("ai"):
+                            st.markdown("정답입니다!")
+                        st.session_state.correct_answers += 1
+                        st.session_state.chat_history.append({"role": "user", "message": user_answer})
+                        st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
+                    else:
+                        with st.chat_message("ai"):
+                            st.markdown("틀렸습니다. 다시 시도해보세요.")
+                        st.session_state.chat_history.append({"role": "user", "message": user_answer})
+                        st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
+                    st.session_state.quiz_stage += 1
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
