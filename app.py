@@ -187,7 +187,7 @@ if __name__ == '__main__':
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                    questions,answers=question.split('=====')
+                    answers=question.split('=====')
                     st.write_stream(stream_data(question))
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
                     st.session_state.chat_history.append({"role": "ai", "message": question})
