@@ -66,7 +66,7 @@ def stream_data(response):
     for word in response.split(" "):
         yield word + " "
         time.sleep(0.02)
-
+answer_dict={}
 def pdf_load(dir):
     input_docs = []
     input_pdf_files = glob(os.path.join(dir, '*.pdf'))
@@ -194,6 +194,14 @@ if __name__ == '__main__':
                     if len(parts) >= 2:
                         question = parts[0]
                         correct_answer = parts[1].strip(' \n').strip('\n').split(' |')
+                        correct_answer.remove('')
+                        
+                        for item in correct_answer:
+                        # 숫자와 문자를 분리합니다.
+                            key, value = item.split('. ')
+                        # 딕셔너리에 새로운 항목을 추가합니다.
+                            answer_dict[int(key)] = value
+
                         st.session_state.current_question = question
                         st.session_state.current_answer = correct_answer
                         st.markdown(question)  # 수정된 부분
@@ -208,6 +216,19 @@ if __name__ == '__main__':
         else:
             st.write("정답을 입력하세요:")
             user_answer = st.text_input("정답 입력: ")
+            us_list=user_answer.split(' /')
+            us_dict={}
+            for item in us_list:
+                key, value = item.split('. ')
+                # 딕셔너리에 새로운 항목을 추가합니다.
+                us_dict[int(key)] = value
+            for key in answer_dict.keys():
+            # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
+                if key in us_dict and answer_dict[key] == us_dict[key]:
+                    logging.warning(str(key)+"번 정답!")
+                else:
+                    logging.warning(str(key)+"번 오답!")
+                    
             if st.button("정답 제출"):
                 if user_answer.lower() == st.session_state.current_answer.lower():
                     with st.chat_message("ai"):
