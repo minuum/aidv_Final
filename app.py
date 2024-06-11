@@ -118,6 +118,7 @@ if "current_answer" not in st.session_state:
     st.session_state.current_answer = ""
 
 if __name__ == '__main__':
+    logging.warning(st.session_state.quiz_stage)
     with st.sidebar:
         st.title("설정")
         st.session_state["OPENAI_API"] = st.text_input("Enter API Key", st.session_state["OPENAI_API"], type="password")
@@ -208,6 +209,7 @@ if __name__ == '__main__':
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
+
                         logging.warning(st.session_state.quiz_stage)
                         logging.warning(st.session_state.current_question)
                         logging.warning(st.session_state.current_answer)
@@ -228,7 +230,7 @@ if __name__ == '__main__':
                     logging.warning(str(key)+"번 정답!")
                 else:
                     logging.warning(str(key)+"번 오답!")
-                    
+
             if st.button("정답 제출"):
                 if user_answer.lower() == st.session_state.current_answer.lower():
                     with st.chat_message("ai"):
