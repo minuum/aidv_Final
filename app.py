@@ -162,7 +162,11 @@ if __name__ == '__main__':
                             ''')
             st.session_state.correct_answers=0
             st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
-        
+        st.write()
+        st.markdown('''
+                    - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
+                    ![[https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304]]
+                    ''')
         if st.button("초기화"):
             st.session_state.chat_history = []
             st.session_state["service"] = "수업"
@@ -190,18 +194,16 @@ if __name__ == '__main__':
             st.markdown("""
                     #### 시사 상식을 알려주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
-                      https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304
                     - 사용자의 답변 뿐만 아니라 유사한 주제나 단어, 중요한 단어들에 대한 링크까지 존재합니다.
                     """)
         if st.session_state["service"] == "퀴즈":
             st.markdown("""
                     #### 시사 상식을 기반으로 사용자의 답변에 맞는 퀴즈를 제공해주는 챗봇입니다.
                     - 답변 내용은 ai-hub의 지식검색 대화 데이터셋 기반으로 합니다.
-                       https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71304
                     - 첫번째 입력은 문제의 주제에 대해서, 두번째 입력부터는 문제의 정답을 맞추게 됩니다.
                     - 총 5문제, 객관식으로 출제됩니다!
                     """)
-
+        
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
             st.markdown(content['message']) 
