@@ -228,8 +228,8 @@ if __name__ == '__main__':
                         key, value = item.split('.')
                         # 딕셔너리에 새로운 항목을 추가합니다.
                         us_dict[int(key)] = value
-                    logging.warning(us_dict)
-                logging.warning(correct_answer)
+                    logging.warning("내가 낸 답변 :" +str(us_dict))
+                logging.warning("정답 :" +str(correct_answer))
                 for key in correct_answer.keys():
                 # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
                     if key in us_dict and correct_answer[key] == us_dict[key]:
