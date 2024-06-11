@@ -223,18 +223,19 @@ if __name__ == '__main__':
         else:
             st.write("정답을 입력하세요:")
             user_answer = st.text_input("정답 입력: ")
-            us_list=user_answer.split(' /')
-            us_dict={}
-            for item in us_list:
-                key, value = item.split('. ')
-                # 딕셔너리에 새로운 항목을 추가합니다.
-                us_dict[int(key)] = value
-            for key in answer_dict.keys():
-            # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
-                if key in us_dict and answer_dict[key] == us_dict[key]:
-                    logging.warning(str(key)+"번 정답!")
-                else:
-                    logging.warning(str(key)+"번 오답!")
+            if user_answer:
+                us_list=user_answer.split(' /')
+                us_dict={}
+                for item in us_list:
+                    key, value = item.split('. ')
+                    # 딕셔너리에 새로운 항목을 추가합니다.
+                    us_dict[int(key)] = value
+                for key in answer_dict.keys():
+                # 두 딕셔너리의 특정 키에 대한 값이 같은지 확인합니다.
+                    if key in us_dict and answer_dict[key] == us_dict[key]:
+                        logging.warning(str(key)+"번 정답!")
+                    else:
+                        logging.warning(str(key)+"번 오답!")
 
             if st.button("정답 제출"):
                 if user_answer.lower() == st.session_state.current_answer.lower():
