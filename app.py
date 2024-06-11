@@ -200,6 +200,6 @@ if __name__ == '__main__':
                     with st.chat_message("ai"):
                         st.markdown("틀렸습니다. 다시 시도해보세요.")
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
-                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요.")
+                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
