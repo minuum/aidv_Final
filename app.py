@@ -208,7 +208,7 @@ if __name__ == '__main__':
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
-
+                        st.rerun()
                         logging.warning(st.session_state.quiz_stage)
                         logging.warning(st.session_state.current_question)
                         logging.warning(st.session_state.current_answer)
