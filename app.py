@@ -200,6 +200,7 @@ if __name__ == '__main__':
                         st.session_state.chat_history.append({"role": "user", "message": prompt})
                         st.session_state.chat_history.append({"role": "ai", "message": question})
                         st.session_state.quiz_stage += 1
+                        logging(st.session_state.quiz_stage)
         else:
             st.write("정답을 입력하세요:")
             user_answer = st.text_input("정답 입력: ")
