@@ -1,34 +1,32 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-import streamlit as st
 import os
+import json
+import sys
+import time
 from glob import glob
+from tqdm import tqdm
+from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor
+import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import Chroma
-from dotenv import load_dotenv
-load_dotenv()
-import time
-import json
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from chromadb import chromadb
-import time
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm 
-import sys
 sys.path.append("")
 from function import DataTransformer
 from chatbot_class import Chatbot
 
+# Load environment variables
+load_dotenv()
+
 #==================data loading and embedding==================
-OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 @st.cache_resource(show_spinner=False)
 def load_and_process_data():
@@ -37,10 +35,8 @@ def load_and_process_data():
     dt = DataTransformer(json_directory=json_directory, common_senses=common_senses)
     json_datas, total_time = dt.load_json_files()
 
-    # documents : json to text
     documents = [{"text": json.dumps(item)} for item in json_datas]
 
-    # text_splits
     def split_document(doc):
         return text_splitter.split_text(doc["text"])
 
@@ -55,12 +51,9 @@ def load_and_process_data():
     total_time = end_time - start_time
     print(f"Total time taken for splitting: {total_time:.2f} seconds")
 
-    # embedding
-    # Document 객체로 변환
     chunks = [Document(page_content=doc) for doc in split_docs]
     print("Chunks split Done.")
-    # embeddings은 OpenAI의 임베딩을 사용
-    # vectordb는 chromadb사용함
+
     embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
     vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings)
     return vectordb
@@ -103,7 +96,7 @@ if "model" not in st.session_state:
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-    
+
 if "service" not in st.session_state:
     st.session_state["service"] = "지식검색"
 
@@ -114,20 +107,11 @@ if "correct_answers" not in st.session_state:
     st.session_state.correct_answers = 0
 
 if "retriever" not in st.session_state:    
-    st.session_state["retriever"]=retriever
+    st.session_state["retriever"] = retriever
     print("Retriever Done.")
 
 if "prompt" not in st.session_state:
-    if st.session_state["service"] == "지식검색":
-        file_path = "prompt_common_senses.txt"
-        st.session_state["prompt"] = prompt_load(file_path)
-    elif st.session_state["service"] == "퀴즈":
-        file_path = "prompt_quiz.txt"
-        st.session_state["prompt"] = prompt_load(file_path)
-    else:
-        st.session_state["prompt"] = '''
-        서비스가 선택되지 않았습니다.
-    '''    
+    st.session_state["prompt"] = update_prompt(st.session_state["service"])
 
 if "current_answer" not in st.session_state:
     st.session_state.current_answer = ""
@@ -140,8 +124,7 @@ if __name__ == '__main__':
         st.session_state["service"] = st.radio("답변 카테고리를 선택해주세요.", ["지식검색", "퀴즈"])
         st.session_state["prompt"] = update_prompt(st.session_state["service"])
         st.write()
-        if st.session_state["service"] =="퀴즈":
-            st.markdown("### 퀴즈 챗봇입니다!")
+        if st.session_state["service"] == "퀴즈":
             with st.expander("입력 예시", expanded=False):
                 st.markdown('''
                             #### 문제 입력
@@ -151,9 +134,9 @@ if __name__ == '__main__':
                             - 예) 1.a / 2.b / 3.b / 4.c / 5.c
                             ''')
     chatbot = Chatbot(api_key=st.session_state["OPENAI_API"],
-                       retriever=retriever,
-                       sys_prompt=st.session_state["prompt"],
-                       model_name=st.session_state["model"])
+                      retriever=retriever,
+                      sys_prompt=st.session_state["prompt"],
+                      model_name=st.session_state["model"])
 
     if st.session_state["service"] == "지식검색":
         st.title("지식검색 챗봇 📚")
@@ -178,7 +161,7 @@ if __name__ == '__main__':
 
     for content in st.session_state.chat_history:
         with st.chat_message(content["role"]):
-            st.markdown(content['message']) 
+            st.markdown(content['message'])
 
     if st.session_state["service"] == "지식검색":
         if prompt := st.chat_input("질문을 입력하세요."):
@@ -198,32 +181,25 @@ if __name__ == '__main__':
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                    answers=question.split('=====')
+                    answers = question.split('=====')
                     st.write_stream(stream_data(question))
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
                     st.session_state.chat_history.append({"role": "ai", "message": question})
                     st.session_state.quiz_stage += 1
                     st.session_state.current_question = question
-                    st.session_state.current_answer = answers
-                    print(answers)
+                    st.session_state.current_answer = answers[1].strip()  # assuming answers[1] is the correct answer
             else:
-                answer_prompt=st.chat_input("정답 입력 : ")
-                if "current_answer" in st.session_state:
-                    correct_answer = st.session_state.current_answer
+                if prompt.lower() == st.session_state.current_answer.lower():
+                    with st.chat_message("ai"):
+                        st.markdown("정답입니다!")
+                    st.session_state.correct_answers += 1
+                    st.session_state.quiz_stage += 1
+                    st.session_state.chat_history.append({"role": "user", "message": prompt})
+                    st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
                 else:
-                    correct_answer = ""  # 여기서 correct_answer를 설정해야 합니다.
-                while True:
-                    if prompt.lower() == correct_answer.lower():
-                        with st.chat_message("ai"):
-                            st.markdown("정답입니다!")
-                        st.session_state.correct_answers += 1
-                        st.session_state.quiz_stage += 1
-                        st.session_state.chat_history.append({"role": "user", "message": prompt})
-                        st.session_state.chat_history.append({"role": "ai", "message": "정답입니다!"})
-                    else:
-                        with st.chat_message("ai"):
-                            st.markdown("틀렸습니다. 다시 시도해보세요.")
-                        st.session_state.chat_history.append({"role": "user", "message": prompt})
-                        st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요."})
+                    with st.chat_message("ai"):
+                        st.markdown("틀렸습니다. 다시 시도해보세요.")
+                    st.session_state.chat_history.append({"role": "user", "message": prompt})
+                    st.session_state.chat_history.append({"role": "ai", "message": "틀렸습니다. 다시 시도해보세요.")
 
     st.sidebar.write(f"맞춘 정답 개수: {st.session_state.correct_answers}개")
