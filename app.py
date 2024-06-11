@@ -189,16 +189,21 @@ if __name__ == '__main__':
             if st.session_state.quiz_stage % 2 == 0:
                 with st.chat_message("ai"):
                     question = chatbot.generate(f"주제: {prompt}\n문제를 만들어 주세요.")
-                    question = question.split('=====')[0]
-                    answers = question.split('=====')[1]
-                    print(question)
-                    print(answers)
-                    st.write_stream(stream_data(question))
+                    parts = question.split('=====')
+                    if len(parts) == 2:
+                        question_text = parts[0].strip()
+                        answers_text = parts[1].strip()
+                        answers = answers_text.split('\n')
+                        correct_answer = answers[0].strip()  # assuming the correct answer is the first one
+                    else:
+                        question_text = question
+                        correct_answer = ""
+                    st.write_stream(stream_data(question_text))
                     st.session_state.chat_history.append({"role": "user", "message": prompt})
-                    st.session_state.chat_history.append({"role": "ai", "message": question})
+                    st.session_state.chat_history.append({"role": "ai", "message": question_text})
                     st.session_state.quiz_stage += 1
-                    st.session_state.current_question = question
-                    st.session_state.current_answer = answers[1].strip()  # assuming answers[1] is the correct answer
+                    st.session_state.current_question = question_text
+                    st.session_state.current_answer = correct_answer
             else:
                 if prompt.lower() == st.session_state.current_answer.lower():
                     with st.chat_message("ai"):
