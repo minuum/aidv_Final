@@ -1,3 +1,9 @@
+#github : https://github.com/minuum/aidv_project
+#streamlit배포 : https://aidvproject-b4lnjpnmbvcszeebkndu5v.streamlit.app/
+
+#코드 참고
+#chatgpt, streamlit documents, google, 우승우 학생(스트림릿 구현)
+
 #=============================import===========================
 __import__('pysqlite3')
 import sys
